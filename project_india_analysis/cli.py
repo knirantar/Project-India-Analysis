@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 from collections import Counter, defaultdict
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -56,6 +57,106 @@ def load_analysis(path: Path) -> dict[str, Any] | None:
         return None
 
 
+def load_raw_metadata(analysis_path: Path) -> dict[str, Any]:
+    metadata_path = analysis_path.with_name(analysis_path.name.replace(".analysis.json", ".json"))
+    if not metadata_path.exists():
+        return {}
+    try:
+        return json.loads(metadata_path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def display_path(path: Path, base_dir: Path) -> str:
+    try:
+        return str(path.relative_to(base_dir))
+    except ValueError:
+        return str(path)
+
+
+def text_value(value: Any) -> str:
+    if value is None:
+        return ""
+    if isinstance(value, (dict, list)):
+        return json.dumps(value, ensure_ascii=False)
+    return str(value)
+
+
+def first_text(item: dict[str, Any], keys: tuple[str, ...]) -> str:
+    for key in keys:
+        value = text_value(item.get(key)).strip()
+        if value:
+            return value
+    return ""
+
+
+def build_topic_profiles(rows: dict[str, list[dict[str, Any]]], output_dir: Path) -> list[dict[str, Any]]:
+    topics = sorted({row.get("topic", "unknown") for values in rows.values() for row in values})
+    topic_dir = output_dir / "topics"
+    topic_dir.mkdir(parents=True, exist_ok=True)
+    cards: list[dict[str, Any]] = []
+
+    for topic in topics:
+        docs = [row for row in rows.get("documents", []) if row.get("topic") == topic]
+        claims = [row for row in rows.get("claims", []) if row.get("topic") == topic]
+        entities = [row for row in rows.get("entities", []) if row.get("topic") == topic]
+        events = [row for row in rows.get("events", []) if row.get("topic") == topic]
+        metrics = [row for row in rows.get("metrics", []) if row.get("topic") == topic]
+        citations = [row for row in rows.get("citations", []) if row.get("topic") == topic]
+
+        data_type_counts = Counter(first_text(doc, ("data_type",)) or "unknown" for doc in docs)
+        credibility_counts = Counter(first_text(doc, ("credibility", "source_credibility",)) or "unrated" for doc in docs)
+        entity_counts = Counter(first_text(entity, ("name", "entity", "text", "label")) for entity in entities)
+        entity_counts.pop("", None)
+
+        summaries = [first_text(doc, ("summary", "source_title", "title")) for doc in docs]
+        summaries = [item for item in summaries if item and item.lower() != "none"]
+        top_claims = [first_text(claim, ("claim_text", "claim", "text", "summary", "description")) for claim in claims]
+        top_claims = [item for item in top_claims if item][:8]
+        topic_title = next((doc.get("topic_title") for doc in docs if doc.get("topic_title")), None) or topic.replace("-", " ").title()
+
+        profile = {
+            "topic": topic,
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "ui_profile": {
+                "title": topic_title,
+                "tone": "clinical evidence desk" if any("clinical" in key for key in data_type_counts) else "research intelligence desk",
+                "primary_views": ["Evidence", "Claims", "Entities", "Timeline", "Sources"],
+                "hero_metric": f"{len(docs)} analyzed sources",
+                "secondary_metric": f"{len(claims)} claims, {len(entities)} entities",
+            },
+            "counts": {
+                "documents": len(docs),
+                "claims": len(claims),
+                "entities": len(entities),
+                "events": len(events),
+                "metrics": len(metrics),
+                "citations": len(citations),
+            },
+            "data_type_counts": dict(data_type_counts.most_common()),
+            "credibility_counts": dict(credibility_counts.most_common()),
+            "top_entities": [{"name": name, "count": count} for name, count in entity_counts.most_common(12)],
+            "top_claims": top_claims,
+            "source_highlights": docs[:12],
+            "brief": summaries[:5],
+        }
+        (topic_dir / f"{topic}.json").write_text(json.dumps(profile, ensure_ascii=False, indent=2), encoding="utf-8")
+        cards.append(
+            {
+                "topic": topic,
+                "title": profile["ui_profile"]["title"],
+                "documents": len(docs),
+                "claims": len(claims),
+                "entities": len(entities),
+                "events": len(events),
+                "updated_at": profile["generated_at"],
+            }
+        )
+
+    (output_dir / "topic_cards.json").write_text(json.dumps(cards, ensure_ascii=False, indent=2), encoding="utf-8")
+    return cards
+
+
 def flatten(data_dir: Path, output_dir: Path) -> dict[str, Any]:
     output_dir.mkdir(parents=True, exist_ok=True)
     rows: dict[str, list[dict[str, Any]]] = defaultdict(list)
@@ -70,6 +171,7 @@ def flatten(data_dir: Path, output_dir: Path) -> dict[str, Any]:
             continue
 
         document = payload.get("document") or {}
+        raw_metadata = load_raw_metadata(path)
         source_url = document.get("source_url") or payload.get("source_url") or ""
         topic_counts[topic] += 1
         if source_url:
@@ -77,7 +179,13 @@ def flatten(data_dir: Path, output_dir: Path) -> dict[str, Any]:
 
         document_row = {
             "topic": topic,
-            "analysis_file": str(path),
+            "analysis_file": display_path(path, data_dir),
+            "metadata_file": display_path(path.with_name(path.name.replace(".analysis.json", ".json")), data_dir),
+            "topic_title": raw_metadata.get("topic_title"),
+            "raw_text_path": raw_metadata.get("text_path"),
+            "collected_at": raw_metadata.get("collected_at"),
+            "text_chars": raw_metadata.get("text_chars"),
+            "data_type": raw_metadata.get("data_type") or document.get("data_type"),
             **document,
         }
         rows["documents"].append(document_row)
@@ -93,10 +201,14 @@ def flatten(data_dir: Path, output_dir: Path) -> dict[str, Any]:
     for key in OBJECT_KEYS:
         output_counts[key] = write_jsonl(output_dir / f"{key}.jsonl", rows.get(key, []))
 
+    topic_cards = build_topic_profiles(rows, output_dir)
+
     summary = {
         "data_dir": str(data_dir),
+        "generated_at": datetime.now(timezone.utc).isoformat(),
         "analysis_files": len(files),
         "topics": dict(topic_counts),
+        "topic_cards": topic_cards,
         "unique_sources": len(source_counts),
         "outputs": output_counts,
     }
@@ -110,7 +222,7 @@ def main() -> None:
     parser.add_argument("--output-dir", default="analysis_output", help="Folder for flattened analysis outputs.")
     args = parser.parse_args()
 
-    summary = flatten(Path(args.data_dir).expanduser().resolve(), Path(args.output_dir).expanduser().resolve())
+    summary = flatten(Path(args.data_dir).expanduser(), Path(args.output_dir).expanduser())
     print(json.dumps(summary, ensure_ascii=False, indent=2))
 
 

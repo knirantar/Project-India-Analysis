@@ -1,0 +1,72 @@
+name: Sync analysis from data repo
+
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-analysis
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout analysis repository
+        uses: actions/checkout@v4
+
+      - name: Checkout data repository
+        uses: actions/checkout@v4
+        with:
+          repository: knirantar/Project-India-Data
+          ssh-key: ${{ secrets.PROJECT_INDIA_DATA_SSH_KEY }}
+          path: data-repo
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build topic analysis artifacts
+        run: |
+          set -euo pipefail
+          python -m project_india_analysis.cli \
+            --data-dir data-repo/data \
+            --output-dir analysis_output
+
+      - name: Commit refreshed presentation data
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analysis_output
+
+          if git diff --cached --quiet; then
+            echo "No analysis changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Refresh analysis presentation data"
+          git push
+
+      - name: Streamlit deployment note
+        run: |
+          cat >> "$GITHUB_STEP_SUMMARY" <<'EOF'
+          ## Streamlit UI
+
+          This workflow refreshed `analysis_output/` from `knirantar/Project-India-Data`.
+
+          Deploy this repository on Streamlit Community Cloud with:
+
+          - Repository: `knirantar/Project-India-Analysis`
+          - Branch: `main`
+          - Main file path: `streamlit_app.py`
+
+          GitHub Actions cannot keep a public Streamlit server alive after the job exits, so the stable public UI link should be the Streamlit Cloud app URL.
+          EOF

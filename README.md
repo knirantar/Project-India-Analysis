@@ -22,6 +22,8 @@ Outputs:
 
 ```text
 analysis_output/summary.json
+analysis_output/topic_cards.json
+analysis_output/topics/<topic-slug>.json
 analysis_output/documents.jsonl
 analysis_output/claims.jsonl
 analysis_output/entities.jsonl
@@ -32,4 +34,35 @@ analysis_output/timelines.jsonl
 analysis_output/citations.jsonl
 ```
 
-The analysis output is ignored by Git by default.
+## Streamlit presentation layer
+
+Run locally:
+
+```bash
+python -m pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+
+The app reads only `analysis_output/`, so the UI stays fast and does not need to
+crawl the data repository on every page load.
+
+## Hourly sync
+
+`.github/workflows/sync-analysis.yml` runs every hour and:
+
+```text
+checks out knirantar/Project-India-Data
+rebuilds analysis_output/
+commits refreshed topic presentation artifacts
+```
+
+For a public Streamlit link, deploy this repository on Streamlit Community Cloud:
+
+```text
+Repository: knirantar/Project-India-Analysis
+Branch: main
+Main file path: streamlit_app.py
+```
+
+GitHub Actions cannot host a long-running Streamlit server after a job exits, so
+the permanent UI URL should come from Streamlit Cloud or another always-on host.
