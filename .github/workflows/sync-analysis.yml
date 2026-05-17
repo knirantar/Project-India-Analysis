@@ -16,16 +16,42 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      DATA_REPO_SSH_KEY: ${{ secrets.PROJECT_INDIA_DATA_SSH_KEY }}
+      DATA_REPO_TOKEN: ${{ secrets.PROJECT_INDIA_DATA_TOKEN }}
 
     steps:
       - name: Checkout analysis repository
         uses: actions/checkout@v4
 
-      - name: Checkout data repository
+      - name: Check data repository access secret
+        run: |
+          set -euo pipefail
+          if [ -z "${DATA_REPO_SSH_KEY:-}" ] && [ -z "${DATA_REPO_TOKEN:-}" ]; then
+            cat <<'EOF'
+          Missing data repository access secret.
+
+          Add one of these secrets to knirantar/Project-India-Analysis:
+          - PROJECT_INDIA_DATA_SSH_KEY: deploy key/private key with read access to knirantar/Project-India-Data
+          - PROJECT_INDIA_DATA_TOKEN: fine-grained PAT with read access to knirantar/Project-India-Data
+          EOF
+            exit 1
+          fi
+
+      - name: Checkout data repository with SSH key
+        if: env.DATA_REPO_SSH_KEY != ''
         uses: actions/checkout@v4
         with:
           repository: knirantar/Project-India-Data
-          ssh-key: ${{ secrets.PROJECT_INDIA_DATA_SSH_KEY }}
+          ssh-key: ${{ env.DATA_REPO_SSH_KEY }}
+          path: data-repo
+
+      - name: Checkout data repository with token
+        if: env.DATA_REPO_SSH_KEY == '' && env.DATA_REPO_TOKEN != ''
+        uses: actions/checkout@v4
+        with:
+          repository: knirantar/Project-India-Data
+          token: ${{ env.DATA_REPO_TOKEN }}
           path: data-repo
 
       - name: Set up Python

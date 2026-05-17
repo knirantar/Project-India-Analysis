@@ -56,6 +56,14 @@ rebuilds analysis_output/
 commits refreshed topic presentation artifacts
 ```
 
+Because `Project-India-Data` is a separate repository, add one of these secrets
+to `knirantar/Project-India-Analysis` before the workflow can sync data:
+
+```text
+PROJECT_INDIA_DATA_SSH_KEY   deploy key/private key with read access to Project-India-Data
+PROJECT_INDIA_DATA_TOKEN     fine-grained PAT with read access to Project-India-Data
+```
+
 For a public Streamlit link, deploy this repository on Streamlit Community Cloud:
 
 ```text
