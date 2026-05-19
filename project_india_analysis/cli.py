@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -17,6 +18,19 @@ OBJECT_KEYS = [
     "timelines",
     "citations",
 ]
+
+
+def parse_date_sort_key(value: Any) -> tuple[int, str]:
+    text = text_value(value).strip()
+    if not text or text.lower() in {"none", "unknown", "undated"}:
+        return (99999999, "")
+    match = re.search(r"(\d{4})(?:[-/](\d{1,2}))?(?:[-/](\d{1,2}))?", text)
+    if not match:
+        return (99999999, text.lower())
+    year = int(match.group(1))
+    month = int(match.group(2) or 1)
+    day = int(match.group(3) or 1)
+    return (year * 10000 + month * 100 + day, text.lower())
 
 
 def iter_analysis_files(data_dir: Path) -> Iterable[Path]:
@@ -90,6 +104,10 @@ def first_text(item: dict[str, Any], keys: tuple[str, ...]) -> str:
     return ""
 
 
+def row_date(row: dict[str, Any]) -> str:
+    return first_text(row, ("date", "published", "collected_at", "timestamp", "time"))
+
+
 def build_topic_profiles(rows: dict[str, list[dict[str, Any]]], output_dir: Path) -> list[dict[str, Any]]:
     topics = sorted({row.get("topic", "unknown") for values in rows.values() for row in values})
     topic_dir = output_dir / "topics"
@@ -113,6 +131,22 @@ def build_topic_profiles(rows: dict[str, list[dict[str, Any]]], output_dir: Path
         summaries = [item for item in summaries if item and item.lower() != "none"]
         top_claims = [first_text(claim, ("claim_text", "claim", "text", "summary", "description")) for claim in claims]
         top_claims = [item for item in top_claims if item][:8]
+        sorted_events = sorted(events, key=lambda row: parse_date_sort_key(row_date(row)))
+        sorted_timelines = sorted(
+            [*rows.get("timelines", [])],
+            key=lambda row: parse_date_sort_key(row_date(row)),
+        )
+        sorted_timelines = [row for row in sorted_timelines if row.get("topic") == topic]
+        dated_items = [
+            {
+                "date": row_date(row),
+                "label": first_text(row, ("event", "milestone", "title", "description", "summary")),
+                "evidence_text": first_text(row, ("evidence_text",)),
+                "source": first_text(row, ("analysis_file",)),
+            }
+            for row in [*sorted_events, *sorted_timelines]
+            if first_text(row, ("event", "milestone", "title", "description", "summary"))
+        ]
         topic_title = next((doc.get("topic_title") for doc in docs if doc.get("topic_title")), None) or topic.replace("-", " ").title()
 
         profile = {
@@ -139,6 +173,12 @@ def build_topic_profiles(rows: dict[str, list[dict[str, Any]]], output_dir: Path
             "top_claims": top_claims,
             "source_highlights": docs[:12],
             "brief": summaries[:5],
+            "timeline": dated_items[:80],
+            "source_quality": {
+                "total_text_chars": sum(int(doc.get("text_chars") or 0) for doc in docs),
+                "average_text_chars": round(sum(int(doc.get("text_chars") or 0) for doc in docs) / len(docs), 1) if docs else 0,
+                "latest_collected_at": max((first_text(doc, ("collected_at",)) for doc in docs if first_text(doc, ("collected_at",))), default=""),
+            },
         }
         (topic_dir / f"{topic}.json").write_text(json.dumps(profile, ensure_ascii=False, indent=2), encoding="utf-8")
         cards.append(
@@ -199,6 +239,10 @@ def flatten(data_dir: Path, output_dir: Path) -> dict[str, Any]:
 
     output_counts = {}
     for key in OBJECT_KEYS:
+        if key in {"events", "timelines"}:
+            rows[key] = sorted(rows.get(key, []), key=lambda row: parse_date_sort_key(row_date(row)))
+        if key == "documents":
+            rows[key] = sorted(rows.get(key, []), key=lambda row: parse_date_sort_key(row_date(row)))
         output_counts[key] = write_jsonl(output_dir / f"{key}.jsonl", rows.get(key, []))
 
     topic_cards = build_topic_profiles(rows, output_dir)
