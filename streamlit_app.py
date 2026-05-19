@@ -163,7 +163,7 @@ def claim_table(rows: list[dict[str, Any]]) -> pd.DataFrame:
 
 
 def main() -> None:
-    st.set_page_config(page_title="Project India Analysis", page_icon="PI", layout="wide")
+    st.set_page_config(page_title="Project India Global Monitor", page_icon="PI", layout="wide")
     page_style()
 
     summary = load_json(OUTPUT_DIR / "summary.json", {})
@@ -178,13 +178,13 @@ def main() -> None:
     citations = load_jsonl(OUTPUT_DIR / "citations.jsonl")
 
     st.sidebar.title("Project India")
-    st.sidebar.caption("Evidence intelligence by topic")
+    st.sidebar.caption("Global geopolitics monitor")
     if not cards:
         st.error("No analysis output found. Run `python -m project_india_analysis.cli` first.")
         return
 
     topic_labels = {card["title"]: card["topic"] for card in sorted(cards, key=lambda item: item.get("title", ""))}
-    selected_label = st.sidebar.selectbox("Topic", list(topic_labels))
+    selected_label = st.sidebar.selectbox("Watchlist", list(topic_labels))
     topic = topic_labels[selected_label]
     profile = load_json(OUTPUT_DIR / "topics" / f"{topic}.json", {})
 
@@ -210,9 +210,9 @@ def main() -> None:
     st.markdown(
         f"""
         <div class="hero">
-          <div class="kicker">Generated {summary.get("generated_at", "unknown")}</div>
+          <div class="kicker">Global monitor generated {summary.get("generated_at", "unknown")}</div>
           <h1>{ui.get("title", selected_label)}</h1>
-          <div class="subtitle">{len(topic_docs)} filtered sources from {len(data_types)} source classes. {ui.get("tone", "Research intelligence desk")}.</div>
+          <div class="subtitle">{len(topic_docs)} filtered geopolitical sources from {len(data_types)} source classes. {ui.get("tone", "Situation intelligence desk")}.</div>
         </div>
         """,
         unsafe_allow_html=True,
@@ -221,16 +221,16 @@ def main() -> None:
     c1, c2, c3, c4, c5 = st.columns(5)
     c1.metric("Sources", len(topic_docs))
     c2.metric("Claims", len(topic_claims))
-    c3.metric("Entities", len(topic_entities))
-    c4.metric("Timeline items", len(topic_events) + len(topic_timelines))
+    c3.metric("Actors", len(topic_entities))
+    c4.metric("Timeline", len(topic_events) + len(topic_timelines))
     c5.metric("Avg text chars", quality.get("average_text_chars", 0))
 
-    tabs = st.tabs(["Brief", "Timeline", "Claims", "Entities", "Metrics", "Relationships", "Sources"])
+    tabs = st.tabs(["Situation Brief", "Timeline", "Claims", "Actors", "Signals", "Relationships", "Sources"])
 
     with tabs[0]:
         left, right = st.columns([1.15, 0.85])
         with left:
-            st.subheader("Executive Brief")
+            st.subheader("Situation Brief")
             brief = profile.get("brief", [])
             if brief:
                 for item in brief[:8]:
@@ -242,7 +242,7 @@ def main() -> None:
             for claim in profile.get("top_claims", [])[:8]:
                 st.write(f"- {claim}")
         with right:
-            st.subheader("Source Mix")
+            st.subheader("Geopolitical Source Mix")
             data_type_counts = profile.get("data_type_counts", {})
             if data_type_counts:
                 st.bar_chart(pd.DataFrame.from_dict(data_type_counts, orient="index", columns=["count"]))

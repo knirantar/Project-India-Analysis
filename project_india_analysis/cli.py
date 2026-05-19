@@ -154,10 +154,10 @@ def build_topic_profiles(rows: dict[str, list[dict[str, Any]]], output_dir: Path
             "generated_at": datetime.now(timezone.utc).isoformat(),
             "ui_profile": {
                 "title": topic_title,
-                "tone": "clinical evidence desk" if any("clinical" in key for key in data_type_counts) else "research intelligence desk",
-                "primary_views": ["Evidence", "Claims", "Entities", "Timeline", "Sources"],
+                "tone": "Global geopolitics situation desk",
+                "primary_views": ["Situation Brief", "Claims", "Actors", "Timeline", "Sources"],
                 "hero_metric": f"{len(docs)} analyzed sources",
-                "secondary_metric": f"{len(claims)} claims, {len(entities)} entities",
+                "secondary_metric": f"{len(claims)} claims, {len(entities)} actors",
             },
             "counts": {
                 "documents": len(docs),
@@ -261,7 +261,7 @@ def flatten(data_dir: Path, output_dir: Path) -> dict[str, Any]:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Analyze Project India normalized evidence files.")
+    parser = argparse.ArgumentParser(description="Analyze Project India normalized geopolitics evidence files.")
     parser.add_argument("--data-dir", default="../Project-India-Data/data", help="Path to Project India data folder.")
     parser.add_argument("--output-dir", default="analysis_output", help="Folder for flattened analysis outputs.")
     args = parser.parse_args()
