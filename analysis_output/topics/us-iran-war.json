@@ -1,6 +1,6 @@
 {
   "topic": "us-iran-war",
-  "generated_at": "2026-05-19T04:58:52.397176+00:00",
+  "generated_at": "2026-05-19T05:03:21.686921+00:00",
   "ui_profile": {
     "title": "US-Iran War",
     "tone": "research intelligence desk",
@@ -11,27 +11,31 @@
       "Timeline",
       "Sources"
     ],
-    "hero_metric": "5 analyzed sources",
-    "secondary_metric": "9 claims, 18 entities"
+    "hero_metric": "10 analyzed sources",
+    "secondary_metric": "24 claims, 38 entities"
   },
   "counts": {
-    "documents": 5,
-    "claims": 9,
-    "entities": 18,
-    "events": 10,
-    "metrics": 5,
-    "citations": 5
+    "documents": 10,
+    "claims": 24,
+    "entities": 38,
+    "events": 18,
+    "metrics": 12,
+    "citations": 10
   },
   "data_type_counts": {
-    "rss_feed_content": 5
+    "rss_feed_content": 10
   },
   "credibility_counts": {
-    "unrated": 5
+    "unrated": 10
   },
   "top_entities": [
     {
+      "name": "Iran",
+      "count": 5
+    },
+    {
       "name": "Donald Trump",
-      "count": 2
+      "count": 3
     },
     {
       "name": "International Atomic Energy Agency",
@@ -42,7 +46,7 @@
       "count": 2
     },
     {
-      "name": "Iran",
+      "name": "United States",
       "count": 2
     },
     {
@@ -72,10 +76,6 @@
     {
       "name": "Gulf International Forum",
       "count": 1
-    },
-    {
-      "name": "United States",
-      "count": 1
     }
   ],
   "top_claims": [
@@ -85,10 +85,66 @@
     "Serious negotiations are taking place.",
     "Donald Trump said he 'wasn’t involved in' the creation of a so-called anti-weaponization fund.",
     "The fund would be administered by a committee of talented people.",
-    "The UAE has blamed a fire near its nuclear power plant on a drone launched by Iran or one of its proxies.",
-    "Trump postponed a planned military attack on Iran."
+    "Kim Jong Un feels emboldened by North Korea's nuclear capabilities.",
+    "North Korea has enacted laws to deter decapitation strikes."
   ],
   "source_highlights": [
+    {
+      "topic": "us-iran-war",
+      "analysis_file": "us-iran-war/raw/a0fe8dbe6dcdbb243a6be553edbe664ca5d6d94039a13f93e12be9a38ba83f01.analysis.json",
+      "metadata_file": "us-iran-war/raw/a0fe8dbe6dcdbb243a6be553edbe664ca5d6d94039a13f93e12be9a38ba83f01.json",
+      "topic_title": "US-Iran War",
+      "raw_text_path": "data/us-iran-war/raw/a0fe8dbe6dcdbb243a6be553edbe664ca5d6d94039a13f93e12be9a38ba83f01.txt",
+      "collected_at": "2026-05-19T04:57:35.098068+00:00",
+      "text_chars": 3064,
+      "data_type": "rss_feed_content",
+      "source_url": "https://www.npr.org/2026/05/18/nx-s1-5825574/u-s-and-iran-signal-readiness-to-fight-again-as-weekend-tensions-mount",
+      "source_title": "U.S. and Israel prepare for potential return to full-scale war with Iran",
+      "published": "Mon, 18 May 2026 04:46:03 -0400",
+      "author": "",
+      "publisher": "",
+      "language": "",
+      "region": "",
+      "summary": "The U.S. and Israel are signaling readiness for renewed military action against Iran, with increased U.S. Air Force activity noted in Tel Aviv. Israeli Prime Minister Benjamin Netanyahu and President Trump have discussed the potential for restarting warfare, while Iran seeks diplomatic solutions amid ongoing tensions. The situation remains precarious as both sides prepare for possible escalation.",
+      "key_takeaways": [
+        "U.S. military presence in Tel Aviv has increased significantly.",
+        "President Trump warns Iran that time is running out.",
+        "Iran is exploring diplomatic options with neighboring countries.",
+        "The U.S.-Israeli military actions aim to pressure Iran on nuclear issues.",
+        "Iran's nuclear capabilities remain largely intact despite previous conflicts.",
+        "Discussions between U.S. and Israeli leaders indicate a potential shift towards military engagement."
+      ],
+      "why_it_matters": "The situation underscores the fragile balance of power in the Middle East and the ongoing threat of military conflict, which could have significant implications for regional stability and international relations.",
+      "tags_topics": []
+    },
+    {
+      "topic": "us-iran-war",
+      "analysis_file": "us-iran-war/raw/3ca2069a0148bb0b1d22c3b6b6560728e62e31eccbfd0bc2181820128da5cc20.analysis.json",
+      "metadata_file": "us-iran-war/raw/3ca2069a0148bb0b1d22c3b6b6560728e62e31eccbfd0bc2181820128da5cc20.json",
+      "topic_title": "US-Iran War",
+      "raw_text_path": "data/us-iran-war/raw/3ca2069a0148bb0b1d22c3b6b6560728e62e31eccbfd0bc2181820128da5cc20.txt",
+      "collected_at": "2026-05-19T04:57:34.425732+00:00",
+      "text_chars": 4395,
+      "data_type": "rss_feed_content",
+      "source_url": "https://www.npr.org/2026/05/18/nx-s1-5820631/trump-north-korea-nuclear",
+      "source_title": "North Korea is relieved its nuclear weapons have prevented a fate like Iran's",
+      "published": "Mon, 18 May 2026 04:47:07 -0400",
+      "author": "Anthony Kuhn",
+      "publisher": "NPR",
+      "language": "English",
+      "region": "Seoul, South Korea",
+      "summary": "North Korea's Kim Jong Un feels vindicated in maintaining his nuclear arsenal after observing the U.S. military action against Iran. Experts suggest that Kim's decision to pursue nuclear weapons was influenced by the U.S. decapitation strikes on Iranian leaders. North Korea has enacted laws to deter similar actions against its leadership, and with support from Russia and other nations, it aims to reshape its global image from a rogue state to a legitimate power.",
+      "key_takeaways": [
+        "Kim Jong Un believes maintaining nuclear weapons was the right choice after Iran's military actions.",
+        "North Korea has enacted laws to retaliate with nuclear weapons if its leadership is threatened.",
+        "The country signed a mutual defense pact with Russia in 2024.",
+        "North Korea aims to be seen as a legitimate state rather than a rogue one.",
+        "The U.S. has historically underestimated the determination of countries like North Korea.",
+        "Pressure and military force may not be effective in changing North Korea's nuclear stance."
+      ],
+      "why_it_matters": "This article highlights the shifting dynamics of international relations regarding nuclear proliferation, particularly how North Korea's actions are influenced by the perceived failures of U.S. diplomacy and military strategy. It underscores the importance of understanding the motivations behind nuclear armament in the context of global security.",
+      "tags_topics": []
+    },
     {
       "topic": "us-iran-war",
       "analysis_file": "us-iran-war/raw/761e43dc5bb4a28837aa2b02dd93ac3bcb5a16c7159b7f828b68e43b06b9d8b8.analysis.json",
@@ -106,6 +162,62 @@
       "language": "",
       "region": "",
       "summary": "",
+      "tags_topics": []
+    },
+    {
+      "topic": "us-iran-war",
+      "analysis_file": "us-iran-war/raw/850ae3488450c42ea006b217f08e1242f488ff53405da0b6e1f98a98d598d07a.analysis.json",
+      "metadata_file": "us-iran-war/raw/850ae3488450c42ea006b217f08e1242f488ff53405da0b6e1f98a98d598d07a.json",
+      "topic_title": "US-Iran War",
+      "raw_text_path": "data/us-iran-war/raw/850ae3488450c42ea006b217f08e1242f488ff53405da0b6e1f98a98d598d07a.txt",
+      "collected_at": "2026-05-19T04:57:33.664035+00:00",
+      "text_chars": 3620,
+      "data_type": "rss_feed_content",
+      "source_url": "https://www.theguardian.com/business/2026/may/18/ryanair-jet-fuel-shortage-fare-rises-book-flights-higher-prices",
+      "source_title": "Ryanair has ‘near-zero concerns’ on fuel shortages but warns of future price rises",
+      "published": "Mon, 18 May 2026 11:45:29 GMT",
+      "author": "",
+      "publisher": "",
+      "language": "",
+      "region": "",
+      "summary": "Ryanair's CEO, Michael O’Leary, expressed confidence in the airline's jet fuel supplies for the summer, stating that Europe has secured alternative sources despite concerns linked to the Iran war. However, he warned that holidaymakers booking flights later this year may face higher fares due to persistent consumer uncertainty and rising fuel prices. The airline has hedged a significant portion of its fuel requirements but anticipates potential fare increases if prices remain elevated.",
+      "key_takeaways": [
+        "Ryanair has 'almost zero concerns' about jet fuel supplies this summer.",
+        "The airline's fares are expected to be 'broadly flat' compared to last summer.",
+        "Consumer uncertainty has led to lower summer bookings, affecting fare visibility.",
+        "Ryanair hedged 80% of its fuel needs at about $67 a barrel until April 2027.",
+        "Environmental taxes in the EU are expected to increase by €300m this year.",
+        "Negotiations are ongoing for CEO Michael O’Leary's contract extension to 2032."
+      ],
+      "why_it_matters": "The insights from Ryanair's leadership highlight the airline's strategic management of fuel supply risks and pricing strategies in a volatile market, which is crucial for understanding the broader implications for the airline industry amidst geopolitical tensions and economic pressures.",
+      "tags_topics": []
+    },
+    {
+      "topic": "us-iran-war",
+      "analysis_file": "us-iran-war/raw/e5c6a306520374ed1ac40e1e1a8f353389348e0f517e467b5236bd830081feb1.analysis.json",
+      "metadata_file": "us-iran-war/raw/e5c6a306520374ed1ac40e1e1a8f353389348e0f517e467b5236bd830081feb1.json",
+      "topic_title": "US-Iran War",
+      "raw_text_path": "data/us-iran-war/raw/e5c6a306520374ed1ac40e1e1a8f353389348e0f517e467b5236bd830081feb1.txt",
+      "collected_at": "2026-05-19T04:57:33.682834+00:00",
+      "text_chars": 5372,
+      "data_type": "rss_feed_content",
+      "source_url": "https://www.theguardian.com/world/2026/may/18/disposable-terrorists-for-hire-menace-western-countries",
+      "source_title": "‘Disposable’ operatives for hire are a new menace for western countries",
+      "published": "Mon, 18 May 2026 17:30:25 GMT",
+      "author": "",
+      "publisher": "",
+      "language": "",
+      "region": "",
+      "summary": "The recent arrest of Iraqi commander Mohammed Saad Baqer al-Saadi has unveiled Iran's strategy of using disposable operatives for terrorism in the West. Al-Saadi, linked to multiple attacks on Jewish sites, exemplifies a shift in terrorist tactics where less capable but easily recruited individuals are used. This new form of terrorism, facilitated by social media and cryptocurrency, poses significant challenges for Western security agencies.",
+      "key_takeaways": [
+        "Mohammed Saad Baqer al-Saadi is linked to 18 attacks on Jewish community sites.",
+        "Iran is utilizing disposable operatives for terrorism, making recruitment easier.",
+        "Social media and encrypted platforms are key tools for recruiting low-level operatives.",
+        "Payments for terrorist acts can be as low as a few hundred dollars.",
+        "The concept of 'terrorism as a service' is emerging.",
+        "Russia is also employing similar tactics in its hybrid warfare strategies."
+      ],
+      "why_it_matters": "This article highlights a concerning evolution in terrorist tactics, where the use of disposable operatives complicates counter-terrorism efforts in Western countries. Understanding these methods is crucial for developing effective responses to emerging threats.",
       "tags_topics": []
     },
     {
@@ -148,6 +260,41 @@
     },
     {
       "topic": "us-iran-war",
+      "analysis_file": "us-iran-war/raw/3f2a6475407621341f13d0bc80b894ab4bc24d7f9c3962f458b696c23ecd0842.analysis.json",
+      "metadata_file": "us-iran-war/raw/3f2a6475407621341f13d0bc80b894ab4bc24d7f9c3962f458b696c23ecd0842.json",
+      "topic_title": "US-Iran War",
+      "raw_text_path": "data/us-iran-war/raw/3f2a6475407621341f13d0bc80b894ab4bc24d7f9c3962f458b696c23ecd0842.txt",
+      "collected_at": "2026-05-19T04:57:33.758823+00:00",
+      "text_chars": 4841,
+      "data_type": "rss_feed_content",
+      "source_url": "https://www.theguardian.com/global-development/2026/may/19/fertiliser-supplies-global-food-crisis-yvette-cooper",
+      "source_title": "Free up fertiliser supplies to avert global food crisis, Yvette Cooper urges",
+      "published": "Mon, 18 May 2026 23:01:00 GMT",
+      "author": "Yvette Cooper",
+      "publisher": "The Guardian",
+      "language": "English",
+      "region": "Global",
+      "summary": "Yvette Cooper, the UK's foreign secretary, has called for urgent action to free up global fertiliser supplies to prevent a looming food crisis exacerbated by the war in Iran. The conflict has disrupted fertiliser shipments through the strait of Hormuz, leading to rising food prices and significant impacts on farming in the UK, Europe, and the developing world. Cooper emphasized the need for international cooperation to address these challenges and ensure food security.",
+      "key_takeaways": [
+        "Urgent need to free up fertiliser supplies to avoid a global food crisis.",
+        "The war in Iran is disrupting fertiliser shipments, affecting food prices.",
+        "Developing countries are facing the worst impacts of rising costs.",
+        "The UK has cut overseas aid, impacting global stability.",
+        "The World Food Programme warns of increased food insecurity.",
+        "New partnerships are needed to enhance international development efforts."
+      ],
+      "why_it_matters": "The situation highlights the interconnectedness of global food security and international relations, particularly how conflicts can disrupt essential supplies. Cooper's call for action underscores the importance of international cooperation in addressing food insecurity and supporting vulnerable populations, especially in developing countries.",
+      "tags_topics": [
+        "fertiliser",
+        "food crisis",
+        "Iran conflict",
+        "global partnerships",
+        "overseas aid",
+        "climate finance"
+      ]
+    },
+    {
+      "topic": "us-iran-war",
       "analysis_file": "us-iran-war/raw/1e796bc366d628be59c93acbc28b8a5faea4c75f73f49e1cf0eaf4e41735e37e.analysis.json",
       "metadata_file": "us-iran-war/raw/1e796bc366d628be59c93acbc28b8a5faea4c75f73f49e1cf0eaf4e41735e37e.json",
       "topic_title": "US-Iran War",
@@ -186,13 +333,25 @@
     }
   ],
   "brief": [
+    "The U.S. and Israel are signaling readiness for renewed military action against Iran, with increased U.S. Air Force activity noted in Tel Aviv. Israeli Prime Minister Benjamin Netanyahu and President Trump have discussed the potential for restarting warfare, while Iran seeks diplomatic solutions amid ongoing tensions. The situation remains precarious as both sides prepare for possible escalation.",
+    "North Korea's Kim Jong Un feels vindicated in maintaining his nuclear arsenal after observing the U.S. military action against Iran. Experts suggest that Kim's decision to pursue nuclear weapons was influenced by the U.S. decapitation strikes on Iranian leaders. North Korea has enacted laws to deter similar actions against its leadership, and with support from Russia and other nations, it aims to reshape its global image from a rogue state to a legitimate power.",
     "UAE blames Iran or proxies for strike near nuclear plant, as Trump tells Tehran ‘clock is ticking’",
-    "Trump delays ‘scheduled attack’ on Iran, crediting ‘serious negotiations’",
-    "Trump claims planned attack on Iran postponed after Tehran makes new proposal to end war",
-    "Donald Trump says he ‘wasn’t involved’ in creation of $1.7bn compensation fund – as it happened",
-    "UAE restores power to Barakah nuclear plant after drone strike, says IAEA – as it happened"
+    "Ryanair's CEO, Michael O’Leary, expressed confidence in the airline's jet fuel supplies for the summer, stating that Europe has secured alternative sources despite concerns linked to the Iran war. However, he warned that holidaymakers booking flights later this year may face higher fares due to persistent consumer uncertainty and rising fuel prices. The airline has hedged a significant portion of its fuel requirements but anticipates potential fare increases if prices remain elevated.",
+    "The recent arrest of Iraqi commander Mohammed Saad Baqer al-Saadi has unveiled Iran's strategy of using disposable operatives for terrorism in the West. Al-Saadi, linked to multiple attacks on Jewish sites, exemplifies a shift in terrorist tactics where less capable but easily recruited individuals are used. This new form of terrorism, facilitated by social media and cryptocurrency, poses significant challenges for Western security agencies."
   ],
   "timeline": [
+    {
+      "date": "2022-01-01",
+      "label": "North Korea enacted a law to deter decapitation strikes.",
+      "evidence_text": "Choi Yonghwan says Pyongyang enacted a 2022 law with a section intended to deter decapitation strikes.",
+      "source": "data-repo/data/us-iran-war/raw/3ca2069a0148bb0b1d22c3b6b6560728e62e31eccbfd0bc2181820128da5cc20.analysis.json"
+    },
+    {
+      "date": "2024-01-01",
+      "label": "North Korea signed a mutual defense pact with Russia.",
+      "evidence_text": "North Korea signed a mutual defense pact with Russia in 2024.",
+      "source": "data-repo/data/us-iran-war/raw/3ca2069a0148bb0b1d22c3b6b6560728e62e31eccbfd0bc2181820128da5cc20.analysis.json"
+    },
     {
       "date": "2026-02-28",
       "label": "US and Israel attack Iran.",
@@ -200,10 +359,34 @@
       "source": "data-repo/data/us-iran-war/raw/0be63c35943f7c3f3c609702a67886421ad224df61a876764affc99622ab8aa0.analysis.json"
     },
     {
+      "date": "2026-04-01",
+      "label": "Stabbing in Golders Green",
+      "evidence_text": "Among them also is the stabbing in Golders Green, which left two Jewish men badly injured last month.",
+      "source": "data-repo/data/us-iran-war/raw/e5c6a306520374ed1ac40e1e1a8f353389348e0f517e467b5236bd830081feb1.analysis.json"
+    },
+    {
       "date": "2026-04-08",
       "label": "Ceasefire deal struck between Iran and the US.",
       "evidence_text": "Iran and the US struck a ceasefire deal on April 8.",
       "source": "data-repo/data/us-iran-war/raw/0be63c35943f7c3f3c609702a67886421ad224df61a876764affc99622ab8aa0.analysis.json"
+    },
+    {
+      "date": "2026-05-13",
+      "label": "Arrest of Mohammed Saad Baqer al-Saadi",
+      "evidence_text": "The detention of Mohammed Saad Baqer al-Saadi in Turkey last week revealed rare details of Iran’s efforts.",
+      "source": "data-repo/data/us-iran-war/raw/e5c6a306520374ed1ac40e1e1a8f353389348e0f517e467b5236bd830081feb1.analysis.json"
+    },
+    {
+      "date": "2026-05-15",
+      "label": "Increased U.S. military presence in Tel Aviv",
+      "evidence_text": "Photos and videos circulating out of Tel Aviv International Airport show about 40 to 50 U.S. Air Force aerial tankers deployed currently at the airport.",
+      "source": "data-repo/data/us-iran-war/raw/a0fe8dbe6dcdbb243a6be553edbe664ca5d6d94039a13f93e12be9a38ba83f01.analysis.json"
+    },
+    {
+      "date": "2026-05-15",
+      "label": "Talks held by Iran with neighboring countries",
+      "evidence_text": "This weekend, Iran held talks with Qatar, Turkey and Pakistan.",
+      "source": "data-repo/data/us-iran-war/raw/a0fe8dbe6dcdbb243a6be553edbe664ca5d6d94039a13f93e12be9a38ba83f01.analysis.json"
     },
     {
       "date": "2026-05-16",
@@ -237,6 +420,18 @@
     },
     {
       "date": "2026-05-18",
+      "label": "Global Partnerships conference",
+      "evidence_text": "before a conference of governments in London to discuss overseas aid and development.",
+      "source": "data-repo/data/us-iran-war/raw/3f2a6475407621341f13d0bc80b894ab4bc24d7f9c3962f458b696c23ecd0842.analysis.json"
+    },
+    {
+      "date": "2026-05-18",
+      "label": "Ryanair announces confidence in fuel supplies and fare outlook.",
+      "evidence_text": "Ryanair said it has 'almost zero concerns' about its jet fuel supplies this summer.",
+      "source": "data-repo/data/us-iran-war/raw/850ae3488450c42ea006b217f08e1242f488ff53405da0b6e1f98a98d598d07a.analysis.json"
+    },
+    {
+      "date": "2026-05-18",
       "label": "Trump postpones military attack on Iran",
       "evidence_text": "Trump said he had been asked by the leaders of several Gulf countries to 'hold off on our planned Military attack [on Iran].'",
       "source": "data-repo/data/us-iran-war/raw/e91cd82869f2bd9d17b0c3315b66b7b3787670ef18641666b81bc557c2f4293c.analysis.json"
@@ -255,8 +450,8 @@
     }
   ],
   "source_quality": {
-    "total_text_chars": 43786,
-    "average_text_chars": 8757.2,
-    "latest_collected_at": "2026-05-19T03:51:12.747683+00:00"
+    "total_text_chars": 65078,
+    "average_text_chars": 6507.8,
+    "latest_collected_at": "2026-05-19T04:57:35.098068+00:00"
   }
 }
