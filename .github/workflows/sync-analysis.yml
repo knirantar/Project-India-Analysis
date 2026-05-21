@@ -59,6 +59,12 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
       - name: Build topic analysis artifacts
         run: |
           set -euo pipefail
@@ -66,12 +72,22 @@ jobs:
             --data-dir data-repo/data \
             --output-dir analysis_output
 
+      - name: Install web dependencies
+        run: npm ci
+
+      - name: Build intelligence web app
+        env:
+          PROJECT_INDIA_DATA_DIR: data-repo/data
+        run: |
+          set -euo pipefail
+          npm run build
+
       - name: Commit refreshed presentation data
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add analysis_output
+          git add analysis_output public/intelligence-data.json
 
           if git diff --cached --quiet; then
             echo "No analysis changes to commit."
@@ -81,18 +97,13 @@ jobs:
           git commit -m "Refresh analysis presentation data"
           git push
 
-      - name: Streamlit deployment note
+      - name: Web deployment note
         run: |
           cat >> "$GITHUB_STEP_SUMMARY" <<'EOF'
-          ## Streamlit UI
+          ## Intelligence web app
 
-          This workflow refreshed `analysis_output/` from `knirantar/Project-India-Data`.
+          This workflow refreshed `analysis_output/` and `public/intelligence-data.json`
+          from `knirantar/Project-India-Data`, then built the Next.js app.
 
-          Deploy this repository on Streamlit Community Cloud with:
-
-          - Repository: `knirantar/Project-India-Analysis`
-          - Branch: `main`
-          - Main file path: `streamlit_app.py`
-
-          GitHub Actions cannot keep a public Streamlit server alive after the job exits, so the stable public UI link should be the Streamlit Cloud app URL.
+          Deploy the repository as a Next.js app on Vercel, Netlify, or any Node host.
           EOF
