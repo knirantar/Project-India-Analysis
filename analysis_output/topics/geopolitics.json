@@ -1,6 +1,6 @@
 {
   "topic": "geopolitics",
-  "generated_at": "2026-05-21T19:10:51.926014+00:00",
+  "generated_at": "2026-05-21T20:56:13.675101+00:00",
   "ui_profile": {
     "title": "Global Geopolitics Monitor",
     "tone": "Global geopolitics situation desk",
@@ -11,31 +11,31 @@
       "Timeline",
       "Sources"
     ],
-    "hero_metric": "175 analyzed sources",
-    "secondary_metric": "456 claims, 536 actors"
+    "hero_metric": "180 analyzed sources",
+    "secondary_metric": "471 claims, 553 actors"
   },
   "counts": {
-    "documents": 175,
-    "claims": 456,
-    "entities": 536,
-    "events": 257,
-    "metrics": 163,
-    "citations": 174
+    "documents": 180,
+    "claims": 471,
+    "entities": 553,
+    "events": 267,
+    "metrics": 165,
+    "citations": 179
   },
   "data_type_counts": {
-    "rss_feed_content": 127,
-    "images": 25,
+    "rss_feed_content": 129,
+    "images": 26,
     "government_documents": 8,
-    "sanctions_designations": 6,
+    "sanctions_designations": 7,
     "pdfs": 3,
+    "video_content": 2,
     "structured_datasets": 2,
     "legal_judicial_records": 1,
-    "video_content": 1,
     "geospatial_mapping_data": 1,
     "websites_html_pages": 1
   },
   "credibility_counts": {
-    "unrated": 174,
+    "unrated": 179,
     "{\"level\": \"high\", \"reason\": \"The source is a UN news outlet, providing credible information on global economic issues.\"}": 1
   },
   "top_entities": [
@@ -45,7 +45,7 @@
     },
     {
       "name": "Donald Trump",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Ukraine",
@@ -64,12 +64,12 @@
       "count": 10
     },
     {
-      "name": "United Arab Emirates",
+      "name": "Saudi Arabia",
       "count": 9
     },
     {
-      "name": "Saudi Arabia",
-      "count": 8
+      "name": "United Arab Emirates",
+      "count": 9
     },
     {
       "name": "Israel",
@@ -92,11 +92,11 @@
     "At least two civilians were killed in a missile attack in Ukraine.",
     "Over $1 million worth of aid supplies were destroyed in the attack.",
     "The UN is seeking $710 million to support Rohingya refugees.",
+    "Saudi Arabia is proceeding with the Hajj pilgrimage amidst ongoing conflict.",
+    "Travel advisories have been issued by the US and European nations.",
+    "Economic impacts are affecting the cost of the pilgrimage.",
     "Pakistan's defense pact with Saudi Arabia formalizes decades of cooperation.",
-    "Pakistan's nuclear arsenal provides it with significant leverage in regional security.",
-    "India has not established a significant security role in the Gulf despite its economic ties.",
-    "Africa is the epicenter of global terrorism.",
-    "Africa will account for a third of the global working-age population by 2050."
+    "Pakistan's nuclear arsenal provides it with significant leverage in regional security."
   ],
   "source_highlights": [
     {
@@ -488,10 +488,22 @@
       "source": "data-repo/data/geopolitics/raw/066512715a1f5b5a299e149d7132aba1df3cd6b9c462f5e69033d17fb1400a26.analysis.json"
     },
     {
+      "date": "2008-01-01",
+      "label": "Start of aid flotillas to Gaza",
+      "evidence_text": "Flotillas carrying humanitarian aid to Gaza began in 2008, two years after Israel imposed a blockade on the Strip.",
+      "source": "data-repo/data/geopolitics/raw/c1aa536a966b88a3a0e80fd64b6f5ec786f28151971e8c4cc5a8b862a6eecd49.analysis.json"
+    },
+    {
       "date": "2008-01-18",
       "label": "Approval of the document on United Nations Peacekeeping Operations Principles and Guidelines",
       "evidence_text": "Approved on 18 January 2008.",
       "source": "data-repo/data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.analysis.json"
+    },
+    {
+      "date": "2013-03-01",
+      "label": "Eric Badege fled to Rwanda.",
+      "evidence_text": "He fled to Rwanda in March 2013 and is still living there as of early 2016.",
+      "source": "data-repo/data/geopolitics/raw/26d6abeb7e6a6549b72ae35916862a618a1863103dc6372150a3b15e665127a0.analysis.json"
     },
     {
       "date": "2013-03-01",
@@ -530,10 +542,22 @@
       "source": "data-repo/data/geopolitics/raw/db0f275d9cc24cd8dbec3ecddaf919105da23697c471f86dcf6a5ed03bc46533.analysis.json"
     },
     {
+      "date": "2014-11-01",
+      "label": "Jérôme Kakwavu convicted for war crimes.",
+      "evidence_text": "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture.",
+      "source": "data-repo/data/geopolitics/raw/26d6abeb7e6a6549b72ae35916862a618a1863103dc6372150a3b15e665127a0.analysis.json"
+    },
+    {
       "date": "2015-02-12",
       "label": "Minsk II agreement drafted",
       "evidence_text": "On Feb. 12, officials from the Trilateral Contact Group began drafting what would become the Minsk II agreement.",
       "source": "data-repo/data/geopolitics/raw/db0f275d9cc24cd8dbec3ecddaf919105da23697c471f86dcf6a5ed03bc46533.analysis.json"
+    },
+    {
+      "date": "2015-12-19",
+      "label": "Thomas Lubanga transferred to DRC prison.",
+      "evidence_text": "Transferred to a prison facility in the DRC on 19 December 2015 to serve out his sentence of imprisonment.",
+      "source": "data-repo/data/geopolitics/raw/26d6abeb7e6a6549b72ae35916862a618a1863103dc6372150a3b15e665127a0.analysis.json"
     },
     {
       "date": "2016-01-01",
@@ -570,6 +594,12 @@
       "label": "Trump halted military aid to Ukraine.",
       "evidence_text": "Yes, he halted aid there in summer 2019, leading to his first impeachment, but soon resumed.",
       "source": "data-repo/data/geopolitics/raw/cb35f3b3c74ca1ae474a0411540fd0bc0a3338ae6ed1f3f46814efb0287465b0.analysis.json"
+    },
+    {
+      "date": "2020-03-15",
+      "label": "Thomas Lubanga released after serving ICC sentence.",
+      "evidence_text": "He was released on 15 March 2020 after having served his ICC sentence.",
+      "source": "data-repo/data/geopolitics/raw/26d6abeb7e6a6549b72ae35916862a618a1863103dc6372150a3b15e665127a0.analysis.json"
     },
     {
       "date": "2020-03-15",
@@ -900,41 +930,11 @@
       "label": "Iran-Israel war",
       "evidence_text": "The Iran-Israel war of June 2025.",
       "source": "data-repo/data/geopolitics/raw/8d6d5ef3533d24fcdaf2b10fae64001628a7a2e0c33e6f5e951c38357a5a3040.analysis.json"
-    },
-    {
-      "date": "2025-07",
-      "label": "Armed Gerbera drones entered Lithuanian airspace.",
-      "evidence_text": "In July 2025, armed Gerbera drones entered Lithuanian airspace twice.",
-      "source": "data-repo/data/geopolitics/raw/9f2fc6b624416df1c7203e74cc0ac835bd6ea04d3441cbf5c613b5e5228d0d20.analysis.json"
-    },
-    {
-      "date": "2025-07-25",
-      "label": "Drone strike on Emirati nuclear plant",
-      "evidence_text": "following drone strike on Emirati plant",
-      "source": "data-repo/data/geopolitics/raw/6cf460feb690f1bb113b7bb8530e0de30829127ae61ca6f2a14a7b3abecd740e.analysis.json"
-    },
-    {
-      "date": "2025-09-01",
-      "label": "Announcement of the 500,000 drone warriors training program",
-      "evidence_text": "In September 2025, South Korea’s Minister of National Defense Ahn Gyu-back announced a plan to train 500,000 'drone warriors' at the 36th Infantry Division base in Wonju.",
-      "source": "data-repo/data/geopolitics/raw/540eaf813db7a84f893a035dba030a3e51e73a136d254cad22bd7295367ebbdf.analysis.json"
-    },
-    {
-      "date": "2025-09-01",
-      "label": "Release of AI Safety Governance Framework 2.0",
-      "evidence_text": "China’s AI Safety Governance Framework 2.0, released in September 2025, holds safeguarding national sovereignty as a key governance principle.",
-      "source": "data-repo/data/geopolitics/raw/706ad231ac51c9b05488dfe6f38679d4e86a42b61e199f4988677838fe5b72c2.analysis.json"
-    },
-    {
-      "date": "2025-09-01",
-      "label": "Launch of AI safety network with ASEAN",
-      "evidence_text": "China and the Association of Southeast Asian Nations (ASEAN) agreed in September 2025 to launch an AI safety network in 2026.",
-      "source": "data-repo/data/geopolitics/raw/706ad231ac51c9b05488dfe6f38679d4e86a42b61e199f4988677838fe5b72c2.analysis.json"
     }
   ],
   "source_quality": {
-    "total_text_chars": 34240415,
-    "average_text_chars": 195659.5,
-    "latest_collected_at": "2026-05-21T17:31:36.976797+00:00"
+    "total_text_chars": 35077375,
+    "average_text_chars": 194874.3,
+    "latest_collected_at": "2026-05-21T19:47:51.649092+00:00"
   }
 }
