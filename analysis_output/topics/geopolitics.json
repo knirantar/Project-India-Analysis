@@ -1,6 +1,6 @@
 {
   "topic": "geopolitics",
-  "generated_at": "2026-05-21T12:51:48.192314+00:00",
+  "generated_at": "2026-05-21T16:22:18.259478+00:00",
   "ui_profile": {
     "title": "Global Geopolitics Monitor",
     "tone": "Global geopolitics situation desk",
@@ -11,391 +11,578 @@
       "Timeline",
       "Sources"
     ],
-    "hero_metric": "21 analyzed sources",
-    "secondary_metric": "57 claims, 84 actors"
+    "hero_metric": "167 analyzed sources",
+    "secondary_metric": "436 claims, 512 actors"
   },
   "counts": {
-    "documents": 21,
-    "claims": 57,
-    "entities": 84,
-    "events": 36,
-    "metrics": 26,
-    "citations": 21
+    "documents": 167,
+    "claims": 436,
+    "entities": 512,
+    "events": 250,
+    "metrics": 158,
+    "citations": 166
   },
   "data_type_counts": {
-    "rss_feed_content": 21
+    "rss_feed_content": 123,
+    "images": 23,
+    "government_documents": 8,
+    "sanctions_designations": 4,
+    "pdfs": 3,
+    "structured_datasets": 2,
+    "legal_judicial_records": 1,
+    "video_content": 1,
+    "geospatial_mapping_data": 1,
+    "websites_html_pages": 1
   },
   "credibility_counts": {
-    "unrated": 21
+    "unrated": 166,
+    "{\"level\": \"high\", \"reason\": \"The source is a UN news outlet, providing credible information on global economic issues.\"}": 1
   },
   "top_entities": [
     {
       "name": "Iran",
-      "count": 11
+      "count": 27
     },
     {
       "name": "Donald Trump",
-      "count": 8
+      "count": 17
+    },
+    {
+      "name": "Ukraine",
+      "count": 12
+    },
+    {
+      "name": "Russia",
+      "count": 11
     },
     {
       "name": "United States",
-      "count": 5
+      "count": 11
     },
     {
-      "name": "United Arab Emirates",
-      "count": 5
-    },
-    {
-      "name": "International Atomic Energy Agency",
-      "count": 3
-    },
-    {
-      "name": "Islamic Revolutionary Guard Corps (IRGC)",
-      "count": 3
+      "name": "China",
+      "count": 10
     },
     {
       "name": "Saudi Arabia",
-      "count": 3
-    },
-    {
-      "name": "Masoud Pezeshkian",
-      "count": 2
-    },
-    {
-      "name": "Keir Starmer",
-      "count": 2
-    },
-    {
-      "name": "Qatar",
-      "count": 2
+      "count": 8
     },
     {
       "name": "Israel",
-      "count": 2
+      "count": 8
     },
     {
-      "name": "Ofgem",
-      "count": 1
+      "name": "United Arab Emirates",
+      "count": 8
+    },
+    {
+      "name": "NATO",
+      "count": 8
+    },
+    {
+      "name": "Pakistan",
+      "count": 5
+    },
+    {
+      "name": "India",
+      "count": 5
     }
   ],
   "top_claims": [
-    "Donald Trump postponed a planned military attack on Iran after it sent a peace proposal to Washington.",
-    "Iran's armed forces are more prepared and stronger than in the past.",
-    "Trump has decided to pause an attack on Iran.",
-    "Iran submitted a new peace proposal to the US.",
-    "The US and Iran have major disagreements regarding uranium enrichment.",
-    "Energy bills will rise by £209 to £1,850 a year from July.",
-    "The increase is nearly 13% higher than the previous cap of £1,641.",
-    "Even if the Iran war ended, prices may not return to previous levels."
+    "At least two civilians were killed in a missile attack in Ukraine.",
+    "Over $1 million worth of aid supplies were destroyed in the attack.",
+    "The UN is seeking $710 million to support Rohingya refugees.",
+    "Pakistan's defense pact with Saudi Arabia formalizes decades of cooperation.",
+    "Pakistan's nuclear arsenal provides it with significant leverage in regional security.",
+    "India has not established a significant security role in the Gulf despite its economic ties.",
+    "Africa is the epicenter of global terrorism.",
+    "Africa will account for a third of the global working-age population by 2050."
   ],
   "source_highlights": [
     {
       "topic": "geopolitics",
-      "analysis_file": "geopolitics/raw/a0fe8dbe6dcdbb243a6be553edbe664ca5d6d94039a13f93e12be9a38ba83f01.analysis.json",
-      "metadata_file": "geopolitics/raw/a0fe8dbe6dcdbb243a6be553edbe664ca5d6d94039a13f93e12be9a38ba83f01.json",
+      "analysis_file": "geopolitics/raw/ccedff6aac649fc8763a816116123d9a826c17998ac27daf73d271001d600cd4.analysis.json",
+      "metadata_file": "geopolitics/raw/ccedff6aac649fc8763a816116123d9a826c17998ac27daf73d271001d600cd4.json",
       "topic_title": "Global Geopolitics Monitor",
-      "raw_text_path": "data/geopolitics/raw/a0fe8dbe6dcdbb243a6be553edbe664ca5d6d94039a13f93e12be9a38ba83f01.txt",
-      "collected_at": "2026-05-19T04:57:35.098068+00:00",
-      "text_chars": 3064,
+      "raw_text_path": "data/geopolitics/raw/ccedff6aac649fc8763a816116123d9a826c17998ac27daf73d271001d600cd4.txt",
+      "collected_at": "2026-05-21T14:46:52.715776+00:00",
+      "text_chars": 19053,
       "data_type": "rss_feed_content",
-      "source_url": "https://www.npr.org/2026/05/18/nx-s1-5825574/u-s-and-iran-signal-readiness-to-fight-again-as-weekend-tensions-mount",
-      "source_title": "U.S. and Israel prepare for potential return to full-scale war with Iran",
-      "published": "Mon, 18 May 2026 04:46:03 -0400",
+      "source_url": "https://warontherocks.com/secdef-ash-carter-on-how-the-military-will-build-the-force-of-the-future/",
+      "source_title": "Ash Carter: The Interview",
+      "published": "Thu, 19 Nov 2015 07:55:23 +0000",
       "author": "",
       "publisher": "",
       "language": "",
       "region": "",
-      "summary": "The U.S. and Israel are signaling readiness for renewed military action against Iran, with increased U.S. Air Force activity noted in Tel Aviv. Israeli Prime Minister Benjamin Netanyahu and President Trump have discussed the potential for restarting warfare, while Iran seeks diplomatic solutions amid ongoing tensions. The situation remains precarious as both sides prepare for possible escalation.",
+      "summary": "In an interview, Secretary of Defense Ash Carter discusses the 'Force of the Future' initiative, aimed at reforming the Department of Defense's personnel systems to attract and retain talented individuals. He emphasizes the importance of human capital in maintaining a competitive military force and addresses the challenges faced by service members considering leaving for private sector opportunities. Carter outlines the need for modern data analytics to understand personnel retention and the importance of providing educational opportunities and flexible career paths.",
       "key_takeaways": [
-        "U.S. military presence in Tel Aviv has increased significantly.",
-        "President Trump warns Iran that time is running out.",
-        "Iran is exploring diplomatic options with neighboring countries.",
-        "The U.S.-Israeli military actions aim to pressure Iran on nuclear issues.",
-        "Iran's nuclear capabilities remain largely intact despite previous conflicts.",
-        "Discussions between U.S. and Israeli leaders indicate a potential shift towards military engagement."
+        "The 'Force of the Future' initiative aims to modernize personnel management in the military.",
+        "Attracting and retaining talented individuals is crucial for maintaining a competitive military force.",
+        "Carter emphasizes the need for data analytics to understand why service members leave.",
+        "Educational opportunities and career flexibility are key factors in retaining military personnel.",
+        "Carter advocates for learning from private sector best practices in technology and personnel management.",
+        "The initiative seeks to create 'on-ramps' for new recruits and 'off-ramps' for current service members to gain civilian experience."
       ],
-      "why_it_matters": "The situation underscores the fragile balance of power in the Middle East and the ongoing threat of military conflict, which could have significant implications for regional stability and international relations.",
+      "why_it_matters": "The reforms proposed in the 'Force of the Future' initiative are significant as they aim to address the challenges of retaining skilled personnel in the military, which is essential for national security. By modernizing personnel systems and learning from private sector practices, the Department of Defense can enhance its competitiveness and effectiveness in a rapidly changing global landscape.",
       "tags_topics": []
     },
     {
       "topic": "geopolitics",
-      "analysis_file": "geopolitics/raw/3ca2069a0148bb0b1d22c3b6b6560728e62e31eccbfd0bc2181820128da5cc20.analysis.json",
-      "metadata_file": "geopolitics/raw/3ca2069a0148bb0b1d22c3b6b6560728e62e31eccbfd0bc2181820128da5cc20.json",
+      "analysis_file": "geopolitics/raw/ab1c993c5f9aeffcf5e42942c6743d09d7ac3d57437a9f814788ee121f0daff2.analysis.json",
+      "metadata_file": "geopolitics/raw/ab1c993c5f9aeffcf5e42942c6743d09d7ac3d57437a9f814788ee121f0daff2.json",
       "topic_title": "Global Geopolitics Monitor",
-      "raw_text_path": "data/geopolitics/raw/3ca2069a0148bb0b1d22c3b6b6560728e62e31eccbfd0bc2181820128da5cc20.txt",
-      "collected_at": "2026-05-19T04:57:34.425732+00:00",
-      "text_chars": 4395,
+      "raw_text_path": "data/geopolitics/raw/ab1c993c5f9aeffcf5e42942c6743d09d7ac3d57437a9f814788ee121f0daff2.txt",
+      "collected_at": "2026-05-21T14:47:31.881439+00:00",
+      "text_chars": 1560,
       "data_type": "rss_feed_content",
-      "source_url": "https://www.npr.org/2026/05/18/nx-s1-5820631/trump-north-korea-nuclear",
-      "source_title": "North Korea is relieved its nuclear weapons have prevented a fate like Iran's",
-      "published": "Mon, 18 May 2026 04:47:07 -0400",
-      "author": "Anthony Kuhn",
-      "publisher": "NPR",
-      "language": "English",
-      "region": "Seoul, South Korea",
-      "summary": "North Korea's Kim Jong Un feels vindicated in maintaining his nuclear arsenal after observing the U.S. military action against Iran. Experts suggest that Kim's decision to pursue nuclear weapons was influenced by the U.S. decapitation strikes on Iranian leaders. North Korea has enacted laws to deter similar actions against its leadership, and with support from Russia and other nations, it aims to reshape its global image from a rogue state to a legitimate power.",
+      "source_url": "https://www.csis.org/events/bio-pharma-industry-and-society",
+      "source_title": "The Bio-Pharma Industry and Society",
+      "published": "Thu, 03 Mar 2016 20:36:33 +0000",
+      "author": "",
+      "publisher": "",
+      "language": "",
+      "region": "",
+      "summary": "The CSIS Global Health Policy Center is hosting an event on March 17 to discuss how private bio-pharmaceutical firms can enhance societal goals such as affordability, access, quality, and innovation. Sir Andrew Witty, CEO of GlaxoSmithKline, will deliver a keynote address on the company's reforms and their impact on global markets. The event will also feature a roundtable discussion with notable panelists, including Dr. Margaret Hamburg and Dr. Ezekiel Emmanuel, to delve deeper into these critical themes.",
       "key_takeaways": [
-        "Kim Jong Un believes maintaining nuclear weapons was the right choice after Iran's military actions.",
-        "North Korea has enacted laws to retaliate with nuclear weapons if its leadership is threatened.",
-        "The country signed a mutual defense pact with Russia in 2024.",
-        "North Korea aims to be seen as a legitimate state rather than a rogue one.",
-        "The U.S. has historically underestimated the determination of countries like North Korea.",
-        "Pressure and military force may not be effective in changing North Korea's nuclear stance."
+        "Event on March 17 focuses on bio-pharmaceutical firms' societal roles.",
+        "Sir Andrew Witty will discuss GlaxoSmithKline's reforms.",
+        "Key themes include affordability, access, quality, and innovation.",
+        "Panelists include experts from the Institute of Medicine and University of Pennsylvania.",
+        "The event aims to strengthen trust in the bio-pharmaceutical industry.",
+        "Discussion will address transparency in clinical trials and pricing."
       ],
-      "why_it_matters": "This article highlights the shifting dynamics of international relations regarding nuclear proliferation, particularly how North Korea's actions are influenced by the perceived failures of U.S. diplomacy and military strategy. It underscores the importance of understanding the motivations behind nuclear armament in the context of global security.",
+      "why_it_matters": "This event is significant as it addresses the pressing need for the bio-pharmaceutical industry to align its practices with societal health goals, thereby enhancing public trust and improving health outcomes.",
       "tags_topics": []
     },
     {
       "topic": "geopolitics",
-      "analysis_file": "geopolitics/raw/761e43dc5bb4a28837aa2b02dd93ac3bcb5a16c7159b7f828b68e43b06b9d8b8.analysis.json",
-      "metadata_file": "geopolitics/raw/761e43dc5bb4a28837aa2b02dd93ac3bcb5a16c7159b7f828b68e43b06b9d8b8.json",
+      "analysis_file": "geopolitics/raw/194b25cb1c666c13be5a1e7890c974d3d7f155e911fcd0139c09c44b685fd85b.analysis.json",
+      "metadata_file": "geopolitics/raw/194b25cb1c666c13be5a1e7890c974d3d7f155e911fcd0139c09c44b685fd85b.json",
       "topic_title": "Global Geopolitics Monitor",
-      "raw_text_path": "data/geopolitics/raw/761e43dc5bb4a28837aa2b02dd93ac3bcb5a16c7159b7f828b68e43b06b9d8b8.txt",
-      "collected_at": "2026-05-19T03:51:12.690510+00:00",
-      "text_chars": 3013,
+      "raw_text_path": "data/geopolitics/raw/194b25cb1c666c13be5a1e7890c974d3d7f155e911fcd0139c09c44b685fd85b.txt",
+      "collected_at": "2026-05-21T14:46:51.158595+00:00",
+      "text_chars": 1497,
       "data_type": "rss_feed_content",
-      "source_url": "https://www.theguardian.com/world/2026/may/17/uae-blames-iran-or-its-proxies-for-drone-strike-fire-near-nuclear-plant",
-      "source_title": "UAE blames Iran or proxies for strike near nuclear plant, as Trump tells Tehran ‘clock is ticking’",
-      "published": "Mon, 18 May 2026 06:02:36 GMT",
+      "source_url": "https://warontherocks.com/four-key-leaders-in-munich-on-the-state-of-the-world/",
+      "source_title": "Four Key Leaders in Munich on the State of the World",
+      "published": "Tue, 16 Feb 2016 13:39:08 +0000",
       "author": "",
       "publisher": "",
       "language": "",
       "region": "",
-      "summary": "",
-      "tags_topics": []
-    },
-    {
-      "topic": "geopolitics",
-      "analysis_file": "geopolitics/raw/850ae3488450c42ea006b217f08e1242f488ff53405da0b6e1f98a98d598d07a.analysis.json",
-      "metadata_file": "geopolitics/raw/850ae3488450c42ea006b217f08e1242f488ff53405da0b6e1f98a98d598d07a.json",
-      "topic_title": "Global Geopolitics Monitor",
-      "raw_text_path": "data/geopolitics/raw/850ae3488450c42ea006b217f08e1242f488ff53405da0b6e1f98a98d598d07a.txt",
-      "collected_at": "2026-05-19T04:57:33.664035+00:00",
-      "text_chars": 3620,
-      "data_type": "rss_feed_content",
-      "source_url": "https://www.theguardian.com/business/2026/may/18/ryanair-jet-fuel-shortage-fare-rises-book-flights-higher-prices",
-      "source_title": "Ryanair has ‘near-zero concerns’ on fuel shortages but warns of future price rises",
-      "published": "Mon, 18 May 2026 11:45:29 GMT",
-      "author": "",
-      "publisher": "",
-      "language": "",
-      "region": "",
-      "summary": "Ryanair's CEO, Michael O’Leary, expressed confidence in the airline's jet fuel supplies for the summer, stating that Europe has secured alternative sources despite concerns linked to the Iran war. However, he warned that holidaymakers booking flights later this year may face higher fares due to persistent consumer uncertainty and rising fuel prices. The airline has hedged a significant portion of its fuel requirements but anticipates potential fare increases if prices remain elevated.",
+      "summary": "The Munich Security Conference gathers global leaders to discuss defense and foreign policy. This article features interviews with key figures including Senators John McCain, Sheldon Whitehouse, David Perdue, and former Australian Prime Minister Kevin Rudd. They share insights on various global issues such as American power, Syria, Ukraine, and China, drawing from their extensive experience in politics and diplomacy.",
       "key_takeaways": [
-        "Ryanair has 'almost zero concerns' about jet fuel supplies this summer.",
-        "The airline's fares are expected to be 'broadly flat' compared to last summer.",
-        "Consumer uncertainty has led to lower summer bookings, affecting fare visibility.",
-        "Ryanair hedged 80% of its fuel needs at about $67 a barrel until April 2027.",
-        "Environmental taxes in the EU are expected to increase by €300m this year.",
-        "Negotiations are ongoing for CEO Michael O’Leary's contract extension to 2032."
+        "The Munich Security Conference is a key event for international security discussions.",
+        "Interviews feature prominent political leaders sharing diverse perspectives.",
+        "Topics include American power, Syria, Ukraine, and China.",
+        "The discussions are informed by decades of experience in politics and diplomacy.",
+        "The podcast series is sponsored by American University’s School of International Service.",
+        "Applications for Fall 2016 Master's programs are still being accepted."
       ],
-      "why_it_matters": "The insights from Ryanair's leadership highlight the airline's strategic management of fuel supply risks and pricing strategies in a volatile market, which is crucial for understanding the broader implications for the airline industry amidst geopolitical tensions and economic pressures.",
+      "why_it_matters": "This source provides insights from influential leaders on pressing global issues, highlighting the importance of international dialogue in shaping defense and foreign policy.",
       "tags_topics": []
     },
     {
       "topic": "geopolitics",
-      "analysis_file": "geopolitics/raw/e5c6a306520374ed1ac40e1e1a8f353389348e0f517e467b5236bd830081feb1.analysis.json",
-      "metadata_file": "geopolitics/raw/e5c6a306520374ed1ac40e1e1a8f353389348e0f517e467b5236bd830081feb1.json",
+      "analysis_file": "geopolitics/raw/d22261821626a14b88861badd69528c7af5c12776fd2dd30aa6d950ebcce8b42.analysis.json",
+      "metadata_file": "geopolitics/raw/d22261821626a14b88861badd69528c7af5c12776fd2dd30aa6d950ebcce8b42.json",
       "topic_title": "Global Geopolitics Monitor",
-      "raw_text_path": "data/geopolitics/raw/e5c6a306520374ed1ac40e1e1a8f353389348e0f517e467b5236bd830081feb1.txt",
-      "collected_at": "2026-05-19T04:57:33.682834+00:00",
-      "text_chars": 5372,
+      "raw_text_path": "data/geopolitics/raw/d22261821626a14b88861badd69528c7af5c12776fd2dd30aa6d950ebcce8b42.txt",
+      "collected_at": "2026-05-21T14:45:52.210038+00:00",
+      "text_chars": 1021,
       "data_type": "rss_feed_content",
-      "source_url": "https://www.theguardian.com/world/2026/may/18/disposable-terrorists-for-hire-menace-western-countries",
-      "source_title": "‘Disposable’ operatives for hire are a new menace for western countries",
-      "published": "Mon, 18 May 2026 17:30:25 GMT",
+      "source_url": "https://www.csis.org/events/china-reality-check-chinas-internet-sovereignty-initiative-origins-and-consequences",
+      "source_title": "China Reality Check: China's \"Internet Sovereignty\" Initiative: Origins and Consequences",
+      "published": "Tue, 16 Feb 2016 16:49:43 +0000",
       "author": "",
       "publisher": "",
       "language": "",
       "region": "",
-      "summary": "The recent arrest of Iraqi commander Mohammed Saad Baqer al-Saadi has unveiled Iran's strategy of using disposable operatives for terrorism in the West. Al-Saadi, linked to multiple attacks on Jewish sites, exemplifies a shift in terrorist tactics where less capable but easily recruited individuals are used. This new form of terrorism, facilitated by social media and cryptocurrency, poses significant challenges for Western security agencies.",
+      "summary": "The event discusses China's initiative to promote Internet sovereignty as a governing concept for the global Internet. This initiative has gained momentum, particularly highlighted during the World Internet Conference in Wuzhen. If successful, it could significantly impact the Internet, various industries, media, and information accessibility.",
       "key_takeaways": [
-        "Mohammed Saad Baqer al-Saadi is linked to 18 attacks on Jewish community sites.",
-        "Iran is utilizing disposable operatives for terrorism, making recruitment easier.",
-        "Social media and encrypted platforms are key tools for recruiting low-level operatives.",
-        "Payments for terrorist acts can be as low as a few hundred dollars.",
-        "The concept of 'terrorism as a service' is emerging.",
-        "Russia is also employing similar tactics in its hybrid warfare strategies."
+        "China is promoting Internet sovereignty as a global governing concept.",
+        "The initiative has intensified over the past year.",
+        "The World Internet Conference in Wuzhen was a key moment for this initiative.",
+        "Potential wide-ranging consequences for the Internet and industries.",
+        "Implications for media and information accessibility.",
+        "Discussion featured experts from various fields."
       ],
-      "why_it_matters": "This article highlights a concerning evolution in terrorist tactics, where the use of disposable operatives complicates counter-terrorism efforts in Western countries. Understanding these methods is crucial for developing effective responses to emerging threats.",
+      "why_it_matters": "Understanding China's Internet sovereignty initiative is crucial as it may reshape global Internet governance and affect international relations, trade, and information flow.",
       "tags_topics": []
     },
     {
       "topic": "geopolitics",
-      "analysis_file": "geopolitics/raw/0be63c35943f7c3f3c609702a67886421ad224df61a876764affc99622ab8aa0.analysis.json",
-      "metadata_file": "geopolitics/raw/0be63c35943f7c3f3c609702a67886421ad224df61a876764affc99622ab8aa0.json",
+      "analysis_file": "geopolitics/raw/066512715a1f5b5a299e149d7132aba1df3cd6b9c462f5e69033d17fb1400a26.analysis.json",
+      "metadata_file": "geopolitics/raw/066512715a1f5b5a299e149d7132aba1df3cd6b9c462f5e69033d17fb1400a26.json",
       "topic_title": "Global Geopolitics Monitor",
-      "raw_text_path": "data/geopolitics/raw/0be63c35943f7c3f3c609702a67886421ad224df61a876764affc99622ab8aa0.txt",
-      "collected_at": "2026-05-19T03:51:11.950371+00:00",
-      "text_chars": 5641,
+      "raw_text_path": "data/geopolitics/raw/066512715a1f5b5a299e149d7132aba1df3cd6b9c462f5e69033d17fb1400a26.txt",
+      "collected_at": "2026-05-21T14:45:52.994281+00:00",
+      "text_chars": 1643,
       "data_type": "rss_feed_content",
-      "source_url": "https://www.aljazeera.com/news/2026/5/18/trump-delays-scheduled-attack-on-iran-crediting-serious-negotiations?traffic_source=rss",
-      "source_title": "Trump delays ‘scheduled attack’ on Iran, crediting ‘serious negotiations’",
-      "published": "Mon, 18 May 2026 20:12:45 +0000",
+      "source_url": "https://warontherocks.com/a-tale-of-two-speeches-u-s-russian-relations-through-the-lens-of-munich/",
+      "source_title": "A Tale of Two Speeches: U.S.-Russian Relations Through the Lens of Munich",
+      "published": "Wed, 02 Mar 2016 15:39:47 +0000",
       "author": "",
       "publisher": "",
       "language": "",
       "region": "",
-      "summary": "",
-      "tags_topics": []
-    },
-    {
-      "topic": "geopolitics",
-      "analysis_file": "geopolitics/raw/e91cd82869f2bd9d17b0c3315b66b7b3787670ef18641666b81bc557c2f4293c.analysis.json",
-      "metadata_file": "geopolitics/raw/e91cd82869f2bd9d17b0c3315b66b7b3787670ef18641666b81bc557c2f4293c.json",
-      "topic_title": "Global Geopolitics Monitor",
-      "raw_text_path": "data/geopolitics/raw/e91cd82869f2bd9d17b0c3315b66b7b3787670ef18641666b81bc557c2f4293c.txt",
-      "collected_at": "2026-05-19T03:51:12.427723+00:00",
-      "text_chars": 6690,
-      "data_type": "rss_feed_content",
-      "source_url": "https://www.theguardian.com/world/2026/may/18/iran-new-proposal-deal-to-end-war-us-israel",
-      "source_title": "Trump claims planned attack on Iran postponed after Tehran makes new proposal to end war",
-      "published": "Mon, 18 May 2026 21:07:58 GMT",
-      "author": "",
-      "publisher": "",
-      "language": "",
-      "region": "",
-      "summary": "",
-      "tags_topics": []
-    },
-    {
-      "topic": "geopolitics",
-      "analysis_file": "geopolitics/raw/3f2a6475407621341f13d0bc80b894ab4bc24d7f9c3962f458b696c23ecd0842.analysis.json",
-      "metadata_file": "geopolitics/raw/3f2a6475407621341f13d0bc80b894ab4bc24d7f9c3962f458b696c23ecd0842.json",
-      "topic_title": "Global Geopolitics Monitor",
-      "raw_text_path": "data/geopolitics/raw/3f2a6475407621341f13d0bc80b894ab4bc24d7f9c3962f458b696c23ecd0842.txt",
-      "collected_at": "2026-05-19T04:57:33.758823+00:00",
-      "text_chars": 4841,
-      "data_type": "rss_feed_content",
-      "source_url": "https://www.theguardian.com/global-development/2026/may/19/fertiliser-supplies-global-food-crisis-yvette-cooper",
-      "source_title": "Free up fertiliser supplies to avert global food crisis, Yvette Cooper urges",
-      "published": "Mon, 18 May 2026 23:01:00 GMT",
-      "author": "Yvette Cooper",
-      "publisher": "The Guardian",
-      "language": "English",
-      "region": "Global",
-      "summary": "Yvette Cooper, the UK's foreign secretary, has called for urgent action to free up global fertiliser supplies to prevent a looming food crisis exacerbated by the war in Iran. The conflict has disrupted fertiliser shipments through the strait of Hormuz, leading to rising food prices and significant impacts on farming in the UK, Europe, and the developing world. Cooper emphasized the need for international cooperation to address these challenges and ensure food security.",
+      "summary": "This podcast episode focuses on U.S.-Russian relations, tracing the evolution from Vladimir Putin's 2007 speech at the Munich Security Conference to Russian Prime Minister Medvedev's speech in 2016. The discussion highlights interviews with various experts and politicians, illustrating the fluctuating nature of these relations over nearly a decade. The episode aims to provide insights into the complexities of international diplomacy and security issues surrounding Russia.",
       "key_takeaways": [
-        "Urgent need to free up fertiliser supplies to avoid a global food crisis.",
-        "The war in Iran is disrupting fertiliser shipments, affecting food prices.",
-        "Developing countries are facing the worst impacts of rising costs.",
-        "The UK has cut overseas aid, impacting global stability.",
-        "The World Food Programme warns of increased food insecurity.",
-        "New partnerships are needed to enhance international development efforts."
+        "The podcast discusses U.S.-Russian relations from 2007 to 2016.",
+        "It features speeches from Vladimir Putin and Dmitry Medvedev at the Munich Security Conference.",
+        "Interviews include insights from Richard Fontaine, Senator John McCain, and others.",
+        "The narrative shows a cycle of relations going from bad to good and back to bad.",
+        "The episode is part of a new podcast format focusing on international relations.",
+        "It is sponsored by American University’s School of International Service."
       ],
-      "why_it_matters": "The situation highlights the interconnectedness of global food security and international relations, particularly how conflicts can disrupt essential supplies. Cooper's call for action underscores the importance of international cooperation in addressing food insecurity and supporting vulnerable populations, especially in developing countries.",
+      "why_it_matters": "Understanding the evolution of U.S.-Russian relations is crucial for comprehending current geopolitical dynamics and the implications for global security. This podcast provides a narrative that connects historical speeches to present-day issues, offering valuable insights for policymakers and the public.",
+      "tags_topics": []
+    },
+    {
+      "topic": "geopolitics",
+      "analysis_file": "geopolitics/raw/8d6d5ef3533d24fcdaf2b10fae64001628a7a2e0c33e6f5e951c38357a5a3040.analysis.json",
+      "metadata_file": "geopolitics/raw/8d6d5ef3533d24fcdaf2b10fae64001628a7a2e0c33e6f5e951c38357a5a3040.json",
+      "topic_title": "Global Geopolitics Monitor",
+      "raw_text_path": "data/geopolitics/raw/8d6d5ef3533d24fcdaf2b10fae64001628a7a2e0c33e6f5e951c38357a5a3040.txt",
+      "collected_at": "2026-05-21T14:46:34.346652+00:00",
+      "text_chars": 11621,
+      "data_type": "rss_feed_content",
+      "source_url": "https://warontherocks.com/why-lebanon-is-nonnegotiable-for-iran/",
+      "source_title": "Why Lebanon Is Nonnegotiable for Iran",
+      "published": "Fri, 01 May 2026 07:15:02 +0000",
+      "author": "Sajjad Safaei, Ph.D.",
+      "publisher": "",
+      "language": "",
+      "region": "",
+      "summary": "The article discusses the critical role Lebanon plays in Iran's strategic calculations, particularly in the context of the ongoing U.S.-Israeli war. It highlights the complexities of Iran's relationship with Hizballah, arguing that it cannot be simply categorized as a proxy relationship. The insistence on including Lebanon in ceasefire negotiations underscores Iran's commitment to its regional alliances and the importance of Hizballah in its deterrence strategy against Israel and the U.S.",
+      "key_takeaways": [
+        "Iran's insistence on Lebanon's inclusion in ceasefire talks reflects its strategic interests.",
+        "The relationship between Iran and Hizballah is characterized by mutual dependence rather than a simple proxy dynamic.",
+        "Hizballah's participation in the U.S.-Israeli war is driven by its own interests, not just Iranian directives.",
+        "Iran views Hizballah as a crucial component of its deterrence strategy against Israel.",
+        "Public sentiment in Iran strongly supports Hizballah, complicating any potential abandonment of Lebanon in negotiations.",
+        "Institutional and personal ties between Iran and Hizballah reinforce their alliance."
+      ],
+      "why_it_matters": "Understanding the dynamics of Iran's relationship with Hizballah is essential for analyzing regional security and the effectiveness of U.S. foreign policy in the Middle East. The article challenges conventional views of proxy relationships, suggesting a more nuanced understanding of alliances in the region.",
+      "tags_topics": []
+    },
+    {
+      "topic": "geopolitics",
+      "analysis_file": "geopolitics/raw/9f2fc6b624416df1c7203e74cc0ac835bd6ea04d3441cbf5c613b5e5228d0d20.analysis.json",
+      "metadata_file": "geopolitics/raw/9f2fc6b624416df1c7203e74cc0ac835bd6ea04d3441cbf5c613b5e5228d0d20.json",
+      "topic_title": "Global Geopolitics Monitor",
+      "raw_text_path": "data/geopolitics/raw/9f2fc6b624416df1c7203e74cc0ac835bd6ea04d3441cbf5c613b5e5228d0d20.txt",
+      "collected_at": "2026-05-21T14:45:47.449130+00:00",
+      "text_chars": 16201,
+      "data_type": "rss_feed_content",
+      "source_url": "https://warontherocks.com/could-russia-follow-the-hormuz-playbook-in-the-baltic-and-black-seas/",
+      "source_title": "Could Russia Follow the “Hormuz Playbook” in the Baltic and Black Seas?",
+      "published": "Fri, 08 May 2026 07:15:22 +0000",
+      "author": "",
+      "publisher": "",
+      "language": "",
+      "region": "",
+      "summary": "The article discusses the potential for Russia to replicate Iran's strategy of closing maritime chokepoints, particularly in the Baltic and Black Seas, by leveraging drone attacks and insurance market manipulation. It highlights how the closure of the Strait of Hormuz was achieved without physical blockades, suggesting that similar tactics could be employed against European energy supply routes. The piece emphasizes the importance of understanding these dynamics in the context of European energy security and the ongoing hybrid warfare tactics employed by Russia.",
+      "key_takeaways": [
+        "Iran's closure of the Strait of Hormuz was achieved through insurance market manipulation rather than direct military action.",
+        "Russia could employ similar tactics to disrupt maritime chokepoints in the Baltic and Black Seas.",
+        "The insurance market plays a crucial role in determining the viability of shipping routes under threat.",
+        "NATO's presence in the Baltic provides some deterrence, but does not eliminate the risk of disruption.",
+        "Russia's drone capabilities could pose a credible threat to shipping in key maritime areas.",
+        "The economic implications of a successful strike on shipping could be severe for Northern European economies."
+      ],
+      "why_it_matters": "Understanding the potential for Russia to disrupt maritime chokepoints is critical for European energy security, especially in light of past actions in the Black Sea and the ongoing conflict in Ukraine. The article underscores the need for proactive measures to mitigate risks associated with maritime trade routes that are vital for energy supplies.",
+      "tags_topics": []
+    },
+    {
+      "topic": "geopolitics",
+      "analysis_file": "geopolitics/raw/f1f85e7bfbfbd6f80c3260820c5994000c84962abe2c4b0029cef2543433879e.analysis.json",
+      "metadata_file": "geopolitics/raw/f1f85e7bfbfbd6f80c3260820c5994000c84962abe2c4b0029cef2543433879e.json",
+      "topic_title": "Global Geopolitics Monitor",
+      "raw_text_path": "data/geopolitics/raw/f1f85e7bfbfbd6f80c3260820c5994000c84962abe2c4b0029cef2543433879e.txt",
+      "collected_at": "2026-05-21T14:45:49.465436+00:00",
+      "text_chars": 19012,
+      "data_type": "rss_feed_content",
+      "source_url": "https://warontherocks.com/restrain-and-hedge-a-new-u-s-nuclear-strategy-for-a-two-peer-world/",
+      "source_title": "Restrain and Hedge: A New U.S. Nuclear Strategy for a Two-Peer World",
+      "published": "Fri, 15 May 2026 07:30:45 +0000",
+      "author": "",
+      "publisher": "",
+      "language": "",
+      "region": "",
+      "summary": "The article discusses the implications of the U.S. nuclear strategy in a landscape dominated by two major nuclear rivals, China and Russia. It argues against increasing the U.S. nuclear arsenal, suggesting that such actions could lead to a new arms race. Instead, it advocates for a strategy of nuclear self-restraint and the pursuit of a new arms control framework to manage the risks posed by these rivals. The piece emphasizes the need for the U.S. to enhance its nuclear capabilities while avoiding escalation.",
+      "key_takeaways": [
+        "Increasing the U.S. nuclear arsenal may reduce security and provoke an arms race.",
+        "The U.S. should focus on nuclear self-restraint and damage limitation.",
+        "A new arms control framework with Russia and China is essential to manage nuclear competition.",
+        "China is rapidly expanding its nuclear capabilities, complicating U.S. damage limitation efforts.",
+        "The U.S. nuclear enterprise has significant shortcomings that need addressing.",
+        "Strategic arms control could help cap the arms race and shift competition to other technological areas."
+      ],
+      "why_it_matters": "This research is significant as it addresses the evolving nuclear landscape and the strategic choices facing the U.S. in response to the nuclear capabilities of China and Russia. It highlights the potential risks of an arms race and the importance of diplomatic efforts in nuclear arms control.",
+      "tags_topics": []
+    },
+    {
+      "topic": "geopolitics",
+      "analysis_file": "geopolitics/raw/c045fe6fa7734b71fa0f385b4e9d110095957c1dc07f8ff87e0d78ccff397e99.analysis.json",
+      "metadata_file": "geopolitics/raw/c045fe6fa7734b71fa0f385b4e9d110095957c1dc07f8ff87e0d78ccff397e99.json",
+      "topic_title": "Global Geopolitics Monitor",
+      "raw_text_path": "data/geopolitics/raw/c045fe6fa7734b71fa0f385b4e9d110095957c1dc07f8ff87e0d78ccff397e99.txt",
+      "collected_at": "2026-05-21T14:46:23.462297+00:00",
+      "text_chars": 9168,
+      "data_type": "rss_feed_content",
+      "source_url": "https://www.defensenews.com/global/europe/2026/05/15/near-russian-border-nato-grapples-with-ground-robots-in-combat/",
+      "source_title": "Near Russian border, NATO grapples with ground robots in combat",
+      "published": "Fri, 15 May 2026 10:01:25 +0000",
+      "author": "Rudy Ruitenberg",
+      "publisher": "Defense News",
+      "language": "en",
+      "region": "Europe",
+      "summary": "NATO is testing unmanned ground vehicles (UGVs) during the Crystal Arrow exercise in Latvia, where local troops faced challenges against these new technologies. The exercise highlighted the need for integration of UGVs into military operations, as they provide tactical advantages in reconnaissance and combat. Ukrainian veterans contributed to the training, showcasing the evolving landscape of warfare with unmanned systems.",
+      "key_takeaways": [
+        "NATO is integrating unmanned ground vehicles into military exercises.",
+        "Latvian troops are learning to use UGVs for reconnaissance and combat.",
+        "Ukrainian veterans are providing training on UGV tactics.",
+        "The exercise revealed the need for adapting military strategies to include UGVs.",
+        "Brig. Gen. Chris Gent emphasized the importance of understanding UGV capabilities.",
+        "The future of warfare is leaning towards unmanned systems for tactical advantages."
+      ],
+      "why_it_matters": "The integration of unmanned ground vehicles into NATO operations represents a significant shift in military strategy, reflecting the need to adapt to modern warfare challenges. This exercise serves as a critical learning opportunity for NATO forces, particularly in understanding how to effectively utilize UGVs in combat scenarios.",
       "tags_topics": [
-        "fertiliser",
-        "food crisis",
-        "Iran conflict",
-        "global partnerships",
-        "overseas aid",
-        "climate finance"
+        "NATO",
+        "unmanned ground vehicles",
+        "military exercises",
+        "Latvia",
+        "Ukraine",
+        "drone warfare"
       ]
     },
     {
       "topic": "geopolitics",
-      "analysis_file": "geopolitics/raw/944a3b6b9276e8d3265d21fc63e85588f3b46f1900205f232c84abd62374d39c.analysis.json",
-      "metadata_file": "geopolitics/raw/944a3b6b9276e8d3265d21fc63e85588f3b46f1900205f232c84abd62374d39c.json",
+      "analysis_file": "geopolitics/raw/551e80fb29c46881e9b14607fca9769239a04e8d837f029c9b2fe268b4875bd1.analysis.json",
+      "metadata_file": "geopolitics/raw/551e80fb29c46881e9b14607fca9769239a04e8d837f029c9b2fe268b4875bd1.json",
       "topic_title": "Global Geopolitics Monitor",
-      "raw_text_path": "data/geopolitics/raw/944a3b6b9276e8d3265d21fc63e85588f3b46f1900205f232c84abd62374d39c.txt",
-      "collected_at": "2026-05-19T07:53:24.621371+00:00",
-      "text_chars": 5635,
+      "raw_text_path": "data/geopolitics/raw/551e80fb29c46881e9b14607fca9769239a04e8d837f029c9b2fe268b4875bd1.txt",
+      "collected_at": "2026-05-21T11:42:07.275598+00:00",
+      "text_chars": 5126,
       "data_type": "rss_feed_content",
-      "source_url": "https://www.npr.org/2026/05/19/g-s1-122762/trump-says-hes-called-off-iran-strike",
-      "source_title": "Trump says he's called off Iran strike at request of Gulf allies",
-      "published": "Tue, 19 May 2026 01:27:58 -0400",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/05/1167521",
+      "source_title": "Israeli military strikes add to civilian suffering in Gaza, West Bank and Lebanon",
+      "published": "Fri, 15 May 2026 12:00:00 +0000",
       "author": "",
       "publisher": "",
       "language": "",
       "region": "",
-      "summary": "President Donald Trump announced he is postponing a planned military strike on Iran due to ongoing negotiations aimed at ending the conflict. He stated that Gulf allies requested a delay of two to three days as they believe a deal with Iran is close. Despite previous threats and deadlines, Trump expressed optimism about the negotiations, while acknowledging past failures in reaching agreements. The announcement led to a drop in oil prices, reflecting market reactions to the potential for reduced military action.",
+      "summary": "The UN humanitarian update on Gaza and the West Bank highlights severe civilian suffering due to ongoing military strikes and displacement. Most of Gaza's population is displaced, with health risks increasing as residential areas are under attack. The situation is exacerbated by limited aid access and a spike in settler violence in the West Bank. The report coincides with the Nakba anniversary, emphasizing the historical context of displacement and ongoing humanitarian crises.",
       "key_takeaways": [
-        "Trump postpones military strike on Iran amid negotiations.",
-        "Gulf allies requested a delay, believing a deal is imminent.",
-        "Previous threats from Trump have not led to military action.",
-        "Oil prices fell following Trump's announcement.",
-        "Iran's nuclear program remains a central issue in negotiations.",
-        "Trust issues are a significant barrier to reaching an agreement."
+        "Over 85% of Gaza's population is displaced due to ongoing conflict.",
+        "Health risks are rising in Gaza, prompting UN pest control efforts.",
+        "Aid access remains severely restricted, with only half of aid trucks able to offload.",
+        "Settler violence in the Jordan Valley has increased 14-fold since 2020.",
+        "45 Palestinian-owned structures were demolished in the West Bank from May 5-11.",
+        "The situation in Lebanon remains dire despite a ceasefire, with ongoing airstrikes causing civilian casualties."
       ],
-      "why_it_matters": "This development highlights the complexities of U.S.-Iran relations and the influence of Gulf allies in diplomatic negotiations. The potential for a military strike and its postponement can significantly impact regional stability and global oil markets.",
+      "why_it_matters": "This report underscores the urgent humanitarian crisis in Gaza, the West Bank, and Lebanon, highlighting the need for international attention and intervention to protect civilians and facilitate aid access.",
       "tags_topics": []
     },
     {
       "topic": "geopolitics",
-      "analysis_file": "geopolitics/raw/1e796bc366d628be59c93acbc28b8a5faea4c75f73f49e1cf0eaf4e41735e37e.analysis.json",
-      "metadata_file": "geopolitics/raw/1e796bc366d628be59c93acbc28b8a5faea4c75f73f49e1cf0eaf4e41735e37e.json",
+      "analysis_file": "geopolitics/raw/a31b3209557818f41211d8317f8f0a55d312c54398e5d20f62e43b269e35f429.analysis.json",
+      "metadata_file": "geopolitics/raw/a31b3209557818f41211d8317f8f0a55d312c54398e5d20f62e43b269e35f429.json",
       "topic_title": "Global Geopolitics Monitor",
-      "raw_text_path": "data/geopolitics/raw/1e796bc366d628be59c93acbc28b8a5faea4c75f73f49e1cf0eaf4e41735e37e.txt",
-      "collected_at": "2026-05-19T03:51:12.747683+00:00",
-      "text_chars": 16139,
-      "data_type": "rss_feed_content",
-      "source_url": "https://www.theguardian.com/us-news/live/2026/may/18/donald-trump-redistricting-south-carolina-iran-healthcare-latest-news-updates",
-      "source_title": "Donald Trump says he ‘wasn’t involved’ in creation of $1.7bn compensation fund – as it happened",
-      "published": "Tue, 19 May 2026 01:44:29 GMT",
+      "raw_text_path": "data/geopolitics/raw/a31b3209557818f41211d8317f8f0a55d312c54398e5d20f62e43b269e35f429.txt",
+      "collected_at": "2026-05-21T14:45:49.511904+00:00",
+      "text_chars": 464,
+      "data_type": "images",
+      "source_url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/04-05-2026-WFP-Gaza-01.jpg/image560x340cropped.jpg",
+      "source_title": "Israeli military strikes add to civilian suffering in Gaza, West Bank and Lebanon (image)",
+      "published": "Fri, 15 May 2026 12:00:00 +0000",
       "author": "",
       "publisher": "",
       "language": "",
       "region": "",
-      "summary": "",
-      "tags_topics": []
-    },
-    {
-      "topic": "geopolitics",
-      "analysis_file": "geopolitics/raw/06d87daf1a57c81ea472f9d5886ccd1e6e8d83ced04f9d8a053aae58bd0e619d.analysis.json",
-      "metadata_file": "geopolitics/raw/06d87daf1a57c81ea472f9d5886ccd1e6e8d83ced04f9d8a053aae58bd0e619d.json",
-      "topic_title": "Global Geopolitics Monitor",
-      "raw_text_path": "data/geopolitics/raw/06d87daf1a57c81ea472f9d5886ccd1e6e8d83ced04f9d8a053aae58bd0e619d.txt",
-      "collected_at": "2026-05-19T03:51:12.396475+00:00",
-      "text_chars": 12303,
-      "data_type": "rss_feed_content",
-      "source_url": "https://www.theguardian.com/world/live/2026/may/18/us-israel-iran-lebanon-donald-trump-hormuz-oil-latest-news-updates",
-      "source_title": "UAE restores power to Barakah nuclear plant after drone strike, says IAEA – as it happened",
-      "published": "Tue, 19 May 2026 02:06:01 GMT",
-      "author": "",
-      "publisher": "",
-      "language": "",
-      "region": "",
-      "summary": "",
-      "tags_topics": []
-    },
-    {
-      "topic": "geopolitics",
-      "analysis_file": "geopolitics/raw/ce05ecf852639a2f6492b9a57bb020b84229b451dc1083b789c05eb59776b48e.analysis.json",
-      "metadata_file": "geopolitics/raw/ce05ecf852639a2f6492b9a57bb020b84229b451dc1083b789c05eb59776b48e.json",
-      "topic_title": "Global Geopolitics Monitor",
-      "raw_text_path": "data/geopolitics/raw/ce05ecf852639a2f6492b9a57bb020b84229b451dc1083b789c05eb59776b48e.txt",
-      "collected_at": "2026-05-19T07:53:24.375978+00:00",
-      "text_chars": 4102,
-      "data_type": "rss_feed_content",
-      "source_url": "https://www.france24.com/en/middle-east/20260519-middle-east-war-live-trump-says-very-good-chance-of-reaching-a-deal-with-iran",
-      "source_title": "Middle East war live: Trump says 'very good chance' of reaching a deal with Iran",
-      "published": "Tue, 19 May 2026 03:24:15 GMT",
-      "author": "",
-      "publisher": "",
-      "language": "",
-      "region": "",
-      "summary": "Iran has proposed a peace deal to the United States that includes reparations for war damage, the withdrawal of US troops, and the lifting of sanctions. President Trump has indicated a 'very good chance' of reaching an agreement to limit Iran's nuclear program. This comes after he paused a planned military attack against Iran to allow for negotiations. The situation has led to fluctuations in global markets, with European shares rising and oil prices falling.",
+      "summary": "The image highlights the impact of Israeli military strikes on civilians in Gaza, the West Bank, and Lebanon. It serves as a visual representation of the ongoing conflict and its humanitarian consequences. The source emphasizes the suffering of civilians amidst military actions, drawing attention to the urgent need for peace and security in the region.",
       "key_takeaways": [
-        "Iran's peace proposal includes reparations and troop withdrawal.",
-        "Trump claims a 'very good chance' of a deal with Iran.",
-        "US military action against Iran has been paused for negotiations.",
-        "European shares rose following news of the peace proposal.",
-        "Oil prices fell despite remaining above $100 a barrel.",
-        "Market analysts note a cycle of tensions followed by negotiation talks."
+        "Israeli military strikes are affecting civilians in Gaza.",
+        "The conflict extends to the West Bank and Lebanon.",
+        "Humanitarian consequences are severe for affected populations.",
+        "The image serves as a call for peace and security.",
+        "Visual documentation of conflict impacts is crucial.",
+        "Awareness of civilian suffering is essential for international response."
       ],
-      "why_it_matters": "The developments in US-Iran relations could significantly impact regional stability and global markets, particularly concerning oil prices and military engagements in the Middle East.",
+      "why_it_matters": "This image underscores the humanitarian crisis resulting from military actions in the region, highlighting the urgent need for international attention and intervention to protect civilian lives and promote peace.",
+      "tags_topics": []
+    },
+    {
+      "topic": "geopolitics",
+      "analysis_file": "geopolitics/raw/efc670e8f61552ba58e4495597272280c657af775c6bd211e608674248fda3c0.analysis.json",
+      "metadata_file": "geopolitics/raw/efc670e8f61552ba58e4495597272280c657af775c6bd211e608674248fda3c0.json",
+      "topic_title": "Global Geopolitics Monitor",
+      "raw_text_path": "data/geopolitics/raw/efc670e8f61552ba58e4495597272280c657af775c6bd211e608674248fda3c0.txt",
+      "collected_at": "2026-05-21T14:46:38.909015+00:00",
+      "text_chars": 4411,
+      "data_type": "rss_feed_content",
+      "source_url": "https://news.un.org/feed/view/en/story/2026/05/1167528",
+      "source_title": "Sudan hunger crisis deepens as UN warns millions face acute food shortages",
+      "published": "Fri, 15 May 2026 12:00:00 +0000",
+      "author": "",
+      "publisher": "",
+      "language": "",
+      "region": "",
+      "summary": "The UN has issued a warning about a deepening hunger crisis in Sudan, with over 19.5 million people facing crisis levels of food insecurity. The conflict, which began in April 2023, has led to widespread displacement and economic collapse, severely disrupting agriculture and humanitarian aid. Children are particularly affected, with an estimated 825,000 under five expected to suffer from severe acute malnutrition in 2026. The situation is exacerbated by the collapse of basic services and a lack of funding for humanitarian efforts.",
+      "key_takeaways": [
+        "Over 19.5 million people in Sudan are experiencing crisis levels of food insecurity.",
+        "More than 5 million people are facing emergency levels of hunger.",
+        "Children are disproportionately affected, with 825,000 expected to suffer from severe acute malnutrition in 2026.",
+        "The conflict has uprooted nearly 9 million people and disrupted agriculture.",
+        "Only 20% of the 2026 Humanitarian Needs and Response Plan has been funded.",
+        "Urgent international funding and expanded humanitarian access are needed to prevent further deterioration."
+      ],
+      "why_it_matters": "The situation in Sudan highlights the urgent need for international attention and support to address the humanitarian crisis exacerbated by ongoing conflict, economic collapse, and severe food shortages. The health and survival of millions, especially vulnerable children, are at stake.",
       "tags_topics": []
     }
   ],
   "brief": [
-    "The U.S. and Israel are signaling readiness for renewed military action against Iran, with increased U.S. Air Force activity noted in Tel Aviv. Israeli Prime Minister Benjamin Netanyahu and President Trump have discussed the potential for restarting warfare, while Iran seeks diplomatic solutions amid ongoing tensions. The situation remains precarious as both sides prepare for possible escalation.",
-    "North Korea's Kim Jong Un feels vindicated in maintaining his nuclear arsenal after observing the U.S. military action against Iran. Experts suggest that Kim's decision to pursue nuclear weapons was influenced by the U.S. decapitation strikes on Iranian leaders. North Korea has enacted laws to deter similar actions against its leadership, and with support from Russia and other nations, it aims to reshape its global image from a rogue state to a legitimate power.",
-    "UAE blames Iran or proxies for strike near nuclear plant, as Trump tells Tehran ‘clock is ticking’",
-    "Ryanair's CEO, Michael O’Leary, expressed confidence in the airline's jet fuel supplies for the summer, stating that Europe has secured alternative sources despite concerns linked to the Iran war. However, he warned that holidaymakers booking flights later this year may face higher fares due to persistent consumer uncertainty and rising fuel prices. The airline has hedged a significant portion of its fuel requirements but anticipates potential fare increases if prices remain elevated.",
-    "The recent arrest of Iraqi commander Mohammed Saad Baqer al-Saadi has unveiled Iran's strategy of using disposable operatives for terrorism in the West. Al-Saadi, linked to multiple attacks on Jewish sites, exemplifies a shift in terrorist tactics where less capable but easily recruited individuals are used. This new form of terrorism, facilitated by social media and cryptocurrency, poses significant challenges for Western security agencies."
+    "In an interview, Secretary of Defense Ash Carter discusses the 'Force of the Future' initiative, aimed at reforming the Department of Defense's personnel systems to attract and retain talented individuals. He emphasizes the importance of human capital in maintaining a competitive military force and addresses the challenges faced by service members considering leaving for private sector opportunities. Carter outlines the need for modern data analytics to understand personnel retention and the importance of providing educational opportunities and flexible career paths.",
+    "The CSIS Global Health Policy Center is hosting an event on March 17 to discuss how private bio-pharmaceutical firms can enhance societal goals such as affordability, access, quality, and innovation. Sir Andrew Witty, CEO of GlaxoSmithKline, will deliver a keynote address on the company's reforms and their impact on global markets. The event will also feature a roundtable discussion with notable panelists, including Dr. Margaret Hamburg and Dr. Ezekiel Emmanuel, to delve deeper into these critical themes.",
+    "The Munich Security Conference gathers global leaders to discuss defense and foreign policy. This article features interviews with key figures including Senators John McCain, Sheldon Whitehouse, David Perdue, and former Australian Prime Minister Kevin Rudd. They share insights on various global issues such as American power, Syria, Ukraine, and China, drawing from their extensive experience in politics and diplomacy.",
+    "The event discusses China's initiative to promote Internet sovereignty as a governing concept for the global Internet. This initiative has gained momentum, particularly highlighted during the World Internet Conference in Wuzhen. If successful, it could significantly impact the Internet, various industries, media, and information accessibility.",
+    "This podcast episode focuses on U.S.-Russian relations, tracing the evolution from Vladimir Putin's 2007 speech at the Munich Security Conference to Russian Prime Minister Medvedev's speech in 2016. The discussion highlights interviews with various experts and politicians, illustrating the fluctuating nature of these relations over nearly a decade. The episode aims to provide insights into the complexities of international diplomacy and security issues surrounding Russia."
   ],
   "timeline": [
+    {
+      "date": "1945-06",
+      "label": "Signing of the United Nations Charter",
+      "evidence_text": "The United Nations Charter, signed in San Francisco in June 1945, gave both convictions political form.",
+      "source": "data-repo/data/geopolitics/raw/a4db557c95fa98078090f21fde924860433f75c0f211992e4728ce8093e5edcd.analysis.json"
+    },
+    {
+      "date": "1945-06-26",
+      "label": "Establishment of the United Nations",
+      "evidence_text": "have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
+      "source": "data-repo/data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.analysis.json"
+    },
+    {
+      "date": "1953-07-27",
+      "label": "Korean War armistice",
+      "evidence_text": "An armistice was eventually signed in July 1953.",
+      "source": "data-repo/data/geopolitics/raw/34534ff88139418f454a13d02c1ac98fe909675560275a12332fc3994470f92d.analysis.json"
+    },
+    {
+      "date": "1973-01-01",
+      "label": "Vietnam War settlement",
+      "evidence_text": "The U.S.-Israeli war on Iran is likely to conclude like the Vietnam War did in 1973.",
+      "source": "data-repo/data/geopolitics/raw/34534ff88139418f454a13d02c1ac98fe909675560275a12332fc3994470f92d.analysis.json"
+    },
+    {
+      "date": "2001-01-01",
+      "label": "China joins the World Trade Organization",
+      "evidence_text": "Where participation in U.S.-led institutions — such as joining the World Trade Organization in 2001 — reassured others and reduced suspicion.",
+      "source": "data-repo/data/geopolitics/raw/6a32d89b6fcfeafab36c70e5d2426ac6286ab95feedef363d56b5d45e4044ab7.analysis.json"
+    },
+    {
+      "date": "2007-02-10",
+      "label": "Vladimir Putin's speech at the Munich Security Conference",
+      "evidence_text": "Vladimir Putin’s 2007 speech at the Munich Security Conference.",
+      "source": "data-repo/data/geopolitics/raw/066512715a1f5b5a299e149d7132aba1df3cd6b9c462f5e69033d17fb1400a26.analysis.json"
+    },
+    {
+      "date": "2008-01-18",
+      "label": "Approval of the document on United Nations Peacekeeping Operations Principles and Guidelines",
+      "evidence_text": "Approved on 18 January 2008.",
+      "source": "data-repo/data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.analysis.json"
+    },
+    {
+      "date": "2013-03-01",
+      "label": "Eric Badege fled to Rwanda.",
+      "evidence_text": "He fled to Rwanda in March 2013 and is still living there as of early 2016.",
+      "source": "data-repo/data/geopolitics/raw/9428d2e28ff70824438bbaaca3cd22dceafd9789821a5fa691e1dc5dc417c1eb.analysis.json"
+    },
+    {
+      "date": "2014-05-23",
+      "label": "Germain Katanga convicted by ICC.",
+      "evidence_text": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity.",
+      "source": "data-repo/data/geopolitics/raw/9428d2e28ff70824438bbaaca3cd22dceafd9789821a5fa691e1dc5dc417c1eb.analysis.json"
+    },
+    {
+      "date": "2014-07-01",
+      "label": "Siege of Ilovaisk begins",
+      "evidence_text": "Ilovaisk was the first major battle of the Donbas campaign.",
+      "source": "data-repo/data/geopolitics/raw/db0f275d9cc24cd8dbec3ecddaf919105da23697c471f86dcf6a5ed03bc46533.analysis.json"
+    },
+    {
+      "date": "2014-08-10",
+      "label": "Ukrainian forces attack Ilovaisk",
+      "evidence_text": "On Aug. 10, 2014, several Ukrainian volunteer battalions attacked to retake control of the city.",
+      "source": "data-repo/data/geopolitics/raw/db0f275d9cc24cd8dbec3ecddaf919105da23697c471f86dcf6a5ed03bc46533.analysis.json"
+    },
+    {
+      "date": "2014-09-05",
+      "label": "Minsk Protocol ceasefire agreement",
+      "evidence_text": "Policymakers and intermediaries hammered out a ceasefire — the Minsk Protocol.",
+      "source": "data-repo/data/geopolitics/raw/db0f275d9cc24cd8dbec3ecddaf919105da23697c471f86dcf6a5ed03bc46533.analysis.json"
+    },
+    {
+      "date": "2014-10-05",
+      "label": "Siege of Donetsk Airport intensifies",
+      "evidence_text": "By Oct. 5, the Donetsk People’s Army firmly held the airport’s perimeter.",
+      "source": "data-repo/data/geopolitics/raw/db0f275d9cc24cd8dbec3ecddaf919105da23697c471f86dcf6a5ed03bc46533.analysis.json"
+    },
+    {
+      "date": "2015-02-12",
+      "label": "Minsk II agreement drafted",
+      "evidence_text": "On Feb. 12, officials from the Trilateral Contact Group began drafting what would become the Minsk II agreement.",
+      "source": "data-repo/data/geopolitics/raw/db0f275d9cc24cd8dbec3ecddaf919105da23697c471f86dcf6a5ed03bc46533.analysis.json"
+    },
+    {
+      "date": "2016-01-01",
+      "label": "Trump's first term begins.",
+      "evidence_text": "What can we gather about his foreign policy objectives towards those countries from his first term.",
+      "source": "data-repo/data/geopolitics/raw/cb35f3b3c74ca1ae474a0411540fd0bc0a3338ae6ed1f3f46814efb0287465b0.analysis.json"
+    },
+    {
+      "date": "2016-02-12",
+      "label": "Dmitry Medvedev's speech at the Munich Security Conference",
+      "evidence_text": "Russian Prime Minister Medvedev’s speech at this year’s conference.",
+      "source": "data-repo/data/geopolitics/raw/066512715a1f5b5a299e149d7132aba1df3cd6b9c462f5e69033d17fb1400a26.analysis.json"
+    },
+    {
+      "date": "2016-02-16",
+      "label": "Munich Security Conference",
+      "evidence_text": "Our editor-in-chief, Ryan Evans, was privileged to join the U.S congressional delegation to this year’s conference.",
+      "source": "data-repo/data/geopolitics/raw/194b25cb1c666c13be5a1e7890c974d3d7f155e911fcd0139c09c44b685fd85b.analysis.json"
+    },
+    {
+      "date": "2016-02-16",
+      "label": "Discussion on China's Internet sovereignty initiative",
+      "evidence_text": "Please join us for a discussion on China’s initiative to promote Internet sovereignty as a key governing concept of the global Internet.",
+      "source": "data-repo/data/geopolitics/raw/d22261821626a14b88861badd69528c7af5c12776fd2dd30aa6d950ebcce8b42.analysis.json"
+    },
+    {
+      "date": "2016-03-17T10:00:00Z",
+      "label": "Discussion on bio-pharmaceutical industry and societal goals",
+      "evidence_text": "Please join the CSIS Global Health Policy Center on March 17, from 10:00am – 11:30am, for an exploration of how private bio-pharmaceutical firms can better support the critically important societal goals.",
+      "source": "data-repo/data/geopolitics/raw/ab1c993c5f9aeffcf5e42942c6743d09d7ac3d57437a9f814788ee121f0daff2.analysis.json"
+    },
+    {
+      "date": "2019-07-01",
+      "label": "Trump halted military aid to Ukraine.",
+      "evidence_text": "Yes, he halted aid there in summer 2019, leading to his first impeachment, but soon resumed.",
+      "source": "data-repo/data/geopolitics/raw/cb35f3b3c74ca1ae474a0411540fd0bc0a3338ae6ed1f3f46814efb0287465b0.analysis.json"
+    },
+    {
+      "date": "2020-03-15",
+      "label": "Thomas Lubanga released from prison.",
+      "evidence_text": "He was released on 15 March 2020 after having served his ICC sentence.",
+      "source": "data-repo/data/geopolitics/raw/9428d2e28ff70824438bbaaca3cd22dceafd9789821a5fa691e1dc5dc417c1eb.analysis.json"
+    },
+    {
+      "date": "2021-01-01",
+      "label": "Became Principal Deputy Director of DFAS",
+      "evidence_text": "Prior to this role, Mr. Witter served as the Principal Deputy Director since January 2021.",
+      "source": "data-repo/data/geopolitics/raw/a5f260efd95196b5d4d6fdb5f0c2418f4edcd9815dee7b8d3998e25e8bc3dd8e.analysis.json"
+    },
     {
       "date": "2022-01-01",
       "label": "North Korea enacted a law to deter decapitation strikes.",
@@ -403,10 +590,136 @@
       "source": "data-repo/data/geopolitics/raw/3ca2069a0148bb0b1d22c3b6b6560728e62e31eccbfd0bc2181820128da5cc20.analysis.json"
     },
     {
+      "date": "2022-01-01",
+      "label": "French forces withdrew from Mali",
+      "evidence_text": "French forces withdrew from Mali in 2022 after the military junta demanded its exit.",
+      "source": "data-repo/data/geopolitics/raw/c5c18ed3f5e1dfde5042d08a5845a0243f38952f2c908b845c6807d89400a50a.analysis.json"
+    },
+    {
+      "date": "2022-02-24",
+      "label": "Full-scale invasion of Ukraine by Russia",
+      "evidence_text": "Russia activated thousands of backdoors across Ukrainian systems, which it activated at the moment of full-scale invasion in 2022.",
+      "source": "data-repo/data/geopolitics/raw/482705132f04618d4143a217f9e07aa76a1404439d96a0b95668cc7c453a53e1.analysis.json"
+    },
+    {
+      "date": "2022-02-24",
+      "label": "Start of Russo-Ukrainian War",
+      "evidence_text": "The U.S. experience attempting to surge munitions production from 2022 to 2024 did not reveal uniform failure in boosting production rates.",
+      "source": "data-repo/data/geopolitics/raw/5c93540d1fb20f97835988f93cff2cdce43d706aca97bafec6412b448f03a141.analysis.json"
+    },
+    {
+      "date": "2022-02-24",
+      "label": "Russia's invasion of Ukraine",
+      "evidence_text": "The great powers themselves have launched wars of aggression, including Russia’s invasion of Ukraine.",
+      "source": "data-repo/data/geopolitics/raw/a4db557c95fa98078090f21fde924860433f75c0f211992e4728ce8093e5edcd.analysis.json"
+    },
+    {
+      "date": "2022-02-24",
+      "label": "Full-scale invasion of Ukraine by Russia",
+      "evidence_text": "The beginning of the full-scale invasion of Ukraine in 2022 did affect Russia’s image negatively.",
+      "source": "data-repo/data/geopolitics/raw/ee7eeb2f3d05eca7cbc6a9fcb71fd3a902dea79596bb1bb52792493fbdb3efb5.analysis.json"
+    },
+    {
+      "date": "2022-10-01",
+      "label": "Ukrainian counteroffensive on the southern front",
+      "evidence_text": "The starkest illustration of this problem was observed during the Ukrainian counteroffensive on the southern front in autumn 2022.",
+      "source": "data-repo/data/geopolitics/raw/482705132f04618d4143a217f9e07aa76a1404439d96a0b95668cc7c453a53e1.analysis.json"
+    },
+    {
+      "date": "2022-2023",
+      "label": "Russia weaponized the Black Sea grain corridor.",
+      "evidence_text": "From 2022 to 2023, Moscow weaponized the Black Sea grain corridor, allowing it to function, then choking it off.",
+      "source": "data-repo/data/geopolitics/raw/9f2fc6b624416df1c7203e74cc0ac835bd6ea04d3441cbf5c613b5e5228d0d20.analysis.json"
+    },
+    {
+      "date": "2023-01-01",
+      "label": "Direct Commission Program criticized as a disaster",
+      "evidence_text": "The direct commission program has been substantially overhauled since Lt. Gen. Jody Daniels... called it a 'disaster' in 2023.",
+      "source": "data-repo/data/geopolitics/raw/6cf1d875a442aa367ba6e30e507c2448acc01131fbfeab8c452a505f9d008610.analysis.json"
+    },
+    {
+      "date": "2023-01-01",
+      "label": "U.S. announcement of extended continental shelf claim in the Arctic",
+      "evidence_text": "China and Russia engaged in concerted lawfare in response to the U.S. announcement of an extended continental shelf claim in the Arctic in 2023.",
+      "source": "data-repo/data/geopolitics/raw/73b1c4342fe9b650f781c166bd993e84d4219e55d6d1506b661479abc6feaf93.analysis.json"
+    },
+    {
       "date": "2023-01-01",
       "label": "Home demolitions in Silwan",
       "evidence_text": "48 homes have been demolished since 2023, according to B'Tselem.",
       "source": "data-repo/data/geopolitics/raw/b909dcbb423a95ddca5ab946099c95901a8f75c6fff6c7f6087fcf243cadad68.analysis.json"
+    },
+    {
+      "date": "2023-01-01",
+      "label": "Burkina Faso expelled French forces",
+      "evidence_text": "Burkina Faso followed in 2023, expelling French forces.",
+      "source": "data-repo/data/geopolitics/raw/c5c18ed3f5e1dfde5042d08a5845a0243f38952f2c908b845c6807d89400a50a.analysis.json"
+    },
+    {
+      "date": "2023-01-01",
+      "label": "China placed export controls on gallium.",
+      "evidence_text": "In 2023, it placed export controls on gallium to retaliate against American restrictions on the export of advanced chips to China.",
+      "source": "data-repo/data/geopolitics/raw/e315b9721699cc3d5e39f8f633016a15937b25a0504e788126d6722fdb9c9e57.analysis.json"
+    },
+    {
+      "date": "2023-04-01",
+      "label": "Conflict erupts in Sudan",
+      "evidence_text": "Sudan has been engulfed in brutal conflict since April 2023, when fighting erupted between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces (RSF).",
+      "source": "data-repo/data/geopolitics/raw/efc670e8f61552ba58e4495597272280c657af775c6bd211e608674248fda3c0.analysis.json"
+    },
+    {
+      "date": "2023-04-17",
+      "label": "Ceasefire in Lebanon",
+      "evidence_text": "Despite the ceasefire that started on 17 April, civilians in Lebanon continue to endure an increasingly devastating toll from Israeli airstrikes.",
+      "source": "data-repo/data/geopolitics/raw/551e80fb29c46881e9b14607fca9769239a04e8d837f029c9b2fe268b4875bd1.analysis.json"
+    },
+    {
+      "date": "2023-10-01",
+      "label": "Houthi attacks on U.S. and British vessels",
+      "evidence_text": "The terror group that spent two years attacking U.S. and British warships and commercial vessels in the Red Sea between October 2023 and October 2025.",
+      "source": "data-repo/data/geopolitics/raw/05587cec4940a9389d88189866f5a3900d144e4ae70fd4a08ce310026fcc2d4c.analysis.json"
+    },
+    {
+      "date": "2023-10-01",
+      "label": "Gaza War begins, affecting Asian responses to maritime security.",
+      "evidence_text": "Another recent illustration of this Asian reluctance was their response, or lack thereof, to the Houthis’ attacks in the Red Sea after the start of the Gaza War in October 2023.",
+      "source": "data-repo/data/geopolitics/raw/3f1f19c7f432a97779ec2f6e92e76f9ad5c88cbf250d1ef6d4cd190d893ac134.analysis.json"
+    },
+    {
+      "date": "2023-10-07",
+      "label": "Hamas-led attacks prompting Israeli response",
+      "evidence_text": "Human rights groups have documented widespread, systemic torture and abuse of Palestinians in Israeli prisons and detention centres during Israel’s war in Gaza, prompted by the Hamas-led attacks on 7 October 2023.",
+      "source": "data-repo/data/geopolitics/raw/17c52733874ca72ac9c63365feca94ca36e483ddbba74078409a1ca23d6bfd8a.analysis.json"
+    },
+    {
+      "date": "2023-10-07",
+      "label": "Hamas-led attacks on Israel",
+      "evidence_text": "The reporting period saw unprecedented levels of killings of Palestinians by Israeli forces, the tightening and escalation of Israeli control over Palestinians and their land.",
+      "source": "data-repo/data/geopolitics/raw/3234ee6bfbff50c9c9fea45403150795861e7b9ffd560f0620863d0a5201fe20.analysis.json"
+    },
+    {
+      "date": "2023-10-07",
+      "label": "Hamas terrorist attacks",
+      "evidence_text": "Since the horrific terrorist attacks by Hamas on 7 October 2023, devastation from the subsequent war has been staggering.",
+      "source": "data-repo/data/geopolitics/raw/551e80fb29c46881e9b14607fca9769239a04e8d837f029c9b2fe268b4875bd1.analysis.json"
+    },
+    {
+      "date": "2023-10-07",
+      "label": "Hamas attack",
+      "evidence_text": "Meditating on the events that have unfolded since the Hamas attack of Oct. 7, 2023.",
+      "source": "data-repo/data/geopolitics/raw/8d6d5ef3533d24fcdaf2b10fae64001628a7a2e0c33e6f5e951c38357a5a3040.analysis.json"
+    },
+    {
+      "date": "2024",
+      "label": "Delta system passes NATO information-security audit.",
+      "evidence_text": "In 2024, it became the first Ukrainian combat system to pass an information-security audit to NATO standards.",
+      "source": "data-repo/data/geopolitics/raw/0b0fc9427a58261d4531f3578a345d4fbf5e701cc956faa4e26d5a0d7d259b2e.analysis.json"
+    },
+    {
+      "date": "2024",
+      "label": "Italy considers Airbus after suspending KC-46 plans.",
+      "evidence_text": "In 2024, however, Italy started to consider Airbus after suspending plans to acquire the KC-46 tankers.",
+      "source": "data-repo/data/geopolitics/raw/f3df0191d6156332cc8cc9e6f279e069e75ab688e01e33327017b270d012e72e.analysis.json"
     },
     {
       "date": "2024-01-01",
@@ -416,206 +729,212 @@
     },
     {
       "date": "2024-01-01",
+      "label": "Economic impact of the Hormuz crisis on Asian countries.",
+      "evidence_text": "Since the war against Iran began, Asian countries have felt its economic impact more acutely than anywhere else.",
+      "source": "data-repo/data/geopolitics/raw/3f1f19c7f432a97779ec2f6e92e76f9ad5c88cbf250d1ef6d4cd190d893ac134.analysis.json"
+    },
+    {
+      "date": "2024-01-01",
+      "label": "Icebreaker Collaboration Effort Pact announced",
+      "evidence_text": "The Icebreaker Collaboration Effort Pact, announced by the United States, Canada, and Finland in 2024.",
+      "source": "data-repo/data/geopolitics/raw/71a024f7467fe93b69bca0b7d32f90899b569ab90e3999d75f2e13e5b8d4cfd2.analysis.json"
+    },
+    {
+      "date": "2024-01-01",
       "label": "UN International Court of Justice advisory opinion",
       "evidence_text": "The United Nations' International Court of Justice in 2024 issued an advisory opinion that Israel unlawfully occupies East Jerusalem and the West Bank.",
       "source": "data-repo/data/geopolitics/raw/b909dcbb423a95ddca5ab946099c95901a8f75c6fff6c7f6087fcf243cadad68.analysis.json"
     },
     {
-      "date": "2026-02-28",
-      "label": "US and Israel attack Iran.",
-      "evidence_text": "Pakistan has been acting as a mediator since the US joined Israel in attacking Iran on February 28.",
-      "source": "data-repo/data/geopolitics/raw/0be63c35943f7c3f3c609702a67886421ad224df61a876764affc99622ab8aa0.analysis.json"
+      "date": "2024-03-02",
+      "label": "Hizballah enters the war",
+      "evidence_text": "Entering this latest war on March 2 allowed Hizballah to choose the timing.",
+      "source": "data-repo/data/geopolitics/raw/8d6d5ef3533d24fcdaf2b10fae64001628a7a2e0c33e6f5e951c38357a5a3040.analysis.json"
     },
     {
-      "date": "2026-02-28",
-      "label": "Iran war began",
-      "evidence_text": "The Iran war began on 28 February, making this the first full month of official data to show how employers responded to rising energy costs.",
-      "source": "data-repo/data/geopolitics/raw/75d4770a8b9b1f7a86ef0ed76eafc0d04fe4746325339f566217963bb4731eed.analysis.json"
+      "date": "2024-06-01",
+      "label": "Ukrainian assault on Staromayorske",
+      "evidence_text": "I witnessed this during the Ukrainian assault on Staromayorske in June 2024.",
+      "source": "data-repo/data/geopolitics/raw/4a2ab34bf32b0f739f7eae7e5b19a347b0fab8bbb6ea7a18226bbe12a9a22695.analysis.json"
     },
     {
-      "date": "2026-02-28",
-      "label": "Former Iranian Supreme Leader Ayatollah Ali Khamenei killed in U.S. and Israeli strikes.",
-      "evidence_text": "Bakhtiari nomads, wearing traditional dress, hold their guns during a pro-government gathering near the residence where former Iranian Supreme Leader Ayatollah Ali Khamenei, shown on a banner, was killed in U.S. and Israeli strikes on Feb. 28.",
-      "source": "data-repo/data/geopolitics/raw/944a3b6b9276e8d3265d21fc63e85588f3b46f1900205f232c84abd62374d39c.analysis.json"
+      "date": "2024-08-01",
+      "label": "North Korea develops Harop-style airframe prototypes",
+      "evidence_text": "Pyongyang moved from Harop-style airframe prototypes in August 2024.",
+      "source": "data-repo/data/geopolitics/raw/540eaf813db7a84f893a035dba030a3e51e73a136d254cad22bd7295367ebbdf.analysis.json"
     },
     {
-      "date": "2026-03-01",
-      "label": "UK unemployment rate rises to 5%",
-      "evidence_text": "The UK unemployment rate jumped back to 5% in March.",
-      "source": "data-repo/data/geopolitics/raw/d34ffb708a53fed01d9f21de322d6d693f06e81ac03d72e6d0aeb8edd699231e.analysis.json"
+      "date": "2024-09-01",
+      "label": "Production increases reported",
+      "evidence_text": "Such was the case in a September 2024 press release, in which the department touted production increases in 155mm projectiles and propellant.",
+      "source": "data-repo/data/geopolitics/raw/5c93540d1fb20f97835988f93cff2cdce43d706aca97bafec6412b448f03a141.analysis.json"
     },
     {
-      "date": "2026-03-02",
-      "label": "Hezbollah launches missiles at Israel",
-      "evidence_text": "The renewed Israeli war on Lebanon which started when Hezbollah launched missiles at Israel on 2 March.",
-      "source": "data-repo/data/geopolitics/raw/37628d91aeb9ce534a2433df8e2fdc4cb0c2546f04834bcceaf654e7425f7f6c.analysis.json"
+      "date": "2024-09-01",
+      "label": "Chinese icebreaker transit of the Northern Sea Route",
+      "evidence_text": "A Chinese icebreaker’s safe Northern Sea Route transit in Sept. 2024 further demonstrates increasing military and lawfare cooperation.",
+      "source": "data-repo/data/geopolitics/raw/73b1c4342fe9b650f781c166bd993e84d4219e55d6d1506b661479abc6feaf93.analysis.json"
     },
     {
-      "date": "2026-04-01",
-      "label": "Payrolled jobs fall by 100,000",
-      "evidence_text": "The number of payrolled jobs in the economy fell 100,000, or 0.3%, in April.",
-      "source": "data-repo/data/geopolitics/raw/d34ffb708a53fed01d9f21de322d6d693f06e81ac03d72e6d0aeb8edd699231e.analysis.json"
+      "date": "2024-09-01",
+      "label": "U.S. withdrawal from Niger",
+      "evidence_text": "The United States completed its withdrawal from Niger in September 2024.",
+      "source": "data-repo/data/geopolitics/raw/c5c18ed3f5e1dfde5042d08a5845a0243f38952f2c908b845c6807d89400a50a.analysis.json"
     },
     {
-      "date": "2026-04-01",
-      "label": "Stabbing in Golders Green",
-      "evidence_text": "Among them also is the stabbing in Golders Green, which left two Jewish men badly injured last month.",
-      "source": "data-repo/data/geopolitics/raw/e5c6a306520374ed1ac40e1e1a8f353389348e0f517e467b5236bd830081feb1.analysis.json"
+      "date": "2024-10-01",
+      "label": "Dave Prakash re-commissioned as a major",
+      "evidence_text": "Prakash joined because something inside him needed what the Army offers, and because he believed his skillset brought something to the table.",
+      "source": "data-repo/data/geopolitics/raw/6cf1d875a442aa367ba6e30e507c2448acc01131fbfeab8c452a505f9d008610.analysis.json"
     },
     {
-      "date": "2026-04-08",
-      "label": "Temporary ceasefire commenced",
-      "evidence_text": "An initial, temporary ceasefire commenced on April 8, six weeks into the war.",
-      "source": "data-repo/data/geopolitics/raw/0966bf11aa2d8ea82c37de1380e28de288253ab03fb8988a64eed81eff951e1e.analysis.json"
+      "date": "2024-12-01",
+      "label": "China escalated to an outright ban on gallium exports to the U.S.",
+      "evidence_text": "In December 2024, China escalated to an outright ban on gallium exports to the United States.",
+      "source": "data-repo/data/geopolitics/raw/e315b9721699cc3d5e39f8f633016a15937b25a0504e788126d6722fdb9c9e57.analysis.json"
     },
     {
-      "date": "2026-04-08",
-      "label": "Ceasefire deal struck between Iran and the US.",
-      "evidence_text": "Iran and the US struck a ceasefire deal on April 8.",
-      "source": "data-repo/data/geopolitics/raw/0be63c35943f7c3f3c609702a67886421ad224df61a876764affc99622ab8aa0.analysis.json"
+      "date": "2025-01-01",
+      "label": "Oil trade through the Strait of Hormuz",
+      "evidence_text": "In 2025, around 20 million barrels per day moved through the Strait of Hormuz.",
+      "source": "data-repo/data/geopolitics/raw/2b75626d83cfca58a86a26b310f8674652291006cfcc8c542b24c81dbec86bc4.analysis.json"
     },
     {
-      "date": "2026-05-13",
-      "label": "Arrest of Mohammed Saad Baqer al-Saadi",
-      "evidence_text": "The detention of Mohammed Saad Baqer al-Saadi in Turkey last week revealed rare details of Iran’s efforts.",
-      "source": "data-repo/data/geopolitics/raw/e5c6a306520374ed1ac40e1e1a8f353389348e0f517e467b5236bd830081feb1.analysis.json"
+      "date": "2025-01-20",
+      "label": "Donald Trump returns to the White House",
+      "evidence_text": "Much of these dynamics can obviously be attributed to the return of Donald Trump to the White House in January 2025.",
+      "source": "data-repo/data/geopolitics/raw/ee7eeb2f3d05eca7cbc6a9fcb71fd3a902dea79596bb1bb52792493fbdb3efb5.analysis.json"
     },
     {
-      "date": "2026-05-15",
-      "label": "Increased U.S. military presence in Tel Aviv",
-      "evidence_text": "Photos and videos circulating out of Tel Aviv International Airport show about 40 to 50 U.S. Air Force aerial tankers deployed currently at the airport.",
-      "source": "data-repo/data/geopolitics/raw/a0fe8dbe6dcdbb243a6be553edbe664ca5d6d94039a13f93e12be9a38ba83f01.analysis.json"
+      "date": "2025-02-01",
+      "label": "Meeting between Trump and Zelensky",
+      "evidence_text": "Trump has repeatedly framed Russia as the stronger power in the war, telling Zelensky that Ukraine didn’t 'have the cards.'",
+      "source": "data-repo/data/geopolitics/raw/f3b74a9c327436d34cae4eb4e5aa160df5bf6212b71e97861e85b41c3034bf09.analysis.json"
     },
     {
-      "date": "2026-05-15",
-      "label": "Talks held by Iran with neighboring countries",
-      "evidence_text": "This weekend, Iran held talks with Qatar, Turkey and Pakistan.",
-      "source": "data-repo/data/geopolitics/raw/a0fe8dbe6dcdbb243a6be553edbe664ca5d6d94039a13f93e12be9a38ba83f01.analysis.json"
+      "date": "2025-03-01",
+      "label": "Duterte's arrest and extradition to the ICC",
+      "evidence_text": "If arrested, Dela Rosa would join his former boss, Duterte, who was arrested in March 2025 and extradited to the ICC.",
+      "source": "data-repo/data/geopolitics/raw/17b0e1dd94c873200eff24adb88512de4d67bccb7e2225238f7b602ac47b51ec.analysis.json"
     },
     {
-      "date": "2026-05-15",
-      "label": "Drone strike on Barakah nuclear plant",
-      "evidence_text": "One of three drones got through from the west, causing a fire close to a four-reactor plant.",
-      "source": "data-repo/data/geopolitics/raw/c6186f655f5ea6d885711199bb5519c2c3806996b99e5e42c191a4c3ad696abb.analysis.json"
+      "date": "2025-03-01",
+      "label": "Israeli airstrike on Turkish airbase",
+      "evidence_text": "After Israeli warplanes attacked a prospective Turkish airbase in Syria last March.",
+      "source": "data-repo/data/geopolitics/raw/c9c1b62cdd317f4f07a5804d079e7d92c1d976bb17941c7cd6e0bf7f5c032e53.analysis.json"
     },
     {
-      "date": "2026-05-16",
-      "label": "Restoration of power to reactor no 3",
-      "evidence_text": "the UAE that off-site power to unit No 3 had been restored 'earlier today'.",
-      "source": "data-repo/data/geopolitics/raw/c6186f655f5ea6d885711199bb5519c2c3806996b99e5e42c191a4c3ad696abb.analysis.json"
+      "date": "2025-04",
+      "label": "Highest civilian casualties recorded in Kherson City",
+      "evidence_text": "According to the UN’s Human Rights Monitoring Mission to Ukraine, in April, Kherson City recorded the highest number of civilian casualties.",
+      "source": "data-repo/data/geopolitics/raw/bbd34ab392ab2d4effe05d3190e17225d76dba771b810971b37e150dca29bcd4.analysis.json"
     },
     {
-      "date": "2026-05-16",
-      "label": "Ceasefire extension announced",
-      "evidence_text": "A 45-day ceasefire extension between Lebanon and Israel is now in effect after a third round of US-hosted talks.",
-      "source": "data-repo/data/geopolitics/raw/e91cd82869f2bd9d17b0c3315b66b7b3787670ef18641666b81bc557c2f4293c.analysis.json"
+      "date": "2025-04-22",
+      "label": "Terrorist attack in Pahalgam.",
+      "evidence_text": "Following a terrorist attack in Pahalgam in the Kashmir Valley on April 22 last year.",
+      "source": "data-repo/data/geopolitics/raw/ddb5b5f9d44be62336701c6ba272540551e52a524375e93ec6d380fbd43afab3.analysis.json"
     },
     {
-      "date": "2026-05-17",
-      "label": "Drone strike near Barakah nuclear power plant",
-      "evidence_text": "The fire was just outside the Barakah nuclear plant and caused no injuries or radiation alerts.",
-      "source": "data-repo/data/geopolitics/raw/761e43dc5bb4a28837aa2b02dd93ac3bcb5a16c7159b7f828b68e43b06b9d8b8.analysis.json"
+      "date": "2025-04-30",
+      "label": "Start of Project Flytrap 5.0 exercise",
+      "evidence_text": "The exercise, which began April 30 and ended today, is part of Saber Strike 26.",
+      "source": "data-repo/data/geopolitics/raw/da1586421ec4f665822515707432daaa7b2746a6108395125e8dc21dd7a2ce80.analysis.json"
     },
     {
-      "date": "2026-05-18",
-      "label": "Trump postpones scheduled attack on Iran.",
-      "evidence_text": "United States President Donald Trump has announced he will postpone a 'scheduled attack' against Iran at the request of regional leaders in the Middle East.",
-      "source": "data-repo/data/geopolitics/raw/0be63c35943f7c3f3c609702a67886421ad224df61a876764affc99622ab8aa0.analysis.json"
+      "date": "2025-05",
+      "label": "Start of Flytrap iterations in Germany and Poland",
+      "evidence_text": "Iterations 2.0 through 4.0, carried out in Germany and Poland between May and August 2025.",
+      "source": "data-repo/data/geopolitics/raw/da1586421ec4f665822515707432daaa7b2746a6108395125e8dc21dd7a2ce80.analysis.json"
     },
     {
-      "date": "2026-05-18",
-      "label": "Donald Trump announced the creation of a $1.7bn compensation fund.",
-      "evidence_text": "Trump moved to dismiss a $10bn lawsuit against the Internal Revenue Service and his administration created a $1.776bn 'anti-weaponization' fund.",
-      "source": "data-repo/data/geopolitics/raw/1e796bc366d628be59c93acbc28b8a5faea4c75f73f49e1cf0eaf4e41735e37e.analysis.json"
+      "date": "2025-05-06",
+      "label": "India launched air and missile strikes on Pakistan.",
+      "evidence_text": "India launched air and missile strikes on Pakistani targets on the night of May 6-7.",
+      "source": "data-repo/data/geopolitics/raw/ddb5b5f9d44be62336701c6ba272540551e52a524375e93ec6d380fbd43afab3.analysis.json"
     },
     {
-      "date": "2026-05-18",
-      "label": "Shooting at the Islamic Center of San Diego.",
-      "evidence_text": "Police are investigating a deadly shooting at the Islamic Center of San Diego as a hate crime, after three people were killed.",
-      "source": "data-repo/data/geopolitics/raw/1e796bc366d628be59c93acbc28b8a5faea4c75f73f49e1cf0eaf4e41735e37e.analysis.json"
+      "date": "2025-05-07",
+      "label": "Operation SINDOOR launched by India",
+      "evidence_text": "India launched Operation SINDOOR on May 7, 2025.",
+      "source": "data-repo/data/geopolitics/raw/916efd266c4223333a4368ed3b5ee839b529033490e6fdcb89a67e2fc4f14dfc.analysis.json"
     },
     {
-      "date": "2026-05-18",
-      "label": "Global Partnerships conference",
-      "evidence_text": "before a conference of governments in London to discuss overseas aid and development.",
-      "source": "data-repo/data/geopolitics/raw/3f2a6475407621341f13d0bc80b894ab4bc24d7f9c3962f458b696c23ecd0842.analysis.json"
+      "date": "2025-05-10",
+      "label": "Munir's speech at GHQ.",
+      "evidence_text": "On May 10 this year, Pakistan’s Army Chief and Field Marshal Asim Munir addressed a high-profile ceremony.",
+      "source": "data-repo/data/geopolitics/raw/ddb5b5f9d44be62336701c6ba272540551e52a524375e93ec6d380fbd43afab3.analysis.json"
     },
     {
-      "date": "2026-05-18",
-      "label": "Ryanair announces confidence in fuel supplies and fare outlook.",
-      "evidence_text": "Ryanair said it has 'almost zero concerns' about its jet fuel supplies this summer.",
-      "source": "data-repo/data/geopolitics/raw/850ae3488450c42ea006b217f08e1242f488ff53405da0b6e1f98a98d598d07a.analysis.json"
+      "date": "2025-05-19",
+      "label": "Security Council meeting following attacks on civilians",
+      "evidence_text": "Just yesterday, 19 May, the organ met following attacks on civilian populations in Ukraine and infrastructure in the United Arab Emirates.",
+      "source": "data-repo/data/geopolitics/raw/cfbfa4827de27db5aabf31f1b5eebf7fcc1c0f388ca3efe467c057df1c9c96fa.analysis.json"
     },
     {
-      "date": "2026-05-18",
-      "label": "Trump announces postponement of military strike on Iran.",
-      "evidence_text": "Trump said he is holding off on a military strike on Iran planned for Tuesday.",
-      "source": "data-repo/data/geopolitics/raw/944a3b6b9276e8d3265d21fc63e85588f3b46f1900205f232c84abd62374d39c.analysis.json"
+      "date": "2025-06-01",
+      "label": "Operation Midnight Hammer",
+      "evidence_text": "Since Operation Midnight Hammer in June 2025, the timeline for Iran to produce a nuclear weapon... has remained roughly nine to 12 months.",
+      "source": "data-repo/data/geopolitics/raw/1d7fd999ca6a3fcc9ebafac827e51eefe86d56890e1402aae162faa1bfd8fa13.analysis.json"
     },
     {
-      "date": "2026-05-18",
-      "label": "Trump postpones military attack on Iran",
-      "evidence_text": "Trump said he had been asked by the leaders of several Gulf countries to 'hold off on our planned Military attack [on Iran].'",
-      "source": "data-repo/data/geopolitics/raw/e91cd82869f2bd9d17b0c3315b66b7b3787670ef18641666b81bc557c2f4293c.analysis.json"
+      "date": "2025-06-01",
+      "label": "Joint strikes on Iran's nuclear program",
+      "evidence_text": "The United States and Israel decided to jointly strike Iran’s nuclear program in June 2025.",
+      "source": "data-repo/data/geopolitics/raw/1d7fd999ca6a3fcc9ebafac827e51eefe86d56890e1402aae162faa1bfd8fa13.analysis.json"
     },
     {
-      "date": "2026-05-18",
-      "label": "Death toll in Lebanon crosses 3,000 due to Israeli strikes.",
-      "evidence_text": "The total cumulative toll of the aggression from March 2 to May 18 is now as follows: 3,020 martyrs and 9,273 wounded.",
-      "source": "data-repo/data/geopolitics/raw/f6435ad38e0afa64fa2111ec278e9d3605b7724b2c8914aa978ebd89139f63a5.analysis.json"
+      "date": "2025-06-01",
+      "label": "U.S.-Israeli airstrikes on Iran",
+      "evidence_text": "Israeli and U.S. airstrikes in June 2025 had caused major damage to Iran’s nuclear program.",
+      "source": "data-repo/data/geopolitics/raw/34534ff88139418f454a13d02c1ac98fe909675560275a12332fc3994470f92d.analysis.json"
     },
     {
-      "date": "2026-05-19",
-      "label": "Donald Trump postpones military attack on Iran",
-      "evidence_text": "Donald Trump said he postponed a planned military attack on Iran set for Tuesday after it sent a peace proposal to Washington.",
-      "source": "data-repo/data/geopolitics/raw/06d87daf1a57c81ea472f9d5886ccd1e6e8d83ced04f9d8a053aae58bd0e619d.analysis.json"
+      "date": "2025-06-01",
+      "label": "June 2025 War",
+      "evidence_text": "Public analysis of Israel’s June 2025 war documented significant interceptor drawdown.",
+      "source": "data-repo/data/geopolitics/raw/6010643998f8490a4d47d9458322fb1333bb129bc165997681f9488f03d9b0c2.analysis.json"
     },
     {
-      "date": "2026-05-19",
-      "label": "Restoration of power to Barakah nuclear plant",
-      "evidence_text": "Off-site power was restored to a unit of the Barakah nuclear power plant in the United Arab Emirates after the drone strike on Sunday.",
-      "source": "data-repo/data/geopolitics/raw/06d87daf1a57c81ea472f9d5886ccd1e6e8d83ced04f9d8a053aae58bd0e619d.analysis.json"
+      "date": "2025-06-01",
+      "label": "Iran-Israel war",
+      "evidence_text": "The Iran-Israel war of June 2025.",
+      "source": "data-repo/data/geopolitics/raw/8d6d5ef3533d24fcdaf2b10fae64001628a7a2e0c33e6f5e951c38357a5a3040.analysis.json"
     },
     {
-      "date": "2026-05-19",
-      "label": "Trump pauses planned attack on Iran",
-      "evidence_text": "Trump said he had been asked by the leaders of Qatar, Saudi Arabia and the UAE to hold off on a planned attack on Iran.",
-      "source": "data-repo/data/geopolitics/raw/0966bf11aa2d8ea82c37de1380e28de288253ab03fb8988a64eed81eff951e1e.analysis.json"
+      "date": "2025-07",
+      "label": "Armed Gerbera drones entered Lithuanian airspace.",
+      "evidence_text": "In July 2025, armed Gerbera drones entered Lithuanian airspace twice.",
+      "source": "data-repo/data/geopolitics/raw/9f2fc6b624416df1c7203e74cc0ac835bd6ea04d3441cbf5c613b5e5228d0d20.analysis.json"
     },
     {
-      "date": "2026-05-19",
-      "label": "Trump calls off planned attack on Iran",
-      "evidence_text": "Trump says he has called off a planned attack on Iran on Tuesday at the request of Gulf states.",
-      "source": "data-repo/data/geopolitics/raw/37628d91aeb9ce534a2433df8e2fdc4cb0c2546f04834bcceaf654e7425f7f6c.analysis.json"
+      "date": "2025-07-25",
+      "label": "Drone strike on Emirati nuclear plant",
+      "evidence_text": "following drone strike on Emirati plant",
+      "source": "data-repo/data/geopolitics/raw/6cf460feb690f1bb113b7bb8530e0de30829127ae61ca6f2a14a7b3abecd740e.analysis.json"
     },
     {
-      "date": "2026-05-19",
-      "label": "Iran proposes peace deal to the US",
-      "evidence_text": "Iran's recent proposal to the United States calls for the lifting of sanctions on Tehran.",
-      "source": "data-repo/data/geopolitics/raw/ce05ecf852639a2f6492b9a57bb020b84229b451dc1083b789c05eb59776b48e.analysis.json"
+      "date": "2025-09-01",
+      "label": "Announcement of the 500,000 drone warriors training program",
+      "evidence_text": "In September 2025, South Korea’s Minister of National Defense Ahn Gyu-back announced a plan to train 500,000 'drone warriors' at the 36th Infantry Division base in Wonju.",
+      "source": "data-repo/data/geopolitics/raw/540eaf813db7a84f893a035dba030a3e51e73a136d254cad22bd7295367ebbdf.analysis.json"
     },
     {
-      "date": "2026-05-19",
-      "label": "Trump pauses planned military attack on Iran",
-      "evidence_text": "Trump said he had instructed the US military that 'we will NOT be doing the scheduled attack of Iran tomorrow.'",
-      "source": "data-repo/data/geopolitics/raw/ce05ecf852639a2f6492b9a57bb020b84229b451dc1083b789c05eb59776b48e.analysis.json"
+      "date": "2025-09-01",
+      "label": "Release of AI Safety Governance Framework 2.0",
+      "evidence_text": "China’s AI Safety Governance Framework 2.0, released in September 2025, holds safeguarding national sovereignty as a key governance principle.",
+      "source": "data-repo/data/geopolitics/raw/706ad231ac51c9b05488dfe6f38679d4e86a42b61e199f4988677838fe5b72c2.analysis.json"
     },
     {
-      "date": "2026-05-19",
-      "label": "Trump postpones military attack on Iran.",
-      "evidence_text": "The US president says he postponed a planned attack on Iran after requests from the leaders of Qatar, Saudi Arabia and the United Arab Emirates.",
-      "source": "data-repo/data/geopolitics/raw/f6435ad38e0afa64fa2111ec278e9d3605b7724b2c8914aa978ebd89139f63a5.analysis.json"
-    },
-    {
-      "date": "2026-07-01",
-      "label": "Increase in energy bills to £1,850",
-      "evidence_text": "A typical gas and electricity bill is forecast to reach £1,850 a year from July under the industry regulator Ofgem’s quarterly price cap.",
-      "source": "data-repo/data/geopolitics/raw/0bc876c98ae8f4908154592acc85ab72201d14c72e1fbb18fd128871ba3a11ea.analysis.json"
+      "date": "2025-09-01",
+      "label": "Launch of AI safety network with ASEAN",
+      "evidence_text": "China and the Association of Southeast Asian Nations (ASEAN) agreed in September 2025 to launch an AI safety network in 2026.",
+      "source": "data-repo/data/geopolitics/raw/706ad231ac51c9b05488dfe6f38679d4e86a42b61e199f4988677838fe5b72c2.analysis.json"
     }
   ],
   "source_quality": {
-    "total_text_chars": 139912,
-    "average_text_chars": 6662.5,
-    "latest_collected_at": "2026-05-19T15:00:21.330803+00:00"
+    "total_text_chars": 24758470,
+    "average_text_chars": 148254.3,
+    "latest_collected_at": "2026-05-21T14:47:32.140875+00:00"
   }
 }
