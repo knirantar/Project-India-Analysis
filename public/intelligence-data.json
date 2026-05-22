@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-05-21T21:25:38.422522+00:00",
+  "generated_at": "2026-05-22T00:04:25.597970+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "analysis_source": "analysis_output",
   "summary": {
-    "raw_documents": 184,
-    "analyzed_documents": 184,
-    "claims": 481,
-    "entities": 564,
-    "events": 270,
-    "metrics": 170,
+    "raw_documents": 191,
+    "analyzed_documents": 191,
+    "claims": 501,
+    "entities": 585,
+    "events": 283,
+    "metrics": 178,
     "relationships": 53,
     "topics": 1,
-    "total_text_chars": 35099486
+    "total_text_chars": 35963574
   },
   "topic_cards": [
     {
       "topic": "geopolitics",
       "title": "Global Geopolitics Monitor",
-      "documents": 184,
-      "claims": 481,
-      "entities": 564,
-      "events": 270,
-      "updated_at": "2026-05-21T22:25:20.885568+00:00"
+      "documents": 191,
+      "claims": 501,
+      "entities": 585,
+      "events": 283,
+      "updated_at": "2026-05-22T00:12:13.275915+00:00"
     }
   ],
   "format_counts": [
     {
       "name": "Article",
-      "value": 134
+      "value": 138
     },
     {
       "name": "Image",
@@ -35,7 +35,11 @@
     },
     {
       "name": "Sanctions",
-      "value": 7
+      "value": 8
+    },
+    {
+      "name": "PDF",
+      "value": 5
     },
     {
       "name": "Video",
@@ -48,16 +52,12 @@
     {
       "name": "Dataset",
       "value": 3
-    },
-    {
-      "name": "PDF",
-      "value": 3
     }
   ],
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 132
+      "value": 136
     },
     {
       "name": "images",
@@ -69,11 +69,11 @@
     },
     {
       "name": "sanctions_designations",
-      "value": 7
+      "value": 8
     },
     {
       "name": "pdfs",
-      "value": 3
+      "value": 5
     },
     {
       "name": "structured_datasets",
@@ -107,7 +107,7 @@
     },
     {
       "name": "theguardian.com",
-      "value": 22
+      "value": 23
     },
     {
       "name": "news.un.org",
@@ -118,16 +118,16 @@
       "value": 15
     },
     {
+      "name": "foreignpolicy.com",
+      "value": 8
+    },
+    {
       "name": "war.gov",
       "value": 8
     },
     {
-      "name": "foreignpolicy.com",
-      "value": 7
-    },
-    {
       "name": "aljazeera.com",
-      "value": 6
+      "value": 7
     },
     {
       "name": "npr.org",
@@ -142,8 +142,16 @@
       "value": 4
     },
     {
+      "name": "reliefweb.int",
+      "value": 4
+    },
+    {
       "name": "treasury.gov",
       "value": 4
+    },
+    {
+      "name": "scsanctions.un.org",
+      "value": 3
     },
     {
       "name": "api.worldbank.org",
@@ -151,14 +159,6 @@
     },
     {
       "name": "csis.org",
-      "value": 2
-    },
-    {
-      "name": "dw.com",
-      "value": 2
-    },
-    {
-      "name": "foreignaffairs.com",
       "value": 2
     }
   ],
@@ -169,7 +169,7 @@
     },
     {
       "name": "Donald Trump",
-      "value": 18
+      "value": 19
     },
     {
       "name": "Ukraine",
@@ -208,15 +208,15 @@
       "value": 7
     },
     {
+      "name": "Itamar Ben-Gvir",
+      "value": 6
+    },
+    {
       "name": "Benjamin Netanyahu",
       "value": 5
     },
     {
       "name": "India",
-      "value": 5
-    },
-    {
-      "name": "Itamar Ben-Gvir",
       "value": 5
     },
     {
@@ -232,6 +232,10 @@
       "value": 5
     },
     {
+      "name": "Qatar",
+      "value": 4
+    },
+    {
       "name": "Strait of Hormuz",
       "value": 4
     },
@@ -240,45 +244,41 @@
       "value": 4
     },
     {
+      "name": "Eric Badege",
+      "value": 3
+    },
+    {
       "name": "Estonia",
       "value": 3
     },
     {
+      "name": "Germain Katanga",
+      "value": 3
+    },
+    {
       "name": "International Atomic Energy Agency",
-      "value": 3
-    },
-    {
-      "name": "International Monetary Fund",
-      "value": 3
-    },
-    {
-      "name": "Islamic Revolutionary Guard Corps (IRGC)",
-      "value": 3
-    },
-    {
-      "name": "Israeli Government",
       "value": 3
     }
   ],
   "signals": [
     {
       "name": "Military Capability",
-      "count": 103,
+      "count": 106,
       "formats": [
         {
           "name": "Article",
-          "value": 91
+          "value": 93
         },
         {
           "name": "Image",
           "value": 6
         },
         {
-          "name": "Book",
-          "value": 2
+          "name": "PDF",
+          "value": 3
         },
         {
-          "name": "PDF",
+          "name": "Book",
           "value": 2
         },
         {
@@ -288,49 +288,49 @@
       ],
       "latest": [
         {
-          "title": "Poland joins Pentagon’s counter-drone marketplace amid unexpected US deployment cancellation",
-          "url": "https://www.defensenews.com/news/your-military/2026/05/21/poland-joins-pentagons-counter-drone-marketplace-amid-unexpected-us-deployment-cancellation/",
-          "format": "Article",
-          "collected_at": "2026-05-21T21:25:38.422522+00:00",
-          "summary": "The U.S. Army has expanded military cooperation with Poland through the Pentagon's counter-drone initiative, despite the cancellation of a planned deployment to the country. Army Secretary Dan Driscoll signed a statement of intent with Poland’s Deputy Minister of National Defense, Paweł Zalewski, to join the initiative. This program aims to enhance defense technology procurement for the U.S. and its allies, connecting them with emerging technologies to address evolving threats."
-        },
-        {
           "title": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
           "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
           "format": "PDF",
-          "collected_at": "2026-05-21T21:24:57.541593+00:00",
+          "collected_at": "2026-05-22T00:04:25.597970+00:00",
           "summary": "The document outlines the Geneva Conventions of 12 August 1949, which are fundamental treaties aimed at protecting individuals in armed conflict. It details the responsibilities of the International Committee of the Red Cross (ICRC) and the application of humanitarian law. The conventions emphasize the protection of wounded and sick military personnel, medical units, and the rights of individuals during conflicts."
         },
         {
           "title": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
           "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
           "format": "PDF",
-          "collected_at": "2026-05-21T21:24:52.117434+00:00",
+          "collected_at": "2026-05-22T00:04:20.751334+00:00",
           "summary": "The Charter of the United Nations, established in 1945, outlines the purposes and principles of the UN, aiming to maintain international peace and security, promote human rights, and foster international cooperation. It emphasizes the sovereign equality of all member states and the importance of settling disputes peacefully. The document also details the structure and functions of the UN's principal organs, including the General Assembly and the Security Council."
         },
         {
           "title": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
           "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
           "format": "Dataset",
-          "collected_at": "2026-05-21T21:24:10.939263+00:00",
+          "collected_at": "2026-05-22T00:03:43.499457+00:00",
           "summary": "The dataset provides information on military expenditure in current USD for the region of Africa Eastern and Southern from 1994 to 2025. It includes annual military expenditure figures, showing a general trend of increase over the years. The most recent data point for 2024 indicates military expenditure of approximately 13.66 billion USD."
         },
         {
-          "title": "War is becoming a death sentence for women and girls (image)",
-          "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/23-10-2024-UN-Women-Gaza-04.jpg/image560x340cropped.jpg",
-          "format": "Image",
-          "collected_at": "2026-05-21T19:47:50.562475+00:00",
-          "summary": "The image titled 'War is becoming a death sentence for women and girls' highlights the severe impact of conflict on women and girls. It serves as a visual representation of the ongoing struggles faced by these groups in war-torn regions. The image is part of a broader discussion on gender-based violence and the humanitarian crises exacerbated by armed conflicts."
+          "title": "Health Cluster Monthly Bulletin Mozambique (April 2026) (pdf)",
+          "url": "https://reliefweb.int/attachments/39b52b68-7196-440a-9489-ac374d1b1106/Health%20Cluster%20Monthly%20Bulletin_Mozambique-April%202026.pdf",
+          "format": "PDF",
+          "collected_at": "2026-05-21T23:01:34.097901+00:00",
+          "summary": "Mozambique is experiencing a complex humanitarian crisis due to climate-related shocks and armed conflict, impacting health services and increasing disease risks. In April 2026, Health Cluster partners coordinated efforts to deliver essential health services, focusing on mobile clinics and mental health support. The bulletin outlines activities and achievements in response to urgent health needs in both northern and southern regions affected by conflict and floods."
+        },
+        {
+          "title": "Health Cluster Monthly Bulletin Mozambique (April 2026)",
+          "url": "https://reliefweb.int/report/mozambique/health-cluster-monthly-bulletin-mozambique-april-2026",
+          "format": "Article",
+          "collected_at": "2026-05-21T23:01:33.853221+00:00",
+          "summary": "Mozambique is experiencing a complex humanitarian crisis due to climate-related shocks and armed conflict, severely impacting vulnerable populations' health. In 2026, floods in central and southern provinces have led to displacement and increased risks of waterborne diseases. Insecurity in Cabo Delgado continues to strain health systems, necessitating urgent humanitarian assistance. Health Cluster partners are coordinating responses to deliver essential health services, despite significant challenges in access and resources."
         }
       ]
     },
     {
       "name": "Iran War Corridor",
-      "count": 81,
+      "count": 84,
       "formats": [
         {
           "name": "Article",
-          "value": 68
+          "value": 70
         },
         {
           "name": "Image",
@@ -345,11 +345,32 @@
           "value": 2
         },
         {
-          "name": "Sanctions",
+          "name": "PDF",
           "value": 1
         }
       ],
       "latest": [
+        {
+          "title": "Trump Hasn’t Given Up on Greenland",
+          "url": "https://foreignpolicy.com/2026/05/21/trump-greenland-nato-ben-gvir-israel-gaza-qatar/",
+          "format": "Article",
+          "collected_at": "2026-05-21T23:01:36.270916+00:00",
+          "summary": "The article discusses U.S. President Donald Trump's ongoing interest in acquiring Greenland, despite previous controversies and NATO allies' concerns. Trump's envoy, Jeff Landry, is currently visiting Greenland, emphasizing the U.S. need for a presence there. The piece also highlights the international backlash against Israeli Minister Itamar Ben-Gvir for his controversial actions regarding activists aiding Gaza, and Qatar's commitment to mediating in the Middle East despite challenges."
+        },
+        {
+          "title": "Board of Peace envoy warns ‘permanent’ Gaza divide under current status quo",
+          "url": "https://www.aljazeera.com/news/2026/5/21/board-of-peace-envoy-warns-permanent-gaza-divide-under-current-status-quo?traffic_source=rss",
+          "format": "Article",
+          "collected_at": "2026-05-21T23:01:03.057986+00:00",
+          "summary": "Nickolay Mladenov, the high representative of the Board of Peace for Gaza, warned the UN Security Council that the current deteriorating situation in Gaza risks becoming permanent. He presented a roadmap for a ceasefire that requires both Israel and Hamas to fulfill their obligations. Mladenov emphasized the need for action from both parties to prevent a divided Gaza and a humanitarian crisis."
+        },
+        {
+          "title": "Attacks and Displacement Continue in Lebanon: NGOs Call for a Genuine and Lasting Ceasefire (pdf)",
+          "url": "https://reliefweb.int/attachments/6dfd8bd6-4ab3-4618-b082-0ac493529c92/Attacks%20and%20Displacement%20Continue%20in%20Lebanon_%20NGOs%20Call%20for%20a%20Genuine%20and%20Lasting%20Ceasefire.pdf",
+          "format": "PDF",
+          "collected_at": "2026-05-21T23:01:02.019343+00:00",
+          "summary": "The document discusses the ongoing humanitarian crisis in Lebanon following a ceasefire that has not effectively reduced hostilities. Despite a temporary ceasefire declared on April 17, 2026, attacks have continued, resulting in significant civilian casualties and displacement. The report highlights the urgent need for humanitarian access and calls for a genuine and lasting ceasefire to protect civilians and allow for the safe return of displaced populations."
+        },
         {
           "title": "Gaza risks ‘permanent’ state of limbo if transition plan stalls, Security Council hears",
           "url": "https://news.un.org/feed/view/en/story/2026/05/1167568",
@@ -363,37 +384,16 @@
           "format": "Video",
           "collected_at": "2026-05-21T19:47:50.461110+00:00",
           "summary": "The video discusses the impact of aid flotillas to Gaza, which began in 2008 following the Israeli blockade. Despite attempts by Israeli forces to stop these flotillas, some have succeeded in delivering humanitarian aid. The recent mistreatment of activists by an Israeli minister has sparked global condemnation, raising questions about the international community's response to Israel's treatment of both activists and Palestinians."
-        },
-        {
-          "title": "Saudi Arabia: 1.5 million join Hajj pilgrimage despite war",
-          "url": "https://www.dw.com/en/saudi-arabia-1-5-million-join-hajj-pilgrimage-despite-war/a-77213872?maca=en-rss-en-world-4025-rdf",
-          "format": "Image",
-          "collected_at": "2026-05-21T19:47:45.488207+00:00",
-          "summary": "This year, Saudi Arabia is proceeding with the Hajj pilgrimage amidst ongoing conflict, expecting around 1.5 million pilgrims. The event, which runs from May 25 to May 29, is complicated by the Iran war and travel advisories from several countries. Despite these challenges, many pilgrims remain committed to their plans, driven by religious duty and long-term preparations."
-        },
-        {
-          "title": "Netanyahu speaks out after video shows minister taunting activists",
-          "url": "http://www.euronews.com/2026/05/21/netanyahu-speaks-out-after-video-shows-minister-taunting-activists",
-          "format": "Video",
-          "collected_at": "2026-05-21T17:31:36.692692+00:00",
-          "summary": "Israeli Prime Minister Benjamin Netanyahu criticized his security minister, Itamar Ben-Gvir, after a video surfaced showing Ben-Gvir taunting detained activists from the Global Sumud Flotilla. The footage, which has drawn widespread condemnation, depicts Ben-Gvir berating the activists while waving an Israeli flag. Netanyahu stated that while Israel has the right to prevent flotillas supporting Hamas from entering its waters, Ben-Gvir's actions were not representative of Israel's values. The incident has sparked backlash from various political figures and international leaders."
-        },
-        {
-          "title": "Reeves cuts VAT on summer days out to 5% as part of cost of living support",
-          "url": "https://www.theguardian.com/politics/2026/may/21/reeves-cuts-vat-on-summer-days-out-part-of-cost-of-living-support",
-          "format": "Article",
-          "collected_at": "2026-05-21T17:31:35.193940+00:00",
-          "summary": "Chancellor Rachel Reeves announced a temporary VAT cut to 5% on summer attractions to support families affected by the war in Iran. The initiative, part of a £300m scheme called 'Great British summer savings', includes free bus rides for under-16s and aims to alleviate financial pressures on households. The VAT reduction will apply to various attractions and children's meals, with the potential for significant savings for families during the summer holidays."
         }
       ]
     },
     {
       "name": "Ukraine and NATO",
-      "count": 68,
+      "count": 69,
       "formats": [
         {
           "name": "Article",
-          "value": 59
+          "value": 60
         },
         {
           "name": "Image",
@@ -409,6 +409,13 @@
         }
       ],
       "latest": [
+        {
+          "title": "Trump Hasn’t Given Up on Greenland",
+          "url": "https://foreignpolicy.com/2026/05/21/trump-greenland-nato-ben-gvir-israel-gaza-qatar/",
+          "format": "Article",
+          "collected_at": "2026-05-21T23:01:36.270916+00:00",
+          "summary": "The article discusses U.S. President Donald Trump's ongoing interest in acquiring Greenland, despite previous controversies and NATO allies' concerns. Trump's envoy, Jeff Landry, is currently visiting Greenland, emphasizing the U.S. need for a presence there. The piece also highlights the international backlash against Israeli Minister Itamar Ben-Gvir for his controversial actions regarding activists aiding Gaza, and Qatar's commitment to mediating in the Middle East despite challenges."
+        },
         {
           "title": "No, Russia’s Economy Is Not About to Collapse",
           "url": "https://foreignpolicy.com/2026/05/21/russia-ukraine-war-economy-putin-tooze/",
@@ -436,23 +443,16 @@
           "format": "Article",
           "collected_at": "2026-05-21T17:31:12.346737+00:00",
           "summary": "Russian President Vladimir Putin and Belarusian President Alexander Lukashenko participated in a joint nuclear forces exercise via video conference, marking the first direct involvement of the two leaders in such drills. The exercises aimed to enhance coordination between military officials regarding nuclear weapons use, amidst rising global tensions. Both leaders emphasized the defensive nature of the drills, asserting that they pose no threat to other nations while preparing to defend their sovereignty."
-        },
-        {
-          "title": "Presence or Capacity? The Coast Guard Can Have Both Through Small Boat Stations",
-          "url": "https://warontherocks.com/presence-or-capacity-the-coast-guard-can-have-both-through-small-boat-stations/",
-          "format": "Article",
-          "collected_at": "2026-05-21T14:47:31.740535+00:00",
-          "summary": "The article discusses the challenges and opportunities associated with U.S. Coast Guard small boat stations, which are vital community institutions and operational units. It highlights the difficulty of closing these stations despite operational inefficiencies and proposes a model to better align their missions with national priorities. The Coast Guard is entering a period of expansion, and the article suggests that small boat stations can be reimagined as multi-mission hubs to enhance surge capacity, training, and recruitment."
         }
       ]
     },
     {
       "name": "Humanitarian Strain",
-      "count": 44,
+      "count": 49,
       "formats": [
         {
           "name": "Article",
-          "value": 20
+          "value": 23
         },
         {
           "name": "Image",
@@ -463,66 +463,66 @@
           "value": 4
         },
         {
-          "name": "Sanctions",
-          "value": 2
+          "name": "PDF",
+          "value": 3
         },
         {
-          "name": "PDF",
-          "value": 1
+          "name": "Sanctions",
+          "value": 2
         }
       ],
       "latest": [
         {
-          "title": "Gaza risks ‘permanent’ state of limbo if transition plan stalls, Security Council hears (image)",
-          "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/19-05-2026_Gaza_Pestiside_Campaign4.jpg/image560x340cropped.jpg",
-          "format": "Image",
-          "collected_at": "2026-05-21T21:24:58.907215+00:00",
-          "summary": "The image highlights the ongoing situation in Gaza, where the potential for a permanent state of limbo looms if the transition plan does not progress. The Security Council has raised concerns regarding the implications of stalled plans for peace and stability in the region. This visual representation underscores the urgency of addressing the political and humanitarian challenges faced by the people of Gaza."
-        },
-        {
-          "title": "Gaza risks ‘permanent’ state of limbo if transition plan stalls, Security Council hears",
-          "url": "https://news.un.org/feed/view/en/story/2026/05/1167568",
-          "format": "Article",
-          "collected_at": "2026-05-21T21:24:58.183962+00:00",
-          "summary": "The UN Security Council has been informed that the situation in the Occupied Palestinian Territory is increasingly precarious, with violence escalating in Gaza and the West Bank. Ramiz Alakbarov highlighted the dire humanitarian conditions in Gaza, where nearly a million people require urgent shelter assistance. The implementation of resolution 2803, which endorses a US peace plan, is delayed, risking a permanent state of limbo for the region. The need for urgent action to prevent further deterioration and to support a two-State solution was emphasized."
-        },
-        {
           "title": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
           "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
           "format": "PDF",
-          "collected_at": "2026-05-21T21:24:57.541593+00:00",
+          "collected_at": "2026-05-22T00:04:25.597970+00:00",
           "summary": "The document outlines the Geneva Conventions of 12 August 1949, which are fundamental treaties aimed at protecting individuals in armed conflict. It details the responsibilities of the International Committee of the Red Cross (ICRC) and the application of humanitarian law. The conventions emphasize the protection of wounded and sick military personnel, medical units, and the rights of individuals during conflicts."
         },
         {
           "title": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
           "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
           "format": "Sanctions",
-          "collected_at": "2026-05-21T21:24:12.949097+00:00",
+          "collected_at": "2026-05-22T00:03:47.422986+00:00",
           "summary": "The document contains a list of individuals designated under the NS-PLC sanctions program, including their aliases, birth years, and associated regions. Notable individuals include Ismail Abdul Salah Haniya, Mohammed Abu Teir, and Mahmoud Ahmad Al-Ramahi, among others. Each entry provides details such as the individual's name, aliases, and the region they are associated with, primarily focusing on Palestinian territories."
         },
         {
-          "title": "War is becoming a death sentence for women and girls (image)",
-          "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/23-10-2024-UN-Women-Gaza-04.jpg/image560x340cropped.jpg",
-          "format": "Image",
-          "collected_at": "2026-05-21T19:47:50.562475+00:00",
-          "summary": "The image titled 'War is becoming a death sentence for women and girls' highlights the severe impact of conflict on women and girls. It serves as a visual representation of the ongoing struggles faced by these groups in war-torn regions. The image is part of a broader discussion on gender-based violence and the humanitarian crises exacerbated by armed conflicts."
+          "title": "Trump Hasn’t Given Up on Greenland",
+          "url": "https://foreignpolicy.com/2026/05/21/trump-greenland-nato-ben-gvir-israel-gaza-qatar/",
+          "format": "Article",
+          "collected_at": "2026-05-21T23:01:36.270916+00:00",
+          "summary": "The article discusses U.S. President Donald Trump's ongoing interest in acquiring Greenland, despite previous controversies and NATO allies' concerns. Trump's envoy, Jeff Landry, is currently visiting Greenland, emphasizing the U.S. need for a presence there. The piece also highlights the international backlash against Israeli Minister Itamar Ben-Gvir for his controversial actions regarding activists aiding Gaza, and Qatar's commitment to mediating in the Middle East despite challenges."
+        },
+        {
+          "title": "Health Cluster Monthly Bulletin Mozambique (April 2026) (pdf)",
+          "url": "https://reliefweb.int/attachments/39b52b68-7196-440a-9489-ac374d1b1106/Health%20Cluster%20Monthly%20Bulletin_Mozambique-April%202026.pdf",
+          "format": "PDF",
+          "collected_at": "2026-05-21T23:01:34.097901+00:00",
+          "summary": "Mozambique is experiencing a complex humanitarian crisis due to climate-related shocks and armed conflict, impacting health services and increasing disease risks. In April 2026, Health Cluster partners coordinated efforts to deliver essential health services, focusing on mobile clinics and mental health support. The bulletin outlines activities and achievements in response to urgent health needs in both northern and southern regions affected by conflict and floods."
+        },
+        {
+          "title": "Health Cluster Monthly Bulletin Mozambique (April 2026)",
+          "url": "https://reliefweb.int/report/mozambique/health-cluster-monthly-bulletin-mozambique-april-2026",
+          "format": "Article",
+          "collected_at": "2026-05-21T23:01:33.853221+00:00",
+          "summary": "Mozambique is experiencing a complex humanitarian crisis due to climate-related shocks and armed conflict, severely impacting vulnerable populations' health. In 2026, floods in central and southern provinces have led to displacement and increased risks of waterborne diseases. Insecurity in Cabo Delgado continues to strain health systems, necessitating urgent humanitarian assistance. Health Cluster partners are coordinating responses to deliver essential health services, despite significant challenges in access and resources."
         }
       ]
     },
     {
       "name": "Sanctions Architecture",
-      "count": 32,
+      "count": 34,
       "formats": [
         {
           "name": "Article",
-          "value": 16
-        },
-        {
-          "name": "Image",
-          "value": 7
+          "value": 17
         },
         {
           "name": "Sanctions",
+          "value": 8
+        },
+        {
+          "name": "Image",
           "value": 7
         },
         {
@@ -536,39 +536,39 @@
       ],
       "latest": [
         {
-          "title": "Gaza risks ‘permanent’ state of limbo if transition plan stalls, Security Council hears (image)",
-          "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/19-05-2026_Gaza_Pestiside_Campaign4.jpg/image560x340cropped.jpg",
-          "format": "Image",
-          "collected_at": "2026-05-21T21:24:58.907215+00:00",
-          "summary": "The image highlights the ongoing situation in Gaza, where the potential for a permanent state of limbo looms if the transition plan does not progress. The Security Council has raised concerns regarding the implications of stalled plans for peace and stability in the region. This visual representation underscores the urgency of addressing the political and humanitarian challenges faced by the people of Gaza."
-        },
-        {
-          "title": "Gaza risks ‘permanent’ state of limbo if transition plan stalls, Security Council hears",
-          "url": "https://news.un.org/feed/view/en/story/2026/05/1167568",
-          "format": "Article",
-          "collected_at": "2026-05-21T21:24:58.183962+00:00",
-          "summary": "The UN Security Council has been informed that the situation in the Occupied Palestinian Territory is increasingly precarious, with violence escalating in Gaza and the West Bank. Ramiz Alakbarov highlighted the dire humanitarian conditions in Gaza, where nearly a million people require urgent shelter assistance. The implementation of resolution 2803, which endorses a US peace plan, is delayed, risking a permanent state of limbo for the region. The need for urgent action to prevent further deterioration and to support a two-State solution was emphasized."
-        },
-        {
           "title": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
           "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
           "format": "PDF",
-          "collected_at": "2026-05-21T21:24:52.117434+00:00",
+          "collected_at": "2026-05-22T00:04:20.751334+00:00",
           "summary": "The Charter of the United Nations, established in 1945, outlines the purposes and principles of the UN, aiming to maintain international peace and security, promote human rights, and foster international cooperation. It emphasizes the sovereign equality of all member states and the importance of settling disputes peacefully. The document also details the structure and functions of the UN's principal organs, including the General Assembly and the Security Council."
         },
         {
           "title": "https://www.treasury.gov/ofac/downloads/sdn.xml",
           "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
           "format": "Sanctions",
-          "collected_at": "2026-05-21T21:24:47.245343+00:00",
+          "collected_at": "2026-05-22T00:04:17.454084+00:00",
           "summary": "The document lists various entities and individuals associated with Cuba that are subject to sanctions. It includes details such as names, aliases, addresses, and the nature of their sanctions. The entities range from airlines and banks to import/export companies, highlighting the extensive network of sanctioned organizations linked to Cuba."
         },
         {
           "title": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
           "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
           "format": "Sanctions",
-          "collected_at": "2026-05-21T21:24:12.949097+00:00",
+          "collected_at": "2026-05-22T00:03:47.422986+00:00",
           "summary": "The document contains a list of individuals designated under the NS-PLC sanctions program, including their aliases, birth years, and associated regions. Notable individuals include Ismail Abdul Salah Haniya, Mohammed Abu Teir, and Mahmoud Ahmad Al-Ramahi, among others. Each entry provides details such as the individual's name, aliases, and the region they are associated with, primarily focusing on Palestinian territories."
+        },
+        {
+          "title": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+          "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+          "format": "Sanctions",
+          "collected_at": "2026-05-22T00:03:45.880000+00:00",
+          "summary": "The document contains a list of individuals associated with sanctions designations by the UN Security Council, primarily focusing on those involved in conflicts in the Democratic Republic of the Congo (DRC). It details their affiliations, activities, and legal statuses, including arrests and convictions for war crimes. The information is crucial for understanding the ongoing issues related to governance, security, and human rights in the DRC."
+        },
+        {
+          "title": "Board of Peace envoy warns ‘permanent’ Gaza divide under current status quo",
+          "url": "https://www.aljazeera.com/news/2026/5/21/board-of-peace-envoy-warns-permanent-gaza-divide-under-current-status-quo?traffic_source=rss",
+          "format": "Article",
+          "collected_at": "2026-05-21T23:01:03.057986+00:00",
+          "summary": "Nickolay Mladenov, the high representative of the Board of Peace for Gaza, warned the UN Security Council that the current deteriorating situation in Gaza risks becoming permanent. He presented a roadmap for a ceasefire that requires both Israel and Hamas to fulfill their obligations. Mladenov emphasized the need for action from both parties to prevent a divided Gaza and a humanitarian crisis."
         }
       ]
     },
@@ -625,11 +625,11 @@
     },
     {
       "name": "Legal Order",
-      "count": 10,
+      "count": 11,
       "formats": [
         {
           "name": "Article",
-          "value": 8
+          "value": 9
         },
         {
           "name": "PDF",
@@ -641,15 +641,22 @@
           "title": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
           "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
           "format": "PDF",
-          "collected_at": "2026-05-21T21:24:57.541593+00:00",
+          "collected_at": "2026-05-22T00:04:25.597970+00:00",
           "summary": "The document outlines the Geneva Conventions of 12 August 1949, which are fundamental treaties aimed at protecting individuals in armed conflict. It details the responsibilities of the International Committee of the Red Cross (ICRC) and the application of humanitarian law. The conventions emphasize the protection of wounded and sick military personnel, medical units, and the rights of individuals during conflicts."
         },
         {
           "title": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
           "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
           "format": "PDF",
-          "collected_at": "2026-05-21T21:24:52.117434+00:00",
+          "collected_at": "2026-05-22T00:04:20.751334+00:00",
           "summary": "The Charter of the United Nations, established in 1945, outlines the purposes and principles of the UN, aiming to maintain international peace and security, promote human rights, and foster international cooperation. It emphasizes the sovereign equality of all member states and the importance of settling disputes peacefully. The document also details the structure and functions of the UN's principal organs, including the General Assembly and the Security Council."
+        },
+        {
+          "title": "WiseTech begins redundancies – but omits ‘AI’ from emails to Chinese employees, workers say",
+          "url": "https://www.theguardian.com/technology/2026/may/22/wisetech-redundancies-australia-omits-ai-from-emails-to-chinese-employees",
+          "format": "Article",
+          "collected_at": "2026-05-21T23:01:35.953287+00:00",
+          "summary": "WiseTech has initiated redundancies affecting 2,000 employees, citing advancements in artificial intelligence as the reason. However, an email to Chinese staff omitted the term 'AI', raising concerns among employees about transparency and legal implications. The company has begun the layoff process in South Korea and Mexico, with plans to extend it to Australia. Employees express low morale and anxiety over the uncertainty of their job status, while the union representing tech workers calls for fair treatment and accountability in the face of AI disruption."
         },
         {
           "title": "The Crumbling Pillars of Global Peace",
@@ -664,23 +671,16 @@
           "format": "Article",
           "collected_at": "2026-05-21T14:47:29.453376+00:00",
           "summary": "The Philippine Supreme Court has denied Senator Ronald 'Bato' dela Rosa's request for a temporary restraining order against his arrest by the International Criminal Court (ICC). Dela Rosa is wanted for crimes against humanity related to his role in the Duterte administration's anti-drug campaign. The court's ruling allows for his potential arrest, as the senator remains a fugitive. The Supreme Court will release a full resolution on May 25, detailing the judges' opinions."
-        },
-        {
-          "title": "Gunfire Erupts at Philippine Senate Amid Standoff Over ICC Suspect",
-          "url": "https://thediplomat.com/2026/05/gunfire-erupts-at-philippine-senate-amid-standoff-over-icc-suspect/",
-          "format": "Article",
-          "collected_at": "2026-05-21T14:47:29.434877+00:00",
-          "summary": "Gunfire erupted at the Philippine Senate as armed men attempted to enter the building where Senator Ronald 'Bato' dela Rosa was hiding to avoid an arrest warrant from the International Criminal Court (ICC). Dela Rosa, a key figure in former President Duterte's drug war, had locked himself in his office after the ICC unsealed a warrant for his arrest on charges of crimes against humanity. The incident escalated into chaos, with shots fired and law enforcement responding, while the identity of the armed men remains unclear."
         }
       ]
     },
     {
       "name": "Geospatial Evidence",
-      "count": 3,
+      "count": 4,
       "formats": [
         {
           "name": "Article",
-          "value": 2
+          "value": 3
         },
         {
           "name": "Dataset",
@@ -692,8 +692,15 @@
           "title": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
           "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
           "format": "Dataset",
-          "collected_at": "2026-05-21T21:24:47.386527+00:00",
+          "collected_at": "2026-05-22T00:04:19.398930+00:00",
           "summary": "This document contains binary geospatial mapping data collected for the Global Geopolitics Monitor. The data is focused on disputed areas around the world, providing a visual representation of geopolitical boundaries and conflicts. The source is a zip file containing the relevant mapping data for analysis."
+        },
+        {
+          "title": "Board of Peace envoy warns ‘permanent’ Gaza divide under current status quo",
+          "url": "https://www.aljazeera.com/news/2026/5/21/board-of-peace-envoy-warns-permanent-gaza-divide-under-current-status-quo?traffic_source=rss",
+          "format": "Article",
+          "collected_at": "2026-05-21T23:01:03.057986+00:00",
+          "summary": "Nickolay Mladenov, the high representative of the Board of Peace for Gaza, warned the UN Security Council that the current deteriorating situation in Gaza risks becoming permanent. He presented a roadmap for a ceasefire that requires both Israel and Hamas to fulfill their obligations. Mladenov emphasized the need for action from both parties to prevent a divided Gaza and a humanitarian crisis."
         },
         {
           "title": "The Illusion of Sovereignty: How International Law and Big Tech are Eroding the State",
@@ -713,6 +720,431 @@
     }
   ],
   "latest_evidence": [
+    {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-05-22T00:04:25.597970+00:00",
+      "published": "",
+      "text_chars": 523907,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "snippet": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks .......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions ....................................................................................................... 35 Ar ticle 1 Res pect for the Convention ..................................................................... 35 Ar ticle ",
+      "summary": "The document outlines the Geneva Conventions of 12 August 1949, which are fundamental treaties aimed at protecting individuals in armed conflict. It details the responsibilities of the International Committee of the Red Cross (ICRC) and the application of humanitarian law. The conventions emphasize the protection of wounded and sick military personnel, medical units, and the rights of individuals during conflicts.",
+      "why_it_matters": "The Geneva Conventions are essential for maintaining humanitarian standards in warfare, ensuring that individuals affected by conflict receive protection and assistance. They serve as a legal framework for the conduct of armed forces and the treatment of non-combatants, thereby promoting peace and human dignity.",
+      "key_takeaways": [
+        "Established on 12 August 1949, the Geneva Conventions are crucial for humanitarian law.",
+        "The ICRC plays a key role in promoting and enforcing these conventions.",
+        "The conventions protect the rights of wounded and sick military personnel.",
+        "They outline the responsibilities of neutral powers and medical units."
+      ]
+    },
+    {
+      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "topic": "geopolitics",
+      "title": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
+      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
+      "host": "treaties.un.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-05-22T00:04:20.751334+00:00",
+      "published": "",
+      "text_chars": 89992,
+      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
+      "snippet": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS. Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the pre",
+      "summary": "The Charter of the United Nations, established in 1945, outlines the purposes and principles of the UN, aiming to maintain international peace and security, promote human rights, and foster international cooperation. It emphasizes the sovereign equality of all member states and the importance of settling disputes peacefully. The document also details the structure and functions of the UN's principal organs, including the General Assembly and the Security Council.",
+      "why_it_matters": "The UN Charter is foundational for international law and diplomacy, establishing a framework for global governance and cooperation. It plays a crucial role in maintaining peace and security, promoting human rights, and fostering international collaboration on various issues.",
+      "key_takeaways": [
+        "The UN Charter was established in San Francisco in 1945.",
+        "It aims to prevent war and promote human rights.",
+        "All member states are sovereign and equal.",
+        "Disputes should be settled peacefully to maintain international security."
+      ]
+    },
+    {
+      "id": "ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
+      "topic": "geopolitics",
+      "title": "https://www.cia.gov/the-world-factbook/",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-05-22T00:04:19.457825+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.html",
+      "text_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.txt",
+      "snippet": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades , The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook , launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use. Though the World Factbook is gone, in the spirit of its global reach and legacy,",
+      "summary": "The World Factbook, a prominent intelligence publication by the CIA, has been discontinued. It transitioned from a classified document to an unclassified electronic resource over several decades, serving as a comprehensive reference for global information. Launched in 1962, it evolved significantly, becoming accessible online in 1997 and attracting millions of users annually. The publication was valued by a diverse audience, including researchers and travelers, and featured a collection of copyright-free photographs.",
+      "why_it_matters": "The World Factbook was a vital resource for understanding global demographics, geography, and political structures, making it significant for researchers, educators, and the general public interested in international affairs.",
+      "key_takeaways": [
+        "The World Factbook was launched in 1962 as a classified publication.",
+        "It became unclassified in 1971 and was renamed in 1981.",
+        "The digital version was introduced in 1997 on CIA.gov.",
+        "It served millions of users, including researchers and travelers."
+      ]
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-05-22T00:04:19.398930+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "snippet": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "summary": "This document contains binary geospatial mapping data collected for the Global Geopolitics Monitor. The data is focused on disputed areas around the world, providing a visual representation of geopolitical boundaries and conflicts. The source is a zip file containing the relevant mapping data for analysis.",
+      "why_it_matters": "This geospatial mapping data is significant for researchers and analysts studying global geopolitics, as it provides essential visual tools for understanding territorial disputes and their implications on international relations.",
+      "key_takeaways": [
+        "Contains geospatial mapping data on disputed areas.",
+        "Useful for analyzing global geopolitical conflicts.",
+        "Data is provided in a binary format.",
+        "Source is intended for the Global Geopolitics Monitor."
+      ]
+    },
+    {
+      "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
+      "topic": "geopolitics",
+      "title": "https://peacekeeping.un.org/sites/default/files/capstone_eng_0.pdf",
+      "url": "https://peacekeeping.un.org/sites/default/files/capstone_eng_0.pdf",
+      "host": "peacekeeping.un.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-05-22T00:04:19.383015+00:00",
+      "published": "",
+      "text_chars": 174113,
+      "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
+      "text_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.txt",
+      "snippet": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines United Nations Peacekeeping Operations Principles and Guidelines United Nations Department of Peacekeeping Operations Department of Field Support 2 | UNITED NATIONS PEACEKEEPING OPERATIONS CONTENTS | 3 ContentsCredits Peacekeeping Bes",
+      "summary": "This document outlines the evolution and principles of United Nations peacekeeping operations over the past six decades. It serves as a guide for planners and practitioners, capturing lessons learned from over 60 operations since 1948. The publication emphasizes the complexity of modern peacekeeping missions, which now include a range of activities beyond monitoring cease-fires, such as promoting national dialogue, protecting civilians, and supporting the rule of law.",
+      "why_it_matters": "This document is significant as it codifies the experiences and lessons learned from decades of United Nations peacekeeping, providing essential guidance for current and future operations. It addresses the challenges of contemporary peacekeeping and aims to enhance the effectiveness of international responses to crises.",
+      "key_takeaways": [
+        "United Nations peacekeeping has evolved significantly since 1948.",
+        "Modern missions involve complex tasks beyond simple monitoring.",
+        "The document serves as a guide for effective planning and execution of peacekeeping operations.",
+        "It reflects lessons learned from past operations to improve future missions."
+      ]
+    },
+    {
+      "id": "f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1",
+      "topic": "geopolitics",
+      "title": "https://www.treasury.gov/ofac/downloads/sdn.xml",
+      "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
+      "host": "treasury.gov",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "text/xml",
+      "collected_at": "2026-05-22T00:04:17.454084+00:00",
+      "published": "",
+      "text_chars": 9071064,
+      "raw_path": "data/geopolitics/raw/f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1.xml",
+      "text_path": "data/geopolitics/raw/f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1.txt",
+      "snippet": "05/21/2026 19050 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity CUBA 219 a.k.a. weak BNC 220 a.k.a. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg. 6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. Entity CUBA 276 Panama City Panama 535 CIMEX Entity CUBA 317 Emerson No. 148 Piso 7 Mexico, D.F. 11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A. Entity CUBA 319 Panama 540 COMERCIAL IBEROAMERICANA, S.A. Entity CUBA 471 a.k.a. strong COIBA 321 Spain 551 COMERCIAL CIMEX, S.A. Entity CUBA 328 Panama 552 COMERCIAL DE RODAJES Y MAQUINARIA, S.A. Entity CUBA 475 a.k.a. strong CRYMSA 329 Jose Lazaro Galdeano 6-6 Madrid 28016 Spain 555 COMERCIALIZACION DE PRODUCTOS VARIOS Entity CUBA 477 a.k.a. strong COPROVA 478 a.k.a. strong COPROVA SARL 331 Paris France 559 COMPANIA DE IMPORTACION Y EXPORTACION IBERIA Entity CUBA 481 a.k.a. strong CIMEX 334 Spain 576 CORPORACION CIMEX, ",
+      "summary": "The document lists various entities and individuals associated with Cuba that are subject to sanctions. It includes details such as names, aliases, addresses, and the nature of their sanctions. The entities range from airlines and banks to import/export companies, highlighting the extensive network of sanctioned organizations linked to Cuba.",
+      "why_it_matters": "This document is significant as it provides critical information on entities and individuals that are subject to U.S. sanctions, which can impact international relations, trade, and security policies. Understanding these sanctions is essential for compliance and for assessing risks associated with dealings involving these entities.",
+      "key_takeaways": [
+        "Includes a comprehensive list of sanctioned entities and individuals related to Cuba.",
+        "Details various aliases and addresses for each entity.",
+        "Highlights the international scope of sanctions affecting entities in multiple countries.",
+        "Identifies key individuals associated with terrorist organizations under U.S. sanctions."
+      ]
+    },
+    {
+      "id": "c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae",
+      "topic": "geopolitics",
+      "title": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
+      "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
+      "host": "treasury.gov",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "text/xml",
+      "collected_at": "2026-05-22T00:03:47.422986+00:00",
+      "published": "",
+      "text_chars": 392158,
+      "raw_path": "data/geopolitics/raw/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae.xml",
+      "text_path": "data/geopolitics/raw/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae.txt",
+      "snippet": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Mohammad Mahmoud 4698 1951 true 4699 Umm Tuba true 9641 Jamileh Abdullah AL-SHANTI Individual NS-PLC 9154 a.k.a. strong EL-SHANTI Jameela Abdallah 9155 a.k.a. strong AL SHANTEE Jamila Abed Allah 12128 Gaza Palestinian 4700 1955 true 4701 Jabalia Camp true 9642 Mohammed Jamal NU'MAN ALAEDDIN Individual NS-PLC 9156 a.k.a. strong ALA AL DIN Mohamad Nouman 9157 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a. strong RABBAI Khalil Mussa 4705 1959 true 9645 Huda Naim AL-QREINAWI Individual NS-PLC 9159 a.k.a. strong AL QRENAWI Houda Naim 12130 Gaza Palestinian 4706 1969 true 9646 Mahmoud Ahmad AL-RAMAHI Individual NS-PLC 12131 Ramallah West Bank Palestinian 4707 1963 true 9647 Mahmoud Khaled ZAHHAR Individual (Linked To: HAMAS) NS-PLC SDGT 166818 Secondary sanctions risk: section 1(b) of Executive Order 13224, as amended by Executive Order 13886 166816 Gender Male 9160 a.k.a. strong AL ZAHAR Mahmoud Khaled 71276 a.k.a. weak ZAHAR, Mahmoud 71",
+      "summary": "The document contains a list of individuals designated under the NS-PLC sanctions program, including their aliases, birth years, and associated regions. Notable individuals include Ismail Abdul Salah Haniya, Mohammed Abu Teir, and Mahmoud Ahmad Al-Ramahi, among others. Each entry provides details such as the individual's name, aliases, and the region they are associated with, primarily focusing on Palestinian territories.",
+      "why_it_matters": "This document is significant for understanding the U.S. government's sanctions against individuals linked to terrorism and other illicit activities, particularly in the context of the ongoing conflict in the region. It serves as a critical resource for compliance by financial institutions and other entities.",
+      "key_takeaways": [
+        "List of individuals sanctioned under NS-PLC.",
+        "Includes aliases and birth years.",
+        "Focus on individuals linked to Palestinian territories.",
+        "Highlights secondary sanctions risks under Executive Orders."
+      ]
+    },
+    {
+      "id": "805fac9d263ef91a742666ca73790e2fed901261f7c0f1a461d837dd68df1d30",
+      "topic": "geopolitics",
+      "title": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-05-22T00:03:45.880000+00:00",
+      "published": "",
+      "text_chars": 824889,
+      "raw_path": "data/geopolitics/raw/805fac9d263ef91a742666ca73790e2fed901261f7c0f1a461d837dd68df1d30.xml",
+      "text_path": "data/geopolitics/raw/805fac9d263ef91a742666ca73790e2fed901261f7c0f1a461d837dd68df1d30.txt",
+      "snippet": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no charges were brought and as of June 2016, he lived in Kinshasa. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https:/",
+      "summary": "The document contains a list of individuals associated with sanctions designations by the UN Security Council, primarily focusing on those involved in conflicts in the Democratic Republic of the Congo (DRC). It details their affiliations, activities, and legal statuses, including arrests and convictions for war crimes. The information is crucial for understanding the ongoing issues related to governance, security, and human rights in the DRC.",
+      "why_it_matters": "This source is significant as it provides a structured overview of individuals sanctioned for their roles in conflicts in the DRC, which is essential for international efforts to promote peace and accountability in the region.",
+      "key_takeaways": [
+        "Individuals listed are primarily involved in military and political conflicts in the DRC.",
+        "Many have been arrested or convicted for serious crimes, including war crimes and human rights abuses.",
+        "The document provides insights into the complex political landscape of the DRC and its neighboring countries.",
+        "Several individuals have fled to neighboring countries, complicating enforcement of sanctions."
+      ]
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-05-22T00:03:43.771879+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "snippet": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2",
+      "summary": "The dataset provides information on arms imports in the Eastern and Southern Africa region, measured in SIPRI trend indicator values. The data spans from 1994 to 2025, with notable fluctuations in import values over the years. The most recent data point for 2023 indicates arms imports of 166 million USD, a significant decrease from 258 million USD in 2022.",
+      "why_it_matters": "Understanding arms imports is crucial for assessing military capabilities and security dynamics in the Eastern and Southern Africa region. This data can inform policy decisions and international relations regarding arms trade and regional stability.",
+      "key_takeaways": [
+        "Arms imports peaked at 1.116 billion USD in 2011.",
+        "The value of arms imports has fluctuated significantly over the years.",
+        "In 2023, arms imports were recorded at 166 million USD.",
+        "The data shows a downward trend in arms imports from 2022 to 2023."
+      ]
+    },
+    {
+      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "topic": "geopolitics",
+      "title": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-05-22T00:03:43.499457+00:00",
+      "published": "",
+      "text_chars": 6187025,
+      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
+      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
+      "snippet": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2021\", \"value\": 1253",
+      "summary": "The dataset provides information on military expenditure in current USD for the region of Africa Eastern and Southern from 1994 to 2025. It includes annual military expenditure figures, showing a general trend of increase over the years. The most recent data point for 2024 indicates military expenditure of approximately 13.66 billion USD.",
+      "why_it_matters": "Understanding military expenditure is crucial for analyzing defense budgets, economic priorities, and regional security dynamics in Africa Eastern and Southern. This data can inform policymakers and researchers about trends in military spending and its implications for development and stability.",
+      "key_takeaways": [
+        "Military expenditure data spans from 1994 to 2025.",
+        "The highest recorded expenditure was approximately 16.17 billion USD in 2017.",
+        "Expenditure in 2024 is projected at 13.66 billion USD.",
+        "There is a general upward trend in military spending over the years."
+      ]
+    },
+    {
+      "id": "bb86c3cc107750d1baa9da0a1d1e0b5e10f0c446583b8d27b30b59f69bd521f4",
+      "topic": "geopolitics",
+      "title": "Trump Hasn’t Given Up on Greenland",
+      "url": "https://foreignpolicy.com/2026/05/21/trump-greenland-nato-ben-gvir-israel-gaza-qatar/",
+      "host": "foreignpolicy.com",
+      "source": "https://foreignpolicy.com/feed/",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-05-21T23:01:36.270916+00:00",
+      "published": "Thu, 21 May 2026 22:00:56 +0000",
+      "text_chars": 10808,
+      "raw_path": "data/geopolitics/raw/bb86c3cc107750d1baa9da0a1d1e0b5e10f0c446583b8d27b30b59f69bd521f4.html",
+      "text_path": "data/geopolitics/raw/bb86c3cc107750d1baa9da0a1d1e0b5e10f0c446583b8d27b30b59f69bd521f4.txt",
+      "snippet": "Welcome back to Foreign Policy ’s Situation Report, coming to you from both sides of the Atlantic this week. John is in Prague having interesting conversations at the GLOBSEC Forum (more on that below), while Rishi holds down the fort at his desk in dreary Washington. Alright, here’s what’s on tap for the day: Trump’s Greenland obsession keeps on keeping on, Israeli minister Itamar Ben-Gvir sparks international (and rare domestic) condemnation, and a senior Qatari official discusses the country’s role as a mediator. While much of U.S. President Donald Trump’s attention has been focused on Iran lately, he hasn’t given up on his push to gain control of Greenland. Recent reporting indicates that the Trump administration is still making hard-line demands in ongoing negotiations with Greenland and Denmark. Trump’s special envoy to Greenland, Jeff Landry, is also visiting the island this week. Landry, who said on Wednesday that the United States needs to “put its footprint back on Greenland,” has reportedly faced an icy reception. John is at the GLOBSEC Forum in Prague this week and moderated a panel on Arctic security on Thursday. Trump’s fixation on Greenland was mentioned (unprompted) mere moments into the discussion, which is indicative of how this issue has continued to loom large over the trans-Atlantic alliance. “We are still in a surreal situation and dialogue where the leadi",
+      "summary": "The article discusses U.S. President Donald Trump's ongoing interest in acquiring Greenland, despite previous controversies and NATO allies' concerns. Trump's envoy, Jeff Landry, is currently visiting Greenland, emphasizing the U.S. need for a presence there. The piece also highlights the international backlash against Israeli Minister Itamar Ben-Gvir for his controversial actions regarding activists aiding Gaza, and Qatar's commitment to mediating in the Middle East despite challenges.",
+      "why_it_matters": "The article highlights the complexities of international relations involving the U.S., NATO, and Middle Eastern dynamics, showcasing how Trump's policies impact alliances and regional stability.",
+      "key_takeaways": [
+        "Trump continues to pursue control over Greenland, citing national security.",
+        "NATO allies express concern over Trump's aggressive stance towards Greenland.",
+        "Ben-Gvir faces international condemnation for his treatment of activists.",
+        "Qatar remains committed to mediating in Middle Eastern conflicts."
+      ]
+    },
+    {
+      "id": "2df7a35923bd5a09ccc9e345949301bffa68e35f7b0d9f4481012d6d3d3c74b6",
+      "topic": "geopolitics",
+      "title": "WiseTech begins redundancies – but omits ‘AI’ from emails to Chinese employees, workers say",
+      "url": "https://www.theguardian.com/technology/2026/may/22/wisetech-redundancies-australia-omits-ai-from-emails-to-chinese-employees",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-05-21T23:01:35.953287+00:00",
+      "published": "Thu, 21 May 2026 15:00:35 GMT",
+      "text_chars": 4646,
+      "raw_path": "data/geopolitics/raw/2df7a35923bd5a09ccc9e345949301bffa68e35f7b0d9f4481012d6d3d3c74b6.html",
+      "text_path": "data/geopolitics/raw/2df7a35923bd5a09ccc9e345949301bffa68e35f7b0d9f4481012d6d3d3c74b6.txt",
+      "snippet": "WiseTech has begun informing staff that they will lose their jobs as part of redundancies the company has said are due to artificial intelligence advancements – although an email to staff in China omitted the word “AI” after a court case against another company in the country. Staff at WiseTech have been waiting almost three months to be told if they are among the 2,000 people the logistics software company is to cut due to advances in AI. The Australian Stock Exchange-listed company announced in late February it would lay off almost 30% of its 7,000-strong workforce across 40 countries. A spokesperson for WiseTech said the process had begun in South Korea and Mexico, and would start in other countries including Australia next week. In an email to staff sent this week laying out the timeline for the redundancy process, the company referred to an “AI transformation”, saying “AI has fundamentally changed how work gets done across many industries and businesses”. However, in internal WiseTech Global Teams chats on Wednesday seen by Guardian Australia, staff noted the wording in the email sent to China-based employees was changed to “global transformation” and the second line was omitted from the email. Employees in the chat asked the chief executive, Zubin Appoo, whether this was done in response to a recent Chinese court ruling compensating a tech company employee – who was sacke",
+      "summary": "WiseTech has initiated redundancies affecting 2,000 employees, citing advancements in artificial intelligence as the reason. However, an email to Chinese staff omitted the term 'AI', raising concerns among employees about transparency and legal implications. The company has begun the layoff process in South Korea and Mexico, with plans to extend it to Australia. Employees express low morale and anxiety over the uncertainty of their job status, while the union representing tech workers calls for fair treatment and accountability in the face of AI disruption.",
+      "why_it_matters": "This situation highlights the impact of AI advancements on employment and raises questions about corporate transparency and employee rights during significant organizational changes.",
+      "key_takeaways": [
+        "WiseTech plans to cut 2,000 jobs, nearly 30% of its workforce.",
+        "An email to Chinese employees omitted the term 'AI' after a court ruling.",
+        "The redundancy process has started in South Korea and Mexico.",
+        "Employee morale is low due to uncertainty and lack of transparency."
+      ]
+    },
+    {
+      "id": "811ad763211ce8713af7aed28e4b6a5bd331e9ab753e7cabdfd59d1a21c2002a",
+      "topic": "geopolitics",
+      "title": "Health Cluster Monthly Bulletin Mozambique (April 2026) (pdf)",
+      "url": "https://reliefweb.int/attachments/39b52b68-7196-440a-9489-ac374d1b1106/Health%20Cluster%20Monthly%20Bulletin_Mozambique-April%202026.pdf",
+      "host": "reliefweb.int",
+      "source": "https://reliefweb.int/updates/rss.xml",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-05-21T23:01:34.097901+00:00",
+      "published": "Thu, 21 May 2026 12:25:26 +0000",
+      "text_chars": 10497,
+      "raw_path": "data/geopolitics/raw/811ad763211ce8713af7aed28e4b6a5bd331e9ab753e7cabdfd59d1a21c2002a.pdf",
+      "text_path": "data/geopolitics/raw/811ad763211ce8713af7aed28e4b6a5bd331e9ab753e7cabdfd59d1a21c2002a.txt",
+      "snippet": "https://mozambique.healthcluster.org/ 1 BULLETIN#04 April 2026 Humanitarian Context Mozambique continues to face a complex humanitarian crisis characterized by the overlapping impacts of climate- related shocks and armed conflict, significantly affecting the health and well -being of vulnerable populations. In 2026, floods in the central an d southern provinces resulted in population displacement, damage to health infrastructure, and an increased risk of waterborne disease outbreaks, disrupting the continuity of essential health services. At the same time, insecurity in Cabo Delgado continues to drive displacement and place additional strain on already fragile health systems. Humanitarian needs remain high, with priority given to the provision of primary health care, emergency services, men tal health support, and assistance to displaced populations and host communities. In this context, Health Cluster partners have maintained a coordinated response to ensure the delivery of essential health services, with a focus on integrated approaches including mobile clinics, outbreak response, sexual and reproductive health services, and water, sanitation, and hygiene (WASH) interventions. However, significant challenges persist, particularly in terms of access, resource availability, and the need to strengthen monitoring and reporting mechanisms. This bulletin provides an overview of the",
+      "summary": "Mozambique is experiencing a complex humanitarian crisis due to climate-related shocks and armed conflict, impacting health services and increasing disease risks. In April 2026, Health Cluster partners coordinated efforts to deliver essential health services, focusing on mobile clinics and mental health support. The bulletin outlines activities and achievements in response to urgent health needs in both northern and southern regions affected by conflict and floods.",
+      "why_it_matters": "This bulletin highlights the critical health needs in Mozambique and the coordinated response by Health Cluster partners, emphasizing the importance of integrated health services in humanitarian crises.",
+      "key_takeaways": [
+        "Mozambique faces a humanitarian crisis from climate shocks and conflict.",
+        "Health services are disrupted, increasing risks of waterborne diseases.",
+        "Health Cluster partners reached over 409,000 beneficiaries in 18 districts.",
+        "Mobile clinics and mental health support are key response strategies."
+      ]
+    },
+    {
+      "id": "109a7ad1612f8acecf17d2158c1082bdd430df9e59d8a30df6219a34e5f0408b",
+      "topic": "geopolitics",
+      "title": "Health Cluster Monthly Bulletin Mozambique (April 2026)",
+      "url": "https://reliefweb.int/report/mozambique/health-cluster-monthly-bulletin-mozambique-april-2026",
+      "host": "reliefweb.int",
+      "source": "https://reliefweb.int/updates/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-05-21T23:01:33.853221+00:00",
+      "published": "Thu, 21 May 2026 12:25:26 +0000",
+      "text_chars": 1563,
+      "raw_path": "data/geopolitics/raw/109a7ad1612f8acecf17d2158c1082bdd430df9e59d8a30df6219a34e5f0408b.html",
+      "text_path": "data/geopolitics/raw/109a7ad1612f8acecf17d2158c1082bdd430df9e59d8a30df6219a34e5f0408b.txt",
+      "snippet": "Mozambique continues to face a complex humanitarian crisis characterized by the overlapping impacts of climaterelated shocks and armed conflict, significantly affecting the health and well-being of vulnerable populations. In 2026, floods in the central and southern provinces resulted in population displacement, damage to health infrastructure, and an increased risk of waterborne disease outbreaks, disrupting the continuity of essential health services. At the same time, insecurity in Cabo Delgado continues to drive displacement and place additional strain on already fragile health systems. Humanitarian needs remain high, with priority given to the provision of primary health care, emergency services, mental health support, and assistance to displaced populations and host communities. In this context, Health Cluster partners have maintained a coordinated response to ensure the delivery of essential health services, with a focus on integrated approaches including mobile clinics, outbreak response, sexual and reproductive health services, and water, sanitation, and hygiene (WASH) interventions. However, significant challenges persist, particularly in terms of access, resource availability, and the need to strengthen monitoring and reporting mechanisms. This bulletin provides an overview of the activities and achievements of Health Cluster partners during April 2026, highlighting c",
+      "summary": "Mozambique is experiencing a complex humanitarian crisis due to climate-related shocks and armed conflict, severely impacting vulnerable populations' health. In 2026, floods in central and southern provinces have led to displacement and increased risks of waterborne diseases. Insecurity in Cabo Delgado continues to strain health systems, necessitating urgent humanitarian assistance. Health Cluster partners are coordinating responses to deliver essential health services, despite significant challenges in access and resources.",
+      "why_it_matters": "The report highlights the urgent health needs in Mozambique, emphasizing the importance of coordinated humanitarian responses to support vulnerable populations affected by both natural disasters and conflict.",
+      "key_takeaways": [
+        "Mozambique faces a humanitarian crisis from climate shocks and armed conflict.",
+        "Floods in 2026 have caused displacement and health infrastructure damage.",
+        "Cabo Delgado's insecurity exacerbates health system strains.",
+        "High humanitarian needs prioritize primary health care and emergency services."
+      ]
+    },
+    {
+      "id": "4124837b73aa9eb6d24680db7eeb8feaef06b1535a13d23826fb8a2a0ad9f31a",
+      "topic": "geopolitics",
+      "title": "Board of Peace envoy warns ‘permanent’ Gaza divide under current status quo",
+      "url": "https://www.aljazeera.com/news/2026/5/21/board-of-peace-envoy-warns-permanent-gaza-divide-under-current-status-quo?traffic_source=rss",
+      "host": "aljazeera.com",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-05-21T23:01:03.057986+00:00",
+      "published": "Thu, 21 May 2026 21:10:02 +0000",
+      "text_chars": 3155,
+      "raw_path": "data/geopolitics/raw/4124837b73aa9eb6d24680db7eeb8feaef06b1535a13d23826fb8a2a0ad9f31a.html",
+      "text_path": "data/geopolitics/raw/4124837b73aa9eb6d24680db7eeb8feaef06b1535a13d23826fb8a2a0ad9f31a.txt",
+      "snippet": "Board of Peace envoy warns ‘permanent’ Gaza divide under current status quo UN Security Council urged to press for Israeli obligations and Hamas disarmament under Gaza ‘ceasefire’ roadmap. Published On 21 May 2026 21 May 2026 The high representative overseeing the United States-founded Board of Peace for Gaza, Nickolay Mladenov, has warned that the deteriorating status quo in the devastated Palestinian enclave risks becoming “permanent”. Speaking on Thursday to the United Nations Security Council (UNSC), Mladenov presented a roadmap detailing obligations for Israel and Hamas to implement a permanent ceasefire. He urged the UNSC to use “every means at its disposal” to press Hamas to disarm, while also saying that Israel must uphold its commitment under a ceasefire agreed in October. Recommended Stories list of 3 items end of list “Let me say this clearly: the implementation cannot advance through Palestinian obligations alone,” Mladenov said, speaking via video call. “The continued killings and Israeli restrictions affecting humanitarian flows are not abstract issues,” he said. The war that Israel launched following the October 7, 2023 attacks on southern Israel by Hamas and other armed Palestinian groups was halted by a ceasefire in October 2025. More than 72,775 Palestinians have been killed in the conflict. But the Israeli military maintains a strict security regime, and many",
+      "summary": "Nickolay Mladenov, the high representative of the Board of Peace for Gaza, warned the UN Security Council that the current deteriorating situation in Gaza risks becoming permanent. He presented a roadmap for a ceasefire that requires both Israel and Hamas to fulfill their obligations. Mladenov emphasized the need for action from both parties to prevent a divided Gaza and a humanitarian crisis.",
+      "why_it_matters": "The situation in Gaza is critical, with potential long-term implications for regional stability and humanitarian conditions. Mladenov's warnings underscore the urgency for international intervention and cooperation to prevent further deterioration.",
+      "key_takeaways": [
+        "Mladenov warns of a permanent divide in Gaza if current conditions persist.",
+        "The UN Security Council is urged to enforce obligations on both Israel and Hamas.",
+        "Over 72,775 Palestinians have died since the conflict escalated in October 2023.",
+        "The ceasefire established in October 2025 is at risk due to ongoing violence."
+      ]
+    },
+    {
+      "id": "06ec52289d1c77850ccd9572c5d72584297dd0484b5105293f11958fb933a87e",
+      "topic": "geopolitics",
+      "title": "Attacks and Displacement Continue in Lebanon: NGOs Call for a Genuine and Lasting Ceasefire (pdf)",
+      "url": "https://reliefweb.int/attachments/6dfd8bd6-4ab3-4618-b082-0ac493529c92/Attacks%20and%20Displacement%20Continue%20in%20Lebanon_%20NGOs%20Call%20for%20a%20Genuine%20and%20Lasting%20Ceasefire.pdf",
+      "host": "reliefweb.int",
+      "source": "https://reliefweb.int/updates/rss.xml",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-05-21T23:01:02.019343+00:00",
+      "published": "Thu, 21 May 2026 12:45:46 +0000",
+      "text_chars": 8530,
+      "raw_path": "data/geopolitics/raw/06ec52289d1c77850ccd9572c5d72584297dd0484b5105293f11958fb933a87e.pdf",
+      "text_path": "data/geopolitics/raw/06ec52289d1c77850ccd9572c5d72584297dd0484b5105293f11958fb933a87e.txt",
+      "snippet": "Attacks and Displacement Continue in Lebanon | Page 1 Attacks and Displacement Continue in Lebanon: NGOs Call for a Genuine and Lasting Ceasefire A ceasefire in name only On 16 May, the temporary ceasefire declared between Lebanon and Israel on 17 April was renewed for a second time, following negotiations brokered by the United States. Yet hostilities are ongoing, albeit somewhat reduced in intensity and geographic scope, and Lebanon continues to face a severe humanitarian emergency. The ceasefire agreement did not provide for the withdrawal of Israeli forces from Lebanese territory, and included language permitting Israel to ‘take all necessary measures in self - defence, at any time, against planned, imminent, or ongoing attacks’. Since its declaration, Israeli attacks have continued on a daily basis - targeting the south, the Bekaa valley, and, on one occasion, the southern suburbs of Beirut - raising serious concerns for the protection of civilians. Over 600 people have been killed in Lebanon since the ceasefire was declared, many of them women, children and emergency responders.1 Numerous incidents raise serious questions regarding compliance with International Humanitarian Law, including the principles of distinction and proportionality. Entire families have been hit in airstrikes, with men and women being killed alongside their c hildren and grandchildren. Health and re",
+      "summary": "The document discusses the ongoing humanitarian crisis in Lebanon following a ceasefire that has not effectively reduced hostilities. Despite a temporary ceasefire declared on April 17, 2026, attacks have continued, resulting in significant civilian casualties and displacement. The report highlights the urgent need for humanitarian access and calls for a genuine and lasting ceasefire to protect civilians and allow for the safe return of displaced populations.",
+      "why_it_matters": "This report underscores the critical humanitarian situation in Lebanon, emphasizing the need for international intervention and support to protect civilians and facilitate humanitarian aid amidst ongoing violence.",
+      "key_takeaways": [
+        "Ceasefire declared on April 17, 2026, has not stopped ongoing hostilities.",
+        "Over 600 people have been killed in Lebanon since the ceasefire declaration.",
+        "More than 3,000 people have died since the escalation began on March 2, 2026.",
+        "One million people remain internally displaced across Lebanon."
+      ]
+    },
+    {
+      "id": "26d6abeb7e6a6549b72ae35916862a618a1863103dc6372150a3b15e665127a0",
+      "topic": "geopolitics",
+      "title": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-05-21T23:00:18.060468+00:00",
+      "published": "",
+      "text_chars": 824889,
+      "raw_path": "data/geopolitics/raw/26d6abeb7e6a6549b72ae35916862a618a1863103dc6372150a3b15e665127a0.xml",
+      "text_path": "data/geopolitics/raw/26d6abeb7e6a6549b72ae35916862a618a1863103dc6372150a3b15e665127a0.txt",
+      "snippet": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no charges were brought and as of June 2016, he lived in Kinshasa. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https:/",
+      "summary": "The document contains a list of individuals associated with sanctions designations by the UN Security Council, primarily focusing on those involved in conflicts in the Democratic Republic of the Congo (DRC). It details their affiliations, activities, and legal statuses, including arrests and convictions for war crimes. The information is crucial for understanding the ongoing issues related to governance, security, and human rights in the DRC.",
+      "why_it_matters": "This source is significant as it provides a structured overview of individuals sanctioned for their roles in conflicts in the DRC, which is essential for international efforts to promote peace and accountability in the region.",
+      "key_takeaways": [
+        "Individuals listed are primarily involved in military and political conflicts in the DRC.",
+        "Many have been arrested or convicted for serious crimes, including war crimes and human rights abuses.",
+        "The document provides insights into the complex political landscape of the DRC and its neighboring countries.",
+        "Several individuals have fled to neighboring countries, complicating enforcement of sanctions."
+      ]
+    },
     {
       "id": "ec7a8a93392a92abf45e622bd4a01376eb28d430dcb8d5de053b8b4ccbb0fb88",
       "topic": "geopolitics",
@@ -812,256 +1244,6 @@
         "Resolution 2803, which supports a US peace plan, is not being implemented, causing delays.",
         "80% of buildings in Gaza are damaged or destroyed, leaving many without permanent shelter.",
         "Israeli settlement expansion in the West Bank is intensifying, with over 2,200 new housing units planned."
-      ]
-    },
-    {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-05-21T21:24:57.541593+00:00",
-      "published": "",
-      "text_chars": 523907,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "snippet": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks .......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions ....................................................................................................... 35 Ar ticle 1 Res pect for the Convention ..................................................................... 35 Ar ticle ",
-      "summary": "The document outlines the Geneva Conventions of 12 August 1949, which are fundamental treaties aimed at protecting individuals in armed conflict. It details the responsibilities of the International Committee of the Red Cross (ICRC) and the application of humanitarian law. The conventions emphasize the protection of wounded and sick military personnel, medical units, and the rights of individuals during conflicts.",
-      "why_it_matters": "The Geneva Conventions are essential for maintaining humanitarian standards in warfare, ensuring that individuals affected by conflict receive protection and assistance. They serve as a legal framework for the conduct of armed forces and the treatment of non-combatants, thereby promoting peace and human dignity.",
-      "key_takeaways": [
-        "Established on 12 August 1949, the Geneva Conventions are crucial for humanitarian law.",
-        "The ICRC plays a key role in promoting and enforcing these conventions.",
-        "The conventions protect the rights of wounded and sick military personnel.",
-        "They outline the responsibilities of neutral powers and medical units."
-      ]
-    },
-    {
-      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "topic": "geopolitics",
-      "title": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
-      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
-      "host": "treaties.un.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-05-21T21:24:52.117434+00:00",
-      "published": "",
-      "text_chars": 89992,
-      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
-      "snippet": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS. Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the pre",
-      "summary": "The Charter of the United Nations, established in 1945, outlines the purposes and principles of the UN, aiming to maintain international peace and security, promote human rights, and foster international cooperation. It emphasizes the sovereign equality of all member states and the importance of settling disputes peacefully. The document also details the structure and functions of the UN's principal organs, including the General Assembly and the Security Council.",
-      "why_it_matters": "The UN Charter is foundational for international law and diplomacy, establishing a framework for global governance and cooperation. It plays a crucial role in maintaining peace and security, promoting human rights, and fostering international collaboration on various issues.",
-      "key_takeaways": [
-        "The UN Charter was established in San Francisco in 1945.",
-        "It aims to prevent war and promote human rights.",
-        "All member states are sovereign and equal.",
-        "Disputes should be settled peacefully to maintain international security."
-      ]
-    },
-    {
-      "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
-      "topic": "geopolitics",
-      "title": "https://peacekeeping.un.org/sites/default/files/capstone_eng_0.pdf",
-      "url": "https://peacekeeping.un.org/sites/default/files/capstone_eng_0.pdf",
-      "host": "peacekeeping.un.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-05-21T21:24:51.280203+00:00",
-      "published": "",
-      "text_chars": 174113,
-      "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
-      "text_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.txt",
-      "snippet": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines United Nations Peacekeeping Operations Principles and Guidelines United Nations Department of Peacekeeping Operations Department of Field Support 2 | UNITED NATIONS PEACEKEEPING OPERATIONS CONTENTS | 3 ContentsCredits Peacekeeping Bes",
-      "summary": "This document outlines the evolution and principles of United Nations peacekeeping operations over the past six decades. It serves as a guide for planners and practitioners, capturing lessons learned from over 60 operations since 1948. The publication emphasizes the complexity of modern peacekeeping missions, which now include a range of activities beyond monitoring cease-fires, such as promoting national dialogue, protecting civilians, and supporting the rule of law.",
-      "why_it_matters": "This document is significant as it codifies the experiences and lessons learned from decades of United Nations peacekeeping, providing essential guidance for current and future operations. It addresses the challenges of contemporary peacekeeping and aims to enhance the effectiveness of international responses to crises.",
-      "key_takeaways": [
-        "United Nations peacekeeping has evolved significantly since 1948.",
-        "Modern missions involve complex tasks beyond simple monitoring.",
-        "The document serves as a guide for effective planning and execution of peacekeeping operations.",
-        "It reflects lessons learned from past operations to improve future missions."
-      ]
-    },
-    {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-05-21T21:24:47.386527+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "snippet": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "summary": "This document contains binary geospatial mapping data collected for the Global Geopolitics Monitor. The data is focused on disputed areas around the world, providing a visual representation of geopolitical boundaries and conflicts. The source is a zip file containing the relevant mapping data for analysis.",
-      "why_it_matters": "This geospatial mapping data is significant for researchers and analysts studying global geopolitics, as it provides essential visual tools for understanding territorial disputes and their implications on international relations.",
-      "key_takeaways": [
-        "Contains geospatial mapping data on disputed areas.",
-        "Useful for analyzing global geopolitical conflicts.",
-        "Data is provided in a binary format.",
-        "Source is intended for the Global Geopolitics Monitor."
-      ]
-    },
-    {
-      "id": "ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
-      "topic": "geopolitics",
-      "title": "https://www.cia.gov/the-world-factbook/",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-05-21T21:24:47.374265+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.html",
-      "text_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.txt",
-      "snippet": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades , The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook , launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use. Though the World Factbook is gone, in the spirit of its global reach and legacy,",
-      "summary": "The World Factbook, a prominent intelligence publication by the CIA, has been discontinued. It transitioned from a classified document to an unclassified electronic resource over several decades, serving as a comprehensive reference for global information. Launched in 1962, it evolved significantly, becoming accessible online in 1997 and attracting millions of users annually. The publication was valued by a diverse audience, including researchers and travelers, and featured a collection of copyright-free photographs.",
-      "why_it_matters": "The World Factbook was a vital resource for understanding global demographics, geography, and political structures, making it significant for researchers, educators, and the general public interested in international affairs.",
-      "key_takeaways": [
-        "The World Factbook was launched in 1962 as a classified publication.",
-        "It became unclassified in 1971 and was renamed in 1981.",
-        "The digital version was introduced in 1997 on CIA.gov.",
-        "It served millions of users, including researchers and travelers."
-      ]
-    },
-    {
-      "id": "f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1",
-      "topic": "geopolitics",
-      "title": "https://www.treasury.gov/ofac/downloads/sdn.xml",
-      "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
-      "host": "treasury.gov",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "text/xml",
-      "collected_at": "2026-05-21T21:24:47.245343+00:00",
-      "published": "",
-      "text_chars": 9071064,
-      "raw_path": "data/geopolitics/raw/f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1.xml",
-      "text_path": "data/geopolitics/raw/f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1.txt",
-      "snippet": "05/21/2026 19050 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity CUBA 219 a.k.a. weak BNC 220 a.k.a. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg. 6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. Entity CUBA 276 Panama City Panama 535 CIMEX Entity CUBA 317 Emerson No. 148 Piso 7 Mexico, D.F. 11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A. Entity CUBA 319 Panama 540 COMERCIAL IBEROAMERICANA, S.A. Entity CUBA 471 a.k.a. strong COIBA 321 Spain 551 COMERCIAL CIMEX, S.A. Entity CUBA 328 Panama 552 COMERCIAL DE RODAJES Y MAQUINARIA, S.A. Entity CUBA 475 a.k.a. strong CRYMSA 329 Jose Lazaro Galdeano 6-6 Madrid 28016 Spain 555 COMERCIALIZACION DE PRODUCTOS VARIOS Entity CUBA 477 a.k.a. strong COPROVA 478 a.k.a. strong COPROVA SARL 331 Paris France 559 COMPANIA DE IMPORTACION Y EXPORTACION IBERIA Entity CUBA 481 a.k.a. strong CIMEX 334 Spain 576 CORPORACION CIMEX, ",
-      "summary": "The document lists various entities and individuals associated with Cuba that are subject to sanctions. It includes details such as names, aliases, addresses, and the nature of their sanctions. The entities range from airlines and banks to import/export companies, highlighting the extensive network of sanctioned organizations linked to Cuba.",
-      "why_it_matters": "This document is significant as it provides critical information on entities and individuals that are subject to U.S. sanctions, which can impact international relations, trade, and security policies. Understanding these sanctions is essential for compliance and for assessing risks associated with dealings involving these entities.",
-      "key_takeaways": [
-        "Includes a comprehensive list of sanctioned entities and individuals related to Cuba.",
-        "Details various aliases and addresses for each entity.",
-        "Highlights the international scope of sanctions affecting entities in multiple countries.",
-        "Identifies key individuals associated with terrorist organizations under U.S. sanctions."
-      ]
-    },
-    {
-      "id": "c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae",
-      "topic": "geopolitics",
-      "title": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
-      "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
-      "host": "treasury.gov",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "text/xml",
-      "collected_at": "2026-05-21T21:24:12.949097+00:00",
-      "published": "",
-      "text_chars": 392158,
-      "raw_path": "data/geopolitics/raw/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae.xml",
-      "text_path": "data/geopolitics/raw/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae.txt",
-      "snippet": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Mohammad Mahmoud 4698 1951 true 4699 Umm Tuba true 9641 Jamileh Abdullah AL-SHANTI Individual NS-PLC 9154 a.k.a. strong EL-SHANTI Jameela Abdallah 9155 a.k.a. strong AL SHANTEE Jamila Abed Allah 12128 Gaza Palestinian 4700 1955 true 4701 Jabalia Camp true 9642 Mohammed Jamal NU'MAN ALAEDDIN Individual NS-PLC 9156 a.k.a. strong ALA AL DIN Mohamad Nouman 9157 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a. strong RABBAI Khalil Mussa 4705 1959 true 9645 Huda Naim AL-QREINAWI Individual NS-PLC 9159 a.k.a. strong AL QRENAWI Houda Naim 12130 Gaza Palestinian 4706 1969 true 9646 Mahmoud Ahmad AL-RAMAHI Individual NS-PLC 12131 Ramallah West Bank Palestinian 4707 1963 true 9647 Mahmoud Khaled ZAHHAR Individual (Linked To: HAMAS) NS-PLC SDGT 166818 Secondary sanctions risk: section 1(b) of Executive Order 13224, as amended by Executive Order 13886 166816 Gender Male 9160 a.k.a. strong AL ZAHAR Mahmoud Khaled 71276 a.k.a. weak ZAHAR, Mahmoud 71",
-      "summary": "The document contains a list of individuals designated under the NS-PLC sanctions program, including their aliases, birth years, and associated regions. Notable individuals include Ismail Abdul Salah Haniya, Mohammed Abu Teir, and Mahmoud Ahmad Al-Ramahi, among others. Each entry provides details such as the individual's name, aliases, and the region they are associated with, primarily focusing on Palestinian territories.",
-      "why_it_matters": "This document is significant for understanding the U.S. government's sanctions against individuals linked to terrorism and other illicit activities, particularly in the context of the ongoing conflict in the region. It serves as a critical resource for compliance by financial institutions and other entities.",
-      "key_takeaways": [
-        "List of individuals sanctioned under NS-PLC.",
-        "Includes aliases and birth years.",
-        "Focus on individuals linked to Palestinian territories.",
-        "Highlights secondary sanctions risks under Executive Orders."
-      ]
-    },
-    {
-      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "topic": "geopolitics",
-      "title": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-21T21:24:10.939263+00:00",
-      "published": "",
-      "text_chars": 6187025,
-      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
-      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
-      "snippet": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2021\", \"value\": 1253",
-      "summary": "The dataset provides information on military expenditure in current USD for the region of Africa Eastern and Southern from 1994 to 2025. It includes annual military expenditure figures, showing a general trend of increase over the years. The most recent data point for 2024 indicates military expenditure of approximately 13.66 billion USD.",
-      "why_it_matters": "Understanding military expenditure is crucial for analyzing defense budgets, economic priorities, and regional security dynamics in Africa Eastern and Southern. This data can inform policymakers and researchers about trends in military spending and its implications for development and stability.",
-      "key_takeaways": [
-        "Military expenditure data spans from 1994 to 2025.",
-        "The highest recorded expenditure was approximately 16.17 billion USD in 2017.",
-        "Expenditure in 2024 is projected at 13.66 billion USD.",
-        "There is a general upward trend in military spending over the years."
-      ]
-    },
-    {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-21T21:24:10.673729+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "snippet": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2",
-      "summary": "The dataset provides information on arms imports in the Eastern and Southern Africa region, measured in SIPRI trend indicator values. The data spans from 1994 to 2025, with notable fluctuations in import values over the years. The most recent data point for 2023 indicates arms imports of 166 million USD, a significant decrease from 258 million USD in 2022.",
-      "why_it_matters": "Understanding arms imports is crucial for assessing military capabilities and security dynamics in the Eastern and Southern Africa region. This data can inform policy decisions and international relations regarding arms trade and regional stability.",
-      "key_takeaways": [
-        "Arms imports peaked at 1.116 billion USD in 2011.",
-        "The value of arms imports has fluctuated significantly over the years.",
-        "In 2023, arms imports were recorded at 166 million USD.",
-        "The data shows a downward trend in arms imports from 2022 to 2023."
-      ]
-    },
-    {
-      "id": "26d6abeb7e6a6549b72ae35916862a618a1863103dc6372150a3b15e665127a0",
-      "topic": "geopolitics",
-      "title": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-05-21T21:24:10.393705+00:00",
-      "published": "",
-      "text_chars": 824889,
-      "raw_path": "data/geopolitics/raw/26d6abeb7e6a6549b72ae35916862a618a1863103dc6372150a3b15e665127a0.xml",
-      "text_path": "data/geopolitics/raw/26d6abeb7e6a6549b72ae35916862a618a1863103dc6372150a3b15e665127a0.txt",
-      "snippet": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no charges were brought and as of June 2016, he lived in Kinshasa. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https:/",
-      "summary": "The document contains a list of individuals associated with sanctions designations by the UN Security Council, primarily focusing on those involved in conflicts in the Democratic Republic of the Congo (DRC). It details their affiliations, activities, and legal statuses, including arrests and convictions for war crimes. The information is crucial for understanding the ongoing issues related to governance, security, and human rights in the DRC.",
-      "why_it_matters": "This source is significant as it provides a structured overview of individuals sanctioned for their roles in conflicts in the DRC, which is essential for international efforts to promote peace and accountability in the region.",
-      "key_takeaways": [
-        "Individuals listed are primarily involved in military and political conflicts in the DRC.",
-        "Many have been arrested or convicted for serious crimes, including war crimes and human rights abuses.",
-        "The document provides insights into the complex political landscape of the DRC and its neighboring countries.",
-        "Several individuals have fled to neighboring countries, complicating enforcement of sanctions."
       ]
     },
     {
@@ -1596,181 +1778,6 @@
         "Three companies involved: Aselsan, STM, and Havelsan.",
         "Vessels designed for precision strike missions against maritime targets."
       ]
-    },
-    {
-      "id": "f3df0191d6156332cc8cc9e6f279e069e75ab688e01e33327017b270d012e72e",
-      "topic": "geopolitics",
-      "title": "Italy settles on Airbus tanker purchase in swing toward European equipment",
-      "url": "https://www.defensenews.com/global/europe/2026/05/20/italy-settles-on-airbus-tanker-purchase-in-swing-toward-european-equipment/",
-      "host": "defensenews.com",
-      "source": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=utf-8",
-      "collected_at": "2026-05-21T14:47:30.766555+00:00",
-      "published": "Wed, 20 May 2026 07:37:38 +0000",
-      "text_chars": 1454,
-      "raw_path": "data/geopolitics/raw/f3df0191d6156332cc8cc9e6f279e069e75ab688e01e33327017b270d012e72e.html",
-      "text_path": "data/geopolitics/raw/f3df0191d6156332cc8cc9e6f279e069e75ab688e01e33327017b270d012e72e.txt",
-      "snippet": "ROME — Italy is to buy six Airbus A330 MRTT multi-role tanker transport aircraft in a €1.4 billion ($1.6 billion) deal after 15 years of flying Boeing tankers. The purchase, which was announced by the European Union’s TED public procurement platform, envisages ten years of logistic support and indicates the A330 was the only aircraft in the bidding. The deal marks a shift from Boeing to Airbus for the Italian Air Force, which flies four Boeing 767-based tanker aircraft which entered service from 2011. In 2021 Italy announced plans to upgrade its B-767 tankers and purchase two more, but the following year Rome changed its plans, deciding instead to buy six new KC-46 aircraft. In 2024, however, Italy started to consider Airbus after suspending plans to acquire the KC-46 tankers. At the time, Italy stated the €1.1 billion KC-46 purchase had been halted “due to changed and unforeseen needs.” At the time, Defense News reported the halting of the order was linked to cost and the promised delivery time of the new aircraft. The Airbus order comes at a time when European militaries are seeking greater commonality and are warier of purchases of U.S. products as President Trump regularly disparages the traditional U.S.-Europe trans-Atlantic alliance. France, Spain and the U..K are customers of the A330 MRTT while a host of other European nations fly the aircraft through NATO pooling. Tom ",
-      "summary": "Italy has finalized a €1.4 billion deal to purchase six Airbus A330 MRTT multi-role tanker transport aircraft, marking a significant shift from its previous reliance on Boeing tankers. This decision follows a 15-year history of operating Boeing aircraft and comes amid a broader trend among European militaries to seek greater commonality in equipment. The deal includes ten years of logistic support and reflects Italy's changing defense procurement strategy, particularly in light of previous plans to acquire KC-46 tankers.",
-      "why_it_matters": "This purchase signifies a strategic pivot for Italy towards European defense capabilities, reflecting broader trends in European military procurement and cooperation amidst geopolitical tensions.",
-      "key_takeaways": [
-        "Italy to buy six Airbus A330 MRTT aircraft for €1.4 billion.",
-        "Shift from Boeing to Airbus for the Italian Air Force.",
-        "Deal includes ten years of logistic support.",
-        "Previous plans for KC-46 tankers were halted due to unforeseen needs."
-      ]
-    },
-    {
-      "id": "64d0419c80727dfcab28debde6b326284286380d9a9e108722c865763ffe7132",
-      "topic": "geopolitics",
-      "title": "Latvia scrambles NATO jets in drone alert, the latest of several in Baltic",
-      "url": "https://www.dw.com/en/latvia-scrambles-nato-jets-in-drone-alert-the-latest-of-several-in-baltic/a-77244356?maca=en-rss-en-world-4025-rdf",
-      "host": "dw.com",
-      "source": "https://rss.dw.com/rdf/rss-en-world",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=utf-8",
-      "collected_at": "2026-05-21T14:47:30.643967+00:00",
-      "published": "2026-05-21T12:49:00Z",
-      "text_chars": 3998,
-      "raw_path": "data/geopolitics/raw/64d0419c80727dfcab28debde6b326284286380d9a9e108722c865763ffe7132.html",
-      "text_path": "data/geopolitics/raw/64d0419c80727dfcab28debde6b326284286380d9a9e108722c865763ffe7132.txt",
-      "snippet": "Latvia 's military on Thursday reported at least one drone flying in the country's airspace, saying that NATO aircraft were activated to combat the apparent threat. An alert issued to people in Latvia was lifted hours after being issued, but it was the latest of a series of such incidents in the Baltic, and came less than a month after a drone incursion that ultimately led to the collapse of Latvia's coalition government . What did Latvia's armed forces say about the incursion? \"We confirm that there is at least one unmanned aircraft in Lativan airspace,\" the Latvian Armed Forces wrote online. It advised people to seek shelter indoors and close windows and doors, saying that additional units had been deployed on the eastern border to Russia. \"As long as Russia's aggression in Ukraine continues, recurrences of such incidences — where a foreign unmanned aerial vehicle enters or approaches Latvia's airspace — are possible,\" they said. What to make of Ukrainian drones in NATO airspace To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video The fallout from a stray drone landing in eastern Latvia and hitting an oil storage facility ultimately led to the collapse of the already fragile coalition government. First, Prime Minister Evika Silina fired her defense minister for his handling of the issue, then the smaller party he repre",
-      "summary": "Latvia's military reported a drone in its airspace, prompting NATO aircraft to respond. This incident follows a series of similar alerts in the Baltic region, including a recent drone incursion that led to the collapse of Latvia's coalition government. The Latvian Armed Forces confirmed the presence of the unmanned aircraft and advised citizens to seek shelter. The ongoing conflict in Ukraine raises concerns about future incursions.",
-      "why_it_matters": "This situation highlights the increasing security risks faced by Baltic countries due to the ongoing conflict in Ukraine and the potential for foreign unmanned aerial vehicles to enter their airspace, which could escalate tensions in the region.",
-      "key_takeaways": [
-        "Latvia reported a drone in its airspace, activating NATO jets.",
-        "The alert was lifted after a few hours but is part of ongoing incidents.",
-        "A previous drone incident contributed to the collapse of Latvia's coalition government.",
-        "Latvian Armed Forces confirmed the drone's presence and advised public safety measures."
-      ]
-    },
-    {
-      "id": "2bc67b831ad7c8959b59107ffd3d2af0eebb2949f3632cb84ed8e45807a211f7",
-      "topic": "geopolitics",
-      "title": "G-7 Finance Ministers Discuss Economic Fallout of Iran War",
-      "url": "https://foreignpolicy.com/2026/05/18/g7-finance-ministers-iran-war-oil-prices-bond-markets-tariffs-trump-us/",
-      "host": "foreignpolicy.com",
-      "source": "https://foreignpolicy.com/feed/",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-05-21T14:47:29.549966+00:00",
-      "published": "Mon, 18 May 2026 20:42:49 +0000",
-      "text_chars": 8509,
-      "raw_path": "data/geopolitics/raw/2bc67b831ad7c8959b59107ffd3d2af0eebb2949f3632cb84ed8e45807a211f7.html",
-      "text_path": "data/geopolitics/raw/2bc67b831ad7c8959b59107ffd3d2af0eebb2949f3632cb84ed8e45807a211f7.txt",
-      "snippet": "Welcome back to World Brief, where we’re looking at G-7 efforts to stabilize the global market , Israel ’s naval blockade of Gaza , and an Ebola outbreak in the Democratic Republic of the Congo and Uganda . Fears of a Global Recession More than a year after U.S. President Donald Trump imposed sweeping tariffs on virtually all U.S. trading partners, the White House is now asking these same allies for help stabilizing the fraught global market. G-7 finance ministers and central bank governors convened in Paris on Monday for two days of meetings to discuss the economic fallout of the Iran war, including rising crude prices and growing bond market volatility. Among the group’s biggest concerns is that disruptions to oil markets could slow growth, increase inflation, and ignite a possible global recession. “When oil prices hover above $100 and there is already impact of this war baked in, inevitably there would be a response,” Kristalina Georgieva, the head of the International Monetary Fund, said on Monday, regarding the global bond market sell-off that has transpired in recent days. U.S. Treasury Secretary Scott Bessent is hoping to promote economic unity within the G-7 to combat some of these risks. However, heading into the Monday meeting, his focus appeared to be on rallying allies to tighten international sanctions on Iran. “We call upon all our G-7 and indeed all of our allie",
-      "summary": "G-7 finance ministers and central bank governors convened in Paris to address the economic fallout from the Iran war, focusing on rising crude prices and bond market volatility. The discussions highlighted concerns over potential global recession risks due to oil price increases and the impact of U.S. tariffs. U.S. Treasury Secretary Scott Bessent emphasized the need for economic unity among G-7 nations to combat these challenges, while also advocating for tighter sanctions on Iran. The meetings serve as a precursor to the upcoming G-7 leaders' summit in Evian next month.",
-      "why_it_matters": "The G-7 discussions are crucial for addressing the interconnected challenges of global economic stability, energy security, and international relations, particularly in light of the ongoing Iran conflict and its implications for global markets.",
-      "key_takeaways": [
-        "G-7 ministers met in Paris to discuss the economic impact of the Iran war.",
-        "Concerns were raised about rising oil prices and potential global recession.",
-        "U.S. Treasury Secretary called for unity among G-7 nations.",
-        "Discussions included tightening sanctions on Iran and reopening the Strait of Hormuz."
-      ]
-    },
-    {
-      "id": "ee7eeb2f3d05eca7cbc6a9fcb71fd3a902dea79596bb1bb52792493fbdb3efb5",
-      "topic": "geopolitics",
-      "title": "Poll: How the US Lost the ‘Hearts and Minds’ of People Worldwide",
-      "url": "https://thediplomat.com/2026/05/poll-how-the-us-lost-the-hearts-and-minds-of-people-worldwide/",
-      "host": "thediplomat.com",
-      "source": "https://thediplomat.com/feed/",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-05-21T14:47:29.472700+00:00",
-      "published": "Fri, 15 May 2026 22:22:00 +0900",
-      "text_chars": 5701,
-      "raw_path": "data/geopolitics/raw/ee7eeb2f3d05eca7cbc6a9fcb71fd3a902dea79596bb1bb52792493fbdb3efb5.html",
-      "text_path": "data/geopolitics/raw/ee7eeb2f3d05eca7cbc6a9fcb71fd3a902dea79596bb1bb52792493fbdb3efb5.txt",
-      "snippet": "This week NIRA Data presented the results of its annual public opinion survey, commissioned by the Alliance of Democracies , which was conducted in 85 countries worldwide between March 19 and April 21, 2026. The results are not surprising but still offer valuable new evidence and nuance about the significant changes the world is witnessing. Essentially the data shows how steeply the United States is losing its global appeal in recent years. Just three years ago, the U.S. enjoyed a comfortable lead globally in terms of soft power. Almost no one had a good opinion of China and a bad opinion of the United States. The situation has changed dramatically in a short span of time. Today, most countries around the world now view China more favorably than the United States. Source: NIRA, Global Country Perceptions 2026. Reproduced with permission. It is useful to note that most people in the world are not choosing between China and the United States. Back in 2023, public in most countries had positive perceptions of both China and the U.S., followed closely by those countries where the public had a better image of the U.S. than of China. Today, the most common category of countries is the group of those that have a negative public image of the United States and a positive image of China. This is especially common among the countries in Middle East and North Africa, but also applies to so",
-      "summary": "A recent survey by NIRA Data, commissioned by the Alliance of Democracies, reveals a significant decline in the global perception of the United States, with many countries now viewing China more favorably. The survey, conducted in 85 countries from March 19 to April 21, 2026, highlights a dramatic shift in public opinion over the past three years, where the U.S. has lost its previous lead in soft power. The findings suggest that the U.S. image has deteriorated primarily due to domestic and foreign policies under Donald Trump, while perceptions of China and Russia have improved.",
-      "why_it_matters": "This research highlights the changing dynamics of global power and influence, particularly the declining trust in the U.S. and the rising favorability of China. Understanding these shifts is crucial for policymakers as they navigate international relations and strategize for future engagements.",
-      "key_takeaways": [
-        "The U.S. has lost its global appeal, with many countries now favoring China.",
-        "Only Israel has a predominantly positive view of the U.S. compared to China.",
-        "Russia is now perceived more positively than the U.S. in many regions.",
-        "The shift in perceptions is largely attributed to Trump's policies since 2025."
-      ]
-    },
-    {
-      "id": "17b0e1dd94c873200eff24adb88512de4d67bccb7e2225238f7b602ac47b51ec",
-      "topic": "geopolitics",
-      "title": "Philippine Supreme Court Rejects Fugitive Senator’s Challenge to ICC Arrest Warrant",
-      "url": "https://thediplomat.com/2026/05/philippine-supreme-court-rejects-fugitive-senators-challenge-to-icc-arrest-warrant/",
-      "host": "thediplomat.com",
-      "source": "https://thediplomat.com/feed/",
-      "data_type": "legal_judicial_records",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-05-21T14:47:29.453376+00:00",
-      "published": "Thu, 21 May 2026 11:17:00 +0900",
-      "text_chars": 5049,
-      "raw_path": "data/geopolitics/raw/17b0e1dd94c873200eff24adb88512de4d67bccb7e2225238f7b602ac47b51ec.html",
-      "text_path": "data/geopolitics/raw/17b0e1dd94c873200eff24adb88512de4d67bccb7e2225238f7b602ac47b51ec.txt",
-      "snippet": "The Philippine Supreme Court yesterday rejected a bid by Senator Ronald “Bato” dela Rosa for a temporary ‌restraining order to prevent his arrest and transfer to the International Criminal Court (ICC). On May 11, the ICC unsealed a warrant for Dela Rosa’s arrest, charging him with crimes against humanity for his role in leading former President Rodrigo Duterte’s bloody “war on drugs” campaign. Dela Rosa subsequently fled into his office in the Senate, before slipping out of the building before dawn ​on May 14. The senator, whose current whereabouts are unknown, also filed three petitions to the Supreme ​Court, requesting that it stop authorities from arresting him and surrendering him to The Hague-based court. In a 9-5-1 ruling handed down yesterday , the Supreme Court justices denied Dela Rosa’s petition for a temporary restraining order and status quo ante order, the court said in a statement. It clarified that the judges “only decided on the prayers for interim relief. The main issues raised by the parties in their pleadings and motions are yet to be resolved in the main case.” It added that the Supreme Court would release its full resolution, as well as the concurring and dissenting opinions of the 15 justices, on May 25. Dela Rosa, who served as Philippine National Police chief for the first two years of Duterte’s presidential term, is wanted by the ICC for his prominent r",
-      "summary": "The Philippine Supreme Court has denied Senator Ronald 'Bato' dela Rosa's request for a temporary restraining order against his arrest by the International Criminal Court (ICC). Dela Rosa is wanted for crimes against humanity related to his role in the Duterte administration's anti-drug campaign. The court's ruling allows for his potential arrest, as the senator remains a fugitive. The Supreme Court will release a full resolution on May 25, detailing the judges' opinions.",
-      "why_it_matters": "This ruling is significant as it highlights the ongoing legal and political struggles in the Philippines, particularly regarding accountability for human rights violations during the Duterte administration. It also reflects the tensions between current President Ferdinand Marcos Jr. and the Duterte family, impacting the political landscape ahead of the 2028 elections.",
-      "key_takeaways": [
-        "Supreme Court rejected Dela Rosa's bid to prevent arrest.",
-        "Dela Rosa is charged with crimes against humanity by the ICC.",
-        "The senator's current whereabouts are unknown.",
-        "The ruling allows for potential arrest by authorities."
-      ]
-    },
-    {
-      "id": "0ae7a64f4bf543901f0d9a00c4f70260ccf219e5c0661f33e037f7f335322f57",
-      "topic": "geopolitics",
-      "title": "Gunfire Erupts at Philippine Senate Amid Standoff Over ICC Suspect",
-      "url": "https://thediplomat.com/2026/05/gunfire-erupts-at-philippine-senate-amid-standoff-over-icc-suspect/",
-      "host": "thediplomat.com",
-      "source": "https://thediplomat.com/feed/",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-05-21T14:47:29.434877+00:00",
-      "published": "Thu, 14 May 2026 14:07:00 +0900",
-      "text_chars": 5400,
-      "raw_path": "data/geopolitics/raw/0ae7a64f4bf543901f0d9a00c4f70260ccf219e5c0661f33e037f7f335322f57.html",
-      "text_path": "data/geopolitics/raw/0ae7a64f4bf543901f0d9a00c4f70260ccf219e5c0661f33e037f7f335322f57.txt",
-      "snippet": "Gunfire broke out amid chaotic scenes at the Philippine Senate ​yesterday, after armed men attempted to enter areas of the building where Senator Ronald “Bato” dela Rosa is hiding out to avoid an arrest warrant from the International Criminal Court (ICC). Dela Rosa, the chief enforcer of former Philippine President Rodrigo Duterte’s violent “war on drugs” campaign, locked himself in his Senate office on Monday, after fleeing from officers from the National Bureau of Investigation (NBI). A few hours later, the ICC announced that it had unsealed a warrant seeking the 64-year-old’s arrest on charges of crimes against humanity. The warrant, which was initially issued on November 6, was issued after the Pretrial Chamber “found reasonable grounds” that Dela Rosa was “criminally responsible as an indirect co-perpetrator… for the crime against humanity of murder.” On the same day, a leadership coup in the Senate installed Senator Peter Allan Cayetano, a Duterte ally, as the chamber’s president, who immediately said that Dela Rosa was under the Senate’s protection. Inquirer.net reported that the gunfire erupted after unidentified armed men attempted to enter the area of the Senate building where Dela Rosa is currently laying low. Chaos subsequently ensued in the crowded upper halls of the building. “The sound of several gunshots sent journalists fleeing for cover, minutes after law enfo",
-      "summary": "Gunfire erupted at the Philippine Senate as armed men attempted to enter the building where Senator Ronald 'Bato' dela Rosa was hiding to avoid an arrest warrant from the International Criminal Court (ICC). Dela Rosa, a key figure in former President Duterte's drug war, had locked himself in his office after the ICC unsealed a warrant for his arrest on charges of crimes against humanity. The incident escalated into chaos, with shots fired and law enforcement responding, while the identity of the armed men remains unclear.",
-      "why_it_matters": "This incident underscores the escalating tensions in Philippine politics, particularly regarding accountability for human rights violations during the Duterte administration. The involvement of armed men and the chaos at the Senate reflect the serious implications of the ICC's actions and the political stakes for both the Duterte and Marcos clans.",
-      "key_takeaways": [
-        "Gunfire broke out at the Philippine Senate amid a standoff over Senator Dela Rosa's ICC arrest warrant.",
-        "Dela Rosa is wanted for crimes against humanity related to the drug war under former President Duterte.",
-        "The ICC issued an arrest warrant for Dela Rosa after finding reasonable grounds for his criminal responsibility.",
-        "Chaos ensued as armed men attempted to breach the Senate, leading to shots fired by Senate security."
-      ]
-    },
-    {
-      "id": "9795560a932071bf0d374af9762194746237453516c31678533556d4df125bc6",
-      "topic": "geopolitics",
-      "title": "Jim Robertson",
-      "url": "https://www.war.gov/About/Biographies/Biography/Article/4484322/jim-robertson/",
-      "host": "war.gov",
-      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=3&Site=945&max=20",
-      "data_type": "government_documents",
-      "format": "Article",
-      "content_type": "text/html; charset=utf-8",
-      "collected_at": "2026-05-21T14:47:29.319862+00:00",
-      "published": "Tue, 12 May 2026 16:57:00 GMT",
-      "text_chars": 1642,
-      "raw_path": "data/geopolitics/raw/9795560a932071bf0d374af9762194746237453516c31678533556d4df125bc6.html",
-      "text_path": "data/geopolitics/raw/9795560a932071bf0d374af9762194746237453516c31678533556d4df125bc6.txt",
-      "snippet": "Jim Robertson Deputy Assistant Secretary of War for Global Investment and Economic Security | Jim Robertson serves as the Deputy Assistant Secretary of War for Global Investment and Economic Security. In this role, he is the principal advisor to the Assistant Secretary of War for Industrial Base Policy on matters related to defense industrial base security; investment tools; foreign investment reviews; defense industry mergers, acquisitions, and consolidations; and related national security matters. Mr. Robertson brings extensive experience in national security policy, international relations, and Congressional policymaking. He previously served as a Professional Staff Member on the House Permanent Select Committee on Intelligence, where he provided critical oversight and monitored major intelligence programs and agencies. He also previously served as Chief of Staff at the United States Mission to the United Nations within the Department of State. Prior to his role at the USUN, Mr. Robertson served as Deputy Chief of Staff and National Security Advisor for a member of elected leadership in the U.S. House of Representatives. He is also a noncommissioned Officer in the U.S. Army Reserve, with a record of military service that includes mobilizations both domestically and overseas. Mr. Robertson holds a Master of Business Administration from Liberty University and is currently purs",
-      "summary": "Jim Robertson serves as the Deputy Assistant Secretary of War for Global Investment and Economic Security, advising on defense industrial base security and related national security matters. He has extensive experience in national security policy and international relations, having worked on the House Permanent Select Committee on Intelligence and at the United States Mission to the United Nations. Additionally, he has a military background as a noncommissioned Officer in the U.S. Army Reserve.",
-      "why_it_matters": "Jim Robertson's role is crucial for ensuring the security of the defense industrial base and managing foreign investments, which are vital for national security. His extensive background in intelligence and military service enhances his capability to address complex security challenges.",
-      "key_takeaways": [
-        "Current role: Deputy Assistant Secretary of War for Global Investment and Economic Security.",
-        "Advises on defense industrial base security and foreign investment reviews.",
-        "Former Professional Staff Member on the House Permanent Select Committee on Intelligence.",
-        "Served as Chief of Staff at the U.S. Mission to the United Nations."
-      ]
     }
   ],
   "premium_evidence": [
@@ -1784,7 +1791,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-05-21T21:24:47.245343+00:00",
+      "collected_at": "2026-05-22T00:04:17.454084+00:00",
       "published": "",
       "text_chars": 9071064,
       "raw_path": "data/geopolitics/raw/f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1.xml",
@@ -1834,7 +1841,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-21T21:24:10.673729+00:00",
+      "collected_at": "2026-05-22T00:03:43.771879+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -1859,7 +1866,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-21T21:24:10.939263+00:00",
+      "collected_at": "2026-05-22T00:03:43.499457+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -1900,6 +1907,31 @@
       ]
     },
     {
+      "id": "805fac9d263ef91a742666ca73790e2fed901261f7c0f1a461d837dd68df1d30",
+      "topic": "geopolitics",
+      "title": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-05-22T00:03:45.880000+00:00",
+      "published": "",
+      "text_chars": 824889,
+      "raw_path": "data/geopolitics/raw/805fac9d263ef91a742666ca73790e2fed901261f7c0f1a461d837dd68df1d30.xml",
+      "text_path": "data/geopolitics/raw/805fac9d263ef91a742666ca73790e2fed901261f7c0f1a461d837dd68df1d30.txt",
+      "snippet": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no charges were brought and as of June 2016, he lived in Kinshasa. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https:/",
+      "summary": "The document contains a list of individuals associated with sanctions designations by the UN Security Council, primarily focusing on those involved in conflicts in the Democratic Republic of the Congo (DRC). It details their affiliations, activities, and legal statuses, including arrests and convictions for war crimes. The information is crucial for understanding the ongoing issues related to governance, security, and human rights in the DRC.",
+      "why_it_matters": "This source is significant as it provides a structured overview of individuals sanctioned for their roles in conflicts in the DRC, which is essential for international efforts to promote peace and accountability in the region.",
+      "key_takeaways": [
+        "Individuals listed are primarily involved in military and political conflicts in the DRC.",
+        "Many have been arrested or convicted for serious crimes, including war crimes and human rights abuses.",
+        "The document provides insights into the complex political landscape of the DRC and its neighboring countries.",
+        "Several individuals have fled to neighboring countries, complicating enforcement of sanctions."
+      ]
+    },
+    {
       "id": "26d6abeb7e6a6549b72ae35916862a618a1863103dc6372150a3b15e665127a0",
       "topic": "geopolitics",
       "title": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
@@ -1909,7 +1941,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-05-21T21:24:10.393705+00:00",
+      "collected_at": "2026-05-21T23:00:18.060468+00:00",
       "published": "",
       "text_chars": 824889,
       "raw_path": "data/geopolitics/raw/26d6abeb7e6a6549b72ae35916862a618a1863103dc6372150a3b15e665127a0.xml",
@@ -1934,7 +1966,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-21T21:24:57.541593+00:00",
+      "collected_at": "2026-05-22T00:04:25.597970+00:00",
       "published": "",
       "text_chars": 523907,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -1959,7 +1991,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-05-21T21:24:12.949097+00:00",
+      "collected_at": "2026-05-22T00:03:47.422986+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae.xml",
@@ -2009,7 +2041,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-21T21:24:51.280203+00:00",
+      "collected_at": "2026-05-22T00:04:19.383015+00:00",
       "published": "",
       "text_chars": 174113,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -2034,7 +2066,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-21T21:24:52.117434+00:00",
+      "collected_at": "2026-05-22T00:04:20.751334+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -2197,31 +2229,6 @@
         "The program is motivated by North Korea's advancements in drone technology.",
         "Challenges include a significant drop in noncommissioned officer recruitment.",
         "South Korea's drone program relies heavily on foreign components, particularly from China."
-      ]
-    },
-    {
-      "id": "ccedff6aac649fc8763a816116123d9a826c17998ac27daf73d271001d600cd4",
-      "topic": "geopolitics",
-      "title": "Ash Carter: The Interview",
-      "url": "https://warontherocks.com/secdef-ash-carter-on-how-the-military-will-build-the-force-of-the-future/",
-      "host": "warontherocks.com",
-      "source": "https://warontherocks.com/feed/podcast/",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-05-21T14:46:52.715776+00:00",
-      "published": "Thu, 19 Nov 2015 07:55:23 +0000",
-      "text_chars": 19053,
-      "raw_path": "data/geopolitics/raw/ccedff6aac649fc8763a816116123d9a826c17998ac27daf73d271001d600cd4.html",
-      "text_path": "data/geopolitics/raw/ccedff6aac649fc8763a816116123d9a826c17998ac27daf73d271001d600cd4.txt",
-      "snippet": "How will the U.S. military stay competitive? This is about far more than platforms, bombs, and guns. It is fundamentally about people. And with archaic personnel systems plaguing the armed forces and the Department of Defense, our talented young men and women are being drawn away into the private sector in Silicon Valley and on Wall Street. Secretary of Defense Ash Carter sat down with WOTR’s Ryan Evans to talk about the Force of the Future initiative – a sweeping program of reforms that aims to bring the Department of Defense into the 21st Century in terms of how it manages its most important asset: human beings. Podcast: Play in new window | Download Subscribe: Apple Podcasts | TRANSCRIPT EDITOR-IN-CHIEF RYAN EVANS: Welcome a very special edition of the War on the Rocks podcast series, with Secretary of Defense Ashton Carter. Thanks for making the time for us, Mr. Secretary. SECRETARY OF DEFENSE ASH CARTER: Ryan, thanks for being here. Welcome to the Pentagon. EVANS: We’re here to talk about Force of the Future. It’s a program of reforms, aimed at changing the way the Department of Defense handles its human capital. And you have just announced the first sort of tranche for these reforms earlier this afternoon. Personnel reforms are not generally considered the sort of sexiest topic out there, when you look at Defense, particularly when you’re competing with attention in terms",
-      "summary": "In an interview, Secretary of Defense Ash Carter discusses the 'Force of the Future' initiative, aimed at reforming the Department of Defense's personnel systems to attract and retain talented individuals. He emphasizes the importance of human capital in maintaining a competitive military force and addresses the challenges faced by service members considering leaving for private sector opportunities. Carter outlines the need for modern data analytics to understand personnel retention and the importance of providing educational opportunities and flexible career paths.",
-      "why_it_matters": "The reforms proposed in the 'Force of the Future' initiative are significant as they aim to address the challenges of retaining skilled personnel in the military, which is essential for national security. By modernizing personnel systems and learning from private sector practices, the Department of Defense can enhance its competitiveness and effectiveness in a rapidly changing global landscape.",
-      "key_takeaways": [
-        "The 'Force of the Future' initiative aims to modernize personnel management in the military.",
-        "Attracting and retaining talented individuals is crucial for maintaining a competitive military force.",
-        "Carter emphasizes the need for data analytics to understand why service members leave.",
-        "Educational opportunities and career flexibility are key factors in retaining military personnel."
       ]
     }
   ],
@@ -2858,6 +2865,30 @@
     },
     {
       "topic": "geopolitics",
+      "analysis_file": "data-repo/data/geopolitics/raw/06ec52289d1c77850ccd9572c5d72584297dd0484b5105293f11958fb933a87e.analysis.json",
+      "claim_text": "The ceasefire has not effectively reduced hostilities.",
+      "evidence_text": "Yet hostilities are ongoing, albeit somewhat reduced in intensity and geographic scope.",
+      "source_url": "https://reliefweb.int/attachments/6dfd8bd6-4ab3-4618-b082-0ac493529c92/Attacks%20and%20Displacement%20Continue%20in%20Lebanon_%20NGOs%20Call%20for%20a%20Genuine%20and%20Lasting%20Ceasefire.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "geopolitics",
+      "analysis_file": "data-repo/data/geopolitics/raw/06ec52289d1c77850ccd9572c5d72584297dd0484b5105293f11958fb933a87e.analysis.json",
+      "claim_text": "Over 600 people have been killed in Lebanon since the ceasefire was declared.",
+      "evidence_text": "Over 600 people have been killed in Lebanon since the ceasefire was declared, many of them women, children and emergency responders.",
+      "source_url": "https://reliefweb.int/attachments/6dfd8bd6-4ab3-4618-b082-0ac493529c92/Attacks%20and%20Displacement%20Continue%20in%20Lebanon_%20NGOs%20Call%20for%20a%20Genuine%20and%20Lasting%20Ceasefire.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "geopolitics",
+      "analysis_file": "data-repo/data/geopolitics/raw/06ec52289d1c77850ccd9572c5d72584297dd0484b5105293f11958fb933a87e.analysis.json",
+      "claim_text": "One million people remain internally displaced in Lebanon.",
+      "evidence_text": "One million people remain internally displaced, residing in collective shelters across the country.",
+      "source_url": "https://reliefweb.int/attachments/6dfd8bd6-4ab3-4618-b082-0ac493529c92/Attacks%20and%20Displacement%20Continue%20in%20Lebanon_%20NGOs%20Call%20for%20a%20Genuine%20and%20Lasting%20Ceasefire.pdf",
+      "confidence": "high"
+    },
+    {
+      "topic": "geopolitics",
       "analysis_file": "data-repo/data/geopolitics/raw/0966bf11aa2d8ea82c37de1380e28de288253ab03fb8988a64eed81eff951e1e.analysis.json",
       "claim_text": "Trump has decided to pause an attack on Iran.",
       "evidence_text": "Trump said he had been asked by the leaders of Qatar, Saudi Arabia and the UAE to hold off on a planned attack on Iran.",
@@ -2959,30 +2990,6 @@
       "evidence_text": "United States President Donald Trump has announced he will postpone a “scheduled attack” against Iran at the request of regional leaders in the Middle East.",
       "source_url": "https://www.aljazeera.com/news/2026/5/18/trump-delays-scheduled-attack-on-iran-crediting-serious-negotiations?traffic_source=rss",
       "confidence": "high"
-    },
-    {
-      "topic": "geopolitics",
-      "analysis_file": "data-repo/data/geopolitics/raw/0be63c35943f7c3f3c609702a67886421ad224df61a876764affc99622ab8aa0.analysis.json",
-      "claim_text": "Serious negotiations are taking place.",
-      "evidence_text": "The reversal, he said, came in light of the fact that “serious negotiations are now taking place”.",
-      "source_url": "https://www.aljazeera.com/news/2026/5/18/trump-delays-scheduled-attack-on-iran-crediting-serious-negotiations?traffic_source=rss",
-      "confidence": "medium"
-    },
-    {
-      "topic": "geopolitics",
-      "analysis_file": "data-repo/data/geopolitics/raw/0ddf8cdd9ec31f9439d55c334ebac4ad8851dbf35cdf03f59ff5cca3d555040a.analysis.json",
-      "claim_text": "The Hormuz crisis disrupts kitchens, ports, and paychecks.",
-      "evidence_text": "The image highlights the ongoing impact of the Hormuz crisis on various sectors.",
-      "source_url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/19-05-2026-ILO-construction.jpg/image560x340cropped.jpg",
-      "confidence": "high"
-    },
-    {
-      "topic": "geopolitics",
-      "analysis_file": "data-repo/data/geopolitics/raw/0e15f1082ab602bc2671b9021754b127eaafd6187889ffe528119ca16147cde7.analysis.json",
-      "claim_text": "There is a malnutrition crisis in Somalia.",
-      "evidence_text": "The image highlights the ongoing malnutrition crisis in Somalia.",
-      "source_url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/26-11-2025-UNICEF-Somalia-Drought.jpg/image560x340cropped.jpg",
-      "confidence": "high"
     }
   ],
   "events": [
@@ -3078,6 +3085,17 @@
     },
     {
       "topic": "geopolitics",
+      "analysis_file": "data-repo/data/geopolitics/raw/805fac9d263ef91a742666ca73790e2fed901261f7c0f1a461d837dd68df1d30.analysis.json",
+      "date": "2013-03-01",
+      "event": "Eric Badege fled to Rwanda.",
+      "location": "Rwanda",
+      "actors": [
+        "Eric Badege"
+      ],
+      "evidence_text": "He fled to Rwanda in March 2013 and is still living there as of early 2016."
+    },
+    {
+      "topic": "geopolitics",
       "analysis_file": "data-repo/data/geopolitics/raw/9428d2e28ff70824438bbaaca3cd22dceafd9789821a5fa691e1dc5dc417c1eb.analysis.json",
       "date": "2013-03-01",
       "event": "Eric Badege fled to Rwanda.",
@@ -3086,6 +3104,17 @@
         "Eric Badege"
       ],
       "evidence_text": "He fled to Rwanda in March 2013 and is still living there as of early 2016."
+    },
+    {
+      "topic": "geopolitics",
+      "analysis_file": "data-repo/data/geopolitics/raw/805fac9d263ef91a742666ca73790e2fed901261f7c0f1a461d837dd68df1d30.analysis.json",
+      "date": "2014-03-01",
+      "event": "Germain Katanga convicted by ICC.",
+      "location": "The Hague",
+      "actors": [
+        "Germain Katanga"
+      ],
+      "evidence_text": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity."
     },
     {
       "topic": "geopolitics",
@@ -3271,6 +3300,17 @@
     },
     {
       "topic": "geopolitics",
+      "analysis_file": "data-repo/data/geopolitics/raw/805fac9d263ef91a742666ca73790e2fed901261f7c0f1a461d837dd68df1d30.analysis.json",
+      "date": "2020-03-15",
+      "event": "Thomas Lubanga released from prison.",
+      "location": "Democratic Republic of the Congo",
+      "actors": [
+        "Thomas Lubanga"
+      ],
+      "evidence_text": "He was released on 15 March 2020 after having served his ICC sentence."
+    },
+    {
+      "topic": "geopolitics",
       "analysis_file": "data-repo/data/geopolitics/raw/9428d2e28ff70824438bbaaca3cd22dceafd9789821a5fa691e1dc5dc417c1eb.analysis.json",
       "date": "2020-03-15",
       "event": "Thomas Lubanga released from prison.",
@@ -3355,39 +3395,6 @@
         "Russia"
       ],
       "evidence_text": "The beginning of the full-scale invasion of Ukraine in 2022 did affect Russia’s image negatively."
-    },
-    {
-      "topic": "geopolitics",
-      "analysis_file": "data-repo/data/geopolitics/raw/482705132f04618d4143a217f9e07aa76a1404439d96a0b95668cc7c453a53e1.analysis.json",
-      "date": "2022-10-01",
-      "event": "Ukrainian counteroffensive on the southern front",
-      "location": "Southern Ukraine",
-      "actors": [
-        "Ukraine"
-      ],
-      "evidence_text": "The starkest illustration of this problem was observed during the Ukrainian counteroffensive on the southern front in autumn 2022."
-    },
-    {
-      "topic": "geopolitics",
-      "analysis_file": "data-repo/data/geopolitics/raw/9f2fc6b624416df1c7203e74cc0ac835bd6ea04d3441cbf5c613b5e5228d0d20.analysis.json",
-      "date": "2022-2023",
-      "event": "Russia weaponized the Black Sea grain corridor.",
-      "location": "Black Sea",
-      "actors": [
-        "Russia"
-      ],
-      "evidence_text": "From 2022 to 2023, Moscow weaponized the Black Sea grain corridor, allowing it to function, then choking it off."
-    },
-    {
-      "topic": "geopolitics",
-      "analysis_file": "data-repo/data/geopolitics/raw/6cf1d875a442aa367ba6e30e507c2448acc01131fbfeab8c452a505f9d008610.analysis.json",
-      "date": "2023-01-01",
-      "event": "Direct Commission Program criticized as a disaster",
-      "location": "",
-      "actors": [
-        "Lt. Gen. Jody Daniels"
-      ],
-      "evidence_text": "The direct commission program has been substantially overhauled since Lt. Gen. Jody Daniels... called it a 'disaster' in 2023."
     }
   ],
   "metrics": [
@@ -3480,6 +3487,36 @@
       "date": "2026-05-19",
       "location": "Global",
       "evidence_text": "The price for Brent crude – the international standard – went from a high of $112 a barrel overnight to below $107 in the morning before turning back higher, and after settling at $112.10."
+    },
+    {
+      "topic": "geopolitics",
+      "analysis_file": "data-repo/data/geopolitics/raw/06ec52289d1c77850ccd9572c5d72584297dd0484b5105293f11958fb933a87e.analysis.json",
+      "name": "Deaths since ceasefire",
+      "value": "600",
+      "unit": "people",
+      "date": "2026-05-21",
+      "location": "Lebanon",
+      "evidence_text": "Over 600 people have been killed in Lebanon since the ceasefire was declared."
+    },
+    {
+      "topic": "geopolitics",
+      "analysis_file": "data-repo/data/geopolitics/raw/06ec52289d1c77850ccd9572c5d72584297dd0484b5105293f11958fb933a87e.analysis.json",
+      "name": "Total deaths since escalation",
+      "value": "3000",
+      "unit": "people",
+      "date": "2026-05-21",
+      "location": "Lebanon",
+      "evidence_text": "More than 3,000 people have been killed in Lebanon since the escalation began on 2 March."
+    },
+    {
+      "topic": "geopolitics",
+      "analysis_file": "data-repo/data/geopolitics/raw/06ec52289d1c77850ccd9572c5d72584297dd0484b5105293f11958fb933a87e.analysis.json",
+      "name": "Internally displaced persons",
+      "value": "1000000",
+      "unit": "people",
+      "date": "2026-05-21",
+      "location": "Lebanon",
+      "evidence_text": "One million people remain internally displaced."
     },
     {
       "topic": "geopolitics",
@@ -3600,36 +3637,6 @@
       "date": "2026-05-12",
       "location": "North Kordofan, Sudan",
       "evidence_text": "In North Kordofan, aid groups have reached around 85,000 people in Sheikan and Ar Rahad localities with water and sanitation assistance."
-    },
-    {
-      "topic": "geopolitics",
-      "analysis_file": "data-repo/data/geopolitics/raw/172d6b9984beb99562a5d9a5ef5a9f2aab3bb8fa6b71b3cd60e853fa83c3a834.analysis.json",
-      "name": "Displaced families receiving aid in South Kordofan",
-      "value": "88000",
-      "unit": "people",
-      "date": "2026-05-12",
-      "location": "South Kordofan, Sudan",
-      "evidence_text": "In South Kordofan, nearly 88,000 people, including displaced families and South Sudanese refugees, have received similar support."
-    },
-    {
-      "topic": "geopolitics",
-      "analysis_file": "data-repo/data/geopolitics/raw/17b0e1dd94c873200eff24adb88512de4d67bccb7e2225238f7b602ac47b51ec.analysis.json",
-      "name": "Estimated deaths in anti-drug campaign",
-      "value": "6000 to 30000",
-      "unit": "deaths",
-      "date": "2016-2022",
-      "location": "Philippines",
-      "evidence_text": "Estimates of the number killed during the campaign range from an official estimate of around 6,000 to as many as 30,000."
-    },
-    {
-      "topic": "geopolitics",
-      "analysis_file": "data-repo/data/geopolitics/raw/18d5d953facfbe82af18550cabcd232473517ec97cc1c6b844e4a278cc61137b.analysis.json",
-      "name": "Annual contribution of mobile wireless to U.S. economy",
-      "value": "825 billion",
-      "unit": "USD",
-      "date": "",
-      "location": "",
-      "evidence_text": "Mobile wireless drives an estimated annual $825 billion contribution to the U.S. economy."
     }
   ]
 }

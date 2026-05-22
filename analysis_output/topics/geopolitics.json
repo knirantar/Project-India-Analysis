@@ -1,6 +1,6 @@
 {
   "topic": "geopolitics",
-  "generated_at": "2026-05-21T22:25:20.885568+00:00",
+  "generated_at": "2026-05-22T00:12:13.275915+00:00",
   "ui_profile": {
     "title": "Global Geopolitics Monitor",
     "tone": "Global geopolitics situation desk",
@@ -11,23 +11,23 @@
       "Timeline",
       "Sources"
     ],
-    "hero_metric": "184 analyzed sources",
-    "secondary_metric": "481 claims, 564 actors"
+    "hero_metric": "191 analyzed sources",
+    "secondary_metric": "501 claims, 585 actors"
   },
   "counts": {
-    "documents": 184,
-    "claims": 481,
-    "entities": 564,
-    "events": 270,
-    "metrics": 170,
-    "citations": 183
+    "documents": 191,
+    "claims": 501,
+    "entities": 585,
+    "events": 283,
+    "metrics": 178,
+    "citations": 190
   },
   "data_type_counts": {
-    "rss_feed_content": 132,
+    "rss_feed_content": 136,
     "images": 27,
     "government_documents": 8,
-    "sanctions_designations": 7,
-    "pdfs": 3,
+    "sanctions_designations": 8,
+    "pdfs": 5,
     "video_content": 2,
     "structured_datasets": 2,
     "legal_judicial_records": 1,
@@ -35,7 +35,7 @@
     "websites_html_pages": 1
   },
   "credibility_counts": {
-    "unrated": 183,
+    "unrated": 190,
     "{\"level\": \"high\", \"reason\": \"The source is a UN news outlet, providing credible information on global economic issues.\"}": 1
   },
   "top_entities": [
@@ -45,7 +45,7 @@
     },
     {
       "name": "Donald Trump",
-      "count": 18
+      "count": 19
     },
     {
       "name": "Ukraine",
@@ -84,8 +84,8 @@
       "count": 7
     },
     {
-      "name": "Pakistan",
-      "count": 5
+      "name": "Itamar Ben-Gvir",
+      "count": 6
     }
   ],
   "top_claims": [
@@ -509,7 +509,19 @@
       "date": "2013-03-01",
       "label": "Eric Badege fled to Rwanda.",
       "evidence_text": "He fled to Rwanda in March 2013 and is still living there as of early 2016.",
+      "source": "data-repo/data/geopolitics/raw/805fac9d263ef91a742666ca73790e2fed901261f7c0f1a461d837dd68df1d30.analysis.json"
+    },
+    {
+      "date": "2013-03-01",
+      "label": "Eric Badege fled to Rwanda.",
+      "evidence_text": "He fled to Rwanda in March 2013 and is still living there as of early 2016.",
       "source": "data-repo/data/geopolitics/raw/9428d2e28ff70824438bbaaca3cd22dceafd9789821a5fa691e1dc5dc417c1eb.analysis.json"
+    },
+    {
+      "date": "2014-03-01",
+      "label": "Germain Katanga convicted by ICC.",
+      "evidence_text": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity.",
+      "source": "data-repo/data/geopolitics/raw/805fac9d263ef91a742666ca73790e2fed901261f7c0f1a461d837dd68df1d30.analysis.json"
     },
     {
       "date": "2014-05-23",
@@ -600,6 +612,12 @@
       "label": "Thomas Lubanga released after serving ICC sentence.",
       "evidence_text": "He was released on 15 March 2020 after having served his ICC sentence.",
       "source": "data-repo/data/geopolitics/raw/26d6abeb7e6a6549b72ae35916862a618a1863103dc6372150a3b15e665127a0.analysis.json"
+    },
+    {
+      "date": "2020-03-15",
+      "label": "Thomas Lubanga released from prison.",
+      "evidence_text": "He was released on 15 March 2020 after having served his ICC sentence.",
+      "source": "data-repo/data/geopolitics/raw/805fac9d263ef91a742666ca73790e2fed901261f7c0f1a461d837dd68df1d30.analysis.json"
     },
     {
       "date": "2020-03-15",
@@ -726,6 +744,12 @@
       "label": "Hamas-led attacks on Israel",
       "evidence_text": "The reporting period saw unprecedented levels of killings of Palestinians by Israeli forces, the tightening and escalation of Israeli control over Palestinians and their land.",
       "source": "data-repo/data/geopolitics/raw/3234ee6bfbff50c9c9fea45403150795861e7b9ffd560f0620863d0a5201fe20.analysis.json"
+    },
+    {
+      "date": "2023-10-07",
+      "label": "Attacks by Hamas and other armed Palestinian groups",
+      "evidence_text": "the war that Israel launched following the October 7, 2023 attacks",
+      "source": "data-repo/data/geopolitics/raw/4124837b73aa9eb6d24680db7eeb8feaef06b1535a13d23826fb8a2a0ad9f31a.analysis.json"
     },
     {
       "date": "2023-10-07",
@@ -906,35 +930,11 @@
       "label": "Operation Midnight Hammer",
       "evidence_text": "Since Operation Midnight Hammer in June 2025, the timeline for Iran to produce a nuclear weapon... has remained roughly nine to 12 months.",
       "source": "data-repo/data/geopolitics/raw/1d7fd999ca6a3fcc9ebafac827e51eefe86d56890e1402aae162faa1bfd8fa13.analysis.json"
-    },
-    {
-      "date": "2025-06-01",
-      "label": "Joint strikes on Iran's nuclear program",
-      "evidence_text": "The United States and Israel decided to jointly strike Iran’s nuclear program in June 2025.",
-      "source": "data-repo/data/geopolitics/raw/1d7fd999ca6a3fcc9ebafac827e51eefe86d56890e1402aae162faa1bfd8fa13.analysis.json"
-    },
-    {
-      "date": "2025-06-01",
-      "label": "U.S.-Israeli airstrikes on Iran",
-      "evidence_text": "Israeli and U.S. airstrikes in June 2025 had caused major damage to Iran’s nuclear program.",
-      "source": "data-repo/data/geopolitics/raw/34534ff88139418f454a13d02c1ac98fe909675560275a12332fc3994470f92d.analysis.json"
-    },
-    {
-      "date": "2025-06-01",
-      "label": "June 2025 War",
-      "evidence_text": "Public analysis of Israel’s June 2025 war documented significant interceptor drawdown.",
-      "source": "data-repo/data/geopolitics/raw/6010643998f8490a4d47d9458322fb1333bb129bc165997681f9488f03d9b0c2.analysis.json"
-    },
-    {
-      "date": "2025-06-01",
-      "label": "Iran-Israel war",
-      "evidence_text": "The Iran-Israel war of June 2025.",
-      "source": "data-repo/data/geopolitics/raw/8d6d5ef3533d24fcdaf2b10fae64001628a7a2e0c33e6f5e951c38357a5a3040.analysis.json"
     }
   ],
   "source_quality": {
-    "total_text_chars": 35099486,
-    "average_text_chars": 190758.1,
-    "latest_collected_at": "2026-05-21T21:25:38.422522+00:00"
+    "total_text_chars": 35963574,
+    "average_text_chars": 188291.0,
+    "latest_collected_at": "2026-05-22T00:04:25.597970+00:00"
   }
 }
