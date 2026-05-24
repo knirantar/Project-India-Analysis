@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-24T21:48:41.954876+00:00",
+  "generated_at": "2026-05-24T22:50:41.878911+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "analysis_source": "analysis_output",
   "summary": {
-    "raw_documents": 308,
+    "raw_documents": 309,
     "analyzed_documents": 0,
     "claims": 0,
     "entities": 0,
@@ -11,13 +11,13 @@
     "metrics": 0,
     "relationships": 0,
     "topics": 0,
-    "total_text_chars": 38521055
+    "total_text_chars": 38523501
   },
   "topic_cards": [],
   "format_counts": [
     {
       "name": "Article",
-      "value": 221
+      "value": 222
     },
     {
       "name": "Image",
@@ -51,7 +51,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 219
+      "value": 220
     },
     {
       "name": "images",
@@ -105,7 +105,7 @@
     },
     {
       "name": "theguardian.com",
-      "value": 43
+      "value": 44
     },
     {
       "name": "global.unitednations.entermediadb.net",
@@ -166,6 +166,69 @@
   ],
   "entity_counts": [],
   "signals": [
+    {
+      "name": "Military Capability",
+      "count": 134,
+      "formats": [
+        {
+          "name": "Article",
+          "value": 119
+        },
+        {
+          "name": "Image",
+          "value": 6
+        },
+        {
+          "name": "PDF",
+          "value": 5
+        },
+        {
+          "name": "Book",
+          "value": 2
+        },
+        {
+          "name": "Dataset",
+          "value": 1
+        }
+      ],
+      "latest": [
+        {
+          "title": "GPS jammed on RAF jet carrying UK defence secretary close to Russian border",
+          "url": "https://www.theguardian.com/world/2026/may/24/gps-jammed-on-raf-jet-carrying-uk-defence-secretary-close-to-russian-border",
+          "format": "Article",
+          "collected_at": "2026-05-24T22:50:41.878911+00:00",
+          "summary": "An RAF jet carrying the defence secretary, John Healey , had its signal jammed for the entire three-hour flight after it flew near the Russian border. Healey had been visiting British soldiers in Estonia and was travelling back to the UK when the electronic attack happened, the T"
+        },
+        {
+          "title": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
+          "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
+          "format": "PDF",
+          "collected_at": "2026-05-24T22:50:31.503635+00:00",
+          "summary": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought unt"
+        },
+        {
+          "title": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+          "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+          "format": "PDF",
+          "collected_at": "2026-05-24T22:50:30.651724+00:00",
+          "summary": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect "
+        },
+        {
+          "title": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+          "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+          "format": "Dataset",
+          "collected_at": "2026-05-24T22:49:48.270274+00:00",
+          "summary": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso"
+        },
+        {
+          "title": "Massive Russian strike on Kyiv: ‘I hope my friends are alive’",
+          "url": "https://news.un.org/feed/view/en/story/2026/05/1167583",
+          "format": "Article",
+          "collected_at": "2026-05-24T17:55:27.702254+00:00",
+          "summary": "At least four people are believed to have been killed, and at least 80 injured. According to the Ukrainian authorities, dozens of residential buildings, several schools and a water supply facility were hit, and a market was burnt down. 13-year-old Vanya, whose Kyiv apartment was "
+        }
+      ]
+    },
     {
       "name": "Iran War Corridor",
       "count": 133,
@@ -230,75 +293,12 @@
       ]
     },
     {
-      "name": "Military Capability",
-      "count": 133,
-      "formats": [
-        {
-          "name": "Article",
-          "value": 118
-        },
-        {
-          "name": "Image",
-          "value": 6
-        },
-        {
-          "name": "PDF",
-          "value": 5
-        },
-        {
-          "name": "Book",
-          "value": 2
-        },
-        {
-          "name": "Dataset",
-          "value": 1
-        }
-      ],
-      "latest": [
-        {
-          "title": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
-          "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
-          "format": "PDF",
-          "collected_at": "2026-05-24T21:48:41.954876+00:00",
-          "summary": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought unt"
-        },
-        {
-          "title": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-          "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-          "format": "PDF",
-          "collected_at": "2026-05-24T21:48:40.848642+00:00",
-          "summary": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect "
-        },
-        {
-          "title": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-          "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-          "format": "Dataset",
-          "collected_at": "2026-05-24T21:47:55.247473+00:00",
-          "summary": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso"
-        },
-        {
-          "title": "Massive Russian strike on Kyiv: ‘I hope my friends are alive’",
-          "url": "https://news.un.org/feed/view/en/story/2026/05/1167583",
-          "format": "Article",
-          "collected_at": "2026-05-24T17:55:27.702254+00:00",
-          "summary": "At least four people are believed to have been killed, and at least 80 injured. According to the Ukrainian authorities, dozens of residential buildings, several schools and a water supply facility were hit, and a market was burnt down. 13-year-old Vanya, whose Kyiv apartment was "
-        },
-        {
-          "title": "Republican hawks warn of ‘disastrous mistake’ as Trump nears deal with Iran",
-          "url": "https://www.theguardian.com/world/2026/may/24/republican-hawks-trump-deal-iran",
-          "format": "Article",
-          "collected_at": "2026-05-24T15:59:26.741939+00:00",
-          "summary": "Republican hawks have issued a rare rebuke of Donald Trump over his planned peace deal with Iran, describing it as a “disaster” and questioning why the US president launched the war in the first place. Allies of Trump who strongly backed his controversial decision to order war on"
-        }
-      ]
-    },
-    {
       "name": "Ukraine and NATO",
-      "count": 102,
+      "count": 103,
       "formats": [
         {
           "name": "Article",
-          "value": 81
+          "value": 82
         },
         {
           "name": "Image",
@@ -318,6 +318,13 @@
         }
       ],
       "latest": [
+        {
+          "title": "GPS jammed on RAF jet carrying UK defence secretary close to Russian border",
+          "url": "https://www.theguardian.com/world/2026/may/24/gps-jammed-on-raf-jet-carrying-uk-defence-secretary-close-to-russian-border",
+          "format": "Article",
+          "collected_at": "2026-05-24T22:50:41.878911+00:00",
+          "summary": "An RAF jet carrying the defence secretary, John Healey , had its signal jammed for the entire three-hour flight after it flew near the Russian border. Healey had been visiting British soldiers in Estonia and was travelling back to the UK when the electronic attack happened, the T"
+        },
         {
           "title": "Massive Russian strike on Kyiv: ‘I hope my friends are alive’ (image)",
           "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/24-05-2026-kyiv.jpg/image560x340cropped.jpg",
@@ -345,13 +352,6 @@
           "format": "Article",
           "collected_at": "2026-05-24T14:58:03.499915+00:00",
           "summary": "Russia used its powerful hypersonic Oreshnik ballistic missile for a third time in Ukraine as part of a massive attack on Kyiv and its surrounding region that killed at least four people and injured dozens. Russia hit the city of Bila Tserkva in the Kyiv region with the missile, "
-        },
-        {
-          "title": "Afghanistan: Humanitarian Access Snapshot (April 2026) (pdf)",
-          "url": "https://reliefweb.int/attachments/a7fe8b01-5619-4731-91f2-f4ed71462d8d/Humanitarian%20Access%20Constraints%20April%202026.pdf",
-          "format": "PDF",
-          "collected_at": "2026-05-24T09:16:30.089427+00:00",
-          "summary": "AFGHANISTAN Humanitarian Access Snapshot [1] The access incidents are reported to the Access Monitoring and Reporting Framework (AMRF) directly by humanitarian partners to UNOCHA or through the cluster coordinators, working group, and UNDSS. Access constraints in April 2026 conti"
         }
       ]
     },
@@ -385,14 +385,14 @@
           "title": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
           "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
           "format": "PDF",
-          "collected_at": "2026-05-24T21:48:40.848642+00:00",
+          "collected_at": "2026-05-24T22:50:30.651724+00:00",
           "summary": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect "
         },
         {
           "title": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
           "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
           "format": "Sanctions",
-          "collected_at": "2026-05-24T21:47:57.832375+00:00",
+          "collected_at": "2026-05-24T22:49:50.787811+00:00",
           "summary": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Moh"
         },
         {
@@ -448,14 +448,14 @@
           "title": "https://www.treasury.gov/ofac/downloads/sdn.xml",
           "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
           "format": "Sanctions",
-          "collected_at": "2026-05-24T21:48:31.384783+00:00",
+          "collected_at": "2026-05-24T22:50:21.262338+00:00",
           "summary": "05/21/2026 19050 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity CUBA 219 a.k."
         },
         {
           "title": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
           "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
           "format": "Sanctions",
-          "collected_at": "2026-05-24T21:47:57.832375+00:00",
+          "collected_at": "2026-05-24T22:49:50.787811+00:00",
           "summary": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Moh"
         },
         {
@@ -550,14 +550,14 @@
           "title": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
           "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
           "format": "PDF",
-          "collected_at": "2026-05-24T21:48:41.954876+00:00",
+          "collected_at": "2026-05-24T22:50:31.503635+00:00",
           "summary": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought unt"
         },
         {
           "title": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
           "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
           "format": "PDF",
-          "collected_at": "2026-05-24T21:48:40.848642+00:00",
+          "collected_at": "2026-05-24T22:50:30.651724+00:00",
           "summary": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect "
         },
         {
@@ -605,7 +605,7 @@
           "title": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
           "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
           "format": "Dataset",
-          "collected_at": "2026-05-24T21:47:55.252879+00:00",
+          "collected_at": "2026-05-24T22:49:48.548939+00:00",
           "summary": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221"
         },
         {
@@ -641,6 +641,26 @@
   ],
   "latest_evidence": [
     {
+      "id": "53cf1532593c11e4bbfb8aadaee55e7fcfadab052668af686b45a4a65351aef3",
+      "topic": "geopolitics",
+      "title": "GPS jammed on RAF jet carrying UK defence secretary close to Russian border",
+      "url": "https://www.theguardian.com/world/2026/may/24/gps-jammed-on-raf-jet-carrying-uk-defence-secretary-close-to-russian-border",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-05-24T22:50:41.878911+00:00",
+      "published": "Sun, 24 May 2026 22:40:17 GMT",
+      "text_chars": 2446,
+      "raw_path": "data/geopolitics/raw/53cf1532593c11e4bbfb8aadaee55e7fcfadab052668af686b45a4a65351aef3.html",
+      "text_path": "data/geopolitics/raw/53cf1532593c11e4bbfb8aadaee55e7fcfadab052668af686b45a4a65351aef3.txt",
+      "snippet": "An RAF jet carrying the defence secretary, John Healey , had its signal jammed for the entire three-hour flight after it flew near the Russian border. Healey had been visiting British soldiers in Estonia and was travelling back to the UK when the electronic attack happened, the Times reported. It is thought Russia was behind the incident on Thursday. Smartphones and laptops were unable to connect to the internet and pilots had to use a different navigation system as the plane’s GPS was disabled. It is unclear if Healey was deliberately targeted but the flight path was visible on aircraft tracking websites. Passengers, who included photographers and a reporter, were told the Dassault Falcon 900LX aircraft could still operate safely. Healey had met the Estonian minister of defence, Hanno Pevkur, in Tallinn to discuss long-term bilateral defence cooperation and its strategic expansion. On Wednesday the Ministry of Defence (MoD) revealed two Russian jets had “repeatedly and dangerously” intercepted an RAF spy plane above the Black Sea last month. A Russian Su-35 jet flew so close to the British reconnaissance aircraft that it triggered its emergency systems, including disabling the autopilot. A Russian Su-27 also flew six metres from the unarmed Rivet Joint’s nose and carried out six passes in front. The MoD said it was the most dangerous Russian action against a British Rivet Join",
+      "summary": "An RAF jet carrying the defence secretary, John Healey , had its signal jammed for the entire three-hour flight after it flew near the Russian border. Healey had been visiting British soldiers in Estonia and was travelling back to the UK when the electronic attack happened, the T",
+      "why_it_matters": "",
+      "key_takeaways": []
+    },
+    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
@@ -650,7 +670,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-24T21:48:41.954876+00:00",
+      "collected_at": "2026-05-24T22:50:31.503635+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -670,33 +690,13 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-24T21:48:40.848642+00:00",
+      "collected_at": "2026-05-24T22:50:30.651724+00:00",
       "published": "",
       "text_chars": 523907,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
       "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
       "snippet": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks .......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions ....................................................................................................... 35 Ar ticle 1 Res pect for the Convention ..................................................................... 35 Ar ticle ",
       "summary": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect ",
-      "why_it_matters": "",
-      "key_takeaways": []
-    },
-    {
-      "id": "ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
-      "topic": "geopolitics",
-      "title": "https://www.cia.gov/the-world-factbook/",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-05-24T21:48:35.368839+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.html",
-      "text_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.txt",
-      "snippet": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades , The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook , launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use. Though the World Factbook is gone, in the spirit of its global reach and legacy,",
-      "summary": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s tak",
       "why_it_matters": "",
       "key_takeaways": []
     },
@@ -710,13 +710,33 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-24T21:48:35.350240+00:00",
+      "collected_at": "2026-05-24T22:50:25.563658+00:00",
       "published": "",
       "text_chars": 174113,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
       "text_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.txt",
       "snippet": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines United Nations Peacekeeping Operations Principles and Guidelines United Nations Department of Peacekeeping Operations Department of Field Support 2 | UNITED NATIONS PEACEKEEPING OPERATIONS CONTENTS | 3 ContentsCredits Peacekeeping Bes",
       "summary": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the man",
+      "why_it_matters": "",
+      "key_takeaways": []
+    },
+    {
+      "id": "ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
+      "topic": "geopolitics",
+      "title": "https://www.cia.gov/the-world-factbook/",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-05-24T22:50:21.341535+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.html",
+      "text_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.txt",
+      "snippet": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades , The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook , launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use. Though the World Factbook is gone, in the spirit of its global reach and legacy,",
+      "summary": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s tak",
       "why_it_matters": "",
       "key_takeaways": []
     },
@@ -730,7 +750,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-05-24T21:48:31.384783+00:00",
+      "collected_at": "2026-05-24T22:50:21.262338+00:00",
       "published": "",
       "text_chars": 9071064,
       "raw_path": "data/geopolitics/raw/f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1.xml",
@@ -750,7 +770,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-05-24T21:47:57.832375+00:00",
+      "collected_at": "2026-05-24T22:49:50.787811+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae.xml",
@@ -770,33 +790,13 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-05-24T21:47:55.252879+00:00",
+      "collected_at": "2026-05-24T22:49:48.548939+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
       "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
       "snippet": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
       "summary": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "why_it_matters": "",
-      "key_takeaways": []
-    },
-    {
-      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "topic": "geopolitics",
-      "title": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-24T21:47:55.247473+00:00",
-      "published": "",
-      "text_chars": 6187025,
-      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
-      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
-      "snippet": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2021\", \"value\": 1253",
-      "summary": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso",
       "why_it_matters": "",
       "key_takeaways": []
     },
@@ -810,13 +810,33 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-24T21:47:54.968249+00:00",
+      "collected_at": "2026-05-24T22:49:48.544448+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
       "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
       "snippet": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2",
       "summary": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"c",
+      "why_it_matters": "",
+      "key_takeaways": []
+    },
+    {
+      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "topic": "geopolitics",
+      "title": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-05-24T22:49:48.270274+00:00",
+      "published": "",
+      "text_chars": 6187025,
+      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
+      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
+      "snippet": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2021\", \"value\": 1253",
+      "summary": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso",
       "why_it_matters": "",
       "key_takeaways": []
     },
@@ -1462,26 +1482,6 @@
       "summary": "Only hours before Donald Trump was set to sign a long-awaited executive order on Thursday that would have called for a government safety review of new artificial intelligence models before their release, the president abruptly backed out . Despite growing public backlash to the t",
       "why_it_matters": "",
       "key_takeaways": []
-    },
-    {
-      "id": "749375662662722fd1a3b27289581f25f1ee4620eb2fcac0d49e5b8f23c3cac0",
-      "topic": "geopolitics",
-      "title": "Some Measure of Justice Under Way in Libya as International Criminal Court’s First Trial of Major War Criminal Suspect Begins, Deputy Prosecutor Tells Security Council",
-      "url": "https://press.un.org/en/2026/sc16367.doc.htm",
-      "host": "press.un.org",
-      "source": "https://press.un.org/en/rss.xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-05-23T11:58:41.497716+00:00",
-      "published": "Fri, 22 May 2026 16:06:14 -0400",
-      "text_chars": 9682,
-      "raw_path": "data/geopolitics/raw/749375662662722fd1a3b27289581f25f1ee4620eb2fcac0d49e5b8f23c3cac0.html",
-      "text_path": "data/geopolitics/raw/749375662662722fd1a3b27289581f25f1ee4620eb2fcac0d49e5b8f23c3cac0.txt",
-      "snippet": "Briefing the Security Council on the International Criminal Court’s work in Libya, its Deputy Prosecutor today said recent judicial proceedings, including the confirmation hearing of Khaled Mohamed Ali El Hishri, have brought victims “some measure of justice, of healing”, while urging stronger cooperation to secure arrests and advance accountability for war crimes, crimes against humanity and abuses against migrants. “We know from those women who have given their voice to this case, and from so many Libyans in The Hague with us this week, that simply to hear these accounts being put to Mr. El Hishri in a court of law has brought some measure of justice,” Nazhat Shameem Khan told the 15-member Council via video-link. At her briefing to the Council in November 2025, Ms. Khan said Mr. El Hishri’s arrest by German authorities, which paved the way for the first trial on the situation in Libya, marked a major step forward in long-delayed efforts to bring about accountability for crimes committed in the North African nation. Victims Recount Gruesome Abuse during Hearing Recalling that she had addressed the Pre-Trial Chamber earlier this week at the opening of Mr. El Hishri’s hearing, Ms. Khan reminded the Council today that he stands accused of 17 counts of war crimes and crimes against humanity, principally in Mitiga Prison, including in the women’s section. This week, victims’ accou",
-      "summary": "Briefing the Security Council on the International Criminal Court’s work in Libya, its Deputy Prosecutor today said recent judicial proceedings, including the confirmation hearing of Khaled Mohamed Ali El Hishri, have brought victims “some measure of justice, of healing”, while u",
-      "why_it_matters": "",
-      "key_takeaways": []
     }
   ],
   "premium_evidence": [
@@ -1495,7 +1495,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-05-24T21:48:31.384783+00:00",
+      "collected_at": "2026-05-24T22:50:21.262338+00:00",
       "published": "",
       "text_chars": 9071064,
       "raw_path": "data/geopolitics/raw/f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1.xml",
@@ -1535,7 +1535,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-24T21:47:54.968249+00:00",
+      "collected_at": "2026-05-24T22:49:48.544448+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -1555,7 +1555,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-24T21:47:55.247473+00:00",
+      "collected_at": "2026-05-24T22:49:48.270274+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -1675,7 +1675,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-24T21:48:40.848642+00:00",
+      "collected_at": "2026-05-24T22:50:30.651724+00:00",
       "published": "",
       "text_chars": 523907,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -1695,7 +1695,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-05-24T21:47:57.832375+00:00",
+      "collected_at": "2026-05-24T22:49:50.787811+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae.xml",
@@ -1735,7 +1735,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-24T21:48:35.350240+00:00",
+      "collected_at": "2026-05-24T22:50:25.563658+00:00",
       "published": "",
       "text_chars": 174113,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -1755,7 +1755,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-24T21:48:41.954876+00:00",
+      "collected_at": "2026-05-24T22:50:31.503635+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
