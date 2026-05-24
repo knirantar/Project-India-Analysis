@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-23T22:45:00.827555+00:00",
+  "generated_at": "2026-05-23T23:51:32.305129+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "analysis_source": "analysis_output",
   "summary": {
-    "raw_documents": 285,
+    "raw_documents": 288,
     "analyzed_documents": 0,
     "claims": 0,
     "entities": 0,
@@ -11,13 +11,13 @@
     "metrics": 0,
     "relationships": 0,
     "topics": 0,
-    "total_text_chars": 37547847
+    "total_text_chars": 38381477
   },
   "topic_cards": [],
   "format_counts": [
     {
       "name": "Article",
-      "value": 205
+      "value": 207
     },
     {
       "name": "Image",
@@ -29,7 +29,7 @@
     },
     {
       "name": "Sanctions",
-      "value": 13
+      "value": 14
     },
     {
       "name": "Video",
@@ -51,18 +51,18 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 203
+      "value": 205
     },
     {
       "name": "images",
       "value": 32
     },
     {
-      "name": "pdfs",
-      "value": 13
+      "name": "sanctions_designations",
+      "value": 14
     },
     {
-      "name": "sanctions_designations",
+      "name": "pdfs",
       "value": 13
     },
     {
@@ -144,24 +144,24 @@
       "value": 8
     },
     {
+      "name": "npr.org",
+      "value": 7
+    },
+    {
       "name": "thediplomat.com",
       "value": 7
+    },
+    {
+      "name": "euronews.com",
+      "value": 6
     },
     {
       "name": "france24.com",
       "value": 6
     },
     {
-      "name": "npr.org",
-      "value": 6
-    },
-    {
-      "name": "euronews.com",
+      "name": "scsanctions.un.org",
       "value": 5
-    },
-    {
-      "name": "longwarjournal.org",
-      "value": 4
     }
   ],
   "entity_counts": [],
@@ -196,21 +196,21 @@
           "title": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
           "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
           "format": "PDF",
-          "collected_at": "2026-05-23T22:45:00.169496+00:00",
+          "collected_at": "2026-05-23T23:51:16.142139+00:00",
           "summary": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought unt"
         },
         {
           "title": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
           "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
           "format": "PDF",
-          "collected_at": "2026-05-23T22:44:52.663448+00:00",
+          "collected_at": "2026-05-23T23:51:15.442198+00:00",
           "summary": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect "
         },
         {
           "title": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
           "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
           "format": "Dataset",
-          "collected_at": "2026-05-23T22:44:05.834157+00:00",
+          "collected_at": "2026-05-23T23:50:33.331061+00:00",
           "summary": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso"
         },
         {
@@ -231,11 +231,11 @@
     },
     {
       "name": "Iran War Corridor",
-      "count": 121,
+      "count": 123,
       "formats": [
         {
           "name": "Article",
-          "value": 102
+          "value": 104
         },
         {
           "name": "Video",
@@ -256,6 +256,20 @@
       ],
       "latest": [
         {
+          "title": "Trump says agreement to end Iran war 'largely negotiated'",
+          "url": "http://www.euronews.com/2026/05/23/trump-says-agreement-to-end-iran-war-largely-negotiated",
+          "format": "Article",
+          "collected_at": "2026-05-23T23:51:32.305129+00:00",
+          "summary": "US President Donald Trump announced Saturday that a draft framework for an agreement with Iran, which would include the reopening of the Strait of Hormuz, has been “largely negotiated” and is “subject to finalisation”. ADVERTISEMENT ADVERTISEMENT In a post on Truth Social, Trump "
+        },
+        {
+          "title": "Trump says a deal with Iran and opening of Strait of Hormuz are 'largely negotiated'",
+          "url": "https://www.npr.org/2026/05/23/g-s1-124145/trump-iran-deal-strait-of-hormuz",
+          "format": "Article",
+          "collected_at": "2026-05-23T23:51:17.377868+00:00",
+          "summary": "In this photo released by the Iranian Presidency Office, President Masoud Pezeshkian, right, speaks with Pakistan's Army Chief Field Marshal Gen. Asim Munir in Tehran, Iran, Saturday, May 23, 2026. Iranian Presidency Office via AP/Iranian Presidency Office hide caption toggle cap"
+        },
+        {
           "title": "Trump says peace deal with Iran ‘largely negotiated’ with strait of Hormuz to open",
           "url": "https://www.theguardian.com/world/2026/may/23/trump-ceasefire-iran-strait-of-hormuz",
           "format": "Article",
@@ -275,20 +289,6 @@
           "format": "Article",
           "collected_at": "2026-05-23T17:58:41.594454+00:00",
           "summary": "The United States and Iran signaled progress on Saturday toward a framework agreement that could end a nearly three-month standoff triggered by US and Israeli attacks on Iran and the shutdown of the Strait of Hormuz . The step forward comes as global pressure grows to avert a wid"
-        },
-        {
-          "title": "What will Trump do next with Iran?",
-          "url": "https://www.npr.org/2026/05/23/nx-s1-5832542/trump-iran-decision",
-          "format": "Article",
-          "collected_at": "2026-05-23T17:58:41.065332+00:00",
-          "summary": "A banner of President Donald Trump hangs over Iranian Americans and their supporters as they march from the U.S. Capitol to the World War II Memorial during a rally Saturday, May 16, 2026, in Washington. Rod Lamkey/AP hide caption toggle caption Rod Lamkey/AP President Donald Tru"
-        },
-        {
-          "title": "US Secretary of State kicks off India visit, invites Modi to White House",
-          "url": "https://www.aljazeera.com/news/2026/5/23/rubio-kicks-off-india-visit-invites-modi-to-the-white-house?traffic_source=rss",
-          "format": "Article",
-          "collected_at": "2026-05-23T16:56:10.806530+00:00",
-          "summary": "United States Secretary of State Marco Rubio has kicked off a four-day visit to India and invited Prime Minister Narendra Modi to the White House. The trip beginning on Saturday was expected to focus on mending ties between Washington and New Delhi following recent trade friction"
         }
       ]
     },
@@ -385,14 +385,14 @@
           "title": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
           "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
           "format": "PDF",
-          "collected_at": "2026-05-23T22:44:52.663448+00:00",
+          "collected_at": "2026-05-23T23:51:15.442198+00:00",
           "summary": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect "
         },
         {
           "title": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
           "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
           "format": "Sanctions",
-          "collected_at": "2026-05-23T22:44:45.373614+00:00",
+          "collected_at": "2026-05-23T23:50:36.983564+00:00",
           "summary": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Moh"
         },
         {
@@ -420,7 +420,7 @@
     },
     {
       "name": "Sanctions Architecture",
-      "count": 45,
+      "count": 46,
       "formats": [
         {
           "name": "Article",
@@ -428,7 +428,7 @@
         },
         {
           "name": "Sanctions",
-          "value": 13
+          "value": 14
         },
         {
           "name": "Image",
@@ -445,18 +445,25 @@
       ],
       "latest": [
         {
-          "title": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
-          "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
-          "format": "Sanctions",
-          "collected_at": "2026-05-23T22:44:45.373614+00:00",
-          "summary": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Moh"
-        },
-        {
           "title": "https://www.treasury.gov/ofac/downloads/sdn.xml",
           "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
           "format": "Sanctions",
-          "collected_at": "2026-05-23T22:44:43.387132+00:00",
+          "collected_at": "2026-05-23T23:51:08.461751+00:00",
           "summary": "05/21/2026 19050 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity CUBA 219 a.k."
+        },
+        {
+          "title": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
+          "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
+          "format": "Sanctions",
+          "collected_at": "2026-05-23T23:50:36.983564+00:00",
+          "summary": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Moh"
+        },
+        {
+          "title": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+          "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+          "format": "Sanctions",
+          "collected_at": "2026-05-23T23:50:35.299098+00:00",
+          "summary": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol."
         },
         {
           "title": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
@@ -471,23 +478,16 @@
           "format": "Article",
           "collected_at": "2026-05-23T11:58:41.497716+00:00",
           "summary": "Briefing the Security Council on the International Criminal Court’s work in Libya, its Deputy Prosecutor today said recent judicial proceedings, including the confirmation hearing of Khaled Mohamed Ali El Hishri, have brought victims “some measure of justice, of healing”, while u"
-        },
-        {
-          "title": "Board of Peace focus on Hamas risks return to war in Gaza, critics say",
-          "url": "https://www.theguardian.com/world/2026/may/23/board-of-peace-focus-on-hamas-risks-return-to-war-in-gaza-critics-say",
-          "format": "Article",
-          "collected_at": "2026-05-23T10:25:19.161369+00:00",
-          "summary": "The top diplomat from the Board of Peace has blamed Hamas for the stalled ceasefire , but critics have said the US-backed board’s lack of even-handedness in implementing the truce risks a return to war. The “high representative for Gaza”, Nickolay Mladenov, told the UN security c"
         }
       ]
     },
     {
       "name": "Nuclear Risk",
-      "count": 26,
+      "count": 28,
       "formats": [
         {
           "name": "Article",
-          "value": 24
+          "value": 26
         },
         {
           "name": "Image",
@@ -495,6 +495,20 @@
         }
       ],
       "latest": [
+        {
+          "title": "Trump says agreement to end Iran war 'largely negotiated'",
+          "url": "http://www.euronews.com/2026/05/23/trump-says-agreement-to-end-iran-war-largely-negotiated",
+          "format": "Article",
+          "collected_at": "2026-05-23T23:51:32.305129+00:00",
+          "summary": "US President Donald Trump announced Saturday that a draft framework for an agreement with Iran, which would include the reopening of the Strait of Hormuz, has been “largely negotiated” and is “subject to finalisation”. ADVERTISEMENT ADVERTISEMENT In a post on Truth Social, Trump "
+        },
+        {
+          "title": "Trump says a deal with Iran and opening of Strait of Hormuz are 'largely negotiated'",
+          "url": "https://www.npr.org/2026/05/23/g-s1-124145/trump-iran-deal-strait-of-hormuz",
+          "format": "Article",
+          "collected_at": "2026-05-23T23:51:17.377868+00:00",
+          "summary": "In this photo released by the Iranian Presidency Office, President Masoud Pezeshkian, right, speaks with Pakistan's Army Chief Field Marshal Gen. Asim Munir in Tehran, Iran, Saturday, May 23, 2026. Iranian Presidency Office via AP/Iranian Presidency Office hide caption toggle cap"
+        },
         {
           "title": "Trump says peace deal with Iran ‘largely negotiated’ with strait of Hormuz to open",
           "url": "https://www.theguardian.com/world/2026/may/23/trump-ceasefire-iran-strait-of-hormuz",
@@ -515,20 +529,6 @@
           "format": "Article",
           "collected_at": "2026-05-22T11:41:58.622330+00:00",
           "summary": "Future control over the strait of Hormuz and a demand from Washington that Tehran export its stockpile of highly enriched uranium remain key stumbling blocks, as Pakistani mediators continued to seek a permanent ceasefire they believe is still within reach between the US and Iran"
-        },
-        {
-          "title": "Southeast Asia’s Mandalas of Multialignment",
-          "url": "https://thediplomat.com/2026/05/southeast-asias-mandalas-of-multialignment/",
-          "format": "Article",
-          "collected_at": "2026-05-22T08:21:21.125241+00:00",
-          "summary": "Asia Geopolitics | Southeast Asia Southeast Asia’s Mandalas of Multialignment Prashanth Parameswaran joins the Asia Geopolitics podcast to explain how multialignment shapes Southeast Asia’s foreign policy and the region’s strategic importance. By Ankit Panda and Catherine Putz Ma"
-        },
-        {
-          "title": "Putin and Lukashenko monitor joint Russia-Belarus nuclear exercises",
-          "url": "https://www.aljazeera.com/news/2026/5/21/putin-and-lukashenko-monitor-joint-russia-belarus-nuclear-exercises?traffic_source=rss",
-          "format": "Article",
-          "collected_at": "2026-05-21T17:31:12.346737+00:00",
-          "summary": "Russian President Vladimir Putin and Belarusian President Alexander Lukashenko have taken part via video conference in a joint nuclear forces exercise. While senior military officials, including defence ministers from both countries, have conducted similar exercises on a quarterl"
         }
       ]
     },
@@ -550,14 +550,14 @@
           "title": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
           "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
           "format": "PDF",
-          "collected_at": "2026-05-23T22:45:00.169496+00:00",
+          "collected_at": "2026-05-23T23:51:16.142139+00:00",
           "summary": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought unt"
         },
         {
           "title": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
           "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
           "format": "PDF",
-          "collected_at": "2026-05-23T22:44:52.663448+00:00",
+          "collected_at": "2026-05-23T23:51:15.442198+00:00",
           "summary": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect "
         },
         {
@@ -605,7 +605,7 @@
           "title": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
           "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
           "format": "Dataset",
-          "collected_at": "2026-05-23T22:44:45.451406+00:00",
+          "collected_at": "2026-05-23T23:51:08.546441+00:00",
           "summary": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221"
         },
         {
@@ -641,6 +641,246 @@
   ],
   "latest_evidence": [
     {
+      "id": "c70213ecb00576303b6a00511ce4adce7b816f886458a7a85c92b3c30378fa1a",
+      "topic": "geopolitics",
+      "title": "Trump says agreement to end Iran war 'largely negotiated'",
+      "url": "http://www.euronews.com/2026/05/23/trump-says-agreement-to-end-iran-war-largely-negotiated",
+      "host": "euronews.com",
+      "source": "https://www.euronews.com/rss?level=theme&name=news",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-05-23T23:51:32.305129+00:00",
+      "published": "Sat, 23 May 2026 23:38:25 +0200",
+      "text_chars": 3169,
+      "raw_path": "data/geopolitics/raw/c70213ecb00576303b6a00511ce4adce7b816f886458a7a85c92b3c30378fa1a.html",
+      "text_path": "data/geopolitics/raw/c70213ecb00576303b6a00511ce4adce7b816f886458a7a85c92b3c30378fa1a.txt",
+      "snippet": "US President Donald Trump announced Saturday that a draft framework for an agreement with Iran, which would include the reopening of the Strait of Hormuz, has been “largely negotiated” and is “subject to finalisation”. ADVERTISEMENT ADVERTISEMENT In a post on Truth Social, Trump said that the final aspects and details of the deal are being discussed and will be announced “shortly”. “In addition to many other elements of the agreement, the Strait of Hormuz will be opened,” the US president announced. Trump said he had a “very good call” with leaders of Saudi Arabia, Qatar, the United Arab Emirates, Pakistan, Turkey, Egypt, Jordan and Bahrain, in another sign of the prevailing influence of Gulf countries and other regional actors in convincing Trump to both stop further strikes and end the war altogether, as well as a separate call with Israeli Prime Minister Benjamin Netanyahu, which “went very well”. Earlier on Saturday, the Associated Press quoted a regional official with direct knowledge of the Pakistan-led mediation efforts saying the US and Iran were closing in on a deal which would include an official declaration of the war’s end, with two-month negotiations on Iran’s nuclear program. The Strait of Hormuz would be reopened and the US would end its blockade of Iran’s ports, the official told AP. Before Trump’s announcement, Iran signalled “narrowing differences” in the nego",
+      "summary": "US President Donald Trump announced Saturday that a draft framework for an agreement with Iran, which would include the reopening of the Strait of Hormuz, has been “largely negotiated” and is “subject to finalisation”. ADVERTISEMENT ADVERTISEMENT In a post on Truth Social, Trump ",
+      "why_it_matters": "",
+      "key_takeaways": []
+    },
+    {
+      "id": "d36a927a52f5471f08da640963affb6b11962517494f136882b3c7410962a4b9",
+      "topic": "geopolitics",
+      "title": "Trump says a deal with Iran and opening of Strait of Hormuz are 'largely negotiated'",
+      "url": "https://www.npr.org/2026/05/23/g-s1-124145/trump-iran-deal-strait-of-hormuz",
+      "host": "npr.org",
+      "source": "https://www.npr.org/rss/rss.php?id=1004",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-05-23T23:51:17.377868+00:00",
+      "published": "Sat, 23 May 2026 19:00:02 -0400",
+      "text_chars": 5572,
+      "raw_path": "data/geopolitics/raw/d36a927a52f5471f08da640963affb6b11962517494f136882b3c7410962a4b9.html",
+      "text_path": "data/geopolitics/raw/d36a927a52f5471f08da640963affb6b11962517494f136882b3c7410962a4b9.txt",
+      "snippet": "In this photo released by the Iranian Presidency Office, President Masoud Pezeshkian, right, speaks with Pakistan's Army Chief Field Marshal Gen. Asim Munir in Tehran, Iran, Saturday, May 23, 2026. Iranian Presidency Office via AP/Iranian Presidency Office hide caption toggle caption Iranian Presidency Office via AP/Iranian Presidency Office ISLAMABAD, Pakistan — President Donald Trump said Saturday that a deal with Iran on the war, including opening the Strait of Hormuz, has been \"largely negotiated\" after calls with Israel and other allies in the region. \"Final aspects and details of the Deal are currently being discussed, and will be announced shortly,\" Trump said on social media, with no details. He said he had spoken with leaders from Saudi Arabia, the United Arab Emirates, Qatar, Pakistan, Turkey, Egypt, Jordan and Bahrain, and separately with Israel. He described it as a \"Memorandum of Understanding pertaining to PEACE\" that still must be finalized by the United States, Iran and the other countries that participated in the calls. It capped a week in which the U.S. weighed a new round of attacks on the Islamic Republic that would break a fragile ceasefire. There was no mention of Iran's nuclear program and highly enriched uranium, which Iran has sought to discuss later. There was no immediate comment from Iran or Israel. Trump said speaking with Israeli Prime Minister Ben",
+      "summary": "In this photo released by the Iranian Presidency Office, President Masoud Pezeshkian, right, speaks with Pakistan's Army Chief Field Marshal Gen. Asim Munir in Tehran, Iran, Saturday, May 23, 2026. Iranian Presidency Office via AP/Iranian Presidency Office hide caption toggle cap",
+      "why_it_matters": "",
+      "key_takeaways": []
+    },
+    {
+      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "topic": "geopolitics",
+      "title": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
+      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
+      "host": "treaties.un.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-05-23T23:51:16.142139+00:00",
+      "published": "",
+      "text_chars": 89992,
+      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
+      "snippet": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS. Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the pre",
+      "summary": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought unt",
+      "why_it_matters": "",
+      "key_takeaways": []
+    },
+    {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-05-23T23:51:15.442198+00:00",
+      "published": "",
+      "text_chars": 523907,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "snippet": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks .......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions ....................................................................................................... 35 Ar ticle 1 Res pect for the Convention ..................................................................... 35 Ar ticle ",
+      "summary": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect ",
+      "why_it_matters": "",
+      "key_takeaways": []
+    },
+    {
+      "id": "ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
+      "topic": "geopolitics",
+      "title": "https://www.cia.gov/the-world-factbook/",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-05-23T23:51:10.527187+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.html",
+      "text_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.txt",
+      "snippet": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades , The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook , launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use. Though the World Factbook is gone, in the spirit of its global reach and legacy,",
+      "summary": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s tak",
+      "why_it_matters": "",
+      "key_takeaways": []
+    },
+    {
+      "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
+      "topic": "geopolitics",
+      "title": "https://peacekeeping.un.org/sites/default/files/capstone_eng_0.pdf",
+      "url": "https://peacekeeping.un.org/sites/default/files/capstone_eng_0.pdf",
+      "host": "peacekeeping.un.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-05-23T23:51:10.509402+00:00",
+      "published": "",
+      "text_chars": 174113,
+      "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
+      "text_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.txt",
+      "snippet": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines United Nations Peacekeeping Operations Principles and Guidelines United Nations Department of Peacekeeping Operations Department of Field Support 2 | UNITED NATIONS PEACEKEEPING OPERATIONS CONTENTS | 3 ContentsCredits Peacekeeping Bes",
+      "summary": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the man",
+      "why_it_matters": "",
+      "key_takeaways": []
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-05-23T23:51:08.546441+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "snippet": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "summary": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "why_it_matters": "",
+      "key_takeaways": []
+    },
+    {
+      "id": "f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1",
+      "topic": "geopolitics",
+      "title": "https://www.treasury.gov/ofac/downloads/sdn.xml",
+      "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
+      "host": "treasury.gov",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "text/xml",
+      "collected_at": "2026-05-23T23:51:08.461751+00:00",
+      "published": "",
+      "text_chars": 9071064,
+      "raw_path": "data/geopolitics/raw/f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1.xml",
+      "text_path": "data/geopolitics/raw/f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1.txt",
+      "snippet": "05/21/2026 19050 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity CUBA 219 a.k.a. weak BNC 220 a.k.a. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg. 6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. Entity CUBA 276 Panama City Panama 535 CIMEX Entity CUBA 317 Emerson No. 148 Piso 7 Mexico, D.F. 11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A. Entity CUBA 319 Panama 540 COMERCIAL IBEROAMERICANA, S.A. Entity CUBA 471 a.k.a. strong COIBA 321 Spain 551 COMERCIAL CIMEX, S.A. Entity CUBA 328 Panama 552 COMERCIAL DE RODAJES Y MAQUINARIA, S.A. Entity CUBA 475 a.k.a. strong CRYMSA 329 Jose Lazaro Galdeano 6-6 Madrid 28016 Spain 555 COMERCIALIZACION DE PRODUCTOS VARIOS Entity CUBA 477 a.k.a. strong COPROVA 478 a.k.a. strong COPROVA SARL 331 Paris France 559 COMPANIA DE IMPORTACION Y EXPORTACION IBERIA Entity CUBA 481 a.k.a. strong CIMEX 334 Spain 576 CORPORACION CIMEX, ",
+      "summary": "05/21/2026 19050 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity CUBA 219 a.k.",
+      "why_it_matters": "",
+      "key_takeaways": []
+    },
+    {
+      "id": "c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae",
+      "topic": "geopolitics",
+      "title": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
+      "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
+      "host": "treasury.gov",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "text/xml",
+      "collected_at": "2026-05-23T23:50:36.983564+00:00",
+      "published": "",
+      "text_chars": 392158,
+      "raw_path": "data/geopolitics/raw/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae.xml",
+      "text_path": "data/geopolitics/raw/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae.txt",
+      "snippet": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Mohammad Mahmoud 4698 1951 true 4699 Umm Tuba true 9641 Jamileh Abdullah AL-SHANTI Individual NS-PLC 9154 a.k.a. strong EL-SHANTI Jameela Abdallah 9155 a.k.a. strong AL SHANTEE Jamila Abed Allah 12128 Gaza Palestinian 4700 1955 true 4701 Jabalia Camp true 9642 Mohammed Jamal NU'MAN ALAEDDIN Individual NS-PLC 9156 a.k.a. strong ALA AL DIN Mohamad Nouman 9157 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a. strong RABBAI Khalil Mussa 4705 1959 true 9645 Huda Naim AL-QREINAWI Individual NS-PLC 9159 a.k.a. strong AL QRENAWI Houda Naim 12130 Gaza Palestinian 4706 1969 true 9646 Mahmoud Ahmad AL-RAMAHI Individual NS-PLC 12131 Ramallah West Bank Palestinian 4707 1963 true 9647 Mahmoud Khaled ZAHHAR Individual (Linked To: HAMAS) NS-PLC SDGT 166818 Secondary sanctions risk: section 1(b) of Executive Order 13224, as amended by Executive Order 13886 166816 Gender Male 9160 a.k.a. strong AL ZAHAR Mahmoud Khaled 71276 a.k.a. weak ZAHAR, Mahmoud 71",
+      "summary": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Moh",
+      "why_it_matters": "",
+      "key_takeaways": []
+    },
+    {
+      "id": "ff58d6f6d05ea6833cc5b19f365448f9935a85be76eb0cb51eb3fa470208b548",
+      "topic": "geopolitics",
+      "title": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-05-23T23:50:35.299098+00:00",
+      "published": "",
+      "text_chars": 824889,
+      "raw_path": "data/geopolitics/raw/ff58d6f6d05ea6833cc5b19f365448f9935a85be76eb0cb51eb3fa470208b548.xml",
+      "text_path": "data/geopolitics/raw/ff58d6f6d05ea6833cc5b19f365448f9935a85be76eb0cb51eb3fa470208b548.txt",
+      "snippet": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no charges were brought and as of June 2016, he lived in Kinshasa. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https:/",
+      "summary": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.",
+      "why_it_matters": "",
+      "key_takeaways": []
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-05-23T23:50:33.600222+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "snippet": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2",
+      "summary": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"c",
+      "why_it_matters": "",
+      "key_takeaways": []
+    },
+    {
+      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "topic": "geopolitics",
+      "title": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-05-23T23:50:33.331061+00:00",
+      "published": "",
+      "text_chars": 6187025,
+      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
+      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
+      "snippet": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2021\", \"value\": 1253",
+      "summary": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso",
+      "why_it_matters": "",
+      "key_takeaways": []
+    },
+    {
       "id": "a24bcb2b95c9e6e173716a1b36c332a201ee8a63d126dc43a27cbb8a193f4ca1",
       "topic": "geopolitics",
       "title": "Trump says peace deal with Iran ‘largely negotiated’ with strait of Hormuz to open",
@@ -661,146 +901,6 @@
       "key_takeaways": []
     },
     {
-      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "topic": "geopolitics",
-      "title": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
-      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
-      "host": "treaties.un.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-05-23T22:45:00.169496+00:00",
-      "published": "",
-      "text_chars": 89992,
-      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
-      "snippet": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS. Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the pre",
-      "summary": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought unt",
-      "why_it_matters": "",
-      "key_takeaways": []
-    },
-    {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-05-23T22:44:52.663448+00:00",
-      "published": "",
-      "text_chars": 523907,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "snippet": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks .......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions ....................................................................................................... 35 Ar ticle 1 Res pect for the Convention ..................................................................... 35 Ar ticle ",
-      "summary": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect ",
-      "why_it_matters": "",
-      "key_takeaways": []
-    },
-    {
-      "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
-      "topic": "geopolitics",
-      "title": "https://peacekeeping.un.org/sites/default/files/capstone_eng_0.pdf",
-      "url": "https://peacekeeping.un.org/sites/default/files/capstone_eng_0.pdf",
-      "host": "peacekeeping.un.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-05-23T22:44:47.498260+00:00",
-      "published": "",
-      "text_chars": 174113,
-      "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
-      "text_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.txt",
-      "snippet": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines United Nations Peacekeeping Operations Principles and Guidelines United Nations Department of Peacekeeping Operations Department of Field Support 2 | UNITED NATIONS PEACEKEEPING OPERATIONS CONTENTS | 3 ContentsCredits Peacekeeping Bes",
-      "summary": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the man",
-      "why_it_matters": "",
-      "key_takeaways": []
-    },
-    {
-      "id": "ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
-      "topic": "geopolitics",
-      "title": "https://www.cia.gov/the-world-factbook/",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-05-23T22:44:45.486613+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.html",
-      "text_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.txt",
-      "snippet": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades , The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook , launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use. Though the World Factbook is gone, in the spirit of its global reach and legacy,",
-      "summary": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s tak",
-      "why_it_matters": "",
-      "key_takeaways": []
-    },
-    {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-05-23T22:44:45.451406+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "snippet": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "summary": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "why_it_matters": "",
-      "key_takeaways": []
-    },
-    {
-      "id": "c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae",
-      "topic": "geopolitics",
-      "title": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
-      "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
-      "host": "treasury.gov",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "text/xml",
-      "collected_at": "2026-05-23T22:44:45.373614+00:00",
-      "published": "",
-      "text_chars": 392158,
-      "raw_path": "data/geopolitics/raw/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae.xml",
-      "text_path": "data/geopolitics/raw/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae.txt",
-      "snippet": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Mohammad Mahmoud 4698 1951 true 4699 Umm Tuba true 9641 Jamileh Abdullah AL-SHANTI Individual NS-PLC 9154 a.k.a. strong EL-SHANTI Jameela Abdallah 9155 a.k.a. strong AL SHANTEE Jamila Abed Allah 12128 Gaza Palestinian 4700 1955 true 4701 Jabalia Camp true 9642 Mohammed Jamal NU'MAN ALAEDDIN Individual NS-PLC 9156 a.k.a. strong ALA AL DIN Mohamad Nouman 9157 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a. strong RABBAI Khalil Mussa 4705 1959 true 9645 Huda Naim AL-QREINAWI Individual NS-PLC 9159 a.k.a. strong AL QRENAWI Houda Naim 12130 Gaza Palestinian 4706 1969 true 9646 Mahmoud Ahmad AL-RAMAHI Individual NS-PLC 12131 Ramallah West Bank Palestinian 4707 1963 true 9647 Mahmoud Khaled ZAHHAR Individual (Linked To: HAMAS) NS-PLC SDGT 166818 Secondary sanctions risk: section 1(b) of Executive Order 13224, as amended by Executive Order 13886 166816 Gender Male 9160 a.k.a. strong AL ZAHAR Mahmoud Khaled 71276 a.k.a. weak ZAHAR, Mahmoud 71",
-      "summary": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Moh",
-      "why_it_matters": "",
-      "key_takeaways": []
-    },
-    {
-      "id": "f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1",
-      "topic": "geopolitics",
-      "title": "https://www.treasury.gov/ofac/downloads/sdn.xml",
-      "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
-      "host": "treasury.gov",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "text/xml",
-      "collected_at": "2026-05-23T22:44:43.387132+00:00",
-      "published": "",
-      "text_chars": 9071064,
-      "raw_path": "data/geopolitics/raw/f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1.xml",
-      "text_path": "data/geopolitics/raw/f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1.txt",
-      "snippet": "05/21/2026 19050 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity CUBA 219 a.k.a. weak BNC 220 a.k.a. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg. 6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. Entity CUBA 276 Panama City Panama 535 CIMEX Entity CUBA 317 Emerson No. 148 Piso 7 Mexico, D.F. 11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A. Entity CUBA 319 Panama 540 COMERCIAL IBEROAMERICANA, S.A. Entity CUBA 471 a.k.a. strong COIBA 321 Spain 551 COMERCIAL CIMEX, S.A. Entity CUBA 328 Panama 552 COMERCIAL DE RODAJES Y MAQUINARIA, S.A. Entity CUBA 475 a.k.a. strong CRYMSA 329 Jose Lazaro Galdeano 6-6 Madrid 28016 Spain 555 COMERCIALIZACION DE PRODUCTOS VARIOS Entity CUBA 477 a.k.a. strong COPROVA 478 a.k.a. strong COPROVA SARL 331 Paris France 559 COMPANIA DE IMPORTACION Y EXPORTACION IBERIA Entity CUBA 481 a.k.a. strong CIMEX 334 Spain 576 CORPORACION CIMEX, ",
-      "summary": "05/21/2026 19050 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity CUBA 219 a.k.",
-      "why_it_matters": "",
-      "key_takeaways": []
-    },
-    {
       "id": "4afafffc71ce2c75ccff79511f9a0013f6af9005e34d3753fd98028119a918d9",
       "topic": "geopolitics",
       "title": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
@@ -817,46 +917,6 @@
       "text_path": "data/geopolitics/raw/4afafffc71ce2c75ccff79511f9a0013f6af9005e34d3753fd98028119a918d9.txt",
       "snippet": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no charges were brought and as of June 2016, he lived in Kinshasa. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https:/",
       "summary": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.",
-      "why_it_matters": "",
-      "key_takeaways": []
-    },
-    {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-23T22:44:06.097976+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "snippet": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2",
-      "summary": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"c",
-      "why_it_matters": "",
-      "key_takeaways": []
-    },
-    {
-      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "topic": "geopolitics",
-      "title": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-23T22:44:05.834157+00:00",
-      "published": "",
-      "text_chars": 6187025,
-      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
-      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
-      "snippet": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2021\", \"value\": 1253",
-      "summary": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso",
       "why_it_matters": "",
       "key_takeaways": []
     },
@@ -1423,66 +1483,6 @@
       "summary": "Deadlocked, dysfunctional and dangerous. That is how the Strait of Hormuz standoff is increasingly being described. Now approaching its fourth month, the crisis off Iran's coast is marked by mutual blockades. Tehran has been charging ships up to $2 million (€1.73 million) for saf",
       "why_it_matters": "",
       "key_takeaways": []
-    },
-    {
-      "id": "7eaf5f082bf33113153e8f21fb7457af43228e2617dcf50ff5a01a23e7cabbea",
-      "topic": "geopolitics",
-      "title": "Gaza flotilla activists allege sexual assault and rape in Israeli detention",
-      "url": "https://www.theguardian.com/world/2026/may/22/gaza-flotilla-activists-allege-sexual-assault-and-in-israeli-detention",
-      "host": "theguardian.com",
-      "source": "https://www.theguardian.com/world/rss",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-05-22T17:06:18.975812+00:00",
-      "published": "Fri, 22 May 2026 15:36:16 GMT",
-      "text_chars": 4406,
-      "raw_path": "data/geopolitics/raw/7eaf5f082bf33113153e8f21fb7457af43228e2617dcf50ff5a01a23e7cabbea.html",
-      "text_path": "data/geopolitics/raw/7eaf5f082bf33113153e8f21fb7457af43228e2617dcf50ff5a01a23e7cabbea.txt",
-      "snippet": "Activists released from Israeli custody after being detained on a flotilla trying to take aid to Gaza were subjected to abuse, organisers have alleged, with several hospitalised with injuries and at least 15 reporting sexual assaults, including rape. Israel’s prison service denied the allegations, and Reuters was not able to verify them independently. Germany said some of its nationals had been injured and that some accusations were “serious”, without giving further details. A legal source in Italy said prosecutors there were investigating possible crimes, including kidnapping and sexual assault. An Israeli prison service spokesperson said in a statement: “The allegations raised are false and entirely without factual basis. “All prisoners and detainees are held in accordance with the law, with full regard for their basic rights and under the supervision of professional and trained prison staff,” they said. “Medical care is provided according to professional medical judgment and in accordance with ministry of health guidelines.” The Israeli military referred queries to the foreign ministry, which referred them to the prison service. Israeli forces arrested 430 people onboard 50 ships in international waters on Tuesday to halt the flotilla of volunteers trying to take aid supplies to the Gaza Strip. The allegations of abuse will add to pressure on Israeli authorities to explain t",
-      "summary": "Activists released from Israeli custody after being detained on a flotilla trying to take aid to Gaza were subjected to abuse, organisers have alleged, with several hospitalised with injuries and at least 15 reporting sexual assaults, including rape. Israel’s prison service denie",
-      "why_it_matters": "",
-      "key_takeaways": []
-    },
-    {
-      "id": "793eac208a8c86409edefa70e9f722d9e55edd956314fddf3346fe6d04257be6",
-      "topic": "geopolitics",
-      "title": "Marco Rubio: Trump ‘disappointment’ with Nato will be discussed at summit",
-      "url": "https://www.theguardian.com/world/2026/may/22/marco-rubio-trump-disappointment-with-nato-will-be-discussed-at-summit",
-      "host": "theguardian.com",
-      "source": "https://www.theguardian.com/world/rss",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-05-22T17:06:03.763988+00:00",
-      "published": "Fri, 22 May 2026 16:29:09 GMT",
-      "text_chars": 4512,
-      "raw_path": "data/geopolitics/raw/793eac208a8c86409edefa70e9f722d9e55edd956314fddf3346fe6d04257be6.html",
-      "text_path": "data/geopolitics/raw/793eac208a8c86409edefa70e9f722d9e55edd956314fddf3346fe6d04257be6.txt",
-      "snippet": "Donald Trump is disappointed that Nato allies refused to become more actively involved in attacking Iran , the US secretary of state has said, setting up what could become a fraught summit of the alliance in July. Marco Rubio, meeting with foreign ministers of the military alliance, emphasised that he expected the rift would be discussed at the July meeting in Ankara, making the summit “one of the more important” in Nato’s 77-year history. “The president’s views – frankly, disappointment – at some of our Nato allies and their response to our operations in the Middle East, they are well documented,” Rubio said as he arrived for the start of the meeting in Helsingborg. “That will have to be addressed. That won’t be solved or addressed today. That’s something for the leaders level to discuss,” he said, amid fresh US demands for help in forcing open the strait of Hormuz if peace talks with Iran fail to progress. After the meeting, Rubio said he discussed the possibility with his counterparts of Nato countries helping militarily. “We have to have a plan B for if someone is shooting, then how do you reopen the straits?” Rubio said. “I don’t know if that would be a Nato mission necessarily, but it would certainly be Nato countries that can contribute to it.” The UK and France have offered to lead a multinational air and naval force to maintain security for merchant shipping in the str",
-      "summary": "Donald Trump is disappointed that Nato allies refused to become more actively involved in attacking Iran , the US secretary of state has said, setting up what could become a fraught summit of the alliance in July. Marco Rubio, meeting with foreign ministers of the military allian",
-      "why_it_matters": "",
-      "key_takeaways": []
-    },
-    {
-      "id": "76b6af3eecdac63b64318c0a45b18e97ca40622c2efae9999dcf4d52ab1801a1",
-      "topic": "geopolitics",
-      "title": "Taiwan says it has not been told by US of arms sales delays",
-      "url": "https://www.defensenews.com/global/asia-pacific/2026/05/22/taiwan-says-it-has-not-been-told-by-us-of-arms-sales-delays/",
-      "host": "defensenews.com",
-      "source": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=utf-8",
-      "collected_at": "2026-05-22T14:20:17.930906+00:00",
-      "published": "Fri, 22 May 2026 13:39:47 +0000",
-      "text_chars": 2026,
-      "raw_path": "data/geopolitics/raw/76b6af3eecdac63b64318c0a45b18e97ca40622c2efae9999dcf4d52ab1801a1.html",
-      "text_path": "data/geopolitics/raw/76b6af3eecdac63b64318c0a45b18e97ca40622c2efae9999dcf4d52ab1801a1.txt",
-      "snippet": "TAIPEI — Taiwan’s government said on Friday it had not received any information about U.S. arms sales delays, after a senior U.S. official suggested there was a pause due to the need to have enough arms for the war with Iran. Taiwan, which China views as its own territory, has been waiting for the U.S. to approve a new arms sale package which Reuters has reported could be worth up to $14 billion. However, U.S. President Donald Trump said following a summit with China’s Xi Jinping in Beijing last week that he was undecided on whether to approve it. On Thursday, U.S. Acting Navy Secretary Hung Cao was asked at a Senate Appropriations Defense Subcommittee hearing about future arms sales to Taiwan. “We have done some foreign military sales to them. It’s just right now we’re doing a pause in order to make sure we have the munitions we need for Epic Fury - which we have plenty,” he said, referring to the U.S. operation against Iran. “But we’re just making sure we have everything, but then the foreign military sales will continue when the administration deems necessary,” he said, adding it would be up to Defense Secretary Pete Hegseth and the Secretary of State Marco Rubio on whether to approve the sales to Taiwan. Speaking to reporters in Taipei, Taiwan Presidential Office spokesperson Karen Kuo said they had noted the remarks. “However, at present we have not received any relevant i",
-      "summary": "TAIPEI — Taiwan’s government said on Friday it had not received any information about U.S. arms sales delays, after a senior U.S. official suggested there was a pause due to the need to have enough arms for the war with Iran. Taiwan, which China views as its own territory, has be",
-      "why_it_matters": "",
-      "key_takeaways": []
     }
   ],
   "premium_evidence": [
@@ -1496,7 +1496,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-05-23T22:44:43.387132+00:00",
+      "collected_at": "2026-05-23T23:51:08.461751+00:00",
       "published": "",
       "text_chars": 9071064,
       "raw_path": "data/geopolitics/raw/f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1.xml",
@@ -1536,7 +1536,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-23T22:44:06.097976+00:00",
+      "collected_at": "2026-05-23T23:50:33.600222+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -1556,7 +1556,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-23T22:44:05.834157+00:00",
+      "collected_at": "2026-05-23T23:50:33.331061+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -1581,6 +1581,26 @@
       "text_chars": 831995,
       "raw_path": "data/geopolitics/raw/9428d2e28ff70824438bbaaca3cd22dceafd9789821a5fa691e1dc5dc417c1eb.xml",
       "text_path": "data/geopolitics/raw/9428d2e28ff70824438bbaaca3cd22dceafd9789821a5fa691e1dc5dc417c1eb.txt",
+      "snippet": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no charges were brought and as of June 2016, he lived in Kinshasa. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https:/",
+      "summary": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.",
+      "why_it_matters": "",
+      "key_takeaways": []
+    },
+    {
+      "id": "ff58d6f6d05ea6833cc5b19f365448f9935a85be76eb0cb51eb3fa470208b548",
+      "topic": "geopolitics",
+      "title": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-05-23T23:50:35.299098+00:00",
+      "published": "",
+      "text_chars": 824889,
+      "raw_path": "data/geopolitics/raw/ff58d6f6d05ea6833cc5b19f365448f9935a85be76eb0cb51eb3fa470208b548.xml",
+      "text_path": "data/geopolitics/raw/ff58d6f6d05ea6833cc5b19f365448f9935a85be76eb0cb51eb3fa470208b548.txt",
       "snippet": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no charges were brought and as of June 2016, he lived in Kinshasa. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https:/",
       "summary": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.",
       "why_it_matters": "",
@@ -1656,7 +1676,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-23T22:44:52.663448+00:00",
+      "collected_at": "2026-05-23T23:51:15.442198+00:00",
       "published": "",
       "text_chars": 523907,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -1676,7 +1696,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-05-23T22:44:45.373614+00:00",
+      "collected_at": "2026-05-23T23:50:36.983564+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae.xml",
@@ -1716,7 +1736,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-23T22:44:47.498260+00:00",
+      "collected_at": "2026-05-23T23:51:10.509402+00:00",
       "published": "",
       "text_chars": 174113,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -1736,7 +1756,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-23T22:45:00.169496+00:00",
+      "collected_at": "2026-05-23T23:51:16.142139+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -1823,26 +1843,6 @@
       "text_path": "data/geopolitics/raw/c5c18ed3f5e1dfde5042d08a5845a0243f38952f2c908b845c6807d89400a50a.txt",
       "snippet": "On April 25, armed groups launched near-simultaneous attacks against military installations and key strategic sites across Mali. Claimed by Jama’at Nusrat al-Islam wal-Muslimin , a jihadist group, and conducted in coordination with Tuareg separatist forces from the Front de libération de l’Azawad, the attacks targeted multiple nodes across the country’s security architecture simultaneously, from the capital Bamako to Gao, Mopti, and Kidal. While the attacks themselves were a shock, they should be understood as the logical endpoint of a deteriorating security trajectory that Western governments have watched from an ever-increasing distance. The geographic scope of the attacks, the targeting of senior officials, and the coordination between jihadist and separatist forces reflect a step change in insurgent capability that has been building for years. Western governments now face a predicament of their own making. As the regional security environment has worsened, their capacity to respond has diminished in direct proportion. The systematic breakdown of military and diplomatic relationships with Sahelian states has left Western actors increasingly unable to see, shape, or contain events in what has become the world’s most lethal theatre of jihadist violence. That breakdown is the consequence of a counter-terrorism approach that prioritised operations centered on force and violence ",
       "summary": "On April 25, armed groups launched near-simultaneous attacks against military installations and key strategic sites across Mali. Claimed by Jama’at Nusrat al-Islam wal-Muslimin , a jihadist group, and conducted in coordination with Tuareg separatist forces from the Front de libér",
-      "why_it_matters": "",
-      "key_takeaways": []
-    },
-    {
-      "id": "db0f275d9cc24cd8dbec3ecddaf919105da23697c471f86dcf6a5ed03bc46533",
-      "topic": "geopolitics",
-      "title": "Winning in the Donbas: What Russia’s 2014–2015 Campaign Reveals About Modern War",
-      "url": "https://warontherocks.com/winning-in-the-donbas-what-russias-2014-2015-campaign-reveals-about-modern-war/",
-      "host": "warontherocks.com",
-      "source": "https://warontherocks.com/feed/",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-05-21T14:45:47.629811+00:00",
-      "published": "Fri, 17 Apr 2026 07:15:59 +0000",
-      "text_chars": 25402,
-      "raw_path": "data/geopolitics/raw/db0f275d9cc24cd8dbec3ecddaf919105da23697c471f86dcf6a5ed03bc46533.html",
-      "text_path": "data/geopolitics/raw/db0f275d9cc24cd8dbec3ecddaf919105da23697c471f86dcf6a5ed03bc46533.txt",
-      "snippet": "It is clear that the U.S.-Israeli decapitation, airpower-centric, and precision strike campaign are again not enough to bring about the two countries’ strategic goals. The United States still finds itself potentially having to commit land forces into its war with Iran, yet many unknowns lurk, including a fragile ceasefire and a U.S. naval blockade of the Strait of Hormuz. Setting aside the question of whether U.S. land forces will be committed to the war, the question that remains unknown is how, and to what degree, they would be employed. The continued relevance of land forces in the 21st century is a hotly debated topic. The proliferation of drone warfare, long-range precision strike, cyber operations, and sensor networks lends to arguments that the battlefield is increasingly transparent and that employing large, massed armies is no longer viable. As a result, large-scale ground combat is passé . New formations like the U.S. Army’s Multidomain Task Force and Mobile Brigade Combat Team , coupled with a new Multidomain Operations doctrine, have sought to replace traditional land forces and land force operations with high-tech capabilities to win wars via strike instead of close combat. Hope, best intentions, and current U.S. military thought suggest that any ground combat by U.S. forces would be quick, led by robotics and new technology, and be less deadly and destructive than",
-      "summary": "It is clear that the U.S.-Israeli decapitation, airpower-centric, and precision strike campaign are again not enough to bring about the two countries’ strategic goals. The United States still finds itself potentially having to commit land forces into its war with Iran, yet many u",
       "why_it_matters": "",
       "key_takeaways": []
     }
