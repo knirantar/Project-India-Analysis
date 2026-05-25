@@ -1,11 +1,11 @@
 # Project India Analysis
 
-Raw-evidence presentation layer for the Project India global geopolitics monitor.
+Grounded intelligence presentation layer for the Project India global geopolitics monitor.
 
 This repository does **not** collect internet data and does **not** normalize
 evidence into invented schemas. It reads the data repository directly and builds
 a Next.js intelligence application from gathered metadata, clean text, raw source
-links, and copied visual assets.
+links, copied visual assets, copied PDFs, and grounded summaries.
 
 Default input path:
 
@@ -26,10 +26,12 @@ The builder creates:
 public/intelligence-data.json
 public/evidence/<sha>.json
 public/evidence-assets/*
+public/evidence-files/*
 ```
 
-Each evidence detail file contains the gathered clean text for one source. The
-React app provides routing at:
+Each evidence detail file contains the gathered clean text, extractive digest,
+source metadata, and related evidence for one source. The React app provides
+routing at:
 
 ```text
 /
@@ -39,10 +41,12 @@ React app provides routing at:
 
 ## Grounded AI
 
-The app can use `OPENAI_API_KEY` on the server for evidence-specific Q&A, but the
-key is never exposed to the browser. The API prompt is constrained to selected
-gathered source text and must cite the provided source. If `OPENAI_API_KEY` is not
-configured, the app returns gathered extracts instead of an AI answer.
+The builder and app can use `OPENAI_API_KEY` on the server. The build step uses it
+for a grounded executive briefing when the secret is configured. The runtime API
+uses it for evidence-specific Q&A. The key is never exposed to the browser, and
+both prompts are constrained to selected gathered source text with source
+citations. If `OPENAI_API_KEY` is not configured, the site falls back to
+deterministic extractive summaries and gathered extracts.
 
 ## Hourly Sync
 
