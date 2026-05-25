@@ -33,7 +33,15 @@ const STOPWORDS = new Set([
   "about", "after", "again", "against", "also", "amid", "among", "because", "before", "being", "between", "could", "during",
   "from", "have", "into", "more", "over", "said", "says", "than", "that", "their", "there", "these", "this", "through",
   "under", "were", "what", "when", "where", "which", "while", "with", "would", "will", "news", "latest", "global",
-  "page", "print", "read", "share", "source", "title", "content", "report", "update"
+  "page", "print", "read", "share", "source", "title", "content", "report", "update", "https", "http", "html",
+  "image", "images", "asset", "assets", "cropped", "download", "downloads", "collection", "collections", "photo",
+  "caption", "thumbnail", "javascript", "cookie", "cookies", "privacy", "subscribe", "advertisement", "advertising",
+  "they", "them", "been", "being", "those", "these", "then", "your", "youre", "their", "ours", "ourselves",
+  "value", "indicator", "strong", "true", "country", "countryiso", "date", "decimal", "secondary", "section",
+  "code", "current", "good", "list", "how-we-work", "notices", "mprt", "xpnd", "api", "json", "dataset",
+  "file", "files", "node", "undefined", "null", "table", "linked", "number", "individual", "registration",
+  "pursuant", "exact", "concluded", "review", "special", "notice", "shall", "directive", "directives",
+  "article", "company", "ticle", "such", "present", "persons", "other", "people", "notice"
 ]);
 
 function readJson(filePath, fallback = null) {
@@ -46,11 +54,21 @@ function readJson(filePath, fallback = null) {
 
 function readText(filePath, max = Infinity) {
   try {
-    const text = fs.readFileSync(filePath, "utf8").replace(/\r/g, "").replace(/[ \t]+/g, " ").trim();
+    const text = cleanText(fs.readFileSync(filePath, "utf8"));
     return Number.isFinite(max) ? text.slice(0, max) : text;
   } catch {
     return "";
   }
+}
+
+function cleanText(value) {
+  return String(value || "")
+    .replace(/\r/g, "")
+    .replace(/([A-Za-z])\s+([,.;:!?])/g, "$1$2")
+    .replace(/\b([A-Za-z])\s+([a-z])\b/g, "$1$2")
+    .replace(/[ \t]+/g, " ")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
 }
 
 function walk(dir, matcher, files = []) {
@@ -87,17 +105,31 @@ function dateValue(item) {
 }
 
 function sortDateDesc(a, b) {
+  const left = Date.parse(dateValue(a));
+  const right = Date.parse(dateValue(b));
+  if (!Number.isNaN(left) || !Number.isNaN(right)) return (Number.isNaN(right) ? 0 : right) - (Number.isNaN(left) ? 0 : left);
   return String(dateValue(b)).localeCompare(String(dateValue(a)));
+}
+
+function sortPublishedDesc(a, b) {
+  const aHasPublished = Boolean(a.published);
+  const bHasPublished = Boolean(b.published);
+  if (aHasPublished !== bHasPublished) return aHasPublished ? -1 : 1;
+  return sortDateDesc(a, b);
 }
 
 function classifyFormat(dataType = "", contentType = "", url = "") {
   const haystack = `${dataType} ${contentType} ${url}`.toLowerCase();
+  const data = String(dataType || "").toLowerCase();
+  const htmlish = haystack.includes("text/html");
+  const host = sourceHost(url).toLowerCase();
   if (haystack.includes("pdf")) return "PDF";
-  if (haystack.includes("book") || haystack.includes("factbook")) return "Book";
   if (haystack.includes("image")) return "Image";
   if (haystack.includes("video")) return "Video";
   if (haystack.includes("audio") || haystack.includes("podcast")) return "Audio";
-  if (haystack.includes("sanctions")) return "Sanctions";
+  if (data.includes("book") || data.includes("factbook")) return "Book";
+  if (htmlish) return "Article";
+  if (haystack.includes("sanctions") && (/ofac|treasury\.gov|sanctions|consolidated-list/.test(haystack) || /treasury|sanctions/.test(host))) return "Sanctions";
   if (haystack.includes("dataset") || haystack.includes("json") || haystack.includes("xml") || haystack.includes("zip")) return "Dataset";
   return "Article";
 }
@@ -112,8 +144,16 @@ function sentences(text, limit = 8) {
 }
 
 function meaningfulSentences(text, limit = 4) {
+  const seen = new Set();
   const selected = sentences(text, 18)
-    .filter((line) => !/^(print this page|share|copyright|all rights reserved)/i.test(line))
+    .filter((line) => !/^(print this page|share|copyright|all rights reserved|image asset|download|subscribe)/i.test(line))
+    .filter((line) => !/\b(cropped|downloads|collections|image asset|all rights reserved)\b/i.test(line))
+    .filter((line) => {
+      const key = line.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim().slice(0, 120);
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
     .sort((a, b) => scoreSentence(b) - scoreSentence(a));
   return selected.slice(0, limit);
 }
@@ -134,14 +174,24 @@ function scoreSentence(sentence) {
 
 function groundedSummary(text, title) {
   const selected = meaningfulSentences(text, 3);
-  if (selected.length) return selected.join(" ");
+  if (selected.length) return clampText(selected.join(" "), 560);
   return text ? text.replace(/\s+/g, " ").slice(0, 420) : title;
 }
 
 function analyticalBullets(text, title) {
   const selected = meaningfulSentences(text, 5);
-  if (selected.length) return selected.map((line) => line.replace(/\s+/g, " "));
+  if (selected.length) return selected.map((line) => clampText(line.replace(/\s+/g, " "), 360));
   return [groundedSummary(text, title)];
+}
+
+function clampText(value, max = 360) {
+  const text = String(value || "").replace(/\s+/g, " ").trim();
+  if (text.length <= max) return text;
+  const clipped = text.slice(0, max);
+  const sentenceEnd = Math.max(clipped.lastIndexOf(". "), clipped.lastIndexOf("? "), clipped.lastIndexOf("! "));
+  if (sentenceEnd > max * 0.55) return clipped.slice(0, sentenceEnd + 1).trim();
+  const wordEnd = clipped.lastIndexOf(" ");
+  return `${clipped.slice(0, wordEnd > 0 ? wordEnd : max).trim()}...`;
 }
 
 function keywordsFor(text, limit = 12) {
@@ -149,6 +199,7 @@ function keywordsFor(text, limit = 12) {
   for (const token of text.toLowerCase().match(/[a-z][a-z-]{3,}/g) || []) {
     const normalized = token.replace(/^-|-$/g, "");
     if (STOPWORDS.has(normalized)) continue;
+    if (normalized.length > 22) continue;
     counts.set(normalized, (counts.get(normalized) || 0) + 1);
   }
   return [...counts.entries()]
@@ -157,9 +208,22 @@ function keywordsFor(text, limit = 12) {
     .map(([name, value]) => ({ name, value }));
 }
 
-function matchingNames(text, rules) {
+function matchingNames(text, rules, options = {}) {
+  const threshold = options.threshold ?? 2;
+  const max = options.max ?? 4;
   const haystack = text.toLowerCase();
-  return rules.filter((rule) => rule.terms.some((term) => haystack.includes(term))).map((rule) => rule.name);
+  return rules
+    .map((rule) => {
+      const score = rule.terms.reduce((sum, term) => {
+        if (!haystack.includes(term)) return sum;
+        return sum + (term.length > 7 ? 2 : 1);
+      }, 0);
+      return { name: rule.name, score };
+    })
+    .filter((rule) => rule.score >= threshold)
+    .sort((a, b) => b.score - a.score || a.name.localeCompare(b.name))
+    .slice(0, max)
+    .map((rule) => rule.name);
 }
 
 function extractTimeline(text, evidence) {
@@ -167,9 +231,12 @@ function extractTimeline(text, evidence) {
   const seen = new Set();
   const normalized = text.replace(/\s+/g, " ");
   const pattern = /\b(?:19|20)\d{2}(?:[-/](?:0?[1-9]|1[0-2])(?:[-/](?:0?[1-9]|[12]\d|3[01]))?)?\b/g;
+  const currentYear = new Date().getUTCFullYear();
   let match;
   while ((match = pattern.exec(normalized)) && matches.length < 5) {
     const date = match[0];
+    const year = Number(date.slice(0, 4));
+    if (year < 2020 || year > currentYear + 1) continue;
     if (seen.has(date)) continue;
     seen.add(date);
     const start = Math.max(0, match.index - 120);
@@ -185,8 +252,40 @@ function extractTimeline(text, evidence) {
   return matches;
 }
 
+function timelineSortDesc(a, b) {
+  const left = String(a.date || "");
+  const right = String(b.date || "");
+  const leftYear = Number(left.slice(0, 4)) || 0;
+  const rightYear = Number(right.slice(0, 4)) || 0;
+  if (rightYear !== leftYear) return rightYear - leftYear;
+  return right.localeCompare(left);
+}
+
 function safeFileName(value) {
   return String(value).replace(/[^a-zA-Z0-9_-]/g, "_");
+}
+
+function humanTitle(value, fallback = "Untitled evidence") {
+  const title = String(value || "").trim();
+  if (!/^https?:\/\//i.test(title)) return title || fallback;
+  try {
+    const url = new URL(title);
+    const lower = title.toLowerCase();
+    if (lower.includes("uncharter.pdf")) return "United Nations Charter";
+    if (lower.includes("icrc-002-0173.pdf")) return "ICRC International Humanitarian Law Handbook";
+    if (lower.includes("capstone_eng")) return "UN Peacekeeping Capstone Doctrine";
+    if (lower.includes("/sdn.xml")) return "OFAC Specially Designated Nationals List";
+    if (lower.includes("consolidated.xml")) return "Consolidated Sanctions List";
+    if (lower.includes("the-world-factbook")) return "The World Factbook";
+    const last = decodeURIComponent(url.pathname.split("/").filter(Boolean).pop() || url.hostname)
+      .replace(/\.(pdf|html?|xml|json|zip)$/i, "")
+      .replace(/[-_]+/g, " ")
+      .trim();
+    const label = last || url.hostname;
+    return label.replace(/\b\w/g, (letter) => letter.toUpperCase());
+  } catch {
+    return fallback;
+  }
 }
 
 function resolveDataPath(value) {
@@ -216,18 +315,27 @@ function buildFallbackBrief(evidence, signalCards, regionCards) {
   const leadDocs = evidence
     .filter((item) => item.text_chars > 1200)
     .slice(0, 10);
+  const topSignals = signalCards.slice(0, 4);
+  const topRegions = regionCards.slice(0, 4);
   const strongest = signalCards.slice(0, 4).map((signal) => {
     const first = signal.latest[0];
     return {
       title: signal.name,
-      finding: first ? `${signal.count} gathered records currently cluster around ${signal.name.toLowerCase()}. Leading source: ${first.title}.` : `${signal.count} gathered records currently cluster here.`,
+      finding: first
+        ? `${signal.count} gathered records cluster around ${signal.name.toLowerCase()}. The leading item is "${first.title}", and the extracted source text points to: ${clampText(first.summary, 260)}`
+        : `${signal.count} gathered records currently cluster here.`,
       citations: signal.evidence_ids.slice(0, 3)
     };
   });
   return {
     method: "extractive-fallback",
-    headline: "Current gathered evidence is concentrated in escalation, humanitarian pressure, sanctions, and institutional risk.",
-    executive_summary: leadDocs.slice(0, 4).map((item) => `${item.title}: ${item.summary}`),
+    headline: `The current evidence base contains ${evidence.length} gathered records across ${new Set(evidence.map((item) => item.host)).size} sources, led by ${topSignals.map((item) => item.name.toLowerCase()).join(", ")}.`,
+    executive_summary: [
+      `Coverage is broad but evidence-led: ${evidence.length} records, ${countBy(evidence, (item) => item.format).slice(0, 4).map((item) => `${item.value} ${item.name.toLowerCase()}`).join(", ")}, and ${Math.round(evidence.reduce((sum, item) => sum + item.text_chars, 0) / 100000) / 10}M extracted text characters are available for review.`,
+      `The strongest signal clusters are ${topSignals.map((item) => `${item.name} (${item.count})`).join(", ")}. These counts describe gathered-source concentration, not real-world event magnitude.`,
+      `Regional concentration is currently highest in ${topRegions.map((item) => `${item.name} (${item.count})`).join(", ")} based on exact matches in gathered text and metadata.`,
+      leadDocs[0] ? `Lead long-read context: "${leadDocs[0].title}" from ${leadDocs[0].host}. ${clampText(leadDocs[0].summary, 300)}` : "No long-read source text is available yet; the interface falls back to source metadata and raw evidence pages."
+    ],
     key_judgments: strongest,
     regional_read: regionCards.slice(0, 5).map((region) => ({
       region: region.name,
@@ -236,7 +344,7 @@ function buildFallbackBrief(evidence, signalCards, regionCards) {
     })),
     watchlist: signalCards.slice(0, 5).map((signal) => ({
       label: signal.name,
-      why_it_matters: signal.latest[0]?.summary || "Evidence exists, but clean text is limited.",
+      why_it_matters: signal.latest[0]?.summary ? clampText(signal.latest[0].summary, 280) : "Evidence exists, but clean text is limited.",
       citations: signal.evidence_ids.slice(0, 3)
     })),
     caveats: [
@@ -337,9 +445,9 @@ const evidence = rawMetadataFiles.map((filePath) => {
   const localTextPath = meta.text_path ? resolveDataPath(meta.text_path) : filePath.replace(/\.json$/, ".txt");
   const rawPath = meta.raw_path ? resolveDataPath(meta.raw_path) : "";
   const fullText = readText(localTextPath);
-  const title = meta.title || meta.source_title || meta.url || "Untitled evidence";
+  const title = humanTitle(meta.title || meta.source_title || meta.url, "Untitled evidence");
   const format = classifyFormat(meta.data_type, meta.content_type, meta.url);
-  const searchText = `${title}\n${meta.url || ""}\n${fullText}`;
+  const searchText = `${title}\n${sourceHost(meta.url || "")}\n${fullText}`;
   const id = safeFileName(meta.sha256 || path.basename(filePath, ".json"));
   return {
     id,
@@ -361,17 +469,17 @@ const evidence = rawMetadataFiles.map((filePath) => {
     bullets: analyticalBullets(fullText, title),
     excerpt: fullText.replace(/\s+/g, " ").slice(0, 1200),
     keywords: keywordsFor(searchText, 10),
-    signals: matchingNames(searchText, SIGNALS),
-    regions: matchingNames(searchText, REGIONS),
+    signals: matchingNames(searchText, SIGNALS, { threshold: 2, max: 4 }),
+    regions: matchingNames(searchText, REGIONS, { threshold: 1, max: 3 }),
     full_text: fullText
   };
 }).sort(sortDateDesc);
 
 for (const item of evidence) copyRenderableFile(item);
 
-const timeline = evidence.flatMap((item) => extractTimeline(item.full_text, item)).sort((a, b) => a.date.localeCompare(b.date));
+const timeline = evidence.flatMap((item) => extractTimeline(item.full_text, item)).sort(timelineSortDesc);
 const signalCards = SIGNALS.map((signal) => {
-  const matches = evidence.filter((item) => item.signals.includes(signal.name));
+  const matches = evidence.filter((item) => item.signals.includes(signal.name)).sort(sortPublishedDesc);
   return {
     name: signal.name,
     count: matches.length,
@@ -392,7 +500,7 @@ const signalCards = SIGNALS.map((signal) => {
 }).filter((signal) => signal.count > 0).sort((a, b) => b.count - a.count);
 
 const regionCards = REGIONS.map((region) => {
-  const matches = evidence.filter((item) => item.regions.includes(region.name));
+  const matches = evidence.filter((item) => item.regions.includes(region.name)).sort(sortPublishedDesc);
   return {
     name: region.name,
     count: matches.length,
@@ -401,9 +509,16 @@ const regionCards = REGIONS.map((region) => {
   };
 }).filter((region) => region.count > 0).sort((a, b) => b.count - a.count);
 
-const allKeywords = evidence.flatMap((item) => item.keywords.map((keyword) => ({ ...keyword, evidence_id: item.id })));
-const keywordCounts = countBy(allKeywords, (item) => item.name).slice(0, 45);
-const latestEvidenceTimestamp = evidence.map(dateValue).filter(Boolean).sort((a, b) => String(b).localeCompare(String(a)))[0] || "";
+const allKeywords = evidence
+  .filter((item) => item.text_chars > 500 && !["Image", "Dataset", "Sanctions"].includes(item.format))
+  .flatMap((item) => item.keywords.map((keyword) => ({ ...keyword, evidence_id: item.id })));
+const keywordTotals = new Map();
+for (const keyword of allKeywords) keywordTotals.set(keyword.name, (keywordTotals.get(keyword.name) || 0) + keyword.value);
+const keywordCounts = [...keywordTotals.entries()]
+  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+  .slice(0, 45)
+  .map(([name, value]) => ({ name, value }));
+const latestEvidenceTimestamp = dateValue(evidence[0] || {}) || "";
 
 const manifestEvidence = evidence.map((item) => {
   const { full_text, raw_file_path, ...rest } = item;
@@ -416,6 +531,10 @@ const manifestEvidence = evidence.map((item) => {
 
 const briefing = await buildAiBrief(evidence, signalCards, regionCards);
 const evidenceById = new Map(manifestEvidence.map((item) => [item.id, item]));
+const latestPublishedEvidence = [...manifestEvidence]
+  .filter((item) => item.published)
+  .sort(sortPublishedDesc);
+const latestEvidence = (latestPublishedEvidence.length ? latestPublishedEvidence : [...manifestEvidence].sort(sortDateDesc)).slice(0, 80);
 
 for (const item of evidence) {
   const detail = {
@@ -451,7 +570,7 @@ const intelligence = {
   signals: signalCards,
   regions: regionCards,
   timeline: timeline.slice(0, 140),
-  latest_evidence: manifestEvidence.slice(0, 80),
+  latest_evidence: latestEvidence,
   deep_reads: [...manifestEvidence].sort((a, b) => b.text_chars - a.text_chars).slice(0, 28),
   documents: manifestEvidence.filter((item) => ["PDF", "Book", "Dataset", "Sanctions"].includes(item.format)).slice(0, 36),
   visual_evidence: manifestEvidence.filter((item) => item.preview_asset).slice(0, 24),

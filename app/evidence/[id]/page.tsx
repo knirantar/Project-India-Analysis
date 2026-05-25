@@ -69,7 +69,7 @@ export default async function EvidencePage({ params }: { params: Promise<{ id: s
     .split(/\n{2,}/)
     .map((item) => item.trim())
     .filter(Boolean)
-    .slice(0, 120);
+    .slice(0, 80);
 
   const bullets = evidence.bullets?.length ? evidence.bullets : [evidence.summary];
 
@@ -130,7 +130,7 @@ export default async function EvidencePage({ params }: { params: Promise<{ id: s
             </div>
           )}
 
-          <details className="raw-text-block" open>
+          <details className="raw-text-block">
             <summary>Gathered clean text</summary>
             {paragraphs.length ? paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>) : <p>No extracted text was available for this item.</p>}
           </details>

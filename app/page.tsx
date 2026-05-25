@@ -125,6 +125,10 @@ function EvidenceCard({ item, index, dense = false }: { item: Evidence; index: n
   );
 }
 
+function cleanBriefLine(value: string) {
+  return value.replace(/\s+/g, " ").trim();
+}
+
 export default function Home() {
   const data = loadData();
   const evidenceById = new Map(data.evidence.map((item) => [item.id, item]));
@@ -133,7 +137,13 @@ export default function Home() {
   const maxSignal = Math.max(...data.signals.map((item) => item.count), 1);
   const latest = data.latest_evidence.slice(0, 9);
   const documents = data.documents.slice(0, 10);
-  const timeline = [...data.timeline].sort((a, b) => a.date.localeCompare(b.date)).slice(0, 16);
+  const timeline = data.latest_evidence.slice(0, 16).map((item) => ({
+    date: item.published || item.collected_at,
+    evidence_id: item.id,
+    title: item.title,
+    url: item.url,
+    excerpt: item.summary
+  }));
   const leadImage = data.visual_evidence[0];
 
   return (
@@ -151,7 +161,7 @@ export default function Home() {
       <section className="executive-hero">
         <div className="hero-copy">
           <span className="eyebrow">Global Geopolitics Monitor</span>
-          <h1>Evidence first. Briefed for humans.</h1>
+          <h1>Project India Geopolitics Desk</h1>
           <p>{data.briefing.headline || "A grounded monitoring desk built from collected geopolitical evidence."}</p>
           <div className="hero-actions">
             <a href="#briefing">Read briefing</a>
@@ -173,7 +183,12 @@ export default function Home() {
             <h2>Briefing</h2>
           </div>
           <div className="brief-copy">
-            {data.briefing.executive_summary.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
+            {data.briefing.executive_summary.map((paragraph, index) => (
+              <p key={index}>
+                <strong>{String(index + 1).padStart(2, "0")}</strong>
+                {cleanBriefLine(paragraph)}
+              </p>
+            ))}
           </div>
         </div>
         <aside className="method-card">
@@ -304,6 +319,14 @@ export default function Home() {
               {data.keyword_counts.slice(0, 28).map((keyword) => <span key={keyword.name}>{keyword.name}</span>)}
             </div>
           </div>
+          <div className="brief-card">
+            <h2>Coverage</h2>
+            <div className="region-read">
+              <div><strong>{longNumber(data.summary.raw_documents)}</strong><p>Evidence records in the current local bundle.</p></div>
+              <div><strong>{compactNumber(data.summary.total_text_chars)}</strong><p>Extracted characters available for summaries and source pages.</p></div>
+              <div><strong>{longNumber(data.summary.sources)}</strong><p>Distinct hosts represented in the collection.</p></div>
+            </div>
+          </div>
         </aside>
       </section>
 
@@ -342,13 +365,13 @@ export default function Home() {
 
       <section className="timeline-section" id="timeline">
         <div className="section-heading">
-          <span>Dates Found in Gathered Text</span>
-          <h2>Chronology</h2>
+          <span>Newest Published or Collected Items</span>
+          <h2>Collection Timeline</h2>
         </div>
         <div className="timeline-list">
           {timeline.map((event, index) => (
             <article key={`${event.evidence_id}-${event.date}-${index}`}>
-              <span>{event.date}</span>
+              <span>{shortDate(event.date)}</span>
               <p>{event.excerpt}</p>
               <Link href={`/evidence/${event.evidence_id}`}>{event.title}</Link>
             </article>
