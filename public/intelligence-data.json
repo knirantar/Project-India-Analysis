@@ -1,90 +1,100 @@
 {
-  "generated_at": "2026-05-27T02:34:53.829312+00:00",
+  "generated_at": "2026-05-27T06:59:02.883106+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating Conflicts and Humanitarian Crises Shape Global Geopolitical Landscape.",
+    "headline": "Escalating tensions in the Middle East and Europe signal a complex geopolitical landscape.",
     "executive_summary": [
-      "The ongoing conflicts in various regions, particularly in the Middle East and Africa, have led to significant humanitarian crises, with millions facing acute food insecurity and displacement. The situation in Sudan, for instance, has deteriorated sharply, with an estimated 19.5 million people experiencing severe hunger, exacerbated by ongoing violence and restricted humanitarian access (evidence id: 17).",
-      "In the Middle East, the conflict between Hezbollah and Israel has intensified, with a fragile ceasefire in place that has been repeatedly violated. Since March 2026, over 3,070 people have reportedly been killed, and the humanitarian impact has been catastrophic, particularly in southern Lebanon (evidence id: 23). This escalation is compounded by U.S. military actions in the region, which have drawn sharp responses from Iran, further destabilizing the situation (evidence id: 24).",
-      "The geopolitical landscape is also marked by increasing tensions between Russia and Western nations, particularly in the context of the ongoing war in Ukraine. Recent Russian bombardments of Kyiv have prompted strong rebukes from the EU and UN, highlighting the urgent need for diplomatic negotiations to address the escalating violence (evidence id: 14).",
-      "As global institutions grapple with these crises, the need for effective humanitarian responses and diplomatic efforts is more critical than ever. The UN has emphasized the importance of maintaining international peace and security, urging member states to invest in conflict prevention and resolution strategies (evidence id: 10)."
+      "Recent military actions in the Middle East, particularly involving the U.S. and Iran, have raised concerns about the stability of ceasefires and the potential for further conflict. The U.S. military's strikes in Iran have been described as a violation of a ceasefire, prompting threats of retaliation from Tehran, which underscores the fragility of the current diplomatic efforts in the region. (15, 27)",
+      "In Lebanon, the ongoing conflict between Hezbollah and Israel has seen a significant escalation, with a ceasefire that has been repeatedly violated since its inception. The humanitarian impact has been severe, with thousands of casualties reported and widespread destruction in southern Lebanon, complicating any potential for peace negotiations. (26, 12)",
+      "The situation in Sudan remains dire, with the conflict between the Sudanese Armed Forces and the Rapid Support Forces leading to one of the world's largest humanitarian crises. Reports indicate that millions are facing acute food insecurity, and the ongoing violence continues to hinder humanitarian access and response efforts. (20, 19)",
+      "In Europe, the geopolitical landscape is increasingly strained as Russia's actions are perceived as a deliberate strategy to destabilize democratic societies. The EU's response has included summoning Russian diplomats and reaffirming support for member states facing threats, indicating a unified stance against aggression. (24, 17)"
     ],
     "key_judgments": [
       {
-        "title": "Humanitarian Crisis in Sudan",
-        "finding": "Sudan is experiencing one of the world's largest humanitarian crises, with 19.5 million people facing acute food insecurity due to ongoing conflict and restricted access to aid.",
+        "title": "U.S.-Iran Relations",
+        "finding": "The U.S. military's recent strikes in Iran have escalated tensions and jeopardized ongoing diplomatic negotiations.",
         "citations": [
+          "15",
+          "27"
+        ]
+      },
+      {
+        "title": "Lebanon-Israel Conflict",
+        "finding": "The conflict between Hezbollah and Israel has intensified, with significant civilian casualties and destruction, undermining ceasefire efforts.",
+        "citations": [
+          "26",
+          "12"
+        ]
+      },
+      {
+        "title": "Sudan Humanitarian Crisis",
+        "finding": "Sudan is experiencing a severe humanitarian crisis, with millions facing food insecurity and ongoing violence complicating aid efforts.",
+        "citations": [
+          "20",
+          "19"
+        ]
+      },
+      {
+        "title": "European Security Dynamics",
+        "finding": "Russia's actions are viewed as a strategy to destabilize Europe, prompting a unified response from the EU and member states.",
+        "citations": [
+          "24",
           "17"
-        ]
-      },
-      {
-        "title": "Escalation of Israel-Hezbollah Conflict",
-        "finding": "The conflict between Hezbollah and Israel has escalated significantly, resulting in over 3,070 deaths and widespread destruction in southern Lebanon since March 2026.",
-        "citations": [
-          "23"
-        ]
-      },
-      {
-        "title": "Increased Tensions in Ukraine",
-        "finding": "Russia's recent bombardments of Kyiv have intensified the conflict, prompting strong international condemnation and highlighting the urgent need for diplomatic negotiations.",
-        "citations": [
-          "14"
-        ]
-      },
-      {
-        "title": "Need for Global Diplomatic Efforts",
-        "finding": "The UN has called for increased investment in conflict prevention and resolution, emphasizing the importance of maintaining international peace and security amid rising global tensions.",
-        "citations": [
-          "10"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The Middle East remains a focal point of conflict, with ongoing violence in Lebanon and escalating tensions involving Iran and the U.S. The humanitarian situation is dire, with millions affected by conflict and displacement.",
+        "assessment": "The Middle East is witnessing heightened military activity and humanitarian crises, particularly in Iran, Lebanon, and Sudan, complicating peace efforts.",
         "citations": [
-          "23",
-          "24"
+          "15",
+          "26",
+          "20"
         ]
       },
       {
-        "region": "Africa",
-        "assessment": "Sudan's humanitarian crisis is critical, with millions facing food insecurity and displacement due to ongoing conflict. The situation requires urgent international attention and aid.",
+        "region": "Europe",
+        "assessment": "Europe faces increasing security threats from Russia, leading to a coordinated response among EU member states to bolster defenses and diplomatic efforts.",
         "citations": [
+          "24",
           "17"
-        ]
-      },
-      {
-        "region": "Europe and Russia",
-        "assessment": "The conflict in Ukraine continues to escalate, with significant military actions from Russia leading to widespread condemnation and calls for renewed diplomatic efforts.",
-        "citations": [
-          "14"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "Sudan Humanitarian Crisis",
-        "why_it_matters": "The ongoing conflict and humanitarian crisis in Sudan pose a significant threat to regional stability and require immediate international intervention.",
+        "label": "Iran-U.S. Relations",
+        "why_it_matters": "The potential for renewed conflict between the U.S. and Iran could destabilize the entire region and impact global energy supplies.",
         "citations": [
+          "15",
+          "27"
+        ]
+      },
+      {
+        "label": "Lebanon's Humanitarian Situation",
+        "why_it_matters": "The ongoing conflict in Lebanon poses significant risks to civilian populations and could lead to broader regional instability.",
+        "citations": [
+          "26",
+          "12"
+        ]
+      },
+      {
+        "label": "Sudan's Food Insecurity",
+        "why_it_matters": "The humanitarian crisis in Sudan could lead to mass displacement and regional instability if not addressed promptly.",
+        "citations": [
+          "20",
+          "19"
+        ]
+      },
+      {
+        "label": "European Security",
+        "why_it_matters": "Russia's aggressive posture towards Europe necessitates a strong and unified response from EU member states to maintain stability.",
+        "citations": [
+          "24",
           "17"
-        ]
-      },
-      {
-        "label": "Israel-Hezbollah Conflict",
-        "why_it_matters": "The escalating conflict between Israel and Hezbollah could lead to a broader regional war, impacting global security and humanitarian conditions.",
-        "citations": [
-          "23"
-        ]
-      },
-      {
-        "label": "Ukraine Conflict",
-        "why_it_matters": "The situation in Ukraine remains volatile, with potential implications for European security and international relations, necessitating ongoing monitoring and diplomatic efforts.",
-        "citations": [
-          "14"
         ]
       }
     ],
@@ -93,8 +103,8 @@
     ]
   },
   "summary": {
-    "raw_documents": 369,
-    "total_text_chars": 41932877,
+    "raw_documents": 372,
+    "total_text_chars": 41953810,
     "sources": 32,
     "signals": 8,
     "regions": 6,
@@ -105,7 +115,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 273
+      "value": 276
     },
     {
       "name": "Image",
@@ -139,7 +149,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 262
+      "value": 264
     },
     {
       "name": "images",
@@ -163,7 +173,7 @@
     },
     {
       "name": "diplomatic_statements",
-      "value": 3
+      "value": 4
     },
     {
       "name": "legal_judicial_records",
@@ -189,7 +199,7 @@
   "source_counts": [
     {
       "name": "theguardian.com",
-      "value": 55
+      "value": 57
     },
     {
       "name": "warontherocks.com",
@@ -233,7 +243,7 @@
     },
     {
       "name": "france24.com",
-      "value": 9
+      "value": 10
     },
     {
       "name": "euronews.com",
@@ -307,11 +317,11 @@
     },
     {
       "name": "lebanon",
-      "value": 1175
+      "value": 1188
     },
     {
       "name": "iran",
-      "value": 1162
+      "value": 1173
     },
     {
       "name": "gaza",
@@ -319,7 +329,7 @@
     },
     {
       "name": "israel",
-      "value": 1037
+      "value": 1046
     },
     {
       "name": "united",
@@ -343,7 +353,7 @@
     },
     {
       "name": "israeli",
-      "value": 655
+      "value": 665
     },
     {
       "name": "power",
@@ -375,7 +385,7 @@
     },
     {
       "name": "military",
-      "value": 440
+      "value": 446
     },
     {
       "name": "palestinian",
@@ -485,11 +495,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 239,
+      "count": 241,
       "formats": [
         {
           "name": "Article",
-          "value": 203
+          "value": 205
         },
         {
           "name": "PDF",
@@ -509,6 +519,8 @@
         }
       ],
       "evidence_ids": [
+        "09ebfc9207455026f24575ddbb84d4cf23c36901ebba2aa01b46a42a26c5a2d8",
+        "a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551",
         "6718a4d89e3a246166e3834f54267d116a1a8536a74926c1b53c2636655f4390",
         "bdac141192718f9d0111fecb50e80181d8e1397f4dad4092564f887e7b913ebd",
         "695683051f71f788e9d0fec6baa2f771cbc87f63234874900d7a0fed9668f4fe",
@@ -516,12 +528,30 @@
         "5092364191439f31d79b72f589b38de8525be760f6d1f678e74d0eaa369bb7ac",
         "16b7c91b033ff0a51ca72b0f6d0ec1c7da6111bbdd9bb0de88e3eb4a86992ecd",
         "52e7c33145ffd23c2d9a1279f0d9ca1f1f4544e9da82566d38d9e733d586a782",
-        "e460939d0a901010c50f049b7e92121b748d2214125e1edb12f056c6015d8cae",
-        "a3bfe7db999ca4761adf99285649e0fcc0c6b36b2cb5771fb4d6ac6f423d0578",
-        "25df52a3e484571f1aa829b5ced714848b8cca8a21c4af96f4a41a94095a10d0"
+        "e460939d0a901010c50f049b7e92121b748d2214125e1edb12f056c6015d8cae"
       ],
-      "summary": "“What comes with Security Council membership is not privileges but responsibilities,” he said, adding that unilateral military actions that circumvent the Council are unacceptable. His country is working to defend freedom of navigation in the Strait of Hormuz and resolve crises in Gaza, Haiti, Sudan and elsewhere. In a world exhausted by conflict and crisis, the UN, despite its imperfections, remains a beacon of hope, foreign ministers from around the world reaffirmed today in the Security Council. strikes against Iran, a high-level Quadrilateral Security Dialogue conference, and Russia ’s impending assault on Kyiv. Central Command “continues to defend our forces while using restraint during the ongoing cease-fire,” he said, noting that the operation targeted missile launch sites and Iranian boats that were attempting to set mines. ‘Grave Violation’ Mixed messaging appears to be the theme of ongoing talks to end the Iran war. 7, 2023, attack and the election of Israeli Prime Minister Benjamin Netanyahu’s annexationist government. Clearly, Democrats in the Senate have grown increasingly uncomfortable with Israel’s conduct of the war in Gaza and its creeping annexation of the West Bank. During the United States’ presidential election cycle in 2020, Sanders proposed conditioning aid to force Netanyahu to negotiate with the Palestinians. Guterres said that violence was expanding \"in scale and complexity, in the Middle East, Sudan, Ukraine and beyond,\" as the world faced the largest number of simultaneous conflicts since the founding of the United Nations. Both times it said it was responding to Ukrainian long-range drone strikes on Russian territory. \" [The EU] summoned the Charge d'Affaires, calling to stop hitting civilians and to engage in genuine peace talks.\" She said the EU delegation would not be vacating its Kyiv offices.",
+      "summary": "Middle East | The continuing US-Israel war on Iran has compounded other global disasters to drive record numbers of people into hunger at a time when funding to combat famine has fallen dramatically, the head of the UN World Food Programme has said. On Tuesday, temperatures surged to 35C, condemning millions of people to another sticky night in homes ill-prepared for such warm conditions. The United States has violated the ceasefire with strikes in Iran 's southern Hormozgan province, Iran's foreign ministry said in a statement Tuesday. 27/05/2026 - 07:16 China allows fresh urea exports amid Iran war-fuelled fertiliser crisis China has ⁠issued export ​quotas for urea fertiliser, sources with ​direct knowledge of the matter said, a move that could help ease soaring global ​prices ‌for one of the world’s ⁠most widely used crop nutrients after supply disruptions ‌linked to the Iran war. “What comes with Security Council membership is not privileges but responsibilities,” he said, adding that unilateral military actions that circumvent the Council are unacceptable. His country is working to defend freedom of navigation in the Strait of Hormuz and resolve crises in Gaza, Haiti, Sudan and elsewhere. In a world exhausted by conflict and crisis, the UN, despite its imperfections, remains a beacon of hope, foreign ministers from around the world reaffirmed today in the Security Council. strikes against Iran, a high-level Quadrilateral Security Dialogue conference, and Russia ’s impending assault on Kyiv. Central Command “continues to defend our forces while using restraint during the ongoing cease-fire,” he said, noting that the operation targeted missile launch sites and Iranian boats that were attempting to set mines. ‘Grave Violation’ Mixed messaging appears to be the theme of ongoing talks to end the Iran war.",
       "latest": [
+        {
+          "id": "09ebfc9207455026f24575ddbb84d4cf23c36901ebba2aa01b46a42a26c5a2d8",
+          "title": "Wednesday briefing: ​Can the UK adapt in time to a new normal of extreme heat?",
+          "url": "https://www.theguardian.com/world/2026/may/27/wednesday-briefing-can-the-uk-adapt-in-time-to-a-new-normal-of-extreme-heat",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-05-27T06:59:25.332612+00:00",
+          "published": "Wed, 27 May 2026 05:46:56 GMT",
+          "summary": "Middle East | The continuing US-Israel war on Iran has compounded other global disasters to drive record numbers of people into hunger at a time when funding to combat famine has fallen dramatically, the head of the UN World Food Programme has said. On Tuesday, temperatures surged to 35C, condemning millions of people to another sticky night in homes ill-prepared for such warm conditions."
+        },
+        {
+          "id": "a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551",
+          "title": "Middle East war live: New strikes threaten ceasefires in Iran, Lebanon",
+          "url": "https://www.france24.com/en/middle-east/20260527-middle-east-live-new-strikes-threaten-ceasefires-in-iran-lebanon",
+          "host": "france24.com",
+          "format": "Article",
+          "collected_at": "2026-05-27T06:59:11.918737+00:00",
+          "published": "Wed, 27 May 2026 01:48:09 GMT",
+          "summary": "The United States has violated the ceasefire with strikes in Iran 's southern Hormozgan province, Iran's foreign ministry said in a statement Tuesday. 27/05/2026 - 07:16 China allows fresh urea exports amid Iran war-fuelled fertiliser crisis China has ⁠issued export ​quotas for urea fertiliser, sources with ​direct knowledge of the matter said, a move that could help ease soaring global ​prices ‌for one of the world’s ⁠most widely used crop nutrients after supply disruptions ‌linked to the Iran war."
+        },
         {
           "id": "6718a4d89e3a246166e3834f54267d116a1a8536a74926c1b53c2636655f4390",
           "title": "Amid Relentless Conflict, Crisis, UN Remains Beacon of Hope, Its Charter a Survival Guide for Humanity, Leaders Stress at Ministerial-Level Security Council Debate",
@@ -551,36 +581,16 @@
           "collected_at": "2026-05-26T20:00:48.622514+00:00",
           "published": "Tue, 26 May 2026 17:54:50 +0000",
           "summary": "7, 2023, attack and the election of Israeli Prime Minister Benjamin Netanyahu’s annexationist government. Clearly, Democrats in the Senate have grown increasingly uncomfortable with Israel’s conduct of the war in Gaza and its creeping annexation of the West Bank. During the United States’ presidential election cycle in 2020, Sanders proposed conditioning aid to force Netanyahu to negotiate with the Palestinians."
-        },
-        {
-          "id": "2a90b0dae86b3fd5c376f5246fa427343cf7f0306f8dc21eb5f3b4f622bff6ff",
-          "title": "Ukraine: EU, Germany summon Russian envoys after Moscow tells diplomats to leave Kyiv",
-          "url": "https://www.dw.com/en/ukraine-eu-germany-summon-russian-envoys-after-moscow-tells-diplomats-to-leave-kyiv/a-77300543?maca=en-rss-en-world-4025-rdf",
-          "host": "dw.com",
-          "format": "Article",
-          "collected_at": "2026-05-26T17:24:23.918766+00:00",
-          "published": "2026-05-26T16:07:00Z",
-          "summary": "Guterres said that violence was expanding \"in scale and complexity, in the Middle East, Sudan, Ukraine and beyond,\" as the world faced the largest number of simultaneous conflicts since the founding of the United Nations. Both times it said it was responding to Ukrainian long-range drone strikes on Russian territory. \" [The EU] summoned the Charge d'Affaires, calling to stop hitting civilians and to engage in genuine peace talks.\" She said the EU delegation would not be vacating its Kyiv offices."
-        },
-        {
-          "id": "5092364191439f31d79b72f589b38de8525be760f6d1f678e74d0eaa369bb7ac",
-          "title": "Report: US to cut strategic bombers and warships available to NATO in a crisis",
-          "url": "https://www.defensenews.com/global/europe/2026/05/26/report-us-to-cut-strategic-bombers-and-warships-available-to-nato-in-a-crisis/",
-          "host": "defensenews.com",
-          "format": "Article",
-          "collected_at": "2026-05-26T17:24:19.524082+00:00",
-          "published": "Tue, 26 May 2026 14:32:12 +0000",
-          "summary": "Trump also fiercely criticized European allies for a lack of support in reopening the Strait of Hormuz for shipping amid the war on Iran, saying he was considering withdrawing from the NATO alliance and questioning whether Washington was bound to honor its mutual defense pact. in NATO force planning and that, with Europe and Canada investing more in defense, military responsibilities within the alliance could be reorganized."
         }
       ]
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 199,
+      "count": 201,
       "formats": [
         {
           "name": "Article",
-          "value": 172
+          "value": 174
         },
         {
           "name": "PDF",
@@ -600,6 +610,8 @@
         }
       ],
       "evidence_ids": [
+        "09ebfc9207455026f24575ddbb84d4cf23c36901ebba2aa01b46a42a26c5a2d8",
+        "a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551",
         "6718a4d89e3a246166e3834f54267d116a1a8536a74926c1b53c2636655f4390",
         "bdac141192718f9d0111fecb50e80181d8e1397f4dad4092564f887e7b913ebd",
         "695683051f71f788e9d0fec6baa2f771cbc87f63234874900d7a0fed9668f4fe",
@@ -607,12 +619,30 @@
         "16b7c91b033ff0a51ca72b0f6d0ec1c7da6111bbdd9bb0de88e3eb4a86992ecd",
         "e460939d0a901010c50f049b7e92121b748d2214125e1edb12f056c6015d8cae",
         "a3bfe7db999ca4761adf99285649e0fcc0c6b36b2cb5771fb4d6ac6f423d0578",
-        "25df52a3e484571f1aa829b5ced714848b8cca8a21c4af96f4a41a94095a10d0",
-        "7557d78f8b38cbd49292a0ee669fffd46e40c28b496df1edd718163ef3138f4d",
-        "66b8f9e3ae44cd372af5ceb198b74d2379c1556b68602fb9d1c6aea0da571f3d"
+        "25df52a3e484571f1aa829b5ced714848b8cca8a21c4af96f4a41a94095a10d0"
       ],
-      "summary": "“What comes with Security Council membership is not privileges but responsibilities,” he said, adding that unilateral military actions that circumvent the Council are unacceptable. His country is working to defend freedom of navigation in the Strait of Hormuz and resolve crises in Gaza, Haiti, Sudan and elsewhere. In a world exhausted by conflict and crisis, the UN, despite its imperfections, remains a beacon of hope, foreign ministers from around the world reaffirmed today in the Security Council. strikes against Iran, a high-level Quadrilateral Security Dialogue conference, and Russia ’s impending assault on Kyiv. Central Command “continues to defend our forces while using restraint during the ongoing cease-fire,” he said, noting that the operation targeted missile launch sites and Iranian boats that were attempting to set mines. ‘Grave Violation’ Mixed messaging appears to be the theme of ongoing talks to end the Iran war. 7, 2023, attack and the election of Israeli Prime Minister Benjamin Netanyahu’s annexationist government. Clearly, Democrats in the Senate have grown increasingly uncomfortable with Israel’s conduct of the war in Gaza and its creeping annexation of the West Bank. During the United States’ presidential election cycle in 2020, Sanders proposed conditioning aid to force Netanyahu to negotiate with the Palestinians. Guterres said that violence was expanding \"in scale and complexity, in the Middle East, Sudan, Ukraine and beyond,\" as the world faced the largest number of simultaneous conflicts since the founding of the United Nations. Both times it said it was responding to Ukrainian long-range drone strikes on Russian territory. \" [The EU] summoned the Charge d'Affaires, calling to stop hitting civilians and to engage in genuine peace talks.\" She said the EU delegation would not be vacating its Kyiv offices.",
+      "summary": "Middle East | The continuing US-Israel war on Iran has compounded other global disasters to drive record numbers of people into hunger at a time when funding to combat famine has fallen dramatically, the head of the UN World Food Programme has said. On Tuesday, temperatures surged to 35C, condemning millions of people to another sticky night in homes ill-prepared for such warm conditions. The United States has violated the ceasefire with strikes in Iran 's southern Hormozgan province, Iran's foreign ministry said in a statement Tuesday. 27/05/2026 - 07:16 China allows fresh urea exports amid Iran war-fuelled fertiliser crisis China has ⁠issued export ​quotas for urea fertiliser, sources with ​direct knowledge of the matter said, a move that could help ease soaring global ​prices ‌for one of the world’s ⁠most widely used crop nutrients after supply disruptions ‌linked to the Iran war. “What comes with Security Council membership is not privileges but responsibilities,” he said, adding that unilateral military actions that circumvent the Council are unacceptable. His country is working to defend freedom of navigation in the Strait of Hormuz and resolve crises in Gaza, Haiti, Sudan and elsewhere. In a world exhausted by conflict and crisis, the UN, despite its imperfections, remains a beacon of hope, foreign ministers from around the world reaffirmed today in the Security Council. strikes against Iran, a high-level Quadrilateral Security Dialogue conference, and Russia ’s impending assault on Kyiv. Central Command “continues to defend our forces while using restraint during the ongoing cease-fire,” he said, noting that the operation targeted missile launch sites and Iranian boats that were attempting to set mines. ‘Grave Violation’ Mixed messaging appears to be the theme of ongoing talks to end the Iran war.",
       "latest": [
+        {
+          "id": "09ebfc9207455026f24575ddbb84d4cf23c36901ebba2aa01b46a42a26c5a2d8",
+          "title": "Wednesday briefing: ​Can the UK adapt in time to a new normal of extreme heat?",
+          "url": "https://www.theguardian.com/world/2026/may/27/wednesday-briefing-can-the-uk-adapt-in-time-to-a-new-normal-of-extreme-heat",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-05-27T06:59:25.332612+00:00",
+          "published": "Wed, 27 May 2026 05:46:56 GMT",
+          "summary": "Middle East | The continuing US-Israel war on Iran has compounded other global disasters to drive record numbers of people into hunger at a time when funding to combat famine has fallen dramatically, the head of the UN World Food Programme has said. On Tuesday, temperatures surged to 35C, condemning millions of people to another sticky night in homes ill-prepared for such warm conditions."
+        },
+        {
+          "id": "a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551",
+          "title": "Middle East war live: New strikes threaten ceasefires in Iran, Lebanon",
+          "url": "https://www.france24.com/en/middle-east/20260527-middle-east-live-new-strikes-threaten-ceasefires-in-iran-lebanon",
+          "host": "france24.com",
+          "format": "Article",
+          "collected_at": "2026-05-27T06:59:11.918737+00:00",
+          "published": "Wed, 27 May 2026 01:48:09 GMT",
+          "summary": "The United States has violated the ceasefire with strikes in Iran 's southern Hormozgan province, Iran's foreign ministry said in a statement Tuesday. 27/05/2026 - 07:16 China allows fresh urea exports amid Iran war-fuelled fertiliser crisis China has ⁠issued export ​quotas for urea fertiliser, sources with ​direct knowledge of the matter said, a move that could help ease soaring global ​prices ‌for one of the world’s ⁠most widely used crop nutrients after supply disruptions ‌linked to the Iran war."
+        },
         {
           "id": "6718a4d89e3a246166e3834f54267d116a1a8536a74926c1b53c2636655f4390",
           "title": "Amid Relentless Conflict, Crisis, UN Remains Beacon of Hope, Its Charter a Survival Guide for Humanity, Leaders Stress at Ministerial-Level Security Council Debate",
@@ -642,26 +672,97 @@
           "collected_at": "2026-05-26T20:00:48.622514+00:00",
           "published": "Tue, 26 May 2026 17:54:50 +0000",
           "summary": "7, 2023, attack and the election of Israeli Prime Minister Benjamin Netanyahu’s annexationist government. Clearly, Democrats in the Senate have grown increasingly uncomfortable with Israel’s conduct of the war in Gaza and its creeping annexation of the West Bank. During the United States’ presidential election cycle in 2020, Sanders proposed conditioning aid to force Netanyahu to negotiate with the Palestinians."
+        }
+      ]
+    },
+    {
+      "name": "Territory and Chokepoints",
+      "count": 130,
+      "formats": [
+        {
+          "name": "Article",
+          "value": 112
         },
         {
-          "id": "2a90b0dae86b3fd5c376f5246fa427343cf7f0306f8dc21eb5f3b4f622bff6ff",
-          "title": "Ukraine: EU, Germany summon Russian envoys after Moscow tells diplomats to leave Kyiv",
-          "url": "https://www.dw.com/en/ukraine-eu-germany-summon-russian-envoys-after-moscow-tells-diplomats-to-leave-kyiv/a-77300543?maca=en-rss-en-world-4025-rdf",
-          "host": "dw.com",
+          "name": "PDF",
+          "value": 11
+        },
+        {
+          "name": "Sanctions",
+          "value": 4
+        },
+        {
+          "name": "Dataset",
+          "value": 1
+        },
+        {
+          "name": "Image",
+          "value": 1
+        }
+      ],
+      "evidence_ids": [
+        "f96ee499b993d662eb014da7eee61f356031647f24ecc98cf45061c95f2993a2",
+        "09ebfc9207455026f24575ddbb84d4cf23c36901ebba2aa01b46a42a26c5a2d8",
+        "a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551",
+        "6718a4d89e3a246166e3834f54267d116a1a8536a74926c1b53c2636655f4390",
+        "695683051f71f788e9d0fec6baa2f771cbc87f63234874900d7a0fed9668f4fe",
+        "5092364191439f31d79b72f589b38de8525be760f6d1f678e74d0eaa369bb7ac",
+        "4fe31361105d10b375cc5619bdfc240177b6a6b64cf9a557b5e7925b879041a7",
+        "8dd3bfeea3c58eeb5fd761db4643845f2748ac335841cd311cee69744c5556c4",
+        "a3bfe7db999ca4761adf99285649e0fcc0c6b36b2cb5771fb4d6ac6f423d0578",
+        "25df52a3e484571f1aa829b5ced714848b8cca8a21c4af96f4a41a94095a10d0"
+      ],
+      "summary": "Jarvis said the next quarterly change to the cap, due in October, would depend to a large extent on what happens in the Middle East, progress towards a peace deal, the speed with which the strait of Hormuz reopens and how quickly the market recovers. Under the cap the average gas and electricity bill will increase to the equivalent of £1,862 a year from July until the end of September to take account of the rise in global energy market prices caused by the war on Iran. Middle East | The continuing US-Israel war on Iran has compounded other global disasters to drive record numbers of people into hunger at a time when funding to combat famine has fallen dramatically, the head of the UN World Food Programme has said. On Tuesday, temperatures surged to 35C, condemning millions of people to another sticky night in homes ill-prepared for such warm conditions. The United States has violated the ceasefire with strikes in Iran 's southern Hormozgan province, Iran's foreign ministry said in a statement Tuesday. 27/05/2026 - 07:16 China allows fresh urea exports amid Iran war-fuelled fertiliser crisis China has ⁠issued export ​quotas for urea fertiliser, sources with ​direct knowledge of the matter said, a move that could help ease soaring global ​prices ‌for one of the world’s ⁠most widely used crop nutrients after supply disruptions ‌linked to the Iran war. “What comes with Security Council membership is not privileges but responsibilities,” he said, adding that unilateral military actions that circumvent the Council are unacceptable. His country is working to defend freedom of navigation in the Strait of Hormuz and resolve crises in Gaza, Haiti, Sudan and elsewhere. In a world exhausted by conflict and crisis, the UN, despite its imperfections, remains a beacon of hope, foreign ministers from around the world reaffirmed today in the Security Council.",
+      "latest": [
+        {
+          "id": "f96ee499b993d662eb014da7eee61f356031647f24ecc98cf45061c95f2993a2",
+          "title": "Energy price cap in Great Britain to rise by 13% from July",
+          "url": "https://www.theguardian.com/money/2026/may/27/energy-price-cap-great-britain-rise-july-gas-electricity-iran-war",
+          "host": "theguardian.com",
           "format": "Article",
-          "collected_at": "2026-05-26T17:24:23.918766+00:00",
-          "published": "2026-05-26T16:07:00Z",
-          "summary": "Guterres said that violence was expanding \"in scale and complexity, in the Middle East, Sudan, Ukraine and beyond,\" as the world faced the largest number of simultaneous conflicts since the founding of the United Nations. Both times it said it was responding to Ukrainian long-range drone strikes on Russian territory. \" [The EU] summoned the Charge d'Affaires, calling to stop hitting civilians and to engage in genuine peace talks.\" She said the EU delegation would not be vacating its Kyiv offices."
+          "collected_at": "2026-05-27T06:59:36.567260+00:00",
+          "published": "Wed, 27 May 2026 06:02:34 GMT",
+          "summary": "Jarvis said the next quarterly change to the cap, due in October, would depend to a large extent on what happens in the Middle East, progress towards a peace deal, the speed with which the strait of Hormuz reopens and how quickly the market recovers. Under the cap the average gas and electricity bill will increase to the equivalent of £1,862 a year from July until the end of September to take account of the rise in global energy market prices caused by the war on Iran."
         },
         {
-          "id": "16b7c91b033ff0a51ca72b0f6d0ec1c7da6111bbdd9bb0de88e3eb4a86992ecd",
-          "title": "Sudan Crisis Situation Analysis (Period: 11/05/26 - 17/05/26) (pdf)",
-          "url": "https://reliefweb.int/attachments/cbba520b-f513-47d3-a150-4f0ba9310aa5/Sudan_Crisis__Period__11_05_26_-_17_05_26.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-05-26T20:00:23.385092+00:00",
-          "published": "Tue, 26 May 2026 13:42:00 +0000",
-          "summary": "Sectoral Analysis 57 Introduction Purpose This report provides a comprehensive overview of the current humanitarian situation, focusing on both operational environment factors and sectoral analysis. Situation Analysis SUDAN CRISIS Period: 11/05/26 - 17/05/26 Generated: 2026-05-25T10:57:12.817Z Table of Contents 1. It provides tools such as the GANNET Virtual Assistant and GANNET SituationHub to help humanitarian actors access, analyze, and utilize critical information for their operations."
+          "id": "09ebfc9207455026f24575ddbb84d4cf23c36901ebba2aa01b46a42a26c5a2d8",
+          "title": "Wednesday briefing: ​Can the UK adapt in time to a new normal of extreme heat?",
+          "url": "https://www.theguardian.com/world/2026/may/27/wednesday-briefing-can-the-uk-adapt-in-time-to-a-new-normal-of-extreme-heat",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-05-27T06:59:25.332612+00:00",
+          "published": "Wed, 27 May 2026 05:46:56 GMT",
+          "summary": "Middle East | The continuing US-Israel war on Iran has compounded other global disasters to drive record numbers of people into hunger at a time when funding to combat famine has fallen dramatically, the head of the UN World Food Programme has said. On Tuesday, temperatures surged to 35C, condemning millions of people to another sticky night in homes ill-prepared for such warm conditions."
+        },
+        {
+          "id": "a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551",
+          "title": "Middle East war live: New strikes threaten ceasefires in Iran, Lebanon",
+          "url": "https://www.france24.com/en/middle-east/20260527-middle-east-live-new-strikes-threaten-ceasefires-in-iran-lebanon",
+          "host": "france24.com",
+          "format": "Article",
+          "collected_at": "2026-05-27T06:59:11.918737+00:00",
+          "published": "Wed, 27 May 2026 01:48:09 GMT",
+          "summary": "The United States has violated the ceasefire with strikes in Iran 's southern Hormozgan province, Iran's foreign ministry said in a statement Tuesday. 27/05/2026 - 07:16 China allows fresh urea exports amid Iran war-fuelled fertiliser crisis China has ⁠issued export ​quotas for urea fertiliser, sources with ​direct knowledge of the matter said, a move that could help ease soaring global ​prices ‌for one of the world’s ⁠most widely used crop nutrients after supply disruptions ‌linked to the Iran war."
+        },
+        {
+          "id": "6718a4d89e3a246166e3834f54267d116a1a8536a74926c1b53c2636655f4390",
+          "title": "Amid Relentless Conflict, Crisis, UN Remains Beacon of Hope, Its Charter a Survival Guide for Humanity, Leaders Stress at Ministerial-Level Security Council Debate",
+          "url": "https://press.un.org/en/2026/sc16369.doc.htm",
+          "host": "press.un.org",
+          "format": "Article",
+          "collected_at": "2026-05-27T02:34:56.337183+00:00",
+          "published": "Tue, 26 May 2026 18:16:33 -0400",
+          "summary": "“What comes with Security Council membership is not privileges but responsibilities,” he said, adding that unilateral military actions that circumvent the Council are unacceptable. His country is working to defend freedom of navigation in the Strait of Hormuz and resolve crises in Gaza, Haiti, Sudan and elsewhere. In a world exhausted by conflict and crisis, the UN, despite its imperfections, remains a beacon of hope, foreign ministers from around the world reaffirmed today in the Security Council."
+        },
+        {
+          "id": "695683051f71f788e9d0fec6baa2f771cbc87f63234874900d7a0fed9668f4fe",
+          "title": "Why the U.S. Should Wind Down Military Aid to Israel",
+          "url": "https://foreignpolicy.com/2026/05/26/israel-united-states-military-aid-gaza-trump-netanyahu/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-05-26T20:00:48.622514+00:00",
+          "published": "Tue, 26 May 2026 17:54:50 +0000",
+          "summary": "7, 2023, attack and the election of Israeli Prime Minister Benjamin Netanyahu’s annexationist government. Clearly, Democrats in the Senate have grown increasingly uncomfortable with Israel’s conduct of the war in Gaza and its creeping annexation of the West Bank. During the United States’ presidential election cycle in 2020, Sanders proposed conditioning aid to force Netanyahu to negotiate with the Palestinians."
         }
       ]
     },
@@ -757,103 +858,12 @@
       ]
     },
     {
-      "name": "Territory and Chokepoints",
-      "count": 127,
-      "formats": [
-        {
-          "name": "Article",
-          "value": 109
-        },
-        {
-          "name": "PDF",
-          "value": 11
-        },
-        {
-          "name": "Sanctions",
-          "value": 4
-        },
-        {
-          "name": "Dataset",
-          "value": 1
-        },
-        {
-          "name": "Image",
-          "value": 1
-        }
-      ],
-      "evidence_ids": [
-        "6718a4d89e3a246166e3834f54267d116a1a8536a74926c1b53c2636655f4390",
-        "695683051f71f788e9d0fec6baa2f771cbc87f63234874900d7a0fed9668f4fe",
-        "5092364191439f31d79b72f589b38de8525be760f6d1f678e74d0eaa369bb7ac",
-        "4fe31361105d10b375cc5619bdfc240177b6a6b64cf9a557b5e7925b879041a7",
-        "8dd3bfeea3c58eeb5fd761db4643845f2748ac335841cd311cee69744c5556c4",
-        "a3bfe7db999ca4761adf99285649e0fcc0c6b36b2cb5771fb4d6ac6f423d0578",
-        "25df52a3e484571f1aa829b5ced714848b8cca8a21c4af96f4a41a94095a10d0",
-        "66b8f9e3ae44cd372af5ceb198b74d2379c1556b68602fb9d1c6aea0da571f3d",
-        "43a6adb499169b3ab8bff946b9c1e4db17e4a5f61c641f6245b070d27a3f412b",
-        "6e46e09ad0447d437ee4704991aced997b0f9ebc7c8e3f974460b3336d3f418b"
-      ],
-      "summary": "“What comes with Security Council membership is not privileges but responsibilities,” he said, adding that unilateral military actions that circumvent the Council are unacceptable. His country is working to defend freedom of navigation in the Strait of Hormuz and resolve crises in Gaza, Haiti, Sudan and elsewhere. In a world exhausted by conflict and crisis, the UN, despite its imperfections, remains a beacon of hope, foreign ministers from around the world reaffirmed today in the Security Council. 7, 2023, attack and the election of Israeli Prime Minister Benjamin Netanyahu’s annexationist government. Clearly, Democrats in the Senate have grown increasingly uncomfortable with Israel’s conduct of the war in Gaza and its creeping annexation of the West Bank. During the United States’ presidential election cycle in 2020, Sanders proposed conditioning aid to force Netanyahu to negotiate with the Palestinians. Trump also fiercely criticized European allies for a lack of support in reopening the Strait of Hormuz for shipping amid the war on Iran, saying he was considering withdrawing from the NATO alliance and questioning whether Washington was bound to honor its mutual defense pact. in NATO force planning and that, with Europe and Canada investing more in defense, military responsibilities within the alliance could be reorganized. Highlights/updates since the last map was sent on PacNet on 19 May 2026: Dengue Cook Islands: Dengue transmission in the Cook Islands has been interrupted, with no new cases reported since 28 April 2026. Since 1st January 2025, a cumulative total of 19,029 clinically diagnosed cases and 5,446 laboratory-confirmed cases have been reported, with nine dengue-related deaths to date, while public health measures continue to focus on community awareness, vector control and early healthcare seeking.",
-      "latest": [
-        {
-          "id": "6718a4d89e3a246166e3834f54267d116a1a8536a74926c1b53c2636655f4390",
-          "title": "Amid Relentless Conflict, Crisis, UN Remains Beacon of Hope, Its Charter a Survival Guide for Humanity, Leaders Stress at Ministerial-Level Security Council Debate",
-          "url": "https://press.un.org/en/2026/sc16369.doc.htm",
-          "host": "press.un.org",
-          "format": "Article",
-          "collected_at": "2026-05-27T02:34:56.337183+00:00",
-          "published": "Tue, 26 May 2026 18:16:33 -0400",
-          "summary": "“What comes with Security Council membership is not privileges but responsibilities,” he said, adding that unilateral military actions that circumvent the Council are unacceptable. His country is working to defend freedom of navigation in the Strait of Hormuz and resolve crises in Gaza, Haiti, Sudan and elsewhere. In a world exhausted by conflict and crisis, the UN, despite its imperfections, remains a beacon of hope, foreign ministers from around the world reaffirmed today in the Security Council."
-        },
-        {
-          "id": "695683051f71f788e9d0fec6baa2f771cbc87f63234874900d7a0fed9668f4fe",
-          "title": "Why the U.S. Should Wind Down Military Aid to Israel",
-          "url": "https://foreignpolicy.com/2026/05/26/israel-united-states-military-aid-gaza-trump-netanyahu/",
-          "host": "foreignpolicy.com",
-          "format": "Article",
-          "collected_at": "2026-05-26T20:00:48.622514+00:00",
-          "published": "Tue, 26 May 2026 17:54:50 +0000",
-          "summary": "7, 2023, attack and the election of Israeli Prime Minister Benjamin Netanyahu’s annexationist government. Clearly, Democrats in the Senate have grown increasingly uncomfortable with Israel’s conduct of the war in Gaza and its creeping annexation of the West Bank. During the United States’ presidential election cycle in 2020, Sanders proposed conditioning aid to force Netanyahu to negotiate with the Palestinians."
-        },
-        {
-          "id": "5092364191439f31d79b72f589b38de8525be760f6d1f678e74d0eaa369bb7ac",
-          "title": "Report: US to cut strategic bombers and warships available to NATO in a crisis",
-          "url": "https://www.defensenews.com/global/europe/2026/05/26/report-us-to-cut-strategic-bombers-and-warships-available-to-nato-in-a-crisis/",
-          "host": "defensenews.com",
-          "format": "Article",
-          "collected_at": "2026-05-26T17:24:19.524082+00:00",
-          "published": "Tue, 26 May 2026 14:32:12 +0000",
-          "summary": "Trump also fiercely criticized European allies for a lack of support in reopening the Strait of Hormuz for shipping amid the war on Iran, saying he was considering withdrawing from the NATO alliance and questioning whether Washington was bound to honor its mutual defense pact. in NATO force planning and that, with Europe and Canada investing more in defense, military responsibilities within the alliance could be reorganized."
-        },
-        {
-          "id": "4fe31361105d10b375cc5619bdfc240177b6a6b64cf9a557b5e7925b879041a7",
-          "title": "World: Epidemic and emerging disease alerts in the Pacific as of 26 May 2026",
-          "url": "https://reliefweb.int/map/world/epidemic-and-emerging-disease-alerts-pacific-26-may-2026",
-          "host": "reliefweb.int",
-          "format": "Article",
-          "collected_at": "2026-05-26T20:00:36.098423+00:00",
-          "published": "Tue, 26 May 2026 13:34:26 +0000",
-          "summary": "Highlights/updates since the last map was sent on PacNet on 19 May 2026: Dengue Cook Islands: Dengue transmission in the Cook Islands has been interrupted, with no new cases reported since 28 April 2026. Since 1st January 2025, a cumulative total of 19,029 clinically diagnosed cases and 5,446 laboratory-confirmed cases have been reported, with nine dengue-related deaths to date, while public health measures continue to focus on community awareness, vector control and early healthcare seeking."
-        },
-        {
-          "id": "8dd3bfeea3c58eeb5fd761db4643845f2748ac335841cd311cee69744c5556c4",
-          "title": "World: Epidemic and emerging disease alerts in the Pacific as of 26 May 2026 (pdf)",
-          "url": "https://reliefweb.int/attachments/deb24c3a-dc6d-466e-be67-ac392c3bbfa3/Epidemic%20and%20emerging%20disease%20alerts%20in%20the%20Pacific%20map%20and%20report%20as%20of%2026%20May%202026.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-05-26T20:00:43.813138+00:00",
-          "published": "Tue, 26 May 2026 13:34:26 +0000",
-          "summary": "Epidemic and emerging disease alerts in the Pacific as of 26 May 2026 Legend Cases reported are increasing or peaking Cases reported are decreasing or circulation is ongoing. Since 1st January 2025, a cumulative total of 19,029 clinically diagnosed cases and 5,446 laboratory-confirmed cases have been reported, with nine dengue-related deaths to date, while public health measures continue to focus on community awareness, vector control and early healthcare seeking."
-        }
-      ]
-    },
-    {
       "name": "Energy and Supply Chains",
-      "count": 106,
+      "count": 109,
       "formats": [
         {
           "name": "Article",
-          "value": 97
+          "value": 100
         },
         {
           "name": "PDF",
@@ -865,19 +875,49 @@
         }
       ],
       "evidence_ids": [
+        "f96ee499b993d662eb014da7eee61f356031647f24ecc98cf45061c95f2993a2",
+        "09ebfc9207455026f24575ddbb84d4cf23c36901ebba2aa01b46a42a26c5a2d8",
+        "a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551",
         "bdac141192718f9d0111fecb50e80181d8e1397f4dad4092564f887e7b913ebd",
         "5092364191439f31d79b72f589b38de8525be760f6d1f678e74d0eaa369bb7ac",
         "16b7c91b033ff0a51ca72b0f6d0ec1c7da6111bbdd9bb0de88e3eb4a86992ecd",
         "52e7c33145ffd23c2d9a1279f0d9ca1f1f4544e9da82566d38d9e733d586a782",
         "e460939d0a901010c50f049b7e92121b748d2214125e1edb12f056c6015d8cae",
         "66b8f9e3ae44cd372af5ceb198b74d2379c1556b68602fb9d1c6aea0da571f3d",
-        "b3cfbc0f773a74fa00669981a9a22a7c069fa3f4232c6b7de9a409057e4cc9a6",
-        "48f63f75758eeb17c8fd7495ecd84cebe68e21874cdfbb355351fd20296b7b86",
-        "6e46e09ad0447d437ee4704991aced997b0f9ebc7c8e3f974460b3336d3f418b",
-        "07d1deb2ae74085c3bbf9735216810e6e21b1d9fc34ded82fee3a131283ef30a"
+        "b3cfbc0f773a74fa00669981a9a22a7c069fa3f4232c6b7de9a409057e4cc9a6"
       ],
-      "summary": "strikes against Iran, a high-level Quadrilateral Security Dialogue conference, and Russia ’s impending assault on Kyiv. Central Command “continues to defend our forces while using restraint during the ongoing cease-fire,” he said, noting that the operation targeted missile launch sites and Iranian boats that were attempting to set mines. ‘Grave Violation’ Mixed messaging appears to be the theme of ongoing talks to end the Iran war. Trump also fiercely criticized European allies for a lack of support in reopening the Strait of Hormuz for shipping amid the war on Iran, saying he was considering withdrawing from the NATO alliance and questioning whether Washington was bound to honor its mutual defense pact. in NATO force planning and that, with Europe and Canada investing more in defense, military responsibilities within the alliance could be reorganized. Sectoral Analysis 57 Introduction Purpose This report provides a comprehensive overview of the current humanitarian situation, focusing on both operational environment factors and sectoral analysis. Situation Analysis SUDAN CRISIS Period: 11/05/26 - 17/05/26 Generated: 2026-05-25T10:57:12.817Z Table of Contents 1. It provides tools such as the GANNET Virtual Assistant and GANNET SituationHub to help humanitarian actors access, analyze, and utilize critical information for their operations. The conflict has also seen a growing use of drones, aerial strikes, and long-range attacks targeting civilian infrastructure, including hospitals, schools, markets, and displacement sites. Sudan is facing one of the world’s largest humanitarian and displacement crises as the conflict between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF), which began in April 2023, enters its fourth year in 2026. An estimated 19.5 million people are currently experiencing acute food insecurity, making Sudan the world’s largest hunger crisis.",
+      "summary": "Jarvis said the next quarterly change to the cap, due in October, would depend to a large extent on what happens in the Middle East, progress towards a peace deal, the speed with which the strait of Hormuz reopens and how quickly the market recovers. Under the cap the average gas and electricity bill will increase to the equivalent of £1,862 a year from July until the end of September to take account of the rise in global energy market prices caused by the war on Iran. Middle East | The continuing US-Israel war on Iran has compounded other global disasters to drive record numbers of people into hunger at a time when funding to combat famine has fallen dramatically, the head of the UN World Food Programme has said. On Tuesday, temperatures surged to 35C, condemning millions of people to another sticky night in homes ill-prepared for such warm conditions. The United States has violated the ceasefire with strikes in Iran 's southern Hormozgan province, Iran's foreign ministry said in a statement Tuesday. 27/05/2026 - 07:16 China allows fresh urea exports amid Iran war-fuelled fertiliser crisis China has ⁠issued export ​quotas for urea fertiliser, sources with ​direct knowledge of the matter said, a move that could help ease soaring global ​prices ‌for one of the world’s ⁠most widely used crop nutrients after supply disruptions ‌linked to the Iran war. strikes against Iran, a high-level Quadrilateral Security Dialogue conference, and Russia ’s impending assault on Kyiv. Central Command “continues to defend our forces while using restraint during the ongoing cease-fire,” he said, noting that the operation targeted missile launch sites and Iranian boats that were attempting to set mines. ‘Grave Violation’ Mixed messaging appears to be the theme of ongoing talks to end the Iran war.",
       "latest": [
+        {
+          "id": "f96ee499b993d662eb014da7eee61f356031647f24ecc98cf45061c95f2993a2",
+          "title": "Energy price cap in Great Britain to rise by 13% from July",
+          "url": "https://www.theguardian.com/money/2026/may/27/energy-price-cap-great-britain-rise-july-gas-electricity-iran-war",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-05-27T06:59:36.567260+00:00",
+          "published": "Wed, 27 May 2026 06:02:34 GMT",
+          "summary": "Jarvis said the next quarterly change to the cap, due in October, would depend to a large extent on what happens in the Middle East, progress towards a peace deal, the speed with which the strait of Hormuz reopens and how quickly the market recovers. Under the cap the average gas and electricity bill will increase to the equivalent of £1,862 a year from July until the end of September to take account of the rise in global energy market prices caused by the war on Iran."
+        },
+        {
+          "id": "09ebfc9207455026f24575ddbb84d4cf23c36901ebba2aa01b46a42a26c5a2d8",
+          "title": "Wednesday briefing: ​Can the UK adapt in time to a new normal of extreme heat?",
+          "url": "https://www.theguardian.com/world/2026/may/27/wednesday-briefing-can-the-uk-adapt-in-time-to-a-new-normal-of-extreme-heat",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-05-27T06:59:25.332612+00:00",
+          "published": "Wed, 27 May 2026 05:46:56 GMT",
+          "summary": "Middle East | The continuing US-Israel war on Iran has compounded other global disasters to drive record numbers of people into hunger at a time when funding to combat famine has fallen dramatically, the head of the UN World Food Programme has said. On Tuesday, temperatures surged to 35C, condemning millions of people to another sticky night in homes ill-prepared for such warm conditions."
+        },
+        {
+          "id": "a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551",
+          "title": "Middle East war live: New strikes threaten ceasefires in Iran, Lebanon",
+          "url": "https://www.france24.com/en/middle-east/20260527-middle-east-live-new-strikes-threaten-ceasefires-in-iran-lebanon",
+          "host": "france24.com",
+          "format": "Article",
+          "collected_at": "2026-05-27T06:59:11.918737+00:00",
+          "published": "Wed, 27 May 2026 01:48:09 GMT",
+          "summary": "The United States has violated the ceasefire with strikes in Iran 's southern Hormozgan province, Iran's foreign ministry said in a statement Tuesday. 27/05/2026 - 07:16 China allows fresh urea exports amid Iran war-fuelled fertiliser crisis China has ⁠issued export ​quotas for urea fertiliser, sources with ​direct knowledge of the matter said, a move that could help ease soaring global ​prices ‌for one of the world’s ⁠most widely used crop nutrients after supply disruptions ‌linked to the Iran war."
+        },
         {
           "id": "bdac141192718f9d0111fecb50e80181d8e1397f4dad4092564f887e7b913ebd",
           "title": "U.S. Launches ‘Self-Defense’ Strikes on Iran",
@@ -897,36 +937,6 @@
           "collected_at": "2026-05-26T17:24:19.524082+00:00",
           "published": "Tue, 26 May 2026 14:32:12 +0000",
           "summary": "Trump also fiercely criticized European allies for a lack of support in reopening the Strait of Hormuz for shipping amid the war on Iran, saying he was considering withdrawing from the NATO alliance and questioning whether Washington was bound to honor its mutual defense pact. in NATO force planning and that, with Europe and Canada investing more in defense, military responsibilities within the alliance could be reorganized."
-        },
-        {
-          "id": "16b7c91b033ff0a51ca72b0f6d0ec1c7da6111bbdd9bb0de88e3eb4a86992ecd",
-          "title": "Sudan Crisis Situation Analysis (Period: 11/05/26 - 17/05/26) (pdf)",
-          "url": "https://reliefweb.int/attachments/cbba520b-f513-47d3-a150-4f0ba9310aa5/Sudan_Crisis__Period__11_05_26_-_17_05_26.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-05-26T20:00:23.385092+00:00",
-          "published": "Tue, 26 May 2026 13:42:00 +0000",
-          "summary": "Sectoral Analysis 57 Introduction Purpose This report provides a comprehensive overview of the current humanitarian situation, focusing on both operational environment factors and sectoral analysis. Situation Analysis SUDAN CRISIS Period: 11/05/26 - 17/05/26 Generated: 2026-05-25T10:57:12.817Z Table of Contents 1. It provides tools such as the GANNET Virtual Assistant and GANNET SituationHub to help humanitarian actors access, analyze, and utilize critical information for their operations."
-        },
-        {
-          "id": "52e7c33145ffd23c2d9a1279f0d9ca1f1f4544e9da82566d38d9e733d586a782",
-          "title": "Sudan Crisis Situation Analysis (Period: 11/05/26 - 17/05/26)",
-          "url": "https://reliefweb.int/report/sudan/sudan-crisis-situation-analysis-period-110526-170526",
-          "host": "reliefweb.int",
-          "format": "Article",
-          "collected_at": "2026-05-26T20:00:21.638722+00:00",
-          "published": "Tue, 26 May 2026 13:42:00 +0000",
-          "summary": "The conflict has also seen a growing use of drones, aerial strikes, and long-range attacks targeting civilian infrastructure, including hospitals, schools, markets, and displacement sites. Sudan is facing one of the world’s largest humanitarian and displacement crises as the conflict between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF), which began in April 2023, enters its fourth year in 2026. An estimated 19.5 million people are currently experiencing acute food insecurity, making Sudan the world’s largest hunger crisis."
-        },
-        {
-          "id": "e460939d0a901010c50f049b7e92121b748d2214125e1edb12f056c6015d8cae",
-          "title": "Myanmar Crisis Situation Analysis (Period: 11/05/26 - 17/05/26) (pdf)",
-          "url": "https://reliefweb.int/attachments/23d2325f-f592-4336-a132-69b14f363050/Myanmar_Crisis__Period__11_05_26_-_17_05_26.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-05-26T20:00:26.264285+00:00",
-          "published": "Tue, 26 May 2026 13:38:34 +0000",
-          "summary": "Sectoral Analysis 43 Introduction Purpose This report provides a comprehensive overview of the current humanitarian situation, focusing on both operational environment factors and sectoral analysis. It provides tools such as the GANNET Virtual Assistant and GANNET SituationHub to help humanitarian actors access, analyze, and utilize critical information for their operations."
         }
       ]
     },
@@ -1199,8 +1209,11 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 195,
+      "count": 198,
       "evidence_ids": [
+        "f96ee499b993d662eb014da7eee61f356031647f24ecc98cf45061c95f2993a2",
+        "09ebfc9207455026f24575ddbb84d4cf23c36901ebba2aa01b46a42a26c5a2d8",
+        "a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551",
         "695683051f71f788e9d0fec6baa2f771cbc87f63234874900d7a0fed9668f4fe",
         "5092364191439f31d79b72f589b38de8525be760f6d1f678e74d0eaa369bb7ac",
         "16b7c91b033ff0a51ca72b0f6d0ec1c7da6111bbdd9bb0de88e3eb4a86992ecd",
@@ -1209,15 +1222,12 @@
         "7557d78f8b38cbd49292a0ee669fffd46e40c28b496df1edd718163ef3138f4d",
         "66b8f9e3ae44cd372af5ceb198b74d2379c1556b68602fb9d1c6aea0da571f3d",
         "f988cd103ba450cf8d20c1a1f03e796f1a0bf63cc6be3a75453c611226d26c48",
-        "049bc53fc8179342ec86612aa15e020ed1bec6f18878de53321d09b280830078",
-        "e88fb08f66f4cafac69ca36cdd15cd15a7361b0bcdc84300127ff28c29d71e63",
-        "43a6adb499169b3ab8bff946b9c1e4db17e4a5f61c641f6245b070d27a3f412b",
-        "6e46e09ad0447d437ee4704991aced997b0f9ebc7c8e3f974460b3336d3f418b"
+        "049bc53fc8179342ec86612aa15e020ed1bec6f18878de53321d09b280830078"
       ],
       "top_sources": [
         {
           "name": "theguardian.com",
-          "value": 41
+          "value": 43
         },
         {
           "name": "aljazeera.com",
@@ -1239,8 +1249,9 @@
     },
     {
       "name": "Americas",
-      "count": 162,
+      "count": 163,
       "evidence_ids": [
+        "a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551",
         "6718a4d89e3a246166e3834f54267d116a1a8536a74926c1b53c2636655f4390",
         "bdac141192718f9d0111fecb50e80181d8e1397f4dad4092564f887e7b913ebd",
         "695683051f71f788e9d0fec6baa2f771cbc87f63234874900d7a0fed9668f4fe",
@@ -1251,8 +1262,7 @@
         "89fef2124e205067b7df77d1f83a7d95147a1ec65a62b63a41f78c0ed7a214be",
         "ec6d0f3120ca401225c972315fee4015745f469ea6b91350f07541de0b20be50",
         "48f63f75758eeb17c8fd7495ecd84cebe68e21874cdfbb355351fd20296b7b86",
-        "6e46e09ad0447d437ee4704991aced997b0f9ebc7c8e3f974460b3336d3f418b",
-        "fffe56859e99f321ba8e9ccf6b3a4ff6a1a969af07f862b0951e01b47dbc70ab"
+        "6e46e09ad0447d437ee4704991aced997b0f9ebc7c8e3f974460b3336d3f418b"
       ],
       "top_sources": [
         {
@@ -1279,8 +1289,10 @@
     },
     {
       "name": "Europe and Russia",
-      "count": 144,
+      "count": 146,
       "evidence_ids": [
+        "f96ee499b993d662eb014da7eee61f356031647f24ecc98cf45061c95f2993a2",
+        "09ebfc9207455026f24575ddbb84d4cf23c36901ebba2aa01b46a42a26c5a2d8",
         "bdac141192718f9d0111fecb50e80181d8e1397f4dad4092564f887e7b913ebd",
         "695683051f71f788e9d0fec6baa2f771cbc87f63234874900d7a0fed9668f4fe",
         "2a90b0dae86b3fd5c376f5246fa427343cf7f0306f8dc21eb5f3b4f622bff6ff",
@@ -1290,18 +1302,16 @@
         "41606995a240b0affd8eb767f670bf120decfde17d0b54dda563e0520d6b0630",
         "fcf6850e35781f464b7a71ca77bf63529f874427352735d3b508bfa903acc526",
         "43a6adb499169b3ab8bff946b9c1e4db17e4a5f61c641f6245b070d27a3f412b",
-        "46f28034053ab6921213ee1c98c97edbfba15f758a1a817ec009eb8417b66b15",
-        "a2a6c0079a2a9730839875242b857d417f0276bc51a1278e7a1ae6817416a48b",
-        "f9007797fcd16c057699b412ce10a8c190480b51a576775e930d2b26b9b24a14"
+        "46f28034053ab6921213ee1c98c97edbfba15f758a1a817ec009eb8417b66b15"
       ],
       "top_sources": [
         {
-          "name": "warontherocks.com",
+          "name": "theguardian.com",
           "value": 26
         },
         {
-          "name": "theguardian.com",
-          "value": 24
+          "name": "warontherocks.com",
+          "value": 26
         },
         {
           "name": "defensenews.com",
@@ -1399,8 +1409,9 @@
     },
     {
       "name": "Africa",
-      "count": 88,
+      "count": 89,
       "evidence_ids": [
+        "a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551",
         "16b7c91b033ff0a51ca72b0f6d0ec1c7da6111bbdd9bb0de88e3eb4a86992ecd",
         "52e7c33145ffd23c2d9a1279f0d9ca1f1f4544e9da82566d38d9e733d586a782",
         "4fe31361105d10b375cc5619bdfc240177b6a6b64cf9a557b5e7925b879041a7",
@@ -1411,8 +1422,7 @@
         "4dcc03e8a8dd5951471393eec5aabd1cad2b69442295bdbbfdfbe99ca5a59d13",
         "e88fb08f66f4cafac69ca36cdd15cd15a7361b0bcdc84300127ff28c29d71e63",
         "ec6d0f3120ca401225c972315fee4015745f469ea6b91350f07541de0b20be50",
-        "227f4d1b32fc771d4c28cab46002e07db6e23f3d47960d5b191658234ef7541f",
-        "106b3cc1e8ee606b73ceebedf037d8ea63b605c26772d21e8772c35eefca38b4"
+        "227f4d1b32fc771d4c28cab46002e07db6e23f3d47960d5b191658234ef7541f"
       ],
       "top_sources": [
         {
@@ -1585,6 +1595,13 @@
       "title": "Consolidated Sanctions List",
       "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
       "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong"
+    },
+    {
+      "date": "2026",
+      "evidence_id": "a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551",
+      "title": "Middle East war live: New strikes threaten ceasefires in Iran, Lebanon",
+      "url": "https://www.france24.com/en/middle-east/20260527-middle-east-live-new-strikes-threaten-ceasefires-in-iran-lebanon",
+      "excerpt": "Home Middle East Live Middle East war live: New strikes threaten ceasefires in Iran, Lebanon Issued on: 27/05/2026 - 03:48 Modified: 27/05/2026 - 07:16 A man checks a house that was destroyed in an Israeli airstrike in Burj al-Shemali village near the southern port city of Tyre, Lebanon, May 26, 2026 © Mohammed Zaatari, AP Tehran on Tuesday accused Washington of breac"
     },
     {
       "date": "2026",
@@ -2411,16 +2428,245 @@
       "title": "South Korea’s 500,000 Drone Warriors Will Be a Hollow Force",
       "url": "https://warontherocks.com/south-koreas-500000-drone-warriors-will-be-a-hollow-force/",
       "excerpt": "e piloting credentials during mandatory service. Seoul plans to procure more than 11,000 commercial drones for units in 2026 under a 33 billion won (about $22 million) program the National Assembly approved in December 2025, raised from the Ministry of National Defense’s original 20.5 billion won request. The funds also cover training infrastructure and instructor pipelines. Th"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "0e62c8371376baf3d64e16b9426e9a541e931a85b6f62e7e2d22371691a1c7d4",
-      "title": "Blacklists, corruption and frontline needs: Ukraine tackles an arms-export puzzle",
-      "url": "https://www.defensenews.com/global/europe/2026/05/14/blacklists-corruption-and-frontline-needs-ukraine-tackles-an-arms-export-puzzle/",
-      "excerpt": "President Volodymyr Zelenskyy arrives to attend the summit of B9 and Nordic countries in Bucharest, Romania, on May 13, 2026. (Alex Nicodim/Anadolu via Getty Images) “In some production areas, we currently have up to 50% surplus capacity,” Zelenskyy said last month. Ukraine’s defense production capacity has grown 35 times since the invasion began, from $1 billion to $35 billion"
     }
   ],
   "latest_evidence": [
+    {
+      "id": "f96ee499b993d662eb014da7eee61f356031647f24ecc98cf45061c95f2993a2",
+      "topic": "geopolitics",
+      "title": "Energy price cap in Great Britain to rise by 13% from July",
+      "url": "https://www.theguardian.com/money/2026/may/27/energy-price-cap-great-britain-rise-july-gas-electricity-iran-war",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-05-27T06:59:36.567260+00:00",
+      "published": "Wed, 27 May 2026 06:02:34 GMT",
+      "text_chars": 3520,
+      "raw_path": "data/geopolitics/raw/f96ee499b993d662eb014da7eee61f356031647f24ecc98cf45061c95f2993a2.html",
+      "text_path": "data/geopolitics/raw/f96ee499b993d662eb014da7eee61f356031647f24ecc98cf45061c95f2993a2.txt",
+      "summary": "Jarvis said the next quarterly change to the cap, due in October, would depend to a large extent on what happens in the Middle East, progress towards a peace deal, the speed with which the strait of Hormuz reopens and how quickly the market recovers. Under the cap the average gas and electricity bill will increase to the equivalent of £1,862 a year from July until the end of September to take account of the rise in global energy market prices caused by the war on Iran.",
+      "bullets": [
+        "Jarvis said the next quarterly change to the cap, due in October, would depend to a large extent on what happens in the Middle East, progress towards a peace deal, the speed with which the strait of Hormuz reopens and how quickly the market recovers.",
+        "Under the cap the average gas and electricity bill will increase to the equivalent of £1,862 a year from July until the end of September to take account of the rise in global energy market prices caused by the war on Iran.",
+        "The war in Iran has caused the biggest energy supply shock on record by choking exports of oil and gas from the Gulf.",
+        "We’re not at the moment seeing the sort of price rises that we saw following the Russia-Ukraine war, but it remains a very uncertain situation,” he said.",
+        "Unpaid energy bills reached a record high of £4.5bn earlier this year, according to the latest official data."
+      ],
+      "excerpt": "Households will face the steepest summer rise in energy charges in four years after months of soaring market prices caused the government’s energy price cap for Great Britain to climb by 13%. Under the cap the average gas and electricity bill will increase to the equivalent of £1,862 a year from July until the end of September to take account of the rise in global energy market prices caused by the war on Iran. The energy regulator for Great Britain, Ofgem, determines the maximum a supplier can charge for each unit of gas and electricity based on the cost of supplying energy to homes, including the average wholesale market costs in the months leading up to the start of each new cap. The cap also incorporates the maximum daily standing charge (the flat daily fees levied for a connection regardless of how much or little energy people use). Under the new energy price cap, households that pay via direct debit will see electricity charges rise from the current rate of 24.67p per kilowatt hour to 26.11p per kWh, while gas charges will rise from 5.74p per kWh to 7.33p per kWh. The war in Iran has caused the biggest energy supply shock on record by choking exports of oil and gas from the G",
+      "keywords": [
+        {
+          "name": "energy",
+          "value": 15
+        },
+        {
+          "name": "rise",
+          "value": 8
+        },
+        {
+          "name": "price",
+          "value": 7
+        },
+        {
+          "name": "prices",
+          "value": 7
+        },
+        {
+          "name": "bills",
+          "value": 5
+        },
+        {
+          "name": "households",
+          "value": 5
+        },
+        {
+          "name": "caused",
+          "value": 4
+        },
+        {
+          "name": "jarvis",
+          "value": 4
+        },
+        {
+          "name": "market",
+          "value": 4
+        },
+        {
+          "name": "average",
+          "value": 3
+        }
+      ],
+      "signals": [
+        "Energy and Supply Chains",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/f96ee499b993d662eb014da7eee61f356031647f24ecc98cf45061c95f2993a2",
+      "evidence_json": "/evidence/f96ee499b993d662eb014da7eee61f356031647f24ecc98cf45061c95f2993a2.json"
+    },
+    {
+      "id": "09ebfc9207455026f24575ddbb84d4cf23c36901ebba2aa01b46a42a26c5a2d8",
+      "topic": "geopolitics",
+      "title": "Wednesday briefing: ​Can the UK adapt in time to a new normal of extreme heat?",
+      "url": "https://www.theguardian.com/world/2026/may/27/wednesday-briefing-can-the-uk-adapt-in-time-to-a-new-normal-of-extreme-heat",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "diplomatic_statements",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-05-27T06:59:25.332612+00:00",
+      "published": "Wed, 27 May 2026 05:46:56 GMT",
+      "text_chars": 12445,
+      "raw_path": "data/geopolitics/raw/09ebfc9207455026f24575ddbb84d4cf23c36901ebba2aa01b46a42a26c5a2d8.html",
+      "text_path": "data/geopolitics/raw/09ebfc9207455026f24575ddbb84d4cf23c36901ebba2aa01b46a42a26c5a2d8.txt",
+      "summary": "Middle East | The continuing US-Israel war on Iran has compounded other global disasters to drive record numbers of people into hunger at a time when funding to combat famine has fallen dramatically, the head of the UN World Food Programme has said. On Tuesday, temperatures surged to 35C, condemning millions of people to another sticky night in homes ill-prepared for such warm conditions.",
+      "bullets": [
+        "Middle East | The continuing US-Israel war on Iran has compounded other global disasters to drive record numbers of people into hunger at a time when funding to combat famine has fallen dramatically, the head of the UN World Food Programme has said.",
+        "On Tuesday, temperatures surged to 35C, condemning millions of people to another sticky night in homes ill-prepared for such warm conditions.",
+        "Five big stories UK politics | Tony Blair has accused Keir Starmer, Andy Burnham and Wes Streeting of putting Labour’s future at risk by abandoning the centre ground, warning that the party’s “almost infinite capacity for self-delusion” means it is likely to lose the next election.",
+        "UK news | The court of appeal will review the non-custodial sentences given to three teenage boys for the rape of two girls, Keir Starmer has announced.",
+        "US politics | Alabama cannot use a new Republican-friendly map in this year’s midterm elections because it intentionally discriminates against Black voters, a panel of three federal judges have ruled."
+      ],
+      "excerpt": "The UK swelters once again. On Tuesday, temperatures surged to 35C, condemning millions of people to another sticky night in homes ill-prepared for such warm conditions. The heat is record-breaking: we are still in spring, yet temperatures are close to extremes we once never expected even in high summer. Yorkshire experienced its first ever “tropical night” in spring on Monday, when the evening temperature failed to fall below 20C. Health alerts remain in effect across large parts of the country due to the increased likelihood of deaths, particularly among vulnerable and elderly people. Yet, experts warn, this may just be the road to a new normal. For today’s First Edition, I have spoken with the Guardian’s environment editor, Damian Carrington, about how the country can adapt to heatwaves and improve resilience to extreme heat. But first, the headlines. Five big stories UK politics | Tony Blair has accused Keir Starmer, Andy Burnham and Wes Streeting of putting Labour’s future at risk by abandoning the centre ground, warning that the party’s “almost infinite capacity for self-delusion” means it is likely to lose the next election. UK news | One out of every five people arrested af",
+      "keywords": [
+        {
+          "name": "heat",
+          "value": 16
+        },
+        {
+          "name": "temperatures",
+          "value": 10
+        },
+        {
+          "name": "guardian",
+          "value": 8
+        },
+        {
+          "name": "homes",
+          "value": 8
+        },
+        {
+          "name": "climate",
+          "value": 7
+        },
+        {
+          "name": "weather",
+          "value": 7
+        },
+        {
+          "name": "damian",
+          "value": 6
+        },
+        {
+          "name": "heatwaves",
+          "value": 6
+        },
+        {
+          "name": "like",
+          "value": 6
+        },
+        {
+          "name": "photograph",
+          "value": 6
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Middle East",
+        "Europe and Russia"
+      ],
+      "detail_path": "/evidence/09ebfc9207455026f24575ddbb84d4cf23c36901ebba2aa01b46a42a26c5a2d8",
+      "evidence_json": "/evidence/09ebfc9207455026f24575ddbb84d4cf23c36901ebba2aa01b46a42a26c5a2d8.json"
+    },
+    {
+      "id": "a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551",
+      "topic": "geopolitics",
+      "title": "Middle East war live: New strikes threaten ceasefires in Iran, Lebanon",
+      "url": "https://www.france24.com/en/middle-east/20260527-middle-east-live-new-strikes-threaten-ceasefires-in-iran-lebanon",
+      "host": "france24.com",
+      "source": "https://www.france24.com/en/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-05-27T06:59:11.918737+00:00",
+      "published": "Wed, 27 May 2026 01:48:09 GMT",
+      "text_chars": 4968,
+      "raw_path": "data/geopolitics/raw/a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551.html",
+      "text_path": "data/geopolitics/raw/a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551.txt",
+      "summary": "The United States has violated the ceasefire with strikes in Iran 's southern Hormozgan province, Iran's foreign ministry said in a statement Tuesday. 27/05/2026 - 07:16 China allows fresh urea exports amid Iran war-fuelled fertiliser crisis China has ⁠issued export ​quotas for urea fertiliser, sources with ​direct knowledge of the matter said, a move that could help ease soaring global ​prices ‌for one of the world’s ⁠most widely used crop nutrients after supply disruptions ‌linked to the Iran war.",
+      "bullets": [
+        "The United States has violated the ceasefire with strikes in Iran 's southern Hormozgan province, Iran's foreign ministry said in a statement Tuesday.",
+        "27/05/2026 - 07:16 China allows fresh urea exports amid Iran war-fuelled fertiliser crisis China has ⁠issued export ​quotas for urea fertiliser, sources with ​direct knowledge of the matter said, a move that could help ease soaring global ​prices ‌for one of the world’s ⁠most widely used crop nutrients after supply disruptions ‌linked to the Iran war.",
+        "27/05/2026 - 06:50 Iran war threatens Sudan's already fragile agricultural sector As the US's conflict with Iran continues to block crucial shipping lanes, Sudanese farmers are warning it is disrupting food production in an already unstable nation.",
+        "In a joint statement, Israeli Prime Minister Benjamin Netanyahu and his defense minister, Israel Katz, said the strikes had targeted the new leader of Hamas' military wing.",
+        "Iran's vice president said that the government has taken the first steps to restore the internet after a near-total blackout since war with the United States and Israel broke out in late February."
+      ],
+      "excerpt": "Home Middle East Live Middle East war live: New strikes threaten ceasefires in Iran, Lebanon Issued on: 27/05/2026 - 03:48 Modified: 27/05/2026 - 07:16 A man checks a house that was destroyed in an Israeli airstrike in Burj al-Shemali village near the southern port city of Tyre, Lebanon, May 26, 2026 © Mohammed Zaatari, AP Tehran on Tuesday accused Washington of breaching their ceasefire and warned it was ready to retaliate after overnight US strikes as Israeli bombardment in Lebanon left dozens dead, threatening an increasingly fragile truce there. Follow our liveblog for all the latest developments. 27/05/2026 - 07:16 China allows fresh urea exports amid Iran war-fuelled fertiliser crisis China has ⁠issued export ​quotas for urea fertiliser, sources with ​direct knowledge of the matter said, a move that could help ease soaring global ​prices ‌for one of the world’s ⁠most widely used crop nutrients after supply disruptions ‌linked to the Iran war. One of ⁠the world's largest fertiliser exporters, China banned exports of many categories in ​March to protect domestic farmers ‌from the surge in prices triggered by the closure of the Strait of Hormuz, ‌through which a large share of g",
+      "keywords": [
+        {
+          "name": "lebanon",
+          "value": 13
+        },
+        {
+          "name": "iran",
+          "value": 11
+        },
+        {
+          "name": "israeli",
+          "value": 10
+        },
+        {
+          "name": "israel",
+          "value": 9
+        },
+        {
+          "name": "strikes",
+          "value": 8
+        },
+        {
+          "name": "military",
+          "value": 6
+        },
+        {
+          "name": "tuesday",
+          "value": 6
+        },
+        {
+          "name": "east",
+          "value": 5
+        },
+        {
+          "name": "middle",
+          "value": 5
+        },
+        {
+          "name": "dead",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Diplomacy and Negotiations",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas",
+        "Africa"
+      ],
+      "detail_path": "/evidence/a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551",
+      "evidence_json": "/evidence/a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551.json"
+    },
     {
       "id": "6718a4d89e3a246166e3834f54267d116a1a8536a74926c1b53c2636655f4390",
       "topic": "geopolitics",
@@ -8446,244 +8692,6 @@
       ],
       "detail_path": "/evidence/d36a927a52f5471f08da640963affb6b11962517494f136882b3c7410962a4b9",
       "evidence_json": "/evidence/d36a927a52f5471f08da640963affb6b11962517494f136882b3c7410962a4b9.json"
-    },
-    {
-      "id": "a24bcb2b95c9e6e173716a1b36c332a201ee8a63d126dc43a27cbb8a193f4ca1",
-      "topic": "geopolitics",
-      "title": "Trump says peace deal with Iran ‘largely negotiated’ with strait of Hormuz to open",
-      "url": "https://www.theguardian.com/world/2026/may/23/trump-ceasefire-iran-strait-of-hormuz",
-      "host": "theguardian.com",
-      "source": "https://www.theguardian.com/world/rss",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-05-23T22:45:00.827555+00:00",
-      "published": "Sat, 23 May 2026 22:26:44 GMT",
-      "text_chars": 5821,
-      "raw_path": "data/geopolitics/raw/a24bcb2b95c9e6e173716a1b36c332a201ee8a63d126dc43a27cbb8a193f4ca1.html",
-      "text_path": "data/geopolitics/raw/a24bcb2b95c9e6e173716a1b36c332a201ee8a63d126dc43a27cbb8a193f4ca1.txt",
-      "summary": "A regional official with direct knowledge of the Pakistan-led mediation efforts told the Associated Press earlier on Saturday that the potential deal would include an official declaration of the war’s end, with two-month negotiations on Iran’s nuclear program, the opening of the crucial shipping lane by Iran and an end to the US blockade of Iranian ports. The announcement came after a Pakistani source told Reuters that Iran and Pakistan had submitted a revised proposal to the United States to end the war and reopen the strait of Hormuz.",
-      "bullets": [
-        "A regional official with direct knowledge of the Pakistan-led mediation efforts told the Associated Press earlier on Saturday that the potential deal would include an official declaration of the war’s end, with two-month negotiations on Iran’s nuclear program, the opening of the crucial shipping lane by Iran and an end to the US blockade of Iranian ports.",
-        "The announcement came after a Pakistani source told Reuters that Iran and Pakistan had submitted a revised proposal to the United States to end the war and reopen the strait of Hormuz.",
-        "Trump wrote on his social media platform that “final aspects and details” of a “Memorandum of Understanding” are still being discussed and “will be announced shortly”, but said the strait of Hormuz will be opened as part of the deal.",
-        "According to Drop Site’s source, the Iranian proposal included permanently ending the war before negotiating any deal on Tehran’s nuclear program.",
-        "Donald Trump announced on Saturday that a peace deal with Iran “has been largely negotiated”, after calls with a Pakistani mediator, Gulf allies and Israel, potentially paving the way for an end to the war launched by the US and Israel in February."
-      ],
-      "excerpt": "Donald Trump announced on Saturday that a peace deal with Iran “has been largely negotiated”, after calls with a Pakistani mediator, Gulf allies and Israel, potentially paving the way for an end to the war launched by the US and Israel in February. Trump wrote on his social media platform that “final aspects and details” of a “Memorandum of Understanding” are still being discussed and “will be announced shortly”, but said the strait of Hormuz will be opened as part of the deal. “An Agreement has been largely negotiated, subject to finalization between the United States of America, the Islamic Republic of Iran, and the various other Countries,” Trump posted. The announcement came after a Pakistani source told Reuters that Iran and Pakistan had submitted a revised proposal to the United States to end the war and reopen the strait of Hormuz. A regional official with direct knowledge of the Pakistan-led mediation efforts told the Associated Press earlier on Saturday that the potential deal would include an official declaration of the war’s end, with two-month negotiations on Iran’s nuclear program, the opening of the crucial shipping lane by Iran and an end to the US blockade of Irania",
-      "keywords": [
-        {
-          "name": "iran",
-          "value": 23
-        },
-        {
-          "name": "trump",
-          "value": 15
-        },
-        {
-          "name": "deal",
-          "value": 13
-        },
-        {
-          "name": "iranian",
-          "value": 8
-        },
-        {
-          "name": "strait",
-          "value": 8
-        },
-        {
-          "name": "agreement",
-          "value": 6
-        },
-        {
-          "name": "hormuz",
-          "value": 6
-        },
-        {
-          "name": "negotiated",
-          "value": 5
-        },
-        {
-          "name": "islamic",
-          "value": 4
-        },
-        {
-          "name": "nuclear",
-          "value": 4
-        }
-      ],
-      "signals": [
-        "Diplomacy and Negotiations",
-        "War and Escalation",
-        "Nuclear and Strategic Risk",
-        "Sanctions and Finance"
-      ],
-      "regions": [
-        "Middle East",
-        "Indo-Pacific",
-        "Americas"
-      ],
-      "detail_path": "/evidence/a24bcb2b95c9e6e173716a1b36c332a201ee8a63d126dc43a27cbb8a193f4ca1",
-      "evidence_json": "/evidence/a24bcb2b95c9e6e173716a1b36c332a201ee8a63d126dc43a27cbb8a193f4ca1.json"
-    },
-    {
-      "id": "c70213ecb00576303b6a00511ce4adce7b816f886458a7a85c92b3c30378fa1a",
-      "topic": "geopolitics",
-      "title": "Trump says agreement to end Iran war 'largely negotiated'",
-      "url": "http://www.euronews.com/2026/05/23/trump-says-agreement-to-end-iran-war-largely-negotiated",
-      "host": "euronews.com",
-      "source": "https://www.euronews.com/rss?level=theme&name=news",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-05-23T23:51:32.305129+00:00",
-      "published": "Sat, 23 May 2026 23:38:25 +0200",
-      "text_chars": 3169,
-      "raw_path": "data/geopolitics/raw/c70213ecb00576303b6a00511ce4adce7b816f886458a7a85c92b3c30378fa1a.html",
-      "text_path": "data/geopolitics/raw/c70213ecb00576303b6a00511ce4adce7b816f886458a7a85c92b3c30378fa1a.txt",
-      "summary": "Earlier on Saturday, the Associated Press quoted a regional official with direct knowledge of the Pakistan-led mediation efforts saying the US and Iran were closing in on a deal which would include an official declaration of the war’s end, with two-month negotiations on Iran’s nuclear program. According to Baghaei, “over the past week, the trend has been toward narrowing differences.\" He said nuclear issues are not part of the current negotiations, as Tehran first seeks to end the war before discussing its nuclear programme.",
-      "bullets": [
-        "Earlier on Saturday, the Associated Press quoted a regional official with direct knowledge of the Pakistan-led mediation efforts saying the US and Iran were closing in on a deal which would include an official declaration of the war’s end, with two-month negotiations on Iran’s nuclear program.",
-        "According to Baghaei, “over the past week, the trend has been toward narrowing differences.\" He said nuclear issues are not part of the current negotiations, as Tehran first seeks to end the war before discussing its nuclear programme.",
-        "The war started on 28 February with US and Israeli strikes on Iran, cutting short nuclear talks with Tehran.",
-        "US President Donald Trump announced Saturday that a draft framework for an agreement with Iran, which would include the reopening of the Strait of Hormuz, has been “largely negotiated” and is “subject to finalisation”.",
-        "“In addition to many other elements of the agreement, the Strait of Hormuz will be opened,” the US president announced."
-      ],
-      "excerpt": "US President Donald Trump announced Saturday that a draft framework for an agreement with Iran, which would include the reopening of the Strait of Hormuz, has been “largely negotiated” and is “subject to finalisation”. ADVERTISEMENT ADVERTISEMENT In a post on Truth Social, Trump said that the final aspects and details of the deal are being discussed and will be announced “shortly”. “In addition to many other elements of the agreement, the Strait of Hormuz will be opened,” the US president announced. Trump said he had a “very good call” with leaders of Saudi Arabia, Qatar, the United Arab Emirates, Pakistan, Turkey, Egypt, Jordan and Bahrain, in another sign of the prevailing influence of Gulf countries and other regional actors in convincing Trump to both stop further strikes and end the war altogether, as well as a separate call with Israeli Prime Minister Benjamin Netanyahu, which “went very well”. Earlier on Saturday, the Associated Press quoted a regional official with direct knowledge of the Pakistan-led mediation efforts saying the US and Iran were closing in on a deal which would include an official declaration of the war’s end, with two-month negotiations on Iran’s nuclear ",
-      "keywords": [
-        {
-          "name": "iran",
-          "value": 10
-        },
-        {
-          "name": "trump",
-          "value": 8
-        },
-        {
-          "name": "tehran",
-          "value": 6
-        },
-        {
-          "name": "agreement",
-          "value": 5
-        },
-        {
-          "name": "baghaei",
-          "value": 4
-        },
-        {
-          "name": "hormuz",
-          "value": 4
-        },
-        {
-          "name": "negotiations",
-          "value": 4
-        },
-        {
-          "name": "nuclear",
-          "value": 4
-        },
-        {
-          "name": "official",
-          "value": 4
-        },
-        {
-          "name": "saturday",
-          "value": 4
-        }
-      ],
-      "signals": [
-        "Diplomacy and Negotiations",
-        "War and Escalation",
-        "Energy and Supply Chains",
-        "Sanctions and Finance"
-      ],
-      "regions": [
-        "Middle East",
-        "Indo-Pacific"
-      ],
-      "detail_path": "/evidence/c70213ecb00576303b6a00511ce4adce7b816f886458a7a85c92b3c30378fa1a",
-      "evidence_json": "/evidence/c70213ecb00576303b6a00511ce4adce7b816f886458a7a85c92b3c30378fa1a.json"
-    },
-    {
-      "id": "9a8c5d1ed35e0385812f35d6b4ad9b3b6ece0497a852187fa73368d3d8118655",
-      "topic": "geopolitics",
-      "title": "Severe global food crisis could come within the year, says UN agency",
-      "url": "https://www.npr.org/2026/05/23/nx-s1-5829924/severe-global-food-crisis-could-come-within-the-year-says-un-agency",
-      "host": "npr.org",
-      "source": "https://www.npr.org/rss/rss.php?id=1004",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-05-24T02:18:28.482103+00:00",
-      "published": "Sat, 23 May 2026 17:30:11 -0400",
-      "text_chars": 4692,
-      "raw_path": "data/geopolitics/raw/9a8c5d1ed35e0385812f35d6b4ad9b3b6ece0497a852187fa73368d3d8118655.html",
-      "text_path": "data/geopolitics/raw/9a8c5d1ed35e0385812f35d6b4ad9b3b6ece0497a852187fa73368d3d8118655.txt",
-      "summary": "A new report published by the Food and Agricultural Organization of the United Nations details how the closure of the Strait of Hormuz is not only choking the global oil market. Maximo Torero, Chief Economist at The Food and Agriculture Organization of the United Nations, warns that the war in Iran is choking the global supply of fertilizer and a food crisis could follow within a year. ADRIAN FLORIDO, HOST: The war with Iran may soon make it a lot tougher for people around the world to afford food.",
-      "bullets": [
-        "A new report published by the Food and Agricultural Organization of the United Nations details how the closure of the Strait of Hormuz is not only choking the global oil market.",
-        "Maximo Torero, Chief Economist at The Food and Agriculture Organization of the United Nations, warns that the war in Iran is choking the global supply of fertilizer and a food crisis could follow within a year.",
-        "ADRIAN FLORIDO, HOST: The war with Iran may soon make it a lot tougher for people around the world to afford food.",
-        "MAXIMO TORERO: They are exported to Africa, to Asia intensively, but also to South America for Brazil, for example.",
-        "FLORIDO: He warns the fertilizer deficit will lead to a severe global food crisis within 6 to 12 months."
-      ],
-      "excerpt": "Maximo Torero, Chief Economist at The Food and Agriculture Organization of the United Nations, warns that the war in Iran is choking the global supply of fertilizer and a food crisis could follow within a year. ADRIAN FLORIDO, HOST: The war with Iran may soon make it a lot tougher for people around the world to afford food. A new report published by the Food and Agricultural Organization of the United Nations details how the closure of the Strait of Hormuz is not only choking the global oil market. The organization's chief economist, Maximo Torero, says it's also disrupted the flow of fertilizers from the Gulf, which many countries depend on for agriculture. MAXIMO TORERO: They are exported to Africa, to Asia intensively, but also to South America for Brazil, for example. FLORIDO: He warns the fertilizer deficit will lead to a severe global food crisis within 6 to 12 months. I spoke with Torero and asked him how countries most dependent on fertilizer from the Gulf are dealing with the shortage. TORERO: So the countries that are dependent are trying to look other sources, but there is not really a major alternative that they could use. So they are making decisions, and the decisions",
-      "keywords": [
-        {
-          "name": "torero",
-          "value": 12
-        },
-        {
-          "name": "countries",
-          "value": 10
-        },
-        {
-          "name": "food",
-          "value": 10
-        },
-        {
-          "name": "less",
-          "value": 9
-        },
-        {
-          "name": "year",
-          "value": 8
-        },
-        {
-          "name": "florido",
-          "value": 7
-        },
-        {
-          "name": "crisis",
-          "value": 5
-        },
-        {
-          "name": "fertilizer",
-          "value": 5
-        },
-        {
-          "name": "decisions",
-          "value": 4
-        },
-        {
-          "name": "farmers",
-          "value": 4
-        }
-      ],
-      "signals": [
-        "Energy and Supply Chains",
-        "Territory and Chokepoints",
-        "Institutions and Law"
-      ],
-      "regions": [
-        "Global Institutions",
-        "Middle East",
-        "Africa"
-      ],
-      "detail_path": "/evidence/9a8c5d1ed35e0385812f35d6b4ad9b3b6ece0497a852187fa73368d3d8118655",
-      "evidence_json": "/evidence/9a8c5d1ed35e0385812f35d6b4ad9b3b6ece0497a852187fa73368d3d8118655.json"
     }
   ],
   "deep_reads": [
@@ -8697,7 +8705,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-05-27T02:34:43.235463+00:00",
+      "collected_at": "2026-05-27T06:58:51.865394+00:00",
       "published": "",
       "text_chars": 9071064,
       "raw_path": "data/geopolitics/raw/f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1.xml",
@@ -8857,7 +8865,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-27T02:34:11.006702+00:00",
+      "collected_at": "2026-05-27T06:58:17.470722+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -8932,7 +8940,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-27T02:34:11.291777+00:00",
+      "collected_at": "2026-05-27T06:58:17.749105+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -9089,7 +9097,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-05-26T23:03:52.798840+00:00",
+      "collected_at": "2026-05-27T06:58:20.241783+00:00",
       "published": "",
       "text_chars": 824889,
       "raw_path": "data/geopolitics/raw/2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354.xml",
@@ -9569,7 +9577,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-27T02:34:53.829312+00:00",
+      "collected_at": "2026-05-27T06:58:59.002249+00:00",
       "published": "",
       "text_chars": 523907,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -9731,7 +9739,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-05-27T02:34:13.150200+00:00",
+      "collected_at": "2026-05-27T06:58:21.694964+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae.xml",
@@ -10134,7 +10142,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-27T02:34:47.740178+00:00",
+      "collected_at": "2026-05-27T06:58:54.046125+00:00",
       "published": "",
       "text_chars": 174113,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -10296,7 +10304,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-27T02:34:48.646501+00:00",
+      "collected_at": "2026-05-27T06:59:02.883106+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -10891,87 +10899,6 @@
   ],
   "documents": [
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-05-27T02:34:53.829312+00:00",
-      "published": "",
-      "text_chars": 523907,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 508
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "conflict",
-          "value": 265
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 208
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -10981,7 +10908,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-27T02:34:48.646501+00:00",
+      "collected_at": "2026-05-27T06:59:02.883106+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -11053,6 +10980,230 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
+      "id": "ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-05-27T06:58:59.079457+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.html",
+      "text_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
+      "evidence_json": "/evidence/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-05-27T06:58:59.023904+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-05-27T06:58:59.002249+00:00",
+      "published": "",
+      "text_chars": 523907,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 508
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "conflict",
+          "value": 265
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 208
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -11062,7 +11213,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-27T02:34:47.740178+00:00",
+      "collected_at": "2026-05-27T06:58:54.046125+00:00",
       "published": "",
       "text_chars": 174113,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11134,79 +11285,6 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-05-27T02:34:43.296156+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.html",
-      "text_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
-      "evidence_json": "/evidence/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.json"
-    },
-    {
       "id": "f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -11216,7 +11294,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-05-27T02:34:43.235463+00:00",
+      "collected_at": "2026-05-27T06:58:51.865394+00:00",
       "published": "",
       "text_chars": 9071064,
       "raw_path": "data/geopolitics/raw/f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1.xml",
@@ -11296,7 +11374,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-05-27T02:34:13.150200+00:00",
+      "collected_at": "2026-05-27T06:58:21.694964+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae.xml",
@@ -11367,6 +11445,86 @@
       "evidence_json": "/evidence/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae.json"
     },
     {
+      "id": "2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-05-27T06:58:20.241783+00:00",
+      "published": "",
+      "text_chars": 824889,
+      "raw_path": "data/geopolitics/raw/2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354.xml",
+      "text_path": "data/geopolitics/raw/2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "bullets": [
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+      ],
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 1476
+        },
+        {
+          "name": "security",
+          "value": 1473
+        },
+        {
+          "name": "interpol",
+          "value": 1239
+        },
+        {
+          "name": "resolution",
+          "value": 840
+        },
+        {
+          "name": "interpol-un",
+          "value": 683
+        },
+        {
+          "name": "afghanistan",
+          "value": 636
+        },
+        {
+          "name": "link",
+          "value": 612
+        },
+        {
+          "name": "republic",
+          "value": 539
+        },
+        {
+          "name": "al-qaida",
+          "value": 515
+        },
+        {
+          "name": "iraq",
+          "value": 480
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354",
+      "evidence_json": "/evidence/2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354.json"
+    },
+    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -11376,7 +11534,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-27T02:34:11.291777+00:00",
+      "collected_at": "2026-05-27T06:58:17.749105+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -11453,7 +11611,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-27T02:34:11.006702+00:00",
+      "collected_at": "2026-05-27T06:58:17.470722+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -11517,156 +11675,6 @@
       ],
       "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
       "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-05-27T02:34:10.631362+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
-      "id": "2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-05-26T23:03:52.798840+00:00",
-      "published": "",
-      "text_chars": 824889,
-      "raw_path": "data/geopolitics/raw/2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354.xml",
-      "text_path": "data/geopolitics/raw/2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-      "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
-      ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 1476
-        },
-        {
-          "name": "security",
-          "value": 1473
-        },
-        {
-          "name": "interpol",
-          "value": 1239
-        },
-        {
-          "name": "resolution",
-          "value": 840
-        },
-        {
-          "name": "interpol-un",
-          "value": 683
-        },
-        {
-          "name": "afghanistan",
-          "value": 636
-        },
-        {
-          "name": "link",
-          "value": 612
-        },
-        {
-          "name": "republic",
-          "value": 539
-        },
-        {
-          "name": "al-qaida",
-          "value": 515
-        },
-        {
-          "name": "iraq",
-          "value": 480
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "War and Escalation",
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Africa",
-        "Middle East",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354",
-      "evidence_json": "/evidence/2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354.json"
     },
     {
       "id": "1fee8c2a79ff4f4e63a66c37b3573545e717fa307c577a49375ba7b380aede8a",
@@ -15400,87 +15408,6 @@
   "cited_evidence": [],
   "evidence": [
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-05-27T02:34:53.829312+00:00",
-      "published": "",
-      "text_chars": 523907,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 508
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "conflict",
-          "value": 265
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 208
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -15490,7 +15417,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-27T02:34:48.646501+00:00",
+      "collected_at": "2026-05-27T06:59:02.883106+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15562,6 +15489,230 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
+      "id": "ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-05-27T06:58:59.079457+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.html",
+      "text_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
+      "evidence_json": "/evidence/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-05-27T06:58:59.023904+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-05-27T06:58:59.002249+00:00",
+      "published": "",
+      "text_chars": 523907,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 508
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "conflict",
+          "value": 265
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 208
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -15571,7 +15722,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-27T02:34:47.740178+00:00",
+      "collected_at": "2026-05-27T06:58:54.046125+00:00",
       "published": "",
       "text_chars": 174113,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15643,79 +15794,6 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-05-27T02:34:43.296156+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.html",
-      "text_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
-      "evidence_json": "/evidence/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.json"
-    },
-    {
       "id": "f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -15725,7 +15803,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-05-27T02:34:43.235463+00:00",
+      "collected_at": "2026-05-27T06:58:51.865394+00:00",
       "published": "",
       "text_chars": 9071064,
       "raw_path": "data/geopolitics/raw/f931d9947a179fc04508da8cd7dd39aded3f6cb12e925added9967b9f644e0a1.xml",
@@ -15805,7 +15883,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-05-27T02:34:13.150200+00:00",
+      "collected_at": "2026-05-27T06:58:21.694964+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae.xml",
@@ -15876,6 +15954,86 @@
       "evidence_json": "/evidence/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae.json"
     },
     {
+      "id": "2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-05-27T06:58:20.241783+00:00",
+      "published": "",
+      "text_chars": 824889,
+      "raw_path": "data/geopolitics/raw/2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354.xml",
+      "text_path": "data/geopolitics/raw/2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "bullets": [
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+      ],
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 1476
+        },
+        {
+          "name": "security",
+          "value": 1473
+        },
+        {
+          "name": "interpol",
+          "value": 1239
+        },
+        {
+          "name": "resolution",
+          "value": 840
+        },
+        {
+          "name": "interpol-un",
+          "value": 683
+        },
+        {
+          "name": "afghanistan",
+          "value": 636
+        },
+        {
+          "name": "link",
+          "value": 612
+        },
+        {
+          "name": "republic",
+          "value": 539
+        },
+        {
+          "name": "al-qaida",
+          "value": 515
+        },
+        {
+          "name": "iraq",
+          "value": 480
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354",
+      "evidence_json": "/evidence/2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354.json"
+    },
+    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -15885,7 +16043,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-27T02:34:11.291777+00:00",
+      "collected_at": "2026-05-27T06:58:17.749105+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -15962,7 +16120,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-27T02:34:11.006702+00:00",
+      "collected_at": "2026-05-27T06:58:17.470722+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -16028,154 +16186,240 @@
       "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "id": "f96ee499b993d662eb014da7eee61f356031647f24ecc98cf45061c95f2993a2",
       "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-05-27T02:34:10.631362+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "title": "Energy price cap in Great Britain to rise by 13% from July",
+      "url": "https://www.theguardian.com/money/2026/may/27/energy-price-cap-great-britain-rise-july-gas-electricity-iran-war",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-05-27T06:59:36.567260+00:00",
+      "published": "Wed, 27 May 2026 06:02:34 GMT",
+      "text_chars": 3520,
+      "raw_path": "data/geopolitics/raw/f96ee499b993d662eb014da7eee61f356031647f24ecc98cf45061c95f2993a2.html",
+      "text_path": "data/geopolitics/raw/f96ee499b993d662eb014da7eee61f356031647f24ecc98cf45061c95f2993a2.txt",
+      "summary": "Jarvis said the next quarterly change to the cap, due in October, would depend to a large extent on what happens in the Middle East, progress towards a peace deal, the speed with which the strait of Hormuz reopens and how quickly the market recovers. Under the cap the average gas and electricity bill will increase to the equivalent of £1,862 a year from July until the end of September to take account of the rise in global energy market prices caused by the war on Iran.",
       "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+        "Jarvis said the next quarterly change to the cap, due in October, would depend to a large extent on what happens in the Middle East, progress towards a peace deal, the speed with which the strait of Hormuz reopens and how quickly the market recovers.",
+        "Under the cap the average gas and electricity bill will increase to the equivalent of £1,862 a year from July until the end of September to take account of the rise in global energy market prices caused by the war on Iran.",
+        "The war in Iran has caused the biggest energy supply shock on record by choking exports of oil and gas from the Gulf.",
+        "We’re not at the moment seeing the sort of price rises that we saw following the Russia-Ukraine war, but it remains a very uncertain situation,” he said.",
+        "Unpaid energy bills reached a record high of £4.5bn earlier this year, according to the latest official data."
       ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "excerpt": "Households will face the steepest summer rise in energy charges in four years after months of soaring market prices caused the government’s energy price cap for Great Britain to climb by 13%. Under the cap the average gas and electricity bill will increase to the equivalent of £1,862 a year from July until the end of September to take account of the rise in global energy market prices caused by the war on Iran. The energy regulator for Great Britain, Ofgem, determines the maximum a supplier can charge for each unit of gas and electricity based on the cost of supplying energy to homes, including the average wholesale market costs in the months leading up to the start of each new cap. The cap also incorporates the maximum daily standing charge (the flat daily fees levied for a connection regardless of how much or little energy people use). Under the new energy price cap, households that pay via direct debit will see electricity charges rise from the current rate of 24.67p per kilowatt hour to 26.11p per kWh, while gas charges will rise from 5.74p per kWh to 7.33p per kWh. The war in Iran has caused the biggest energy supply shock on record by choking exports of oil and gas from the G",
       "keywords": [
         {
-          "name": "admin",
-          "value": 2
+          "name": "energy",
+          "value": 15
         },
         {
-          "name": "areas",
-          "value": 2
+          "name": "rise",
+          "value": 8
         },
         {
-          "name": "disputed",
-          "value": 2
+          "name": "price",
+          "value": 7
         },
         {
-          "name": "naciscdn",
-          "value": 2
+          "name": "prices",
+          "value": 7
         },
         {
-          "name": "application",
-          "value": 1
+          "name": "bills",
+          "value": 5
         },
         {
-          "name": "binary",
-          "value": 1
+          "name": "households",
+          "value": 5
         },
         {
-          "name": "bytes",
-          "value": 1
+          "name": "caused",
+          "value": 4
         },
         {
-          "name": "collected",
-          "value": 1
+          "name": "jarvis",
+          "value": 4
         },
         {
-          "name": "content-type",
-          "value": 1
+          "name": "market",
+          "value": 4
         },
         {
-          "name": "cultural",
-          "value": 1
+          "name": "average",
+          "value": 3
         }
       ],
       "signals": [
+        "Energy and Supply Chains",
         "Territory and Chokepoints"
       ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+      "regions": [
+        "Europe and Russia",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/f96ee499b993d662eb014da7eee61f356031647f24ecc98cf45061c95f2993a2",
+      "evidence_json": "/evidence/f96ee499b993d662eb014da7eee61f356031647f24ecc98cf45061c95f2993a2.json"
     },
     {
-      "id": "2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354",
+      "id": "09ebfc9207455026f24575ddbb84d4cf23c36901ebba2aa01b46a42a26c5a2d8",
       "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-05-26T23:03:52.798840+00:00",
-      "published": "",
-      "text_chars": 824889,
-      "raw_path": "data/geopolitics/raw/2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354.xml",
-      "text_path": "data/geopolitics/raw/2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "title": "Wednesday briefing: ​Can the UK adapt in time to a new normal of extreme heat?",
+      "url": "https://www.theguardian.com/world/2026/may/27/wednesday-briefing-can-the-uk-adapt-in-time-to-a-new-normal-of-extreme-heat",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "diplomatic_statements",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-05-27T06:59:25.332612+00:00",
+      "published": "Wed, 27 May 2026 05:46:56 GMT",
+      "text_chars": 12445,
+      "raw_path": "data/geopolitics/raw/09ebfc9207455026f24575ddbb84d4cf23c36901ebba2aa01b46a42a26c5a2d8.html",
+      "text_path": "data/geopolitics/raw/09ebfc9207455026f24575ddbb84d4cf23c36901ebba2aa01b46a42a26c5a2d8.txt",
+      "summary": "Middle East | The continuing US-Israel war on Iran has compounded other global disasters to drive record numbers of people into hunger at a time when funding to combat famine has fallen dramatically, the head of the UN World Food Programme has said. On Tuesday, temperatures surged to 35C, condemning millions of people to another sticky night in homes ill-prepared for such warm conditions.",
       "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+        "Middle East | The continuing US-Israel war on Iran has compounded other global disasters to drive record numbers of people into hunger at a time when funding to combat famine has fallen dramatically, the head of the UN World Food Programme has said.",
+        "On Tuesday, temperatures surged to 35C, condemning millions of people to another sticky night in homes ill-prepared for such warm conditions.",
+        "Five big stories UK politics | Tony Blair has accused Keir Starmer, Andy Burnham and Wes Streeting of putting Labour’s future at risk by abandoning the centre ground, warning that the party’s “almost infinite capacity for self-delusion” means it is likely to lose the next election.",
+        "UK news | The court of appeal will review the non-custodial sentences given to three teenage boys for the rape of two girls, Keir Starmer has announced.",
+        "US politics | Alabama cannot use a new Republican-friendly map in this year’s midterm elections because it intentionally discriminates against Black voters, a panel of three federal judges have ruled."
       ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "excerpt": "The UK swelters once again. On Tuesday, temperatures surged to 35C, condemning millions of people to another sticky night in homes ill-prepared for such warm conditions. The heat is record-breaking: we are still in spring, yet temperatures are close to extremes we once never expected even in high summer. Yorkshire experienced its first ever “tropical night” in spring on Monday, when the evening temperature failed to fall below 20C. Health alerts remain in effect across large parts of the country due to the increased likelihood of deaths, particularly among vulnerable and elderly people. Yet, experts warn, this may just be the road to a new normal. For today’s First Edition, I have spoken with the Guardian’s environment editor, Damian Carrington, about how the country can adapt to heatwaves and improve resilience to extreme heat. But first, the headlines. Five big stories UK politics | Tony Blair has accused Keir Starmer, Andy Burnham and Wes Streeting of putting Labour’s future at risk by abandoning the centre ground, warning that the party’s “almost infinite capacity for self-delusion” means it is likely to lose the next election. UK news | One out of every five people arrested af",
       "keywords": [
         {
-          "name": "council",
-          "value": 1476
+          "name": "heat",
+          "value": 16
         },
         {
-          "name": "security",
-          "value": 1473
+          "name": "temperatures",
+          "value": 10
         },
         {
-          "name": "interpol",
-          "value": 1239
+          "name": "guardian",
+          "value": 8
         },
         {
-          "name": "resolution",
-          "value": 840
+          "name": "homes",
+          "value": 8
         },
         {
-          "name": "interpol-un",
-          "value": 683
+          "name": "climate",
+          "value": 7
         },
         {
-          "name": "afghanistan",
-          "value": 636
+          "name": "weather",
+          "value": 7
         },
         {
-          "name": "link",
-          "value": 612
+          "name": "damian",
+          "value": 6
         },
         {
-          "name": "republic",
-          "value": 539
+          "name": "heatwaves",
+          "value": 6
         },
         {
-          "name": "al-qaida",
-          "value": 515
+          "name": "like",
+          "value": 6
         },
         {
-          "name": "iraq",
-          "value": 480
+          "name": "photograph",
+          "value": 6
         }
       ],
       "signals": [
-        "Institutions and Law",
-        "War and Escalation",
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
+        "Diplomacy and Negotiations",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints",
+        "War and Escalation"
       ],
       "regions": [
-        "Africa",
         "Middle East",
-        "Global Institutions"
+        "Europe and Russia"
       ],
-      "detail_path": "/evidence/2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354",
-      "evidence_json": "/evidence/2b12ee5cf0bd9b4612408d4a93db2a262613866002c4ba33c9df3c767f1aa354.json"
+      "detail_path": "/evidence/09ebfc9207455026f24575ddbb84d4cf23c36901ebba2aa01b46a42a26c5a2d8",
+      "evidence_json": "/evidence/09ebfc9207455026f24575ddbb84d4cf23c36901ebba2aa01b46a42a26c5a2d8.json"
+    },
+    {
+      "id": "a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551",
+      "topic": "geopolitics",
+      "title": "Middle East war live: New strikes threaten ceasefires in Iran, Lebanon",
+      "url": "https://www.france24.com/en/middle-east/20260527-middle-east-live-new-strikes-threaten-ceasefires-in-iran-lebanon",
+      "host": "france24.com",
+      "source": "https://www.france24.com/en/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-05-27T06:59:11.918737+00:00",
+      "published": "Wed, 27 May 2026 01:48:09 GMT",
+      "text_chars": 4968,
+      "raw_path": "data/geopolitics/raw/a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551.html",
+      "text_path": "data/geopolitics/raw/a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551.txt",
+      "summary": "The United States has violated the ceasefire with strikes in Iran 's southern Hormozgan province, Iran's foreign ministry said in a statement Tuesday. 27/05/2026 - 07:16 China allows fresh urea exports amid Iran war-fuelled fertiliser crisis China has ⁠issued export ​quotas for urea fertiliser, sources with ​direct knowledge of the matter said, a move that could help ease soaring global ​prices ‌for one of the world’s ⁠most widely used crop nutrients after supply disruptions ‌linked to the Iran war.",
+      "bullets": [
+        "The United States has violated the ceasefire with strikes in Iran 's southern Hormozgan province, Iran's foreign ministry said in a statement Tuesday.",
+        "27/05/2026 - 07:16 China allows fresh urea exports amid Iran war-fuelled fertiliser crisis China has ⁠issued export ​quotas for urea fertiliser, sources with ​direct knowledge of the matter said, a move that could help ease soaring global ​prices ‌for one of the world’s ⁠most widely used crop nutrients after supply disruptions ‌linked to the Iran war.",
+        "27/05/2026 - 06:50 Iran war threatens Sudan's already fragile agricultural sector As the US's conflict with Iran continues to block crucial shipping lanes, Sudanese farmers are warning it is disrupting food production in an already unstable nation.",
+        "In a joint statement, Israeli Prime Minister Benjamin Netanyahu and his defense minister, Israel Katz, said the strikes had targeted the new leader of Hamas' military wing.",
+        "Iran's vice president said that the government has taken the first steps to restore the internet after a near-total blackout since war with the United States and Israel broke out in late February."
+      ],
+      "excerpt": "Home Middle East Live Middle East war live: New strikes threaten ceasefires in Iran, Lebanon Issued on: 27/05/2026 - 03:48 Modified: 27/05/2026 - 07:16 A man checks a house that was destroyed in an Israeli airstrike in Burj al-Shemali village near the southern port city of Tyre, Lebanon, May 26, 2026 © Mohammed Zaatari, AP Tehran on Tuesday accused Washington of breaching their ceasefire and warned it was ready to retaliate after overnight US strikes as Israeli bombardment in Lebanon left dozens dead, threatening an increasingly fragile truce there. Follow our liveblog for all the latest developments. 27/05/2026 - 07:16 China allows fresh urea exports amid Iran war-fuelled fertiliser crisis China has ⁠issued export ​quotas for urea fertiliser, sources with ​direct knowledge of the matter said, a move that could help ease soaring global ​prices ‌for one of the world’s ⁠most widely used crop nutrients after supply disruptions ‌linked to the Iran war. One of ⁠the world's largest fertiliser exporters, China banned exports of many categories in ​March to protect domestic farmers ‌from the surge in prices triggered by the closure of the Strait of Hormuz, ‌through which a large share of g",
+      "keywords": [
+        {
+          "name": "lebanon",
+          "value": 13
+        },
+        {
+          "name": "iran",
+          "value": 11
+        },
+        {
+          "name": "israeli",
+          "value": 10
+        },
+        {
+          "name": "israel",
+          "value": 9
+        },
+        {
+          "name": "strikes",
+          "value": 8
+        },
+        {
+          "name": "military",
+          "value": 6
+        },
+        {
+          "name": "tuesday",
+          "value": 6
+        },
+        {
+          "name": "east",
+          "value": 5
+        },
+        {
+          "name": "middle",
+          "value": 5
+        },
+        {
+          "name": "dead",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Diplomacy and Negotiations",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas",
+        "Africa"
+      ],
+      "detail_path": "/evidence/a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551",
+      "evidence_json": "/evidence/a437e0d181d44560cfa5125dac0a680e4eb077f6843562428480dd7d2ae33551.json"
     },
     {
       "id": "6718a4d89e3a246166e3834f54267d116a1a8536a74926c1b53c2636655f4390",
