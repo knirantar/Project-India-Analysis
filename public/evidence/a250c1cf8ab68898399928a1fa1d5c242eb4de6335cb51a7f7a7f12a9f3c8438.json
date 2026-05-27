@@ -8,7 +8,7 @@
   "data_type": "geospatial_mapping_data",
   "format": "Dataset",
   "content_type": "application/zip",
-  "collected_at": "2026-05-27T20:03:04.547756+00:00",
+  "collected_at": "2026-05-27T22:28:30.522498+00:00",
   "published": "",
   "text_chars": 238,
   "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -67,6 +67,324 @@
   "regions": [],
   "full_text": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.\nTitle: \nURL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip\nSource: topic-config\nContent-Type: application/zip\nBytes: 215221",
   "related": [
+    {
+      "id": "dae17e32a2e9dd993262e74c02c3207f5ce04c21226f6fbe11d7518fb6bc3024",
+      "topic": "geopolitics",
+      "title": "OFAC Specially Designated Nationals List",
+      "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
+      "host": "treasury.gov",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "text/xml",
+      "collected_at": "2026-05-27T22:28:26.246779+00:00",
+      "published": "",
+      "text_chars": 9071376,
+      "raw_path": "data/geopolitics/raw/dae17e32a2e9dd993262e74c02c3207f5ce04c21226f6fbe11d7518fb6bc3024.xml",
+      "text_path": "data/geopolitics/raw/dae17e32a2e9dd993262e74c02c3207f5ce04c21226f6fbe11d7518fb6bc3024.txt",
+      "summary": "6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg.",
+      "bullets": [
+        "6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A.",
+        "strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg.",
+        "Entity CUBA 357 Buenos Aires Argentina 590 CUBACANCUN CIGARS AND GIFT SHOPS Entity CUBA 358 Cancun Mexico 591 CUBAEXPORT Entity CUBA 359 Spain 592 CUBAFRUTAS Entity CUBA 360 Spain 593 CUBAN CIGARS TRADE Entity CUBA 361 Italy 621 CUBANATUR Entity CUBA 362 Baja California 255, Edificio B.",
+        "11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A.",
+        "06500 Mexico 622 CUBATABACO Entity CUBA 363 Spain 636 CUMEXINT, S.A."
+      ],
+      "excerpt": "05/27/2026 19051 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity CUBA 219 a.k.a. weak BNC 220 a.k.a. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg. 6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. Entity CUBA 276 Panama City Panama 535 CIMEX Entity CUBA 317 Emerson No. 148 Piso 7 Mexico, D.F. 11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A. Entity CUBA 319 Panama 540 COMERCIAL IBEROAMERICANA, S.A. Entity CUBA 471 a.k.a. strong COIBA 321 Spain 551 COMERCIAL CIMEX, S.A. Entity CUBA 328 Panama 552 COMERCIAL DE RODAJES Y MAQUINARIA, S.A. Entity CUBA 475 a.k.a. strong CRYMSA 329 Jose Lazaro Galdeano 6-6 Madrid 28016 Spain 555 COMERCIALIZACION DE PRODUCTOS VARIOS Enti",
+      "keywords": [
+        {
+          "name": "sanctions",
+          "value": 19814
+        },
+        {
+          "name": "russia",
+          "value": 16779
+        },
+        {
+          "name": "executive",
+          "value": 13346
+        },
+        {
+          "name": "order",
+          "value": 13304
+        },
+        {
+          "name": "risk",
+          "value": 11418
+        },
+        {
+          "name": "entity",
+          "value": 9960
+        },
+        {
+          "name": "russia-eo",
+          "value": 6400
+        },
+        {
+          "name": "iran",
+          "value": 6039
+        },
+        {
+          "name": "gender",
+          "value": 5340
+        },
+        {
+          "name": "mexico",
+          "value": 4965
+        }
+      ],
+      "signals": [
+        "Energy and Supply Chains",
+        "Sanctions and Finance",
+        "Territory and Chokepoints",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Americas"
+      ],
+      "detail_path": "/evidence/dae17e32a2e9dd993262e74c02c3207f5ce04c21226f6fbe11d7518fb6bc3024",
+      "evidence_json": "/evidence/dae17e32a2e9dd993262e74c02c3207f5ce04c21226f6fbe11d7518fb6bc3024.json"
+    },
+    {
+      "id": "56552297117e9432099c06174625b09a4d2cf0c62ac9dc84132b429c29d2a124",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
+      "host": "treasury.gov",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "text/xml",
+      "collected_at": "2026-05-27T22:27:52.078456+00:00",
+      "published": "",
+      "text_chars": 392158,
+      "raw_path": "data/geopolitics/raw/56552297117e9432099c06174625b09a4d2cf0c62ac9dc84132b429c29d2a124.xml",
+      "text_path": "data/geopolitics/raw/56552297117e9432099c06174625b09a4d2cf0c62ac9dc84132b429c29d2a124.txt",
+      "summary": "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a. strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
+      "bullets": [
+        "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a.",
+        "strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a.",
+        "strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
+        "strong HASAN DOUKHAN Abdul Fattah 4709 1936 true 9649 Ibrahim Mohammed DAHBOUR Individual NS-PLC 12132 Jenin West Bank Palestinian 4710 1968 true 9650 Mariam Mahmoud SALEH Individual NS-PLC 12133 Ramallah West Bank Palestinian 4711 1952 true 9651 Fathi Mohammed QAR'AWI Individual NS-PLC 9162 a.k.a.",
+        "strong NAWFAL Imad Mahmoud 12136 Qalqilya West Bank Palestinian 4716 1970 true 9654 Omar Mahmoud MATAR Individual NS-PLC 12137 Salfit West Bank Palestinian 4717 1958 true 9655 Muna Salim Saleh MANSOUR Individual NS-PLC 9165 a.k.a."
+      ],
+      "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Mohammad Mahmoud 4698 1951 true 4699 Umm Tuba true 9641 Jamileh Abdullah AL-SHANTI Individual NS-PLC 9154 a.k.a. strong EL-SHANTI Jameela Abdallah 9155 a.k.a. strong AL SHANTEE Jamila Abed Allah 12128 Gaza Palestinian 4700 1955 true 4701 Jabalia Camp true 9642 Mohammed Jamal NU'MAN ALAEDDIN Individual NS-PLC 9156 a.k.a. strong ALA AL DIN Mohamad Nouman 9157 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a. strong RABBAI Khalil Mussa 4705 1959 true 9645 Huda Naim AL-QREINAWI Individual NS-PLC 9159 a.k.a. strong AL QRENAWI Houda Naim 12130 Gaza Palestinian 4706 1969 true 9646 Mahmoud Ahmad AL-RAMAHI Individual NS-PLC 12131 Ramallah West Bank Palestinian 4707 1963 true 9647 Mahmoud Khaled ZAHHAR Individual (Linked To: HAMAS) NS-PLC SDGT 16681",
+      "keywords": [
+        {
+          "name": "sanctions",
+          "value": 942
+        },
+        {
+          "name": "russia",
+          "value": 663
+        },
+        {
+          "name": "ukraine",
+          "value": 565
+        },
+        {
+          "name": "executive",
+          "value": 440
+        },
+        {
+          "name": "order",
+          "value": 439
+        },
+        {
+          "name": "entity",
+          "value": 383
+        },
+        {
+          "name": "risk",
+          "value": 372
+        },
+        {
+          "name": "information",
+          "value": 370
+        },
+        {
+          "name": "subject",
+          "value": 323
+        },
+        {
+          "name": "treasury",
+          "value": 313
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/56552297117e9432099c06174625b09a4d2cf0c62ac9dc84132b429c29d2a124",
+      "evidence_json": "/evidence/56552297117e9432099c06174625b09a4d2cf0c62ac9dc84132b429c29d2a124.json"
+    },
+    {
+      "id": "3561def47df73b0efc3f1eddfe80fcae52ab0e8dd1fc9a818a52e131e1a2251d",
+      "topic": "geopolitics",
+      "title": "Trump threatens to ‘blow up’ Oman amid talks over strait of Hormuz",
+      "url": "https://www.theguardian.com/us-news/2026/may/27/donald-trump-oman-threat-strait-hormuz",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-05-27T22:29:16.778624+00:00",
+      "published": "Wed, 27 May 2026 20:42:30 GMT",
+      "text_chars": 1965,
+      "raw_path": "data/geopolitics/raw/3561def47df73b0efc3f1eddfe80fcae52ab0e8dd1fc9a818a52e131e1a2251d.html",
+      "text_path": "data/geopolitics/raw/3561def47df73b0efc3f1eddfe80fcae52ab0e8dd1fc9a818a52e131e1a2251d.txt",
+      "summary": "That’s part of the negotiation that we have.” The strait – which typically carries about a fifth of the world’s oil supplies – has been blockaded by Iran since late February, triggering a global energy crisis and raising fears for the world economy. The US president made the threat after reports of talks between Iran and Oman about jointly charging a toll for ships passing through the crucial waterway, which has been all but closed since the start of the US-Israel war on Iran.",
+      "bullets": [
+        "That’s part of the negotiation that we have.” The strait – which typically carries about a fifth of the world’s oil supplies – has been blockaded by Iran since late February, triggering a global energy crisis and raising fears for the world economy.",
+        "The US president made the threat after reports of talks between Iran and Oman about jointly charging a toll for ships passing through the crucial waterway, which has been all but closed since the start of the US-Israel war on Iran.",
+        "They’ll be fine.” Trump’s efforts in recent weeks to strike a peace deal with Iran have so far failed to bear fruit.",
+        "When Trump signaled he was on the verge of a deal at the weekend, Republican hawks who had strongly backed his controversial decision to order war on Iran alongside Israel issued a rare rebuke.",
+        "Roger Wicker, who chairs the Senate armed services committee, said the “rumored 60-day ceasefire” would be a “disaster” in a post on social media."
+      ],
+      "excerpt": "Donald Trump has threatened to “blow up” Oman if it fails to “behave” in a casual aside during a cabinet meeting, as the US scrambles to reopen the strait of Hormuz. The US president made the threat after reports of talks between Iran and Oman about jointly charging a toll for ships passing through the crucial waterway, which has been all but closed since the start of the US-Israel war on Iran. “The strait is going to be open to everybody,” Trump declared on Tuesday. “Nobody’s going to control it. We’re going to watch over it. We’ll watch over it. But nobody’s going to control it. That’s part of the negotiation that we have.” The strait – which typically carries about a fifth of the world’s oil supplies – has been blockaded by Iran since late February, triggering a global energy crisis and raising fears for the world economy. Tehran wants to persuade Oman, a US ally, to support a mechanism to collect tolls from vessels transiting through the strait, the Associated Press has reported in recent days, citing a regional official. “They would like to control it,” said Trump, who stressed the strait is part of international waters. In an extraordinary threat, he added: “Oman will behave ",
+      "keywords": [
+        {
+          "name": "iran",
+          "value": 6
+        },
+        {
+          "name": "strait",
+          "value": 6
+        },
+        {
+          "name": "trump",
+          "value": 6
+        },
+        {
+          "name": "oman",
+          "value": 5
+        },
+        {
+          "name": "going",
+          "value": 4
+        },
+        {
+          "name": "blow",
+          "value": 3
+        },
+        {
+          "name": "control",
+          "value": 3
+        },
+        {
+          "name": "added",
+          "value": 2
+        },
+        {
+          "name": "behave",
+          "value": 2
+        },
+        {
+          "name": "deal",
+          "value": 2
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "detail_path": "/evidence/3561def47df73b0efc3f1eddfe80fcae52ab0e8dd1fc9a818a52e131e1a2251d",
+      "evidence_json": "/evidence/3561def47df73b0efc3f1eddfe80fcae52ab0e8dd1fc9a818a52e131e1a2251d.json"
+    },
+    {
+      "id": "2bf89c98ca3ab12836fa411df506bc4650c05e9fe3f4c69e32e642ccf9c9bc85",
+      "topic": "geopolitics",
+      "title": "Trump Is Making NATO Stronger, Lithuania’s Foreign Minister Says",
+      "url": "https://foreignpolicy.com/2026/05/27/kestutis-budrys-lithuanian-foreign-minister-iran-trump-drones-ukraine/",
+      "host": "foreignpolicy.com",
+      "source": "https://foreignpolicy.com/feed/",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-05-27T22:28:47.182437+00:00",
+      "published": "Wed, 27 May 2026 20:16:18 +0000",
+      "text_chars": 10674,
+      "raw_path": "data/geopolitics/raw/2bf89c98ca3ab12836fa411df506bc4650c05e9fe3f4c69e32e642ccf9c9bc85.html",
+      "text_path": "data/geopolitics/raw/2bf89c98ca3ab12836fa411df506bc4650c05e9fe3f4c69e32e642ccf9c9bc85.txt",
+      "summary": "What’s more, Budrys appeared to agree with some of Trump’s criticisms of NATO in relation to the Iran war, arguing that European countries should have been more willing to help the United States solve the crisis in the Strait of Hormuz. “NATO allies should take their part and also take on our own solution to this situation.” Budrys also spoke about the escalating drone crisis in the Baltics, his lack of optimism for a Ukraine peace agreement, and what needs to be prioritized at the NATO summit in Ankara, Turkey, in July.",
+      "bullets": [
+        "What’s more, Budrys appeared to agree with some of Trump’s criticisms of NATO in relation to the Iran war, arguing that European countries should have been more willing to help the United States solve the crisis in the Strait of Hormuz.",
+        "“NATO allies should take their part and also take on our own solution to this situation.” Budrys also spoke about the escalating drone crisis in the Baltics, his lack of optimism for a Ukraine peace agreement, and what needs to be prioritized at the NATO summit in Ankara, Turkey, in July.",
+        "President Donald Trump has been a sharp critic of NATO for years, but his rhetorical attacks on the alliance have accelerated amid the Iran war.",
+        "Trump has ripped into NATO allies for not participating in the war and threatened to withdraw the United States from the alliance.",
+        "Lithuanian Foreign Minister Kestutis Budrys actually believes that NATO will be better off in the long run because of Trump."
+      ],
+      "excerpt": "U.S. President Donald Trump has been a sharp critic of NATO for years, but his rhetorical attacks on the alliance have accelerated amid the Iran war. Trump has ripped into NATO allies for not participating in the war and threatened to withdraw the United States from the alliance. Trump’s presidency has proved to be a major test for the trans-Atlantic alliance and has led Europe to take steps to be more self-reliant when it comes to defense. The tensions he’s generated between Washington and NATO have raised serious questions as to whether it will survive him. But while some NATO leaders have ripped into Trump for his leadership style and decision-making, not everyone in the alliance views him as a problem. Lithuanian Foreign Minister Kestutis Budrys actually believes that NATO will be better off in the long run because of Trump. “At the end of the day, when we look back to this period, I’m convinced that the conclusion will be that President Trump made this alliance stronger, not weaker,” Budrys told Foreign Policy on Saturday during an interview at the GLOBSEC Forum in Prague, Czech Republic. What’s more, Budrys appeared to agree with some of Trump’s criticisms of NATO in relation",
+      "keywords": [
+        {
+          "name": "nato",
+          "value": 18
+        },
+        {
+          "name": "trump",
+          "value": 14
+        },
+        {
+          "name": "defense",
+          "value": 10
+        },
+        {
+          "name": "should",
+          "value": 10
+        },
+        {
+          "name": "russia",
+          "value": 9
+        },
+        {
+          "name": "alliance",
+          "value": 8
+        },
+        {
+          "name": "front",
+          "value": 7
+        },
+        {
+          "name": "take",
+          "value": 7
+        },
+        {
+          "name": "ukraine",
+          "value": 7
+        },
+        {
+          "name": "budrys",
+          "value": 6
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Nuclear and Strategic Risk",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/2bf89c98ca3ab12836fa411df506bc4650c05e9fe3f4c69e32e642ccf9c9bc85",
+      "evidence_json": "/evidence/2bf89c98ca3ab12836fa411df506bc4650c05e9fe3f4c69e32e642ccf9c9bc85.json"
+    },
     {
       "id": "c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae",
       "topic": "geopolitics",
@@ -383,323 +701,6 @@
       ],
       "detail_path": "/evidence/8b4eb5060723bda60b063b4a51adfaae3e042ce8ee95acf111ec9e74c9f43bb0",
       "evidence_json": "/evidence/8b4eb5060723bda60b063b4a51adfaae3e042ce8ee95acf111ec9e74c9f43bb0.json"
-    },
-    {
-      "id": "1320bd5af28843b56b0a1fd63138c35125eb9e5dbcb13dd55ec4b8d753e3e548",
-      "topic": "geopolitics",
-      "title": "Senior Ukrainian commander sees imminent ‘turning point’ in war",
-      "url": "https://www.defensenews.com/global/europe/2026/05/27/senior-ukrainian-commander-sees-imminent-turning-point-in-war/",
-      "host": "defensenews.com",
-      "source": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=utf-8",
-      "collected_at": "2026-05-27T17:55:13.533530+00:00",
-      "published": "Wed, 27 May 2026 14:58:59 +0000",
-      "text_chars": 5461,
-      "raw_path": "data/geopolitics/raw/1320bd5af28843b56b0a1fd63138c35125eb9e5dbcb13dd55ec4b8d753e3e548.html",
-      "text_path": "data/geopolitics/raw/1320bd5af28843b56b0a1fd63138c35125eb9e5dbcb13dd55ec4b8d753e3e548.txt",
-      "summary": "The issue of who controls Donetsk has been a stumbling block in U.S.-backed peace talks that have stalled, with Russia wanting the entire region and Ukraine refusing to withdraw from territory that Moscow’s troops have been unable to conquer. “We need to define those directions where we can improve our positions, take some strategic points, and then speak with the Russians from a position of strength - not weakness - about a truly stable truce,” said Biletsky, a right-wing political leader who founded the battle-hardened Azov Battalion and now commands...",
-      "bullets": [
-        "The issue of who controls Donetsk has been a stumbling block in U.S.-backed peace talks that have stalled, with Russia wanting the entire region and Ukraine refusing to withdraw from territory that Moscow’s troops have been unable to conquer.",
-        "“We need to define those directions where we can improve our positions, take some strategic points, and then speak with the Russians from a position of strength - not weakness - about a truly stable truce,” said Biletsky, a right-wing political leader who founded the battle-hardened Azov Battalion and now commands tens of thousands of troops.",
-        "President Volodymyr Zelenskiy said last week Ukraine had retaken nearly 600 square km (230 square miles) of territory in 2026.",
-        "Ukraine has a six-month window in which to seize the battlefield initiative from Russia and strengthen its hand for peace talks, a senior commander told Reuters, predicting a “turning point” was imminent after more than four years of war.",
-        "If Ukraine’s military can build and maintain momentum over several months, it can gain the initiative along the frontline and push Russia to abandon its designs on the last part of the Donetsk region in eastern Ukraine that it does not yet occupy, he said."
-      ],
-      "excerpt": "Ukraine has a six-month window in which to seize the battlefield initiative from Russia and strengthen its hand for peace talks, a senior commander told Reuters, predicting a “turning point” was imminent after more than four years of war. Russian forces have made grinding gains since their full-scale invasion of Ukraine in February 2022, but the advances have slowed this year and Ukrainian troops are increasing pressure on the battlefield to try to push them back. Brigadier General Andriy Biletsky, who commands Ukraine’s Third Army Corps, one of Ukraine’s most respected fighting forces, told Reuters in an interview that he believes Russia’s army is exhausted and incapable of making major breakthroughs. If Ukraine’s military can build and maintain momentum over several months, it can gain the initiative along the frontline and push Russia to abandon its designs on the last part of the Donetsk region in eastern Ukraine that it does not yet occupy, he said. “I believe the next six to nine months are a turning point,” Biletsky said at an undisclosed underground location in the northeastern Kharkiv region. “More precisely, I think the next six are the most critical,” he said. The issue ",
-      "keywords": [
-        {
-          "name": "ukraine",
-          "value": 14
-        },
-        {
-          "name": "biletsky",
-          "value": 11
-        },
-        {
-          "name": "russia",
-          "value": 10
-        },
-        {
-          "name": "forces",
-          "value": 8
-        },
-        {
-          "name": "ukrainian",
-          "value": 7
-        },
-        {
-          "name": "russian",
-          "value": 6
-        },
-        {
-          "name": "troops",
-          "value": 6
-        },
-        {
-          "name": "military",
-          "value": 5
-        },
-        {
-          "name": "moscow",
-          "value": 5
-        },
-        {
-          "name": "point",
-          "value": 5
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Nuclear and Strategic Risk",
-        "Territory and Chokepoints"
-      ],
-      "regions": [
-        "Europe and Russia"
-      ],
-      "detail_path": "/evidence/1320bd5af28843b56b0a1fd63138c35125eb9e5dbcb13dd55ec4b8d753e3e548",
-      "evidence_json": "/evidence/1320bd5af28843b56b0a1fd63138c35125eb9e5dbcb13dd55ec4b8d753e3e548.json"
-    },
-    {
-      "id": "0ed164640ab441fcaf5a3567fbc0a47c07c229ff4093167f2e6ad184897eeb68",
-      "topic": "geopolitics",
-      "title": "India's drug lifeline to Africa disrupted by Iran war",
-      "url": "https://www.dw.com/en/india-s-drug-lifeline-to-africa-disrupted-by-iran-war/a-77318563?maca=en-rss-en-world-4025-rdf",
-      "host": "dw.com",
-      "source": "https://rss.dw.com/rdf/rss-en-world",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=utf-8",
-      "collected_at": "2026-05-27T17:55:33.622205+00:00",
-      "published": "2026-05-27T14:22:00Z",
-      "text_chars": 7782,
-      "raw_path": "data/geopolitics/raw/0ed164640ab441fcaf5a3567fbc0a47c07c229ff4093167f2e6ad184897eeb68.html",
-      "text_path": "data/geopolitics/raw/0ed164640ab441fcaf5a3567fbc0a47c07c229ff4093167f2e6ad184897eeb68.txt",
-      "summary": "But with the Iran war choking off the Strait of Hormuz, commercial shipping from the Gulf has been disrupted, while war-risk premiums have risen, freight costs have climbed and airlines have rerouted or reduced cargo capacity through Gulf airspace. According to data from the United Nations Economic Commission for Africa and Nigeria's pharmaceutical regulatory agency, NAFDAC, India supplies roughly 40% of Africa's imported medicines, making it the continent's largest pharmaceutical trade partner.",
-      "bullets": [
-        "But with the Iran war choking off the Strait of Hormuz, commercial shipping from the Gulf has been disrupted, while war-risk premiums have risen, freight costs have climbed and airlines have rerouted or reduced cargo capacity through Gulf airspace.",
-        "According to data from the United Nations Economic Commission for Africa and Nigeria's pharmaceutical regulatory agency, NAFDAC, India supplies roughly 40% of Africa's imported medicines, making it the continent's largest pharmaceutical trade partner.",
-        "Logistics hubs in the Gulf also have more capacity to organize large shipments originating in India and heading to African markets.",
-        "\"Africa remains heavily reliant on Indian generics and Asian pharmaceutical supply chains, even where medicines are assembled locally, because Active Pharmaceutical Ingredients (APIs), excipients and packaging materials are still largely imported from India and China,\" Adeseun added.",
-        "Africa carries nearly a quarter of the global disease burden, with a disproportionate share of HIV, tuberculosis and malaria cases, according to data from data from public health agencies like the World Health Organization (WHO) ."
-      ],
-      "excerpt": "India has often been called the \"pharmacy of the Global South,\" and for African countries, public health and Indian pharmaceuticals are deeply entwined. Africa carries nearly a quarter of the global disease burden, with a disproportionate share of HIV, tuberculosis and malaria cases, according to data from data from public health agencies like the World Health Organization (WHO) . According to data from the United Nations Economic Commission for Africa and Nigeria's pharmaceutical regulatory agency, NAFDAC, India supplies roughly 40% of Africa's imported medicines, making it the continent's largest pharmaceutical trade partner. From Nigeria to Kenya and South Africa, Indian generic drugs form the backbone of public healthcare systems. Across the continent, they provide low-cost antibiotics, HIV antiretrovirals, malaria and tuberculosis drugs, insulin, blood pressure medicines and common painkillers used daily by millions. A fragile logistics corridor This system has worked because Indian medicines have been affordable, reliable and have moved through one of the world's most efficient logistics corridors. Drugs manufactured in Indian hubs such as Hyderabad, Ahmedabad and Mumbai rout",
-      "keywords": [
-        {
-          "name": "africa",
-          "value": 14
-        },
-        {
-          "name": "medicines",
-          "value": 12
-        },
-        {
-          "name": "pharmaceutical",
-          "value": 12
-        },
-        {
-          "name": "supply",
-          "value": 10
-        },
-        {
-          "name": "drugs",
-          "value": 9
-        },
-        {
-          "name": "health",
-          "value": 9
-        },
-        {
-          "name": "african",
-          "value": 8
-        },
-        {
-          "name": "gulf",
-          "value": 7
-        },
-        {
-          "name": "india",
-          "value": 7
-        },
-        {
-          "name": "indian",
-          "value": 7
-        }
-      ],
-      "signals": [
-        "Energy and Supply Chains",
-        "Territory and Chokepoints",
-        "Diplomacy and Negotiations",
-        "Institutions and Law"
-      ],
-      "regions": [
-        "Africa",
-        "Global Institutions",
-        "Indo-Pacific"
-      ],
-      "detail_path": "/evidence/0ed164640ab441fcaf5a3567fbc0a47c07c229ff4093167f2e6ad184897eeb68",
-      "evidence_json": "/evidence/0ed164640ab441fcaf5a3567fbc0a47c07c229ff4093167f2e6ad184897eeb68.json"
-    },
-    {
-      "id": "604a7c87c5fd705eb92c54a863e9078dd43331dc563d7863c2232b82c6f49268",
-      "topic": "geopolitics",
-      "title": "Bangladesh seeks IMF aid: How badly has Iran war hit its economy?",
-      "url": "https://www.aljazeera.com/economy/2026/5/27/bangladesh-seeks-imf-aid-how-badly-has-iran-war-hit-its-economy?traffic_source=rss",
-      "host": "aljazeera.com",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=utf-8",
-      "collected_at": "2026-05-27T14:22:44.843662+00:00",
-      "published": "Wed, 27 May 2026 13:53:13 +0000",
-      "text_chars": 6245,
-      "raw_path": "data/geopolitics/raw/604a7c87c5fd705eb92c54a863e9078dd43331dc563d7863c2232b82c6f49268.html",
-      "text_path": "data/geopolitics/raw/604a7c87c5fd705eb92c54a863e9078dd43331dc563d7863c2232b82c6f49268.txt",
-      "summary": "However, in March, the government of Bangladesh said it was seeking $2bn in loans from various donors as it grappled with an energy crisis caused by the war on Iran. Furthermore, the Strait of Hormuz – through which before the war one-fifth of the world’s oil and natural gas supplies were shipped, largely to Asian countries – remains under the control of Iran while the US has a naval blockade of Iranian ports in place.",
-      "bullets": [
-        "However, in March, the government of Bangladesh said it was seeking $2bn in loans from various donors as it grappled with an energy crisis caused by the war on Iran.",
-        "Furthermore, the Strait of Hormuz – through which before the war one-fifth of the world’s oil and natural gas supplies were shipped, largely to Asian countries – remains under the control of Iran while the US has a naval blockade of Iranian ports in place.",
-        "Energy crisis The Iran war, which began on February 28 when the US and Israel launched strikes on Iran, has caused a worldwide energy crisis and sent fuel prices soaring.",
-        "The International Monetary Fund (IMF) reports that Bangladesh has requested a new assistance programme as it struggles with the economic fallout of the United States-Israel war on Iran.",
-        "All this has caused major disruptions to energy supplies worldwide and caused the price of oil to rise to about $100 a barrel, compared with its pre-war price of about $66."
-      ],
-      "excerpt": "The International Monetary Fund (IMF) reports that Bangladesh has requested a new assistance programme as it struggles with the economic fallout of the United States-Israel war on Iran. We take a look at what assistance Bangladesh has sought, the South Asian country’s history with the IMF and how the war has hit its economy. What has Bangladesh asked for? The IMF’s mission chief for Bangladesh, Ivo Krznar, announced on Tuesday that Bangladesh had requested a new IMF-supported programme. “IMF staff are in discussions with the authorities on their reform agenda and policy priorities,” Krznar said in a statement. “The IMF remains a committed partner to Bangladesh in its efforts to secure lasting macroeconomic and financial stability, strengthen resilience, and support strong, inclusive growth.” Neither side disclosed the size or precise terms of the requested financial aid package. However, in March, the government of Bangladesh said it was seeking $2bn in loans from various donors as it grappled with an energy crisis caused by the war on Iran. How badly has Bangladesh been hit by the Iran war? Energy crisis The Iran war, which began on February 28 when the US and Israel launched stri",
-      "keywords": [
-        {
-          "name": "bangladesh",
-          "value": 25
-        },
-        {
-          "name": "debt",
-          "value": 12
-        },
-        {
-          "name": "iran",
-          "value": 12
-        },
-        {
-          "name": "percent",
-          "value": 9
-        },
-        {
-          "name": "energy",
-          "value": 8
-        },
-        {
-          "name": "caused",
-          "value": 6
-        },
-        {
-          "name": "prices",
-          "value": 6
-        },
-        {
-          "name": "world",
-          "value": 6
-        },
-        {
-          "name": "price",
-          "value": 5
-        },
-        {
-          "name": "programme",
-          "value": 5
-        }
-      ],
-      "signals": [
-        "Energy and Supply Chains",
-        "Diplomacy and Negotiations",
-        "War and Escalation",
-        "Territory and Chokepoints"
-      ],
-      "regions": [
-        "Middle East",
-        "Indo-Pacific",
-        "Americas"
-      ],
-      "detail_path": "/evidence/604a7c87c5fd705eb92c54a863e9078dd43331dc563d7863c2232b82c6f49268",
-      "evidence_json": "/evidence/604a7c87c5fd705eb92c54a863e9078dd43331dc563d7863c2232b82c6f49268.json"
-    },
-    {
-      "id": "2bd92941ee4acbc2d9d870a6e4e529d0695268ddc3d38c0ff51a646077d58ddc",
-      "topic": "geopolitics",
-      "title": "Revealed: Mandelson vetting warned of ties to senior figures in China, Russia and Israel",
-      "url": "https://www.theguardian.com/politics/2026/may/27/mandelson-vetting-warned-ties-senior-figures-china-russia-israel",
-      "host": "theguardian.com",
-      "source": "https://www.theguardian.com/world/rss",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-05-27T14:22:26.140657+00:00",
-      "published": "Wed, 27 May 2026 13:35:20 GMT",
-      "text_chars": 15948,
-      "raw_path": "data/geopolitics/raw/2bd92941ee4acbc2d9d870a6e4e529d0695268ddc3d38c0ff51a646077d58ddc.html",
-      "text_path": "data/geopolitics/raw/2bd92941ee4acbc2d9d870a6e4e529d0695268ddc3d38c0ff51a646077d58ddc.txt",
-      "summary": "Mandelson’s links to China’s minister of finance, Lan Fo’an, the sanctions-hit Russian oligarch Oleg Deripaska and a former Israeli military intelligence general, Tamir Hayman, were all flagged by the agency as areas of concern shortly before he took up his post as the UK’s ambassador to the US, the sources said. Peter Mandelson’s associations with senior figures in China, Russia and Israel were among the concerns raised by the UK’s vetting agency when it concluded he should be denied clearance, multiple sources have told the Guardian.",
-      "bullets": [
-        "Mandelson’s links to China’s minister of finance, Lan Fo’an, the sanctions-hit Russian oligarch Oleg Deripaska and a former Israeli military intelligence general, Tamir Hayman, were all flagged by the agency as areas of concern shortly before he took up his post as the UK’s ambassador to the US, the sources said.",
-        "Peter Mandelson’s associations with senior figures in China, Russia and Israel were among the concerns raised by the UK’s vetting agency when it concluded he should be denied clearance, multiple sources have told the Guardian.",
-        "Another concern identified by the vetting agency, the sources said, was a £1m loan Mandelson received to invest in an Israeli startup.",
-        "During a debate in parliament last week, MPs from across the political divide criticised the Cabinet Office’s handling of the process, warning that public trust was being undermined by ministers who were challenging the sovereignty of parliament.",
-        "Ministers have said it will be one of the largest document releases of its kind in history."
-      ],
-      "excerpt": "Peter Mandelson’s associations with senior figures in China, Russia and Israel were among the concerns raised by the UK’s vetting agency when it concluded he should be denied clearance, multiple sources have told the Guardian. Mandelson’s links to China’s minister of finance, Lan Fo’an, the sanctions-hit Russian oligarch Oleg Deripaska and a former Israeli military intelligence general, Tamir Hayman, were all flagged by the agency as areas of concern shortly before he took up his post as the UK’s ambassador to the US, the sources said. They added that United Kingdom Security Vetting (UKSV) also noted Mandelson had a very close relationship with a fourth individual, who is British, that could be compromising. Another concern identified by the vetting agency, the sources said, was a £1m loan Mandelson received to invest in an Israeli startup. And UKSV noted separately, the sources added, that he appeared naive about the risk that historical relationships with other individuals could be exploited. These concerns were all contained in a nine-page UKSV summary of Mandelson’s vetting file in January 2025, according to the sources, all of whom spoke to the Guardian on condition of anonymi",
-      "keywords": [
-        {
-          "name": "mandelson",
-          "value": 58
-        },
-        {
-          "name": "uksv",
-          "value": 23
-        },
-        {
-          "name": "vetting",
-          "value": 22
-        },
-        {
-          "name": "deripaska",
-          "value": 15
-        },
-        {
-          "name": "government",
-          "value": 14
-        },
-        {
-          "name": "office",
-          "value": 14
-        },
-        {
-          "name": "security",
-          "value": 13
-        },
-        {
-          "name": "china",
-          "value": 12
-        },
-        {
-          "name": "sources",
-          "value": 12
-        },
-        {
-          "name": "committee",
-          "value": 10
-        }
-      ],
-      "signals": [
-        "Diplomacy and Negotiations",
-        "Sanctions and Finance",
-        "War and Escalation",
-        "Territory and Chokepoints"
-      ],
-      "regions": [
-        "Europe and Russia",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/2bd92941ee4acbc2d9d870a6e4e529d0695268ddc3d38c0ff51a646077d58ddc",
-      "evidence_json": "/evidence/2bd92941ee4acbc2d9d870a6e4e529d0695268ddc3d38c0ff51a646077d58ddc.json"
     }
   ]
 }
