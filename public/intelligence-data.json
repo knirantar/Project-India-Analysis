@@ -1,82 +1,83 @@
 {
-  "generated_at": "2026-05-28T22:29:25.693407+00:00",
+  "generated_at": "2026-05-29T00:06:35.062105+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating Tensions in the Middle East Amid Ceasefire Violations and Humanitarian Crises",
+    "headline": "Escalating Tensions in the Middle East: Israel's Control Over Gaza and Ongoing Iran Negotiations",
     "executive_summary": [
-      "Recent developments in the Middle East indicate a significant escalation in hostilities, particularly in Gaza, where Israeli Prime Minister Benjamin Netanyahu has ordered the military to expand control to 70% of the territory, violating the terms of a ceasefire agreement. This directive follows a period of increased military activity, including airstrikes that have resulted in numerous civilian casualties and widespread displacement.",
-      "The humanitarian situation in Gaza remains dire, with reports indicating that over 3,200 people have been killed and many more displaced since the beginning of the conflict. The United Nations has highlighted the critical conditions faced by civilians, including lack of access to clean water and medical services, exacerbated by ongoing military operations and airstrikes.",
-      "In parallel, negotiations between the United States and Iran have reached a tentative agreement to extend a ceasefire and initiate discussions on Iran's nuclear program. However, the deal is contingent on approval from U.S. President Donald Trump, and ongoing skirmishes in the region raise concerns about the stability of this potential agreement.",
-      "The European Union has also taken action by imposing sanctions on individuals and entities linked to human rights abuses in the occupied West Bank, reflecting a broader international response to the escalating violence and humanitarian crises in the region."
+      "Recent developments indicate a significant escalation in Israeli military operations in Gaza, with Prime Minister Netanyahu directing the army to expand control to 70% of the territory, a move that violates the existing ceasefire agreement. This directive comes amid ongoing humanitarian crises, with reports of airstrikes resulting in civilian casualties and widespread displacement.",
+      "Simultaneously, the United States and Iran are engaged in tentative negotiations to extend a ceasefire in the Iran war, with a framework agreement reportedly reached that includes discussions on Iran's nuclear program. However, the deal remains pending approval from U.S. President Trump, amidst rising tensions and military skirmishes in the region.",
+      "The humanitarian situation in Gaza is dire, with the United Nations reporting critical conditions for civilians, including limited access to clean water and shelter. The ongoing conflict has resulted in thousands of casualties and significant displacement, exacerbating the humanitarian crisis.",
+      "In Lebanon, hostilities continue despite a ceasefire, with airstrikes leading to further civilian casualties and displacement. The situation remains precarious, with humanitarian organizations calling for urgent assistance to address the needs of affected populations."
     ],
     "key_judgments": [
       {
         "title": "Israeli Military Expansion in Gaza",
-        "finding": "Netanyahu's directive to seize 70% of Gaza violates the ceasefire and exacerbates humanitarian conditions.",
+        "finding": "Netanyahu's directive to seize 70% of Gaza violates the ceasefire agreement and exacerbates the humanitarian crisis.",
         "citations": [
-          "13",
-          "16"
+          "16",
+          "19"
+        ]
+      },
+      {
+        "title": "Tentative U.S.-Iran Negotiations",
+        "finding": "A framework agreement to extend the Iran war ceasefire has been reached, pending Trump's approval, amidst ongoing military tensions.",
+        "citations": [
+          "22",
+          "17"
         ]
       },
       {
         "title": "Humanitarian Crisis in Gaza",
-        "finding": "The ongoing conflict has resulted in over 3,200 deaths and significant displacement, with critical humanitarian needs unmet.",
+        "finding": "The humanitarian situation in Gaza is critical, with significant civilian casualties and displacement reported.",
         "citations": [
-          "24",
-          "25"
+          "16",
+          "19"
         ]
       },
       {
-        "title": "Tentative U.S.-Iran Agreement",
-        "finding": "A tentative agreement to extend the ceasefire and negotiate Iran's nuclear program is pending U.S. approval amidst ongoing hostilities.",
+        "title": "Continued Hostilities in Lebanon",
+        "finding": "Hostilities in Lebanon persist despite a ceasefire, leading to further civilian casualties and displacement.",
         "citations": [
-          "20",
-          "14"
-        ]
-      },
-      {
-        "title": "EU Sanctions on Israeli Settlers",
-        "finding": "The EU has sanctioned individuals linked to human rights violations in the West Bank, indicating a response to escalating violence.",
-        "citations": [
-          "11"
+          "26",
+          "27"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The region is experiencing heightened tensions due to military escalations in Gaza and ongoing conflicts involving Iran, with significant implications for humanitarian conditions and international diplomatic efforts.",
+        "assessment": "The Middle East remains a focal point of geopolitical tensions, with Israel's military actions in Gaza and ongoing U.S.-Iran negotiations contributing to instability and humanitarian crises.",
         "citations": [
-          "13",
-          "20",
-          "24"
+          "16",
+          "22"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "Gaza Strip Control",
-        "why_it_matters": "Increased Israeli control over Gaza could lead to further humanitarian crises and destabilize the region.",
+        "label": "Israeli Military Operations in Gaza",
+        "why_it_matters": "The expansion of Israeli control in Gaza could lead to further humanitarian disasters and regional instability.",
         "citations": [
-          "13",
-          "16"
+          "16",
+          "19"
         ]
       },
       {
         "label": "U.S.-Iran Negotiations",
-        "why_it_matters": "The outcome of U.S.-Iran negotiations could significantly impact regional stability and the potential for renewed conflict.",
+        "why_it_matters": "The outcome of U.S.-Iran negotiations could significantly impact regional security dynamics and the potential for conflict escalation.",
         "citations": [
-          "20",
-          "14"
+          "22",
+          "17"
         ]
       },
       {
-        "label": "EU Sanctions Impact",
-        "why_it_matters": "The effectiveness of EU sanctions on Israeli settlers may influence future actions and responses to human rights violations in the region.",
+        "label": "Humanitarian Conditions in Lebanon",
+        "why_it_matters": "The ongoing humanitarian crisis in Lebanon necessitates urgent international attention and assistance to prevent further deterioration.",
         "citations": [
-          "11"
+          "26",
+          "27"
         ]
       }
     ],
@@ -85,8 +86,8 @@
     ]
   },
   "summary": {
-    "raw_documents": 481,
-    "total_text_chars": 81539735,
+    "raw_documents": 483,
+    "total_text_chars": 82368702,
     "sources": 32,
     "signals": 8,
     "regions": 6,
@@ -97,7 +98,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 359
+      "value": 360
     },
     {
       "name": "Image",
@@ -109,7 +110,7 @@
     },
     {
       "name": "Sanctions",
-      "value": 19
+      "value": 20
     },
     {
       "name": "Video",
@@ -131,7 +132,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 343
+      "value": 344
     },
     {
       "name": "images",
@@ -143,7 +144,7 @@
     },
     {
       "name": "sanctions_designations",
-      "value": 25
+      "value": 26
     },
     {
       "name": "government_documents",
@@ -185,7 +186,7 @@
     },
     {
       "name": "theguardian.com",
-      "value": 74
+      "value": 75
     },
     {
       "name": "warontherocks.com",
@@ -245,7 +246,7 @@
     },
     {
       "name": "scsanctions.un.org",
-      "value": 8
+      "value": 9
     },
     {
       "name": "press.un.org",
@@ -477,11 +478,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 311,
+      "count": 313,
       "formats": [
         {
           "name": "Article",
-          "value": 265
+          "value": 266
         },
         {
           "name": "PDF",
@@ -489,7 +490,7 @@
         },
         {
           "name": "Sanctions",
-          "value": 13
+          "value": 14
         },
         {
           "name": "Image",
@@ -501,6 +502,7 @@
         }
       ],
       "evidence_ids": [
+        "f12b99a638796636641ed08044de36af070f8b7376c446dde70366e255cc3ed4",
         "47cf7db4a3faa09c32af27edfd6d98ffb2ca2a52d494756851a6c123cdd4065e",
         "98427fb25b0d3af2a3d58ba1d5f625181240d2bea7ecbf03f339a562afc86613",
         "6944f2e60d9500c79e9f8a45d34de37f5c5d9b0d41d71176021d6ad7d60ad5de",
@@ -509,11 +511,20 @@
         "d9c979f01c0c7e844e9c4b229e0966548ea66e1b7446574d7ede2f9206848dfb",
         "6b51db488d3743876067222800ca4239057ccb61048898c12d3bc1ff0dbb62b5",
         "2571bea79f3db81430e70d90f5e85040f1978a32b77938da94ccab379cbf29b5",
-        "88cd00c47dc63641cc3bf3e8292d4763753c648e440bda4afbaa3f1b3263c7ff",
-        "35cb9c5d4549b931552ec9b32d01b8cf9fd1288d453457fa4f6e7a5e800d7696"
+        "88cd00c47dc63641cc3bf3e8292d4763753c648e440bda4afbaa3f1b3263c7ff"
       ],
-      "summary": "Treasury Secretary Scott Bessent refused to confirm that a deal had been reached, telling reporters that “it is all going to be the president’s decision.”) Meanwhile, the United States and Iran are continuing to exchange fire, which could potentially derail the negotiations altogether. and Iranian negotiators have reached an agreement on a 60-day memorandum of understanding that would extend the cease-fire and see the two sides begin talks on Iran’s nuclear program. Together, these technologies form the foundation of the Department's digital ecosystem and support the secure connectivity required for Combined Joint All-Domain Command and Control (CJADC2), enabling warfighters, commanders, and civilian personnel to collaborate effectively from the Pentagon to the tactical edge. Published On 28 May 2026 28 May 2026 The European Union has sanctioned four entities and three individuals it says are “extremist Israeli settlers” responsible for “serious” human rights abuses against Palestinians in the occupied West Bank. Israel earlier condemned the sanctions, asserting that Jews have the right to settle in the occupied West Bank, despite that being in violation of international law. In 2025, the expansion of Israeli settlements reached its highest level since at least 2017, when the United Nations began tracking data. Speaking to the UN Security Council, he urged the international body to use “every means at its disposal” to press Hamas to disarm and to push Israel to uphold its commitment under the October ceasefire, pointing to its continued killings and restrictions on humanitarian flow. “We’ll start with that.” The Israeli army had in mid-March quietly sent maps to aid organisations showing it had already expanded its control to about 11 percent beyond the so-called “Yellow Line” demarcating areas of the enclave occupied by Israeli troops.",
+      "summary": "This became “a major issue for campaigns” across the Nato-led forces operating in Afghanistan and emerged at the same time as the US president Barack Obama had increased the number of US troops in Afghanistan to try to deal with a growing Taliban insurgency. Concerns about the number of Afghan civilians being killed by British special forces in the early part of the last decade prompted the country’s then president to make a “muscular” complaint to Nato commanders fighting the Taliban. Treasury Secretary Scott Bessent refused to confirm that a deal had been reached, telling reporters that “it is all going to be the president’s decision.”) Meanwhile, the United States and Iran are continuing to exchange fire, which could potentially derail the negotiations altogether. and Iranian negotiators have reached an agreement on a 60-day memorandum of understanding that would extend the cease-fire and see the two sides begin talks on Iran’s nuclear program. Together, these technologies form the foundation of the Department's digital ecosystem and support the secure connectivity required for Combined Joint All-Domain Command and Control (CJADC2), enabling warfighters, commanders, and civilian personnel to collaborate effectively from the Pentagon to the tactical edge. Published On 28 May 2026 28 May 2026 The European Union has sanctioned four entities and three individuals it says are “extremist Israeli settlers” responsible for “serious” human rights abuses against Palestinians in the occupied West Bank. Israel earlier condemned the sanctions, asserting that Jews have the right to settle in the occupied West Bank, despite that being in violation of international law. In 2025, the expansion of Israeli settlements reached its highest level since at least 2017, when the United Nations began tracking data.",
       "latest": [
+        {
+          "id": "f12b99a638796636641ed08044de36af070f8b7376c446dde70366e255cc3ed4",
+          "title": "Afghan president voiced concern over civilians killed by SAS troops, inquiry told",
+          "url": "https://www.theguardian.com/uk-news/2026/may/29/afghan-president-voiced-concern-over-civilians-killed-by-sas-troops-inquiry-told",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-05-29T00:06:55.870458+00:00",
+          "published": "Thu, 28 May 2026 23:01:33 GMT",
+          "summary": "This became “a major issue for campaigns” across the Nato-led forces operating in Afghanistan and emerged at the same time as the US president Barack Obama had increased the number of US troops in Afghanistan to try to deal with a growing Taliban insurgency. Concerns about the number of Afghan civilians being killed by British special forces in the early part of the last decade prompted the country’s then president to make a “muscular” complaint to Nato commanders fighting the Taliban."
+        },
         {
           "id": "47cf7db4a3faa09c32af27edfd6d98ffb2ca2a52d494756851a6c123cdd4065e",
           "title": "Groundhog Day: Iran War Edition",
@@ -553,26 +564,16 @@
           "collected_at": "2026-05-28T20:16:14.608114+00:00",
           "published": "Thu, 28 May 2026 19:03:50 +0000",
           "summary": "Speaking to the UN Security Council, he urged the international body to use “every means at its disposal” to press Hamas to disarm and to push Israel to uphold its commitment under the October ceasefire, pointing to its continued killings and restrictions on humanitarian flow. “We’ll start with that.” The Israeli army had in mid-March quietly sent maps to aid organisations showing it had already expanded its control to about 11 percent beyond the so-called “Yellow Line” demarcating areas of the enclave occupied by Israeli troops."
-        },
-        {
-          "id": "c25b88f6997fd4106a4d338378667d4810e5d344d9e63099a2da40a9b3621f49",
-          "title": "Dire strait? Trump’s bid to end Iran war before midterms risks Republican anger",
-          "url": "https://www.theguardian.com/us-news/2026/may/28/trump-iran-republicans-anger-midterms",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-05-28T20:15:58.852563+00:00",
-          "published": "Thu, 28 May 2026 18:47:44 GMT",
-          "summary": "The return of the negotiations from Pakistan to Qatar, which Iran’s central bank governor and other senior officials visited this week, also probably indicated that Iran was seeking the release of billions of dollars in frozen assets held there as part of a deal, observers said. US media outlets reported on Thursday that US and Iranian negotiators had reached an agreement on a 60-day memorandum of understanding (MOU) that would extend a ceasefire and launch negotiations on Iran’s nuclear programme."
         }
       ]
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 268,
+      "count": 270,
       "formats": [
         {
           "name": "Article",
-          "value": 228
+          "value": 229
         },
         {
           "name": "PDF",
@@ -580,7 +581,7 @@
         },
         {
           "name": "Sanctions",
-          "value": 14
+          "value": 15
         },
         {
           "name": "Video",
@@ -592,6 +593,7 @@
         }
       ],
       "evidence_ids": [
+        "f12b99a638796636641ed08044de36af070f8b7376c446dde70366e255cc3ed4",
         "47cf7db4a3faa09c32af27edfd6d98ffb2ca2a52d494756851a6c123cdd4065e",
         "98427fb25b0d3af2a3d58ba1d5f625181240d2bea7ecbf03f339a562afc86613",
         "c25b88f6997fd4106a4d338378667d4810e5d344d9e63099a2da40a9b3621f49",
@@ -600,11 +602,20 @@
         "88cd00c47dc63641cc3bf3e8292d4763753c648e440bda4afbaa3f1b3263c7ff",
         "35cb9c5d4549b931552ec9b32d01b8cf9fd1288d453457fa4f6e7a5e800d7696",
         "2c5248fc197c59833f241a5e07c52a3e55daf51d48a1683fd211159c2c267e49",
-        "9e843ccd8146b98e041a5a2ba4ed278091ee464acaaca07af5bc7e1c33558a1c",
-        "f44337428f2fd2cf59fc2f0544bb938b4b8979f79c26ce9785dbd13206403994"
+        "9e843ccd8146b98e041a5a2ba4ed278091ee464acaaca07af5bc7e1c33558a1c"
       ],
-      "summary": "Treasury Secretary Scott Bessent refused to confirm that a deal had been reached, telling reporters that “it is all going to be the president’s decision.”) Meanwhile, the United States and Iran are continuing to exchange fire, which could potentially derail the negotiations altogether. and Iranian negotiators have reached an agreement on a 60-day memorandum of understanding that would extend the cease-fire and see the two sides begin talks on Iran’s nuclear program. Together, these technologies form the foundation of the Department's digital ecosystem and support the secure connectivity required for Combined Joint All-Domain Command and Control (CJADC2), enabling warfighters, commanders, and civilian personnel to collaborate effectively from the Pentagon to the tactical edge. The return of the negotiations from Pakistan to Qatar, which Iran’s central bank governor and other senior officials visited this week, also probably indicated that Iran was seeking the release of billions of dollars in frozen assets held there as part of a deal, observers said. US media outlets reported on Thursday that US and Iranian negotiators had reached an agreement on a 60-day memorandum of understanding (MOU) that would extend a ceasefire and launch negotiations on Iran’s nuclear programme. The expansion of Israeli military control would be a direct violation of the October ceasefire, the UN security council resolution that endorsed it, and Donald Trump’s 20-point peace plan, which laid out a temporary “yellow line” splitting Gaza into Israeli- and Hamas-run halves pending further peace negotiations.",
+      "summary": "This became “a major issue for campaigns” across the Nato-led forces operating in Afghanistan and emerged at the same time as the US president Barack Obama had increased the number of US troops in Afghanistan to try to deal with a growing Taliban insurgency. Concerns about the number of Afghan civilians being killed by British special forces in the early part of the last decade prompted the country’s then president to make a “muscular” complaint to Nato commanders fighting the Taliban. Treasury Secretary Scott Bessent refused to confirm that a deal had been reached, telling reporters that “it is all going to be the president’s decision.”) Meanwhile, the United States and Iran are continuing to exchange fire, which could potentially derail the negotiations altogether. and Iranian negotiators have reached an agreement on a 60-day memorandum of understanding that would extend the cease-fire and see the two sides begin talks on Iran’s nuclear program. Together, these technologies form the foundation of the Department's digital ecosystem and support the secure connectivity required for Combined Joint All-Domain Command and Control (CJADC2), enabling warfighters, commanders, and civilian personnel to collaborate effectively from the Pentagon to the tactical edge. The return of the negotiations from Pakistan to Qatar, which Iran’s central bank governor and other senior officials visited this week, also probably indicated that Iran was seeking the release of billions of dollars in frozen assets held there as part of a deal, observers said. US media outlets reported on Thursday that US and Iranian negotiators had reached an agreement on a 60-day memorandum of understanding (MOU) that would extend a ceasefire and launch negotiations on Iran’s nuclear programme.",
       "latest": [
+        {
+          "id": "f12b99a638796636641ed08044de36af070f8b7376c446dde70366e255cc3ed4",
+          "title": "Afghan president voiced concern over civilians killed by SAS troops, inquiry told",
+          "url": "https://www.theguardian.com/uk-news/2026/may/29/afghan-president-voiced-concern-over-civilians-killed-by-sas-troops-inquiry-told",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-05-29T00:06:55.870458+00:00",
+          "published": "Thu, 28 May 2026 23:01:33 GMT",
+          "summary": "This became “a major issue for campaigns” across the Nato-led forces operating in Afghanistan and emerged at the same time as the US president Barack Obama had increased the number of US troops in Afghanistan to try to deal with a growing Taliban insurgency. Concerns about the number of Afghan civilians being killed by British special forces in the early part of the last decade prompted the country’s then president to make a “muscular” complaint to Nato commanders fighting the Taliban."
+        },
         {
           "id": "47cf7db4a3faa09c32af27edfd6d98ffb2ca2a52d494756851a6c123cdd4065e",
           "title": "Groundhog Day: Iran War Edition",
@@ -644,16 +655,97 @@
           "collected_at": "2026-05-28T20:15:50.009105+00:00",
           "published": "Thu, 28 May 2026 18:14:28 GMT",
           "summary": "The expansion of Israeli military control would be a direct violation of the October ceasefire, the UN security council resolution that endorsed it, and Donald Trump’s 20-point peace plan, which laid out a temporary “yellow line” splitting Gaza into Israeli- and Hamas-run halves pending further peace negotiations."
+        }
+      ]
+    },
+    {
+      "name": "Humanitarian Pressure",
+      "count": 180,
+      "formats": [
+        {
+          "name": "Article",
+          "value": 130
         },
         {
-          "id": "6b51db488d3743876067222800ca4239057ccb61048898c12d3bc1ff0dbb62b5",
-          "title": "US and Iran reach tentative deal, pending Trump's approval",
-          "url": "http://www.euronews.com/2026/05/28/us-and-iran-reach-tentative-deal-pending-trumps-approval",
-          "host": "euronews.com",
+          "name": "PDF",
+          "value": 32
+        },
+        {
+          "name": "Sanctions",
+          "value": 9
+        },
+        {
+          "name": "Image",
+          "value": 6
+        },
+        {
+          "name": "Video",
+          "value": 3
+        }
+      ],
+      "evidence_ids": [
+        "f12b99a638796636641ed08044de36af070f8b7376c446dde70366e255cc3ed4",
+        "98427fb25b0d3af2a3d58ba1d5f625181240d2bea7ecbf03f339a562afc86613",
+        "6944f2e60d9500c79e9f8a45d34de37f5c5d9b0d41d71176021d6ad7d60ad5de",
+        "76e607c8abd7e6338aa1cbe7f11de7d508a172989449df4889d481bf5c7309d0",
+        "d9c979f01c0c7e844e9c4b229e0966548ea66e1b7446574d7ede2f9206848dfb",
+        "2571bea79f3db81430e70d90f5e85040f1978a32b77938da94ccab379cbf29b5",
+        "0318c433e50439d3ad40a80ba17dcc1feba2b890c9b158160b30bab0519b440b",
+        "715c6172043572b7f7be0dfe67e8e2ed00cb43a11a9b12b38e47509ac27620bb",
+        "2c5248fc197c59833f241a5e07c52a3e55daf51d48a1683fd211159c2c267e49",
+        "9e843ccd8146b98e041a5a2ba4ed278091ee464acaaca07af5bc7e1c33558a1c"
+      ],
+      "summary": "This became “a major issue for campaigns” across the Nato-led forces operating in Afghanistan and emerged at the same time as the US president Barack Obama had increased the number of US troops in Afghanistan to try to deal with a growing Taliban insurgency. Concerns about the number of Afghan civilians being killed by British special forces in the early part of the last decade prompted the country’s then president to make a “muscular” complaint to Nato commanders fighting the Taliban. Together, these technologies form the foundation of the Department's digital ecosystem and support the secure connectivity required for Combined Joint All-Domain Command and Control (CJADC2), enabling warfighters, commanders, and civilian personnel to collaborate effectively from the Pentagon to the tactical edge. Published On 28 May 2026 28 May 2026 The European Union has sanctioned four entities and three individuals it says are “extremist Israeli settlers” responsible for “serious” human rights abuses against Palestinians in the occupied West Bank. Israel earlier condemned the sanctions, asserting that Jews have the right to settle in the occupied West Bank, despite that being in violation of international law. In 2025, the expansion of Israeli settlements reached its highest level since at least 2017, when the United Nations began tracking data. Speaking to the UN Security Council, he urged the international body to use “every means at its disposal” to press Hamas to disarm and to push Israel to uphold its commitment under the October ceasefire, pointing to its continued killings and restrictions on humanitarian flow. “We’ll start with that.” The Israeli army had in mid-March quietly sent maps to aid organisations showing it had already expanded its control to about 11 percent beyond the so-called “Yellow Line” demarcating areas of the enclave occupied by Israeli troops.",
+      "latest": [
+        {
+          "id": "f12b99a638796636641ed08044de36af070f8b7376c446dde70366e255cc3ed4",
+          "title": "Afghan president voiced concern over civilians killed by SAS troops, inquiry told",
+          "url": "https://www.theguardian.com/uk-news/2026/may/29/afghan-president-voiced-concern-over-civilians-killed-by-sas-troops-inquiry-told",
+          "host": "theguardian.com",
           "format": "Article",
-          "collected_at": "2026-05-28T18:01:05.258876+00:00",
-          "published": "Thu, 28 May 2026 19:51:03 +0200",
-          "summary": "The IRGC Navy said in a statement that “smart control” of the Strait of Hormuz was being carried out, claiming that 26 commercial and oil tankers had passed through the corridor over the past 24 hours after obtaining clearance and coordination with the IRGC. Iranian state-run television said earlier Wednesday that a draft outline of a memorandum of understanding with Washington included a commitment to lift the naval blockade on Iran, restore traffic in the Strait of Hormuz and withdraw US forces from the Gulf."
+          "collected_at": "2026-05-29T00:06:55.870458+00:00",
+          "published": "Thu, 28 May 2026 23:01:33 GMT",
+          "summary": "This became “a major issue for campaigns” across the Nato-led forces operating in Afghanistan and emerged at the same time as the US president Barack Obama had increased the number of US troops in Afghanistan to try to deal with a growing Taliban insurgency. Concerns about the number of Afghan civilians being killed by British special forces in the early part of the last decade prompted the country’s then president to make a “muscular” complaint to Nato commanders fighting the Taliban."
+        },
+        {
+          "id": "98427fb25b0d3af2a3d58ba1d5f625181240d2bea7ecbf03f339a562afc86613",
+          "title": "Modernizing the Arsenal of Freedom: DoW Awards $9.7B Microsoft Enterprise Agreement to Power Global Mission Readiness",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4503069/modernizing-the-arsenal-of-freedom-dow-awards-97b-microsoft-enterprise-agreemen/",
+          "host": "war.gov",
+          "format": "Article",
+          "collected_at": "2026-05-28T22:29:53.101408+00:00",
+          "published": "Thu, 28 May 2026 21:00:00 GMT",
+          "summary": "Together, these technologies form the foundation of the Department's digital ecosystem and support the secure connectivity required for Combined Joint All-Domain Command and Control (CJADC2), enabling warfighters, commanders, and civilian personnel to collaborate effectively from the Pentagon to the tactical edge."
+        },
+        {
+          "id": "6944f2e60d9500c79e9f8a45d34de37f5c5d9b0d41d71176021d6ad7d60ad5de",
+          "title": "EU sanctions ‘extremist’ Israeli settlers in occupied West Bank",
+          "url": "https://www.aljazeera.com/news/2026/5/28/eu-imposes-sanctions-on-extremist-israeli-settlers-in-occupied-west-bank?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-05-28T22:29:47.363505+00:00",
+          "published": "Thu, 28 May 2026 20:31:05 +0000",
+          "summary": "Published On 28 May 2026 28 May 2026 The European Union has sanctioned four entities and three individuals it says are “extremist Israeli settlers” responsible for “serious” human rights abuses against Palestinians in the occupied West Bank. Israel earlier condemned the sanctions, asserting that Jews have the right to settle in the occupied West Bank, despite that being in violation of international law. In 2025, the expansion of Israeli settlements reached its highest level since at least 2017, when the United Nations began tracking data."
+        },
+        {
+          "id": "76e607c8abd7e6338aa1cbe7f11de7d508a172989449df4889d481bf5c7309d0",
+          "title": "Israel’s Netanyahu directs army to seize 70 percent of Gaza Strip",
+          "url": "https://www.aljazeera.com/news/2026/5/28/israels-netanyahu-directs-army-to-seize-70-percent-of-gaza-strip?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-05-28T20:16:14.608114+00:00",
+          "published": "Thu, 28 May 2026 19:03:50 +0000",
+          "summary": "Speaking to the UN Security Council, he urged the international body to use “every means at its disposal” to press Hamas to disarm and to push Israel to uphold its commitment under the October ceasefire, pointing to its continued killings and restrictions on humanitarian flow. “We’ll start with that.” The Israeli army had in mid-March quietly sent maps to aid organisations showing it had already expanded its control to about 11 percent beyond the so-called “Yellow Line” demarcating areas of the enclave occupied by Israeli troops."
+        },
+        {
+          "id": "d9c979f01c0c7e844e9c4b229e0966548ea66e1b7446574d7ede2f9206848dfb",
+          "title": "Netanyahu orders Israeli army to seize ‘70% of Gaza Strip’, violating ceasefire deal",
+          "url": "https://www.theguardian.com/world/2026/may/28/netanyahu-orders-israeli-army-seize-70-gaza-strip-violating-ceasefire-deal",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-05-28T20:15:50.009105+00:00",
+          "published": "Thu, 28 May 2026 18:14:28 GMT",
+          "summary": "The expansion of Israeli military control would be a direct violation of the October ceasefire, the UN security council resolution that endorsed it, and Donald Trump’s 20-point peace plan, which laid out a temporary “yellow line” splitting Gaza into Israeli- and Hamas-run halves pending further peace negotiations."
         }
       ]
     },
@@ -749,97 +841,6 @@
       ]
     },
     {
-      "name": "Humanitarian Pressure",
-      "count": 178,
-      "formats": [
-        {
-          "name": "Article",
-          "value": 129
-        },
-        {
-          "name": "PDF",
-          "value": 32
-        },
-        {
-          "name": "Sanctions",
-          "value": 8
-        },
-        {
-          "name": "Image",
-          "value": 6
-        },
-        {
-          "name": "Video",
-          "value": 3
-        }
-      ],
-      "evidence_ids": [
-        "98427fb25b0d3af2a3d58ba1d5f625181240d2bea7ecbf03f339a562afc86613",
-        "6944f2e60d9500c79e9f8a45d34de37f5c5d9b0d41d71176021d6ad7d60ad5de",
-        "76e607c8abd7e6338aa1cbe7f11de7d508a172989449df4889d481bf5c7309d0",
-        "d9c979f01c0c7e844e9c4b229e0966548ea66e1b7446574d7ede2f9206848dfb",
-        "2571bea79f3db81430e70d90f5e85040f1978a32b77938da94ccab379cbf29b5",
-        "0318c433e50439d3ad40a80ba17dcc1feba2b890c9b158160b30bab0519b440b",
-        "715c6172043572b7f7be0dfe67e8e2ed00cb43a11a9b12b38e47509ac27620bb",
-        "2c5248fc197c59833f241a5e07c52a3e55daf51d48a1683fd211159c2c267e49",
-        "9e843ccd8146b98e041a5a2ba4ed278091ee464acaaca07af5bc7e1c33558a1c",
-        "f0521e1369efd167ecc06f3763b7a02b687e65039ff2195c5bb976aeceea5b0c"
-      ],
-      "summary": "Together, these technologies form the foundation of the Department's digital ecosystem and support the secure connectivity required for Combined Joint All-Domain Command and Control (CJADC2), enabling warfighters, commanders, and civilian personnel to collaborate effectively from the Pentagon to the tactical edge. Published On 28 May 2026 28 May 2026 The European Union has sanctioned four entities and three individuals it says are “extremist Israeli settlers” responsible for “serious” human rights abuses against Palestinians in the occupied West Bank. Israel earlier condemned the sanctions, asserting that Jews have the right to settle in the occupied West Bank, despite that being in violation of international law. In 2025, the expansion of Israeli settlements reached its highest level since at least 2017, when the United Nations began tracking data. Speaking to the UN Security Council, he urged the international body to use “every means at its disposal” to press Hamas to disarm and to push Israel to uphold its commitment under the October ceasefire, pointing to its continued killings and restrictions on humanitarian flow. “We’ll start with that.” The Israeli army had in mid-March quietly sent maps to aid organisations showing it had already expanded its control to about 11 percent beyond the so-called “Yellow Line” demarcating areas of the enclave occupied by Israeli troops. The expansion of Israeli military control would be a direct violation of the October ceasefire, the UN security council resolution that endorsed it, and Donald Trump’s 20-point peace plan, which laid out a temporary “yellow line” splitting Gaza into Israeli- and Hamas-run halves pending further peace negotiations.",
-      "latest": [
-        {
-          "id": "98427fb25b0d3af2a3d58ba1d5f625181240d2bea7ecbf03f339a562afc86613",
-          "title": "Modernizing the Arsenal of Freedom: DoW Awards $9.7B Microsoft Enterprise Agreement to Power Global Mission Readiness",
-          "url": "https://www.war.gov/News/Releases/Release/Article/4503069/modernizing-the-arsenal-of-freedom-dow-awards-97b-microsoft-enterprise-agreemen/",
-          "host": "war.gov",
-          "format": "Article",
-          "collected_at": "2026-05-28T22:29:53.101408+00:00",
-          "published": "Thu, 28 May 2026 21:00:00 GMT",
-          "summary": "Together, these technologies form the foundation of the Department's digital ecosystem and support the secure connectivity required for Combined Joint All-Domain Command and Control (CJADC2), enabling warfighters, commanders, and civilian personnel to collaborate effectively from the Pentagon to the tactical edge."
-        },
-        {
-          "id": "6944f2e60d9500c79e9f8a45d34de37f5c5d9b0d41d71176021d6ad7d60ad5de",
-          "title": "EU sanctions ‘extremist’ Israeli settlers in occupied West Bank",
-          "url": "https://www.aljazeera.com/news/2026/5/28/eu-imposes-sanctions-on-extremist-israeli-settlers-in-occupied-west-bank?traffic_source=rss",
-          "host": "aljazeera.com",
-          "format": "Article",
-          "collected_at": "2026-05-28T22:29:47.363505+00:00",
-          "published": "Thu, 28 May 2026 20:31:05 +0000",
-          "summary": "Published On 28 May 2026 28 May 2026 The European Union has sanctioned four entities and three individuals it says are “extremist Israeli settlers” responsible for “serious” human rights abuses against Palestinians in the occupied West Bank. Israel earlier condemned the sanctions, asserting that Jews have the right to settle in the occupied West Bank, despite that being in violation of international law. In 2025, the expansion of Israeli settlements reached its highest level since at least 2017, when the United Nations began tracking data."
-        },
-        {
-          "id": "76e607c8abd7e6338aa1cbe7f11de7d508a172989449df4889d481bf5c7309d0",
-          "title": "Israel’s Netanyahu directs army to seize 70 percent of Gaza Strip",
-          "url": "https://www.aljazeera.com/news/2026/5/28/israels-netanyahu-directs-army-to-seize-70-percent-of-gaza-strip?traffic_source=rss",
-          "host": "aljazeera.com",
-          "format": "Article",
-          "collected_at": "2026-05-28T20:16:14.608114+00:00",
-          "published": "Thu, 28 May 2026 19:03:50 +0000",
-          "summary": "Speaking to the UN Security Council, he urged the international body to use “every means at its disposal” to press Hamas to disarm and to push Israel to uphold its commitment under the October ceasefire, pointing to its continued killings and restrictions on humanitarian flow. “We’ll start with that.” The Israeli army had in mid-March quietly sent maps to aid organisations showing it had already expanded its control to about 11 percent beyond the so-called “Yellow Line” demarcating areas of the enclave occupied by Israeli troops."
-        },
-        {
-          "id": "d9c979f01c0c7e844e9c4b229e0966548ea66e1b7446574d7ede2f9206848dfb",
-          "title": "Netanyahu orders Israeli army to seize ‘70% of Gaza Strip’, violating ceasefire deal",
-          "url": "https://www.theguardian.com/world/2026/may/28/netanyahu-orders-israeli-army-seize-70-gaza-strip-violating-ceasefire-deal",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-05-28T20:15:50.009105+00:00",
-          "published": "Thu, 28 May 2026 18:14:28 GMT",
-          "summary": "The expansion of Israeli military control would be a direct violation of the October ceasefire, the UN security council resolution that endorsed it, and Donald Trump’s 20-point peace plan, which laid out a temporary “yellow line” splitting Gaza into Israeli- and Hamas-run halves pending further peace negotiations."
-        },
-        {
-          "id": "2571bea79f3db81430e70d90f5e85040f1978a32b77938da94ccab379cbf29b5",
-          "title": "The Iran War Has Only Worsened Sudan’s Conflict",
-          "url": "https://foreignpolicy.com/2026/05/28/sudan-iran-war-gulf-proxy-ripple-effects-peace-talks-quad/",
-          "host": "foreignpolicy.com",
-          "format": "Article",
-          "collected_at": "2026-05-28T18:00:49.214256+00:00",
-          "published": "Thu, 28 May 2026 17:13:34 +0000",
-          "summary": "Although the United States and Iran have a tenuous cease-fire in place, talks to formally end that war have stalled, and the conflict in the Middle East has already produced devastating political, economic, and humanitarian repercussions in Sudan. When the United States and Israel first launched strikes on Iran in February, some SAF allies within Sudan expressed support for the Islamic Republic."
-        }
-      ]
-    },
-    {
       "name": "Energy and Supply Chains",
       "count": 154,
       "formats": [
@@ -924,7 +925,7 @@
     },
     {
       "name": "Institutions and Law",
-      "count": 98,
+      "count": 99,
       "formats": [
         {
           "name": "Article",
@@ -940,7 +941,7 @@
         },
         {
           "name": "Sanctions",
-          "value": 8
+          "value": 9
         },
         {
           "name": "Video",
@@ -1191,7 +1192,7 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 255,
+      "count": 256,
       "evidence_ids": [
         "6944f2e60d9500c79e9f8a45d34de37f5c5d9b0d41d71176021d6ad7d60ad5de",
         "76e607c8abd7e6338aa1cbe7f11de7d508a172989449df4889d481bf5c7309d0",
@@ -1271,8 +1272,9 @@
     },
     {
       "name": "Europe and Russia",
-      "count": 195,
+      "count": 196,
       "evidence_ids": [
+        "f12b99a638796636641ed08044de36af070f8b7376c446dde70366e255cc3ed4",
         "47cf7db4a3faa09c32af27edfd6d98ffb2ca2a52d494756851a6c123cdd4065e",
         "6944f2e60d9500c79e9f8a45d34de37f5c5d9b0d41d71176021d6ad7d60ad5de",
         "30e39932a93909403721c449b9bf11b040b516903ba1e7644b83846830589119",
@@ -1283,13 +1285,12 @@
         "9e843ccd8146b98e041a5a2ba4ed278091ee464acaaca07af5bc7e1c33558a1c",
         "395182d89d1c9aa4d25ad88975c4087fb012b16c20441cfac4278dc8ede81127",
         "60e9e67cee6d313682525558c3275841cda1262744c444391f76e66f4e823d0a",
-        "edc299cbc49e4551817ffecffad3aacac758dedfc232bcc344e78c54be174287",
-        "e61766145d1b6ef4a59768a07146932a7f48d79d674ff8f2029c47882bcbafd7"
+        "edc299cbc49e4551817ffecffad3aacac758dedfc232bcc344e78c54be174287"
       ],
       "top_sources": [
         {
           "name": "theguardian.com",
-          "value": 35
+          "value": 36
         },
         {
           "name": "warontherocks.com",
@@ -1311,8 +1312,9 @@
     },
     {
       "name": "Global Institutions",
-      "count": 172,
+      "count": 174,
       "evidence_ids": [
+        "f12b99a638796636641ed08044de36af070f8b7376c446dde70366e255cc3ed4",
         "47cf7db4a3faa09c32af27edfd6d98ffb2ca2a52d494756851a6c123cdd4065e",
         "6944f2e60d9500c79e9f8a45d34de37f5c5d9b0d41d71176021d6ad7d60ad5de",
         "76e607c8abd7e6338aa1cbe7f11de7d508a172989449df4889d481bf5c7309d0",
@@ -1323,8 +1325,7 @@
         "715c6172043572b7f7be0dfe67e8e2ed00cb43a11a9b12b38e47509ac27620bb",
         "2c5248fc197c59833f241a5e07c52a3e55daf51d48a1683fd211159c2c267e49",
         "53760697c31201191b0c1238475baad15abc35af816da78785cf2a0eb083b41a",
-        "f0521e1369efd167ecc06f3763b7a02b687e65039ff2195c5bb976aeceea5b0c",
-        "395182d89d1c9aa4d25ad88975c4087fb012b16c20441cfac4278dc8ede81127"
+        "f0521e1369efd167ecc06f3763b7a02b687e65039ff2195c5bb976aeceea5b0c"
       ],
       "top_sources": [
         {
@@ -1333,7 +1334,7 @@
         },
         {
           "name": "theguardian.com",
-          "value": 26
+          "value": 27
         },
         {
           "name": "atlanticcouncil.org",
@@ -1351,7 +1352,7 @@
     },
     {
       "name": "Africa",
-      "count": 130,
+      "count": 131,
       "evidence_ids": [
         "2571bea79f3db81430e70d90f5e85040f1978a32b77938da94ccab379cbf29b5",
         "88cd00c47dc63641cc3bf3e8292d4763753c648e440bda4afbaa3f1b3263c7ff",
@@ -2413,6 +2414,84 @@
     }
   ],
   "latest_evidence": [
+    {
+      "id": "f12b99a638796636641ed08044de36af070f8b7376c446dde70366e255cc3ed4",
+      "topic": "geopolitics",
+      "title": "Afghan president voiced concern over civilians killed by SAS troops, inquiry told",
+      "url": "https://www.theguardian.com/uk-news/2026/may/29/afghan-president-voiced-concern-over-civilians-killed-by-sas-troops-inquiry-told",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-05-29T00:06:55.870458+00:00",
+      "published": "Thu, 28 May 2026 23:01:33 GMT",
+      "text_chars": 4078,
+      "raw_path": "data/geopolitics/raw/f12b99a638796636641ed08044de36af070f8b7376c446dde70366e255cc3ed4.html",
+      "text_path": "data/geopolitics/raw/f12b99a638796636641ed08044de36af070f8b7376c446dde70366e255cc3ed4.txt",
+      "summary": "This became “a major issue for campaigns” across the Nato-led forces operating in Afghanistan and emerged at the same time as the US president Barack Obama had increased the number of US troops in Afghanistan to try to deal with a growing Taliban insurgency. Concerns about the number of Afghan civilians being killed by British special forces in the early part of the last decade prompted the country’s then president to make a “muscular” complaint to Nato commanders fighting the Taliban.",
+      "bullets": [
+        "This became “a major issue for campaigns” across the Nato-led forces operating in Afghanistan and emerged at the same time as the US president Barack Obama had increased the number of US troops in Afghanistan to try to deal with a growing Taliban insurgency.",
+        "Concerns about the number of Afghan civilians being killed by British special forces in the early part of the last decade prompted the country’s then president to make a “muscular” complaint to Nato commanders fighting the Taliban.",
+        "The statements are contained in redacted and summarised evidence of a special forces staff officer, known only as N1788, who had been responsible for reviewing tactics used in operations that led to civilians repeatedly being killed.",
+        "Around the same time, the evidence summary said, “everyone was aware that some of the Afghan partner units were being reluctant to go on operations” with the British special forces sub-unit, known only as SU1.",
+        "Separating off Afghan adult males during raids had “directly increased the propensity of kinetic [ie military] activity”, N1788 said."
+      ],
+      "excerpt": "Concerns about the number of Afghan civilians being killed by British special forces in the early part of the last decade prompted the country’s then president to make a “muscular” complaint to Nato commanders fighting the Taliban. Newly released evidence from a public inquiry into the deaths of up to 80 people during an SAS deployment also showed that Afghan partner military forces were no longer willing to work alongside the British by the spring of 2011. The statements are contained in redacted and summarised evidence of a special forces staff officer, known only as N1788, who had been responsible for reviewing tactics used in operations that led to civilians repeatedly being killed. “President Hamid Karzai was very ‘muscular’ in addressing the issue” of British detention operations “with Nato’s chain of command”, according to the summary of N1788’s two days of evidence, first given in the autumn of 2024. Around the same time, the evidence summary said, “everyone was aware that some of the Afghan partner units were being reluctant to go on operations” with the British special forces sub-unit, known only as SU1. This became “a major issue for campaigns” across the Nato-led forces",
+      "keywords": [
+        {
+          "name": "forces",
+          "value": 10
+        },
+        {
+          "name": "afghan",
+          "value": 9
+        },
+        {
+          "name": "evidence",
+          "value": 8
+        },
+        {
+          "name": "british",
+          "value": 7
+        },
+        {
+          "name": "killed",
+          "value": 7
+        },
+        {
+          "name": "inquiry",
+          "value": 6
+        },
+        {
+          "name": "afghanistan",
+          "value": 4
+        },
+        {
+          "name": "civilians",
+          "value": 4
+        },
+        {
+          "name": "concerns",
+          "value": 4
+        },
+        {
+          "name": "males",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Diplomacy and Negotiations",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/f12b99a638796636641ed08044de36af070f8b7376c446dde70366e255cc3ed4",
+      "evidence_json": "/evidence/f12b99a638796636641ed08044de36af070f8b7376c446dde70366e255cc3ed4.json"
+    },
     {
       "id": "47cf7db4a3faa09c32af27edfd6d98ffb2ca2a52d494756851a6c123cdd4065e",
       "topic": "geopolitics",
@@ -8595,87 +8674,6 @@
       ],
       "detail_path": "/evidence/6015800dfe72775e435be9f4a80c14a078ec0d868af92f160bcb72b3149b15ce",
       "evidence_json": "/evidence/6015800dfe72775e435be9f4a80c14a078ec0d868af92f160bcb72b3149b15ce.json"
-    },
-    {
-      "id": "a95c85f82b4059599778fa2fece4ed5137323f71c6f33c1c20e6cb8a7f3b84b5",
-      "topic": "geopolitics",
-      "title": "World: Questions and answers on the Communication on Humanitarian Aid (pdf)",
-      "url": "https://reliefweb.int/attachments/43d80300-e60d-582f-8e58-4e74ee9a64bc/Questions_and_answers_on_the_Communication_on_Humanitarian_Aid.pdf",
-      "host": "reliefweb.int",
-      "source": "https://reliefweb.int/updates/rss.xml",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-05-27T22:28:44.261847+00:00",
-      "published": "Wed, 27 May 2026 10:03:21 +0000",
-      "text_chars": 7080,
-      "raw_path": "data/geopolitics/raw/a95c85f82b4059599778fa2fece4ed5137323f71c6f33c1c20e6cb8a7f3b84b5.pdf",
-      "text_path": "data/geopolitics/raw/a95c85f82b4059599778fa2fece4ed5137323f71c6f33c1c20e6cb8a7f3b84b5.txt",
-      "summary": "Since the previous Communication on Humanitarian Action, published in 2021, the international humanitarian system has been shaken to its core, due to the outbreak of armed conflict in Europe, the disastrous humanitarian situation in Gaza, Ukraine or Sudan, and severe funding cuts affecting all aspects of humanitarian work. Humanitarian diplomacy is not optional, it is a political and strategic necessity.",
-      "bullets": [
-        "Since the previous Communication on Humanitarian Action, published in 2021, the international humanitarian system has been shaken to its core, due to the outbreak of armed conflict in Europe, the disastrous humanitarian situation in Gaza, Ukraine or Sudan, and severe funding cuts affecting all aspects of humanitarian work.",
-        "Humanitarian diplomacy is not optional, it is a political and strategic necessity.",
-        "The humanitarian supply chains account for an estimated 60–80% of the total humanitarian spending worldwide, from the procurement of the relief items to their final delivery.",
-        "Providing assistance has also become more difficult with aid workers being attacked, civilians trapped in war zones and international humanitarian law violated with alarming frequency.",
-        "Humanitarian diplomacy means insisting on access, demanding accountability, defending international humanitarian law and keeping civilians at the centre."
-      ],
-      "excerpt": "European Commission - Questions and answers Questions and answers on the Communication on Humanitarian Aid Brussels, 27 May 2026 Why was there a need for a new Communication on Humanitarian Aid? Since the previous Communication on Humanitarian Action, published in 2021, the international humanitarian system has been shaken to its core, due to the outbreak of armed conflict in Europe, the disastrous humanitarian situation in Gaza, Ukraine or Sudan, and severe funding cuts affecting all aspects of humanitarian work. According to the UN, 239 million people worldwide are in need of humanitarian assistance in 2026 – that is up from 31 million in 2006. The number of people forcibly displaced or seeking asylum has doubled over the past decade, reaching 117.3 million in 2025. Not only are humanitarian needs reaching catastrophic levels, but adequate funding is also not available, thus forcing the humanitarian actors to drastically prioritise. Providing assistance has also become more difficult with aid workers being attacked, civilians trapped in war zones and international humanitarian law violated with alarming frequency. In this context, the new Joint Communication sets out the EU's com",
-      "keywords": [
-        {
-          "name": "humanitarian",
-          "value": 46
-        },
-        {
-          "name": "communication",
-          "value": 9
-        },
-        {
-          "name": "approach",
-          "value": 8
-        },
-        {
-          "name": "international",
-          "value": 8
-        },
-        {
-          "name": "funding",
-          "value": 7
-        },
-        {
-          "name": "chains",
-          "value": 5
-        },
-        {
-          "name": "diplomacy",
-          "value": 5
-        },
-        {
-          "name": "joint",
-          "value": 5
-        },
-        {
-          "name": "supply",
-          "value": 5
-        },
-        {
-          "name": "working",
-          "value": 5
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations",
-        "Energy and Supply Chains",
-        "Nuclear and Strategic Risk"
-      ],
-      "regions": [
-        "Africa",
-        "Europe and Russia",
-        "Middle East"
-      ],
-      "file_asset": "/evidence-files/a95c85f82b4059599778fa2fece4ed5137323f71c6f33c1c20e6cb8a7f3b84b5.pdf",
-      "detail_path": "/evidence/a95c85f82b4059599778fa2fece4ed5137323f71c6f33c1c20e6cb8a7f3b84b5",
-      "evidence_json": "/evidence/a95c85f82b4059599778fa2fece4ed5137323f71c6f33c1c20e6cb8a7f3b84b5.json"
     }
   ],
   "deep_reads": [
@@ -9009,7 +9007,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-05-28T22:29:14.337686+00:00",
+      "collected_at": "2026-05-29T00:06:26.028590+00:00",
       "published": "",
       "text_chars": 9051717,
       "raw_path": "data/geopolitics/raw/6f04fe216dc3abb8b7360f8bf74c7b81633f968106e33b27bc6da730ecd3a29e.xml",
@@ -9169,7 +9167,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-28T22:28:38.185069+00:00",
+      "collected_at": "2026-05-29T00:05:50.762396+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -9244,7 +9242,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-28T22:28:38.477806+00:00",
+      "collected_at": "2026-05-29T00:05:51.065181+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -9390,6 +9388,86 @@
       ],
       "detail_path": "/evidence/9428d2e28ff70824438bbaaca3cd22dceafd9789821a5fa691e1dc5dc417c1eb",
       "evidence_json": "/evidence/9428d2e28ff70824438bbaaca3cd22dceafd9789821a5fa691e1dc5dc417c1eb.json"
+    },
+    {
+      "id": "c5fdcfb70c725fecc9976c6c1a4ecae02c839b9c39b20629c9a2d51f19dcf27d",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-05-29T00:05:52.897175+00:00",
+      "published": "",
+      "text_chars": 824889,
+      "raw_path": "data/geopolitics/raw/c5fdcfb70c725fecc9976c6c1a4ecae02c839b9c39b20629c9a2d51f19dcf27d.xml",
+      "text_path": "data/geopolitics/raw/c5fdcfb70c725fecc9976c6c1a4ecae02c839b9c39b20629c9a2d51f19dcf27d.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "bullets": [
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+      ],
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 1476
+        },
+        {
+          "name": "security",
+          "value": 1473
+        },
+        {
+          "name": "interpol",
+          "value": 1239
+        },
+        {
+          "name": "resolution",
+          "value": 840
+        },
+        {
+          "name": "interpol-un",
+          "value": 683
+        },
+        {
+          "name": "afghanistan",
+          "value": 636
+        },
+        {
+          "name": "link",
+          "value": 612
+        },
+        {
+          "name": "republic",
+          "value": 539
+        },
+        {
+          "name": "al-qaida",
+          "value": 515
+        },
+        {
+          "name": "iraq",
+          "value": 480
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/c5fdcfb70c725fecc9976c6c1a4ecae02c839b9c39b20629c9a2d51f19dcf27d",
+      "evidence_json": "/evidence/c5fdcfb70c725fecc9976c6c1a4ecae02c839b9c39b20629c9a2d51f19dcf27d.json"
     },
     {
       "id": "91af141026fe53f51bd25567bb61f792e59856918c8a5beca739d77782a09cf9",
@@ -9961,7 +10039,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-28T22:29:23.744019+00:00",
+      "collected_at": "2026-05-29T00:06:35.062105+00:00",
       "published": "",
       "text_chars": 523907,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -10204,7 +10282,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-05-28T22:28:40.428489+00:00",
+      "collected_at": "2026-05-29T00:05:54.707028+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/52ed466937957a27670d476fd1a3a385f7e9510dc1c5e8494a7e437d05e978a4.xml",
@@ -10836,244 +10914,9 @@
       "file_asset": "/evidence-files/e460939d0a901010c50f049b7e92121b748d2214125e1edb12f056c6015d8cae.pdf",
       "detail_path": "/evidence/e460939d0a901010c50f049b7e92121b748d2214125e1edb12f056c6015d8cae",
       "evidence_json": "/evidence/e460939d0a901010c50f049b7e92121b748d2214125e1edb12f056c6015d8cae.json"
-    },
-    {
-      "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
-      "topic": "geopolitics",
-      "title": "UN Peacekeeping Capstone Doctrine",
-      "url": "https://peacekeeping.un.org/sites/default/files/capstone_eng_0.pdf",
-      "host": "peacekeeping.un.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-05-28T22:29:18.278841+00:00",
-      "published": "",
-      "text_chars": 174113,
-      "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
-      "text_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.txt",
-      "summary": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
-      "bullets": [
-        "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
-        "During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
-        "United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
-        "During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
-        "Guéhenno, USG/DPKO Approved on 18 January 2008 Contact: PBPS/D-PET Review date: January 2010 © United Nations 2008."
-      ],
-      "excerpt": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines United Nations Peacekeeping Operat",
-      "keywords": [
-        {
-          "name": "nations",
-          "value": 574
-        },
-        {
-          "name": "united",
-          "value": 570
-        },
-        {
-          "name": "peacekeeping",
-          "value": 400
-        },
-        {
-          "name": "operations",
-          "value": 263
-        },
-        {
-          "name": "mission",
-          "value": 208
-        },
-        {
-          "name": "security",
-          "value": 171
-        },
-        {
-          "name": "peace",
-          "value": 160
-        },
-        {
-          "name": "operation",
-          "value": 151
-        },
-        {
-          "name": "should",
-          "value": 104
-        },
-        {
-          "name": "support",
-          "value": 100
-        }
-      ],
-      "signals": [
-        "Diplomacy and Negotiations",
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Global Institutions",
-        "Europe and Russia",
-        "Africa"
-      ],
-      "file_asset": "/evidence-files/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
-      "detail_path": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
-      "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     }
   ],
   "documents": [
-    {
-      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "topic": "geopolitics",
-      "title": "United Nations Charter",
-      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
-      "host": "treaties.un.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-05-28T22:29:25.693407+00:00",
-      "published": "",
-      "text_chars": 89992,
-      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
-      "summary": "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
-      "bullets": [
-        "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
-        "Article 5 / A Member of the United Nations against which preventive or enforcement action has been taken by the Security Council may be suspended from the exercise of the rights and privileges of mem- bership by the General Assembly upon the recom- mendation of the Security Council.",
-        "Article 6 A Member of the United Nations which has persistently violated the Principles contained in the present Charter may be expelled from the Organization by the General Assembly upon the recommendation of the Security Council.",
-        "Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
-        "CHAPTER I PURPOSES AND PRINCIPLES Article 1 The^Purposes of the United Nations are: 1."
-      ],
-      "excerpt": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 160
-        },
-        {
-          "name": "court",
-          "value": 155
-        },
-        {
-          "name": "security",
-          "value": 148
-        },
-        {
-          "name": "united",
-          "value": 127
-        },
-        {
-          "name": "nations",
-          "value": 121
-        },
-        {
-          "name": "members",
-          "value": 116
-        },
-        {
-          "name": "general",
-          "value": 94
-        },
-        {
-          "name": "assembly",
-          "value": 83
-        },
-        {
-          "name": "international",
-          "value": 79
-        },
-        {
-          "name": "member",
-          "value": 59
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation",
-        "Humanitarian Pressure"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "detail_path": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
-    },
-    {
-      "id": "6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-05-28T22:29:23.783997+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.html",
-      "text_path": "data/geopolitics/raw/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8",
-      "evidence_json": "/evidence/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.json"
-    },
     {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
@@ -11084,7 +10927,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-28T22:29:23.744019+00:00",
+      "collected_at": "2026-05-29T00:06:35.062105+00:00",
       "published": "",
       "text_chars": 523907,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -11156,6 +10999,157 @@
       "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
+      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "topic": "geopolitics",
+      "title": "United Nations Charter",
+      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
+      "host": "treaties.un.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-05-29T00:06:28.800050+00:00",
+      "published": "",
+      "text_chars": 89992,
+      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
+      "summary": "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
+      "bullets": [
+        "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
+        "Article 5 / A Member of the United Nations against which preventive or enforcement action has been taken by the Security Council may be suspended from the exercise of the rights and privileges of mem- bership by the General Assembly upon the recom- mendation of the Security Council.",
+        "Article 6 A Member of the United Nations which has persistently violated the Principles contained in the present Charter may be expelled from the Organization by the General Assembly upon the recommendation of the Security Council.",
+        "Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
+        "CHAPTER I PURPOSES AND PRINCIPLES Article 1 The^Purposes of the United Nations are: 1."
+      ],
+      "excerpt": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 160
+        },
+        {
+          "name": "court",
+          "value": 155
+        },
+        {
+          "name": "security",
+          "value": 148
+        },
+        {
+          "name": "united",
+          "value": 127
+        },
+        {
+          "name": "nations",
+          "value": 121
+        },
+        {
+          "name": "members",
+          "value": 116
+        },
+        {
+          "name": "general",
+          "value": 94
+        },
+        {
+          "name": "assembly",
+          "value": 83
+        },
+        {
+          "name": "international",
+          "value": 79
+        },
+        {
+          "name": "member",
+          "value": 59
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "detail_path": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-05-29T00:06:28.075214+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -11165,7 +11159,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-28T22:29:18.278841+00:00",
+      "collected_at": "2026-05-29T00:06:28.047909+00:00",
       "published": "",
       "text_chars": 174113,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11237,6 +11231,79 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
+      "id": "ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-05-29T00:06:26.115835+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.html",
+      "text_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
+      "evidence_json": "/evidence/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.json"
+    },
+    {
       "id": "6f04fe216dc3abb8b7360f8bf74c7b81633f968106e33b27bc6da730ecd3a29e",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -11246,7 +11313,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-05-28T22:29:14.337686+00:00",
+      "collected_at": "2026-05-29T00:06:26.028590+00:00",
       "published": "",
       "text_chars": 9051717,
       "raw_path": "data/geopolitics/raw/6f04fe216dc3abb8b7360f8bf74c7b81633f968106e33b27bc6da730ecd3a29e.xml",
@@ -11326,7 +11393,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-05-28T22:28:40.428489+00:00",
+      "collected_at": "2026-05-29T00:05:54.707028+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/52ed466937957a27670d476fd1a3a385f7e9510dc1c5e8494a7e437d05e978a4.xml",
@@ -11397,6 +11464,86 @@
       "evidence_json": "/evidence/52ed466937957a27670d476fd1a3a385f7e9510dc1c5e8494a7e437d05e978a4.json"
     },
     {
+      "id": "c5fdcfb70c725fecc9976c6c1a4ecae02c839b9c39b20629c9a2d51f19dcf27d",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-05-29T00:05:52.897175+00:00",
+      "published": "",
+      "text_chars": 824889,
+      "raw_path": "data/geopolitics/raw/c5fdcfb70c725fecc9976c6c1a4ecae02c839b9c39b20629c9a2d51f19dcf27d.xml",
+      "text_path": "data/geopolitics/raw/c5fdcfb70c725fecc9976c6c1a4ecae02c839b9c39b20629c9a2d51f19dcf27d.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "bullets": [
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+      ],
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 1476
+        },
+        {
+          "name": "security",
+          "value": 1473
+        },
+        {
+          "name": "interpol",
+          "value": 1239
+        },
+        {
+          "name": "resolution",
+          "value": 840
+        },
+        {
+          "name": "interpol-un",
+          "value": 683
+        },
+        {
+          "name": "afghanistan",
+          "value": 636
+        },
+        {
+          "name": "link",
+          "value": 612
+        },
+        {
+          "name": "republic",
+          "value": 539
+        },
+        {
+          "name": "al-qaida",
+          "value": 515
+        },
+        {
+          "name": "iraq",
+          "value": 480
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/c5fdcfb70c725fecc9976c6c1a4ecae02c839b9c39b20629c9a2d51f19dcf27d",
+      "evidence_json": "/evidence/c5fdcfb70c725fecc9976c6c1a4ecae02c839b9c39b20629c9a2d51f19dcf27d.json"
+    },
+    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -11406,7 +11553,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-28T22:28:38.477806+00:00",
+      "collected_at": "2026-05-29T00:05:51.065181+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -11483,7 +11630,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-28T22:28:38.185069+00:00",
+      "collected_at": "2026-05-29T00:05:50.762396+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -11549,74 +11696,77 @@
       "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "id": "6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8",
       "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
       "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-05-28T22:28:37.798682+00:00",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-05-28T22:29:23.783997+00:00",
       "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.html",
+      "text_path": "data/geopolitics/raw/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
       "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
       ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
       "keywords": [
         {
-          "name": "admin",
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
           "value": 2
         },
         {
-          "name": "areas",
+          "name": "classified",
           "value": 2
         },
         {
-          "name": "disputed",
+          "name": "even",
           "value": 2
         },
         {
-          "name": "naciscdn",
+          "name": "some",
           "value": 2
         },
         {
-          "name": "application",
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
           "value": 1
         },
         {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
+          "name": "added",
           "value": 1
         }
       ],
       "signals": [
-        "Territory and Chokepoints"
+        "Sanctions and Finance"
       ],
       "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+      "detail_path": "/evidence/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8",
+      "evidence_json": "/evidence/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.json"
     },
     {
       "id": "91af141026fe53f51bd25567bb61f792e59856918c8a5beca739d77782a09cf9",
@@ -11697,79 +11847,6 @@
       ],
       "detail_path": "/evidence/91af141026fe53f51bd25567bb61f792e59856918c8a5beca739d77782a09cf9",
       "evidence_json": "/evidence/91af141026fe53f51bd25567bb61f792e59856918c8a5beca739d77782a09cf9.json"
-    },
-    {
-      "id": "ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-05-28T18:00:27.293340+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.html",
-      "text_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
-      "evidence_json": "/evidence/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.json"
     },
     {
       "id": "2fd86350b1ec4607eaff853dd2ed3cec08dc3a87055dfcd607b6421a13e3fc84",
@@ -13686,87 +13763,6 @@
       "file_asset": "/evidence-files/16b7c91b033ff0a51ca72b0f6d0ec1c7da6111bbdd9bb0de88e3eb4a86992ecd.pdf",
       "detail_path": "/evidence/16b7c91b033ff0a51ca72b0f6d0ec1c7da6111bbdd9bb0de88e3eb4a86992ecd",
       "evidence_json": "/evidence/16b7c91b033ff0a51ca72b0f6d0ec1c7da6111bbdd9bb0de88e3eb4a86992ecd.json"
-    },
-    {
-      "id": "e460939d0a901010c50f049b7e92121b748d2214125e1edb12f056c6015d8cae",
-      "topic": "geopolitics",
-      "title": "Myanmar Crisis Situation Analysis (Period: 11/05/26 - 17/05/26) (pdf)",
-      "url": "https://reliefweb.int/attachments/23d2325f-f592-4336-a132-69b14f363050/Myanmar_Crisis__Period__11_05_26_-_17_05_26.pdf",
-      "host": "reliefweb.int",
-      "source": "https://reliefweb.int/updates/rss.xml",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-05-26T20:00:26.264285+00:00",
-      "published": "Tue, 26 May 2026 13:38:34 +0000",
-      "text_chars": 243439,
-      "raw_path": "data/geopolitics/raw/e460939d0a901010c50f049b7e92121b748d2214125e1edb12f056c6015d8cae.pdf",
-      "text_path": "data/geopolitics/raw/e460939d0a901010c50f049b7e92121b748d2214125e1edb12f056c6015d8cae.txt",
-      "summary": "Sectoral Analysis 43 Introduction Purpose This report provides a comprehensive overview of the current humanitarian situation, focusing on both operational environment factors and sectoral analysis. It provides tools such as the GANNET Virtual Assistant and GANNET SituationHub to help humanitarian actors access, analyze, and utilize critical information for their operations.",
-      "bullets": [
-        "Sectoral Analysis 43 Introduction Purpose This report provides a comprehensive overview of the current humanitarian situation, focusing on both operational environment factors and sectoral analysis.",
-        "It provides tools such as the GANNET Virtual Assistant and GANNET SituationHub to help humanitarian actors access, analyze, and utilize critical information for their operations.",
-        "GANNET SituationHub The GANNET SituationHub is a generative AI-powered digital public good designed to identify and analyze humanitarian data from thousands of trusted sources in real time.",
-        "GANNET Virtual Assistant The GANNET Virtual Assistant is a verified chatbot designed for humanitarian quick decision-making.",
-        "Built on cutting-edge Generative AI and trained with humanitarian expert-reviewed data, it provides real-time information."
-      ],
-      "excerpt": "Situation Analysis MYANMAR CRISIS Period: 11/05/26 - 17/05/26 Generated: 2026-05-25T10:57:45.937Z Table of Contents 1. Introduction 3 2. Overview 4 3. Operational Environment 6 3.1. Economy 6 3.2. Politics 6 3.3. Security And Stability 8 3.4. Demography 9 3.5. Socio-Cultural 9 3.6. Environment 10 3.7. Conflict 10 3.8. Displacement 12 3.9. Humanitarian Access 13 3.10. Information, Communication and AAP 14 3.11. Legal and Policy 15 4. Sectoral Analysis 17 4.1. Food Security and Livelihoods 17 4.2. Education 18 4.3. Health 18 4.4. Nutrition 20 4.5. WASH 20 4.6. Shelter and Non-Food Items (NFI) 21 4.7. Protection 21 4.8. Vulnerable Groups / Special Needs Groups 23 5. Sources 25 5.1. Operational Environment 25 5.2. Sectoral Analysis 43 Introduction Purpose This report provides a comprehensive overview of the current humanitarian situation, focusing on both operational environment factors and sectoral analysis. It aims to support informed decision-making for humanitarian partners and stakeholders. About GANNET GANNET is a Generative AI Initiative from Data Friendly Space, offering AI-powered tools built to make knowledge and real-time information accessible to our community in a resource",
-      "keywords": [
-        {
-          "name": "myanmar",
-          "value": 436
-        },
-        {
-          "name": "reliefweb",
-          "value": 301
-        },
-        {
-          "name": "junta",
-          "value": 218
-        },
-        {
-          "name": "asean",
-          "value": 169
-        },
-        {
-          "name": "health",
-          "value": 131
-        },
-        {
-          "name": "including",
-          "value": 128
-        },
-        {
-          "name": "access",
-          "value": 126
-        },
-        {
-          "name": "displaced",
-          "value": 120
-        },
-        {
-          "name": "rohingya",
-          "value": 116
-        },
-        {
-          "name": "military",
-          "value": 107
-        }
-      ],
-      "signals": [
-        "Diplomacy and Negotiations",
-        "Humanitarian Pressure",
-        "War and Escalation",
-        "Energy and Supply Chains"
-      ],
-      "regions": [
-        "Global Institutions",
-        "Americas",
-        "Middle East"
-      ],
-      "file_asset": "/evidence-files/e460939d0a901010c50f049b7e92121b748d2214125e1edb12f056c6015d8cae.pdf",
-      "detail_path": "/evidence/e460939d0a901010c50f049b7e92121b748d2214125e1edb12f056c6015d8cae",
-      "evidence_json": "/evidence/e460939d0a901010c50f049b7e92121b748d2214125e1edb12f056c6015d8cae.json"
     }
   ],
   "visual_evidence": [
@@ -15480,160 +15476,6 @@
   "cited_evidence": [],
   "evidence": [
     {
-      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "topic": "geopolitics",
-      "title": "United Nations Charter",
-      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
-      "host": "treaties.un.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-05-28T22:29:25.693407+00:00",
-      "published": "",
-      "text_chars": 89992,
-      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
-      "summary": "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
-      "bullets": [
-        "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
-        "Article 5 / A Member of the United Nations against which preventive or enforcement action has been taken by the Security Council may be suspended from the exercise of the rights and privileges of mem- bership by the General Assembly upon the recom- mendation of the Security Council.",
-        "Article 6 A Member of the United Nations which has persistently violated the Principles contained in the present Charter may be expelled from the Organization by the General Assembly upon the recommendation of the Security Council.",
-        "Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
-        "CHAPTER I PURPOSES AND PRINCIPLES Article 1 The^Purposes of the United Nations are: 1."
-      ],
-      "excerpt": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 160
-        },
-        {
-          "name": "court",
-          "value": 155
-        },
-        {
-          "name": "security",
-          "value": 148
-        },
-        {
-          "name": "united",
-          "value": 127
-        },
-        {
-          "name": "nations",
-          "value": 121
-        },
-        {
-          "name": "members",
-          "value": 116
-        },
-        {
-          "name": "general",
-          "value": 94
-        },
-        {
-          "name": "assembly",
-          "value": 83
-        },
-        {
-          "name": "international",
-          "value": 79
-        },
-        {
-          "name": "member",
-          "value": 59
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation",
-        "Humanitarian Pressure"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "detail_path": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
-    },
-    {
-      "id": "6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-05-28T22:29:23.783997+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.html",
-      "text_path": "data/geopolitics/raw/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8",
-      "evidence_json": "/evidence/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.json"
-    },
-    {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
       "title": "ICRC International Humanitarian Law Handbook",
@@ -15643,7 +15485,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-28T22:29:23.744019+00:00",
+      "collected_at": "2026-05-29T00:06:35.062105+00:00",
       "published": "",
       "text_chars": 523907,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -15715,6 +15557,157 @@
       "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
+      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "topic": "geopolitics",
+      "title": "United Nations Charter",
+      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
+      "host": "treaties.un.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-05-29T00:06:28.800050+00:00",
+      "published": "",
+      "text_chars": 89992,
+      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
+      "summary": "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
+      "bullets": [
+        "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
+        "Article 5 / A Member of the United Nations against which preventive or enforcement action has been taken by the Security Council may be suspended from the exercise of the rights and privileges of mem- bership by the General Assembly upon the recom- mendation of the Security Council.",
+        "Article 6 A Member of the United Nations which has persistently violated the Principles contained in the present Charter may be expelled from the Organization by the General Assembly upon the recommendation of the Security Council.",
+        "Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
+        "CHAPTER I PURPOSES AND PRINCIPLES Article 1 The^Purposes of the United Nations are: 1."
+      ],
+      "excerpt": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 160
+        },
+        {
+          "name": "court",
+          "value": 155
+        },
+        {
+          "name": "security",
+          "value": 148
+        },
+        {
+          "name": "united",
+          "value": 127
+        },
+        {
+          "name": "nations",
+          "value": 121
+        },
+        {
+          "name": "members",
+          "value": 116
+        },
+        {
+          "name": "general",
+          "value": 94
+        },
+        {
+          "name": "assembly",
+          "value": 83
+        },
+        {
+          "name": "international",
+          "value": 79
+        },
+        {
+          "name": "member",
+          "value": 59
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "detail_path": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-05-29T00:06:28.075214+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -15724,7 +15717,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-05-28T22:29:18.278841+00:00",
+      "collected_at": "2026-05-29T00:06:28.047909+00:00",
       "published": "",
       "text_chars": 174113,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15796,6 +15789,79 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
+      "id": "ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-05-29T00:06:26.115835+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.html",
+      "text_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
+      "evidence_json": "/evidence/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.json"
+    },
+    {
       "id": "6f04fe216dc3abb8b7360f8bf74c7b81633f968106e33b27bc6da730ecd3a29e",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -15805,7 +15871,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-05-28T22:29:14.337686+00:00",
+      "collected_at": "2026-05-29T00:06:26.028590+00:00",
       "published": "",
       "text_chars": 9051717,
       "raw_path": "data/geopolitics/raw/6f04fe216dc3abb8b7360f8bf74c7b81633f968106e33b27bc6da730ecd3a29e.xml",
@@ -15885,7 +15951,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-05-28T22:28:40.428489+00:00",
+      "collected_at": "2026-05-29T00:05:54.707028+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/52ed466937957a27670d476fd1a3a385f7e9510dc1c5e8494a7e437d05e978a4.xml",
@@ -15956,6 +16022,86 @@
       "evidence_json": "/evidence/52ed466937957a27670d476fd1a3a385f7e9510dc1c5e8494a7e437d05e978a4.json"
     },
     {
+      "id": "c5fdcfb70c725fecc9976c6c1a4ecae02c839b9c39b20629c9a2d51f19dcf27d",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-05-29T00:05:52.897175+00:00",
+      "published": "",
+      "text_chars": 824889,
+      "raw_path": "data/geopolitics/raw/c5fdcfb70c725fecc9976c6c1a4ecae02c839b9c39b20629c9a2d51f19dcf27d.xml",
+      "text_path": "data/geopolitics/raw/c5fdcfb70c725fecc9976c6c1a4ecae02c839b9c39b20629c9a2d51f19dcf27d.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "bullets": [
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+      ],
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 1476
+        },
+        {
+          "name": "security",
+          "value": 1473
+        },
+        {
+          "name": "interpol",
+          "value": 1239
+        },
+        {
+          "name": "resolution",
+          "value": 840
+        },
+        {
+          "name": "interpol-un",
+          "value": 683
+        },
+        {
+          "name": "afghanistan",
+          "value": 636
+        },
+        {
+          "name": "link",
+          "value": 612
+        },
+        {
+          "name": "republic",
+          "value": 539
+        },
+        {
+          "name": "al-qaida",
+          "value": 515
+        },
+        {
+          "name": "iraq",
+          "value": 480
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/c5fdcfb70c725fecc9976c6c1a4ecae02c839b9c39b20629c9a2d51f19dcf27d",
+      "evidence_json": "/evidence/c5fdcfb70c725fecc9976c6c1a4ecae02c839b9c39b20629c9a2d51f19dcf27d.json"
+    },
+    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -15965,7 +16111,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-28T22:28:38.477806+00:00",
+      "collected_at": "2026-05-29T00:05:51.065181+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -16042,7 +16188,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-05-28T22:28:38.185069+00:00",
+      "collected_at": "2026-05-29T00:05:50.762396+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -16108,74 +16254,155 @@
       "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "id": "f12b99a638796636641ed08044de36af070f8b7376c446dde70366e255cc3ed4",
       "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-05-28T22:28:37.798682+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "title": "Afghan president voiced concern over civilians killed by SAS troops, inquiry told",
+      "url": "https://www.theguardian.com/uk-news/2026/may/29/afghan-president-voiced-concern-over-civilians-killed-by-sas-troops-inquiry-told",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-05-29T00:06:55.870458+00:00",
+      "published": "Thu, 28 May 2026 23:01:33 GMT",
+      "text_chars": 4078,
+      "raw_path": "data/geopolitics/raw/f12b99a638796636641ed08044de36af070f8b7376c446dde70366e255cc3ed4.html",
+      "text_path": "data/geopolitics/raw/f12b99a638796636641ed08044de36af070f8b7376c446dde70366e255cc3ed4.txt",
+      "summary": "This became “a major issue for campaigns” across the Nato-led forces operating in Afghanistan and emerged at the same time as the US president Barack Obama had increased the number of US troops in Afghanistan to try to deal with a growing Taliban insurgency. Concerns about the number of Afghan civilians being killed by British special forces in the early part of the last decade prompted the country’s then president to make a “muscular” complaint to Nato commanders fighting the Taliban.",
       "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+        "This became “a major issue for campaigns” across the Nato-led forces operating in Afghanistan and emerged at the same time as the US president Barack Obama had increased the number of US troops in Afghanistan to try to deal with a growing Taliban insurgency.",
+        "Concerns about the number of Afghan civilians being killed by British special forces in the early part of the last decade prompted the country’s then president to make a “muscular” complaint to Nato commanders fighting the Taliban.",
+        "The statements are contained in redacted and summarised evidence of a special forces staff officer, known only as N1788, who had been responsible for reviewing tactics used in operations that led to civilians repeatedly being killed.",
+        "Around the same time, the evidence summary said, “everyone was aware that some of the Afghan partner units were being reluctant to go on operations” with the British special forces sub-unit, known only as SU1.",
+        "Separating off Afghan adult males during raids had “directly increased the propensity of kinetic [ie military] activity”, N1788 said."
       ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "excerpt": "Concerns about the number of Afghan civilians being killed by British special forces in the early part of the last decade prompted the country’s then president to make a “muscular” complaint to Nato commanders fighting the Taliban. Newly released evidence from a public inquiry into the deaths of up to 80 people during an SAS deployment also showed that Afghan partner military forces were no longer willing to work alongside the British by the spring of 2011. The statements are contained in redacted and summarised evidence of a special forces staff officer, known only as N1788, who had been responsible for reviewing tactics used in operations that led to civilians repeatedly being killed. “President Hamid Karzai was very ‘muscular’ in addressing the issue” of British detention operations “with Nato’s chain of command”, according to the summary of N1788’s two days of evidence, first given in the autumn of 2024. Around the same time, the evidence summary said, “everyone was aware that some of the Afghan partner units were being reluctant to go on operations” with the British special forces sub-unit, known only as SU1. This became “a major issue for campaigns” across the Nato-led forces",
       "keywords": [
         {
-          "name": "admin",
+          "name": "forces",
+          "value": 10
+        },
+        {
+          "name": "afghan",
+          "value": 9
+        },
+        {
+          "name": "evidence",
+          "value": 8
+        },
+        {
+          "name": "british",
+          "value": 7
+        },
+        {
+          "name": "killed",
+          "value": 7
+        },
+        {
+          "name": "inquiry",
+          "value": 6
+        },
+        {
+          "name": "afghanistan",
+          "value": 4
+        },
+        {
+          "name": "civilians",
+          "value": 4
+        },
+        {
+          "name": "concerns",
+          "value": 4
+        },
+        {
+          "name": "males",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Diplomacy and Negotiations",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/f12b99a638796636641ed08044de36af070f8b7376c446dde70366e255cc3ed4",
+      "evidence_json": "/evidence/f12b99a638796636641ed08044de36af070f8b7376c446dde70366e255cc3ed4.json"
+    },
+    {
+      "id": "6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-05-28T22:29:23.783997+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.html",
+      "text_path": "data/geopolitics/raw/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
           "value": 2
         },
         {
-          "name": "areas",
+          "name": "classified",
           "value": 2
         },
         {
-          "name": "disputed",
+          "name": "even",
           "value": 2
         },
         {
-          "name": "naciscdn",
+          "name": "some",
           "value": 2
         },
         {
-          "name": "application",
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
           "value": 1
         },
         {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
+          "name": "added",
           "value": 1
         }
       ],
       "signals": [
-        "Territory and Chokepoints"
+        "Sanctions and Finance"
       ],
       "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+      "detail_path": "/evidence/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8",
+      "evidence_json": "/evidence/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.json"
     },
     {
       "id": "47cf7db4a3faa09c32af27edfd6d98ffb2ca2a52d494756851a6c123cdd4065e",
@@ -16807,79 +17034,6 @@
       ],
       "detail_path": "/evidence/d9c979f01c0c7e844e9c4b229e0966548ea66e1b7446574d7ede2f9206848dfb",
       "evidence_json": "/evidence/d9c979f01c0c7e844e9c4b229e0966548ea66e1b7446574d7ede2f9206848dfb.json"
-    },
-    {
-      "id": "ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-05-28T18:00:27.293340+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.html",
-      "text_path": "data/geopolitics/raw/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb",
-      "evidence_json": "/evidence/ab5184cc170ab4e9a94b442e2062ddce9f93189af351213d3d232058d47965cb.json"
     },
     {
       "id": "2fd86350b1ec4607eaff853dd2ed3cec08dc3a87055dfcd607b6421a13e3fc84",
