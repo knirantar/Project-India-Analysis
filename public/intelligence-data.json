@@ -1,54 +1,96 @@
 {
-  "generated_at": "2026-06-01T15:50:47.389550+00:00",
+  "generated_at": "2026-06-01T20:13:22.148481+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Colombia's presidential election sees far-right candidate Abelardo de la Espriella advance to runoff against leftist Ivan Cepeda.",
+    "headline": "Escalating tensions in the Middle East and Latin America highlight urgent humanitarian and geopolitical challenges.",
     "executive_summary": [
-      "In a surprising turn of events, far-right lawyer Abelardo de la Espriella won the first round of Colombia's presidential election, securing 43.7% of the votes against leftist senator Ivan Cepeda, who garnered 40.9%. This outcome reflects a significant shift in voter sentiment, as De la Espriella's campaign capitalized on public concerns over crime and dissatisfaction with traditional political parties.",
-      "De la Espriella's rise is attributed to a tactical shift among right-wing voters, particularly following the collapse of former frontrunner Paloma Valencia's campaign. Analysts suggest that his outsider status and promises to end Colombia's long-standing armed conflict resonated with a populace eager for change.",
-      "Despite the preliminary results, President Gustavo Petro has expressed skepticism, claiming irregularities in the vote count. This has led to accusations of disinformation from political opponents, highlighting the contentious nature of Colombian politics and the potential for further disputes as the official scrutiny process unfolds.",
-      "The runoff election scheduled for June 21 will be critical, as both candidates aim to consolidate support from the remaining voters. The outcome could significantly impact Colombia's political landscape, particularly in terms of addressing ongoing security challenges and the future of peace negotiations."
+      "Recent developments in the Middle East have seen thousands fleeing Beirut as Israel threatens renewed strikes on Hezbollah, exacerbating humanitarian pressures in the region. The UN has called for respect for civilian lives and infrastructure amidst escalating violence, emphasizing the need for diplomatic solutions to prevent further conflict (evidence id: 11).",
+      "In Colombia, the unexpected first-round victory of far-right candidate Abelardo de la Espriella in the presidential election signals a potential shift in the political landscape, as he aims to end decades of armed conflict. His rise reflects a consolidation of right-wing support, challenging traditional conservative forces (evidence id: 10).",
+      "The humanitarian situation in Honduras is deteriorating due to rising fuel and fertilizer prices, which are compounding the challenges faced by households in the Dry Corridor. Many families are resorting to severe coping strategies as they struggle to meet basic food needs amid economic pressures (evidence id: 24).",
+      "In Mali, the ongoing security crisis has led to significant internal displacement, impacting agricultural livelihoods and food security. The FAO's monitoring indicates that displaced households are facing severe challenges in maintaining agricultural activities, necessitating targeted humanitarian interventions (evidence id: 27)."
     ],
     "key_judgments": [
       {
-        "title": "Surge of Far-Right Politics",
-        "finding": "Abelardo de la Espriella's unexpected victory signals a shift towards far-right politics in Colombia, reflecting voter discontent with traditional parties.",
+        "title": "Humanitarian Crisis in Lebanon",
+        "finding": "The threat of renewed Israeli strikes on Hezbollah has led to mass displacement in Beirut, highlighting the urgent need for humanitarian assistance and diplomatic engagement.",
         "citations": [
-          "10",
-          "24",
-          "28"
+          "11"
         ]
       },
       {
-        "title": "Controversy Over Election Integrity",
-        "finding": "President Petro's claims of electoral irregularities may lead to further political instability and disputes over the election results.",
+        "title": "Political Shift in Colombia",
+        "finding": "Abelardo de la Espriella's victory in the first round of Colombia's presidential election indicates a significant shift towards far-right politics, potentially impacting the country's approach to its long-standing armed conflict.",
         "citations": [
-          "24",
-          "28"
+          "10"
+        ]
+      },
+      {
+        "title": "Economic Strain in Honduras",
+        "finding": "Rising prices for fuel and fertilizers are exacerbating food insecurity in Honduras, pushing households to adopt severe coping strategies to meet their basic needs.",
+        "citations": [
+          "24"
+        ]
+      },
+      {
+        "title": "Displacement and Food Security in Mali",
+        "finding": "The ongoing conflict in Mali has led to significant internal displacement, severely affecting agricultural livelihoods and necessitating targeted humanitarian support.",
+        "citations": [
+          "27"
         ]
       }
     ],
     "regional_read": [
       {
-        "region": "Americas",
-        "assessment": "The political landscape in Colombia is increasingly polarized, with the rise of far-right candidates challenging the status quo and complicating peace efforts.",
+        "region": "Middle East",
+        "assessment": "The region is experiencing heightened tensions with significant humanitarian implications, particularly in Lebanon and Israel, where military actions threaten civilian safety and stability.",
         "citations": [
-          "10",
-          "24",
-          "28"
+          "11"
+        ]
+      },
+      {
+        "region": "Americas",
+        "assessment": "Colombia's political landscape is shifting towards the far-right, which may alter the trajectory of peace efforts and the management of internal conflict.",
+        "citations": [
+          "10"
+        ]
+      },
+      {
+        "region": "Africa",
+        "assessment": "In Mali, the humanitarian crisis is deepening due to conflict-induced displacement, impacting food security and agricultural productivity.",
+        "citations": [
+          "27"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "Colombian Presidential Runoff",
-        "why_it_matters": "The outcome of the runoff election could reshape Colombia's approach to security and peace negotiations, impacting regional stability.",
+        "label": "Lebanon-Israel Conflict",
+        "why_it_matters": "The potential for renewed military conflict poses significant risks to civilian populations and regional stability, necessitating close monitoring of humanitarian conditions.",
         "citations": [
-          "10",
-          "24",
-          "28"
+          "11"
+        ]
+      },
+      {
+        "label": "Colombian Presidential Elections",
+        "why_it_matters": "The outcome of the elections could reshape Colombia's approach to its internal conflict and influence regional political dynamics.",
+        "citations": [
+          "10"
+        ]
+      },
+      {
+        "label": "Honduras Economic Crisis",
+        "why_it_matters": "Rising prices and food insecurity could lead to increased social unrest and humanitarian needs, requiring urgent attention from international aid organizations.",
+        "citations": [
+          "24"
+        ]
+      },
+      {
+        "label": "Mali Displacement Crisis",
+        "why_it_matters": "The ongoing displacement crisis in Mali highlights the need for targeted humanitarian interventions to support affected populations and stabilize the region.",
+        "citations": [
+          "27"
         ]
       }
     ],
@@ -57,23 +99,23 @@
     ]
   },
   "summary": {
-    "raw_documents": 579,
-    "total_text_chars": 95475282,
+    "raw_documents": 583,
+    "total_text_chars": 95486687,
     "sources": 32,
     "signals": 8,
     "regions": 6,
-    "visual_items": 47,
+    "visual_items": 49,
     "pdf_items": 51,
     "renderable_files": 44
   },
   "format_counts": [
     {
       "name": "Article",
-      "value": 427
+      "value": 429
     },
     {
       "name": "Image",
-      "value": 52
+      "value": 54
     },
     {
       "name": "PDF",
@@ -103,11 +145,11 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 410
+      "value": 412
     },
     {
       "name": "images",
-      "value": 49
+      "value": 51
     },
     {
       "name": "pdfs",
@@ -165,7 +207,7 @@
     },
     {
       "name": "global.unitednations.entermediadb.net",
-      "value": 48
+      "value": 50
     },
     {
       "name": "aljazeera.com",
@@ -177,7 +219,7 @@
     },
     {
       "name": "news.un.org",
-      "value": 25
+      "value": 27
     },
     {
       "name": "foreignpolicy.com",
@@ -279,11 +321,11 @@
     },
     {
       "name": "lebanon",
-      "value": 1470
+      "value": 1482
     },
     {
       "name": "humanitarian",
-      "value": 1349
+      "value": 1354
     },
     {
       "name": "care",
@@ -299,7 +341,7 @@
     },
     {
       "name": "conflict",
-      "value": 1181
+      "value": 1192
     },
     {
       "name": "ukraine",
@@ -319,7 +361,7 @@
     },
     {
       "name": "food",
-      "value": 814
+      "value": 821
     },
     {
       "name": "trump",
@@ -371,7 +413,7 @@
     },
     {
       "name": "access",
-      "value": 531
+      "value": 535
     },
     {
       "name": "insecurity",
@@ -449,11 +491,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 386,
+      "count": 387,
       "formats": [
         {
           "name": "Article",
-          "value": 322
+          "value": 323
         },
         {
           "name": "PDF",
@@ -474,6 +516,7 @@
       ],
       "evidence_ids": [
         "ff8fca40a9618e065345a02b61adfc24ade0d849378144f750856c0454fa3bc7",
+        "7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f",
         "19e4c3c419fb7ace2230a58047f5154dac394663b2a7b0c45dc93aea33dc3ba4",
         "766dbcb753c62e5db698adb25aba4887c4d289cda6aa733a2116b6835da21fd5",
         "0d6fe66135acbaf7c7eda6d226a022cc7e6b9e82556468434d38f179a7c8f25d",
@@ -481,10 +524,9 @@
         "da00b3e28eba4170f3fd8ca8820ec27a6aec211025f66a7b091fb12e4da2fd5a",
         "b48c0ee49855e0defcfb76fc3636f6c0fd9d80975abe300602de7480a0287b13",
         "3005e5d41862f7cf0a356e730dd3aa9cd96c78f9b72b2f050f046c4b4aafcdc3",
-        "8b2ef9f48cc2053c3ecbc5e989951ecc41e93635a8522f3dca470886080e399f",
-        "f6f822e11969971b5f161f80a77dab2a3205e51691d7f86b693b45042748367e"
+        "8b2ef9f48cc2053c3ecbc5e989951ecc41e93635a8522f3dca470886080e399f"
       ],
-      "summary": "“What really helped De la Espriella was Valencia’s collapse,” said the political scientist Yan Basset. The far-right lawyer Abelardo de la Espriella and the leftwing senator Iván Cepeda have just under three weeks to compete for the roughly 3.6m votes that did not go to either of them in the first round of Colombia’s presidential election. The lawyer advocates military alliances with the US and Israel, total confrontation with criminal groups and the construction of mega-prisons. Recommended Stories list of 4 items end of list “The Israeli flag is once again flying over the peaks overlooking the Galilee communities,” Defence Minister Israel Katz said at a memorial ceremony for fallen soldiers of the 1982 war with Lebanon, according to The Times of Israel newspaper. Sitting atop a strategic hill near Nabatieh, Lebanon’s fifth largest city, Beaufort Castle and the surrounding ridge, which Israeli forces have also secured, is regarded as one of southern Lebanon’s most strategically important military positions. At an event in his home region of the Sauerland, Merz went off script, appearing to criticize the United States over its failure in the Iran war (leaving unstated that he has effectively facilitated U.S. Trump retaliated by ordering the withdrawal of 5,000 troops from the more than 35,000 based in Germany and canceling a planned deployment of long-range missiles that Germany desperately needs to deter Russia. Iran’s missiles and drones have struck Gulf hotels, energy facilities, and billion-dollar military radars with frequency and persistence. The Center for International and Strategic Studies concluded that, while the picture of replenishment is challenging and often has long lead times, it is manageable for the United States, at least in this war. But technical performance and strategic sustainability are not the same thing, and the Iran war is exposing this critical difference with brutal clarity.",
+      "summary": "“What really helped De la Espriella was Valencia’s collapse,” said the political scientist Yan Basset. The far-right lawyer Abelardo de la Espriella and the leftwing senator Iván Cepeda have just under three weeks to compete for the roughly 3.6m votes that did not go to either of them in the first round of Colombia’s presidential election. The lawyer advocates military alliances with the US and Israel, total confrontation with criminal groups and the construction of mega-prisons. UN Special Coordinator for Lebanon Jeanine-Hennis Plasschaert continues her engagement to de-escalate tensions, reinforce commitments agreed to under the ceasefire, and advance confidence‑building measures. ‘Deepening humanitarian emergency’ However, “nearly three months into the conflict, Lebanon faces a deepening humanitarian emergency with a critical combination of displacement and increased food insecurity,” the UN World Food Programme ( WFP ) warned on Monday. Recommended Stories list of 4 items end of list “The Israeli flag is once again flying over the peaks overlooking the Galilee communities,” Defence Minister Israel Katz said at a memorial ceremony for fallen soldiers of the 1982 war with Lebanon, according to The Times of Israel newspaper. Sitting atop a strategic hill near Nabatieh, Lebanon’s fifth largest city, Beaufort Castle and the surrounding ridge, which Israeli forces have also secured, is regarded as one of southern Lebanon’s most strategically important military positions. At an event in his home region of the Sauerland, Merz went off script, appearing to criticize the United States over its failure in the Iran war (leaving unstated that he has effectively facilitated U.S. Trump retaliated by ordering the withdrawal of 5,000 troops from the more than 35,000 based in Germany and canceling a planned deployment of long-range missiles that Germany desperately needs to deter Russia.",
       "latest": [
         {
           "id": "ff8fca40a9618e065345a02b61adfc24ade0d849378144f750856c0454fa3bc7",
@@ -495,6 +537,16 @@
           "collected_at": "2026-06-01T15:51:09.749252+00:00",
           "published": "Mon, 01 Jun 2026 14:44:45 GMT",
           "summary": "“What really helped De la Espriella was Valencia’s collapse,” said the political scientist Yan Basset. The far-right lawyer Abelardo de la Espriella and the leftwing senator Iván Cepeda have just under three weeks to compete for the roughly 3.6m votes that did not go to either of them in the first round of Colombia’s presidential election. The lawyer advocates military alliances with the US and Israel, total confrontation with criminal groups and the construction of mega-prisons."
+        },
+        {
+          "id": "7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f",
+          "title": "Lebanon: Families flee Beirut as Israel threatens renewed strikes on Hezbollah",
+          "url": "https://news.un.org/feed/view/en/story/2026/06/1167615",
+          "host": "news.un.org",
+          "format": "Article",
+          "collected_at": "2026-06-01T20:13:25.037385+00:00",
+          "published": "Mon, 01 Jun 2026 12:00:00 +0000",
+          "summary": "UN Special Coordinator for Lebanon Jeanine-Hennis Plasschaert continues her engagement to de-escalate tensions, reinforce commitments agreed to under the ceasefire, and advance confidence‑building measures. ‘Deepening humanitarian emergency’ However, “nearly three months into the conflict, Lebanon faces a deepening humanitarian emergency with a critical combination of displacement and increased food insecurity,” the UN World Food Programme ( WFP ) warned on Monday."
         },
         {
           "id": "19e4c3c419fb7ace2230a58047f5154dac394663b2a7b0c45dc93aea33dc3ba4",
@@ -525,16 +577,6 @@
           "collected_at": "2026-06-01T09:16:25.163079+00:00",
           "published": "Mon, 01 Jun 2026 07:30:07 +0000",
           "summary": "Iran’s missiles and drones have struck Gulf hotels, energy facilities, and billion-dollar military radars with frequency and persistence. The Center for International and Strategic Studies concluded that, while the picture of replenishment is challenging and often has long lead times, it is manageable for the United States, at least in this war. But technical performance and strategic sustainability are not the same thing, and the Iran war is exposing this critical difference with brutal clarity."
-        },
-        {
-          "id": "ba5d3d54f776b7cda306b841318e96df2e641646ae1953d7d65a7c1ae099dfcf",
-          "title": "Deterring Russia Beneath the Waves: Securing NATO’s Critical Undersea Infrastructure",
-          "url": "https://warontherocks.com/deterring-russia-beneath-the-waves-securing-natos-critical-undersea-infrastructure/",
-          "host": "warontherocks.com",
-          "format": "Article",
-          "collected_at": "2026-06-01T09:16:27.928257+00:00",
-          "published": "Mon, 01 Jun 2026 07:15:28 +0000",
-          "summary": "For its part, Iran has lately dangled the prospect of charging tolls on undersea cables in the Strait of Hormuz amid a wider blockade. Recent initiatives, such as a NATO Centre for Security of Critical Undersea Infrastructure or the uncrewed Task Force X are welcome. A wide range of actors are engaged in resisting attacks against critical undersea infrastructure, from governments and militaries to the private sector providers of the infrastructure itself."
         }
       ]
     },
@@ -631,11 +673,11 @@
     },
     {
       "name": "Humanitarian Pressure",
-      "count": 226,
+      "count": 227,
       "formats": [
         {
           "name": "Article",
-          "value": 159
+          "value": 160
         },
         {
           "name": "PDF",
@@ -655,6 +697,7 @@
         }
       ],
       "evidence_ids": [
+        "7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f",
         "19e4c3c419fb7ace2230a58047f5154dac394663b2a7b0c45dc93aea33dc3ba4",
         "3005e5d41862f7cf0a356e730dd3aa9cd96c78f9b72b2f050f046c4b4aafcdc3",
         "d9d1d6ae178ea46120b3ff40d54639ee517f14f4d30506c768fe103272fa1da2",
@@ -663,11 +706,20 @@
         "39fed0543dff4c4a9e9649f92cc4020fead510963d3161cb7ef9b9715d3b86d3",
         "c230b337f744fc421d0bbe7a8a8bdf2bc95b839c3725a936c710319ae34fd857",
         "f6f822e11969971b5f161f80a77dab2a3205e51691d7f86b693b45042748367e",
-        "6982f72a3da2f6287984f1eee5b38db37d61f54c859009cc71992f235fbcdc9e",
-        "f44e2b4043701a95e8ea111440d6ce1434cc9e361fbbdb415ffd92a7ebf45a26"
+        "6982f72a3da2f6287984f1eee5b38db37d61f54c859009cc71992f235fbcdc9e"
       ],
-      "summary": "Recommended Stories list of 4 items end of list “The Israeli flag is once again flying over the peaks overlooking the Galilee communities,” Defence Minister Israel Katz said at a memorial ceremony for fallen soldiers of the 1982 war with Lebanon, according to The Times of Israel newspaper. Sitting atop a strategic hill near Nabatieh, Lebanon’s fifth largest city, Beaufort Castle and the surrounding ridge, which Israeli forces have also secured, is regarded as one of southern Lebanon’s most strategically important military positions. May 2026 | Ukraine Joint Market Monitoring Initiative in Ukraine Four years of evolution: From economic shock to the protracted economic impacts of the war (2022-2025) CONTEXT & RATIONALE The full-scale invasion in February 2022 posed an immense challenge to the pursuit of a dignified and secure life in Ukraine. KEY MESSAGES • Air attacks and damage to energy infrastructure from 2022 to 2025 had a significant and multifaceted impact on the functioning of the economy, financial infrastructure, and local markets. While many households continue to meet minimum food needs through market purchases, they are struggling to cover essential non- food expenditures amid below-average seasonal agricultural labor opportunities and are increasingly relying on coping strategies such as selling small livestock and borrowing. The rest of the country will experience Stressed (IPC Phase 2), while urban centers including Tegucigalpa (Francisco Morazán), La Esperanza (Intibucá), and the Bay Islands remain in Minimal (IPC Phase 1) due to more stable formal and informal income... Burkina Faso - Mise à jour des messages clés Mai – Septembre 2026 FEWS NET is a United States government-funded activity. FEWS NET Burkina Faso burkina@fews.net fews.net/west-africa/burkina-faso La faiblesse des revenus limite l’accès alimentaire dans le nord du pays Messages clés • Des résultats de Crise! The content of this report does not necessarily reflect the view of the United States Government.",
+      "summary": "UN Special Coordinator for Lebanon Jeanine-Hennis Plasschaert continues her engagement to de-escalate tensions, reinforce commitments agreed to under the ceasefire, and advance confidence‑building measures. ‘Deepening humanitarian emergency’ However, “nearly three months into the conflict, Lebanon faces a deepening humanitarian emergency with a critical combination of displacement and increased food insecurity,” the UN World Food Programme ( WFP ) warned on Monday. Recommended Stories list of 4 items end of list “The Israeli flag is once again flying over the peaks overlooking the Galilee communities,” Defence Minister Israel Katz said at a memorial ceremony for fallen soldiers of the 1982 war with Lebanon, according to The Times of Israel newspaper. Sitting atop a strategic hill near Nabatieh, Lebanon’s fifth largest city, Beaufort Castle and the surrounding ridge, which Israeli forces have also secured, is regarded as one of southern Lebanon’s most strategically important military positions. May 2026 | Ukraine Joint Market Monitoring Initiative in Ukraine Four years of evolution: From economic shock to the protracted economic impacts of the war (2022-2025) CONTEXT & RATIONALE The full-scale invasion in February 2022 posed an immense challenge to the pursuit of a dignified and secure life in Ukraine. KEY MESSAGES • Air attacks and damage to energy infrastructure from 2022 to 2025 had a significant and multifaceted impact on the functioning of the economy, financial infrastructure, and local markets. While many households continue to meet minimum food needs through market purchases, they are struggling to cover essential non- food expenditures amid below-average seasonal agricultural labor opportunities and are increasingly relying on coping strategies such as selling small livestock and borrowing. The rest of the country will experience Stressed (IPC Phase 2), while urban centers including Tegucigalpa (Francisco Morazán), La Esperanza (Intibucá), and the Bay Islands remain in Minimal (IPC Phase 1) due to more stable formal and informal income...",
       "latest": [
+        {
+          "id": "7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f",
+          "title": "Lebanon: Families flee Beirut as Israel threatens renewed strikes on Hezbollah",
+          "url": "https://news.un.org/feed/view/en/story/2026/06/1167615",
+          "host": "news.un.org",
+          "format": "Article",
+          "collected_at": "2026-06-01T20:13:25.037385+00:00",
+          "published": "Mon, 01 Jun 2026 12:00:00 +0000",
+          "summary": "UN Special Coordinator for Lebanon Jeanine-Hennis Plasschaert continues her engagement to de-escalate tensions, reinforce commitments agreed to under the ceasefire, and advance confidence‑building measures. ‘Deepening humanitarian emergency’ However, “nearly three months into the conflict, Lebanon faces a deepening humanitarian emergency with a critical combination of displacement and increased food insecurity,” the UN World Food Programme ( WFP ) warned on Monday."
+        },
         {
           "id": "19e4c3c419fb7ace2230a58047f5154dac394663b2a7b0c45dc93aea33dc3ba4",
           "title": "What is Lebanon’s Beaufort Castle, and why has Israel captured it?",
@@ -707,16 +759,6 @@
           "collected_at": "2026-06-01T03:54:37.201546+00:00",
           "published": "Mon, 01 Jun 2026 01:43:19 +0000",
           "summary": "Burkina Faso - Mise à jour des messages clés Mai – Septembre 2026 FEWS NET is a United States government-funded activity. FEWS NET Burkina Faso burkina@fews.net fews.net/west-africa/burkina-faso La faiblesse des revenus limite l’accès alimentaire dans le nord du pays Messages clés • Des résultats de Crise! The content of this report does not necessarily reflect the view of the United States Government."
-        },
-        {
-          "id": "34e8df7c1e0e7dbcab923a7f5493bbc3a2fac6e6b14385b1b08aa5648a7e9e1d",
-          "title": "Colombia’s far-right presidential candidate Espriella wins first round of vote ahead of runoff",
-          "url": "https://www.theguardian.com/world/2026/jun/01/colombia-far-right-presidential-candidate-espriella-wins-first-round-of-vote-ahead-of-election-runoff",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-01T03:54:37.301070+00:00",
-          "published": "Mon, 01 Jun 2026 01:04:45 GMT",
-          "summary": "The senator said there was “information regarding a certain number of polling stations” in which “atypical voting patterns” had allegedly occurred. With 99.97% of ballots counted, the outsider and Donald Trump admirer Espriella secured 43.7% of the vote – just over 10.3m votes – compared with 40.9% (about 9.6m votes) for Cepeda, a philosopher and human rights activist who has served as a senator since 2014."
         }
       ]
     },
@@ -896,11 +938,11 @@
     },
     {
       "name": "Institutions and Law",
-      "count": 125,
+      "count": 126,
       "formats": [
         {
           "name": "Article",
-          "value": 82
+          "value": 83
         },
         {
           "name": "PDF",
@@ -920,6 +962,7 @@
         }
       ],
       "evidence_ids": [
+        "7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f",
         "396539e2d3cac60da7fc15fc2066328d35fba91726094ece9a08ce9e29647918",
         "3005e5d41862f7cf0a356e730dd3aa9cd96c78f9b72b2f050f046c4b4aafcdc3",
         "39fed0543dff4c4a9e9649f92cc4020fead510963d3161cb7ef9b9715d3b86d3",
@@ -928,11 +971,20 @@
         "f44e2b4043701a95e8ea111440d6ce1434cc9e361fbbdb415ffd92a7ebf45a26",
         "746d78529d1455434bb75ab297298a2949b1c45ab81a9a984dbeb8da372b2172",
         "213bfdfa4db1f9896dc8613f4f05db850e8483c3031619d3c8d76be2589bb687",
-        "93d1cd02c7029e5b70f5eb8f514167e4861b20577d626f61f7eb515d1c694b1a",
-        "3797a1ebe749bf8cba050976c96e9a6f0ab799c32e458348d63d119786c15f49"
+        "93d1cd02c7029e5b70f5eb8f514167e4861b20577d626f61f7eb515d1c694b1a"
       ],
-      "summary": "Among the four agreements that were signed by the Philippines and Vietnam today was a renewal of the Memorandum of Understanding (MOU) on Defense Cooperation between the two nations’ defense ministries, first signed in 2010, which Marcos said would lead to increased collaborations in joint exercises and military education. It also comes 10 years after the two nations upgraded their ties to a strategic partnership, in large part due to their shared concern about China’s increasingly assertive behavior in the South China Sea. May 2026 | Ukraine Joint Market Monitoring Initiative in Ukraine Four years of evolution: From economic shock to the protracted economic impacts of the war (2022-2025) CONTEXT & RATIONALE The full-scale invasion in February 2022 posed an immense challenge to the pursuit of a dignified and secure life in Ukraine. KEY MESSAGES • Air attacks and damage to energy infrastructure from 2022 to 2025 had a significant and multifaceted impact on the functioning of the economy, financial infrastructure, and local markets. ContextSince the onset of the security crisis in the north of Mali in 2012 – Gao, Kidal and Tombouctou regions – Mali has experienced massive and prolonged internal displacement. Forty-eight percent of all IDPs in Mali are located in these regions (IOM, 2025).•Displacement significantly reduces engagement in agricultural activities: 56 percent of households that practiced agriculture before their displacement ceased agricultural production activities. The Food and Agriculture Organization of the United Nations (FAO) established DIEM-Monitoring in June 2020. The report provides humanitarian actors with a detailed analysis of the needs of displaced farming households to better target interventions aimed at supporting livelihoods, strengthening resilience to shocks and preserving food security. DIEM products include dashboards, maps, briefs and aggregated datasets, enabling partners and stakeholders to implement mitigation measures and better target vulnerable households.",
+      "summary": "UN Special Coordinator for Lebanon Jeanine-Hennis Plasschaert continues her engagement to de-escalate tensions, reinforce commitments agreed to under the ceasefire, and advance confidence‑building measures. ‘Deepening humanitarian emergency’ However, “nearly three months into the conflict, Lebanon faces a deepening humanitarian emergency with a critical combination of displacement and increased food insecurity,” the UN World Food Programme ( WFP ) warned on Monday. Among the four agreements that were signed by the Philippines and Vietnam today was a renewal of the Memorandum of Understanding (MOU) on Defense Cooperation between the two nations’ defense ministries, first signed in 2010, which Marcos said would lead to increased collaborations in joint exercises and military education. It also comes 10 years after the two nations upgraded their ties to a strategic partnership, in large part due to their shared concern about China’s increasingly assertive behavior in the South China Sea. May 2026 | Ukraine Joint Market Monitoring Initiative in Ukraine Four years of evolution: From economic shock to the protracted economic impacts of the war (2022-2025) CONTEXT & RATIONALE The full-scale invasion in February 2022 posed an immense challenge to the pursuit of a dignified and secure life in Ukraine. KEY MESSAGES • Air attacks and damage to energy infrastructure from 2022 to 2025 had a significant and multifaceted impact on the functioning of the economy, financial infrastructure, and local markets. ContextSince the onset of the security crisis in the north of Mali in 2012 – Gao, Kidal and Tombouctou regions – Mali has experienced massive and prolonged internal displacement. Forty-eight percent of all IDPs in Mali are located in these regions (IOM, 2025).•Displacement significantly reduces engagement in agricultural activities: 56 percent of households that practiced agriculture before their displacement ceased agricultural production activities.",
       "latest": [
+        {
+          "id": "7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f",
+          "title": "Lebanon: Families flee Beirut as Israel threatens renewed strikes on Hezbollah",
+          "url": "https://news.un.org/feed/view/en/story/2026/06/1167615",
+          "host": "news.un.org",
+          "format": "Article",
+          "collected_at": "2026-06-01T20:13:25.037385+00:00",
+          "published": "Mon, 01 Jun 2026 12:00:00 +0000",
+          "summary": "UN Special Coordinator for Lebanon Jeanine-Hennis Plasschaert continues her engagement to de-escalate tensions, reinforce commitments agreed to under the ceasefire, and advance confidence‑building measures. ‘Deepening humanitarian emergency’ However, “nearly three months into the conflict, Lebanon faces a deepening humanitarian emergency with a critical combination of displacement and increased food insecurity,” the UN World Food Programme ( WFP ) warned on Monday."
+        },
         {
           "id": "396539e2d3cac60da7fc15fc2066328d35fba91726094ece9a08ce9e29647918",
           "title": "Philippines, Vietnam Upgrade Diplomatic Partnership Amid Maritime Tensions With China",
@@ -972,16 +1024,6 @@
           "collected_at": "2026-06-01T00:01:04.200937+00:00",
           "published": "Sun, 31 May 2026 23:15:37 +0000",
           "summary": "The Food and Agriculture Organization of the United Nations (FAO) established DIEM-Monitoring in June 2020. The report provides humanitarian actors with a detailed analysis of the needs of displaced farming households to better target interventions aimed at supporting livelihoods, strengthening resilience to shocks and preserving food security. DIEM products include dashboards, maps, briefs and aggregated datasets, enabling partners and stakeholders to implement mitigation measures and better target vulnerable households."
-        },
-        {
-          "id": "ea69e731d73fc9e5c9f698a00505edf6a6a3e255622047b8293dbc147c891e4f",
-          "title": "The terrifying day the U.S.-Iran war reached a sleepy Sri Lankan town",
-          "url": "https://www.npr.org/2026/05/31/nx-s1-5820634/the-terrifying-day-the-u-s-iran-war-reached-a-sleepy-sri-lankan-town",
-          "host": "npr.org",
-          "format": "Article",
-          "collected_at": "2026-06-01T03:54:27.415185+00:00",
-          "published": "Sun, 31 May 2026 17:11:15 -0400",
-          "summary": "A deadly strike during the first days of the Iran war hit far away in the Indian Ocean, jolting a quiet seaside town and showing how far the conflict's reach extends. But one of the war's deadliest attacks took place thousands of miles away in the Indian Ocean, shaking a sleepy seaside town. HADID: Anil Jayantha Fernando is deputy minister of finance."
         }
       ]
     },
@@ -1163,8 +1205,10 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 297,
+      "count": 299,
       "evidence_ids": [
+        "7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f",
+        "c5ec19c141d5639221e5cc10bd086f5512bf332c45b1aae634731700a47b0b16",
         "19e4c3c419fb7ace2230a58047f5154dac394663b2a7b0c45dc93aea33dc3ba4",
         "0d6fe66135acbaf7c7eda6d226a022cc7e6b9e82556468434d38f179a7c8f25d",
         "ba5d3d54f776b7cda306b841318e96df2e641646ae1953d7d65a7c1ae099dfcf",
@@ -1174,9 +1218,7 @@
         "f44e2b4043701a95e8ea111440d6ce1434cc9e361fbbdb415ffd92a7ebf45a26",
         "afafba18551c5d071814ad43637b786b8fc10284feb7c00326016d1e9e4a8cbe",
         "746d78529d1455434bb75ab297298a2949b1c45ab81a9a984dbeb8da372b2172",
-        "3880d28861be470a5dc4ec526b8d1c12557f4d291b87066d181668e7cd043071",
-        "f6c78dae79d31165967a3856a230e23a0662fad394bb57b13fdc778c50d083d2",
-        "77faaf97b8bf70ef77de8efb213df3a43422d4d8d8dd5302c4141e495cf2d746"
+        "3880d28861be470a5dc4ec526b8d1c12557f4d291b87066d181668e7cd043071"
       ],
       "top_sources": [
         {
@@ -1197,15 +1239,16 @@
         },
         {
           "name": "global.unitednations.entermediadb.net",
-          "value": 17
+          "value": 18
         }
       ]
     },
     {
       "name": "Americas",
-      "count": 255,
+      "count": 256,
       "evidence_ids": [
         "ff8fca40a9618e065345a02b61adfc24ade0d849378144f750856c0454fa3bc7",
+        "7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f",
         "766dbcb753c62e5db698adb25aba4887c4d289cda6aa733a2116b6835da21fd5",
         "0d6fe66135acbaf7c7eda6d226a022cc7e6b9e82556468434d38f179a7c8f25d",
         "da00b3e28eba4170f3fd8ca8820ec27a6aec211025f66a7b091fb12e4da2fd5a",
@@ -1215,8 +1258,7 @@
         "15af4b637f9aa99131255736076a18d699932a2a18f5e91dfac0d62024c39439",
         "34e8df7c1e0e7dbcab923a7f5493bbc3a2fac6e6b14385b1b08aa5648a7e9e1d",
         "f6f822e11969971b5f161f80a77dab2a3205e51691d7f86b693b45042748367e",
-        "5c1a7a2fcda70b8d7a4a9ff2d128e6aaa6710cc5c5ca87924aa9cb6782b83ecf",
-        "f44e2b4043701a95e8ea111440d6ce1434cc9e361fbbdb415ffd92a7ebf45a26"
+        "5c1a7a2fcda70b8d7a4a9ff2d128e6aaa6710cc5c5ca87924aa9cb6782b83ecf"
       ],
       "top_sources": [
         {
@@ -1283,9 +1325,10 @@
     },
     {
       "name": "Global Institutions",
-      "count": 221,
+      "count": 222,
       "evidence_ids": [
         "ff8fca40a9618e065345a02b61adfc24ade0d849378144f750856c0454fa3bc7",
+        "7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f",
         "633658001032ccc8aba33ea96edcb593ae42a4ca53fa0d03f5e0e90151574f94",
         "766dbcb753c62e5db698adb25aba4887c4d289cda6aa733a2116b6835da21fd5",
         "396539e2d3cac60da7fc15fc2066328d35fba91726094ece9a08ce9e29647918",
@@ -1295,8 +1338,7 @@
         "c230b337f744fc421d0bbe7a8a8bdf2bc95b839c3725a936c710319ae34fd857",
         "f6f822e11969971b5f161f80a77dab2a3205e51691d7f86b693b45042748367e",
         "5c1a7a2fcda70b8d7a4a9ff2d128e6aaa6710cc5c5ca87924aa9cb6782b83ecf",
-        "6982f72a3da2f6287984f1eee5b38db37d61f54c859009cc71992f235fbcdc9e",
-        "7414ec9371c5eda1f9efd995334435822c8122584911bc11f328aa9bea3bb354"
+        "6982f72a3da2f6287984f1eee5b38db37d61f54c859009cc71992f235fbcdc9e"
       ],
       "top_sources": [
         {
@@ -1312,19 +1354,20 @@
           "value": 17
         },
         {
-          "name": "aljazeera.com",
-          "value": 16
+          "name": "news.un.org",
+          "value": 17
         },
         {
-          "name": "atlanticcouncil.org",
+          "name": "aljazeera.com",
           "value": 16
         }
       ]
     },
     {
       "name": "Africa",
-      "count": 156,
+      "count": 157,
       "evidence_ids": [
+        "bfd423e7d2ff8e4379a8fc4bb4519e0577d95eee0b25ea4d8fa1bff540f44760",
         "396539e2d3cac60da7fc15fc2066328d35fba91726094ece9a08ce9e29647918",
         "15af4b637f9aa99131255736076a18d699932a2a18f5e91dfac0d62024c39439",
         "39fed0543dff4c4a9e9649f92cc4020fead510963d3161cb7ef9b9715d3b86d3",
@@ -1335,8 +1378,7 @@
         "93d1cd02c7029e5b70f5eb8f514167e4861b20577d626f61f7eb515d1c694b1a",
         "3797a1ebe749bf8cba050976c96e9a6f0ab799c32e458348d63d119786c15f49",
         "f19a4e2193b85483b37a1920721e5781b6ad5ddded9767ce7c6aa6b20f013f19",
-        "37a19e49b82845a959c6cf17f31c9b967f84521d51635b578c62075c3dd43d50",
-        "552b5a9569cf693ff845ff5565315d9ca85923b0173243ae7eed6fc8b40e3c1a"
+        "37a19e49b82845a959c6cf17f31c9b967f84521d51635b578c62075c3dd43d50"
       ],
       "top_sources": [
         {
@@ -1349,7 +1391,7 @@
         },
         {
           "name": "news.un.org",
-          "value": 13
+          "value": 14
         },
         {
           "name": "scsanctions.un.org",
@@ -1675,6 +1717,20 @@
       "title": "Consolidated Sanctions List",
       "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
       "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong"
+    },
+    {
+      "date": "2026",
+      "evidence_id": "90ebd4483143c692b9df2370c52950527d30f91982c42e2cfc7a93c967aeabee",
+      "title": "From Libyan deserts to 3D-printed guns: The weapons that never go away (image)",
+      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/01-06-2026-Wikipedia-MKII-Stingray.jpg/image560x340cropped.jpg",
+      "excerpt": "ednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/01-06-2026-Wikipedia-MKII-Stingray.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/topic/peace-and-security/feed/rss.xml Content-Type: image/jpeg Bytes: 38192"
+    },
+    {
+      "date": "2026",
+      "evidence_id": "c5ec19c141d5639221e5cc10bd086f5512bf332c45b1aae634731700a47b0b16",
+      "title": "Lebanon: Families flee Beirut as Israel threatens renewed strikes on Hezbollah (image)",
+      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/24-04-2026-UNICEF-Lebanon-01.jpg/image560x340cropped.jpg",
+      "excerpt": "global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/24-04-2026-UNICEF-Lebanon-01.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 48439"
     },
     {
       "date": "2026",
@@ -2368,20 +2424,6 @@
       "title": "South Sudan: Protecting livelihoods and preventing famine - Urgent call for assistance",
       "url": "https://reliefweb.int/report/south-sudan/south-sudan-protecting-livelihoods-and-preventing-famine-urgent-call-assistance",
       "excerpt": "ct their livelihoods and prevent further hunger and malnutrition. Under the South Sudan: Emergency and Resilience Plan, 2026–2028, FAO requires USD 255 million to support 5.25 million people. Of this amount, an initial USD 10 million is urgently needed to deliver time-critical, life-saving agricultural interventions to 1.8 million people."
-    },
-    {
-      "date": "2026",
-      "evidence_id": "a263474854d14409000e1331cb8a4d340c7618cf1d837e794018cd6990c8abca",
-      "title": "South Sudan: Protecting livelihoods and preventing famine - Urgent call for assistance (pdf)",
-      "url": "https://reliefweb.int/attachments/26ee72b4-1210-5f4e-b68b-cc16fde628ef/cd9894en.pdf",
-      "excerpt": "FAO requires USD 10 million To assist 1.8 million people Period May–September 2026 Targeted areas Priority counties within all ten states © FAO/Mayak Akuot Context South Sudan is facing one of the most severe food insecurity crises globally. According to the latest Integrated Food Security Phase Classification (IPC) analysis, 55 percent"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "9d952d1d59d8c97f8f9cdb273f2ad45d58a0a6d49f6952e42efc295c60630ffa",
-      "title": "Latvia sends mobile intercept units to Russian border in wake of drone incursions",
-      "url": "https://www.defensenews.com/global/europe/2026/05/27/latvia-sends-mobile-intercept-units-to-russian-border-in-wake-of-drone-incursions/",
-      "excerpt": "Autonomous Systems Competence Center, stands in front of the drone-testing range of the Sēlija training area on May 26, 2026. (Rudy Ruitenberg/staff) Ukraine has been using mobile fire teams to defeat Russian drone threats since 2022, though the country has increasingly shifted to interceptor drones. Interceptor teams are not a long-term answer, according to Kairišs, who instea"
     }
   ],
   "latest_evidence": [
@@ -2462,6 +2504,296 @@
       ],
       "detail_path": "/evidence/ff8fca40a9618e065345a02b61adfc24ade0d849378144f750856c0454fa3bc7",
       "evidence_json": "/evidence/ff8fca40a9618e065345a02b61adfc24ade0d849378144f750856c0454fa3bc7.json"
+    },
+    {
+      "id": "7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f",
+      "topic": "geopolitics",
+      "title": "Lebanon: Families flee Beirut as Israel threatens renewed strikes on Hezbollah",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167615",
+      "host": "news.un.org",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-01T20:13:25.037385+00:00",
+      "published": "Mon, 01 Jun 2026 12:00:00 +0000",
+      "text_chars": 5329,
+      "raw_path": "data/geopolitics/raw/7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f.html",
+      "text_path": "data/geopolitics/raw/7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f.txt",
+      "summary": "UN Special Coordinator for Lebanon Jeanine-Hennis Plasschaert continues her engagement to de-escalate tensions, reinforce commitments agreed to under the ceasefire, and advance confidence‑building measures. ‘Deepening humanitarian emergency’ However, “nearly three months into the conflict, Lebanon faces a deepening humanitarian emergency with a critical combination of displacement and increased food insecurity,” the UN World Food Programme ( WFP ) warned on Monday.",
+      "bullets": [
+        "UN Special Coordinator for Lebanon Jeanine-Hennis Plasschaert continues her engagement to de-escalate tensions, reinforce commitments agreed to under the ceasefire, and advance confidence‑building measures.",
+        "‘Deepening humanitarian emergency’ However, “nearly three months into the conflict, Lebanon faces a deepening humanitarian emergency with a critical combination of displacement and increased food insecurity,” the UN World Food Programme ( WFP ) warned on Monday.",
+        "The World Health Organization ( WHO ) said five attacks were recorded in the past three days, resulting in one health worker reportedly killed and 19 others injured.",
+        "Humanitarians reported that many people escaped from Beirut and the southern cities of Tyre and Saida following the threat of strikes and renewed displacement orders.",
+        "A US-brokered ceasefire between Lebanon and Israel took effect on 17 April but was never fully observed by either side."
+      ],
+      "excerpt": "Thousands of people fled the southern suburbs of the capital, Beirut, on Monday after Israeli announced that it will carry out renewed strikes targeting Hezbollah militants sheltered there. “Families are leaving by car, motorcycle, and on foot, carrying essentials,” the UN refugee agency, UNHCR, tweeted. Many others are returning to shelters and “fear and uncertainty are mounting.” The UN reiterated that civilians and civilian infrastructures must not be targeted. “We urge all actors to respect the cessation of hostilities and avoid further escalation. We condemn all the loss of civilian lives,” UN Spokesperson Stéphane Dujarric told journalists in New York. He underscored the need for a diplomatic solution to end the cycle of violence. High stakes, heavy cost The development unfolded as the UN Security Council in New York prepared to hold an emergency session on Monday afternoon to discuss the escalating conflict. Humanitarians reported that many people escaped from Beirut and the southern cities of Tyre and Saida following the threat of strikes and renewed displacement orders. UN Special Coordinator for Lebanon Jeanine-Hennis Plasschaert continues her engagement to de-escalate te",
+      "keywords": [
+        {
+          "name": "lebanon",
+          "value": 12
+        },
+        {
+          "name": "emergency",
+          "value": 7
+        },
+        {
+          "name": "food",
+          "value": 7
+        },
+        {
+          "name": "beirut",
+          "value": 5
+        },
+        {
+          "name": "displacement",
+          "value": 5
+        },
+        {
+          "name": "humanitarian",
+          "value": 5
+        },
+        {
+          "name": "access",
+          "value": 4
+        },
+        {
+          "name": "areas",
+          "value": 4
+        },
+        {
+          "name": "cash",
+          "value": 4
+        },
+        {
+          "name": "conflict",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "War and Escalation",
+        "Institutions and Law"
+      ],
+      "regions": [
+        "Middle East",
+        "Global Institutions",
+        "Americas"
+      ],
+      "detail_path": "/evidence/7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f",
+      "evidence_json": "/evidence/7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f.json"
+    },
+    {
+      "id": "90ebd4483143c692b9df2370c52950527d30f91982c42e2cfc7a93c967aeabee",
+      "topic": "geopolitics",
+      "title": "From Libyan deserts to 3D-printed guns: The weapons that never go away (image)",
+      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/01-06-2026-Wikipedia-MKII-Stingray.jpg/image560x340cropped.jpg",
+      "host": "global.unitednations.entermediadb.net",
+      "source": "https://news.un.org/feed/subscribe/en/news/topic/peace-and-security/feed/rss.xml",
+      "data_type": "images",
+      "format": "Image",
+      "content_type": "image/jpeg",
+      "collected_at": "2026-06-01T20:13:46.009412+00:00",
+      "published": "Mon, 01 Jun 2026 12:00:00 +0000",
+      "text_chars": 476,
+      "raw_path": "data/geopolitics/raw/90ebd4483143c692b9df2370c52950527d30f91982c42e2cfc7a93c967aeabee.jpg",
+      "text_path": "data/geopolitics/raw/90ebd4483143c692b9df2370c52950527d30f91982c42e2cfc7a93c967aeabee.txt",
+      "summary": "Binary images source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Binary images source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: From Libyan deserts to 3D-printed guns: The weapons that never go away (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/01-06-2026-Wikipedia-MKII-Stingray.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/topic/peace-and-security/feed/rss.xml Content-Type: image/jpeg Bytes: 38192",
+      "keywords": [
+        {
+          "name": "away",
+          "value": 2
+        },
+        {
+          "name": "d-printed",
+          "value": 2
+        },
+        {
+          "name": "deserts",
+          "value": 2
+        },
+        {
+          "name": "entermediadb",
+          "value": 2
+        },
+        {
+          "name": "feed",
+          "value": 2
+        },
+        {
+          "name": "guns",
+          "value": 2
+        },
+        {
+          "name": "libyan",
+          "value": 2
+        },
+        {
+          "name": "never",
+          "value": 2
+        },
+        {
+          "name": "unitednations",
+          "value": 2
+        },
+        {
+          "name": "weapons",
+          "value": 2
+        }
+      ],
+      "signals": [],
+      "regions": [],
+      "preview_asset": "/evidence-assets/90ebd4483143c692b9df2370c52950527d30f91982c42e2cfc7a93c967aeabee.jpg",
+      "detail_path": "/evidence/90ebd4483143c692b9df2370c52950527d30f91982c42e2cfc7a93c967aeabee",
+      "evidence_json": "/evidence/90ebd4483143c692b9df2370c52950527d30f91982c42e2cfc7a93c967aeabee.json"
+    },
+    {
+      "id": "bfd423e7d2ff8e4379a8fc4bb4519e0577d95eee0b25ea4d8fa1bff540f44760",
+      "topic": "geopolitics",
+      "title": "From Libyan deserts to 3D-printed guns: The weapons that never go away",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167616",
+      "host": "news.un.org",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-01T20:13:41.189077+00:00",
+      "published": "Mon, 01 Jun 2026 12:00:00 +0000",
+      "text_chars": 5159,
+      "raw_path": "data/geopolitics/raw/bfd423e7d2ff8e4379a8fc4bb4519e0577d95eee0b25ea4d8fa1bff540f44760.html",
+      "text_path": "data/geopolitics/raw/bfd423e7d2ff8e4379a8fc4bb4519e0577d95eee0b25ea4d8fa1bff540f44760.txt",
+      "summary": "When wars end, the guns remain One frequently cited example is Libya, where weapons looted or diverted during and after the 2011 conflict which ended the rule of Muammar Gadaffi later surfaced across the wider Sahel region, including in Niger, Burkina Faso and Nigeria. They are brought across borders.” ‘Ghost guns’ and 3D firearms One of the fastest-growing concerns involves so-called ghost guns – firearms assembled from parts or kits and lacking serial numbers – that are near impossible for authorities to trace.",
+      "bullets": [
+        "When wars end, the guns remain One frequently cited example is Libya, where weapons looted or diverted during and after the 2011 conflict which ended the rule of Muammar Gadaffi later surfaced across the wider Sahel region, including in Niger, Burkina Faso and Nigeria.",
+        "They are brought across borders.” ‘Ghost guns’ and 3D firearms One of the fastest-growing concerns involves so-called ghost guns – firearms assembled from parts or kits and lacking serial numbers – that are near impossible for authorities to trace.",
+        "The issue is under scrutiny as delegates gather at UN Headquarters this week to tackle the global spread of illicit firearms – weapons that continue to fuel violence in communities long after wars end.",
+        "At the centre of discussions are emerging technologies that experts warn could make these illegal weapons easier to manufacture and harder to trace.",
+        "“ Wars end – but unfortunately, the weapons that are used in that particular conflict would [then] not be under full control, ” the UN’s top disarmament official, Izumi Nakamitsu, told UN News."
+      ],
+      "excerpt": "The issue is under scrutiny as delegates gather at UN Headquarters this week to tackle the global spread of illicit firearms – weapons that continue to fuel violence in communities long after wars end. At the centre of discussions are emerging technologies that experts warn could make these illegal weapons easier to manufacture and harder to trace. “ Wars end – but unfortunately, the weapons that are used in that particular conflict would [then] not be under full control, ” the UN’s top disarmament official, Izumi Nakamitsu, told UN News. “They continue to circulate. They are sometimes hidden. They are brought across borders.” ‘Ghost guns’ and 3D firearms One of the fastest-growing concerns involves so-called ghost guns – firearms assembled from parts or kits and lacking serial numbers – that are near impossible for authorities to trace. Advances in 3D-printing technology have created additional challenges by allowing components – and in some cases entire and fully operational firearms – to be produced outside traditional manufacturing and regulatory systems. The increasing availability and affordability of such technology has heightened concerns among governments that illicit fire",
+      "keywords": [
+        {
+          "name": "weapons",
+          "value": 20
+        },
+        {
+          "name": "firearms",
+          "value": 9
+        },
+        {
+          "name": "arms",
+          "value": 8
+        },
+        {
+          "name": "illicit",
+          "value": 8
+        },
+        {
+          "name": "small",
+          "value": 8
+        },
+        {
+          "name": "conflict",
+          "value": 7
+        },
+        {
+          "name": "guns",
+          "value": 5
+        },
+        {
+          "name": "nakamitsu",
+          "value": 5
+        },
+        {
+          "name": "communities",
+          "value": 4
+        },
+        {
+          "name": "light",
+          "value": 4
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa"
+      ],
+      "detail_path": "/evidence/bfd423e7d2ff8e4379a8fc4bb4519e0577d95eee0b25ea4d8fa1bff540f44760",
+      "evidence_json": "/evidence/bfd423e7d2ff8e4379a8fc4bb4519e0577d95eee0b25ea4d8fa1bff540f44760.json"
+    },
+    {
+      "id": "c5ec19c141d5639221e5cc10bd086f5512bf332c45b1aae634731700a47b0b16",
+      "topic": "geopolitics",
+      "title": "Lebanon: Families flee Beirut as Israel threatens renewed strikes on Hezbollah (image)",
+      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/24-04-2026-UNICEF-Lebanon-01.jpg/image560x340cropped.jpg",
+      "host": "global.unitednations.entermediadb.net",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "images",
+      "format": "Image",
+      "content_type": "image/jpeg",
+      "collected_at": "2026-06-01T20:13:38.042224+00:00",
+      "published": "Mon, 01 Jun 2026 12:00:00 +0000",
+      "text_chars": 441,
+      "raw_path": "data/geopolitics/raw/c5ec19c141d5639221e5cc10bd086f5512bf332c45b1aae634731700a47b0b16.jpg",
+      "text_path": "data/geopolitics/raw/c5ec19c141d5639221e5cc10bd086f5512bf332c45b1aae634731700a47b0b16.txt",
+      "summary": "Binary images source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Binary images source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: Lebanon: Families flee Beirut as Israel threatens renewed strikes on Hezbollah (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/24-04-2026-UNICEF-Lebanon-01.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 48439",
+      "keywords": [
+        {
+          "name": "beirut",
+          "value": 2
+        },
+        {
+          "name": "entermediadb",
+          "value": 2
+        },
+        {
+          "name": "families",
+          "value": 2
+        },
+        {
+          "name": "flee",
+          "value": 2
+        },
+        {
+          "name": "hezbollah",
+          "value": 2
+        },
+        {
+          "name": "israel",
+          "value": 2
+        },
+        {
+          "name": "lebanon",
+          "value": 2
+        },
+        {
+          "name": "renewed",
+          "value": 2
+        },
+        {
+          "name": "strikes",
+          "value": 2
+        },
+        {
+          "name": "threatens",
+          "value": 2
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Middle East"
+      ],
+      "preview_asset": "/evidence-assets/c5ec19c141d5639221e5cc10bd086f5512bf332c45b1aae634731700a47b0b16.jpg",
+      "detail_path": "/evidence/c5ec19c141d5639221e5cc10bd086f5512bf332c45b1aae634731700a47b0b16",
+      "evidence_json": "/evidence/c5ec19c141d5639221e5cc10bd086f5512bf332c45b1aae634731700a47b0b16.json"
     },
     {
       "id": "633658001032ccc8aba33ea96edcb593ae42a4ca53fa0d03f5e0e90151574f94",
@@ -8324,321 +8656,6 @@
       ],
       "detail_path": "/evidence/1e6f50aabda2fd1b3a4d1d46dd95cdedb8f7d79b62aaa9407d94b7c6bbf07602",
       "evidence_json": "/evidence/1e6f50aabda2fd1b3a4d1d46dd95cdedb8f7d79b62aaa9407d94b7c6bbf07602.json"
-    },
-    {
-      "id": "e7497bc12f2ee318489b2d3f58334eee72b1289d8521b5064f8e54cebc8255a6",
-      "topic": "geopolitics",
-      "title": "WFP Sudan Country Brief May 2026 (pdf)",
-      "url": "https://reliefweb.int/attachments/da3773b7-3d63-4d92-b8e5-d8567e31ea84/WFP%20Sudan%20Country%20Brief%20May%202026.pdf",
-      "host": "reliefweb.int",
-      "source": "https://reliefweb.int/updates/rss.xml",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-05-29T12:45:28.104107+00:00",
-      "published": "Fri, 29 May 2026 09:25:45 +0000",
-      "text_chars": 15811,
-      "raw_path": "data/geopolitics/raw/e7497bc12f2ee318489b2d3f58334eee72b1289d8521b5064f8e54cebc8255a6.pdf",
-      "text_path": "data/geopolitics/raw/e7497bc12f2ee318489b2d3f58334eee72b1289d8521b5064f8e54cebc8255a6.txt",
-      "summary": "In a statement, the UN Secretary-General warned that Sudan has become the world’s largest humanitarian crisis and urged an immediate ceasefire, civilian protection, full funding for aid, and a credible civilian-led political process. • On 24 April, a truck carrying relief items from UNHCR came under drone attack in North Darfur, destroying emergency shelter supplies intended for 1,300 families in Tawila, where more than 700,000 displaced people have sought safety after fleeing fighting in other parts of Darfur.",
-      "bullets": [
-        "In a statement, the UN Secretary-General warned that Sudan has become the world’s largest humanitarian crisis and urged an immediate ceasefire, civilian protection, full funding for aid, and a credible civilian-led political process.",
-        "• On 24 April, a truck carrying relief items from UNHCR came under drone attack in North Darfur, destroying emergency shelter supplies intended for 1,300 families in Tawila, where more than 700,000 displaced people have sought safety after fleeing fighting in other parts of Darfur.",
-        "WFP Sudan Country Brief May 2026 PAGE 2 Contact Info: Abdallah.alwardat@wfp.org Country Director: Abdallah Alwardat OPERATIONAL CHALLENGES • In April, WFP reached fewer beneficiaries than planned, due to a combination of challenges including acute funding shortfalls, active conflict and bureaucratic impediments.",
-        "• 15 April 2026 marked the third anniversary of the war in Sudan.",
-        "• In April, 798,000 people were reached in areas projected to be already facing or at risk of catastrophic hunger (IPC phase 4-5) covering 62 percent of the 1.3 million food-insecure population in those locations."
-      ],
-      "excerpt": "Photo Caption & Credit: Caption: WFP food distribution in Khartoum @WFP/Abubakar Garelnabel Reporting Period: April 2026 Link to WFP Sudan Website WFP SUDAN COUNTRY BRIEF May 2026 3.1 million people assisted in April 2026 26,700 mt food distributed in April 2026 USD 13 million cash transferred in April 2026 USD 578.7 required in the next six months (May-October 2026) SITUATION OVERVIEW • On 2 April, the Office of the RC/HC relocated to Khartoum following the recent re-establishment of government ministries. WFP Sudan is implementing a phased return to Khartoum and rotations supported by the regular UNHAS airbridge. • 15 April 2026 marked the third anniversary of the war in Sudan. In a statement, the UN Secretary-General warned that Sudan has become the world’s largest humanitarian crisis and urged an immediate ceasefire, civilian protection, full funding for aid, and a credible civilian-led political process. • At the Berlin Conference on 15 April, donors pledged over USD 1.5 billion to Sudan. • On 24 April, a truck carrying relief items from UNHCR came under drone attack in North Darfur, destroying emergency shelter supplies intended for 1,300 families in Tawila, where more than 7",
-      "keywords": [
-        {
-          "name": "april",
-          "value": 33
-        },
-        {
-          "name": "food",
-          "value": 33
-        },
-        {
-          "name": "reached",
-          "value": 28
-        },
-        {
-          "name": "assistance",
-          "value": 27
-        },
-        {
-          "name": "sudan",
-          "value": 22
-        },
-        {
-          "name": "darfur",
-          "value": 19
-        },
-        {
-          "name": "kordofan",
-          "value": 15
-        },
-        {
-          "name": "million",
-          "value": 15
-        },
-        {
-          "name": "north",
-          "value": 12
-        },
-        {
-          "name": "emergency",
-          "value": 11
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "War and Escalation",
-        "Territory and Chokepoints",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Global Institutions",
-        "Africa",
-        "Americas"
-      ],
-      "file_asset": "/evidence-files/e7497bc12f2ee318489b2d3f58334eee72b1289d8521b5064f8e54cebc8255a6.pdf",
-      "detail_path": "/evidence/e7497bc12f2ee318489b2d3f58334eee72b1289d8521b5064f8e54cebc8255a6",
-      "evidence_json": "/evidence/e7497bc12f2ee318489b2d3f58334eee72b1289d8521b5064f8e54cebc8255a6.json"
-    },
-    {
-      "id": "8f01077115eaee09a1b434c93558500117205d9f09b75214931e681c321f588a",
-      "topic": "geopolitics",
-      "title": "Nato ready to defend ‘every inch’ of territory as Russian drone hits Romania",
-      "url": "https://www.theguardian.com/world/2026/may/29/russian-drone-romanian-apartments-wounding-two-people-and-starting-fire",
-      "host": "theguardian.com",
-      "source": "https://www.theguardian.com/world/rss",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-05-29T09:38:12.886865+00:00",
-      "published": "Fri, 29 May 2026 09:11:20 GMT",
-      "text_chars": 4408,
-      "raw_path": "data/geopolitics/raw/8f01077115eaee09a1b434c93558500117205d9f09b75214931e681c321f588a.html",
-      "text_path": "data/geopolitics/raw/8f01077115eaee09a1b434c93558500117205d9f09b75214931e681c321f588a.txt",
-      "summary": "As we continue strengthening our security and deterrence, especially on our Eastern border, we will keep increasing the pressure on Russia.” Ukraine’s foreign minister said the incident showed Russia posed a threat to the whole of Europe. The Nato secretary general, Mark Rutte, has said the alliance is “ready to defend every inch” of its territory after a Russian drone hit an apartment building in Romania, a member state, during an overnight attack on neighbouring Ukraine.",
-      "bullets": [
-        "As we continue strengthening our security and deterrence, especially on our Eastern border, we will keep increasing the pressure on Russia.” Ukraine’s foreign minister said the incident showed Russia posed a threat to the whole of Europe.",
-        "The Nato secretary general, Mark Rutte, has said the alliance is “ready to defend every inch” of its territory after a Russian drone hit an apartment building in Romania, a member state, during an overnight attack on neighbouring Ukraine.",
-        "“The recent incursion of a Russian drone into the Romanian airspace and its explosion … proved once again that Russian aggression poses a real threat to the Black Sea region and the entire Europe,” Andrii Sybiha said in a post on X.",
-        "The strike in Romania is the latest example of the war in Ukraine spilling beyond the country’s borders, amid growing concern over Russia’s wider campaign of hybrid warfare across Europe.",
-        "Dan said his country would not accept the war of aggression waged by Russia against Ukraine being transferred to its citizens."
-      ],
-      "excerpt": "The Nato secretary general, Mark Rutte, has said the alliance is “ready to defend every inch” of its territory after a Russian drone hit an apartment building in Romania, a member state, during an overnight attack on neighbouring Ukraine. The incident in Galați, which injured two people, prompted swift condemnation and the threat of repercussions. “Russia’s reckless behaviour is a danger to us all,” Rutte wrote on social media after a call with the Romanian president, Nicuşor Dan. “I affirmed that Nato stands ready to defend every inch of allied territory.” On Friday Dan convened an emergency meeting of the country’s supreme council of national defence and the foreign ministry summoned Russia’s ambassador. The foreign minister, Oana Țoiu, wrote on X: “We will officially communicate the consequences that this lack of responsibility on the part of the Russian Federation will have for the diplomatic relations between our countries, as well as the next steps at the European level regarding sanctions packages.” Map The foreign ministry said it had asked Nato to accelerate the transfer of anti-drone capabilities. It described the incident as a “grave and irresponsible escalation” and a “",
-      "keywords": [
-        {
-          "name": "russia",
-          "value": 10
-        },
-        {
-          "name": "ukraine",
-          "value": 9
-        },
-        {
-          "name": "drone",
-          "value": 7
-        },
-        {
-          "name": "romania",
-          "value": 7
-        },
-        {
-          "name": "russian",
-          "value": 7
-        },
-        {
-          "name": "foreign",
-          "value": 6
-        },
-        {
-          "name": "nato",
-          "value": 6
-        },
-        {
-          "name": "gala",
-          "value": 4
-        },
-        {
-          "name": "incident",
-          "value": 4
-        },
-        {
-          "name": "ministry",
-          "value": 4
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Territory and Chokepoints",
-        "Diplomacy and Negotiations",
-        "Institutions and Law"
-      ],
-      "regions": [
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/8f01077115eaee09a1b434c93558500117205d9f09b75214931e681c321f588a",
-      "evidence_json": "/evidence/8f01077115eaee09a1b434c93558500117205d9f09b75214931e681c321f588a.json"
-    },
-    {
-      "id": "19c5548deba8869e21b131ddcd1687a48572614f7d925597ee0246f9f76c3cb9",
-      "topic": "geopolitics",
-      "title": "WHO chief arrives in DRC promising Ebola outbreak ‘can be stopped’",
-      "url": "https://www.theguardian.com/world/2026/may/29/who-chief-tedros-adhanom-ghebreyesus-drc-ebola-outbreak-epidemic",
-      "host": "theguardian.com",
-      "source": "https://www.theguardian.com/world/rss",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-05-29T09:38:40.484400+00:00",
-      "published": "Fri, 29 May 2026 09:02:21 GMT",
-      "text_chars": 4185,
-      "raw_path": "data/geopolitics/raw/19c5548deba8869e21b131ddcd1687a48572614f7d925597ee0246f9f76c3cb9.html",
-      "text_path": "data/geopolitics/raw/19c5548deba8869e21b131ddcd1687a48572614f7d925597ee0246f9f76c3cb9.txt",
-      "summary": "The deadly Ebola outbreak in the Democratic Republic of the Congo can be stopped, the head of the World Health Organization has said, as he arrived in the country to support efforts to contain the disease. No cause, no conflict, no grievance is worth condemning innocent people to death from a preventable disease.” More than 245,000 people have fled eastern DRC to neighbouring countries since January 2025, according to the UN refugee agency.",
-      "bullets": [
-        "The deadly Ebola outbreak in the Democratic Republic of the Congo can be stopped, the head of the World Health Organization has said, as he arrived in the country to support efforts to contain the disease.",
-        "No cause, no conflict, no grievance is worth condemning innocent people to death from a preventable disease.” More than 245,000 people have fled eastern DRC to neighbouring countries since January 2025, according to the UN refugee agency.",
-        "“That thing can be stopped,” Tedros said in a message to Congolese citizens, adding that the WHO did not support travel bans because they “don’t help much”.",
-        "“Together, we will overcome this outbreak,” he said, promising to do “everything in my power to help”.",
-        "The true scale of the outbreak may be significantly larger, the WHO warned, saying the virus was believed to have circulated undetected for some time."
-      ],
-      "excerpt": "The deadly Ebola outbreak in the Democratic Republic of the Congo can be stopped, the head of the World Health Organization has said, as he arrived in the country to support efforts to contain the disease. Tedros Adhanom Ghebreyesus arrived in Kinsasha on Thursday and was due on Friday to travel to Ituri province in the north-east, where the outbreak was centred. “That thing can be stopped,” Tedros said in a message to Congolese citizens, adding that the WHO did not support travel bans because they “don’t help much”. “Together, we will overcome this outbreak,” he said, promising to do “everything in my power to help”. The WHO has recorded 10 confirmed and 223 suspected Ebola deaths in the DRC since the outbreak was declared on 15 May, among more than 1,000 confirmed and suspected cases. The true scale of the outbreak may be significantly larger, the WHO warned, saying the virus was believed to have circulated undetected for some time. The outbreak is the 17th recorded Ebola epidemic in the vast central African country, which has a population of more than 100 million. The disease was first identified there in 1976. Dr Tedros Adhanom Ghebreyesus speaks to reporters in Kinshasa. Photo",
-      "keywords": [
-        {
-          "name": "ebola",
-          "value": 12
-        },
-        {
-          "name": "outbreak",
-          "value": 11
-        },
-        {
-          "name": "disease",
-          "value": 6
-        },
-        {
-          "name": "kenya",
-          "value": 5
-        },
-        {
-          "name": "tedros",
-          "value": 4
-        },
-        {
-          "name": "agency",
-          "value": 3
-        },
-        {
-          "name": "cases",
-          "value": 3
-        },
-        {
-          "name": "groups",
-          "value": 3
-        },
-        {
-          "name": "health",
-          "value": 3
-        },
-        {
-          "name": "infected",
-          "value": 3
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "War and Escalation",
-        "Territory and Chokepoints"
-      ],
-      "regions": [
-        "Africa"
-      ],
-      "detail_path": "/evidence/19c5548deba8869e21b131ddcd1687a48572614f7d925597ee0246f9f76c3cb9",
-      "evidence_json": "/evidence/19c5548deba8869e21b131ddcd1687a48572614f7d925597ee0246f9f76c3cb9.json"
-    },
-    {
-      "id": "8a97d8f92a0896512714438cf45f6f3090bed3004601e3eab4a7eeef76c90ea4",
-      "topic": "geopolitics",
-      "title": "At French Army FPV competition, NATO soldiers race drones and swap tips",
-      "url": "https://www.defensenews.com/global/europe/2026/05/29/at-french-army-fpv-competition-nato-soldiers-race-drones-and-swap-tips/",
-      "host": "defensenews.com",
-      "source": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=utf-8",
-      "collected_at": "2026-05-29T09:38:40.580802+00:00",
-      "published": "Fri, 29 May 2026 08:58:06 +0000",
-      "text_chars": 9702,
-      "raw_path": "data/geopolitics/raw/8a97d8f92a0896512714438cf45f6f3090bed3004601e3eab4a7eeef76c90ea4.html",
-      "text_path": "data/geopolitics/raw/8a97d8f92a0896512714438cf45f6f3090bed3004601e3eab4a7eeef76c90ea4.txt",
-      "summary": "FPV drones now inflict 60% of the losses on the Russian army, the National Security and Defense Council for Ukraine said in January. CHAUMONT, France — The French Army’s first international drone competition felt a little like a tribute to the drone-racing scene that started it all, said a British pilot who competed in the event on a former United States airbase in eastern France last week.",
-      "bullets": [
-        "FPV drones now inflict 60% of the losses on the Russian army, the National Security and Defense Council for Ukraine said in January.",
-        "CHAUMONT, France — The French Army’s first international drone competition felt a little like a tribute to the drone-racing scene that started it all, said a British pilot who competed in the event on a former United States airbase in eastern France last week.",
-        "It’s kind of, thank you, we will take over from here into the tactical side.” As FPV drones have become an inescapable part of infantry operations on the frontline in Ukraine, NATO countries have started to apply the lessons, at their own pace.",
-        "For drone pilots from eight NATO members, the competition at the Chaumont-Semoutiers airbase was a chance to see allies at work, share tactics and technical tips, and study each other’s equipment.",
-        "He said drones have become an “unavoidable reality,” and also a way to push the land forces towards innovating in the lowest ranks."
-      ],
-      "excerpt": "CHAUMONT, France — The French Army’s first international drone competition felt a little like a tribute to the drone-racing scene that started it all, said a British pilot who competed in the event on a former United States airbase in eastern France last week. Apart from their combat fatigues, the drone pilots with first-person view goggles and joystick controllers could have been hobbyist racers, maneuvering quadcopter drones through bright yellow gates and an abandoned building. But simulated strike missions added a distinctly military edge to the two-day competition, with bonus points for hitting targets including a moving Ford pickup truck. “Even with the British Army we do racing events, because obviously that’s where FPV has always been,” Guardsman Mark, a drone pilot in the 1st Battalion Scots Guards, told Defense News. “It’s good to see that the events here are like almost a homage to FPV racing. It’s kind of, thank you, we will take over from here into the tactical side.” As FPV drones have become an inescapable part of infantry operations on the frontline in Ukraine, NATO countries have started to apply the lessons, at their own pace. Some teams in the two-day competition",
-      "keywords": [
-        {
-          "name": "drone",
-          "value": 19
-        },
-        {
-          "name": "drones",
-          "value": 19
-        },
-        {
-          "name": "french",
-          "value": 14
-        },
-        {
-          "name": "teams",
-          "value": 14
-        },
-        {
-          "name": "pilots",
-          "value": 10
-        },
-        {
-          "name": "competition",
-          "value": 9
-        },
-        {
-          "name": "some",
-          "value": 9
-        },
-        {
-          "name": "army",
-          "value": 7
-        },
-        {
-          "name": "flying",
-          "value": 7
-        },
-        {
-          "name": "pilot",
-          "value": 7
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Institutions and Law"
-      ],
-      "regions": [
-        "Europe and Russia",
-        "Global Institutions",
-        "Americas"
-      ],
-      "detail_path": "/evidence/8a97d8f92a0896512714438cf45f6f3090bed3004601e3eab4a7eeef76c90ea4",
-      "evidence_json": "/evidence/8a97d8f92a0896512714438cf45f6f3090bed3004601e3eab4a7eeef76c90ea4.json"
     }
   ],
   "deep_reads": [
@@ -8972,7 +8989,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-01T15:50:36.204817+00:00",
+      "collected_at": "2026-06-01T20:13:09.578053+00:00",
       "published": "",
       "text_chars": 9059627,
       "raw_path": "data/geopolitics/raw/7c974fbb427c407aff0183dde593a501086d8b6c7bda73690d4f7420c93afd9c.xml",
@@ -9212,7 +9229,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-01T15:50:02.792285+00:00",
+      "collected_at": "2026-06-01T20:12:31.843812+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -9287,7 +9304,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-01T15:50:03.100024+00:00",
+      "collected_at": "2026-06-01T20:12:32.123485+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -10324,7 +10341,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-01T15:50:47.389550+00:00",
+      "collected_at": "2026-06-01T20:13:22.148481+00:00",
       "published": "",
       "text_chars": 523907,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -10567,7 +10584,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-01T15:50:05.017697+00:00",
+      "collected_at": "2026-06-01T20:12:34.636816+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/c58a72779df7855745db02b01e9b701a673f864811ba3a9bf02f2096398ad782.xml",
@@ -10889,7 +10906,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-01T15:50:47.389550+00:00",
+      "collected_at": "2026-06-01T20:13:22.148481+00:00",
       "published": "",
       "text_chars": 523907,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -10961,76 +10978,6 @@
       "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-01T15:50:42.224381+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -11040,7 +10987,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-01T15:50:42.215184+00:00",
+      "collected_at": "2026-06-01T20:13:14.846800+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -11121,7 +11068,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-01T15:50:41.065312+00:00",
+      "collected_at": "2026-06-01T20:13:13.888366+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.html",
@@ -11194,7 +11141,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-01T15:50:41.013678+00:00",
+      "collected_at": "2026-06-01T20:13:13.868378+00:00",
       "published": "",
       "text_chars": 174113,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11275,7 +11222,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-01T15:50:36.204817+00:00",
+      "collected_at": "2026-06-01T20:13:09.578053+00:00",
       "published": "",
       "text_chars": 9059627,
       "raw_path": "data/geopolitics/raw/7c974fbb427c407aff0183dde593a501086d8b6c7bda73690d4f7420c93afd9c.xml",
@@ -11355,7 +11302,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-01T15:50:05.017697+00:00",
+      "collected_at": "2026-06-01T20:12:34.636816+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/c58a72779df7855745db02b01e9b701a673f864811ba3a9bf02f2096398ad782.xml",
@@ -11426,6 +11373,76 @@
       "evidence_json": "/evidence/c58a72779df7855745db02b01e9b701a673f864811ba3a9bf02f2096398ad782.json"
     },
     {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-01T20:12:32.131260+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -11435,7 +11452,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-01T15:50:03.100024+00:00",
+      "collected_at": "2026-06-01T20:12:32.123485+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -11512,7 +11529,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-01T15:50:02.792285+00:00",
+      "collected_at": "2026-06-01T20:12:31.843812+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -13728,6 +13745,144 @@
   ],
   "visual_evidence": [
     {
+      "id": "90ebd4483143c692b9df2370c52950527d30f91982c42e2cfc7a93c967aeabee",
+      "topic": "geopolitics",
+      "title": "From Libyan deserts to 3D-printed guns: The weapons that never go away (image)",
+      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/01-06-2026-Wikipedia-MKII-Stingray.jpg/image560x340cropped.jpg",
+      "host": "global.unitednations.entermediadb.net",
+      "source": "https://news.un.org/feed/subscribe/en/news/topic/peace-and-security/feed/rss.xml",
+      "data_type": "images",
+      "format": "Image",
+      "content_type": "image/jpeg",
+      "collected_at": "2026-06-01T20:13:46.009412+00:00",
+      "published": "Mon, 01 Jun 2026 12:00:00 +0000",
+      "text_chars": 476,
+      "raw_path": "data/geopolitics/raw/90ebd4483143c692b9df2370c52950527d30f91982c42e2cfc7a93c967aeabee.jpg",
+      "text_path": "data/geopolitics/raw/90ebd4483143c692b9df2370c52950527d30f91982c42e2cfc7a93c967aeabee.txt",
+      "summary": "Binary images source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Binary images source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: From Libyan deserts to 3D-printed guns: The weapons that never go away (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/01-06-2026-Wikipedia-MKII-Stingray.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/topic/peace-and-security/feed/rss.xml Content-Type: image/jpeg Bytes: 38192",
+      "keywords": [
+        {
+          "name": "away",
+          "value": 2
+        },
+        {
+          "name": "d-printed",
+          "value": 2
+        },
+        {
+          "name": "deserts",
+          "value": 2
+        },
+        {
+          "name": "entermediadb",
+          "value": 2
+        },
+        {
+          "name": "feed",
+          "value": 2
+        },
+        {
+          "name": "guns",
+          "value": 2
+        },
+        {
+          "name": "libyan",
+          "value": 2
+        },
+        {
+          "name": "never",
+          "value": 2
+        },
+        {
+          "name": "unitednations",
+          "value": 2
+        },
+        {
+          "name": "weapons",
+          "value": 2
+        }
+      ],
+      "signals": [],
+      "regions": [],
+      "preview_asset": "/evidence-assets/90ebd4483143c692b9df2370c52950527d30f91982c42e2cfc7a93c967aeabee.jpg",
+      "detail_path": "/evidence/90ebd4483143c692b9df2370c52950527d30f91982c42e2cfc7a93c967aeabee",
+      "evidence_json": "/evidence/90ebd4483143c692b9df2370c52950527d30f91982c42e2cfc7a93c967aeabee.json"
+    },
+    {
+      "id": "c5ec19c141d5639221e5cc10bd086f5512bf332c45b1aae634731700a47b0b16",
+      "topic": "geopolitics",
+      "title": "Lebanon: Families flee Beirut as Israel threatens renewed strikes on Hezbollah (image)",
+      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/24-04-2026-UNICEF-Lebanon-01.jpg/image560x340cropped.jpg",
+      "host": "global.unitednations.entermediadb.net",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "images",
+      "format": "Image",
+      "content_type": "image/jpeg",
+      "collected_at": "2026-06-01T20:13:38.042224+00:00",
+      "published": "Mon, 01 Jun 2026 12:00:00 +0000",
+      "text_chars": 441,
+      "raw_path": "data/geopolitics/raw/c5ec19c141d5639221e5cc10bd086f5512bf332c45b1aae634731700a47b0b16.jpg",
+      "text_path": "data/geopolitics/raw/c5ec19c141d5639221e5cc10bd086f5512bf332c45b1aae634731700a47b0b16.txt",
+      "summary": "Binary images source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Binary images source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: Lebanon: Families flee Beirut as Israel threatens renewed strikes on Hezbollah (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/24-04-2026-UNICEF-Lebanon-01.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 48439",
+      "keywords": [
+        {
+          "name": "beirut",
+          "value": 2
+        },
+        {
+          "name": "entermediadb",
+          "value": 2
+        },
+        {
+          "name": "families",
+          "value": 2
+        },
+        {
+          "name": "flee",
+          "value": 2
+        },
+        {
+          "name": "hezbollah",
+          "value": 2
+        },
+        {
+          "name": "israel",
+          "value": 2
+        },
+        {
+          "name": "lebanon",
+          "value": 2
+        },
+        {
+          "name": "renewed",
+          "value": 2
+        },
+        {
+          "name": "strikes",
+          "value": 2
+        },
+        {
+          "name": "threatens",
+          "value": 2
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Middle East"
+      ],
+      "preview_asset": "/evidence-assets/c5ec19c141d5639221e5cc10bd086f5512bf332c45b1aae634731700a47b0b16.jpg",
+      "detail_path": "/evidence/c5ec19c141d5639221e5cc10bd086f5512bf332c45b1aae634731700a47b0b16",
+      "evidence_json": "/evidence/c5ec19c141d5639221e5cc10bd086f5512bf332c45b1aae634731700a47b0b16.json"
+    },
+    {
       "id": "33924ef5080ca2a5047aaeaf7c902674b7679790ae9e7ebf55868a251d446086",
       "topic": "geopolitics",
       "title": "Under fire, Kharkiv is already building for a peaceful tomorrow (image)",
@@ -15283,147 +15438,6 @@
       "preview_asset": "/evidence-assets/47f22231d65a2e2119c6ad77d12690657de97e527fa1769acaad60038b166209.jpg",
       "detail_path": "/evidence/47f22231d65a2e2119c6ad77d12690657de97e527fa1769acaad60038b166209",
       "evidence_json": "/evidence/47f22231d65a2e2119c6ad77d12690657de97e527fa1769acaad60038b166209.json"
-    },
-    {
-      "id": "8674848ebe3b5530fd60069a2f61636a1b778d123a8f6141983a441ce172c765",
-      "topic": "geopolitics",
-      "title": "Security Council LIVE: Ambassadors debate future of Gaza amid stalled progress on lasting peace (image)",
-      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/01-05-2026-WFP-Gaza-01.jpg/image560x340cropped.jpg",
-      "host": "global.unitednations.entermediadb.net",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "data_type": "images",
-      "format": "Image",
-      "content_type": "image/jpeg",
-      "collected_at": "2026-05-21T17:30:56.629517+00:00",
-      "published": "Thu, 21 May 2026 12:00:00 +0000",
-      "text_chars": 452,
-      "raw_path": "data/geopolitics/raw/8674848ebe3b5530fd60069a2f61636a1b778d123a8f6141983a441ce172c765.jpg",
-      "text_path": "data/geopolitics/raw/8674848ebe3b5530fd60069a2f61636a1b778d123a8f6141983a441ce172c765.txt",
-      "summary": "Binary images source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Binary images source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: Security Council LIVE: Ambassadors debate future of Gaza amid stalled progress on lasting peace (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/01-05-2026-WFP-Gaza-01.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 36222",
-      "keywords": [
-        {
-          "name": "ambassadors",
-          "value": 2
-        },
-        {
-          "name": "council",
-          "value": 2
-        },
-        {
-          "name": "debate",
-          "value": 2
-        },
-        {
-          "name": "entermediadb",
-          "value": 2
-        },
-        {
-          "name": "future",
-          "value": 2
-        },
-        {
-          "name": "gaza",
-          "value": 2
-        },
-        {
-          "name": "lasting",
-          "value": 2
-        },
-        {
-          "name": "live",
-          "value": 2
-        },
-        {
-          "name": "peace",
-          "value": 2
-        },
-        {
-          "name": "progress",
-          "value": 2
-        }
-      ],
-      "signals": [
-        "Institutions and Law"
-      ],
-      "regions": [
-        "Global Institutions",
-        "Middle East"
-      ],
-      "preview_asset": "/evidence-assets/8674848ebe3b5530fd60069a2f61636a1b778d123a8f6141983a441ce172c765.jpg",
-      "detail_path": "/evidence/8674848ebe3b5530fd60069a2f61636a1b778d123a8f6141983a441ce172c765",
-      "evidence_json": "/evidence/8674848ebe3b5530fd60069a2f61636a1b778d123a8f6141983a441ce172c765.json"
-    },
-    {
-      "id": "b8a108dbfa0d1eace1f63a2261001bf32d0ba793060229e1bbb2e49ff800bf40",
-      "topic": "geopolitics",
-      "title": "Building the smart city: Promise, pitfalls and the people at its heart (image)",
-      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/14-03-2026_shanghai.jpg/image560x340cropped.jpg",
-      "host": "global.unitednations.entermediadb.net",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "data_type": "images",
-      "format": "Image",
-      "content_type": "image/jpeg",
-      "collected_at": "2026-05-21T17:31:36.976797+00:00",
-      "published": "Thu, 21 May 2026 12:00:00 +0000",
-      "text_chars": 435,
-      "raw_path": "data/geopolitics/raw/b8a108dbfa0d1eace1f63a2261001bf32d0ba793060229e1bbb2e49ff800bf40.jpg",
-      "text_path": "data/geopolitics/raw/b8a108dbfa0d1eace1f63a2261001bf32d0ba793060229e1bbb2e49ff800bf40.txt",
-      "summary": "Binary images source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Binary images source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: Building the smart city: Promise, pitfalls and the people at its heart (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/14-03-2026_shanghai.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 47415",
-      "keywords": [
-        {
-          "name": "building",
-          "value": 2
-        },
-        {
-          "name": "city",
-          "value": 2
-        },
-        {
-          "name": "entermediadb",
-          "value": 2
-        },
-        {
-          "name": "heart",
-          "value": 2
-        },
-        {
-          "name": "pitfalls",
-          "value": 2
-        },
-        {
-          "name": "promise",
-          "value": 2
-        },
-        {
-          "name": "smart",
-          "value": 2
-        },
-        {
-          "name": "unitednations",
-          "value": 2
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        }
-      ],
-      "signals": [],
-      "regions": [],
-      "preview_asset": "/evidence-assets/b8a108dbfa0d1eace1f63a2261001bf32d0ba793060229e1bbb2e49ff800bf40.jpg",
-      "detail_path": "/evidence/b8a108dbfa0d1eace1f63a2261001bf32d0ba793060229e1bbb2e49ff800bf40",
-      "evidence_json": "/evidence/b8a108dbfa0d1eace1f63a2261001bf32d0ba793060229e1bbb2e49ff800bf40.json"
     }
   ],
   "cited_evidence": [],
@@ -15438,7 +15452,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-01T15:50:47.389550+00:00",
+      "collected_at": "2026-06-01T20:13:22.148481+00:00",
       "published": "",
       "text_chars": 523907,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -15510,76 +15524,6 @@
       "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-01T15:50:42.224381+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -15589,7 +15533,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-01T15:50:42.215184+00:00",
+      "collected_at": "2026-06-01T20:13:14.846800+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15670,7 +15614,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-01T15:50:41.065312+00:00",
+      "collected_at": "2026-06-01T20:13:13.888366+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.html",
@@ -15743,7 +15687,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-01T15:50:41.013678+00:00",
+      "collected_at": "2026-06-01T20:13:13.868378+00:00",
       "published": "",
       "text_chars": 174113,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15824,7 +15768,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-01T15:50:36.204817+00:00",
+      "collected_at": "2026-06-01T20:13:09.578053+00:00",
       "published": "",
       "text_chars": 9059627,
       "raw_path": "data/geopolitics/raw/7c974fbb427c407aff0183dde593a501086d8b6c7bda73690d4f7420c93afd9c.xml",
@@ -15904,7 +15848,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-01T15:50:05.017697+00:00",
+      "collected_at": "2026-06-01T20:12:34.636816+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/c58a72779df7855745db02b01e9b701a673f864811ba3a9bf02f2096398ad782.xml",
@@ -15975,6 +15919,76 @@
       "evidence_json": "/evidence/c58a72779df7855745db02b01e9b701a673f864811ba3a9bf02f2096398ad782.json"
     },
     {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-01T20:12:32.131260+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -15984,7 +15998,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-01T15:50:03.100024+00:00",
+      "collected_at": "2026-06-01T20:12:32.123485+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -16061,7 +16075,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-01T15:50:02.792285+00:00",
+      "collected_at": "2026-06-01T20:12:31.843812+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -16283,6 +16297,296 @@
       ],
       "detail_path": "/evidence/ff8fca40a9618e065345a02b61adfc24ade0d849378144f750856c0454fa3bc7",
       "evidence_json": "/evidence/ff8fca40a9618e065345a02b61adfc24ade0d849378144f750856c0454fa3bc7.json"
+    },
+    {
+      "id": "7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f",
+      "topic": "geopolitics",
+      "title": "Lebanon: Families flee Beirut as Israel threatens renewed strikes on Hezbollah",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167615",
+      "host": "news.un.org",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-01T20:13:25.037385+00:00",
+      "published": "Mon, 01 Jun 2026 12:00:00 +0000",
+      "text_chars": 5329,
+      "raw_path": "data/geopolitics/raw/7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f.html",
+      "text_path": "data/geopolitics/raw/7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f.txt",
+      "summary": "UN Special Coordinator for Lebanon Jeanine-Hennis Plasschaert continues her engagement to de-escalate tensions, reinforce commitments agreed to under the ceasefire, and advance confidence‑building measures. ‘Deepening humanitarian emergency’ However, “nearly three months into the conflict, Lebanon faces a deepening humanitarian emergency with a critical combination of displacement and increased food insecurity,” the UN World Food Programme ( WFP ) warned on Monday.",
+      "bullets": [
+        "UN Special Coordinator for Lebanon Jeanine-Hennis Plasschaert continues her engagement to de-escalate tensions, reinforce commitments agreed to under the ceasefire, and advance confidence‑building measures.",
+        "‘Deepening humanitarian emergency’ However, “nearly three months into the conflict, Lebanon faces a deepening humanitarian emergency with a critical combination of displacement and increased food insecurity,” the UN World Food Programme ( WFP ) warned on Monday.",
+        "The World Health Organization ( WHO ) said five attacks were recorded in the past three days, resulting in one health worker reportedly killed and 19 others injured.",
+        "Humanitarians reported that many people escaped from Beirut and the southern cities of Tyre and Saida following the threat of strikes and renewed displacement orders.",
+        "A US-brokered ceasefire between Lebanon and Israel took effect on 17 April but was never fully observed by either side."
+      ],
+      "excerpt": "Thousands of people fled the southern suburbs of the capital, Beirut, on Monday after Israeli announced that it will carry out renewed strikes targeting Hezbollah militants sheltered there. “Families are leaving by car, motorcycle, and on foot, carrying essentials,” the UN refugee agency, UNHCR, tweeted. Many others are returning to shelters and “fear and uncertainty are mounting.” The UN reiterated that civilians and civilian infrastructures must not be targeted. “We urge all actors to respect the cessation of hostilities and avoid further escalation. We condemn all the loss of civilian lives,” UN Spokesperson Stéphane Dujarric told journalists in New York. He underscored the need for a diplomatic solution to end the cycle of violence. High stakes, heavy cost The development unfolded as the UN Security Council in New York prepared to hold an emergency session on Monday afternoon to discuss the escalating conflict. Humanitarians reported that many people escaped from Beirut and the southern cities of Tyre and Saida following the threat of strikes and renewed displacement orders. UN Special Coordinator for Lebanon Jeanine-Hennis Plasschaert continues her engagement to de-escalate te",
+      "keywords": [
+        {
+          "name": "lebanon",
+          "value": 12
+        },
+        {
+          "name": "emergency",
+          "value": 7
+        },
+        {
+          "name": "food",
+          "value": 7
+        },
+        {
+          "name": "beirut",
+          "value": 5
+        },
+        {
+          "name": "displacement",
+          "value": 5
+        },
+        {
+          "name": "humanitarian",
+          "value": 5
+        },
+        {
+          "name": "access",
+          "value": 4
+        },
+        {
+          "name": "areas",
+          "value": 4
+        },
+        {
+          "name": "cash",
+          "value": 4
+        },
+        {
+          "name": "conflict",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "War and Escalation",
+        "Institutions and Law"
+      ],
+      "regions": [
+        "Middle East",
+        "Global Institutions",
+        "Americas"
+      ],
+      "detail_path": "/evidence/7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f",
+      "evidence_json": "/evidence/7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f.json"
+    },
+    {
+      "id": "90ebd4483143c692b9df2370c52950527d30f91982c42e2cfc7a93c967aeabee",
+      "topic": "geopolitics",
+      "title": "From Libyan deserts to 3D-printed guns: The weapons that never go away (image)",
+      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/01-06-2026-Wikipedia-MKII-Stingray.jpg/image560x340cropped.jpg",
+      "host": "global.unitednations.entermediadb.net",
+      "source": "https://news.un.org/feed/subscribe/en/news/topic/peace-and-security/feed/rss.xml",
+      "data_type": "images",
+      "format": "Image",
+      "content_type": "image/jpeg",
+      "collected_at": "2026-06-01T20:13:46.009412+00:00",
+      "published": "Mon, 01 Jun 2026 12:00:00 +0000",
+      "text_chars": 476,
+      "raw_path": "data/geopolitics/raw/90ebd4483143c692b9df2370c52950527d30f91982c42e2cfc7a93c967aeabee.jpg",
+      "text_path": "data/geopolitics/raw/90ebd4483143c692b9df2370c52950527d30f91982c42e2cfc7a93c967aeabee.txt",
+      "summary": "Binary images source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Binary images source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: From Libyan deserts to 3D-printed guns: The weapons that never go away (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/01-06-2026-Wikipedia-MKII-Stingray.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/topic/peace-and-security/feed/rss.xml Content-Type: image/jpeg Bytes: 38192",
+      "keywords": [
+        {
+          "name": "away",
+          "value": 2
+        },
+        {
+          "name": "d-printed",
+          "value": 2
+        },
+        {
+          "name": "deserts",
+          "value": 2
+        },
+        {
+          "name": "entermediadb",
+          "value": 2
+        },
+        {
+          "name": "feed",
+          "value": 2
+        },
+        {
+          "name": "guns",
+          "value": 2
+        },
+        {
+          "name": "libyan",
+          "value": 2
+        },
+        {
+          "name": "never",
+          "value": 2
+        },
+        {
+          "name": "unitednations",
+          "value": 2
+        },
+        {
+          "name": "weapons",
+          "value": 2
+        }
+      ],
+      "signals": [],
+      "regions": [],
+      "preview_asset": "/evidence-assets/90ebd4483143c692b9df2370c52950527d30f91982c42e2cfc7a93c967aeabee.jpg",
+      "detail_path": "/evidence/90ebd4483143c692b9df2370c52950527d30f91982c42e2cfc7a93c967aeabee",
+      "evidence_json": "/evidence/90ebd4483143c692b9df2370c52950527d30f91982c42e2cfc7a93c967aeabee.json"
+    },
+    {
+      "id": "bfd423e7d2ff8e4379a8fc4bb4519e0577d95eee0b25ea4d8fa1bff540f44760",
+      "topic": "geopolitics",
+      "title": "From Libyan deserts to 3D-printed guns: The weapons that never go away",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167616",
+      "host": "news.un.org",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-01T20:13:41.189077+00:00",
+      "published": "Mon, 01 Jun 2026 12:00:00 +0000",
+      "text_chars": 5159,
+      "raw_path": "data/geopolitics/raw/bfd423e7d2ff8e4379a8fc4bb4519e0577d95eee0b25ea4d8fa1bff540f44760.html",
+      "text_path": "data/geopolitics/raw/bfd423e7d2ff8e4379a8fc4bb4519e0577d95eee0b25ea4d8fa1bff540f44760.txt",
+      "summary": "When wars end, the guns remain One frequently cited example is Libya, where weapons looted or diverted during and after the 2011 conflict which ended the rule of Muammar Gadaffi later surfaced across the wider Sahel region, including in Niger, Burkina Faso and Nigeria. They are brought across borders.” ‘Ghost guns’ and 3D firearms One of the fastest-growing concerns involves so-called ghost guns – firearms assembled from parts or kits and lacking serial numbers – that are near impossible for authorities to trace.",
+      "bullets": [
+        "When wars end, the guns remain One frequently cited example is Libya, where weapons looted or diverted during and after the 2011 conflict which ended the rule of Muammar Gadaffi later surfaced across the wider Sahel region, including in Niger, Burkina Faso and Nigeria.",
+        "They are brought across borders.” ‘Ghost guns’ and 3D firearms One of the fastest-growing concerns involves so-called ghost guns – firearms assembled from parts or kits and lacking serial numbers – that are near impossible for authorities to trace.",
+        "The issue is under scrutiny as delegates gather at UN Headquarters this week to tackle the global spread of illicit firearms – weapons that continue to fuel violence in communities long after wars end.",
+        "At the centre of discussions are emerging technologies that experts warn could make these illegal weapons easier to manufacture and harder to trace.",
+        "“ Wars end – but unfortunately, the weapons that are used in that particular conflict would [then] not be under full control, ” the UN’s top disarmament official, Izumi Nakamitsu, told UN News."
+      ],
+      "excerpt": "The issue is under scrutiny as delegates gather at UN Headquarters this week to tackle the global spread of illicit firearms – weapons that continue to fuel violence in communities long after wars end. At the centre of discussions are emerging technologies that experts warn could make these illegal weapons easier to manufacture and harder to trace. “ Wars end – but unfortunately, the weapons that are used in that particular conflict would [then] not be under full control, ” the UN’s top disarmament official, Izumi Nakamitsu, told UN News. “They continue to circulate. They are sometimes hidden. They are brought across borders.” ‘Ghost guns’ and 3D firearms One of the fastest-growing concerns involves so-called ghost guns – firearms assembled from parts or kits and lacking serial numbers – that are near impossible for authorities to trace. Advances in 3D-printing technology have created additional challenges by allowing components – and in some cases entire and fully operational firearms – to be produced outside traditional manufacturing and regulatory systems. The increasing availability and affordability of such technology has heightened concerns among governments that illicit fire",
+      "keywords": [
+        {
+          "name": "weapons",
+          "value": 20
+        },
+        {
+          "name": "firearms",
+          "value": 9
+        },
+        {
+          "name": "arms",
+          "value": 8
+        },
+        {
+          "name": "illicit",
+          "value": 8
+        },
+        {
+          "name": "small",
+          "value": 8
+        },
+        {
+          "name": "conflict",
+          "value": 7
+        },
+        {
+          "name": "guns",
+          "value": 5
+        },
+        {
+          "name": "nakamitsu",
+          "value": 5
+        },
+        {
+          "name": "communities",
+          "value": 4
+        },
+        {
+          "name": "light",
+          "value": 4
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa"
+      ],
+      "detail_path": "/evidence/bfd423e7d2ff8e4379a8fc4bb4519e0577d95eee0b25ea4d8fa1bff540f44760",
+      "evidence_json": "/evidence/bfd423e7d2ff8e4379a8fc4bb4519e0577d95eee0b25ea4d8fa1bff540f44760.json"
+    },
+    {
+      "id": "c5ec19c141d5639221e5cc10bd086f5512bf332c45b1aae634731700a47b0b16",
+      "topic": "geopolitics",
+      "title": "Lebanon: Families flee Beirut as Israel threatens renewed strikes on Hezbollah (image)",
+      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/24-04-2026-UNICEF-Lebanon-01.jpg/image560x340cropped.jpg",
+      "host": "global.unitednations.entermediadb.net",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "images",
+      "format": "Image",
+      "content_type": "image/jpeg",
+      "collected_at": "2026-06-01T20:13:38.042224+00:00",
+      "published": "Mon, 01 Jun 2026 12:00:00 +0000",
+      "text_chars": 441,
+      "raw_path": "data/geopolitics/raw/c5ec19c141d5639221e5cc10bd086f5512bf332c45b1aae634731700a47b0b16.jpg",
+      "text_path": "data/geopolitics/raw/c5ec19c141d5639221e5cc10bd086f5512bf332c45b1aae634731700a47b0b16.txt",
+      "summary": "Binary images source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Binary images source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: Lebanon: Families flee Beirut as Israel threatens renewed strikes on Hezbollah (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/24-04-2026-UNICEF-Lebanon-01.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 48439",
+      "keywords": [
+        {
+          "name": "beirut",
+          "value": 2
+        },
+        {
+          "name": "entermediadb",
+          "value": 2
+        },
+        {
+          "name": "families",
+          "value": 2
+        },
+        {
+          "name": "flee",
+          "value": 2
+        },
+        {
+          "name": "hezbollah",
+          "value": 2
+        },
+        {
+          "name": "israel",
+          "value": 2
+        },
+        {
+          "name": "lebanon",
+          "value": 2
+        },
+        {
+          "name": "renewed",
+          "value": 2
+        },
+        {
+          "name": "strikes",
+          "value": 2
+        },
+        {
+          "name": "threatens",
+          "value": 2
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Middle East"
+      ],
+      "preview_asset": "/evidence-assets/c5ec19c141d5639221e5cc10bd086f5512bf332c45b1aae634731700a47b0b16.jpg",
+      "detail_path": "/evidence/c5ec19c141d5639221e5cc10bd086f5512bf332c45b1aae634731700a47b0b16",
+      "evidence_json": "/evidence/c5ec19c141d5639221e5cc10bd086f5512bf332c45b1aae634731700a47b0b16.json"
     },
     {
       "id": "633658001032ccc8aba33ea96edcb593ae42a4ca53fa0d03f5e0e90151574f94",
