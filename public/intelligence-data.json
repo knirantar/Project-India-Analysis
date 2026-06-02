@@ -1,65 +1,61 @@
 {
-  "generated_at": "2026-06-02T00:12:07.326438+00:00",
+  "generated_at": "2026-06-02T05:26:42.415317+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating tensions in the Middle East prompt humanitarian concerns and geopolitical shifts.",
+    "headline": "Escalating Tensions in the Middle East and Global Implications",
     "executive_summary": [
-      "Recent developments in the Middle East have seen a significant increase in humanitarian pressures as families flee conflict zones in Lebanon due to threats of renewed Israeli strikes on Hezbollah militants. The UN has reported a surge in displacement and casualties, emphasizing the urgent need for diplomatic solutions to prevent further escalation (evidence id: 15).",
-      "In parallel, the geopolitical landscape is shifting as the Philippines and Vietnam enhance their diplomatic partnership amid rising maritime tensions with China. This strategic move reflects a broader regional response to perceived threats and aims to maintain stability in the Indo-Pacific (evidence id: 25).",
-      "The ongoing conflict in Ukraine continues to impact local markets and humanitarian conditions, with air attacks damaging energy infrastructure and exacerbating inflationary pressures. The Joint Market Monitoring Initiative has highlighted the resilience of local markets despite these challenges, indicating a complex economic landscape (evidence id: 27).",
-      "Furthermore, the U.S. military's recent strikes against Iranian military sites in response to drone attacks underscore the fragility of the ceasefire in the Iran war, with both sides engaging in retaliatory actions that threaten to destabilize the region further (evidence id: 24)."
+      "Recent reports indicate a significant increase in violence in the Middle East, particularly in the occupied West Bank, where UN experts have warned of 'surging Israeli settler terror' leading to numerous Palestinian casualties and displacement. This situation has raised alarms about the potential for further escalation in the region, as the humanitarian impact continues to grow.",
+      "In Lebanon, the threat of renewed Israeli strikes on Hezbollah has prompted mass evacuations from southern Beirut, with civilians fleeing in fear of impending violence. The UN has called for all parties to respect ceasefire agreements and avoid further escalation, emphasizing the need for a diplomatic resolution to the ongoing conflict.",
+      "The geopolitical landscape is further complicated by the ongoing tensions between the United States and Iran, with recent military exchanges highlighting the fragility of a ceasefire in the Iran war. The U.S. has conducted strikes against Iranian military sites in response to drone attacks, while Iran has retaliated, indicating a cycle of violence that undermines diplomatic efforts.",
+      "Amid these tensions, the Philippines and Vietnam have strengthened their diplomatic ties in response to China's assertive behavior in the South China Sea, reflecting a broader trend of regional alliances forming in the face of perceived threats. This development underscores the shifting dynamics in global geopolitics as nations seek to bolster their security in an increasingly unstable environment."
     ],
     "key_judgments": [
       {
-        "title": "Humanitarian Crisis in Lebanon",
-        "finding": "The threat of renewed Israeli strikes has led to mass displacement in Beirut, highlighting the urgent humanitarian crisis in the region.",
+        "title": "Escalating Violence in the West Bank",
+        "finding": "UN experts report a sharp increase in violence from Israeli settlers, resulting in at least 13 Palestinian deaths and nearly 500 injuries in the first five months of the year.",
         "citations": [
-          "15"
+          "10"
+        ]
+      },
+      {
+        "title": "Humanitarian Crisis in Lebanon",
+        "finding": "Thousands of civilians are fleeing southern Beirut amid threats of renewed Israeli strikes on Hezbollah, raising concerns about the humanitarian impact of the ongoing conflict.",
+        "citations": [
+          "17"
+        ]
+      },
+      {
+        "title": "Fragile U.S.-Iran Relations",
+        "finding": "Recent military exchanges between the U.S. and Iran highlight the fragility of the ceasefire in the Iran war, with both sides engaging in retaliatory strikes.",
+        "citations": [
+          "25",
+          "26"
         ]
       },
       {
         "title": "Strengthening Regional Alliances",
-        "finding": "The Philippines and Vietnam's upgraded partnership reflects a strategic response to regional security challenges posed by China.",
-        "citations": [
-          "25"
-        ]
-      },
-      {
-        "title": "Economic Resilience in Ukraine",
-        "finding": "Despite significant challenges, local markets in Ukraine have shown resilience, adapting to the impacts of ongoing conflict and economic pressures.",
+        "finding": "The Philippines and Vietnam have elevated their diplomatic partnership amid rising tensions with China, indicating a shift towards stronger regional cooperation.",
         "citations": [
           "27"
-        ]
-      },
-      {
-        "title": "Escalating Military Tensions in the Middle East",
-        "finding": "The U.S. strikes on Iranian military sites indicate a precarious situation in the Iran war, with ongoing retaliatory actions threatening regional stability.",
-        "citations": [
-          "24"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The Middle East is experiencing heightened tensions, with humanitarian crises in Lebanon and ongoing military confrontations involving Israel and Iran, necessitating urgent diplomatic interventions.",
+        "assessment": "The Middle East is experiencing heightened tensions, particularly in Israel and Lebanon, with significant implications for regional stability and humanitarian conditions.",
         "citations": [
-          "15",
-          "24"
+          "10",
+          "17",
+          "25",
+          "26"
         ]
       },
       {
         "region": "Indo-Pacific",
-        "assessment": "The Indo-Pacific region is witnessing strengthened diplomatic ties between the Philippines and Vietnam as a countermeasure to China's assertive actions in the South China Sea.",
-        "citations": [
-          "25"
-        ]
-      },
-      {
-        "region": "Europe and Russia",
-        "assessment": "In Ukraine, the ongoing conflict continues to disrupt local economies and humanitarian conditions, with significant implications for regional stability and security.",
+        "assessment": "The Philippines and Vietnam's enhanced partnership reflects a strategic response to China's assertiveness in the South China Sea, indicating a shift in regional security dynamics.",
         "citations": [
           "27"
         ]
@@ -67,24 +63,26 @@
     ],
     "watchlist": [
       {
-        "label": "Lebanon-Israel Conflict",
-        "why_it_matters": "The potential for renewed military action in Lebanon poses significant humanitarian risks and could destabilize the region further.",
+        "label": "Israeli Settler Violence",
+        "why_it_matters": "The increase in violence from Israeli settlers poses a significant threat to Palestinian communities and could lead to further international condemnation and instability in the region.",
         "citations": [
-          "15"
+          "10",
+          "19"
         ]
       },
       {
-        "label": "Philippines-Vietnam Relations",
-        "why_it_matters": "The enhanced partnership between the Philippines and Vietnam may influence regional security dynamics and counterbalance China's influence.",
+        "label": "U.S.-Iran Military Exchanges",
+        "why_it_matters": "The ongoing military exchanges between the U.S. and Iran could escalate into a broader conflict, impacting regional security and global energy supplies.",
         "citations": [
-          "25"
+          "25",
+          "26"
         ]
       },
       {
-        "label": "Iran-U.S. Military Engagement",
-        "why_it_matters": "The ongoing military exchanges between the U.S. and Iran could escalate into broader conflict, impacting global energy supplies and regional security.",
+        "label": "Philippines-Vietnam Diplomatic Relations",
+        "why_it_matters": "The strengthening of ties between the Philippines and Vietnam may influence regional security dynamics and counterbalance China's influence in the South China Sea.",
         "citations": [
-          "24"
+          "27"
         ]
       }
     ],
@@ -93,19 +91,19 @@
     ]
   },
   "summary": {
-    "raw_documents": 592,
-    "total_text_chars": 96353616,
+    "raw_documents": 594,
+    "total_text_chars": 96386345,
     "sources": 32,
     "signals": 8,
     "regions": 6,
     "visual_items": 53,
-    "pdf_items": 51,
-    "renderable_files": 44
+    "pdf_items": 52,
+    "renderable_files": 45
   },
   "format_counts": [
     {
       "name": "Article",
-      "value": 433
+      "value": 434
     },
     {
       "name": "Image",
@@ -113,7 +111,7 @@
     },
     {
       "name": "PDF",
-      "value": 51
+      "value": 52
     },
     {
       "name": "Sanctions",
@@ -139,7 +137,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 415
+      "value": 416
     },
     {
       "name": "images",
@@ -147,7 +145,7 @@
     },
     {
       "name": "pdfs",
-      "value": 49
+      "value": 50
     },
     {
       "name": "sanctions_designations",
@@ -189,11 +187,11 @@
   "source_counts": [
     {
       "name": "reliefweb.int",
-      "value": 96
+      "value": 97
     },
     {
       "name": "theguardian.com",
-      "value": 93
+      "value": 94
     },
     {
       "name": "global.unitednations.entermediadb.net",
@@ -315,7 +313,7 @@
     },
     {
       "name": "lebanon",
-      "value": 1482
+      "value": 1522
     },
     {
       "name": "care",
@@ -327,7 +325,7 @@
     },
     {
       "name": "israel",
-      "value": 1245
+      "value": 1280
     },
     {
       "name": "gaza",
@@ -351,15 +349,15 @@
     },
     {
       "name": "israeli",
-      "value": 868
+      "value": 905
+    },
+    {
+      "name": "trump",
+      "value": 826
     },
     {
       "name": "food",
       "value": 821
-    },
-    {
-      "name": "trump",
-      "value": 802
     },
     {
       "name": "security",
@@ -485,11 +483,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 392,
+      "count": 393,
       "formats": [
         {
           "name": "Article",
-          "value": 326
+          "value": 327
         },
         {
           "name": "PDF",
@@ -509,6 +507,7 @@
         }
       ],
       "evidence_ids": [
+        "bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3",
         "134d6907bbab1236f045dc0494642da1f3cf261d29ca6d7b717a7db8f85eac82",
         "0e9d8cdc2a8851da382aee295e614d2cddedadc9110db92b9a00dbfa1a28c74e",
         "ff8fca40a9618e065345a02b61adfc24ade0d849378144f750856c0454fa3bc7",
@@ -517,11 +516,20 @@
         "d2bbd528a64d4da6acdb8e5e4e7898fda56ead9c73d65f5298737d24fba931c9",
         "19e4c3c419fb7ace2230a58047f5154dac394663b2a7b0c45dc93aea33dc3ba4",
         "766dbcb753c62e5db698adb25aba4887c4d289cda6aa733a2116b6835da21fd5",
-        "0d6fe66135acbaf7c7eda6d226a022cc7e6b9e82556468434d38f179a7c8f25d",
-        "ba5d3d54f776b7cda306b841318e96df2e641646ae1953d7d65a7c1ae099dfcf"
+        "0d6fe66135acbaf7c7eda6d226a022cc7e6b9e82556468434d38f179a7c8f25d"
       ],
-      "summary": "The Defense Health Agency announced May 6 that Walter Reed National Military Medical Center earned a Leapfrog \"A\" hospital safety grade for spring 2026. Walter Reed was one of 15 military hospitals to earn an A grade, and one of only three to earn consecutive A grades over the past five cycles. Darnall Army Medical Center, Fort Hood, Texas William Beaumont Army Medical Center, Fort Bliss, Texas The other 12 military hospitals to earn an A grade this cycle were: Alexander T. Ready to restart strikes on Iran On the Middle East conflict, Hegseth said the United States stands ready to resume strikes on Iran if diplomacy fails, as negotiators from Washington and Tehran work to bridge major differences blocking a deal. Members of the People's Liberation Army stand as the strategic strike group displays DF-61 nuclear missiles during a military parade in Beijing, China, on Sept. “There is rightful alarm regarding China’s historic military buildup and the expansion of its military activities in the region and beyond,” he said. “What really helped De la Espriella was Valencia’s collapse,” said the political scientist Yan Basset. The far-right lawyer Abelardo de la Espriella and the leftwing senator Iván Cepeda have just under three weeks to compete for the roughly 3.6m votes that did not go to either of them in the first round of Colombia’s presidential election. The lawyer advocates military alliances with the US and Israel, total confrontation with criminal groups and the construction of mega-prisons. Binary images source collected for Global Geopolitics Monitor.",
+      "summary": "Lebanon’s embassy in Washington said the agreement would not end the conflict but that it called for Israel to refrain from strikes on Beirut and its southern suburbs controlled by Hezbollah, while the Iran-aligned group would halt its attacks on Israel. Lebanon said it would seek to expand the ceasefire in talks with Israel in Washington DC on Wednesday. The Defense Health Agency announced May 6 that Walter Reed National Military Medical Center earned a Leapfrog \"A\" hospital safety grade for spring 2026. Walter Reed was one of 15 military hospitals to earn an A grade, and one of only three to earn consecutive A grades over the past five cycles. Darnall Army Medical Center, Fort Hood, Texas William Beaumont Army Medical Center, Fort Bliss, Texas The other 12 military hospitals to earn an A grade this cycle were: Alexander T. Ready to restart strikes on Iran On the Middle East conflict, Hegseth said the United States stands ready to resume strikes on Iran if diplomacy fails, as negotiators from Washington and Tehran work to bridge major differences blocking a deal. Members of the People's Liberation Army stand as the strategic strike group displays DF-61 nuclear missiles during a military parade in Beijing, China, on Sept. “There is rightful alarm regarding China’s historic military buildup and the expansion of its military activities in the region and beyond,” he said. “What really helped De la Espriella was Valencia’s collapse,” said the political scientist Yan Basset. The far-right lawyer Abelardo de la Espriella and the leftwing senator Iván Cepeda have just under three weeks to compete for the roughly 3.6m votes that did not go to either of them in the first round of Colombia’s presidential election. The lawyer advocates military alliances with the US and Israel, total confrontation with criminal groups and the construction of mega-prisons.",
       "latest": [
+        {
+          "id": "bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3",
+          "title": "UN experts warn against ‘surging Israeli settler terror’ – as it happened",
+          "url": "https://www.theguardian.com/world/live/2026/jun/01/iran-war-live-news-updates-kuwait-missile-drone-attack-us-strikes-iran-radar-sites",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-02T05:26:42.693893+00:00",
+          "published": "Tue, 02 Jun 2026 02:48:20 GMT",
+          "summary": "Lebanon’s embassy in Washington said the agreement would not end the conflict but that it called for Israel to refrain from strikes on Beirut and its southern suburbs controlled by Hezbollah, while the Iran-aligned group would halt its attacks on Israel. Lebanon said it would seek to expand the ceasefire in talks with Israel in Washington DC on Wednesday."
+        },
         {
           "id": "134d6907bbab1236f045dc0494642da1f3cf261d29ca6d7b717a7db8f85eac82",
           "title": "Walter Reed, Other Military Hospitals Get 'A' Grade for Patient Care",
@@ -561,26 +569,16 @@
           "collected_at": "2026-06-01T22:58:34.699774+00:00",
           "published": "Mon, 01 Jun 2026 12:00:00 +0000",
           "summary": "Binary images source collected for Global Geopolitics Monitor."
-        },
-        {
-          "id": "7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f",
-          "title": "Lebanon: Families flee Beirut as Israel threatens renewed strikes on Hezbollah",
-          "url": "https://news.un.org/feed/view/en/story/2026/06/1167615",
-          "host": "news.un.org",
-          "format": "Article",
-          "collected_at": "2026-06-01T20:13:25.037385+00:00",
-          "published": "Mon, 01 Jun 2026 12:00:00 +0000",
-          "summary": "UN Special Coordinator for Lebanon Jeanine-Hennis Plasschaert continues her engagement to de-escalate tensions, reinforce commitments agreed to under the ceasefire, and advance confidence‑building measures. ‘Deepening humanitarian emergency’ However, “nearly three months into the conflict, Lebanon faces a deepening humanitarian emergency with a critical combination of displacement and increased food insecurity,” the UN World Food Programme ( WFP ) warned on Monday."
         }
       ]
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 336,
+      "count": 337,
       "formats": [
         {
           "name": "Article",
-          "value": 282
+          "value": 283
         },
         {
           "name": "PDF",
@@ -600,6 +598,7 @@
         }
       ],
       "evidence_ids": [
+        "bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3",
         "cafb47d1a38d1fde1e1f7068d4896940e8fe0b900aab9330ecbbb3a5fccfbb98",
         "0e9d8cdc2a8851da382aee295e614d2cddedadc9110db92b9a00dbfa1a28c74e",
         "ff8fca40a9618e065345a02b61adfc24ade0d849378144f750856c0454fa3bc7",
@@ -608,11 +607,20 @@
         "d2bbd528a64d4da6acdb8e5e4e7898fda56ead9c73d65f5298737d24fba931c9",
         "19e4c3c419fb7ace2230a58047f5154dac394663b2a7b0c45dc93aea33dc3ba4",
         "766dbcb753c62e5db698adb25aba4887c4d289cda6aa733a2116b6835da21fd5",
-        "da00b3e28eba4170f3fd8ca8820ec27a6aec211025f66a7b091fb12e4da2fd5a",
-        "b48c0ee49855e0defcfb76fc3636f6c0fd9d80975abe300602de7480a0287b13"
+        "da00b3e28eba4170f3fd8ca8820ec27a6aec211025f66a7b091fb12e4da2fd5a"
       ],
-      "summary": "One Nation ‘not our enemy but an opponent’, Liberal senator says James Paterson, the shadow defence minister, says that One Nation’s “increased prominence” should bring “increased scrutiny”, brushing off suggestions from new party president Tony Abbott that the Liberals should not fight with parties to their political right. Ready to restart strikes on Iran On the Middle East conflict, Hegseth said the United States stands ready to resume strikes on Iran if diplomacy fails, as negotiators from Washington and Tehran work to bridge major differences blocking a deal. Members of the People's Liberation Army stand as the strategic strike group displays DF-61 nuclear missiles during a military parade in Beijing, China, on Sept. “There is rightful alarm regarding China’s historic military buildup and the expansion of its military activities in the region and beyond,” he said. “What really helped De la Espriella was Valencia’s collapse,” said the political scientist Yan Basset. The far-right lawyer Abelardo de la Espriella and the leftwing senator Iván Cepeda have just under three weeks to compete for the roughly 3.6m votes that did not go to either of them in the first round of Colombia’s presidential election. The lawyer advocates military alliances with the US and Israel, total confrontation with criminal groups and the construction of mega-prisons. Binary images source collected for Global Geopolitics Monitor.",
+      "summary": "Lebanon’s embassy in Washington said the agreement would not end the conflict but that it called for Israel to refrain from strikes on Beirut and its southern suburbs controlled by Hezbollah, while the Iran-aligned group would halt its attacks on Israel. Lebanon said it would seek to expand the ceasefire in talks with Israel in Washington DC on Wednesday. One Nation ‘not our enemy but an opponent’, Liberal senator says James Paterson, the shadow defence minister, says that One Nation’s “increased prominence” should bring “increased scrutiny”, brushing off suggestions from new party president Tony Abbott that the Liberals should not fight with parties to their political right. Ready to restart strikes on Iran On the Middle East conflict, Hegseth said the United States stands ready to resume strikes on Iran if diplomacy fails, as negotiators from Washington and Tehran work to bridge major differences blocking a deal. Members of the People's Liberation Army stand as the strategic strike group displays DF-61 nuclear missiles during a military parade in Beijing, China, on Sept. “There is rightful alarm regarding China’s historic military buildup and the expansion of its military activities in the region and beyond,” he said. “What really helped De la Espriella was Valencia’s collapse,” said the political scientist Yan Basset. The far-right lawyer Abelardo de la Espriella and the leftwing senator Iván Cepeda have just under three weeks to compete for the roughly 3.6m votes that did not go to either of them in the first round of Colombia’s presidential election. The lawyer advocates military alliances with the US and Israel, total confrontation with criminal groups and the construction of mega-prisons.",
       "latest": [
+        {
+          "id": "bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3",
+          "title": "UN experts warn against ‘surging Israeli settler terror’ – as it happened",
+          "url": "https://www.theguardian.com/world/live/2026/jun/01/iran-war-live-news-updates-kuwait-missile-drone-attack-us-strikes-iran-radar-sites",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-02T05:26:42.693893+00:00",
+          "published": "Tue, 02 Jun 2026 02:48:20 GMT",
+          "summary": "Lebanon’s embassy in Washington said the agreement would not end the conflict but that it called for Israel to refrain from strikes on Beirut and its southern suburbs controlled by Hezbollah, while the Iran-aligned group would halt its attacks on Israel. Lebanon said it would seek to expand the ceasefire in talks with Israel in Washington DC on Wednesday."
+        },
         {
           "id": "cafb47d1a38d1fde1e1f7068d4896940e8fe0b900aab9330ecbbb3a5fccfbb98",
           "title": "Australia politics live: Chalmers says economic woes driving voters to One Nation; Wong sanctions Israelis over West Bank violence",
@@ -652,30 +660,20 @@
           "collected_at": "2026-06-01T22:58:28.600944+00:00",
           "published": "Mon, 01 Jun 2026 12:00:00 +0000",
           "summary": "Binary images source collected for Global Geopolitics Monitor."
-        },
-        {
-          "id": "cd8e70ea7570d780ceccba1e651dfedaa7eb5137bebdf4d7a1b5511adb8726ac",
-          "title": "Security Council LIVE: Emergency meeting on Lebanon as Israeli attacks casts pall over Iran-US negotiations (image)",
-          "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/23-01-2024-UN-Photo-SC-wideshot.jpg/image560x340cropped.jpg",
-          "host": "global.unitednations.entermediadb.net",
-          "format": "Image",
-          "collected_at": "2026-06-01T22:58:28.807400+00:00",
-          "published": "Mon, 01 Jun 2026 12:00:00 +0000",
-          "summary": "Binary images source collected for Global Geopolitics Monitor."
         }
       ]
     },
     {
       "name": "Humanitarian Pressure",
-      "count": 230,
+      "count": 232,
       "formats": [
         {
           "name": "Article",
-          "value": 162
+          "value": 163
         },
         {
           "name": "PDF",
-          "value": 44
+          "value": 45
         },
         {
           "name": "Sanctions",
@@ -691,6 +689,8 @@
         }
       ],
       "evidence_ids": [
+        "bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3",
+        "21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26",
         "cafb47d1a38d1fde1e1f7068d4896940e8fe0b900aab9330ecbbb3a5fccfbb98",
         "7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f",
         "d2bbd528a64d4da6acdb8e5e4e7898fda56ead9c73d65f5298737d24fba931c9",
@@ -698,12 +698,30 @@
         "3005e5d41862f7cf0a356e730dd3aa9cd96c78f9b72b2f050f046c4b4aafcdc3",
         "d9d1d6ae178ea46120b3ff40d54639ee517f14f4d30506c768fe103272fa1da2",
         "15af4b637f9aa99131255736076a18d699932a2a18f5e91dfac0d62024c39439",
-        "34e8df7c1e0e7dbcab923a7f5493bbc3a2fac6e6b14385b1b08aa5648a7e9e1d",
-        "39fed0543dff4c4a9e9649f92cc4020fead510963d3161cb7ef9b9715d3b86d3",
-        "c230b337f744fc421d0bbe7a8a8bdf2bc95b839c3725a936c710319ae34fd857"
+        "34e8df7c1e0e7dbcab923a7f5493bbc3a2fac6e6b14385b1b08aa5648a7e9e1d"
       ],
-      "summary": "One Nation ‘not our enemy but an opponent’, Liberal senator says James Paterson, the shadow defence minister, says that One Nation’s “increased prominence” should bring “increased scrutiny”, brushing off suggestions from new party president Tony Abbott that the Liberals should not fight with parties to their political right. UN Special Coordinator for Lebanon Jeanine-Hennis Plasschaert continues her engagement to de-escalate tensions, reinforce commitments agreed to under the ceasefire, and advance confidence‑building measures. ‘Deepening humanitarian emergency’ However, “nearly three months into the conflict, Lebanon faces a deepening humanitarian emergency with a critical combination of displacement and increased food insecurity,” the UN World Food Programme ( WFP ) warned on Monday. The Human Rights Council -appointed group of 13 Special Rapporteurs said the attacks were increasingly driving the displacement of Palestinian communities. They warned that communities in Area C of the West Bank face growing risks of displacement and settlement expansion. It comes as the agency that supports Palestinian refugees, UNRWA, reported a surge in military activity in recent weeks across the Strip, that’s caused increasing casualties and displacement. Recommended Stories list of 4 items end of list “The Israeli flag is once again flying over the peaks overlooking the Galilee communities,” Defence Minister Israel Katz said at a memorial ceremony for fallen soldiers of the 1982 war with Lebanon, according to The Times of Israel newspaper. Sitting atop a strategic hill near Nabatieh, Lebanon’s fifth largest city, Beaufort Castle and the surrounding ridge, which Israeli forces have also secured, is regarded as one of southern Lebanon’s most strategically important military positions.",
+      "summary": "Lebanon’s embassy in Washington said the agreement would not end the conflict but that it called for Israel to refrain from strikes on Beirut and its southern suburbs controlled by Hezbollah, while the Iran-aligned group would halt its attacks on Israel. Lebanon said it would seek to expand the ceasefire in talks with Israel in Washington DC on Wednesday. Increased arrivals of seasonal produce from several provinces, continued to improve market availability and support downward price movements across major markets. The higher year-on-year prices reflect increases recorded between Oct-25 and Mar-26 following border closures with Pakistan and the rerouting of trade through Iran and Central Asia. In contrast, onion prices increased by 4.6%, partially reversing the declines observed in recent months and moving back toward more typical seasonal levels. One Nation ‘not our enemy but an opponent’, Liberal senator says James Paterson, the shadow defence minister, says that One Nation’s “increased prominence” should bring “increased scrutiny”, brushing off suggestions from new party president Tony Abbott that the Liberals should not fight with parties to their political right. UN Special Coordinator for Lebanon Jeanine-Hennis Plasschaert continues her engagement to de-escalate tensions, reinforce commitments agreed to under the ceasefire, and advance confidence‑building measures. ‘Deepening humanitarian emergency’ However, “nearly three months into the conflict, Lebanon faces a deepening humanitarian emergency with a critical combination of displacement and increased food insecurity,” the UN World Food Programme ( WFP ) warned on Monday.",
       "latest": [
+        {
+          "id": "bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3",
+          "title": "UN experts warn against ‘surging Israeli settler terror’ – as it happened",
+          "url": "https://www.theguardian.com/world/live/2026/jun/01/iran-war-live-news-updates-kuwait-missile-drone-attack-us-strikes-iran-radar-sites",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-02T05:26:42.693893+00:00",
+          "published": "Tue, 02 Jun 2026 02:48:20 GMT",
+          "summary": "Lebanon’s embassy in Washington said the agreement would not end the conflict but that it called for Israel to refrain from strikes on Beirut and its southern suburbs controlled by Hezbollah, while the Iran-aligned group would halt its attacks on Israel. Lebanon said it would seek to expand the ceasefire in talks with Israel in Washington DC on Wednesday."
+        },
+        {
+          "id": "21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26",
+          "title": "Afghanistan: Weekly Market Report: Issue 297: Week 4 - May 2026 (pdf)",
+          "url": "https://reliefweb.int/attachments/b26573a1-b07a-4f4c-a53b-0b65b6e341ec/WFP%20AFG%20Countrywide%20Weekly%20Market%20Report%2C%20Issue%20297%20-%204th%20Week%20of%20May%202026.pdf",
+          "host": "reliefweb.int",
+          "format": "PDF",
+          "collected_at": "2026-06-02T05:27:02.213524+00:00",
+          "published": "Tue, 02 Jun 2026 02:30:45 +0000",
+          "summary": "Increased arrivals of seasonal produce from several provinces, continued to improve market availability and support downward price movements across major markets. The higher year-on-year prices reflect increases recorded between Oct-25 and Mar-26 following border closures with Pakistan and the rerouting of trade through Iran and Central Asia. In contrast, onion prices increased by 4.6%, partially reversing the declines observed in recent months and moving back toward more typical seasonal levels."
+        },
         {
           "id": "cafb47d1a38d1fde1e1f7068d4896940e8fe0b900aab9330ecbbb3a5fccfbb98",
           "title": "Australia politics live: Chalmers says economic woes driving voters to One Nation; Wong sanctions Israelis over West Bank violence",
@@ -733,40 +751,20 @@
           "collected_at": "2026-06-01T22:58:34.693700+00:00",
           "published": "Mon, 01 Jun 2026 12:00:00 +0000",
           "summary": "The Human Rights Council -appointed group of 13 Special Rapporteurs said the attacks were increasingly driving the displacement of Palestinian communities. They warned that communities in Area C of the West Bank face growing risks of displacement and settlement expansion. It comes as the agency that supports Palestinian refugees, UNRWA, reported a surge in military activity in recent weeks across the Strip, that’s caused increasing casualties and displacement."
-        },
-        {
-          "id": "19e4c3c419fb7ace2230a58047f5154dac394663b2a7b0c45dc93aea33dc3ba4",
-          "title": "What is Lebanon’s Beaufort Castle, and why has Israel captured it?",
-          "url": "https://www.aljazeera.com/news/2026/6/1/what-is-lebanons-beaufort-castle-and-why-has-israel-captured-it?traffic_source=rss",
-          "host": "aljazeera.com",
-          "format": "Article",
-          "collected_at": "2026-06-01T15:51:01.289678+00:00",
-          "published": "Mon, 01 Jun 2026 10:58:07 +0000",
-          "summary": "Recommended Stories list of 4 items end of list “The Israeli flag is once again flying over the peaks overlooking the Galilee communities,” Defence Minister Israel Katz said at a memorial ceremony for fallen soldiers of the 1982 war with Lebanon, according to The Times of Israel newspaper. Sitting atop a strategic hill near Nabatieh, Lebanon’s fifth largest city, Beaufort Castle and the surrounding ridge, which Israeli forces have also secured, is regarded as one of southern Lebanon’s most strategically important military positions."
-        },
-        {
-          "id": "3005e5d41862f7cf0a356e730dd3aa9cd96c78f9b72b2f050f046c4b4aafcdc3",
-          "title": "Ukraine: Joint Market Monitoring Initiative (JMMI) - Four years of evolution: From economic shock to the protracted economic impacts of the war (2022-2025), May 2026 (pdf)",
-          "url": "https://reliefweb.int/attachments/4dbe2a6c-87fe-415f-a6cd-82ce2af26ac4/UKR_JMMI_Factsheet_Rounds_1-45_2022_2025_2.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-06-01T03:54:38.189717+00:00",
-          "published": "Mon, 01 Jun 2026 03:36:15 +0000",
-          "summary": "May 2026 | Ukraine Joint Market Monitoring Initiative in Ukraine Four years of evolution: From economic shock to the protracted economic impacts of the war (2022-2025) CONTEXT & RATIONALE The full-scale invasion in February 2022 posed an immense challenge to the pursuit of a dignified and secure life in Ukraine. KEY MESSAGES • Air attacks and damage to energy infrastructure from 2022 to 2025 had a significant and multifaceted impact on the functioning of the economy, financial infrastructure, and local markets."
         }
       ]
     },
     {
       "name": "Territory and Chokepoints",
-      "count": 228,
+      "count": 230,
       "formats": [
         {
           "name": "Article",
-          "value": 185
+          "value": 186
         },
         {
           "name": "PDF",
-          "value": 24
+          "value": 25
         },
         {
           "name": "Sanctions",
@@ -782,6 +780,8 @@
         }
       ],
       "evidence_ids": [
+        "bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3",
+        "21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26",
         "cafb47d1a38d1fde1e1f7068d4896940e8fe0b900aab9330ecbbb3a5fccfbb98",
         "0e9d8cdc2a8851da382aee295e614d2cddedadc9110db92b9a00dbfa1a28c74e",
         "d2bbd528a64d4da6acdb8e5e4e7898fda56ead9c73d65f5298737d24fba931c9",
@@ -789,12 +789,30 @@
         "766dbcb753c62e5db698adb25aba4887c4d289cda6aa733a2116b6835da21fd5",
         "ba5d3d54f776b7cda306b841318e96df2e641646ae1953d7d65a7c1ae099dfcf",
         "da00b3e28eba4170f3fd8ca8820ec27a6aec211025f66a7b091fb12e4da2fd5a",
-        "b48c0ee49855e0defcfb76fc3636f6c0fd9d80975abe300602de7480a0287b13",
-        "396539e2d3cac60da7fc15fc2066328d35fba91726094ece9a08ce9e29647918",
-        "d9d1d6ae178ea46120b3ff40d54639ee517f14f4d30506c768fe103272fa1da2"
+        "b48c0ee49855e0defcfb76fc3636f6c0fd9d80975abe300602de7480a0287b13"
       ],
-      "summary": "One Nation ‘not our enemy but an opponent’, Liberal senator says James Paterson, the shadow defence minister, says that One Nation’s “increased prominence” should bring “increased scrutiny”, brushing off suggestions from new party president Tony Abbott that the Liberals should not fight with parties to their political right. Ready to restart strikes on Iran On the Middle East conflict, Hegseth said the United States stands ready to resume strikes on Iran if diplomacy fails, as negotiators from Washington and Tehran work to bridge major differences blocking a deal. Members of the People's Liberation Army stand as the strategic strike group displays DF-61 nuclear missiles during a military parade in Beijing, China, on Sept. “There is rightful alarm regarding China’s historic military buildup and the expansion of its military activities in the region and beyond,” he said. The Human Rights Council -appointed group of 13 Special Rapporteurs said the attacks were increasingly driving the displacement of Palestinian communities. They warned that communities in Area C of the West Bank face growing risks of displacement and settlement expansion. It comes as the agency that supports Palestinian refugees, UNRWA, reported a surge in military activity in recent weeks across the Strip, that’s caused increasing casualties and displacement. Recommended Stories list of 4 items end of list “The Israeli flag is once again flying over the peaks overlooking the Galilee communities,” Defence Minister Israel Katz said at a memorial ceremony for fallen soldiers of the 1982 war with Lebanon, according to The Times of Israel newspaper. Sitting atop a strategic hill near Nabatieh, Lebanon’s fifth largest city, Beaufort Castle and the surrounding ridge, which Israeli forces have also secured, is regarded as one of southern Lebanon’s most strategically important military positions.",
+      "summary": "Lebanon’s embassy in Washington said the agreement would not end the conflict but that it called for Israel to refrain from strikes on Beirut and its southern suburbs controlled by Hezbollah, while the Iran-aligned group would halt its attacks on Israel. Lebanon said it would seek to expand the ceasefire in talks with Israel in Washington DC on Wednesday. Increased arrivals of seasonal produce from several provinces, continued to improve market availability and support downward price movements across major markets. The higher year-on-year prices reflect increases recorded between Oct-25 and Mar-26 following border closures with Pakistan and the rerouting of trade through Iran and Central Asia. In contrast, onion prices increased by 4.6%, partially reversing the declines observed in recent months and moving back toward more typical seasonal levels. One Nation ‘not our enemy but an opponent’, Liberal senator says James Paterson, the shadow defence minister, says that One Nation’s “increased prominence” should bring “increased scrutiny”, brushing off suggestions from new party president Tony Abbott that the Liberals should not fight with parties to their political right. Ready to restart strikes on Iran On the Middle East conflict, Hegseth said the United States stands ready to resume strikes on Iran if diplomacy fails, as negotiators from Washington and Tehran work to bridge major differences blocking a deal. Members of the People's Liberation Army stand as the strategic strike group displays DF-61 nuclear missiles during a military parade in Beijing, China, on Sept. “There is rightful alarm regarding China’s historic military buildup and the expansion of its military activities in the region and beyond,” he said.",
       "latest": [
+        {
+          "id": "bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3",
+          "title": "UN experts warn against ‘surging Israeli settler terror’ – as it happened",
+          "url": "https://www.theguardian.com/world/live/2026/jun/01/iran-war-live-news-updates-kuwait-missile-drone-attack-us-strikes-iran-radar-sites",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-02T05:26:42.693893+00:00",
+          "published": "Tue, 02 Jun 2026 02:48:20 GMT",
+          "summary": "Lebanon’s embassy in Washington said the agreement would not end the conflict but that it called for Israel to refrain from strikes on Beirut and its southern suburbs controlled by Hezbollah, while the Iran-aligned group would halt its attacks on Israel. Lebanon said it would seek to expand the ceasefire in talks with Israel in Washington DC on Wednesday."
+        },
+        {
+          "id": "21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26",
+          "title": "Afghanistan: Weekly Market Report: Issue 297: Week 4 - May 2026 (pdf)",
+          "url": "https://reliefweb.int/attachments/b26573a1-b07a-4f4c-a53b-0b65b6e341ec/WFP%20AFG%20Countrywide%20Weekly%20Market%20Report%2C%20Issue%20297%20-%204th%20Week%20of%20May%202026.pdf",
+          "host": "reliefweb.int",
+          "format": "PDF",
+          "collected_at": "2026-06-02T05:27:02.213524+00:00",
+          "published": "Tue, 02 Jun 2026 02:30:45 +0000",
+          "summary": "Increased arrivals of seasonal produce from several provinces, continued to improve market availability and support downward price movements across major markets. The higher year-on-year prices reflect increases recorded between Oct-25 and Mar-26 following border closures with Pakistan and the rerouting of trade through Iran and Central Asia. In contrast, onion prices increased by 4.6%, partially reversing the declines observed in recent months and moving back toward more typical seasonal levels."
+        },
         {
           "id": "cafb47d1a38d1fde1e1f7068d4896940e8fe0b900aab9330ecbbb3a5fccfbb98",
           "title": "Australia politics live: Chalmers says economic woes driving voters to One Nation; Wong sanctions Israelis over West Bank violence",
@@ -824,32 +842,12 @@
           "collected_at": "2026-06-01T22:58:34.693700+00:00",
           "published": "Mon, 01 Jun 2026 12:00:00 +0000",
           "summary": "The Human Rights Council -appointed group of 13 Special Rapporteurs said the attacks were increasingly driving the displacement of Palestinian communities. They warned that communities in Area C of the West Bank face growing risks of displacement and settlement expansion. It comes as the agency that supports Palestinian refugees, UNRWA, reported a surge in military activity in recent weeks across the Strip, that’s caused increasing casualties and displacement."
-        },
-        {
-          "id": "19e4c3c419fb7ace2230a58047f5154dac394663b2a7b0c45dc93aea33dc3ba4",
-          "title": "What is Lebanon’s Beaufort Castle, and why has Israel captured it?",
-          "url": "https://www.aljazeera.com/news/2026/6/1/what-is-lebanons-beaufort-castle-and-why-has-israel-captured-it?traffic_source=rss",
-          "host": "aljazeera.com",
-          "format": "Article",
-          "collected_at": "2026-06-01T15:51:01.289678+00:00",
-          "published": "Mon, 01 Jun 2026 10:58:07 +0000",
-          "summary": "Recommended Stories list of 4 items end of list “The Israeli flag is once again flying over the peaks overlooking the Galilee communities,” Defence Minister Israel Katz said at a memorial ceremony for fallen soldiers of the 1982 war with Lebanon, according to The Times of Israel newspaper. Sitting atop a strategic hill near Nabatieh, Lebanon’s fifth largest city, Beaufort Castle and the surrounding ridge, which Israeli forces have also secured, is regarded as one of southern Lebanon’s most strategically important military positions."
-        },
-        {
-          "id": "766dbcb753c62e5db698adb25aba4887c4d289cda6aa733a2116b6835da21fd5",
-          "title": "Germany Is Scrambling to Speed Up Its Rearmament",
-          "url": "https://foreignpolicy.com/2026/06/01/germany-merz-military-trump-rearm-bundeswehr-nato-europe/",
-          "host": "foreignpolicy.com",
-          "format": "Article",
-          "collected_at": "2026-06-01T09:16:37.661189+00:00",
-          "published": "Mon, 01 Jun 2026 08:18:45 +0000",
-          "summary": "At an event in his home region of the Sauerland, Merz went off script, appearing to criticize the United States over its failure in the Iran war (leaving unstated that he has effectively facilitated U.S. Trump retaliated by ordering the withdrawal of 5,000 troops from the more than 35,000 based in Germany and canceling a planned deployment of long-range missiles that Germany desperately needs to deter Russia."
         }
       ]
     },
     {
       "name": "Energy and Supply Chains",
-      "count": 176,
+      "count": 177,
       "formats": [
         {
           "name": "Article",
@@ -857,7 +855,7 @@
         },
         {
           "name": "PDF",
-          "value": 19
+          "value": 20
         },
         {
           "name": "Sanctions",
@@ -865,6 +863,7 @@
         }
       ],
       "evidence_ids": [
+        "21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26",
         "0d6fe66135acbaf7c7eda6d226a022cc7e6b9e82556468434d38f179a7c8f25d",
         "ba5d3d54f776b7cda306b841318e96df2e641646ae1953d7d65a7c1ae099dfcf",
         "da00b3e28eba4170f3fd8ca8820ec27a6aec211025f66a7b091fb12e4da2fd5a",
@@ -873,11 +872,20 @@
         "d9d1d6ae178ea46120b3ff40d54639ee517f14f4d30506c768fe103272fa1da2",
         "f6f822e11969971b5f161f80a77dab2a3205e51691d7f86b693b45042748367e",
         "6982f72a3da2f6287984f1eee5b38db37d61f54c859009cc71992f235fbcdc9e",
-        "afafba18551c5d071814ad43637b786b8fc10284feb7c00326016d1e9e4a8cbe",
-        "3880d28861be470a5dc4ec526b8d1c12557f4d291b87066d181668e7cd043071"
+        "afafba18551c5d071814ad43637b786b8fc10284feb7c00326016d1e9e4a8cbe"
       ],
-      "summary": "Iran’s missiles and drones have struck Gulf hotels, energy facilities, and billion-dollar military radars with frequency and persistence. The Center for International and Strategic Studies concluded that, while the picture of replenishment is challenging and often has long lead times, it is manageable for the United States, at least in this war. But technical performance and strategic sustainability are not the same thing, and the Iran war is exposing this critical difference with brutal clarity. For its part, Iran has lately dangled the prospect of charging tolls on undersea cables in the Strait of Hormuz amid a wider blockade. Recent initiatives, such as a NATO Centre for Security of Critical Undersea Infrastructure or the uncrewed Task Force X are welcome. A wide range of actors are engaged in resisting attacks against critical undersea infrastructure, from governments and militaries to the private sector providers of the infrastructure itself. President Donald Trump overlaid on a \"closed\" Strait of Hormuz with the caption: \"Until the last American soldier leaves the region.\" Attacks rattle ceasefire talks The attacks represent the latest escalation between the U.S. AP/AP Photo hide caption toggle caption AP/AP Photo DUBAI, United Arab Emirates — The United States bombed Iranian radar and drone control sites in Iran after Tehran shot down an American MQ-1 Predator drone this weekend, the American military said Monday. May 2026 | Ukraine Joint Market Monitoring Initiative in Ukraine Four years of evolution: From economic shock to the protracted economic impacts of the war (2022-2025) CONTEXT & RATIONALE The full-scale invasion in February 2022 posed an immense challenge to the pursuit of a dignified and secure life in Ukraine. KEY MESSAGES • Air attacks and damage to energy infrastructure from 2022 to 2025 had a significant and multifaceted impact on the functioning of the economy, financial infrastructure, and local markets.",
+      "summary": "Increased arrivals of seasonal produce from several provinces, continued to improve market availability and support downward price movements across major markets. The higher year-on-year prices reflect increases recorded between Oct-25 and Mar-26 following border closures with Pakistan and the rerouting of trade through Iran and Central Asia. In contrast, onion prices increased by 4.6%, partially reversing the declines observed in recent months and moving back toward more typical seasonal levels. Iran’s missiles and drones have struck Gulf hotels, energy facilities, and billion-dollar military radars with frequency and persistence. The Center for International and Strategic Studies concluded that, while the picture of replenishment is challenging and often has long lead times, it is manageable for the United States, at least in this war. But technical performance and strategic sustainability are not the same thing, and the Iran war is exposing this critical difference with brutal clarity. For its part, Iran has lately dangled the prospect of charging tolls on undersea cables in the Strait of Hormuz amid a wider blockade. Recent initiatives, such as a NATO Centre for Security of Critical Undersea Infrastructure or the uncrewed Task Force X are welcome. A wide range of actors are engaged in resisting attacks against critical undersea infrastructure, from governments and militaries to the private sector providers of the infrastructure itself. President Donald Trump overlaid on a \"closed\" Strait of Hormuz with the caption: \"Until the last American soldier leaves the region.\" Attacks rattle ceasefire talks The attacks represent the latest escalation between the U.S. AP/AP Photo hide caption toggle caption AP/AP Photo DUBAI, United Arab Emirates — The United States bombed Iranian radar and drone control sites in Iran after Tehran shot down an American MQ-1 Predator drone this weekend, the American military said Monday.",
       "latest": [
+        {
+          "id": "21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26",
+          "title": "Afghanistan: Weekly Market Report: Issue 297: Week 4 - May 2026 (pdf)",
+          "url": "https://reliefweb.int/attachments/b26573a1-b07a-4f4c-a53b-0b65b6e341ec/WFP%20AFG%20Countrywide%20Weekly%20Market%20Report%2C%20Issue%20297%20-%204th%20Week%20of%20May%202026.pdf",
+          "host": "reliefweb.int",
+          "format": "PDF",
+          "collected_at": "2026-06-02T05:27:02.213524+00:00",
+          "published": "Tue, 02 Jun 2026 02:30:45 +0000",
+          "summary": "Increased arrivals of seasonal produce from several provinces, continued to improve market availability and support downward price movements across major markets. The higher year-on-year prices reflect increases recorded between Oct-25 and Mar-26 following border closures with Pakistan and the rerouting of trade through Iran and Central Asia. In contrast, onion prices increased by 4.6%, partially reversing the declines observed in recent months and moving back toward more typical seasonal levels."
+        },
         {
           "id": "0d6fe66135acbaf7c7eda6d226a022cc7e6b9e82556468434d38f179a7c8f25d",
           "title": "Fences Not F-35s: Drone Attacks and the Illogic of Gulf Procurement",
@@ -917,16 +925,6 @@
           "collected_at": "2026-06-01T03:54:38.189717+00:00",
           "published": "Mon, 01 Jun 2026 03:36:15 +0000",
           "summary": "May 2026 | Ukraine Joint Market Monitoring Initiative in Ukraine Four years of evolution: From economic shock to the protracted economic impacts of the war (2022-2025) CONTEXT & RATIONALE The full-scale invasion in February 2022 posed an immense challenge to the pursuit of a dignified and secure life in Ukraine. KEY MESSAGES • Air attacks and damage to energy infrastructure from 2022 to 2025 had a significant and multifaceted impact on the functioning of the economy, financial infrastructure, and local markets."
-        },
-        {
-          "id": "8b2ef9f48cc2053c3ecbc5e989951ecc41e93635a8522f3dca470886080e399f",
-          "title": "Ukraine: Joint Market Monitoring Initiative (JMMI) - Four years of evolution: From economic shock to the protracted economic impacts of the war (2022-2025), May 2026",
-          "url": "https://reliefweb.int/report/ukraine/ukraine-joint-market-monitoring-initiative-jmmi-four-years-evolution-economic-shock-protracted-economic-impacts-war-2022-2025-may-2026",
-          "host": "reliefweb.int",
-          "format": "Article",
-          "collected_at": "2026-06-01T03:54:36.746634+00:00",
-          "published": "Mon, 01 Jun 2026 03:36:15 +0000",
-          "summary": "KEY MESSAGES • Air attacks and damage to energy infrastructure from 2022 to 2025 had a significant and multifaceted impact on the functioning of the economy, financial infrastructure, and local markets. • Local markets demonstrated a high level of resilience and adaptability, continuing to meet the needs of residents. The greatest difficulties in market functionality were observed in frontline hromadas, where conditions remained particularly severe and complex."
         }
       ]
     },
@@ -1199,8 +1197,10 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 305,
+      "count": 307,
       "evidence_ids": [
+        "bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3",
+        "21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26",
         "cafb47d1a38d1fde1e1f7068d4896940e8fe0b900aab9330ecbbb3a5fccfbb98",
         "3c0ac84e2660fd662482b0d831eb7719dd33e7e26160971d289b0a7ef2c99ddf",
         "7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f",
@@ -1210,18 +1210,16 @@
         "d2bbd528a64d4da6acdb8e5e4e7898fda56ead9c73d65f5298737d24fba931c9",
         "19e4c3c419fb7ace2230a58047f5154dac394663b2a7b0c45dc93aea33dc3ba4",
         "0d6fe66135acbaf7c7eda6d226a022cc7e6b9e82556468434d38f179a7c8f25d",
-        "ba5d3d54f776b7cda306b841318e96df2e641646ae1953d7d65a7c1ae099dfcf",
-        "da00b3e28eba4170f3fd8ca8820ec27a6aec211025f66a7b091fb12e4da2fd5a",
-        "b48c0ee49855e0defcfb76fc3636f6c0fd9d80975abe300602de7480a0287b13"
+        "ba5d3d54f776b7cda306b841318e96df2e641646ae1953d7d65a7c1ae099dfcf"
       ],
       "top_sources": [
         {
           "name": "theguardian.com",
-          "value": 62
+          "value": 63
         },
         {
           "name": "reliefweb.int",
-          "value": 39
+          "value": 40
         },
         {
           "name": "aljazeera.com",
@@ -1239,8 +1237,9 @@
     },
     {
       "name": "Americas",
-      "count": 259,
+      "count": 260,
       "evidence_ids": [
+        "bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3",
         "cafb47d1a38d1fde1e1f7068d4896940e8fe0b900aab9330ecbbb3a5fccfbb98",
         "134d6907bbab1236f045dc0494642da1f3cf261d29ca6d7b717a7db8f85eac82",
         "0e9d8cdc2a8851da382aee295e614d2cddedadc9110db92b9a00dbfa1a28c74e",
@@ -1251,13 +1250,12 @@
         "da00b3e28eba4170f3fd8ca8820ec27a6aec211025f66a7b091fb12e4da2fd5a",
         "b48c0ee49855e0defcfb76fc3636f6c0fd9d80975abe300602de7480a0287b13",
         "3005e5d41862f7cf0a356e730dd3aa9cd96c78f9b72b2f050f046c4b4aafcdc3",
-        "d9d1d6ae178ea46120b3ff40d54639ee517f14f4d30506c768fe103272fa1da2",
-        "15af4b637f9aa99131255736076a18d699932a2a18f5e91dfac0d62024c39439"
+        "d9d1d6ae178ea46120b3ff40d54639ee517f14f4d30506c768fe103272fa1da2"
       ],
       "top_sources": [
         {
           "name": "theguardian.com",
-          "value": 45
+          "value": 46
         },
         {
           "name": "warontherocks.com",
@@ -1319,8 +1317,9 @@
     },
     {
       "name": "Global Institutions",
-      "count": 225,
+      "count": 226,
       "evidence_ids": [
+        "bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3",
         "ff8fca40a9618e065345a02b61adfc24ade0d849378144f750856c0454fa3bc7",
         "3c0ac84e2660fd662482b0d831eb7719dd33e7e26160971d289b0a7ef2c99ddf",
         "7164b50504d9f4bf7658f1277c9f54318bca9cf617f1cd105b8bc902e065352f",
@@ -1331,8 +1330,7 @@
         "3005e5d41862f7cf0a356e730dd3aa9cd96c78f9b72b2f050f046c4b4aafcdc3",
         "34e8df7c1e0e7dbcab923a7f5493bbc3a2fac6e6b14385b1b08aa5648a7e9e1d",
         "39fed0543dff4c4a9e9649f92cc4020fead510963d3161cb7ef9b9715d3b86d3",
-        "c230b337f744fc421d0bbe7a8a8bdf2bc95b839c3725a936c710319ae34fd857",
-        "f6f822e11969971b5f161f80a77dab2a3205e51691d7f86b693b45042748367e"
+        "c230b337f744fc421d0bbe7a8a8bdf2bc95b839c3725a936c710319ae34fd857"
       ],
       "top_sources": [
         {
@@ -1341,7 +1339,7 @@
         },
         {
           "name": "theguardian.com",
-          "value": 36
+          "value": 37
         },
         {
           "name": "defensenews.com",
@@ -1399,8 +1397,9 @@
     },
     {
       "name": "Indo-Pacific",
-      "count": 149,
+      "count": 150,
       "evidence_ids": [
+        "21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26",
         "134d6907bbab1236f045dc0494642da1f3cf261d29ca6d7b717a7db8f85eac82",
         "0e9d8cdc2a8851da382aee295e614d2cddedadc9110db92b9a00dbfa1a28c74e",
         "ba5d3d54f776b7cda306b841318e96df2e641646ae1953d7d65a7c1ae099dfcf",
@@ -1411,8 +1410,7 @@
         "f6c78dae79d31165967a3856a230e23a0662fad394bb57b13fdc778c50d083d2",
         "b65c0f8f8f642115c28fa822749c6848eb4b7801fd232a37755ea6288c60d167",
         "b49cbff1bfc39a7b7bf7065bffefac71ecda5dc10867b983129d6c678171cd3d",
-        "99d7332d2c4e4448e3ba424b696d50ce3b82e0da79114853fbb12352f2d32a27",
-        "3797a1ebe749bf8cba050976c96e9a6f0ab799c32e458348d63d119786c15f49"
+        "99d7332d2c4e4448e3ba424b696d50ce3b82e0da79114853fbb12352f2d32a27"
       ],
       "top_sources": [
         {
@@ -1425,7 +1423,7 @@
         },
         {
           "name": "reliefweb.int",
-          "value": 14
+          "value": 15
         },
         {
           "name": "aljazeera.com",
@@ -1686,17 +1684,17 @@
     },
     {
       "date": "2026-04-08",
-      "evidence_id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
-    },
-    {
-      "date": "2026-04-08",
       "evidence_id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "title": "MS.MIL.XPND.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
       "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\","
+    },
+    {
+      "date": "2026-04-08",
+      "evidence_id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
     },
     {
       "date": "2026",
@@ -1711,6 +1709,20 @@
       "title": "Consolidated Sanctions List",
       "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
       "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong"
+    },
+    {
+      "date": "2026",
+      "evidence_id": "bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3",
+      "title": "UN experts warn against ‘surging Israeli settler terror’ – as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jun/01/iran-war-live-news-updates-kuwait-missile-drone-attack-us-strikes-iran-radar-sites",
+      "excerpt": "ity council – under US pressure – decided to end the mandate of the UN interim force in Lebanon (Unifil) on 31 December 2026. But it asked Guterres to propose options by 1 June to allow UN peacekeepers to remain in Lebanon, particularly to monitor the Blue Line, which stretches for 120km (75 miles) and marks the de facto border between Lebanon and Israel – now the middle of the"
+    },
+    {
+      "date": "2026",
+      "evidence_id": "21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26",
+      "title": "Afghanistan: Weekly Market Report: Issue 297: Week 4 - May 2026 (pdf)",
+      "url": "https://reliefweb.int/attachments/b26573a1-b07a-4f4c-a53b-0b65b6e341ec/WFP%20AFG%20Countrywide%20Weekly%20Market%20Report%2C%20Issue%20297%20-%204th%20Week%20of%20May%202026.pdf",
+      "excerpt": "employment opportunities and increased competition among casual labourers. Weekly Market Report Issue 297: Week 4 – May 2026 Highlights Items Price This Week Last Week (%) Last Year (%) 3-Years Avg. % Pre-Govt. Transition (%) Change Since Oct 2025 (%) Exchange Rate & Food Commodities Exchange Rate (AFN/USD) 63.8 0.0% -9% -17% -18% -4% Wheat Grain (AFN/Kg) 27 -1.0% 14% -2% -12%"
     },
     {
       "date": "2026",
@@ -2404,23 +2416,168 @@
       "title": "World: Press Remarks by Commissioner Lahbib on the Humanitarian Aid Communication (pdf)",
       "url": "https://reliefweb.int/attachments/de52a222-bd5a-5654-a1b8-02489c6ac32b/Press_Remarks_by_Commissioner_Lahbib_on_the_Humanitarian_Aid_Communication.pdf",
       "excerpt": "pean Commission - Statement Press Remarks by Commissioner Lahbib on the Humanitarian Aid Communication Brussels, 27 May 2026 Qui n'a pas de principes? Tout le monde a des principes! Mais ce n'est que lorsqu'ils sont soumis à rude épreuve, que l'on sait s'ils seront plus que des principes… Ce n'est qu'une fois confronté à la dure réalité, celle qui exige le choix du courage et d"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "a95c85f82b4059599778fa2fece4ed5137323f71c6f33c1c20e6cb8a7f3b84b5",
-      "title": "World: Questions and answers on the Communication on Humanitarian Aid (pdf)",
-      "url": "https://reliefweb.int/attachments/43d80300-e60d-582f-8e58-4e74ee9a64bc/Questions_and_answers_on_the_Communication_on_Humanitarian_Aid.pdf",
-      "excerpt": "pean Commission - Questions and answers Questions and answers on the Communication on Humanitarian Aid Brussels, 27 May 2026 Why was there a need for a new Communication on Humanitarian Aid? Since the previous Communication on Humanitarian Action, published in 2021, the international humanitarian system has been shaken to its core, due to the outbreak of armed conflict in Europ"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "e3c7a82b73ed962286e9777d84ede1a6e93b3369f1d97be4709f6cf2fc46e665",
-      "title": "World: Questions and answers on the Communication on Humanitarian Aid",
-      "url": "https://reliefweb.int/report/world/questions-and-answers-communication-humanitarian-aid",
-      "excerpt": "pects of humanitarian work. According to the UN, 239 million people worldwide are in need of humanitarian assistance in 2026 – that is up from 31 million in 2006. The number of people forcibly displaced or seeking asylum has doubled over the past decade, reaching 117.3 million in 2025. Not only are humanitarian needs reaching catastrophic levels, but adequate funding is also no"
     }
   ],
   "latest_evidence": [
+    {
+      "id": "bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3",
+      "topic": "geopolitics",
+      "title": "UN experts warn against ‘surging Israeli settler terror’ – as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jun/01/iran-war-live-news-updates-kuwait-missile-drone-attack-us-strikes-iran-radar-sites",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-02T05:26:42.693893+00:00",
+      "published": "Tue, 02 Jun 2026 02:48:20 GMT",
+      "text_chars": 20196,
+      "raw_path": "data/geopolitics/raw/bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3.html",
+      "text_path": "data/geopolitics/raw/bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3.txt",
+      "summary": "Lebanon’s embassy in Washington said the agreement would not end the conflict but that it called for Israel to refrain from strikes on Beirut and its southern suburbs controlled by Hezbollah, while the Iran-aligned group would halt its attacks on Israel. Lebanon said it would seek to expand the ceasefire in talks with Israel in Washington DC on Wednesday.",
+      "bullets": [
+        "Lebanon’s embassy in Washington said the agreement would not end the conflict but that it called for Israel to refrain from strikes on Beirut and its southern suburbs controlled by Hezbollah, while the Iran-aligned group would halt its attacks on Israel.",
+        "Lebanon said it would seek to expand the ceasefire in talks with Israel in Washington DC on Wednesday.",
+        "The experts said in a statement: double quotation mark Relentless attacks by the settler-colonial movement, carried out with the support and acquiescence of the Israeli State, have become a daily terror in Palestinian lives, sowing fear, uncertainty and profound insecurity that inevitably compels the forcible displacement of the indigenous population.",
+        "Hezbollah had pledged through intermediaries not to attack Israel, and Israeli prime minister Benjamin Netanyahu had agreed to pull back any troops preparing to attack Beirut, the US president said.",
+        "Iranian state media said Tehran was halting indirect peace talks with the US and might end a ceasefire that has largely held since early April, citing the war in Lebanon."
+      ],
+      "excerpt": "UN experts warn against 'surging Israeli settler terror' A team of UN experts has issued a “stark warning about surging Israeli settler terror” in the occupied West Bank and east Jerusalem and “the existential risk it poses to Palestinian communities’ presence on the land”. The group of 14, including the UN’s special rapporteur for Palestine, Francesca Albanese, cited a sharp increase in the number of Palestinian casualties in settler attacks this year, saying at least 13 had been killed and close to 500 injured in five months amid the “settler brutality”. The experts said in a statement: double quotation mark Relentless attacks by the settler-colonial movement, carried out with the support and acquiescence of the Israeli State, have become a daily terror in Palestinian lives, sowing fear, uncertainty and profound insecurity that inevitably compels the forcible displacement of the indigenous population. The escalating violence, carried out with full impunity, serves as an instrument of coercion in the hands of the occupying power, facilitating ethnic cleansing.” The recent escalation of regional hostilities had drawn international attention away from the realities in the occupied t",
+      "keywords": [
+        {
+          "name": "lebanon",
+          "value": 40
+        },
+        {
+          "name": "hezbollah",
+          "value": 38
+        },
+        {
+          "name": "israeli",
+          "value": 37
+        },
+        {
+          "name": "israel",
+          "value": 35
+        },
+        {
+          "name": "trump",
+          "value": 24
+        },
+        {
+          "name": "attacks",
+          "value": 16
+        },
+        {
+          "name": "lebanese",
+          "value": 16
+        },
+        {
+          "name": "updated",
+          "value": 14
+        },
+        {
+          "name": "ceasefire",
+          "value": 13
+        },
+        {
+          "name": "netanyahu",
+          "value": 13
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Diplomacy and Negotiations",
+        "Territory and Chokepoints",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3",
+      "evidence_json": "/evidence/bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3.json"
+    },
+    {
+      "id": "21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26",
+      "topic": "geopolitics",
+      "title": "Afghanistan: Weekly Market Report: Issue 297: Week 4 - May 2026 (pdf)",
+      "url": "https://reliefweb.int/attachments/b26573a1-b07a-4f4c-a53b-0b65b6e341ec/WFP%20AFG%20Countrywide%20Weekly%20Market%20Report%2C%20Issue%20297%20-%204th%20Week%20of%20May%202026.pdf",
+      "host": "reliefweb.int",
+      "source": "https://reliefweb.int/updates/rss.xml",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-02T05:27:02.213524+00:00",
+      "published": "Tue, 02 Jun 2026 02:30:45 +0000",
+      "text_chars": 12533,
+      "raw_path": "data/geopolitics/raw/21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26.pdf",
+      "text_path": "data/geopolitics/raw/21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26.txt",
+      "summary": "Increased arrivals of seasonal produce from several provinces, continued to improve market availability and support downward price movements across major markets. The higher year-on-year prices reflect increases recorded between Oct-25 and Mar-26 following border closures with Pakistan and the rerouting of trade through Iran and Central Asia. In contrast, onion prices increased by 4.6%, partially reversing the declines observed in recent months and moving back toward more typical seasonal levels.",
+      "bullets": [
+        "Increased arrivals of seasonal produce from several provinces, continued to improve market availability and support downward price movements across major markets.",
+        "The higher year-on-year prices reflect increases recorded between Oct-25 and Mar-26 following border closures with Pakistan and the rerouting of trade through Iran and Central Asia.",
+        "In contrast, onion prices increased by 4.6%, partially reversing the declines observed in recent months and moving back toward more typical seasonal levels.",
+        "Vegetables: Vegetable prices continued their seasonal decline, supported by increased domestic production and improved market availability.",
+        "Weekly Price Changes and Trend Analysis Exchange Rate and Trade Dynamics: During the fourth week of May, the Afghani exchange rate remained stable at AFN 63.8/USD, while remaining stronger than both last year and the three-year average, helping to moderate the impact of imported inflation on domestic markets."
+      ],
+      "excerpt": "Weekly Price Changes and Trend Analysis Exchange Rate and Trade Dynamics: During the fourth week of May, the Afghani exchange rate remained stable at AFN 63.8/USD, while remaining stronger than both last year and the three-year average, helping to moderate the impact of imported inflation on domestic markets. Market supply conditions remained generally stable, supported by ongoing domestic harvests and continued imports through regional trade corridors. However, transportation costs, regional trade uncertainties, and high import dependence continue to pose risks to market stability and contribute to localized price fluctuations. Food Items: Overall, national average food prices remained relatively stable during the fourth week of May, with moderate week-on-week declines across major food commodities. However, compared to last year, most key food commodities continue to remain above year-ago levels, particularly wheat grain (+14%), wheat flour (high-price +9%; low-price +12%), rice (high-quality +38%; low-quality +28%), cooking oil (+4%), sugar (+25%), and salt (+10%). Meanwhile, pulses (-12%) and bread (- 4%), remain below their respective levels from the same period last year. The",
+      "keywords": [
+        {
+          "name": "week",
+          "value": 122
+        },
+        {
+          "name": "price",
+          "value": 24
+        },
+        {
+          "name": "prices",
+          "value": 24
+        },
+        {
+          "name": "labour",
+          "value": 17
+        },
+        {
+          "name": "last",
+          "value": 15
+        },
+        {
+          "name": "wheat",
+          "value": 15
+        },
+        {
+          "name": "average",
+          "value": 13
+        },
+        {
+          "name": "weekly",
+          "value": 13
+        },
+        {
+          "name": "year",
+          "value": 13
+        },
+        {
+          "name": "market",
+          "value": 12
+        }
+      ],
+      "signals": [
+        "Energy and Supply Chains",
+        "Humanitarian Pressure",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Indo-Pacific",
+        "Middle East"
+      ],
+      "file_asset": "/evidence-files/21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26.pdf",
+      "detail_path": "/evidence/21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26",
+      "evidence_json": "/evidence/21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26.json"
+    },
     {
       "id": "cafb47d1a38d1fde1e1f7068d4896940e8fe0b900aab9330ecbbb3a5fccfbb98",
       "topic": "geopolitics",
@@ -8498,156 +8655,6 @@
       ],
       "detail_path": "/evidence/c0fc6c37210d5a67524ccdfb3d2c2ae4a58029f448c8fc2c70b0f495cc3fabcc",
       "evidence_json": "/evidence/c0fc6c37210d5a67524ccdfb3d2c2ae4a58029f448c8fc2c70b0f495cc3fabcc.json"
-    },
-    {
-      "id": "0a694c81e3c4a9e861c42adab068e33644d89182d471df67ab801b51a2e32694",
-      "topic": "geopolitics",
-      "title": "Trump’s former attorney general to face closed-door questioning from House committee over Epstein files – live",
-      "url": "https://www.theguardian.com/us-news/live/2026/may/29/donald-trump-pam-bondi-jeffrey-epstein-iran-redistricting-latest-news-updates",
-      "host": "theguardian.com",
-      "source": "https://www.theguardian.com/world/rss",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-05-29T12:45:31.502501+00:00",
-      "published": "Fri, 29 May 2026 11:45:13 GMT",
-      "text_chars": 11854,
-      "raw_path": "data/geopolitics/raw/0a694c81e3c4a9e861c42adab068e33644d89182d471df67ab801b51a2e32694.html",
-      "text_path": "data/geopolitics/raw/0a694c81e3c4a9e861c42adab068e33644d89182d471df67ab801b51a2e32694.txt",
-      "summary": "Key events Show key events only Please turn on JavaScript to use this feature Vice-president JD Vance said Washington and Tehran are close to agreeing a deal to extend their ceasefire in the Middle East war, but the potential breakthrough still hangs on president Donald Trump’s approval. US vice-president JD Vance on Thursday told reporters that Washington was “not there yet” with Iran but he said the parties were close, adding that the US was in a position where it could substantially set back Tehran’s nuclear program.",
-      "bullets": [
-        "Key events Show key events only Please turn on JavaScript to use this feature Vice-president JD Vance said Washington and Tehran are close to agreeing a deal to extend their ceasefire in the Middle East war, but the potential breakthrough still hangs on president Donald Trump’s approval.",
-        "US vice-president JD Vance on Thursday told reporters that Washington was “not there yet” with Iran but he said the parties were close, adding that the US was in a position where it could substantially set back Tehran’s nuclear program.",
-        "New Jersey’s governor, Mikie Sherrill, said that state health inspectors were denied full access to the privately run Delaney Hall immigration detention center in Newark, where detainees are staging a hunger and labor strike over health and sanitary conditions, and protesters rallying outside have been tased, pepper-sprayed and detained.",
-        "Trump remained notably silent into Friday morning, despite US sources telling AFP a deal just needed his sign-off, underscoring the volatility of talks three months after the war rattled the Middle East and the global economy.",
-        "In other developments: A jury in Spokane, Washington found an Afghanistan War veteran and two others guilty of federal conspiracy charges on Thursday for their part in a protest last June outside the city’s Immigration and Customs Enforcement (ICE) facility."
-      ],
-      "excerpt": "Bondi to face closed-door questioning from House committee over Epstein files Hello and welcome to the US politics live blog. Former attorney-general Pam Bondi is testifying before the US House oversight and reform committee, a long-awaited appearance that brings fresh scrutiny of the administration’s release of the Epstein files. The committee announced in late April that Bondi would be appearing before the panel as part of its investigation, shortly after Democrats on the committee filed a civil contempt resolution against her. Bondi’s appearance comes as the justice department has faced criticism in recent months over its compliance with the Epstein Files Transparency Act, after the department failed to meet the act’s 19 December deadline to release the relevant files, instead releasing what it claimed were the full files on 31 January. Bondi was bullish in previous public testimony when confronted by lawmakers and it is unclear whether she will bring the same approach today. The session will be held behind closed doors. The transcribed interview will give lawmakers a chance to dig for information on the Trump administration’s handling of the Epstein files and other related matt",
-      "keywords": [
-        {
-          "name": "house",
-          "value": 14
-        },
-        {
-          "name": "trump",
-          "value": 14
-        },
-        {
-          "name": "committee",
-          "value": 12
-        },
-        {
-          "name": "epstein",
-          "value": 11
-        },
-        {
-          "name": "bondi",
-          "value": 10
-        },
-        {
-          "name": "department",
-          "value": 9
-        },
-        {
-          "name": "washington",
-          "value": 9
-        },
-        {
-          "name": "investigation",
-          "value": 8
-        },
-        {
-          "name": "carroll",
-          "value": 7
-        },
-        {
-          "name": "thursday",
-          "value": 7
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "Sanctions and Finance"
-      ],
-      "regions": [
-        "Americas",
-        "Africa",
-        "Europe and Russia"
-      ],
-      "detail_path": "/evidence/0a694c81e3c4a9e861c42adab068e33644d89182d471df67ab801b51a2e32694",
-      "evidence_json": "/evidence/0a694c81e3c4a9e861c42adab068e33644d89182d471df67ab801b51a2e32694.json"
-    },
-    {
-      "id": "77dd277f32acf9065b6488543ed443c2d0bcef488b800f378a16590fe263a557",
-      "topic": "geopolitics",
-      "title": "Russian drone launched against Ukraine crashes in Romania, injuring 2",
-      "url": "https://www.france24.com/en/video/20260529-russian-drone-launched-against-ukraine-crashes-in-romania-injuring-2",
-      "host": "france24.com",
-      "source": "https://www.france24.com/en/rss",
-      "data_type": "video_content",
-      "format": "Video",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-05-29T12:45:06.019984+00:00",
-      "published": "Fri, 29 May 2026 11:42:45 GMT",
-      "text_chars": 356,
-      "raw_path": "data/geopolitics/raw/77dd277f32acf9065b6488543ed443c2d0bcef488b800f378a16590fe263a557.html",
-      "text_path": "data/geopolitics/raw/77dd277f32acf9065b6488543ed443c2d0bcef488b800f378a16590fe263a557.txt",
-      "summary": "Title: Russian drone launched against Ukraine crashes in Romania, injuring 2 URL: https://www.france24.com/en/video/20260529-russian-drone-launched-against-ukraine-crashes-in-romania-injuring-2 Source: https://www.france24.com/en/rss Content-Type: text/html; charset=UTF-8 Bytes: 375547 Binary video_content source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: Russian drone launched against Ukraine crashes in Romania, injuring 2 URL: https://www.france24.com/en/video/20260529-russian-drone-launched-against-ukraine-crashes-in-romania-injuring-2 Source: https://www.france24.com/en/rss Content-Type: text/html; charset=UTF-8 Bytes: 375547",
-        "Binary video_content source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary video_content source collected for Global Geopolitics Monitor. Title: Russian drone launched against Ukraine crashes in Romania, injuring 2 URL: https://www.france24.com/en/video/20260529-russian-drone-launched-against-ukraine-crashes-in-romania-injuring-2 Source: https://www.france24.com/en/rss Content-Type: text/html; charset=UTF-8 Bytes: 375547",
-      "keywords": [
-        {
-          "name": "france",
-          "value": 3
-        },
-        {
-          "name": "crashes",
-          "value": 2
-        },
-        {
-          "name": "drone",
-          "value": 2
-        },
-        {
-          "name": "injuring",
-          "value": 2
-        },
-        {
-          "name": "launched",
-          "value": 2
-        },
-        {
-          "name": "romania",
-          "value": 2
-        },
-        {
-          "name": "russian",
-          "value": 2
-        },
-        {
-          "name": "ukraine",
-          "value": 2
-        },
-        {
-          "name": "video",
-          "value": 2
-        },
-        {
-          "name": "binary",
-          "value": 1
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Europe and Russia"
-      ],
-      "detail_path": "/evidence/77dd277f32acf9065b6488543ed443c2d0bcef488b800f378a16590fe263a557",
-      "evidence_json": "/evidence/77dd277f32acf9065b6488543ed443c2d0bcef488b800f378a16590fe263a557.json"
     }
   ],
   "deep_reads": [
@@ -8981,7 +8988,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-02T00:11:59.406179+00:00",
+      "collected_at": "2026-06-02T05:26:34.771916+00:00",
       "published": "",
       "text_chars": 9059627,
       "raw_path": "data/geopolitics/raw/7c974fbb427c407aff0183dde593a501086d8b6c7bda73690d4f7420c93afd9c.xml",
@@ -9221,7 +9228,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-02T00:11:25.885933+00:00",
+      "collected_at": "2026-06-02T05:26:00.644778+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -9296,7 +9303,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-02T00:11:25.608320+00:00",
+      "collected_at": "2026-06-02T05:26:00.929824+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -10253,7 +10260,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-02T00:11:27.543502+00:00",
+      "collected_at": "2026-06-02T05:26:02.598360+00:00",
       "published": "",
       "text_chars": 824888,
       "raw_path": "data/geopolitics/raw/eddf19c87989bb51f84a79be807873dd3a3251c813b65adcb85b5162c69a36bc.xml",
@@ -10413,7 +10420,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-02T00:12:07.326438+00:00",
+      "collected_at": "2026-06-02T05:26:41.672256+00:00",
       "published": "",
       "text_chars": 523907,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -10656,7 +10663,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-02T00:11:29.247046+00:00",
+      "collected_at": "2026-06-02T05:26:04.431939+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/c58a72779df7855745db02b01e9b701a673f864811ba3a9bf02f2096398ad782.xml",
@@ -10889,87 +10896,6 @@
   ],
   "documents": [
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-02T00:12:07.326438+00:00",
-      "published": "",
-      "text_chars": 523907,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 508
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "conflict",
-          "value": 265
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 208
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -10979,7 +10905,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-02T00:12:02.458744+00:00",
+      "collected_at": "2026-06-02T05:26:42.415317+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -11060,7 +10986,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-02T00:12:01.411702+00:00",
+      "collected_at": "2026-06-02T05:26:41.691557+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.html",
@@ -11124,6 +11050,87 @@
       "evidence_json": "/evidence/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.json"
     },
     {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-02T05:26:41.672256+00:00",
+      "published": "",
+      "text_chars": 523907,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 508
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "conflict",
+          "value": 265
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 208
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -11133,7 +11140,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-02T00:12:01.392834+00:00",
+      "collected_at": "2026-06-02T05:26:36.785985+00:00",
       "published": "",
       "text_chars": 174113,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11214,7 +11221,7 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-06-02T00:11:59.445309+00:00",
+      "collected_at": "2026-06-02T05:26:34.806845+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -11284,7 +11291,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-02T00:11:59.406179+00:00",
+      "collected_at": "2026-06-02T05:26:34.771916+00:00",
       "published": "",
       "text_chars": 9059627,
       "raw_path": "data/geopolitics/raw/7c974fbb427c407aff0183dde593a501086d8b6c7bda73690d4f7420c93afd9c.xml",
@@ -11364,7 +11371,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-02T00:11:29.247046+00:00",
+      "collected_at": "2026-06-02T05:26:04.431939+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/c58a72779df7855745db02b01e9b701a673f864811ba3a9bf02f2096398ad782.xml",
@@ -11444,7 +11451,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-02T00:11:27.543502+00:00",
+      "collected_at": "2026-06-02T05:26:02.598360+00:00",
       "published": "",
       "text_chars": 824888,
       "raw_path": "data/geopolitics/raw/eddf19c87989bb51f84a79be807873dd3a3251c813b65adcb85b5162c69a36bc.xml",
@@ -11515,81 +11522,6 @@
       "evidence_json": "/evidence/eddf19c87989bb51f84a79be807873dd3a3251c813b65adcb85b5162c69a36bc.json"
     },
     {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-02T00:11:25.885933+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -11599,7 +11531,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-02T00:11:25.608320+00:00",
+      "collected_at": "2026-06-02T05:26:00.929824+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -11665,6 +11597,160 @@
       ],
       "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-02T05:26:00.644778+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
+    },
+    {
+      "id": "21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26",
+      "topic": "geopolitics",
+      "title": "Afghanistan: Weekly Market Report: Issue 297: Week 4 - May 2026 (pdf)",
+      "url": "https://reliefweb.int/attachments/b26573a1-b07a-4f4c-a53b-0b65b6e341ec/WFP%20AFG%20Countrywide%20Weekly%20Market%20Report%2C%20Issue%20297%20-%204th%20Week%20of%20May%202026.pdf",
+      "host": "reliefweb.int",
+      "source": "https://reliefweb.int/updates/rss.xml",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-02T05:27:02.213524+00:00",
+      "published": "Tue, 02 Jun 2026 02:30:45 +0000",
+      "text_chars": 12533,
+      "raw_path": "data/geopolitics/raw/21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26.pdf",
+      "text_path": "data/geopolitics/raw/21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26.txt",
+      "summary": "Increased arrivals of seasonal produce from several provinces, continued to improve market availability and support downward price movements across major markets. The higher year-on-year prices reflect increases recorded between Oct-25 and Mar-26 following border closures with Pakistan and the rerouting of trade through Iran and Central Asia. In contrast, onion prices increased by 4.6%, partially reversing the declines observed in recent months and moving back toward more typical seasonal levels.",
+      "bullets": [
+        "Increased arrivals of seasonal produce from several provinces, continued to improve market availability and support downward price movements across major markets.",
+        "The higher year-on-year prices reflect increases recorded between Oct-25 and Mar-26 following border closures with Pakistan and the rerouting of trade through Iran and Central Asia.",
+        "In contrast, onion prices increased by 4.6%, partially reversing the declines observed in recent months and moving back toward more typical seasonal levels.",
+        "Vegetables: Vegetable prices continued their seasonal decline, supported by increased domestic production and improved market availability.",
+        "Weekly Price Changes and Trend Analysis Exchange Rate and Trade Dynamics: During the fourth week of May, the Afghani exchange rate remained stable at AFN 63.8/USD, while remaining stronger than both last year and the three-year average, helping to moderate the impact of imported inflation on domestic markets."
+      ],
+      "excerpt": "Weekly Price Changes and Trend Analysis Exchange Rate and Trade Dynamics: During the fourth week of May, the Afghani exchange rate remained stable at AFN 63.8/USD, while remaining stronger than both last year and the three-year average, helping to moderate the impact of imported inflation on domestic markets. Market supply conditions remained generally stable, supported by ongoing domestic harvests and continued imports through regional trade corridors. However, transportation costs, regional trade uncertainties, and high import dependence continue to pose risks to market stability and contribute to localized price fluctuations. Food Items: Overall, national average food prices remained relatively stable during the fourth week of May, with moderate week-on-week declines across major food commodities. However, compared to last year, most key food commodities continue to remain above year-ago levels, particularly wheat grain (+14%), wheat flour (high-price +9%; low-price +12%), rice (high-quality +38%; low-quality +28%), cooking oil (+4%), sugar (+25%), and salt (+10%). Meanwhile, pulses (-12%) and bread (- 4%), remain below their respective levels from the same period last year. The",
+      "keywords": [
+        {
+          "name": "week",
+          "value": 122
+        },
+        {
+          "name": "price",
+          "value": 24
+        },
+        {
+          "name": "prices",
+          "value": 24
+        },
+        {
+          "name": "labour",
+          "value": 17
+        },
+        {
+          "name": "last",
+          "value": 15
+        },
+        {
+          "name": "wheat",
+          "value": 15
+        },
+        {
+          "name": "average",
+          "value": 13
+        },
+        {
+          "name": "weekly",
+          "value": 13
+        },
+        {
+          "name": "year",
+          "value": 13
+        },
+        {
+          "name": "market",
+          "value": 12
+        }
+      ],
+      "signals": [
+        "Energy and Supply Chains",
+        "Humanitarian Pressure",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Indo-Pacific",
+        "Middle East"
+      ],
+      "file_asset": "/evidence-files/21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26.pdf",
+      "detail_path": "/evidence/21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26",
+      "evidence_json": "/evidence/21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26.json"
     },
     {
       "id": "d101a984aa939f4d26b777bf4521b610466f092054ae6734c6aa8acaab2342cd",
@@ -13654,86 +13740,6 @@
       ],
       "detail_path": "/evidence/32bee2361c2ae72393ce23197c1735c9acdb5c49bfeac5986bc457c76f8f3c8e",
       "evidence_json": "/evidence/32bee2361c2ae72393ce23197c1735c9acdb5c49bfeac5986bc457c76f8f3c8e.json"
-    },
-    {
-      "id": "c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
-      "host": "treasury.gov",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "text/xml",
-      "collected_at": "2026-05-28T14:32:24.996265+00:00",
-      "published": "",
-      "text_chars": 392158,
-      "raw_path": "data/geopolitics/raw/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae.xml",
-      "text_path": "data/geopolitics/raw/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae.txt",
-      "summary": "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a. strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
-      "bullets": [
-        "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a.",
-        "strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a.",
-        "strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
-        "strong HASAN DOUKHAN Abdul Fattah 4709 1936 true 9649 Ibrahim Mohammed DAHBOUR Individual NS-PLC 12132 Jenin West Bank Palestinian 4710 1968 true 9650 Mariam Mahmoud SALEH Individual NS-PLC 12133 Ramallah West Bank Palestinian 4711 1952 true 9651 Fathi Mohammed QAR'AWI Individual NS-PLC 9162 a.k.a.",
-        "strong NAWFAL Imad Mahmoud 12136 Qalqilya West Bank Palestinian 4716 1970 true 9654 Omar Mahmoud MATAR Individual NS-PLC 12137 Salfit West Bank Palestinian 4717 1958 true 9655 Muna Salim Saleh MANSOUR Individual NS-PLC 9165 a.k.a."
-      ],
-      "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Mohammad Mahmoud 4698 1951 true 4699 Umm Tuba true 9641 Jamileh Abdullah AL-SHANTI Individual NS-PLC 9154 a.k.a. strong EL-SHANTI Jameela Abdallah 9155 a.k.a. strong AL SHANTEE Jamila Abed Allah 12128 Gaza Palestinian 4700 1955 true 4701 Jabalia Camp true 9642 Mohammed Jamal NU'MAN ALAEDDIN Individual NS-PLC 9156 a.k.a. strong ALA AL DIN Mohamad Nouman 9157 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a. strong RABBAI Khalil Mussa 4705 1959 true 9645 Huda Naim AL-QREINAWI Individual NS-PLC 9159 a.k.a. strong AL QRENAWI Houda Naim 12130 Gaza Palestinian 4706 1969 true 9646 Mahmoud Ahmad AL-RAMAHI Individual NS-PLC 12131 Ramallah West Bank Palestinian 4707 1963 true 9647 Mahmoud Khaled ZAHHAR Individual (Linked To: HAMAS) NS-PLC SDGT 16681",
-      "keywords": [
-        {
-          "name": "sanctions",
-          "value": 942
-        },
-        {
-          "name": "russia",
-          "value": 663
-        },
-        {
-          "name": "ukraine",
-          "value": 565
-        },
-        {
-          "name": "executive",
-          "value": 440
-        },
-        {
-          "name": "order",
-          "value": 439
-        },
-        {
-          "name": "entity",
-          "value": 383
-        },
-        {
-          "name": "risk",
-          "value": 372
-        },
-        {
-          "name": "information",
-          "value": 370
-        },
-        {
-          "name": "subject",
-          "value": 323
-        },
-        {
-          "name": "treasury",
-          "value": 313
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance",
-        "Energy and Supply Chains",
-        "Territory and Chokepoints",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Europe and Russia",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae",
-      "evidence_json": "/evidence/c969d43d8b401adb826a685de33834707ee845e5b50da722df3916495d876dae.json"
     }
   ],
   "visual_evidence": [
@@ -15445,87 +15451,6 @@
   "cited_evidence": [],
   "evidence": [
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-02T00:12:07.326438+00:00",
-      "published": "",
-      "text_chars": 523907,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 508
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "conflict",
-          "value": 265
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 208
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -15535,7 +15460,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-02T00:12:02.458744+00:00",
+      "collected_at": "2026-06-02T05:26:42.415317+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15616,7 +15541,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-02T00:12:01.411702+00:00",
+      "collected_at": "2026-06-02T05:26:41.691557+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.html",
@@ -15680,6 +15605,87 @@
       "evidence_json": "/evidence/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.json"
     },
     {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-02T05:26:41.672256+00:00",
+      "published": "",
+      "text_chars": 523907,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 508
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "conflict",
+          "value": 265
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 208
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -15689,7 +15695,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-02T00:12:01.392834+00:00",
+      "collected_at": "2026-06-02T05:26:36.785985+00:00",
       "published": "",
       "text_chars": 174113,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15770,7 +15776,7 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-06-02T00:11:59.445309+00:00",
+      "collected_at": "2026-06-02T05:26:34.806845+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -15840,7 +15846,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-02T00:11:59.406179+00:00",
+      "collected_at": "2026-06-02T05:26:34.771916+00:00",
       "published": "",
       "text_chars": 9059627,
       "raw_path": "data/geopolitics/raw/7c974fbb427c407aff0183dde593a501086d8b6c7bda73690d4f7420c93afd9c.xml",
@@ -15920,7 +15926,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-02T00:11:29.247046+00:00",
+      "collected_at": "2026-06-02T05:26:04.431939+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/c58a72779df7855745db02b01e9b701a673f864811ba3a9bf02f2096398ad782.xml",
@@ -16000,7 +16006,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-02T00:11:27.543502+00:00",
+      "collected_at": "2026-06-02T05:26:02.598360+00:00",
       "published": "",
       "text_chars": 824888,
       "raw_path": "data/geopolitics/raw/eddf19c87989bb51f84a79be807873dd3a3251c813b65adcb85b5162c69a36bc.xml",
@@ -16071,81 +16077,6 @@
       "evidence_json": "/evidence/eddf19c87989bb51f84a79be807873dd3a3251c813b65adcb85b5162c69a36bc.json"
     },
     {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-02T00:11:25.885933+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -16155,7 +16086,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-02T00:11:25.608320+00:00",
+      "collected_at": "2026-06-02T05:26:00.929824+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -16221,6 +16152,240 @@
       ],
       "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-02T05:26:00.644778+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
+    },
+    {
+      "id": "bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3",
+      "topic": "geopolitics",
+      "title": "UN experts warn against ‘surging Israeli settler terror’ – as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/jun/01/iran-war-live-news-updates-kuwait-missile-drone-attack-us-strikes-iran-radar-sites",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-02T05:26:42.693893+00:00",
+      "published": "Tue, 02 Jun 2026 02:48:20 GMT",
+      "text_chars": 20196,
+      "raw_path": "data/geopolitics/raw/bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3.html",
+      "text_path": "data/geopolitics/raw/bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3.txt",
+      "summary": "Lebanon’s embassy in Washington said the agreement would not end the conflict but that it called for Israel to refrain from strikes on Beirut and its southern suburbs controlled by Hezbollah, while the Iran-aligned group would halt its attacks on Israel. Lebanon said it would seek to expand the ceasefire in talks with Israel in Washington DC on Wednesday.",
+      "bullets": [
+        "Lebanon’s embassy in Washington said the agreement would not end the conflict but that it called for Israel to refrain from strikes on Beirut and its southern suburbs controlled by Hezbollah, while the Iran-aligned group would halt its attacks on Israel.",
+        "Lebanon said it would seek to expand the ceasefire in talks with Israel in Washington DC on Wednesday.",
+        "The experts said in a statement: double quotation mark Relentless attacks by the settler-colonial movement, carried out with the support and acquiescence of the Israeli State, have become a daily terror in Palestinian lives, sowing fear, uncertainty and profound insecurity that inevitably compels the forcible displacement of the indigenous population.",
+        "Hezbollah had pledged through intermediaries not to attack Israel, and Israeli prime minister Benjamin Netanyahu had agreed to pull back any troops preparing to attack Beirut, the US president said.",
+        "Iranian state media said Tehran was halting indirect peace talks with the US and might end a ceasefire that has largely held since early April, citing the war in Lebanon."
+      ],
+      "excerpt": "UN experts warn against 'surging Israeli settler terror' A team of UN experts has issued a “stark warning about surging Israeli settler terror” in the occupied West Bank and east Jerusalem and “the existential risk it poses to Palestinian communities’ presence on the land”. The group of 14, including the UN’s special rapporteur for Palestine, Francesca Albanese, cited a sharp increase in the number of Palestinian casualties in settler attacks this year, saying at least 13 had been killed and close to 500 injured in five months amid the “settler brutality”. The experts said in a statement: double quotation mark Relentless attacks by the settler-colonial movement, carried out with the support and acquiescence of the Israeli State, have become a daily terror in Palestinian lives, sowing fear, uncertainty and profound insecurity that inevitably compels the forcible displacement of the indigenous population. The escalating violence, carried out with full impunity, serves as an instrument of coercion in the hands of the occupying power, facilitating ethnic cleansing.” The recent escalation of regional hostilities had drawn international attention away from the realities in the occupied t",
+      "keywords": [
+        {
+          "name": "lebanon",
+          "value": 40
+        },
+        {
+          "name": "hezbollah",
+          "value": 38
+        },
+        {
+          "name": "israeli",
+          "value": 37
+        },
+        {
+          "name": "israel",
+          "value": 35
+        },
+        {
+          "name": "trump",
+          "value": 24
+        },
+        {
+          "name": "attacks",
+          "value": 16
+        },
+        {
+          "name": "lebanese",
+          "value": 16
+        },
+        {
+          "name": "updated",
+          "value": 14
+        },
+        {
+          "name": "ceasefire",
+          "value": 13
+        },
+        {
+          "name": "netanyahu",
+          "value": 13
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Diplomacy and Negotiations",
+        "Territory and Chokepoints",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3",
+      "evidence_json": "/evidence/bbda11370f5b05d267a8231310057ec5faf413f76f9a3855dea6e4dd82fb01a3.json"
+    },
+    {
+      "id": "21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26",
+      "topic": "geopolitics",
+      "title": "Afghanistan: Weekly Market Report: Issue 297: Week 4 - May 2026 (pdf)",
+      "url": "https://reliefweb.int/attachments/b26573a1-b07a-4f4c-a53b-0b65b6e341ec/WFP%20AFG%20Countrywide%20Weekly%20Market%20Report%2C%20Issue%20297%20-%204th%20Week%20of%20May%202026.pdf",
+      "host": "reliefweb.int",
+      "source": "https://reliefweb.int/updates/rss.xml",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-02T05:27:02.213524+00:00",
+      "published": "Tue, 02 Jun 2026 02:30:45 +0000",
+      "text_chars": 12533,
+      "raw_path": "data/geopolitics/raw/21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26.pdf",
+      "text_path": "data/geopolitics/raw/21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26.txt",
+      "summary": "Increased arrivals of seasonal produce from several provinces, continued to improve market availability and support downward price movements across major markets. The higher year-on-year prices reflect increases recorded between Oct-25 and Mar-26 following border closures with Pakistan and the rerouting of trade through Iran and Central Asia. In contrast, onion prices increased by 4.6%, partially reversing the declines observed in recent months and moving back toward more typical seasonal levels.",
+      "bullets": [
+        "Increased arrivals of seasonal produce from several provinces, continued to improve market availability and support downward price movements across major markets.",
+        "The higher year-on-year prices reflect increases recorded between Oct-25 and Mar-26 following border closures with Pakistan and the rerouting of trade through Iran and Central Asia.",
+        "In contrast, onion prices increased by 4.6%, partially reversing the declines observed in recent months and moving back toward more typical seasonal levels.",
+        "Vegetables: Vegetable prices continued their seasonal decline, supported by increased domestic production and improved market availability.",
+        "Weekly Price Changes and Trend Analysis Exchange Rate and Trade Dynamics: During the fourth week of May, the Afghani exchange rate remained stable at AFN 63.8/USD, while remaining stronger than both last year and the three-year average, helping to moderate the impact of imported inflation on domestic markets."
+      ],
+      "excerpt": "Weekly Price Changes and Trend Analysis Exchange Rate and Trade Dynamics: During the fourth week of May, the Afghani exchange rate remained stable at AFN 63.8/USD, while remaining stronger than both last year and the three-year average, helping to moderate the impact of imported inflation on domestic markets. Market supply conditions remained generally stable, supported by ongoing domestic harvests and continued imports through regional trade corridors. However, transportation costs, regional trade uncertainties, and high import dependence continue to pose risks to market stability and contribute to localized price fluctuations. Food Items: Overall, national average food prices remained relatively stable during the fourth week of May, with moderate week-on-week declines across major food commodities. However, compared to last year, most key food commodities continue to remain above year-ago levels, particularly wheat grain (+14%), wheat flour (high-price +9%; low-price +12%), rice (high-quality +38%; low-quality +28%), cooking oil (+4%), sugar (+25%), and salt (+10%). Meanwhile, pulses (-12%) and bread (- 4%), remain below their respective levels from the same period last year. The",
+      "keywords": [
+        {
+          "name": "week",
+          "value": 122
+        },
+        {
+          "name": "price",
+          "value": 24
+        },
+        {
+          "name": "prices",
+          "value": 24
+        },
+        {
+          "name": "labour",
+          "value": 17
+        },
+        {
+          "name": "last",
+          "value": 15
+        },
+        {
+          "name": "wheat",
+          "value": 15
+        },
+        {
+          "name": "average",
+          "value": 13
+        },
+        {
+          "name": "weekly",
+          "value": 13
+        },
+        {
+          "name": "year",
+          "value": 13
+        },
+        {
+          "name": "market",
+          "value": 12
+        }
+      ],
+      "signals": [
+        "Energy and Supply Chains",
+        "Humanitarian Pressure",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Indo-Pacific",
+        "Middle East"
+      ],
+      "file_asset": "/evidence-files/21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26.pdf",
+      "detail_path": "/evidence/21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26",
+      "evidence_json": "/evidence/21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26.json"
     },
     {
       "id": "d101a984aa939f4d26b777bf4521b610466f092054ae6734c6aa8acaab2342cd",
