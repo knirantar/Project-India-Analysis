@@ -8,7 +8,7 @@
   "data_type": "geospatial_mapping_data",
   "format": "Dataset",
   "content_type": "application/zip",
-  "collected_at": "2026-06-04T19:16:51.032815+00:00",
+  "collected_at": "2026-06-04T21:26:23.348161+00:00",
   "published": "",
   "text_chars": 238,
   "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -67,6 +67,166 @@
   "regions": [],
   "full_text": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.\nTitle: \nURL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip\nSource: topic-config\nContent-Type: application/zip\nBytes: 215221",
   "related": [
+    {
+      "id": "7685baae783492c8093b9392e89910e4f357b987e6f0ea560e7ed3b29a945b6d",
+      "topic": "geopolitics",
+      "title": "OFAC Specially Designated Nationals List",
+      "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
+      "host": "treasury.gov",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "text/xml",
+      "collected_at": "2026-06-04T21:27:00.405318+00:00",
+      "published": "",
+      "text_chars": 9068028,
+      "raw_path": "data/geopolitics/raw/7685baae783492c8093b9392e89910e4f357b987e6f0ea560e7ed3b29a945b6d.xml",
+      "text_path": "data/geopolitics/raw/7685baae783492c8093b9392e89910e4f357b987e6f0ea560e7ed3b29a945b6d.txt",
+      "summary": "6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg.",
+      "bullets": [
+        "6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A.",
+        "strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg.",
+        "Entity CUBA 357 Buenos Aires Argentina 590 CUBACANCUN CIGARS AND GIFT SHOPS Entity CUBA 358 Cancun Mexico 591 CUBAEXPORT Entity CUBA 359 Spain 592 CUBAFRUTAS Entity CUBA 360 Spain 593 CUBAN CIGARS TRADE Entity CUBA 361 Italy 621 CUBANATUR Entity CUBA 362 Baja California 255, Edificio B.",
+        "11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A.",
+        "06500 Mexico 622 CUBATABACO Entity CUBA 363 Spain 636 CUMEXINT, S.A."
+      ],
+      "excerpt": "06/04/2026 19034 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity CUBA 219 a.k.a. weak BNC 220 a.k.a. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg. 6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. Entity CUBA 276 Panama City Panama 535 CIMEX Entity CUBA 317 Emerson No. 148 Piso 7 Mexico, D.F. 11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A. Entity CUBA 319 Panama 540 COMERCIAL IBEROAMERICANA, S.A. Entity CUBA 471 a.k.a. strong COIBA 321 Spain 551 COMERCIAL CIMEX, S.A. Entity CUBA 328 Panama 552 COMERCIAL DE RODAJES Y MAQUINARIA, S.A. Entity CUBA 475 a.k.a. strong CRYMSA 329 Jose Lazaro Galdeano 6-6 Madrid 28016 Spain 555 COMERCIALIZACION DE PRODUCTOS VARIOS Enti",
+      "keywords": [
+        {
+          "name": "sanctions",
+          "value": 19813
+        },
+        {
+          "name": "russia",
+          "value": 16751
+        },
+        {
+          "name": "executive",
+          "value": 13348
+        },
+        {
+          "name": "order",
+          "value": 13307
+        },
+        {
+          "name": "risk",
+          "value": 11407
+        },
+        {
+          "name": "entity",
+          "value": 9985
+        },
+        {
+          "name": "russia-eo",
+          "value": 6388
+        },
+        {
+          "name": "iran",
+          "value": 6100
+        },
+        {
+          "name": "gender",
+          "value": 5341
+        },
+        {
+          "name": "mexico",
+          "value": 4934
+        }
+      ],
+      "signals": [
+        "Energy and Supply Chains",
+        "Sanctions and Finance",
+        "Territory and Chokepoints",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Americas"
+      ],
+      "detail_path": "/evidence/7685baae783492c8093b9392e89910e4f357b987e6f0ea560e7ed3b29a945b6d",
+      "evidence_json": "/evidence/7685baae783492c8093b9392e89910e4f357b987e6f0ea560e7ed3b29a945b6d.json"
+    },
+    {
+      "id": "a3c182488b02223e68ae52c5c7c689070f5d457eb381dfd90040b22f137c932a",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
+      "host": "treasury.gov",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "text/xml",
+      "collected_at": "2026-06-04T21:26:25.363031+00:00",
+      "published": "",
+      "text_chars": 392158,
+      "raw_path": "data/geopolitics/raw/a3c182488b02223e68ae52c5c7c689070f5d457eb381dfd90040b22f137c932a.xml",
+      "text_path": "data/geopolitics/raw/a3c182488b02223e68ae52c5c7c689070f5d457eb381dfd90040b22f137c932a.txt",
+      "summary": "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a. strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
+      "bullets": [
+        "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a.",
+        "strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a.",
+        "strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
+        "strong HASAN DOUKHAN Abdul Fattah 4709 1936 true 9649 Ibrahim Mohammed DAHBOUR Individual NS-PLC 12132 Jenin West Bank Palestinian 4710 1968 true 9650 Mariam Mahmoud SALEH Individual NS-PLC 12133 Ramallah West Bank Palestinian 4711 1952 true 9651 Fathi Mohammed QAR'AWI Individual NS-PLC 9162 a.k.a.",
+        "strong NAWFAL Imad Mahmoud 12136 Qalqilya West Bank Palestinian 4716 1970 true 9654 Omar Mahmoud MATAR Individual NS-PLC 12137 Salfit West Bank Palestinian 4717 1958 true 9655 Muna Salim Saleh MANSOUR Individual NS-PLC 9165 a.k.a."
+      ],
+      "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Mohammad Mahmoud 4698 1951 true 4699 Umm Tuba true 9641 Jamileh Abdullah AL-SHANTI Individual NS-PLC 9154 a.k.a. strong EL-SHANTI Jameela Abdallah 9155 a.k.a. strong AL SHANTEE Jamila Abed Allah 12128 Gaza Palestinian 4700 1955 true 4701 Jabalia Camp true 9642 Mohammed Jamal NU'MAN ALAEDDIN Individual NS-PLC 9156 a.k.a. strong ALA AL DIN Mohamad Nouman 9157 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a. strong RABBAI Khalil Mussa 4705 1959 true 9645 Huda Naim AL-QREINAWI Individual NS-PLC 9159 a.k.a. strong AL QRENAWI Houda Naim 12130 Gaza Palestinian 4706 1969 true 9646 Mahmoud Ahmad AL-RAMAHI Individual NS-PLC 12131 Ramallah West Bank Palestinian 4707 1963 true 9647 Mahmoud Khaled ZAHHAR Individual (Linked To: HAMAS) NS-PLC SDGT 16681",
+      "keywords": [
+        {
+          "name": "sanctions",
+          "value": 942
+        },
+        {
+          "name": "russia",
+          "value": 663
+        },
+        {
+          "name": "ukraine",
+          "value": 565
+        },
+        {
+          "name": "executive",
+          "value": 440
+        },
+        {
+          "name": "order",
+          "value": 439
+        },
+        {
+          "name": "entity",
+          "value": 383
+        },
+        {
+          "name": "risk",
+          "value": 372
+        },
+        {
+          "name": "information",
+          "value": 370
+        },
+        {
+          "name": "subject",
+          "value": 323
+        },
+        {
+          "name": "treasury",
+          "value": 313
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/a3c182488b02223e68ae52c5c7c689070f5d457eb381dfd90040b22f137c932a",
+      "evidence_json": "/evidence/a3c182488b02223e68ae52c5c7c689070f5d457eb381dfd90040b22f137c932a.json"
+    },
     {
       "id": "5a33879c2e80944eb422478c0db3d10b489a90bda46c6e24c03777dd79f766fd",
       "topic": "geopolitics",
@@ -544,167 +704,6 @@
       "file_asset": "/evidence-files/4ee3a29a1f7d25fc3759763bbacd5e1451a22f09212ce863df1afe58ec78e540.pdf",
       "detail_path": "/evidence/4ee3a29a1f7d25fc3759763bbacd5e1451a22f09212ce863df1afe58ec78e540",
       "evidence_json": "/evidence/4ee3a29a1f7d25fc3759763bbacd5e1451a22f09212ce863df1afe58ec78e540.json"
-    },
-    {
-      "id": "94a5c7bfcc8ef4862634b09069fb7781c99fb3eb689907bff293e00d5f4d275e",
-      "topic": "geopolitics",
-      "title": "Middle East crisis live: Israel to continue ground operation in southern Lebanon despite agreed ceasefire",
-      "url": "https://www.theguardian.com/world/live/2026/jun/04/middle-east-crisis-israel-lebanon-hezbolllah-us-ceasefire-southern-military-attacks-continue-latest-news-updates",
-      "host": "theguardian.com",
-      "source": "https://www.theguardian.com/world/rss",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-06-04T13:56:40.700685+00:00",
-      "published": "Thu, 04 Jun 2026 13:36:31 GMT",
-      "text_chars": 17773,
-      "raw_path": "data/geopolitics/raw/94a5c7bfcc8ef4862634b09069fb7781c99fb3eb689907bff293e00d5f4d275e.html",
-      "text_path": "data/geopolitics/raw/94a5c7bfcc8ef4862634b09069fb7781c99fb3eb689907bff293e00d5f4d275e.txt",
-      "summary": "Hezbollah leader rejects latest ceasefire agreement reached between Israel and Lebanon Qassem said that Hezbollah has rejected the latest ceasefire agreement reached between Israel and the Lebanese government, demanding a complete Israeli withdrawal. In a written statement read on Hezbollah’s Al-Manar TV on Thursday, the Iran-backed group’s leader said the agreement’s demand that Hezbollah fighters leave southern Lebanon under fire would mean “surrender, defeat and achieving the enemy’s goals.” “What we are concerned about is an end to the aggression,...",
-      "bullets": [
-        "Hezbollah leader rejects latest ceasefire agreement reached between Israel and Lebanon Qassem said that Hezbollah has rejected the latest ceasefire agreement reached between Israel and the Lebanese government, demanding a complete Israeli withdrawal.",
-        "In a written statement read on Hezbollah’s Al-Manar TV on Thursday, the Iran-backed group’s leader said the agreement’s demand that Hezbollah fighters leave southern Lebanon under fire would mean “surrender, defeat and achieving the enemy’s goals.” “What we are concerned about is an end to the aggression, ceasefire and Israel’s withdrawal,” he said.",
-        "The US will determine the date and mechanism for implementing the ceasefire, which may begin 24 hours after Washington has been notified of the agreement and the necessary guarantees provided.",
-        "Here are the key updates ( as per the Lebanese presidency ): The fourth round of negotiations yesterday included terms that were strongly in Lebanon’s favour, and constituted “the last opportunity” to enter into a final and comprehensive ceasefire.",
-        "Key events Earlier today, the president of Lebanon, Joseph Aoun, spoke to reporters about the Israel-Lebanon talks in Washington."
-      ],
-      "excerpt": "Hezbollah leader rejects latest ceasefire agreement reached between Israel and Lebanon Qassem said that Hezbollah has rejected the latest ceasefire agreement reached between Israel and the Lebanese government, demanding a complete Israeli withdrawal. In a written statement read on Hezbollah’s Al-Manar TV on Thursday, the Iran-backed group’s leader said the agreement’s demand that Hezbollah fighters leave southern Lebanon under fire would mean “surrender, defeat and achieving the enemy’s goals.” “What we are concerned about is an end to the aggression, ceasefire and Israel’s withdrawal,” he said. “We did not make any commitment to any party to stop resisting as long as there is occupation,” he added. Key events Earlier today, the president of Lebanon, Joseph Aoun, spoke to reporters about the Israel-Lebanon talks in Washington. Here are the key updates ( as per the Lebanese presidency ): The fourth round of negotiations yesterday included terms that were strongly in Lebanon’s favour, and constituted “the last opportunity” to enter into a final and comprehensive ceasefire. Once all parties, including Hezbollah, provide their response, Lebanon will inform the US in order for the cease",
-      "keywords": [
-        {
-          "name": "lebanon",
-          "value": 41
-        },
-        {
-          "name": "israel",
-          "value": 28
-        },
-        {
-          "name": "ceasefire",
-          "value": 27
-        },
-        {
-          "name": "hezbollah",
-          "value": 20
-        },
-        {
-          "name": "israeli",
-          "value": 17
-        },
-        {
-          "name": "southern",
-          "value": 16
-        },
-        {
-          "name": "agreement",
-          "value": 15
-        },
-        {
-          "name": "lebanese",
-          "value": 14
-        },
-        {
-          "name": "statement",
-          "value": 11
-        },
-        {
-          "name": "iranian",
-          "value": 10
-        }
-      ],
-      "signals": [
-        "Diplomacy and Negotiations",
-        "War and Escalation",
-        "Institutions and Law",
-        "Territory and Chokepoints"
-      ],
-      "regions": [
-        "Middle East",
-        "Global Institutions",
-        "Americas"
-      ],
-      "detail_path": "/evidence/94a5c7bfcc8ef4862634b09069fb7781c99fb3eb689907bff293e00d5f4d275e",
-      "evidence_json": "/evidence/94a5c7bfcc8ef4862634b09069fb7781c99fb3eb689907bff293e00d5f4d275e.json"
-    },
-    {
-      "id": "86c440d68a29fef26bc632e28e95a8efbadbef3f7135dc04386ad8227a0762c8",
-      "topic": "geopolitics",
-      "title": "Lebanon: WHO Situation Report No.10: Middle East Conflict (15 May - 2 June 2026) (pdf)",
-      "url": "https://reliefweb.int/attachments/a239223a-bf4c-486d-91fe-8b4cb08e9d3c/ME-Sitrep-15-2-June-26.pdf",
-      "host": "reliefweb.int",
-      "source": "https://reliefweb.int/updates/rss.xml",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-04T16:48:52.501766+00:00",
-      "published": "Thu, 04 Jun 2026 13:28:49 +0000",
-      "text_chars": 26311,
-      "raw_path": "data/geopolitics/raw/86c440d68a29fef26bc632e28e95a8efbadbef3f7135dc04386ad8227a0762c8.pdf",
-      "text_path": "data/geopolitics/raw/86c440d68a29fef26bc632e28e95a8efbadbef3f7135dc04386ad8227a0762c8.txt",
-      "summary": "WHO RESPONSE • WHO's logistics hub in Dubai remains fully operational despite ongoing supply chain constraints and is managing emergency air charters to the Democratic Republic of the Congo, Gaza, Yemen and Somalia. • Iraq has reported 88 confirmed cases of Crimean -Congo haemorrhagic fever, including eight deaths, highlighting continued risks from infectious disease outbreaks amid regional instability. • On 3 June, strikes on Kuwait Airport, residential areas, and civilian and diplomatic facilities resulted in 1 death and 63 injuries.",
-      "bullets": [
-        "WHO RESPONSE • WHO's logistics hub in Dubai remains fully operational despite ongoing supply chain constraints and is managing emergency air charters to the Democratic Republic of the Congo, Gaza, Yemen and Somalia.",
-        "• Iraq has reported 88 confirmed cases of Crimean -Congo haemorrhagic fever, including eight deaths, highlighting continued risks from infectious disease outbreaks amid regional instability.",
-        "• On 3 June, strikes on Kuwait Airport, residential areas, and civilian and diplomatic facilities resulted in 1 death and 63 injuries.",
-        "Dotted and dashed lines on maps represent approximate border lines for which there may not yet be full agreement.",
-        "• WHO supported Risk Communications and Community Engagement training on priority communicable diseases in Syria, reaching 200 community health workers across six governorates."
-      ],
-      "excerpt": "WHO Situation Report Middle East Conflict Situation Report No.10 15 May - 2 June 2026 CRISIS IN NUMBERS Page 1 115 million people in need of humanitarian aid in the Region (48% of global total) prior to the current conflict The boundaries and names shown and the designations used on this map do not imply the expression of any opinion whatsoever on the part of the World Health Organization concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. Dotted and dashed lines on maps represent approximate border lines for which there may not yet be full agreement. WHO Eastern Mediterranean Region UPDATE ON SITUATION REPORT FREQUENCY AND FORMAT This is the last issue of the bi-monthly Regional situation report on the Middle East Conflict. Subsequent issues will be released monthly, with a focus on all humanitarian and health emergencies in WHO’s Eastern Mediterranean Region. The first issue of the Regional health emergencies situation report will be published on 2 July 2026, covering the reporting period of 2 June - 1 July 2026. Lebanon 3,468 deaths; 10,577 injuries since 2 March 965 deaths and ",
-      "keywords": [
-        {
-          "name": "health",
-          "value": 119
-        },
-        {
-          "name": "support",
-          "value": 33
-        },
-        {
-          "name": "care",
-          "value": 30
-        },
-        {
-          "name": "including",
-          "value": 28
-        },
-        {
-          "name": "cases",
-          "value": 25
-        },
-        {
-          "name": "reported",
-          "value": 25
-        },
-        {
-          "name": "emergency",
-          "value": 24
-        },
-        {
-          "name": "services",
-          "value": 22
-        },
-        {
-          "name": "lebanon",
-          "value": 21
-        },
-        {
-          "name": "response",
-          "value": 20
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Territory and Chokepoints",
-        "War and Escalation",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Middle East",
-        "Africa",
-        "Europe and Russia"
-      ],
-      "file_asset": "/evidence-files/86c440d68a29fef26bc632e28e95a8efbadbef3f7135dc04386ad8227a0762c8.pdf",
-      "detail_path": "/evidence/86c440d68a29fef26bc632e28e95a8efbadbef3f7135dc04386ad8227a0762c8",
-      "evidence_json": "/evidence/86c440d68a29fef26bc632e28e95a8efbadbef3f7135dc04386ad8227a0762c8.json"
     }
   ]
 }
