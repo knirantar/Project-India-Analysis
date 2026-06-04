@@ -1,83 +1,76 @@
 {
-  "generated_at": "2026-06-03T23:30:18.864595+00:00",
+  "generated_at": "2026-06-04T02:47:30.956776+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
     "headline": "Escalating tensions in the Middle East and Africa highlight urgent humanitarian and geopolitical challenges.",
     "executive_summary": [
-      "Recent hostilities in the Middle East, particularly involving Iran and Kuwait, have resulted in significant civilian casualties and infrastructure damage. Reports indicate that Iranian drone strikes on Kuwait International Airport have killed at least one person and injured over 60, exacerbating an already fragile humanitarian situation in the region (evidence id: 15).",
-      "In Lebanon, the ongoing conflict has led to a humanitarian crisis with over 1.2 million people displaced, including a significant number of children. The healthcare system is under severe strain, with shortages of essential medical supplies and a growing number of injured individuals (evidence id: 17).",
-      "The geopolitical landscape is further complicated by rising terrorism threats in Africa, where jihadist groups are gaining ground. The Center for Strategic and International Studies has identified these groups as a significant concern, with increased capabilities and resources (evidence id: 10).",
-      "Diplomatic efforts to stabilize the situation in the Middle East are ongoing, but the recent escalation of violence poses challenges to ceasefire negotiations. The U.S. continues to engage in military actions while seeking to maintain pressure on Iran and its allies (evidence id: 28)."
+      "Recent developments in the Middle East have intensified humanitarian crises, particularly in Lebanon, where over 1.2 million people have been displaced due to escalating conflict. The situation has led to significant civilian casualties, with reports indicating more than 2,167 deaths, including many women and children, and a severe shortage of humanitarian assistance (evidence id: 18).",
+      "In the context of the ongoing conflict, the United Nations and various humanitarian organizations are mobilizing resources to address the urgent needs of affected populations. However, the challenges are compounded by a lack of funding and the deteriorating security situation, which hampers effective response efforts (evidence id: 21).",
+      "Simultaneously, the geopolitical landscape is shifting as the U.S. reduces its military commitments in Europe, prompting NATO allies to increase their defense capabilities. This transition is critical as tensions with Russia remain high, particularly following recent drone strikes in St. Petersburg, which underscore Ukraine's growing operational reach (evidence id: 26).",
+      "The situation in Africa is also precarious, with rising terrorism threats linked to groups like al-Qaida and ISIS, which are gaining ground and posing significant challenges to regional stability. The U.S. has expressed concerns over these developments, indicating a need for renewed focus on counterterrorism efforts (evidence id: 12)."
     ],
     "key_judgments": [
       {
         "title": "Humanitarian Crisis in Lebanon",
-        "finding": "The conflict in Lebanon has resulted in over 1.2 million displaced individuals, with significant pressure on healthcare and humanitarian resources.",
+        "finding": "The humanitarian situation in Lebanon is dire, with over 1.2 million displaced and significant civilian casualties reported.",
         "citations": [
-          "evidence id: 17"
+          "18"
         ]
       },
       {
-        "title": "Escalation of Violence in the Gulf",
-        "finding": "Iranian drone strikes on Kuwait have resulted in casualties and damage to critical infrastructure, highlighting the volatility of the region.",
+        "title": "Geopolitical Shifts in NATO",
+        "finding": "The U.S. is reducing its military presence in Europe, compelling NATO allies to enhance their defense capabilities amid ongoing tensions with Russia.",
         "citations": [
-          "evidence id: 15"
+          "26"
         ]
       },
       {
-        "title": "Rising Terrorism Threat in Africa",
-        "finding": "Jihadist groups in Africa are becoming increasingly capable, posing a significant threat to regional stability and security.",
+        "title": "Rising Terrorism Threats in Africa",
+        "finding": "Terrorist groups in Africa are becoming more capable and pose a significant threat to regional stability.",
         "citations": [
-          "evidence id: 10"
-        ]
-      },
-      {
-        "title": "Challenges to Diplomatic Efforts",
-        "finding": "Ongoing military actions and escalations in the Middle East complicate diplomatic negotiations aimed at achieving a ceasefire.",
-        "citations": [
-          "evidence id: 28"
+          "12"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The Middle East is experiencing heightened tensions due to military escalations, particularly involving Iran and its regional activities, which have significant humanitarian implications.",
+        "assessment": "The Middle East is experiencing heightened conflict and humanitarian crises, particularly in Lebanon, where civilian casualties are rising and displacement is widespread.",
         "citations": [
-          "evidence id: 15",
-          "evidence id: 28"
+          "18",
+          "21"
         ]
       },
       {
         "region": "Africa",
-        "assessment": "Africa faces a growing terrorism threat, with jihadist groups expanding their influence and capabilities, which could destabilize the region further.",
+        "assessment": "Africa faces increasing terrorism threats, with groups like al-Qaida and ISIS expanding their influence and operational capabilities.",
         "citations": [
-          "evidence id: 10"
+          "12"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "Iran's Military Actions",
-        "why_it_matters": "Iran's military actions in the Gulf and against regional allies pose a direct threat to stability and could escalate into broader conflict.",
+        "label": "Lebanon Humanitarian Crisis",
+        "why_it_matters": "The ongoing humanitarian crisis in Lebanon could destabilize the region further and lead to increased refugee flows.",
         "citations": [
-          "evidence id: 28"
+          "18"
         ]
       },
       {
-        "label": "Humanitarian Situation in Lebanon",
-        "why_it_matters": "The worsening humanitarian crisis in Lebanon requires urgent international attention and assistance to prevent further deterioration.",
+        "label": "NATO Defense Capabilities",
+        "why_it_matters": "The enhancement of NATO defense capabilities is crucial for maintaining stability in Europe amid rising tensions with Russia.",
         "citations": [
-          "evidence id: 17"
+          "26"
         ]
       },
       {
         "label": "Terrorism in Africa",
-        "why_it_matters": "The rising capabilities of jihadist groups in Africa necessitate increased monitoring and response strategies to mitigate potential threats.",
+        "why_it_matters": "The rise of terrorism in Africa poses a significant threat to regional and global security, necessitating urgent international attention.",
         "citations": [
-          "evidence id: 10"
+          "12"
         ]
       }
     ],
@@ -86,8 +79,8 @@
     ]
   },
   "summary": {
-    "raw_documents": 657,
-    "total_text_chars": 107958092,
+    "raw_documents": 658,
+    "total_text_chars": 107962500,
     "sources": 32,
     "signals": 8,
     "regions": 6,
@@ -98,7 +91,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 477
+      "value": 478
     },
     {
       "name": "Image",
@@ -132,7 +125,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 457
+      "value": 458
     },
     {
       "name": "images",
@@ -186,7 +179,7 @@
     },
     {
       "name": "theguardian.com",
-      "value": 100
+      "value": 101
     },
     {
       "name": "global.unitednations.entermediadb.net",
@@ -352,7 +345,7 @@
     },
     {
       "name": "food",
-      "value": 831
+      "value": 835
     },
     {
       "name": "security",
@@ -569,11 +562,11 @@
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 369,
+      "count": 370,
       "formats": [
         {
           "name": "Article",
-          "value": 308
+          "value": 309
         },
         {
           "name": "PDF",
@@ -593,6 +586,7 @@
         }
       ],
       "evidence_ids": [
+        "6fd51a29a339c351d5a33ac99a4f546b870bfed94c577416b5d9dd6772f0b06f",
         "4b2eaa8a4ce135f789dc144247606d035bc52ed444397522c79597487d4d8812",
         "a4328a3c57587c0168109350d8de67e0382aca284f70336cc766ee71ffd1832c",
         "9a3609b0325f3a6718ba239baa33a11c08833c011c1a15379f8f36fb1aa0d2f9",
@@ -601,11 +595,20 @@
         "f4343fca46e36cd0acc031fcc9102d35136927bf16599640549a7fda0a4f476c",
         "4273f91acbaef01e8edbf9cc7cc052d1cbca321bc93cc78faf4c812cb005ff1e",
         "c2900c5b791d30a9e1367ad67b399c86cf7c83be0e9f95358247ec75eb69854a",
-        "2e02e835b90f928085f4ae9c4338b57b2b1b7ef95afb9c6bf232ef9e5713b628",
-        "6b18ae4b3b8fc966e761282ddbe45769c1730b5684f920b54d924044bd47f862"
+        "2e02e835b90f928085f4ae9c4338b57b2b1b7ef95afb9c6bf232ef9e5713b628"
       ],
-      "summary": "In April, he called the 77-year-old alliance a “paper tiger” and suggesting the US may consider leaving after Nato member countries ignored his call for military assistance to help reopen the strait of Hormuz. Trump has long criticized Nato but has escalated his rhetoric over the war in Iran. “I think the next meeting of Nato and Turkey in July is probably the most important meeting in Nato’s history, because there are some things here that need to be cleared up and fixed,” Rubio said on Wednesday. Kuwait said that its territory and airspace were not used to attack “any country”, denying Iranian claims that the United States launched strikes from there. Israeli prime minister Benjamin Netanyahu said in an interview with CNBC that any full-scale return to military action against Iran would be president Donald Trump’s decision, adding that US and Israeli forces are ready. Donald Trump said Iran’s supreme leader, Mojtaba Khamenei, is involved in talks to end the war and that he would “like to meet him”. Grynkewich’s statement, issued after a meeting of NATO military planners on Wednesday, was the first public indication of what areas the U.S. Manned and unmanned aircraft and naval vessels are two areas where Canada and European allies “can step up now and in the near term - as the United States reduces forces ‘sourced’ to the NATO Force Model in Europe and refocuses them elsewhere,” he said. military carried out strikes near the Strait of Hormuz, with diplomacy to halt the war showing little sign of progress. CENTCOM said it had carried out a new round of “defensive strikes” in southern Iran, targeted missile launch sites and Iranian boats seeking to lay mines, and carried out strikes on Qeshm Island near the Strait of Hormuz after attempted Iranian attacks. has pushed to reopen the Strait of Hormuz, a route that handled roughly a fifth of global oil and liquefied natural gas shipments before the war.",
+      "summary": "Takeaways, supermarkets, and bakeries in Japan are running out of plastic bags, trays and food service gloves amid widening shortages of the key plastic ingredient, naphtha, due to the Middle East crisis. The Middle East is Japan’s main source of crude oil, from which naphtha is extracted and then used to make a wide variety of items including printing ink, plastics, adhesives and medical supplies. The shop’s manager said its container supplier had notified it that prices would be going up by 30% in June. In April, he called the 77-year-old alliance a “paper tiger” and suggesting the US may consider leaving after Nato member countries ignored his call for military assistance to help reopen the strait of Hormuz. Trump has long criticized Nato but has escalated his rhetoric over the war in Iran. “I think the next meeting of Nato and Turkey in July is probably the most important meeting in Nato’s history, because there are some things here that need to be cleared up and fixed,” Rubio said on Wednesday. Kuwait said that its territory and airspace were not used to attack “any country”, denying Iranian claims that the United States launched strikes from there. Israeli prime minister Benjamin Netanyahu said in an interview with CNBC that any full-scale return to military action against Iran would be president Donald Trump’s decision, adding that US and Israeli forces are ready. Donald Trump said Iran’s supreme leader, Mojtaba Khamenei, is involved in talks to end the war and that he would “like to meet him”. Grynkewich’s statement, issued after a meeting of NATO military planners on Wednesday, was the first public indication of what areas the U.S. Manned and unmanned aircraft and naval vessels are two areas where Canada and European allies “can step up now and in the near term - as the United States reduces forces ‘sourced’ to the NATO Force Model in Europe and refocuses them elsewhere,” he said.",
       "latest": [
+        {
+          "id": "6fd51a29a339c351d5a33ac99a4f546b870bfed94c577416b5d9dd6772f0b06f",
+          "title": "Japan sees shortage of plastic bags, trays and gloves, as Iran war-induced naphtha shortage worsens",
+          "url": "https://www.theguardian.com/world/2026/jun/04/japan-naphtha-shortage-plastic-bag",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-04T02:47:46.109832+00:00",
+          "published": "Thu, 04 Jun 2026 00:12:10 GMT",
+          "summary": "Takeaways, supermarkets, and bakeries in Japan are running out of plastic bags, trays and food service gloves amid widening shortages of the key plastic ingredient, naphtha, due to the Middle East crisis. The Middle East is Japan’s main source of crude oil, from which naphtha is extracted and then used to make a wide variety of items including printing ink, plastics, adhesives and medical supplies. The shop’s manager said its container supplier had notified it that prices would be going up by 30% in June."
+        },
         {
           "id": "4b2eaa8a4ce135f789dc144247606d035bc52ed444397522c79597487d4d8812",
           "title": "Rubio says Trump to attend Nato meeting as ‘things need to be cleared up and fixed’ amid tension between US and allies – live",
@@ -645,16 +648,6 @@
           "collected_at": "2026-06-03T18:20:38.099670+00:00",
           "published": "Wed, 03 Jun 2026 15:09:44 +0000",
           "summary": "military carried out strikes near the Strait of Hormuz, with diplomacy to halt the war showing little sign of progress. CENTCOM said it had carried out a new round of “defensive strikes” in southern Iran, targeted missile launch sites and Iranian boats seeking to lay mines, and carried out strikes on Qeshm Island near the Strait of Hormuz after attempted Iranian attacks. has pushed to reopen the Strait of Hormuz, a route that handled roughly a fifth of global oil and liquefied natural gas shipments before the war."
-        },
-        {
-          "id": "528f8c20a514f6c102e0a177f7eb8511157bf62475445776a240f97de89bd6be",
-          "title": "Iran: UNHCR Middle East Situation: Weekly Update #19 as of 2 June 2026 (pdf)",
-          "url": "https://reliefweb.int/attachments/1066f2b9-4e90-5d4b-a7cc-110ac54a2f7f/UNHCR%20Middle%20East%20Situation%20Emergency%20Update%2019.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-06-03T18:20:42.888337+00:00",
-          "published": "Wed, 03 Jun 2026 13:03:10 +0000",
-          "summary": "R E G I O N A L S I T U A T I O N M A P As-of dates: crossings to Syria (Syrian returnees and Lebanese refugees) 31 May; crossings to/from Armenia and Afghan returnees (from Iran and Pakistan) 30 May; crossings into Pakistan 28 May; crossings to/from Türkiye 21 May; Afghan IDPs 27 April; Lebanese IDPs 1 April; Pakistan IDPs mid-March."
         }
       ]
     },
@@ -842,11 +835,11 @@
     },
     {
       "name": "Energy and Supply Chains",
-      "count": 193,
+      "count": 194,
       "formats": [
         {
           "name": "Article",
-          "value": 157
+          "value": 158
         },
         {
           "name": "PDF",
@@ -858,6 +851,7 @@
         }
       ],
       "evidence_ids": [
+        "6fd51a29a339c351d5a33ac99a4f546b870bfed94c577416b5d9dd6772f0b06f",
         "a56e4aaa106b58fdfff236a36ea822cada999a8e94995fe9fb96e6acad8abccc",
         "61426318feed4b6efa14a7cc2d51bd0ca34ba50cc375524dc914bc2314101df1",
         "c2900c5b791d30a9e1367ad67b399c86cf7c83be0e9f95358247ec75eb69854a",
@@ -866,11 +860,20 @@
         "d6761e214c9656af8b3a7c41d9be3e37af90c2e03ff88bb9beef894a7860ec57",
         "0b9744cd7acf315003bdfc4fbfe245c42e1aec5a749dded8cb2a01f684cb15d7",
         "6a99ec5587c10db68435d28cc87487542624582a5de67b2b9370c972c1d0a207",
-        "d54f199fa2ddeb547bdcea249862e4b10ed26f460b94c2352eb920325043e665",
-        "9eecc36c92fa6d724ee05011ea0edb1ba914dc07e232044295790c006911cac5"
+        "d54f199fa2ddeb547bdcea249862e4b10ed26f460b94c2352eb920325043e665"
       ],
-      "summary": "military carried out strikes near the Strait of Hormuz, with diplomacy to halt the war showing little sign of progress. CENTCOM said it had carried out a new round of “defensive strikes” in southern Iran, targeted missile launch sites and Iranian boats seeking to lay mines, and carried out strikes on Qeshm Island near the Strait of Hormuz after attempted Iranian attacks. has pushed to reopen the Strait of Hormuz, a route that handled roughly a fifth of global oil and liquefied natural gas shipments before the war. Instead, conflicts occurring in strategically important regions can trigger interconnected disruptions affecting health systems, energy markets, food security, transportation routes, and medical supply chains globally. Commenting on the publication, the authors emphasize that strengthening health resilience requires moving beyond health-sector preparedness alone toward integrated approaches involving health, energy, transport, agriculture, logistics, and governance systems. He said drones had hit “important facilities on Russian territory” including the Petersburg oil terminal, the Kronstadt base and a factory producing weapons in the Tambov region. Volodymyr Zelenskyy, writing on social media, said the strike was the latest example of Ukraine’s “long-range sanctions”. Zelenskyy noted that the oil trans-shipment facility, one of the largest on Russia’s Baltic sea coast, was about 1,100km (680 miles) from Ukraine’s state border. In 2023, the NATO Baltic Defense College in Tartu, Estonia devoted its entire annual conference to the Interwar Period (1919 to 1939), a theme repeated at subsequent conferences sponsored by national militaries and academic societies throughout the United States and Europe. Greater vision might be attained by refocusing their attention from the flashier antics of the bull or bear in the arena towards the short- and long-term consequences of bellicosity on national, regional, and global marketplaces.",
+      "summary": "Takeaways, supermarkets, and bakeries in Japan are running out of plastic bags, trays and food service gloves amid widening shortages of the key plastic ingredient, naphtha, due to the Middle East crisis. The Middle East is Japan’s main source of crude oil, from which naphtha is extracted and then used to make a wide variety of items including printing ink, plastics, adhesives and medical supplies. The shop’s manager said its container supplier had notified it that prices would be going up by 30% in June. military carried out strikes near the Strait of Hormuz, with diplomacy to halt the war showing little sign of progress. CENTCOM said it had carried out a new round of “defensive strikes” in southern Iran, targeted missile launch sites and Iranian boats seeking to lay mines, and carried out strikes on Qeshm Island near the Strait of Hormuz after attempted Iranian attacks. has pushed to reopen the Strait of Hormuz, a route that handled roughly a fifth of global oil and liquefied natural gas shipments before the war. Instead, conflicts occurring in strategically important regions can trigger interconnected disruptions affecting health systems, energy markets, food security, transportation routes, and medical supply chains globally. Commenting on the publication, the authors emphasize that strengthening health resilience requires moving beyond health-sector preparedness alone toward integrated approaches involving health, energy, transport, agriculture, logistics, and governance systems. He said drones had hit “important facilities on Russian territory” including the Petersburg oil terminal, the Kronstadt base and a factory producing weapons in the Tambov region. Volodymyr Zelenskyy, writing on social media, said the strike was the latest example of Ukraine’s “long-range sanctions”. Zelenskyy noted that the oil trans-shipment facility, one of the largest on Russia’s Baltic sea coast, was about 1,100km (680 miles) from Ukraine’s state border.",
       "latest": [
+        {
+          "id": "6fd51a29a339c351d5a33ac99a4f546b870bfed94c577416b5d9dd6772f0b06f",
+          "title": "Japan sees shortage of plastic bags, trays and gloves, as Iran war-induced naphtha shortage worsens",
+          "url": "https://www.theguardian.com/world/2026/jun/04/japan-naphtha-shortage-plastic-bag",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-04T02:47:46.109832+00:00",
+          "published": "Thu, 04 Jun 2026 00:12:10 GMT",
+          "summary": "Takeaways, supermarkets, and bakeries in Japan are running out of plastic bags, trays and food service gloves amid widening shortages of the key plastic ingredient, naphtha, due to the Middle East crisis. The Middle East is Japan’s main source of crude oil, from which naphtha is extracted and then used to make a wide variety of items including printing ink, plastics, adhesives and medical supplies. The shop’s manager said its container supplier had notified it that prices would be going up by 30% in June."
+        },
         {
           "id": "a56e4aaa106b58fdfff236a36ea822cada999a8e94995fe9fb96e6acad8abccc",
           "title": "Gulf tensions escalate as Iran hits Kuwait, US strikes near Hormuz",
@@ -910,16 +913,6 @@
           "collected_at": "2026-06-03T08:11:04.880500+00:00",
           "published": "Wed, 03 Jun 2026 07:30:21 +0000",
           "summary": "In 2023, the NATO Baltic Defense College in Tartu, Estonia devoted its entire annual conference to the Interwar Period (1919 to 1939), a theme repeated at subsequent conferences sponsored by national militaries and academic societies throughout the United States and Europe. Greater vision might be attained by refocusing their attention from the flashier antics of the bull or bear in the arena towards the short- and long-term consequences of bellicosity on national, regional, and global marketplaces."
-        },
-        {
-          "id": "6b18ae4b3b8fc966e761282ddbe45769c1730b5684f920b54d924044bd47f862",
-          "title": "Iran and the US trade strikes in the Persian Gulf, further testing the ceasefire",
-          "url": "https://www.npr.org/2026/06/03/g-s1-125566/iran-war-updates",
-          "host": "npr.org",
-          "format": "Article",
-          "collected_at": "2026-06-03T13:11:18.329463+00:00",
-          "published": "Wed, 03 Jun 2026 02:45:30 -0400",
-          "summary": "military said it launched strikes on an Iranian military ground control station on Qeshm Island in the Strait of Hormuz in response to the attacks on Bahrain and Kuwait. The strikes came as semiofficial Iranian news agencies said the country had stopped communicating with mediators about extending a ceasefire in the war with the U.S. Those talks have dragged on for weeks, and repeated exchanges of strikes in the Gulf region and Israel's broadening war in Lebanon are further straining the efforts."
         }
       ]
     },
@@ -1192,8 +1185,9 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 339,
+      "count": 340,
       "evidence_ids": [
+        "6fd51a29a339c351d5a33ac99a4f546b870bfed94c577416b5d9dd6772f0b06f",
         "4b2eaa8a4ce135f789dc144247606d035bc52ed444397522c79597487d4d8812",
         "a4328a3c57587c0168109350d8de67e0382aca284f70336cc766ee71ffd1832c",
         "a56e4aaa106b58fdfff236a36ea822cada999a8e94995fe9fb96e6acad8abccc",
@@ -1204,13 +1198,12 @@
         "4ef98e90de3060cb17b422d6ee7157b69e52862aa5ba5c11567743475fe9f299",
         "4273f91acbaef01e8edbf9cc7cc052d1cbca321bc93cc78faf4c812cb005ff1e",
         "c2900c5b791d30a9e1367ad67b399c86cf7c83be0e9f95358247ec75eb69854a",
-        "6b18ae4b3b8fc966e761282ddbe45769c1730b5684f920b54d924044bd47f862",
-        "ac6723a18480d32bec7b6669e65eea59aef641f15b06c9d22342d1cf8463f09a"
+        "6b18ae4b3b8fc966e761282ddbe45769c1730b5684f920b54d924044bd47f862"
       ],
       "top_sources": [
         {
           "name": "theguardian.com",
-          "value": 69
+          "value": 70
         },
         {
           "name": "reliefweb.int",
@@ -1392,8 +1385,9 @@
     },
     {
       "name": "Indo-Pacific",
-      "count": 159,
+      "count": 160,
       "evidence_ids": [
+        "6fd51a29a339c351d5a33ac99a4f546b870bfed94c577416b5d9dd6772f0b06f",
         "b2f195fdb62593a686f2e49a4e9f5a68b6f5212846d3d2bec5354006599e78fa",
         "528f8c20a514f6c102e0a177f7eb8511157bf62475445776a240f97de89bd6be",
         "7c27eac0b630e31d9de767e07a315c8be8d8d211441fad39d3c09c8f8c808a5b",
@@ -1404,8 +1398,7 @@
         "8684346a42478804e33698876b732549125baa1faec398d980e8c936297e8fda",
         "0bf375cb212c4165bc8afc567d088915d3d0bf5e21a4ee5cab29ee494ff217ff",
         "21b7ab2162d29406ce7cc839296bd416e7ff136c00635b1b420142e8f34bcf26",
-        "134d6907bbab1236f045dc0494642da1f3cf261d29ca6d7b717a7db8f85eac82",
-        "0e9d8cdc2a8851da382aee295e614d2cddedadc9110db92b9a00dbfa1a28c74e"
+        "134d6907bbab1236f045dc0494642da1f3cf261d29ca6d7b717a7db8f85eac82"
       ],
       "top_sources": [
         {
@@ -1414,7 +1407,7 @@
         },
         {
           "name": "theguardian.com",
-          "value": 25
+          "value": 26
         },
         {
           "name": "reliefweb.int",
@@ -1721,17 +1714,17 @@
     },
     {
       "date": "2026-04-08",
-      "evidence_id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
-    },
-    {
-      "date": "2026-04-08",
       "evidence_id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "title": "MS.MIL.XPND.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
       "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\","
+    },
+    {
+      "date": "2026-04-08",
+      "evidence_id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
     },
     {
       "date": "2026",
@@ -2414,6 +2407,83 @@
     }
   ],
   "latest_evidence": [
+    {
+      "id": "6fd51a29a339c351d5a33ac99a4f546b870bfed94c577416b5d9dd6772f0b06f",
+      "topic": "geopolitics",
+      "title": "Japan sees shortage of plastic bags, trays and gloves, as Iran war-induced naphtha shortage worsens",
+      "url": "https://www.theguardian.com/world/2026/jun/04/japan-naphtha-shortage-plastic-bag",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-04T02:47:46.109832+00:00",
+      "published": "Thu, 04 Jun 2026 00:12:10 GMT",
+      "text_chars": 4408,
+      "raw_path": "data/geopolitics/raw/6fd51a29a339c351d5a33ac99a4f546b870bfed94c577416b5d9dd6772f0b06f.html",
+      "text_path": "data/geopolitics/raw/6fd51a29a339c351d5a33ac99a4f546b870bfed94c577416b5d9dd6772f0b06f.txt",
+      "summary": "Takeaways, supermarkets, and bakeries in Japan are running out of plastic bags, trays and food service gloves amid widening shortages of the key plastic ingredient, naphtha, due to the Middle East crisis. The Middle East is Japan’s main source of crude oil, from which naphtha is extracted and then used to make a wide variety of items including printing ink, plastics, adhesives and medical supplies. The shop’s manager said its container supplier had notified it that prices would be going up by 30% in June.",
+      "bullets": [
+        "Takeaways, supermarkets, and bakeries in Japan are running out of plastic bags, trays and food service gloves amid widening shortages of the key plastic ingredient, naphtha, due to the Middle East crisis.",
+        "The Middle East is Japan’s main source of crude oil, from which naphtha is extracted and then used to make a wide variety of items including printing ink, plastics, adhesives and medical supplies.",
+        "The shop’s manager said its container supplier had notified it that prices would be going up by 30% in June.",
+        "The food sector accounts for nearly one-third of Japan’s annual plastic use of more than 8m tonnes, and price rises and shortages are hitting hard across the industry and beyond.",
+        "Data from the Japan Petrochemical Industry Association (JPCA) showed that production of the polyethylene used in shopping and garbage bags was down 62% in March compared with 2025, with large drops also recorded for manufacturing of other plastics."
+      ],
+      "excerpt": "Takeaways, supermarkets, and bakeries in Japan are running out of plastic bags, trays and food service gloves amid widening shortages of the key plastic ingredient, naphtha, due to the Middle East crisis. The food sector accounts for nearly one-third of Japan’s annual plastic use of more than 8m tonnes, and price rises and shortages are hitting hard across the industry and beyond. Some outlets have begun offering perks to customers who bring their own bags, plates or containers. The Middle East is Japan’s main source of crude oil, from which naphtha is extracted and then used to make a wide variety of items including printing ink, plastics, adhesives and medical supplies. Data from the Japan Petrochemical Industry Association (JPCA) showed that production of the polyethylene used in shopping and garbage bags was down 62% in March compared with 2025, with large drops also recorded for manufacturing of other plastics. Prime minister Sanae Takaichi’s government is facing mounting pressure over the shortages, which are also affecting other sectors. The government has assured the public that the issue is a supply “bottleneck” rather than a shortage, but industry leaders and commentators",
+      "keywords": [
+        {
+          "name": "bags",
+          "value": 16
+        },
+        {
+          "name": "plastic",
+          "value": 14
+        },
+        {
+          "name": "japan",
+          "value": 7
+        },
+        {
+          "name": "east",
+          "value": 6
+        },
+        {
+          "name": "customers",
+          "value": 5
+        },
+        {
+          "name": "government",
+          "value": 5
+        },
+        {
+          "name": "middle",
+          "value": 5
+        },
+        {
+          "name": "naphtha",
+          "value": 5
+        },
+        {
+          "name": "shortages",
+          "value": 5
+        },
+        {
+          "name": "food",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "Energy and Supply Chains",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Indo-Pacific",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/6fd51a29a339c351d5a33ac99a4f546b870bfed94c577416b5d9dd6772f0b06f",
+      "evidence_json": "/evidence/6fd51a29a339c351d5a33ac99a4f546b870bfed94c577416b5d9dd6772f0b06f.json"
+    },
     {
       "id": "787706f26dc8645c3a68c1c05c0cf0bbc5be52810a485913fc415a38245e10be",
       "topic": "geopolitics",
@@ -8507,85 +8577,6 @@
       ],
       "detail_path": "/evidence/ba5d3d54f776b7cda306b841318e96df2e641646ae1953d7d65a7c1ae099dfcf",
       "evidence_json": "/evidence/ba5d3d54f776b7cda306b841318e96df2e641646ae1953d7d65a7c1ae099dfcf.json"
-    },
-    {
-      "id": "da00b3e28eba4170f3fd8ca8820ec27a6aec211025f66a7b091fb12e4da2fd5a",
-      "topic": "geopolitics",
-      "title": "U.S. bombs Iranian military sites and Kuwait is hit by drone and missile fire",
-      "url": "https://www.npr.org/2026/06/01/g-s1-125126/us-iran-war-updates",
-      "host": "npr.org",
-      "source": "https://www.npr.org/rss/rss.php?id=1004",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-06-01T09:16:13.693340+00:00",
-      "published": "Mon, 01 Jun 2026 01:53:00 -0400",
-      "text_chars": 4028,
-      "raw_path": "data/geopolitics/raw/da00b3e28eba4170f3fd8ca8820ec27a6aec211025f66a7b091fb12e4da2fd5a.html",
-      "text_path": "data/geopolitics/raw/da00b3e28eba4170f3fd8ca8820ec27a6aec211025f66a7b091fb12e4da2fd5a.txt",
-      "summary": "President Donald Trump overlaid on a \"closed\" Strait of Hormuz with the caption: \"Until the last American soldier leaves the region.\" Attacks rattle ceasefire talks The attacks represent the latest escalation between the U.S. AP/AP Photo hide caption toggle caption AP/AP Photo DUBAI, United Arab Emirates — The United States bombed Iranian radar and drone control sites in Iran after Tehran shot down an American MQ-1 Predator drone this weekend, the American military said Monday.",
-      "bullets": [
-        "President Donald Trump overlaid on a \"closed\" Strait of Hormuz with the caption: \"Until the last American soldier leaves the region.\" Attacks rattle ceasefire talks The attacks represent the latest escalation between the U.S.",
-        "AP/AP Photo hide caption toggle caption AP/AP Photo DUBAI, United Arab Emirates — The United States bombed Iranian radar and drone control sites in Iran after Tehran shot down an American MQ-1 Predator drone this weekend, the American military said Monday.",
-        "Iran acknowledged launching a retaliatory strike, while Kuwait said it was intercepting incoming drone and missile fire.",
-        "The dueling attacks reflect the fragility of a weekslong ceasefire in the Iran war, which has seen repeated attacks even as American and Iranian officials try to negotiate a deal to extend it.",
-        "Iran has maintained its chokehold on the Strait of Hormuz in the meantime, disrupting global energy supplies as a fifth of all oil and natural gas traded once passed through the narrow mouth of the Persian Gulf."
-      ],
-      "excerpt": "This is a locator map for the Gulf Cooperation Council member states: Saudi Arabia, Bahrain, Qatar, Oman, Kuwait and United Arab Emirates. AP/AP Photo hide caption toggle caption AP/AP Photo DUBAI, United Arab Emirates — The United States bombed Iranian radar and drone control sites in Iran after Tehran shot down an American MQ-1 Predator drone this weekend, the American military said Monday. Iran acknowledged launching a retaliatory strike, while Kuwait said it was intercepting incoming drone and missile fire. The dueling attacks reflect the fragility of a weekslong ceasefire in the Iran war, which has seen repeated attacks even as American and Iranian officials try to negotiate a deal to extend it. Iran has maintained its chokehold on the Strait of Hormuz in the meantime, disrupting global energy supplies as a fifth of all oil and natural gas traded once passed through the narrow mouth of the Persian Gulf. Meanwhile, fighting continues to escalate as Israel extends its occupation of Lebanon beyond the Litani River and as the militant group Hezbollah continues to launch drones into Israel. US military attacks Iran The U.S. military's Central Command said it carried out the strikes",
-      "keywords": [
-        {
-          "name": "iran",
-          "value": 11
-        },
-        {
-          "name": "iranian",
-          "value": 7
-        },
-        {
-          "name": "attacks",
-          "value": 6
-        },
-        {
-          "name": "drone",
-          "value": 6
-        },
-        {
-          "name": "kuwait",
-          "value": 6
-        },
-        {
-          "name": "american",
-          "value": 5
-        },
-        {
-          "name": "fire",
-          "value": 5
-        },
-        {
-          "name": "military",
-          "value": 5
-        },
-        {
-          "name": "missile",
-          "value": 5
-        },
-        {
-          "name": "deal",
-          "value": 4
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Diplomacy and Negotiations",
-        "Energy and Supply Chains",
-        "Territory and Chokepoints"
-      ],
-      "regions": [
-        "Middle East",
-        "Americas"
-      ],
-      "detail_path": "/evidence/da00b3e28eba4170f3fd8ca8820ec27a6aec211025f66a7b091fb12e4da2fd5a",
-      "evidence_json": "/evidence/da00b3e28eba4170f3fd8ca8820ec27a6aec211025f66a7b091fb12e4da2fd5a.json"
     }
   ],
   "deep_reads": [
@@ -8919,7 +8910,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-03T23:30:10.318870+00:00",
+      "collected_at": "2026-06-04T02:47:22.703182+00:00",
       "published": "",
       "text_chars": 9064868,
       "raw_path": "data/geopolitics/raw/5a33879c2e80944eb422478c0db3d10b489a90bda46c6e24c03777dd79f766fd.xml",
@@ -9239,7 +9230,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-03T23:29:31.843731+00:00",
+      "collected_at": "2026-06-04T02:46:43.387735+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -9314,7 +9305,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-03T23:29:31.577403+00:00",
+      "collected_at": "2026-06-04T02:46:43.675137+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -10271,7 +10262,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-03T23:29:33.815422+00:00",
+      "collected_at": "2026-06-04T02:46:45.686347+00:00",
       "published": "",
       "text_chars": 824888,
       "raw_path": "data/geopolitics/raw/755fac4cc297b4e453d5103fe7ecaff087f958391e54873bc53aaa5bacf0567c.xml",
@@ -10591,7 +10582,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-03T23:30:18.864595+00:00",
+      "collected_at": "2026-06-04T02:47:30.956776+00:00",
       "published": "",
       "text_chars": 523907,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -10836,7 +10827,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-03T23:30:18.864595+00:00",
+      "collected_at": "2026-06-04T02:47:30.956776+00:00",
       "published": "",
       "text_chars": 523907,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -10917,7 +10908,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-03T23:30:13.357130+00:00",
+      "collected_at": "2026-06-04T02:47:25.750356+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -10998,7 +10989,7 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-06-03T23:30:10.392410+00:00",
+      "collected_at": "2026-06-04T02:47:24.851863+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -11068,7 +11059,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-03T23:30:10.381462+00:00",
+      "collected_at": "2026-06-04T02:47:24.848508+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.html",
@@ -11132,6 +11123,87 @@
       "evidence_json": "/evidence/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.json"
     },
     {
+      "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
+      "topic": "geopolitics",
+      "title": "UN Peacekeeping Capstone Doctrine",
+      "url": "https://peacekeeping.un.org/sites/default/files/capstone_eng_0.pdf",
+      "host": "peacekeeping.un.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-04T02:47:24.828309+00:00",
+      "published": "",
+      "text_chars": 174113,
+      "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
+      "text_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.txt",
+      "summary": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
+      "bullets": [
+        "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
+        "During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
+        "United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
+        "During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
+        "Guéhenno, USG/DPKO Approved on 18 January 2008 Contact: PBPS/D-PET Review date: January 2010 © United Nations 2008."
+      ],
+      "excerpt": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines United Nations Peacekeeping Operat",
+      "keywords": [
+        {
+          "name": "nations",
+          "value": 574
+        },
+        {
+          "name": "united",
+          "value": 570
+        },
+        {
+          "name": "peacekeeping",
+          "value": 400
+        },
+        {
+          "name": "operations",
+          "value": 263
+        },
+        {
+          "name": "mission",
+          "value": 208
+        },
+        {
+          "name": "security",
+          "value": 171
+        },
+        {
+          "name": "peace",
+          "value": 160
+        },
+        {
+          "name": "operation",
+          "value": 151
+        },
+        {
+          "name": "should",
+          "value": 104
+        },
+        {
+          "name": "support",
+          "value": 100
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Global Institutions",
+        "Europe and Russia",
+        "Africa"
+      ],
+      "file_asset": "/evidence-files/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
+      "detail_path": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
+      "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
+    },
+    {
       "id": "5a33879c2e80944eb422478c0db3d10b489a90bda46c6e24c03777dd79f766fd",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -11141,7 +11213,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-03T23:30:10.318870+00:00",
+      "collected_at": "2026-06-04T02:47:22.703182+00:00",
       "published": "",
       "text_chars": 9064868,
       "raw_path": "data/geopolitics/raw/5a33879c2e80944eb422478c0db3d10b489a90bda46c6e24c03777dd79f766fd.xml",
@@ -11221,7 +11293,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-03T23:29:35.653030+00:00",
+      "collected_at": "2026-06-04T02:46:47.651494+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76.xml",
@@ -11301,7 +11373,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-03T23:29:33.815422+00:00",
+      "collected_at": "2026-06-04T02:46:45.686347+00:00",
       "published": "",
       "text_chars": 824888,
       "raw_path": "data/geopolitics/raw/755fac4cc297b4e453d5103fe7ecaff087f958391e54873bc53aaa5bacf0567c.xml",
@@ -11372,81 +11444,6 @@
       "evidence_json": "/evidence/755fac4cc297b4e453d5103fe7ecaff087f958391e54873bc53aaa5bacf0567c.json"
     },
     {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-03T23:29:31.843731+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -11456,7 +11453,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-03T23:29:31.577403+00:00",
+      "collected_at": "2026-06-04T02:46:43.675137+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -11522,6 +11519,81 @@
       ],
       "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-04T02:46:43.387735+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
     },
     {
       "id": "4fa72e9cbb8f7f305f96dad6fb2ce5fa23cbfe7b418e0a6c10248a4b6608037e",
@@ -11602,87 +11674,6 @@
       ],
       "detail_path": "/evidence/4fa72e9cbb8f7f305f96dad6fb2ce5fa23cbfe7b418e0a6c10248a4b6608037e",
       "evidence_json": "/evidence/4fa72e9cbb8f7f305f96dad6fb2ce5fa23cbfe7b418e0a6c10248a4b6608037e.json"
-    },
-    {
-      "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
-      "topic": "geopolitics",
-      "title": "UN Peacekeeping Capstone Doctrine",
-      "url": "https://peacekeeping.un.org/sites/default/files/capstone_eng_0.pdf",
-      "host": "peacekeeping.un.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-03T18:20:06.548795+00:00",
-      "published": "",
-      "text_chars": 174113,
-      "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
-      "text_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.txt",
-      "summary": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
-      "bullets": [
-        "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
-        "During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
-        "United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
-        "During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
-        "Guéhenno, USG/DPKO Approved on 18 January 2008 Contact: PBPS/D-PET Review date: January 2010 © United Nations 2008."
-      ],
-      "excerpt": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines United Nations Peacekeeping Operat",
-      "keywords": [
-        {
-          "name": "nations",
-          "value": 574
-        },
-        {
-          "name": "united",
-          "value": 570
-        },
-        {
-          "name": "peacekeeping",
-          "value": 400
-        },
-        {
-          "name": "operations",
-          "value": 263
-        },
-        {
-          "name": "mission",
-          "value": 208
-        },
-        {
-          "name": "security",
-          "value": 171
-        },
-        {
-          "name": "peace",
-          "value": 160
-        },
-        {
-          "name": "operation",
-          "value": 151
-        },
-        {
-          "name": "should",
-          "value": 104
-        },
-        {
-          "name": "support",
-          "value": 100
-        }
-      ],
-      "signals": [
-        "Diplomacy and Negotiations",
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Global Institutions",
-        "Europe and Russia",
-        "Africa"
-      ],
-      "file_asset": "/evidence-files/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
-      "detail_path": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
-      "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
       "id": "528f8c20a514f6c102e0a177f7eb8511157bf62475445776a240f97de89bd6be",
@@ -15386,7 +15377,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-03T23:30:18.864595+00:00",
+      "collected_at": "2026-06-04T02:47:30.956776+00:00",
       "published": "",
       "text_chars": 523907,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -15467,7 +15458,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-03T23:30:13.357130+00:00",
+      "collected_at": "2026-06-04T02:47:25.750356+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15548,7 +15539,7 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-06-03T23:30:10.392410+00:00",
+      "collected_at": "2026-06-04T02:47:24.851863+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -15618,7 +15609,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-03T23:30:10.381462+00:00",
+      "collected_at": "2026-06-04T02:47:24.848508+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.html",
@@ -15682,6 +15673,87 @@
       "evidence_json": "/evidence/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.json"
     },
     {
+      "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
+      "topic": "geopolitics",
+      "title": "UN Peacekeeping Capstone Doctrine",
+      "url": "https://peacekeeping.un.org/sites/default/files/capstone_eng_0.pdf",
+      "host": "peacekeeping.un.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-04T02:47:24.828309+00:00",
+      "published": "",
+      "text_chars": 174113,
+      "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
+      "text_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.txt",
+      "summary": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
+      "bullets": [
+        "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
+        "During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
+        "United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
+        "During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
+        "Guéhenno, USG/DPKO Approved on 18 January 2008 Contact: PBPS/D-PET Review date: January 2010 © United Nations 2008."
+      ],
+      "excerpt": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines United Nations Peacekeeping Operat",
+      "keywords": [
+        {
+          "name": "nations",
+          "value": 574
+        },
+        {
+          "name": "united",
+          "value": 570
+        },
+        {
+          "name": "peacekeeping",
+          "value": 400
+        },
+        {
+          "name": "operations",
+          "value": 263
+        },
+        {
+          "name": "mission",
+          "value": 208
+        },
+        {
+          "name": "security",
+          "value": 171
+        },
+        {
+          "name": "peace",
+          "value": 160
+        },
+        {
+          "name": "operation",
+          "value": 151
+        },
+        {
+          "name": "should",
+          "value": 104
+        },
+        {
+          "name": "support",
+          "value": 100
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Global Institutions",
+        "Europe and Russia",
+        "Africa"
+      ],
+      "file_asset": "/evidence-files/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
+      "detail_path": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
+      "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
+    },
+    {
       "id": "5a33879c2e80944eb422478c0db3d10b489a90bda46c6e24c03777dd79f766fd",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -15691,7 +15763,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-03T23:30:10.318870+00:00",
+      "collected_at": "2026-06-04T02:47:22.703182+00:00",
       "published": "",
       "text_chars": 9064868,
       "raw_path": "data/geopolitics/raw/5a33879c2e80944eb422478c0db3d10b489a90bda46c6e24c03777dd79f766fd.xml",
@@ -15771,7 +15843,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-03T23:29:35.653030+00:00",
+      "collected_at": "2026-06-04T02:46:47.651494+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76.xml",
@@ -15851,7 +15923,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-03T23:29:33.815422+00:00",
+      "collected_at": "2026-06-04T02:46:45.686347+00:00",
       "published": "",
       "text_chars": 824888,
       "raw_path": "data/geopolitics/raw/755fac4cc297b4e453d5103fe7ecaff087f958391e54873bc53aaa5bacf0567c.xml",
@@ -15922,81 +15994,6 @@
       "evidence_json": "/evidence/755fac4cc297b4e453d5103fe7ecaff087f958391e54873bc53aaa5bacf0567c.json"
     },
     {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-03T23:29:31.843731+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -16006,7 +16003,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-03T23:29:31.577403+00:00",
+      "collected_at": "2026-06-04T02:46:43.675137+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -16072,6 +16069,158 @@
       ],
       "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-04T02:46:43.387735+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
+    },
+    {
+      "id": "6fd51a29a339c351d5a33ac99a4f546b870bfed94c577416b5d9dd6772f0b06f",
+      "topic": "geopolitics",
+      "title": "Japan sees shortage of plastic bags, trays and gloves, as Iran war-induced naphtha shortage worsens",
+      "url": "https://www.theguardian.com/world/2026/jun/04/japan-naphtha-shortage-plastic-bag",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-04T02:47:46.109832+00:00",
+      "published": "Thu, 04 Jun 2026 00:12:10 GMT",
+      "text_chars": 4408,
+      "raw_path": "data/geopolitics/raw/6fd51a29a339c351d5a33ac99a4f546b870bfed94c577416b5d9dd6772f0b06f.html",
+      "text_path": "data/geopolitics/raw/6fd51a29a339c351d5a33ac99a4f546b870bfed94c577416b5d9dd6772f0b06f.txt",
+      "summary": "Takeaways, supermarkets, and bakeries in Japan are running out of plastic bags, trays and food service gloves amid widening shortages of the key plastic ingredient, naphtha, due to the Middle East crisis. The Middle East is Japan’s main source of crude oil, from which naphtha is extracted and then used to make a wide variety of items including printing ink, plastics, adhesives and medical supplies. The shop’s manager said its container supplier had notified it that prices would be going up by 30% in June.",
+      "bullets": [
+        "Takeaways, supermarkets, and bakeries in Japan are running out of plastic bags, trays and food service gloves amid widening shortages of the key plastic ingredient, naphtha, due to the Middle East crisis.",
+        "The Middle East is Japan’s main source of crude oil, from which naphtha is extracted and then used to make a wide variety of items including printing ink, plastics, adhesives and medical supplies.",
+        "The shop’s manager said its container supplier had notified it that prices would be going up by 30% in June.",
+        "The food sector accounts for nearly one-third of Japan’s annual plastic use of more than 8m tonnes, and price rises and shortages are hitting hard across the industry and beyond.",
+        "Data from the Japan Petrochemical Industry Association (JPCA) showed that production of the polyethylene used in shopping and garbage bags was down 62% in March compared with 2025, with large drops also recorded for manufacturing of other plastics."
+      ],
+      "excerpt": "Takeaways, supermarkets, and bakeries in Japan are running out of plastic bags, trays and food service gloves amid widening shortages of the key plastic ingredient, naphtha, due to the Middle East crisis. The food sector accounts for nearly one-third of Japan’s annual plastic use of more than 8m tonnes, and price rises and shortages are hitting hard across the industry and beyond. Some outlets have begun offering perks to customers who bring their own bags, plates or containers. The Middle East is Japan’s main source of crude oil, from which naphtha is extracted and then used to make a wide variety of items including printing ink, plastics, adhesives and medical supplies. Data from the Japan Petrochemical Industry Association (JPCA) showed that production of the polyethylene used in shopping and garbage bags was down 62% in March compared with 2025, with large drops also recorded for manufacturing of other plastics. Prime minister Sanae Takaichi’s government is facing mounting pressure over the shortages, which are also affecting other sectors. The government has assured the public that the issue is a supply “bottleneck” rather than a shortage, but industry leaders and commentators",
+      "keywords": [
+        {
+          "name": "bags",
+          "value": 16
+        },
+        {
+          "name": "plastic",
+          "value": 14
+        },
+        {
+          "name": "japan",
+          "value": 7
+        },
+        {
+          "name": "east",
+          "value": 6
+        },
+        {
+          "name": "customers",
+          "value": 5
+        },
+        {
+          "name": "government",
+          "value": 5
+        },
+        {
+          "name": "middle",
+          "value": 5
+        },
+        {
+          "name": "naphtha",
+          "value": 5
+        },
+        {
+          "name": "shortages",
+          "value": 5
+        },
+        {
+          "name": "food",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "Energy and Supply Chains",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Indo-Pacific",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/6fd51a29a339c351d5a33ac99a4f546b870bfed94c577416b5d9dd6772f0b06f",
+      "evidence_json": "/evidence/6fd51a29a339c351d5a33ac99a4f546b870bfed94c577416b5d9dd6772f0b06f.json"
     },
     {
       "id": "4fa72e9cbb8f7f305f96dad6fb2ce5fa23cbfe7b418e0a6c10248a4b6608037e",
@@ -16230,87 +16379,6 @@
       ],
       "detail_path": "/evidence/787706f26dc8645c3a68c1c05c0cf0bbc5be52810a485913fc415a38245e10be",
       "evidence_json": "/evidence/787706f26dc8645c3a68c1c05c0cf0bbc5be52810a485913fc415a38245e10be.json"
-    },
-    {
-      "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
-      "topic": "geopolitics",
-      "title": "UN Peacekeeping Capstone Doctrine",
-      "url": "https://peacekeeping.un.org/sites/default/files/capstone_eng_0.pdf",
-      "host": "peacekeeping.un.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-03T18:20:06.548795+00:00",
-      "published": "",
-      "text_chars": 174113,
-      "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
-      "text_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.txt",
-      "summary": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
-      "bullets": [
-        "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
-        "During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
-        "United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
-        "During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
-        "Guéhenno, USG/DPKO Approved on 18 January 2008 Contact: PBPS/D-PET Review date: January 2010 © United Nations 2008."
-      ],
-      "excerpt": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines United Nations Peacekeeping Operat",
-      "keywords": [
-        {
-          "name": "nations",
-          "value": 574
-        },
-        {
-          "name": "united",
-          "value": 570
-        },
-        {
-          "name": "peacekeeping",
-          "value": 400
-        },
-        {
-          "name": "operations",
-          "value": 263
-        },
-        {
-          "name": "mission",
-          "value": 208
-        },
-        {
-          "name": "security",
-          "value": 171
-        },
-        {
-          "name": "peace",
-          "value": 160
-        },
-        {
-          "name": "operation",
-          "value": 151
-        },
-        {
-          "name": "should",
-          "value": 104
-        },
-        {
-          "name": "support",
-          "value": 100
-        }
-      ],
-      "signals": [
-        "Diplomacy and Negotiations",
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Global Institutions",
-        "Europe and Russia",
-        "Africa"
-      ],
-      "file_asset": "/evidence-files/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
-      "detail_path": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
-      "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
       "id": "4b2eaa8a4ce135f789dc144247606d035bc52ed444397522c79597487d4d8812",
