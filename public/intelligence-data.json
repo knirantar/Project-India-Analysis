@@ -1,76 +1,78 @@
 {
-  "generated_at": "2026-06-04T07:19:50.397361+00:00",
+  "generated_at": "2026-06-04T10:58:12.735888+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating tensions in the Middle East and Africa highlight urgent humanitarian and geopolitical challenges.",
+    "headline": "Escalating tensions in the Middle East and their global implications.",
     "executive_summary": [
-      "Recent developments in the Middle East have seen a significant escalation in hostilities, particularly between Israel and Lebanon, as well as ongoing tensions involving Iran. The U.S. has been actively engaged in diplomatic efforts to establish ceasefires and negotiate broader peace agreements, but these efforts have faced numerous challenges, including continued military actions and the involvement of non-state actors like Hezbollah. The situation remains fluid, with potential implications for regional stability and international relations.",
-      "In Lebanon, the humanitarian crisis has deepened, with over 1.2 million people displaced due to escalating violence. Reports indicate a sharp increase in civilian casualties, with significant numbers of injured individuals requiring urgent medical assistance. The healthcare system is under severe strain, exacerbated by shortages of essential supplies and the ongoing conflict, which complicates humanitarian efforts. The international community is called upon to respond to the growing needs of affected populations.",
-      "In Africa, the threat of terrorism is rising, particularly from groups like Al Shabaab and ISIS affiliates, which are gaining ground and increasing their operational capabilities. The U.S. has expressed concerns about the implications of these developments for regional security and the potential for increased violence. The situation is further complicated by the withdrawal of U.S. forces, which may create a vacuum that could be exploited by extremist groups.",
-      "The geopolitical landscape is shifting, with calls for reform in international institutions like the UN Security Council gaining momentum. As countries navigate the complexities of modern conflicts, the need for a coordinated global response to humanitarian crises and security threats has never been more critical. The interplay between military actions, humanitarian needs, and diplomatic negotiations will shape the future of international relations in the coming months."
+      "The ongoing conflict in the Middle East, particularly involving Iran, Israel, and Lebanon, has led to significant humanitarian crises and geopolitical instability. Reports indicate that over 2,167 people have been killed, with more than 1.2 million displaced within Lebanon due to escalating hostilities, reflecting a dire humanitarian situation (evidence id: 22).",
+      "The Gulf Cooperation Council (GCC) states are grappling with the consequences of the US-Israeli conflict with Iran, which has disrupted trade and economic stability in the region. The blockade of the Strait of Hormuz has severely impacted oil prices and trade routes, prompting GCC countries to reassess their security and economic strategies (evidence id: 9).",
+      "International responses to the conflict have included calls for increased military support from NATO allies, as the US reduces its military contributions. This shift raises concerns about the ability of European nations to maintain security in the face of rising threats from both state and non-state actors (evidence id: 19).",
+      "The humanitarian impact of the conflict extends beyond immediate casualties, with significant disruptions to healthcare and essential services reported in affected regions. The ongoing violence has exacerbated existing vulnerabilities, particularly among displaced populations and those reliant on humanitarian aid (evidence id: 24)."
     ],
     "key_judgments": [
       {
-        "title": "Escalation of Hostilities in the Middle East",
-        "finding": "The U.S. has facilitated a ceasefire agreement between Israel and Lebanon, but ongoing military actions by both sides indicate a fragile peace.",
-        "citations": [
-          "11"
-        ]
-      },
-      {
         "title": "Humanitarian Crisis in Lebanon",
-        "finding": "The conflict has resulted in over 1.2 million displaced individuals in Lebanon, with significant casualties and a healthcare system under severe pressure.",
+        "finding": "The conflict has resulted in over 1.2 million people displaced within Lebanon, with significant casualties reported.",
         "citations": [
-          "21"
+          "22"
         ]
       },
       {
-        "title": "Rising Terrorism Threat in Africa",
-        "finding": "The capabilities of terrorist groups in Africa are increasing, posing a significant security challenge as U.S. military presence diminishes.",
+        "title": "Economic Impact on Gulf States",
+        "finding": "The blockade of the Strait of Hormuz has severely disrupted trade and increased oil prices, affecting the economic stability of GCC countries.",
         "citations": [
-          "15"
+          "9"
         ]
       },
       {
-        "title": "Calls for Reform in International Institutions",
-        "finding": "There is a growing consensus on the need for reform in the UN Security Council to better reflect contemporary geopolitical realities.",
+        "title": "NATO's Military Readiness",
+        "finding": "The US's reduction in military contributions to NATO raises concerns about the alliance's ability to respond to emerging threats.",
         "citations": [
-          "26"
+          "19"
+        ]
+      },
+      {
+        "title": "Healthcare Disruptions",
+        "finding": "The ongoing violence has led to significant disruptions in healthcare services, exacerbating the humanitarian crisis.",
+        "citations": [
+          "24"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The region is experiencing heightened tensions with ongoing military conflicts and humanitarian crises, necessitating urgent international attention.",
+        "assessment": "The region is experiencing heightened tensions due to the ongoing conflict, with significant humanitarian and economic repercussions.",
         "citations": [
-          "11",
-          "21"
-        ]
-      },
-      {
-        "region": "Africa",
-        "assessment": "The rise of terrorist organizations poses a significant threat to regional stability, exacerbated by the withdrawal of U.S. forces.",
-        "citations": [
-          "15"
+          "9",
+          "22",
+          "24"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "Lebanon",
-        "why_it_matters": "The humanitarian situation is deteriorating rapidly, with millions displaced and in need of assistance, which could lead to regional instability.",
+        "label": "Iran's Military Actions",
+        "why_it_matters": "Iran's military actions and responses to US and Israeli strikes could further escalate the conflict and destabilize the region.",
         "citations": [
-          "21"
+          "20"
         ]
       },
       {
-        "label": "Terrorism in Africa",
-        "why_it_matters": "The increasing capabilities of terrorist groups could destabilize the region and pose threats to international security.",
+        "label": "Humanitarian Aid Access",
+        "why_it_matters": "Access to humanitarian aid is critical as the number of displaced individuals continues to rise amid ongoing violence.",
         "citations": [
-          "15"
+          "22",
+          "24"
+        ]
+      },
+      {
+        "label": "NATO's Strategic Adjustments",
+        "why_it_matters": "NATO's ability to adapt to reduced US military support will be crucial for maintaining security in Europe and the Middle East.",
+        "citations": [
+          "19"
         ]
       }
     ],
@@ -79,8 +81,8 @@
     ]
   },
   "summary": {
-    "raw_documents": 661,
-    "total_text_chars": 107991539,
+    "raw_documents": 662,
+    "total_text_chars": 107999672,
     "sources": 32,
     "signals": 8,
     "regions": 6,
@@ -91,7 +93,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 481
+      "value": 482
     },
     {
       "name": "Image",
@@ -125,7 +127,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 461
+      "value": 462
     },
     {
       "name": "images",
@@ -222,16 +224,16 @@
       "value": 16
     },
     {
+      "name": "dw.com",
+      "value": 15
+    },
+    {
       "name": "scsanctions.un.org",
       "value": 15
     },
     {
       "name": "treasury.gov",
       "value": 15
-    },
-    {
-      "name": "dw.com",
-      "value": 14
     },
     {
       "name": "war.gov",
@@ -297,7 +299,7 @@
     },
     {
       "name": "iran",
-      "value": 1832
+      "value": 1847
     },
     {
       "name": "lebanon",
@@ -349,7 +351,7 @@
     },
     {
       "name": "security",
-      "value": 792
+      "value": 800
     },
     {
       "name": "russia",
@@ -405,7 +407,7 @@
     },
     {
       "name": "states",
-      "value": 516
+      "value": 524
     },
     {
       "name": "china",
@@ -471,11 +473,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 435,
+      "count": 436,
       "formats": [
         {
           "name": "Article",
-          "value": 361
+          "value": 362
         },
         {
           "name": "PDF",
@@ -495,6 +497,7 @@
         }
       ],
       "evidence_ids": [
+        "b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7",
         "b08b5bc1b796225124548eca6ca6e78ed0289a1ade0168c11fa2ec4444a4d199",
         "d5040efdd29d84e2b42d9041df2d197b15a2dd6db8eee047433168d35baa8c4e",
         "787706f26dc8645c3a68c1c05c0cf0bbc5be52810a485913fc415a38245e10be",
@@ -503,11 +506,20 @@
         "9a3609b0325f3a6718ba239baa33a11c08833c011c1a15379f8f36fb1aa0d2f9",
         "a56e4aaa106b58fdfff236a36ea822cada999a8e94995fe9fb96e6acad8abccc",
         "b2f195fdb62593a686f2e49a4e9f5a68b6f5212846d3d2bec5354006599e78fa",
-        "b3e3bb3c3ddc66da4d133083cecce2e3f27a0e046cb3e5b40da235b93c3db6d9",
-        "528f8c20a514f6c102e0a177f7eb8511157bf62475445776a240f97de89bd6be"
+        "b3e3bb3c3ddc66da4d133083cecce2e3f27a0e046cb3e5b40da235b93c3db6d9"
       ],
-      "summary": "What is distinctively Trumpian is not the goal of expanding the Accords, but the specific escalation: framing that expansion as a mandatory condition of the Iran deal and invoking the language of debts owed. When President Donald Trump repeatedly pressed regional leaders on Abraham Accords expansion late last month — framing Arab-Israeli normalization as a debt owed and a condition for a settlement to end the Iran war — he apparently commented there had been silence on the other end of the line. The Israel-Lebanon ceasefire is contingent on a complete cessation of fire from the Iran-aligned Hezbollah armed group and the evacuation of all its fighters from the area south of the Litani river in south Lebanon, a joint statement released by the US state department said after negotiations in Washington. The meetings in Washington were the fourth round of direct talks by Lebanese and Israeli diplomats since fighting erupted on 2 March, when Hezbollah renewed attacks against Israel in support of Iran. From the Horn to the Sahel, a jihadist front is gaining ground across Africa, the Center for Strategic and International Studies warned in its annual risk analysis. Yet these developments come as the United States has reduced its military footprint in Africa by 75%. Africa Command, or AFRICOM, has ramped up air and drone strikes, and Nigeria, where Washington has launched a series of airstrikes alongside local partners and deployed a small contingent of U.S. In April, he called the 77-year-old alliance a “paper tiger” and suggesting the US may consider leaving after Nato member countries ignored his call for military assistance to help reopen the strait of Hormuz. Trump has long criticized Nato but has escalated his rhetoric over the war in Iran. “I think the next meeting of Nato and Turkey in July is probably the most important meeting in Nato’s history, because there are some things here that need to be cleared up and fixed,” Rubio said on Wednesday.",
+      "summary": "QatarEnergy's chief executive, Saad Al Kaabi, told British broadcaster BBC that the scale of the damage had \"set the region back by 10 to 20 years.\" Iran and the US, meanwhile, continue to use their blockades of the Strait of Hormuz as a \"pressure card\" for peace negotiations. QatarEnergy, Qatar's state-owned energy company, said it would take up to five years to repair the Ras Laffan industrial hub after it was struck by an Iranian ballistic missile in March. What is distinctively Trumpian is not the goal of expanding the Accords, but the specific escalation: framing that expansion as a mandatory condition of the Iran deal and invoking the language of debts owed. When President Donald Trump repeatedly pressed regional leaders on Abraham Accords expansion late last month — framing Arab-Israeli normalization as a debt owed and a condition for a settlement to end the Iran war — he apparently commented there had been silence on the other end of the line. The Israel-Lebanon ceasefire is contingent on a complete cessation of fire from the Iran-aligned Hezbollah armed group and the evacuation of all its fighters from the area south of the Litani river in south Lebanon, a joint statement released by the US state department said after negotiations in Washington. The meetings in Washington were the fourth round of direct talks by Lebanese and Israeli diplomats since fighting erupted on 2 March, when Hezbollah renewed attacks against Israel in support of Iran. From the Horn to the Sahel, a jihadist front is gaining ground across Africa, the Center for Strategic and International Studies warned in its annual risk analysis. Yet these developments come as the United States has reduced its military footprint in Africa by 75%. Africa Command, or AFRICOM, has ramped up air and drone strikes, and Nigeria, where Washington has launched a series of airstrikes alongside local partners and deployed a small contingent of U.S.",
       "latest": [
+        {
+          "id": "b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7",
+          "title": "100 days of Iran war: Gulf states grapple with security and economic consequences",
+          "url": "https://www.dw.com/en/100-days-of-iran-war-gulf-states-grapple-with-security-and-economic-consequences/a-77393748?maca=en-rss-en-world-4025-rdf",
+          "host": "dw.com",
+          "format": "Article",
+          "collected_at": "2026-06-04T10:58:19.105620+00:00",
+          "published": "2026-06-04T09:39:00Z",
+          "summary": "QatarEnergy's chief executive, Saad Al Kaabi, told British broadcaster BBC that the scale of the damage had \"set the region back by 10 to 20 years.\" Iran and the US, meanwhile, continue to use their blockades of the Strait of Hormuz as a \"pressure card\" for peace negotiations. QatarEnergy, Qatar's state-owned energy company, said it would take up to five years to repair the Ras Laffan industrial hub after it was struck by an Iranian ballistic missile in March."
+        },
         {
           "id": "b08b5bc1b796225124548eca6ca6e78ed0289a1ade0168c11fa2ec4444a4d199",
           "title": "Wrong Audience, Wrong Ask: Why Trump’s Abraham Accords Gambit Falls on Deaf Ears",
@@ -547,26 +559,16 @@
           "collected_at": "2026-06-03T18:20:42.286434+00:00",
           "published": "Wed, 03 Jun 2026 18:09:41 GMT",
           "summary": "In April, he called the 77-year-old alliance a “paper tiger” and suggesting the US may consider leaving after Nato member countries ignored his call for military assistance to help reopen the strait of Hormuz. Trump has long criticized Nato but has escalated his rhetoric over the war in Iran. “I think the next meeting of Nato and Turkey in July is probably the most important meeting in Nato’s history, because there are some things here that need to be cleared up and fixed,” Rubio said on Wednesday."
-        },
-        {
-          "id": "a4328a3c57587c0168109350d8de67e0382aca284f70336cc766ee71ffd1832c",
-          "title": "Middle East crisis live: Netanyahu downplays US row as Trump confirms heated call between pair",
-          "url": "https://www.theguardian.com/world/live/2026/jun/03/us-israel-iran-war-lebanon-trump-khamenei-netanyahu-hormuz-latest-news-updates",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-03T18:20:12.373464+00:00",
-          "published": "Wed, 03 Jun 2026 17:58:06 GMT",
-          "summary": "Kuwait said that its territory and airspace were not used to attack “any country”, denying Iranian claims that the United States launched strikes from there. Israeli prime minister Benjamin Netanyahu said in an interview with CNBC that any full-scale return to military action against Iran would be president Donald Trump’s decision, adding that US and Israeli forces are ready. Donald Trump said Iran’s supreme leader, Mojtaba Khamenei, is involved in talks to end the war and that he would “like to meet him”."
         }
       ]
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 373,
+      "count": 374,
       "formats": [
         {
           "name": "Article",
-          "value": 312
+          "value": 313
         },
         {
           "name": "PDF",
@@ -586,6 +588,7 @@
         }
       ],
       "evidence_ids": [
+        "b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7",
         "b08b5bc1b796225124548eca6ca6e78ed0289a1ade0168c11fa2ec4444a4d199",
         "d5040efdd29d84e2b42d9041df2d197b15a2dd6db8eee047433168d35baa8c4e",
         "36f52e6bb8f761c0be53c56a2f25c0ee537ba9c06ce390599c4860a56c1ecf30",
@@ -594,11 +597,20 @@
         "a4328a3c57587c0168109350d8de67e0382aca284f70336cc766ee71ffd1832c",
         "9a3609b0325f3a6718ba239baa33a11c08833c011c1a15379f8f36fb1aa0d2f9",
         "a56e4aaa106b58fdfff236a36ea822cada999a8e94995fe9fb96e6acad8abccc",
-        "528f8c20a514f6c102e0a177f7eb8511157bf62475445776a240f97de89bd6be",
-        "f4343fca46e36cd0acc031fcc9102d35136927bf16599640549a7fda0a4f476c"
+        "528f8c20a514f6c102e0a177f7eb8511157bf62475445776a240f97de89bd6be"
       ],
-      "summary": "What is distinctively Trumpian is not the goal of expanding the Accords, but the specific escalation: framing that expansion as a mandatory condition of the Iran deal and invoking the language of debts owed. When President Donald Trump repeatedly pressed regional leaders on Abraham Accords expansion late last month — framing Arab-Israeli normalization as a debt owed and a condition for a settlement to end the Iran war — he apparently commented there had been silence on the other end of the line. The Israel-Lebanon ceasefire is contingent on a complete cessation of fire from the Iran-aligned Hezbollah armed group and the evacuation of all its fighters from the area south of the Litani river in south Lebanon, a joint statement released by the US state department said after negotiations in Washington. The meetings in Washington were the fourth round of direct talks by Lebanese and Israeli diplomats since fighting erupted on 2 March, when Hezbollah renewed attacks against Israel in support of Iran. In the first month after the war disrupted shipping through the Strait of Hormuz, at least 60 governments adopted nearly 200 emergency energy measures, from fuel conservation orders and consumer subsidies to scrambles for alternative supplies. An internal World Bank document reviewed by Reuters showed that 27 countries had moved to secure rapid access to crisis financing within weeks of the war’s start. The oil and gas price spikes that followed the start of the U.S.-Iran war are reshaping energy politics across the global south. Takeaways, supermarkets, and bakeries in Japan are running out of plastic bags, trays and food service gloves amid widening shortages of the key plastic ingredient, naphtha, due to the Middle East crisis. The Middle East is Japan’s main source of crude oil, from which naphtha is extracted and then used to make a wide variety of items including printing ink, plastics, adhesives and medical supplies. The shop’s manager said its container supplier had notified it that prices would be going up by 30% in June.",
+      "summary": "QatarEnergy's chief executive, Saad Al Kaabi, told British broadcaster BBC that the scale of the damage had \"set the region back by 10 to 20 years.\" Iran and the US, meanwhile, continue to use their blockades of the Strait of Hormuz as a \"pressure card\" for peace negotiations. QatarEnergy, Qatar's state-owned energy company, said it would take up to five years to repair the Ras Laffan industrial hub after it was struck by an Iranian ballistic missile in March. What is distinctively Trumpian is not the goal of expanding the Accords, but the specific escalation: framing that expansion as a mandatory condition of the Iran deal and invoking the language of debts owed. When President Donald Trump repeatedly pressed regional leaders on Abraham Accords expansion late last month — framing Arab-Israeli normalization as a debt owed and a condition for a settlement to end the Iran war — he apparently commented there had been silence on the other end of the line. The Israel-Lebanon ceasefire is contingent on a complete cessation of fire from the Iran-aligned Hezbollah armed group and the evacuation of all its fighters from the area south of the Litani river in south Lebanon, a joint statement released by the US state department said after negotiations in Washington. The meetings in Washington were the fourth round of direct talks by Lebanese and Israeli diplomats since fighting erupted on 2 March, when Hezbollah renewed attacks against Israel in support of Iran. In the first month after the war disrupted shipping through the Strait of Hormuz, at least 60 governments adopted nearly 200 emergency energy measures, from fuel conservation orders and consumer subsidies to scrambles for alternative supplies. An internal World Bank document reviewed by Reuters showed that 27 countries had moved to secure rapid access to crisis financing within weeks of the war’s start. The oil and gas price spikes that followed the start of the U.S.-Iran war are reshaping energy politics across the global south.",
       "latest": [
+        {
+          "id": "b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7",
+          "title": "100 days of Iran war: Gulf states grapple with security and economic consequences",
+          "url": "https://www.dw.com/en/100-days-of-iran-war-gulf-states-grapple-with-security-and-economic-consequences/a-77393748?maca=en-rss-en-world-4025-rdf",
+          "host": "dw.com",
+          "format": "Article",
+          "collected_at": "2026-06-04T10:58:19.105620+00:00",
+          "published": "2026-06-04T09:39:00Z",
+          "summary": "QatarEnergy's chief executive, Saad Al Kaabi, told British broadcaster BBC that the scale of the damage had \"set the region back by 10 to 20 years.\" Iran and the US, meanwhile, continue to use their blockades of the Strait of Hormuz as a \"pressure card\" for peace negotiations. QatarEnergy, Qatar's state-owned energy company, said it would take up to five years to repair the Ras Laffan industrial hub after it was struck by an Iranian ballistic missile in March."
+        },
         {
           "id": "b08b5bc1b796225124548eca6ca6e78ed0289a1ade0168c11fa2ec4444a4d199",
           "title": "Wrong Audience, Wrong Ask: Why Trump’s Abraham Accords Gambit Falls on Deaf Ears",
@@ -638,16 +650,6 @@
           "collected_at": "2026-06-04T02:47:46.109832+00:00",
           "published": "Thu, 04 Jun 2026 00:12:10 GMT",
           "summary": "Takeaways, supermarkets, and bakeries in Japan are running out of plastic bags, trays and food service gloves amid widening shortages of the key plastic ingredient, naphtha, due to the Middle East crisis. The Middle East is Japan’s main source of crude oil, from which naphtha is extracted and then used to make a wide variety of items including printing ink, plastics, adhesives and medical supplies. The shop’s manager said its container supplier had notified it that prices would be going up by 30% in June."
-        },
-        {
-          "id": "4b2eaa8a4ce135f789dc144247606d035bc52ed444397522c79597487d4d8812",
-          "title": "Rubio says Trump to attend Nato meeting as ‘things need to be cleared up and fixed’ amid tension between US and allies – live",
-          "url": "https://www.theguardian.com/us-news/live/2026/jun/03/us-midterm-primaries-politics-donald-trump-california-governor-latest-news-updates",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-03T18:20:42.286434+00:00",
-          "published": "Wed, 03 Jun 2026 18:09:41 GMT",
-          "summary": "In April, he called the 77-year-old alliance a “paper tiger” and suggesting the US may consider leaving after Nato member countries ignored his call for military assistance to help reopen the strait of Hormuz. Trump has long criticized Nato but has escalated his rhetoric over the war in Iran. “I think the next meeting of Nato and Turkey in July is probably the most important meeting in Nato’s history, because there are some things here that need to be cleared up and fixed,” Rubio said on Wednesday."
         }
       ]
     },
@@ -744,11 +746,11 @@
     },
     {
       "name": "Territory and Chokepoints",
-      "count": 258,
+      "count": 259,
       "formats": [
         {
           "name": "Article",
-          "value": 208
+          "value": 209
         },
         {
           "name": "PDF",
@@ -768,6 +770,7 @@
         }
       ],
       "evidence_ids": [
+        "b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7",
         "b08b5bc1b796225124548eca6ca6e78ed0289a1ade0168c11fa2ec4444a4d199",
         "d5040efdd29d84e2b42d9041df2d197b15a2dd6db8eee047433168d35baa8c4e",
         "36f52e6bb8f761c0be53c56a2f25c0ee537ba9c06ce390599c4860a56c1ecf30",
@@ -776,11 +779,20 @@
         "a4328a3c57587c0168109350d8de67e0382aca284f70336cc766ee71ffd1832c",
         "528f8c20a514f6c102e0a177f7eb8511157bf62475445776a240f97de89bd6be",
         "7d0bc8634e41b540a23aee8696b4049c1a8300bb6149c7dc7ff3cc457d8e6d53",
-        "c2900c5b791d30a9e1367ad67b399c86cf7c83be0e9f95358247ec75eb69854a",
-        "7c27eac0b630e31d9de767e07a315c8be8d8d211441fad39d3c09c8f8c808a5b"
+        "c2900c5b791d30a9e1367ad67b399c86cf7c83be0e9f95358247ec75eb69854a"
       ],
-      "summary": "What is distinctively Trumpian is not the goal of expanding the Accords, but the specific escalation: framing that expansion as a mandatory condition of the Iran deal and invoking the language of debts owed. When President Donald Trump repeatedly pressed regional leaders on Abraham Accords expansion late last month — framing Arab-Israeli normalization as a debt owed and a condition for a settlement to end the Iran war — he apparently commented there had been silence on the other end of the line. The Israel-Lebanon ceasefire is contingent on a complete cessation of fire from the Iran-aligned Hezbollah armed group and the evacuation of all its fighters from the area south of the Litani river in south Lebanon, a joint statement released by the US state department said after negotiations in Washington. The meetings in Washington were the fourth round of direct talks by Lebanese and Israeli diplomats since fighting erupted on 2 March, when Hezbollah renewed attacks against Israel in support of Iran. In the first month after the war disrupted shipping through the Strait of Hormuz, at least 60 governments adopted nearly 200 emergency energy measures, from fuel conservation orders and consumer subsidies to scrambles for alternative supplies. An internal World Bank document reviewed by Reuters showed that 27 countries had moved to secure rapid access to crisis financing within weeks of the war’s start. The oil and gas price spikes that followed the start of the U.S.-Iran war are reshaping energy politics across the global south. From the Horn to the Sahel, a jihadist front is gaining ground across Africa, the Center for Strategic and International Studies warned in its annual risk analysis. Yet these developments come as the United States has reduced its military footprint in Africa by 75%. Africa Command, or AFRICOM, has ramped up air and drone strikes, and Nigeria, where Washington has launched a series of airstrikes alongside local partners and deployed a small contingent of U.S.",
+      "summary": "QatarEnergy's chief executive, Saad Al Kaabi, told British broadcaster BBC that the scale of the damage had \"set the region back by 10 to 20 years.\" Iran and the US, meanwhile, continue to use their blockades of the Strait of Hormuz as a \"pressure card\" for peace negotiations. QatarEnergy, Qatar's state-owned energy company, said it would take up to five years to repair the Ras Laffan industrial hub after it was struck by an Iranian ballistic missile in March. What is distinctively Trumpian is not the goal of expanding the Accords, but the specific escalation: framing that expansion as a mandatory condition of the Iran deal and invoking the language of debts owed. When President Donald Trump repeatedly pressed regional leaders on Abraham Accords expansion late last month — framing Arab-Israeli normalization as a debt owed and a condition for a settlement to end the Iran war — he apparently commented there had been silence on the other end of the line. The Israel-Lebanon ceasefire is contingent on a complete cessation of fire from the Iran-aligned Hezbollah armed group and the evacuation of all its fighters from the area south of the Litani river in south Lebanon, a joint statement released by the US state department said after negotiations in Washington. The meetings in Washington were the fourth round of direct talks by Lebanese and Israeli diplomats since fighting erupted on 2 March, when Hezbollah renewed attacks against Israel in support of Iran. In the first month after the war disrupted shipping through the Strait of Hormuz, at least 60 governments adopted nearly 200 emergency energy measures, from fuel conservation orders and consumer subsidies to scrambles for alternative supplies. An internal World Bank document reviewed by Reuters showed that 27 countries had moved to secure rapid access to crisis financing within weeks of the war’s start. The oil and gas price spikes that followed the start of the U.S.-Iran war are reshaping energy politics across the global south.",
       "latest": [
+        {
+          "id": "b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7",
+          "title": "100 days of Iran war: Gulf states grapple with security and economic consequences",
+          "url": "https://www.dw.com/en/100-days-of-iran-war-gulf-states-grapple-with-security-and-economic-consequences/a-77393748?maca=en-rss-en-world-4025-rdf",
+          "host": "dw.com",
+          "format": "Article",
+          "collected_at": "2026-06-04T10:58:19.105620+00:00",
+          "published": "2026-06-04T09:39:00Z",
+          "summary": "QatarEnergy's chief executive, Saad Al Kaabi, told British broadcaster BBC that the scale of the damage had \"set the region back by 10 to 20 years.\" Iran and the US, meanwhile, continue to use their blockades of the Strait of Hormuz as a \"pressure card\" for peace negotiations. QatarEnergy, Qatar's state-owned energy company, said it would take up to five years to repair the Ras Laffan industrial hub after it was struck by an Iranian ballistic missile in March."
+        },
         {
           "id": "b08b5bc1b796225124548eca6ca6e78ed0289a1ade0168c11fa2ec4444a4d199",
           "title": "Wrong Audience, Wrong Ask: Why Trump’s Abraham Accords Gambit Falls on Deaf Ears",
@@ -820,26 +832,16 @@
           "collected_at": "2026-06-03T21:46:47.330716+00:00",
           "published": "Wed, 03 Jun 2026 20:31:34 +0000",
           "summary": "From the Horn to the Sahel, a jihadist front is gaining ground across Africa, the Center for Strategic and International Studies warned in its annual risk analysis. Yet these developments come as the United States has reduced its military footprint in Africa by 75%. Africa Command, or AFRICOM, has ramped up air and drone strikes, and Nigeria, where Washington has launched a series of airstrikes alongside local partners and deployed a small contingent of U.S."
-        },
-        {
-          "id": "4b2eaa8a4ce135f789dc144247606d035bc52ed444397522c79597487d4d8812",
-          "title": "Rubio says Trump to attend Nato meeting as ‘things need to be cleared up and fixed’ amid tension between US and allies – live",
-          "url": "https://www.theguardian.com/us-news/live/2026/jun/03/us-midterm-primaries-politics-donald-trump-california-governor-latest-news-updates",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-03T18:20:42.286434+00:00",
-          "published": "Wed, 03 Jun 2026 18:09:41 GMT",
-          "summary": "In April, he called the 77-year-old alliance a “paper tiger” and suggesting the US may consider leaving after Nato member countries ignored his call for military assistance to help reopen the strait of Hormuz. Trump has long criticized Nato but has escalated his rhetoric over the war in Iran. “I think the next meeting of Nato and Turkey in July is probably the most important meeting in Nato’s history, because there are some things here that need to be cleared up and fixed,” Rubio said on Wednesday."
         }
       ]
     },
     {
       "name": "Energy and Supply Chains",
-      "count": 195,
+      "count": 196,
       "formats": [
         {
           "name": "Article",
-          "value": 159
+          "value": 160
         },
         {
           "name": "PDF",
@@ -851,6 +853,7 @@
         }
       ],
       "evidence_ids": [
+        "b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7",
         "36f52e6bb8f761c0be53c56a2f25c0ee537ba9c06ce390599c4860a56c1ecf30",
         "6fd51a29a339c351d5a33ac99a4f546b870bfed94c577416b5d9dd6772f0b06f",
         "a56e4aaa106b58fdfff236a36ea822cada999a8e94995fe9fb96e6acad8abccc",
@@ -859,11 +862,20 @@
         "7c27eac0b630e31d9de767e07a315c8be8d8d211441fad39d3c09c8f8c808a5b",
         "6b18ae4b3b8fc966e761282ddbe45769c1730b5684f920b54d924044bd47f862",
         "d6761e214c9656af8b3a7c41d9be3e37af90c2e03ff88bb9beef894a7860ec57",
-        "0b9744cd7acf315003bdfc4fbfe245c42e1aec5a749dded8cb2a01f684cb15d7",
-        "6a99ec5587c10db68435d28cc87487542624582a5de67b2b9370c972c1d0a207"
+        "0b9744cd7acf315003bdfc4fbfe245c42e1aec5a749dded8cb2a01f684cb15d7"
       ],
-      "summary": "In the first month after the war disrupted shipping through the Strait of Hormuz, at least 60 governments adopted nearly 200 emergency energy measures, from fuel conservation orders and consumer subsidies to scrambles for alternative supplies. An internal World Bank document reviewed by Reuters showed that 27 countries had moved to secure rapid access to crisis financing within weeks of the war’s start. The oil and gas price spikes that followed the start of the U.S.-Iran war are reshaping energy politics across the global south. Takeaways, supermarkets, and bakeries in Japan are running out of plastic bags, trays and food service gloves amid widening shortages of the key plastic ingredient, naphtha, due to the Middle East crisis. The Middle East is Japan’s main source of crude oil, from which naphtha is extracted and then used to make a wide variety of items including printing ink, plastics, adhesives and medical supplies. The shop’s manager said its container supplier had notified it that prices would be going up by 30% in June. military carried out strikes near the Strait of Hormuz, with diplomacy to halt the war showing little sign of progress. CENTCOM said it had carried out a new round of “defensive strikes” in southern Iran, targeted missile launch sites and Iranian boats seeking to lay mines, and carried out strikes on Qeshm Island near the Strait of Hormuz after attempted Iranian attacks. has pushed to reopen the Strait of Hormuz, a route that handled roughly a fifth of global oil and liquefied natural gas shipments before the war. Instead, conflicts occurring in strategically important regions can trigger interconnected disruptions affecting health systems, energy markets, food security, transportation routes, and medical supply chains globally. Commenting on the publication, the authors emphasize that strengthening health resilience requires moving beyond health-sector preparedness alone toward integrated approaches involving health, energy, transport, agriculture, logistics, and governance systems.",
+      "summary": "QatarEnergy's chief executive, Saad Al Kaabi, told British broadcaster BBC that the scale of the damage had \"set the region back by 10 to 20 years.\" Iran and the US, meanwhile, continue to use their blockades of the Strait of Hormuz as a \"pressure card\" for peace negotiations. QatarEnergy, Qatar's state-owned energy company, said it would take up to five years to repair the Ras Laffan industrial hub after it was struck by an Iranian ballistic missile in March. In the first month after the war disrupted shipping through the Strait of Hormuz, at least 60 governments adopted nearly 200 emergency energy measures, from fuel conservation orders and consumer subsidies to scrambles for alternative supplies. An internal World Bank document reviewed by Reuters showed that 27 countries had moved to secure rapid access to crisis financing within weeks of the war’s start. The oil and gas price spikes that followed the start of the U.S.-Iran war are reshaping energy politics across the global south. Takeaways, supermarkets, and bakeries in Japan are running out of plastic bags, trays and food service gloves amid widening shortages of the key plastic ingredient, naphtha, due to the Middle East crisis. The Middle East is Japan’s main source of crude oil, from which naphtha is extracted and then used to make a wide variety of items including printing ink, plastics, adhesives and medical supplies. The shop’s manager said its container supplier had notified it that prices would be going up by 30% in June. military carried out strikes near the Strait of Hormuz, with diplomacy to halt the war showing little sign of progress. CENTCOM said it had carried out a new round of “defensive strikes” in southern Iran, targeted missile launch sites and Iranian boats seeking to lay mines, and carried out strikes on Qeshm Island near the Strait of Hormuz after attempted Iranian attacks. has pushed to reopen the Strait of Hormuz, a route that handled roughly a fifth of global oil and liquefied natural gas shipments before the war.",
       "latest": [
+        {
+          "id": "b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7",
+          "title": "100 days of Iran war: Gulf states grapple with security and economic consequences",
+          "url": "https://www.dw.com/en/100-days-of-iran-war-gulf-states-grapple-with-security-and-economic-consequences/a-77393748?maca=en-rss-en-world-4025-rdf",
+          "host": "dw.com",
+          "format": "Article",
+          "collected_at": "2026-06-04T10:58:19.105620+00:00",
+          "published": "2026-06-04T09:39:00Z",
+          "summary": "QatarEnergy's chief executive, Saad Al Kaabi, told British broadcaster BBC that the scale of the damage had \"set the region back by 10 to 20 years.\" Iran and the US, meanwhile, continue to use their blockades of the Strait of Hormuz as a \"pressure card\" for peace negotiations. QatarEnergy, Qatar's state-owned energy company, said it would take up to five years to repair the Ras Laffan industrial hub after it was struck by an Iranian ballistic missile in March."
+        },
         {
           "id": "36f52e6bb8f761c0be53c56a2f25c0ee537ba9c06ce390599c4860a56c1ecf30",
           "title": "The Threat of Unrest Is Decarbonizing the Global South",
@@ -903,16 +915,6 @@
           "collected_at": "2026-06-03T13:11:05.676472+00:00",
           "published": "Wed, 03 Jun 2026 12:24:28 +0000",
           "summary": "Instead, conflicts occurring in strategically important regions can trigger interconnected disruptions affecting health systems, energy markets, food security, transportation routes, and medical supply chains globally. Commenting on the publication, the authors emphasize that strengthening health resilience requires moving beyond health-sector preparedness alone toward integrated approaches involving health, energy, transport, agriculture, logistics, and governance systems."
-        },
-        {
-          "id": "c2900c5b791d30a9e1367ad67b399c86cf7c83be0e9f95358247ec75eb69854a",
-          "title": "Ukrainian drones hit St Petersburg as ‘Russian Davos’ opens in city",
-          "url": "https://www.theguardian.com/world/2026/jun/03/ukraine-drones-st-petersburg-russia-economic-forum",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-03T13:11:01.546471+00:00",
-          "published": "Wed, 03 Jun 2026 09:19:44 GMT",
-          "summary": "He said drones had hit “important facilities on Russian territory” including the Petersburg oil terminal, the Kronstadt base and a factory producing weapons in the Tambov region. Volodymyr Zelenskyy, writing on social media, said the strike was the latest example of Ukraine’s “long-range sanctions”. Zelenskyy noted that the oil trans-shipment facility, one of the largest on Russia’s Baltic sea coast, was about 1,100km (680 miles) from Ukraine’s state border."
         }
       ]
     },
@@ -1185,8 +1187,9 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 342,
+      "count": 343,
       "evidence_ids": [
+        "b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7",
         "b08b5bc1b796225124548eca6ca6e78ed0289a1ade0168c11fa2ec4444a4d199",
         "d5040efdd29d84e2b42d9041df2d197b15a2dd6db8eee047433168d35baa8c4e",
         "6fd51a29a339c351d5a33ac99a4f546b870bfed94c577416b5d9dd6772f0b06f",
@@ -1197,8 +1200,7 @@
         "b3e3bb3c3ddc66da4d133083cecce2e3f27a0e046cb3e5b40da235b93c3db6d9",
         "528f8c20a514f6c102e0a177f7eb8511157bf62475445776a240f97de89bd6be",
         "dab29c27d92f60f3b9213bab6fcabe12bf597828c064322acf0ffa18568e9847",
-        "4ef98e90de3060cb17b422d6ee7157b69e52862aa5ba5c11567743475fe9f299",
-        "4273f91acbaef01e8edbf9cc7cc052d1cbca321bc93cc78faf4c812cb005ff1e"
+        "4ef98e90de3060cb17b422d6ee7157b69e52862aa5ba5c11567743475fe9f299"
       ],
       "top_sources": [
         {
@@ -1225,8 +1227,9 @@
     },
     {
       "name": "Americas",
-      "count": 290,
+      "count": 291,
       "evidence_ids": [
+        "b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7",
         "b08b5bc1b796225124548eca6ca6e78ed0289a1ade0168c11fa2ec4444a4d199",
         "d5040efdd29d84e2b42d9041df2d197b15a2dd6db8eee047433168d35baa8c4e",
         "36f52e6bb8f761c0be53c56a2f25c0ee537ba9c06ce390599c4860a56c1ecf30",
@@ -1237,8 +1240,7 @@
         "7d0bc8634e41b540a23aee8696b4049c1a8300bb6149c7dc7ff3cc457d8e6d53",
         "7c27eac0b630e31d9de767e07a315c8be8d8d211441fad39d3c09c8f8c808a5b",
         "2e02e835b90f928085f4ae9c4338b57b2b1b7ef95afb9c6bf232ef9e5713b628",
-        "6b18ae4b3b8fc966e761282ddbe45769c1730b5684f920b54d924044bd47f862",
-        "ac6723a18480d32bec7b6669e65eea59aef641f15b06c9d22342d1cf8463f09a"
+        "6b18ae4b3b8fc966e761282ddbe45769c1730b5684f920b54d924044bd47f862"
       ],
       "top_sources": [
         {
@@ -1345,8 +1347,9 @@
     },
     {
       "name": "Africa",
-      "count": 180,
+      "count": 181,
       "evidence_ids": [
+        "b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7",
         "b08b5bc1b796225124548eca6ca6e78ed0289a1ade0168c11fa2ec4444a4d199",
         "787706f26dc8645c3a68c1c05c0cf0bbc5be52810a485913fc415a38245e10be",
         "a4328a3c57587c0168109350d8de67e0382aca284f70336cc766ee71ffd1832c",
@@ -1357,8 +1360,7 @@
         "ac6723a18480d32bec7b6669e65eea59aef641f15b06c9d22342d1cf8463f09a",
         "23530eb1dac2e37ed5b4d194b7451c51aa4608d9676425b64f3d0ac4db3e351a",
         "6a99ec5587c10db68435d28cc87487542624582a5de67b2b9370c972c1d0a207",
-        "48e51d3e452b4e46b99d14a7ac96f7896b0a6180244bd3a406e4b77354d39201",
-        "8684346a42478804e33698876b732549125baa1faec398d980e8c936297e8fda"
+        "48e51d3e452b4e46b99d14a7ac96f7896b0a6180244bd3a406e4b77354d39201"
       ],
       "top_sources": [
         {
@@ -1721,17 +1723,17 @@
     },
     {
       "date": "2026-04-08",
-      "evidence_id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
-    },
-    {
-      "date": "2026-04-08",
       "evidence_id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "title": "MS.MIL.XPND.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
       "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\","
+    },
+    {
+      "date": "2026-04-08",
+      "evidence_id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
     },
     {
       "date": "2026",
@@ -1746,6 +1748,13 @@
       "title": "Consolidated Sanctions List",
       "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
       "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong"
+    },
+    {
+      "date": "2026",
+      "evidence_id": "b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7",
+      "title": "100 days of Iran war: Gulf states grapple with security and economic consequences",
+      "url": "https://www.dw.com/en/100-days-of-iran-war-gulf-states-grapple-with-security-and-economic-consequences/a-77393748?maca=en-rss-en-world-4025-rdf",
+      "excerpt": "prompted a sea change in their perception of security and politics,\" she told DW. The UAE left the OPEC group on May 1, 2026, and benefits from higher prices per barrel Image: Addictive Stock/IMAGO Meanwhile, uncertainty has rattled the tourism sector. In March, Dubai International Airport was struck by drones launched by Iran and more than 30,000 flights to and from the Middle"
     },
     {
       "date": "2026",
@@ -2397,16 +2406,89 @@
       "title": "Colombia: Flash update - Confinamientos y desplazamientos forzados en el municipio de Briceño (Antioquia). Mayo 28 de 2026 (pdf)",
       "url": "https://reliefweb.int/attachments/42408273-fce3-4adc-8e4a-23d9b4ba8493/27052026%20Flash%20Update%20por%20emeregencias%20humanitaraias%20en%20Brice%C3%B1o_Antioquia%20VF.pdf",
       "excerpt": "ia en colaboración con los socios humanitarios y con apoyo de OCHA Colombia. Comprende el periodo entre enero y mayo de 2026. SITUACIÓN GENERAL Tras la publicación de la Alerta de situación humanitaria por confinamiento y desplazamiento forzado en el municipio de Briceño del 27 de octubre de 2025, continúan los impactos y riesgos sobre la población civil por la persistencia de"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "53760697c31201191b0c1238475baad15abc35af816da78785cf2a0eb083b41a",
-      "title": "Colombia: Flash update - Confinamientos y desplazamientos forzados en el municipio de Briceño (Antioquia). Mayo 28 de 2026",
-      "url": "https://reliefweb.int/report/colombia/colombia-flash-update-confinamientos-y-desplazamientos-forzados-en-el-municipio-de-briceno-antioquia-mayo-28-de-2026",
-      "excerpt": "a Temprana de inminencia 019 de 2025 y posteriormente confirmado por el Informe de Consumación del Riesgo en febrero de 2026. Desde enero de 2026 y hasta la fecha de elaboración de este informe, el municipio de Briceño (Antioquia) continúa enfrentando deterioro sostenido de la situación humanitaria por la intensificación del accionar armado de los grupos, representado en enfren"
     }
   ],
   "latest_evidence": [
+    {
+      "id": "b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7",
+      "topic": "geopolitics",
+      "title": "100 days of Iran war: Gulf states grapple with security and economic consequences",
+      "url": "https://www.dw.com/en/100-days-of-iran-war-gulf-states-grapple-with-security-and-economic-consequences/a-77393748?maca=en-rss-en-world-4025-rdf",
+      "host": "dw.com",
+      "source": "https://rss.dw.com/rdf/rss-en-world",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-06-04T10:58:19.105620+00:00",
+      "published": "2026-06-04T09:39:00Z",
+      "text_chars": 8133,
+      "raw_path": "data/geopolitics/raw/b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7.html",
+      "text_path": "data/geopolitics/raw/b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7.txt",
+      "summary": "QatarEnergy's chief executive, Saad Al Kaabi, told British broadcaster BBC that the scale of the damage had \"set the region back by 10 to 20 years.\" Iran and the US, meanwhile, continue to use their blockades of the Strait of Hormuz as a \"pressure card\" for peace negotiations. QatarEnergy, Qatar's state-owned energy company, said it would take up to five years to repair the Ras Laffan industrial hub after it was struck by an Iranian ballistic missile in March.",
+      "bullets": [
+        "QatarEnergy's chief executive, Saad Al Kaabi, told British broadcaster BBC that the scale of the damage had \"set the region back by 10 to 20 years.\" Iran and the US, meanwhile, continue to use their blockades of the Strait of Hormuz as a \"pressure card\" for peace negotiations.",
+        "QatarEnergy, Qatar's state-owned energy company, said it would take up to five years to repair the Ras Laffan industrial hub after it was struck by an Iranian ballistic missile in March.",
+        "Key infrastructure in the region is being targeted by thousands of ballistic missiles and drones while the blockade of the Strait of Hormuz by — imposed by both Iran and the US — has had a major impact on trade and economic stability.",
+        "'Sea change in perception of security and politics' In recent years, the Gulf states, and particularly Saudi Arabia, have implemented ambitious economic reforms aimed at diversifying their economies and reducing dependence on oil revenues.",
+        "\"The Iran war has prompted a sea change in their perception of security and politics,\" she told DW."
+      ],
+      "excerpt": "For the regional Gulf Cooperation Council (GCC) states — Bahrain, Kuwait, Oman, Qatar, Saudi Arabia and the United Arab Emirates (UAE) — the consequences of the US-Israeli conflict with Iran extend far beyond immediate military threat. Since February 28, when the US and Israel launched joint strikes on Iran, and despite a nominal ceasefire, the GCC countries, have been performing a difficult balancing act. Key infrastructure in the region is being targeted by thousands of ballistic missiles and drones while the blockade of the Strait of Hormuz by — imposed by both Iran and the US — has had a major impact on trade and economic stability. At the same time, Gulf governments have been trying to avoid being drawn deeper into the conflict. 'Sea change in perception of security and politics' In recent years, the Gulf states, and particularly Saudi Arabia, have implemented ambitious economic reforms aimed at diversifying their economies and reducing dependence on oil revenues. Increasingly, these overhauls have shaped foreign policy too, as tourism, aviation, logistics, and artificial intelligence have become core pillars of national development strategies. But a new era is underway, accor",
+      "keywords": [
+        {
+          "name": "gulf",
+          "value": 18
+        },
+        {
+          "name": "iran",
+          "value": 15
+        },
+        {
+          "name": "security",
+          "value": 8
+        },
+        {
+          "name": "states",
+          "value": 8
+        },
+        {
+          "name": "international",
+          "value": 7
+        },
+        {
+          "name": "saudi",
+          "value": 7
+        },
+        {
+          "name": "arabia",
+          "value": 6
+        },
+        {
+          "name": "economic",
+          "value": 6
+        },
+        {
+          "name": "countries",
+          "value": 5
+        },
+        {
+          "name": "east",
+          "value": 5
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas",
+        "Africa"
+      ],
+      "detail_path": "/evidence/b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7",
+      "evidence_json": "/evidence/b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7.json"
+    },
     {
       "id": "b08b5bc1b796225124548eca6ca6e78ed0289a1ade0168c11fa2ec4444a4d199",
       "topic": "geopolitics",
@@ -8499,84 +8581,6 @@
       ],
       "detail_path": "/evidence/633658001032ccc8aba33ea96edcb593ae42a4ca53fa0d03f5e0e90151574f94",
       "evidence_json": "/evidence/633658001032ccc8aba33ea96edcb593ae42a4ca53fa0d03f5e0e90151574f94.json"
-    },
-    {
-      "id": "19e4c3c419fb7ace2230a58047f5154dac394663b2a7b0c45dc93aea33dc3ba4",
-      "topic": "geopolitics",
-      "title": "What is Lebanon’s Beaufort Castle, and why has Israel captured it?",
-      "url": "https://www.aljazeera.com/news/2026/6/1/what-is-lebanons-beaufort-castle-and-why-has-israel-captured-it?traffic_source=rss",
-      "host": "aljazeera.com",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=utf-8",
-      "collected_at": "2026-06-01T15:51:01.289678+00:00",
-      "published": "Mon, 01 Jun 2026 10:58:07 +0000",
-      "text_chars": 5213,
-      "raw_path": "data/geopolitics/raw/19e4c3c419fb7ace2230a58047f5154dac394663b2a7b0c45dc93aea33dc3ba4.html",
-      "text_path": "data/geopolitics/raw/19e4c3c419fb7ace2230a58047f5154dac394663b2a7b0c45dc93aea33dc3ba4.txt",
-      "summary": "Recommended Stories list of 4 items end of list “The Israeli flag is once again flying over the peaks overlooking the Galilee communities,” Defence Minister Israel Katz said at a memorial ceremony for fallen soldiers of the 1982 war with Lebanon, according to The Times of Israel newspaper. Sitting atop a strategic hill near Nabatieh, Lebanon’s fifth largest city, Beaufort Castle and the surrounding ridge, which Israeli forces have also secured, is regarded as one of southern Lebanon’s most strategically important military positions.",
-      "bullets": [
-        "Recommended Stories list of 4 items end of list “The Israeli flag is once again flying over the peaks overlooking the Galilee communities,” Defence Minister Israel Katz said at a memorial ceremony for fallen soldiers of the 1982 war with Lebanon, according to The Times of Israel newspaper.",
-        "Sitting atop a strategic hill near Nabatieh, Lebanon’s fifth largest city, Beaufort Castle and the surrounding ridge, which Israeli forces have also secured, is regarded as one of southern Lebanon’s most strategically important military positions.",
-        "Israeli officials said the operation was aimed at dismantling Hezbollah infrastructure and securing high ground close to the Israeli border.",
-        "Beaufort Castle, known in Arabic as Qalaat al-Shaqif, is a 900-year-old fortress located on a rocky hilltop in southern Lebanon, about 700 metres (2,300ft) above sea level.",
-        "The Israeli military has captured Lebanon’s Beaufort Castle, a medieval hilltop fortress in the country’s south, amid an expanded military offensive against the Lebanese armed group Hezbollah."
-      ],
-      "excerpt": "The Israeli military has captured Lebanon’s Beaufort Castle, a medieval hilltop fortress in the country’s south, amid an expanded military offensive against the Lebanese armed group Hezbollah. The capture, announced on Sunday, comes amid fighting despite a “ceasefire” between Israel and Lebanon, which Israel has repeatedly violated. Recommended Stories list of 4 items end of list “The Israeli flag is once again flying over the peaks overlooking the Galilee communities,” Defence Minister Israel Katz said at a memorial ceremony for fallen soldiers of the 1982 war with Lebanon, according to The Times of Israel newspaper. “Our heroic soldiers have captured Beaufort once again and will remain there as part of the security zone in Lebanon,” he was quoted as saying. Katz circulated a photo on social media of the castle with the Israeli flag and also that of the military’s Golani Brigade. So what is Beaufort Castle, how did Israel capture it and why does it matter? What is Beaufort Castle? Beaufort Castle, known in Arabic as Qalaat al-Shaqif, is a 900-year-old fortress located on a rocky hilltop in southern Lebanon, about 700 metres (2,300ft) above sea level. Built during the 12th century ",
-      "keywords": [
-        {
-          "name": "lebanon",
-          "value": 19
-        },
-        {
-          "name": "israel",
-          "value": 15
-        },
-        {
-          "name": "israeli",
-          "value": 15
-        },
-        {
-          "name": "castle",
-          "value": 14
-        },
-        {
-          "name": "beaufort",
-          "value": 10
-        },
-        {
-          "name": "southern",
-          "value": 10
-        },
-        {
-          "name": "forces",
-          "value": 6
-        },
-        {
-          "name": "hezbollah",
-          "value": 6
-        },
-        {
-          "name": "military",
-          "value": 6
-        },
-        {
-          "name": "captured",
-          "value": 5
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Diplomacy and Negotiations",
-        "Territory and Chokepoints",
-        "Humanitarian Pressure"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "detail_path": "/evidence/19e4c3c419fb7ace2230a58047f5154dac394663b2a7b0c45dc93aea33dc3ba4",
-      "evidence_json": "/evidence/19e4c3c419fb7ace2230a58047f5154dac394663b2a7b0c45dc93aea33dc3ba4.json"
     }
   ],
   "deep_reads": [
@@ -8910,7 +8914,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-04T07:19:37.621508+00:00",
+      "collected_at": "2026-06-04T10:58:01.811352+00:00",
       "published": "",
       "text_chars": 9064868,
       "raw_path": "data/geopolitics/raw/5a33879c2e80944eb422478c0db3d10b489a90bda46c6e24c03777dd79f766fd.xml",
@@ -9230,7 +9234,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-04T07:19:10.405635+00:00",
+      "collected_at": "2026-06-04T10:57:28.667030+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -9305,7 +9309,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-04T07:19:10.093597+00:00",
+      "collected_at": "2026-06-04T10:57:28.984137+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -10582,7 +10586,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-04T07:19:41.755163+00:00",
+      "collected_at": "2026-06-04T10:58:12.735888+00:00",
       "published": "",
       "text_chars": 523907,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -10818,6 +10822,87 @@
   ],
   "documents": [
     {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-04T10:58:12.735888+00:00",
+      "published": "",
+      "text_chars": 523907,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 508
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "conflict",
+          "value": 265
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 208
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -10827,7 +10912,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-04T07:19:50.397361+00:00",
+      "collected_at": "2026-06-04T10:58:07.449939+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -10908,7 +10993,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-04T07:19:45.539063+00:00",
+      "collected_at": "2026-06-04T10:58:06.630112+00:00",
       "published": "",
       "text_chars": 174113,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -10980,87 +11065,6 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-04T07:19:41.755163+00:00",
-      "published": "",
-      "text_chars": 523907,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 508
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "conflict",
-          "value": 265
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 208
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8",
       "topic": "geopolitics",
       "title": "The World Factbook",
@@ -11070,7 +11074,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-04T07:19:37.760608+00:00",
+      "collected_at": "2026-06-04T10:58:01.937792+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.html",
@@ -11134,76 +11138,6 @@
       "evidence_json": "/evidence/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-04T07:19:37.663433+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
       "id": "5a33879c2e80944eb422478c0db3d10b489a90bda46c6e24c03777dd79f766fd",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -11213,7 +11147,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-04T07:19:37.621508+00:00",
+      "collected_at": "2026-06-04T10:58:01.811352+00:00",
       "published": "",
       "text_chars": 9064868,
       "raw_path": "data/geopolitics/raw/5a33879c2e80944eb422478c0db3d10b489a90bda46c6e24c03777dd79f766fd.xml",
@@ -11282,6 +11216,308 @@
       ],
       "detail_path": "/evidence/5a33879c2e80944eb422478c0db3d10b489a90bda46c6e24c03777dd79f766fd",
       "evidence_json": "/evidence/5a33879c2e80944eb422478c0db3d10b489a90bda46c6e24c03777dd79f766fd.json"
+    },
+    {
+      "id": "ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
+      "host": "treasury.gov",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "text/xml",
+      "collected_at": "2026-06-04T10:57:30.880380+00:00",
+      "published": "",
+      "text_chars": 392158,
+      "raw_path": "data/geopolitics/raw/ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76.xml",
+      "text_path": "data/geopolitics/raw/ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76.txt",
+      "summary": "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a. strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
+      "bullets": [
+        "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a.",
+        "strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a.",
+        "strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
+        "strong HASAN DOUKHAN Abdul Fattah 4709 1936 true 9649 Ibrahim Mohammed DAHBOUR Individual NS-PLC 12132 Jenin West Bank Palestinian 4710 1968 true 9650 Mariam Mahmoud SALEH Individual NS-PLC 12133 Ramallah West Bank Palestinian 4711 1952 true 9651 Fathi Mohammed QAR'AWI Individual NS-PLC 9162 a.k.a.",
+        "strong NAWFAL Imad Mahmoud 12136 Qalqilya West Bank Palestinian 4716 1970 true 9654 Omar Mahmoud MATAR Individual NS-PLC 12137 Salfit West Bank Palestinian 4717 1958 true 9655 Muna Salim Saleh MANSOUR Individual NS-PLC 9165 a.k.a."
+      ],
+      "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Mohammad Mahmoud 4698 1951 true 4699 Umm Tuba true 9641 Jamileh Abdullah AL-SHANTI Individual NS-PLC 9154 a.k.a. strong EL-SHANTI Jameela Abdallah 9155 a.k.a. strong AL SHANTEE Jamila Abed Allah 12128 Gaza Palestinian 4700 1955 true 4701 Jabalia Camp true 9642 Mohammed Jamal NU'MAN ALAEDDIN Individual NS-PLC 9156 a.k.a. strong ALA AL DIN Mohamad Nouman 9157 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a. strong RABBAI Khalil Mussa 4705 1959 true 9645 Huda Naim AL-QREINAWI Individual NS-PLC 9159 a.k.a. strong AL QRENAWI Houda Naim 12130 Gaza Palestinian 4706 1969 true 9646 Mahmoud Ahmad AL-RAMAHI Individual NS-PLC 12131 Ramallah West Bank Palestinian 4707 1963 true 9647 Mahmoud Khaled ZAHHAR Individual (Linked To: HAMAS) NS-PLC SDGT 16681",
+      "keywords": [
+        {
+          "name": "sanctions",
+          "value": 942
+        },
+        {
+          "name": "russia",
+          "value": 663
+        },
+        {
+          "name": "ukraine",
+          "value": 565
+        },
+        {
+          "name": "executive",
+          "value": 440
+        },
+        {
+          "name": "order",
+          "value": 439
+        },
+        {
+          "name": "entity",
+          "value": 383
+        },
+        {
+          "name": "risk",
+          "value": 372
+        },
+        {
+          "name": "information",
+          "value": 370
+        },
+        {
+          "name": "subject",
+          "value": 323
+        },
+        {
+          "name": "treasury",
+          "value": 313
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76",
+      "evidence_json": "/evidence/ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-04T10:57:29.021678+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
+      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "topic": "geopolitics",
+      "title": "MS.MIL.XPND.CD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-04T10:57:28.984137+00:00",
+      "published": "",
+      "text_chars": 6187025,
+      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
+      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
+      "keywords": [
+        {
+          "name": "expenditure",
+          "value": 17556
+        },
+        {
+          "name": "military",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        },
+        {
+          "name": "asia",
+          "value": 528
+        },
+        {
+          "name": "ibrd",
+          "value": 528
+        },
+        {
+          "name": "middle",
+          "value": 462
+        }
+      ],
+      "signals": [
+        "War and Escalation"
+      ],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-04T10:57:28.667030+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
     },
     {
       "id": "755fac4cc297b4e453d5103fe7ecaff087f958391e54873bc53aaa5bacf0567c",
@@ -11362,238 +11598,6 @@
       ],
       "detail_path": "/evidence/755fac4cc297b4e453d5103fe7ecaff087f958391e54873bc53aaa5bacf0567c",
       "evidence_json": "/evidence/755fac4cc297b4e453d5103fe7ecaff087f958391e54873bc53aaa5bacf0567c.json"
-    },
-    {
-      "id": "ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
-      "host": "treasury.gov",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "text/xml",
-      "collected_at": "2026-06-04T07:19:12.061739+00:00",
-      "published": "",
-      "text_chars": 392158,
-      "raw_path": "data/geopolitics/raw/ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76.xml",
-      "text_path": "data/geopolitics/raw/ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76.txt",
-      "summary": "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a. strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
-      "bullets": [
-        "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a.",
-        "strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a.",
-        "strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
-        "strong HASAN DOUKHAN Abdul Fattah 4709 1936 true 9649 Ibrahim Mohammed DAHBOUR Individual NS-PLC 12132 Jenin West Bank Palestinian 4710 1968 true 9650 Mariam Mahmoud SALEH Individual NS-PLC 12133 Ramallah West Bank Palestinian 4711 1952 true 9651 Fathi Mohammed QAR'AWI Individual NS-PLC 9162 a.k.a.",
-        "strong NAWFAL Imad Mahmoud 12136 Qalqilya West Bank Palestinian 4716 1970 true 9654 Omar Mahmoud MATAR Individual NS-PLC 12137 Salfit West Bank Palestinian 4717 1958 true 9655 Muna Salim Saleh MANSOUR Individual NS-PLC 9165 a.k.a."
-      ],
-      "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Mohammad Mahmoud 4698 1951 true 4699 Umm Tuba true 9641 Jamileh Abdullah AL-SHANTI Individual NS-PLC 9154 a.k.a. strong EL-SHANTI Jameela Abdallah 9155 a.k.a. strong AL SHANTEE Jamila Abed Allah 12128 Gaza Palestinian 4700 1955 true 4701 Jabalia Camp true 9642 Mohammed Jamal NU'MAN ALAEDDIN Individual NS-PLC 9156 a.k.a. strong ALA AL DIN Mohamad Nouman 9157 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a. strong RABBAI Khalil Mussa 4705 1959 true 9645 Huda Naim AL-QREINAWI Individual NS-PLC 9159 a.k.a. strong AL QRENAWI Houda Naim 12130 Gaza Palestinian 4706 1969 true 9646 Mahmoud Ahmad AL-RAMAHI Individual NS-PLC 12131 Ramallah West Bank Palestinian 4707 1963 true 9647 Mahmoud Khaled ZAHHAR Individual (Linked To: HAMAS) NS-PLC SDGT 16681",
-      "keywords": [
-        {
-          "name": "sanctions",
-          "value": 942
-        },
-        {
-          "name": "russia",
-          "value": 663
-        },
-        {
-          "name": "ukraine",
-          "value": 565
-        },
-        {
-          "name": "executive",
-          "value": 440
-        },
-        {
-          "name": "order",
-          "value": 439
-        },
-        {
-          "name": "entity",
-          "value": 383
-        },
-        {
-          "name": "risk",
-          "value": 372
-        },
-        {
-          "name": "information",
-          "value": 370
-        },
-        {
-          "name": "subject",
-          "value": 323
-        },
-        {
-          "name": "treasury",
-          "value": 313
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance",
-        "Energy and Supply Chains",
-        "Territory and Chokepoints",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Europe and Russia",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76",
-      "evidence_json": "/evidence/ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76.json"
-    },
-    {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-04T07:19:10.405635+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
-      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "topic": "geopolitics",
-      "title": "MS.MIL.XPND.CD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-04T07:19:10.093597+00:00",
-      "published": "",
-      "text_chars": 6187025,
-      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
-      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
-      "keywords": [
-        {
-          "name": "expenditure",
-          "value": 17556
-        },
-        {
-          "name": "military",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        },
-        {
-          "name": "asia",
-          "value": 528
-        },
-        {
-          "name": "ibrd",
-          "value": 528
-        },
-        {
-          "name": "middle",
-          "value": 462
-        }
-      ],
-      "signals": [
-        "War and Escalation"
-      ],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
     },
     {
       "id": "4fa72e9cbb8f7f305f96dad6fb2ce5fa23cbfe7b418e0a6c10248a4b6608037e",
@@ -15368,6 +15372,87 @@
   "cited_evidence": [],
   "evidence": [
     {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-04T10:58:12.735888+00:00",
+      "published": "",
+      "text_chars": 523907,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 508
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "conflict",
+          "value": 265
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 208
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -15377,7 +15462,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-04T07:19:50.397361+00:00",
+      "collected_at": "2026-06-04T10:58:07.449939+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15458,7 +15543,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-04T07:19:45.539063+00:00",
+      "collected_at": "2026-06-04T10:58:06.630112+00:00",
       "published": "",
       "text_chars": 174113,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15530,87 +15615,6 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-04T07:19:41.755163+00:00",
-      "published": "",
-      "text_chars": 523907,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 508
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "conflict",
-          "value": 265
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 208
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8",
       "topic": "geopolitics",
       "title": "The World Factbook",
@@ -15620,7 +15624,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-04T07:19:37.760608+00:00",
+      "collected_at": "2026-06-04T10:58:01.937792+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.html",
@@ -15684,76 +15688,6 @@
       "evidence_json": "/evidence/6d862fbb30a1577ad03fca8cbfcb7d21d74db594844b2a4f83df3a55942278c8.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-04T07:19:37.663433+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
       "id": "5a33879c2e80944eb422478c0db3d10b489a90bda46c6e24c03777dd79f766fd",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -15763,7 +15697,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-04T07:19:37.621508+00:00",
+      "collected_at": "2026-06-04T10:58:01.811352+00:00",
       "published": "",
       "text_chars": 9064868,
       "raw_path": "data/geopolitics/raw/5a33879c2e80944eb422478c0db3d10b489a90bda46c6e24c03777dd79f766fd.xml",
@@ -15832,6 +15766,388 @@
       ],
       "detail_path": "/evidence/5a33879c2e80944eb422478c0db3d10b489a90bda46c6e24c03777dd79f766fd",
       "evidence_json": "/evidence/5a33879c2e80944eb422478c0db3d10b489a90bda46c6e24c03777dd79f766fd.json"
+    },
+    {
+      "id": "ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
+      "host": "treasury.gov",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "text/xml",
+      "collected_at": "2026-06-04T10:57:30.880380+00:00",
+      "published": "",
+      "text_chars": 392158,
+      "raw_path": "data/geopolitics/raw/ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76.xml",
+      "text_path": "data/geopolitics/raw/ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76.txt",
+      "summary": "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a. strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
+      "bullets": [
+        "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a.",
+        "strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a.",
+        "strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
+        "strong HASAN DOUKHAN Abdul Fattah 4709 1936 true 9649 Ibrahim Mohammed DAHBOUR Individual NS-PLC 12132 Jenin West Bank Palestinian 4710 1968 true 9650 Mariam Mahmoud SALEH Individual NS-PLC 12133 Ramallah West Bank Palestinian 4711 1952 true 9651 Fathi Mohammed QAR'AWI Individual NS-PLC 9162 a.k.a.",
+        "strong NAWFAL Imad Mahmoud 12136 Qalqilya West Bank Palestinian 4716 1970 true 9654 Omar Mahmoud MATAR Individual NS-PLC 12137 Salfit West Bank Palestinian 4717 1958 true 9655 Muna Salim Saleh MANSOUR Individual NS-PLC 9165 a.k.a."
+      ],
+      "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Mohammad Mahmoud 4698 1951 true 4699 Umm Tuba true 9641 Jamileh Abdullah AL-SHANTI Individual NS-PLC 9154 a.k.a. strong EL-SHANTI Jameela Abdallah 9155 a.k.a. strong AL SHANTEE Jamila Abed Allah 12128 Gaza Palestinian 4700 1955 true 4701 Jabalia Camp true 9642 Mohammed Jamal NU'MAN ALAEDDIN Individual NS-PLC 9156 a.k.a. strong ALA AL DIN Mohamad Nouman 9157 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a. strong RABBAI Khalil Mussa 4705 1959 true 9645 Huda Naim AL-QREINAWI Individual NS-PLC 9159 a.k.a. strong AL QRENAWI Houda Naim 12130 Gaza Palestinian 4706 1969 true 9646 Mahmoud Ahmad AL-RAMAHI Individual NS-PLC 12131 Ramallah West Bank Palestinian 4707 1963 true 9647 Mahmoud Khaled ZAHHAR Individual (Linked To: HAMAS) NS-PLC SDGT 16681",
+      "keywords": [
+        {
+          "name": "sanctions",
+          "value": 942
+        },
+        {
+          "name": "russia",
+          "value": 663
+        },
+        {
+          "name": "ukraine",
+          "value": 565
+        },
+        {
+          "name": "executive",
+          "value": 440
+        },
+        {
+          "name": "order",
+          "value": 439
+        },
+        {
+          "name": "entity",
+          "value": 383
+        },
+        {
+          "name": "risk",
+          "value": 372
+        },
+        {
+          "name": "information",
+          "value": 370
+        },
+        {
+          "name": "subject",
+          "value": 323
+        },
+        {
+          "name": "treasury",
+          "value": 313
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76",
+      "evidence_json": "/evidence/ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-04T10:57:29.021678+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
+      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "topic": "geopolitics",
+      "title": "MS.MIL.XPND.CD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-04T10:57:28.984137+00:00",
+      "published": "",
+      "text_chars": 6187025,
+      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
+      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
+      "keywords": [
+        {
+          "name": "expenditure",
+          "value": 17556
+        },
+        {
+          "name": "military",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        },
+        {
+          "name": "asia",
+          "value": 528
+        },
+        {
+          "name": "ibrd",
+          "value": 528
+        },
+        {
+          "name": "middle",
+          "value": 462
+        }
+      ],
+      "signals": [
+        "War and Escalation"
+      ],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-04T10:57:28.667030+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
+    },
+    {
+      "id": "b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7",
+      "topic": "geopolitics",
+      "title": "100 days of Iran war: Gulf states grapple with security and economic consequences",
+      "url": "https://www.dw.com/en/100-days-of-iran-war-gulf-states-grapple-with-security-and-economic-consequences/a-77393748?maca=en-rss-en-world-4025-rdf",
+      "host": "dw.com",
+      "source": "https://rss.dw.com/rdf/rss-en-world",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-06-04T10:58:19.105620+00:00",
+      "published": "2026-06-04T09:39:00Z",
+      "text_chars": 8133,
+      "raw_path": "data/geopolitics/raw/b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7.html",
+      "text_path": "data/geopolitics/raw/b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7.txt",
+      "summary": "QatarEnergy's chief executive, Saad Al Kaabi, told British broadcaster BBC that the scale of the damage had \"set the region back by 10 to 20 years.\" Iran and the US, meanwhile, continue to use their blockades of the Strait of Hormuz as a \"pressure card\" for peace negotiations. QatarEnergy, Qatar's state-owned energy company, said it would take up to five years to repair the Ras Laffan industrial hub after it was struck by an Iranian ballistic missile in March.",
+      "bullets": [
+        "QatarEnergy's chief executive, Saad Al Kaabi, told British broadcaster BBC that the scale of the damage had \"set the region back by 10 to 20 years.\" Iran and the US, meanwhile, continue to use their blockades of the Strait of Hormuz as a \"pressure card\" for peace negotiations.",
+        "QatarEnergy, Qatar's state-owned energy company, said it would take up to five years to repair the Ras Laffan industrial hub after it was struck by an Iranian ballistic missile in March.",
+        "Key infrastructure in the region is being targeted by thousands of ballistic missiles and drones while the blockade of the Strait of Hormuz by — imposed by both Iran and the US — has had a major impact on trade and economic stability.",
+        "'Sea change in perception of security and politics' In recent years, the Gulf states, and particularly Saudi Arabia, have implemented ambitious economic reforms aimed at diversifying their economies and reducing dependence on oil revenues.",
+        "\"The Iran war has prompted a sea change in their perception of security and politics,\" she told DW."
+      ],
+      "excerpt": "For the regional Gulf Cooperation Council (GCC) states — Bahrain, Kuwait, Oman, Qatar, Saudi Arabia and the United Arab Emirates (UAE) — the consequences of the US-Israeli conflict with Iran extend far beyond immediate military threat. Since February 28, when the US and Israel launched joint strikes on Iran, and despite a nominal ceasefire, the GCC countries, have been performing a difficult balancing act. Key infrastructure in the region is being targeted by thousands of ballistic missiles and drones while the blockade of the Strait of Hormuz by — imposed by both Iran and the US — has had a major impact on trade and economic stability. At the same time, Gulf governments have been trying to avoid being drawn deeper into the conflict. 'Sea change in perception of security and politics' In recent years, the Gulf states, and particularly Saudi Arabia, have implemented ambitious economic reforms aimed at diversifying their economies and reducing dependence on oil revenues. Increasingly, these overhauls have shaped foreign policy too, as tourism, aviation, logistics, and artificial intelligence have become core pillars of national development strategies. But a new era is underway, accor",
+      "keywords": [
+        {
+          "name": "gulf",
+          "value": 18
+        },
+        {
+          "name": "iran",
+          "value": 15
+        },
+        {
+          "name": "security",
+          "value": 8
+        },
+        {
+          "name": "states",
+          "value": 8
+        },
+        {
+          "name": "international",
+          "value": 7
+        },
+        {
+          "name": "saudi",
+          "value": 7
+        },
+        {
+          "name": "arabia",
+          "value": 6
+        },
+        {
+          "name": "economic",
+          "value": 6
+        },
+        {
+          "name": "countries",
+          "value": 5
+        },
+        {
+          "name": "east",
+          "value": 5
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas",
+        "Africa"
+      ],
+      "detail_path": "/evidence/b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7",
+      "evidence_json": "/evidence/b61156b3c1b276a21878d9106e11770eeec5667170ad77ef444a6712b646d4f7.json"
     },
     {
       "id": "755fac4cc297b4e453d5103fe7ecaff087f958391e54873bc53aaa5bacf0567c",
@@ -15912,238 +16228,6 @@
       ],
       "detail_path": "/evidence/755fac4cc297b4e453d5103fe7ecaff087f958391e54873bc53aaa5bacf0567c",
       "evidence_json": "/evidence/755fac4cc297b4e453d5103fe7ecaff087f958391e54873bc53aaa5bacf0567c.json"
-    },
-    {
-      "id": "ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
-      "host": "treasury.gov",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "text/xml",
-      "collected_at": "2026-06-04T07:19:12.061739+00:00",
-      "published": "",
-      "text_chars": 392158,
-      "raw_path": "data/geopolitics/raw/ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76.xml",
-      "text_path": "data/geopolitics/raw/ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76.txt",
-      "summary": "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a. strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
-      "bullets": [
-        "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a.",
-        "strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a.",
-        "strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
-        "strong HASAN DOUKHAN Abdul Fattah 4709 1936 true 9649 Ibrahim Mohammed DAHBOUR Individual NS-PLC 12132 Jenin West Bank Palestinian 4710 1968 true 9650 Mariam Mahmoud SALEH Individual NS-PLC 12133 Ramallah West Bank Palestinian 4711 1952 true 9651 Fathi Mohammed QAR'AWI Individual NS-PLC 9162 a.k.a.",
-        "strong NAWFAL Imad Mahmoud 12136 Qalqilya West Bank Palestinian 4716 1970 true 9654 Omar Mahmoud MATAR Individual NS-PLC 12137 Salfit West Bank Palestinian 4717 1958 true 9655 Muna Salim Saleh MANSOUR Individual NS-PLC 9165 a.k.a."
-      ],
-      "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Mohammad Mahmoud 4698 1951 true 4699 Umm Tuba true 9641 Jamileh Abdullah AL-SHANTI Individual NS-PLC 9154 a.k.a. strong EL-SHANTI Jameela Abdallah 9155 a.k.a. strong AL SHANTEE Jamila Abed Allah 12128 Gaza Palestinian 4700 1955 true 4701 Jabalia Camp true 9642 Mohammed Jamal NU'MAN ALAEDDIN Individual NS-PLC 9156 a.k.a. strong ALA AL DIN Mohamad Nouman 9157 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a. strong RABBAI Khalil Mussa 4705 1959 true 9645 Huda Naim AL-QREINAWI Individual NS-PLC 9159 a.k.a. strong AL QRENAWI Houda Naim 12130 Gaza Palestinian 4706 1969 true 9646 Mahmoud Ahmad AL-RAMAHI Individual NS-PLC 12131 Ramallah West Bank Palestinian 4707 1963 true 9647 Mahmoud Khaled ZAHHAR Individual (Linked To: HAMAS) NS-PLC SDGT 16681",
-      "keywords": [
-        {
-          "name": "sanctions",
-          "value": 942
-        },
-        {
-          "name": "russia",
-          "value": 663
-        },
-        {
-          "name": "ukraine",
-          "value": 565
-        },
-        {
-          "name": "executive",
-          "value": 440
-        },
-        {
-          "name": "order",
-          "value": 439
-        },
-        {
-          "name": "entity",
-          "value": 383
-        },
-        {
-          "name": "risk",
-          "value": 372
-        },
-        {
-          "name": "information",
-          "value": 370
-        },
-        {
-          "name": "subject",
-          "value": 323
-        },
-        {
-          "name": "treasury",
-          "value": 313
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance",
-        "Energy and Supply Chains",
-        "Territory and Chokepoints",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Europe and Russia",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76",
-      "evidence_json": "/evidence/ef07425cad28a60739771292ec0ea81c732470b0cad16c0980f3c6a3ef462a76.json"
-    },
-    {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-04T07:19:10.405635+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
-      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "topic": "geopolitics",
-      "title": "MS.MIL.XPND.CD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-04T07:19:10.093597+00:00",
-      "published": "",
-      "text_chars": 6187025,
-      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
-      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
-      "keywords": [
-        {
-          "name": "expenditure",
-          "value": 17556
-        },
-        {
-          "name": "military",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        },
-        {
-          "name": "asia",
-          "value": 528
-        },
-        {
-          "name": "ibrd",
-          "value": 528
-        },
-        {
-          "name": "middle",
-          "value": 462
-        }
-      ],
-      "signals": [
-        "War and Escalation"
-      ],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
     },
     {
       "id": "b08b5bc1b796225124548eca6ca6e78ed0289a1ade0168c11fa2ec4444a4d199",
