@@ -1,89 +1,94 @@
 {
-  "generated_at": "2026-06-05T20:48:33.380403+00:00",
+  "generated_at": "2026-06-05T22:12:44.085283+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating conflicts in the Middle East and Europe raise humanitarian and geopolitical concerns.",
+    "headline": "Escalating tensions in the Middle East and Europe signal a critical juncture in global geopolitics.",
     "executive_summary": [
-      "Recent developments in the Middle East, particularly the ongoing conflict involving Israel and Lebanon, have led to a significant humanitarian crisis, with the UN appealing for nearly $640 million to assist Lebanon as the death toll rises to over 3,500 since the onset of hostilities. The situation is exacerbated by the displacement of over one million people and the destruction of essential services, highlighting the urgent need for international support (evidence id: 22).",
-      "In Europe, the war in Ukraine continues to impact regional stability, with Ukraine successfully impeding Russian supply lines and launching counterattacks that have forced the Russian military into a standstill. This has raised concerns about the potential for further escalation, as both sides prepare for prolonged conflict (evidence id: 13).",
-      "The geopolitical landscape is further complicated by the United States' military actions in the Indo-Pacific, where U.S. forces have intercepted sanctioned vessels linked to Iran, signaling a commitment to disrupt illicit networks. This reflects a broader strategy to maintain maritime security amid rising tensions in the region (evidence id: 21).",
-      "As the international community grapples with these crises, the implications for global food security are becoming increasingly dire, with the World Food Programme warning that millions are at risk of acute hunger due to the fallout from the Middle East conflict. This underscores the interconnectedness of geopolitical tensions and humanitarian needs (evidence id: 28)."
+      "Recent developments in the Middle East, particularly the ongoing conflict involving Israel and Lebanon, have led to a significant humanitarian crisis, with the UN appealing for nearly $640 million in aid to address the deteriorating situation. Reports indicate that over 3,500 people have been killed and more than 10,000 injured since the onset of hostilities, highlighting the urgent need for international support (evidence id: 23).",
+      "In Europe, the geopolitical landscape is shifting as military expenditures rise in response to perceived threats from Russia. The UK's military chief has warned that the country is in the most dangerous period since the Cold War, emphasizing the need for increased defense spending to counter Russian aggression (evidence id: 25). This sentiment is echoed by UK political leaders who foresee potential Russian attacks on NATO as soon as 2030 (evidence id: 26).",
+      "The United States continues to navigate complex diplomatic waters, with President Zelensky of Ukraine proposing direct negotiations with Russia to end the ongoing conflict, while also highlighting the diminishing resources available to the Russian military (evidence id: 10). This proposal comes amidst a backdrop of stalled peace talks and increasing military engagements on both sides.",
+      "Additionally, the U.S. military's recent interdiction of a sanctioned oil tanker in the Indian Ocean underscores ongoing tensions related to Iran and its maritime activities, further complicating the geopolitical landscape in the region (evidence id: 22)."
     ],
     "key_judgments": [
       {
         "title": "Humanitarian Crisis in Lebanon",
-        "finding": "The UN has doubled its aid appeal for Lebanon due to a severe humanitarian crisis resulting from ongoing conflict, with over 3,500 reported deaths and significant displacement.",
+        "finding": "The UN has reported a severe humanitarian crisis in Lebanon due to ongoing military operations, necessitating a significant increase in aid funding.",
         "citations": [
-          "22"
+          "23"
         ]
       },
       {
-        "title": "Stalemate in Ukraine",
-        "finding": "Ukrainian forces have successfully disrupted Russian supply lines, leading to a military stalemate, while Russia continues to rely on ballistic missile capabilities.",
+        "title": "Rising Military Threats in Europe",
+        "finding": "UK military leadership has indicated that the threat from Russia is at its highest since the Cold War, prompting calls for increased defense spending.",
         "citations": [
-          "13"
+          "25",
+          "26"
+        ]
+      },
+      {
+        "title": "Stalled Peace Negotiations in Ukraine",
+        "finding": "Ukrainian President Zelensky's proposal for direct negotiations with Russia reflects the complexities and challenges of achieving peace in the ongoing conflict.",
+        "citations": [
+          "10"
         ]
       },
       {
         "title": "U.S. Maritime Interdiction Efforts",
-        "finding": "The U.S. military's recent actions to intercept sanctioned vessels in the Indian Ocean demonstrate a commitment to countering Iranian influence and maintaining maritime security.",
+        "finding": "The U.S. military's actions in the Indian Ocean highlight ongoing tensions related to Iran and its maritime activities, impacting regional stability.",
         "citations": [
-          "21"
-        ]
-      },
-      {
-        "title": "Global Food Security Risks",
-        "finding": "The ongoing conflict in the Middle East is pushing millions into acute food insecurity, with the World Food Programme highlighting the dire consequences for vulnerable populations worldwide.",
-        "citations": [
-          "28"
+          "22"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The humanitarian situation in Lebanon is deteriorating rapidly due to ongoing military operations, with significant international aid required to address the crisis.",
+        "assessment": "The humanitarian situation in Lebanon is critical, with escalating violence leading to significant civilian casualties and displacement.",
         "citations": [
-          "22"
+          "23",
+          "24"
         ]
       },
       {
         "region": "Europe and Russia",
-        "assessment": "The conflict in Ukraine remains unresolved, with both sides preparing for extended hostilities, impacting regional stability and security.",
+        "assessment": "Increased military readiness and spending in the UK and across NATO countries reflect heightened concerns over Russian military actions.",
         "citations": [
-          "13"
+          "25",
+          "26"
         ]
       },
       {
         "region": "Indo-Pacific",
-        "assessment": "U.S. military actions in the Indo-Pacific reflect ongoing tensions with Iran and a commitment to maritime security, which may influence regional alliances.",
+        "assessment": "U.S. maritime operations in the Indian Ocean are part of broader efforts to counter Iranian influence and ensure regional security.",
         "citations": [
-          "21"
+          "22"
         ]
       }
     ],
     "watchlist": [
       {
         "label": "Lebanon Humanitarian Crisis",
-        "why_it_matters": "The escalating humanitarian crisis in Lebanon could lead to regional instability and increased refugee flows, impacting neighboring countries and international relations.",
+        "why_it_matters": "The ongoing conflict and humanitarian needs in Lebanon could destabilize the region further and require international intervention.",
+        "citations": [
+          "23",
+          "24"
+        ]
+      },
+      {
+        "label": "Russian Military Movements",
+        "why_it_matters": "Increased military activity and threats from Russia pose risks to NATO and European security, necessitating vigilance and preparedness.",
+        "citations": [
+          "25",
+          "26"
+        ]
+      },
+      {
+        "label": "U.S.-Iran Maritime Tensions",
+        "why_it_matters": "The U.S. military's actions against Iranian maritime activities could escalate tensions in the Indo-Pacific and impact global oil supply chains.",
         "citations": [
           "22"
-        ]
-      },
-      {
-        "label": "Ukraine Conflict Escalation",
-        "why_it_matters": "Continued military stalemate in Ukraine may provoke further escalation, affecting European security and NATO's response strategies.",
-        "citations": [
-          "13"
-        ]
-      },
-      {
-        "label": "Global Food Security",
-        "why_it_matters": "The risk of acute hunger due to the Middle East crisis could destabilize vulnerable regions, necessitating urgent international humanitarian responses.",
-        "citations": [
-          "28"
         ]
       }
     ],
@@ -92,8 +97,8 @@
     ]
   },
   "summary": {
-    "raw_documents": 721,
-    "total_text_chars": 128250201,
+    "raw_documents": 722,
+    "total_text_chars": 128258426,
     "sources": 32,
     "signals": 8,
     "regions": 6,
@@ -104,7 +109,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 523
+      "value": 524
     },
     {
       "name": "Image",
@@ -138,7 +143,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 501
+      "value": 502
     },
     {
       "name": "images",
@@ -216,7 +221,7 @@
     },
     {
       "name": "foreignpolicy.com",
-      "value": 28
+      "value": 29
     },
     {
       "name": "france24.com",
@@ -346,7 +351,7 @@
     },
     {
       "name": "trump",
-      "value": 1132
+      "value": 1137
     },
     {
       "name": "israeli",
@@ -438,7 +443,7 @@
     },
     {
       "name": "russian",
-      "value": 492
+      "value": 499
     },
     {
       "name": "assistance",
@@ -484,11 +489,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 475,
+      "count": 476,
       "formats": [
         {
           "name": "Article",
-          "value": 394
+          "value": 395
         },
         {
           "name": "PDF",
@@ -508,6 +513,7 @@
         }
       ],
       "evidence_ids": [
+        "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
         "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d",
         "8e0faabd762f636d4a5879ee04b187bb4c3a53bcb1b96842d7fb798030084878",
         "7a25a7f018f587eac6955da93b822eb95dd3235c3f1e6828c6009ec1fac8dd7a",
@@ -516,11 +522,20 @@
         "9fbe33305784d81ab17106f6d5b7717c0a6ae62867cd804f652cd5fa6daaf41a",
         "68c8b3d723e59ca6aa43366c2d6679fc6634e7a4380bfbcf0c55f1af658df3cb",
         "83ff18d2f11c0a65f474c74ed3354040d40363d37b0f2aa02ce34b679d68483f",
-        "b5b2edd51dde29a08c1b7c58b31d1f54cd77cba26f75659a31379a3b5debd47c",
-        "987408d5dc67a6bde9402572c0ff04b46e6382aa7f432d106045f1bad268133c"
+        "b5b2edd51dde29a08c1b7c58b31d1f54cd77cba26f75659a31379a3b5debd47c"
       ],
-      "summary": "Published On 5 Jun 2026 5 Jun 2026 French anti-terrorism prosecutors say they have opened a preliminary investigation into suspected “torture” and “war crimes” over Israel’s alleged mistreatment of French activists who took part in a Gaza-bound aid flotilla last month. Francesca Albanese, an outspoken UN expert on the Palestinian territory, has said the treatment of the flotilla activists “is a luxury compared to what is inflicted on Palestinians in Israeli prisons”. I was thinking of Nastya and Hlib last month, when Ukrainians suffered one of the deadliest waves of missile and drone attacks on civilians during Russia’s entire war on their country. 27, 2022, the school became a battlefield where Ukrainian soldiers, police, and civilian volunteers fought a detachment of Russian Spetsnaz, special forces that had entered Ukraine a few days earlier along with Moscow’s invasion force. This article has been adapted from The Scramble for Europe: Russia, China, and Turkey Challenging Regional Order by Dimitar Bechev (Oxford University Press, 224 pp., $29.99, July 2026). “Our Europe is mortal,” French President Emmanuel Macron warned his audience at the Sorbonne in 2024. The title, \"THE SCRAMBLE FOR EUROPE,\" is printed in large white capital letters across the lower half, followed by a two-line subtitle: \"Russia, China, and Turkey Challenging Regional Order\" in smaller yellow text at the bottom. Serhiy Beskrestnov, Ukraine’s deputy defence minister, said Russia also keeps a strategic stockpile of 180-250 Iskander ballistic missiles, unlike other types of missiles, which are fired within a few months of manufacture, or drones, which are fired within two weeks of production. [Al Jazeera] On May 31, Ukraine’s 3rd Army Corps said it had established fire control over the cities of Luhansk, Starobilsk, Alchevsk, Bryanka, and Kadiivka, all 50 to 90 kilometres (30 to 55 miles) inside occupied Luhansk, and was able to strike armoured vehicles and...",
+      "summary": "“I don’t see the point in meeting,” Putin said, accusing Kyiv of seeking dialogue to prevent the further advancement of Russian troops. ‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries. Zelensky also called out Moscow’s shrinking resources, citing Ukrainian attacks on Russian oil facilities. Published On 5 Jun 2026 5 Jun 2026 French anti-terrorism prosecutors say they have opened a preliminary investigation into suspected “torture” and “war crimes” over Israel’s alleged mistreatment of French activists who took part in a Gaza-bound aid flotilla last month. Francesca Albanese, an outspoken UN expert on the Palestinian territory, has said the treatment of the flotilla activists “is a luxury compared to what is inflicted on Palestinians in Israeli prisons”. I was thinking of Nastya and Hlib last month, when Ukrainians suffered one of the deadliest waves of missile and drone attacks on civilians during Russia’s entire war on their country. 27, 2022, the school became a battlefield where Ukrainian soldiers, police, and civilian volunteers fought a detachment of Russian Spetsnaz, special forces that had entered Ukraine a few days earlier along with Moscow’s invasion force. This article has been adapted from The Scramble for Europe: Russia, China, and Turkey Challenging Regional Order by Dimitar Bechev (Oxford University Press, 224 pp., $29.99, July 2026). “Our Europe is mortal,” French President Emmanuel Macron warned his audience at the Sorbonne in 2024. The title, \"THE SCRAMBLE FOR EUROPE,\" is printed in large white capital letters across the lower half, followed by a two-line subtitle: \"Russia, China, and Turkey Challenging Regional Order\" in smaller yellow text at the bottom.",
       "latest": [
+        {
+          "id": "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
+          "title": "Zelensky’s Pen Pal Diplomacy",
+          "url": "https://foreignpolicy.com/2026/06/05/russia-ukraine-zelensky-open-letter-putin-peace-talks-st-petersburg/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-06-05T22:12:48.604276+00:00",
+          "published": "Fri, 05 Jun 2026 20:23:57 +0000",
+          "summary": "“I don’t see the point in meeting,” Putin said, accusing Kyiv of seeking dialogue to prevent the further advancement of Russian troops. ‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries. Zelensky also called out Moscow’s shrinking resources, citing Ukrainian attacks on Russian oil facilities."
+        },
         {
           "id": "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d",
           "title": "France opens ‘war crimes’ probe into Israel’s treatment of Gaza activists",
@@ -560,26 +575,16 @@
           "collected_at": "2026-06-05T18:58:32.238573+00:00",
           "published": "Fri, 05 Jun 2026 16:52:11 +0000",
           "summary": "Serhiy Beskrestnov, Ukraine’s deputy defence minister, said Russia also keeps a strategic stockpile of 180-250 Iskander ballistic missiles, unlike other types of missiles, which are fired within a few months of manufacture, or drones, which are fired within two weeks of production. [Al Jazeera] On May 31, Ukraine’s 3rd Army Corps said it had established fire control over the cities of Luhansk, Starobilsk, Alchevsk, Bryanka, and Kadiivka, all 50 to 90 kilometres (30 to 55 miles) inside occupied Luhansk, and was able to strike armoured vehicles and..."
-        },
-        {
-          "id": "483b92ae8d8acb73e826bdb8dcc4f5311d50a755dd219e6a3c4852251abd1028",
-          "title": "Huge fascist-era underground cisterns draw Western special forces to Italy for tunnel training",
-          "url": "https://www.defensenews.com/global/europe/2026/06/05/huge-fascist-era-underground-cisterns-draw-western-special-forces-to-italy-for-tunnel-training/",
-          "host": "defensenews.com",
-          "format": "Article",
-          "collected_at": "2026-06-05T16:29:21.716969+00:00",
-          "published": "Fri, 05 Jun 2026 15:36:37 +0000",
-          "summary": "“Gaza has accelerated the use of this place like this - despite their technology, the Israelis were not ready for fighting in tunnels,” said a manager at the site, who spoke to Defense News but declined to be named due to company policy. Israel is among 17 national customers who have now trained at the privately run site known as La Carona, with other special forces units arriving from countries including Belgium, France, Germany, Holland, Poland, Greece and Turkey. “The key ability to learn here is how to map underground spaces,” said the manager."
         }
       ]
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 406,
+      "count": 407,
       "formats": [
         {
           "name": "Article",
-          "value": 339
+          "value": 340
         },
         {
           "name": "PDF",
@@ -599,6 +604,7 @@
         }
       ],
       "evidence_ids": [
+        "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
         "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d",
         "7a25a7f018f587eac6955da93b822eb95dd3235c3f1e6828c6009ec1fac8dd7a",
         "54600a164af020b1b7e1bcc3393228572717964d27e5a7aa6fb188cbd30cd38b",
@@ -607,11 +613,20 @@
         "78e486b322727844217adb66a3f5e3b7d110a72e544f446713f7325f4841ff90",
         "68c8b3d723e59ca6aa43366c2d6679fc6634e7a4380bfbcf0c55f1af658df3cb",
         "b5b2edd51dde29a08c1b7c58b31d1f54cd77cba26f75659a31379a3b5debd47c",
-        "5d7a551842759ea03e686e05c1e261ea45ccbc6f099c6c341eb922b81de59583",
-        "7cc1bc55e103a1763ec1222db13618c45a04f91442fa81fc160129025b5958ad"
+        "5d7a551842759ea03e686e05c1e261ea45ccbc6f099c6c341eb922b81de59583"
       ],
-      "summary": "Published On 5 Jun 2026 5 Jun 2026 French anti-terrorism prosecutors say they have opened a preliminary investigation into suspected “torture” and “war crimes” over Israel’s alleged mistreatment of French activists who took part in a Gaza-bound aid flotilla last month. Francesca Albanese, an outspoken UN expert on the Palestinian territory, has said the treatment of the flotilla activists “is a luxury compared to what is inflicted on Palestinians in Israeli prisons”. This article has been adapted from The Scramble for Europe: Russia, China, and Turkey Challenging Regional Order by Dimitar Bechev (Oxford University Press, 224 pp., $29.99, July 2026). “Our Europe is mortal,” French President Emmanuel Macron warned his audience at the Sorbonne in 2024. The title, \"THE SCRAMBLE FOR EUROPE,\" is printed in large white capital letters across the lower half, followed by a two-line subtitle: \"Russia, China, and Turkey Challenging Regional Order\" in smaller yellow text at the bottom. Serhiy Beskrestnov, Ukraine’s deputy defence minister, said Russia also keeps a strategic stockpile of 180-250 Iskander ballistic missiles, unlike other types of missiles, which are fired within a few months of manufacture, or drones, which are fired within two weeks of production. [Al Jazeera] On May 31, Ukraine’s 3rd Army Corps said it had established fire control over the cities of Luhansk, Starobilsk, Alchevsk, Bryanka, and Kadiivka, all 50 to 90 kilometres (30 to 55 miles) inside occupied Luhansk, and was able to strike armoured vehicles and... And in Gaza, Israel continues to carry out bombings, including one that killed nine people in a residential building this week, despite a supposed truce aimed at ending its genocidal war on the Palestinian territory. It is also often fundamentally a political agreement rather than a strongly enforceable legal instrument, said Michael Lynk, an emeritus professor at Western University in Canada. Iran and the United States have formally had a ceasefire in place since April 8.",
+      "summary": "“I don’t see the point in meeting,” Putin said, accusing Kyiv of seeking dialogue to prevent the further advancement of Russian troops. ‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries. Zelensky also called out Moscow’s shrinking resources, citing Ukrainian attacks on Russian oil facilities. Published On 5 Jun 2026 5 Jun 2026 French anti-terrorism prosecutors say they have opened a preliminary investigation into suspected “torture” and “war crimes” over Israel’s alleged mistreatment of French activists who took part in a Gaza-bound aid flotilla last month. Francesca Albanese, an outspoken UN expert on the Palestinian territory, has said the treatment of the flotilla activists “is a luxury compared to what is inflicted on Palestinians in Israeli prisons”. This article has been adapted from The Scramble for Europe: Russia, China, and Turkey Challenging Regional Order by Dimitar Bechev (Oxford University Press, 224 pp., $29.99, July 2026). “Our Europe is mortal,” French President Emmanuel Macron warned his audience at the Sorbonne in 2024. The title, \"THE SCRAMBLE FOR EUROPE,\" is printed in large white capital letters across the lower half, followed by a two-line subtitle: \"Russia, China, and Turkey Challenging Regional Order\" in smaller yellow text at the bottom. Serhiy Beskrestnov, Ukraine’s deputy defence minister, said Russia also keeps a strategic stockpile of 180-250 Iskander ballistic missiles, unlike other types of missiles, which are fired within a few months of manufacture, or drones, which are fired within two weeks of production. [Al Jazeera] On May 31, Ukraine’s 3rd Army Corps said it had established fire control over the cities of Luhansk, Starobilsk, Alchevsk, Bryanka, and Kadiivka, all 50 to 90 kilometres (30 to 55 miles) inside occupied Luhansk, and was able to strike armoured vehicles and...",
       "latest": [
+        {
+          "id": "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
+          "title": "Zelensky’s Pen Pal Diplomacy",
+          "url": "https://foreignpolicy.com/2026/06/05/russia-ukraine-zelensky-open-letter-putin-peace-talks-st-petersburg/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-06-05T22:12:48.604276+00:00",
+          "published": "Fri, 05 Jun 2026 20:23:57 +0000",
+          "summary": "“I don’t see the point in meeting,” Putin said, accusing Kyiv of seeking dialogue to prevent the further advancement of Russian troops. ‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries. Zelensky also called out Moscow’s shrinking resources, citing Ukrainian attacks on Russian oil facilities."
+        },
         {
           "id": "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d",
           "title": "France opens ‘war crimes’ probe into Israel’s treatment of Gaza activists",
@@ -651,26 +666,16 @@
           "collected_at": "2026-06-05T16:29:15.426841+00:00",
           "published": "Fri, 05 Jun 2026 14:12:50 +0000",
           "summary": "And in Gaza, Israel continues to carry out bombings, including one that killed nine people in a residential building this week, despite a supposed truce aimed at ending its genocidal war on the Palestinian territory. It is also often fundamentally a political agreement rather than a strongly enforceable legal instrument, said Michael Lynk, an emeritus professor at Western University in Canada. Iran and the United States have formally had a ceasefire in place since April 8."
-        },
-        {
-          "id": "4a281a81fe8d7a6ee62d5303ac62bf51cf15c2d740127bad5c3b26a78ee738e9",
-          "title": "Senate Republicans pass bill authorizing $70bn for immigration enforcement in vote-a-rama – US politics live",
-          "url": "https://www.theguardian.com/us-news/live/2026/jun/05/us-politics-latest-news-updates-donald-trump-republicans-democrats",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-05T13:52:31.648498+00:00",
-          "published": "Fri, 05 Jun 2026 13:24:42 GMT",
-          "summary": "Nothing.” On X, Republican senator Lindsey Graham said he was “very proud of my Republican colleagues for sticking together and making sure that Border Patrol and ICE (Immigration Customs and Enforcement) are fully funded”. “Tonight, Senate Republicans passed a rotten bill that makes their priorities painfully clear: more money for Donald Trump, more power for Donald Trump, and nothing to lower costs for working families,” Schumer said in a statement posted on X after the immigration reforcement funding bill passed."
         }
       ]
     },
     {
       "name": "Humanitarian Pressure",
-      "count": 295,
+      "count": 296,
       "formats": [
         {
           "name": "Article",
-          "value": 209
+          "value": 210
         },
         {
           "name": "PDF",
@@ -690,6 +695,7 @@
         }
       ],
       "evidence_ids": [
+        "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
         "8e0faabd762f636d4a5879ee04b187bb4c3a53bcb1b96842d7fb798030084878",
         "54600a164af020b1b7e1bcc3393228572717964d27e5a7aa6fb188cbd30cd38b",
         "9fbe33305784d81ab17106f6d5b7717c0a6ae62867cd804f652cd5fa6daaf41a",
@@ -698,11 +704,20 @@
         "7cc1bc55e103a1763ec1222db13618c45a04f91442fa81fc160129025b5958ad",
         "6a898ff3e69bda6a19fdd8477ccfc146b760ba60ec0694b8bb41ca3ffb81ae97",
         "9b410a91b2fce84f0c857e66fb05767666b8b0148c07a0bd2e9e67e3da50df2b",
-        "37ba82a38a7eeb136c6f006654786422cfa60c7e6f93470b50a52e48c81da066",
-        "80c3e47e0b1262b98472a7ebe5c586ec3bb9bf47441766663267b5b75a85e5fb"
+        "37ba82a38a7eeb136c6f006654786422cfa60c7e6f93470b50a52e48c81da066"
       ],
-      "summary": "I was thinking of Nastya and Hlib last month, when Ukrainians suffered one of the deadliest waves of missile and drone attacks on civilians during Russia’s entire war on their country. 27, 2022, the school became a battlefield where Ukrainian soldiers, police, and civilian volunteers fought a detachment of Russian Spetsnaz, special forces that had entered Ukraine a few days earlier along with Moscow’s invasion force. Serhiy Beskrestnov, Ukraine’s deputy defence minister, said Russia also keeps a strategic stockpile of 180-250 Iskander ballistic missiles, unlike other types of missiles, which are fired within a few months of manufacture, or drones, which are fired within two weeks of production. [Al Jazeera] On May 31, Ukraine’s 3rd Army Corps said it had established fire control over the cities of Luhansk, Starobilsk, Alchevsk, Bryanka, and Kadiivka, all 50 to 90 kilometres (30 to 55 miles) inside occupied Luhansk, and was able to strike armoured vehicles and... And in Gaza, Israel continues to carry out bombings, including one that killed nine people in a residential building this week, despite a supposed truce aimed at ending its genocidal war on the Palestinian territory. It is also often fundamentally a political agreement rather than a strongly enforceable legal instrument, said Michael Lynk, an emeritus professor at Western University in Canada. Iran and the United States have formally had a ceasefire in place since April 8. Published On 5 Jun 2026 5 Jun 2026 The United Nations has doubled its call for aid to Lebanon as it bids to stem a “severe and deteriorating” humanitarian crisis brought on by four months of war with Israel. In March, as the hostilities broke out in response to the United States and Israeli attacks on Iran, the UN had said $308m would be needed. UN boosts Lebanon aid appeal as Israeli war drives humanitarian crisis The UN says it needs nearly $640m to help Lebanon over the next six months.",
+      "summary": "“I don’t see the point in meeting,” Putin said, accusing Kyiv of seeking dialogue to prevent the further advancement of Russian troops. ‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries. Zelensky also called out Moscow’s shrinking resources, citing Ukrainian attacks on Russian oil facilities. I was thinking of Nastya and Hlib last month, when Ukrainians suffered one of the deadliest waves of missile and drone attacks on civilians during Russia’s entire war on their country. 27, 2022, the school became a battlefield where Ukrainian soldiers, police, and civilian volunteers fought a detachment of Russian Spetsnaz, special forces that had entered Ukraine a few days earlier along with Moscow’s invasion force. Serhiy Beskrestnov, Ukraine’s deputy defence minister, said Russia also keeps a strategic stockpile of 180-250 Iskander ballistic missiles, unlike other types of missiles, which are fired within a few months of manufacture, or drones, which are fired within two weeks of production. [Al Jazeera] On May 31, Ukraine’s 3rd Army Corps said it had established fire control over the cities of Luhansk, Starobilsk, Alchevsk, Bryanka, and Kadiivka, all 50 to 90 kilometres (30 to 55 miles) inside occupied Luhansk, and was able to strike armoured vehicles and... And in Gaza, Israel continues to carry out bombings, including one that killed nine people in a residential building this week, despite a supposed truce aimed at ending its genocidal war on the Palestinian territory. It is also often fundamentally a political agreement rather than a strongly enforceable legal instrument, said Michael Lynk, an emeritus professor at Western University in Canada. Iran and the United States have formally had a ceasefire in place since April 8.",
       "latest": [
+        {
+          "id": "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
+          "title": "Zelensky’s Pen Pal Diplomacy",
+          "url": "https://foreignpolicy.com/2026/06/05/russia-ukraine-zelensky-open-letter-putin-peace-talks-st-petersburg/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-06-05T22:12:48.604276+00:00",
+          "published": "Fri, 05 Jun 2026 20:23:57 +0000",
+          "summary": "“I don’t see the point in meeting,” Putin said, accusing Kyiv of seeking dialogue to prevent the further advancement of Russian troops. ‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries. Zelensky also called out Moscow’s shrinking resources, citing Ukrainian attacks on Russian oil facilities."
+        },
         {
           "id": "8e0faabd762f636d4a5879ee04b187bb4c3a53bcb1b96842d7fb798030084878",
           "title": "How Ukraine Has Turned the Tide",
@@ -742,16 +757,6 @@
           "collected_at": "2026-06-05T13:52:31.696176+00:00",
           "published": "Fri, 05 Jun 2026 12:23:52 +0000",
           "summary": "Published On 5 Jun 2026 5 Jun 2026 The United Nations has doubled its call for aid to Lebanon as it bids to stem a “severe and deteriorating” humanitarian crisis brought on by four months of war with Israel. In March, as the hostilities broke out in response to the United States and Israeli attacks on Iran, the UN had said $308m would be needed. UN boosts Lebanon aid appeal as Israeli war drives humanitarian crisis The UN says it needs nearly $640m to help Lebanon over the next six months."
-        },
-        {
-          "id": "987408d5dc67a6bde9402572c0ff04b46e6382aa7f432d106045f1bad268133c",
-          "title": "Lebanon crisis: needs soar as UN launches new funding appeal",
-          "url": "https://news.un.org/feed/view/en/story/2026/06/1167659",
-          "host": "news.un.org",
-          "format": "Article",
-          "collected_at": "2026-06-05T13:52:27.841731+00:00",
-          "published": "Fri, 05 Jun 2026 12:00:00 +0000",
-          "summary": "“Humanitarian needs are soaring with each day of the conflict; our work is unfortunately far from over…we need the funding,” said Imran Riza, UN Humanitarian Coordinator in Lebanon. These were amongst the few, very few facilities that continue to operate in the area.” Warning of the protracted displacement crisis now unfolding across southern Lebanon, Mr."
         }
       ]
     },
@@ -848,11 +853,11 @@
     },
     {
       "name": "Energy and Supply Chains",
-      "count": 216,
+      "count": 217,
       "formats": [
         {
           "name": "Article",
-          "value": 172
+          "value": 173
         },
         {
           "name": "PDF",
@@ -864,6 +869,7 @@
         }
       ],
       "evidence_ids": [
+        "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
         "8e0faabd762f636d4a5879ee04b187bb4c3a53bcb1b96842d7fb798030084878",
         "7a25a7f018f587eac6955da93b822eb95dd3235c3f1e6828c6009ec1fac8dd7a",
         "78e486b322727844217adb66a3f5e3b7d110a72e544f446713f7325f4841ff90",
@@ -872,11 +878,20 @@
         "6a898ff3e69bda6a19fdd8477ccfc146b760ba60ec0694b8bb41ca3ffb81ae97",
         "9ede79afb577c7c1a0701a5582ee8c226f8026365c283592278439a3502fa603",
         "7d683d9462b62c60505e1abe5cef209d13e76e08c6dde522e5de547d0af1a657",
-        "071e1621b247c2dd0afd8b8a4fbad3c01d94e41dcf56aaa44b85550da85f04d5",
-        "1b9fcca492ef4d1b586d975c4f5739bc324a902b93975acf93f0490f6bf0b1d3"
+        "071e1621b247c2dd0afd8b8a4fbad3c01d94e41dcf56aaa44b85550da85f04d5"
       ],
-      "summary": "I was thinking of Nastya and Hlib last month, when Ukrainians suffered one of the deadliest waves of missile and drone attacks on civilians during Russia’s entire war on their country. 27, 2022, the school became a battlefield where Ukrainian soldiers, police, and civilian volunteers fought a detachment of Russian Spetsnaz, special forces that had entered Ukraine a few days earlier along with Moscow’s invasion force. This article has been adapted from The Scramble for Europe: Russia, China, and Turkey Challenging Regional Order by Dimitar Bechev (Oxford University Press, 224 pp., $29.99, July 2026). “Our Europe is mortal,” French President Emmanuel Macron warned his audience at the Sorbonne in 2024. The title, \"THE SCRAMBLE FOR EUROPE,\" is printed in large white capital letters across the lower half, followed by a two-line subtitle: \"Russia, China, and Turkey Challenging Regional Order\" in smaller yellow text at the bottom. With Trump's approval ratings wobbling amid the war in Iran, and midterm elections nearing in November, when one third of Senators will face elections, several of the president's policies have prompted criticism from within Republic ranks. Senate Republican Leader John Thune said the fund was a \"settled issue,\" citing Attorney General Todd Blanche's testimony in Congress saying that the Department of Justice would not move forward with it. Senators voted 52-47 in favor the bill, with no support from the Democrats. Washington has imposed a blockade on Iran’s sea trade while Tehran has fired on ships to prevent them sailing through the Strait of Hormuz waterway at the entrance to the Middle ​East Gulf. forces conducted an interdiction of the sanctioned stateless oil tanker Davina overnight in the Indian Ocean, the U.S. sanctions in October 2024 for Iranian oil trading, according to ship tracking data.",
+      "summary": "“I don’t see the point in meeting,” Putin said, accusing Kyiv of seeking dialogue to prevent the further advancement of Russian troops. ‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries. Zelensky also called out Moscow’s shrinking resources, citing Ukrainian attacks on Russian oil facilities. I was thinking of Nastya and Hlib last month, when Ukrainians suffered one of the deadliest waves of missile and drone attacks on civilians during Russia’s entire war on their country. 27, 2022, the school became a battlefield where Ukrainian soldiers, police, and civilian volunteers fought a detachment of Russian Spetsnaz, special forces that had entered Ukraine a few days earlier along with Moscow’s invasion force. This article has been adapted from The Scramble for Europe: Russia, China, and Turkey Challenging Regional Order by Dimitar Bechev (Oxford University Press, 224 pp., $29.99, July 2026). “Our Europe is mortal,” French President Emmanuel Macron warned his audience at the Sorbonne in 2024. The title, \"THE SCRAMBLE FOR EUROPE,\" is printed in large white capital letters across the lower half, followed by a two-line subtitle: \"Russia, China, and Turkey Challenging Regional Order\" in smaller yellow text at the bottom. With Trump's approval ratings wobbling amid the war in Iran, and midterm elections nearing in November, when one third of Senators will face elections, several of the president's policies have prompted criticism from within Republic ranks. Senate Republican Leader John Thune said the fund was a \"settled issue,\" citing Attorney General Todd Blanche's testimony in Congress saying that the Department of Justice would not move forward with it. Senators voted 52-47 in favor the bill, with no support from the Democrats.",
       "latest": [
+        {
+          "id": "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
+          "title": "Zelensky’s Pen Pal Diplomacy",
+          "url": "https://foreignpolicy.com/2026/06/05/russia-ukraine-zelensky-open-letter-putin-peace-talks-st-petersburg/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-06-05T22:12:48.604276+00:00",
+          "published": "Fri, 05 Jun 2026 20:23:57 +0000",
+          "summary": "“I don’t see the point in meeting,” Putin said, accusing Kyiv of seeking dialogue to prevent the further advancement of Russian troops. ‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries. Zelensky also called out Moscow’s shrinking resources, citing Ukrainian attacks on Russian oil facilities."
+        },
         {
           "id": "8e0faabd762f636d4a5879ee04b187bb4c3a53bcb1b96842d7fb798030084878",
           "title": "How Ukraine Has Turned the Tide",
@@ -916,16 +931,6 @@
           "collected_at": "2026-06-05T13:52:32.387964+00:00",
           "published": "Fri, 05 Jun 2026 12:49:44 +0000",
           "summary": "Washington has imposed a blockade on Iran’s sea trade while Tehran has fired on ships to prevent them sailing through the Strait of Hormuz waterway at the entrance to the Middle ​East Gulf. forces conducted an interdiction of the sanctioned stateless oil tanker Davina overnight in the Indian Ocean, the U.S. sanctions in October 2024 for Iranian oil trading, according to ship tracking data."
-        },
-        {
-          "id": "959d3eac587983672f1de0aef50309056794e3efb80638026de7dcc2a392ca06",
-          "title": "Washington Is Testing Singapore’s Patience",
-          "url": "https://foreignpolicy.com/2026/06/05/singapore-trump-tariffs-trade-forced-labor-china-geopolitics/",
-          "host": "foreignpolicy.com",
-          "format": "Article",
-          "collected_at": "2026-06-05T10:50:32.509510+00:00",
-          "published": "Fri, 05 Jun 2026 09:34:02 +0000",
-          "summary": "The city-state sits on a small island strategically located on the vital Strait of Malacca that connects the Indian and Pacific oceans, and it serves as a de facto security ally of the United States. President Donald Trump’s tariffs, coupled with the acute energy crisis caused by his war against Iran and U.S. warships at its Changi Naval Base and participates in a range of other military agreements, making it a potentially critical node of support to U.S."
         }
       ]
     },
@@ -1238,8 +1243,9 @@
     },
     {
       "name": "Americas",
-      "count": 326,
+      "count": 327,
       "evidence_ids": [
+        "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
         "8e0faabd762f636d4a5879ee04b187bb4c3a53bcb1b96842d7fb798030084878",
         "7a25a7f018f587eac6955da93b822eb95dd3235c3f1e6828c6009ec1fac8dd7a",
         "54600a164af020b1b7e1bcc3393228572717964d27e5a7aa6fb188cbd30cd38b",
@@ -1250,8 +1256,7 @@
         "e126a44221fc7faaca5feccacb4137de994813262583247f025b4abedba9fd00",
         "5d7a551842759ea03e686e05c1e261ea45ccbc6f099c6c341eb922b81de59583",
         "4a72c6bc4d799e520f4db795ea047fe17d20d1197c044b3e0b6553752a07c84c",
-        "959d3eac587983672f1de0aef50309056794e3efb80638026de7dcc2a392ca06",
-        "6a898ff3e69bda6a19fdd8477ccfc146b760ba60ec0694b8bb41ca3ffb81ae97"
+        "959d3eac587983672f1de0aef50309056794e3efb80638026de7dcc2a392ca06"
       ],
       "top_sources": [
         {
@@ -1278,8 +1283,9 @@
     },
     {
       "name": "Europe and Russia",
-      "count": 304,
+      "count": 305,
       "evidence_ids": [
+        "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
         "8e0faabd762f636d4a5879ee04b187bb4c3a53bcb1b96842d7fb798030084878",
         "7a25a7f018f587eac6955da93b822eb95dd3235c3f1e6828c6009ec1fac8dd7a",
         "54600a164af020b1b7e1bcc3393228572717964d27e5a7aa6fb188cbd30cd38b",
@@ -1290,8 +1296,7 @@
         "987408d5dc67a6bde9402572c0ff04b46e6382aa7f432d106045f1bad268133c",
         "5d7a551842759ea03e686e05c1e261ea45ccbc6f099c6c341eb922b81de59583",
         "7cc1bc55e103a1763ec1222db13618c45a04f91442fa81fc160129025b5958ad",
-        "4a72c6bc4d799e520f4db795ea047fe17d20d1197c044b3e0b6553752a07c84c",
-        "9b410a91b2fce84f0c857e66fb05767666b8b0148c07a0bd2e9e67e3da50df2b"
+        "4a72c6bc4d799e520f4db795ea047fe17d20d1197c044b3e0b6553752a07c84c"
       ],
       "top_sources": [
         {
@@ -1312,7 +1317,7 @@
         },
         {
           "name": "foreignpolicy.com",
-          "value": 19
+          "value": 20
         }
       ]
     },
@@ -1398,8 +1403,9 @@
     },
     {
       "name": "Indo-Pacific",
-      "count": 173,
+      "count": 174,
       "evidence_ids": [
+        "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
         "7a25a7f018f587eac6955da93b822eb95dd3235c3f1e6828c6009ec1fac8dd7a",
         "83ff18d2f11c0a65f474c74ed3354040d40363d37b0f2aa02ce34b679d68483f",
         "959d3eac587983672f1de0aef50309056794e3efb80638026de7dcc2a392ca06",
@@ -1410,8 +1416,7 @@
         "e6379ccce9afbb13223c8446b21faf4fe33697882f27a59c26d71030469d8108",
         "071e1621b247c2dd0afd8b8a4fbad3c01d94e41dcf56aaa44b85550da85f04d5",
         "fa077e278cd749af9f16dfd704442f29dd3bd773c2e553e665dcc54e72b11774",
-        "ab8f038116e94dc88ed3c4a521ab07395a6fd26f41be734b885f10d113d6e892",
-        "36f52e6bb8f761c0be53c56a2f25c0ee537ba9c06ce390599c4860a56c1ecf30"
+        "ab8f038116e94dc88ed3c4a521ab07395a6fd26f41be734b885f10d113d6e892"
       ],
       "top_sources": [
         {
@@ -1427,11 +1432,11 @@
           "value": 21
         },
         {
-          "name": "aljazeera.com",
-          "value": 12
+          "name": "foreignpolicy.com",
+          "value": 13
         },
         {
-          "name": "foreignpolicy.com",
+          "name": "aljazeera.com",
           "value": 12
         }
       ]
@@ -1755,17 +1760,17 @@
     },
     {
       "date": "2026-04-08",
-      "evidence_id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
-    },
-    {
-      "date": "2026-04-08",
       "evidence_id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "title": "MS.MIL.XPND.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
       "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\","
+    },
+    {
+      "date": "2026-04-08",
+      "evidence_id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
     },
     {
       "date": "2026",
@@ -1780,6 +1785,13 @@
       "title": "Consolidated Sanctions List",
       "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
       "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong"
+    },
+    {
+      "date": "2026",
+      "evidence_id": "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
+      "title": "Zelensky’s Pen Pal Diplomacy",
+      "url": "https://foreignpolicy.com/2026/06/05/russia-ukraine-zelensky-open-letter-putin-peace-talks-st-petersburg/",
+      "excerpt": "as slowed down significantly and it keeps going down,” adding that these rates are expected to be around 5.2 percent in 2026. Meanwhile, the international community appears more open to Zelensky’s demands. Trump welcomed the idea of in-person talks. “It would be very good if they met,” the U.S. president told reporters on Thursday. “They should get it done.” The following day,"
     },
     {
       "date": "2026",
@@ -2410,16 +2422,89 @@
       "title": "‘Opposite visions’: What to know about Colombia’s presidential election",
       "url": "https://www.aljazeera.com/news/2026/5/30/opposite-visions-what-to-know-about-colombias-presidential-election?traffic_source=rss",
       "excerpt": "tions and more in this brief explainer. When is the election? The first round of voting is set to take place on May 31, 2026. Will there be a second round of voting? A candidate would need to win more than 50 percent of the vote in the first round to avoid a run-off. If no single candidate meets that threshold, a run-off will be held between the top two finishers on June 21. Wh"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "213bfdfa4db1f9896dc8613f4f05db850e8483c3031619d3c8d76be2589bb687",
-      "title": "Lebanon: Flash Update #30 - Escalation of hostilities in Lebanon (as of 28 May 2026) (pdf)",
-      "url": "https://reliefweb.int/attachments/95920ece-d90a-4f03-a091-01ef9acfe7f7/OCHA_Lebanon_Flash_Update%20No%2030_final.pdf",
-      "excerpt": "This report is produced by the OCHA Lebanon Office in collaboration with the Inter-Sector Coordination Group under the 2026 Lebanon Response Plan (LRP) Framework KEY FIGURES HIGHLIGHTS ● Hostilities continued despite the ceasefire extension announcement, with airstrikes and displacement orders affecting at least 61 additional localities in southern Lebanon. ● Displacement orde"
     }
   ],
   "latest_evidence": [
+    {
+      "id": "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
+      "topic": "geopolitics",
+      "title": "Zelensky’s Pen Pal Diplomacy",
+      "url": "https://foreignpolicy.com/2026/06/05/russia-ukraine-zelensky-open-letter-putin-peace-talks-st-petersburg/",
+      "host": "foreignpolicy.com",
+      "source": "https://foreignpolicy.com/feed/",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-05T22:12:48.604276+00:00",
+      "published": "Fri, 05 Jun 2026 20:23:57 +0000",
+      "text_chars": 8225,
+      "raw_path": "data/geopolitics/raw/3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893.html",
+      "text_path": "data/geopolitics/raw/3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893.txt",
+      "summary": "“I don’t see the point in meeting,” Putin said, accusing Kyiv of seeking dialogue to prevent the further advancement of Russian troops. ‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries. Zelensky also called out Moscow’s shrinking resources, citing Ukrainian attacks on Russian oil facilities.",
+      "bullets": [
+        "“I don’t see the point in meeting,” Putin said, accusing Kyiv of seeking dialogue to prevent the further advancement of Russian troops.",
+        "‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries.",
+        "Zelensky also called out Moscow’s shrinking resources, citing Ukrainian attacks on Russian oil facilities.",
+        "negotiators having so far failed to secure a lasting cease-fire in the war, FP’s Sam Skove reported last month that both Russia and Ukraine have soured on Washington as a mediator and begun looking for alternatives.",
+        "“We see that the United States is fully focused on the issue of Iran, and it would be wrong to simply wait until the war in Europe returns to the center of its attention,” Zelensky wrote."
+      ],
+      "excerpt": "Welcome back to World Brief, where we’re looking at stalled Russia-Ukraine peace talks, the European Union ’s potential expansion, and U.S. sanctions on Cuba. ‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries. With U.S. negotiators having so far failed to secure a lasting cease-fire in the war, FP’s Sam Skove reported last month that both Russia and Ukraine have soured on Washington as a mediator and begun looking for alternatives. In his letter, Zelensky suggests cutting out the middlemen altogether. “We see that the United States is fully focused on the issue of Iran, and it would be wrong to simply wait until the war in Europe returns to the center of its attention,” Zelensky wrote. “Ukraine proposes ending this war through direct engagement between us—and you. I am proposing a meeting. However, the rare direct address wasn’t all diplomatic niceties. Zelensky oscillated between championing Kyiv’s resilience and mocking the 73-year-old Russian leader, from his age (“After 26 years in power, age is beginning ",
+      "keywords": [
+        {
+          "name": "zelensky",
+          "value": 11
+        },
+        {
+          "name": "president",
+          "value": 10
+        },
+        {
+          "name": "russian",
+          "value": 7
+        },
+        {
+          "name": "sanctions",
+          "value": 6
+        },
+        {
+          "name": "thursday",
+          "value": 6
+        },
+        {
+          "name": "friday",
+          "value": 5
+        },
+        {
+          "name": "india",
+          "value": 5
+        },
+        {
+          "name": "putin",
+          "value": 5
+        },
+        {
+          "name": "trump",
+          "value": 5
+        },
+        {
+          "name": "adding",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Energy and Supply Chains",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Indo-Pacific"
+      ],
+      "detail_path": "/evidence/3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
+      "evidence_json": "/evidence/3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893.json"
+    },
     {
       "id": "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d",
       "topic": "geopolitics",
@@ -8577,86 +8662,6 @@
       ],
       "detail_path": "/evidence/2e02e835b90f928085f4ae9c4338b57b2b1b7ef95afb9c6bf232ef9e5713b628",
       "evidence_json": "/evidence/2e02e835b90f928085f4ae9c4338b57b2b1b7ef95afb9c6bf232ef9e5713b628.json"
-    },
-    {
-      "id": "6b18ae4b3b8fc966e761282ddbe45769c1730b5684f920b54d924044bd47f862",
-      "topic": "geopolitics",
-      "title": "Iran and the US trade strikes in the Persian Gulf, further testing the ceasefire",
-      "url": "https://www.npr.org/2026/06/03/g-s1-125566/iran-war-updates",
-      "host": "npr.org",
-      "source": "https://www.npr.org/rss/rss.php?id=1004",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-06-03T13:11:18.329463+00:00",
-      "published": "Wed, 03 Jun 2026 02:45:30 -0400",
-      "text_chars": 5973,
-      "raw_path": "data/geopolitics/raw/6b18ae4b3b8fc966e761282ddbe45769c1730b5684f920b54d924044bd47f862.html",
-      "text_path": "data/geopolitics/raw/6b18ae4b3b8fc966e761282ddbe45769c1730b5684f920b54d924044bd47f862.txt",
-      "summary": "military said it launched strikes on an Iranian military ground control station on Qeshm Island in the Strait of Hormuz in response to the attacks on Bahrain and Kuwait. The strikes came as semiofficial Iranian news agencies said the country had stopped communicating with mediators about extending a ceasefire in the war with the U.S. Those talks have dragged on for weeks, and repeated exchanges of strikes in the Gulf region and Israel's broadening war in Lebanon are further straining the efforts.",
-      "bullets": [
-        "military said it launched strikes on an Iranian military ground control station on Qeshm Island in the Strait of Hormuz in response to the attacks on Bahrain and Kuwait.",
-        "The strikes came as semiofficial Iranian news agencies said the country had stopped communicating with mediators about extending a ceasefire in the war with the U.S.",
-        "Those talks have dragged on for weeks, and repeated exchanges of strikes in the Gulf region and Israel's broadening war in Lebanon are further straining the efforts.",
-        "All the while, Iran has maintained its stranglehold on the Strait of Hormuz — a crucial artery for the world's oil and natural gas — and the U.S.",
-        "military said Iran fired two missiles at Kuwait that fell apart en route, and that it had \"downed multiple drones\" targeting American forces in the country."
-      ],
-      "excerpt": "People gather on paddleboards in shallow water as cargo and service vessels are anchored in the Strait of Hormuz off Bandar Abbas, Iran, Monday, June 1, 2026. Amirhosein Khorgooi/ISNA via AP hide caption toggle caption Amirhosein Khorgooi/ISNA via AP DUBAI, United Arab Emirates — Kuwait briefly shut the country's main airport Wednesday after Iranian drones heavily damaged it and killed one person — the latest salvo in a series of back-and-forth attacks by Tehran and Washington that have tested a fragile ceasefire. The strikes came as semiofficial Iranian news agencies said the country had stopped communicating with mediators about extending a ceasefire in the war with the U.S. and Israel. A regional official said Tehran wanted the truce in Lebanon enforced before returning to talks. U.S. President Donald Trump said negotiations were continuing. Those talks have dragged on for weeks, and repeated exchanges of strikes in the Gulf region and Israel's broadening war in Lebanon are further straining the efforts. All the while, Iran has maintained its stranglehold on the Strait of Hormuz — a crucial artery for the world's oil and natural gas — and the U.S. has continued its blockade of I",
-      "keywords": [
-        {
-          "name": "iran",
-          "value": 14
-        },
-        {
-          "name": "kuwait",
-          "value": 9
-        },
-        {
-          "name": "lebanon",
-          "value": 9
-        },
-        {
-          "name": "ceasefire",
-          "value": 8
-        },
-        {
-          "name": "israel",
-          "value": 7
-        },
-        {
-          "name": "military",
-          "value": 7
-        },
-        {
-          "name": "strikes",
-          "value": 7
-        },
-        {
-          "name": "iranian",
-          "value": 6
-        },
-        {
-          "name": "airport",
-          "value": 5
-        },
-        {
-          "name": "drones",
-          "value": 5
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Diplomacy and Negotiations",
-        "Energy and Supply Chains",
-        "Territory and Chokepoints"
-      ],
-      "regions": [
-        "Middle East",
-        "Americas",
-        "Africa"
-      ],
-      "detail_path": "/evidence/6b18ae4b3b8fc966e761282ddbe45769c1730b5684f920b54d924044bd47f862",
-      "evidence_json": "/evidence/6b18ae4b3b8fc966e761282ddbe45769c1730b5684f920b54d924044bd47f862.json"
     }
   ],
   "deep_reads": [
@@ -8670,7 +8675,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-05T20:48:22.019741+00:00",
+      "collected_at": "2026-06-05T22:12:32.961817+00:00",
       "published": "",
       "text_chars": 9076319,
       "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
@@ -9470,7 +9475,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-05T20:47:46.143648+00:00",
+      "collected_at": "2026-06-05T22:11:54.538400+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -9545,7 +9550,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-05T20:47:45.880821+00:00",
+      "collected_at": "2026-06-05T22:11:54.805751+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -10502,7 +10507,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-05T18:57:28.903151+00:00",
+      "collected_at": "2026-06-05T22:11:57.446160+00:00",
       "published": "",
       "text_chars": 824888,
       "raw_path": "data/geopolitics/raw/5af4c211152fb57eaa35fe8f8599117e62cec24b3cbc245c48d80917c285ed12.xml",
@@ -10904,7 +10909,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-05T20:48:33.380403+00:00",
+      "collected_at": "2026-06-05T22:12:44.085283+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -10976,79 +10981,6 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
-      "id": "f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-06-05T20:48:31.499403+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.html",
-      "text_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
-      "evidence_json": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.json"
-    },
-    {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
       "title": "ICRC International Humanitarian Law Handbook",
@@ -11058,7 +10990,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-05T20:48:31.361893+00:00",
+      "collected_at": "2026-06-05T22:12:40.311523+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -11139,7 +11071,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-05T20:48:25.914229+00:00",
+      "collected_at": "2026-06-05T22:12:35.164152+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11211,6 +11143,149 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
+      "id": "f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-06-05T22:12:33.195004+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.html",
+      "text_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
+      "evidence_json": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-05T22:12:33.119786+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -11220,7 +11295,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-05T20:48:22.019741+00:00",
+      "collected_at": "2026-06-05T22:12:32.961817+00:00",
       "published": "",
       "text_chars": 9076319,
       "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
@@ -11300,7 +11375,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-05T20:47:48.378681+00:00",
+      "collected_at": "2026-06-05T22:11:58.772353+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.xml",
@@ -11371,228 +11446,6 @@
       "evidence_json": "/evidence/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.json"
     },
     {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-05T20:47:46.143648+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
-      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "topic": "geopolitics",
-      "title": "MS.MIL.XPND.CD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-05T20:47:45.880821+00:00",
-      "published": "",
-      "text_chars": 6187025,
-      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
-      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
-      "keywords": [
-        {
-          "name": "expenditure",
-          "value": 17556
-        },
-        {
-          "name": "military",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        },
-        {
-          "name": "asia",
-          "value": 528
-        },
-        {
-          "name": "ibrd",
-          "value": 528
-        },
-        {
-          "name": "middle",
-          "value": 462
-        }
-      ],
-      "signals": [
-        "War and Escalation"
-      ],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
-    },
-    {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-05T20:47:45.487940+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
       "id": "5af4c211152fb57eaa35fe8f8599117e62cec24b3cbc245c48d80917c285ed12",
       "topic": "geopolitics",
       "title": "Consolidated Sanctions List",
@@ -11602,7 +11455,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-05T18:57:28.903151+00:00",
+      "collected_at": "2026-06-05T22:11:57.446160+00:00",
       "published": "",
       "text_chars": 824888,
       "raw_path": "data/geopolitics/raw/5af4c211152fb57eaa35fe8f8599117e62cec24b3cbc245c48d80917c285ed12.xml",
@@ -11671,6 +11524,158 @@
       ],
       "detail_path": "/evidence/5af4c211152fb57eaa35fe8f8599117e62cec24b3cbc245c48d80917c285ed12",
       "evidence_json": "/evidence/5af4c211152fb57eaa35fe8f8599117e62cec24b3cbc245c48d80917c285ed12.json"
+    },
+    {
+      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "topic": "geopolitics",
+      "title": "MS.MIL.XPND.CD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-05T22:11:54.805751+00:00",
+      "published": "",
+      "text_chars": 6187025,
+      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
+      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
+      "keywords": [
+        {
+          "name": "expenditure",
+          "value": 17556
+        },
+        {
+          "name": "military",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        },
+        {
+          "name": "asia",
+          "value": 528
+        },
+        {
+          "name": "ibrd",
+          "value": 528
+        },
+        {
+          "name": "middle",
+          "value": 462
+        }
+      ],
+      "signals": [
+        "War and Escalation"
+      ],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-05T22:11:54.538400+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
     },
     {
       "id": "7685baae783492c8093b9392e89910e4f357b987e6f0ea560e7ed3b29a945b6d",
@@ -15445,7 +15450,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-05T20:48:33.380403+00:00",
+      "collected_at": "2026-06-05T22:12:44.085283+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15517,79 +15522,6 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
-      "id": "f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-06-05T20:48:31.499403+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.html",
-      "text_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
-      "evidence_json": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.json"
-    },
-    {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
       "title": "ICRC International Humanitarian Law Handbook",
@@ -15599,7 +15531,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-05T20:48:31.361893+00:00",
+      "collected_at": "2026-06-05T22:12:40.311523+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -15680,7 +15612,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-05T20:48:25.914229+00:00",
+      "collected_at": "2026-06-05T22:12:35.164152+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15752,6 +15684,149 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
+      "id": "f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-06-05T22:12:33.195004+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.html",
+      "text_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
+      "evidence_json": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-05T22:12:33.119786+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -15761,7 +15836,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-05T20:48:22.019741+00:00",
+      "collected_at": "2026-06-05T22:12:32.961817+00:00",
       "published": "",
       "text_chars": 9076319,
       "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
@@ -15841,7 +15916,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-05T20:47:48.378681+00:00",
+      "collected_at": "2026-06-05T22:11:58.772353+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.xml",
@@ -15912,79 +15987,84 @@
       "evidence_json": "/evidence/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.json"
     },
     {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "id": "5af4c211152fb57eaa35fe8f8599117e62cec24b3cbc245c48d80917c285ed12",
       "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
       "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-05T20:47:46.143648+00:00",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-06-05T22:11:57.446160+00:00",
       "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "text_chars": 824888,
+      "raw_path": "data/geopolitics/raw/5af4c211152fb57eaa35fe8f8599117e62cec24b3cbc245c48d80917c285ed12.xml",
+      "text_path": "data/geopolitics/raw/5af4c211152fb57eaa35fe8f8599117e62cec24b3cbc245c48d80917c285ed12.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
       "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
       ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
       "keywords": [
         {
-          "name": "arms",
-          "value": 17556
+          "name": "council",
+          "value": 1476
         },
         {
-          "name": "imports",
-          "value": 17556
+          "name": "security",
+          "value": 1473
         },
         {
-          "name": "sipri",
-          "value": 17556
+          "name": "interpol",
+          "value": 1239
         },
         {
-          "name": "status",
-          "value": 17556
+          "name": "resolution",
+          "value": 840
         },
         {
-          "name": "trend",
-          "value": 17556
+          "name": "interpol-un",
+          "value": 683
         },
         {
-          "name": "unit",
-          "value": 17556
+          "name": "afghanistan",
+          "value": 636
         },
         {
-          "name": "values",
-          "value": 17556
+          "name": "link",
+          "value": 612
         },
         {
-          "name": "income",
-          "value": 726
+          "name": "republic",
+          "value": 539
         },
         {
-          "name": "africa",
-          "value": 594
+          "name": "al-qaida",
+          "value": 515
         },
         {
-          "name": "islands",
-          "value": 594
+          "name": "iraq",
+          "value": 480
         }
       ],
-      "signals": [],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
       "regions": [
         "Africa",
-        "Americas",
-        "Middle East"
+        "Middle East",
+        "Global Institutions"
       ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
+      "detail_path": "/evidence/5af4c211152fb57eaa35fe8f8599117e62cec24b3cbc245c48d80917c285ed12",
+      "evidence_json": "/evidence/5af4c211152fb57eaa35fe8f8599117e62cec24b3cbc245c48d80917c285ed12.json"
     },
     {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
@@ -15996,7 +16076,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-05T20:47:45.880821+00:00",
+      "collected_at": "2026-06-05T22:11:54.805751+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -16064,74 +16144,159 @@
       "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
       "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
       "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
+      "data_type": "structured_datasets",
       "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-05T20:47:45.487940+00:00",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-05T22:11:54.538400+00:00",
       "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
       "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
       ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
       "keywords": [
         {
-          "name": "admin",
-          "value": 2
+          "name": "arms",
+          "value": 17556
         },
         {
-          "name": "areas",
-          "value": 2
+          "name": "imports",
+          "value": 17556
         },
         {
-          "name": "disputed",
-          "value": 2
+          "name": "sipri",
+          "value": 17556
         },
         {
-          "name": "naciscdn",
-          "value": 2
+          "name": "status",
+          "value": 17556
         },
         {
-          "name": "application",
-          "value": 1
+          "name": "trend",
+          "value": 17556
         },
         {
-          "name": "binary",
-          "value": 1
+          "name": "unit",
+          "value": 17556
         },
         {
-          "name": "bytes",
-          "value": 1
+          "name": "values",
+          "value": 17556
         },
         {
-          "name": "collected",
-          "value": 1
+          "name": "income",
+          "value": 726
         },
         {
-          "name": "content-type",
-          "value": 1
+          "name": "africa",
+          "value": 594
         },
         {
-          "name": "cultural",
-          "value": 1
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
+    },
+    {
+      "id": "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
+      "topic": "geopolitics",
+      "title": "Zelensky’s Pen Pal Diplomacy",
+      "url": "https://foreignpolicy.com/2026/06/05/russia-ukraine-zelensky-open-letter-putin-peace-talks-st-petersburg/",
+      "host": "foreignpolicy.com",
+      "source": "https://foreignpolicy.com/feed/",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-05T22:12:48.604276+00:00",
+      "published": "Fri, 05 Jun 2026 20:23:57 +0000",
+      "text_chars": 8225,
+      "raw_path": "data/geopolitics/raw/3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893.html",
+      "text_path": "data/geopolitics/raw/3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893.txt",
+      "summary": "“I don’t see the point in meeting,” Putin said, accusing Kyiv of seeking dialogue to prevent the further advancement of Russian troops. ‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries. Zelensky also called out Moscow’s shrinking resources, citing Ukrainian attacks on Russian oil facilities.",
+      "bullets": [
+        "“I don’t see the point in meeting,” Putin said, accusing Kyiv of seeking dialogue to prevent the further advancement of Russian troops.",
+        "‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries.",
+        "Zelensky also called out Moscow’s shrinking resources, citing Ukrainian attacks on Russian oil facilities.",
+        "negotiators having so far failed to secure a lasting cease-fire in the war, FP’s Sam Skove reported last month that both Russia and Ukraine have soured on Washington as a mediator and begun looking for alternatives.",
+        "“We see that the United States is fully focused on the issue of Iran, and it would be wrong to simply wait until the war in Europe returns to the center of its attention,” Zelensky wrote."
+      ],
+      "excerpt": "Welcome back to World Brief, where we’re looking at stalled Russia-Ukraine peace talks, the European Union ’s potential expansion, and U.S. sanctions on Cuba. ‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries. With U.S. negotiators having so far failed to secure a lasting cease-fire in the war, FP’s Sam Skove reported last month that both Russia and Ukraine have soured on Washington as a mediator and begun looking for alternatives. In his letter, Zelensky suggests cutting out the middlemen altogether. “We see that the United States is fully focused on the issue of Iran, and it would be wrong to simply wait until the war in Europe returns to the center of its attention,” Zelensky wrote. “Ukraine proposes ending this war through direct engagement between us—and you. I am proposing a meeting. However, the rare direct address wasn’t all diplomatic niceties. Zelensky oscillated between championing Kyiv’s resilience and mocking the 73-year-old Russian leader, from his age (“After 26 years in power, age is beginning ",
+      "keywords": [
+        {
+          "name": "zelensky",
+          "value": 11
+        },
+        {
+          "name": "president",
+          "value": 10
+        },
+        {
+          "name": "russian",
+          "value": 7
+        },
+        {
+          "name": "sanctions",
+          "value": 6
+        },
+        {
+          "name": "thursday",
+          "value": 6
+        },
+        {
+          "name": "friday",
+          "value": 5
+        },
+        {
+          "name": "india",
+          "value": 5
+        },
+        {
+          "name": "putin",
+          "value": 5
+        },
+        {
+          "name": "trump",
+          "value": 5
+        },
+        {
+          "name": "adding",
+          "value": 4
         }
       ],
       "signals": [
-        "Territory and Chokepoints"
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Energy and Supply Chains",
+        "Humanitarian Pressure"
       ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Indo-Pacific"
+      ],
+      "detail_path": "/evidence/3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
+      "evidence_json": "/evidence/3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893.json"
     },
     {
       "id": "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d",
@@ -16291,86 +16456,6 @@
       ],
       "detail_path": "/evidence/8e0faabd762f636d4a5879ee04b187bb4c3a53bcb1b96842d7fb798030084878",
       "evidence_json": "/evidence/8e0faabd762f636d4a5879ee04b187bb4c3a53bcb1b96842d7fb798030084878.json"
-    },
-    {
-      "id": "5af4c211152fb57eaa35fe8f8599117e62cec24b3cbc245c48d80917c285ed12",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-06-05T18:57:28.903151+00:00",
-      "published": "",
-      "text_chars": 824888,
-      "raw_path": "data/geopolitics/raw/5af4c211152fb57eaa35fe8f8599117e62cec24b3cbc245c48d80917c285ed12.xml",
-      "text_path": "data/geopolitics/raw/5af4c211152fb57eaa35fe8f8599117e62cec24b3cbc245c48d80917c285ed12.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-      "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
-      ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 1476
-        },
-        {
-          "name": "security",
-          "value": 1473
-        },
-        {
-          "name": "interpol",
-          "value": 1239
-        },
-        {
-          "name": "resolution",
-          "value": 840
-        },
-        {
-          "name": "interpol-un",
-          "value": 683
-        },
-        {
-          "name": "afghanistan",
-          "value": 636
-        },
-        {
-          "name": "link",
-          "value": 612
-        },
-        {
-          "name": "republic",
-          "value": 539
-        },
-        {
-          "name": "al-qaida",
-          "value": 515
-        },
-        {
-          "name": "iraq",
-          "value": 480
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "War and Escalation",
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Africa",
-        "Middle East",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/5af4c211152fb57eaa35fe8f8599117e62cec24b3cbc245c48d80917c285ed12",
-      "evidence_json": "/evidence/5af4c211152fb57eaa35fe8f8599117e62cec24b3cbc245c48d80917c285ed12.json"
     },
     {
       "id": "7a25a7f018f587eac6955da93b822eb95dd3235c3f1e6828c6009ec1fac8dd7a",
