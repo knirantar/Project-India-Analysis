@@ -1,91 +1,110 @@
 {
-  "generated_at": "2026-06-06T15:09:52.184074+00:00",
+  "generated_at": "2026-06-06T18:12:31.527841+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
     "headline": "Escalating tensions in the Middle East threaten regional stability and global energy supply.",
     "executive_summary": [
-      "Recent military exchanges between the United States and Iran have escalated tensions in the Middle East, particularly around the strategically vital Strait of Hormuz. The U.S. military intercepted Iranian drones and launched strikes against Iranian radar installations, marking a significant increase in hostilities that threaten the fragile ceasefire established earlier this year. This escalation raises concerns about the stability of global energy supplies, as the Strait of Hormuz is a critical corridor for oil and gas shipments.",
-      "Iran's Revolutionary Guards have responded by launching ballistic missiles towards Kuwait and Bahrain, with U.S. forces successfully intercepting most of these threats. The ongoing conflict has already led to heightened military readiness among Gulf states, which are now on alert for further Iranian aggression. The situation remains precarious, with both sides engaging in a series of retaliatory strikes that could spiral into a larger conflict.",
-      "The humanitarian impact of the conflict is also becoming increasingly severe, with the World Food Program warning that millions could face acute hunger as a result of the ongoing violence and rising energy prices. The correlation between energy costs and food security is particularly concerning, as many vulnerable populations are already struggling to meet basic needs.",
-      "In parallel, diplomatic efforts to stabilize the region are faltering, with U.S. negotiators facing challenges in extending the ceasefire. The situation is compounded by the ongoing sanctions against Iran, which have further strained relations and limited avenues for dialogue. As military tensions rise, the potential for a broader conflict looms, necessitating urgent international attention."
+      "Recent military exchanges between the United States and Iran have intensified, with the U.S. intercepting Iranian drones and missiles aimed at Gulf allies, further straining a fragile ceasefire. This escalation follows a series of U.S. and Israeli strikes that have significantly impacted Iran's military leadership and capabilities, leading to retaliatory actions from Tehran, including missile launches towards Kuwait and Bahrain (evidence ids: 14, 16, 17, 18).",
+      "The ongoing conflict has severe humanitarian implications, with the UN warning that millions could face acute hunger as a result of the war's impact on food and energy prices. The World Food Program has indicated that the crisis could push an additional 45 million people into food insecurity, exacerbating an already dire situation in the region (evidence ids: 16, 18).",
+      "In parallel, the geopolitical landscape is shifting as countries like France initiate investigations into alleged war crimes related to the conflict, reflecting growing international scrutiny of Israel's actions in Gaza. This development underscores the complex interplay of diplomacy and military action in the region, as nations grapple with the implications of their foreign policies (evidence ids: 21, 12).",
+      "As the situation evolves, the potential for further military escalation remains high, particularly with the strategic importance of the Strait of Hormuz for global oil supply. The U.S. military's blockade of Iranian ports and the ongoing sanctions against Iranian entities are likely to provoke additional responses from Tehran, complicating diplomatic efforts to stabilize the region (evidence ids: 14, 16, 18)."
     ],
     "key_judgments": [
       {
-        "title": "U.S.-Iran military exchanges threaten regional stability",
-        "finding": "The recent military exchanges between the U.S. and Iran have escalated tensions, jeopardizing the fragile ceasefire and threatening maritime security in the Strait of Hormuz.",
+        "title": "U.S.-Iran Military Escalation",
+        "finding": "The exchange of military strikes between the U.S. and Iran poses a significant threat to regional stability and the ongoing ceasefire.",
         "citations": [
-          "13",
-          "15",
-          "17"
+          "14",
+          "16",
+          "17",
+          "18"
         ]
       },
       {
-        "title": "Humanitarian crisis exacerbated by conflict",
-        "finding": "The ongoing conflict and rising energy prices are pushing millions into acute hunger, highlighting the humanitarian impact of the military escalation.",
+        "title": "Humanitarian Crisis Intensification",
+        "finding": "The conflict is exacerbating humanitarian crises, with millions at risk of acute hunger due to rising food and energy prices.",
         "citations": [
-          "15",
-          "19"
+          "16",
+          "18"
         ]
       },
       {
-        "title": "Diplomatic efforts to stabilize the region are failing",
-        "finding": "Diplomatic negotiations aimed at extending the ceasefire are struggling, with sanctions against Iran complicating potential dialogue.",
+        "title": "International Scrutiny of Israel",
+        "finding": "Increased international scrutiny and investigations into Israel's actions may influence diplomatic relations and conflict dynamics.",
         "citations": [
-          "13",
-          "15",
-          "19"
+          "21",
+          "12"
+        ]
+      },
+      {
+        "title": "Strategic Importance of Strait of Hormuz",
+        "finding": "The Strait of Hormuz remains a critical chokepoint for global oil supply, with military actions threatening to disrupt shipping routes.",
+        "citations": [
+          "14",
+          "16",
+          "18"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The Middle East remains a focal point of geopolitical tension, with military actions between the U.S. and Iran posing significant risks to regional stability and global energy supplies.",
+        "assessment": "The Middle East is experiencing heightened military tensions, particularly between the U.S. and Iran, which could destabilize the region and impact global energy markets.",
         "citations": [
-          "13",
-          "15",
-          "17"
+          "14",
+          "16",
+          "18"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "Iran's missile capabilities",
-        "why_it_matters": "Iran's ability to launch ballistic missiles poses a direct threat to U.S. allies in the Gulf and could escalate military confrontations in the region.",
+        "label": "Iranian Missile Capabilities",
+        "why_it_matters": "Iran's missile capabilities pose a direct threat to U.S. allies in the Gulf, potentially leading to further military confrontations.",
         "citations": [
-          "15",
-          "16"
+          "14",
+          "16",
+          "17"
         ]
       },
       {
-        "label": "Humanitarian impact of the conflict",
-        "why_it_matters": "The humanitarian crisis resulting from the conflict could lead to widespread instability and further complicate diplomatic efforts in the region.",
+        "label": "Humanitarian Impact of Conflict",
+        "why_it_matters": "The humanitarian crisis resulting from the conflict could lead to widespread instability and increased migration pressures in the region.",
         "citations": [
-          "15",
-          "19"
+          "16",
+          "18"
+        ]
+      },
+      {
+        "label": "International Sanctions on Iran",
+        "why_it_matters": "Ongoing sanctions against Iran may provoke retaliatory actions, complicating diplomatic efforts and increasing the risk of military escalation.",
+        "citations": [
+          "14",
+          "16",
+          "18"
         ]
       }
     ],
     "caveats": [
-      "Limitations from source coverage"
+      "Limitations from source coverage may affect the comprehensiveness of the analysis."
     ]
   },
   "summary": {
-    "raw_documents": 738,
-    "total_text_chars": 129187179,
+    "raw_documents": 741,
+    "total_text_chars": 129199914,
     "sources": 32,
     "signals": 8,
     "regions": 6,
-    "visual_items": 64,
+    "visual_items": 65,
     "pdf_items": 71,
     "renderable_files": 64
   },
   "format_counts": [
     {
       "name": "Article",
-      "value": 536
+      "value": 538
     },
     {
       "name": "PDF",
@@ -93,7 +112,7 @@
     },
     {
       "name": "Image",
-      "value": 69
+      "value": 70
     },
     {
       "name": "Sanctions",
@@ -119,7 +138,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 514
+      "value": 516
     },
     {
       "name": "pdfs",
@@ -127,7 +146,7 @@
     },
     {
       "name": "images",
-      "value": 66
+      "value": 67
     },
     {
       "name": "sanctions_designations",
@@ -177,7 +196,7 @@
     },
     {
       "name": "global.unitednations.entermediadb.net",
-      "value": 65
+      "value": 66
     },
     {
       "name": "warontherocks.com",
@@ -185,7 +204,7 @@
     },
     {
       "name": "aljazeera.com",
-      "value": 53
+      "value": 54
     },
     {
       "name": "defensenews.com",
@@ -193,7 +212,7 @@
     },
     {
       "name": "news.un.org",
-      "value": 33
+      "value": 34
     },
     {
       "name": "foreignpolicy.com",
@@ -286,12 +305,12 @@
       "value": 3530
     },
     {
-      "name": "reliefweb",
-      "value": 1961
+      "name": "iran",
+      "value": 1963
     },
     {
-      "name": "iran",
-      "value": 1949
+      "name": "reliefweb",
+      "value": 1961
     },
     {
       "name": "lebanon",
@@ -319,7 +338,7 @@
     },
     {
       "name": "conflict",
-      "value": 1248
+      "value": 1254
     },
     {
       "name": "united",
@@ -327,7 +346,7 @@
     },
     {
       "name": "trump",
-      "value": 1154
+      "value": 1168
     },
     {
       "name": "israeli",
@@ -335,7 +354,7 @@
     },
     {
       "name": "food",
-      "value": 1047
+      "value": 1056
     },
     {
       "name": "sudan",
@@ -451,7 +470,7 @@
     },
     {
       "name": "million",
-      "value": 403
+      "value": 415
     },
     {
       "name": "including",
@@ -465,11 +484,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 487,
+      "count": 488,
       "formats": [
         {
           "name": "Article",
-          "value": 404
+          "value": 405
         },
         {
           "name": "PDF",
@@ -489,6 +508,7 @@
         }
       ],
       "evidence_ids": [
+        "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
         "17e9ba41c5c8767cc391d38494ae217d666089f2c4b2c6b3055b6e910ab0f828",
         "33e42af06f56127d2a1d0beb15610c2f6622193e2b6c50c86d04f5eb5ec82c3c",
         "6caf0d2bd5b31daaf8317d98803379f562dc1f01d5cae2306c2033e1c59d2067",
@@ -497,11 +517,20 @@
         "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
         "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb",
         "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
-        "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d",
-        "8e0faabd762f636d4a5879ee04b187bb4c3a53bcb1b96842d7fb798030084878"
+        "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d"
       ],
-      "summary": "A technical issue has been detected on the UK navy’s flagship as it was docked in Norway, after the warship worked with Nato and the Joint Expeditionary Force (JEF), the government has said. “HMS Prince of Wales is currently conducting a port visit to Stavanger as part of the Carrier Strike Group’s deployment across the North Atlantic and Arctic, we expect her to set sail in the coming days,” an MoD spokesperson said. The oil tankers may still be stuck behind the strait of Hormuz as the conflict between the US, Israel and Iran flickers on, but for now, airlines continue to defy dire warnings of impending shortages which had stoked fears of a summer of chaos for European holidaymakers. Aviation leaders will converge in Brazil this weekend for the Iata AGM, the annual global airline summit, with the industry still, for the most part, looking resolutely skyward. Published on 06/06/2026 - 9:19 GMT+2 New military exchanges between the United States and Iran have tested the fragile ceasefire, threatening efforts to stabilise the Middle East and restore shipping through the strategically important Strait of Hormuz. ADVERTISEMENT ADVERTISEMENT The latest escalation began on Friday when the US military said it intercepted four Iranian drones heading towards the Strait of Hormuz before carrying out strikes against Iranian coastal radar installations in Goruk and on Qeshm Island. Palantir said Maven Smart System is “compliant with the principles of FMN” and that it is working with NATO toward official certification, in an emailed response to a request for comment. NATO military personnel started training with Palantir’s Maven Smart System in August 2025, the alliance’s first use of AI-enabled command and control software. France will deploy Arcadia during NATO’s Coalition Warrior Interoperability Exercise, or CWIX, a live exercise held in Poland June 8-26.",
+      "summary": "Persisting blockades The US and Israel started bombing Iran on February 28, killing Supreme Leader Ali Khamenei and several top officials as well as hundreds of civilians. A truce was reached on April 6, but skirmishes have continued to break out in the Gulf, and the Iranian blockade in Hormuz has persisted. “What’s really clear is that few Americans think that this war with Iran serves American interests,” said Shibley Telhami, a professor of peace and development at the University of Maryland, who has conducted polling on the war. A technical issue has been detected on the UK navy’s flagship as it was docked in Norway, after the warship worked with Nato and the Joint Expeditionary Force (JEF), the government has said. “HMS Prince of Wales is currently conducting a port visit to Stavanger as part of the Carrier Strike Group’s deployment across the North Atlantic and Arctic, we expect her to set sail in the coming days,” an MoD spokesperson said. The oil tankers may still be stuck behind the strait of Hormuz as the conflict between the US, Israel and Iran flickers on, but for now, airlines continue to defy dire warnings of impending shortages which had stoked fears of a summer of chaos for European holidaymakers. Aviation leaders will converge in Brazil this weekend for the Iata AGM, the annual global airline summit, with the industry still, for the most part, looking resolutely skyward. Published on 06/06/2026 - 9:19 GMT+2 New military exchanges between the United States and Iran have tested the fragile ceasefire, threatening efforts to stabilise the Middle East and restore shipping through the strategically important Strait of Hormuz. ADVERTISEMENT ADVERTISEMENT The latest escalation began on Friday when the US military said it intercepted four Iranian drones heading towards the Strait of Hormuz before carrying out strikes against Iranian coastal radar installations in Goruk and on Qeshm Island.",
       "latest": [
+        {
+          "id": "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
+          "title": "100 days into the war on Iran, Trump fails to rally US support",
+          "url": "https://www.aljazeera.com/news/2026/6/6/100-days-into-the-war-on-iran-trump-fails-to-rally-us-support?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-06-06T18:12:51.379110+00:00",
+          "published": "Sat, 06 Jun 2026 17:04:38 +0000",
+          "summary": "Persisting blockades The US and Israel started bombing Iran on February 28, killing Supreme Leader Ali Khamenei and several top officials as well as hundreds of civilians. A truce was reached on April 6, but skirmishes have continued to break out in the Gulf, and the Iranian blockade in Hormuz has persisted. “What’s really clear is that few Americans think that this war with Iran serves American interests,” said Shibley Telhami, a professor of peace and development at the University of Maryland, who has conducted polling on the war."
+        },
         {
           "id": "17e9ba41c5c8767cc391d38494ae217d666089f2c4b2c6b3055b6e910ab0f828",
           "title": "MoD reports ‘minor technical issue’ with aircraft carrier docked in Norway",
@@ -541,26 +570,16 @@
           "collected_at": "2026-06-06T09:21:59.833864+00:00",
           "published": "Sat, 06 Jun 2026 06:50:38 +0000",
           "summary": "Palantir said Maven Smart System is “compliant with the principles of FMN” and that it is working with NATO toward official certification, in an emailed response to a request for comment. NATO military personnel started training with Palantir’s Maven Smart System in August 2025, the alliance’s first use of AI-enabled command and control software. France will deploy Arcadia during NATO’s Coalition Warrior Interoperability Exercise, or CWIX, a live exercise held in Poland June 8-26."
-        },
-        {
-          "id": "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
-          "title": "Middle East live: US military says Iran launched seven ballistic missiles at Kuwait, Bahrain",
-          "url": "https://www.france24.com/en/middle-east/20260606-middle-east-live-us-military-says-iran-launched-seven-ballistic-missiles-at-kuwait-bahrain",
-          "host": "france24.com",
-          "format": "Article",
-          "collected_at": "2026-06-06T06:50:44.960443+00:00",
-          "published": "Sat, 06 Jun 2026 05:02:18 GMT",
-          "summary": "06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high. \"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that has been an important force for political stability and economic progress in the Middle East,\" the statement said."
         }
       ]
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 417,
+      "count": 418,
       "formats": [
         {
           "name": "Article",
-          "value": 348
+          "value": 349
         },
         {
           "name": "PDF",
@@ -580,6 +599,7 @@
         }
       ],
       "evidence_ids": [
+        "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
         "17e9ba41c5c8767cc391d38494ae217d666089f2c4b2c6b3055b6e910ab0f828",
         "39b7b011a1867d397a32fa062d8865d499ae971d0f50763661c44f1947409002",
         "33e42af06f56127d2a1d0beb15610c2f6622193e2b6c50c86d04f5eb5ec82c3c",
@@ -588,11 +608,20 @@
         "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
         "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb",
         "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
-        "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d",
-        "7a25a7f018f587eac6955da93b822eb95dd3235c3f1e6828c6009ec1fac8dd7a"
+        "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d"
       ],
-      "summary": "A technical issue has been detected on the UK navy’s flagship as it was docked in Norway, after the warship worked with Nato and the Joint Expeditionary Force (JEF), the government has said. “HMS Prince of Wales is currently conducting a port visit to Stavanger as part of the Carrier Strike Group’s deployment across the North Atlantic and Arctic, we expect her to set sail in the coming days,” an MoD spokesperson said. Finance Minister Bezalel Smotrich, a son of the settler movement, was sanctioned by the United Kingdom, Canada and several other countries for his alleged role in supporting or enabling violence in the West Bank, highlighting how the settlement project has the support of the highest echelons of the Israeli state. The oil tankers may still be stuck behind the strait of Hormuz as the conflict between the US, Israel and Iran flickers on, but for now, airlines continue to defy dire warnings of impending shortages which had stoked fears of a summer of chaos for European holidaymakers. Aviation leaders will converge in Brazil this weekend for the Iata AGM, the annual global airline summit, with the industry still, for the most part, looking resolutely skyward. Published on 06/06/2026 - 9:19 GMT+2 New military exchanges between the United States and Iran have tested the fragile ceasefire, threatening efforts to stabilise the Middle East and restore shipping through the strategically important Strait of Hormuz. ADVERTISEMENT ADVERTISEMENT The latest escalation began on Friday when the US military said it intercepted four Iranian drones heading towards the Strait of Hormuz before carrying out strikes against Iranian coastal radar installations in Goruk and on Qeshm Island.",
+      "summary": "Persisting blockades The US and Israel started bombing Iran on February 28, killing Supreme Leader Ali Khamenei and several top officials as well as hundreds of civilians. A truce was reached on April 6, but skirmishes have continued to break out in the Gulf, and the Iranian blockade in Hormuz has persisted. “What’s really clear is that few Americans think that this war with Iran serves American interests,” said Shibley Telhami, a professor of peace and development at the University of Maryland, who has conducted polling on the war. A technical issue has been detected on the UK navy’s flagship as it was docked in Norway, after the warship worked with Nato and the Joint Expeditionary Force (JEF), the government has said. “HMS Prince of Wales is currently conducting a port visit to Stavanger as part of the Carrier Strike Group’s deployment across the North Atlantic and Arctic, we expect her to set sail in the coming days,” an MoD spokesperson said. Finance Minister Bezalel Smotrich, a son of the settler movement, was sanctioned by the United Kingdom, Canada and several other countries for his alleged role in supporting or enabling violence in the West Bank, highlighting how the settlement project has the support of the highest echelons of the Israeli state. The oil tankers may still be stuck behind the strait of Hormuz as the conflict between the US, Israel and Iran flickers on, but for now, airlines continue to defy dire warnings of impending shortages which had stoked fears of a summer of chaos for European holidaymakers. Aviation leaders will converge in Brazil this weekend for the Iata AGM, the annual global airline summit, with the industry still, for the most part, looking resolutely skyward.",
       "latest": [
+        {
+          "id": "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
+          "title": "100 days into the war on Iran, Trump fails to rally US support",
+          "url": "https://www.aljazeera.com/news/2026/6/6/100-days-into-the-war-on-iran-trump-fails-to-rally-us-support?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-06-06T18:12:51.379110+00:00",
+          "published": "Sat, 06 Jun 2026 17:04:38 +0000",
+          "summary": "Persisting blockades The US and Israel started bombing Iran on February 28, killing Supreme Leader Ali Khamenei and several top officials as well as hundreds of civilians. A truce was reached on April 6, but skirmishes have continued to break out in the Gulf, and the Iranian blockade in Hormuz has persisted. “What’s really clear is that few Americans think that this war with Iran serves American interests,” said Shibley Telhami, a professor of peace and development at the University of Maryland, who has conducted polling on the war."
+        },
         {
           "id": "17e9ba41c5c8767cc391d38494ae217d666089f2c4b2c6b3055b6e910ab0f828",
           "title": "MoD reports ‘minor technical issue’ with aircraft carrier docked in Norway",
@@ -632,26 +661,16 @@
           "collected_at": "2026-06-06T09:21:56.070140+00:00",
           "published": "Sat, 06 Jun 2026 09:19:04 +0200",
           "summary": "Published on 06/06/2026 - 9:19 GMT+2 New military exchanges between the United States and Iran have tested the fragile ceasefire, threatening efforts to stabilise the Middle East and restore shipping through the strategically important Strait of Hormuz. ADVERTISEMENT ADVERTISEMENT The latest escalation began on Friday when the US military said it intercepted four Iranian drones heading towards the Strait of Hormuz before carrying out strikes against Iranian coastal radar installations in Goruk and on Qeshm Island."
-        },
-        {
-          "id": "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
-          "title": "Middle East live: US military says Iran launched seven ballistic missiles at Kuwait, Bahrain",
-          "url": "https://www.france24.com/en/middle-east/20260606-middle-east-live-us-military-says-iran-launched-seven-ballistic-missiles-at-kuwait-bahrain",
-          "host": "france24.com",
-          "format": "Article",
-          "collected_at": "2026-06-06T06:50:44.960443+00:00",
-          "published": "Sat, 06 Jun 2026 05:02:18 GMT",
-          "summary": "06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high. \"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that has been an important force for political stability and economic progress in the Middle East,\" the statement said."
         }
       ]
     },
     {
       "name": "Humanitarian Pressure",
-      "count": 303,
+      "count": 305,
       "formats": [
         {
           "name": "Article",
-          "value": 214
+          "value": 216
         },
         {
           "name": "PDF",
@@ -671,6 +690,7 @@
         }
       ],
       "evidence_ids": [
+        "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
         "39b7b011a1867d397a32fa062d8865d499ae971d0f50763661c44f1947409002",
         "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
         "8e0faabd762f636d4a5879ee04b187bb4c3a53bcb1b96842d7fb798030084878",
@@ -679,11 +699,20 @@
         "54600a164af020b1b7e1bcc3393228572717964d27e5a7aa6fb188cbd30cd38b",
         "9fbe33305784d81ab17106f6d5b7717c0a6ae62867cd804f652cd5fa6daaf41a",
         "390e0ce243b8aeabc4f56121add445bf8f3df1d1aeecd93c1f8b3d85961c1cbb",
-        "10c1a81d888e8f2dbf6b59c062b9ae5fe11a27f2ae0f8a7b850bec9d80e0d703",
-        "b5b2edd51dde29a08c1b7c58b31d1f54cd77cba26f75659a31379a3b5debd47c"
+        "10c1a81d888e8f2dbf6b59c062b9ae5fe11a27f2ae0f8a7b850bec9d80e0d703"
       ],
-      "summary": "Finance Minister Bezalel Smotrich, a son of the settler movement, was sanctioned by the United Kingdom, Canada and several other countries for his alleged role in supporting or enabling violence in the West Bank, highlighting how the settlement project has the support of the highest echelons of the Israeli state. “I don’t see the point in meeting,” Putin said, accusing Kyiv of seeking dialogue to prevent the further advancement of Russian troops. ‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries. Zelensky also called out Moscow’s shrinking resources, citing Ukrainian attacks on Russian oil facilities. I was thinking of Nastya and Hlib last month, when Ukrainians suffered one of the deadliest waves of missile and drone attacks on civilians during Russia’s entire war on their country. 27, 2022, the school became a battlefield where Ukrainian soldiers, police, and civilian volunteers fought a detachment of Russian Spetsnaz, special forces that had entered Ukraine a few days earlier along with Moscow’s invasion force. CENTRAL AMERICA: FOOD INSECURITY Deteriorating dry conditions across the Dry Corridor are compounding food insecurity ahead of the critical primera planting season. HAITI: VIOLENCE & DISPLACEMENT Violence continues to spread to previously unaffected areas across Haiti, compounding an already severe displacement crisis.",
+      "summary": "Persisting blockades The US and Israel started bombing Iran on February 28, killing Supreme Leader Ali Khamenei and several top officials as well as hundreds of civilians. A truce was reached on April 6, but skirmishes have continued to break out in the Gulf, and the Iranian blockade in Hormuz has persisted. “What’s really clear is that few Americans think that this war with Iran serves American interests,” said Shibley Telhami, a professor of peace and development at the University of Maryland, who has conducted polling on the war. Finance Minister Bezalel Smotrich, a son of the settler movement, was sanctioned by the United Kingdom, Canada and several other countries for his alleged role in supporting or enabling violence in the West Bank, highlighting how the settlement project has the support of the highest echelons of the Israeli state. “I don’t see the point in meeting,” Putin said, accusing Kyiv of seeking dialogue to prevent the further advancement of Russian troops. ‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries. Zelensky also called out Moscow’s shrinking resources, citing Ukrainian attacks on Russian oil facilities. I was thinking of Nastya and Hlib last month, when Ukrainians suffered one of the deadliest waves of missile and drone attacks on civilians during Russia’s entire war on their country. 27, 2022, the school became a battlefield where Ukrainian soldiers, police, and civilian volunteers fought a detachment of Russian Spetsnaz, special forces that had entered Ukraine a few days earlier along with Moscow’s invasion force.",
       "latest": [
+        {
+          "id": "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
+          "title": "100 days into the war on Iran, Trump fails to rally US support",
+          "url": "https://www.aljazeera.com/news/2026/6/6/100-days-into-the-war-on-iran-trump-fails-to-rally-us-support?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-06-06T18:12:51.379110+00:00",
+          "published": "Sat, 06 Jun 2026 17:04:38 +0000",
+          "summary": "Persisting blockades The US and Israel started bombing Iran on February 28, killing Supreme Leader Ali Khamenei and several top officials as well as hundreds of civilians. A truce was reached on April 6, but skirmishes have continued to break out in the Gulf, and the Iranian blockade in Hormuz has persisted. “What’s really clear is that few Americans think that this war with Iran serves American interests,” said Shibley Telhami, a professor of peace and development at the University of Maryland, who has conducted polling on the war."
+        },
         {
           "id": "39b7b011a1867d397a32fa062d8865d499ae971d0f50763661c44f1947409002",
           "title": "‘Badge of honour’: Israeli settlers shrug off global condemnation",
@@ -723,16 +752,6 @@
           "collected_at": "2026-06-06T00:01:43.428153+00:00",
           "published": "Fri, 05 Jun 2026 18:55:51 +0000",
           "summary": "CENTRAL AMERICA: FOOD INSECURITY Deteriorating dry conditions across the Dry Corridor are compounding food insecurity ahead of the critical primera planting season. HAITI: VIOLENCE & DISPLACEMENT Violence continues to spread to previously unaffected areas across Haiti, compounding an already severe displacement crisis."
-        },
-        {
-          "id": "f7ea0a586aa629596f8642b793a0e7bb745d3dd33b1bcf346daadb665b6fc71a",
-          "title": "Haiti: Latin America & The Caribbean Weekly Situation Update as of 5 June 2026 (pdf)",
-          "url": "https://reliefweb.int/attachments/a7c15f84-f534-460a-828f-f357b34daf40/2026-06-05%20Weekly%20Situation%20Update%20%28as%20of%205%20June%29.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-06-06T00:01:46.458143+00:00",
-          "published": "Fri, 05 Jun 2026 18:55:51 +0000",
-          "summary": "LATIN AMERICA & THE CARIBBEAN Weekly Situation Update As of 5 June 2026 The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. CENTRAL AMERICA: FOOD INSECURITY Deteriorating dry conditions across the Dry Corridor are compounding food insecurity ahead of the critical primera planting season."
         }
       ]
     },
@@ -829,11 +848,11 @@
     },
     {
       "name": "Energy and Supply Chains",
-      "count": 222,
+      "count": 224,
       "formats": [
         {
           "name": "Article",
-          "value": 178
+          "value": 180
         },
         {
           "name": "PDF",
@@ -845,6 +864,7 @@
         }
       ],
       "evidence_ids": [
+        "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
         "33e42af06f56127d2a1d0beb15610c2f6622193e2b6c50c86d04f5eb5ec82c3c",
         "6caf0d2bd5b31daaf8317d98803379f562dc1f01d5cae2306c2033e1c59d2067",
         "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
@@ -853,11 +873,20 @@
         "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
         "8e0faabd762f636d4a5879ee04b187bb4c3a53bcb1b96842d7fb798030084878",
         "7a25a7f018f587eac6955da93b822eb95dd3235c3f1e6828c6009ec1fac8dd7a",
-        "78e486b322727844217adb66a3f5e3b7d110a72e544f446713f7325f4841ff90",
-        "83ff18d2f11c0a65f474c74ed3354040d40363d37b0f2aa02ce34b679d68483f"
+        "78e486b322727844217adb66a3f5e3b7d110a72e544f446713f7325f4841ff90"
       ],
-      "summary": "The oil tankers may still be stuck behind the strait of Hormuz as the conflict between the US, Israel and Iran flickers on, but for now, airlines continue to defy dire warnings of impending shortages which had stoked fears of a summer of chaos for European holidaymakers. Aviation leaders will converge in Brazil this weekend for the Iata AGM, the annual global airline summit, with the industry still, for the most part, looking resolutely skyward. Published on 06/06/2026 - 9:19 GMT+2 New military exchanges between the United States and Iran have tested the fragile ceasefire, threatening efforts to stabilise the Middle East and restore shipping through the strategically important Strait of Hormuz. ADVERTISEMENT ADVERTISEMENT The latest escalation began on Friday when the US military said it intercepted four Iranian drones heading towards the Strait of Hormuz before carrying out strikes against Iranian coastal radar installations in Goruk and on Qeshm Island. 06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high. \"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that has been an important force for political stability and economic progress in the Middle East,\" the statement said. Central Command said it hit the radar sites, including an island in the strait, \"to defend against further attacks.\" Trump promises a quick end to US-Iran conflict It was the latest in back-and-forth attacks that have strained the tenuous ceasefire in the war and efforts to reach a deal to extend that truce. and Iranian negotiators reached a tentative agreement a week ago to extend the ceasefire by 60 days and start a new round of talks on Iran's nuclear program.",
+      "summary": "Persisting blockades The US and Israel started bombing Iran on February 28, killing Supreme Leader Ali Khamenei and several top officials as well as hundreds of civilians. A truce was reached on April 6, but skirmishes have continued to break out in the Gulf, and the Iranian blockade in Hormuz has persisted. “What’s really clear is that few Americans think that this war with Iran serves American interests,” said Shibley Telhami, a professor of peace and development at the University of Maryland, who has conducted polling on the war. The oil tankers may still be stuck behind the strait of Hormuz as the conflict between the US, Israel and Iran flickers on, but for now, airlines continue to defy dire warnings of impending shortages which had stoked fears of a summer of chaos for European holidaymakers. Aviation leaders will converge in Brazil this weekend for the Iata AGM, the annual global airline summit, with the industry still, for the most part, looking resolutely skyward. Published on 06/06/2026 - 9:19 GMT+2 New military exchanges between the United States and Iran have tested the fragile ceasefire, threatening efforts to stabilise the Middle East and restore shipping through the strategically important Strait of Hormuz. ADVERTISEMENT ADVERTISEMENT The latest escalation began on Friday when the US military said it intercepted four Iranian drones heading towards the Strait of Hormuz before carrying out strikes against Iranian coastal radar installations in Goruk and on Qeshm Island. 06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high. \"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that has been an important force for political stability and economic progress in the Middle East,\" the statement said.",
       "latest": [
+        {
+          "id": "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
+          "title": "100 days into the war on Iran, Trump fails to rally US support",
+          "url": "https://www.aljazeera.com/news/2026/6/6/100-days-into-the-war-on-iran-trump-fails-to-rally-us-support?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-06-06T18:12:51.379110+00:00",
+          "published": "Sat, 06 Jun 2026 17:04:38 +0000",
+          "summary": "Persisting blockades The US and Israel started bombing Iran on February 28, killing Supreme Leader Ali Khamenei and several top officials as well as hundreds of civilians. A truce was reached on April 6, but skirmishes have continued to break out in the Gulf, and the Iranian blockade in Hormuz has persisted. “What’s really clear is that few Americans think that this war with Iran serves American interests,” said Shibley Telhami, a professor of peace and development at the University of Maryland, who has conducted polling on the war."
+        },
         {
           "id": "33e42af06f56127d2a1d0beb15610c2f6622193e2b6c50c86d04f5eb5ec82c3c",
           "title": "Aviation industry looks skywards as leaders fly in for Rio summit",
@@ -897,16 +926,6 @@
           "collected_at": "2026-06-06T06:50:44.993749+00:00",
           "published": "Sat, 06 Jun 2026 00:15:26 -0400",
           "summary": "Central Command said it hit the radar sites, including an island in the strait, \"to defend against further attacks.\" Trump promises a quick end to US-Iran conflict It was the latest in back-and-forth attacks that have strained the tenuous ceasefire in the war and efforts to reach a deal to extend that truce. and Iranian negotiators reached a tentative agreement a week ago to extend the ceasefire by 60 days and start a new round of talks on Iran's nuclear program."
-        },
-        {
-          "id": "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb",
-          "title": "Gulf countries targeted by Iran after exchange of fire with US, in latest threat to fragile ceasefire",
-          "url": "https://www.theguardian.com/world/2026/jun/06/us-says-iran-radar-sites-struck-and-drones-intercepted-in-latest-threat-to-fragile-ceasefire",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-06T03:40:56.226552+00:00",
-          "published": "Fri, 05 Jun 2026 23:53:02 GMT",
-          "summary": "US and Iranian negotiators have for weeks been working to extend the ceasefire by 60 days and start a new round of talks on Iran’s nuclear program. The US military said it shot down four Iranian drones that were launched toward the strait of Hormuz and struck coastal surveillance radar sites in response. US central command (Centcom) said early on Saturday that Iranian attack drones “posed an immediate threat to regional maritime traffic,” while the strikes on radar installations were to “defend against further attacks”."
         }
       ]
     },
@@ -1179,8 +1198,9 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 386,
+      "count": 387,
       "evidence_ids": [
+        "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
         "17e9ba41c5c8767cc391d38494ae217d666089f2c4b2c6b3055b6e910ab0f828",
         "39b7b011a1867d397a32fa062d8865d499ae971d0f50763661c44f1947409002",
         "33e42af06f56127d2a1d0beb15610c2f6622193e2b6c50c86d04f5eb5ec82c3c",
@@ -1191,8 +1211,7 @@
         "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d",
         "483b92ae8d8acb73e826bdb8dcc4f5311d50a755dd219e6a3c4852251abd1028",
         "9fbe33305784d81ab17106f6d5b7717c0a6ae62867cd804f652cd5fa6daaf41a",
-        "390e0ce243b8aeabc4f56121add445bf8f3df1d1aeecd93c1f8b3d85961c1cbb",
-        "78e486b322727844217adb66a3f5e3b7d110a72e544f446713f7325f4841ff90"
+        "390e0ce243b8aeabc4f56121add445bf8f3df1d1aeecd93c1f8b3d85961c1cbb"
       ],
       "top_sources": [
         {
@@ -1205,7 +1224,7 @@
         },
         {
           "name": "aljazeera.com",
-          "value": 41
+          "value": 42
         },
         {
           "name": "global.unitednations.entermediadb.net",
@@ -1219,8 +1238,9 @@
     },
     {
       "name": "Americas",
-      "count": 337,
+      "count": 338,
       "evidence_ids": [
+        "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
         "33e42af06f56127d2a1d0beb15610c2f6622193e2b6c50c86d04f5eb5ec82c3c",
         "6caf0d2bd5b31daaf8317d98803379f562dc1f01d5cae2306c2033e1c59d2067",
         "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
@@ -1231,8 +1251,7 @@
         "c8d7776d3ef4c3251b24bc777ccad4cae639f258bdff5a62a81735c2d06e75e1",
         "e009129191b7c7a40d559cf345416d54e2b1dc2e2a00a0680f3645f84e4b29d8",
         "37e07c4314f615c7c1e25dcdb6edd2f5cff533b2e11f95c1ad17ac7359dd1c2f",
-        "f7ea0a586aa629596f8642b793a0e7bb745d3dd33b1bcf346daadb665b6fc71a",
-        "7a25a7f018f587eac6955da93b822eb95dd3235c3f1e6828c6009ec1fac8dd7a"
+        "f7ea0a586aa629596f8642b793a0e7bb745d3dd33b1bcf346daadb665b6fc71a"
       ],
       "top_sources": [
         {
@@ -1249,7 +1268,7 @@
         },
         {
           "name": "aljazeera.com",
-          "value": 36
+          "value": 37
         },
         {
           "name": "defensenews.com",
@@ -1339,11 +1358,12 @@
     },
     {
       "name": "Africa",
-      "count": 200,
+      "count": 201,
       "evidence_ids": [
         "33e42af06f56127d2a1d0beb15610c2f6622193e2b6c50c86d04f5eb5ec82c3c",
         "390e0ce243b8aeabc4f56121add445bf8f3df1d1aeecd93c1f8b3d85961c1cbb",
         "10c1a81d888e8f2dbf6b59c062b9ae5fe11a27f2ae0f8a7b850bec9d80e0d703",
+        "3cf67af34b7c6b890fcf70a0b71f2efebffb73279c1bcf790248d7ef79cd2b36",
         "ba35745b8ddfdbca2457d66b664fdcba009e47e37da4828c122c62032d5250c1",
         "3b981f17ebba520fbb4ab1f7bfcc547df2bc14fbacd5945f66e0081a9065f910",
         "7d683d9462b62c60505e1abe5cef209d13e76e08c6dde522e5de547d0af1a657",
@@ -1351,8 +1371,7 @@
         "fa077e278cd749af9f16dfd704442f29dd3bd773c2e553e665dcc54e72b11774",
         "960e07cf4c3f5c94ed52dfacd36d26663aa4ac4675ca429177cb3948d655ba08",
         "5091e72a64b3e59480ddbead493259555231313c9f38120f461f000fab80e45f",
-        "3e90f4918767183ee5f0f265fd1fa383c3a330f725dffffdd7e5d5c71bba6923",
-        "86c440d68a29fef26bc632e28e95a8efbadbef3f7135dc04386ad8227a0762c8"
+        "3e90f4918767183ee5f0f265fd1fa383c3a330f725dffffdd7e5d5c71bba6923"
       ],
       "top_sources": [
         {
@@ -1365,7 +1384,7 @@
         },
         {
           "name": "news.un.org",
-          "value": 17
+          "value": 18
         },
         {
           "name": "scsanctions.un.org",
@@ -1743,17 +1762,17 @@
     },
     {
       "date": "2026-04-08",
-      "evidence_id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "title": "MS.MIL.XPND.CD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\","
-    },
-    {
-      "date": "2026-04-08",
       "evidence_id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
       "title": "MS.MIL.MPRT.KD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
       "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
+    },
+    {
+      "date": "2026-04-08",
+      "evidence_id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "title": "MS.MIL.XPND.CD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\","
     },
     {
       "date": "2026",
@@ -1901,6 +1920,20 @@
       "title": "Lebanon crisis: needs soar as UN launches new funding appeal (image)",
       "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/24-03-2026-WFP-Lebanon.jpg/image560x340cropped.jpg",
       "excerpt": "global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/24-03-2026-WFP-Lebanon.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 38516"
+    },
+    {
+      "date": "2026",
+      "evidence_id": "3cf67af34b7c6b890fcf70a0b71f2efebffb73279c1bcf790248d7ef79cd2b36",
+      "title": "World News in Brief: Millions displaced in South Sudan, global meat supply quadruples, Middle East crisis deepens global hunger",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167668",
+      "excerpt": "nating in devastating consequences. WFP estimates it will now serve 1.5 million fewer people than originally planned in 2026. However, if the conflict continues in the coming months, the WFP warned that more than 9 million people could lose assistance."
+    },
+    {
+      "date": "2026",
+      "evidence_id": "e229116ecb8c9efaffc8934fa87aa5bf9c8c1a501e702dfc8482c793b50bbe39",
+      "title": "‘The ocean has no boundaries’: Beauty and life in a war zone (image)",
+      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/02-06-2026-OceanDay-DuShanshan.jpg/image560x340cropped.jpg",
+      "excerpt": "ednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/02-06-2026-OceanDay-DuShanshan.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 34167"
     },
     {
       "date": "2026",
@@ -2384,23 +2417,88 @@
       "title": "Fences Not F-35s: Drone Attacks and the Illogic of Gulf Procurement",
       "url": "https://warontherocks.com/fences-not-f-35s-drone-attacks-and-the-illogic-of-gulf-procurement/",
       "excerpt": "another drone that lances its target mid-flight — a 12th-century solution to a 21st-century problem. Then there is the 2026 Iran war, where the wealthiest states in the Middle East have spent tens of billions of dollars on layered Patriot, Terminal High Altitude Area Defense (THAAD), and related architectures over the past decade but are running out of ammunition for those sys"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "3005e5d41862f7cf0a356e730dd3aa9cd96c78f9b72b2f050f046c4b4aafcdc3",
-      "title": "Ukraine: Joint Market Monitoring Initiative (JMMI) - Four years of evolution: From economic shock to the protracted economic impacts of the war (2022-2025), May 2026 (pdf)",
-      "url": "https://reliefweb.int/attachments/4dbe2a6c-87fe-415f-a6cd-82ce2af26ac4/UKR_JMMI_Factsheet_Rounds_1-45_2022_2025_2.pdf",
-      "excerpt": "e the responsibility of REACH Initiatives and do not necessarily reflect the views of the United States Government. May 2026 | Ukraine Joint Market Monitoring Initiative in Ukraine Four years of evolution: From economic shock to the protracted economic impacts of the war (2022-2025) CONTEXT & RATIONALE The full-scale invasion in February 2022 posed an immense challenge to the p"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "d9d1d6ae178ea46120b3ff40d54639ee517f14f4d30506c768fe103272fa1da2",
-      "title": "Honduras: Key Message Update - Fuel and fertilizer price increases compound delayed primera planting, May - September 2026 (pdf)",
-      "url": "https://reliefweb.int/attachments/80509524-2647-40be-875a-7eaf8de1101f/20260501-FEWS-NET-hn-kmu-1780148071.pdf",
-      "excerpt": "fertilizer price increases compound delayed primera planting Key Messages Honduras - Key Message Update May - September 2026 Stressed (IPC Phase 2) outcomes remain widespread across Honduras, with Crisis (IPC Phase 3) outcomes emerging in the Dry Corridor between June and September as above- average prices, below-average labor demand, and previous harvest losses exacerbate seas"
     }
   ],
   "latest_evidence": [
+    {
+      "id": "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
+      "topic": "geopolitics",
+      "title": "100 days into the war on Iran, Trump fails to rally US support",
+      "url": "https://www.aljazeera.com/news/2026/6/6/100-days-into-the-war-on-iran-trump-fails-to-rally-us-support?traffic_source=rss",
+      "host": "aljazeera.com",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-06-06T18:12:51.379110+00:00",
+      "published": "Sat, 06 Jun 2026 17:04:38 +0000",
+      "text_chars": 7922,
+      "raw_path": "data/geopolitics/raw/2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b.html",
+      "text_path": "data/geopolitics/raw/2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b.txt",
+      "summary": "Persisting blockades The US and Israel started bombing Iran on February 28, killing Supreme Leader Ali Khamenei and several top officials as well as hundreds of civilians. A truce was reached on April 6, but skirmishes have continued to break out in the Gulf, and the Iranian blockade in Hormuz has persisted. “What’s really clear is that few Americans think that this war with Iran serves American interests,” said Shibley Telhami, a professor of peace and development at the University of Maryland, who has conducted polling on the war.",
+      "bullets": [
+        "Persisting blockades The US and Israel started bombing Iran on February 28, killing Supreme Leader Ali Khamenei and several top officials as well as hundreds of civilians.",
+        "A truce was reached on April 6, but skirmishes have continued to break out in the Gulf, and the Iranian blockade in Hormuz has persisted.",
+        "“What’s really clear is that few Americans think that this war with Iran serves American interests,” said Shibley Telhami, a professor of peace and development at the University of Maryland, who has conducted polling on the war.",
+        "It also immediately shut down the Strait of Hormuz, a major shipping lane for energy products, sending oil and gas prices soaring.",
+        "Sunday marks 100 days into the war that the United States and Israel launched against Iran."
+      ],
+      "excerpt": "Sunday marks 100 days into the war that the United States and Israel launched against Iran. But as fighting and ceasefire negotiations continue to grind on, the conflict remains overwhelmingly unpopular among the US public, making it a political liability for President Donald Trump and his Republican Party. Recommended Stories list of 3 items end of list Even before the war started, public opinion polls showed that most Americans opposed bombing Iran. When the fighting began, the numbers did not improve, with many US voters perceiving the war as unnecessary and detrimental to the country. “What’s really clear is that few Americans think that this war with Iran serves American interests,” said Shibley Telhami, a professor of peace and development at the University of Maryland, who has conducted polling on the war. The lack of public backing for the war is consequential, experts say, because it could weaken Trump politically at home. Democrats are hoping to regain control of Congress in the midterm elections in November, which could derail Trump’s agenda for the rest of his presidency. A University of Maryland Critical Issues Poll suggested on Thursday that only 16 percent of US vote",
+      "keywords": [
+        {
+          "name": "iran",
+          "value": 14
+        },
+        {
+          "name": "trump",
+          "value": 14
+        },
+        {
+          "name": "telhami",
+          "value": 9
+        },
+        {
+          "name": "americans",
+          "value": 8
+        },
+        {
+          "name": "percent",
+          "value": 8
+        },
+        {
+          "name": "public",
+          "value": 8
+        },
+        {
+          "name": "republicans",
+          "value": 8
+        },
+        {
+          "name": "think",
+          "value": 7
+        },
+        {
+          "name": "conflict",
+          "value": 6
+        },
+        {
+          "name": "voters",
+          "value": 6
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Energy and Supply Chains",
+        "Diplomacy and Negotiations",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
+      "evidence_json": "/evidence/2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b.json"
+    },
     {
       "id": "17e9ba41c5c8767cc391d38494ae217d666089f2c4b2c6b3055b6e910ab0f828",
       "topic": "geopolitics",
@@ -4517,6 +4615,82 @@
       "evidence_json": "/evidence/130e9bdc5d5586a3f298294ed51bdf7a142088ee213db7e12bc57bc3089693a7.json"
     },
     {
+      "id": "3cf67af34b7c6b890fcf70a0b71f2efebffb73279c1bcf790248d7ef79cd2b36",
+      "topic": "geopolitics",
+      "title": "World News in Brief: Millions displaced in South Sudan, global meat supply quadruples, Middle East crisis deepens global hunger",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167668",
+      "host": "news.un.org",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-06T17:01:52.738025+00:00",
+      "published": "Fri, 05 Jun 2026 12:00:00 +0000",
+      "text_chars": 4377,
+      "raw_path": "data/geopolitics/raw/3cf67af34b7c6b890fcf70a0b71f2efebffb73279c1bcf790248d7ef79cd2b36.html",
+      "text_path": "data/geopolitics/raw/3cf67af34b7c6b890fcf70a0b71f2efebffb73279c1bcf790248d7ef79cd2b36.txt",
+      "summary": "With South Sudan’s rainy season now underway, the world’s youngest nation, which has faced repeated waves of conflict, displacement and climate shocks since independence in 2011, is likely to face flooding - another layer of hardship. At the same time, approximately 100,000 people have fled into neighbouring Ethiopia in search of safety, with population movements remaining fluid as thousands return home in recent weeks.",
+      "bullets": [
+        "With South Sudan’s rainy season now underway, the world’s youngest nation, which has faced repeated waves of conflict, displacement and climate shocks since independence in 2011, is likely to face flooding - another layer of hardship.",
+        "At the same time, approximately 100,000 people have fled into neighbouring Ethiopia in search of safety, with population movements remaining fluid as thousands return home in recent weeks.",
+        "The new WFP report focused on three countries with differing exposure to the supply chain bottleneck, found that an additional 2.5 million people in Somalia, 1.3 million in Sri Lanka and 2.3 million in Afghanistan are struggling to meet basic food needs and, in some cases, being pushed into acute hunger.",
+        "“We warned that this crisis could push millions more people into hunger; now we are watching it happen in real time.” said Jean-Martin Bauer, Director of WFP’s Food Security and Nutrition Analysis Service.",
+        "Fighting between the national army and the opposing Sudan People’s Liberation Movement militia, has intensified, particularly in Jonglei’s Akobo County – and civilians continue to bear the brunt."
+      ],
+      "excerpt": "Fighting between the national army and the opposing Sudan People’s Liberation Movement militia, has intensified, particularly in Jonglei’s Akobo County – and civilians continue to bear the brunt. Around 140,000 people have been displaced there alone, while more than 300,000 have been uprooted across Jonglei and neighbouring states since December last year – adding to nearly two million people internally displaced. At the same time, approximately 100,000 people have fled into neighbouring Ethiopia in search of safety, with population movements remaining fluid as thousands return home in recent weeks. Shelters made from sticks Many families are returning to find their homes destroyed, or looted, forcing them to cram into unfinished buildings and makeshift shelters made from sticks and plastic sheeting. Constrained humanitarian access across several locations has cut off the most vulnerable from critical aid, further deepening the crisis. With South Sudan’s rainy season now underway, the world’s youngest nation, which has faced repeated waves of conflict, displacement and climate shocks since independence in 2011, is likely to face flooding - another layer of hardship. Global meat sup",
+      "keywords": [
+        {
+          "name": "million",
+          "value": 12
+        },
+        {
+          "name": "food",
+          "value": 9
+        },
+        {
+          "name": "crisis",
+          "value": 6
+        },
+        {
+          "name": "meat",
+          "value": 6
+        },
+        {
+          "name": "supply",
+          "value": 6
+        },
+        {
+          "name": "tonnes",
+          "value": 6
+        },
+        {
+          "name": "world",
+          "value": 6
+        },
+        {
+          "name": "east",
+          "value": 5
+        },
+        {
+          "name": "hunger",
+          "value": 5
+        },
+        {
+          "name": "middle",
+          "value": 5
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Energy and Supply Chains"
+      ],
+      "regions": [
+        "Africa"
+      ],
+      "detail_path": "/evidence/3cf67af34b7c6b890fcf70a0b71f2efebffb73279c1bcf790248d7ef79cd2b36",
+      "evidence_json": "/evidence/3cf67af34b7c6b890fcf70a0b71f2efebffb73279c1bcf790248d7ef79cd2b36.json"
+    },
+    {
       "id": "987408d5dc67a6bde9402572c0ff04b46e6382aa7f432d106045f1bad268133c",
       "topic": "geopolitics",
       "title": "Lebanon crisis: needs soar as UN launches new funding appeal",
@@ -4663,6 +4837,74 @@
       "preview_asset": "/evidence-assets/e126a44221fc7faaca5feccacb4137de994813262583247f025b4abedba9fd00.jpg",
       "detail_path": "/evidence/e126a44221fc7faaca5feccacb4137de994813262583247f025b4abedba9fd00",
       "evidence_json": "/evidence/e126a44221fc7faaca5feccacb4137de994813262583247f025b4abedba9fd00.json"
+    },
+    {
+      "id": "e229116ecb8c9efaffc8934fa87aa5bf9c8c1a501e702dfc8482c793b50bbe39",
+      "topic": "geopolitics",
+      "title": "‘The ocean has no boundaries’: Beauty and life in a war zone (image)",
+      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/02-06-2026-OceanDay-DuShanshan.jpg/image560x340cropped.jpg",
+      "host": "global.unitednations.entermediadb.net",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "images",
+      "format": "Image",
+      "content_type": "image/jpeg",
+      "collected_at": "2026-06-06T17:01:42.492343+00:00",
+      "published": "Fri, 05 Jun 2026 12:00:00 +0000",
+      "text_chars": 436,
+      "raw_path": "data/geopolitics/raw/e229116ecb8c9efaffc8934fa87aa5bf9c8c1a501e702dfc8482c793b50bbe39.jpg",
+      "text_path": "data/geopolitics/raw/e229116ecb8c9efaffc8934fa87aa5bf9c8c1a501e702dfc8482c793b50bbe39.txt",
+      "summary": "Binary images source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Binary images source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: ‘The ocean has no boundaries’: Beauty and life in a war zone (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/02-06-2026-OceanDay-DuShanshan.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 34167",
+      "keywords": [
+        {
+          "name": "beauty",
+          "value": 2
+        },
+        {
+          "name": "boundaries",
+          "value": 2
+        },
+        {
+          "name": "entermediadb",
+          "value": 2
+        },
+        {
+          "name": "life",
+          "value": 2
+        },
+        {
+          "name": "ocean",
+          "value": 2
+        },
+        {
+          "name": "unitednations",
+          "value": 2
+        },
+        {
+          "name": "zone",
+          "value": 2
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        }
+      ],
+      "signals": [],
+      "regions": [],
+      "preview_asset": "/evidence-assets/e229116ecb8c9efaffc8934fa87aa5bf9c8c1a501e702dfc8482c793b50bbe39.jpg",
+      "detail_path": "/evidence/e229116ecb8c9efaffc8934fa87aa5bf9c8c1a501e702dfc8482c793b50bbe39",
+      "evidence_json": "/evidence/e229116ecb8c9efaffc8934fa87aa5bf9c8c1a501e702dfc8482c793b50bbe39.json"
     },
     {
       "id": "5d7a551842759ea03e686e05c1e261ea45ccbc6f099c6c341eb922b81de59583",
@@ -8437,237 +8679,6 @@
       ],
       "detail_path": "/evidence/a4328a3c57587c0168109350d8de67e0382aca284f70336cc766ee71ffd1832c",
       "evidence_json": "/evidence/a4328a3c57587c0168109350d8de67e0382aca284f70336cc766ee71ffd1832c.json"
-    },
-    {
-      "id": "9a3609b0325f3a6718ba239baa33a11c08833c011c1a15379f8f36fb1aa0d2f9",
-      "topic": "geopolitics",
-      "title": "US tells Europe, Canada to boost NATO air and naval forces",
-      "url": "https://www.defensenews.com/global/europe/2026/06/03/us-tells-europe-canada-to-boost-nato-air-and-naval-forces/",
-      "host": "defensenews.com",
-      "source": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=utf-8",
-      "collected_at": "2026-06-03T18:20:32.639504+00:00",
-      "published": "Wed, 03 Jun 2026 15:55:26 +0000",
-      "text_chars": 3112,
-      "raw_path": "data/geopolitics/raw/9a3609b0325f3a6718ba239baa33a11c08833c011c1a15379f8f36fb1aa0d2f9.html",
-      "text_path": "data/geopolitics/raw/9a3609b0325f3a6718ba239baa33a11c08833c011c1a15379f8f36fb1aa0d2f9.txt",
-      "summary": "Grynkewich’s statement, issued after a meeting of NATO military planners on Wednesday, was the first public indication of what areas the U.S. Manned and unmanned aircraft and naval vessels are two areas where Canada and European allies “can step up now and in the near term - as the United States reduces forces ‘sourced’ to the NATO Force Model in Europe and refocuses them elsewhere,” he said.",
-      "bullets": [
-        "Grynkewich’s statement, issued after a meeting of NATO military planners on Wednesday, was the first public indication of what areas the U.S.",
-        "Manned and unmanned aircraft and naval vessels are two areas where Canada and European allies “can step up now and in the near term - as the United States reduces forces ‘sourced’ to the NATO Force Model in Europe and refocuses them elsewhere,” he said.",
-        "Martin O’Donnell, said the areas mentioned by Grynkewich were “where allies already have or soon will have sufficient capabilities, meaning no defence gaps are expected to emerge.” “Nations just need to assign the capabilities they have to NATO,” he added.",
-        "O’Donnell declined to elaborate on when Grynkewich expected allied nations, whose leaders will meet at a NATO summit in Ankara in July, to have replaced the U.S.",
-        "expects European NATO allies and Canada to swiftly increase the number of manned and unmanned aircraft and ships they contribute to the alliance’s defense plans as Washington steps back in these areas, a top U.S."
-      ],
-      "excerpt": "BRUSSELS — The U.S. expects European NATO allies and Canada to swiftly increase the number of manned and unmanned aircraft and ships they contribute to the alliance’s defense plans as Washington steps back in these areas, a top U.S. general said on Wednesday. The statement by U.S. Air Force General Alexus Grynkewich, NATO’s top commander and the head of U.S. forces in Europe, followed a decision by the Trump administration to shrink the pool of U.S. military capabilities available to NATO in a crisis. U.S. President Donald Trump has repeatedly criticized NATO and told its European members they will have to take over primary responsibility for the conventional defense of the continent. The U.S. told allies last month of its decision to reduce its contribution to a framework known as the NATO Force Model, which includes a pool of forces that could be activated during a crisis. But it did not publicly disclose any details. Grynkewich’s statement, issued after a meeting of NATO military planners on Wednesday, was the first public indication of what areas the U.S. plans to cut first and where it expects allies to step in. Manned and unmanned aircraft and naval vessels are two areas wher",
-      "keywords": [
-        {
-          "name": "nato",
-          "value": 16
-        },
-        {
-          "name": "forces",
-          "value": 6
-        },
-        {
-          "name": "grynkewich",
-          "value": 6
-        },
-        {
-          "name": "allies",
-          "value": 5
-        },
-        {
-          "name": "europe",
-          "value": 5
-        },
-        {
-          "name": "force",
-          "value": 5
-        },
-        {
-          "name": "areas",
-          "value": 4
-        },
-        {
-          "name": "available",
-          "value": 4
-        },
-        {
-          "name": "capabilities",
-          "value": 4
-        },
-        {
-          "name": "european",
-          "value": 4
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/9a3609b0325f3a6718ba239baa33a11c08833c011c1a15379f8f36fb1aa0d2f9",
-      "evidence_json": "/evidence/9a3609b0325f3a6718ba239baa33a11c08833c011c1a15379f8f36fb1aa0d2f9.json"
-    },
-    {
-      "id": "a56e4aaa106b58fdfff236a36ea822cada999a8e94995fe9fb96e6acad8abccc",
-      "topic": "geopolitics",
-      "title": "Gulf tensions escalate as Iran hits Kuwait, US strikes near Hormuz",
-      "url": "https://www.defensenews.com/news/your-military/2026/06/03/gulf-tensions-escalate-as-iran-hits-kuwait-us-strikes-near-hormuz/",
-      "host": "defensenews.com",
-      "source": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=utf-8",
-      "collected_at": "2026-06-03T18:20:38.099670+00:00",
-      "published": "Wed, 03 Jun 2026 15:09:44 +0000",
-      "text_chars": 5428,
-      "raw_path": "data/geopolitics/raw/a56e4aaa106b58fdfff236a36ea822cada999a8e94995fe9fb96e6acad8abccc.html",
-      "text_path": "data/geopolitics/raw/a56e4aaa106b58fdfff236a36ea822cada999a8e94995fe9fb96e6acad8abccc.txt",
-      "summary": "military carried out strikes near the Strait of Hormuz, with diplomacy to halt the war showing little sign of progress. CENTCOM said it had carried out a new round of “defensive strikes” in southern Iran, targeted missile launch sites and Iranian boats seeking to lay mines, and carried out strikes on Qeshm Island near the Strait of Hormuz after attempted Iranian attacks. has pushed to reopen the Strait of Hormuz, a route that handled roughly a fifth of global oil and liquefied natural gas shipments before the war.",
-      "bullets": [
-        "military carried out strikes near the Strait of Hormuz, with diplomacy to halt the war showing little sign of progress.",
-        "CENTCOM said it had carried out a new round of “defensive strikes” in southern Iran, targeted missile launch sites and Iranian boats seeking to lay mines, and carried out strikes on Qeshm Island near the Strait of Hormuz after attempted Iranian attacks.",
-        "has pushed to reopen the Strait of Hormuz, a route that handled roughly a fifth of global oil and liquefied natural gas shipments before the war.",
-        "The attacks are the latest to test a shaky ceasefire, sending oil prices up more than 2%, as the strait remains largely closed more than three months after the U.S.",
-        "signaled progress towards a tentative initial agreement to halt the war and reopen the strait, but the two sides have yet to sign off on the deal, which would leave more complex negotiations for later."
-      ],
-      "excerpt": "Gulf hostilities flared again on Wednesday as Iranian attacks on Kuwait damaged its airport and injured dozens while the U.S. military carried out strikes near the Strait of Hormuz, with diplomacy to halt the war showing little sign of progress. The attacks are the latest to test a shaky ceasefire, sending oil prices up more than 2%, as the strait remains largely closed more than three months after the U.S. and Israel launched strikes on Iran. Flights at Kuwait International Airport were suspended after an Iranian drone and missile attack damaged airport facilities and diplomatic missions, killing one person and injuring more than 60 others, according to Kuwaiti authorities and state media. The civil aviation authority said Kuwait Airways and Jazeera Airways were resuming flights after taking safety measures. Earlier, Iranian media reported that Iran’s elite Revolutionary Guards had attacked the headquarters of the U.S. Fifth Fleet in Bahrain and a U.S. airbase, as well as a vessel identified as Panaya. U.S. Central Command denied its bases had been hit and said Iranian ballistic missiles failed to strike their targets in the region. CENTCOM said it had carried out a new round of “",
-      "keywords": [
-        {
-          "name": "iran",
-          "value": 17
-        },
-        {
-          "name": "strikes",
-          "value": 9
-        },
-        {
-          "name": "kuwait",
-          "value": 8
-        },
-        {
-          "name": "lebanon",
-          "value": 8
-        },
-        {
-          "name": "iranian",
-          "value": 7
-        },
-        {
-          "name": "israel",
-          "value": 7
-        },
-        {
-          "name": "trump",
-          "value": 7
-        },
-        {
-          "name": "strait",
-          "value": 6
-        },
-        {
-          "name": "ceasefire",
-          "value": 5
-        },
-        {
-          "name": "military",
-          "value": 5
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Diplomacy and Negotiations",
-        "Energy and Supply Chains",
-        "Humanitarian Pressure"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "detail_path": "/evidence/a56e4aaa106b58fdfff236a36ea822cada999a8e94995fe9fb96e6acad8abccc",
-      "evidence_json": "/evidence/a56e4aaa106b58fdfff236a36ea822cada999a8e94995fe9fb96e6acad8abccc.json"
-    },
-    {
-      "id": "b2f195fdb62593a686f2e49a4e9f5a68b6f5212846d3d2bec5354006599e78fa",
-      "topic": "geopolitics",
-      "title": "Navy Forecasters Keep Typhoon Watch Around the Clock",
-      "url": "https://www.war.gov/News/News-Stories/Article/Article/4507331/navy-forecasters-keep-typhoon-watch-around-the-clock/",
-      "host": "war.gov",
-      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
-      "data_type": "government_documents",
-      "format": "Article",
-      "content_type": "text/html; charset=utf-8",
-      "collected_at": "2026-06-03T18:20:37.696461+00:00",
-      "published": "Wed, 03 Jun 2026 14:08:00 GMT",
-      "text_chars": 3774,
-      "raw_path": "data/geopolitics/raw/b2f195fdb62593a686f2e49a4e9f5a68b6f5212846d3d2bec5354006599e78fa.html",
-      "text_path": "data/geopolitics/raw/b2f195fdb62593a686f2e49a4e9f5a68b6f5212846d3d2bec5354006599e78fa.txt",
-      "summary": "At the forefront of this effort is the Naval Oceanography Antisubmarine Warfare Center in Yokosuka, Japan, which stands ready to provide the critical weather intelligence required during the Tropical Cyclone Conditions of Readiness season. \"Whenever a storm system develops [that] has the potential to evolve into a typhoon, NOAC and [the] Joint Typhoon Warning Center in Hawaii work together to develop forecasts and pass crucial information to decision-makers,\" said Navy Petty Officer 2nd Class Celestial Wilson, an aerographer's mate at NOAC.",
-      "bullets": [
-        "At the forefront of this effort is the Naval Oceanography Antisubmarine Warfare Center in Yokosuka, Japan, which stands ready to provide the critical weather intelligence required during the Tropical Cyclone Conditions of Readiness season.",
-        "\"Whenever a storm system develops [that] has the potential to evolve into a typhoon, NOAC and [the] Joint Typhoon Warning Center in Hawaii work together to develop forecasts and pass crucial information to decision-makers,\" said Navy Petty Officer 2nd Class Celestial Wilson, an aerographer's mate at NOAC.",
-        "Operating around the clock, the command fulfills a dual mission: keeping Navy ships safe at sea and protecting military communities ashore.",
-        "When a storm sets its sights on Japan, NOAC kicks into high gear to protect the base.\" During the Northern Hemisphere typhoon season, an average of 14 individual typhoons occur that directly impact U.S.",
-        "\"Our watch team is supplemented with an additional team of forecasters whenever a typhoon is forecast to impact Japan,\" Tomczyk said."
-      ],
-      "excerpt": "As another typhoon season approaches, a specialized team of Navy forecasters is already locked in a high-stakes battle against the Pacific's most unpredictable storms. At the forefront of this effort is the Naval Oceanography Antisubmarine Warfare Center in Yokosuka, Japan, which stands ready to provide the critical weather intelligence required during the Tropical Cyclone Conditions of Readiness season. Operating around the clock, the command fulfills a dual mission: keeping Navy ships safe at sea and protecting military communities ashore. NOAC also provides weather forecasting for installations throughout the Indo-Pacific region. \"Because the [U.S.] 7th Fleet region is so vast, NOAC's watch floor monitors the oceans 24 hours a day, 365 days a year,\" said Navy Ensign Ethan J. Tomczyk, public affairs representative for NOAC. \"On average, a typhoon forms somewhere in the region every three weeks. When a storm sets its sights on Japan, NOAC kicks into high gear to protect the base.\" During the Northern Hemisphere typhoon season, an average of 14 individual typhoons occur that directly impact U.S. military installations in the Indo-Pacific. \"Our watch team is supplemented with an add",
-      "keywords": [
-        {
-          "name": "noac",
-          "value": 9
-        },
-        {
-          "name": "typhoon",
-          "value": 9
-        },
-        {
-          "name": "storm",
-          "value": 8
-        },
-        {
-          "name": "winds",
-          "value": 6
-        },
-        {
-          "name": "navy",
-          "value": 5
-        },
-        {
-          "name": "tccor",
-          "value": 5
-        },
-        {
-          "name": "base",
-          "value": 4
-        },
-        {
-          "name": "destructive",
-          "value": 4
-        },
-        {
-          "name": "forecasters",
-          "value": 4
-        },
-        {
-          "name": "hours",
-          "value": 4
-        }
-      ],
-      "signals": [
-        "War and Escalation"
-      ],
-      "regions": [
-        "Indo-Pacific"
-      ],
-      "detail_path": "/evidence/b2f195fdb62593a686f2e49a4e9f5a68b6f5212846d3d2bec5354006599e78fa",
-      "evidence_json": "/evidence/b2f195fdb62593a686f2e49a4e9f5a68b6f5212846d3d2bec5354006599e78fa.json"
     }
   ],
   "deep_reads": [
@@ -8681,7 +8692,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-06T15:09:34.688192+00:00",
+      "collected_at": "2026-06-06T18:12:17.590073+00:00",
       "published": "",
       "text_chars": 9076319,
       "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
@@ -9481,7 +9492,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-06T15:08:58.332675+00:00",
+      "collected_at": "2026-06-06T18:11:41.278782+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -9556,7 +9567,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-06T15:08:58.600761+00:00",
+      "collected_at": "2026-06-06T18:11:40.999745+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -10513,7 +10524,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-06T13:11:05.373184+00:00",
+      "collected_at": "2026-06-06T18:12:21.383286+00:00",
       "published": "",
       "text_chars": 824888,
       "raw_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.xml",
@@ -10915,7 +10926,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-06T15:09:52.184074+00:00",
+      "collected_at": "2026-06-06T18:12:31.527841+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -10996,7 +11007,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-06T15:09:44.627303+00:00",
+      "collected_at": "2026-06-06T18:12:30.014404+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -11068,6 +11079,79 @@
       "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
+      "id": "f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-06-06T18:12:23.765525+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.html",
+      "text_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
+      "evidence_json": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -11077,7 +11161,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-06T15:09:39.147459+00:00",
+      "collected_at": "2026-06-06T18:12:23.734301+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11149,77 +11233,154 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
       "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
       "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-06-06T15:09:34.791728+00:00",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-06T18:12:21.440466+00:00",
       "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.html",
-      "text_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
       "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
       ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
       "keywords": [
         {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
+          "name": "admin",
           "value": 2
         },
         {
-          "name": "classified",
+          "name": "areas",
           "value": 2
         },
         {
-          "name": "even",
+          "name": "disputed",
           "value": 2
         },
         {
-          "name": "some",
+          "name": "naciscdn",
           "value": 2
         },
         {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
+          "name": "application",
           "value": 1
         },
         {
-          "name": "added",
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
           "value": 1
         }
       ],
       "signals": [
-        "Sanctions and Finance"
+        "Territory and Chokepoints"
       ],
       "regions": [],
-      "detail_path": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
-      "evidence_json": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.json"
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
+      "id": "0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-06-06T18:12:21.383286+00:00",
+      "published": "",
+      "text_chars": 824888,
+      "raw_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.xml",
+      "text_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "bullets": [
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+      ],
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 1476
+        },
+        {
+          "name": "security",
+          "value": 1473
+        },
+        {
+          "name": "interpol",
+          "value": 1239
+        },
+        {
+          "name": "resolution",
+          "value": 840
+        },
+        {
+          "name": "interpol-un",
+          "value": 683
+        },
+        {
+          "name": "afghanistan",
+          "value": 636
+        },
+        {
+          "name": "link",
+          "value": 612
+        },
+        {
+          "name": "republic",
+          "value": 539
+        },
+        {
+          "name": "al-qaida",
+          "value": 515
+        },
+        {
+          "name": "iraq",
+          "value": 480
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
+      "evidence_json": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.json"
     },
     {
       "id": "864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2",
@@ -11231,7 +11392,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-06T15:09:34.688192+00:00",
+      "collected_at": "2026-06-06T18:12:17.590073+00:00",
       "published": "",
       "text_chars": 9076319,
       "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
@@ -11311,7 +11472,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-06T15:09:00.813657+00:00",
+      "collected_at": "2026-06-06T18:11:43.318245+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.xml",
@@ -11382,83 +11543,6 @@
       "evidence_json": "/evidence/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.json"
     },
     {
-      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "topic": "geopolitics",
-      "title": "MS.MIL.XPND.CD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-06T15:08:58.600761+00:00",
-      "published": "",
-      "text_chars": 6187025,
-      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
-      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
-      "keywords": [
-        {
-          "name": "expenditure",
-          "value": 17556
-        },
-        {
-          "name": "military",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        },
-        {
-          "name": "asia",
-          "value": 528
-        },
-        {
-          "name": "ibrd",
-          "value": 528
-        },
-        {
-          "name": "middle",
-          "value": 462
-        }
-      ],
-      "signals": [
-        "War and Escalation"
-      ],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
-    },
-    {
       "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
       "topic": "geopolitics",
       "title": "MS.MIL.MPRT.KD",
@@ -11468,7 +11552,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-06T15:08:58.332675+00:00",
+      "collected_at": "2026-06-06T18:11:41.278782+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -11534,154 +11618,81 @@
       "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
+      "title": "MS.MIL.XPND.CD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
       "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
+      "data_type": "structured_datasets",
       "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-06T15:08:57.962289+00:00",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-06T18:11:40.999745+00:00",
       "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "text_chars": 6187025,
+      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
+      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
       "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
       ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
       "keywords": [
         {
-          "name": "admin",
-          "value": 2
+          "name": "expenditure",
+          "value": 17556
         },
         {
-          "name": "areas",
-          "value": 2
+          "name": "military",
+          "value": 17556
         },
         {
-          "name": "disputed",
-          "value": 2
+          "name": "status",
+          "value": 17556
         },
         {
-          "name": "naciscdn",
-          "value": 2
+          "name": "unit",
+          "value": 17556
         },
         {
-          "name": "application",
-          "value": 1
+          "name": "income",
+          "value": 726
         },
         {
-          "name": "binary",
-          "value": 1
+          "name": "africa",
+          "value": 594
         },
         {
-          "name": "bytes",
-          "value": 1
+          "name": "islands",
+          "value": 594
         },
         {
-          "name": "collected",
-          "value": 1
+          "name": "asia",
+          "value": 528
         },
         {
-          "name": "content-type",
-          "value": 1
+          "name": "ibrd",
+          "value": 528
         },
         {
-          "name": "cultural",
-          "value": 1
+          "name": "middle",
+          "value": 462
         }
       ],
       "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
-      "id": "0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-06-06T13:11:05.373184+00:00",
-      "published": "",
-      "text_chars": 824888,
-      "raw_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.xml",
-      "text_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-      "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
-      ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 1476
-        },
-        {
-          "name": "security",
-          "value": 1473
-        },
-        {
-          "name": "interpol",
-          "value": 1239
-        },
-        {
-          "name": "resolution",
-          "value": 840
-        },
-        {
-          "name": "interpol-un",
-          "value": 683
-        },
-        {
-          "name": "afghanistan",
-          "value": 636
-        },
-        {
-          "name": "link",
-          "value": 612
-        },
-        {
-          "name": "republic",
-          "value": 539
-        },
-        {
-          "name": "al-qaida",
-          "value": 515
-        },
-        {
-          "name": "iraq",
-          "value": 480
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "War and Escalation",
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
+        "War and Escalation"
       ],
       "regions": [
         "Africa",
-        "Middle East",
-        "Global Institutions"
+        "Americas",
+        "Middle East"
       ],
-      "detail_path": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
-      "evidence_json": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.json"
+      "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
     },
     {
       "id": "5af4c211152fb57eaa35fe8f8599117e62cec24b3cbc245c48d80917c285ed12",
@@ -13891,6 +13902,74 @@
       "evidence_json": "/evidence/e126a44221fc7faaca5feccacb4137de994813262583247f025b4abedba9fd00.json"
     },
     {
+      "id": "e229116ecb8c9efaffc8934fa87aa5bf9c8c1a501e702dfc8482c793b50bbe39",
+      "topic": "geopolitics",
+      "title": "‘The ocean has no boundaries’: Beauty and life in a war zone (image)",
+      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/02-06-2026-OceanDay-DuShanshan.jpg/image560x340cropped.jpg",
+      "host": "global.unitednations.entermediadb.net",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "images",
+      "format": "Image",
+      "content_type": "image/jpeg",
+      "collected_at": "2026-06-06T17:01:42.492343+00:00",
+      "published": "Fri, 05 Jun 2026 12:00:00 +0000",
+      "text_chars": 436,
+      "raw_path": "data/geopolitics/raw/e229116ecb8c9efaffc8934fa87aa5bf9c8c1a501e702dfc8482c793b50bbe39.jpg",
+      "text_path": "data/geopolitics/raw/e229116ecb8c9efaffc8934fa87aa5bf9c8c1a501e702dfc8482c793b50bbe39.txt",
+      "summary": "Binary images source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Binary images source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: ‘The ocean has no boundaries’: Beauty and life in a war zone (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/02-06-2026-OceanDay-DuShanshan.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 34167",
+      "keywords": [
+        {
+          "name": "beauty",
+          "value": 2
+        },
+        {
+          "name": "boundaries",
+          "value": 2
+        },
+        {
+          "name": "entermediadb",
+          "value": 2
+        },
+        {
+          "name": "life",
+          "value": 2
+        },
+        {
+          "name": "ocean",
+          "value": 2
+        },
+        {
+          "name": "unitednations",
+          "value": 2
+        },
+        {
+          "name": "zone",
+          "value": 2
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        }
+      ],
+      "signals": [],
+      "regions": [],
+      "preview_asset": "/evidence-assets/e229116ecb8c9efaffc8934fa87aa5bf9c8c1a501e702dfc8482c793b50bbe39.jpg",
+      "detail_path": "/evidence/e229116ecb8c9efaffc8934fa87aa5bf9c8c1a501e702dfc8482c793b50bbe39",
+      "evidence_json": "/evidence/e229116ecb8c9efaffc8934fa87aa5bf9c8c1a501e702dfc8482c793b50bbe39.json"
+    },
+    {
       "id": "d75f99b3adad560343f24765f34c4e0760b2856c4af2f02583b3484299aad370",
       "topic": "geopolitics",
       "title": "World News in Brief: UN scales up Ebola response, refugees ‘exiled’ in Africa, Political tensions escalate in Somalia (image)",
@@ -15378,76 +15457,6 @@
       "preview_asset": "/evidence-assets/edc299cbc49e4551817ffecffad3aacac758dedfc232bcc344e78c54be174287.jpg",
       "detail_path": "/evidence/edc299cbc49e4551817ffecffad3aacac758dedfc232bcc344e78c54be174287",
       "evidence_json": "/evidence/edc299cbc49e4551817ffecffad3aacac758dedfc232bcc344e78c54be174287.json"
-    },
-    {
-      "id": "8ed98013c8cfb8e9f2dd2dba8f9e12a8136eeec333a626f5b608bf32bce24e30",
-      "topic": "geopolitics",
-      "title": "Ebola outbreak in DR Congo collides with conflict and hunger, WHO warns (image)",
-      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/26-05-2026-WHO-DR-Congo-04.jpg/image560x340cropped.jpg",
-      "host": "global.unitednations.entermediadb.net",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "data_type": "images",
-      "format": "Image",
-      "content_type": "image/jpeg",
-      "collected_at": "2026-05-27T14:22:45.344834+00:00",
-      "published": "Wed, 27 May 2026 12:00:00 +0000",
-      "text_chars": 443,
-      "raw_path": "data/geopolitics/raw/8ed98013c8cfb8e9f2dd2dba8f9e12a8136eeec333a626f5b608bf32bce24e30.jpg",
-      "text_path": "data/geopolitics/raw/8ed98013c8cfb8e9f2dd2dba8f9e12a8136eeec333a626f5b608bf32bce24e30.txt",
-      "summary": "Binary images source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Binary images source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: Ebola outbreak in DR Congo collides with conflict and hunger, WHO warns (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/26-05-2026-WHO-DR-Congo-04.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 23637",
-      "keywords": [
-        {
-          "name": "collides",
-          "value": 2
-        },
-        {
-          "name": "conflict",
-          "value": 2
-        },
-        {
-          "name": "congo",
-          "value": 2
-        },
-        {
-          "name": "ebola",
-          "value": 2
-        },
-        {
-          "name": "entermediadb",
-          "value": 2
-        },
-        {
-          "name": "hunger",
-          "value": 2
-        },
-        {
-          "name": "outbreak",
-          "value": 2
-        },
-        {
-          "name": "unitednations",
-          "value": 2
-        },
-        {
-          "name": "warns",
-          "value": 2
-        },
-        {
-          "name": "binary",
-          "value": 1
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa"
-      ],
-      "preview_asset": "/evidence-assets/8ed98013c8cfb8e9f2dd2dba8f9e12a8136eeec333a626f5b608bf32bce24e30.jpg",
-      "detail_path": "/evidence/8ed98013c8cfb8e9f2dd2dba8f9e12a8136eeec333a626f5b608bf32bce24e30",
-      "evidence_json": "/evidence/8ed98013c8cfb8e9f2dd2dba8f9e12a8136eeec333a626f5b608bf32bce24e30.json"
     }
   ],
   "cited_evidence": [],
@@ -15462,7 +15471,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-06T15:09:52.184074+00:00",
+      "collected_at": "2026-06-06T18:12:31.527841+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15543,7 +15552,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-06T15:09:44.627303+00:00",
+      "collected_at": "2026-06-06T18:12:30.014404+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -15615,6 +15624,79 @@
       "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
+      "id": "f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-06-06T18:12:23.765525+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.html",
+      "text_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
+      "evidence_json": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -15624,7 +15706,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-06T15:09:39.147459+00:00",
+      "collected_at": "2026-06-06T18:12:23.734301+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15696,77 +15778,154 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
       "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
       "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-06-06T15:09:34.791728+00:00",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-06T18:12:21.440466+00:00",
       "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.html",
-      "text_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
       "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
       ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
       "keywords": [
         {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
+          "name": "admin",
           "value": 2
         },
         {
-          "name": "classified",
+          "name": "areas",
           "value": 2
         },
         {
-          "name": "even",
+          "name": "disputed",
           "value": 2
         },
         {
-          "name": "some",
+          "name": "naciscdn",
           "value": 2
         },
         {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
+          "name": "application",
           "value": 1
         },
         {
-          "name": "added",
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
           "value": 1
         }
       ],
       "signals": [
-        "Sanctions and Finance"
+        "Territory and Chokepoints"
       ],
       "regions": [],
-      "detail_path": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
-      "evidence_json": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.json"
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
+      "id": "0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-06-06T18:12:21.383286+00:00",
+      "published": "",
+      "text_chars": 824888,
+      "raw_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.xml",
+      "text_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "bullets": [
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+      ],
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 1476
+        },
+        {
+          "name": "security",
+          "value": 1473
+        },
+        {
+          "name": "interpol",
+          "value": 1239
+        },
+        {
+          "name": "resolution",
+          "value": 840
+        },
+        {
+          "name": "interpol-un",
+          "value": 683
+        },
+        {
+          "name": "afghanistan",
+          "value": 636
+        },
+        {
+          "name": "link",
+          "value": 612
+        },
+        {
+          "name": "republic",
+          "value": 539
+        },
+        {
+          "name": "al-qaida",
+          "value": 515
+        },
+        {
+          "name": "iraq",
+          "value": 480
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
+      "evidence_json": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.json"
     },
     {
       "id": "864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2",
@@ -15778,7 +15937,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-06T15:09:34.688192+00:00",
+      "collected_at": "2026-06-06T18:12:17.590073+00:00",
       "published": "",
       "text_chars": 9076319,
       "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
@@ -15858,7 +16017,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-06T15:09:00.813657+00:00",
+      "collected_at": "2026-06-06T18:11:43.318245+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.xml",
@@ -15929,6 +16088,81 @@
       "evidence_json": "/evidence/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.json"
     },
     {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-06T18:11:41.278782+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
+    },
+    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -15938,7 +16172,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-06T15:08:58.600761+00:00",
+      "collected_at": "2026-06-06T18:11:40.999745+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -16006,229 +16240,83 @@
       "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
     },
     {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "id": "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
       "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-06T15:08:58.332675+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "title": "100 days into the war on Iran, Trump fails to rally US support",
+      "url": "https://www.aljazeera.com/news/2026/6/6/100-days-into-the-war-on-iran-trump-fails-to-rally-us-support?traffic_source=rss",
+      "host": "aljazeera.com",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-06-06T18:12:51.379110+00:00",
+      "published": "Sat, 06 Jun 2026 17:04:38 +0000",
+      "text_chars": 7922,
+      "raw_path": "data/geopolitics/raw/2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b.html",
+      "text_path": "data/geopolitics/raw/2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b.txt",
+      "summary": "Persisting blockades The US and Israel started bombing Iran on February 28, killing Supreme Leader Ali Khamenei and several top officials as well as hundreds of civilians. A truce was reached on April 6, but skirmishes have continued to break out in the Gulf, and the Iranian blockade in Hormuz has persisted. “What’s really clear is that few Americans think that this war with Iran serves American interests,” said Shibley Telhami, a professor of peace and development at the University of Maryland, who has conducted polling on the war.",
       "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+        "Persisting blockades The US and Israel started bombing Iran on February 28, killing Supreme Leader Ali Khamenei and several top officials as well as hundreds of civilians.",
+        "A truce was reached on April 6, but skirmishes have continued to break out in the Gulf, and the Iranian blockade in Hormuz has persisted.",
+        "“What’s really clear is that few Americans think that this war with Iran serves American interests,” said Shibley Telhami, a professor of peace and development at the University of Maryland, who has conducted polling on the war.",
+        "It also immediately shut down the Strait of Hormuz, a major shipping lane for energy products, sending oil and gas prices soaring.",
+        "Sunday marks 100 days into the war that the United States and Israel launched against Iran."
       ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "excerpt": "Sunday marks 100 days into the war that the United States and Israel launched against Iran. But as fighting and ceasefire negotiations continue to grind on, the conflict remains overwhelmingly unpopular among the US public, making it a political liability for President Donald Trump and his Republican Party. Recommended Stories list of 3 items end of list Even before the war started, public opinion polls showed that most Americans opposed bombing Iran. When the fighting began, the numbers did not improve, with many US voters perceiving the war as unnecessary and detrimental to the country. “What’s really clear is that few Americans think that this war with Iran serves American interests,” said Shibley Telhami, a professor of peace and development at the University of Maryland, who has conducted polling on the war. The lack of public backing for the war is consequential, experts say, because it could weaken Trump politically at home. Democrats are hoping to regain control of Congress in the midterm elections in November, which could derail Trump’s agenda for the rest of his presidency. A University of Maryland Critical Issues Poll suggested on Thursday that only 16 percent of US vote",
       "keywords": [
         {
-          "name": "arms",
-          "value": 17556
+          "name": "iran",
+          "value": 14
         },
         {
-          "name": "imports",
-          "value": 17556
+          "name": "trump",
+          "value": 14
         },
         {
-          "name": "sipri",
-          "value": 17556
+          "name": "telhami",
+          "value": 9
         },
         {
-          "name": "status",
-          "value": 17556
+          "name": "americans",
+          "value": 8
         },
         {
-          "name": "trend",
-          "value": 17556
+          "name": "percent",
+          "value": 8
         },
         {
-          "name": "unit",
-          "value": 17556
+          "name": "public",
+          "value": 8
         },
         {
-          "name": "values",
-          "value": 17556
+          "name": "republicans",
+          "value": 8
         },
         {
-          "name": "income",
-          "value": 726
+          "name": "think",
+          "value": 7
         },
         {
-          "name": "africa",
-          "value": 594
+          "name": "conflict",
+          "value": 6
         },
         {
-          "name": "islands",
-          "value": 594
+          "name": "voters",
+          "value": 6
         }
       ],
-      "signals": [],
+      "signals": [
+        "War and Escalation",
+        "Energy and Supply Chains",
+        "Diplomacy and Negotiations",
+        "Humanitarian Pressure"
+      ],
       "regions": [
-        "Africa",
         "Americas",
         "Middle East"
       ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-06T15:08:57.962289+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
-      "id": "0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-06-06T13:11:05.373184+00:00",
-      "published": "",
-      "text_chars": 824888,
-      "raw_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.xml",
-      "text_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-      "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
-      ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 1476
-        },
-        {
-          "name": "security",
-          "value": 1473
-        },
-        {
-          "name": "interpol",
-          "value": 1239
-        },
-        {
-          "name": "resolution",
-          "value": 840
-        },
-        {
-          "name": "interpol-un",
-          "value": 683
-        },
-        {
-          "name": "afghanistan",
-          "value": 636
-        },
-        {
-          "name": "link",
-          "value": 612
-        },
-        {
-          "name": "republic",
-          "value": 539
-        },
-        {
-          "name": "al-qaida",
-          "value": 515
-        },
-        {
-          "name": "iraq",
-          "value": 480
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "War and Escalation",
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Africa",
-        "Middle East",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
-      "evidence_json": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.json"
+      "detail_path": "/evidence/2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
+      "evidence_json": "/evidence/2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b.json"
     },
     {
       "id": "17e9ba41c5c8767cc391d38494ae217d666089f2c4b2c6b3055b6e910ab0f828",
@@ -18586,6 +18674,82 @@
       "evidence_json": "/evidence/130e9bdc5d5586a3f298294ed51bdf7a142088ee213db7e12bc57bc3089693a7.json"
     },
     {
+      "id": "3cf67af34b7c6b890fcf70a0b71f2efebffb73279c1bcf790248d7ef79cd2b36",
+      "topic": "geopolitics",
+      "title": "World News in Brief: Millions displaced in South Sudan, global meat supply quadruples, Middle East crisis deepens global hunger",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167668",
+      "host": "news.un.org",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-06T17:01:52.738025+00:00",
+      "published": "Fri, 05 Jun 2026 12:00:00 +0000",
+      "text_chars": 4377,
+      "raw_path": "data/geopolitics/raw/3cf67af34b7c6b890fcf70a0b71f2efebffb73279c1bcf790248d7ef79cd2b36.html",
+      "text_path": "data/geopolitics/raw/3cf67af34b7c6b890fcf70a0b71f2efebffb73279c1bcf790248d7ef79cd2b36.txt",
+      "summary": "With South Sudan’s rainy season now underway, the world’s youngest nation, which has faced repeated waves of conflict, displacement and climate shocks since independence in 2011, is likely to face flooding - another layer of hardship. At the same time, approximately 100,000 people have fled into neighbouring Ethiopia in search of safety, with population movements remaining fluid as thousands return home in recent weeks.",
+      "bullets": [
+        "With South Sudan’s rainy season now underway, the world’s youngest nation, which has faced repeated waves of conflict, displacement and climate shocks since independence in 2011, is likely to face flooding - another layer of hardship.",
+        "At the same time, approximately 100,000 people have fled into neighbouring Ethiopia in search of safety, with population movements remaining fluid as thousands return home in recent weeks.",
+        "The new WFP report focused on three countries with differing exposure to the supply chain bottleneck, found that an additional 2.5 million people in Somalia, 1.3 million in Sri Lanka and 2.3 million in Afghanistan are struggling to meet basic food needs and, in some cases, being pushed into acute hunger.",
+        "“We warned that this crisis could push millions more people into hunger; now we are watching it happen in real time.” said Jean-Martin Bauer, Director of WFP’s Food Security and Nutrition Analysis Service.",
+        "Fighting between the national army and the opposing Sudan People’s Liberation Movement militia, has intensified, particularly in Jonglei’s Akobo County – and civilians continue to bear the brunt."
+      ],
+      "excerpt": "Fighting between the national army and the opposing Sudan People’s Liberation Movement militia, has intensified, particularly in Jonglei’s Akobo County – and civilians continue to bear the brunt. Around 140,000 people have been displaced there alone, while more than 300,000 have been uprooted across Jonglei and neighbouring states since December last year – adding to nearly two million people internally displaced. At the same time, approximately 100,000 people have fled into neighbouring Ethiopia in search of safety, with population movements remaining fluid as thousands return home in recent weeks. Shelters made from sticks Many families are returning to find their homes destroyed, or looted, forcing them to cram into unfinished buildings and makeshift shelters made from sticks and plastic sheeting. Constrained humanitarian access across several locations has cut off the most vulnerable from critical aid, further deepening the crisis. With South Sudan’s rainy season now underway, the world’s youngest nation, which has faced repeated waves of conflict, displacement and climate shocks since independence in 2011, is likely to face flooding - another layer of hardship. Global meat sup",
+      "keywords": [
+        {
+          "name": "million",
+          "value": 12
+        },
+        {
+          "name": "food",
+          "value": 9
+        },
+        {
+          "name": "crisis",
+          "value": 6
+        },
+        {
+          "name": "meat",
+          "value": 6
+        },
+        {
+          "name": "supply",
+          "value": 6
+        },
+        {
+          "name": "tonnes",
+          "value": 6
+        },
+        {
+          "name": "world",
+          "value": 6
+        },
+        {
+          "name": "east",
+          "value": 5
+        },
+        {
+          "name": "hunger",
+          "value": 5
+        },
+        {
+          "name": "middle",
+          "value": 5
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Energy and Supply Chains"
+      ],
+      "regions": [
+        "Africa"
+      ],
+      "detail_path": "/evidence/3cf67af34b7c6b890fcf70a0b71f2efebffb73279c1bcf790248d7ef79cd2b36",
+      "evidence_json": "/evidence/3cf67af34b7c6b890fcf70a0b71f2efebffb73279c1bcf790248d7ef79cd2b36.json"
+    },
+    {
       "id": "987408d5dc67a6bde9402572c0ff04b46e6382aa7f432d106045f1bad268133c",
       "topic": "geopolitics",
       "title": "Lebanon crisis: needs soar as UN launches new funding appeal",
@@ -18732,6 +18896,74 @@
       "preview_asset": "/evidence-assets/e126a44221fc7faaca5feccacb4137de994813262583247f025b4abedba9fd00.jpg",
       "detail_path": "/evidence/e126a44221fc7faaca5feccacb4137de994813262583247f025b4abedba9fd00",
       "evidence_json": "/evidence/e126a44221fc7faaca5feccacb4137de994813262583247f025b4abedba9fd00.json"
+    },
+    {
+      "id": "e229116ecb8c9efaffc8934fa87aa5bf9c8c1a501e702dfc8482c793b50bbe39",
+      "topic": "geopolitics",
+      "title": "‘The ocean has no boundaries’: Beauty and life in a war zone (image)",
+      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/02-06-2026-OceanDay-DuShanshan.jpg/image560x340cropped.jpg",
+      "host": "global.unitednations.entermediadb.net",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "images",
+      "format": "Image",
+      "content_type": "image/jpeg",
+      "collected_at": "2026-06-06T17:01:42.492343+00:00",
+      "published": "Fri, 05 Jun 2026 12:00:00 +0000",
+      "text_chars": 436,
+      "raw_path": "data/geopolitics/raw/e229116ecb8c9efaffc8934fa87aa5bf9c8c1a501e702dfc8482c793b50bbe39.jpg",
+      "text_path": "data/geopolitics/raw/e229116ecb8c9efaffc8934fa87aa5bf9c8c1a501e702dfc8482c793b50bbe39.txt",
+      "summary": "Binary images source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Binary images source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: ‘The ocean has no boundaries’: Beauty and life in a war zone (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/02-06-2026-OceanDay-DuShanshan.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 34167",
+      "keywords": [
+        {
+          "name": "beauty",
+          "value": 2
+        },
+        {
+          "name": "boundaries",
+          "value": 2
+        },
+        {
+          "name": "entermediadb",
+          "value": 2
+        },
+        {
+          "name": "life",
+          "value": 2
+        },
+        {
+          "name": "ocean",
+          "value": 2
+        },
+        {
+          "name": "unitednations",
+          "value": 2
+        },
+        {
+          "name": "zone",
+          "value": 2
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        }
+      ],
+      "signals": [],
+      "regions": [],
+      "preview_asset": "/evidence-assets/e229116ecb8c9efaffc8934fa87aa5bf9c8c1a501e702dfc8482c793b50bbe39.jpg",
+      "detail_path": "/evidence/e229116ecb8c9efaffc8934fa87aa5bf9c8c1a501e702dfc8482c793b50bbe39",
+      "evidence_json": "/evidence/e229116ecb8c9efaffc8934fa87aa5bf9c8c1a501e702dfc8482c793b50bbe39.json"
     },
     {
       "id": "5d7a551842759ea03e686e05c1e261ea45ccbc6f099c6c341eb922b81de59583",
