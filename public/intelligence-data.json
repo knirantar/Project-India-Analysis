@@ -1,78 +1,89 @@
 {
-  "generated_at": "2026-06-06T20:07:42.930590+00:00",
+  "generated_at": "2026-06-06T22:00:21.932555+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
     "headline": "Escalating Tensions in the Middle East Amid Ongoing US-Iran Conflict",
     "executive_summary": [
-      "The ongoing conflict between the United States and Iran has intensified, with recent military exchanges threatening a fragile ceasefire. The US military intercepted Iranian drones and launched strikes against Iranian radar installations, prompting retaliatory missile attacks from Iran targeting US allies in the Gulf region. This escalation raises concerns about the stability of the Strait of Hormuz, a critical chokepoint for global oil shipments.",
-      "Public sentiment in the US regarding the war with Iran remains largely negative, with polls indicating that a significant majority of Americans view the conflict as detrimental to national interests. This lack of support poses a political risk for President Trump as he approaches midterm elections, with many voters expressing skepticism about the war's justification and effectiveness.",
-      "In parallel, humanitarian pressures are mounting as the conflict exacerbates food insecurity and displacement in the region. The UN has warned that millions could face acute hunger due to the ongoing war, highlighting the broader implications of military actions on civilian populations and global food supply chains.",
-      "As diplomatic efforts to stabilize the situation continue, the potential for further military escalation remains high. The US and Iran are engaged in complex negotiations, but recent hostilities suggest that achieving a lasting peace will be challenging amidst ongoing military operations and public discontent."
+      "The ongoing conflict between the United States and Iran has intensified, with recent military exchanges threatening a fragile ceasefire established after significant hostilities began. The US military intercepted Iranian drones and retaliated with strikes on Iranian radar installations, marking a significant escalation in hostilities (evidence id: 15).",
+      "Public sentiment in the US regarding the war has soured, with polls indicating widespread opposition to the conflict, which is perceived as detrimental to American interests. This discontent poses a political risk for President Trump as midterm elections approach (evidence id: 11).",
+      "The humanitarian impact of the conflict is severe, with the UN warning that millions could face acute hunger due to the war's escalation and its effects on global food and energy prices. The World Food Program has highlighted the correlation between rising energy costs and food insecurity (evidence id: 17).",
+      "In parallel, diplomatic efforts to stabilize the region are ongoing, but recent sanctions against Israeli settler groups and the investigation into Israel's treatment of activists reflect the complex geopolitical landscape that complicates peace negotiations (evidence id: 22)."
     ],
     "key_judgments": [
       {
-        "title": "US-Iran Military Exchanges Escalate",
-        "finding": "Recent military exchanges between the US and Iran have tested the fragile ceasefire, with the US intercepting Iranian drones and launching strikes against Iranian radar installations.",
+        "title": "Escalation of Military Engagement",
+        "finding": "The US and Iran have engaged in a series of military exchanges that threaten the ceasefire and regional stability.",
         "citations": [
-          "14",
-          "17",
-          "18"
+          "15",
+          "19"
         ]
       },
       {
-        "title": "Public Sentiment Against the War",
-        "finding": "Public opinion polls indicate that a majority of Americans oppose the war with Iran, viewing it as detrimental to US interests, which could impact President Trump's political standing.",
+        "title": "Public Opposition to the War",
+        "finding": "US public opinion is increasingly against the war with Iran, viewing it as a political liability for the Trump administration.",
         "citations": [
-          "10"
+          "11"
         ]
       },
       {
-        "title": "Humanitarian Crisis Worsens",
-        "finding": "The ongoing conflict is exacerbating humanitarian pressures, with millions at risk of acute hunger and significant displacement occurring in affected regions.",
+        "title": "Humanitarian Crisis Intensifying",
+        "finding": "The conflict is exacerbating humanitarian issues, with millions at risk of food insecurity due to rising energy prices linked to the war.",
         "citations": [
-          "16",
-          "25"
+          "17"
+        ]
+      },
+      {
+        "title": "Diplomatic Efforts Complicated by Sanctions",
+        "finding": "Recent sanctions against Israeli entities and investigations into their actions complicate diplomatic efforts in the region.",
+        "citations": [
+          "22"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The Middle East remains a focal point of geopolitical tension, particularly with the ongoing US-Iran conflict impacting regional stability and humanitarian conditions.",
+        "assessment": "The Middle East remains a focal point of geopolitical tension, particularly due to the US-Iran conflict and its implications for regional security and humanitarian conditions.",
         "citations": [
-          "14",
-          "16",
-          "18"
+          "15",
+          "17",
+          "22"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "Strait of Hormuz",
-        "why_it_matters": "The Strait of Hormuz is a critical chokepoint for global oil shipments, and any military escalation in the region could disrupt international energy supply chains.",
+        "label": "US-Iran Military Exchanges",
+        "why_it_matters": "Continued military exchanges could lead to a broader conflict, impacting regional stability and global energy markets.",
         "citations": [
-          "14",
-          "18"
+          "15",
+          "19"
         ]
       },
       {
-        "label": "US-Iran Negotiations",
-        "why_it_matters": "Ongoing negotiations between the US and Iran are crucial for achieving a lasting ceasefire and preventing further military escalation.",
+        "label": "Humanitarian Impact of the Conflict",
+        "why_it_matters": "The humanitarian crisis resulting from the conflict could lead to widespread instability and increased migration pressures in the region.",
         "citations": [
-          "10",
-          "14"
+          "17"
+        ]
+      },
+      {
+        "label": "Diplomatic Sanctions on Israel",
+        "why_it_matters": "Sanctions against Israeli entities may hinder peace negotiations and exacerbate tensions between Israel and Palestine.",
+        "citations": [
+          "22"
         ]
       }
     ],
     "caveats": [
-      "Limitations from source coverage"
+      "Limitations from source coverage may affect the comprehensiveness of the analysis."
     ]
   },
   "summary": {
-    "raw_documents": 742,
-    "total_text_chars": 129200282,
+    "raw_documents": 743,
+    "total_text_chars": 129203684,
     "sources": 32,
     "signals": 8,
     "regions": 6,
@@ -83,7 +94,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 538
+      "value": 539
     },
     {
       "name": "PDF",
@@ -117,7 +128,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 516
+      "value": 517
     },
     {
       "name": "pdfs",
@@ -183,7 +194,7 @@
     },
     {
       "name": "aljazeera.com",
-      "value": 55
+      "value": 56
     },
     {
       "name": "defensenews.com",
@@ -285,7 +296,7 @@
     },
     {
       "name": "iran",
-      "value": 1963
+      "value": 1966
     },
     {
       "name": "reliefweb",
@@ -297,7 +308,7 @@
     },
     {
       "name": "israel",
-      "value": 1504
+      "value": 1514
     },
     {
       "name": "humanitarian",
@@ -325,7 +336,7 @@
     },
     {
       "name": "trump",
-      "value": 1168
+      "value": 1172
     },
     {
       "name": "israeli",
@@ -463,11 +474,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 488,
+      "count": 489,
       "formats": [
         {
           "name": "Article",
-          "value": 405
+          "value": 406
         },
         {
           "name": "PDF",
@@ -487,6 +498,7 @@
         }
       ],
       "evidence_ids": [
+        "6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894",
         "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
         "17e9ba41c5c8767cc391d38494ae217d666089f2c4b2c6b3055b6e910ab0f828",
         "33e42af06f56127d2a1d0beb15610c2f6622193e2b6c50c86d04f5eb5ec82c3c",
@@ -495,11 +507,20 @@
         "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
         "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
         "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb",
-        "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
-        "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d"
+        "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893"
       ],
-      "summary": "Persisting blockades The US and Israel started bombing Iran on February 28, killing Supreme Leader Ali Khamenei and several top officials as well as hundreds of civilians. A truce was reached on April 6, but skirmishes have continued to break out in the Gulf, and the Iranian blockade in Hormuz has persisted. “What’s really clear is that few Americans think that this war with Iran serves American interests,” said Shibley Telhami, a professor of peace and development at the University of Maryland, who has conducted polling on the war. A technical issue has been detected on the UK navy’s flagship as it was docked in Norway, after the warship worked with Nato and the Joint Expeditionary Force (JEF), the government has said. “HMS Prince of Wales is currently conducting a port visit to Stavanger as part of the Carrier Strike Group’s deployment across the North Atlantic and Arctic, we expect her to set sail in the coming days,” an MoD spokesperson said. The oil tankers may still be stuck behind the strait of Hormuz as the conflict between the US, Israel and Iran flickers on, but for now, airlines continue to defy dire warnings of impending shortages which had stoked fears of a summer of chaos for European holidaymakers. Aviation leaders will converge in Brazil this weekend for the Iata AGM, the annual global airline summit, with the industry still, for the most part, looking resolutely skyward. Published on 06/06/2026 - 9:19 GMT+2 New military exchanges between the United States and Iran have tested the fragile ceasefire, threatening efforts to stabilise the Middle East and restore shipping through the strategically important Strait of Hormuz. ADVERTISEMENT ADVERTISEMENT The latest escalation began on Friday when the US military said it intercepted four Iranian drones heading towards the Strait of Hormuz before carrying out strikes against Iranian coastal radar installations in Goruk and on Qeshm Island.",
+      "summary": "Witkoff had been the lead negotiator in nuclear talks that preceded the initial US-Israeli attack on Iran in February. Washington has, for years, provided billions in military aid and weapons sales to Israel, including throughout the genocide in Gaza. US President Donald Trump and Israeli Prime Minister Netanyahu have publicly diverged in their approach to the war, which the US and Israel started on February 28. Persisting blockades The US and Israel started bombing Iran on February 28, killing Supreme Leader Ali Khamenei and several top officials as well as hundreds of civilians. A truce was reached on April 6, but skirmishes have continued to break out in the Gulf, and the Iranian blockade in Hormuz has persisted. “What’s really clear is that few Americans think that this war with Iran serves American interests,” said Shibley Telhami, a professor of peace and development at the University of Maryland, who has conducted polling on the war. A technical issue has been detected on the UK navy’s flagship as it was docked in Norway, after the warship worked with Nato and the Joint Expeditionary Force (JEF), the government has said. “HMS Prince of Wales is currently conducting a port visit to Stavanger as part of the Carrier Strike Group’s deployment across the North Atlantic and Arctic, we expect her to set sail in the coming days,” an MoD spokesperson said. The oil tankers may still be stuck behind the strait of Hormuz as the conflict between the US, Israel and Iran flickers on, but for now, airlines continue to defy dire warnings of impending shortages which had stoked fears of a summer of chaos for European holidaymakers. Aviation leaders will converge in Brazil this weekend for the Iata AGM, the annual global airline summit, with the industry still, for the most part, looking resolutely skyward.",
       "latest": [
+        {
+          "id": "6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894",
+          "title": "Pentagon said to raise threat level on Israel spying to ‘critical’",
+          "url": "https://www.aljazeera.com/news/2026/6/6/pentagon-said-to-raise-threat-level-on-israel-spying-to-critical?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-06-06T22:00:27.348434+00:00",
+          "published": "Sat, 06 Jun 2026 21:10:36 +0000",
+          "summary": "Witkoff had been the lead negotiator in nuclear talks that preceded the initial US-Israeli attack on Iran in February. Washington has, for years, provided billions in military aid and weapons sales to Israel, including throughout the genocide in Gaza. US President Donald Trump and Israeli Prime Minister Netanyahu have publicly diverged in their approach to the war, which the US and Israel started on February 28."
+        },
         {
           "id": "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
           "title": "100 days into the war on Iran, Trump fails to rally US support",
@@ -539,26 +560,16 @@
           "collected_at": "2026-06-06T09:21:56.070140+00:00",
           "published": "Sat, 06 Jun 2026 09:19:04 +0200",
           "summary": "Published on 06/06/2026 - 9:19 GMT+2 New military exchanges between the United States and Iran have tested the fragile ceasefire, threatening efforts to stabilise the Middle East and restore shipping through the strategically important Strait of Hormuz. ADVERTISEMENT ADVERTISEMENT The latest escalation began on Friday when the US military said it intercepted four Iranian drones heading towards the Strait of Hormuz before carrying out strikes against Iranian coastal radar installations in Goruk and on Qeshm Island."
-        },
-        {
-          "id": "a0e027855639f314ae4b62f9dbb91cc330614c0439d1306b9f50c9e523424188",
-          "title": "France to test its own AI-powered battlefield command in June NATO exercise",
-          "url": "https://www.defensenews.com/global/europe/2026/06/06/france-to-test-its-own-ai-powered-battlefield-command-in-june-nato-exercise/",
-          "host": "defensenews.com",
-          "format": "Article",
-          "collected_at": "2026-06-06T09:21:59.833864+00:00",
-          "published": "Sat, 06 Jun 2026 06:50:38 +0000",
-          "summary": "Palantir said Maven Smart System is “compliant with the principles of FMN” and that it is working with NATO toward official certification, in an emailed response to a request for comment. NATO military personnel started training with Palantir’s Maven Smart System in August 2025, the alliance’s first use of AI-enabled command and control software. France will deploy Arcadia during NATO’s Coalition Warrior Interoperability Exercise, or CWIX, a live exercise held in Poland June 8-26."
         }
       ]
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 418,
+      "count": 419,
       "formats": [
         {
           "name": "Article",
-          "value": 349
+          "value": 350
         },
         {
           "name": "PDF",
@@ -578,6 +589,7 @@
         }
       ],
       "evidence_ids": [
+        "6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894",
         "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
         "17e9ba41c5c8767cc391d38494ae217d666089f2c4b2c6b3055b6e910ab0f828",
         "39b7b011a1867d397a32fa062d8865d499ae971d0f50763661c44f1947409002",
@@ -586,11 +598,20 @@
         "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
         "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
         "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb",
-        "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
-        "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d"
+        "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893"
       ],
-      "summary": "Persisting blockades The US and Israel started bombing Iran on February 28, killing Supreme Leader Ali Khamenei and several top officials as well as hundreds of civilians. A truce was reached on April 6, but skirmishes have continued to break out in the Gulf, and the Iranian blockade in Hormuz has persisted. “What’s really clear is that few Americans think that this war with Iran serves American interests,” said Shibley Telhami, a professor of peace and development at the University of Maryland, who has conducted polling on the war. A technical issue has been detected on the UK navy’s flagship as it was docked in Norway, after the warship worked with Nato and the Joint Expeditionary Force (JEF), the government has said. “HMS Prince of Wales is currently conducting a port visit to Stavanger as part of the Carrier Strike Group’s deployment across the North Atlantic and Arctic, we expect her to set sail in the coming days,” an MoD spokesperson said. Finance Minister Bezalel Smotrich, a son of the settler movement, was sanctioned by the United Kingdom, Canada and several other countries for his alleged role in supporting or enabling violence in the West Bank, highlighting how the settlement project has the support of the highest echelons of the Israeli state. The oil tankers may still be stuck behind the strait of Hormuz as the conflict between the US, Israel and Iran flickers on, but for now, airlines continue to defy dire warnings of impending shortages which had stoked fears of a summer of chaos for European holidaymakers. Aviation leaders will converge in Brazil this weekend for the Iata AGM, the annual global airline summit, with the industry still, for the most part, looking resolutely skyward.",
+      "summary": "Witkoff had been the lead negotiator in nuclear talks that preceded the initial US-Israeli attack on Iran in February. Washington has, for years, provided billions in military aid and weapons sales to Israel, including throughout the genocide in Gaza. US President Donald Trump and Israeli Prime Minister Netanyahu have publicly diverged in their approach to the war, which the US and Israel started on February 28. Persisting blockades The US and Israel started bombing Iran on February 28, killing Supreme Leader Ali Khamenei and several top officials as well as hundreds of civilians. A truce was reached on April 6, but skirmishes have continued to break out in the Gulf, and the Iranian blockade in Hormuz has persisted. “What’s really clear is that few Americans think that this war with Iran serves American interests,” said Shibley Telhami, a professor of peace and development at the University of Maryland, who has conducted polling on the war. A technical issue has been detected on the UK navy’s flagship as it was docked in Norway, after the warship worked with Nato and the Joint Expeditionary Force (JEF), the government has said. “HMS Prince of Wales is currently conducting a port visit to Stavanger as part of the Carrier Strike Group’s deployment across the North Atlantic and Arctic, we expect her to set sail in the coming days,” an MoD spokesperson said. Finance Minister Bezalel Smotrich, a son of the settler movement, was sanctioned by the United Kingdom, Canada and several other countries for his alleged role in supporting or enabling violence in the West Bank, highlighting how the settlement project has the support of the highest echelons of the Israeli state.",
       "latest": [
+        {
+          "id": "6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894",
+          "title": "Pentagon said to raise threat level on Israel spying to ‘critical’",
+          "url": "https://www.aljazeera.com/news/2026/6/6/pentagon-said-to-raise-threat-level-on-israel-spying-to-critical?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-06-06T22:00:27.348434+00:00",
+          "published": "Sat, 06 Jun 2026 21:10:36 +0000",
+          "summary": "Witkoff had been the lead negotiator in nuclear talks that preceded the initial US-Israeli attack on Iran in February. Washington has, for years, provided billions in military aid and weapons sales to Israel, including throughout the genocide in Gaza. US President Donald Trump and Israeli Prime Minister Netanyahu have publicly diverged in their approach to the war, which the US and Israel started on February 28."
+        },
         {
           "id": "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
           "title": "100 days into the war on Iran, Trump fails to rally US support",
@@ -630,16 +651,6 @@
           "collected_at": "2026-06-06T09:21:51.362635+00:00",
           "published": "Sat, 06 Jun 2026 09:00:05 GMT",
           "summary": "The oil tankers may still be stuck behind the strait of Hormuz as the conflict between the US, Israel and Iran flickers on, but for now, airlines continue to defy dire warnings of impending shortages which had stoked fears of a summer of chaos for European holidaymakers. Aviation leaders will converge in Brazil this weekend for the Iata AGM, the annual global airline summit, with the industry still, for the most part, looking resolutely skyward."
-        },
-        {
-          "id": "6caf0d2bd5b31daaf8317d98803379f562dc1f01d5cae2306c2033e1c59d2067",
-          "title": "Iran and US exchange strikes in latest threat to fragile ceasefire",
-          "url": "http://www.euronews.com/2026/06/06/iran-and-us-exchange-strikes-in-latest-threat-to-fragile-ceasefire",
-          "host": "euronews.com",
-          "format": "Article",
-          "collected_at": "2026-06-06T09:21:56.070140+00:00",
-          "published": "Sat, 06 Jun 2026 09:19:04 +0200",
-          "summary": "Published on 06/06/2026 - 9:19 GMT+2 New military exchanges between the United States and Iran have tested the fragile ceasefire, threatening efforts to stabilise the Middle East and restore shipping through the strategically important Strait of Hormuz. ADVERTISEMENT ADVERTISEMENT The latest escalation began on Friday when the US military said it intercepted four Iranian drones heading towards the Strait of Hormuz before carrying out strikes against Iranian coastal radar installations in Goruk and on Qeshm Island."
         }
       ]
     },
@@ -1084,11 +1095,11 @@
     },
     {
       "name": "Sanctions and Finance",
-      "count": 110,
+      "count": 111,
       "formats": [
         {
           "name": "Article",
-          "value": 77
+          "value": 78
         },
         {
           "name": "Sanctions",
@@ -1108,6 +1119,7 @@
         }
       ],
       "evidence_ids": [
+        "6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894",
         "39b7b011a1867d397a32fa062d8865d499ae971d0f50763661c44f1947409002",
         "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
         "f7ea0a586aa629596f8642b793a0e7bb745d3dd33b1bcf346daadb665b6fc71a",
@@ -1116,11 +1128,20 @@
         "9ede79afb577c7c1a0701a5582ee8c226f8026365c283592278439a3502fa603",
         "ba35745b8ddfdbca2457d66b664fdcba009e47e37da4828c122c62032d5250c1",
         "1b9fcca492ef4d1b586d975c4f5739bc324a902b93975acf93f0490f6bf0b1d3",
-        "5091e72a64b3e59480ddbead493259555231313c9f38120f461f000fab80e45f",
-        "ab8f038116e94dc88ed3c4a521ab07395a6fd26f41be734b885f10d113d6e892"
+        "5091e72a64b3e59480ddbead493259555231313c9f38120f461f000fab80e45f"
       ],
-      "summary": "Finance Minister Bezalel Smotrich, a son of the settler movement, was sanctioned by the United Kingdom, Canada and several other countries for his alleged role in supporting or enabling violence in the West Bank, highlighting how the settlement project has the support of the highest echelons of the Israeli state. 06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high. \"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that has been an important force for political stability and economic progress in the Middle East,\" the statement said. LATIN AMERICA & THE CARIBBEAN Weekly Situation Update As of 5 June 2026 The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. CENTRAL AMERICA: FOOD INSECURITY Deteriorating dry conditions across the Dry Corridor are compounding food insecurity ahead of the critical primera planting season. Nothing.” On X, Republican senator Lindsey Graham said he was “very proud of my Republican colleagues for sticking together and making sure that Border Patrol and ICE (Immigration Customs and Enforcement) are fully funded”. “Tonight, Senate Republicans passed a rotten bill that makes their priorities painfully clear: more money for Donald Trump, more power for Donald Trump, and nothing to lower costs for working families,” Schumer said in a statement posted on X after the immigration reforcement funding bill passed.",
+      "summary": "Witkoff had been the lead negotiator in nuclear talks that preceded the initial US-Israeli attack on Iran in February. Washington has, for years, provided billions in military aid and weapons sales to Israel, including throughout the genocide in Gaza. US President Donald Trump and Israeli Prime Minister Netanyahu have publicly diverged in their approach to the war, which the US and Israel started on February 28. Finance Minister Bezalel Smotrich, a son of the settler movement, was sanctioned by the United Kingdom, Canada and several other countries for his alleged role in supporting or enabling violence in the West Bank, highlighting how the settlement project has the support of the highest echelons of the Israeli state. 06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high. \"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that has been an important force for political stability and economic progress in the Middle East,\" the statement said. LATIN AMERICA & THE CARIBBEAN Weekly Situation Update As of 5 June 2026 The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. CENTRAL AMERICA: FOOD INSECURITY Deteriorating dry conditions across the Dry Corridor are compounding food insecurity ahead of the critical primera planting season.",
       "latest": [
+        {
+          "id": "6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894",
+          "title": "Pentagon said to raise threat level on Israel spying to ‘critical’",
+          "url": "https://www.aljazeera.com/news/2026/6/6/pentagon-said-to-raise-threat-level-on-israel-spying-to-critical?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-06-06T22:00:27.348434+00:00",
+          "published": "Sat, 06 Jun 2026 21:10:36 +0000",
+          "summary": "Witkoff had been the lead negotiator in nuclear talks that preceded the initial US-Israeli attack on Iran in February. Washington has, for years, provided billions in military aid and weapons sales to Israel, including throughout the genocide in Gaza. US President Donald Trump and Israeli Prime Minister Netanyahu have publicly diverged in their approach to the war, which the US and Israel started on February 28."
+        },
         {
           "id": "39b7b011a1867d397a32fa062d8865d499ae971d0f50763661c44f1947409002",
           "title": "‘Badge of honour’: Israeli settlers shrug off global condemnation",
@@ -1160,16 +1181,6 @@
           "collected_at": "2026-06-05T13:52:31.648498+00:00",
           "published": "Fri, 05 Jun 2026 13:24:42 GMT",
           "summary": "Nothing.” On X, Republican senator Lindsey Graham said he was “very proud of my Republican colleagues for sticking together and making sure that Border Patrol and ICE (Immigration Customs and Enforcement) are fully funded”. “Tonight, Senate Republicans passed a rotten bill that makes their priorities painfully clear: more money for Donald Trump, more power for Donald Trump, and nothing to lower costs for working families,” Schumer said in a statement posted on X after the immigration reforcement funding bill passed."
-        },
-        {
-          "id": "83ff18d2f11c0a65f474c74ed3354040d40363d37b0f2aa02ce34b679d68483f",
-          "title": "US forces board sanctioned tanker in Indian Ocean, Pentagon says",
-          "url": "https://www.defensenews.com/news/your-military/2026/06/05/us-forces-board-sanctioned-tanker-in-indian-ocean-pentagon-says/",
-          "host": "defensenews.com",
-          "format": "Article",
-          "collected_at": "2026-06-05T13:52:32.387964+00:00",
-          "published": "Fri, 05 Jun 2026 12:49:44 +0000",
-          "summary": "Washington has imposed a blockade on Iran’s sea trade while Tehran has fired on ships to prevent them sailing through the Strait of Hormuz waterway at the entrance to the Middle ​East Gulf. forces conducted an interdiction of the sanctioned stateless oil tanker Davina overnight in the Indian Ocean, the U.S. sanctions in October 2024 for Iranian oil trading, according to ship tracking data."
         }
       ]
     }
@@ -1177,8 +1188,9 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 387,
+      "count": 388,
       "evidence_ids": [
+        "6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894",
         "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
         "17e9ba41c5c8767cc391d38494ae217d666089f2c4b2c6b3055b6e910ab0f828",
         "39b7b011a1867d397a32fa062d8865d499ae971d0f50763661c44f1947409002",
@@ -1189,8 +1201,7 @@
         "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb",
         "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d",
         "483b92ae8d8acb73e826bdb8dcc4f5311d50a755dd219e6a3c4852251abd1028",
-        "9fbe33305784d81ab17106f6d5b7717c0a6ae62867cd804f652cd5fa6daaf41a",
-        "390e0ce243b8aeabc4f56121add445bf8f3df1d1aeecd93c1f8b3d85961c1cbb"
+        "9fbe33305784d81ab17106f6d5b7717c0a6ae62867cd804f652cd5fa6daaf41a"
       ],
       "top_sources": [
         {
@@ -1203,7 +1214,7 @@
         },
         {
           "name": "aljazeera.com",
-          "value": 42
+          "value": 43
         },
         {
           "name": "global.unitednations.entermediadb.net",
@@ -1217,8 +1228,9 @@
     },
     {
       "name": "Americas",
-      "count": 338,
+      "count": 339,
       "evidence_ids": [
+        "6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894",
         "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
         "33e42af06f56127d2a1d0beb15610c2f6622193e2b6c50c86d04f5eb5ec82c3c",
         "6caf0d2bd5b31daaf8317d98803379f562dc1f01d5cae2306c2033e1c59d2067",
@@ -1229,8 +1241,7 @@
         "8e0faabd762f636d4a5879ee04b187bb4c3a53bcb1b96842d7fb798030084878",
         "c8d7776d3ef4c3251b24bc777ccad4cae639f258bdff5a62a81735c2d06e75e1",
         "e009129191b7c7a40d559cf345416d54e2b1dc2e2a00a0680f3645f84e4b29d8",
-        "37e07c4314f615c7c1e25dcdb6edd2f5cff533b2e11f95c1ad17ac7359dd1c2f",
-        "f7ea0a586aa629596f8642b793a0e7bb745d3dd33b1bcf346daadb665b6fc71a"
+        "37e07c4314f615c7c1e25dcdb6edd2f5cff533b2e11f95c1ad17ac7359dd1c2f"
       ],
       "top_sources": [
         {
@@ -1242,12 +1253,12 @@
           "value": 50
         },
         {
-          "name": "reliefweb.int",
+          "name": "aljazeera.com",
           "value": 38
         },
         {
-          "name": "aljazeera.com",
-          "value": 37
+          "name": "reliefweb.int",
+          "value": 38
         },
         {
           "name": "defensenews.com",
@@ -2399,6 +2410,84 @@
     }
   ],
   "latest_evidence": [
+    {
+      "id": "6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894",
+      "topic": "geopolitics",
+      "title": "Pentagon said to raise threat level on Israel spying to ‘critical’",
+      "url": "https://www.aljazeera.com/news/2026/6/6/pentagon-said-to-raise-threat-level-on-israel-spying-to-critical?traffic_source=rss",
+      "host": "aljazeera.com",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-06-06T22:00:27.348434+00:00",
+      "published": "Sat, 06 Jun 2026 21:10:36 +0000",
+      "text_chars": 3402,
+      "raw_path": "data/geopolitics/raw/6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894.html",
+      "text_path": "data/geopolitics/raw/6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894.txt",
+      "summary": "Witkoff had been the lead negotiator in nuclear talks that preceded the initial US-Israeli attack on Iran in February. Washington has, for years, provided billions in military aid and weapons sales to Israel, including throughout the genocide in Gaza. US President Donald Trump and Israeli Prime Minister Netanyahu have publicly diverged in their approach to the war, which the US and Israel started on February 28.",
+      "bullets": [
+        "Witkoff had been the lead negotiator in nuclear talks that preceded the initial US-Israeli attack on Iran in February.",
+        "Washington has, for years, provided billions in military aid and weapons sales to Israel, including throughout the genocide in Gaza.",
+        "US President Donald Trump and Israeli Prime Minister Netanyahu have publicly diverged in their approach to the war, which the US and Israel started on February 28.",
+        "Recommended Stories list of 3 items end of list The news outlets cited anonymous sources as saying the switch came in light of concerns over increasingly aggressive tactics related to the US-Israeli war with Iran.",
+        "Trump, on one hand, has repeatedly said he wants to bring the war to a close, amid mounting political pressure at home."
+      ],
+      "excerpt": "The Pentagon’s intelligence arm has raised the assessed threat level on Israeli spying from “high” to “critical” in recent weeks, according to US media. NBC News first broke news of the change on Friday, with The New York Times issuing its own report the following day. Recommended Stories list of 3 items end of list The news outlets cited anonymous sources as saying the switch came in light of concerns over increasingly aggressive tactics related to the US-Israeli war with Iran. They said the Pentagon’s Defense Intelligence Agency (DIA) had raised the alert level amid fears that Israel is increasingly attempting to surveil top US officials. The aim is allegedly to understand internal White House deliberations about ending the war. US President Donald Trump and Israeli Prime Minister Netanyahu have publicly diverged in their approach to the war, which the US and Israel started on February 28. Trump, on one hand, has repeatedly said he wants to bring the war to a close, amid mounting political pressure at home. Netanyahu, meanwhile, has called for war to resume, despite an April 8 ceasefire. The fighting has been mostly paused since the temporary truce was announced, but efforts to r",
+      "keywords": [
+        {
+          "name": "israel",
+          "value": 10
+        },
+        {
+          "name": "intelligence",
+          "value": 7
+        },
+        {
+          "name": "times",
+          "value": 5
+        },
+        {
+          "name": "york",
+          "value": 5
+        },
+        {
+          "name": "pentagon",
+          "value": 4
+        },
+        {
+          "name": "recent",
+          "value": 4
+        },
+        {
+          "name": "trump",
+          "value": 4
+        },
+        {
+          "name": "both",
+          "value": 3
+        },
+        {
+          "name": "cited",
+          "value": 3
+        },
+        {
+          "name": "iran",
+          "value": 3
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Sanctions and Finance"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas"
+      ],
+      "detail_path": "/evidence/6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894",
+      "evidence_json": "/evidence/6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894.json"
+    },
     {
       "id": "57f6fcd379c1f2f50b578f7b6193250ae4611108e7eed13ee291cd69cb2fe104",
       "topic": "geopolitics",
@@ -8567,86 +8656,6 @@
       ],
       "detail_path": "/evidence/787706f26dc8645c3a68c1c05c0cf0bbc5be52810a485913fc415a38245e10be",
       "evidence_json": "/evidence/787706f26dc8645c3a68c1c05c0cf0bbc5be52810a485913fc415a38245e10be.json"
-    },
-    {
-      "id": "4b2eaa8a4ce135f789dc144247606d035bc52ed444397522c79597487d4d8812",
-      "topic": "geopolitics",
-      "title": "Rubio says Trump to attend Nato meeting as ‘things need to be cleared up and fixed’ amid tension between US and allies – live",
-      "url": "https://www.theguardian.com/us-news/live/2026/jun/03/us-midterm-primaries-politics-donald-trump-california-governor-latest-news-updates",
-      "host": "theguardian.com",
-      "source": "https://www.theguardian.com/world/rss",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-06-03T18:20:42.286434+00:00",
-      "published": "Wed, 03 Jun 2026 18:09:41 GMT",
-      "text_chars": 15288,
-      "raw_path": "data/geopolitics/raw/4b2eaa8a4ce135f789dc144247606d035bc52ed444397522c79597487d4d8812.html",
-      "text_path": "data/geopolitics/raw/4b2eaa8a4ce135f789dc144247606d035bc52ed444397522c79597487d4d8812.txt",
-      "summary": "In April, he called the 77-year-old alliance a “paper tiger” and suggesting the US may consider leaving after Nato member countries ignored his call for military assistance to help reopen the strait of Hormuz. Trump has long criticized Nato but has escalated his rhetoric over the war in Iran. “I think the next meeting of Nato and Turkey in July is probably the most important meeting in Nato’s history, because there are some things here that need to be cleared up and fixed,” Rubio said on Wednesday.",
-      "bullets": [
-        "In April, he called the 77-year-old alliance a “paper tiger” and suggesting the US may consider leaving after Nato member countries ignored his call for military assistance to help reopen the strait of Hormuz.",
-        "Trump has long criticized Nato but has escalated his rhetoric over the war in Iran.",
-        "“I think the next meeting of Nato and Turkey in July is probably the most important meeting in Nato’s history, because there are some things here that need to be cleared up and fixed,” Rubio said on Wednesday.",
-        "Senior Democrats immediately said the move could doom a fragile bipartisan agreement to renew section 702 of the Foreign Intelligence Surveillance Act, which is due to expire next week.",
-        "“We are represented by the justice department.” Pressed again, he said only: “We will follow the instructions and the settlement.” Scott Bessent testifies at a hearing of the Senate committee on finance."
-      ],
-      "excerpt": "Rubio: Trump will attend Nato meeting in July Mario Rubio, the US secretary of state, told the House foreign affairs committee today that Donald Trump will be attending the Nato meeting of heads of state in Turkey next month. “The president himself will be attending,” Rubio said. Trump has long criticized Nato but has escalated his rhetoric over the war in Iran. In April, he called the 77-year-old alliance a “paper tiger” and suggesting the US may consider leaving after Nato member countries ignored his call for military assistance to help reopen the strait of Hormuz. “I think the next meeting of Nato and Turkey in July is probably the most important meeting in Nato’s history, because there are some things here that need to be cleared up and fixed,” Rubio said on Wednesday. Share Updated at 13.09 EDT Key events Senate Republicans formally drop Trump's $1bn ballroom funding from immigration bill Senate Republicans have officially dropped language providing up to $1bn for security upgrades to Donald Trump ’s proposed White House ballroom from the updated text for their immigration enforcement bill released today. GOP senators had already decided before the Memorial Day recess that th",
-      "keywords": [
-        {
-          "name": "rubio",
-          "value": 34
-        },
-        {
-          "name": "trump",
-          "value": 30
-        },
-        {
-          "name": "iran",
-          "value": 18
-        },
-        {
-          "name": "intelligence",
-          "value": 14
-        },
-        {
-          "name": "nato",
-          "value": 13
-        },
-        {
-          "name": "president",
-          "value": 11
-        },
-        {
-          "name": "donald",
-          "value": 10
-        },
-        {
-          "name": "foreign",
-          "value": 9
-        },
-        {
-          "name": "here",
-          "value": 9
-        },
-        {
-          "name": "israel",
-          "value": 9
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Diplomacy and Negotiations",
-        "Territory and Chokepoints",
-        "Sanctions and Finance"
-      ],
-      "regions": [
-        "Americas",
-        "Middle East",
-        "Europe and Russia"
-      ],
-      "detail_path": "/evidence/4b2eaa8a4ce135f789dc144247606d035bc52ed444397522c79597487d4d8812",
-      "evidence_json": "/evidence/4b2eaa8a4ce135f789dc144247606d035bc52ed444397522c79597487d4d8812.json"
     }
   ],
   "deep_reads": [
@@ -8660,7 +8669,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-06T20:07:32.312457+00:00",
+      "collected_at": "2026-06-06T22:00:18.411509+00:00",
       "published": "",
       "text_chars": 9076319,
       "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
@@ -9460,7 +9469,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-06T20:06:59.865453+00:00",
+      "collected_at": "2026-06-06T21:59:42.624725+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -9535,7 +9544,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-06T20:07:00.162825+00:00",
+      "collected_at": "2026-06-06T21:59:42.880549+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -10492,7 +10501,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-06T18:12:21.383286+00:00",
+      "collected_at": "2026-06-06T21:59:45.459342+00:00",
       "published": "",
       "text_chars": 824888,
       "raw_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.xml",
@@ -10885,87 +10894,6 @@
   ],
   "documents": [
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-06T20:07:42.930590+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -10975,7 +10903,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-06T20:07:37.725407+00:00",
+      "collected_at": "2026-06-06T22:00:21.932555+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -11047,6 +10975,76 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-06T22:00:20.353816+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -11056,7 +11054,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-06T20:07:36.894898+00:00",
+      "collected_at": "2026-06-06T22:00:20.307986+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11137,7 +11135,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-06T20:07:32.405094+00:00",
+      "collected_at": "2026-06-06T22:00:18.530667+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.html",
@@ -11210,7 +11208,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-06T20:07:32.312457+00:00",
+      "collected_at": "2026-06-06T22:00:18.411509+00:00",
       "published": "",
       "text_chars": 9076319,
       "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
@@ -11290,7 +11288,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-06T20:07:01.996910+00:00",
+      "collected_at": "2026-06-06T21:59:46.816567+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.xml",
@@ -11361,74 +11359,84 @@
       "evidence_json": "/evidence/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "id": "0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
       "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
       "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-06T20:07:00.205434+00:00",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-06-06T21:59:45.459342+00:00",
       "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "text_chars": 824888,
+      "raw_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.xml",
+      "text_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
       "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
       ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
       "keywords": [
         {
-          "name": "admin",
-          "value": 2
+          "name": "council",
+          "value": 1476
         },
         {
-          "name": "areas",
-          "value": 2
+          "name": "security",
+          "value": 1473
         },
         {
-          "name": "disputed",
-          "value": 2
+          "name": "interpol",
+          "value": 1239
         },
         {
-          "name": "naciscdn",
-          "value": 2
+          "name": "resolution",
+          "value": 840
         },
         {
-          "name": "application",
-          "value": 1
+          "name": "interpol-un",
+          "value": 683
         },
         {
-          "name": "binary",
-          "value": 1
+          "name": "afghanistan",
+          "value": 636
         },
         {
-          "name": "bytes",
-          "value": 1
+          "name": "link",
+          "value": 612
         },
         {
-          "name": "collected",
-          "value": 1
+          "name": "republic",
+          "value": 539
         },
         {
-          "name": "content-type",
-          "value": 1
+          "name": "al-qaida",
+          "value": 515
         },
         {
-          "name": "cultural",
-          "value": 1
+          "name": "iraq",
+          "value": 480
         }
       ],
       "signals": [
-        "Territory and Chokepoints"
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
       ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
+      "evidence_json": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.json"
     },
     {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
@@ -11440,7 +11448,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-06T20:07:00.162825+00:00",
+      "collected_at": "2026-06-06T21:59:42.880549+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -11517,7 +11525,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-06T20:06:59.865453+00:00",
+      "collected_at": "2026-06-06T21:59:42.624725+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -11583,84 +11591,85 @@
       "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
     },
     {
-      "id": "0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
       "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-06-06T18:12:21.383286+00:00",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-06T20:07:42.930590+00:00",
       "published": "",
-      "text_chars": 824888,
-      "raw_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.xml",
-      "text_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
       "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
       ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
       "keywords": [
         {
-          "name": "council",
-          "value": 1476
+          "name": "power",
+          "value": 596
         },
         {
-          "name": "security",
-          "value": 1473
+          "name": "convention",
+          "value": 551
         },
         {
-          "name": "interpol",
-          "value": 1239
+          "name": "prisoners",
+          "value": 512
         },
         {
-          "name": "resolution",
-          "value": 840
+          "name": "parties",
+          "value": 284
         },
         {
-          "name": "interpol-un",
-          "value": 683
+          "name": "conflict",
+          "value": 267
         },
         {
-          "name": "afghanistan",
-          "value": 636
+          "name": "detaining",
+          "value": 266
         },
         {
-          "name": "link",
-          "value": 612
+          "name": "medical",
+          "value": 249
         },
         {
-          "name": "republic",
-          "value": 539
+          "name": "provisions",
+          "value": 209
         },
         {
-          "name": "al-qaida",
-          "value": 515
+          "name": "powers",
+          "value": 205
         },
         {
-          "name": "iraq",
-          "value": 480
+          "name": "geneva",
+          "value": 201
         }
       ],
       "signals": [
-        "Institutions and Law",
-        "War and Escalation",
         "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
       ],
       "regions": [
-        "Africa",
-        "Middle East",
+        "Americas",
+        "Europe and Russia",
         "Global Institutions"
       ],
-      "detail_path": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
-      "evidence_json": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.json"
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
       "id": "5af4c211152fb57eaa35fe8f8599117e62cec24b3cbc245c48d80917c285ed12",
@@ -15430,6 +15439,781 @@
   "cited_evidence": [],
   "evidence": [
     {
+      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "topic": "geopolitics",
+      "title": "United Nations Charter",
+      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
+      "host": "treaties.un.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-06T22:00:21.932555+00:00",
+      "published": "",
+      "text_chars": 89992,
+      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
+      "summary": "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
+      "bullets": [
+        "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
+        "Article 5 / A Member of the United Nations against which preventive or enforcement action has been taken by the Security Council may be suspended from the exercise of the rights and privileges of mem- bership by the General Assembly upon the recom- mendation of the Security Council.",
+        "Article 6 A Member of the United Nations which has persistently violated the Principles contained in the present Charter may be expelled from the Organization by the General Assembly upon the recommendation of the Security Council.",
+        "Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
+        "CHAPTER I PURPOSES AND PRINCIPLES Article 1 The^Purposes of the United Nations are: 1."
+      ],
+      "excerpt": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 160
+        },
+        {
+          "name": "court",
+          "value": 155
+        },
+        {
+          "name": "security",
+          "value": 148
+        },
+        {
+          "name": "united",
+          "value": 127
+        },
+        {
+          "name": "nations",
+          "value": 121
+        },
+        {
+          "name": "members",
+          "value": 116
+        },
+        {
+          "name": "general",
+          "value": 94
+        },
+        {
+          "name": "assembly",
+          "value": 83
+        },
+        {
+          "name": "international",
+          "value": 79
+        },
+        {
+          "name": "member",
+          "value": 59
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "detail_path": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-06T22:00:20.353816+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
+      "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
+      "topic": "geopolitics",
+      "title": "UN Peacekeeping Capstone Doctrine",
+      "url": "https://peacekeeping.un.org/sites/default/files/capstone_eng_0.pdf",
+      "host": "peacekeeping.un.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-06T22:00:20.307986+00:00",
+      "published": "",
+      "text_chars": 174117,
+      "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
+      "text_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.txt",
+      "summary": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
+      "bullets": [
+        "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
+        "During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
+        "United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
+        "During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
+        "Guéhenno, USG/DPKO Approved on 18 January 2008 Contact: PBPS/D-PET Review date: January 2010 © United Nations 2008."
+      ],
+      "excerpt": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines United Nations Peacekeeping Operat",
+      "keywords": [
+        {
+          "name": "nations",
+          "value": 574
+        },
+        {
+          "name": "united",
+          "value": 570
+        },
+        {
+          "name": "peacekeeping",
+          "value": 400
+        },
+        {
+          "name": "operations",
+          "value": 263
+        },
+        {
+          "name": "mission",
+          "value": 208
+        },
+        {
+          "name": "security",
+          "value": 171
+        },
+        {
+          "name": "peace",
+          "value": 160
+        },
+        {
+          "name": "operation",
+          "value": 151
+        },
+        {
+          "name": "should",
+          "value": 104
+        },
+        {
+          "name": "support",
+          "value": 100
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Global Institutions",
+        "Europe and Russia",
+        "Africa"
+      ],
+      "file_asset": "/evidence-files/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
+      "detail_path": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
+      "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
+    },
+    {
+      "id": "f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-06-06T22:00:18.530667+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.html",
+      "text_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
+      "evidence_json": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.json"
+    },
+    {
+      "id": "864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2",
+      "topic": "geopolitics",
+      "title": "OFAC Specially Designated Nationals List",
+      "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
+      "host": "treasury.gov",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "text/xml",
+      "collected_at": "2026-06-06T22:00:18.411509+00:00",
+      "published": "",
+      "text_chars": 9076319,
+      "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
+      "text_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.txt",
+      "summary": "6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg.",
+      "bullets": [
+        "6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A.",
+        "strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg.",
+        "Entity CUBA 357 Buenos Aires Argentina 590 CUBACANCUN CIGARS AND GIFT SHOPS Entity CUBA 358 Cancun Mexico 591 CUBAEXPORT Entity CUBA 359 Spain 592 CUBAFRUTAS Entity CUBA 360 Spain 593 CUBAN CIGARS TRADE Entity CUBA 361 Italy 621 CUBANATUR Entity CUBA 362 Baja California 255, Edificio B.",
+        "11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A.",
+        "06500 Mexico 622 CUBATABACO Entity CUBA 363 Spain 636 CUMEXINT, S.A."
+      ],
+      "excerpt": "06/05/2026 19056 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity CUBA 219 a.k.a. weak BNC 220 a.k.a. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg. 6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. Entity CUBA 276 Panama City Panama 535 CIMEX Entity CUBA 317 Emerson No. 148 Piso 7 Mexico, D.F. 11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A. Entity CUBA 319 Panama 540 COMERCIAL IBEROAMERICANA, S.A. Entity CUBA 471 a.k.a. strong COIBA 321 Spain 551 COMERCIAL CIMEX, S.A. Entity CUBA 328 Panama 552 COMERCIAL DE RODAJES Y MAQUINARIA, S.A. Entity CUBA 475 a.k.a. strong CRYMSA 329 Jose Lazaro Galdeano 6-6 Madrid 28016 Spain 555 COMERCIALIZACION DE PRODUCTOS VARIOS Enti",
+      "keywords": [
+        {
+          "name": "sanctions",
+          "value": 19819
+        },
+        {
+          "name": "russia",
+          "value": 16751
+        },
+        {
+          "name": "executive",
+          "value": 13348
+        },
+        {
+          "name": "order",
+          "value": 13307
+        },
+        {
+          "name": "risk",
+          "value": 11407
+        },
+        {
+          "name": "entity",
+          "value": 9997
+        },
+        {
+          "name": "russia-eo",
+          "value": 6388
+        },
+        {
+          "name": "iran",
+          "value": 6114
+        },
+        {
+          "name": "gender",
+          "value": 5345
+        },
+        {
+          "name": "mexico",
+          "value": 4934
+        }
+      ],
+      "signals": [
+        "Energy and Supply Chains",
+        "Sanctions and Finance",
+        "Territory and Chokepoints",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Americas"
+      ],
+      "detail_path": "/evidence/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2",
+      "evidence_json": "/evidence/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.json"
+    },
+    {
+      "id": "53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
+      "host": "treasury.gov",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "text/xml",
+      "collected_at": "2026-06-06T21:59:46.816567+00:00",
+      "published": "",
+      "text_chars": 392158,
+      "raw_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.xml",
+      "text_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.txt",
+      "summary": "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a. strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
+      "bullets": [
+        "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a.",
+        "strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a.",
+        "strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
+        "strong HASAN DOUKHAN Abdul Fattah 4709 1936 true 9649 Ibrahim Mohammed DAHBOUR Individual NS-PLC 12132 Jenin West Bank Palestinian 4710 1968 true 9650 Mariam Mahmoud SALEH Individual NS-PLC 12133 Ramallah West Bank Palestinian 4711 1952 true 9651 Fathi Mohammed QAR'AWI Individual NS-PLC 9162 a.k.a.",
+        "strong NAWFAL Imad Mahmoud 12136 Qalqilya West Bank Palestinian 4716 1970 true 9654 Omar Mahmoud MATAR Individual NS-PLC 12137 Salfit West Bank Palestinian 4717 1958 true 9655 Muna Salim Saleh MANSOUR Individual NS-PLC 9165 a.k.a."
+      ],
+      "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Mohammad Mahmoud 4698 1951 true 4699 Umm Tuba true 9641 Jamileh Abdullah AL-SHANTI Individual NS-PLC 9154 a.k.a. strong EL-SHANTI Jameela Abdallah 9155 a.k.a. strong AL SHANTEE Jamila Abed Allah 12128 Gaza Palestinian 4700 1955 true 4701 Jabalia Camp true 9642 Mohammed Jamal NU'MAN ALAEDDIN Individual NS-PLC 9156 a.k.a. strong ALA AL DIN Mohamad Nouman 9157 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a. strong RABBAI Khalil Mussa 4705 1959 true 9645 Huda Naim AL-QREINAWI Individual NS-PLC 9159 a.k.a. strong AL QRENAWI Houda Naim 12130 Gaza Palestinian 4706 1969 true 9646 Mahmoud Ahmad AL-RAMAHI Individual NS-PLC 12131 Ramallah West Bank Palestinian 4707 1963 true 9647 Mahmoud Khaled ZAHHAR Individual (Linked To: HAMAS) NS-PLC SDGT 16681",
+      "keywords": [
+        {
+          "name": "sanctions",
+          "value": 942
+        },
+        {
+          "name": "russia",
+          "value": 663
+        },
+        {
+          "name": "ukraine",
+          "value": 565
+        },
+        {
+          "name": "executive",
+          "value": 440
+        },
+        {
+          "name": "order",
+          "value": 439
+        },
+        {
+          "name": "entity",
+          "value": 383
+        },
+        {
+          "name": "risk",
+          "value": 372
+        },
+        {
+          "name": "information",
+          "value": 370
+        },
+        {
+          "name": "subject",
+          "value": 323
+        },
+        {
+          "name": "treasury",
+          "value": 313
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868",
+      "evidence_json": "/evidence/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.json"
+    },
+    {
+      "id": "0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-06-06T21:59:45.459342+00:00",
+      "published": "",
+      "text_chars": 824888,
+      "raw_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.xml",
+      "text_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "bullets": [
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+      ],
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 1476
+        },
+        {
+          "name": "security",
+          "value": 1473
+        },
+        {
+          "name": "interpol",
+          "value": 1239
+        },
+        {
+          "name": "resolution",
+          "value": 840
+        },
+        {
+          "name": "interpol-un",
+          "value": 683
+        },
+        {
+          "name": "afghanistan",
+          "value": 636
+        },
+        {
+          "name": "link",
+          "value": 612
+        },
+        {
+          "name": "republic",
+          "value": 539
+        },
+        {
+          "name": "al-qaida",
+          "value": 515
+        },
+        {
+          "name": "iraq",
+          "value": 480
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
+      "evidence_json": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.json"
+    },
+    {
+      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "topic": "geopolitics",
+      "title": "MS.MIL.XPND.CD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-06T21:59:42.880549+00:00",
+      "published": "",
+      "text_chars": 6187025,
+      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
+      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
+      "keywords": [
+        {
+          "name": "expenditure",
+          "value": 17556
+        },
+        {
+          "name": "military",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        },
+        {
+          "name": "asia",
+          "value": 528
+        },
+        {
+          "name": "ibrd",
+          "value": 528
+        },
+        {
+          "name": "middle",
+          "value": 462
+        }
+      ],
+      "signals": [
+        "War and Escalation"
+      ],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-06T21:59:42.624725+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
+    },
+    {
+      "id": "6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894",
+      "topic": "geopolitics",
+      "title": "Pentagon said to raise threat level on Israel spying to ‘critical’",
+      "url": "https://www.aljazeera.com/news/2026/6/6/pentagon-said-to-raise-threat-level-on-israel-spying-to-critical?traffic_source=rss",
+      "host": "aljazeera.com",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-06-06T22:00:27.348434+00:00",
+      "published": "Sat, 06 Jun 2026 21:10:36 +0000",
+      "text_chars": 3402,
+      "raw_path": "data/geopolitics/raw/6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894.html",
+      "text_path": "data/geopolitics/raw/6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894.txt",
+      "summary": "Witkoff had been the lead negotiator in nuclear talks that preceded the initial US-Israeli attack on Iran in February. Washington has, for years, provided billions in military aid and weapons sales to Israel, including throughout the genocide in Gaza. US President Donald Trump and Israeli Prime Minister Netanyahu have publicly diverged in their approach to the war, which the US and Israel started on February 28.",
+      "bullets": [
+        "Witkoff had been the lead negotiator in nuclear talks that preceded the initial US-Israeli attack on Iran in February.",
+        "Washington has, for years, provided billions in military aid and weapons sales to Israel, including throughout the genocide in Gaza.",
+        "US President Donald Trump and Israeli Prime Minister Netanyahu have publicly diverged in their approach to the war, which the US and Israel started on February 28.",
+        "Recommended Stories list of 3 items end of list The news outlets cited anonymous sources as saying the switch came in light of concerns over increasingly aggressive tactics related to the US-Israeli war with Iran.",
+        "Trump, on one hand, has repeatedly said he wants to bring the war to a close, amid mounting political pressure at home."
+      ],
+      "excerpt": "The Pentagon’s intelligence arm has raised the assessed threat level on Israeli spying from “high” to “critical” in recent weeks, according to US media. NBC News first broke news of the change on Friday, with The New York Times issuing its own report the following day. Recommended Stories list of 3 items end of list The news outlets cited anonymous sources as saying the switch came in light of concerns over increasingly aggressive tactics related to the US-Israeli war with Iran. They said the Pentagon’s Defense Intelligence Agency (DIA) had raised the alert level amid fears that Israel is increasingly attempting to surveil top US officials. The aim is allegedly to understand internal White House deliberations about ending the war. US President Donald Trump and Israeli Prime Minister Netanyahu have publicly diverged in their approach to the war, which the US and Israel started on February 28. Trump, on one hand, has repeatedly said he wants to bring the war to a close, amid mounting political pressure at home. Netanyahu, meanwhile, has called for war to resume, despite an April 8 ceasefire. The fighting has been mostly paused since the temporary truce was announced, but efforts to r",
+      "keywords": [
+        {
+          "name": "israel",
+          "value": 10
+        },
+        {
+          "name": "intelligence",
+          "value": 7
+        },
+        {
+          "name": "times",
+          "value": 5
+        },
+        {
+          "name": "york",
+          "value": 5
+        },
+        {
+          "name": "pentagon",
+          "value": 4
+        },
+        {
+          "name": "recent",
+          "value": 4
+        },
+        {
+          "name": "trump",
+          "value": 4
+        },
+        {
+          "name": "both",
+          "value": 3
+        },
+        {
+          "name": "cited",
+          "value": 3
+        },
+        {
+          "name": "iran",
+          "value": 3
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Sanctions and Finance"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas"
+      ],
+      "detail_path": "/evidence/6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894",
+      "evidence_json": "/evidence/6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894.json"
+    },
+    {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
       "title": "ICRC International Humanitarian Law Handbook",
@@ -15511,623 +16295,6 @@
       "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
-      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "topic": "geopolitics",
-      "title": "United Nations Charter",
-      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
-      "host": "treaties.un.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-06T20:07:37.725407+00:00",
-      "published": "",
-      "text_chars": 89992,
-      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
-      "summary": "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
-      "bullets": [
-        "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
-        "Article 5 / A Member of the United Nations against which preventive or enforcement action has been taken by the Security Council may be suspended from the exercise of the rights and privileges of mem- bership by the General Assembly upon the recom- mendation of the Security Council.",
-        "Article 6 A Member of the United Nations which has persistently violated the Principles contained in the present Charter may be expelled from the Organization by the General Assembly upon the recommendation of the Security Council.",
-        "Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
-        "CHAPTER I PURPOSES AND PRINCIPLES Article 1 The^Purposes of the United Nations are: 1."
-      ],
-      "excerpt": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 160
-        },
-        {
-          "name": "court",
-          "value": 155
-        },
-        {
-          "name": "security",
-          "value": 148
-        },
-        {
-          "name": "united",
-          "value": 127
-        },
-        {
-          "name": "nations",
-          "value": 121
-        },
-        {
-          "name": "members",
-          "value": 116
-        },
-        {
-          "name": "general",
-          "value": 94
-        },
-        {
-          "name": "assembly",
-          "value": 83
-        },
-        {
-          "name": "international",
-          "value": 79
-        },
-        {
-          "name": "member",
-          "value": 59
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation",
-        "Humanitarian Pressure"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "detail_path": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
-    },
-    {
-      "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
-      "topic": "geopolitics",
-      "title": "UN Peacekeeping Capstone Doctrine",
-      "url": "https://peacekeeping.un.org/sites/default/files/capstone_eng_0.pdf",
-      "host": "peacekeeping.un.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-06T20:07:36.894898+00:00",
-      "published": "",
-      "text_chars": 174117,
-      "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
-      "text_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.txt",
-      "summary": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
-      "bullets": [
-        "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
-        "During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
-        "United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
-        "During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
-        "Guéhenno, USG/DPKO Approved on 18 January 2008 Contact: PBPS/D-PET Review date: January 2010 © United Nations 2008."
-      ],
-      "excerpt": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines United Nations Peacekeeping Operat",
-      "keywords": [
-        {
-          "name": "nations",
-          "value": 574
-        },
-        {
-          "name": "united",
-          "value": 570
-        },
-        {
-          "name": "peacekeeping",
-          "value": 400
-        },
-        {
-          "name": "operations",
-          "value": 263
-        },
-        {
-          "name": "mission",
-          "value": 208
-        },
-        {
-          "name": "security",
-          "value": 171
-        },
-        {
-          "name": "peace",
-          "value": 160
-        },
-        {
-          "name": "operation",
-          "value": 151
-        },
-        {
-          "name": "should",
-          "value": 104
-        },
-        {
-          "name": "support",
-          "value": 100
-        }
-      ],
-      "signals": [
-        "Diplomacy and Negotiations",
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Global Institutions",
-        "Europe and Russia",
-        "Africa"
-      ],
-      "file_asset": "/evidence-files/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
-      "detail_path": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
-      "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
-    },
-    {
-      "id": "f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-06-06T20:07:32.405094+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.html",
-      "text_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
-      "evidence_json": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.json"
-    },
-    {
-      "id": "864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2",
-      "topic": "geopolitics",
-      "title": "OFAC Specially Designated Nationals List",
-      "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
-      "host": "treasury.gov",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "text/xml",
-      "collected_at": "2026-06-06T20:07:32.312457+00:00",
-      "published": "",
-      "text_chars": 9076319,
-      "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
-      "text_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.txt",
-      "summary": "6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg.",
-      "bullets": [
-        "6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A.",
-        "strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg.",
-        "Entity CUBA 357 Buenos Aires Argentina 590 CUBACANCUN CIGARS AND GIFT SHOPS Entity CUBA 358 Cancun Mexico 591 CUBAEXPORT Entity CUBA 359 Spain 592 CUBAFRUTAS Entity CUBA 360 Spain 593 CUBAN CIGARS TRADE Entity CUBA 361 Italy 621 CUBANATUR Entity CUBA 362 Baja California 255, Edificio B.",
-        "11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A.",
-        "06500 Mexico 622 CUBATABACO Entity CUBA 363 Spain 636 CUMEXINT, S.A."
-      ],
-      "excerpt": "06/05/2026 19056 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity CUBA 219 a.k.a. weak BNC 220 a.k.a. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg. 6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. Entity CUBA 276 Panama City Panama 535 CIMEX Entity CUBA 317 Emerson No. 148 Piso 7 Mexico, D.F. 11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A. Entity CUBA 319 Panama 540 COMERCIAL IBEROAMERICANA, S.A. Entity CUBA 471 a.k.a. strong COIBA 321 Spain 551 COMERCIAL CIMEX, S.A. Entity CUBA 328 Panama 552 COMERCIAL DE RODAJES Y MAQUINARIA, S.A. Entity CUBA 475 a.k.a. strong CRYMSA 329 Jose Lazaro Galdeano 6-6 Madrid 28016 Spain 555 COMERCIALIZACION DE PRODUCTOS VARIOS Enti",
-      "keywords": [
-        {
-          "name": "sanctions",
-          "value": 19819
-        },
-        {
-          "name": "russia",
-          "value": 16751
-        },
-        {
-          "name": "executive",
-          "value": 13348
-        },
-        {
-          "name": "order",
-          "value": 13307
-        },
-        {
-          "name": "risk",
-          "value": 11407
-        },
-        {
-          "name": "entity",
-          "value": 9997
-        },
-        {
-          "name": "russia-eo",
-          "value": 6388
-        },
-        {
-          "name": "iran",
-          "value": 6114
-        },
-        {
-          "name": "gender",
-          "value": 5345
-        },
-        {
-          "name": "mexico",
-          "value": 4934
-        }
-      ],
-      "signals": [
-        "Energy and Supply Chains",
-        "Sanctions and Finance",
-        "Territory and Chokepoints",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Africa",
-        "Middle East",
-        "Americas"
-      ],
-      "detail_path": "/evidence/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2",
-      "evidence_json": "/evidence/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.json"
-    },
-    {
-      "id": "53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
-      "host": "treasury.gov",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "text/xml",
-      "collected_at": "2026-06-06T20:07:01.996910+00:00",
-      "published": "",
-      "text_chars": 392158,
-      "raw_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.xml",
-      "text_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.txt",
-      "summary": "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a. strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
-      "bullets": [
-        "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a.",
-        "strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a.",
-        "strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
-        "strong HASAN DOUKHAN Abdul Fattah 4709 1936 true 9649 Ibrahim Mohammed DAHBOUR Individual NS-PLC 12132 Jenin West Bank Palestinian 4710 1968 true 9650 Mariam Mahmoud SALEH Individual NS-PLC 12133 Ramallah West Bank Palestinian 4711 1952 true 9651 Fathi Mohammed QAR'AWI Individual NS-PLC 9162 a.k.a.",
-        "strong NAWFAL Imad Mahmoud 12136 Qalqilya West Bank Palestinian 4716 1970 true 9654 Omar Mahmoud MATAR Individual NS-PLC 12137 Salfit West Bank Palestinian 4717 1958 true 9655 Muna Salim Saleh MANSOUR Individual NS-PLC 9165 a.k.a."
-      ],
-      "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Mohammad Mahmoud 4698 1951 true 4699 Umm Tuba true 9641 Jamileh Abdullah AL-SHANTI Individual NS-PLC 9154 a.k.a. strong EL-SHANTI Jameela Abdallah 9155 a.k.a. strong AL SHANTEE Jamila Abed Allah 12128 Gaza Palestinian 4700 1955 true 4701 Jabalia Camp true 9642 Mohammed Jamal NU'MAN ALAEDDIN Individual NS-PLC 9156 a.k.a. strong ALA AL DIN Mohamad Nouman 9157 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a. strong RABBAI Khalil Mussa 4705 1959 true 9645 Huda Naim AL-QREINAWI Individual NS-PLC 9159 a.k.a. strong AL QRENAWI Houda Naim 12130 Gaza Palestinian 4706 1969 true 9646 Mahmoud Ahmad AL-RAMAHI Individual NS-PLC 12131 Ramallah West Bank Palestinian 4707 1963 true 9647 Mahmoud Khaled ZAHHAR Individual (Linked To: HAMAS) NS-PLC SDGT 16681",
-      "keywords": [
-        {
-          "name": "sanctions",
-          "value": 942
-        },
-        {
-          "name": "russia",
-          "value": 663
-        },
-        {
-          "name": "ukraine",
-          "value": 565
-        },
-        {
-          "name": "executive",
-          "value": 440
-        },
-        {
-          "name": "order",
-          "value": 439
-        },
-        {
-          "name": "entity",
-          "value": 383
-        },
-        {
-          "name": "risk",
-          "value": 372
-        },
-        {
-          "name": "information",
-          "value": 370
-        },
-        {
-          "name": "subject",
-          "value": 323
-        },
-        {
-          "name": "treasury",
-          "value": 313
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance",
-        "Energy and Supply Chains",
-        "Territory and Chokepoints",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Europe and Russia",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868",
-      "evidence_json": "/evidence/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.json"
-    },
-    {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-06T20:07:00.205434+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
-      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "topic": "geopolitics",
-      "title": "MS.MIL.XPND.CD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-06T20:07:00.162825+00:00",
-      "published": "",
-      "text_chars": 6187025,
-      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
-      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
-      "keywords": [
-        {
-          "name": "expenditure",
-          "value": 17556
-        },
-        {
-          "name": "military",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        },
-        {
-          "name": "asia",
-          "value": 528
-        },
-        {
-          "name": "ibrd",
-          "value": 528
-        },
-        {
-          "name": "middle",
-          "value": 462
-        }
-      ],
-      "signals": [
-        "War and Escalation"
-      ],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
-    },
-    {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-06T20:06:59.865453+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
       "id": "57f6fcd379c1f2f50b578f7b6193250ae4611108e7eed13ee291cd69cb2fe104",
       "topic": "geopolitics",
       "title": "Why are Armenia’s elections being so keenly watched abroad?",
@@ -16195,86 +16362,6 @@
       "regions": [],
       "detail_path": "/evidence/57f6fcd379c1f2f50b578f7b6193250ae4611108e7eed13ee291cd69cb2fe104",
       "evidence_json": "/evidence/57f6fcd379c1f2f50b578f7b6193250ae4611108e7eed13ee291cd69cb2fe104.json"
-    },
-    {
-      "id": "0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-06-06T18:12:21.383286+00:00",
-      "published": "",
-      "text_chars": 824888,
-      "raw_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.xml",
-      "text_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-      "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
-      ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 1476
-        },
-        {
-          "name": "security",
-          "value": 1473
-        },
-        {
-          "name": "interpol",
-          "value": 1239
-        },
-        {
-          "name": "resolution",
-          "value": 840
-        },
-        {
-          "name": "interpol-un",
-          "value": 683
-        },
-        {
-          "name": "afghanistan",
-          "value": 636
-        },
-        {
-          "name": "link",
-          "value": 612
-        },
-        {
-          "name": "republic",
-          "value": 539
-        },
-        {
-          "name": "al-qaida",
-          "value": 515
-        },
-        {
-          "name": "iraq",
-          "value": 480
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "War and Escalation",
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Africa",
-        "Middle East",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
-      "evidence_json": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.json"
     },
     {
       "id": "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
