@@ -1,103 +1,88 @@
 {
-  "generated_at": "2026-06-06T03:40:55.580668+00:00",
+  "generated_at": "2026-06-06T06:50:38.396667+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating tensions in the Middle East and ongoing humanitarian crises highlight the fragility of regional stability.",
+    "headline": "Escalating tensions in the Middle East and humanitarian crises in Haiti and the DRC highlight urgent geopolitical challenges.",
     "executive_summary": [
-      "Recent military exchanges between the US and Iran have intensified, with the US military downing Iranian drones and Iran retaliating with missile strikes on US bases in the region. This escalation threatens the fragile ceasefire established in the Middle East, raising concerns about maritime security in the Strait of Hormuz, a critical chokepoint for global oil shipments. The situation remains volatile as both sides continue to engage in military actions despite ongoing diplomatic efforts to extend the ceasefire (evidence id: 10).",
-      "In Haiti, violence and insecurity have led to significant displacement, with over 1,800 people forced to flee their homes due to armed clashes. The humanitarian situation is exacerbated by a resurgence of measles, with confirmed cases reaching alarming levels across Latin America and the Caribbean. The international community is urged to strengthen vaccination efforts and provide support to those affected by the ongoing violence and health crises (evidence id: 15).",
-      "The Democratic Republic of the Congo is grappling with an Ebola outbreak that is straining its already underfunded health system. Health workers are facing critical shortages of supplies, which hampers their ability to respond effectively to the outbreak. The situation is dire, with urgent calls for increased funding and resources to combat the spread of the virus and support affected communities (evidence id: 26).",
-      "In the context of global geopolitics, the ongoing war in Ukraine continues to see significant military engagements, with Ukraine successfully impeding Russian supply lines and striking deep into Russian territory. This has led to a stalemate for Russian forces, raising questions about the sustainability of their military operations. Diplomatic overtures from Ukraine's leadership highlight the complexities of negotiations amid ongoing hostilities (evidence id: 20)."
+      "Recent military exchanges between the U.S. and Iran have intensified, with Iran launching ballistic missiles towards Kuwait and Bahrain, prompting U.S. military responses. This escalation threatens the fragile ceasefire in the region and raises concerns about the stability of Gulf nations, as reported by multiple sources including evidence IDs 10 and 11.",
+      "In Haiti, violence continues to spread, displacing thousands and exacerbating an already dire humanitarian situation. As of May 29, 2026, over 1,800 people were displaced due to insecurity in Artibonite, reflecting a broader pattern of violence that leaves displaced populations with fewer safe options, as detailed in evidence IDs 19 and 20.",
+      "The Democratic Republic of the Congo is grappling with an Ebola outbreak that is further straining its underfunded health system. Health workers face critical shortages of supplies, which hampers their ability to respond effectively to the crisis, as highlighted in evidence ID 28.",
+      "The ongoing humanitarian pressures in these regions underscore the need for international attention and support, as the situations in the Middle East, Haiti, and the DRC continue to evolve with significant implications for global stability."
     ],
     "key_judgments": [
       {
-        "title": "US-Iran Military Escalation",
-        "finding": "The military exchanges between the US and Iran indicate a significant escalation in hostilities that could destabilize the region further.",
+        "title": "Iran's missile attacks escalate regional tensions",
+        "finding": "Iran's recent missile launches towards Kuwait and Bahrain represent a significant escalation in military tensions in the Gulf region.",
         "citations": [
-          "10"
+          "10",
+          "11"
         ]
       },
       {
-        "title": "Humanitarian Crisis in Haiti",
-        "finding": "The ongoing violence in Haiti has led to increased displacement and a public health crisis, necessitating urgent international intervention.",
+        "title": "Haiti's displacement crisis worsens",
+        "finding": "The ongoing violence in Haiti has led to increased displacement, with over 1,800 individuals affected in late May 2026.",
         "citations": [
-          "15"
-        ]
-      },
-      {
-        "title": "Ebola Outbreak in DRC",
-        "finding": "The Ebola outbreak in the Democratic Republic of the Congo poses a severe threat to public health, exacerbated by a lack of resources and support for health workers.",
-        "citations": [
-          "26"
-        ]
-      },
-      {
-        "title": "Stalemate in Ukraine Conflict",
-        "finding": "Ukraine's military successes against Russian forces suggest a potential shift in the dynamics of the conflict, complicating future negotiations.",
-        "citations": [
+          "19",
           "20"
+        ]
+      },
+      {
+        "title": "Ebola outbreak in DRC strains health resources",
+        "finding": "The Ebola outbreak in the DRC is exacerbating existing health system challenges, with critical shortages of supplies reported.",
+        "citations": [
+          "28"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The region remains highly unstable due to ongoing military confrontations and humanitarian crises, with the potential for further escalation if diplomatic efforts fail.",
+        "assessment": "The military exchanges between the U.S. and Iran indicate a deteriorating security situation, with potential implications for regional stability and international relations.",
         "citations": [
-          "10"
+          "10",
+          "11"
         ]
       },
       {
         "region": "Americas",
-        "assessment": "Haiti's deteriorating security situation and public health crises highlight the urgent need for international humanitarian assistance and intervention.",
+        "assessment": "Haiti's escalating violence and humanitarian crisis require urgent international intervention to prevent further deterioration.",
         "citations": [
-          "15"
+          "19",
+          "20"
         ]
       },
       {
         "region": "Africa",
-        "assessment": "The Ebola outbreak in the DRC underscores the vulnerabilities of health systems in conflict-affected areas, necessitating immediate global health responses.",
+        "assessment": "The DRC's Ebola outbreak highlights the critical need for enhanced health support and resources to manage the crisis effectively.",
         "citations": [
-          "26"
-        ]
-      },
-      {
-        "region": "Europe and Russia",
-        "assessment": "The ongoing conflict in Ukraine continues to impact regional security dynamics, with military and diplomatic developments closely monitored by global actors.",
-        "citations": [
-          "20"
+          "28"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "Iranian Military Activities",
-        "why_it_matters": "Iran's military actions pose a direct threat to regional stability and maritime security, impacting global oil supply chains.",
+        "label": "Iran's military capabilities",
+        "why_it_matters": "Iran's missile capabilities pose a direct threat to Gulf nations and could destabilize the region further.",
         "citations": [
-          "10"
+          "10",
+          "11"
         ]
       },
       {
-        "label": "Haitian Displacement Crisis",
-        "why_it_matters": "The humanitarian situation in Haiti could lead to a larger regional crisis if not addressed, affecting neighboring countries and international relations.",
+        "label": "Humanitarian conditions in Haiti",
+        "why_it_matters": "The worsening humanitarian situation in Haiti could lead to increased regional instability and migration pressures.",
         "citations": [
-          "15"
-        ]
-      },
-      {
-        "label": "Ebola Response in DRC",
-        "why_it_matters": "The effectiveness of the response to the Ebola outbreak is critical to preventing further loss of life and stabilizing the region's health system.",
-        "citations": [
-          "26"
-        ]
-      },
-      {
-        "label": "Ukraine-Russia Negotiations",
-        "why_it_matters": "The outcome of negotiations between Ukraine and Russia will significantly influence the geopolitical landscape in Europe and beyond.",
-        "citations": [
+          "19",
           "20"
+        ]
+      },
+      {
+        "label": "Ebola outbreak in DRC",
+        "why_it_matters": "The Ebola outbreak could have significant health and security implications if not contained, affecting regional stability.",
+        "citations": [
+          "28"
         ]
       }
     ],
@@ -106,8 +91,8 @@
     ]
   },
   "summary": {
-    "raw_documents": 730,
-    "total_text_chars": 129125408,
+    "raw_documents": 732,
+    "total_text_chars": 129136631,
     "sources": 32,
     "signals": 8,
     "regions": 6,
@@ -118,7 +103,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 528
+      "value": 530
     },
     {
       "name": "PDF",
@@ -152,7 +137,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 506
+      "value": 508
     },
     {
       "name": "pdfs",
@@ -234,11 +219,11 @@
     },
     {
       "name": "france24.com",
-      "value": 24
+      "value": 25
     },
     {
       "name": "npr.org",
-      "value": 20
+      "value": 21
     },
     {
       "name": "treasury.gov",
@@ -324,11 +309,11 @@
     },
     {
       "name": "iran",
-      "value": 1915
+      "value": 1944
     },
     {
       "name": "lebanon",
-      "value": 1825
+      "value": 1837
     },
     {
       "name": "israel",
@@ -356,11 +341,11 @@
     },
     {
       "name": "united",
-      "value": 1193
+      "value": 1199
     },
     {
       "name": "trump",
-      "value": 1144
+      "value": 1154
     },
     {
       "name": "israeli",
@@ -368,7 +353,7 @@
     },
     {
       "name": "food",
-      "value": 1038
+      "value": 1047
     },
     {
       "name": "sudan",
@@ -384,7 +369,7 @@
     },
     {
       "name": "military",
-      "value": 746
+      "value": 754
     },
     {
       "name": "incidents",
@@ -498,11 +483,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 480,
+      "count": 482,
       "formats": [
         {
           "name": "Article",
-          "value": 397
+          "value": 399
         },
         {
           "name": "PDF",
@@ -522,6 +507,8 @@
         }
       ],
       "evidence_ids": [
+        "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
+        "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
         "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb",
         "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
         "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d",
@@ -529,12 +516,30 @@
         "37e07c4314f615c7c1e25dcdb6edd2f5cff533b2e11f95c1ad17ac7359dd1c2f",
         "7a25a7f018f587eac6955da93b822eb95dd3235c3f1e6828c6009ec1fac8dd7a",
         "54600a164af020b1b7e1bcc3393228572717964d27e5a7aa6fb188cbd30cd38b",
-        "483b92ae8d8acb73e826bdb8dcc4f5311d50a755dd219e6a3c4852251abd1028",
-        "9fbe33305784d81ab17106f6d5b7717c0a6ae62867cd804f652cd5fa6daaf41a",
-        "390e0ce243b8aeabc4f56121add445bf8f3df1d1aeecd93c1f8b3d85961c1cbb"
+        "483b92ae8d8acb73e826bdb8dcc4f5311d50a755dd219e6a3c4852251abd1028"
       ],
-      "summary": "US and Iranian negotiators have for weeks been working to extend the ceasefire by 60 days and start a new round of talks on Iran’s nuclear program. The US military said it shot down four Iranian drones that were launched toward the strait of Hormuz and struck coastal surveillance radar sites in response. US central command (Centcom) said early on Saturday that Iranian attack drones “posed an immediate threat to regional maritime traffic,” while the strikes on radar installations were to “defend against further attacks”. “I don’t see the point in meeting,” Putin said, accusing Kyiv of seeking dialogue to prevent the further advancement of Russian troops. ‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries. Zelensky also called out Moscow’s shrinking resources, citing Ukrainian attacks on Russian oil facilities. Published On 5 Jun 2026 5 Jun 2026 French anti-terrorism prosecutors say they have opened a preliminary investigation into suspected “torture” and “war crimes” over Israel’s alleged mistreatment of French activists who took part in a Gaza-bound aid flotilla last month. Francesca Albanese, an outspoken UN expert on the Palestinian territory, has said the treatment of the flotilla activists “is a luxury compared to what is inflicted on Palestinians in Israeli prisons”. I was thinking of Nastya and Hlib last month, when Ukrainians suffered one of the deadliest waves of missile and drone attacks on civilians during Russia’s entire war on their country. 27, 2022, the school became a battlefield where Ukrainian soldiers, police, and civilian volunteers fought a detachment of Russian Spetsnaz, special forces that had entered Ukraine a few days earlier along with Moscow’s invasion force.",
+      "summary": "06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high. \"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that has been an important force for political stability and economic progress in the Middle East,\" the statement said. Central Command said it hit the radar sites, including an island in the strait, \"to defend against further attacks.\" Trump promises a quick end to US-Iran conflict It was the latest in back-and-forth attacks that have strained the tenuous ceasefire in the war and efforts to reach a deal to extend that truce. and Iranian negotiators reached a tentative agreement a week ago to extend the ceasefire by 60 days and start a new round of talks on Iran's nuclear program. US and Iranian negotiators have for weeks been working to extend the ceasefire by 60 days and start a new round of talks on Iran’s nuclear program. The US military said it shot down four Iranian drones that were launched toward the strait of Hormuz and struck coastal surveillance radar sites in response. US central command (Centcom) said early on Saturday that Iranian attack drones “posed an immediate threat to regional maritime traffic,” while the strikes on radar installations were to “defend against further attacks”. “I don’t see the point in meeting,” Putin said, accusing Kyiv of seeking dialogue to prevent the further advancement of Russian troops. ‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries. Zelensky also called out Moscow’s shrinking resources, citing Ukrainian attacks on Russian oil facilities.",
       "latest": [
+        {
+          "id": "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
+          "title": "Middle East live: US military says Iran launched seven ballistic missiles at Kuwait, Bahrain",
+          "url": "https://www.france24.com/en/middle-east/20260606-middle-east-live-us-military-says-iran-launched-seven-ballistic-missiles-at-kuwait-bahrain",
+          "host": "france24.com",
+          "format": "Article",
+          "collected_at": "2026-06-06T06:50:44.960443+00:00",
+          "published": "Sat, 06 Jun 2026 05:02:18 GMT",
+          "summary": "06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high. \"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that has been an important force for political stability and economic progress in the Middle East,\" the statement said."
+        },
+        {
+          "id": "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
+          "title": "U.S. military says it shot down Iranian drones launched toward Gulf allies",
+          "url": "https://www.npr.org/2026/06/06/nx-s1-5848184/u-s-military-shot-down-iranian-drones",
+          "host": "npr.org",
+          "format": "Article",
+          "collected_at": "2026-06-06T06:50:44.993749+00:00",
+          "published": "Sat, 06 Jun 2026 00:15:26 -0400",
+          "summary": "Central Command said it hit the radar sites, including an island in the strait, \"to defend against further attacks.\" Trump promises a quick end to US-Iran conflict It was the latest in back-and-forth attacks that have strained the tenuous ceasefire in the war and efforts to reach a deal to extend that truce. and Iranian negotiators reached a tentative agreement a week ago to extend the ceasefire by 60 days and start a new round of talks on Iran's nuclear program."
+        },
         {
           "id": "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb",
           "title": "Gulf countries targeted by Iran after exchange of fire with US, in latest threat to fragile ceasefire",
@@ -564,36 +569,16 @@
           "collected_at": "2026-06-05T20:48:56.001583+00:00",
           "published": "Fri, 05 Jun 2026 19:51:23 +0000",
           "summary": "Published On 5 Jun 2026 5 Jun 2026 French anti-terrorism prosecutors say they have opened a preliminary investigation into suspected “torture” and “war crimes” over Israel’s alleged mistreatment of French activists who took part in a Gaza-bound aid flotilla last month. Francesca Albanese, an outspoken UN expert on the Palestinian territory, has said the treatment of the flotilla activists “is a luxury compared to what is inflicted on Palestinians in Israeli prisons”."
-        },
-        {
-          "id": "8e0faabd762f636d4a5879ee04b187bb4c3a53bcb1b96842d7fb798030084878",
-          "title": "How Ukraine Has Turned the Tide",
-          "url": "https://foreignpolicy.com/2026/06/05/ukraine-russia-war-putin-zelensky-winning-drones-front-battlefield-peace/",
-          "host": "foreignpolicy.com",
-          "format": "Article",
-          "collected_at": "2026-06-05T20:48:39.067884+00:00",
-          "published": "Fri, 05 Jun 2026 19:00:33 +0000",
-          "summary": "I was thinking of Nastya and Hlib last month, when Ukrainians suffered one of the deadliest waves of missile and drone attacks on civilians during Russia’s entire war on their country. 27, 2022, the school became a battlefield where Ukrainian soldiers, police, and civilian volunteers fought a detachment of Russian Spetsnaz, special forces that had entered Ukraine a few days earlier along with Moscow’s invasion force."
-        },
-        {
-          "id": "37e07c4314f615c7c1e25dcdb6edd2f5cff533b2e11f95c1ad17ac7359dd1c2f",
-          "title": "Haiti: Latin America & The Caribbean Weekly Situation Update as of 5 June 2026",
-          "url": "https://reliefweb.int/report/haiti/latin-america-caribbean-weekly-situation-update-5-june-2026",
-          "host": "reliefweb.int",
-          "format": "Article",
-          "collected_at": "2026-06-06T00:01:43.428153+00:00",
-          "published": "Fri, 05 Jun 2026 18:55:51 +0000",
-          "summary": "CENTRAL AMERICA: FOOD INSECURITY Deteriorating dry conditions across the Dry Corridor are compounding food insecurity ahead of the critical primera planting season. HAITI: VIOLENCE & DISPLACEMENT Violence continues to spread to previously unaffected areas across Haiti, compounding an already severe displacement crisis."
         }
       ]
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 410,
+      "count": 412,
       "formats": [
         {
           "name": "Article",
-          "value": 341
+          "value": 343
         },
         {
           "name": "PDF",
@@ -613,6 +598,8 @@
         }
       ],
       "evidence_ids": [
+        "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
+        "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
         "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb",
         "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
         "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d",
@@ -620,12 +607,30 @@
         "54600a164af020b1b7e1bcc3393228572717964d27e5a7aa6fb188cbd30cd38b",
         "9fbe33305784d81ab17106f6d5b7717c0a6ae62867cd804f652cd5fa6daaf41a",
         "390e0ce243b8aeabc4f56121add445bf8f3df1d1aeecd93c1f8b3d85961c1cbb",
-        "4a281a81fe8d7a6ee62d5303ac62bf51cf15c2d740127bad5c3b26a78ee738e9",
-        "78e486b322727844217adb66a3f5e3b7d110a72e544f446713f7325f4841ff90",
-        "68c8b3d723e59ca6aa43366c2d6679fc6634e7a4380bfbcf0c55f1af658df3cb"
+        "4a281a81fe8d7a6ee62d5303ac62bf51cf15c2d740127bad5c3b26a78ee738e9"
       ],
-      "summary": "US and Iranian negotiators have for weeks been working to extend the ceasefire by 60 days and start a new round of talks on Iran’s nuclear program. The US military said it shot down four Iranian drones that were launched toward the strait of Hormuz and struck coastal surveillance radar sites in response. US central command (Centcom) said early on Saturday that Iranian attack drones “posed an immediate threat to regional maritime traffic,” while the strikes on radar installations were to “defend against further attacks”. “I don’t see the point in meeting,” Putin said, accusing Kyiv of seeking dialogue to prevent the further advancement of Russian troops. ‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries. Zelensky also called out Moscow’s shrinking resources, citing Ukrainian attacks on Russian oil facilities. Published On 5 Jun 2026 5 Jun 2026 French anti-terrorism prosecutors say they have opened a preliminary investigation into suspected “torture” and “war crimes” over Israel’s alleged mistreatment of French activists who took part in a Gaza-bound aid flotilla last month. Francesca Albanese, an outspoken UN expert on the Palestinian territory, has said the treatment of the flotilla activists “is a luxury compared to what is inflicted on Palestinians in Israeli prisons”. This article has been adapted from The Scramble for Europe: Russia, China, and Turkey Challenging Regional Order by Dimitar Bechev (Oxford University Press, 224 pp., $29.99, July 2026). “Our Europe is mortal,” French President Emmanuel Macron warned his audience at the Sorbonne in 2024. The title, \"THE SCRAMBLE FOR EUROPE,\" is printed in large white capital letters across the lower half, followed by a two-line subtitle: \"Russia, China, and Turkey Challenging Regional Order\" in smaller yellow text at the bottom.",
+      "summary": "06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high. \"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that has been an important force for political stability and economic progress in the Middle East,\" the statement said. Central Command said it hit the radar sites, including an island in the strait, \"to defend against further attacks.\" Trump promises a quick end to US-Iran conflict It was the latest in back-and-forth attacks that have strained the tenuous ceasefire in the war and efforts to reach a deal to extend that truce. and Iranian negotiators reached a tentative agreement a week ago to extend the ceasefire by 60 days and start a new round of talks on Iran's nuclear program. US and Iranian negotiators have for weeks been working to extend the ceasefire by 60 days and start a new round of talks on Iran’s nuclear program. The US military said it shot down four Iranian drones that were launched toward the strait of Hormuz and struck coastal surveillance radar sites in response. US central command (Centcom) said early on Saturday that Iranian attack drones “posed an immediate threat to regional maritime traffic,” while the strikes on radar installations were to “defend against further attacks”. “I don’t see the point in meeting,” Putin said, accusing Kyiv of seeking dialogue to prevent the further advancement of Russian troops. ‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries. Zelensky also called out Moscow’s shrinking resources, citing Ukrainian attacks on Russian oil facilities.",
       "latest": [
+        {
+          "id": "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
+          "title": "Middle East live: US military says Iran launched seven ballistic missiles at Kuwait, Bahrain",
+          "url": "https://www.france24.com/en/middle-east/20260606-middle-east-live-us-military-says-iran-launched-seven-ballistic-missiles-at-kuwait-bahrain",
+          "host": "france24.com",
+          "format": "Article",
+          "collected_at": "2026-06-06T06:50:44.960443+00:00",
+          "published": "Sat, 06 Jun 2026 05:02:18 GMT",
+          "summary": "06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high. \"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that has been an important force for political stability and economic progress in the Middle East,\" the statement said."
+        },
+        {
+          "id": "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
+          "title": "U.S. military says it shot down Iranian drones launched toward Gulf allies",
+          "url": "https://www.npr.org/2026/06/06/nx-s1-5848184/u-s-military-shot-down-iranian-drones",
+          "host": "npr.org",
+          "format": "Article",
+          "collected_at": "2026-06-06T06:50:44.993749+00:00",
+          "published": "Sat, 06 Jun 2026 00:15:26 -0400",
+          "summary": "Central Command said it hit the radar sites, including an island in the strait, \"to defend against further attacks.\" Trump promises a quick end to US-Iran conflict It was the latest in back-and-forth attacks that have strained the tenuous ceasefire in the war and efforts to reach a deal to extend that truce. and Iranian negotiators reached a tentative agreement a week ago to extend the ceasefire by 60 days and start a new round of talks on Iran's nuclear program."
+        },
         {
           "id": "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb",
           "title": "Gulf countries targeted by Iran after exchange of fire with US, in latest threat to fragile ceasefire",
@@ -655,26 +660,6 @@
           "collected_at": "2026-06-05T20:48:56.001583+00:00",
           "published": "Fri, 05 Jun 2026 19:51:23 +0000",
           "summary": "Published On 5 Jun 2026 5 Jun 2026 French anti-terrorism prosecutors say they have opened a preliminary investigation into suspected “torture” and “war crimes” over Israel’s alleged mistreatment of French activists who took part in a Gaza-bound aid flotilla last month. Francesca Albanese, an outspoken UN expert on the Palestinian territory, has said the treatment of the flotilla activists “is a luxury compared to what is inflicted on Palestinians in Israeli prisons”."
-        },
-        {
-          "id": "7a25a7f018f587eac6955da93b822eb95dd3235c3f1e6828c6009ec1fac8dd7a",
-          "title": "Contain, Consolidate, and Co-Opt",
-          "url": "https://foreignpolicy.com/2026/06/05/europe-strategy-turkey-russia-china-putin-erdogan-brussels/",
-          "host": "foreignpolicy.com",
-          "format": "Article",
-          "collected_at": "2026-06-05T18:58:37.105709+00:00",
-          "published": "Fri, 05 Jun 2026 18:40:00 +0000",
-          "summary": "This article has been adapted from The Scramble for Europe: Russia, China, and Turkey Challenging Regional Order by Dimitar Bechev (Oxford University Press, 224 pp., $29.99, July 2026). “Our Europe is mortal,” French President Emmanuel Macron warned his audience at the Sorbonne in 2024. The title, \"THE SCRAMBLE FOR EUROPE,\" is printed in large white capital letters across the lower half, followed by a two-line subtitle: \"Russia, China, and Turkey Challenging Regional Order\" in smaller yellow text at the bottom."
-        },
-        {
-          "id": "54600a164af020b1b7e1bcc3393228572717964d27e5a7aa6fb188cbd30cd38b",
-          "title": "Ballistics Putin’s ‘last argument’ as Ukraine brings his army to standstill",
-          "url": "https://www.aljazeera.com/news/2026/6/5/ballistics-putins-last-argument-as-ukraine-brings-his-army-to-standstill?traffic_source=rss",
-          "host": "aljazeera.com",
-          "format": "Article",
-          "collected_at": "2026-06-05T18:58:32.238573+00:00",
-          "published": "Fri, 05 Jun 2026 16:52:11 +0000",
-          "summary": "Serhiy Beskrestnov, Ukraine’s deputy defence minister, said Russia also keeps a strategic stockpile of 180-250 Iskander ballistic missiles, unlike other types of missiles, which are fired within a few months of manufacture, or drones, which are fired within two weeks of production. [Al Jazeera] On May 31, Ukraine’s 3rd Army Corps said it had established fire control over the cities of Luhansk, Starobilsk, Alchevsk, Bryanka, and Kadiivka, all 50 to 90 kilometres (30 to 55 miles) inside occupied Luhansk, and was able to strike armoured vehicles and..."
         }
       ]
     },
@@ -771,11 +756,11 @@
     },
     {
       "name": "Territory and Chokepoints",
-      "count": 292,
+      "count": 293,
       "formats": [
         {
           "name": "Article",
-          "value": 230
+          "value": 231
         },
         {
           "name": "PDF",
@@ -795,6 +780,7 @@
         }
       ],
       "evidence_ids": [
+        "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
         "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb",
         "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d",
         "8e0faabd762f636d4a5879ee04b187bb4c3a53bcb1b96842d7fb798030084878",
@@ -803,11 +789,20 @@
         "7a25a7f018f587eac6955da93b822eb95dd3235c3f1e6828c6009ec1fac8dd7a",
         "54600a164af020b1b7e1bcc3393228572717964d27e5a7aa6fb188cbd30cd38b",
         "390e0ce243b8aeabc4f56121add445bf8f3df1d1aeecd93c1f8b3d85961c1cbb",
-        "10c1a81d888e8f2dbf6b59c062b9ae5fe11a27f2ae0f8a7b850bec9d80e0d703",
-        "4a281a81fe8d7a6ee62d5303ac62bf51cf15c2d740127bad5c3b26a78ee738e9"
+        "10c1a81d888e8f2dbf6b59c062b9ae5fe11a27f2ae0f8a7b850bec9d80e0d703"
       ],
-      "summary": "US and Iranian negotiators have for weeks been working to extend the ceasefire by 60 days and start a new round of talks on Iran’s nuclear program. The US military said it shot down four Iranian drones that were launched toward the strait of Hormuz and struck coastal surveillance radar sites in response. US central command (Centcom) said early on Saturday that Iranian attack drones “posed an immediate threat to regional maritime traffic,” while the strikes on radar installations were to “defend against further attacks”. Published On 5 Jun 2026 5 Jun 2026 French anti-terrorism prosecutors say they have opened a preliminary investigation into suspected “torture” and “war crimes” over Israel’s alleged mistreatment of French activists who took part in a Gaza-bound aid flotilla last month. Francesca Albanese, an outspoken UN expert on the Palestinian territory, has said the treatment of the flotilla activists “is a luxury compared to what is inflicted on Palestinians in Israeli prisons”. I was thinking of Nastya and Hlib last month, when Ukrainians suffered one of the deadliest waves of missile and drone attacks on civilians during Russia’s entire war on their country. 27, 2022, the school became a battlefield where Ukrainian soldiers, police, and civilian volunteers fought a detachment of Russian Spetsnaz, special forces that had entered Ukraine a few days earlier along with Moscow’s invasion force. CENTRAL AMERICA: FOOD INSECURITY Deteriorating dry conditions across the Dry Corridor are compounding food insecurity ahead of the critical primera planting season. HAITI: VIOLENCE & DISPLACEMENT Violence continues to spread to previously unaffected areas across Haiti, compounding an already severe displacement crisis.",
+      "summary": "Central Command said it hit the radar sites, including an island in the strait, \"to defend against further attacks.\" Trump promises a quick end to US-Iran conflict It was the latest in back-and-forth attacks that have strained the tenuous ceasefire in the war and efforts to reach a deal to extend that truce. and Iranian negotiators reached a tentative agreement a week ago to extend the ceasefire by 60 days and start a new round of talks on Iran's nuclear program. US and Iranian negotiators have for weeks been working to extend the ceasefire by 60 days and start a new round of talks on Iran’s nuclear program. The US military said it shot down four Iranian drones that were launched toward the strait of Hormuz and struck coastal surveillance radar sites in response. US central command (Centcom) said early on Saturday that Iranian attack drones “posed an immediate threat to regional maritime traffic,” while the strikes on radar installations were to “defend against further attacks”. Published On 5 Jun 2026 5 Jun 2026 French anti-terrorism prosecutors say they have opened a preliminary investigation into suspected “torture” and “war crimes” over Israel’s alleged mistreatment of French activists who took part in a Gaza-bound aid flotilla last month. Francesca Albanese, an outspoken UN expert on the Palestinian territory, has said the treatment of the flotilla activists “is a luxury compared to what is inflicted on Palestinians in Israeli prisons”. I was thinking of Nastya and Hlib last month, when Ukrainians suffered one of the deadliest waves of missile and drone attacks on civilians during Russia’s entire war on their country. 27, 2022, the school became a battlefield where Ukrainian soldiers, police, and civilian volunteers fought a detachment of Russian Spetsnaz, special forces that had entered Ukraine a few days earlier along with Moscow’s invasion force.",
       "latest": [
+        {
+          "id": "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
+          "title": "U.S. military says it shot down Iranian drones launched toward Gulf allies",
+          "url": "https://www.npr.org/2026/06/06/nx-s1-5848184/u-s-military-shot-down-iranian-drones",
+          "host": "npr.org",
+          "format": "Article",
+          "collected_at": "2026-06-06T06:50:44.993749+00:00",
+          "published": "Sat, 06 Jun 2026 00:15:26 -0400",
+          "summary": "Central Command said it hit the radar sites, including an island in the strait, \"to defend against further attacks.\" Trump promises a quick end to US-Iran conflict It was the latest in back-and-forth attacks that have strained the tenuous ceasefire in the war and efforts to reach a deal to extend that truce. and Iranian negotiators reached a tentative agreement a week ago to extend the ceasefire by 60 days and start a new round of talks on Iran's nuclear program."
+        },
         {
           "id": "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb",
           "title": "Gulf countries targeted by Iran after exchange of fire with US, in latest threat to fragile ceasefire",
@@ -847,26 +842,16 @@
           "collected_at": "2026-06-06T00:01:43.428153+00:00",
           "published": "Fri, 05 Jun 2026 18:55:51 +0000",
           "summary": "CENTRAL AMERICA: FOOD INSECURITY Deteriorating dry conditions across the Dry Corridor are compounding food insecurity ahead of the critical primera planting season. HAITI: VIOLENCE & DISPLACEMENT Violence continues to spread to previously unaffected areas across Haiti, compounding an already severe displacement crisis."
-        },
-        {
-          "id": "f7ea0a586aa629596f8642b793a0e7bb745d3dd33b1bcf346daadb665b6fc71a",
-          "title": "Haiti: Latin America & The Caribbean Weekly Situation Update as of 5 June 2026 (pdf)",
-          "url": "https://reliefweb.int/attachments/a7c15f84-f534-460a-828f-f357b34daf40/2026-06-05%20Weekly%20Situation%20Update%20%28as%20of%205%20June%29.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-06-06T00:01:46.458143+00:00",
-          "published": "Fri, 05 Jun 2026 18:55:51 +0000",
-          "summary": "LATIN AMERICA & THE CARIBBEAN Weekly Situation Update As of 5 June 2026 The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. CENTRAL AMERICA: FOOD INSECURITY Deteriorating dry conditions across the Dry Corridor are compounding food insecurity ahead of the critical primera planting season."
         }
       ]
     },
     {
       "name": "Energy and Supply Chains",
-      "count": 218,
+      "count": 220,
       "formats": [
         {
           "name": "Article",
-          "value": 174
+          "value": 176
         },
         {
           "name": "PDF",
@@ -878,6 +863,8 @@
         }
       ],
       "evidence_ids": [
+        "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
+        "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
         "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb",
         "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
         "8e0faabd762f636d4a5879ee04b187bb4c3a53bcb1b96842d7fb798030084878",
@@ -885,12 +872,30 @@
         "78e486b322727844217adb66a3f5e3b7d110a72e544f446713f7325f4841ff90",
         "83ff18d2f11c0a65f474c74ed3354040d40363d37b0f2aa02ce34b679d68483f",
         "959d3eac587983672f1de0aef50309056794e3efb80638026de7dcc2a392ca06",
-        "6a898ff3e69bda6a19fdd8477ccfc146b760ba60ec0694b8bb41ca3ffb81ae97",
-        "9ede79afb577c7c1a0701a5582ee8c226f8026365c283592278439a3502fa603",
-        "7d683d9462b62c60505e1abe5cef209d13e76e08c6dde522e5de547d0af1a657"
+        "6a898ff3e69bda6a19fdd8477ccfc146b760ba60ec0694b8bb41ca3ffb81ae97"
       ],
-      "summary": "US and Iranian negotiators have for weeks been working to extend the ceasefire by 60 days and start a new round of talks on Iran’s nuclear program. The US military said it shot down four Iranian drones that were launched toward the strait of Hormuz and struck coastal surveillance radar sites in response. US central command (Centcom) said early on Saturday that Iranian attack drones “posed an immediate threat to regional maritime traffic,” while the strikes on radar installations were to “defend against further attacks”. “I don’t see the point in meeting,” Putin said, accusing Kyiv of seeking dialogue to prevent the further advancement of Russian troops. ‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries. Zelensky also called out Moscow’s shrinking resources, citing Ukrainian attacks on Russian oil facilities. I was thinking of Nastya and Hlib last month, when Ukrainians suffered one of the deadliest waves of missile and drone attacks on civilians during Russia’s entire war on their country. 27, 2022, the school became a battlefield where Ukrainian soldiers, police, and civilian volunteers fought a detachment of Russian Spetsnaz, special forces that had entered Ukraine a few days earlier along with Moscow’s invasion force. This article has been adapted from The Scramble for Europe: Russia, China, and Turkey Challenging Regional Order by Dimitar Bechev (Oxford University Press, 224 pp., $29.99, July 2026). “Our Europe is mortal,” French President Emmanuel Macron warned his audience at the Sorbonne in 2024. The title, \"THE SCRAMBLE FOR EUROPE,\" is printed in large white capital letters across the lower half, followed by a two-line subtitle: \"Russia, China, and Turkey Challenging Regional Order\" in smaller yellow text at the bottom.",
+      "summary": "06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high. \"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that has been an important force for political stability and economic progress in the Middle East,\" the statement said. Central Command said it hit the radar sites, including an island in the strait, \"to defend against further attacks.\" Trump promises a quick end to US-Iran conflict It was the latest in back-and-forth attacks that have strained the tenuous ceasefire in the war and efforts to reach a deal to extend that truce. and Iranian negotiators reached a tentative agreement a week ago to extend the ceasefire by 60 days and start a new round of talks on Iran's nuclear program. US and Iranian negotiators have for weeks been working to extend the ceasefire by 60 days and start a new round of talks on Iran’s nuclear program. The US military said it shot down four Iranian drones that were launched toward the strait of Hormuz and struck coastal surveillance radar sites in response. US central command (Centcom) said early on Saturday that Iranian attack drones “posed an immediate threat to regional maritime traffic,” while the strikes on radar installations were to “defend against further attacks”. “I don’t see the point in meeting,” Putin said, accusing Kyiv of seeking dialogue to prevent the further advancement of Russian troops. ‘I Am Proposing a Meeting’ Ukrainian President Volodymyr Zelensky published an open letter to Russian President Vladimir Putin on Thursday offering to hold in-person negotiations on ending the war between their two countries. Zelensky also called out Moscow’s shrinking resources, citing Ukrainian attacks on Russian oil facilities.",
       "latest": [
+        {
+          "id": "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
+          "title": "Middle East live: US military says Iran launched seven ballistic missiles at Kuwait, Bahrain",
+          "url": "https://www.france24.com/en/middle-east/20260606-middle-east-live-us-military-says-iran-launched-seven-ballistic-missiles-at-kuwait-bahrain",
+          "host": "france24.com",
+          "format": "Article",
+          "collected_at": "2026-06-06T06:50:44.960443+00:00",
+          "published": "Sat, 06 Jun 2026 05:02:18 GMT",
+          "summary": "06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high. \"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that has been an important force for political stability and economic progress in the Middle East,\" the statement said."
+        },
+        {
+          "id": "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
+          "title": "U.S. military says it shot down Iranian drones launched toward Gulf allies",
+          "url": "https://www.npr.org/2026/06/06/nx-s1-5848184/u-s-military-shot-down-iranian-drones",
+          "host": "npr.org",
+          "format": "Article",
+          "collected_at": "2026-06-06T06:50:44.993749+00:00",
+          "published": "Sat, 06 Jun 2026 00:15:26 -0400",
+          "summary": "Central Command said it hit the radar sites, including an island in the strait, \"to defend against further attacks.\" Trump promises a quick end to US-Iran conflict It was the latest in back-and-forth attacks that have strained the tenuous ceasefire in the war and efforts to reach a deal to extend that truce. and Iranian negotiators reached a tentative agreement a week ago to extend the ceasefire by 60 days and start a new round of talks on Iran's nuclear program."
+        },
         {
           "id": "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb",
           "title": "Gulf countries targeted by Iran after exchange of fire with US, in latest threat to fragile ceasefire",
@@ -920,26 +925,6 @@
           "collected_at": "2026-06-05T20:48:39.067884+00:00",
           "published": "Fri, 05 Jun 2026 19:00:33 +0000",
           "summary": "I was thinking of Nastya and Hlib last month, when Ukrainians suffered one of the deadliest waves of missile and drone attacks on civilians during Russia’s entire war on their country. 27, 2022, the school became a battlefield where Ukrainian soldiers, police, and civilian volunteers fought a detachment of Russian Spetsnaz, special forces that had entered Ukraine a few days earlier along with Moscow’s invasion force."
-        },
-        {
-          "id": "7a25a7f018f587eac6955da93b822eb95dd3235c3f1e6828c6009ec1fac8dd7a",
-          "title": "Contain, Consolidate, and Co-Opt",
-          "url": "https://foreignpolicy.com/2026/06/05/europe-strategy-turkey-russia-china-putin-erdogan-brussels/",
-          "host": "foreignpolicy.com",
-          "format": "Article",
-          "collected_at": "2026-06-05T18:58:37.105709+00:00",
-          "published": "Fri, 05 Jun 2026 18:40:00 +0000",
-          "summary": "This article has been adapted from The Scramble for Europe: Russia, China, and Turkey Challenging Regional Order by Dimitar Bechev (Oxford University Press, 224 pp., $29.99, July 2026). “Our Europe is mortal,” French President Emmanuel Macron warned his audience at the Sorbonne in 2024. The title, \"THE SCRAMBLE FOR EUROPE,\" is printed in large white capital letters across the lower half, followed by a two-line subtitle: \"Russia, China, and Turkey Challenging Regional Order\" in smaller yellow text at the bottom."
-        },
-        {
-          "id": "78e486b322727844217adb66a3f5e3b7d110a72e544f446713f7325f4841ff90",
-          "title": "US Senate passes $70 billion funding for ICE, Border Patrol",
-          "url": "https://www.dw.com/en/us-senate-passes-70-billion-funding-for-ice-border-patrol/a-77435289?maca=en-rss-en-world-4025-rdf",
-          "host": "dw.com",
-          "format": "Article",
-          "collected_at": "2026-06-05T16:29:22.029723+00:00",
-          "published": "2026-06-05T13:19:00Z",
-          "summary": "With Trump's approval ratings wobbling amid the war in Iran, and midterm elections nearing in November, when one third of Senators will face elections, several of the president's policies have prompted criticism from within Republic ranks. Senate Republican Leader John Thune said the fund was a \"settled issue,\" citing Attorney General Todd Blanche's testimony in Congress saying that the Department of Justice would not move forward with it. Senators voted 52-47 in favor the bill, with no support from the Democrats."
         }
       ]
     },
@@ -1119,11 +1104,11 @@
     },
     {
       "name": "Sanctions and Finance",
-      "count": 108,
+      "count": 109,
       "formats": [
         {
           "name": "Article",
-          "value": 75
+          "value": 76
         },
         {
           "name": "Sanctions",
@@ -1143,6 +1128,7 @@
         }
       ],
       "evidence_ids": [
+        "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
         "f7ea0a586aa629596f8642b793a0e7bb745d3dd33b1bcf346daadb665b6fc71a",
         "4a281a81fe8d7a6ee62d5303ac62bf51cf15c2d740127bad5c3b26a78ee738e9",
         "83ff18d2f11c0a65f474c74ed3354040d40363d37b0f2aa02ce34b679d68483f",
@@ -1151,11 +1137,20 @@
         "1b9fcca492ef4d1b586d975c4f5739bc324a902b93975acf93f0490f6bf0b1d3",
         "5091e72a64b3e59480ddbead493259555231313c9f38120f461f000fab80e45f",
         "ab8f038116e94dc88ed3c4a521ab07395a6fd26f41be734b885f10d113d6e892",
-        "4b2eaa8a4ce135f789dc144247606d035bc52ed444397522c79597487d4d8812",
-        "f4343fca46e36cd0acc031fcc9102d35136927bf16599640549a7fda0a4f476c"
+        "4b2eaa8a4ce135f789dc144247606d035bc52ed444397522c79597487d4d8812"
       ],
-      "summary": "LATIN AMERICA & THE CARIBBEAN Weekly Situation Update As of 5 June 2026 The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. CENTRAL AMERICA: FOOD INSECURITY Deteriorating dry conditions across the Dry Corridor are compounding food insecurity ahead of the critical primera planting season. Nothing.” On X, Republican senator Lindsey Graham said he was “very proud of my Republican colleagues for sticking together and making sure that Border Patrol and ICE (Immigration Customs and Enforcement) are fully funded”. “Tonight, Senate Republicans passed a rotten bill that makes their priorities painfully clear: more money for Donald Trump, more power for Donald Trump, and nothing to lower costs for working families,” Schumer said in a statement posted on X after the immigration reforcement funding bill passed. Washington has imposed a blockade on Iran’s sea trade while Tehran has fired on ships to prevent them sailing through the Strait of Hormuz waterway at the entrance to the Middle ​East Gulf. forces conducted an interdiction of the sanctioned stateless oil tanker Davina overnight in the Indian Ocean, the U.S. sanctions in October 2024 for Iranian oil trading, according to ship tracking data. By significantly reducing the need for massive datasets and prohibitive compute needed for model training, distillation renders traditional export controls insufficient to maintain a strategic lead. Because distillation directly undermines America’s frontier model advantage on which the military relies, preserving a strategic lead requires the Department of Defense to look beyond the nation’s hardware-centric moat. As long as these firms hold the high ground in the global race among frontier AI models, the Pentagon will enjoy a strategic advantage.",
+      "summary": "06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high. \"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that has been an important force for political stability and economic progress in the Middle East,\" the statement said. LATIN AMERICA & THE CARIBBEAN Weekly Situation Update As of 5 June 2026 The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. CENTRAL AMERICA: FOOD INSECURITY Deteriorating dry conditions across the Dry Corridor are compounding food insecurity ahead of the critical primera planting season. Nothing.” On X, Republican senator Lindsey Graham said he was “very proud of my Republican colleagues for sticking together and making sure that Border Patrol and ICE (Immigration Customs and Enforcement) are fully funded”. “Tonight, Senate Republicans passed a rotten bill that makes their priorities painfully clear: more money for Donald Trump, more power for Donald Trump, and nothing to lower costs for working families,” Schumer said in a statement posted on X after the immigration reforcement funding bill passed. Washington has imposed a blockade on Iran’s sea trade while Tehran has fired on ships to prevent them sailing through the Strait of Hormuz waterway at the entrance to the Middle ​East Gulf. forces conducted an interdiction of the sanctioned stateless oil tanker Davina overnight in the Indian Ocean, the U.S. sanctions in October 2024 for Iranian oil trading, according to ship tracking data.",
       "latest": [
+        {
+          "id": "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
+          "title": "Middle East live: US military says Iran launched seven ballistic missiles at Kuwait, Bahrain",
+          "url": "https://www.france24.com/en/middle-east/20260606-middle-east-live-us-military-says-iran-launched-seven-ballistic-missiles-at-kuwait-bahrain",
+          "host": "france24.com",
+          "format": "Article",
+          "collected_at": "2026-06-06T06:50:44.960443+00:00",
+          "published": "Sat, 06 Jun 2026 05:02:18 GMT",
+          "summary": "06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high. \"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that has been an important force for political stability and economic progress in the Middle East,\" the statement said."
+        },
         {
           "id": "f7ea0a586aa629596f8642b793a0e7bb745d3dd33b1bcf346daadb665b6fc71a",
           "title": "Haiti: Latin America & The Caribbean Weekly Situation Update as of 5 June 2026 (pdf)",
@@ -1195,16 +1190,6 @@
           "collected_at": "2026-06-05T10:50:30.045928+00:00",
           "published": "Fri, 05 Jun 2026 08:00:18 +0000",
           "summary": "By significantly reducing the need for massive datasets and prohibitive compute needed for model training, distillation renders traditional export controls insufficient to maintain a strategic lead. Because distillation directly undermines America’s frontier model advantage on which the military relies, preserving a strategic lead requires the Department of Defense to look beyond the nation’s hardware-centric moat. As long as these firms hold the high ground in the global race among frontier AI models, the Pentagon will enjoy a strategic advantage."
-        },
-        {
-          "id": "ba35745b8ddfdbca2457d66b664fdcba009e47e37da4828c122c62032d5250c1",
-          "title": "Everyone Is Waiting for Trump’s Gaza Plan to Die",
-          "url": "https://foreignpolicy.com/2026/06/05/trump-gaza-peace-board-israel-war/",
-          "host": "foreignpolicy.com",
-          "format": "Article",
-          "collected_at": "2026-06-05T10:50:28.180705+00:00",
-          "published": "Fri, 05 Jun 2026 07:53:14 +0000",
-          "summary": "Israel would withdraw to an agreed line and retain control of roughly 53 percent, of Gaza and allow for the reconstruction of the flattened environment only after Hamas disarmed, and Hamas would discuss disarmament once a determinable path was paved toward a future state of Palestine. While Trump has been distracted by the war in Iran, people in Gaza continue to have no choice but to live in abysmal conditions."
         }
       ]
     }
@@ -1212,8 +1197,10 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 379,
+      "count": 381,
       "evidence_ids": [
+        "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
+        "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
         "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb",
         "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d",
         "483b92ae8d8acb73e826bdb8dcc4f5311d50a755dd219e6a3c4852251abd1028",
@@ -1223,9 +1210,7 @@
         "83ff18d2f11c0a65f474c74ed3354040d40363d37b0f2aa02ce34b679d68483f",
         "b5b2edd51dde29a08c1b7c58b31d1f54cd77cba26f75659a31379a3b5debd47c",
         "130e9bdc5d5586a3f298294ed51bdf7a142088ee213db7e12bc57bc3089693a7",
-        "987408d5dc67a6bde9402572c0ff04b46e6382aa7f432d106045f1bad268133c",
-        "959d3eac587983672f1de0aef50309056794e3efb80638026de7dcc2a392ca06",
-        "9b410a91b2fce84f0c857e66fb05767666b8b0148c07a0bd2e9e67e3da50df2b"
+        "987408d5dc67a6bde9402572c0ff04b46e6382aa7f432d106045f1bad268133c"
       ],
       "top_sources": [
         {
@@ -1252,8 +1237,10 @@
     },
     {
       "name": "Americas",
-      "count": 333,
+      "count": 335,
       "evidence_ids": [
+        "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
+        "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
         "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb",
         "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
         "8e0faabd762f636d4a5879ee04b187bb4c3a53bcb1b96842d7fb798030084878",
@@ -1263,9 +1250,7 @@
         "f7ea0a586aa629596f8642b793a0e7bb745d3dd33b1bcf346daadb665b6fc71a",
         "7a25a7f018f587eac6955da93b822eb95dd3235c3f1e6828c6009ec1fac8dd7a",
         "54600a164af020b1b7e1bcc3393228572717964d27e5a7aa6fb188cbd30cd38b",
-        "9fbe33305784d81ab17106f6d5b7717c0a6ae62867cd804f652cd5fa6daaf41a",
-        "390e0ce243b8aeabc4f56121add445bf8f3df1d1aeecd93c1f8b3d85961c1cbb",
-        "4a281a81fe8d7a6ee62d5303ac62bf51cf15c2d740127bad5c3b26a78ee738e9"
+        "9fbe33305784d81ab17106f6d5b7717c0a6ae62867cd804f652cd5fa6daaf41a"
       ],
       "top_sources": [
         {
@@ -1292,8 +1277,9 @@
     },
     {
       "name": "Europe and Russia",
-      "count": 305,
+      "count": 306,
       "evidence_ids": [
+        "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
         "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
         "8e0faabd762f636d4a5879ee04b187bb4c3a53bcb1b96842d7fb798030084878",
         "7a25a7f018f587eac6955da93b822eb95dd3235c3f1e6828c6009ec1fac8dd7a",
@@ -1304,8 +1290,7 @@
         "68c8b3d723e59ca6aa43366c2d6679fc6634e7a4380bfbcf0c55f1af658df3cb",
         "987408d5dc67a6bde9402572c0ff04b46e6382aa7f432d106045f1bad268133c",
         "5d7a551842759ea03e686e05c1e261ea45ccbc6f099c6c341eb922b81de59583",
-        "7cc1bc55e103a1763ec1222db13618c45a04f91442fa81fc160129025b5958ad",
-        "4a72c6bc4d799e520f4db795ea047fe17d20d1197c044b3e0b6553752a07c84c"
+        "7cc1bc55e103a1763ec1222db13618c45a04f91442fa81fc160129025b5958ad"
       ],
       "top_sources": [
         {
@@ -1412,8 +1397,9 @@
     },
     {
       "name": "Indo-Pacific",
-      "count": 174,
+      "count": 175,
       "evidence_ids": [
+        "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
         "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
         "7a25a7f018f587eac6955da93b822eb95dd3235c3f1e6828c6009ec1fac8dd7a",
         "83ff18d2f11c0a65f474c74ed3354040d40363d37b0f2aa02ce34b679d68483f",
@@ -1424,8 +1410,7 @@
         "80c3e47e0b1262b98472a7ebe5c586ec3bb9bf47441766663267b5b75a85e5fb",
         "e6379ccce9afbb13223c8446b21faf4fe33697882f27a59c26d71030469d8108",
         "071e1621b247c2dd0afd8b8a4fbad3c01d94e41dcf56aaa44b85550da85f04d5",
-        "fa077e278cd749af9f16dfd704442f29dd3bd773c2e553e665dcc54e72b11774",
-        "ab8f038116e94dc88ed3c4a521ab07395a6fd26f41be734b885f10d113d6e892"
+        "fa077e278cd749af9f16dfd704442f29dd3bd773c2e553e665dcc54e72b11774"
       ],
       "top_sources": [
         {
@@ -1794,6 +1779,20 @@
       "title": "Consolidated Sanctions List",
       "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
       "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong"
+    },
+    {
+      "date": "2026",
+      "evidence_id": "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
+      "title": "Middle East live: US military says Iran launched seven ballistic missiles at Kuwait, Bahrain",
+      "url": "https://www.france24.com/en/middle-east/20260606-middle-east-live-us-military-says-iran-launched-seven-ballistic-missiles-at-kuwait-bahrain",
+      "excerpt": "East Live Middle East live: US military says Iran launched seven ballistic missiles at Kuwait, Bahrain Issued on: 06/06/2026 - 07:02 Modified: 06/06/2026 - 08:07 The Kuwait City skyline photographed from across the waterfront along the Gulf in Salimiyah on June 2, 2026. © Yasser al-Zayyat, AFP US military officials on Saturday said Iran launched seven ballistic missiles toward"
+    },
+    {
+      "date": "2026",
+      "evidence_id": "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
+      "title": "U.S. military says it shot down Iranian drones launched toward Gulf allies",
+      "url": "https://www.npr.org/2026/06/06/nx-s1-5848184/u-s-military-shot-down-iranian-drones",
+      "excerpt": "to speak to reporters aboard Air Force One en route from Joint Base Andrews, Md., to Eau Claire, Wis., Friday, June 5, 2026. Mark Schiefelbein/AP hide caption toggle caption Mark Schiefelbein/AP BRIDGEWATER, N.J. — The U.S. military said it shot down Iranian ballistic missiles and drones launched toward the Strait of Hormuz and Gulf Arab allies on Friday, while striking some o"
     },
     {
       "date": "2026",
@@ -2417,23 +2416,169 @@
       "title": "WFP’s Integrated Cross-Cutting Context Analysis and Risk Assessment in Ukraine (April 2026) (pdf)",
       "url": "https://reliefweb.int/attachments/ec10c7c9-5c76-4da3-8527-8bd5ccf669d2/WFP-0000173957.pdf",
       "excerpt": "WFP’s Integrated Cross-Cutting Context Analysis and Risk Assessment in Ukraine APRIL 2026 WFP UKRAINE PAGE 2 t PAGE 3 INTEGRATED CROSS-CUTTING CONTEXT ANALYSIS AND RISK ASSESSMENT t Reproduction and dissemination of material in this information product for educational or other non-commercial uses are authorized without any prior written permis"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "6982f72a3da2f6287984f1eee5b38db37d61f54c859009cc71992f235fbcdc9e",
-      "title": "Ukraine Food Security Assessment: Acute Food Insecurity in the Frontline (May 2026) (pdf)",
-      "url": "https://reliefweb.int/attachments/e0fc50b1-6e64-4380-812e-c8cd6434ae44/WFP-0000173956.pdf",
-      "excerpt": "Ukraine Food Security Assessment: Acute Food Insecurity in the Frontline May 2026 Ukraine Food Security Assessment | 2026 2 REQUIRED CITATION WFP. 2026. Ukraine Food Security Assessment: Acute Food Insecurity in Frontline. Kyiv Contributing authors: Chinedu Obi; Hanna Kurovska; Oksana Sokolenko; and Giada Dimaria DISCLAIMERS Notice enc"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "ea69e731d73fc9e5c9f698a00505edf6a6a3e255622047b8293dbc147c891e4f",
-      "title": "The terrifying day the U.S.-Iran war reached a sleepy Sri Lankan town",
-      "url": "https://www.npr.org/2026/05/31/nx-s1-5820634/the-terrifying-day-the-u-s-iran-war-reached-a-sleepy-sri-lankan-town",
-      "excerpt": "s, \"in the water, there's no one there to help you.\" Diaa Hadid, NPR News, Galle fishing harbor, Sri Lanka. Copyright © 2026 NPR. All rights reserved. Visit our website terms of use and permissions pages at www.npr.org for further information. Accuracy and availability of NPR transcripts may vary. Transcript text may be revised to correct errors or match updates to audio. Audio"
     }
   ],
   "latest_evidence": [
+    {
+      "id": "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
+      "topic": "geopolitics",
+      "title": "Middle East live: US military says Iran launched seven ballistic missiles at Kuwait, Bahrain",
+      "url": "https://www.france24.com/en/middle-east/20260606-middle-east-live-us-military-says-iran-launched-seven-ballistic-missiles-at-kuwait-bahrain",
+      "host": "france24.com",
+      "source": "https://www.france24.com/en/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-06T06:50:44.960443+00:00",
+      "published": "Sat, 06 Jun 2026 05:02:18 GMT",
+      "text_chars": 5869,
+      "raw_path": "data/geopolitics/raw/f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab.html",
+      "text_path": "data/geopolitics/raw/f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab.txt",
+      "summary": "06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high. \"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that has been an important force for political stability and economic progress in the Middle East,\" the statement said.",
+      "bullets": [
+        "06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high.",
+        "\"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that has been an important force for political stability and economic progress in the Middle East,\" the statement said.",
+        "Aoun said ⁠on Friday that Iran was using ​Lebanon as a \"bargaining ‌chip in its negotiations with the ‌United States\" and that ​Lebanese people were paying the price for Iran's ​interests.",
+        "In a statement, the US State Department said it would allow purchases of counter-drone technology from defense company Anduril, which was founded by a supporter of President Donald Trump.",
+        "© Yasser al-Zayyat, AFP US military officials on Saturday said Iran launched seven ballistic missiles toward the neighboring Gulf nations of Kuwait and Bahrain, with US forces intercepting six of the missiles and a seventh failing to reach its target."
+      ],
+      "excerpt": "Home Middle East Live Middle East live: US military says Iran launched seven ballistic missiles at Kuwait, Bahrain Issued on: 06/06/2026 - 07:02 Modified: 06/06/2026 - 08:07 The Kuwait City skyline photographed from across the waterfront along the Gulf in Salimiyah on June 2, 2026. © Yasser al-Zayyat, AFP US military officials on Saturday said Iran launched seven ballistic missiles toward the neighboring Gulf nations of Kuwait and Bahrain, with US forces intercepting six of the missiles and a seventh failing to reach its target. Iran's Revolutionary Guards said they had hit \"enemy bases\" in the Gulf. Follow our liveblog for the latest updates. 06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high. In March, World Food Program predicted that 45 million people could be pushed into food insecurity by the end of June. That would be on top of the 318 million people around the world who are already food insecure. “We remain by that prognosis,” WFP’s acting Executive Director Carl ",
+      "keywords": [
+        {
+          "name": "iran",
+          "value": 18
+        },
+        {
+          "name": "kuwait",
+          "value": 11
+        },
+        {
+          "name": "food",
+          "value": 9
+        },
+        {
+          "name": "missiles",
+          "value": 9
+        },
+        {
+          "name": "east",
+          "value": 7
+        },
+        {
+          "name": "middle",
+          "value": 7
+        },
+        {
+          "name": "ballistic",
+          "value": 6
+        },
+        {
+          "name": "launched",
+          "value": 6
+        },
+        {
+          "name": "lebanon",
+          "value": 6
+        },
+        {
+          "name": "united",
+          "value": 6
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Sanctions and Finance",
+        "Energy and Supply Chains"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas",
+        "Europe and Russia"
+      ],
+      "detail_path": "/evidence/f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
+      "evidence_json": "/evidence/f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab.json"
+    },
+    {
+      "id": "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
+      "topic": "geopolitics",
+      "title": "U.S. military says it shot down Iranian drones launched toward Gulf allies",
+      "url": "https://www.npr.org/2026/06/06/nx-s1-5848184/u-s-military-shot-down-iranian-drones",
+      "host": "npr.org",
+      "source": "https://www.npr.org/rss/rss.php?id=1004",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-06T06:50:44.993749+00:00",
+      "published": "Sat, 06 Jun 2026 00:15:26 -0400",
+      "text_chars": 5354,
+      "raw_path": "data/geopolitics/raw/b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45.html",
+      "text_path": "data/geopolitics/raw/b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45.txt",
+      "summary": "Central Command said it hit the radar sites, including an island in the strait, \"to defend against further attacks.\" Trump promises a quick end to US-Iran conflict It was the latest in back-and-forth attacks that have strained the tenuous ceasefire in the war and efforts to reach a deal to extend that truce. and Iranian negotiators reached a tentative agreement a week ago to extend the ceasefire by 60 days and start a new round of talks on Iran's nuclear program.",
+      "bullets": [
+        "Central Command said it hit the radar sites, including an island in the strait, \"to defend against further attacks.\" Trump promises a quick end to US-Iran conflict It was the latest in back-and-forth attacks that have strained the tenuous ceasefire in the war and efforts to reach a deal to extend that truce.",
+        "and Iranian negotiators reached a tentative agreement a week ago to extend the ceasefire by 60 days and start a new round of talks on Iran's nuclear program.",
+        "military said it shot down Iranian ballistic missiles and drones launched toward the Strait of Hormuz and Gulf Arab allies on Friday, while striking some of the Islamic Republic's coastal surveillance radar sites in response, an exchange of fire that further frayed a shaky ceasefire with Tehran.",
+        "The exchange of strikes comes as the Trump administration ramps up pressure on Iran to make a deal to end the conflict.",
+        "Central Command said on social media Friday night that Iran fired seven ballistic missiles toward Kuwait and Bahrain, with U.S."
+      ],
+      "excerpt": "President Donald Trump arrives to speak to reporters aboard Air Force One en route from Joint Base Andrews, Md., to Eau Claire, Wis., Friday, June 5, 2026. Mark Schiefelbein/AP hide caption toggle caption Mark Schiefelbein/AP BRIDGEWATER, N.J. — The U.S. military said it shot down Iranian ballistic missiles and drones launched toward the Strait of Hormuz and Gulf Arab allies on Friday, while striking some of the Islamic Republic's coastal surveillance radar sites in response, an exchange of fire that further frayed a shaky ceasefire with Tehran. The exchange of strikes comes as the Trump administration ramps up pressure on Iran to make a deal to end the conflict. U.S. Central Command said on social media Friday night that Iran fired seven ballistic missiles toward Kuwait and Bahrain, with U.S. forces intercepting six of the missiles and a seventh failing to reach its target. The military said there were no reports of harm to U.S. personnel. The ballistic missiles were fired after the U.S. earlier in the day shot down four Iranian drones that were launched toward Strait of Hormuz. \"The attack drones posed an immediate threat to regional maritime traffic,\" U.S. Central Command said o",
+      "keywords": [
+        {
+          "name": "iran",
+          "value": 11
+        },
+        {
+          "name": "trump",
+          "value": 10
+        },
+        {
+          "name": "friday",
+          "value": 8
+        },
+        {
+          "name": "military",
+          "value": 8
+        },
+        {
+          "name": "iranian",
+          "value": 7
+        },
+        {
+          "name": "drones",
+          "value": 6
+        },
+        {
+          "name": "going",
+          "value": 6
+        },
+        {
+          "name": "lebanon",
+          "value": 6
+        },
+        {
+          "name": "missiles",
+          "value": 6
+        },
+        {
+          "name": "ceasefire",
+          "value": 5
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Diplomacy and Negotiations",
+        "Territory and Chokepoints",
+        "Energy and Supply Chains"
+      ],
+      "regions": [
+        "Americas",
+        "Middle East",
+        "Indo-Pacific"
+      ],
+      "detail_path": "/evidence/b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
+      "evidence_json": "/evidence/b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45.json"
+    },
     {
       "id": "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb",
       "topic": "geopolitics",
@@ -8525,146 +8670,6 @@
       "regions": [],
       "detail_path": "/evidence/61426318feed4b6efa14a7cc2d51bd0ca34ba50cc375524dc914bc2314101df1",
       "evidence_json": "/evidence/61426318feed4b6efa14a7cc2d51bd0ca34ba50cc375524dc914bc2314101df1.json"
-    },
-    {
-      "id": "4ef98e90de3060cb17b422d6ee7157b69e52862aa5ba5c11567743475fe9f299",
-      "topic": "geopolitics",
-      "title": "Gaza’s public servants systematically targeted in Israeli strikes (image)",
-      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/26-05-2026_UNNews_Eid_In_Gaza_07.jpg/image560x340cropped.jpg",
-      "host": "global.unitednations.entermediadb.net",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "data_type": "images",
-      "format": "Image",
-      "content_type": "image/jpeg",
-      "collected_at": "2026-06-03T18:20:20.354010+00:00",
-      "published": "Wed, 03 Jun 2026 12:00:00 +0000",
-      "text_chars": 443,
-      "raw_path": "data/geopolitics/raw/4ef98e90de3060cb17b422d6ee7157b69e52862aa5ba5c11567743475fe9f299.jpg",
-      "text_path": "data/geopolitics/raw/4ef98e90de3060cb17b422d6ee7157b69e52862aa5ba5c11567743475fe9f299.txt",
-      "summary": "Binary images source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Binary images source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: Gaza’s public servants systematically targeted in Israeli strikes (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/26-05-2026_UNNews_Eid_In_Gaza_07.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 40915",
-      "keywords": [
-        {
-          "name": "gaza",
-          "value": 3
-        },
-        {
-          "name": "entermediadb",
-          "value": 2
-        },
-        {
-          "name": "israeli",
-          "value": 2
-        },
-        {
-          "name": "public",
-          "value": 2
-        },
-        {
-          "name": "servants",
-          "value": 2
-        },
-        {
-          "name": "strikes",
-          "value": 2
-        },
-        {
-          "name": "systematically",
-          "value": 2
-        },
-        {
-          "name": "targeted",
-          "value": 2
-        },
-        {
-          "name": "unitednations",
-          "value": 2
-        },
-        {
-          "name": "binary",
-          "value": 1
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Middle East"
-      ],
-      "preview_asset": "/evidence-assets/4ef98e90de3060cb17b422d6ee7157b69e52862aa5ba5c11567743475fe9f299.jpg",
-      "detail_path": "/evidence/4ef98e90de3060cb17b422d6ee7157b69e52862aa5ba5c11567743475fe9f299",
-      "evidence_json": "/evidence/4ef98e90de3060cb17b422d6ee7157b69e52862aa5ba5c11567743475fe9f299.json"
-    },
-    {
-      "id": "a755c0e2087442549ee06101ccb9d7d8e60be1b8f26a565bfc5b78e48644f218",
-      "topic": "geopolitics",
-      "title": "Growing up with sirens: UN child rights envoy on the toll of the Ukraine-Russia war (image)",
-      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/06/03-06-2026_Ukraine%20Frazier%202.jpg/image560x340cropped.jpg",
-      "host": "global.unitednations.entermediadb.net",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "data_type": "images",
-      "format": "Image",
-      "content_type": "image/jpeg",
-      "collected_at": "2026-06-03T21:46:37.683684+00:00",
-      "published": "Wed, 03 Jun 2026 12:00:00 +0000",
-      "text_chars": 469,
-      "raw_path": "data/geopolitics/raw/a755c0e2087442549ee06101ccb9d7d8e60be1b8f26a565bfc5b78e48644f218.jpg",
-      "text_path": "data/geopolitics/raw/a755c0e2087442549ee06101ccb9d7d8e60be1b8f26a565bfc5b78e48644f218.txt",
-      "summary": "Binary images source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Binary images source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: Growing up with sirens: UN child rights envoy on the toll of the Ukraine-Russia war (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/06/03-06-2026_Ukraine%20Frazier%202.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 35706",
-      "keywords": [
-        {
-          "name": "child",
-          "value": 2
-        },
-        {
-          "name": "entermediadb",
-          "value": 2
-        },
-        {
-          "name": "envoy",
-          "value": 2
-        },
-        {
-          "name": "growing",
-          "value": 2
-        },
-        {
-          "name": "rights",
-          "value": 2
-        },
-        {
-          "name": "sirens",
-          "value": 2
-        },
-        {
-          "name": "toll",
-          "value": 2
-        },
-        {
-          "name": "ukraine-russia",
-          "value": 2
-        },
-        {
-          "name": "unitednations",
-          "value": 2
-        },
-        {
-          "name": "binary",
-          "value": 1
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Europe and Russia"
-      ],
-      "preview_asset": "/evidence-assets/a755c0e2087442549ee06101ccb9d7d8e60be1b8f26a565bfc5b78e48644f218.jpg",
-      "detail_path": "/evidence/a755c0e2087442549ee06101ccb9d7d8e60be1b8f26a565bfc5b78e48644f218",
-      "evidence_json": "/evidence/a755c0e2087442549ee06101ccb9d7d8e60be1b8f26a565bfc5b78e48644f218.json"
     }
   ],
   "deep_reads": [
@@ -8678,7 +8683,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-06T03:40:52.247312+00:00",
+      "collected_at": "2026-06-06T06:50:21.610909+00:00",
       "published": "",
       "text_chars": 9076319,
       "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
@@ -9478,7 +9483,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-06T03:40:20.302003+00:00",
+      "collected_at": "2026-06-06T06:49:43.889281+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -9553,7 +9558,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-06T03:40:20.023678+00:00",
+      "collected_at": "2026-06-06T06:49:43.617647+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -10510,7 +10515,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-06T00:01:01.383397+00:00",
+      "collected_at": "2026-06-06T06:49:47.944846+00:00",
       "published": "",
       "text_chars": 824888,
       "raw_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.xml",
@@ -10903,79 +10908,6 @@
   ],
   "documents": [
     {
-      "id": "f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-06-06T03:40:55.580668+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.html",
-      "text_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
-      "evidence_json": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -10985,7 +10917,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-06T03:40:55.562626+00:00",
+      "collected_at": "2026-06-06T06:50:38.396667+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -11057,6 +10989,311 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-06T06:50:31.078699+00:00",
+      "published": "",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 512
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "conflict",
+          "value": 267
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 209
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
+      "id": "f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-06-06T06:50:23.691183+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.html",
+      "text_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
+      "evidence_json": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-06T06:50:23.632032+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
+      "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
+      "topic": "geopolitics",
+      "title": "UN Peacekeeping Capstone Doctrine",
+      "url": "https://peacekeeping.un.org/sites/default/files/capstone_eng_0.pdf",
+      "host": "peacekeeping.un.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-06T06:50:23.627686+00:00",
+      "published": "",
+      "text_chars": 174117,
+      "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
+      "text_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.txt",
+      "summary": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
+      "bullets": [
+        "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
+        "During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
+        "United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
+        "During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
+        "Guéhenno, USG/DPKO Approved on 18 January 2008 Contact: PBPS/D-PET Review date: January 2010 © United Nations 2008."
+      ],
+      "excerpt": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines United Nations Peacekeeping Operat",
+      "keywords": [
+        {
+          "name": "nations",
+          "value": 574
+        },
+        {
+          "name": "united",
+          "value": 570
+        },
+        {
+          "name": "peacekeeping",
+          "value": 400
+        },
+        {
+          "name": "operations",
+          "value": 263
+        },
+        {
+          "name": "mission",
+          "value": 208
+        },
+        {
+          "name": "security",
+          "value": 171
+        },
+        {
+          "name": "peace",
+          "value": 160
+        },
+        {
+          "name": "operation",
+          "value": 151
+        },
+        {
+          "name": "should",
+          "value": 104
+        },
+        {
+          "name": "support",
+          "value": 100
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Global Institutions",
+        "Europe and Russia",
+        "Africa"
+      ],
+      "file_asset": "/evidence-files/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
+      "detail_path": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
+      "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
+    },
+    {
       "id": "864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -11066,7 +11303,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-06T03:40:52.247312+00:00",
+      "collected_at": "2026-06-06T06:50:21.610909+00:00",
       "published": "",
       "text_chars": 9076319,
       "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
@@ -11137,6 +11374,86 @@
       "evidence_json": "/evidence/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.json"
     },
     {
+      "id": "0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-06-06T06:49:47.944846+00:00",
+      "published": "",
+      "text_chars": 824888,
+      "raw_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.xml",
+      "text_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "bullets": [
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+      ],
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 1476
+        },
+        {
+          "name": "security",
+          "value": 1473
+        },
+        {
+          "name": "interpol",
+          "value": 1239
+        },
+        {
+          "name": "resolution",
+          "value": 840
+        },
+        {
+          "name": "interpol-un",
+          "value": 683
+        },
+        {
+          "name": "afghanistan",
+          "value": 636
+        },
+        {
+          "name": "link",
+          "value": 612
+        },
+        {
+          "name": "republic",
+          "value": 539
+        },
+        {
+          "name": "al-qaida",
+          "value": 515
+        },
+        {
+          "name": "iraq",
+          "value": 480
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
+      "evidence_json": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.json"
+    },
+    {
       "id": "53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868",
       "topic": "geopolitics",
       "title": "Consolidated Sanctions List",
@@ -11146,7 +11463,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-06T03:40:22.050107+00:00",
+      "collected_at": "2026-06-06T06:49:45.860857+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.xml",
@@ -11226,7 +11543,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-06T03:40:20.302003+00:00",
+      "collected_at": "2026-06-06T06:49:43.889281+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -11301,7 +11618,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-06T03:40:20.023678+00:00",
+      "collected_at": "2026-06-06T06:49:43.617647+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -11367,318 +11684,6 @@
       ],
       "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
-    },
-    {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-06T03:40:19.640815+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-06T00:01:40.317961+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
-      "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
-      "topic": "geopolitics",
-      "title": "UN Peacekeeping Capstone Doctrine",
-      "url": "https://peacekeeping.un.org/sites/default/files/capstone_eng_0.pdf",
-      "host": "peacekeeping.un.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-06T00:01:35.285443+00:00",
-      "published": "",
-      "text_chars": 174117,
-      "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
-      "text_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.txt",
-      "summary": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
-      "bullets": [
-        "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
-        "During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
-        "United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
-        "During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
-        "Guéhenno, USG/DPKO Approved on 18 January 2008 Contact: PBPS/D-PET Review date: January 2010 © United Nations 2008."
-      ],
-      "excerpt": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines United Nations Peacekeeping Operat",
-      "keywords": [
-        {
-          "name": "nations",
-          "value": 574
-        },
-        {
-          "name": "united",
-          "value": 570
-        },
-        {
-          "name": "peacekeeping",
-          "value": 400
-        },
-        {
-          "name": "operations",
-          "value": 263
-        },
-        {
-          "name": "mission",
-          "value": 208
-        },
-        {
-          "name": "security",
-          "value": 171
-        },
-        {
-          "name": "peace",
-          "value": 160
-        },
-        {
-          "name": "operation",
-          "value": 151
-        },
-        {
-          "name": "should",
-          "value": 104
-        },
-        {
-          "name": "support",
-          "value": 100
-        }
-      ],
-      "signals": [
-        "Diplomacy and Negotiations",
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Global Institutions",
-        "Europe and Russia",
-        "Africa"
-      ],
-      "file_asset": "/evidence-files/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
-      "detail_path": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
-      "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
-    },
-    {
-      "id": "0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-06-06T00:01:01.383397+00:00",
-      "published": "",
-      "text_chars": 824888,
-      "raw_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.xml",
-      "text_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-      "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
-      ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 1476
-        },
-        {
-          "name": "security",
-          "value": 1473
-        },
-        {
-          "name": "interpol",
-          "value": 1239
-        },
-        {
-          "name": "resolution",
-          "value": 840
-        },
-        {
-          "name": "interpol-un",
-          "value": 683
-        },
-        {
-          "name": "afghanistan",
-          "value": 636
-        },
-        {
-          "name": "link",
-          "value": 612
-        },
-        {
-          "name": "republic",
-          "value": 539
-        },
-        {
-          "name": "al-qaida",
-          "value": 515
-        },
-        {
-          "name": "iraq",
-          "value": 480
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "War and Escalation",
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Africa",
-        "Middle East",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
-      "evidence_json": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.json"
     },
     {
       "id": "5af4c211152fb57eaa35fe8f8599117e62cec24b3cbc245c48d80917c285ed12",
@@ -15450,79 +15455,6 @@
   "cited_evidence": [],
   "evidence": [
     {
-      "id": "f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-06-06T03:40:55.580668+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.html",
-      "text_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
-      "evidence_json": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -15532,7 +15464,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-06T03:40:55.562626+00:00",
+      "collected_at": "2026-06-06T06:50:38.396667+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15604,6 +15536,311 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-06T06:50:31.078699+00:00",
+      "published": "",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 512
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "conflict",
+          "value": 267
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 209
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
+      "id": "f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-06-06T06:50:23.691183+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.html",
+      "text_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
+      "evidence_json": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-06T06:50:23.632032+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
+      "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
+      "topic": "geopolitics",
+      "title": "UN Peacekeeping Capstone Doctrine",
+      "url": "https://peacekeeping.un.org/sites/default/files/capstone_eng_0.pdf",
+      "host": "peacekeeping.un.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-06T06:50:23.627686+00:00",
+      "published": "",
+      "text_chars": 174117,
+      "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
+      "text_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.txt",
+      "summary": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
+      "bullets": [
+        "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
+        "During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
+        "United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
+        "During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
+        "Guéhenno, USG/DPKO Approved on 18 January 2008 Contact: PBPS/D-PET Review date: January 2010 © United Nations 2008."
+      ],
+      "excerpt": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines United Nations Peacekeeping Operat",
+      "keywords": [
+        {
+          "name": "nations",
+          "value": 574
+        },
+        {
+          "name": "united",
+          "value": 570
+        },
+        {
+          "name": "peacekeeping",
+          "value": 400
+        },
+        {
+          "name": "operations",
+          "value": 263
+        },
+        {
+          "name": "mission",
+          "value": 208
+        },
+        {
+          "name": "security",
+          "value": 171
+        },
+        {
+          "name": "peace",
+          "value": 160
+        },
+        {
+          "name": "operation",
+          "value": 151
+        },
+        {
+          "name": "should",
+          "value": 104
+        },
+        {
+          "name": "support",
+          "value": 100
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Global Institutions",
+        "Europe and Russia",
+        "Africa"
+      ],
+      "file_asset": "/evidence-files/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
+      "detail_path": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
+      "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
+    },
+    {
       "id": "864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -15613,7 +15850,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-06T03:40:52.247312+00:00",
+      "collected_at": "2026-06-06T06:50:21.610909+00:00",
       "published": "",
       "text_chars": 9076319,
       "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
@@ -15684,6 +15921,86 @@
       "evidence_json": "/evidence/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.json"
     },
     {
+      "id": "0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-06-06T06:49:47.944846+00:00",
+      "published": "",
+      "text_chars": 824888,
+      "raw_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.xml",
+      "text_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "bullets": [
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+      ],
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 1476
+        },
+        {
+          "name": "security",
+          "value": 1473
+        },
+        {
+          "name": "interpol",
+          "value": 1239
+        },
+        {
+          "name": "resolution",
+          "value": 840
+        },
+        {
+          "name": "interpol-un",
+          "value": 683
+        },
+        {
+          "name": "afghanistan",
+          "value": 636
+        },
+        {
+          "name": "link",
+          "value": 612
+        },
+        {
+          "name": "republic",
+          "value": 539
+        },
+        {
+          "name": "al-qaida",
+          "value": 515
+        },
+        {
+          "name": "iraq",
+          "value": 480
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
+      "evidence_json": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.json"
+    },
+    {
       "id": "53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868",
       "topic": "geopolitics",
       "title": "Consolidated Sanctions List",
@@ -15693,7 +16010,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-06T03:40:22.050107+00:00",
+      "collected_at": "2026-06-06T06:49:45.860857+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.xml",
@@ -15773,7 +16090,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-06T03:40:20.302003+00:00",
+      "collected_at": "2026-06-06T06:49:43.889281+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -15848,7 +16165,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-06T03:40:20.023678+00:00",
+      "collected_at": "2026-06-06T06:49:43.617647+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -15916,316 +16233,164 @@
       "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "id": "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
       "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-06T03:40:19.640815+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "title": "Middle East live: US military says Iran launched seven ballistic missiles at Kuwait, Bahrain",
+      "url": "https://www.france24.com/en/middle-east/20260606-middle-east-live-us-military-says-iran-launched-seven-ballistic-missiles-at-kuwait-bahrain",
+      "host": "france24.com",
+      "source": "https://www.france24.com/en/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-06T06:50:44.960443+00:00",
+      "published": "Sat, 06 Jun 2026 05:02:18 GMT",
+      "text_chars": 5869,
+      "raw_path": "data/geopolitics/raw/f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab.html",
+      "text_path": "data/geopolitics/raw/f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab.txt",
+      "summary": "06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high. \"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that has been an important force for political stability and economic progress in the Middle East,\" the statement said.",
       "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+        "06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high.",
+        "\"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that has been an important force for political stability and economic progress in the Middle East,\" the statement said.",
+        "Aoun said ⁠on Friday that Iran was using ​Lebanon as a \"bargaining ‌chip in its negotiations with the ‌United States\" and that ​Lebanese people were paying the price for Iran's ​interests.",
+        "In a statement, the US State Department said it would allow purchases of counter-drone technology from defense company Anduril, which was founded by a supporter of President Donald Trump.",
+        "© Yasser al-Zayyat, AFP US military officials on Saturday said Iran launched seven ballistic missiles toward the neighboring Gulf nations of Kuwait and Bahrain, with US forces intercepting six of the missiles and a seventh failing to reach its target."
       ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "excerpt": "Home Middle East Live Middle East live: US military says Iran launched seven ballistic missiles at Kuwait, Bahrain Issued on: 06/06/2026 - 07:02 Modified: 06/06/2026 - 08:07 The Kuwait City skyline photographed from across the waterfront along the Gulf in Salimiyah on June 2, 2026. © Yasser al-Zayyat, AFP US military officials on Saturday said Iran launched seven ballistic missiles toward the neighboring Gulf nations of Kuwait and Bahrain, with US forces intercepting six of the missiles and a seventh failing to reach its target. Iran's Revolutionary Guards said they had hit \"enemy bases\" in the Gulf. Follow our liveblog for the latest updates. 06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high. In March, World Food Program predicted that 45 million people could be pushed into food insecurity by the end of June. That would be on top of the 318 million people around the world who are already food insecure. “We remain by that prognosis,” WFP’s acting Executive Director Carl ",
       "keywords": [
         {
-          "name": "admin",
-          "value": 2
+          "name": "iran",
+          "value": 18
         },
         {
-          "name": "areas",
-          "value": 2
+          "name": "kuwait",
+          "value": 11
         },
         {
-          "name": "disputed",
-          "value": 2
+          "name": "food",
+          "value": 9
         },
         {
-          "name": "naciscdn",
-          "value": 2
+          "name": "missiles",
+          "value": 9
         },
         {
-          "name": "application",
-          "value": 1
+          "name": "east",
+          "value": 7
         },
         {
-          "name": "binary",
-          "value": 1
+          "name": "middle",
+          "value": 7
         },
         {
-          "name": "bytes",
-          "value": 1
+          "name": "ballistic",
+          "value": 6
         },
         {
-          "name": "collected",
-          "value": 1
+          "name": "launched",
+          "value": 6
         },
         {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-06T00:01:40.317961+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
-      "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
-      "topic": "geopolitics",
-      "title": "UN Peacekeeping Capstone Doctrine",
-      "url": "https://peacekeeping.un.org/sites/default/files/capstone_eng_0.pdf",
-      "host": "peacekeeping.un.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-06T00:01:35.285443+00:00",
-      "published": "",
-      "text_chars": 174117,
-      "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
-      "text_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.txt",
-      "summary": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
-      "bullets": [
-        "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
-        "During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
-        "United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking.",
-        "During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948.",
-        "Guéhenno, USG/DPKO Approved on 18 January 2008 Contact: PBPS/D-PET Review date: January 2010 © United Nations 2008."
-      ],
-      "excerpt": "2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, the conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines 2008 Over the past six decades, United Nations peacekeeping has evolved into a complex, global undertaking. During this time, conduct of United Nations peacekeeping operations has been guided by a largely unwritten body of principles and informed by the experiences of the many thousands of men and women who have served in the more than 60 operations launched since 1948. This document captures these experiences for the benefit and guidance of planners and practitioners of United Nations peacekeeping operations. United Nations Peacekeeping Operations Principles and Guidelines United Nations Peacekeeping Operat",
-      "keywords": [
-        {
-          "name": "nations",
-          "value": 574
+          "name": "lebanon",
+          "value": 6
         },
         {
           "name": "united",
-          "value": 570
-        },
-        {
-          "name": "peacekeeping",
-          "value": 400
-        },
-        {
-          "name": "operations",
-          "value": 263
-        },
-        {
-          "name": "mission",
-          "value": 208
-        },
-        {
-          "name": "security",
-          "value": 171
-        },
-        {
-          "name": "peace",
-          "value": 160
-        },
-        {
-          "name": "operation",
-          "value": 151
-        },
-        {
-          "name": "should",
-          "value": 104
-        },
-        {
-          "name": "support",
-          "value": 100
+          "value": 6
         }
       ],
       "signals": [
         "Diplomacy and Negotiations",
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "War and Escalation"
+        "War and Escalation",
+        "Sanctions and Finance",
+        "Energy and Supply Chains"
       ],
       "regions": [
-        "Global Institutions",
-        "Europe and Russia",
-        "Africa"
+        "Middle East",
+        "Americas",
+        "Europe and Russia"
       ],
-      "file_asset": "/evidence-files/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
-      "detail_path": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
-      "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
+      "detail_path": "/evidence/f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
+      "evidence_json": "/evidence/f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab.json"
     },
     {
-      "id": "0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
+      "id": "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
       "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-06-06T00:01:01.383397+00:00",
-      "published": "",
-      "text_chars": 824888,
-      "raw_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.xml",
-      "text_path": "data/geopolitics/raw/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "title": "U.S. military says it shot down Iranian drones launched toward Gulf allies",
+      "url": "https://www.npr.org/2026/06/06/nx-s1-5848184/u-s-military-shot-down-iranian-drones",
+      "host": "npr.org",
+      "source": "https://www.npr.org/rss/rss.php?id=1004",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-06T06:50:44.993749+00:00",
+      "published": "Sat, 06 Jun 2026 00:15:26 -0400",
+      "text_chars": 5354,
+      "raw_path": "data/geopolitics/raw/b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45.html",
+      "text_path": "data/geopolitics/raw/b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45.txt",
+      "summary": "Central Command said it hit the radar sites, including an island in the strait, \"to defend against further attacks.\" Trump promises a quick end to US-Iran conflict It was the latest in back-and-forth attacks that have strained the tenuous ceasefire in the war and efforts to reach a deal to extend that truce. and Iranian negotiators reached a tentative agreement a week ago to extend the ceasefire by 60 days and start a new round of talks on Iran's nuclear program.",
       "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+        "Central Command said it hit the radar sites, including an island in the strait, \"to defend against further attacks.\" Trump promises a quick end to US-Iran conflict It was the latest in back-and-forth attacks that have strained the tenuous ceasefire in the war and efforts to reach a deal to extend that truce.",
+        "and Iranian negotiators reached a tentative agreement a week ago to extend the ceasefire by 60 days and start a new round of talks on Iran's nuclear program.",
+        "military said it shot down Iranian ballistic missiles and drones launched toward the Strait of Hormuz and Gulf Arab allies on Friday, while striking some of the Islamic Republic's coastal surveillance radar sites in response, an exchange of fire that further frayed a shaky ceasefire with Tehran.",
+        "The exchange of strikes comes as the Trump administration ramps up pressure on Iran to make a deal to end the conflict.",
+        "Central Command said on social media Friday night that Iran fired seven ballistic missiles toward Kuwait and Bahrain, with U.S."
       ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "excerpt": "President Donald Trump arrives to speak to reporters aboard Air Force One en route from Joint Base Andrews, Md., to Eau Claire, Wis., Friday, June 5, 2026. Mark Schiefelbein/AP hide caption toggle caption Mark Schiefelbein/AP BRIDGEWATER, N.J. — The U.S. military said it shot down Iranian ballistic missiles and drones launched toward the Strait of Hormuz and Gulf Arab allies on Friday, while striking some of the Islamic Republic's coastal surveillance radar sites in response, an exchange of fire that further frayed a shaky ceasefire with Tehran. The exchange of strikes comes as the Trump administration ramps up pressure on Iran to make a deal to end the conflict. U.S. Central Command said on social media Friday night that Iran fired seven ballistic missiles toward Kuwait and Bahrain, with U.S. forces intercepting six of the missiles and a seventh failing to reach its target. The military said there were no reports of harm to U.S. personnel. The ballistic missiles were fired after the U.S. earlier in the day shot down four Iranian drones that were launched toward Strait of Hormuz. \"The attack drones posed an immediate threat to regional maritime traffic,\" U.S. Central Command said o",
       "keywords": [
         {
-          "name": "council",
-          "value": 1476
+          "name": "iran",
+          "value": 11
         },
         {
-          "name": "security",
-          "value": 1473
+          "name": "trump",
+          "value": 10
         },
         {
-          "name": "interpol",
-          "value": 1239
+          "name": "friday",
+          "value": 8
         },
         {
-          "name": "resolution",
-          "value": 840
+          "name": "military",
+          "value": 8
         },
         {
-          "name": "interpol-un",
-          "value": 683
+          "name": "iranian",
+          "value": 7
         },
         {
-          "name": "afghanistan",
-          "value": 636
+          "name": "drones",
+          "value": 6
         },
         {
-          "name": "link",
-          "value": 612
+          "name": "going",
+          "value": 6
         },
         {
-          "name": "republic",
-          "value": 539
+          "name": "lebanon",
+          "value": 6
         },
         {
-          "name": "al-qaida",
-          "value": 515
+          "name": "missiles",
+          "value": 6
         },
         {
-          "name": "iraq",
-          "value": 480
+          "name": "ceasefire",
+          "value": 5
         }
       ],
       "signals": [
-        "Institutions and Law",
         "War and Escalation",
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
+        "Diplomacy and Negotiations",
+        "Territory and Chokepoints",
+        "Energy and Supply Chains"
       ],
       "regions": [
-        "Africa",
+        "Americas",
         "Middle East",
-        "Global Institutions"
+        "Indo-Pacific"
       ],
-      "detail_path": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68",
-      "evidence_json": "/evidence/0dedfc8ffd516b462f7ab2ecfdb3ad54743cb49b00a7cab93965ba003a4cba68.json"
+      "detail_path": "/evidence/b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
+      "evidence_json": "/evidence/b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45.json"
     },
     {
       "id": "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb",
