@@ -1,92 +1,76 @@
 {
-  "generated_at": "2026-06-07T08:48:39.453390+00:00",
+  "generated_at": "2026-06-07T11:04:25.390376+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating Tensions in the Middle East Amid Ongoing Conflicts and Humanitarian Crises",
+    "headline": "Escalating tensions in the Middle East as the US-Israel war on Iran continues to impact regional stability.",
     "executive_summary": [
-      "The geopolitical landscape in the Middle East remains fraught with escalating tensions, particularly following the recent exchanges of fire between the United States and Iran, which threaten the fragile ceasefire established in early April. The U.S. military's interception of Iranian drones and subsequent strikes on Iranian radar installations highlight the ongoing military confrontations that complicate diplomatic efforts to stabilize the region (evidence id: 21).",
-      "Humanitarian crises are deepening as conflicts continue to displace populations and inflict civilian casualties. Reports indicate that over 3,500 deaths and significant injuries have occurred in Lebanon since early March, exacerbating the humanitarian needs of the affected populations (evidence id: 12). The United Nations has launched appeals for substantial funding to address these urgent needs, reflecting the dire situation on the ground (evidence id: 11).",
-      "The international community's response to the ongoing violence includes sanctions against key figures and entities involved in the conflicts, particularly those linked to the Israeli settler movement. However, these measures have been met with indifference from the targeted groups, suggesting a lack of effectiveness in curbing settlement expansion and violence against Palestinians (evidence id: 19).",
-      "As the situation evolves, the potential for further military escalation remains high, particularly with the U.S. and Iran engaged in a cycle of retaliatory strikes. The geopolitical implications of these actions extend beyond the immediate region, affecting global energy markets and international diplomatic relations (evidence id: 24)."
+      "The ongoing conflict initiated by the US and Israel against Iran has entered a critical phase, marked by significant military exchanges and humanitarian crises. Reports indicate that the war has resulted in substantial civilian casualties, with over 3,000 deaths in Lebanon alone, exacerbating the humanitarian situation in the region (evidence id: 17).",
+      "Diplomatic efforts to mediate the conflict have been complicated by continued hostilities, including missile strikes from Iran targeting Gulf nations, which have prompted US military responses (evidence id: 28). The fragile ceasefire established on April 8 has been repeatedly tested, with both sides engaging in retaliatory actions that threaten to escalate the situation further (evidence id: 25).",
+      "The humanitarian impact of the war is profound, with millions facing acute food insecurity as a result of rising energy prices and disrupted supply chains (evidence id: 27). The UN has reported significant damage to civilian infrastructure in Iran and Lebanon, further complicating relief efforts (evidence id: 13).",
+      "As the conflict continues, regional actors are increasingly involved, with Pakistan attempting to mediate between the US and Iran, highlighting the broader geopolitical implications of the war (evidence id: 12). The situation remains fluid, with potential for further escalation as military operations persist."
     ],
     "key_judgments": [
       {
-        "title": "Fragile Ceasefire at Risk",
-        "finding": "The recent military exchanges between the U.S. and Iran jeopardize the fragile ceasefire established in April, with both sides engaging in retaliatory strikes.",
+        "title": "Humanitarian Crisis Intensifies",
+        "finding": "The war has led to over 3,000 civilian deaths in Lebanon and significant infrastructure damage in Iran, exacerbating the humanitarian crisis.",
         "citations": [
-          "21",
-          "24"
+          "17",
+          "13"
         ]
       },
       {
-        "title": "Humanitarian Crisis Worsening",
-        "finding": "The ongoing conflicts have resulted in significant civilian casualties and displacement, with over 3,500 deaths reported in Lebanon since March.",
+        "title": "Ceasefire Fragility",
+        "finding": "The ceasefire established on April 8 is under severe strain due to ongoing military exchanges between the US, Israel, and Iran.",
         "citations": [
-          "12",
-          "11"
+          "25",
+          "28"
         ]
       },
       {
-        "title": "Ineffectiveness of Sanctions",
-        "finding": "Sanctions imposed on Israeli settler groups have been dismissed as a 'badge of honour,' indicating a lack of impact on settlement activities and violence.",
+        "title": "Regional Diplomatic Efforts",
+        "finding": "Pakistan's involvement in mediating between the US and Iran underscores the conflict's regional implications and the need for diplomatic solutions.",
         "citations": [
-          "19"
-        ]
-      },
-      {
-        "title": "Global Energy Market Implications",
-        "finding": "The military tensions in the Middle East are contributing to instability in global energy markets, particularly concerning oil prices and supply chains.",
-        "citations": [
-          "24",
-          "25"
+          "12"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The Middle East is experiencing heightened military tensions, particularly between the U.S. and Iran, which are complicating humanitarian efforts and diplomatic negotiations.",
+        "assessment": "The Middle East remains highly volatile, with the US-Israel war on Iran significantly affecting regional stability and humanitarian conditions.",
         "citations": [
-          "21",
-          "24",
-          "12"
+          "10",
+          "21"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "Iranian Military Activities",
-        "why_it_matters": "Iran's military actions, including missile launches towards Gulf nations, pose a significant threat to regional stability and international shipping routes.",
+        "label": "US-Iran Military Exchanges",
+        "why_it_matters": "Continued military exchanges threaten to escalate the conflict further, impacting regional security and global energy markets.",
         "citations": [
-          "21",
-          "24"
+          "28",
+          "25"
         ]
       },
       {
-        "label": "Israeli Settler Violence",
-        "why_it_matters": "The ongoing violence and expansion of Israeli settlements in Palestinian territories continue to escalate tensions and humanitarian crises in the region.",
+        "label": "Humanitarian Assistance Needs",
+        "why_it_matters": "The rising number of civilian casualties and infrastructure damage necessitates urgent humanitarian assistance to prevent further deterioration of conditions.",
         "citations": [
-          "19"
-        ]
-      },
-      {
-        "label": "Humanitarian Appeals",
-        "why_it.matters": "The UN's appeals for humanitarian assistance highlight the urgent need for international support to address the growing humanitarian crises in Lebanon and surrounding areas.",
-        "citations": [
-          "11",
-          "12"
+          "13",
+          "27"
         ]
       }
     ],
     "caveats": [
-      "Limitations from source coverage may affect the comprehensiveness of the analysis."
+      "Limitations from source coverage may affect the comprehensiveness of the situation analysis."
     ]
   },
   "summary": {
-    "raw_documents": 752,
-    "total_text_chars": 130124038,
+    "raw_documents": 756,
+    "total_text_chars": 130164525,
     "sources": 32,
     "signals": 8,
     "regions": 6,
@@ -97,7 +81,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 544
+      "value": 548
     },
     {
       "name": "PDF",
@@ -131,7 +115,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 522
+      "value": 526
     },
     {
       "name": "pdfs",
@@ -185,7 +169,7 @@
     },
     {
       "name": "theguardian.com",
-      "value": 114
+      "value": 115
     },
     {
       "name": "global.unitednations.entermediadb.net",
@@ -197,7 +181,7 @@
     },
     {
       "name": "aljazeera.com",
-      "value": 57
+      "value": 59
     },
     {
       "name": "defensenews.com",
@@ -213,7 +197,7 @@
     },
     {
       "name": "france24.com",
-      "value": 25
+      "value": 26
     },
     {
       "name": "npr.org",
@@ -299,7 +283,7 @@
     },
     {
       "name": "iran",
-      "value": 1979
+      "value": 2054
     },
     {
       "name": "reliefweb",
@@ -307,7 +291,7 @@
     },
     {
       "name": "lebanon",
-      "value": 1913
+      "value": 1920
     },
     {
       "name": "humanitarian",
@@ -315,7 +299,7 @@
     },
     {
       "name": "israel",
-      "value": 1514
+      "value": 1520
     },
     {
       "name": "care",
@@ -331,7 +315,7 @@
     },
     {
       "name": "conflict",
-      "value": 1254
+      "value": 1276
     },
     {
       "name": "united",
@@ -339,11 +323,11 @@
     },
     {
       "name": "trump",
-      "value": 1182
+      "value": 1198
     },
     {
       "name": "israeli",
-      "value": 1114
+      "value": 1127
     },
     {
       "name": "food",
@@ -477,11 +461,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 496,
+      "count": 500,
       "formats": [
         {
           "name": "Article",
-          "value": 410
+          "value": 414
         },
         {
           "name": "PDF",
@@ -501,19 +485,49 @@
         }
       ],
       "evidence_ids": [
+        "a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b",
+        "bc473a9ad59841085c517cad13a54849ec4922448473938eefc213bf7ad454d2",
+        "11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57",
         "7dde43bde056d26018383e38cd766e8b829feff3a08e551f3ba6bb7ce1de3e2e",
         "83d712338f1a68cb43a4cc676606226fe87d7bdc057ecab6d9d2a8aae84944c2",
         "c8c2a405214b6cd207fff69e27cd5d8ac3b02bed105a9089425580a2afe761ba",
+        "e5fc1eedc8a28f9363c58a96317b56b1b46ec1a937fd6013617b4829409d8651",
         "760606d6775f51a15b93efcd549a9e5dbe6be6b3e8774fb7cc7d992dc8f7a9ab",
         "b23d75bc2c59beb191addfd3e04847de40cbcaad6f4f8781163ec53d26a5c36d",
-        "6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894",
-        "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
-        "17e9ba41c5c8767cc391d38494ae217d666089f2c4b2c6b3055b6e910ab0f828",
-        "33e42af06f56127d2a1d0beb15610c2f6622193e2b6c50c86d04f5eb5ec82c3c",
-        "6caf0d2bd5b31daaf8317d98803379f562dc1f01d5cae2306c2033e1c59d2067"
+        "6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894"
       ],
-      "summary": "05 | 3 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org Although a ceasefire is in place, humanitarian conditions continue to deteriorate due to inflation and economic disruption, with food inflation reaching up to 115 per cent, severely limiting household purchasing power and increasing vulnerability. The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. 32 | 2 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org According to the Ministry of Public Health (MoPH), at least 3,526 people have been killed (including 339 women and 245 children) and 10,733 injured (including 1,337 women and 957 children) due to hostilities since 2 March 2026. The mission of the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is to coordinate the global emergency response to save lives and protect people in humanitarian crises. HIGHLIGHTS Revised Flash Appeal jointly launched by the United Nations and Government of Lebanon on 5 June, calling for US$ 639.9 million to assist 1.4 million people through August 2026. SITUATION OVERVIEW Despite the new ceasefire announcement jointly issued by Lebanon, Israel and the United States on 3 June, the situation remained volatile during the reporting period as Hezbollah rejected the ceasefire’s terms. Strait of Hormuz: From 100 ships daily to 7 Since the beginning of the war, hundreds of ships have been stranded in the Strait of Hormuz, a strategic waterway through which one-fifth of global oil and gas previously flowed. Despite a ceasefire agreed on April 8, the Strait of Hormuz remains largely closed, sporadic fire continues, and talks have repeatedly collapsed.",
+      "summary": "(Al Jazeera) The Gulf region Gulf states have been caught up in the war since it began on February 28, with Iran launching missile and drone strikes against US military assets hosted on their soil. Sunday marks 100 days since the United States and Israel launched war on Iran – a conflict that has triggered a global energy crisis and darkened the global economic outlook. But that has not stopped Israel from carrying out its attacks on Lebanon, which Tehran has said are a violation of the April 8 ceasefire between Washington and New Delhi. The prime minister, Keir Starmer, has said the plan, originally promised in autumn 2025, will be published before the Nato summit in Turkey beginning on 7 July. As the defence secretary told parliament this week, the prime minister is determined to publish it before the Nato summit.” The PAC report comes as it emerged the MoD is developing a submarine maintenance recovery plan amid reports the Royal Navy’s entire available fleet of hunter-killer submarines is docked. It is due to be published before a Nato summit early next month. On Friday, it said it intercepted seven ballistic missiles heading towards Kuwait and Bahrain hours after it had shot down four Iranian drones launched towards the strait, a key waterway through which about 20 percent of globally traded oil normally passes. Pakistan’s Interior Minister Mohsin Naqvi has travelled to Iran to deliver a “special letter” to Iran’s Supreme Leader Mojtaba Khamenei as part of diplomatic efforts to end the United States-Israeli war on Iran, which began 100 days ago. 05 | 3 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org Although a ceasefire is in place, humanitarian conditions continue to deteriorate due to inflation and economic disruption, with food inflation reaching up to 115 per cent, severely limiting household purchasing power and increasing vulnerability. The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations.",
       "latest": [
+        {
+          "id": "a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b",
+          "title": "How have countries around the world responded to the US-Israel war on Iran?",
+          "url": "https://www.aljazeera.com/news/2026/6/7/how-have-countries-around-the-world-responded-to-the-us-israel-war-on-iran?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-06-07T11:04:35.158383+00:00",
+          "published": "Sun, 07 Jun 2026 09:35:31 +0000",
+          "summary": "(Al Jazeera) The Gulf region Gulf states have been caught up in the war since it began on February 28, with Iran launching missile and drone strikes against US military assets hosted on their soil. Sunday marks 100 days since the United States and Israel launched war on Iran – a conflict that has triggered a global energy crisis and darkened the global economic outlook. But that has not stopped Israel from carrying out its attacks on Lebanon, which Tehran has said are a violation of the April 8 ceasefire between Washington and New Delhi."
+        },
+        {
+          "id": "bc473a9ad59841085c517cad13a54849ec4922448473938eefc213bf7ad454d2",
+          "title": "Delays to defence investment plan have damaged UK’s credibility, say MPs",
+          "url": "https://www.theguardian.com/politics/2026/jun/07/uk-defence-investment-delays-damage-credibility-mps",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-07T11:04:30.846611+00:00",
+          "published": "Sun, 07 Jun 2026 09:29:48 GMT",
+          "summary": "The prime minister, Keir Starmer, has said the plan, originally promised in autumn 2025, will be published before the Nato summit in Turkey beginning on 7 July. As the defence secretary told parliament this week, the prime minister is determined to publish it before the Nato summit.” The PAC report comes as it emerged the MoD is developing a submarine maintenance recovery plan amid reports the Royal Navy’s entire available fleet of hunter-killer submarines is docked. It is due to be published before a Nato summit early next month."
+        },
+        {
+          "id": "11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57",
+          "title": "Pakistan’s Naqvi visits Iran with ‘special letter’ for supreme leader",
+          "url": "https://www.aljazeera.com/news/2026/6/7/pakistans-naqvi-visits-iran-with-special-letter-for-supreme-leader?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-06-07T11:04:38.603241+00:00",
+          "published": "Sun, 07 Jun 2026 08:45:01 +0000",
+          "summary": "On Friday, it said it intercepted seven ballistic missiles heading towards Kuwait and Bahrain hours after it had shot down four Iranian drones launched towards the strait, a key waterway through which about 20 percent of globally traded oil normally passes. Pakistan’s Interior Minister Mohsin Naqvi has travelled to Iran to deliver a “special letter” to Iran’s Supreme Leader Mojtaba Khamenei as part of diplomatic efforts to end the United States-Israeli war on Iran, which began 100 days ago."
+        },
         {
           "id": "7dde43bde056d26018383e38cd766e8b829feff3a08e551f3ba6bb7ce1de3e2e",
           "title": "Islamic Republic of Iran: Humanitarian Update No. 05 | As of 31 May 2026 (pdf)",
@@ -533,46 +547,16 @@
           "collected_at": "2026-06-07T08:48:39.914581+00:00",
           "published": "Sun, 07 Jun 2026 06:47:08 +0000",
           "summary": "32 | 2 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org According to the Ministry of Public Health (MoPH), at least 3,526 people have been killed (including 339 women and 245 children) and 10,733 injured (including 1,337 women and 957 children) due to hostilities since 2 March 2026. The mission of the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is to coordinate the global emergency response to save lives and protect people in humanitarian crises."
-        },
-        {
-          "id": "c8c2a405214b6cd207fff69e27cd5d8ac3b02bed105a9089425580a2afe761ba",
-          "title": "Lebanon: Flash Update #32 - Escalation of hostilities in Lebanon (as of 4 June 2026)",
-          "url": "https://reliefweb.int/report/lebanon/lebanon-flash-update-32-escalation-hostilities-lebanon-4-june-2026",
-          "host": "reliefweb.int",
-          "format": "Article",
-          "collected_at": "2026-06-07T08:48:39.562587+00:00",
-          "published": "Sun, 07 Jun 2026 06:47:08 +0000",
-          "summary": "HIGHLIGHTS Revised Flash Appeal jointly launched by the United Nations and Government of Lebanon on 5 June, calling for US$ 639.9 million to assist 1.4 million people through August 2026. SITUATION OVERVIEW Despite the new ceasefire announcement jointly issued by Lebanon, Israel and the United States on 3 June, the situation remained volatile during the reporting period as Hezbollah rejected the ceasefire’s terms."
-        },
-        {
-          "id": "760606d6775f51a15b93efcd549a9e5dbe6be6b3e8774fb7cc7d992dc8f7a9ab",
-          "title": "By the numbers: 100 days of the US-Israel war on Iran",
-          "url": "https://www.aljazeera.com/news/2026/6/7/by-the-numbers-100-days-of-the-us-israel-war-on-iran?traffic_source=rss",
-          "host": "aljazeera.com",
-          "format": "Article",
-          "collected_at": "2026-06-07T08:48:53.285223+00:00",
-          "published": "Sun, 07 Jun 2026 05:30:52 +0000",
-          "summary": "Strait of Hormuz: From 100 ships daily to 7 Since the beginning of the war, hundreds of ships have been stranded in the Strait of Hormuz, a strategic waterway through which one-fifth of global oil and gas previously flowed. Despite a ceasefire agreed on April 8, the Strait of Hormuz remains largely closed, sporadic fire continues, and talks have repeatedly collapsed."
-        },
-        {
-          "id": "b23d75bc2c59beb191addfd3e04847de40cbcaad6f4f8781163ec53d26a5c36d",
-          "title": "Australia news live: Tony Abbott praises Liberals’ new top strategist as party tries to rebuild campaign machine",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jun/07/tony-abbott-liberal-party-strategist-anthony-albanese-labor-angus-taylor-coalition-one-nation-ntwnfb",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-07T00:09:26.449780+00:00",
-          "published": "Sun, 07 Jun 2026 00:04:19 GMT",
-          "summary": "Photograph: Bianca de Marchi/AAP Share Updated at 20.08 EDT Australia should have ‘realistic’ view of China, Shoebridge says The Greens’ defence spokesperson, senator David Shoebridge, has said Australia should have a realistic view of China, its military force and have a frank and honest relationship about human rights and trade. He told ABC’s Insiders program Australia should not “go down a warpath with Washington” against China. Shoebridge said Australia does not need nuclear-powered submarines, criticising the Aukus program."
         }
       ]
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 425,
+      "count": 429,
       "formats": [
         {
           "name": "Article",
-          "value": 353
+          "value": 357
         },
         {
           "name": "PDF",
@@ -592,19 +576,49 @@
         }
       ],
       "evidence_ids": [
+        "a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b",
+        "bc473a9ad59841085c517cad13a54849ec4922448473938eefc213bf7ad454d2",
+        "11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57",
         "83d712338f1a68cb43a4cc676606226fe87d7bdc057ecab6d9d2a8aae84944c2",
         "c8c2a405214b6cd207fff69e27cd5d8ac3b02bed105a9089425580a2afe761ba",
+        "e5fc1eedc8a28f9363c58a96317b56b1b46ec1a937fd6013617b4829409d8651",
         "760606d6775f51a15b93efcd549a9e5dbe6be6b3e8774fb7cc7d992dc8f7a9ab",
         "b23d75bc2c59beb191addfd3e04847de40cbcaad6f4f8781163ec53d26a5c36d",
         "6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894",
-        "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
-        "17e9ba41c5c8767cc391d38494ae217d666089f2c4b2c6b3055b6e910ab0f828",
-        "39b7b011a1867d397a32fa062d8865d499ae971d0f50763661c44f1947409002",
-        "33e42af06f56127d2a1d0beb15610c2f6622193e2b6c50c86d04f5eb5ec82c3c",
-        "6caf0d2bd5b31daaf8317d98803379f562dc1f01d5cae2306c2033e1c59d2067"
+        "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b"
       ],
-      "summary": "32 | 2 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org According to the Ministry of Public Health (MoPH), at least 3,526 people have been killed (including 339 women and 245 children) and 10,733 injured (including 1,337 women and 957 children) due to hostilities since 2 March 2026. The mission of the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is to coordinate the global emergency response to save lives and protect people in humanitarian crises. HIGHLIGHTS Revised Flash Appeal jointly launched by the United Nations and Government of Lebanon on 5 June, calling for US$ 639.9 million to assist 1.4 million people through August 2026. SITUATION OVERVIEW Despite the new ceasefire announcement jointly issued by Lebanon, Israel and the United States on 3 June, the situation remained volatile during the reporting period as Hezbollah rejected the ceasefire’s terms. Strait of Hormuz: From 100 ships daily to 7 Since the beginning of the war, hundreds of ships have been stranded in the Strait of Hormuz, a strategic waterway through which one-fifth of global oil and gas previously flowed. Despite a ceasefire agreed on April 8, the Strait of Hormuz remains largely closed, sporadic fire continues, and talks have repeatedly collapsed. Photograph: Bianca de Marchi/AAP Share Updated at 20.08 EDT Australia should have ‘realistic’ view of China, Shoebridge says The Greens’ defence spokesperson, senator David Shoebridge, has said Australia should have a realistic view of China, its military force and have a frank and honest relationship about human rights and trade. He told ABC’s Insiders program Australia should not “go down a warpath with Washington” against China. Shoebridge said Australia does not need nuclear-powered submarines, criticising the Aukus program.",
+      "summary": "(Al Jazeera) The Gulf region Gulf states have been caught up in the war since it began on February 28, with Iran launching missile and drone strikes against US military assets hosted on their soil. Sunday marks 100 days since the United States and Israel launched war on Iran – a conflict that has triggered a global energy crisis and darkened the global economic outlook. But that has not stopped Israel from carrying out its attacks on Lebanon, which Tehran has said are a violation of the April 8 ceasefire between Washington and New Delhi. The prime minister, Keir Starmer, has said the plan, originally promised in autumn 2025, will be published before the Nato summit in Turkey beginning on 7 July. As the defence secretary told parliament this week, the prime minister is determined to publish it before the Nato summit.” The PAC report comes as it emerged the MoD is developing a submarine maintenance recovery plan amid reports the Royal Navy’s entire available fleet of hunter-killer submarines is docked. It is due to be published before a Nato summit early next month. On Friday, it said it intercepted seven ballistic missiles heading towards Kuwait and Bahrain hours after it had shot down four Iranian drones launched towards the strait, a key waterway through which about 20 percent of globally traded oil normally passes. Pakistan’s Interior Minister Mohsin Naqvi has travelled to Iran to deliver a “special letter” to Iran’s Supreme Leader Mojtaba Khamenei as part of diplomatic efforts to end the United States-Israeli war on Iran, which began 100 days ago. 32 | 2 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org According to the Ministry of Public Health (MoPH), at least 3,526 people have been killed (including 339 women and 245 children) and 10,733 injured (including 1,337 women and 957 children) due to hostilities since 2 March 2026. The mission of the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is to coordinate the global emergency response to save lives and protect people in humanitarian crises.",
       "latest": [
+        {
+          "id": "a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b",
+          "title": "How have countries around the world responded to the US-Israel war on Iran?",
+          "url": "https://www.aljazeera.com/news/2026/6/7/how-have-countries-around-the-world-responded-to-the-us-israel-war-on-iran?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-06-07T11:04:35.158383+00:00",
+          "published": "Sun, 07 Jun 2026 09:35:31 +0000",
+          "summary": "(Al Jazeera) The Gulf region Gulf states have been caught up in the war since it began on February 28, with Iran launching missile and drone strikes against US military assets hosted on their soil. Sunday marks 100 days since the United States and Israel launched war on Iran – a conflict that has triggered a global energy crisis and darkened the global economic outlook. But that has not stopped Israel from carrying out its attacks on Lebanon, which Tehran has said are a violation of the April 8 ceasefire between Washington and New Delhi."
+        },
+        {
+          "id": "bc473a9ad59841085c517cad13a54849ec4922448473938eefc213bf7ad454d2",
+          "title": "Delays to defence investment plan have damaged UK’s credibility, say MPs",
+          "url": "https://www.theguardian.com/politics/2026/jun/07/uk-defence-investment-delays-damage-credibility-mps",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-07T11:04:30.846611+00:00",
+          "published": "Sun, 07 Jun 2026 09:29:48 GMT",
+          "summary": "The prime minister, Keir Starmer, has said the plan, originally promised in autumn 2025, will be published before the Nato summit in Turkey beginning on 7 July. As the defence secretary told parliament this week, the prime minister is determined to publish it before the Nato summit.” The PAC report comes as it emerged the MoD is developing a submarine maintenance recovery plan amid reports the Royal Navy’s entire available fleet of hunter-killer submarines is docked. It is due to be published before a Nato summit early next month."
+        },
+        {
+          "id": "11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57",
+          "title": "Pakistan’s Naqvi visits Iran with ‘special letter’ for supreme leader",
+          "url": "https://www.aljazeera.com/news/2026/6/7/pakistans-naqvi-visits-iran-with-special-letter-for-supreme-leader?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-06-07T11:04:38.603241+00:00",
+          "published": "Sun, 07 Jun 2026 08:45:01 +0000",
+          "summary": "On Friday, it said it intercepted seven ballistic missiles heading towards Kuwait and Bahrain hours after it had shot down four Iranian drones launched towards the strait, a key waterway through which about 20 percent of globally traded oil normally passes. Pakistan’s Interior Minister Mohsin Naqvi has travelled to Iran to deliver a “special letter” to Iran’s Supreme Leader Mojtaba Khamenei as part of diplomatic efforts to end the United States-Israeli war on Iran, which began 100 days ago."
+        },
         {
           "id": "83d712338f1a68cb43a4cc676606226fe87d7bdc057ecab6d9d2a8aae84944c2",
           "title": "Lebanon: Flash Update #32 - Escalation of hostilities in Lebanon (as of 4 June 2026) (pdf)",
@@ -624,36 +638,6 @@
           "collected_at": "2026-06-07T08:48:39.562587+00:00",
           "published": "Sun, 07 Jun 2026 06:47:08 +0000",
           "summary": "HIGHLIGHTS Revised Flash Appeal jointly launched by the United Nations and Government of Lebanon on 5 June, calling for US$ 639.9 million to assist 1.4 million people through August 2026. SITUATION OVERVIEW Despite the new ceasefire announcement jointly issued by Lebanon, Israel and the United States on 3 June, the situation remained volatile during the reporting period as Hezbollah rejected the ceasefire’s terms."
-        },
-        {
-          "id": "760606d6775f51a15b93efcd549a9e5dbe6be6b3e8774fb7cc7d992dc8f7a9ab",
-          "title": "By the numbers: 100 days of the US-Israel war on Iran",
-          "url": "https://www.aljazeera.com/news/2026/6/7/by-the-numbers-100-days-of-the-us-israel-war-on-iran?traffic_source=rss",
-          "host": "aljazeera.com",
-          "format": "Article",
-          "collected_at": "2026-06-07T08:48:53.285223+00:00",
-          "published": "Sun, 07 Jun 2026 05:30:52 +0000",
-          "summary": "Strait of Hormuz: From 100 ships daily to 7 Since the beginning of the war, hundreds of ships have been stranded in the Strait of Hormuz, a strategic waterway through which one-fifth of global oil and gas previously flowed. Despite a ceasefire agreed on April 8, the Strait of Hormuz remains largely closed, sporadic fire continues, and talks have repeatedly collapsed."
-        },
-        {
-          "id": "b23d75bc2c59beb191addfd3e04847de40cbcaad6f4f8781163ec53d26a5c36d",
-          "title": "Australia news live: Tony Abbott praises Liberals’ new top strategist as party tries to rebuild campaign machine",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jun/07/tony-abbott-liberal-party-strategist-anthony-albanese-labor-angus-taylor-coalition-one-nation-ntwnfb",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-07T00:09:26.449780+00:00",
-          "published": "Sun, 07 Jun 2026 00:04:19 GMT",
-          "summary": "Photograph: Bianca de Marchi/AAP Share Updated at 20.08 EDT Australia should have ‘realistic’ view of China, Shoebridge says The Greens’ defence spokesperson, senator David Shoebridge, has said Australia should have a realistic view of China, its military force and have a frank and honest relationship about human rights and trade. He told ABC’s Insiders program Australia should not “go down a warpath with Washington” against China. Shoebridge said Australia does not need nuclear-powered submarines, criticising the Aukus program."
-        },
-        {
-          "id": "6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894",
-          "title": "Pentagon said to raise threat level on Israel spying to ‘critical’",
-          "url": "https://www.aljazeera.com/news/2026/6/6/pentagon-said-to-raise-threat-level-on-israel-spying-to-critical?traffic_source=rss",
-          "host": "aljazeera.com",
-          "format": "Article",
-          "collected_at": "2026-06-06T22:00:27.348434+00:00",
-          "published": "Sat, 06 Jun 2026 21:10:36 +0000",
-          "summary": "Witkoff had been the lead negotiator in nuclear talks that preceded the initial US-Israeli attack on Iran in February. Washington has, for years, provided billions in military aid and weapons sales to Israel, including throughout the genocide in Gaza. US President Donald Trump and Israeli Prime Minister Netanyahu have publicly diverged in their approach to the war, which the US and Israel started on February 28."
         }
       ]
     },
@@ -750,11 +734,11 @@
     },
     {
       "name": "Territory and Chokepoints",
-      "count": 299,
+      "count": 302,
       "formats": [
         {
           "name": "Article",
-          "value": 236
+          "value": 239
         },
         {
           "name": "PDF",
@@ -774,19 +758,39 @@
         }
       ],
       "evidence_ids": [
+        "a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b",
+        "11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57",
         "7dde43bde056d26018383e38cd766e8b829feff3a08e551f3ba6bb7ce1de3e2e",
+        "e5fc1eedc8a28f9363c58a96317b56b1b46ec1a937fd6013617b4829409d8651",
         "39b7b011a1867d397a32fa062d8865d499ae971d0f50763661c44f1947409002",
         "33e42af06f56127d2a1d0beb15610c2f6622193e2b6c50c86d04f5eb5ec82c3c",
         "6caf0d2bd5b31daaf8317d98803379f562dc1f01d5cae2306c2033e1c59d2067",
         "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
         "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb",
-        "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d",
-        "8e0faabd762f636d4a5879ee04b187bb4c3a53bcb1b96842d7fb798030084878",
-        "37e07c4314f615c7c1e25dcdb6edd2f5cff533b2e11f95c1ad17ac7359dd1c2f",
-        "f7ea0a586aa629596f8642b793a0e7bb745d3dd33b1bcf346daadb665b6fc71a"
+        "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d"
       ],
-      "summary": "05 | 3 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org Although a ceasefire is in place, humanitarian conditions continue to deteriorate due to inflation and economic disruption, with food inflation reaching up to 115 per cent, severely limiting household purchasing power and increasing vulnerability. The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. Finance Minister Bezalel Smotrich, a son of the settler movement, was sanctioned by the United Kingdom, Canada and several other countries for his alleged role in supporting or enabling violence in the West Bank, highlighting how the settlement project has the support of the highest echelons of the Israeli state. The oil tankers may still be stuck behind the strait of Hormuz as the conflict between the US, Israel and Iran flickers on, but for now, airlines continue to defy dire warnings of impending shortages which had stoked fears of a summer of chaos for European holidaymakers. Aviation leaders will converge in Brazil this weekend for the Iata AGM, the annual global airline summit, with the industry still, for the most part, looking resolutely skyward. Published on 06/06/2026 - 9:19 GMT+2 New military exchanges between the United States and Iran have tested the fragile ceasefire, threatening efforts to stabilise the Middle East and restore shipping through the strategically important Strait of Hormuz. ADVERTISEMENT ADVERTISEMENT The latest escalation began on Friday when the US military said it intercepted four Iranian drones heading towards the Strait of Hormuz before carrying out strikes against Iranian coastal radar installations in Goruk and on Qeshm Island.",
+      "summary": "(Al Jazeera) The Gulf region Gulf states have been caught up in the war since it began on February 28, with Iran launching missile and drone strikes against US military assets hosted on their soil. Sunday marks 100 days since the United States and Israel launched war on Iran – a conflict that has triggered a global energy crisis and darkened the global economic outlook. But that has not stopped Israel from carrying out its attacks on Lebanon, which Tehran has said are a violation of the April 8 ceasefire between Washington and New Delhi. On Friday, it said it intercepted seven ballistic missiles heading towards Kuwait and Bahrain hours after it had shot down four Iranian drones launched towards the strait, a key waterway through which about 20 percent of globally traded oil normally passes. Pakistan’s Interior Minister Mohsin Naqvi has travelled to Iran to deliver a “special letter” to Iran’s Supreme Leader Mojtaba Khamenei as part of diplomatic efforts to end the United States-Israeli war on Iran, which began 100 days ago. 05 | 3 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org Although a ceasefire is in place, humanitarian conditions continue to deteriorate due to inflation and economic disruption, with food inflation reaching up to 115 per cent, severely limiting household purchasing power and increasing vulnerability. The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. Magen David Adom said it received the first reports of a shooting at a gas station near the town of Kokhav Yair, located on the Israeli side of the boundary with the West Bank, at around 10:30 am. Pakistani authorities have said Islamabad, with support from regional countries including Qatar, Turkey and Egypt, has been working to help bridge differences between the United States and Iran and encourage efforts aimed at reducing tensions and ensuring the reopening of the Strait of Hormuz.",
       "latest": [
+        {
+          "id": "a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b",
+          "title": "How have countries around the world responded to the US-Israel war on Iran?",
+          "url": "https://www.aljazeera.com/news/2026/6/7/how-have-countries-around-the-world-responded-to-the-us-israel-war-on-iran?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-06-07T11:04:35.158383+00:00",
+          "published": "Sun, 07 Jun 2026 09:35:31 +0000",
+          "summary": "(Al Jazeera) The Gulf region Gulf states have been caught up in the war since it began on February 28, with Iran launching missile and drone strikes against US military assets hosted on their soil. Sunday marks 100 days since the United States and Israel launched war on Iran – a conflict that has triggered a global energy crisis and darkened the global economic outlook. But that has not stopped Israel from carrying out its attacks on Lebanon, which Tehran has said are a violation of the April 8 ceasefire between Washington and New Delhi."
+        },
+        {
+          "id": "11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57",
+          "title": "Pakistan’s Naqvi visits Iran with ‘special letter’ for supreme leader",
+          "url": "https://www.aljazeera.com/news/2026/6/7/pakistans-naqvi-visits-iran-with-special-letter-for-supreme-leader?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-06-07T11:04:38.603241+00:00",
+          "published": "Sun, 07 Jun 2026 08:45:01 +0000",
+          "summary": "On Friday, it said it intercepted seven ballistic missiles heading towards Kuwait and Bahrain hours after it had shot down four Iranian drones launched towards the strait, a key waterway through which about 20 percent of globally traded oil normally passes. Pakistan’s Interior Minister Mohsin Naqvi has travelled to Iran to deliver a “special letter” to Iran’s Supreme Leader Mojtaba Khamenei as part of diplomatic efforts to end the United States-Israeli war on Iran, which began 100 days ago."
+        },
         {
           "id": "7dde43bde056d26018383e38cd766e8b829feff3a08e551f3ba6bb7ce1de3e2e",
           "title": "Islamic Republic of Iran: Humanitarian Update No. 05 | As of 31 May 2026 (pdf)",
@@ -798,6 +802,16 @@
           "summary": "05 | 3 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org Although a ceasefire is in place, humanitarian conditions continue to deteriorate due to inflation and economic disruption, with food inflation reaching up to 115 per cent, severely limiting household purchasing power and increasing vulnerability. The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations."
         },
         {
+          "id": "e5fc1eedc8a28f9363c58a96317b56b1b46ec1a937fd6013617b4829409d8651",
+          "title": "Middle East live: US downs two Iranian drones targeting Hormuz shipping traffic",
+          "url": "https://www.france24.com/en/middle-east/20260607-middle-east-live-us-downs-two-iranian-drones-targeting-hormuz-shipping-traffic",
+          "host": "france24.com",
+          "format": "Article",
+          "collected_at": "2026-06-07T11:04:31.274855+00:00",
+          "published": "Sun, 07 Jun 2026 06:39:58 GMT",
+          "summary": "Magen David Adom said it received the first reports of a shooting at a gas station near the town of Kokhav Yair, located on the Israeli side of the boundary with the West Bank, at around 10:30 am. Pakistani authorities have said Islamabad, with support from regional countries including Qatar, Turkey and Egypt, has been working to help bridge differences between the United States and Iran and encourage efforts aimed at reducing tensions and ensuring the reopening of the Strait of Hormuz."
+        },
+        {
           "id": "39b7b011a1867d397a32fa062d8865d499ae971d0f50763661c44f1947409002",
           "title": "‘Badge of honour’: Israeli settlers shrug off global condemnation",
           "url": "https://www.aljazeera.com/news/2026/6/6/badge-of-honour-israeli-settlers-shrug-off-global-condemnation?traffic_source=rss",
@@ -806,46 +820,16 @@
           "collected_at": "2026-06-06T11:20:51.847529+00:00",
           "published": "Sat, 06 Jun 2026 09:18:39 +0000",
           "summary": "Finance Minister Bezalel Smotrich, a son of the settler movement, was sanctioned by the United Kingdom, Canada and several other countries for his alleged role in supporting or enabling violence in the West Bank, highlighting how the settlement project has the support of the highest echelons of the Israeli state."
-        },
-        {
-          "id": "33e42af06f56127d2a1d0beb15610c2f6622193e2b6c50c86d04f5eb5ec82c3c",
-          "title": "Aviation industry looks skywards as leaders fly in for Rio summit",
-          "url": "https://www.theguardian.com/business/2026/jun/06/aviation-industry-looks-skywards-as-leaders-fly-in-for-rio-summit",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-06T09:21:51.362635+00:00",
-          "published": "Sat, 06 Jun 2026 09:00:05 GMT",
-          "summary": "The oil tankers may still be stuck behind the strait of Hormuz as the conflict between the US, Israel and Iran flickers on, but for now, airlines continue to defy dire warnings of impending shortages which had stoked fears of a summer of chaos for European holidaymakers. Aviation leaders will converge in Brazil this weekend for the Iata AGM, the annual global airline summit, with the industry still, for the most part, looking resolutely skyward."
-        },
-        {
-          "id": "6caf0d2bd5b31daaf8317d98803379f562dc1f01d5cae2306c2033e1c59d2067",
-          "title": "Iran and US exchange strikes in latest threat to fragile ceasefire",
-          "url": "http://www.euronews.com/2026/06/06/iran-and-us-exchange-strikes-in-latest-threat-to-fragile-ceasefire",
-          "host": "euronews.com",
-          "format": "Article",
-          "collected_at": "2026-06-06T09:21:56.070140+00:00",
-          "published": "Sat, 06 Jun 2026 09:19:04 +0200",
-          "summary": "Published on 06/06/2026 - 9:19 GMT+2 New military exchanges between the United States and Iran have tested the fragile ceasefire, threatening efforts to stabilise the Middle East and restore shipping through the strategically important Strait of Hormuz. ADVERTISEMENT ADVERTISEMENT The latest escalation began on Friday when the US military said it intercepted four Iranian drones heading towards the Strait of Hormuz before carrying out strikes against Iranian coastal radar installations in Goruk and on Qeshm Island."
-        },
-        {
-          "id": "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
-          "title": "U.S. military says it shot down Iranian drones launched toward Gulf allies",
-          "url": "https://www.npr.org/2026/06/06/nx-s1-5848184/u-s-military-shot-down-iranian-drones",
-          "host": "npr.org",
-          "format": "Article",
-          "collected_at": "2026-06-06T06:50:44.993749+00:00",
-          "published": "Sat, 06 Jun 2026 00:15:26 -0400",
-          "summary": "Central Command said it hit the radar sites, including an island in the strait, \"to defend against further attacks.\" Trump promises a quick end to US-Iran conflict It was the latest in back-and-forth attacks that have strained the tenuous ceasefire in the war and efforts to reach a deal to extend that truce. and Iranian negotiators reached a tentative agreement a week ago to extend the ceasefire by 60 days and start a new round of talks on Iran's nuclear program."
         }
       ]
     },
     {
       "name": "Energy and Supply Chains",
-      "count": 230,
+      "count": 231,
       "formats": [
         {
           "name": "Article",
-          "value": 183
+          "value": 184
         },
         {
           "name": "PDF",
@@ -860,15 +844,15 @@
         "7dde43bde056d26018383e38cd766e8b829feff3a08e551f3ba6bb7ce1de3e2e",
         "83d712338f1a68cb43a4cc676606226fe87d7bdc057ecab6d9d2a8aae84944c2",
         "c8c2a405214b6cd207fff69e27cd5d8ac3b02bed105a9089425580a2afe761ba",
+        "e5fc1eedc8a28f9363c58a96317b56b1b46ec1a937fd6013617b4829409d8651",
         "760606d6775f51a15b93efcd549a9e5dbe6be6b3e8774fb7cc7d992dc8f7a9ab",
         "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
         "33e42af06f56127d2a1d0beb15610c2f6622193e2b6c50c86d04f5eb5ec82c3c",
         "6caf0d2bd5b31daaf8317d98803379f562dc1f01d5cae2306c2033e1c59d2067",
         "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
-        "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
-        "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb"
+        "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45"
       ],
-      "summary": "05 | 3 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org Although a ceasefire is in place, humanitarian conditions continue to deteriorate due to inflation and economic disruption, with food inflation reaching up to 115 per cent, severely limiting household purchasing power and increasing vulnerability. The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. 32 | 2 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org According to the Ministry of Public Health (MoPH), at least 3,526 people have been killed (including 339 women and 245 children) and 10,733 injured (including 1,337 women and 957 children) due to hostilities since 2 March 2026. The mission of the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is to coordinate the global emergency response to save lives and protect people in humanitarian crises. HIGHLIGHTS Revised Flash Appeal jointly launched by the United Nations and Government of Lebanon on 5 June, calling for US$ 639.9 million to assist 1.4 million people through August 2026. SITUATION OVERVIEW Despite the new ceasefire announcement jointly issued by Lebanon, Israel and the United States on 3 June, the situation remained volatile during the reporting period as Hezbollah rejected the ceasefire’s terms. Strait of Hormuz: From 100 ships daily to 7 Since the beginning of the war, hundreds of ships have been stranded in the Strait of Hormuz, a strategic waterway through which one-fifth of global oil and gas previously flowed. Despite a ceasefire agreed on April 8, the Strait of Hormuz remains largely closed, sporadic fire continues, and talks have repeatedly collapsed.",
+      "summary": "05 | 3 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org Although a ceasefire is in place, humanitarian conditions continue to deteriorate due to inflation and economic disruption, with food inflation reaching up to 115 per cent, severely limiting household purchasing power and increasing vulnerability. The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. 32 | 2 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org According to the Ministry of Public Health (MoPH), at least 3,526 people have been killed (including 339 women and 245 children) and 10,733 injured (including 1,337 women and 957 children) due to hostilities since 2 March 2026. The mission of the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is to coordinate the global emergency response to save lives and protect people in humanitarian crises. HIGHLIGHTS Revised Flash Appeal jointly launched by the United Nations and Government of Lebanon on 5 June, calling for US$ 639.9 million to assist 1.4 million people through August 2026. SITUATION OVERVIEW Despite the new ceasefire announcement jointly issued by Lebanon, Israel and the United States on 3 June, the situation remained volatile during the reporting period as Hezbollah rejected the ceasefire’s terms. Magen David Adom said it received the first reports of a shooting at a gas station near the town of Kokhav Yair, located on the Israeli side of the boundary with the West Bank, at around 10:30 am. Pakistani authorities have said Islamabad, with support from regional countries including Qatar, Turkey and Egypt, has been working to help bridge differences between the United States and Iran and encourage efforts aimed at reducing tensions and ensuring the reopening of the Strait of Hormuz.",
       "latest": [
         {
           "id": "7dde43bde056d26018383e38cd766e8b829feff3a08e551f3ba6bb7ce1de3e2e",
@@ -901,6 +885,16 @@
           "summary": "HIGHLIGHTS Revised Flash Appeal jointly launched by the United Nations and Government of Lebanon on 5 June, calling for US$ 639.9 million to assist 1.4 million people through August 2026. SITUATION OVERVIEW Despite the new ceasefire announcement jointly issued by Lebanon, Israel and the United States on 3 June, the situation remained volatile during the reporting period as Hezbollah rejected the ceasefire’s terms."
         },
         {
+          "id": "e5fc1eedc8a28f9363c58a96317b56b1b46ec1a937fd6013617b4829409d8651",
+          "title": "Middle East live: US downs two Iranian drones targeting Hormuz shipping traffic",
+          "url": "https://www.france24.com/en/middle-east/20260607-middle-east-live-us-downs-two-iranian-drones-targeting-hormuz-shipping-traffic",
+          "host": "france24.com",
+          "format": "Article",
+          "collected_at": "2026-06-07T11:04:31.274855+00:00",
+          "published": "Sun, 07 Jun 2026 06:39:58 GMT",
+          "summary": "Magen David Adom said it received the first reports of a shooting at a gas station near the town of Kokhav Yair, located on the Israeli side of the boundary with the West Bank, at around 10:30 am. Pakistani authorities have said Islamabad, with support from regional countries including Qatar, Turkey and Egypt, has been working to help bridge differences between the United States and Iran and encourage efforts aimed at reducing tensions and ensuring the reopening of the Strait of Hormuz."
+        },
+        {
           "id": "760606d6775f51a15b93efcd549a9e5dbe6be6b3e8774fb7cc7d992dc8f7a9ab",
           "title": "By the numbers: 100 days of the US-Israel war on Iran",
           "url": "https://www.aljazeera.com/news/2026/6/7/by-the-numbers-100-days-of-the-us-israel-war-on-iran?traffic_source=rss",
@@ -909,26 +903,16 @@
           "collected_at": "2026-06-07T08:48:53.285223+00:00",
           "published": "Sun, 07 Jun 2026 05:30:52 +0000",
           "summary": "Strait of Hormuz: From 100 ships daily to 7 Since the beginning of the war, hundreds of ships have been stranded in the Strait of Hormuz, a strategic waterway through which one-fifth of global oil and gas previously flowed. Despite a ceasefire agreed on April 8, the Strait of Hormuz remains largely closed, sporadic fire continues, and talks have repeatedly collapsed."
-        },
-        {
-          "id": "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
-          "title": "100 days into the war on Iran, Trump fails to rally US support",
-          "url": "https://www.aljazeera.com/news/2026/6/6/100-days-into-the-war-on-iran-trump-fails-to-rally-us-support?traffic_source=rss",
-          "host": "aljazeera.com",
-          "format": "Article",
-          "collected_at": "2026-06-06T18:12:51.379110+00:00",
-          "published": "Sat, 06 Jun 2026 17:04:38 +0000",
-          "summary": "Persisting blockades The US and Israel started bombing Iran on February 28, killing Supreme Leader Ali Khamenei and several top officials as well as hundreds of civilians. A truce was reached on April 6, but skirmishes have continued to break out in the Gulf, and the Iranian blockade in Hormuz has persisted. “What’s really clear is that few Americans think that this war with Iran serves American interests,” said Shibley Telhami, a professor of peace and development at the University of Maryland, who has conducted polling on the war."
         }
       ]
     },
     {
       "name": "Institutions and Law",
-      "count": 164,
+      "count": 165,
       "formats": [
         {
           "name": "Article",
-          "value": 108
+          "value": 109
         },
         {
           "name": "PDF",
@@ -948,6 +932,7 @@
         }
       ],
       "evidence_ids": [
+        "a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b",
         "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d",
         "f7ea0a586aa629596f8642b793a0e7bb745d3dd33b1bcf346daadb665b6fc71a",
         "9fbe33305784d81ab17106f6d5b7717c0a6ae62867cd804f652cd5fa6daaf41a",
@@ -956,11 +941,20 @@
         "6a898ff3e69bda6a19fdd8477ccfc146b760ba60ec0694b8bb41ca3ffb81ae97",
         "37ba82a38a7eeb136c6f006654786422cfa60c7e6f93470b50a52e48c81da066",
         "1891687b0f019bcd9d2f921ffff52d146e7e9459784f207f99cbc4904990b547",
-        "210960ffe756506c35d3ee3d7a21130ff6e8e04f29c9be98032f12d422ac77de",
-        "fa077e278cd749af9f16dfd704442f29dd3bd773c2e553e665dcc54e72b11774"
+        "210960ffe756506c35d3ee3d7a21130ff6e8e04f29c9be98032f12d422ac77de"
       ],
-      "summary": "Published On 5 Jun 2026 5 Jun 2026 French anti-terrorism prosecutors say they have opened a preliminary investigation into suspected “torture” and “war crimes” over Israel’s alleged mistreatment of French activists who took part in a Gaza-bound aid flotilla last month. Francesca Albanese, an outspoken UN expert on the Palestinian territory, has said the treatment of the flotilla activists “is a luxury compared to what is inflicted on Palestinians in Israeli prisons”. LATIN AMERICA & THE CARIBBEAN Weekly Situation Update As of 5 June 2026 The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. CENTRAL AMERICA: FOOD INSECURITY Deteriorating dry conditions across the Dry Corridor are compounding food insecurity ahead of the critical primera planting season. And in Gaza, Israel continues to carry out bombings, including one that killed nine people in a residential building this week, despite a supposed truce aimed at ending its genocidal war on the Palestinian territory. It is also often fundamentally a political agreement rather than a strongly enforceable legal instrument, said Michael Lynk, an emeritus professor at Western University in Canada. Iran and the United States have formally had a ceasefire in place since April 8. Published On 5 Jun 2026 5 Jun 2026 The United Nations has doubled its call for aid to Lebanon as it bids to stem a “severe and deteriorating” humanitarian crisis brought on by four months of war with Israel. In March, as the hostilities broke out in response to the United States and Israeli attacks on Iran, the UN had said $308m would be needed. UN boosts Lebanon aid appeal as Israeli war drives humanitarian crisis The UN says it needs nearly $640m to help Lebanon over the next six months.",
+      "summary": "(Al Jazeera) The Gulf region Gulf states have been caught up in the war since it began on February 28, with Iran launching missile and drone strikes against US military assets hosted on their soil. Sunday marks 100 days since the United States and Israel launched war on Iran – a conflict that has triggered a global energy crisis and darkened the global economic outlook. But that has not stopped Israel from carrying out its attacks on Lebanon, which Tehran has said are a violation of the April 8 ceasefire between Washington and New Delhi. Published On 5 Jun 2026 5 Jun 2026 French anti-terrorism prosecutors say they have opened a preliminary investigation into suspected “torture” and “war crimes” over Israel’s alleged mistreatment of French activists who took part in a Gaza-bound aid flotilla last month. Francesca Albanese, an outspoken UN expert on the Palestinian territory, has said the treatment of the flotilla activists “is a luxury compared to what is inflicted on Palestinians in Israeli prisons”. LATIN AMERICA & THE CARIBBEAN Weekly Situation Update As of 5 June 2026 The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. CENTRAL AMERICA: FOOD INSECURITY Deteriorating dry conditions across the Dry Corridor are compounding food insecurity ahead of the critical primera planting season. And in Gaza, Israel continues to carry out bombings, including one that killed nine people in a residential building this week, despite a supposed truce aimed at ending its genocidal war on the Palestinian territory. It is also often fundamentally a political agreement rather than a strongly enforceable legal instrument, said Michael Lynk, an emeritus professor at Western University in Canada. Iran and the United States have formally had a ceasefire in place since April 8.",
       "latest": [
+        {
+          "id": "a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b",
+          "title": "How have countries around the world responded to the US-Israel war on Iran?",
+          "url": "https://www.aljazeera.com/news/2026/6/7/how-have-countries-around-the-world-responded-to-the-us-israel-war-on-iran?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-06-07T11:04:35.158383+00:00",
+          "published": "Sun, 07 Jun 2026 09:35:31 +0000",
+          "summary": "(Al Jazeera) The Gulf region Gulf states have been caught up in the war since it began on February 28, with Iran launching missile and drone strikes against US military assets hosted on their soil. Sunday marks 100 days since the United States and Israel launched war on Iran – a conflict that has triggered a global energy crisis and darkened the global economic outlook. But that has not stopped Israel from carrying out its attacks on Lebanon, which Tehran has said are a violation of the April 8 ceasefire between Washington and New Delhi."
+        },
         {
           "id": "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d",
           "title": "France opens ‘war crimes’ probe into Israel’s treatment of Gaza activists",
@@ -1000,26 +994,16 @@
           "collected_at": "2026-06-05T13:52:31.696176+00:00",
           "published": "Fri, 05 Jun 2026 12:23:52 +0000",
           "summary": "Published On 5 Jun 2026 5 Jun 2026 The United Nations has doubled its call for aid to Lebanon as it bids to stem a “severe and deteriorating” humanitarian crisis brought on by four months of war with Israel. In March, as the hostilities broke out in response to the United States and Israeli attacks on Iran, the UN had said $308m would be needed. UN boosts Lebanon aid appeal as Israeli war drives humanitarian crisis The UN says it needs nearly $640m to help Lebanon over the next six months."
-        },
-        {
-          "id": "959d3eac587983672f1de0aef50309056794e3efb80638026de7dcc2a392ca06",
-          "title": "Washington Is Testing Singapore’s Patience",
-          "url": "https://foreignpolicy.com/2026/06/05/singapore-trump-tariffs-trade-forced-labor-china-geopolitics/",
-          "host": "foreignpolicy.com",
-          "format": "Article",
-          "collected_at": "2026-06-05T10:50:32.509510+00:00",
-          "published": "Fri, 05 Jun 2026 09:34:02 +0000",
-          "summary": "The city-state sits on a small island strategically located on the vital Strait of Malacca that connects the Indian and Pacific oceans, and it serves as a de facto security ally of the United States. President Donald Trump’s tariffs, coupled with the acute energy crisis caused by his war against Iran and U.S. warships at its Changi Naval Base and participates in a range of other military agreements, making it a potentially critical node of support to U.S."
         }
       ]
     },
     {
       "name": "Nuclear and Strategic Risk",
-      "count": 125,
+      "count": 126,
       "formats": [
         {
           "name": "Article",
-          "value": 118
+          "value": 119
         },
         {
           "name": "PDF",
@@ -1031,6 +1015,7 @@
         }
       ],
       "evidence_ids": [
+        "bc473a9ad59841085c517cad13a54849ec4922448473938eefc213bf7ad454d2",
         "97c467fa68f5603d6351a8c7511b71fe9350a3298d6d98d52d53a4fea5fcc2cc",
         "4a72c6bc4d799e520f4db795ea047fe17d20d1197c044b3e0b6553752a07c84c",
         "9b410a91b2fce84f0c857e66fb05767666b8b0148c07a0bd2e9e67e3da50df2b",
@@ -1039,11 +1024,20 @@
         "b08b5bc1b796225124548eca6ca6e78ed0289a1ade0168c11fa2ec4444a4d199",
         "183addf14732223c4a663592011b25574e286bef7527ea513d736fdd4ed18b95",
         "787706f26dc8645c3a68c1c05c0cf0bbc5be52810a485913fc415a38245e10be",
-        "61426318feed4b6efa14a7cc2d51bd0ca34ba50cc375524dc914bc2314101df1",
-        "4273f91acbaef01e8edbf9cc7cc052d1cbca321bc93cc78faf4c812cb005ff1e"
+        "61426318feed4b6efa14a7cc2d51bd0ca34ba50cc375524dc914bc2314101df1"
       ],
-      "summary": "Inter-Agency Standing Committee (IASC) Humanitarian Reset Roadmap 21 October 2025 Vision: A humanitarian system that is locally led and globally supported, rooted in communities and driven by greatest need. By reducing duplication and bureaucracy, ending turf wars, and transitioning to locally led response, we will deliver faster, fairer, and more accountable humanitarian action. Speich, a co-author of the research, said: “Ocean heat content is the most robust indicator of climate change we have – not just of what is happening in the ocean, but of the entire climate system”. And the consequences would not stop at science: the economic costs would be felt within the United States itself, from agriculture to insurance to disaster response.” The loss of US observations, in a year predicted to be an El Niño year, with “supercharged” weather extremes, could also “lose the ability to see it coming clearly to act in time”, she said. 05/06/2026 - 11:22 Palestinian teenager killed by Israeli army in West Bank (Palestinian Authority) A young Palestinian was killed Friday by Israeli gunfire in the central West Bank, the Palestinian Authority announced, while the Israeli military said it had shot and killed a person who was throwing Molotov cocktails at Israeli vehicles. Insecurity remains the primary driver of humanitarian needs, with 2 million internally displaced persons (latest official figure, March 2023), limiting access to land, markets, and essential services. • The preliminary results from the April 2026 national food security and nutrition analysis projects 1.66 million people will face crisis-level food insecurity (IPC Phase 3+), including 223,000 people in emergency situations, during the June–August 2026 lean season, compared to 2.3 million in 2025.",
+      "summary": "The prime minister, Keir Starmer, has said the plan, originally promised in autumn 2025, will be published before the Nato summit in Turkey beginning on 7 July. As the defence secretary told parliament this week, the prime minister is determined to publish it before the Nato summit.” The PAC report comes as it emerged the MoD is developing a submarine maintenance recovery plan amid reports the Royal Navy’s entire available fleet of hunter-killer submarines is docked. It is due to be published before a Nato summit early next month. Inter-Agency Standing Committee (IASC) Humanitarian Reset Roadmap 21 October 2025 Vision: A humanitarian system that is locally led and globally supported, rooted in communities and driven by greatest need. By reducing duplication and bureaucracy, ending turf wars, and transitioning to locally led response, we will deliver faster, fairer, and more accountable humanitarian action. Speich, a co-author of the research, said: “Ocean heat content is the most robust indicator of climate change we have – not just of what is happening in the ocean, but of the entire climate system”. And the consequences would not stop at science: the economic costs would be felt within the United States itself, from agriculture to insurance to disaster response.” The loss of US observations, in a year predicted to be an El Niño year, with “supercharged” weather extremes, could also “lose the ability to see it coming clearly to act in time”, she said. 05/06/2026 - 11:22 Palestinian teenager killed by Israeli army in West Bank (Palestinian Authority) A young Palestinian was killed Friday by Israeli gunfire in the central West Bank, the Palestinian Authority announced, while the Israeli military said it had shot and killed a person who was throwing Molotov cocktails at Israeli vehicles.",
       "latest": [
+        {
+          "id": "bc473a9ad59841085c517cad13a54849ec4922448473938eefc213bf7ad454d2",
+          "title": "Delays to defence investment plan have damaged UK’s credibility, say MPs",
+          "url": "https://www.theguardian.com/politics/2026/jun/07/uk-defence-investment-delays-damage-credibility-mps",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-07T11:04:30.846611+00:00",
+          "published": "Sun, 07 Jun 2026 09:29:48 GMT",
+          "summary": "The prime minister, Keir Starmer, has said the plan, originally promised in autumn 2025, will be published before the Nato summit in Turkey beginning on 7 July. As the defence secretary told parliament this week, the prime minister is determined to publish it before the Nato summit.” The PAC report comes as it emerged the MoD is developing a submarine maintenance recovery plan amid reports the Royal Navy’s entire available fleet of hunter-killer submarines is docked. It is due to be published before a Nato summit early next month."
+        },
         {
           "id": "97c467fa68f5603d6351a8c7511b71fe9350a3298d6d98d52d53a4fea5fcc2cc",
           "title": "CAR: Humanitarian Reset Roadmap (21 October 2025) (pdf)",
@@ -1083,26 +1077,16 @@
           "collected_at": "2026-06-05T10:50:29.606061+00:00",
           "published": "Fri, 05 Jun 2026 08:06:42 +0000",
           "summary": "Insecurity remains the primary driver of humanitarian needs, with 2 million internally displaced persons (latest official figure, March 2023), limiting access to land, markets, and essential services. • The preliminary results from the April 2026 national food security and nutrition analysis projects 1.66 million people will face crisis-level food insecurity (IPC Phase 3+), including 223,000 people in emergency situations, during the June–August 2026 lean season, compared to 2.3 million in 2025."
-        },
-        {
-          "id": "e6379ccce9afbb13223c8446b21faf4fe33697882f27a59c26d71030469d8108",
-          "title": "Iran and the Hidden Cost of Wartime Access",
-          "url": "https://www.foreignaffairs.com/iran/iran-and-hidden-cost-wartime-access",
-          "host": "foreignaffairs.com",
-          "format": "Article",
-          "collected_at": "2026-06-05T16:29:18.569101+00:00",
-          "published": "Fri, 05 Jun 2026 00:00:00 -0400",
-          "summary": "But amid all the debates over the state of the Iranian nuclear program and the condition of the regime, one crucial factor has been overlooked: the United States launched a war more than 6,000 miles from its borders because it could. Since World War II, the United States has fought wars or conducted major combat operations in countries including (but not limited to) Afghanistan, Bosnia and Kosovo, Cambodia, the Dominican Republic, Grenada, Iran, Iraq, Korea, Lebanon, Libya, Panama, and Vietnam."
         }
       ]
     },
     {
       "name": "Sanctions and Finance",
-      "count": 111,
+      "count": 112,
       "formats": [
         {
           "name": "Article",
-          "value": 78
+          "value": 79
         },
         {
           "name": "Sanctions",
@@ -1122,6 +1106,7 @@
         }
       ],
       "evidence_ids": [
+        "11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57",
         "6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894",
         "39b7b011a1867d397a32fa062d8865d499ae971d0f50763661c44f1947409002",
         "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
@@ -1130,11 +1115,20 @@
         "83ff18d2f11c0a65f474c74ed3354040d40363d37b0f2aa02ce34b679d68483f",
         "9ede79afb577c7c1a0701a5582ee8c226f8026365c283592278439a3502fa603",
         "ba35745b8ddfdbca2457d66b664fdcba009e47e37da4828c122c62032d5250c1",
-        "1b9fcca492ef4d1b586d975c4f5739bc324a902b93975acf93f0490f6bf0b1d3",
-        "5091e72a64b3e59480ddbead493259555231313c9f38120f461f000fab80e45f"
+        "1b9fcca492ef4d1b586d975c4f5739bc324a902b93975acf93f0490f6bf0b1d3"
       ],
-      "summary": "Witkoff had been the lead negotiator in nuclear talks that preceded the initial US-Israeli attack on Iran in February. Washington has, for years, provided billions in military aid and weapons sales to Israel, including throughout the genocide in Gaza. US President Donald Trump and Israeli Prime Minister Netanyahu have publicly diverged in their approach to the war, which the US and Israel started on February 28. Finance Minister Bezalel Smotrich, a son of the settler movement, was sanctioned by the United Kingdom, Canada and several other countries for his alleged role in supporting or enabling violence in the West Bank, highlighting how the settlement project has the support of the highest echelons of the Israeli state. 06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high. \"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that has been an important force for political stability and economic progress in the Middle East,\" the statement said. LATIN AMERICA & THE CARIBBEAN Weekly Situation Update As of 5 June 2026 The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. CENTRAL AMERICA: FOOD INSECURITY Deteriorating dry conditions across the Dry Corridor are compounding food insecurity ahead of the critical primera planting season.",
+      "summary": "On Friday, it said it intercepted seven ballistic missiles heading towards Kuwait and Bahrain hours after it had shot down four Iranian drones launched towards the strait, a key waterway through which about 20 percent of globally traded oil normally passes. Pakistan’s Interior Minister Mohsin Naqvi has travelled to Iran to deliver a “special letter” to Iran’s Supreme Leader Mojtaba Khamenei as part of diplomatic efforts to end the United States-Israeli war on Iran, which began 100 days ago. Witkoff had been the lead negotiator in nuclear talks that preceded the initial US-Israeli attack on Iran in February. Washington has, for years, provided billions in military aid and weapons sales to Israel, including throughout the genocide in Gaza. US President Donald Trump and Israeli Prime Minister Netanyahu have publicly diverged in their approach to the war, which the US and Israel started on February 28. Finance Minister Bezalel Smotrich, a son of the settler movement, was sanctioned by the United Kingdom, Canada and several other countries for his alleged role in supporting or enabling violence in the West Bank, highlighting how the settlement project has the support of the highest echelons of the Israeli state. 06/06/2026 - 08:07 UN food agency says millions are being pushed into hunger by Iran war The UN food agency said millions of people are being pushed into acute hunger by the Iran war, as it warned would happen if the conflict escalated and oil prices remained high. \"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that has been an important force for political stability and economic progress in the Middle East,\" the statement said.",
       "latest": [
+        {
+          "id": "11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57",
+          "title": "Pakistan’s Naqvi visits Iran with ‘special letter’ for supreme leader",
+          "url": "https://www.aljazeera.com/news/2026/6/7/pakistans-naqvi-visits-iran-with-special-letter-for-supreme-leader?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-06-07T11:04:38.603241+00:00",
+          "published": "Sun, 07 Jun 2026 08:45:01 +0000",
+          "summary": "On Friday, it said it intercepted seven ballistic missiles heading towards Kuwait and Bahrain hours after it had shot down four Iranian drones launched towards the strait, a key waterway through which about 20 percent of globally traded oil normally passes. Pakistan’s Interior Minister Mohsin Naqvi has travelled to Iran to deliver a “special letter” to Iran’s Supreme Leader Mojtaba Khamenei as part of diplomatic efforts to end the United States-Israeli war on Iran, which began 100 days ago."
+        },
         {
           "id": "6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894",
           "title": "Pentagon said to raise threat level on Israel spying to ‘critical’",
@@ -1174,16 +1168,6 @@
           "collected_at": "2026-06-06T00:01:46.458143+00:00",
           "published": "Fri, 05 Jun 2026 18:55:51 +0000",
           "summary": "LATIN AMERICA & THE CARIBBEAN Weekly Situation Update As of 5 June 2026 The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. CENTRAL AMERICA: FOOD INSECURITY Deteriorating dry conditions across the Dry Corridor are compounding food insecurity ahead of the critical primera planting season."
-        },
-        {
-          "id": "4a281a81fe8d7a6ee62d5303ac62bf51cf15c2d740127bad5c3b26a78ee738e9",
-          "title": "Senate Republicans pass bill authorizing $70bn for immigration enforcement in vote-a-rama – US politics live",
-          "url": "https://www.theguardian.com/us-news/live/2026/jun/05/us-politics-latest-news-updates-donald-trump-republicans-democrats",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-05T13:52:31.648498+00:00",
-          "published": "Fri, 05 Jun 2026 13:24:42 GMT",
-          "summary": "Nothing.” On X, Republican senator Lindsey Graham said he was “very proud of my Republican colleagues for sticking together and making sure that Border Patrol and ICE (Immigration Customs and Enforcement) are fully funded”. “Tonight, Senate Republicans passed a rotten bill that makes their priorities painfully clear: more money for Donald Trump, more power for Donald Trump, and nothing to lower costs for working families,” Schumer said in a statement posted on X after the immigration reforcement funding bill passed."
         }
       ]
     }
@@ -1191,20 +1175,20 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 394,
+      "count": 397,
       "evidence_ids": [
+        "a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b",
+        "11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57",
         "7dde43bde056d26018383e38cd766e8b829feff3a08e551f3ba6bb7ce1de3e2e",
         "83d712338f1a68cb43a4cc676606226fe87d7bdc057ecab6d9d2a8aae84944c2",
         "c8c2a405214b6cd207fff69e27cd5d8ac3b02bed105a9089425580a2afe761ba",
+        "e5fc1eedc8a28f9363c58a96317b56b1b46ec1a937fd6013617b4829409d8651",
         "760606d6775f51a15b93efcd549a9e5dbe6be6b3e8774fb7cc7d992dc8f7a9ab",
         "6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894",
         "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
         "17e9ba41c5c8767cc391d38494ae217d666089f2c4b2c6b3055b6e910ab0f828",
         "39b7b011a1867d397a32fa062d8865d499ae971d0f50763661c44f1947409002",
-        "33e42af06f56127d2a1d0beb15610c2f6622193e2b6c50c86d04f5eb5ec82c3c",
-        "6caf0d2bd5b31daaf8317d98803379f562dc1f01d5cae2306c2033e1c59d2067",
-        "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
-        "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45"
+        "33e42af06f56127d2a1d0beb15610c2f6622193e2b6c50c86d04f5eb5ec82c3c"
       ],
       "top_sources": [
         {
@@ -1217,7 +1201,7 @@
         },
         {
           "name": "aljazeera.com",
-          "value": 44
+          "value": 46
         },
         {
           "name": "global.unitednations.entermediadb.net",
@@ -1231,20 +1215,20 @@
     },
     {
       "name": "Americas",
-      "count": 343,
+      "count": 346,
       "evidence_ids": [
+        "a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b",
+        "11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57",
         "83d712338f1a68cb43a4cc676606226fe87d7bdc057ecab6d9d2a8aae84944c2",
         "c8c2a405214b6cd207fff69e27cd5d8ac3b02bed105a9089425580a2afe761ba",
+        "e5fc1eedc8a28f9363c58a96317b56b1b46ec1a937fd6013617b4829409d8651",
         "760606d6775f51a15b93efcd549a9e5dbe6be6b3e8774fb7cc7d992dc8f7a9ab",
         "b23d75bc2c59beb191addfd3e04847de40cbcaad6f4f8781163ec53d26a5c36d",
         "6c15745fad6812703e39a5453ae71f509d49179c0749448a3c1a89ea1d498894",
         "2c549d815040da6461c19aabe43105291598784f210a132d95b767f407d3da1b",
         "33e42af06f56127d2a1d0beb15610c2f6622193e2b6c50c86d04f5eb5ec82c3c",
         "6caf0d2bd5b31daaf8317d98803379f562dc1f01d5cae2306c2033e1c59d2067",
-        "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab",
-        "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
-        "9dbd94c827d8aa5dad390d8ee1e22c6ac705ff30757c97acc2f5519f69e74cbb",
-        "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893"
+        "f1e42a852937739c39712274b15b94c39d569186a67fe69f9953db952cd3baab"
       ],
       "top_sources": [
         {
@@ -1256,12 +1240,12 @@
           "value": 50
         },
         {
-          "name": "reliefweb.int",
-          "value": 40
+          "name": "aljazeera.com",
+          "value": 41
         },
         {
-          "name": "aljazeera.com",
-          "value": 39
+          "name": "reliefweb.int",
+          "value": 40
         },
         {
           "name": "defensenews.com",
@@ -1271,8 +1255,9 @@
     },
     {
       "name": "Europe and Russia",
-      "count": 312,
+      "count": 313,
       "evidence_ids": [
+        "bc473a9ad59841085c517cad13a54849ec4922448473938eefc213bf7ad454d2",
         "b23d75bc2c59beb191addfd3e04847de40cbcaad6f4f8781163ec53d26a5c36d",
         "17e9ba41c5c8767cc391d38494ae217d666089f2c4b2c6b3055b6e910ab0f828",
         "39b7b011a1867d397a32fa062d8865d499ae971d0f50763661c44f1947409002",
@@ -1283,13 +1268,12 @@
         "7a25a7f018f587eac6955da93b822eb95dd3235c3f1e6828c6009ec1fac8dd7a",
         "54600a164af020b1b7e1bcc3393228572717964d27e5a7aa6fb188cbd30cd38b",
         "483b92ae8d8acb73e826bdb8dcc4f5311d50a755dd219e6a3c4852251abd1028",
-        "3fd8471941bc467e46c59bc202595c859c04140ee6749507779ff7c51036008d",
-        "4a281a81fe8d7a6ee62d5303ac62bf51cf15c2d740127bad5c3b26a78ee738e9"
+        "3fd8471941bc467e46c59bc202595c859c04140ee6749507779ff7c51036008d"
       ],
       "top_sources": [
         {
           "name": "theguardian.com",
-          "value": 60
+          "value": 61
         },
         {
           "name": "defensenews.com",
@@ -1311,8 +1295,9 @@
     },
     {
       "name": "Global Institutions",
-      "count": 284,
+      "count": 285,
       "evidence_ids": [
+        "bc473a9ad59841085c517cad13a54849ec4922448473938eefc213bf7ad454d2",
         "7dde43bde056d26018383e38cd766e8b829feff3a08e551f3ba6bb7ce1de3e2e",
         "83d712338f1a68cb43a4cc676606226fe87d7bdc057ecab6d9d2a8aae84944c2",
         "c8c2a405214b6cd207fff69e27cd5d8ac3b02bed105a9089425580a2afe761ba",
@@ -1323,8 +1308,7 @@
         "b245fce9f9cd244b4cf5099030455f49511ae8d3c0a4e1404f83b64d3c93126d",
         "8e0faabd762f636d4a5879ee04b187bb4c3a53bcb1b96842d7fb798030084878",
         "c8d7776d3ef4c3251b24bc777ccad4cae639f258bdff5a62a81735c2d06e75e1",
-        "e009129191b7c7a40d559cf345416d54e2b1dc2e2a00a0680f3645f84e4b29d8",
-        "f7ea0a586aa629596f8642b793a0e7bb745d3dd33b1bcf346daadb665b6fc71a"
+        "e009129191b7c7a40d559cf345416d54e2b1dc2e2a00a0680f3645f84e4b29d8"
       ],
       "top_sources": [
         {
@@ -1333,7 +1317,7 @@
         },
         {
           "name": "theguardian.com",
-          "value": 43
+          "value": 44
         },
         {
           "name": "aljazeera.com",
@@ -1391,8 +1375,11 @@
     },
     {
       "name": "Indo-Pacific",
-      "count": 175,
+      "count": 178,
       "evidence_ids": [
+        "a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b",
+        "11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57",
+        "e5fc1eedc8a28f9363c58a96317b56b1b46ec1a937fd6013617b4829409d8651",
         "b20a7b64d814bd2f3b0833c1c4f7513f4e79e59b00d3496b5a2439fc4fb05c45",
         "3daad509700708ae66554b67292ecba435de765d6857e553820287cf261dd893",
         "7a25a7f018f587eac6955da93b822eb95dd3235c3f1e6828c6009ec1fac8dd7a",
@@ -1401,10 +1388,7 @@
         "6a898ff3e69bda6a19fdd8477ccfc146b760ba60ec0694b8bb41ca3ffb81ae97",
         "37ba82a38a7eeb136c6f006654786422cfa60c7e6f93470b50a52e48c81da066",
         "9ede79afb577c7c1a0701a5582ee8c226f8026365c283592278439a3502fa603",
-        "80c3e47e0b1262b98472a7ebe5c586ec3bb9bf47441766663267b5b75a85e5fb",
-        "e6379ccce9afbb13223c8446b21faf4fe33697882f27a59c26d71030469d8108",
-        "071e1621b247c2dd0afd8b8a4fbad3c01d94e41dcf56aaa44b85550da85f04d5",
-        "fa077e278cd749af9f16dfd704442f29dd3bd773c2e553e665dcc54e72b11774"
+        "80c3e47e0b1262b98472a7ebe5c586ec3bb9bf47441766663267b5b75a85e5fb"
       ],
       "top_sources": [
         {
@@ -1420,12 +1404,12 @@
           "value": 21
         },
         {
-          "name": "foreignpolicy.com",
-          "value": 13
+          "name": "aljazeera.com",
+          "value": 14
         },
         {
-          "name": "aljazeera.com",
-          "value": 12
+          "name": "foreignpolicy.com",
+          "value": 13
         }
       ]
     }
@@ -1790,6 +1774,13 @@
     },
     {
       "date": "2026",
+      "evidence_id": "a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b",
+      "title": "How have countries around the world responded to the US-Israel war on Iran?",
+      "url": "https://www.aljazeera.com/news/2026/6/7/how-have-countries-around-the-world-responded-to-the-us-israel-war-on-iran?traffic_source=rss",
+      "excerpt": "es from an Israeli airstrike that hit Burj al-Shamali village near the southern port city of Tyre in Lebanon on June 2, 2026 [Mohammed Zaatari/AP Photo] Bahrain – When the war began, Bahrain, which hosts the United States Navy’s Fifth Fleet, called attacks on its territory “treacherous”. It has since actively used its United Nations Security Council diplomacy to push resolution"
+    },
+    {
+      "date": "2026",
       "evidence_id": "7dde43bde056d26018383e38cd766e8b829feff3a08e551f3ba6bb7ce1de3e2e",
       "title": "Islamic Republic of Iran: Humanitarian Update No. 05 | As of 31 May 2026 (pdf)",
       "url": "https://reliefweb.int/attachments/19ab558a-2de3-4f2a-bba9-11bb99e6c649/20260602_Iran%20Humanitarian%20Update5.pdf",
@@ -1808,6 +1799,13 @@
       "title": "Lebanon: Flash Update #32 - Escalation of hostilities in Lebanon (as of 4 June 2026)",
       "url": "https://reliefweb.int/report/lebanon/lebanon-flash-update-32-escalation-hostilities-lebanon-4-june-2026",
       "excerpt": "Nations and Government of Lebanon on 5 June, calling for US$ 639.9 million to assist 1.4 million people through August 2026. Hostilities continued with airstrikes and six new displacement orders covering 14 localities across the South and Nabatieh governorates triggering additional displacements. At least 3,526 deaths and 10,733 injuries due to hostilities recorded by the Mini"
+    },
+    {
+      "date": "2026",
+      "evidence_id": "e5fc1eedc8a28f9363c58a96317b56b1b46ec1a937fd6013617b4829409d8651",
+      "title": "Middle East live: US downs two Iranian drones targeting Hormuz shipping traffic",
+      "url": "https://www.france24.com/en/middle-east/20260607-middle-east-live-us-downs-two-iranian-drones-targeting-hormuz-shipping-traffic",
+      "excerpt": "07/06/2026 - 13:04 Pakistan’s interior minister in Tehran In a fresh bid to restart negotiations between Iran and the US, Pakistani Interior Minister Mohsin Naqvi is in Tehran to deliver a message to Iranian Supreme Leader Ayatollah Mojtaba Khamenei from Pakistan's"
     },
     {
       "date": "2026",
@@ -2396,23 +2394,247 @@
       "title": "Between Beijing and the Budget: The Domestic Realities of Taiwan’s Defense Spending Drama",
       "url": "https://warontherocks.com/between-beijing-and-the-budget-the-domestic-realities-of-taiwans-defense-spending-drama/",
       "excerpt": "he opposition stalled the special defense budget eight times, the bill finally moved to the committee stage on March 6, 2026, and endured two months of intense scrutiny before its sudden passage just ahead of the high-stakes Trump-Xi summit. Facing a hostile legislature, the Lai administration has struggled to reconcile this expenditure with a cohesive national security vision,"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "74f4e7bebba84405fbf1ceb39f345b95179af4b2b955c5385d6ec6a997881a81",
-      "title": "The Toll Booth at the Throat of World Trade",
-      "url": "https://warontherocks.com/the-toll-booth-at-the-throat-of-world-trade/",
-      "excerpt": "In late February 2026, Iran closed the Strait of Hormuz to foreign shipping. What began as a chaotic wartime closure has, in the past few days, hardened into something more consequential: an official sovereign toll regime, codified in Iranian law, and priced in cryptocurrency."
-    },
-    {
-      "date": "2026",
-      "evidence_id": "819b7ef61e3a54ff210b15c08dab67aa8779195f04a651d43e924ebb8850e757",
-      "title": "Myanmar: Taw Oo District Short Update: Burma Army shelling and air strike injured two children, damaged villagers’ houses, and caused displacement in Htaw Ta Htoo Township (July 2025) (pdf)",
-      "url": "https://reliefweb.int/attachments/d897b99e-a895-5a50-b3f5-11c8df9b1962/26-102-d1_wb.pdf",
-      "excerpt": "Short Update 1 June 2026 / KHRG # 26-102-D1 Taw Oo District Short Update: Burma Army shelling and air strike injured two children, damaged villager s’ houses, and caused displacement in Htaw Ta Htoo Township (July 2025) This Short Update describes events occurring in Htaw Ta Htoo"
     }
   ],
   "latest_evidence": [
+    {
+      "id": "a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b",
+      "topic": "geopolitics",
+      "title": "How have countries around the world responded to the US-Israel war on Iran?",
+      "url": "https://www.aljazeera.com/news/2026/6/7/how-have-countries-around-the-world-responded-to-the-us-israel-war-on-iran?traffic_source=rss",
+      "host": "aljazeera.com",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-06-07T11:04:35.158383+00:00",
+      "published": "Sun, 07 Jun 2026 09:35:31 +0000",
+      "text_chars": 25274,
+      "raw_path": "data/geopolitics/raw/a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b.html",
+      "text_path": "data/geopolitics/raw/a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b.txt",
+      "summary": "(Al Jazeera) The Gulf region Gulf states have been caught up in the war since it began on February 28, with Iran launching missile and drone strikes against US military assets hosted on their soil. Sunday marks 100 days since the United States and Israel launched war on Iran – a conflict that has triggered a global energy crisis and darkened the global economic outlook. But that has not stopped Israel from carrying out its attacks on Lebanon, which Tehran has said are a violation of the April 8 ceasefire between Washington and New Delhi.",
+      "bullets": [
+        "(Al Jazeera) The Gulf region Gulf states have been caught up in the war since it began on February 28, with Iran launching missile and drone strikes against US military assets hosted on their soil.",
+        "Sunday marks 100 days since the United States and Israel launched war on Iran – a conflict that has triggered a global energy crisis and darkened the global economic outlook.",
+        "But that has not stopped Israel from carrying out its attacks on Lebanon, which Tehran has said are a violation of the April 8 ceasefire between Washington and New Delhi.",
+        "Oman – As the main mediator of the US-Iran nuclear talks, Oman initially expressed dismay when the war was launched while nuclear talks were under way.",
+        "It was nevertheless dragged into the conflict when Iran launched a flurry of retaliatory attacks on US military assets and energy infrastructure across the Gulf region."
+      ],
+      "excerpt": "Sunday marks 100 days since the United States and Israel launched war on Iran – a conflict that has triggered a global energy crisis and darkened the global economic outlook. The war, which Iran has called an “unprovoked act of aggression”, has expanded to Gulf nations as well as Lebanon. A fragile ceasefire has been in place since April 8, but Israel has continued its offensive in Lebanon, killing more than 3,000 people. Recommended Stories list of 3 items end of list America’s European allies did not condemn the US-Israeli attacks, but declined to get involved in the war and expressed their opposition to regime change. The Gulf countries also condemned the Iranian attacks on their territories. Russia and China, the world’s second-largest economy, also pushed back against the war. Countries around the world affected by rising oil prices and market volatility have called for a diplomatic solution to the conflict, with Pakistan playing a major role in mediating talks. On Wednesday, Israel and Lebanon renewed the ceasefire agreed on April 16. But that has not stopped Israel from carrying out its attacks on Lebanon, which Tehran has said are a violation of the April 8 ceasefire betwee",
+      "keywords": [
+        {
+          "name": "iran",
+          "value": 56
+        },
+        {
+          "name": "iranian",
+          "value": 27
+        },
+        {
+          "name": "attacks",
+          "value": 22
+        },
+        {
+          "name": "conflict",
+          "value": 22
+        },
+        {
+          "name": "foreign",
+          "value": 20
+        },
+        {
+          "name": "president",
+          "value": 20
+        },
+        {
+          "name": "countries",
+          "value": 17
+        },
+        {
+          "name": "called",
+          "value": 16
+        },
+        {
+          "name": "strait",
+          "value": 16
+        },
+        {
+          "name": "trump",
+          "value": 16
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Institutions and Law",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas",
+        "Indo-Pacific"
+      ],
+      "detail_path": "/evidence/a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b",
+      "evidence_json": "/evidence/a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b.json"
+    },
+    {
+      "id": "bc473a9ad59841085c517cad13a54849ec4922448473938eefc213bf7ad454d2",
+      "topic": "geopolitics",
+      "title": "Delays to defence investment plan have damaged UK’s credibility, say MPs",
+      "url": "https://www.theguardian.com/politics/2026/jun/07/uk-defence-investment-delays-damage-credibility-mps",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-07T11:04:30.846611+00:00",
+      "published": "Sun, 07 Jun 2026 09:29:48 GMT",
+      "text_chars": 3993,
+      "raw_path": "data/geopolitics/raw/bc473a9ad59841085c517cad13a54849ec4922448473938eefc213bf7ad454d2.html",
+      "text_path": "data/geopolitics/raw/bc473a9ad59841085c517cad13a54849ec4922448473938eefc213bf7ad454d2.txt",
+      "summary": "The prime minister, Keir Starmer, has said the plan, originally promised in autumn 2025, will be published before the Nato summit in Turkey beginning on 7 July. As the defence secretary told parliament this week, the prime minister is determined to publish it before the Nato summit.” The PAC report comes as it emerged the MoD is developing a submarine maintenance recovery plan amid reports the Royal Navy’s entire available fleet of hunter-killer submarines is docked. It is due to be published before a Nato summit early next month.",
+      "bullets": [
+        "The prime minister, Keir Starmer, has said the plan, originally promised in autumn 2025, will be published before the Nato summit in Turkey beginning on 7 July.",
+        "As the defence secretary told parliament this week, the prime minister is determined to publish it before the Nato summit.” The PAC report comes as it emerged the MoD is developing a submarine maintenance recovery plan amid reports the Royal Navy’s entire available fleet of hunter-killer submarines is docked.",
+        "It is due to be published before a Nato summit early next month.",
+        "Photograph: Leon Neal/Getty Images The report added that the Ministry of Defence (MoD) “has not yet decided which capabilities, infrastructure and people it requires to transform the armed forces to be warfighting-ready within the budget available”, nor had it “secured the cross-government agreement that the plan needs”.",
+        "The Mail on Sunday reported all five Astute-class submarines – which are used to protect the Vanguard submarines that carry nuclear Trident missiles – are out of service while they undergo maintenance and repair work."
+      ],
+      "excerpt": "A parliamentary committee that scrutinises public spending has made scathing comments about the impact of delays in the publication of the government’s defence investment plan (Dip). The plan, originally expected last autumn, has been repeatedly postponed amid warnings that the military faces a huge funding gap over the next four years. It is due to be published before a Nato summit early next month. In a report, the public accounts committee said the delay was undermining credibility with the UK’s allies. The chair of the committee of MPs, Geoffrey Clifton-Brown, said: “Those responsible may argue there are good reasons for the Dip’s continuing absence, but our report makes clear that excuses to the effect of ‘taking the time to get the details right’ simply do not cut it. “Whatever the content of the Dip when it eventually does appear, the damage from its absence has been done – to the nation’s credibility, to its safety, to its armed forces, and to certainty within its entire defence industrial base. “Any government minister attempting to explain away this delay to the Dip should instead ask themselves what message the bureaucratic drift of the past months has given to the publi",
+      "keywords": [
+        {
+          "name": "defence",
+          "value": 10
+        },
+        {
+          "name": "plan",
+          "value": 8
+        },
+        {
+          "name": "investment",
+          "value": 5
+        },
+        {
+          "name": "submarines",
+          "value": 5
+        },
+        {
+          "name": "committee",
+          "value": 3
+        },
+        {
+          "name": "credibility",
+          "value": 3
+        },
+        {
+          "name": "government",
+          "value": 3
+        },
+        {
+          "name": "infrastructure",
+          "value": 3
+        },
+        {
+          "name": "maintenance",
+          "value": 3
+        },
+        {
+          "name": "minister",
+          "value": 3
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Nuclear and Strategic Risk"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/bc473a9ad59841085c517cad13a54849ec4922448473938eefc213bf7ad454d2",
+      "evidence_json": "/evidence/bc473a9ad59841085c517cad13a54849ec4922448473938eefc213bf7ad454d2.json"
+    },
+    {
+      "id": "11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57",
+      "topic": "geopolitics",
+      "title": "Pakistan’s Naqvi visits Iran with ‘special letter’ for supreme leader",
+      "url": "https://www.aljazeera.com/news/2026/6/7/pakistans-naqvi-visits-iran-with-special-letter-for-supreme-leader?traffic_source=rss",
+      "host": "aljazeera.com",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-06-07T11:04:38.603241+00:00",
+      "published": "Sun, 07 Jun 2026 08:45:01 +0000",
+      "text_chars": 3916,
+      "raw_path": "data/geopolitics/raw/11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57.html",
+      "text_path": "data/geopolitics/raw/11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57.txt",
+      "summary": "On Friday, it said it intercepted seven ballistic missiles heading towards Kuwait and Bahrain hours after it had shot down four Iranian drones launched towards the strait, a key waterway through which about 20 percent of globally traded oil normally passes. Pakistan’s Interior Minister Mohsin Naqvi has travelled to Iran to deliver a “special letter” to Iran’s Supreme Leader Mojtaba Khamenei as part of diplomatic efforts to end the United States-Israeli war on Iran, which began 100 days ago.",
+      "bullets": [
+        "On Friday, it said it intercepted seven ballistic missiles heading towards Kuwait and Bahrain hours after it had shot down four Iranian drones launched towards the strait, a key waterway through which about 20 percent of globally traded oil normally passes.",
+        "Pakistan’s Interior Minister Mohsin Naqvi has travelled to Iran to deliver a “special letter” to Iran’s Supreme Leader Mojtaba Khamenei as part of diplomatic efforts to end the United States-Israeli war on Iran, which began 100 days ago.",
+        "United States forces said they “subsequently” struck Iranian coastal surveillance radar sites in Garuk and on Qeshm Island “to defend against further maritime attacks”.",
+        "On Sunday, the US Central Command (CENTCOM) said its forces had shot down two Iranian one-way attack drones “that threatened international maritime traffic in the Strait of Hormuz”.",
+        "“The negotiations are at a deadlock, and Trump must break this deadlock,” Mohsen Rezaei, military adviser to Iran’s supreme leader, told US media outlet CNN on Saturday."
+      ],
+      "excerpt": "Pakistan’s Interior Minister Mohsin Naqvi has travelled to Iran to deliver a “special letter” to Iran’s Supreme Leader Mojtaba Khamenei as part of diplomatic efforts to end the United States-Israeli war on Iran, which began 100 days ago. Naqvi arrived in the Iranian capital, Tehran, late on Saturday, and met his Iranian counterpart, Eskandar Momeni. The two discussed the “latest regional developments and matters related to internal security”, among other issues, Naqvi said on social media. Before his arrival, Iranian media reported that the Pakistani official was carrying a letter from his country’s army chief and prime minister ⁠⁠for the supreme leader. Recommended Stories list of 3 items end of list His visit comes amid renewed tensions in the Gulf region. On Sunday, the US Central Command (CENTCOM) said its forces had shot down two Iranian one-way attack drones “that threatened international maritime traffic in the Strait of Hormuz”. On Friday, it said it intercepted seven ballistic missiles heading towards Kuwait and Bahrain hours after it had shot down four Iranian drones launched towards the strait, a key waterway through which about 20 percent of globally traded oil normally",
+      "keywords": [
+        {
+          "name": "iranian",
+          "value": 11
+        },
+        {
+          "name": "iran",
+          "value": 7
+        },
+        {
+          "name": "attacks",
+          "value": 6
+        },
+        {
+          "name": "gulf",
+          "value": 5
+        },
+        {
+          "name": "leader",
+          "value": 4
+        },
+        {
+          "name": "media",
+          "value": 4
+        },
+        {
+          "name": "naqvi",
+          "value": 4
+        },
+        {
+          "name": "strait",
+          "value": 4
+        },
+        {
+          "name": "supreme",
+          "value": 4
+        },
+        {
+          "name": "deadlock",
+          "value": 3
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Diplomacy and Negotiations",
+        "Sanctions and Finance",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas",
+        "Indo-Pacific"
+      ],
+      "detail_path": "/evidence/11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57",
+      "evidence_json": "/evidence/11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57.json"
+    },
     {
       "id": "7dde43bde056d26018383e38cd766e8b829feff3a08e551f3ba6bb7ce1de3e2e",
       "topic": "geopolitics",
@@ -2654,6 +2876,86 @@
       ],
       "detail_path": "/evidence/c8c2a405214b6cd207fff69e27cd5d8ac3b02bed105a9089425580a2afe761ba",
       "evidence_json": "/evidence/c8c2a405214b6cd207fff69e27cd5d8ac3b02bed105a9089425580a2afe761ba.json"
+    },
+    {
+      "id": "e5fc1eedc8a28f9363c58a96317b56b1b46ec1a937fd6013617b4829409d8651",
+      "topic": "geopolitics",
+      "title": "Middle East live: US downs two Iranian drones targeting Hormuz shipping traffic",
+      "url": "https://www.france24.com/en/middle-east/20260607-middle-east-live-us-downs-two-iranian-drones-targeting-hormuz-shipping-traffic",
+      "host": "france24.com",
+      "source": "https://www.france24.com/en/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-07T11:04:31.274855+00:00",
+      "published": "Sun, 07 Jun 2026 06:39:58 GMT",
+      "text_chars": 7304,
+      "raw_path": "data/geopolitics/raw/e5fc1eedc8a28f9363c58a96317b56b1b46ec1a937fd6013617b4829409d8651.html",
+      "text_path": "data/geopolitics/raw/e5fc1eedc8a28f9363c58a96317b56b1b46ec1a937fd6013617b4829409d8651.txt",
+      "summary": "Magen David Adom said it received the first reports of a shooting at a gas station near the town of Kokhav Yair, located on the Israeli side of the boundary with the West Bank, at around 10:30 am. Pakistani authorities have said Islamabad, with support from regional countries including Qatar, Turkey and Egypt, has been working to help bridge differences between the United States and Iran and encourage efforts aimed at reducing tensions and ensuring the reopening of the Strait of Hormuz.",
+      "bullets": [
+        "Magen David Adom said it received the first reports of a shooting at a gas station near the town of Kokhav Yair, located on the Israeli side of the boundary with the West Bank, at around 10:30 am.",
+        "Pakistani authorities have said Islamabad, with support from regional countries including Qatar, Turkey and Egypt, has been working to help bridge differences between the United States and Iran and encourage efforts aimed at reducing tensions and ensuring the reopening of the Strait of Hormuz.",
+        "07/06/2026 - 11:10 Israeli troops kill baby, injure parents in West Bank Israeli troops shot at a car in the occupied West Bank, killing a 7-month-old Palestinian baby and wounding his parents, the Palestinian health ministry said, with the bullet striking the boy in the face.",
+        "Israel’s police said they had killed at least one attacker and are carrying out searches for additional assailants.",
+        "07/06/2026 - 13:04 Pakistan’s interior minister in Tehran In a fresh bid to restart negotiations between Iran and the US, Pakistani Interior Minister Mohsin Naqvi is in Tehran to deliver a message to Iranian Supreme Leader Ayatollah Mojtaba Khamenei from Pakistan's army chief Field Marshal Asim Munir, according to Iranian state-run IRNA news agency."
+      ],
+      "excerpt": "07/06/2026 - 13:04 Pakistan’s interior minister in Tehran In a fresh bid to restart negotiations between Iran and the US, Pakistani Interior Minister Mohsin Naqvi is in Tehran to deliver a message to Iranian Supreme Leader Ayatollah Mojtaba Khamenei from Pakistan's army chief Field Marshal Asim Munir, according to Iranian state-run IRNA news agency. Khamenei has not been seen in public since he was named the Islamic Republic’s ruler after his father was killed on the first day of the war on Feb. 28 when the US and Israel lauched a bombardment campaign against Iran. Naqvi met with Iranian Interior Minister Eskandar Momeni late Saturday, and held talks Sunday morning with Foreign Minister Abbas Araghchi, according to official Iranian media. There were no details on the contents of the message. Pakistani authorities have said Islamabad, with support from regional countries including Qatar, Turkey and Egypt, has been working to help bridge differences between the United States and Iran and encourage efforts aimed at reducing tensions and ensuring the reopening of the Strait of Hormuz. 07/06/2026 - 11:58 Dubai luxury hotels court local residents as tourism slumps Once reserved for wealt",
+      "keywords": [
+        {
+          "name": "israeli",
+          "value": 13
+        },
+        {
+          "name": "iran",
+          "value": 12
+        },
+        {
+          "name": "iranian",
+          "value": 10
+        },
+        {
+          "name": "lebanon",
+          "value": 7
+        },
+        {
+          "name": "saturday",
+          "value": 7
+        },
+        {
+          "name": "bank",
+          "value": 6
+        },
+        {
+          "name": "hormuz",
+          "value": 6
+        },
+        {
+          "name": "israel",
+          "value": 6
+        },
+        {
+          "name": "mexico",
+          "value": 6
+        },
+        {
+          "name": "police",
+          "value": 6
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints",
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Energy and Supply Chains"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas",
+        "Indo-Pacific"
+      ],
+      "detail_path": "/evidence/e5fc1eedc8a28f9363c58a96317b56b1b46ec1a937fd6013617b4829409d8651",
+      "evidence_json": "/evidence/e5fc1eedc8a28f9363c58a96317b56b1b46ec1a937fd6013617b4829409d8651.json"
     },
     {
       "id": "760606d6775f51a15b93efcd549a9e5dbe6be6b3e8774fb7cc7d992dc8f7a9ab",
@@ -8357,305 +8659,6 @@
       "file_asset": "/evidence-files/86c440d68a29fef26bc632e28e95a8efbadbef3f7135dc04386ad8227a0762c8.pdf",
       "detail_path": "/evidence/86c440d68a29fef26bc632e28e95a8efbadbef3f7135dc04386ad8227a0762c8",
       "evidence_json": "/evidence/86c440d68a29fef26bc632e28e95a8efbadbef3f7135dc04386ad8227a0762c8.json"
-    },
-    {
-      "id": "ab8f038116e94dc88ed3c4a521ab07395a6fd26f41be734b885f10d113d6e892",
-      "topic": "geopolitics",
-      "title": "Are We Reliving the 1890s, 1930s, or 1950s?",
-      "url": "https://foreignpolicy.com/2026/06/04/global-order-geopolitics-trump-us-china-history-1930s-cold-war/",
-      "host": "foreignpolicy.com",
-      "source": "https://foreignpolicy.com/feed/",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-06-04T13:57:04.355891+00:00",
-      "published": "Thu, 04 Jun 2026 12:50:37 +0000",
-      "text_chars": 14762,
-      "raw_path": "data/geopolitics/raw/ab8f038116e94dc88ed3c4a521ab07395a6fd26f41be734b885f10d113d6e892.html",
-      "text_path": "data/geopolitics/raw/ab8f038116e94dc88ed3c4a521ab07395a6fd26f41be734b885f10d113d6e892.txt",
-      "summary": "For Canadian Prime Minister Mark Carney, Trump has created a “ rupture in the world order ”; Danish Prime Minister Mette Frederiksen, following Trump’s threats to invade Greenland, said that the old world order “ is now gone.” The Munich Security Report 2026, released ahead of the eponymous conference, described U.S. Trump’s war against Iran has further inflamed tensions between Washington and its allies, weakening U.S. The three periods often suggested are the late 1800s, the 1930s, and the Cold War.",
-      "bullets": [
-        "For Canadian Prime Minister Mark Carney, Trump has created a “ rupture in the world order ”; Danish Prime Minister Mette Frederiksen, following Trump’s threats to invade Greenland, said that the old world order “ is now gone.” The Munich Security Report 2026, released ahead of the eponymous conference, described U.S.",
-        "Trump’s war against Iran has further inflamed tensions between Washington and its allies, weakening U.S.",
-        "The three periods often suggested are the late 1800s, the 1930s, and the Cold War.",
-        "Neither he nor his MAGA movement are the main drivers of change; current Washington policies are better understood as a symptom of fundamental structural shifts that have already occurred.",
-        "policy under Trump as a “ sweeping destruction ” of the post-1945 order, whereas others have called it “ the great dismantling ” and even the end of modernity."
-      ],
-      "excerpt": "U.S. foreign policy during Donald Trump’s second term has unleashed deep and wide-ranging concern about international stability and the future of the global order. For Canadian Prime Minister Mark Carney, Trump has created a “ rupture in the world order ”; Danish Prime Minister Mette Frederiksen, following Trump’s threats to invade Greenland, said that the old world order “ is now gone.” The Munich Security Report 2026, released ahead of the eponymous conference, described U.S. policy under Trump as a “ sweeping destruction ” of the post-1945 order, whereas others have called it “ the great dismantling ” and even the end of modernity. Trump’s war against Iran has further inflamed tensions between Washington and its allies, weakening U.S. influence around the world. However, the U.S.-led world order already ceased to exist long before Trump’s return to power. Neither he nor his MAGA movement are the main drivers of change; current Washington policies are better understood as a symptom of fundamental structural shifts that have already occurred. Indeed, the rise of right-wing populism, nationalism, protectionism, and heightened geopolitical contestation reaches far beyond Trump. U.S.",
-      "keywords": [
-        {
-          "name": "trump",
-          "value": 28
-        },
-        {
-          "name": "china",
-          "value": 19
-        },
-        {
-          "name": "power",
-          "value": 16
-        },
-        {
-          "name": "order",
-          "value": 15
-        },
-        {
-          "name": "washington",
-          "value": 14
-        },
-        {
-          "name": "world",
-          "value": 14
-        },
-        {
-          "name": "economic",
-          "value": 13
-        },
-        {
-          "name": "today",
-          "value": 13
-        },
-        {
-          "name": "cold",
-          "value": 9
-        },
-        {
-          "name": "europe",
-          "value": 9
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Sanctions and Finance",
-        "Diplomacy and Negotiations",
-        "Territory and Chokepoints"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Indo-Pacific"
-      ],
-      "detail_path": "/evidence/ab8f038116e94dc88ed3c4a521ab07395a6fd26f41be734b885f10d113d6e892",
-      "evidence_json": "/evidence/ab8f038116e94dc88ed3c4a521ab07395a6fd26f41be734b885f10d113d6e892.json"
-    },
-    {
-      "id": "3abcd3470f787aaa0dc7a7ddc1aeca6ba6e7abe72b54767c70c5fc56b323987f",
-      "topic": "geopolitics",
-      "title": "Trump announces Israel-Lebanon ceasefire as House passes war powers resolution | First Thing",
-      "url": "https://www.theguardian.com/us-news/2026/jun/04/first-thing-trump-israel-lebanon-ceasefire-house-war-powers-resolution",
-      "host": "theguardian.com",
-      "source": "https://www.theguardian.com/world/rss",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-06-04T13:56:41.050767+00:00",
-      "published": "Thu, 04 Jun 2026 12:47:50 GMT",
-      "text_chars": 7141,
-      "raw_path": "data/geopolitics/raw/3abcd3470f787aaa0dc7a7ddc1aeca6ba6e7abe72b54767c70c5fc56b323987f.html",
-      "text_path": "data/geopolitics/raw/3abcd3470f787aaa0dc7a7ddc1aeca6ba6e7abe72b54767c70c5fc56b323987f.txt",
-      "summary": "Analysts and human rights experts have said the attacks on healthcare facilities were aimed at degrading the conditions for life in south Lebanon. US House passes war powers resolution to curb Trump in Iran A Times Square demonstration against Trump’s war on Iran in April. The House voted 215 to 208 in favor of the war powers resolution, as four Republicans voted with Democrats.",
-      "bullets": [
-        "Analysts and human rights experts have said the attacks on healthcare facilities were aimed at degrading the conditions for life in south Lebanon.",
-        "US House passes war powers resolution to curb Trump in Iran A Times Square demonstration against Trump’s war on Iran in April.",
-        "The House voted 215 to 208 in favor of the war powers resolution, as four Republicans voted with Democrats.",
-        "Yes, the 90-day threshold is important because the 1973 War Powers Resolution lays down that a president must seek congressional approval to continue waging war after hostilities have continued that length of time.",
-        "William Christou in Beirut reports that three hospitals in southern Lebanon have been attacked by Israel in under a week, wounding more than 150 people and killing nine."
-      ],
-      "excerpt": "Good morning. Israel and Lebanon have agreed to implement a ceasefire to end hostilities, the Trump administration has announced – but it comes with caveats. Not only is the deal contingent on a complete cessation of fire from the Iran-aligned Hezbollah armed group, and on the evacuation of all its fighters from the area south of the Litani River, but Hezbollah has not been part of the talks. The Lebanese government has been negotiating with Israel without Hezbollah as part of its effort to reassert the government’s control over the country and disarm the armed group. And, despite the joint commitment to a ceasefire, Israel carried out drone strikes in the Nabatieh area of southern Lebanon on Thursday morning. Where has Israel been targeting? William Christou in Beirut reports that three hospitals in southern Lebanon have been attacked by Israel in under a week, wounding more than 150 people and killing nine. Analysts and human rights experts have said the attacks on healthcare facilities were aimed at degrading the conditions for life in south Lebanon. What did Israel say about it? The military said it had struck “Hezbollah infrastructure in the area of Tyre” and acknowledged a ho",
-      "keywords": [
-        {
-          "name": "california",
-          "value": 8
-        },
-        {
-          "name": "israel",
-          "value": 7
-        },
-        {
-          "name": "photograph",
-          "value": 7
-        },
-        {
-          "name": "trump",
-          "value": 7
-        },
-        {
-          "name": "resolution",
-          "value": 6
-        },
-        {
-          "name": "hezbollah",
-          "value": 5
-        },
-        {
-          "name": "house",
-          "value": 5
-        },
-        {
-          "name": "ceasefire",
-          "value": 4
-        },
-        {
-          "name": "iran",
-          "value": 4
-        },
-        {
-          "name": "lebanon",
-          "value": 4
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "Humanitarian Pressure"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "detail_path": "/evidence/3abcd3470f787aaa0dc7a7ddc1aeca6ba6e7abe72b54767c70c5fc56b323987f",
-      "evidence_json": "/evidence/3abcd3470f787aaa0dc7a7ddc1aeca6ba6e7abe72b54767c70c5fc56b323987f.json"
-    },
-    {
-      "id": "d75f99b3adad560343f24765f34c4e0760b2856c4af2f02583b3484299aad370",
-      "topic": "geopolitics",
-      "title": "World News in Brief: UN scales up Ebola response, refugees ‘exiled’ in Africa, Political tensions escalate in Somalia (image)",
-      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/25-09-2023-UNICEF-Sudan-refugees.jpg/image560x340cropped.jpg",
-      "host": "global.unitednations.entermediadb.net",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "data_type": "images",
-      "format": "Image",
-      "content_type": "image/jpeg",
-      "collected_at": "2026-06-05T02:35:13.306074+00:00",
-      "published": "Thu, 04 Jun 2026 12:00:00 +0000",
-      "text_chars": 484,
-      "raw_path": "data/geopolitics/raw/d75f99b3adad560343f24765f34c4e0760b2856c4af2f02583b3484299aad370.jpg",
-      "text_path": "data/geopolitics/raw/d75f99b3adad560343f24765f34c4e0760b2856c4af2f02583b3484299aad370.txt",
-      "summary": "Binary images source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Binary images source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: World News in Brief: UN scales up Ebola response, refugees ‘exiled’ in Africa, Political tensions escalate in Somalia (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/25-09-2023-UNICEF-Sudan-refugees.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 51552",
-      "keywords": [
-        {
-          "name": "africa",
-          "value": 2
-        },
-        {
-          "name": "brief",
-          "value": 2
-        },
-        {
-          "name": "ebola",
-          "value": 2
-        },
-        {
-          "name": "entermediadb",
-          "value": 2
-        },
-        {
-          "name": "escalate",
-          "value": 2
-        },
-        {
-          "name": "exiled",
-          "value": 2
-        },
-        {
-          "name": "political",
-          "value": 2
-        },
-        {
-          "name": "refugees",
-          "value": 2
-        },
-        {
-          "name": "response",
-          "value": 2
-        },
-        {
-          "name": "scales",
-          "value": 2
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa"
-      ],
-      "preview_asset": "/evidence-assets/d75f99b3adad560343f24765f34c4e0760b2856c4af2f02583b3484299aad370.jpg",
-      "detail_path": "/evidence/d75f99b3adad560343f24765f34c4e0760b2856c4af2f02583b3484299aad370",
-      "evidence_json": "/evidence/d75f99b3adad560343f24765f34c4e0760b2856c4af2f02583b3484299aad370.json"
-    },
-    {
-      "id": "e5c96aa408a6bcbd5943e5495729ff186e83fc7067f0d72c46233945bbb55cb1",
-      "topic": "geopolitics",
-      "title": "From food lines in Somalia to clinics in Afghanistan, Hormuz crisis sends shockwaves through global aid networks (image)",
-      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/06/04-06-2026-UNICEF-Afghanistan.jpg/image560x340cropped.jpg",
-      "host": "global.unitednations.entermediadb.net",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "data_type": "images",
-      "format": "Image",
-      "content_type": "image/jpeg",
-      "collected_at": "2026-06-05T02:35:12.945075+00:00",
-      "published": "Thu, 04 Jun 2026 12:00:00 +0000",
-      "text_chars": 495,
-      "raw_path": "data/geopolitics/raw/e5c96aa408a6bcbd5943e5495729ff186e83fc7067f0d72c46233945bbb55cb1.jpg",
-      "text_path": "data/geopolitics/raw/e5c96aa408a6bcbd5943e5495729ff186e83fc7067f0d72c46233945bbb55cb1.txt",
-      "summary": "Binary images source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Binary images source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: From food lines in Somalia to clinics in Afghanistan, Hormuz crisis sends shockwaves through global aid networks (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/06/04-06-2026-UNICEF-Afghanistan.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 33861",
-      "keywords": [
-        {
-          "name": "afghanistan",
-          "value": 2
-        },
-        {
-          "name": "clinics",
-          "value": 2
-        },
-        {
-          "name": "crisis",
-          "value": 2
-        },
-        {
-          "name": "entermediadb",
-          "value": 2
-        },
-        {
-          "name": "food",
-          "value": 2
-        },
-        {
-          "name": "hormuz",
-          "value": 2
-        },
-        {
-          "name": "lines",
-          "value": 2
-        },
-        {
-          "name": "networks",
-          "value": 2
-        },
-        {
-          "name": "sends",
-          "value": 2
-        },
-        {
-          "name": "shockwaves",
-          "value": 2
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Middle East"
-      ],
-      "preview_asset": "/evidence-assets/e5c96aa408a6bcbd5943e5495729ff186e83fc7067f0d72c46233945bbb55cb1.jpg",
-      "detail_path": "/evidence/e5c96aa408a6bcbd5943e5495729ff186e83fc7067f0d72c46233945bbb55cb1",
-      "evidence_json": "/evidence/e5c96aa408a6bcbd5943e5495729ff186e83fc7067f0d72c46233945bbb55cb1.json"
     }
   ],
   "deep_reads": [
@@ -8669,7 +8672,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-07T08:48:33.014785+00:00",
+      "collected_at": "2026-06-07T11:04:17.530007+00:00",
       "published": "",
       "text_chars": 9076319,
       "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
@@ -9469,7 +9472,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-07T08:48:04.845432+00:00",
+      "collected_at": "2026-06-07T11:03:43.082181+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -9544,7 +9547,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-07T08:48:05.118829+00:00",
+      "collected_at": "2026-06-07T11:03:43.361298+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -10501,7 +10504,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-07T08:48:06.825981+00:00",
+      "collected_at": "2026-06-07T11:03:45.133911+00:00",
       "published": "",
       "text_chars": 824888,
       "raw_path": "data/geopolitics/raw/43ec59185bea22a77b6ad8b672d4b10647633fef1fa8f4248e0a9cb05581cc67.xml",
@@ -10894,87 +10897,6 @@
   ],
   "documents": [
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-07T08:48:39.453390+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -10984,7 +10906,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-07T08:48:35.695356+00:00",
+      "collected_at": "2026-06-07T11:04:25.390376+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -11056,74 +10978,85 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
       "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-07T08:48:35.024310+00:00",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-07T11:04:24.636539+00:00",
       "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
       "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
       ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
       "keywords": [
         {
-          "name": "admin",
-          "value": 2
+          "name": "power",
+          "value": 596
         },
         {
-          "name": "areas",
-          "value": 2
+          "name": "convention",
+          "value": 551
         },
         {
-          "name": "disputed",
-          "value": 2
+          "name": "prisoners",
+          "value": 512
         },
         {
-          "name": "naciscdn",
-          "value": 2
+          "name": "parties",
+          "value": 284
         },
         {
-          "name": "application",
-          "value": 1
+          "name": "conflict",
+          "value": 267
         },
         {
-          "name": "binary",
-          "value": 1
+          "name": "detaining",
+          "value": 266
         },
         {
-          "name": "bytes",
-          "value": 1
+          "name": "medical",
+          "value": 249
         },
         {
-          "name": "collected",
-          "value": 1
+          "name": "provisions",
+          "value": 209
         },
         {
-          "name": "content-type",
-          "value": 1
+          "name": "powers",
+          "value": 205
         },
         {
-          "name": "cultural",
-          "value": 1
+          "name": "geneva",
+          "value": 201
         }
       ],
       "signals": [
-        "Territory and Chokepoints"
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
       ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
       "id": "f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
@@ -11135,7 +11068,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-07T08:48:34.579345+00:00",
+      "collected_at": "2026-06-07T11:04:19.608624+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.html",
@@ -11199,6 +11132,76 @@
       "evidence_json": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.json"
     },
     {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-07T11:04:19.564499+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -11208,7 +11211,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-07T08:48:34.563578+00:00",
+      "collected_at": "2026-06-07T11:04:19.544372+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11289,7 +11292,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-07T08:48:33.014785+00:00",
+      "collected_at": "2026-06-07T11:04:17.530007+00:00",
       "published": "",
       "text_chars": 9076319,
       "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
@@ -11369,7 +11372,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-07T08:48:08.227162+00:00",
+      "collected_at": "2026-06-07T11:03:46.856661+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.xml",
@@ -11449,7 +11452,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-07T08:48:06.825981+00:00",
+      "collected_at": "2026-06-07T11:03:45.133911+00:00",
       "published": "",
       "text_chars": 824888,
       "raw_path": "data/geopolitics/raw/43ec59185bea22a77b6ad8b672d4b10647633fef1fa8f4248e0a9cb05581cc67.xml",
@@ -11529,7 +11532,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-07T08:48:05.118829+00:00",
+      "collected_at": "2026-06-07T11:03:43.361298+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -11606,7 +11609,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-07T08:48:04.845432+00:00",
+      "collected_at": "2026-06-07T11:03:43.082181+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -15444,87 +15447,6 @@
   "cited_evidence": [],
   "evidence": [
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-07T08:48:39.453390+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -15534,7 +15456,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-07T08:48:35.695356+00:00",
+      "collected_at": "2026-06-07T11:04:25.390376+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15606,74 +15528,85 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
       "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-07T08:48:35.024310+00:00",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-07T11:04:24.636539+00:00",
       "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
       "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
       ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
       "keywords": [
         {
-          "name": "admin",
-          "value": 2
+          "name": "power",
+          "value": 596
         },
         {
-          "name": "areas",
-          "value": 2
+          "name": "convention",
+          "value": 551
         },
         {
-          "name": "disputed",
-          "value": 2
+          "name": "prisoners",
+          "value": 512
         },
         {
-          "name": "naciscdn",
-          "value": 2
+          "name": "parties",
+          "value": 284
         },
         {
-          "name": "application",
-          "value": 1
+          "name": "conflict",
+          "value": 267
         },
         {
-          "name": "binary",
-          "value": 1
+          "name": "detaining",
+          "value": 266
         },
         {
-          "name": "bytes",
-          "value": 1
+          "name": "medical",
+          "value": 249
         },
         {
-          "name": "collected",
-          "value": 1
+          "name": "provisions",
+          "value": 209
         },
         {
-          "name": "content-type",
-          "value": 1
+          "name": "powers",
+          "value": 205
         },
         {
-          "name": "cultural",
-          "value": 1
+          "name": "geneva",
+          "value": 201
         }
       ],
       "signals": [
-        "Territory and Chokepoints"
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
       ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
       "id": "f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0",
@@ -15685,7 +15618,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-07T08:48:34.579345+00:00",
+      "collected_at": "2026-06-07T11:04:19.608624+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.html",
@@ -15749,6 +15682,76 @@
       "evidence_json": "/evidence/f2330e0a41e725bda9d6ffddec4c9b61389aada7e1bea9b48b1ccedaa8b9fff0.json"
     },
     {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-07T11:04:19.564499+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -15758,7 +15761,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-07T08:48:34.563578+00:00",
+      "collected_at": "2026-06-07T11:04:19.544372+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15839,7 +15842,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-07T08:48:33.014785+00:00",
+      "collected_at": "2026-06-07T11:04:17.530007+00:00",
       "published": "",
       "text_chars": 9076319,
       "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
@@ -15919,7 +15922,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-07T08:48:08.227162+00:00",
+      "collected_at": "2026-06-07T11:03:46.856661+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.xml",
@@ -15999,7 +16002,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-07T08:48:06.825981+00:00",
+      "collected_at": "2026-06-07T11:03:45.133911+00:00",
       "published": "",
       "text_chars": 824888,
       "raw_path": "data/geopolitics/raw/43ec59185bea22a77b6ad8b672d4b10647633fef1fa8f4248e0a9cb05581cc67.xml",
@@ -16079,7 +16082,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-07T08:48:05.118829+00:00",
+      "collected_at": "2026-06-07T11:03:43.361298+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -16156,7 +16159,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-07T08:48:04.845432+00:00",
+      "collected_at": "2026-06-07T11:03:43.082181+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -16220,6 +16223,244 @@
       ],
       "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
       "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
+    },
+    {
+      "id": "a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b",
+      "topic": "geopolitics",
+      "title": "How have countries around the world responded to the US-Israel war on Iran?",
+      "url": "https://www.aljazeera.com/news/2026/6/7/how-have-countries-around-the-world-responded-to-the-us-israel-war-on-iran?traffic_source=rss",
+      "host": "aljazeera.com",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-06-07T11:04:35.158383+00:00",
+      "published": "Sun, 07 Jun 2026 09:35:31 +0000",
+      "text_chars": 25274,
+      "raw_path": "data/geopolitics/raw/a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b.html",
+      "text_path": "data/geopolitics/raw/a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b.txt",
+      "summary": "(Al Jazeera) The Gulf region Gulf states have been caught up in the war since it began on February 28, with Iran launching missile and drone strikes against US military assets hosted on their soil. Sunday marks 100 days since the United States and Israel launched war on Iran – a conflict that has triggered a global energy crisis and darkened the global economic outlook. But that has not stopped Israel from carrying out its attacks on Lebanon, which Tehran has said are a violation of the April 8 ceasefire between Washington and New Delhi.",
+      "bullets": [
+        "(Al Jazeera) The Gulf region Gulf states have been caught up in the war since it began on February 28, with Iran launching missile and drone strikes against US military assets hosted on their soil.",
+        "Sunday marks 100 days since the United States and Israel launched war on Iran – a conflict that has triggered a global energy crisis and darkened the global economic outlook.",
+        "But that has not stopped Israel from carrying out its attacks on Lebanon, which Tehran has said are a violation of the April 8 ceasefire between Washington and New Delhi.",
+        "Oman – As the main mediator of the US-Iran nuclear talks, Oman initially expressed dismay when the war was launched while nuclear talks were under way.",
+        "It was nevertheless dragged into the conflict when Iran launched a flurry of retaliatory attacks on US military assets and energy infrastructure across the Gulf region."
+      ],
+      "excerpt": "Sunday marks 100 days since the United States and Israel launched war on Iran – a conflict that has triggered a global energy crisis and darkened the global economic outlook. The war, which Iran has called an “unprovoked act of aggression”, has expanded to Gulf nations as well as Lebanon. A fragile ceasefire has been in place since April 8, but Israel has continued its offensive in Lebanon, killing more than 3,000 people. Recommended Stories list of 3 items end of list America’s European allies did not condemn the US-Israeli attacks, but declined to get involved in the war and expressed their opposition to regime change. The Gulf countries also condemned the Iranian attacks on their territories. Russia and China, the world’s second-largest economy, also pushed back against the war. Countries around the world affected by rising oil prices and market volatility have called for a diplomatic solution to the conflict, with Pakistan playing a major role in mediating talks. On Wednesday, Israel and Lebanon renewed the ceasefire agreed on April 16. But that has not stopped Israel from carrying out its attacks on Lebanon, which Tehran has said are a violation of the April 8 ceasefire betwee",
+      "keywords": [
+        {
+          "name": "iran",
+          "value": 56
+        },
+        {
+          "name": "iranian",
+          "value": 27
+        },
+        {
+          "name": "attacks",
+          "value": 22
+        },
+        {
+          "name": "conflict",
+          "value": 22
+        },
+        {
+          "name": "foreign",
+          "value": 20
+        },
+        {
+          "name": "president",
+          "value": 20
+        },
+        {
+          "name": "countries",
+          "value": 17
+        },
+        {
+          "name": "called",
+          "value": 16
+        },
+        {
+          "name": "strait",
+          "value": 16
+        },
+        {
+          "name": "trump",
+          "value": 16
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Institutions and Law",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas",
+        "Indo-Pacific"
+      ],
+      "detail_path": "/evidence/a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b",
+      "evidence_json": "/evidence/a0a7134cfae512323263203af80c1b2d52565ad6bd8094b20eb515a9232e296b.json"
+    },
+    {
+      "id": "bc473a9ad59841085c517cad13a54849ec4922448473938eefc213bf7ad454d2",
+      "topic": "geopolitics",
+      "title": "Delays to defence investment plan have damaged UK’s credibility, say MPs",
+      "url": "https://www.theguardian.com/politics/2026/jun/07/uk-defence-investment-delays-damage-credibility-mps",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-07T11:04:30.846611+00:00",
+      "published": "Sun, 07 Jun 2026 09:29:48 GMT",
+      "text_chars": 3993,
+      "raw_path": "data/geopolitics/raw/bc473a9ad59841085c517cad13a54849ec4922448473938eefc213bf7ad454d2.html",
+      "text_path": "data/geopolitics/raw/bc473a9ad59841085c517cad13a54849ec4922448473938eefc213bf7ad454d2.txt",
+      "summary": "The prime minister, Keir Starmer, has said the plan, originally promised in autumn 2025, will be published before the Nato summit in Turkey beginning on 7 July. As the defence secretary told parliament this week, the prime minister is determined to publish it before the Nato summit.” The PAC report comes as it emerged the MoD is developing a submarine maintenance recovery plan amid reports the Royal Navy’s entire available fleet of hunter-killer submarines is docked. It is due to be published before a Nato summit early next month.",
+      "bullets": [
+        "The prime minister, Keir Starmer, has said the plan, originally promised in autumn 2025, will be published before the Nato summit in Turkey beginning on 7 July.",
+        "As the defence secretary told parliament this week, the prime minister is determined to publish it before the Nato summit.” The PAC report comes as it emerged the MoD is developing a submarine maintenance recovery plan amid reports the Royal Navy’s entire available fleet of hunter-killer submarines is docked.",
+        "It is due to be published before a Nato summit early next month.",
+        "Photograph: Leon Neal/Getty Images The report added that the Ministry of Defence (MoD) “has not yet decided which capabilities, infrastructure and people it requires to transform the armed forces to be warfighting-ready within the budget available”, nor had it “secured the cross-government agreement that the plan needs”.",
+        "The Mail on Sunday reported all five Astute-class submarines – which are used to protect the Vanguard submarines that carry nuclear Trident missiles – are out of service while they undergo maintenance and repair work."
+      ],
+      "excerpt": "A parliamentary committee that scrutinises public spending has made scathing comments about the impact of delays in the publication of the government’s defence investment plan (Dip). The plan, originally expected last autumn, has been repeatedly postponed amid warnings that the military faces a huge funding gap over the next four years. It is due to be published before a Nato summit early next month. In a report, the public accounts committee said the delay was undermining credibility with the UK’s allies. The chair of the committee of MPs, Geoffrey Clifton-Brown, said: “Those responsible may argue there are good reasons for the Dip’s continuing absence, but our report makes clear that excuses to the effect of ‘taking the time to get the details right’ simply do not cut it. “Whatever the content of the Dip when it eventually does appear, the damage from its absence has been done – to the nation’s credibility, to its safety, to its armed forces, and to certainty within its entire defence industrial base. “Any government minister attempting to explain away this delay to the Dip should instead ask themselves what message the bureaucratic drift of the past months has given to the publi",
+      "keywords": [
+        {
+          "name": "defence",
+          "value": 10
+        },
+        {
+          "name": "plan",
+          "value": 8
+        },
+        {
+          "name": "investment",
+          "value": 5
+        },
+        {
+          "name": "submarines",
+          "value": 5
+        },
+        {
+          "name": "committee",
+          "value": 3
+        },
+        {
+          "name": "credibility",
+          "value": 3
+        },
+        {
+          "name": "government",
+          "value": 3
+        },
+        {
+          "name": "infrastructure",
+          "value": 3
+        },
+        {
+          "name": "maintenance",
+          "value": 3
+        },
+        {
+          "name": "minister",
+          "value": 3
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Nuclear and Strategic Risk"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/bc473a9ad59841085c517cad13a54849ec4922448473938eefc213bf7ad454d2",
+      "evidence_json": "/evidence/bc473a9ad59841085c517cad13a54849ec4922448473938eefc213bf7ad454d2.json"
+    },
+    {
+      "id": "11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57",
+      "topic": "geopolitics",
+      "title": "Pakistan’s Naqvi visits Iran with ‘special letter’ for supreme leader",
+      "url": "https://www.aljazeera.com/news/2026/6/7/pakistans-naqvi-visits-iran-with-special-letter-for-supreme-leader?traffic_source=rss",
+      "host": "aljazeera.com",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-06-07T11:04:38.603241+00:00",
+      "published": "Sun, 07 Jun 2026 08:45:01 +0000",
+      "text_chars": 3916,
+      "raw_path": "data/geopolitics/raw/11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57.html",
+      "text_path": "data/geopolitics/raw/11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57.txt",
+      "summary": "On Friday, it said it intercepted seven ballistic missiles heading towards Kuwait and Bahrain hours after it had shot down four Iranian drones launched towards the strait, a key waterway through which about 20 percent of globally traded oil normally passes. Pakistan’s Interior Minister Mohsin Naqvi has travelled to Iran to deliver a “special letter” to Iran’s Supreme Leader Mojtaba Khamenei as part of diplomatic efforts to end the United States-Israeli war on Iran, which began 100 days ago.",
+      "bullets": [
+        "On Friday, it said it intercepted seven ballistic missiles heading towards Kuwait and Bahrain hours after it had shot down four Iranian drones launched towards the strait, a key waterway through which about 20 percent of globally traded oil normally passes.",
+        "Pakistan’s Interior Minister Mohsin Naqvi has travelled to Iran to deliver a “special letter” to Iran’s Supreme Leader Mojtaba Khamenei as part of diplomatic efforts to end the United States-Israeli war on Iran, which began 100 days ago.",
+        "United States forces said they “subsequently” struck Iranian coastal surveillance radar sites in Garuk and on Qeshm Island “to defend against further maritime attacks”.",
+        "On Sunday, the US Central Command (CENTCOM) said its forces had shot down two Iranian one-way attack drones “that threatened international maritime traffic in the Strait of Hormuz”.",
+        "“The negotiations are at a deadlock, and Trump must break this deadlock,” Mohsen Rezaei, military adviser to Iran’s supreme leader, told US media outlet CNN on Saturday."
+      ],
+      "excerpt": "Pakistan’s Interior Minister Mohsin Naqvi has travelled to Iran to deliver a “special letter” to Iran’s Supreme Leader Mojtaba Khamenei as part of diplomatic efforts to end the United States-Israeli war on Iran, which began 100 days ago. Naqvi arrived in the Iranian capital, Tehran, late on Saturday, and met his Iranian counterpart, Eskandar Momeni. The two discussed the “latest regional developments and matters related to internal security”, among other issues, Naqvi said on social media. Before his arrival, Iranian media reported that the Pakistani official was carrying a letter from his country’s army chief and prime minister ⁠⁠for the supreme leader. Recommended Stories list of 3 items end of list His visit comes amid renewed tensions in the Gulf region. On Sunday, the US Central Command (CENTCOM) said its forces had shot down two Iranian one-way attack drones “that threatened international maritime traffic in the Strait of Hormuz”. On Friday, it said it intercepted seven ballistic missiles heading towards Kuwait and Bahrain hours after it had shot down four Iranian drones launched towards the strait, a key waterway through which about 20 percent of globally traded oil normally",
+      "keywords": [
+        {
+          "name": "iranian",
+          "value": 11
+        },
+        {
+          "name": "iran",
+          "value": 7
+        },
+        {
+          "name": "attacks",
+          "value": 6
+        },
+        {
+          "name": "gulf",
+          "value": 5
+        },
+        {
+          "name": "leader",
+          "value": 4
+        },
+        {
+          "name": "media",
+          "value": 4
+        },
+        {
+          "name": "naqvi",
+          "value": 4
+        },
+        {
+          "name": "strait",
+          "value": 4
+        },
+        {
+          "name": "supreme",
+          "value": 4
+        },
+        {
+          "name": "deadlock",
+          "value": 3
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Diplomacy and Negotiations",
+        "Sanctions and Finance",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas",
+        "Indo-Pacific"
+      ],
+      "detail_path": "/evidence/11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57",
+      "evidence_json": "/evidence/11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57.json"
     },
     {
       "id": "7dde43bde056d26018383e38cd766e8b829feff3a08e551f3ba6bb7ce1de3e2e",
@@ -16462,6 +16703,86 @@
       ],
       "detail_path": "/evidence/c8c2a405214b6cd207fff69e27cd5d8ac3b02bed105a9089425580a2afe761ba",
       "evidence_json": "/evidence/c8c2a405214b6cd207fff69e27cd5d8ac3b02bed105a9089425580a2afe761ba.json"
+    },
+    {
+      "id": "e5fc1eedc8a28f9363c58a96317b56b1b46ec1a937fd6013617b4829409d8651",
+      "topic": "geopolitics",
+      "title": "Middle East live: US downs two Iranian drones targeting Hormuz shipping traffic",
+      "url": "https://www.france24.com/en/middle-east/20260607-middle-east-live-us-downs-two-iranian-drones-targeting-hormuz-shipping-traffic",
+      "host": "france24.com",
+      "source": "https://www.france24.com/en/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-07T11:04:31.274855+00:00",
+      "published": "Sun, 07 Jun 2026 06:39:58 GMT",
+      "text_chars": 7304,
+      "raw_path": "data/geopolitics/raw/e5fc1eedc8a28f9363c58a96317b56b1b46ec1a937fd6013617b4829409d8651.html",
+      "text_path": "data/geopolitics/raw/e5fc1eedc8a28f9363c58a96317b56b1b46ec1a937fd6013617b4829409d8651.txt",
+      "summary": "Magen David Adom said it received the first reports of a shooting at a gas station near the town of Kokhav Yair, located on the Israeli side of the boundary with the West Bank, at around 10:30 am. Pakistani authorities have said Islamabad, with support from regional countries including Qatar, Turkey and Egypt, has been working to help bridge differences between the United States and Iran and encourage efforts aimed at reducing tensions and ensuring the reopening of the Strait of Hormuz.",
+      "bullets": [
+        "Magen David Adom said it received the first reports of a shooting at a gas station near the town of Kokhav Yair, located on the Israeli side of the boundary with the West Bank, at around 10:30 am.",
+        "Pakistani authorities have said Islamabad, with support from regional countries including Qatar, Turkey and Egypt, has been working to help bridge differences between the United States and Iran and encourage efforts aimed at reducing tensions and ensuring the reopening of the Strait of Hormuz.",
+        "07/06/2026 - 11:10 Israeli troops kill baby, injure parents in West Bank Israeli troops shot at a car in the occupied West Bank, killing a 7-month-old Palestinian baby and wounding his parents, the Palestinian health ministry said, with the bullet striking the boy in the face.",
+        "Israel’s police said they had killed at least one attacker and are carrying out searches for additional assailants.",
+        "07/06/2026 - 13:04 Pakistan’s interior minister in Tehran In a fresh bid to restart negotiations between Iran and the US, Pakistani Interior Minister Mohsin Naqvi is in Tehran to deliver a message to Iranian Supreme Leader Ayatollah Mojtaba Khamenei from Pakistan's army chief Field Marshal Asim Munir, according to Iranian state-run IRNA news agency."
+      ],
+      "excerpt": "07/06/2026 - 13:04 Pakistan’s interior minister in Tehran In a fresh bid to restart negotiations between Iran and the US, Pakistani Interior Minister Mohsin Naqvi is in Tehran to deliver a message to Iranian Supreme Leader Ayatollah Mojtaba Khamenei from Pakistan's army chief Field Marshal Asim Munir, according to Iranian state-run IRNA news agency. Khamenei has not been seen in public since he was named the Islamic Republic’s ruler after his father was killed on the first day of the war on Feb. 28 when the US and Israel lauched a bombardment campaign against Iran. Naqvi met with Iranian Interior Minister Eskandar Momeni late Saturday, and held talks Sunday morning with Foreign Minister Abbas Araghchi, according to official Iranian media. There were no details on the contents of the message. Pakistani authorities have said Islamabad, with support from regional countries including Qatar, Turkey and Egypt, has been working to help bridge differences between the United States and Iran and encourage efforts aimed at reducing tensions and ensuring the reopening of the Strait of Hormuz. 07/06/2026 - 11:58 Dubai luxury hotels court local residents as tourism slumps Once reserved for wealt",
+      "keywords": [
+        {
+          "name": "israeli",
+          "value": 13
+        },
+        {
+          "name": "iran",
+          "value": 12
+        },
+        {
+          "name": "iranian",
+          "value": 10
+        },
+        {
+          "name": "lebanon",
+          "value": 7
+        },
+        {
+          "name": "saturday",
+          "value": 7
+        },
+        {
+          "name": "bank",
+          "value": 6
+        },
+        {
+          "name": "hormuz",
+          "value": 6
+        },
+        {
+          "name": "israel",
+          "value": 6
+        },
+        {
+          "name": "mexico",
+          "value": 6
+        },
+        {
+          "name": "police",
+          "value": 6
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints",
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Energy and Supply Chains"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas",
+        "Indo-Pacific"
+      ],
+      "detail_path": "/evidence/e5fc1eedc8a28f9363c58a96317b56b1b46ec1a937fd6013617b4829409d8651",
+      "evidence_json": "/evidence/e5fc1eedc8a28f9363c58a96317b56b1b46ec1a937fd6013617b4829409d8651.json"
     },
     {
       "id": "760606d6775f51a15b93efcd549a9e5dbe6be6b3e8774fb7cc7d992dc8f7a9ab",
