@@ -1,77 +1,101 @@
 {
-  "generated_at": "2026-06-09T21:43:28.747218+00:00",
+  "generated_at": "2026-06-09T23:13:58.823974+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating tensions in the Middle East and humanitarian crises in South Sudan highlight urgent geopolitical challenges.",
+    "headline": "Escalating tensions in the Middle East prompt urgent humanitarian and geopolitical concerns.",
     "executive_summary": [
-      "Recent military actions in the Middle East, particularly between Israel and Iran, have intensified, with both nations exchanging fire and threatening further escalation. The situation remains precarious as diplomatic efforts continue to seek a ceasefire, yet conditions for renewed hostilities persist, as noted in evidence IDs [11, 12, 26].",
-      "In South Sudan, the humanitarian crisis is deepening due to ongoing violence and displacement, with families resorting to extreme measures for survival. Reports indicate that many are living on leaves and water lilies as food insecurity rises, exacerbated by the suspension of aid operations in conflict-affected areas, as highlighted in evidence IDs [22, 20].",
-      "The international community is responding to these crises with various measures, including sanctions and humanitarian appeals. The EU is considering sanctions against individuals involved in human rights abuses in the Middle East, while UN agencies are seeking additional funding to address the urgent needs of displaced populations in South Sudan, as referenced in evidence IDs [13, 19].",
-      "Overall, the geopolitical landscape is marked by escalating conflicts and humanitarian pressures, necessitating close monitoring and coordinated international responses to mitigate the impacts on affected populations."
+      "Recent military actions in the Middle East, particularly involving the U.S. and Iran, have heightened tensions, with the U.S. conducting 'self-defense' strikes in response to an alleged Iranian attack on a U.S. Apache helicopter. This incident marks a significant escalation in hostilities, raising concerns about broader regional stability and security (evidence id: 10).",
+      "The humanitarian situation in Lebanon is deteriorating, with ongoing military operations leading to forced evacuations and significant civilian displacement. Approximately one million people remain displaced due to escalating violence, and humanitarian needs are acute as access to basic services is severely constrained (evidence id: 22).",
+      "In South Sudan, the humanitarian crisis is deepening as families resort to extreme measures for survival amid escalating violence and food insecurity. Reports indicate that many are surviving on leaves and water lilies, highlighting the dire conditions faced by vulnerable populations (evidence id: 25).",
+      "Diplomatic efforts are being challenged by rising tensions, as seen in Italy's condemnation of Israeli actions against activists and the EU's consideration of sanctions against Israeli officials. These developments reflect the complex interplay of diplomacy and military actions in the region (evidence id: 26)."
     ],
     "key_judgments": [
       {
-        "title": "Escalation of Military Conflict in the Middle East",
-        "finding": "The military conflict between Israel and Iran has escalated, with both sides exchanging fire and threatening further military actions.",
+        "title": "U.S.-Iran tensions escalate following helicopter incident",
+        "finding": "The U.S. military's response to the downing of an Apache helicopter by Iran signifies a potential shift towards increased military engagement in the region.",
         "citations": [
-          "11",
-          "12",
-          "26"
+          "10",
+          "14",
+          "15"
         ]
       },
       {
-        "title": "Severe Humanitarian Crisis in South Sudan",
-        "finding": "The humanitarian situation in South Sudan is deteriorating, with increasing food insecurity and displacement due to ongoing violence.",
+        "title": "Humanitarian crisis in Lebanon worsens",
+        "finding": "Ongoing military operations and forced evacuations in Lebanon have led to a significant humanitarian crisis, with millions displaced and in need of assistance.",
         "citations": [
-          "20",
-          "22"
+          "22",
+          "17"
         ]
       },
       {
-        "title": "International Response to Humanitarian Needs",
-        "finding": "The international community is mobilizing resources and sanctions in response to the crises in the Middle East and South Sudan.",
+        "title": "Severe food insecurity in South Sudan",
+        "finding": "The humanitarian situation in South Sudan is critical, with families facing famine-like conditions due to ongoing violence and disrupted aid operations.",
         "citations": [
-          "13",
-          "19"
+          "25",
+          "23"
+        ]
+      },
+      {
+        "title": "Diplomatic tensions rise in Europe regarding Israel",
+        "finding": "Italy's condemnation of Israeli actions and the EU's consideration of sanctions reflect growing diplomatic tensions related to the Israeli-Palestinian conflict.",
+        "citations": [
+          "26",
+          "27"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The region is experiencing heightened military tensions, particularly between Israel and Iran, with significant implications for regional stability and humanitarian conditions.",
+        "assessment": "The Middle East is experiencing heightened military tensions, particularly between the U.S. and Iran, which could lead to further conflict and instability in the region.",
         "citations": [
-          "11",
-          "12",
-          "13"
+          "10",
+          "14",
+          "15"
         ]
       },
       {
         "region": "Africa",
-        "assessment": "South Sudan faces a critical humanitarian crisis, with widespread displacement and food insecurity exacerbated by ongoing conflict.",
+        "assessment": "The humanitarian situation in South Sudan is deteriorating rapidly, with significant food insecurity and displacement due to ongoing violence.",
         "citations": [
-          "20",
-          "22"
+          "25",
+          "23"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "Israel-Iran Military Engagement",
-        "why_it_matters": "Continued military engagement between Israel and Iran could destabilize the region further and impact global energy markets.",
+        "label": "U.S.-Iran military engagements",
+        "why_it_matters": "Increased military actions could lead to broader conflict in the region, impacting global security and energy markets.",
         "citations": [
-          "11",
-          "12"
+          "10",
+          "14"
         ]
       },
       {
-        "label": "Humanitarian Needs in South Sudan",
-        "why_it_matters": "The worsening humanitarian situation in South Sudan requires urgent international attention and resources to prevent famine and further displacement.",
+        "label": "Humanitarian needs in Lebanon",
+        "why_it_matters": "The worsening humanitarian crisis could lead to regional instability and increased refugee flows, affecting neighboring countries.",
         "citations": [
-          "20",
-          "22"
+          "22",
+          "17"
+        ]
+      },
+      {
+        "label": "Food insecurity in South Sudan",
+        "why_it_matters": "The potential for famine in South Sudan poses a significant humanitarian challenge and could destabilize the region further.",
+        "citations": [
+          "25",
+          "23"
+        ]
+      },
+      {
+        "label": "Diplomatic relations between EU and Israel",
+        "why_it_matters": "Growing tensions could affect EU-Israel relations and impact broader geopolitical dynamics in the Middle East.",
+        "citations": [
+          "26",
+          "27"
         ]
       }
     ],
@@ -80,8 +104,8 @@
     ]
   },
   "summary": {
-    "raw_documents": 835,
-    "total_text_chars": 132166502,
+    "raw_documents": 838,
+    "total_text_chars": 133015259,
     "sources": 32,
     "signals": 8,
     "regions": 6,
@@ -92,7 +116,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 603
+      "value": 605
     },
     {
       "name": "PDF",
@@ -104,7 +128,7 @@
     },
     {
       "name": "Sanctions",
-      "value": 38
+      "value": 39
     },
     {
       "name": "Video",
@@ -126,7 +150,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 576
+      "value": 577
     },
     {
       "name": "pdfs",
@@ -138,7 +162,7 @@
     },
     {
       "name": "sanctions_designations",
-      "value": 47
+      "value": 49
     },
     {
       "name": "video_content",
@@ -180,7 +204,7 @@
     },
     {
       "name": "theguardian.com",
-      "value": 129
+      "value": 130
     },
     {
       "name": "global.unitednations.entermediadb.net",
@@ -204,7 +228,7 @@
     },
     {
       "name": "foreignpolicy.com",
-      "value": 33
+      "value": 34
     },
     {
       "name": "france24.com",
@@ -224,7 +248,7 @@
     },
     {
       "name": "scsanctions.un.org",
-      "value": 19
+      "value": 20
     },
     {
       "name": "treasury.gov",
@@ -294,7 +318,7 @@
     },
     {
       "name": "iran",
-      "value": 2399
+      "value": 2408
     },
     {
       "name": "humanitarian",
@@ -310,7 +334,7 @@
     },
     {
       "name": "israel",
-      "value": 2127
+      "value": 2139
     },
     {
       "name": "lebanon",
@@ -370,7 +394,7 @@
     },
     {
       "name": "violence",
-      "value": 811
+      "value": 820
     },
     {
       "name": "incidents",
@@ -472,11 +496,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 554,
+      "count": 557,
       "formats": [
         {
           "name": "Article",
-          "value": 460
+          "value": 462
         },
         {
           "name": "PDF",
@@ -484,7 +508,7 @@
         },
         {
           "name": "Sanctions",
-          "value": 28
+          "value": 29
         },
         {
           "name": "Image",
@@ -496,6 +520,8 @@
         }
       ],
       "evidence_ids": [
+        "bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4",
+        "bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757",
         "24e1661a2374c0a040c4ea25e03ba5128cdda9328c29dc457ddbd985595e5f9f",
         "97157b4e702b76240e0a089073f4cc15ffdefea09373ebc91513197176eed90b",
         "1c62885118c10a1dd9677a650c4edcdecf0429413981f6d89e96d34c8eda41cd",
@@ -503,12 +529,30 @@
         "e7d0ff6750a57183234ea92d395ebff817d62bb7871e4b89cd5d57d8bf631984",
         "0bdcd3ec451bf3c28c4eebd7384ff3109cd2a86b36ac14766c411492eb4485df",
         "d760992a5dc4f435044e654ad6ae78ae662f980851ce724b5453b7539373b5e5",
-        "8f115ed43d8b8caaf6b6e84b16f44f1d0953da74a7944920ac352f087e66deef",
-        "fb931a49ed6f7e6f8e796e8554cd7d6a5a6e6ac8f92fe27a35b6b16d6dc08f4a",
-        "f9d52fddc4f9e614746b0d9d513d7c70761785ace89df42401ecbc81bf41244a"
+        "8f115ed43d8b8caaf6b6e84b16f44f1d0953da74a7944920ac352f087e66deef"
       ],
-      "summary": "In February, Operation Epic Fury, the United States’ war against Iran, revealed that the cloud—the rented stack of data centers, compute, and software services—is a core part of operations, not a back-office IT service. sanctions targeted the court, allied governments awoke to a hard fact. When the International Criminal Court’s lead prosecutor, Karim Khan, suddenly found himself locked out of his Microsoft email account in 2025 after U.S. The unmanned vessel rescued two aviators after their Apache attack helicopter crashed close to the strategic waterway, which Iran has largely shut to shipping during its conflict with the US and Israel. Although he did not elaborate, Trump had said that if strikes resumed, it would cost lives and keep the Strait of Hormuz closed for months. The Apache, a two-seat attack helicopter armed with a 30mm chain gun and capable of carrying Hellfire missiles, came down near one of the world's most important shipping routes. AH-64 Apache helicopters have been a key asset for the American military as it enforces a blockade on Iranian crude oil shipments and tankers, seeking to put pressure on Tehran to make a deal. Since the US and Israel began striking Iran on 28 February the war has shaken the global economy, forced up energy prices around the world and made many basics, including food, more expensive. Donald Trump has blamed Iran for downing a US army helicopter near the strait of Hormuz, warning that the US would be forced to respond to the attack. It was not made for market shocks like the one caused by the closure of the Strait of Hormuz,\" von der Leyen said. European Commission President Ursula von der Leyen laid out plans for the EU's next package of sanctions against Russia in response to its invasion of Ukraine in Brussels on Tuesday. The bloc is also planning further restrictions on various industrial sectors, on the banking industry and cryptocurrency assets, and on Russia's so-called \"shadow fleet\" of ships accused of helping circumvent sanctions on things like oil sales.",
+      "summary": "Photograph: Lukas Coch/AAP Share Updated at 18.59 EDT Key events How the war in Iran could leave one Australian farmer $600,000 out of pocket John Bennett’s farm is more than 11,000km from the strait of Hormuz, yet the war in the Middle East is having a daily impact on the grain grower’s life. “Tax reform’s hard … We’re working through these issues,” the prime minister said, pointing to efforts to support first home buyers. Apache helicopter near Oman, accidental Ukrainian drone incursions into NATO territory, and a rise in global interstate conflicts. Meanwhile, Iranian Foreign Minister Abbas Araghchi wrote on X that “[f]oreign forces in proximity to our territory are at constant risk on account of their own human errors, plain accidents, or potentially being caught in crossfire.” The U.S. operation represents a potentially significant escalation in hostilities, despite Trump claiming just hours earlier that a deal with Tehran could be reached within two to three days. In February, Operation Epic Fury, the United States’ war against Iran, revealed that the cloud—the rented stack of data centers, compute, and software services—is a core part of operations, not a back-office IT service. sanctions targeted the court, allied governments awoke to a hard fact. When the International Criminal Court’s lead prosecutor, Karim Khan, suddenly found himself locked out of his Microsoft email account in 2025 after U.S. The unmanned vessel rescued two aviators after their Apache attack helicopter crashed close to the strategic waterway, which Iran has largely shut to shipping during its conflict with the US and Israel. Although he did not elaborate, Trump had said that if strikes resumed, it would cost lives and keep the Strait of Hormuz closed for months. The Apache, a two-seat attack helicopter armed with a 30mm chain gun and capable of carrying Hellfire missiles, came down near one of the world's most important shipping routes.",
       "latest": [
+        {
+          "id": "bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4",
+          "title": "News live: Albanese says ‘we need to do more’ on house prices; Australia joins sanctions against ‘extremist settlers’ in West Bank",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jun/10/australia-news-live-penny-wong-sanctions-west-bank-settlers-australian-politics-high-court-israel-palestine-settlers-immigration-ntwnfb",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-09T23:14:08.463451+00:00",
+          "published": "Tue, 09 Jun 2026 23:00:53 GMT",
+          "summary": "Photograph: Lukas Coch/AAP Share Updated at 18.59 EDT Key events How the war in Iran could leave one Australian farmer $600,000 out of pocket John Bennett’s farm is more than 11,000km from the strait of Hormuz, yet the war in the Middle East is having a daily impact on the grain grower’s life. “Tax reform’s hard … We’re working through these issues,” the prime minister said, pointing to efforts to support first home buyers."
+        },
+        {
+          "id": "bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757",
+          "title": "U.S. Launches New ‘Self-Defense’ Strikes on Iran Over Apache Helicopter Crash",
+          "url": "https://foreignpolicy.com/2026/06/09/trump-apache-helicopter-attack-iran-oman-lebanon-israel/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-06-09T23:14:25.613473+00:00",
+          "published": "Tue, 09 Jun 2026 22:29:25 +0000",
+          "summary": "Apache helicopter near Oman, accidental Ukrainian drone incursions into NATO territory, and a rise in global interstate conflicts. Meanwhile, Iranian Foreign Minister Abbas Araghchi wrote on X that “[f]oreign forces in proximity to our territory are at constant risk on account of their own human errors, plain accidents, or potentially being caught in crossfire.” The U.S. operation represents a potentially significant escalation in hostilities, despite Trump claiming just hours earlier that a deal with Tehran could be reached within two to three days."
+        },
         {
           "id": "24e1661a2374c0a040c4ea25e03ba5128cdda9328c29dc457ddbd985595e5f9f",
           "title": "NATO’s Digital Back End Could Fall Apart Without Change",
@@ -538,36 +582,16 @@
           "collected_at": "2026-06-09T19:11:20.536222+00:00",
           "published": "Tue, 09 Jun 2026 17:51:06 GMT",
           "summary": "AH-64 Apache helicopters have been a key asset for the American military as it enforces a blockade on Iranian crude oil shipments and tankers, seeking to put pressure on Tehran to make a deal. Since the US and Israel began striking Iran on 28 February the war has shaken the global economy, forced up energy prices around the world and made many basics, including food, more expensive. Donald Trump has blamed Iran for downing a US army helicopter near the strait of Hormuz, warning that the US would be forced to respond to the attack."
-        },
-        {
-          "id": "11924153ecc348058243cab934f476f4294a50a583d275b1a7f9aefd76111ece",
-          "title": "EU proposes entry ban for Russian Ukraine combatants in new sanctions package",
-          "url": "https://www.dw.com/en/eu-proposes-entry-ban-for-russian-ukraine-combatants-in-new-sanctions-package/a-77474536?maca=en-rss-en-world-4025-rdf",
-          "host": "dw.com",
-          "format": "Article",
-          "collected_at": "2026-06-09T19:11:46.008425+00:00",
-          "published": "2026-06-09T17:14:00Z",
-          "summary": "It was not made for market shocks like the one caused by the closure of the Strait of Hormuz,\" von der Leyen said. European Commission President Ursula von der Leyen laid out plans for the EU's next package of sanctions against Russia in response to its invasion of Ukraine in Brussels on Tuesday. The bloc is also planning further restrictions on various industrial sectors, on the banking industry and cryptocurrency assets, and on Russia's so-called \"shadow fleet\" of ships accused of helping circumvent sanctions on things like oil sales."
-        },
-        {
-          "id": "e7d0ff6750a57183234ea92d395ebff817d62bb7871e4b89cd5d57d8bf631984",
-          "title": "Israeli attack on Tyre in Lebanon kills eight as evacuation ordered for Christian quarter",
-          "url": "https://www.theguardian.com/world/2026/jun/09/israeli-attack-tyre-lebanon-evacuation-ordered-historic-christian-quarter",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-09T16:29:24.130104+00:00",
-          "published": "Tue, 09 Jun 2026 15:58:09 GMT",
-          "summary": "The Israeli army said it had killed a “terrorist” who had crossed the border from Lebanon into Israel and opened fire on Israeli soldiers – the first time in this round of fighting that a fighter from Lebanon had crossed the border. Photograph: Mahmoud Zayyat/AFP/Getty Images Shortly after the bombings in Tyre, Israel issued a forced evacuation warning for Palestinian refugee camps in the city, as well as for the Christian quarter, claiming members of Hezbollah had infiltrated the area and could attack."
         }
       ]
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 482,
+      "count": 485,
       "formats": [
         {
           "name": "Article",
-          "value": 402
+          "value": 404
         },
         {
           "name": "PDF",
@@ -575,7 +599,7 @@
         },
         {
           "name": "Sanctions",
-          "value": 29
+          "value": 30
         },
         {
           "name": "Video",
@@ -587,6 +611,8 @@
         }
       ],
       "evidence_ids": [
+        "bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4",
+        "bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757",
         "24e1661a2374c0a040c4ea25e03ba5128cdda9328c29dc457ddbd985595e5f9f",
         "97157b4e702b76240e0a089073f4cc15ffdefea09373ebc91513197176eed90b",
         "1c62885118c10a1dd9677a650c4edcdecf0429413981f6d89e96d34c8eda41cd",
@@ -594,12 +620,30 @@
         "0bdcd3ec451bf3c28c4eebd7384ff3109cd2a86b36ac14766c411492eb4485df",
         "d760992a5dc4f435044e654ad6ae78ae662f980851ce724b5453b7539373b5e5",
         "f9d52fddc4f9e614746b0d9d513d7c70761785ace89df42401ecbc81bf41244a",
-        "8f00cd4dde66deb3bf9fe70a5a5490aee11cc89a4901fe4c691014e6ba05ed6c",
-        "b77fc0fb0d7b7fe31515ba30c9a5d17c85d4876246994fddc8980fb339579045",
-        "3314a1140cc72977f5c6413049ec14962a834c28cee73e49f92ba92c01282d02"
+        "8f00cd4dde66deb3bf9fe70a5a5490aee11cc89a4901fe4c691014e6ba05ed6c"
       ],
-      "summary": "In February, Operation Epic Fury, the United States’ war against Iran, revealed that the cloud—the rented stack of data centers, compute, and software services—is a core part of operations, not a back-office IT service. sanctions targeted the court, allied governments awoke to a hard fact. When the International Criminal Court’s lead prosecutor, Karim Khan, suddenly found himself locked out of his Microsoft email account in 2025 after U.S. The unmanned vessel rescued two aviators after their Apache attack helicopter crashed close to the strategic waterway, which Iran has largely shut to shipping during its conflict with the US and Israel. Although he did not elaborate, Trump had said that if strikes resumed, it would cost lives and keep the Strait of Hormuz closed for months. The Apache, a two-seat attack helicopter armed with a 30mm chain gun and capable of carrying Hellfire missiles, came down near one of the world's most important shipping routes. AH-64 Apache helicopters have been a key asset for the American military as it enforces a blockade on Iranian crude oil shipments and tankers, seeking to put pressure on Tehran to make a deal. Since the US and Israel began striking Iran on 28 February the war has shaken the global economy, forced up energy prices around the world and made many basics, including food, more expensive. Donald Trump has blamed Iran for downing a US army helicopter near the strait of Hormuz, warning that the US would be forced to respond to the attack. It was not made for market shocks like the one caused by the closure of the Strait of Hormuz,\" von der Leyen said. European Commission President Ursula von der Leyen laid out plans for the EU's next package of sanctions against Russia in response to its invasion of Ukraine in Brussels on Tuesday. The bloc is also planning further restrictions on various industrial sectors, on the banking industry and cryptocurrency assets, and on Russia's so-called \"shadow fleet\" of ships accused of helping circumvent sanctions on things like oil sales.",
+      "summary": "Photograph: Lukas Coch/AAP Share Updated at 18.59 EDT Key events How the war in Iran could leave one Australian farmer $600,000 out of pocket John Bennett’s farm is more than 11,000km from the strait of Hormuz, yet the war in the Middle East is having a daily impact on the grain grower’s life. “Tax reform’s hard … We’re working through these issues,” the prime minister said, pointing to efforts to support first home buyers. Apache helicopter near Oman, accidental Ukrainian drone incursions into NATO territory, and a rise in global interstate conflicts. Meanwhile, Iranian Foreign Minister Abbas Araghchi wrote on X that “[f]oreign forces in proximity to our territory are at constant risk on account of their own human errors, plain accidents, or potentially being caught in crossfire.” The U.S. operation represents a potentially significant escalation in hostilities, despite Trump claiming just hours earlier that a deal with Tehran could be reached within two to three days. In February, Operation Epic Fury, the United States’ war against Iran, revealed that the cloud—the rented stack of data centers, compute, and software services—is a core part of operations, not a back-office IT service. sanctions targeted the court, allied governments awoke to a hard fact. When the International Criminal Court’s lead prosecutor, Karim Khan, suddenly found himself locked out of his Microsoft email account in 2025 after U.S. The unmanned vessel rescued two aviators after their Apache attack helicopter crashed close to the strategic waterway, which Iran has largely shut to shipping during its conflict with the US and Israel. Although he did not elaborate, Trump had said that if strikes resumed, it would cost lives and keep the Strait of Hormuz closed for months. The Apache, a two-seat attack helicopter armed with a 30mm chain gun and capable of carrying Hellfire missiles, came down near one of the world's most important shipping routes.",
       "latest": [
+        {
+          "id": "bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4",
+          "title": "News live: Albanese says ‘we need to do more’ on house prices; Australia joins sanctions against ‘extremist settlers’ in West Bank",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jun/10/australia-news-live-penny-wong-sanctions-west-bank-settlers-australian-politics-high-court-israel-palestine-settlers-immigration-ntwnfb",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-09T23:14:08.463451+00:00",
+          "published": "Tue, 09 Jun 2026 23:00:53 GMT",
+          "summary": "Photograph: Lukas Coch/AAP Share Updated at 18.59 EDT Key events How the war in Iran could leave one Australian farmer $600,000 out of pocket John Bennett’s farm is more than 11,000km from the strait of Hormuz, yet the war in the Middle East is having a daily impact on the grain grower’s life. “Tax reform’s hard … We’re working through these issues,” the prime minister said, pointing to efforts to support first home buyers."
+        },
+        {
+          "id": "bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757",
+          "title": "U.S. Launches New ‘Self-Defense’ Strikes on Iran Over Apache Helicopter Crash",
+          "url": "https://foreignpolicy.com/2026/06/09/trump-apache-helicopter-attack-iran-oman-lebanon-israel/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-06-09T23:14:25.613473+00:00",
+          "published": "Tue, 09 Jun 2026 22:29:25 +0000",
+          "summary": "Apache helicopter near Oman, accidental Ukrainian drone incursions into NATO territory, and a rise in global interstate conflicts. Meanwhile, Iranian Foreign Minister Abbas Araghchi wrote on X that “[f]oreign forces in proximity to our territory are at constant risk on account of their own human errors, plain accidents, or potentially being caught in crossfire.” The U.S. operation represents a potentially significant escalation in hostilities, despite Trump claiming just hours earlier that a deal with Tehran could be reached within two to three days."
+        },
         {
           "id": "24e1661a2374c0a040c4ea25e03ba5128cdda9328c29dc457ddbd985595e5f9f",
           "title": "NATO’s Digital Back End Could Fall Apart Without Change",
@@ -629,36 +673,16 @@
           "collected_at": "2026-06-09T19:11:20.536222+00:00",
           "published": "Tue, 09 Jun 2026 17:51:06 GMT",
           "summary": "AH-64 Apache helicopters have been a key asset for the American military as it enforces a blockade on Iranian crude oil shipments and tankers, seeking to put pressure on Tehran to make a deal. Since the US and Israel began striking Iran on 28 February the war has shaken the global economy, forced up energy prices around the world and made many basics, including food, more expensive. Donald Trump has blamed Iran for downing a US army helicopter near the strait of Hormuz, warning that the US would be forced to respond to the attack."
-        },
-        {
-          "id": "11924153ecc348058243cab934f476f4294a50a583d275b1a7f9aefd76111ece",
-          "title": "EU proposes entry ban for Russian Ukraine combatants in new sanctions package",
-          "url": "https://www.dw.com/en/eu-proposes-entry-ban-for-russian-ukraine-combatants-in-new-sanctions-package/a-77474536?maca=en-rss-en-world-4025-rdf",
-          "host": "dw.com",
-          "format": "Article",
-          "collected_at": "2026-06-09T19:11:46.008425+00:00",
-          "published": "2026-06-09T17:14:00Z",
-          "summary": "It was not made for market shocks like the one caused by the closure of the Strait of Hormuz,\" von der Leyen said. European Commission President Ursula von der Leyen laid out plans for the EU's next package of sanctions against Russia in response to its invasion of Ukraine in Brussels on Tuesday. The bloc is also planning further restrictions on various industrial sectors, on the banking industry and cryptocurrency assets, and on Russia's so-called \"shadow fleet\" of ships accused of helping circumvent sanctions on things like oil sales."
-        },
-        {
-          "id": "0bdcd3ec451bf3c28c4eebd7384ff3109cd2a86b36ac14766c411492eb4485df",
-          "title": "After FCAS demise, Germany’s options include ordering more F-35 warplanes",
-          "url": "https://www.defensenews.com/global/europe/2026/06/09/after-fcas-demise-germanys-options-include-ordering-more-f-35-warplanes/",
-          "host": "defensenews.com",
-          "format": "Article",
-          "collected_at": "2026-06-09T16:29:48.369391+00:00",
-          "published": "Tue, 09 Jun 2026 15:39:53 +0000",
-          "summary": "One option consists of buying additional stealthy F-35 jets from the United States on top of the 35 already ordered, he said on the sidelines of a meeting with his Czech counterpart, Jaromír Zůna, in Berlin. German news outlet Der Spiegel reported last October that plans were already in the works to purchase 15 such warplanes from the U.S., to the tune of almost $3 billion."
         }
       ]
     },
     {
       "name": "Humanitarian Pressure",
-      "count": 352,
+      "count": 354,
       "formats": [
         {
           "name": "Article",
-          "value": 245
+          "value": 246
         },
         {
           "name": "PDF",
@@ -666,7 +690,7 @@
         },
         {
           "name": "Sanctions",
-          "value": 19
+          "value": 20
         },
         {
           "name": "Image",
@@ -678,6 +702,7 @@
         }
       ],
       "evidence_ids": [
+        "bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757",
         "24e1661a2374c0a040c4ea25e03ba5128cdda9328c29dc457ddbd985595e5f9f",
         "e7d0ff6750a57183234ea92d395ebff817d62bb7871e4b89cd5d57d8bf631984",
         "8f115ed43d8b8caaf6b6e84b16f44f1d0953da74a7944920ac352f087e66deef",
@@ -686,11 +711,20 @@
         "8f00cd4dde66deb3bf9fe70a5a5490aee11cc89a4901fe4c691014e6ba05ed6c",
         "b77fc0fb0d7b7fe31515ba30c9a5d17c85d4876246994fddc8980fb339579045",
         "d2475ed799339113c6c166952cad859c8b4119ae5c75b966ed182d14f1e3ced5",
-        "e18ed56a4cfd7112ee71202c981557e3fe2bbae8c3195fcf4a9e4a9c8abff76f",
-        "a415fa24572ffbd47060412c3ecf7c9cd80df2f2c83bb43aed0811228eae1e8e"
+        "e18ed56a4cfd7112ee71202c981557e3fe2bbae8c3195fcf4a9e4a9c8abff76f"
       ],
-      "summary": "In February, Operation Epic Fury, the United States’ war against Iran, revealed that the cloud—the rented stack of data centers, compute, and software services—is a core part of operations, not a back-office IT service. sanctions targeted the court, allied governments awoke to a hard fact. When the International Criminal Court’s lead prosecutor, Karim Khan, suddenly found himself locked out of his Microsoft email account in 2025 after U.S. The Israeli army said it had killed a “terrorist” who had crossed the border from Lebanon into Israel and opened fire on Israeli soldiers – the first time in this round of fighting that a fighter from Lebanon had crossed the border. Photograph: Mahmoud Zayyat/AFP/Getty Images Shortly after the bombings in Tyre, Israel issued a forced evacuation warning for Palestinian refugee camps in the city, as well as for the Christian quarter, claiming members of Hezbollah had infiltrated the area and could attack. The Civil Aviation Authority of the Philippines ( CAAP ) has restricted operations at General Santos International Airport to government, military, and humanitarian flights only. PHIVOLCS recorded a highest instrumental intensity of VII (PEIS), experienced in General Santos City and intensity VI in Palimbang, Senator Ninoy Aquino, Sultan Kudarat. 38, Jakarta 13120 Indonesia DISCLAIMER The AHA Centre was established in November 2011 by the Association of Southeast Asian Nations (ASEAN) Member States to facil itate cooperation and coordination among the Member States, relevant agencies of the United Nations, and international organisations in disaster management and humanitarian assistance.",
+      "summary": "Apache helicopter near Oman, accidental Ukrainian drone incursions into NATO territory, and a rise in global interstate conflicts. Meanwhile, Iranian Foreign Minister Abbas Araghchi wrote on X that “[f]oreign forces in proximity to our territory are at constant risk on account of their own human errors, plain accidents, or potentially being caught in crossfire.” The U.S. operation represents a potentially significant escalation in hostilities, despite Trump claiming just hours earlier that a deal with Tehran could be reached within two to three days. In February, Operation Epic Fury, the United States’ war against Iran, revealed that the cloud—the rented stack of data centers, compute, and software services—is a core part of operations, not a back-office IT service. sanctions targeted the court, allied governments awoke to a hard fact. When the International Criminal Court’s lead prosecutor, Karim Khan, suddenly found himself locked out of his Microsoft email account in 2025 after U.S. The Israeli army said it had killed a “terrorist” who had crossed the border from Lebanon into Israel and opened fire on Israeli soldiers – the first time in this round of fighting that a fighter from Lebanon had crossed the border. Photograph: Mahmoud Zayyat/AFP/Getty Images Shortly after the bombings in Tyre, Israel issued a forced evacuation warning for Palestinian refugee camps in the city, as well as for the Christian quarter, claiming members of Hezbollah had infiltrated the area and could attack. The Civil Aviation Authority of the Philippines ( CAAP ) has restricted operations at General Santos International Airport to government, military, and humanitarian flights only. PHIVOLCS recorded a highest instrumental intensity of VII (PEIS), experienced in General Santos City and intensity VI in Palimbang, Senator Ninoy Aquino, Sultan Kudarat.",
       "latest": [
+        {
+          "id": "bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757",
+          "title": "U.S. Launches New ‘Self-Defense’ Strikes on Iran Over Apache Helicopter Crash",
+          "url": "https://foreignpolicy.com/2026/06/09/trump-apache-helicopter-attack-iran-oman-lebanon-israel/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-06-09T23:14:25.613473+00:00",
+          "published": "Tue, 09 Jun 2026 22:29:25 +0000",
+          "summary": "Apache helicopter near Oman, accidental Ukrainian drone incursions into NATO territory, and a rise in global interstate conflicts. Meanwhile, Iranian Foreign Minister Abbas Araghchi wrote on X that “[f]oreign forces in proximity to our territory are at constant risk on account of their own human errors, plain accidents, or potentially being caught in crossfire.” The U.S. operation represents a potentially significant escalation in hostilities, despite Trump claiming just hours earlier that a deal with Tehran could be reached within two to three days."
+        },
         {
           "id": "24e1661a2374c0a040c4ea25e03ba5128cdda9328c29dc457ddbd985595e5f9f",
           "title": "NATO’s Digital Back End Could Fall Apart Without Change",
@@ -730,26 +764,16 @@
           "collected_at": "2026-06-09T19:11:38.895275+00:00",
           "published": "Tue, 09 Jun 2026 14:13:59 +0000",
           "summary": "38, Jakarta 13120 Indonesia DISCLAIMER The AHA Centre was established in November 2011 by the Association of Southeast Asian Nations (ASEAN) Member States to facil itate cooperation and coordination among the Member States, relevant agencies of the United Nations, and international organisations in disaster management and humanitarian assistance."
-        },
-        {
-          "id": "f9d52fddc4f9e614746b0d9d513d7c70761785ace89df42401ecbc81bf41244a",
-          "title": "Middle East Situation - UNHCR Revised Emergency Appeal for Lebanon (March to August 2026) (pdf)",
-          "url": "https://reliefweb.int/attachments/c15a555a-ac94-597a-83f0-26ddaf7c9746/UNHCR%20revised%20emergency%20appeal%20for%20Lebanon.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-06-09T19:11:34.364061+00:00",
-          "published": "Tue, 09 Jun 2026 14:03:15 +0000",
-          "summary": "Families continue to move in search of safety and shelter, with refugees being among those directly affected by attacks, evacuation orders, and displacement. Under the leadership of the Government of Lebanon and the Minister of Social Affairs, and within the existing Lebanon Response Plan (LRP) framework, the Lebanon Flash Appeal - initially launched in March – was extended for a further three months (June to August 2026) to enable partners to rapidly deliver effective humanitarian assistance."
         }
       ]
     },
     {
       "name": "Territory and Chokepoints",
-      "count": 332,
+      "count": 334,
       "formats": [
         {
           "name": "Article",
-          "value": 262
+          "value": 264
         },
         {
           "name": "PDF",
@@ -769,6 +793,8 @@
         }
       ],
       "evidence_ids": [
+        "bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4",
+        "bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757",
         "97157b4e702b76240e0a089073f4cc15ffdefea09373ebc91513197176eed90b",
         "1c62885118c10a1dd9677a650c4edcdecf0429413981f6d89e96d34c8eda41cd",
         "d760992a5dc4f435044e654ad6ae78ae662f980851ce724b5453b7539373b5e5",
@@ -776,12 +802,30 @@
         "f9d52fddc4f9e614746b0d9d513d7c70761785ace89df42401ecbc81bf41244a",
         "5cfe716a0a15204f6cf3b30d81f32cbc99a26811ccfbf07b0db624dab5300ce6",
         "464c6d666cfdd9a1f88ad3946df3603ed94ad9a0f20970ca2b02b4b74a899d03",
-        "e18ed56a4cfd7112ee71202c981557e3fe2bbae8c3195fcf4a9e4a9c8abff76f",
-        "527c2c31b3cfb02fffb3d462ae444fb52fed5eed8debb721595b389446ff9d2a",
-        "e24787fcd08739d675d0b2e0c58c431ebb6e42f86761e38d4ff2458b3d7ac207"
+        "e18ed56a4cfd7112ee71202c981557e3fe2bbae8c3195fcf4a9e4a9c8abff76f"
       ],
-      "summary": "The unmanned vessel rescued two aviators after their Apache attack helicopter crashed close to the strategic waterway, which Iran has largely shut to shipping during its conflict with the US and Israel. Although he did not elaborate, Trump had said that if strikes resumed, it would cost lives and keep the Strait of Hormuz closed for months. The Apache, a two-seat attack helicopter armed with a 30mm chain gun and capable of carrying Hellfire missiles, came down near one of the world's most important shipping routes. AH-64 Apache helicopters have been a key asset for the American military as it enforces a blockade on Iranian crude oil shipments and tankers, seeking to put pressure on Tehran to make a deal. Since the US and Israel began striking Iran on 28 February the war has shaken the global economy, forced up energy prices around the world and made many basics, including food, more expensive. Donald Trump has blamed Iran for downing a US army helicopter near the strait of Hormuz, warning that the US would be forced to respond to the attack. Conversely, Israel has always been an interesting target for the National Security Agency's electronic surveillance, especially during all wars,\" he said. When Pollard was allowed to leave for Israel in 2020, Prime Minister Benjamin Netanyahu personally greeted him at the airport. In 2004, it became known that Lawrence Franklin, a political analyst at the US Department of Defense, had passed on confidential information about US policy toward Iran to Israel via the influential pro-Israel lobbying organization AIPAC. 38, Jakarta 13120 Indonesia DISCLAIMER The AHA Centre was established in November 2011 by the Association of Southeast Asian Nations (ASEAN) Member States to facil itate cooperation and coordination among the Member States, relevant agencies of the United Nations, and international organisations in disaster management and humanitarian assistance.",
+      "summary": "Photograph: Lukas Coch/AAP Share Updated at 18.59 EDT Key events How the war in Iran could leave one Australian farmer $600,000 out of pocket John Bennett’s farm is more than 11,000km from the strait of Hormuz, yet the war in the Middle East is having a daily impact on the grain grower’s life. “Tax reform’s hard … We’re working through these issues,” the prime minister said, pointing to efforts to support first home buyers. Apache helicopter near Oman, accidental Ukrainian drone incursions into NATO territory, and a rise in global interstate conflicts. Meanwhile, Iranian Foreign Minister Abbas Araghchi wrote on X that “[f]oreign forces in proximity to our territory are at constant risk on account of their own human errors, plain accidents, or potentially being caught in crossfire.” The U.S. operation represents a potentially significant escalation in hostilities, despite Trump claiming just hours earlier that a deal with Tehran could be reached within two to three days. The unmanned vessel rescued two aviators after their Apache attack helicopter crashed close to the strategic waterway, which Iran has largely shut to shipping during its conflict with the US and Israel. Although he did not elaborate, Trump had said that if strikes resumed, it would cost lives and keep the Strait of Hormuz closed for months. The Apache, a two-seat attack helicopter armed with a 30mm chain gun and capable of carrying Hellfire missiles, came down near one of the world's most important shipping routes. AH-64 Apache helicopters have been a key asset for the American military as it enforces a blockade on Iranian crude oil shipments and tankers, seeking to put pressure on Tehran to make a deal. Since the US and Israel began striking Iran on 28 February the war has shaken the global economy, forced up energy prices around the world and made many basics, including food, more expensive. Donald Trump has blamed Iran for downing a US army helicopter near the strait of Hormuz, warning that the US would be forced to respond to the attack.",
       "latest": [
+        {
+          "id": "bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4",
+          "title": "News live: Albanese says ‘we need to do more’ on house prices; Australia joins sanctions against ‘extremist settlers’ in West Bank",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jun/10/australia-news-live-penny-wong-sanctions-west-bank-settlers-australian-politics-high-court-israel-palestine-settlers-immigration-ntwnfb",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-09T23:14:08.463451+00:00",
+          "published": "Tue, 09 Jun 2026 23:00:53 GMT",
+          "summary": "Photograph: Lukas Coch/AAP Share Updated at 18.59 EDT Key events How the war in Iran could leave one Australian farmer $600,000 out of pocket John Bennett’s farm is more than 11,000km from the strait of Hormuz, yet the war in the Middle East is having a daily impact on the grain grower’s life. “Tax reform’s hard … We’re working through these issues,” the prime minister said, pointing to efforts to support first home buyers."
+        },
+        {
+          "id": "bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757",
+          "title": "U.S. Launches New ‘Self-Defense’ Strikes on Iran Over Apache Helicopter Crash",
+          "url": "https://foreignpolicy.com/2026/06/09/trump-apache-helicopter-attack-iran-oman-lebanon-israel/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-06-09T23:14:25.613473+00:00",
+          "published": "Tue, 09 Jun 2026 22:29:25 +0000",
+          "summary": "Apache helicopter near Oman, accidental Ukrainian drone incursions into NATO territory, and a rise in global interstate conflicts. Meanwhile, Iranian Foreign Minister Abbas Araghchi wrote on X that “[f]oreign forces in proximity to our territory are at constant risk on account of their own human errors, plain accidents, or potentially being caught in crossfire.” The U.S. operation represents a potentially significant escalation in hostilities, despite Trump claiming just hours earlier that a deal with Tehran could be reached within two to three days."
+        },
         {
           "id": "97157b4e702b76240e0a089073f4cc15ffdefea09373ebc91513197176eed90b",
           "title": "Trump says Iran shot down US Apache helicopter and vows response",
@@ -811,26 +855,6 @@
           "collected_at": "2026-06-09T16:29:43.558340+00:00",
           "published": "2026-06-09T15:05:00Z",
           "summary": "Conversely, Israel has always been an interesting target for the National Security Agency's electronic surveillance, especially during all wars,\" he said. When Pollard was allowed to leave for Israel in 2020, Prime Minister Benjamin Netanyahu personally greeted him at the airport. In 2004, it became known that Lawrence Franklin, a political analyst at the US Department of Defense, had passed on confidential information about US policy toward Iran to Israel via the influential pro-Israel lobbying organization AIPAC."
-        },
-        {
-          "id": "fb931a49ed6f7e6f8e796e8554cd7d6a5a6e6ac8f92fe27a35b6b16d6dc08f4a",
-          "title": "Philippines: Flash Update: No. 2 – M7.8 Earthquake in Sarangani (9 June 2026) (pdf)",
-          "url": "https://reliefweb.int/attachments/209e7543-ff6d-4b4e-8671-a6e851f4de75/FlashUpdate_02_9JUNE2026-EQ-IDN-PHL.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-06-09T19:11:38.895275+00:00",
-          "published": "Tue, 09 Jun 2026 14:13:59 +0000",
-          "summary": "38, Jakarta 13120 Indonesia DISCLAIMER The AHA Centre was established in November 2011 by the Association of Southeast Asian Nations (ASEAN) Member States to facil itate cooperation and coordination among the Member States, relevant agencies of the United Nations, and international organisations in disaster management and humanitarian assistance."
-        },
-        {
-          "id": "f9d52fddc4f9e614746b0d9d513d7c70761785ace89df42401ecbc81bf41244a",
-          "title": "Middle East Situation - UNHCR Revised Emergency Appeal for Lebanon (March to August 2026) (pdf)",
-          "url": "https://reliefweb.int/attachments/c15a555a-ac94-597a-83f0-26ddaf7c9746/UNHCR%20revised%20emergency%20appeal%20for%20Lebanon.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-06-09T19:11:34.364061+00:00",
-          "published": "Tue, 09 Jun 2026 14:03:15 +0000",
-          "summary": "Families continue to move in search of safety and shelter, with refugees being among those directly affected by attacks, evacuation orders, and displacement. Under the leadership of the Government of Lebanon and the Minister of Social Affairs, and within the existing Lebanon Response Plan (LRP) framework, the Lebanon Flash Appeal - initially launched in March – was extended for a further three months (June to August 2026) to enable partners to rapidly deliver effective humanitarian assistance."
         }
       ]
     },
@@ -919,7 +943,7 @@
     },
     {
       "name": "Institutions and Law",
-      "count": 187,
+      "count": 188,
       "formats": [
         {
           "name": "Article",
@@ -931,7 +955,7 @@
         },
         {
           "name": "Sanctions",
-          "value": 19
+          "value": 20
         },
         {
           "name": "Image",
@@ -1093,11 +1117,11 @@
     },
     {
       "name": "Sanctions and Finance",
-      "count": 128,
+      "count": 129,
       "formats": [
         {
           "name": "Article",
-          "value": 90
+          "value": 91
         },
         {
           "name": "Sanctions",
@@ -1117,6 +1141,7 @@
         }
       ],
       "evidence_ids": [
+        "bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4",
         "24e1661a2374c0a040c4ea25e03ba5128cdda9328c29dc457ddbd985595e5f9f",
         "11924153ecc348058243cab934f476f4294a50a583d275b1a7f9aefd76111ece",
         "3314a1140cc72977f5c6413049ec14962a834c28cee73e49f92ba92c01282d02",
@@ -1125,11 +1150,20 @@
         "e18ed56a4cfd7112ee71202c981557e3fe2bbae8c3195fcf4a9e4a9c8abff76f",
         "a415fa24572ffbd47060412c3ecf7c9cd80df2f2c83bb43aed0811228eae1e8e",
         "527c2c31b3cfb02fffb3d462ae444fb52fed5eed8debb721595b389446ff9d2a",
-        "3eeb677d4d748ec00d340f23a488df86309a0d10bd7600ef7f30084eed0ced1c",
-        "fc1e5a8a77a21c35aa29aa1d228ef7ab3185318407bd4dcc96530459f5b60c65"
+        "3eeb677d4d748ec00d340f23a488df86309a0d10bd7600ef7f30084eed0ced1c"
       ],
-      "summary": "In February, Operation Epic Fury, the United States’ war against Iran, revealed that the cloud—the rented stack of data centers, compute, and software services—is a core part of operations, not a back-office IT service. sanctions targeted the court, allied governments awoke to a hard fact. When the International Criminal Court’s lead prosecutor, Karim Khan, suddenly found himself locked out of his Microsoft email account in 2025 after U.S. It was not made for market shocks like the one caused by the closure of the Strait of Hormuz,\" von der Leyen said. European Commission President Ursula von der Leyen laid out plans for the EU's next package of sanctions against Russia in response to its invasion of Ukraine in Brussels on Tuesday. The bloc is also planning further restrictions on various industrial sectors, on the banking industry and cryptocurrency assets, and on Russia's so-called \"shadow fleet\" of ships accused of helping circumvent sanctions on things like oil sales. So far, EU officials have failed to find a consensus, but Tajani said on Tuesday Rome would continue to push for the bloc to sanction the minister. Italy’s foreign minister slams Israel’s Ben-Gvir over ‘flip-flop’ comments The row erupted after Italy said it was investigating the far-right minister over his treatment of Gaza flotilla activists. Binary images source collected for Global Geopolitics Monitor.",
+      "summary": "Photograph: Lukas Coch/AAP Share Updated at 18.59 EDT Key events How the war in Iran could leave one Australian farmer $600,000 out of pocket John Bennett’s farm is more than 11,000km from the strait of Hormuz, yet the war in the Middle East is having a daily impact on the grain grower’s life. “Tax reform’s hard … We’re working through these issues,” the prime minister said, pointing to efforts to support first home buyers. In February, Operation Epic Fury, the United States’ war against Iran, revealed that the cloud—the rented stack of data centers, compute, and software services—is a core part of operations, not a back-office IT service. sanctions targeted the court, allied governments awoke to a hard fact. When the International Criminal Court’s lead prosecutor, Karim Khan, suddenly found himself locked out of his Microsoft email account in 2025 after U.S. It was not made for market shocks like the one caused by the closure of the Strait of Hormuz,\" von der Leyen said. European Commission President Ursula von der Leyen laid out plans for the EU's next package of sanctions against Russia in response to its invasion of Ukraine in Brussels on Tuesday. The bloc is also planning further restrictions on various industrial sectors, on the banking industry and cryptocurrency assets, and on Russia's so-called \"shadow fleet\" of ships accused of helping circumvent sanctions on things like oil sales. So far, EU officials have failed to find a consensus, but Tajani said on Tuesday Rome would continue to push for the bloc to sanction the minister. Italy’s foreign minister slams Israel’s Ben-Gvir over ‘flip-flop’ comments The row erupted after Italy said it was investigating the far-right minister over his treatment of Gaza flotilla activists.",
       "latest": [
+        {
+          "id": "bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4",
+          "title": "News live: Albanese says ‘we need to do more’ on house prices; Australia joins sanctions against ‘extremist settlers’ in West Bank",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jun/10/australia-news-live-penny-wong-sanctions-west-bank-settlers-australian-politics-high-court-israel-palestine-settlers-immigration-ntwnfb",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-09T23:14:08.463451+00:00",
+          "published": "Tue, 09 Jun 2026 23:00:53 GMT",
+          "summary": "Photograph: Lukas Coch/AAP Share Updated at 18.59 EDT Key events How the war in Iran could leave one Australian farmer $600,000 out of pocket John Bennett’s farm is more than 11,000km from the strait of Hormuz, yet the war in the Middle East is having a daily impact on the grain grower’s life. “Tax reform’s hard … We’re working through these issues,” the prime minister said, pointing to efforts to support first home buyers."
+        },
         {
           "id": "24e1661a2374c0a040c4ea25e03ba5128cdda9328c29dc457ddbd985595e5f9f",
           "title": "NATO’s Digital Back End Could Fall Apart Without Change",
@@ -1169,16 +1203,6 @@
           "collected_at": "2026-06-09T19:11:45.715657+00:00",
           "published": "Tue, 09 Jun 2026 12:00:00 +0000",
           "summary": "Binary images source collected for Global Geopolitics Monitor."
-        },
-        {
-          "id": "363b1c574656e040d9926abe39b87be4464e201d5bfe19b99a45d3c971e608ce",
-          "title": "BYD and Alibaba among big names aiding China’s military, Pentagon says",
-          "url": "https://www.theguardian.com/world/2026/jun/09/china-military-tech-companies-byd-alibaba-baidu-pentagon-claims",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-09T10:32:19.660129+00:00",
-          "published": "Tue, 09 Jun 2026 10:06:58 GMT",
-          "summary": "China’s embassy in Washington said Beijing opposed “making discriminatory lists to go after Chinese companies”, and that its firms observe local laws and regulations. China’s foreign ministry said on Tuesday that it was “firmly opposed” to the designations and that claims the companies were linked to the Chinese military lacked a factual basis. “The US should stop its wrong practice and create a fair, just and non-discriminatory environment for Chinese companies,” an embassy spokesperson said in a statement."
         }
       ]
     }
@@ -1186,8 +1210,10 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 441,
+      "count": 444,
       "evidence_ids": [
+        "bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4",
+        "bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757",
         "97157b4e702b76240e0a089073f4cc15ffdefea09373ebc91513197176eed90b",
         "1c62885118c10a1dd9677a650c4edcdecf0429413981f6d89e96d34c8eda41cd",
         "11924153ecc348058243cab934f476f4294a50a583d275b1a7f9aefd76111ece",
@@ -1197,14 +1223,12 @@
         "5beb2248cc7ffa126db720ef7596672a760938c5f42c914033be620d9acd4f9e",
         "d2475ed799339113c6c166952cad859c8b4119ae5c75b966ed182d14f1e3ced5",
         "5cfe716a0a15204f6cf3b30d81f32cbc99a26811ccfbf07b0db624dab5300ce6",
-        "70c364d0e4063b32a06498daef83fcadf77661ebb076eb08975acdcfab1b4e4a",
-        "e18ed56a4cfd7112ee71202c981557e3fe2bbae8c3195fcf4a9e4a9c8abff76f",
-        "21ae0268b66ac69cc57bca8dfac61f26f6cd2abe4310200405fd993c463e264d"
+        "70c364d0e4063b32a06498daef83fcadf77661ebb076eb08975acdcfab1b4e4a"
       ],
       "top_sources": [
         {
           "name": "theguardian.com",
-          "value": 90
+          "value": 91
         },
         {
           "name": "reliefweb.int",
@@ -1226,8 +1250,9 @@
     },
     {
       "name": "Americas",
-      "count": 380,
+      "count": 381,
       "evidence_ids": [
+        "bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4",
         "24e1661a2374c0a040c4ea25e03ba5128cdda9328c29dc457ddbd985595e5f9f",
         "97157b4e702b76240e0a089073f4cc15ffdefea09373ebc91513197176eed90b",
         "1c62885118c10a1dd9677a650c4edcdecf0429413981f6d89e96d34c8eda41cd",
@@ -1238,13 +1263,12 @@
         "5cfe716a0a15204f6cf3b30d81f32cbc99a26811ccfbf07b0db624dab5300ce6",
         "c70ff05de5218505abf7c08636ddf560202f72a799273507106585f89f659031",
         "363b1c574656e040d9926abe39b87be4464e201d5bfe19b99a45d3c971e608ce",
-        "464c6d666cfdd9a1f88ad3946df3603ed94ad9a0f20970ca2b02b4b74a899d03",
-        "e24787fcd08739d675d0b2e0c58c431ebb6e42f86761e38d4ff2458b3d7ac207"
+        "464c6d666cfdd9a1f88ad3946df3603ed94ad9a0f20970ca2b02b4b74a899d03"
       ],
       "top_sources": [
         {
           "name": "theguardian.com",
-          "value": 71
+          "value": 72
         },
         {
           "name": "warontherocks.com",
@@ -1266,8 +1290,9 @@
     },
     {
       "name": "Europe and Russia",
-      "count": 352,
+      "count": 353,
       "evidence_ids": [
+        "bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757",
         "24e1661a2374c0a040c4ea25e03ba5128cdda9328c29dc457ddbd985595e5f9f",
         "11924153ecc348058243cab934f476f4294a50a583d275b1a7f9aefd76111ece",
         "8f115ed43d8b8caaf6b6e84b16f44f1d0953da74a7944920ac352f087e66deef",
@@ -1278,8 +1303,7 @@
         "d2475ed799339113c6c166952cad859c8b4119ae5c75b966ed182d14f1e3ced5",
         "c70ff05de5218505abf7c08636ddf560202f72a799273507106585f89f659031",
         "70c364d0e4063b32a06498daef83fcadf77661ebb076eb08975acdcfab1b4e4a",
-        "363b1c574656e040d9926abe39b87be4464e201d5bfe19b99a45d3c971e608ce",
-        "464c6d666cfdd9a1f88ad3946df3603ed94ad9a0f20970ca2b02b4b74a899d03"
+        "363b1c574656e040d9926abe39b87be4464e201d5bfe19b99a45d3c971e608ce"
       ],
       "top_sources": [
         {
@@ -1299,14 +1323,14 @@
           "value": 34
         },
         {
-          "name": "aljazeera.com",
-          "value": 24
+          "name": "foreignpolicy.com",
+          "value": 25
         }
       ]
     },
     {
       "name": "Global Institutions",
-      "count": 320,
+      "count": 321,
       "evidence_ids": [
         "11924153ecc348058243cab934f476f4294a50a583d275b1a7f9aefd76111ece",
         "8f115ed43d8b8caaf6b6e84b16f44f1d0953da74a7944920ac352f087e66deef",
@@ -1346,7 +1370,7 @@
     },
     {
       "name": "Africa",
-      "count": 218,
+      "count": 219,
       "evidence_ids": [
         "8f00cd4dde66deb3bf9fe70a5a5490aee11cc89a4901fe4c691014e6ba05ed6c",
         "b77fc0fb0d7b7fe31515ba30c9a5d17c85d4876246994fddc8980fb339579045",
@@ -1371,11 +1395,11 @@
           "value": 22
         },
         {
-          "name": "news.un.org",
-          "value": 19
+          "name": "scsanctions.un.org",
+          "value": 20
         },
         {
-          "name": "scsanctions.un.org",
+          "name": "news.un.org",
           "value": 19
         },
         {
@@ -1386,8 +1410,9 @@
     },
     {
       "name": "Indo-Pacific",
-      "count": 199,
+      "count": 200,
       "evidence_ids": [
+        "bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757",
         "24e1661a2374c0a040c4ea25e03ba5128cdda9328c29dc457ddbd985595e5f9f",
         "0bdcd3ec451bf3c28c4eebd7384ff3109cd2a86b36ac14766c411492eb4485df",
         "d760992a5dc4f435044e654ad6ae78ae662f980851ce724b5453b7539373b5e5",
@@ -1398,8 +1423,7 @@
         "464c6d666cfdd9a1f88ad3946df3603ed94ad9a0f20970ca2b02b4b74a899d03",
         "a415fa24572ffbd47060412c3ecf7c9cd80df2f2c83bb43aed0811228eae1e8e",
         "527c2c31b3cfb02fffb3d462ae444fb52fed5eed8debb721595b389446ff9d2a",
-        "176a247a8ee77aa0c6de46699c71d348fd77e997f80b55f2a20d97442bcbf509",
-        "4de9fbe923c4f2d3e9a85d059bb864648ede91b30096cbde793261943e199b7b"
+        "176a247a8ee77aa0c6de46699c71d348fd77e997f80b55f2a20d97442bcbf509"
       ],
       "top_sources": [
         {
@@ -1415,11 +1439,11 @@
           "value": 25
         },
         {
-          "name": "aljazeera.com",
-          "value": 15
+          "name": "foreignpolicy.com",
+          "value": 16
         },
         {
-          "name": "foreignpolicy.com",
+          "name": "aljazeera.com",
           "value": 15
         }
       ]
@@ -2408,6 +2432,165 @@
     }
   ],
   "latest_evidence": [
+    {
+      "id": "bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4",
+      "topic": "geopolitics",
+      "title": "News live: Albanese says ‘we need to do more’ on house prices; Australia joins sanctions against ‘extremist settlers’ in West Bank",
+      "url": "https://www.theguardian.com/australia-news/live/2026/jun/10/australia-news-live-penny-wong-sanctions-west-bank-settlers-australian-politics-high-court-israel-palestine-settlers-immigration-ntwnfb",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "sanctions_designations",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-09T23:14:08.463451+00:00",
+      "published": "Tue, 09 Jun 2026 23:00:53 GMT",
+      "text_chars": 14472,
+      "raw_path": "data/geopolitics/raw/bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4.html",
+      "text_path": "data/geopolitics/raw/bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4.txt",
+      "summary": "Photograph: Lukas Coch/AAP Share Updated at 18.59 EDT Key events How the war in Iran could leave one Australian farmer $600,000 out of pocket John Bennett’s farm is more than 11,000km from the strait of Hormuz, yet the war in the Middle East is having a daily impact on the grain grower’s life. “Tax reform’s hard … We’re working through these issues,” the prime minister said, pointing to efforts to support first home buyers.",
+      "bullets": [
+        "Photograph: Lukas Coch/AAP Share Updated at 18.59 EDT Key events How the war in Iran could leave one Australian farmer $600,000 out of pocket John Bennett’s farm is more than 11,000km from the strait of Hormuz, yet the war in the Middle East is having a daily impact on the grain grower’s life.",
+        "“Tax reform’s hard … We’re working through these issues,” the prime minister said, pointing to efforts to support first home buyers.",
+        "“And in the end not a lot comes out at the end of the pipe.” How the war in Iran could leave one Australian farmer $600,000 out of pocket – video Albanese says ‘we need to do more’ on house prices Albanese was asked if he’s been surprised by any backlash to the changes to the capital gains tax discount and negative gearing.",
+        "He estimates increased fertiliser costs could strip about $600,000 from his farm’s bottom line this season.",
+        "“The changes that we’ve made are modest.” He went on to note the changes include grandfathering provisions that won’t hurt those already with negatively geared assets."
+      ],
+      "excerpt": "Albanese says ‘we need to do more’ on house prices Albanese was asked if he’s been surprised by any backlash to the changes to the capital gains tax discount and negative gearing. “Tax reform’s hard … We’re working through these issues,” the prime minister said, pointing to efforts to support first home buyers. “The changes that we’ve made are modest.” He went on to note the changes include grandfathering provisions that won’t hurt those already with negatively geared assets. Albanese maintained that Treasury forecasts on house prices don’t show falls, but rather a much smaller increase over time rather than large gains. double quotation mark It is certainly the case that since the changes were made in 1999, house prices have increased by 400%. That’s more than double the increase in incomes, and that’s what leads and explains the gap that’s there in affordability. What we’ve done is thrown everything at supply … But we need to do more. Which is why these changes are aimed at boosting supply as well as giving first home buyers a fair crack. Anthony Albanese. Photograph: Lukas Coch/AAP Share Updated at 18.59 EDT Key events How the war in Iran could leave one Australian farmer $600,0",
+      "keywords": [
+        {
+          "name": "australia",
+          "value": 15
+        },
+        {
+          "name": "double",
+          "value": 14
+        },
+        {
+          "name": "government",
+          "value": 14
+        },
+        {
+          "name": "albanese",
+          "value": 13
+        },
+        {
+          "name": "mark",
+          "value": 12
+        },
+        {
+          "name": "quotation",
+          "value": 12
+        },
+        {
+          "name": "updated",
+          "value": 11
+        },
+        {
+          "name": "changes",
+          "value": 10
+        },
+        {
+          "name": "minister",
+          "value": 10
+        },
+        {
+          "name": "violence",
+          "value": 9
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Sanctions and Finance",
+        "Territory and Chokepoints",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas"
+      ],
+      "detail_path": "/evidence/bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4",
+      "evidence_json": "/evidence/bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4.json"
+    },
+    {
+      "id": "bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757",
+      "topic": "geopolitics",
+      "title": "U.S. Launches New ‘Self-Defense’ Strikes on Iran Over Apache Helicopter Crash",
+      "url": "https://foreignpolicy.com/2026/06/09/trump-apache-helicopter-attack-iran-oman-lebanon-israel/",
+      "host": "foreignpolicy.com",
+      "source": "https://foreignpolicy.com/feed/",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-09T23:14:25.613473+00:00",
+      "published": "Tue, 09 Jun 2026 22:29:25 +0000",
+      "text_chars": 9641,
+      "raw_path": "data/geopolitics/raw/bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757.html",
+      "text_path": "data/geopolitics/raw/bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757.txt",
+      "summary": "Apache helicopter near Oman, accidental Ukrainian drone incursions into NATO territory, and a rise in global interstate conflicts. Meanwhile, Iranian Foreign Minister Abbas Araghchi wrote on X that “[f]oreign forces in proximity to our territory are at constant risk on account of their own human errors, plain accidents, or potentially being caught in crossfire.” The U.S. operation represents a potentially significant escalation in hostilities, despite Trump claiming just hours earlier that a deal with Tehran could be reached within two to three days.",
+      "bullets": [
+        "Apache helicopter near Oman, accidental Ukrainian drone incursions into NATO territory, and a rise in global interstate conflicts.",
+        "Meanwhile, Iranian Foreign Minister Abbas Araghchi wrote on X that “[f]oreign forces in proximity to our territory are at constant risk on account of their own human errors, plain accidents, or potentially being caught in crossfire.” The U.S.",
+        "operation represents a potentially significant escalation in hostilities, despite Trump claiming just hours earlier that a deal with Tehran could be reached within two to three days.",
+        "military on Tuesday carried out what it called “self-defense” strikes on Iran in response to an alleged Iranian attack on a U.S.",
+        "Although he noted that both service members who were in the helicopter had been rescued and were “safe and uninjured,” he added, “Nevertheless, the United States must, of necessity, respond to this attack.” According to Centcom, the helicopter was patrolling waters off the coast of Oman when it went down, prompting the first known U.S."
+      ],
+      "excerpt": "Welcome back to World Brief, where we’re looking at the downing of a U.S. Apache helicopter near Oman, accidental Ukrainian drone incursions into NATO territory, and a rise in global interstate conflicts. Downed AH-64 Copter The U.S. military on Tuesday carried out what it called “self-defense” strikes on Iran in response to an alleged Iranian attack on a U.S. Army Apache helicopter near the Strait of Hormuz the day before. “The mission is a proportional response to unjustified Iranian aggression,” U.S. Central Command wrote on X. Welcome back to World Brief, where we’re looking at the downing of a U.S. Apache helicopter near Oman, accidental Ukrainian drone incursions into NATO territory, and a rise in global interstate conflicts. Downed AH-64 Copter The U.S. military on Tuesday carried out what it called “self-defense” strikes on Iran in response to an alleged Iranian attack on a U.S. Army Apache helicopter near the Strait of Hormuz the day before. “The mission is a proportional response to unjustified Iranian aggression,” U.S. Central Command wrote on X. U.S. President Donald Trump had telegraphed the strikes in a post on Truth Social earlier on Tuesday. Although he noted that b",
+      "keywords": [
+        {
+          "name": "israel",
+          "value": 12
+        },
+        {
+          "name": "tuesday",
+          "value": 12
+        },
+        {
+          "name": "helicopter",
+          "value": 11
+        },
+        {
+          "name": "iranian",
+          "value": 11
+        },
+        {
+          "name": "iran",
+          "value": 9
+        },
+        {
+          "name": "conflicts",
+          "value": 8
+        },
+        {
+          "name": "apache",
+          "value": 7
+        },
+        {
+          "name": "response",
+          "value": 7
+        },
+        {
+          "name": "strikes",
+          "value": 7
+        },
+        {
+          "name": "attack",
+          "value": 6
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Diplomacy and Negotiations",
+        "Territory and Chokepoints",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Middle East",
+        "Europe and Russia",
+        "Indo-Pacific"
+      ],
+      "detail_path": "/evidence/bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757",
+      "evidence_json": "/evidence/bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757.json"
+    },
     {
       "id": "24e1661a2374c0a040c4ea25e03ba5128cdda9328c29dc457ddbd985595e5f9f",
       "topic": "geopolitics",
@@ -8505,168 +8688,6 @@
       ],
       "detail_path": "/evidence/11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57",
       "evidence_json": "/evidence/11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57.json"
-    },
-    {
-      "id": "7dde43bde056d26018383e38cd766e8b829feff3a08e551f3ba6bb7ce1de3e2e",
-      "topic": "geopolitics",
-      "title": "Islamic Republic of Iran: Humanitarian Update No. 05 | As of 31 May 2026 (pdf)",
-      "url": "https://reliefweb.int/attachments/19ab558a-2de3-4f2a-bba9-11bb99e6c649/20260602_Iran%20Humanitarian%20Update5.pdf",
-      "host": "reliefweb.int",
-      "source": "https://reliefweb.int/updates/rss.xml",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-07T08:48:43.824953+00:00",
-      "published": "Sun, 07 Jun 2026 07:30:51 +0000",
-      "text_chars": 20018,
-      "raw_path": "data/geopolitics/raw/7dde43bde056d26018383e38cd766e8b829feff3a08e551f3ba6bb7ce1de3e2e.pdf",
-      "text_path": "data/geopolitics/raw/7dde43bde056d26018383e38cd766e8b829feff3a08e551f3ba6bb7ce1de3e2e.txt",
-      "summary": "05 | 3 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org Although a ceasefire is in place, humanitarian conditions continue to deteriorate due to inflation and economic disruption, with food inflation reaching up to 115 per cent, severely limiting household purchasing power and increasing vulnerability. The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations.",
-      "bullets": [
-        "05 | 3 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org Although a ceasefire is in place, humanitarian conditions continue to deteriorate due to inflation and economic disruption, with food inflation reaching up to 115 per cent, severely limiting household purchasing power and increasing vulnerability.",
-        "The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations.",
-        "HIGHLIGHTS • A temporary ceasefire announced on 7 April for an initial two-week period has subsequently been extended, although conditions remain fragile and subject to change with attacks having been reported in the area in southern Iran around the Strait of Hormuz in late May.",
-        "05 | 2 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org KEY FIGURES 3.3K+ Civilians killed13 33K+ Civilians injured14 3.8M+ Impacted15 149K+ Civilian units damaged16 SITUATION OVERVIEW Cumulative figures continue to be reported on the earlier period of hostilities (28 February – 10 April).",
-        "The mission of the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is to coordinate the global emergency response to save lives and protect people in humanitarian crises."
-      ],
-      "excerpt": "The mission of the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is to coordinate the global emergency response to save lives and protect people in humanitarian crises. We advocate for effective and principled humanitarian action by all, for all. www.unocha.org This Humanitarian Update is produced by OCHA Regional Office for the Middle East and North Africa (ROMENA) on behalf of and in collaboration with UN agencies and humanitarian organisations. It covers the period from 1 to 31 May 2026. HIGHLIGHTS • A temporary ceasefire announced on 7 April for an initial two-week period has subsequently been extended, although conditions remain fragile and subject to change with attacks having been reported in the area in southern Iran around the Strait of Hormuz in late May. • Cumulative figures have been reported for the earlier period of hostilities. A total of 3,375 civilian deaths, including 383 children, 496 women1, 67 teachers and 296 students2, 27 health workers3, 5 nurses4, and more than 33,0005 injuries have been reported. • Four rescue workers of the Iranian Red Crescent Society have been reported killed and more than 60 injured.6 • Educational facilitie",
-      "keywords": [
-        {
-          "name": "health",
-          "value": 27
-        },
-        {
-          "name": "humanitarian",
-          "value": 23
-        },
-        {
-          "name": "agency",
-          "value": 21
-        },
-        {
-          "name": "water",
-          "value": 18
-        },
-        {
-          "name": "including",
-          "value": 17
-        },
-        {
-          "name": "support",
-          "value": 17
-        },
-        {
-          "name": "reported",
-          "value": 16
-        },
-        {
-          "name": "emergency",
-          "value": 14
-        },
-        {
-          "name": "food",
-          "value": 14
-        },
-        {
-          "name": "facilities",
-          "value": 13
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "War and Escalation",
-        "Energy and Supply Chains",
-        "Territory and Chokepoints"
-      ],
-      "regions": [
-        "Global Institutions",
-        "Middle East",
-        "Africa"
-      ],
-      "file_asset": "/evidence-files/7dde43bde056d26018383e38cd766e8b829feff3a08e551f3ba6bb7ce1de3e2e.pdf",
-      "detail_path": "/evidence/7dde43bde056d26018383e38cd766e8b829feff3a08e551f3ba6bb7ce1de3e2e",
-      "evidence_json": "/evidence/7dde43bde056d26018383e38cd766e8b829feff3a08e551f3ba6bb7ce1de3e2e.json"
-    },
-    {
-      "id": "960ca5ff3f55d42f7c6cc8e530f64008cda7665ae7cb5d5035f29db2cb7758bb",
-      "topic": "geopolitics",
-      "title": "Islamic Republic of Iran: Humanitarian Update No. 05 | As of 31 May 2026 (pdf)",
-      "url": "https://reliefweb.int/attachments/123aa17e-6fe6-4a99-b396-6b9393f396ae/20260602_Iran%20Humanitarian%20Update5.pdf",
-      "host": "reliefweb.int",
-      "source": "https://reliefweb.int/updates/rss.xml",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-07T13:24:07.271554+00:00",
-      "published": "Sun, 07 Jun 2026 07:30:51 +0000",
-      "text_chars": 20025,
-      "raw_path": "data/geopolitics/raw/960ca5ff3f55d42f7c6cc8e530f64008cda7665ae7cb5d5035f29db2cb7758bb.pdf",
-      "text_path": "data/geopolitics/raw/960ca5ff3f55d42f7c6cc8e530f64008cda7665ae7cb5d5035f29db2cb7758bb.txt",
-      "summary": "05 | 3 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org Although a ceasefire is in place, humanitarian conditions continue to deteriorate due to inflation and economic disruption, with food inflation reaching up to 115 per cent, severely limiting household purchasing power and increasing vulnerability. The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations.",
-      "bullets": [
-        "05 | 3 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org Although a ceasefire is in place, humanitarian conditions continue to deteriorate due to inflation and economic disruption, with food inflation reaching up to 115 per cent, severely limiting household purchasing power and increasing vulnerability.",
-        "The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations.",
-        "HIGHLIGHTS • A temporary ceasefire announced on 7 April for an initial two-week period has subsequently been extended, although conditions remain fragile and subject to change with attacks having been reported in the area in southern Iran around the Strait of Hormuz in late May.",
-        "05 | 2 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org KEY FIGURES 3.3K+ Civilians killed13 33K+ Civilians injured14 3.8M+ People impacted15 149K+ Civilian units damaged16 SITUATION OVERVIEW Cumulative figures continue to be reported on the earlier period of hostilities (28 February – 10 April).",
-        "The mission of the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is to coordinate the global emergency response to save lives and protect people in humanitarian crises."
-      ],
-      "excerpt": "The mission of the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is to coordinate the global emergency response to save lives and protect people in humanitarian crises. We advocate for effective and principled humanitarian action by all, for all. www.unocha.org This Humanitarian Update is produced by OCHA Regional Office for the Middle East and North Africa (ROMENA) on behalf of and in collaboration with UN agencies and humanitarian organisations. It covers the period from 1 to 31 May 2026. HIGHLIGHTS • A temporary ceasefire announced on 7 April for an initial two-week period has subsequently been extended, although conditions remain fragile and subject to change with attacks having been reported in the area in southern Iran around the Strait of Hormuz in late May. • Cumulative figures have been reported for the earlier period of hostilities. A total of 3,375 civilian deaths, including 383 children, 496 women1, 67 teachers and 296 students2, 27 health workers3, 5 nurses4, and more than 33,0005 injuries have been reported. • Four rescue workers of the Iranian Red Crescent Society have been reported killed and more than 60 injured.6 • Educational facilitie",
-      "keywords": [
-        {
-          "name": "health",
-          "value": 27
-        },
-        {
-          "name": "humanitarian",
-          "value": 23
-        },
-        {
-          "name": "agency",
-          "value": 21
-        },
-        {
-          "name": "water",
-          "value": 18
-        },
-        {
-          "name": "including",
-          "value": 17
-        },
-        {
-          "name": "support",
-          "value": 17
-        },
-        {
-          "name": "reported",
-          "value": 16
-        },
-        {
-          "name": "emergency",
-          "value": 14
-        },
-        {
-          "name": "food",
-          "value": 14
-        },
-        {
-          "name": "facilities",
-          "value": 13
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "War and Escalation",
-        "Energy and Supply Chains",
-        "Territory and Chokepoints"
-      ],
-      "regions": [
-        "Global Institutions",
-        "Middle East",
-        "Africa"
-      ],
-      "file_asset": "/evidence-files/960ca5ff3f55d42f7c6cc8e530f64008cda7665ae7cb5d5035f29db2cb7758bb.pdf",
-      "detail_path": "/evidence/960ca5ff3f55d42f7c6cc8e530f64008cda7665ae7cb5d5035f29db2cb7758bb",
-      "evidence_json": "/evidence/960ca5ff3f55d42f7c6cc8e530f64008cda7665ae7cb5d5035f29db2cb7758bb.json"
     }
   ],
   "deep_reads": [
@@ -8680,7 +8701,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-09T21:43:23.509855+00:00",
+      "collected_at": "2026-06-09T23:13:55.254075+00:00",
       "published": "",
       "text_chars": 9076319,
       "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
@@ -9480,7 +9501,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-09T21:42:48.577895+00:00",
+      "collected_at": "2026-06-09T23:13:20.784695+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -9555,7 +9576,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-09T21:42:48.838400+00:00",
+      "collected_at": "2026-06-09T23:13:21.087621+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -10914,7 +10935,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-09T21:43:28.747218+00:00",
+      "collected_at": "2026-06-09T23:13:58.823974+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -10995,7 +11016,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-09T21:43:26.911634+00:00",
+      "collected_at": "2026-06-09T23:13:57.311937+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
@@ -11068,7 +11089,7 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-06-09T21:43:26.874998+00:00",
+      "collected_at": "2026-06-09T23:13:57.291988+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -11138,7 +11159,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-09T21:43:26.826114+00:00",
+      "collected_at": "2026-06-09T23:13:57.290213+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11219,7 +11240,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-09T21:43:23.509855+00:00",
+      "collected_at": "2026-06-09T23:13:55.254075+00:00",
       "published": "",
       "text_chars": 9076319,
       "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
@@ -11288,6 +11309,318 @@
       ],
       "detail_path": "/evidence/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2",
       "evidence_json": "/evidence/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.json"
+    },
+    {
+      "id": "53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
+      "host": "treasury.gov",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "text/xml",
+      "collected_at": "2026-06-09T23:13:24.845110+00:00",
+      "published": "",
+      "text_chars": 392158,
+      "raw_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.xml",
+      "text_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.txt",
+      "summary": "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a. strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
+      "bullets": [
+        "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a.",
+        "strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a.",
+        "strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
+        "strong HASAN DOUKHAN Abdul Fattah 4709 1936 true 9649 Ibrahim Mohammed DAHBOUR Individual NS-PLC 12132 Jenin West Bank Palestinian 4710 1968 true 9650 Mariam Mahmoud SALEH Individual NS-PLC 12133 Ramallah West Bank Palestinian 4711 1952 true 9651 Fathi Mohammed QAR'AWI Individual NS-PLC 9162 a.k.a.",
+        "strong NAWFAL Imad Mahmoud 12136 Qalqilya West Bank Palestinian 4716 1970 true 9654 Omar Mahmoud MATAR Individual NS-PLC 12137 Salfit West Bank Palestinian 4717 1958 true 9655 Muna Salim Saleh MANSOUR Individual NS-PLC 9165 a.k.a."
+      ],
+      "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Mohammad Mahmoud 4698 1951 true 4699 Umm Tuba true 9641 Jamileh Abdullah AL-SHANTI Individual NS-PLC 9154 a.k.a. strong EL-SHANTI Jameela Abdallah 9155 a.k.a. strong AL SHANTEE Jamila Abed Allah 12128 Gaza Palestinian 4700 1955 true 4701 Jabalia Camp true 9642 Mohammed Jamal NU'MAN ALAEDDIN Individual NS-PLC 9156 a.k.a. strong ALA AL DIN Mohamad Nouman 9157 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a. strong RABBAI Khalil Mussa 4705 1959 true 9645 Huda Naim AL-QREINAWI Individual NS-PLC 9159 a.k.a. strong AL QRENAWI Houda Naim 12130 Gaza Palestinian 4706 1969 true 9646 Mahmoud Ahmad AL-RAMAHI Individual NS-PLC 12131 Ramallah West Bank Palestinian 4707 1963 true 9647 Mahmoud Khaled ZAHHAR Individual (Linked To: HAMAS) NS-PLC SDGT 16681",
+      "keywords": [
+        {
+          "name": "sanctions",
+          "value": 942
+        },
+        {
+          "name": "russia",
+          "value": 663
+        },
+        {
+          "name": "ukraine",
+          "value": 565
+        },
+        {
+          "name": "executive",
+          "value": 440
+        },
+        {
+          "name": "order",
+          "value": 439
+        },
+        {
+          "name": "entity",
+          "value": 383
+        },
+        {
+          "name": "risk",
+          "value": 372
+        },
+        {
+          "name": "information",
+          "value": 370
+        },
+        {
+          "name": "subject",
+          "value": 323
+        },
+        {
+          "name": "treasury",
+          "value": 313
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868",
+      "evidence_json": "/evidence/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.json"
+    },
+    {
+      "id": "a1a126462ae613009fe1e51b346d27f949e9b2f925896178a447faa48a313e48",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-06-09T23:13:23.451735+00:00",
+      "published": "",
+      "text_chars": 824644,
+      "raw_path": "data/geopolitics/raw/a1a126462ae613009fe1e51b346d27f949e9b2f925896178a447faa48a313e48.xml",
+      "text_path": "data/geopolitics/raw/a1a126462ae613009fe1e51b346d27f949e9b2f925896178a447faa48a313e48.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "bullets": [
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+      ],
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 1476
+        },
+        {
+          "name": "security",
+          "value": 1473
+        },
+        {
+          "name": "interpol",
+          "value": 1239
+        },
+        {
+          "name": "resolution",
+          "value": 840
+        },
+        {
+          "name": "interpol-un",
+          "value": 683
+        },
+        {
+          "name": "afghanistan",
+          "value": 636
+        },
+        {
+          "name": "link",
+          "value": 612
+        },
+        {
+          "name": "republic",
+          "value": 539
+        },
+        {
+          "name": "al-qaida",
+          "value": 515
+        },
+        {
+          "name": "iraq",
+          "value": 480
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/a1a126462ae613009fe1e51b346d27f949e9b2f925896178a447faa48a313e48",
+      "evidence_json": "/evidence/a1a126462ae613009fe1e51b346d27f949e9b2f925896178a447faa48a313e48.json"
+    },
+    {
+      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "topic": "geopolitics",
+      "title": "MS.MIL.XPND.CD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-09T23:13:21.087621+00:00",
+      "published": "",
+      "text_chars": 6187025,
+      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
+      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
+      "keywords": [
+        {
+          "name": "expenditure",
+          "value": 17556
+        },
+        {
+          "name": "military",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        },
+        {
+          "name": "asia",
+          "value": 528
+        },
+        {
+          "name": "ibrd",
+          "value": 528
+        },
+        {
+          "name": "middle",
+          "value": 462
+        }
+      ],
+      "signals": [
+        "War and Escalation"
+      ],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-09T23:13:20.784695+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
     },
     {
       "id": "e783aef5226aab7f5aaca19ce1710e97a0d6a9d50b21d97d17bac2f59b75dbc5",
@@ -11368,238 +11701,6 @@
       ],
       "detail_path": "/evidence/e783aef5226aab7f5aaca19ce1710e97a0d6a9d50b21d97d17bac2f59b75dbc5",
       "evidence_json": "/evidence/e783aef5226aab7f5aaca19ce1710e97a0d6a9d50b21d97d17bac2f59b75dbc5.json"
-    },
-    {
-      "id": "53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
-      "host": "treasury.gov",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "text/xml",
-      "collected_at": "2026-06-09T21:42:50.853311+00:00",
-      "published": "",
-      "text_chars": 392158,
-      "raw_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.xml",
-      "text_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.txt",
-      "summary": "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a. strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
-      "bullets": [
-        "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a.",
-        "strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a.",
-        "strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
-        "strong HASAN DOUKHAN Abdul Fattah 4709 1936 true 9649 Ibrahim Mohammed DAHBOUR Individual NS-PLC 12132 Jenin West Bank Palestinian 4710 1968 true 9650 Mariam Mahmoud SALEH Individual NS-PLC 12133 Ramallah West Bank Palestinian 4711 1952 true 9651 Fathi Mohammed QAR'AWI Individual NS-PLC 9162 a.k.a.",
-        "strong NAWFAL Imad Mahmoud 12136 Qalqilya West Bank Palestinian 4716 1970 true 9654 Omar Mahmoud MATAR Individual NS-PLC 12137 Salfit West Bank Palestinian 4717 1958 true 9655 Muna Salim Saleh MANSOUR Individual NS-PLC 9165 a.k.a."
-      ],
-      "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Mohammad Mahmoud 4698 1951 true 4699 Umm Tuba true 9641 Jamileh Abdullah AL-SHANTI Individual NS-PLC 9154 a.k.a. strong EL-SHANTI Jameela Abdallah 9155 a.k.a. strong AL SHANTEE Jamila Abed Allah 12128 Gaza Palestinian 4700 1955 true 4701 Jabalia Camp true 9642 Mohammed Jamal NU'MAN ALAEDDIN Individual NS-PLC 9156 a.k.a. strong ALA AL DIN Mohamad Nouman 9157 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a. strong RABBAI Khalil Mussa 4705 1959 true 9645 Huda Naim AL-QREINAWI Individual NS-PLC 9159 a.k.a. strong AL QRENAWI Houda Naim 12130 Gaza Palestinian 4706 1969 true 9646 Mahmoud Ahmad AL-RAMAHI Individual NS-PLC 12131 Ramallah West Bank Palestinian 4707 1963 true 9647 Mahmoud Khaled ZAHHAR Individual (Linked To: HAMAS) NS-PLC SDGT 16681",
-      "keywords": [
-        {
-          "name": "sanctions",
-          "value": 942
-        },
-        {
-          "name": "russia",
-          "value": 663
-        },
-        {
-          "name": "ukraine",
-          "value": 565
-        },
-        {
-          "name": "executive",
-          "value": 440
-        },
-        {
-          "name": "order",
-          "value": 439
-        },
-        {
-          "name": "entity",
-          "value": 383
-        },
-        {
-          "name": "risk",
-          "value": 372
-        },
-        {
-          "name": "information",
-          "value": 370
-        },
-        {
-          "name": "subject",
-          "value": 323
-        },
-        {
-          "name": "treasury",
-          "value": 313
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance",
-        "Energy and Supply Chains",
-        "Territory and Chokepoints",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Europe and Russia",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868",
-      "evidence_json": "/evidence/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.json"
-    },
-    {
-      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "topic": "geopolitics",
-      "title": "MS.MIL.XPND.CD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-09T21:42:48.838400+00:00",
-      "published": "",
-      "text_chars": 6187025,
-      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
-      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
-      "keywords": [
-        {
-          "name": "expenditure",
-          "value": 17556
-        },
-        {
-          "name": "military",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        },
-        {
-          "name": "asia",
-          "value": 528
-        },
-        {
-          "name": "ibrd",
-          "value": 528
-        },
-        {
-          "name": "middle",
-          "value": 462
-        }
-      ],
-      "signals": [
-        "War and Escalation"
-      ],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
-    },
-    {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-09T21:42:48.577895+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
     },
     {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
@@ -13672,86 +13773,6 @@
       ],
       "detail_path": "/evidence/a3c182488b02223e68ae52c5c7c689070f5d457eb381dfd90040b22f137c932a",
       "evidence_json": "/evidence/a3c182488b02223e68ae52c5c7c689070f5d457eb381dfd90040b22f137c932a.json"
-    },
-    {
-      "id": "37ba82a38a7eeb136c6f006654786422cfa60c7e6f93470b50a52e48c81da066",
-      "topic": "geopolitics",
-      "title": "WFP Burkina Faso Country Brief, May 2026 (pdf)",
-      "url": "https://reliefweb.int/attachments/a96fd8ea-24c0-4f2f-87e7-76fc8817621c/WFP_BurkinaFaso_CountryBrief_May2026.pdf",
-      "host": "reliefweb.int",
-      "source": "https://reliefweb.int/updates/rss.xml",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-05T10:50:29.606061+00:00",
-      "published": "Fri, 05 Jun 2026 08:06:42 +0000",
-      "text_chars": 6803,
-      "raw_path": "data/geopolitics/raw/37ba82a38a7eeb136c6f006654786422cfa60c7e6f93470b50a52e48c81da066.pdf",
-      "text_path": "data/geopolitics/raw/37ba82a38a7eeb136c6f006654786422cfa60c7e6f93470b50a52e48c81da066.txt",
-      "summary": "Insecurity remains the primary driver of humanitarian needs, with 2 million internally displaced persons (latest official figure, March 2023), limiting access to land, markets, and essential services. • The preliminary results from the April 2026 national food security and nutrition analysis projects 1.66 million people will face crisis-level food insecurity (IPC Phase 3+), including 223,000 people in emergency situations, during the June–August 2026 lean season, compared to 2.3 million in 2025.",
-      "bullets": [
-        "Insecurity remains the primary driver of humanitarian needs, with 2 million internally displaced persons (latest official figure, March 2023), limiting access to land, markets, and essential services.",
-        "• The preliminary results from the April 2026 national food security and nutrition analysis projects 1.66 million people will face crisis-level food insecurity (IPC Phase 3+), including 223,000 people in emergency situations, during the June–August 2026 lean season, compared to 2.3 million in 2025.",
-        "Nutrition • WFP supported malnutrition prevention by assisting 855 young children and 553 women, while screening over 2,600 children and identifying very few cases of moderate malnutrition; nutrition awareness reached more than 4,300 people.",
-        "• Humanitarian needs remain significant, underscoring the importance of sustained assistance to protect vulnerable populations and consolidate recent gains.",
-        "WFP continues to deliver an integrated response including emergency food and nutrition assistance, school feeding, resilience activities, and common services through UNHAS, supporting national efforts toward stabilization and food sovereignty."
-      ],
-      "excerpt": "WFP Burkina May 2026 Contact info: Liam Wylie (liam.wylie@wfp.org) Country Director: ai Aline SAMU (aline.samu@wfp.org) WFP BURKINA FASO COUNTRY BRIEF May 2026 KEY HIGHLIGHTS • In April, WFP assisted 415,351 people, delivering 3,590 mt of food. This reflects a slight decrease compared to March, mainly due to operational constraints, while efforts continued to reach vulnerable populations. • Humanitarian needs remain significant, underscoring the importance of sustained assistance to protect vulnerable populations and consolidate recent gains. • WFP continues an integrated response across food assistance, nutrition, school meals and resilience, requiring USD 99.6 million for May– October 2026 to sustain operations and avoid further deterioration in food security. IN NUMBERS 415 351 people assisted in April 2026 57% Male 43% Female 3 590,28mt food distributed USD 99.6 M (May – Oct 2026) net funding requirements Photo Caption & Credit: WFP/Photographer Jecuthiel Yameogo SITUATION OVERVIEW • Burkina Faso faces a complex crisis driven by insecurity, climate shocks, and structural vulnerabilities. Reliance on rainfed agriculture heightens exposure to climate variability. Insecurity remai",
-      "keywords": [
-        {
-          "name": "food",
-          "value": 13
-        },
-        {
-          "name": "april",
-          "value": 8
-        },
-        {
-          "name": "assistance",
-          "value": 8
-        },
-        {
-          "name": "including",
-          "value": 8
-        },
-        {
-          "name": "burkina",
-          "value": 7
-        },
-        {
-          "name": "funding",
-          "value": 7
-        },
-        {
-          "name": "faso",
-          "value": 6
-        },
-        {
-          "name": "nutrition",
-          "value": 6
-        },
-        {
-          "name": "constraints",
-          "value": 5
-        },
-        {
-          "name": "emergency",
-          "value": 5
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Nuclear and Strategic Risk"
-      ],
-      "regions": [
-        "Americas",
-        "Global Institutions",
-        "Indo-Pacific"
-      ],
-      "file_asset": "/evidence-files/37ba82a38a7eeb136c6f006654786422cfa60c7e6f93470b50a52e48c81da066.pdf",
-      "detail_path": "/evidence/37ba82a38a7eeb136c6f006654786422cfa60c7e6f93470b50a52e48c81da066",
-      "evidence_json": "/evidence/37ba82a38a7eeb136c6f006654786422cfa60c7e6f93470b50a52e48c81da066.json"
     }
   ],
   "visual_evidence": [
@@ -15468,7 +15489,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-09T21:43:28.747218+00:00",
+      "collected_at": "2026-06-09T23:13:58.823974+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15549,7 +15570,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-09T21:43:26.911634+00:00",
+      "collected_at": "2026-06-09T23:13:57.311937+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
@@ -15622,7 +15643,7 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-06-09T21:43:26.874998+00:00",
+      "collected_at": "2026-06-09T23:13:57.291988+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -15692,7 +15713,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-09T21:43:26.826114+00:00",
+      "collected_at": "2026-06-09T23:13:57.290213+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15773,7 +15794,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-09T21:43:23.509855+00:00",
+      "collected_at": "2026-06-09T23:13:55.254075+00:00",
       "published": "",
       "text_chars": 9076319,
       "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
@@ -15842,6 +15863,477 @@
       ],
       "detail_path": "/evidence/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2",
       "evidence_json": "/evidence/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.json"
+    },
+    {
+      "id": "53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
+      "host": "treasury.gov",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "text/xml",
+      "collected_at": "2026-06-09T23:13:24.845110+00:00",
+      "published": "",
+      "text_chars": 392158,
+      "raw_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.xml",
+      "text_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.txt",
+      "summary": "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a. strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
+      "bullets": [
+        "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a.",
+        "strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a.",
+        "strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
+        "strong HASAN DOUKHAN Abdul Fattah 4709 1936 true 9649 Ibrahim Mohammed DAHBOUR Individual NS-PLC 12132 Jenin West Bank Palestinian 4710 1968 true 9650 Mariam Mahmoud SALEH Individual NS-PLC 12133 Ramallah West Bank Palestinian 4711 1952 true 9651 Fathi Mohammed QAR'AWI Individual NS-PLC 9162 a.k.a.",
+        "strong NAWFAL Imad Mahmoud 12136 Qalqilya West Bank Palestinian 4716 1970 true 9654 Omar Mahmoud MATAR Individual NS-PLC 12137 Salfit West Bank Palestinian 4717 1958 true 9655 Muna Salim Saleh MANSOUR Individual NS-PLC 9165 a.k.a."
+      ],
+      "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Mohammad Mahmoud 4698 1951 true 4699 Umm Tuba true 9641 Jamileh Abdullah AL-SHANTI Individual NS-PLC 9154 a.k.a. strong EL-SHANTI Jameela Abdallah 9155 a.k.a. strong AL SHANTEE Jamila Abed Allah 12128 Gaza Palestinian 4700 1955 true 4701 Jabalia Camp true 9642 Mohammed Jamal NU'MAN ALAEDDIN Individual NS-PLC 9156 a.k.a. strong ALA AL DIN Mohamad Nouman 9157 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a. strong RABBAI Khalil Mussa 4705 1959 true 9645 Huda Naim AL-QREINAWI Individual NS-PLC 9159 a.k.a. strong AL QRENAWI Houda Naim 12130 Gaza Palestinian 4706 1969 true 9646 Mahmoud Ahmad AL-RAMAHI Individual NS-PLC 12131 Ramallah West Bank Palestinian 4707 1963 true 9647 Mahmoud Khaled ZAHHAR Individual (Linked To: HAMAS) NS-PLC SDGT 16681",
+      "keywords": [
+        {
+          "name": "sanctions",
+          "value": 942
+        },
+        {
+          "name": "russia",
+          "value": 663
+        },
+        {
+          "name": "ukraine",
+          "value": 565
+        },
+        {
+          "name": "executive",
+          "value": 440
+        },
+        {
+          "name": "order",
+          "value": 439
+        },
+        {
+          "name": "entity",
+          "value": 383
+        },
+        {
+          "name": "risk",
+          "value": 372
+        },
+        {
+          "name": "information",
+          "value": 370
+        },
+        {
+          "name": "subject",
+          "value": 323
+        },
+        {
+          "name": "treasury",
+          "value": 313
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868",
+      "evidence_json": "/evidence/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.json"
+    },
+    {
+      "id": "a1a126462ae613009fe1e51b346d27f949e9b2f925896178a447faa48a313e48",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-06-09T23:13:23.451735+00:00",
+      "published": "",
+      "text_chars": 824644,
+      "raw_path": "data/geopolitics/raw/a1a126462ae613009fe1e51b346d27f949e9b2f925896178a447faa48a313e48.xml",
+      "text_path": "data/geopolitics/raw/a1a126462ae613009fe1e51b346d27f949e9b2f925896178a447faa48a313e48.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "bullets": [
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+      ],
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 1476
+        },
+        {
+          "name": "security",
+          "value": 1473
+        },
+        {
+          "name": "interpol",
+          "value": 1239
+        },
+        {
+          "name": "resolution",
+          "value": 840
+        },
+        {
+          "name": "interpol-un",
+          "value": 683
+        },
+        {
+          "name": "afghanistan",
+          "value": 636
+        },
+        {
+          "name": "link",
+          "value": 612
+        },
+        {
+          "name": "republic",
+          "value": 539
+        },
+        {
+          "name": "al-qaida",
+          "value": 515
+        },
+        {
+          "name": "iraq",
+          "value": 480
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/a1a126462ae613009fe1e51b346d27f949e9b2f925896178a447faa48a313e48",
+      "evidence_json": "/evidence/a1a126462ae613009fe1e51b346d27f949e9b2f925896178a447faa48a313e48.json"
+    },
+    {
+      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "topic": "geopolitics",
+      "title": "MS.MIL.XPND.CD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-09T23:13:21.087621+00:00",
+      "published": "",
+      "text_chars": 6187025,
+      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
+      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
+      "keywords": [
+        {
+          "name": "expenditure",
+          "value": 17556
+        },
+        {
+          "name": "military",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        },
+        {
+          "name": "asia",
+          "value": 528
+        },
+        {
+          "name": "ibrd",
+          "value": 528
+        },
+        {
+          "name": "middle",
+          "value": 462
+        }
+      ],
+      "signals": [
+        "War and Escalation"
+      ],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-09T23:13:20.784695+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
+    },
+    {
+      "id": "bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4",
+      "topic": "geopolitics",
+      "title": "News live: Albanese says ‘we need to do more’ on house prices; Australia joins sanctions against ‘extremist settlers’ in West Bank",
+      "url": "https://www.theguardian.com/australia-news/live/2026/jun/10/australia-news-live-penny-wong-sanctions-west-bank-settlers-australian-politics-high-court-israel-palestine-settlers-immigration-ntwnfb",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "sanctions_designations",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-09T23:14:08.463451+00:00",
+      "published": "Tue, 09 Jun 2026 23:00:53 GMT",
+      "text_chars": 14472,
+      "raw_path": "data/geopolitics/raw/bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4.html",
+      "text_path": "data/geopolitics/raw/bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4.txt",
+      "summary": "Photograph: Lukas Coch/AAP Share Updated at 18.59 EDT Key events How the war in Iran could leave one Australian farmer $600,000 out of pocket John Bennett’s farm is more than 11,000km from the strait of Hormuz, yet the war in the Middle East is having a daily impact on the grain grower’s life. “Tax reform’s hard … We’re working through these issues,” the prime minister said, pointing to efforts to support first home buyers.",
+      "bullets": [
+        "Photograph: Lukas Coch/AAP Share Updated at 18.59 EDT Key events How the war in Iran could leave one Australian farmer $600,000 out of pocket John Bennett’s farm is more than 11,000km from the strait of Hormuz, yet the war in the Middle East is having a daily impact on the grain grower’s life.",
+        "“Tax reform’s hard … We’re working through these issues,” the prime minister said, pointing to efforts to support first home buyers.",
+        "“And in the end not a lot comes out at the end of the pipe.” How the war in Iran could leave one Australian farmer $600,000 out of pocket – video Albanese says ‘we need to do more’ on house prices Albanese was asked if he’s been surprised by any backlash to the changes to the capital gains tax discount and negative gearing.",
+        "He estimates increased fertiliser costs could strip about $600,000 from his farm’s bottom line this season.",
+        "“The changes that we’ve made are modest.” He went on to note the changes include grandfathering provisions that won’t hurt those already with negatively geared assets."
+      ],
+      "excerpt": "Albanese says ‘we need to do more’ on house prices Albanese was asked if he’s been surprised by any backlash to the changes to the capital gains tax discount and negative gearing. “Tax reform’s hard … We’re working through these issues,” the prime minister said, pointing to efforts to support first home buyers. “The changes that we’ve made are modest.” He went on to note the changes include grandfathering provisions that won’t hurt those already with negatively geared assets. Albanese maintained that Treasury forecasts on house prices don’t show falls, but rather a much smaller increase over time rather than large gains. double quotation mark It is certainly the case that since the changes were made in 1999, house prices have increased by 400%. That’s more than double the increase in incomes, and that’s what leads and explains the gap that’s there in affordability. What we’ve done is thrown everything at supply … But we need to do more. Which is why these changes are aimed at boosting supply as well as giving first home buyers a fair crack. Anthony Albanese. Photograph: Lukas Coch/AAP Share Updated at 18.59 EDT Key events How the war in Iran could leave one Australian farmer $600,0",
+      "keywords": [
+        {
+          "name": "australia",
+          "value": 15
+        },
+        {
+          "name": "double",
+          "value": 14
+        },
+        {
+          "name": "government",
+          "value": 14
+        },
+        {
+          "name": "albanese",
+          "value": 13
+        },
+        {
+          "name": "mark",
+          "value": 12
+        },
+        {
+          "name": "quotation",
+          "value": 12
+        },
+        {
+          "name": "updated",
+          "value": 11
+        },
+        {
+          "name": "changes",
+          "value": 10
+        },
+        {
+          "name": "minister",
+          "value": 10
+        },
+        {
+          "name": "violence",
+          "value": 9
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Sanctions and Finance",
+        "Territory and Chokepoints",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas"
+      ],
+      "detail_path": "/evidence/bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4",
+      "evidence_json": "/evidence/bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4.json"
+    },
+    {
+      "id": "bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757",
+      "topic": "geopolitics",
+      "title": "U.S. Launches New ‘Self-Defense’ Strikes on Iran Over Apache Helicopter Crash",
+      "url": "https://foreignpolicy.com/2026/06/09/trump-apache-helicopter-attack-iran-oman-lebanon-israel/",
+      "host": "foreignpolicy.com",
+      "source": "https://foreignpolicy.com/feed/",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-09T23:14:25.613473+00:00",
+      "published": "Tue, 09 Jun 2026 22:29:25 +0000",
+      "text_chars": 9641,
+      "raw_path": "data/geopolitics/raw/bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757.html",
+      "text_path": "data/geopolitics/raw/bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757.txt",
+      "summary": "Apache helicopter near Oman, accidental Ukrainian drone incursions into NATO territory, and a rise in global interstate conflicts. Meanwhile, Iranian Foreign Minister Abbas Araghchi wrote on X that “[f]oreign forces in proximity to our territory are at constant risk on account of their own human errors, plain accidents, or potentially being caught in crossfire.” The U.S. operation represents a potentially significant escalation in hostilities, despite Trump claiming just hours earlier that a deal with Tehran could be reached within two to three days.",
+      "bullets": [
+        "Apache helicopter near Oman, accidental Ukrainian drone incursions into NATO territory, and a rise in global interstate conflicts.",
+        "Meanwhile, Iranian Foreign Minister Abbas Araghchi wrote on X that “[f]oreign forces in proximity to our territory are at constant risk on account of their own human errors, plain accidents, or potentially being caught in crossfire.” The U.S.",
+        "operation represents a potentially significant escalation in hostilities, despite Trump claiming just hours earlier that a deal with Tehran could be reached within two to three days.",
+        "military on Tuesday carried out what it called “self-defense” strikes on Iran in response to an alleged Iranian attack on a U.S.",
+        "Although he noted that both service members who were in the helicopter had been rescued and were “safe and uninjured,” he added, “Nevertheless, the United States must, of necessity, respond to this attack.” According to Centcom, the helicopter was patrolling waters off the coast of Oman when it went down, prompting the first known U.S."
+      ],
+      "excerpt": "Welcome back to World Brief, where we’re looking at the downing of a U.S. Apache helicopter near Oman, accidental Ukrainian drone incursions into NATO territory, and a rise in global interstate conflicts. Downed AH-64 Copter The U.S. military on Tuesday carried out what it called “self-defense” strikes on Iran in response to an alleged Iranian attack on a U.S. Army Apache helicopter near the Strait of Hormuz the day before. “The mission is a proportional response to unjustified Iranian aggression,” U.S. Central Command wrote on X. Welcome back to World Brief, where we’re looking at the downing of a U.S. Apache helicopter near Oman, accidental Ukrainian drone incursions into NATO territory, and a rise in global interstate conflicts. Downed AH-64 Copter The U.S. military on Tuesday carried out what it called “self-defense” strikes on Iran in response to an alleged Iranian attack on a U.S. Army Apache helicopter near the Strait of Hormuz the day before. “The mission is a proportional response to unjustified Iranian aggression,” U.S. Central Command wrote on X. U.S. President Donald Trump had telegraphed the strikes in a post on Truth Social earlier on Tuesday. Although he noted that b",
+      "keywords": [
+        {
+          "name": "israel",
+          "value": 12
+        },
+        {
+          "name": "tuesday",
+          "value": 12
+        },
+        {
+          "name": "helicopter",
+          "value": 11
+        },
+        {
+          "name": "iranian",
+          "value": 11
+        },
+        {
+          "name": "iran",
+          "value": 9
+        },
+        {
+          "name": "conflicts",
+          "value": 8
+        },
+        {
+          "name": "apache",
+          "value": 7
+        },
+        {
+          "name": "response",
+          "value": 7
+        },
+        {
+          "name": "strikes",
+          "value": 7
+        },
+        {
+          "name": "attack",
+          "value": 6
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Diplomacy and Negotiations",
+        "Territory and Chokepoints",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Middle East",
+        "Europe and Russia",
+        "Indo-Pacific"
+      ],
+      "detail_path": "/evidence/bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757",
+      "evidence_json": "/evidence/bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757.json"
     },
     {
       "id": "e783aef5226aab7f5aaca19ce1710e97a0d6a9d50b21d97d17bac2f59b75dbc5",
@@ -15922,238 +16414,6 @@
       ],
       "detail_path": "/evidence/e783aef5226aab7f5aaca19ce1710e97a0d6a9d50b21d97d17bac2f59b75dbc5",
       "evidence_json": "/evidence/e783aef5226aab7f5aaca19ce1710e97a0d6a9d50b21d97d17bac2f59b75dbc5.json"
-    },
-    {
-      "id": "53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
-      "host": "treasury.gov",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "text/xml",
-      "collected_at": "2026-06-09T21:42:50.853311+00:00",
-      "published": "",
-      "text_chars": 392158,
-      "raw_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.xml",
-      "text_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.txt",
-      "summary": "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a. strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
-      "bullets": [
-        "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a.",
-        "strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a.",
-        "strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
-        "strong HASAN DOUKHAN Abdul Fattah 4709 1936 true 9649 Ibrahim Mohammed DAHBOUR Individual NS-PLC 12132 Jenin West Bank Palestinian 4710 1968 true 9650 Mariam Mahmoud SALEH Individual NS-PLC 12133 Ramallah West Bank Palestinian 4711 1952 true 9651 Fathi Mohammed QAR'AWI Individual NS-PLC 9162 a.k.a.",
-        "strong NAWFAL Imad Mahmoud 12136 Qalqilya West Bank Palestinian 4716 1970 true 9654 Omar Mahmoud MATAR Individual NS-PLC 12137 Salfit West Bank Palestinian 4717 1958 true 9655 Muna Salim Saleh MANSOUR Individual NS-PLC 9165 a.k.a."
-      ],
-      "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Mohammad Mahmoud 4698 1951 true 4699 Umm Tuba true 9641 Jamileh Abdullah AL-SHANTI Individual NS-PLC 9154 a.k.a. strong EL-SHANTI Jameela Abdallah 9155 a.k.a. strong AL SHANTEE Jamila Abed Allah 12128 Gaza Palestinian 4700 1955 true 4701 Jabalia Camp true 9642 Mohammed Jamal NU'MAN ALAEDDIN Individual NS-PLC 9156 a.k.a. strong ALA AL DIN Mohamad Nouman 9157 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a. strong RABBAI Khalil Mussa 4705 1959 true 9645 Huda Naim AL-QREINAWI Individual NS-PLC 9159 a.k.a. strong AL QRENAWI Houda Naim 12130 Gaza Palestinian 4706 1969 true 9646 Mahmoud Ahmad AL-RAMAHI Individual NS-PLC 12131 Ramallah West Bank Palestinian 4707 1963 true 9647 Mahmoud Khaled ZAHHAR Individual (Linked To: HAMAS) NS-PLC SDGT 16681",
-      "keywords": [
-        {
-          "name": "sanctions",
-          "value": 942
-        },
-        {
-          "name": "russia",
-          "value": 663
-        },
-        {
-          "name": "ukraine",
-          "value": 565
-        },
-        {
-          "name": "executive",
-          "value": 440
-        },
-        {
-          "name": "order",
-          "value": 439
-        },
-        {
-          "name": "entity",
-          "value": 383
-        },
-        {
-          "name": "risk",
-          "value": 372
-        },
-        {
-          "name": "information",
-          "value": 370
-        },
-        {
-          "name": "subject",
-          "value": 323
-        },
-        {
-          "name": "treasury",
-          "value": 313
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance",
-        "Energy and Supply Chains",
-        "Territory and Chokepoints",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Europe and Russia",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868",
-      "evidence_json": "/evidence/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.json"
-    },
-    {
-      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "topic": "geopolitics",
-      "title": "MS.MIL.XPND.CD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-09T21:42:48.838400+00:00",
-      "published": "",
-      "text_chars": 6187025,
-      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
-      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
-      "keywords": [
-        {
-          "name": "expenditure",
-          "value": 17556
-        },
-        {
-          "name": "military",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        },
-        {
-          "name": "asia",
-          "value": 528
-        },
-        {
-          "name": "ibrd",
-          "value": 528
-        },
-        {
-          "name": "middle",
-          "value": 462
-        }
-      ],
-      "signals": [
-        "War and Escalation"
-      ],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
-    },
-    {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-09T21:42:48.577895+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
     },
     {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
