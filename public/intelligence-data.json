@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-09T23:13:58.823974+00:00",
+  "generated_at": "2026-06-10T02:35:52.919932+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating tensions in the Middle East prompt urgent humanitarian and geopolitical concerns.",
+    "headline": "Escalating tensions in the Middle East following U.S. military actions against Iran and ongoing humanitarian crises.",
     "executive_summary": [
-      "Recent military actions in the Middle East, particularly involving the U.S. and Iran, have heightened tensions, with the U.S. conducting 'self-defense' strikes in response to an alleged Iranian attack on a U.S. Apache helicopter. This incident marks a significant escalation in hostilities, raising concerns about broader regional stability and security (evidence id: 10).",
-      "The humanitarian situation in Lebanon is deteriorating, with ongoing military operations leading to forced evacuations and significant civilian displacement. Approximately one million people remain displaced due to escalating violence, and humanitarian needs are acute as access to basic services is severely constrained (evidence id: 22).",
-      "In South Sudan, the humanitarian crisis is deepening as families resort to extreme measures for survival amid escalating violence and food insecurity. Reports indicate that many are surviving on leaves and water lilies, highlighting the dire conditions faced by vulnerable populations (evidence id: 25).",
-      "Diplomatic efforts are being challenged by rising tensions, as seen in Italy's condemnation of Israeli actions against activists and the EU's consideration of sanctions against Israeli officials. These developments reflect the complex interplay of diplomacy and military actions in the region (evidence id: 26)."
+      "Recent military actions by the U.S. in response to an alleged Iranian attack on an Apache helicopter have heightened tensions in the Middle East. The U.S. Central Command described the strikes as a proportional response to Iranian aggression, marking a significant escalation in hostilities in the region. This incident follows a series of exchanges of fire between Iran and Israel, further complicating the already fragile ceasefire situation.",
+      "The humanitarian situation in Lebanon and surrounding areas remains dire, with ongoing military operations leading to mass displacement and acute humanitarian needs. Reports indicate that around one million people are displaced due to the conflict, with urgent calls for humanitarian assistance to address the needs of affected populations. The UN has extended its emergency appeal to provide support to vulnerable individuals amidst the escalating violence.",
+      "In South Sudan, the humanitarian crisis is exacerbated by ongoing violence and displacement, with families resorting to extreme measures for survival, including consuming leaves and water lilies. The situation is critical, with millions facing acute food insecurity and a significant number of children suffering from malnutrition. Humanitarian operations have been severely disrupted, limiting access to essential services.",
+      "The geopolitical landscape is further complicated by international responses to the conflict, including proposed sanctions against individuals involved in human rights abuses in the occupied territories. The EU is considering measures to restrict entry for Russian military personnel, reflecting broader concerns about the implications of military actions on global stability and humanitarian conditions."
     ],
     "key_judgments": [
       {
-        "title": "U.S.-Iran tensions escalate following helicopter incident",
-        "finding": "The U.S. military's response to the downing of an Apache helicopter by Iran signifies a potential shift towards increased military engagement in the region.",
+        "title": "U.S. Military Actions Mark Significant Escalation",
+        "finding": "The U.S. military's strikes on Iran represent a marked escalation in hostilities, following the downing of an Apache helicopter.",
         "citations": [
           "10",
           "14",
@@ -22,24 +22,24 @@
         ]
       },
       {
-        "title": "Humanitarian crisis in Lebanon worsens",
-        "finding": "Ongoing military operations and forced evacuations in Lebanon have led to a significant humanitarian crisis, with millions displaced and in need of assistance.",
+        "title": "Humanitarian Crisis in Lebanon Worsens",
+        "finding": "The ongoing conflict has led to mass displacement and acute humanitarian needs, with around one million people affected.",
         "citations": [
           "22",
           "17"
         ]
       },
       {
-        "title": "Severe food insecurity in South Sudan",
-        "finding": "The humanitarian situation in South Sudan is critical, with families facing famine-like conditions due to ongoing violence and disrupted aid operations.",
+        "title": "Severe Humanitarian Situation in South Sudan",
+        "finding": "The humanitarian crisis in South Sudan is critical, with families facing extreme food insecurity and limited access to essential services.",
         "citations": [
           "25",
           "23"
         ]
       },
       {
-        "title": "Diplomatic tensions rise in Europe regarding Israel",
-        "finding": "Italy's condemnation of Israeli actions and the EU's consideration of sanctions reflect growing diplomatic tensions related to the Israeli-Palestinian conflict.",
+        "title": "International Responses to Human Rights Abuses",
+        "finding": "The EU is considering sanctions against individuals involved in human rights abuses, reflecting growing international concern over the situation in the occupied territories.",
         "citations": [
           "26",
           "27"
@@ -49,16 +49,16 @@
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The Middle East is experiencing heightened military tensions, particularly between the U.S. and Iran, which could lead to further conflict and instability in the region.",
+        "assessment": "The Middle East is experiencing heightened military tensions and a worsening humanitarian crisis, particularly in Lebanon and surrounding areas.",
         "citations": [
           "10",
-          "14",
-          "15"
+          "22",
+          "17"
         ]
       },
       {
         "region": "Africa",
-        "assessment": "The humanitarian situation in South Sudan is deteriorating rapidly, with significant food insecurity and displacement due to ongoing violence.",
+        "assessment": "South Sudan faces a severe humanitarian crisis driven by conflict and displacement, with millions at risk of famine.",
         "citations": [
           "25",
           "23"
@@ -67,35 +67,27 @@
     ],
     "watchlist": [
       {
-        "label": "U.S.-Iran military engagements",
-        "why_it_matters": "Increased military actions could lead to broader conflict in the region, impacting global security and energy markets.",
+        "label": "U.S.-Iran Relations",
+        "why_it_matters": "The ongoing military actions and rhetoric between the U.S. and Iran could lead to further escalations and destabilization in the region.",
         "citations": [
           "10",
           "14"
         ]
       },
       {
-        "label": "Humanitarian needs in Lebanon",
-        "why_it_matters": "The worsening humanitarian crisis could lead to regional instability and increased refugee flows, affecting neighboring countries.",
+        "label": "Humanitarian Assistance in Lebanon",
+        "why_it_matters": "The urgent need for humanitarian assistance in Lebanon is critical as the conflict continues to displace populations and strain resources.",
         "citations": [
           "22",
           "17"
         ]
       },
       {
-        "label": "Food insecurity in South Sudan",
-        "why_it_matters": "The potential for famine in South Sudan poses a significant humanitarian challenge and could destabilize the region further.",
+        "label": "Food Security in South Sudan",
+        "why_it_matters": "The rising levels of food insecurity in South Sudan necessitate immediate international attention and aid to prevent famine.",
         "citations": [
           "25",
           "23"
-        ]
-      },
-      {
-        "label": "Diplomatic relations between EU and Israel",
-        "why_it_matters": "Growing tensions could affect EU-Israel relations and impact broader geopolitical dynamics in the Middle East.",
-        "citations": [
-          "26",
-          "27"
         ]
       }
     ],
@@ -104,8 +96,8 @@
     ]
   },
   "summary": {
-    "raw_documents": 838,
-    "total_text_chars": 133015259,
+    "raw_documents": 839,
+    "total_text_chars": 133029314,
     "sources": 32,
     "signals": 8,
     "regions": 6,
@@ -116,7 +108,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 605
+      "value": 606
     },
     {
       "name": "PDF",
@@ -150,7 +142,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 577
+      "value": 578
     },
     {
       "name": "pdfs",
@@ -263,12 +255,12 @@
       "value": 14
     },
     {
-      "name": "thediplomat.com",
+      "name": "press.un.org",
       "value": 13
     },
     {
-      "name": "press.un.org",
-      "value": 12
+      "name": "thediplomat.com",
+      "value": 13
     },
     {
       "name": "foreignaffairs.com",
@@ -322,7 +314,7 @@
     },
     {
       "name": "humanitarian",
-      "value": 2349
+      "value": 2362
     },
     {
       "name": "reliefweb",
@@ -345,12 +337,12 @@
       "value": 1753
     },
     {
-      "name": "care",
-      "value": 1457
+      "name": "ukraine",
+      "value": 1467
     },
     {
-      "name": "ukraine",
-      "value": 1443
+      "name": "care",
+      "value": 1457
     },
     {
       "name": "trump",
@@ -441,6 +433,10 @@
       "value": 577
     },
     {
+      "name": "russian",
+      "value": 570
+    },
+    {
       "name": "water",
       "value": 567
     },
@@ -455,10 +451,6 @@
     {
       "name": "nuclear",
       "value": 548
-    },
-    {
-      "name": "russian",
-      "value": 547
     },
     {
       "name": "international",
@@ -496,11 +488,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 557,
+      "count": 558,
       "formats": [
         {
           "name": "Article",
-          "value": 462
+          "value": 463
         },
         {
           "name": "PDF",
@@ -587,11 +579,11 @@
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 485,
+      "count": 486,
       "formats": [
         {
           "name": "Article",
-          "value": 404
+          "value": 405
         },
         {
           "name": "PDF",
@@ -678,11 +670,11 @@
     },
     {
       "name": "Humanitarian Pressure",
-      "count": 354,
+      "count": 355,
       "formats": [
         {
           "name": "Article",
-          "value": 246
+          "value": 247
         },
         {
           "name": "PDF",
@@ -943,11 +935,11 @@
     },
     {
       "name": "Institutions and Law",
-      "count": 188,
+      "count": 189,
       "formats": [
         {
           "name": "Article",
-          "value": 120
+          "value": 121
         },
         {
           "name": "PDF",
@@ -974,9 +966,9 @@
         "4d492880c7cb68bc769ab6109be05c061184db6b3bc99682ab2b397ed9372b31",
         "689469bd40a673f8c14c8eead79a365c63017ac8deed6653871c5f77e0676ce5",
         "bce2b5cb783f8ba7008663cee47d3dde9200b3d9359f948e8db63ec565781c5b",
+        "62c3cbfb814e5c0290d73393682ce169d6b7155ca1f7f06de929377934db902e",
         "d185fa049c185bdc4bfa584b77c6bbb641e291ac27662925dd0a116c7dc2c393",
-        "0475e6b7eecbfd41c492e32b1ff7348580ee7fff7af59f9fd8eb30f109b58892",
-        "f8dd6be49067ccc59f4d0d5ebd622db16fa99244da183744de4dd6ea87d06c7d"
+        "0475e6b7eecbfd41c492e32b1ff7348580ee7fff7af59f9fd8eb30f109b58892"
       ],
       "summary": "High-level mission to Akobo Town On 4 June, the Humanitarian Coordinator in South Sudan, Ramanathan Balakrishnan, together with the UNHCR Regional Director, Mamadou Dian Baldé, conducted a mission to Akobo Town to engage local authorities, humanitarian partners, communities and UNMISS on the security and humanitarian situation. Binary images source collected for Global Geopolitics Monitor. Governorates 84 Introduction Purpose This report provides a comprehensive overview of the current humanitarian situation, focusing on both operational environment factors and sectoral analysis. Situation Analysis OCCUPIED PALESTINIAN TERRITORIES (OPT) CRISIS Period: 25/05/26 - 31/05/26 Generated: 2026-06-09T11:42:04.869Z Table of Contents 1. It provides tools such as the GANNET Virtual Assistant and GANNET SituationHub to help humanitarian actors access, analyze, and utilize critical information for their operations. Power BI Desktop MOZAMBIQUE 2026 Flood Humanitarian Response PEOPLE AFFECTED PEOPLE TARGETED AND REACHED BY CLUSTERSITUATION OVERVIEW PEOPLE REACHED BY DISTRICT The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. Since the onset of the emergency, the United Nations and humanitarian partners have worked closely with national and local authorities to reinforce national systems, strengthen coordination mechanisms and support the delivery of life- saving assistance.",
       "latest": [
@@ -1290,7 +1282,7 @@
     },
     {
       "name": "Europe and Russia",
-      "count": 353,
+      "count": 354,
       "evidence_ids": [
         "bd9fcac2ea2532d0a526398cf4c49eb9742c8b1500593133c0e7bb7156723757",
         "24e1661a2374c0a040c4ea25e03ba5128cdda9328c29dc457ddbd985595e5f9f",
@@ -1330,7 +1322,7 @@
     },
     {
       "name": "Global Institutions",
-      "count": 321,
+      "count": 322,
       "evidence_ids": [
         "11924153ecc348058243cab934f476f4294a50a583d275b1a7f9aefd76111ece",
         "8f115ed43d8b8caaf6b6e84b16f44f1d0953da74a7944920ac352f087e66deef",
@@ -1370,7 +1362,7 @@
     },
     {
       "name": "Africa",
-      "count": 219,
+      "count": 220,
       "evidence_ids": [
         "8f00cd4dde66deb3bf9fe70a5a5490aee11cc89a4901fe4c691014e6ba05ed6c",
         "b77fc0fb0d7b7fe31515ba30c9a5d17c85d4876246994fddc8980fb339579045",
@@ -1379,11 +1371,11 @@
         "e18ed56a4cfd7112ee71202c981557e3fe2bbae8c3195fcf4a9e4a9c8abff76f",
         "527c2c31b3cfb02fffb3d462ae444fb52fed5eed8debb721595b389446ff9d2a",
         "3eeb677d4d748ec00d340f23a488df86309a0d10bd7600ef7f30084eed0ced1c",
+        "62c3cbfb814e5c0290d73393682ce169d6b7155ca1f7f06de929377934db902e",
         "667de8b564370e9318a7d02135b877598b0f68bc5f5bf700a5ff0376c706632c",
         "3595c989c2b380b1b440be14c5d642eae44b689e43bcce2163d7ef2ce4f48053",
         "472372045218e73879ca9cab0fbb2ab86ab904f6ffb39126c9af94e8da88c79b",
-        "d7f687aed41938d2fbfec00b949bc04934f54104bb552d6e056d5c4727bf2813",
-        "ed529f3be2e699040b85edc7691e5859d77f7a1e1001b7dabe3a0c4f9d79a9e3"
+        "d7f687aed41938d2fbfec00b949bc04934f54104bb552d6e056d5c4727bf2813"
       ],
       "top_sources": [
         {
@@ -1823,17 +1815,17 @@
     },
     {
       "date": "2026-04-08",
-      "evidence_id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "title": "MS.MIL.XPND.CD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\","
-    },
-    {
-      "date": "2026-04-08",
       "evidence_id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
       "title": "MS.MIL.MPRT.KD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
       "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
+    },
+    {
+      "date": "2026-04-08",
+      "evidence_id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "title": "MS.MIL.XPND.CD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\","
     },
     {
       "date": "2026",
@@ -5324,6 +5316,86 @@
       "evidence_json": "/evidence/bce2b5cb783f8ba7008663cee47d3dde9200b3d9359f948e8db63ec565781c5b.json"
     },
     {
+      "id": "62c3cbfb814e5c0290d73393682ce169d6b7155ca1f7f06de929377934db902e",
+      "topic": "geopolitics",
+      "title": "War in Ukraine at Deadliest Point in Four Years, UN Officials Warn Security Council, as Speakers Urge Immediate Ceasefire, Return to Diplomacy",
+      "url": "https://press.un.org/en/2026/sc16380.doc.htm",
+      "host": "press.un.org",
+      "source": "https://press.un.org/en/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-10T02:35:53.010167+00:00",
+      "published": "Mon, 08 Jun 2026 18:25:51 -0400",
+      "text_chars": 14055,
+      "raw_path": "data/geopolitics/raw/62c3cbfb814e5c0290d73393682ce169d6b7155ca1f7f06de929377934db902e.html",
+      "text_path": "data/geopolitics/raw/62c3cbfb814e5c0290d73393682ce169d6b7155ca1f7f06de929377934db902e.txt",
+      "summary": "The war in Ukraine is deadlier today than at any point since the start of the Russian Federation’s full-scale invasion in 2022, top UN officials warned the Security Council today, as Council members repeatedly stressed “enough is enough” and pleaded for an immediate ceasefire and a return to diplomacy. At least 30 civilians were reported killed and over 200 injured across Ukraine between 5 June and the early hours of today in “one of the most significant attacks on the capital since February 2022”.",
+      "bullets": [
+        "The war in Ukraine is deadlier today than at any point since the start of the Russian Federation’s full-scale invasion in 2022, top UN officials warned the Security Council today, as Council members repeatedly stressed “enough is enough” and pleaded for an immediate ceasefire and a return to diplomacy.",
+        "At least 30 civilians were reported killed and over 200 injured across Ukraine between 5 June and the early hours of today in “one of the most significant attacks on the capital since February 2022”.",
+        "Further, she condemned attacks on nuclear facilities, welcomed the recent exchange of prisoners of war between Ukraine and the Russian Federation, and urged the immediate return of all forcibly transferred Ukrainian children.",
+        "“The past week has brought another surge in civilian casualties and suffering,” stated Indrika Ratwatte, Acting Assistant Secretary-General for Humanitarian Affairs and Deputy Emergency Relief Coordinator, via video link.",
+        "Straightforward Requests to Help Millions in Need of Aid, End War “Today, 10.8 million people require humanitarian assistance."
+      ],
+      "excerpt": "The war in Ukraine is deadlier today than at any point since the start of the Russian Federation’s full-scale invasion in 2022, top UN officials warned the Security Council today, as Council members repeatedly stressed “enough is enough” and pleaded for an immediate ceasefire and a return to diplomacy. “Appallingly, the last few months have seen some of the most extensive aerial attacks of the war,” Rosemary DiCarlo, Under-Secretary-General for Political and Peacebuilding Affairs, told the 15-member Council as it met for the fifth time in three weeks on developments related to Ukraine or the spillover effects of the war. Just hours after the last Council briefing on Ukraine, on 1 June, the Russian Federation launched one of its biggest missile and drone bombardments across Ukraine. “Kyiv was heavily hit,” she said, adding that, according to local authorities, 7 people were killed and 89 injured. In Dnipro, missile strikes reportedly hit a residential area killing 16 people, including 2 children. Civilian casualties and extensive damage were also reported in Kharkiv, Poltava, Sumy, Zaporizhzhia and Chernihiv regions. Deadly incidents have also been reported in areas currently under ",
+      "keywords": [
+        {
+          "name": "ukraine",
+          "value": 24
+        },
+        {
+          "name": "russian",
+          "value": 23
+        },
+        {
+          "name": "council",
+          "value": 19
+        },
+        {
+          "name": "federation",
+          "value": 19
+        },
+        {
+          "name": "attacks",
+          "value": 15
+        },
+        {
+          "name": "humanitarian",
+          "value": 13
+        },
+        {
+          "name": "casualties",
+          "value": 11
+        },
+        {
+          "name": "civilian",
+          "value": 11
+        },
+        {
+          "name": "june",
+          "value": 11
+        },
+        {
+          "name": "representative",
+          "value": 11
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Institutions and Law"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Global Institutions",
+        "Africa"
+      ],
+      "detail_path": "/evidence/62c3cbfb814e5c0290d73393682ce169d6b7155ca1f7f06de929377934db902e",
+      "evidence_json": "/evidence/62c3cbfb814e5c0290d73393682ce169d6b7155ca1f7f06de929377934db902e.json"
+    },
+    {
       "id": "5d4f1efc6de53acc7a170497c8485adec74c28e1b7a1185a8238de234a68e29a",
       "topic": "geopolitics",
       "title": "Iran, Israel Pull Back From Brink After Trading Fire",
@@ -8608,86 +8680,6 @@
       ],
       "detail_path": "/evidence/bc473a9ad59841085c517cad13a54849ec4922448473938eefc213bf7ad454d2",
       "evidence_json": "/evidence/bc473a9ad59841085c517cad13a54849ec4922448473938eefc213bf7ad454d2.json"
-    },
-    {
-      "id": "11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57",
-      "topic": "geopolitics",
-      "title": "Pakistan’s Naqvi visits Iran with ‘special letter’ for supreme leader",
-      "url": "https://www.aljazeera.com/news/2026/6/7/pakistans-naqvi-visits-iran-with-special-letter-for-supreme-leader?traffic_source=rss",
-      "host": "aljazeera.com",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=utf-8",
-      "collected_at": "2026-06-07T11:04:38.603241+00:00",
-      "published": "Sun, 07 Jun 2026 08:45:01 +0000",
-      "text_chars": 3916,
-      "raw_path": "data/geopolitics/raw/11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57.html",
-      "text_path": "data/geopolitics/raw/11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57.txt",
-      "summary": "On Friday, it said it intercepted seven ballistic missiles heading towards Kuwait and Bahrain hours after it had shot down four Iranian drones launched towards the strait, a key waterway through which about 20 percent of globally traded oil normally passes. Pakistan’s Interior Minister Mohsin Naqvi has travelled to Iran to deliver a “special letter” to Iran’s Supreme Leader Mojtaba Khamenei as part of diplomatic efforts to end the United States-Israeli war on Iran, which began 100 days ago.",
-      "bullets": [
-        "On Friday, it said it intercepted seven ballistic missiles heading towards Kuwait and Bahrain hours after it had shot down four Iranian drones launched towards the strait, a key waterway through which about 20 percent of globally traded oil normally passes.",
-        "Pakistan’s Interior Minister Mohsin Naqvi has travelled to Iran to deliver a “special letter” to Iran’s Supreme Leader Mojtaba Khamenei as part of diplomatic efforts to end the United States-Israeli war on Iran, which began 100 days ago.",
-        "United States forces said they “subsequently” struck Iranian coastal surveillance radar sites in Garuk and on Qeshm Island “to defend against further maritime attacks”.",
-        "On Sunday, the US Central Command (CENTCOM) said its forces had shot down two Iranian one-way attack drones “that threatened international maritime traffic in the Strait of Hormuz”.",
-        "“The negotiations are at a deadlock, and Trump must break this deadlock,” Mohsen Rezaei, military adviser to Iran’s supreme leader, told US media outlet CNN on Saturday."
-      ],
-      "excerpt": "Pakistan’s Interior Minister Mohsin Naqvi has travelled to Iran to deliver a “special letter” to Iran’s Supreme Leader Mojtaba Khamenei as part of diplomatic efforts to end the United States-Israeli war on Iran, which began 100 days ago. Naqvi arrived in the Iranian capital, Tehran, late on Saturday, and met his Iranian counterpart, Eskandar Momeni. The two discussed the “latest regional developments and matters related to internal security”, among other issues, Naqvi said on social media. Before his arrival, Iranian media reported that the Pakistani official was carrying a letter from his country’s army chief and prime minister ⁠⁠for the supreme leader. Recommended Stories list of 3 items end of list His visit comes amid renewed tensions in the Gulf region. On Sunday, the US Central Command (CENTCOM) said its forces had shot down two Iranian one-way attack drones “that threatened international maritime traffic in the Strait of Hormuz”. On Friday, it said it intercepted seven ballistic missiles heading towards Kuwait and Bahrain hours after it had shot down four Iranian drones launched towards the strait, a key waterway through which about 20 percent of globally traded oil normally",
-      "keywords": [
-        {
-          "name": "iranian",
-          "value": 11
-        },
-        {
-          "name": "iran",
-          "value": 7
-        },
-        {
-          "name": "attacks",
-          "value": 6
-        },
-        {
-          "name": "gulf",
-          "value": 5
-        },
-        {
-          "name": "leader",
-          "value": 4
-        },
-        {
-          "name": "media",
-          "value": 4
-        },
-        {
-          "name": "naqvi",
-          "value": 4
-        },
-        {
-          "name": "strait",
-          "value": 4
-        },
-        {
-          "name": "supreme",
-          "value": 4
-        },
-        {
-          "name": "deadlock",
-          "value": 3
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Diplomacy and Negotiations",
-        "Sanctions and Finance",
-        "Territory and Chokepoints"
-      ],
-      "regions": [
-        "Middle East",
-        "Americas",
-        "Indo-Pacific"
-      ],
-      "detail_path": "/evidence/11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57",
-      "evidence_json": "/evidence/11ea43144a6f92b70043dc8b3b4c18e2378efcbd852989ba36c5d0780dafaa57.json"
     }
   ],
   "deep_reads": [
@@ -8701,7 +8693,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-09T23:13:55.254075+00:00",
+      "collected_at": "2026-06-10T02:35:46.843645+00:00",
       "published": "",
       "text_chars": 9076319,
       "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
@@ -9501,7 +9493,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-09T23:13:20.784695+00:00",
+      "collected_at": "2026-06-10T02:35:07.712262+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -9576,7 +9568,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-09T23:13:21.087621+00:00",
+      "collected_at": "2026-06-10T02:35:07.406945+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -10935,7 +10927,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-09T23:13:58.823974+00:00",
+      "collected_at": "2026-06-10T02:35:52.919932+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -11007,79 +10999,6 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
-      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-06-09T23:13:57.311937+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
-      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
-    },
-    {
       "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
       "topic": "geopolitics",
       "title": "Ne 10m Admin 0 Disputed Areas",
@@ -11089,7 +11008,7 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-06-09T23:13:57.291988+00:00",
+      "collected_at": "2026-06-10T02:35:49.043952+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -11159,7 +11078,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-09T23:13:57.290213+00:00",
+      "collected_at": "2026-06-10T02:35:49.036967+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11231,6 +11150,79 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
+      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-06-10T02:35:46.974337+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
+      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
+    },
+    {
       "id": "864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -11240,7 +11232,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-09T23:13:55.254075+00:00",
+      "collected_at": "2026-06-10T02:35:46.843645+00:00",
       "published": "",
       "text_chars": 9076319,
       "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
@@ -11320,7 +11312,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-09T23:13:24.845110+00:00",
+      "collected_at": "2026-06-10T02:35:11.763199+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.xml",
@@ -11400,7 +11392,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-09T23:13:23.451735+00:00",
+      "collected_at": "2026-06-10T02:35:10.043604+00:00",
       "published": "",
       "text_chars": 824644,
       "raw_path": "data/geopolitics/raw/a1a126462ae613009fe1e51b346d27f949e9b2f925896178a447faa48a313e48.xml",
@@ -11471,6 +11463,81 @@
       "evidence_json": "/evidence/a1a126462ae613009fe1e51b346d27f949e9b2f925896178a447faa48a313e48.json"
     },
     {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-10T02:35:07.712262+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
+    },
+    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -11480,7 +11547,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-09T23:13:21.087621+00:00",
+      "collected_at": "2026-06-10T02:35:07.406945+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -11546,81 +11613,6 @@
       ],
       "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
-    },
-    {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-09T23:13:20.784695+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
     },
     {
       "id": "e783aef5226aab7f5aaca19ce1710e97a0d6a9d50b21d97d17bac2f59b75dbc5",
@@ -15489,7 +15481,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-09T23:13:58.823974+00:00",
+      "collected_at": "2026-06-10T02:35:52.919932+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15561,79 +15553,6 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
-      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-06-09T23:13:57.311937+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
-      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
-    },
-    {
       "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
       "topic": "geopolitics",
       "title": "Ne 10m Admin 0 Disputed Areas",
@@ -15643,7 +15562,7 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-06-09T23:13:57.291988+00:00",
+      "collected_at": "2026-06-10T02:35:49.043952+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -15713,7 +15632,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-09T23:13:57.290213+00:00",
+      "collected_at": "2026-06-10T02:35:49.036967+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15785,6 +15704,79 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
+      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-06-10T02:35:46.974337+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
+      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
+    },
+    {
       "id": "864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -15794,7 +15786,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-09T23:13:55.254075+00:00",
+      "collected_at": "2026-06-10T02:35:46.843645+00:00",
       "published": "",
       "text_chars": 9076319,
       "raw_path": "data/geopolitics/raw/864001e11c3745a29abf56cbdcad9d5712b27af46322224e8b888d9d98a685d2.xml",
@@ -15874,7 +15866,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-09T23:13:24.845110+00:00",
+      "collected_at": "2026-06-10T02:35:11.763199+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/53ab32a9af9641c88be8e9b1a413ac8e6e3238897c8c814a570e61ab28d1d868.xml",
@@ -15954,7 +15946,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-09T23:13:23.451735+00:00",
+      "collected_at": "2026-06-10T02:35:10.043604+00:00",
       "published": "",
       "text_chars": 824644,
       "raw_path": "data/geopolitics/raw/a1a126462ae613009fe1e51b346d27f949e9b2f925896178a447faa48a313e48.xml",
@@ -16025,6 +16017,81 @@
       "evidence_json": "/evidence/a1a126462ae613009fe1e51b346d27f949e9b2f925896178a447faa48a313e48.json"
     },
     {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-10T02:35:07.712262+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
+    },
+    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -16034,7 +16101,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-09T23:13:21.087621+00:00",
+      "collected_at": "2026-06-10T02:35:07.406945+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -16100,81 +16167,6 @@
       ],
       "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
-    },
-    {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-09T23:13:20.784695+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
     },
     {
       "id": "bc432596c6abfd21749bb26a1d5f8eaa44af3d4ae4419faa40d99ca7a99c60e4",
@@ -19227,6 +19219,86 @@
       "file_asset": "/evidence-files/bce2b5cb783f8ba7008663cee47d3dde9200b3d9359f948e8db63ec565781c5b.pdf",
       "detail_path": "/evidence/bce2b5cb783f8ba7008663cee47d3dde9200b3d9359f948e8db63ec565781c5b",
       "evidence_json": "/evidence/bce2b5cb783f8ba7008663cee47d3dde9200b3d9359f948e8db63ec565781c5b.json"
+    },
+    {
+      "id": "62c3cbfb814e5c0290d73393682ce169d6b7155ca1f7f06de929377934db902e",
+      "topic": "geopolitics",
+      "title": "War in Ukraine at Deadliest Point in Four Years, UN Officials Warn Security Council, as Speakers Urge Immediate Ceasefire, Return to Diplomacy",
+      "url": "https://press.un.org/en/2026/sc16380.doc.htm",
+      "host": "press.un.org",
+      "source": "https://press.un.org/en/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-10T02:35:53.010167+00:00",
+      "published": "Mon, 08 Jun 2026 18:25:51 -0400",
+      "text_chars": 14055,
+      "raw_path": "data/geopolitics/raw/62c3cbfb814e5c0290d73393682ce169d6b7155ca1f7f06de929377934db902e.html",
+      "text_path": "data/geopolitics/raw/62c3cbfb814e5c0290d73393682ce169d6b7155ca1f7f06de929377934db902e.txt",
+      "summary": "The war in Ukraine is deadlier today than at any point since the start of the Russian Federation’s full-scale invasion in 2022, top UN officials warned the Security Council today, as Council members repeatedly stressed “enough is enough” and pleaded for an immediate ceasefire and a return to diplomacy. At least 30 civilians were reported killed and over 200 injured across Ukraine between 5 June and the early hours of today in “one of the most significant attacks on the capital since February 2022”.",
+      "bullets": [
+        "The war in Ukraine is deadlier today than at any point since the start of the Russian Federation’s full-scale invasion in 2022, top UN officials warned the Security Council today, as Council members repeatedly stressed “enough is enough” and pleaded for an immediate ceasefire and a return to diplomacy.",
+        "At least 30 civilians were reported killed and over 200 injured across Ukraine between 5 June and the early hours of today in “one of the most significant attacks on the capital since February 2022”.",
+        "Further, she condemned attacks on nuclear facilities, welcomed the recent exchange of prisoners of war between Ukraine and the Russian Federation, and urged the immediate return of all forcibly transferred Ukrainian children.",
+        "“The past week has brought another surge in civilian casualties and suffering,” stated Indrika Ratwatte, Acting Assistant Secretary-General for Humanitarian Affairs and Deputy Emergency Relief Coordinator, via video link.",
+        "Straightforward Requests to Help Millions in Need of Aid, End War “Today, 10.8 million people require humanitarian assistance."
+      ],
+      "excerpt": "The war in Ukraine is deadlier today than at any point since the start of the Russian Federation’s full-scale invasion in 2022, top UN officials warned the Security Council today, as Council members repeatedly stressed “enough is enough” and pleaded for an immediate ceasefire and a return to diplomacy. “Appallingly, the last few months have seen some of the most extensive aerial attacks of the war,” Rosemary DiCarlo, Under-Secretary-General for Political and Peacebuilding Affairs, told the 15-member Council as it met for the fifth time in three weeks on developments related to Ukraine or the spillover effects of the war. Just hours after the last Council briefing on Ukraine, on 1 June, the Russian Federation launched one of its biggest missile and drone bombardments across Ukraine. “Kyiv was heavily hit,” she said, adding that, according to local authorities, 7 people were killed and 89 injured. In Dnipro, missile strikes reportedly hit a residential area killing 16 people, including 2 children. Civilian casualties and extensive damage were also reported in Kharkiv, Poltava, Sumy, Zaporizhzhia and Chernihiv regions. Deadly incidents have also been reported in areas currently under ",
+      "keywords": [
+        {
+          "name": "ukraine",
+          "value": 24
+        },
+        {
+          "name": "russian",
+          "value": 23
+        },
+        {
+          "name": "council",
+          "value": 19
+        },
+        {
+          "name": "federation",
+          "value": 19
+        },
+        {
+          "name": "attacks",
+          "value": 15
+        },
+        {
+          "name": "humanitarian",
+          "value": 13
+        },
+        {
+          "name": "casualties",
+          "value": 11
+        },
+        {
+          "name": "civilian",
+          "value": 11
+        },
+        {
+          "name": "june",
+          "value": 11
+        },
+        {
+          "name": "representative",
+          "value": 11
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Institutions and Law"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Global Institutions",
+        "Africa"
+      ],
+      "detail_path": "/evidence/62c3cbfb814e5c0290d73393682ce169d6b7155ca1f7f06de929377934db902e",
+      "evidence_json": "/evidence/62c3cbfb814e5c0290d73393682ce169d6b7155ca1f7f06de929377934db902e.json"
     },
     {
       "id": "43ec59185bea22a77b6ad8b672d4b10647633fef1fa8f4248e0a9cb05581cc67",
