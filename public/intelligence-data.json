@@ -1,69 +1,83 @@
 {
-  "generated_at": "2026-06-12T02:41:38.865224+00:00",
+  "generated_at": "2026-06-12T07:16:51.733459+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
     "headline": "Escalating tensions in the Middle East as US-Iran negotiations falter amidst military strikes.",
     "executive_summary": [
-      "Recent developments in the Middle East have seen a significant escalation in hostilities between the United States and Iran, culminating in military strikes that have raised concerns over potential war crimes. Reports indicate that US strikes on Iranian water facilities may have targeted civilian infrastructure, leading to calls for accountability and further complicating ongoing negotiations for peace (evidence id: 16).",
-      "US President Donald Trump has claimed that a peace agreement with Iran is imminent, stating that he has canceled planned military strikes in light of negotiations. However, skepticism remains as previous claims of nearing agreements have not materialized, and Iran has yet to confirm any final decisions regarding the proposed deal (evidence id: 23).",
-      "The geopolitical landscape is further complicated by Egypt's balancing act between supporting US allies in the Gulf and maintaining diplomatic ties with Iran. Egypt's response to the conflict reflects its strategic interests and the pressures it faces from both sides, highlighting the intricate web of alliances and rivalries in the region (evidence id: 19).",
-      "The humanitarian impact of the conflict continues to grow, with millions displaced and in need of assistance. The UN has called for increased international investment to support refugees and internally displaced persons in West and Central Africa, emphasizing the need for sustainable solutions amidst ongoing crises (evidence id: 12)."
+      "Recent developments in the Middle East have seen a significant escalation in hostilities between the United States and Iran, with military strikes occurring alongside ongoing diplomatic negotiations. President Trump has claimed that a peace agreement is imminent, yet conflicting statements from Iranian officials suggest that no final decision has been reached, indicating a precarious situation that could lead to further conflict.",
+      "The humanitarian impact of the ongoing war is becoming increasingly severe, with reports of civilian casualties and infrastructure damage. A video of a visually impaired Palestinian boy crying over his broken glasses has drawn global attention, highlighting the plight of vulnerable populations affected by the conflict. The International Committee of the Red Cross continues to advocate for the protection of civilians and adherence to humanitarian law amidst the violence.",
+      "Economic repercussions are also being felt globally, as the World Bank has downgraded its growth forecasts due to surging energy prices and inflation linked to the conflict. The closure of the Strait of Hormuz, a vital passage for oil and gas, has exacerbated supply chain issues, leading to increased costs and economic instability in various regions.",
+      "As the situation develops, key regional players, including Egypt, are navigating a complex diplomatic landscape, balancing their alliances with the US and Gulf states while managing their own national interests. The potential for further military action remains high, with the US maintaining a naval blockade and threatening to seize Iranian oil infrastructure."
     ],
     "key_judgments": [
       {
-        "title": "US-Iran Hostilities Escalate",
-        "finding": "Military strikes by the US against Iranian targets have raised concerns over potential violations of international law.",
+        "title": "US-Iran Negotiations at a Standstill",
+        "finding": "Despite claims of an imminent peace agreement, Iranian officials indicate that no final decision has been made, suggesting ongoing tensions.",
         "citations": [
-          "16"
+          "10",
+          "18",
+          "26"
         ]
       },
       {
-        "title": "Imminent Peace Agreement Claims",
-        "finding": "Despite claims of an imminent peace agreement, skepticism remains regarding the actual progress of negotiations between the US and Iran.",
+        "title": "Humanitarian Crisis Worsening",
+        "finding": "The humanitarian situation is deteriorating, with increasing civilian casualties and infrastructure damage reported in conflict zones.",
         "citations": [
-          "23"
-        ]
-      },
-      {
-        "title": "Egypt's Diplomatic Balancing Act",
-        "finding": "Egypt is navigating a complex diplomatic landscape, attempting to mediate between US allies and Iran while managing its own security concerns.",
-        "citations": [
+          "12",
           "19"
         ]
       },
       {
-        "title": "Humanitarian Crisis in Africa",
-        "finding": "The ongoing conflict has exacerbated humanitarian crises, with millions displaced and in need of support, highlighting the urgent need for international assistance.",
+        "title": "Global Economic Impact of Conflict",
+        "finding": "The World Bank has revised its global growth forecast downward due to the economic fallout from the US-Iran conflict, particularly affecting energy prices.",
         "citations": [
-          "12"
+          "25"
+        ]
+      },
+      {
+        "title": "Regional Diplomatic Challenges",
+        "finding": "Egypt is facing a diplomatic dilemma as it balances its alliances with the US and Gulf states while managing its own national interests amid the conflict.",
+        "citations": [
+          "22"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The region is experiencing heightened tensions due to military actions and stalled negotiations, with significant implications for regional stability and humanitarian conditions.",
+        "assessment": "The Middle East remains a focal point of geopolitical tension, with the US and Iran at the center of escalating military actions and diplomatic negotiations.",
         "citations": [
-          "15",
-          "22"
+          "10",
+          "18",
+          "26"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "US-Iran Negotiations",
-        "why_it_matters": "The outcome of these negotiations could significantly impact regional stability and global energy markets.",
+        "label": "US-Iran Military Engagement",
+        "why_it_matters": "Continued military engagement between the US and Iran could lead to broader regional instability and impact global energy supplies.",
         "citations": [
-          "23"
+          "19",
+          "24",
+          "28"
         ]
       },
       {
-        "label": "Humanitarian Assistance in Africa",
-        "why_it_matters": "The increasing number of displaced persons in Africa necessitates urgent international investment to prevent further humanitarian crises.",
+        "label": "Humanitarian Conditions in Gaza",
+        "why_it_matters": "The worsening humanitarian conditions in Gaza require urgent international attention and response to prevent further civilian suffering.",
         "citations": [
-          "12"
+          "12",
+          "19"
+        ]
+      },
+      {
+        "label": "Global Economic Stability",
+        "why_it_matters": "The economic implications of the conflict, particularly regarding energy prices and inflation, could have far-reaching effects on global markets.",
+        "citations": [
+          "25"
         ]
       }
     ],
@@ -72,8 +86,8 @@
     ]
   },
   "summary": {
-    "raw_documents": 919,
-    "total_text_chars": 154308378,
+    "raw_documents": 922,
+    "total_text_chars": 154321260,
     "sources": 32,
     "signals": 8,
     "regions": 6,
@@ -84,7 +98,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 666
+      "value": 668
     },
     {
       "name": "PDF",
@@ -100,7 +114,7 @@
     },
     {
       "name": "Video",
-      "value": 21
+      "value": 22
     },
     {
       "name": "Book",
@@ -118,7 +132,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 635
+      "value": 638
     },
     {
       "name": "pdfs",
@@ -172,7 +186,7 @@
     },
     {
       "name": "theguardian.com",
-      "value": 143
+      "value": 146
     },
     {
       "name": "global.unitednations.entermediadb.net",
@@ -286,7 +300,7 @@
     },
     {
       "name": "iran",
-      "value": 2739
+      "value": 2756
     },
     {
       "name": "humanitarian",
@@ -302,7 +316,7 @@
     },
     {
       "name": "gaza",
-      "value": 2173
+      "value": 2184
     },
     {
       "name": "lebanon",
@@ -314,7 +328,7 @@
     },
     {
       "name": "trump",
-      "value": 1489
+      "value": 1499
     },
     {
       "name": "ukraine",
@@ -326,7 +340,7 @@
     },
     {
       "name": "conflict",
-      "value": 1314
+      "value": 1318
     },
     {
       "name": "united",
@@ -464,11 +478,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 610,
+      "count": 612,
       "formats": [
         {
           "name": "Article",
-          "value": 505
+          "value": 506
         },
         {
           "name": "PDF",
@@ -484,10 +498,12 @@
         },
         {
           "name": "Video",
-          "value": 8
+          "value": 9
         }
       ],
       "evidence_ids": [
+        "8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b",
+        "bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c",
         "e398e5bcc7e22f2bff2673966562b35d3975c9bce11b8a02d6b1205544bffcde",
         "1548b0f7353544b4fc109ba7eb356daf5be4c657c5367fb63eb1e2ffdd09869a",
         "8cc444210b8da3829e6b4f3d66ed3b4d653e6bcc3432a581bcc192f85a9128aa",
@@ -495,12 +511,30 @@
         "6c9bc26b89fa2293eb8b499e3ea48922a5e7995fc77a96a35ed43f6bae05bb06",
         "57d9ea3a4be9e1325d35bbfbe849da8d66d5c8e2fbdc1aa998bb7f8c999cebfc",
         "733440684f946b0878409fe3e1deb9412975eff70b3c34981cb42238a9c95a76",
-        "8ea6823aff74d0b706af52cec00b57016a9899bea023ec2e79ed9b5dac646ad4",
-        "24d3bd027d78fdbcc53df75f9b77445b19c21af47234604ca50462a68502f5d8",
-        "8d586a7c83de489fa408a94dd64d38e9951d9a15950f09285b887f00f14bc8bf"
+        "8ea6823aff74d0b706af52cec00b57016a9899bea023ec2e79ed9b5dac646ad4"
       ],
-      "summary": "Published On 12 Jun 2026 12 Jun 2026 Stock markets have surged following US President Donald Trump’s announcement that he called off planned strikes against Iran and a peace deal with Tehran is imminent. Brent crude, the primary international benchmark for oil prices, fell about 1 percent to below $89.50 a barrel on hopes for a return to normality in the Strait of Hormuz, which in peacetime carries about one-fifth of global energy supplies. GENDER IN HUMANITARIAN ACTION WORKING GROUP UKRAINE Gender in Humanitarian Action Working Group Meeting Minutes Time: 14:00 - 15:30 Date: June 03, 2025 Venue: online & 9B Mykhailo Hrushevsky Street, Parkova Doroga, Kyiv, 01021, Ukraine Agenda: 1. The key objective of the monitoring was to assess how Ukraine’s obligations under the CEDAW Convention are being fulfilled during the war. The main point highlighted in the report is that women’s rights cannot be viewed in isolation from the broader context of the challenges associated with the war in Ukraine. He again said the agreement was “a great deal for the United States and for the Middle East ” and ultimately, Iran will “in no way, shape or form have a nuclear weapon ”. But after announcing that he was canceling tonight’s strikes because of the “great settlement” reached with Iran, he said a military operation to take Kharg would be off the table “if we sign this agreement”. The strikes on Bemani may be part of an escalating effort to force Iran to accept a deal on US terms, breaching a tenuous ceasefire agreement that has been in place since April and compounding US threats to capture Iranian infrastructure and take control of its oil industry. Military strikes that damaged two water storage facilities in southern Iran may constitute a war crime, military and legal experts say, after reviewing media reports and visual evidence of a 10 June strike on Bemani, a small district about 2 miles from the strait of Hormuz.",
+      "summary": "The price of oil rose after Trump threatened a “very hard” attack on Iran, but plunged hours later after he said he was cancelling the strikes. The deal, if confirmed, would be the most significant diplomatic breakthrough yet to end the three-month-old war, which has killed thousands and sent global energy prices sharply higher. A strike wounded 10 staff members of a hospital in the Lebanese city of Tyre on Thursday, the facility’s director told the AFP news agency, as Israeli raids continued in the country’s south. The footage of Ayoub Junaid has shone a light on the plight of the many visually impaired children in Gaza who, because of Israel’s blockade and the devastation caused by the war, have been unable to access eye examinations, corrective lenses or specialist ophthalmic surgery. Ayoub’s mother, Eman Junaid, 30, displaced in the Gaza City port area, tells the Guardian her son’s problem began when he was two. Published On 12 Jun 2026 12 Jun 2026 Stock markets have surged following US President Donald Trump’s announcement that he called off planned strikes against Iran and a peace deal with Tehran is imminent. Brent crude, the primary international benchmark for oil prices, fell about 1 percent to below $89.50 a barrel on hopes for a return to normality in the Strait of Hormuz, which in peacetime carries about one-fifth of global energy supplies. GENDER IN HUMANITARIAN ACTION WORKING GROUP UKRAINE Gender in Humanitarian Action Working Group Meeting Minutes Time: 14:00 - 15:30 Date: June 03, 2025 Venue: online & 9B Mykhailo Hrushevsky Street, Parkova Doroga, Kyiv, 01021, Ukraine Agenda: 1. The key objective of the monitoring was to assess how Ukraine’s obligations under the CEDAW Convention are being fulfilled during the war. The main point highlighted in the report is that women’s rights cannot be viewed in isolation from the broader context of the challenges associated with the war in Ukraine.",
       "latest": [
+        {
+          "id": "8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b",
+          "title": "Middle East crisis live: Iran says no final peace agreement reached, after Trump claims deal could be signed soon",
+          "url": "https://www.theguardian.com/world/live/2026/jun/12/middle-east-crisis-live-us-iran-israel-lebanon-trump-hormuz-oil-peace-deal-doubt-latest-news-updates",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-12T07:16:52.027966+00:00",
+          "published": "Fri, 12 Jun 2026 07:02:25 GMT",
+          "summary": "The price of oil rose after Trump threatened a “very hard” attack on Iran, but plunged hours later after he said he was cancelling the strikes. The deal, if confirmed, would be the most significant diplomatic breakthrough yet to end the three-month-old war, which has killed thousands and sent global energy prices sharply higher. A strike wounded 10 staff members of a hospital in the Lebanese city of Tyre on Thursday, the facility’s director told the AFP news agency, as Israeli raids continued in the country’s south."
+        },
+        {
+          "id": "bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c",
+          "title": "Video of visually impaired Palestinian boy crying over broken glasses draws global attention",
+          "url": "https://www.theguardian.com/world/2026/jun/12/video-visually-impaired-palestinian-boy-gaza-ayoub-junaid-crying-broken-glasses",
+          "host": "theguardian.com",
+          "format": "Video",
+          "collected_at": "2026-06-12T07:16:57.207610+00:00",
+          "published": "Fri, 12 Jun 2026 04:00:37 GMT",
+          "summary": "The footage of Ayoub Junaid has shone a light on the plight of the many visually impaired children in Gaza who, because of Israel’s blockade and the devastation caused by the war, have been unable to access eye examinations, corrective lenses or specialist ophthalmic surgery. Ayoub’s mother, Eman Junaid, 30, displaced in the Gaza City port area, tells the Guardian her son’s problem began when he was two."
+        },
         {
           "id": "e398e5bcc7e22f2bff2673966562b35d3975c9bce11b8a02d6b1205544bffcde",
           "title": "Stock markets surge as Trump calls off strikes on Iran, touts peace deal",
@@ -530,36 +564,16 @@
           "collected_at": "2026-06-11T21:16:35.816464+00:00",
           "published": "Thu, 11 Jun 2026 21:00:34 GMT",
           "summary": "He again said the agreement was “a great deal for the United States and for the Middle East ” and ultimately, Iran will “in no way, shape or form have a nuclear weapon ”. But after announcing that he was canceling tonight’s strikes because of the “great settlement” reached with Iran, he said a military operation to take Kharg would be off the table “if we sign this agreement”."
-        },
-        {
-          "id": "c856d3ec038b0430cee895f339143e0814c2725382d60fb334603989be3e375c",
-          "title": "Military strikes on water facilities in Iran may constitute a war crime, experts say",
-          "url": "https://www.theguardian.com/world/2026/jun/11/strikes-water-facilities-iran-war-crime-experts",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-11T21:16:35.756351+00:00",
-          "published": "Thu, 11 Jun 2026 20:30:15 GMT",
-          "summary": "The strikes on Bemani may be part of an escalating effort to force Iran to accept a deal on US terms, breaching a tenuous ceasefire agreement that has been in place since April and compounding US threats to capture Iranian infrastructure and take control of its oil industry. Military strikes that damaged two water storage facilities in southern Iran may constitute a war crime, military and legal experts say, after reviewing media reports and visual evidence of a 10 June strike on Bemani, a small district about 2 miles from the strait of Hormuz."
-        },
-        {
-          "id": "6c9bc26b89fa2293eb8b499e3ea48922a5e7995fc77a96a35ed43f6bae05bb06",
-          "title": "Strike, Counterstrike, Repeat",
-          "url": "https://warontherocks.com/strike-counterstrike-repeat/",
-          "host": "warontherocks.com",
-          "format": "Article",
-          "collected_at": "2026-06-11T21:16:37.126020+00:00",
-          "published": "Thu, 11 Jun 2026 20:20:17 +0000",
-          "summary": "However, Trump has touted a deal as nearly done more than three dozen times, so observers will be watching to see what happens next.Despite some efforts by the United States and other countries to assist ships in safely transiting through the Strait of Hormuz, shipping traffic remains far below pre-war volumes."
         }
       ]
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 537,
+      "count": 538,
       "formats": [
         {
           "name": "Article",
-          "value": 448
+          "value": 449
         },
         {
           "name": "PDF",
@@ -579,6 +593,7 @@
         }
       ],
       "evidence_ids": [
+        "8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b",
         "1548b0f7353544b4fc109ba7eb356daf5be4c657c5367fb63eb1e2ffdd09869a",
         "8cc444210b8da3829e6b4f3d66ed3b4d653e6bcc3432a581bcc192f85a9128aa",
         "c856d3ec038b0430cee895f339143e0814c2725382d60fb334603989be3e375c",
@@ -587,11 +602,20 @@
         "733440684f946b0878409fe3e1deb9412975eff70b3c34981cb42238a9c95a76",
         "8ea6823aff74d0b706af52cec00b57016a9899bea023ec2e79ed9b5dac646ad4",
         "8d586a7c83de489fa408a94dd64d38e9951d9a15950f09285b887f00f14bc8bf",
-        "061142734779b815a7722c15eb2874d2faf4c5d794dbaad2f2976fa484f7c445",
-        "2a8d95ae11cb9b3811f55724005dfeb75594f40c1d0d93a53c18efdcf766674c"
+        "061142734779b815a7722c15eb2874d2faf4c5d794dbaad2f2976fa484f7c445"
       ],
-      "summary": "GENDER IN HUMANITARIAN ACTION WORKING GROUP UKRAINE Gender in Humanitarian Action Working Group Meeting Minutes Time: 14:00 - 15:30 Date: June 03, 2025 Venue: online & 9B Mykhailo Hrushevsky Street, Parkova Doroga, Kyiv, 01021, Ukraine Agenda: 1. The key objective of the monitoring was to assess how Ukraine’s obligations under the CEDAW Convention are being fulfilled during the war. The main point highlighted in the report is that women’s rights cannot be viewed in isolation from the broader context of the challenges associated with the war in Ukraine. He again said the agreement was “a great deal for the United States and for the Middle East ” and ultimately, Iran will “in no way, shape or form have a nuclear weapon ”. But after announcing that he was canceling tonight’s strikes because of the “great settlement” reached with Iran, he said a military operation to take Kharg would be off the table “if we sign this agreement”. The strikes on Bemani may be part of an escalating effort to force Iran to accept a deal on US terms, breaching a tenuous ceasefire agreement that has been in place since April and compounding US threats to capture Iranian infrastructure and take control of its oil industry. Military strikes that damaged two water storage facilities in southern Iran may constitute a war crime, military and legal experts say, after reviewing media reports and visual evidence of a 10 June strike on Bemani, a small district about 2 miles from the strait of Hormuz. However, Trump has touted a deal as nearly done more than three dozen times, so observers will be watching to see what happens next.Despite some efforts by the United States and other countries to assist ships in safely transiting through the Strait of Hormuz, shipping traffic remains far below pre-war volumes.",
+      "summary": "The price of oil rose after Trump threatened a “very hard” attack on Iran, but plunged hours later after he said he was cancelling the strikes. The deal, if confirmed, would be the most significant diplomatic breakthrough yet to end the three-month-old war, which has killed thousands and sent global energy prices sharply higher. A strike wounded 10 staff members of a hospital in the Lebanese city of Tyre on Thursday, the facility’s director told the AFP news agency, as Israeli raids continued in the country’s south. GENDER IN HUMANITARIAN ACTION WORKING GROUP UKRAINE Gender in Humanitarian Action Working Group Meeting Minutes Time: 14:00 - 15:30 Date: June 03, 2025 Venue: online & 9B Mykhailo Hrushevsky Street, Parkova Doroga, Kyiv, 01021, Ukraine Agenda: 1. The key objective of the monitoring was to assess how Ukraine’s obligations under the CEDAW Convention are being fulfilled during the war. The main point highlighted in the report is that women’s rights cannot be viewed in isolation from the broader context of the challenges associated with the war in Ukraine. He again said the agreement was “a great deal for the United States and for the Middle East ” and ultimately, Iran will “in no way, shape or form have a nuclear weapon ”. But after announcing that he was canceling tonight’s strikes because of the “great settlement” reached with Iran, he said a military operation to take Kharg would be off the table “if we sign this agreement”. The strikes on Bemani may be part of an escalating effort to force Iran to accept a deal on US terms, breaching a tenuous ceasefire agreement that has been in place since April and compounding US threats to capture Iranian infrastructure and take control of its oil industry. Military strikes that damaged two water storage facilities in southern Iran may constitute a war crime, military and legal experts say, after reviewing media reports and visual evidence of a 10 June strike on Bemani, a small district about 2 miles from the strait of Hormuz.",
       "latest": [
+        {
+          "id": "8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b",
+          "title": "Middle East crisis live: Iran says no final peace agreement reached, after Trump claims deal could be signed soon",
+          "url": "https://www.theguardian.com/world/live/2026/jun/12/middle-east-crisis-live-us-iran-israel-lebanon-trump-hormuz-oil-peace-deal-doubt-latest-news-updates",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-12T07:16:52.027966+00:00",
+          "published": "Fri, 12 Jun 2026 07:02:25 GMT",
+          "summary": "The price of oil rose after Trump threatened a “very hard” attack on Iran, but plunged hours later after he said he was cancelling the strikes. The deal, if confirmed, would be the most significant diplomatic breakthrough yet to end the three-month-old war, which has killed thousands and sent global energy prices sharply higher. A strike wounded 10 staff members of a hospital in the Lebanese city of Tyre on Thursday, the facility’s director told the AFP news agency, as Israeli raids continued in the country’s south."
+        },
         {
           "id": "1548b0f7353544b4fc109ba7eb356daf5be4c657c5367fb63eb1e2ffdd09869a",
           "title": "Ukraine: Gender in Humanitarian Action Working Group Time: 14:00-15:30 Date: June 03, 2026 [Meeting Minutes] [EN/UK] (pdf)",
@@ -631,22 +655,12 @@
           "collected_at": "2026-06-11T21:16:37.126020+00:00",
           "published": "Thu, 11 Jun 2026 20:20:17 +0000",
           "summary": "However, Trump has touted a deal as nearly done more than three dozen times, so observers will be watching to see what happens next.Despite some efforts by the United States and other countries to assist ships in safely transiting through the Strait of Hormuz, shipping traffic remains far below pre-war volumes."
-        },
-        {
-          "id": "57d9ea3a4be9e1325d35bbfbe849da8d66d5c8e2fbdc1aa998bb7f8c999cebfc",
-          "title": "Egypt's delicate balancing act in the Iran war",
-          "url": "https://www.dw.com/en/egypt-s-delicate-balancing-act-in-the-iran-war/a-77506331?maca=en-rss-en-world-4025-rdf",
-          "host": "dw.com",
-          "format": "Article",
-          "collected_at": "2026-06-11T21:17:01.724124+00:00",
-          "published": "2026-06-11T19:18:00Z",
-          "summary": "\"Saudi Arabia and Kuwait have deposited $5.3 billion and $4 billion with the Egyptian central bank, respectively, while the United Arab Emirates has injected $35 billion into the country through a major real estate acquisition and Qatar has committed to investing $29.7 billion in another massive property deal,\" the Crisis Group's analysis said. After the Iran-aligned Houthi militia in Yemen resumed attacks on shipping in the Red Sea and Bab al-Mandab Strait in support of Iran, traffic through Egypt's Suez Canal was reduced."
         }
       ]
     },
     {
       "name": "Humanitarian Pressure",
-      "count": 386,
+      "count": 387,
       "formats": [
         {
           "name": "Article",
@@ -666,10 +680,11 @@
         },
         {
           "name": "Video",
-          "value": 3
+          "value": 4
         }
       ],
       "evidence_ids": [
+        "bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c",
         "1548b0f7353544b4fc109ba7eb356daf5be4c657c5367fb63eb1e2ffdd09869a",
         "a140024a0b413f3b06643ea237e7973f4c66d82848c511474622abbf1a1f2bc0",
         "9b4df6f155b62834df09e43636c7e15c6b0d4168b72cb0fcc084a231297965da",
@@ -678,11 +693,20 @@
         "177d0950b4411c217a8c2fc3570408c8b7980891054b7c49653e34ab92098a01",
         "60181a92a24d4cd6a8e97fb7f13eb73d33061050e3f034deb0f62e420812d1a3",
         "b9dec690beba9153499f1c5f49a822eb19e6b6d32d4921d90844262fe3ba3164",
-        "42d609d95d88af161c763179ec6149ef32709c6f333cae5c47a1929180f2337a",
-        "017ff0b0ee60ad46ba418cf9a29d0e148ae229865b4dd9409858e80cdef62b71"
+        "42d609d95d88af161c763179ec6149ef32709c6f333cae5c47a1929180f2337a"
       ],
-      "summary": "GENDER IN HUMANITARIAN ACTION WORKING GROUP UKRAINE Gender in Humanitarian Action Working Group Meeting Minutes Time: 14:00 - 15:30 Date: June 03, 2025 Venue: online & 9B Mykhailo Hrushevsky Street, Parkova Doroga, Kyiv, 01021, Ukraine Agenda: 1. The key objective of the monitoring was to assess how Ukraine’s obligations under the CEDAW Convention are being fulfilled during the war. The main point highlighted in the report is that women’s rights cannot be viewed in isolation from the broader context of the challenges associated with the war in Ukraine. Les Maliens figurent parmi les principales nationalités demandant l’asile dans l’Union européenne, avec environ 1 900 demandes par mois, soit une hausse de 25 % par rapport à la même période en 2025, et un taux de reconnaissance avoisinant les 88 %. Avec un soutien durable des partenaires humanitaires et de développement, nous pouvons aider les réfugiés à devenir autonomes, à contribuer aux économies locales et à trouver des solutions durables. The Biesther Foundation (FoBE Association), in partnership with the United Nations Organization Stabilization Mission in the Democratic Republic of the Congo (MONUSCO), has launched a pilot socio-economic reintegration project for 50 vulnerable women and girls from Goma, Sake, and Nyiragongo in North Kivu Province. The strikes on Bemani may be part of an escalating effort to force Iran to accept a deal on US terms, breaching a tenuous ceasefire agreement that has been in place since April and compounding US threats to capture Iranian infrastructure and take control of its oil industry. Military strikes that damaged two water storage facilities in southern Iran may constitute a war crime, military and legal experts say, after reviewing media reports and visual evidence of a 10 June strike on Bemani, a small district about 2 miles from the strait of Hormuz.",
+      "summary": "The footage of Ayoub Junaid has shone a light on the plight of the many visually impaired children in Gaza who, because of Israel’s blockade and the devastation caused by the war, have been unable to access eye examinations, corrective lenses or specialist ophthalmic surgery. Ayoub’s mother, Eman Junaid, 30, displaced in the Gaza City port area, tells the Guardian her son’s problem began when he was two. GENDER IN HUMANITARIAN ACTION WORKING GROUP UKRAINE Gender in Humanitarian Action Working Group Meeting Minutes Time: 14:00 - 15:30 Date: June 03, 2025 Venue: online & 9B Mykhailo Hrushevsky Street, Parkova Doroga, Kyiv, 01021, Ukraine Agenda: 1. The key objective of the monitoring was to assess how Ukraine’s obligations under the CEDAW Convention are being fulfilled during the war. The main point highlighted in the report is that women’s rights cannot be viewed in isolation from the broader context of the challenges associated with the war in Ukraine. Les Maliens figurent parmi les principales nationalités demandant l’asile dans l’Union européenne, avec environ 1 900 demandes par mois, soit une hausse de 25 % par rapport à la même période en 2025, et un taux de reconnaissance avoisinant les 88 %. Avec un soutien durable des partenaires humanitaires et de développement, nous pouvons aider les réfugiés à devenir autonomes, à contribuer aux économies locales et à trouver des solutions durables. The Biesther Foundation (FoBE Association), in partnership with the United Nations Organization Stabilization Mission in the Democratic Republic of the Congo (MONUSCO), has launched a pilot socio-economic reintegration project for 50 vulnerable women and girls from Goma, Sake, and Nyiragongo in North Kivu Province.",
       "latest": [
+        {
+          "id": "bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c",
+          "title": "Video of visually impaired Palestinian boy crying over broken glasses draws global attention",
+          "url": "https://www.theguardian.com/world/2026/jun/12/video-visually-impaired-palestinian-boy-gaza-ayoub-junaid-crying-broken-glasses",
+          "host": "theguardian.com",
+          "format": "Video",
+          "collected_at": "2026-06-12T07:16:57.207610+00:00",
+          "published": "Fri, 12 Jun 2026 04:00:37 GMT",
+          "summary": "The footage of Ayoub Junaid has shone a light on the plight of the many visually impaired children in Gaza who, because of Israel’s blockade and the devastation caused by the war, have been unable to access eye examinations, corrective lenses or specialist ophthalmic surgery. Ayoub’s mother, Eman Junaid, 30, displaced in the Gaza City port area, tells the Guardian her son’s problem began when he was two."
+        },
         {
           "id": "1548b0f7353544b4fc109ba7eb356daf5be4c657c5367fb63eb1e2ffdd09869a",
           "title": "Ukraine: Gender in Humanitarian Action Working Group Time: 14:00-15:30 Date: June 03, 2026 [Meeting Minutes] [EN/UK] (pdf)",
@@ -722,26 +746,16 @@
           "collected_at": "2026-06-11T21:16:35.756351+00:00",
           "published": "Thu, 11 Jun 2026 20:30:15 GMT",
           "summary": "The strikes on Bemani may be part of an escalating effort to force Iran to accept a deal on US terms, breaching a tenuous ceasefire agreement that has been in place since April and compounding US threats to capture Iranian infrastructure and take control of its oil industry. Military strikes that damaged two water storage facilities in southern Iran may constitute a war crime, military and legal experts say, after reviewing media reports and visual evidence of a 10 June strike on Bemani, a small district about 2 miles from the strait of Hormuz."
-        },
-        {
-          "id": "8d586a7c83de489fa408a94dd64d38e9951d9a15950f09285b887f00f14bc8bf",
-          "title": "Trump says US and Iran on verge of signing peace agreement",
-          "url": "https://www.theguardian.com/world/2026/jun/11/trump-seize-control-iran-oil-gas-ceasefire",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-11T21:16:35.119512+00:00",
-          "published": "Thu, 11 Jun 2026 15:48:40 GMT",
-          "summary": "Just hours earlier, Trump had said the US would take control of Iran’s oil and gas infrastructure and launch further strikes on Iran on Thursday night as the countries exchanged fire for the second consecutive day despite a nominal ceasefire being in place. Trump said Thursday’s assault was prompted by Iran stalling in negotiations aimed at turning the temporary ceasefire into a permanent peace. He also said the US would seize Kharg, an island in the Gulf that handles about 90% of Iran’s oil exports and hosts vast storage facilities."
         }
       ]
     },
     {
       "name": "Territory and Chokepoints",
-      "count": 373,
+      "count": 376,
       "formats": [
         {
           "name": "Article",
-          "value": 292
+          "value": 294
         },
         {
           "name": "PDF",
@@ -752,28 +766,58 @@
           "value": 23
         },
         {
-          "name": "Image",
-          "value": 3
+          "name": "Video",
+          "value": 4
         },
         {
-          "name": "Video",
+          "name": "Image",
           "value": 3
         }
       ],
       "evidence_ids": [
+        "8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b",
+        "e6aab811b36fada3fe6cf3dd6f80804137596a2dac6eab00e4b05b637ce4ce7e",
+        "bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c",
         "e398e5bcc7e22f2bff2673966562b35d3975c9bce11b8a02d6b1205544bffcde",
         "8cc444210b8da3829e6b4f3d66ed3b4d653e6bcc3432a581bcc192f85a9128aa",
         "6c9bc26b89fa2293eb8b499e3ea48922a5e7995fc77a96a35ed43f6bae05bb06",
         "9d843e7d2ec9f1a4824a2985a01aa6794eb0c85b74a6f14d6a5e4087a7fff976",
         "57d9ea3a4be9e1325d35bbfbe849da8d66d5c8e2fbdc1aa998bb7f8c999cebfc",
         "733440684f946b0878409fe3e1deb9412975eff70b3c34981cb42238a9c95a76",
-        "8ea6823aff74d0b706af52cec00b57016a9899bea023ec2e79ed9b5dac646ad4",
-        "24d3bd027d78fdbcc53df75f9b77445b19c21af47234604ca50462a68502f5d8",
-        "6f219aadc0b559e163fdd48c848f2ad18be3488ea821ec6327b4c3ef632d8c11",
-        "9b0ea6befb420d7dcb2ed79441796efdf72b6434113362bb2b35fb389892becd"
+        "8ea6823aff74d0b706af52cec00b57016a9899bea023ec2e79ed9b5dac646ad4"
       ],
-      "summary": "Published On 12 Jun 2026 12 Jun 2026 Stock markets have surged following US President Donald Trump’s announcement that he called off planned strikes against Iran and a peace deal with Tehran is imminent. Brent crude, the primary international benchmark for oil prices, fell about 1 percent to below $89.50 a barrel on hopes for a return to normality in the Strait of Hormuz, which in peacetime carries about one-fifth of global energy supplies. He again said the agreement was “a great deal for the United States and for the Middle East ” and ultimately, Iran will “in no way, shape or form have a nuclear weapon ”. But after announcing that he was canceling tonight’s strikes because of the “great settlement” reached with Iran, he said a military operation to take Kharg would be off the table “if we sign this agreement”. However, Trump has touted a deal as nearly done more than three dozen times, so observers will be watching to see what happens next.Despite some efforts by the United States and other countries to assist ships in safely transiting through the Strait of Hormuz, shipping traffic remains far below pre-war volumes. President Donald Trump said that he would open the Strait of Hormuz, what he evidently meant was that the United States would promote the kinds of shady practices that animate the “shadow fleets” of Russia, Iran, and Venezuela. That is one reason why oil prices have stayed roughly in the $90 range rather than spiking, as Trump himself said, even as global oil inventories dwindle and the shortfalls from 100 days of war pile up.",
+      "summary": "The price of oil rose after Trump threatened a “very hard” attack on Iran, but plunged hours later after he said he was cancelling the strikes. The deal, if confirmed, would be the most significant diplomatic breakthrough yet to end the three-month-old war, which has killed thousands and sent global energy prices sharply higher. A strike wounded 10 staff members of a hospital in the Lebanese city of Tyre on Thursday, the facility’s director told the AFP news agency, as Israeli raids continued in the country’s south. As energy prices have risen as a result of the conflict, after Iran closed off the strait of Hormuz – a vital shipping route for global trade – the UK’s strong expansion in the first quarter slid into reverse. The UK economy contracted by 0.1% in April as the Iran war began to take its toll on growth, official figures show. The footage of Ayoub Junaid has shone a light on the plight of the many visually impaired children in Gaza who, because of Israel’s blockade and the devastation caused by the war, have been unable to access eye examinations, corrective lenses or specialist ophthalmic surgery. Ayoub’s mother, Eman Junaid, 30, displaced in the Gaza City port area, tells the Guardian her son’s problem began when he was two. Published On 12 Jun 2026 12 Jun 2026 Stock markets have surged following US President Donald Trump’s announcement that he called off planned strikes against Iran and a peace deal with Tehran is imminent. Brent crude, the primary international benchmark for oil prices, fell about 1 percent to below $89.50 a barrel on hopes for a return to normality in the Strait of Hormuz, which in peacetime carries about one-fifth of global energy supplies.",
       "latest": [
+        {
+          "id": "8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b",
+          "title": "Middle East crisis live: Iran says no final peace agreement reached, after Trump claims deal could be signed soon",
+          "url": "https://www.theguardian.com/world/live/2026/jun/12/middle-east-crisis-live-us-iran-israel-lebanon-trump-hormuz-oil-peace-deal-doubt-latest-news-updates",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-12T07:16:52.027966+00:00",
+          "published": "Fri, 12 Jun 2026 07:02:25 GMT",
+          "summary": "The price of oil rose after Trump threatened a “very hard” attack on Iran, but plunged hours later after he said he was cancelling the strikes. The deal, if confirmed, would be the most significant diplomatic breakthrough yet to end the three-month-old war, which has killed thousands and sent global energy prices sharply higher. A strike wounded 10 staff members of a hospital in the Lebanese city of Tyre on Thursday, the facility’s director told the AFP news agency, as Israeli raids continued in the country’s south."
+        },
+        {
+          "id": "e6aab811b36fada3fe6cf3dd6f80804137596a2dac6eab00e4b05b637ce4ce7e",
+          "title": "UK economy shrank by 0.1% in April as Iran war held back growth",
+          "url": "https://www.theguardian.com/business/2026/jun/12/uk-economy-gdp-shrank-april-iran-war-held-back-growth",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-12T07:17:15.108083+00:00",
+          "published": "Fri, 12 Jun 2026 06:31:37 GMT",
+          "summary": "As energy prices have risen as a result of the conflict, after Iran closed off the strait of Hormuz – a vital shipping route for global trade – the UK’s strong expansion in the first quarter slid into reverse. The UK economy contracted by 0.1% in April as the Iran war began to take its toll on growth, official figures show."
+        },
+        {
+          "id": "bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c",
+          "title": "Video of visually impaired Palestinian boy crying over broken glasses draws global attention",
+          "url": "https://www.theguardian.com/world/2026/jun/12/video-visually-impaired-palestinian-boy-gaza-ayoub-junaid-crying-broken-glasses",
+          "host": "theguardian.com",
+          "format": "Video",
+          "collected_at": "2026-06-12T07:16:57.207610+00:00",
+          "published": "Fri, 12 Jun 2026 04:00:37 GMT",
+          "summary": "The footage of Ayoub Junaid has shone a light on the plight of the many visually impaired children in Gaza who, because of Israel’s blockade and the devastation caused by the war, have been unable to access eye examinations, corrective lenses or specialist ophthalmic surgery. Ayoub’s mother, Eman Junaid, 30, displaced in the Gaza City port area, tells the Guardian her son’s problem began when he was two."
+        },
         {
           "id": "e398e5bcc7e22f2bff2673966562b35d3975c9bce11b8a02d6b1205544bffcde",
           "title": "Stock markets surge as Trump calls off strikes on Iran, touts peace deal",
@@ -793,46 +837,16 @@
           "collected_at": "2026-06-11T21:16:35.816464+00:00",
           "published": "Thu, 11 Jun 2026 21:00:34 GMT",
           "summary": "He again said the agreement was “a great deal for the United States and for the Middle East ” and ultimately, Iran will “in no way, shape or form have a nuclear weapon ”. But after announcing that he was canceling tonight’s strikes because of the “great settlement” reached with Iran, he said a military operation to take Kharg would be off the table “if we sign this agreement”."
-        },
-        {
-          "id": "6c9bc26b89fa2293eb8b499e3ea48922a5e7995fc77a96a35ed43f6bae05bb06",
-          "title": "Strike, Counterstrike, Repeat",
-          "url": "https://warontherocks.com/strike-counterstrike-repeat/",
-          "host": "warontherocks.com",
-          "format": "Article",
-          "collected_at": "2026-06-11T21:16:37.126020+00:00",
-          "published": "Thu, 11 Jun 2026 20:20:17 +0000",
-          "summary": "However, Trump has touted a deal as nearly done more than three dozen times, so observers will be watching to see what happens next.Despite some efforts by the United States and other countries to assist ships in safely transiting through the Strait of Hormuz, shipping traffic remains far below pre-war volumes."
-        },
-        {
-          "id": "9d843e7d2ec9f1a4824a2985a01aa6794eb0c85b74a6f14d6a5e4087a7fff976",
-          "title": "Hormuz Isn’t Closed Anymore. But It’s Not Fully Open, Either.",
-          "url": "https://foreignpolicy.com/2026/06/11/iran-us-war-hormuz-strait-shadow-fleet-trump/",
-          "host": "foreignpolicy.com",
-          "format": "Article",
-          "collected_at": "2026-06-11T21:16:42.715772+00:00",
-          "published": "Thu, 11 Jun 2026 19:25:35 +0000",
-          "summary": "President Donald Trump said that he would open the Strait of Hormuz, what he evidently meant was that the United States would promote the kinds of shady practices that animate the “shadow fleets” of Russia, Iran, and Venezuela. That is one reason why oil prices have stayed roughly in the $90 range rather than spiking, as Trump himself said, even as global oil inventories dwindle and the shortfalls from 100 days of war pile up."
-        },
-        {
-          "id": "57d9ea3a4be9e1325d35bbfbe849da8d66d5c8e2fbdc1aa998bb7f8c999cebfc",
-          "title": "Egypt's delicate balancing act in the Iran war",
-          "url": "https://www.dw.com/en/egypt-s-delicate-balancing-act-in-the-iran-war/a-77506331?maca=en-rss-en-world-4025-rdf",
-          "host": "dw.com",
-          "format": "Article",
-          "collected_at": "2026-06-11T21:17:01.724124+00:00",
-          "published": "2026-06-11T19:18:00Z",
-          "summary": "\"Saudi Arabia and Kuwait have deposited $5.3 billion and $4 billion with the Egyptian central bank, respectively, while the United Arab Emirates has injected $35 billion into the country through a major real estate acquisition and Qatar has committed to investing $29.7 billion in another massive property deal,\" the Crisis Group's analysis said. After the Iran-aligned Houthi militia in Yemen resumed attacks on shipping in the Red Sea and Bab al-Mandab Strait in support of Iran, traffic through Egypt's Suez Canal was reduced."
         }
       ]
     },
     {
       "name": "Energy and Supply Chains",
-      "count": 282,
+      "count": 284,
       "formats": [
         {
           "name": "Article",
-          "value": 225
+          "value": 227
         },
         {
           "name": "PDF",
@@ -844,6 +858,8 @@
         }
       ],
       "evidence_ids": [
+        "8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b",
+        "e6aab811b36fada3fe6cf3dd6f80804137596a2dac6eab00e4b05b637ce4ce7e",
         "e398e5bcc7e22f2bff2673966562b35d3975c9bce11b8a02d6b1205544bffcde",
         "c856d3ec038b0430cee895f339143e0814c2725382d60fb334603989be3e375c",
         "6c9bc26b89fa2293eb8b499e3ea48922a5e7995fc77a96a35ed43f6bae05bb06",
@@ -851,12 +867,30 @@
         "57d9ea3a4be9e1325d35bbfbe849da8d66d5c8e2fbdc1aa998bb7f8c999cebfc",
         "8ea6823aff74d0b706af52cec00b57016a9899bea023ec2e79ed9b5dac646ad4",
         "24d3bd027d78fdbcc53df75f9b77445b19c21af47234604ca50462a68502f5d8",
-        "8d586a7c83de489fa408a94dd64d38e9951d9a15950f09285b887f00f14bc8bf",
-        "6f219aadc0b559e163fdd48c848f2ad18be3488ea821ec6327b4c3ef632d8c11",
-        "9b0ea6befb420d7dcb2ed79441796efdf72b6434113362bb2b35fb389892becd"
+        "8d586a7c83de489fa408a94dd64d38e9951d9a15950f09285b887f00f14bc8bf"
       ],
-      "summary": "Published On 12 Jun 2026 12 Jun 2026 Stock markets have surged following US President Donald Trump’s announcement that he called off planned strikes against Iran and a peace deal with Tehran is imminent. Brent crude, the primary international benchmark for oil prices, fell about 1 percent to below $89.50 a barrel on hopes for a return to normality in the Strait of Hormuz, which in peacetime carries about one-fifth of global energy supplies. The strikes on Bemani may be part of an escalating effort to force Iran to accept a deal on US terms, breaching a tenuous ceasefire agreement that has been in place since April and compounding US threats to capture Iranian infrastructure and take control of its oil industry. Military strikes that damaged two water storage facilities in southern Iran may constitute a war crime, military and legal experts say, after reviewing media reports and visual evidence of a 10 June strike on Bemani, a small district about 2 miles from the strait of Hormuz. However, Trump has touted a deal as nearly done more than three dozen times, so observers will be watching to see what happens next.Despite some efforts by the United States and other countries to assist ships in safely transiting through the Strait of Hormuz, shipping traffic remains far below pre-war volumes. President Donald Trump said that he would open the Strait of Hormuz, what he evidently meant was that the United States would promote the kinds of shady practices that animate the “shadow fleets” of Russia, Iran, and Venezuela. That is one reason why oil prices have stayed roughly in the $90 range rather than spiking, as Trump himself said, even as global oil inventories dwindle and the shortfalls from 100 days of war pile up.",
+      "summary": "The price of oil rose after Trump threatened a “very hard” attack on Iran, but plunged hours later after he said he was cancelling the strikes. The deal, if confirmed, would be the most significant diplomatic breakthrough yet to end the three-month-old war, which has killed thousands and sent global energy prices sharply higher. A strike wounded 10 staff members of a hospital in the Lebanese city of Tyre on Thursday, the facility’s director told the AFP news agency, as Israeli raids continued in the country’s south. As energy prices have risen as a result of the conflict, after Iran closed off the strait of Hormuz – a vital shipping route for global trade – the UK’s strong expansion in the first quarter slid into reverse. The UK economy contracted by 0.1% in April as the Iran war began to take its toll on growth, official figures show. Published On 12 Jun 2026 12 Jun 2026 Stock markets have surged following US President Donald Trump’s announcement that he called off planned strikes against Iran and a peace deal with Tehran is imminent. Brent crude, the primary international benchmark for oil prices, fell about 1 percent to below $89.50 a barrel on hopes for a return to normality in the Strait of Hormuz, which in peacetime carries about one-fifth of global energy supplies. The strikes on Bemani may be part of an escalating effort to force Iran to accept a deal on US terms, breaching a tenuous ceasefire agreement that has been in place since April and compounding US threats to capture Iranian infrastructure and take control of its oil industry. Military strikes that damaged two water storage facilities in southern Iran may constitute a war crime, military and legal experts say, after reviewing media reports and visual evidence of a 10 June strike on Bemani, a small district about 2 miles from the strait of Hormuz.",
       "latest": [
+        {
+          "id": "8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b",
+          "title": "Middle East crisis live: Iran says no final peace agreement reached, after Trump claims deal could be signed soon",
+          "url": "https://www.theguardian.com/world/live/2026/jun/12/middle-east-crisis-live-us-iran-israel-lebanon-trump-hormuz-oil-peace-deal-doubt-latest-news-updates",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-12T07:16:52.027966+00:00",
+          "published": "Fri, 12 Jun 2026 07:02:25 GMT",
+          "summary": "The price of oil rose after Trump threatened a “very hard” attack on Iran, but plunged hours later after he said he was cancelling the strikes. The deal, if confirmed, would be the most significant diplomatic breakthrough yet to end the three-month-old war, which has killed thousands and sent global energy prices sharply higher. A strike wounded 10 staff members of a hospital in the Lebanese city of Tyre on Thursday, the facility’s director told the AFP news agency, as Israeli raids continued in the country’s south."
+        },
+        {
+          "id": "e6aab811b36fada3fe6cf3dd6f80804137596a2dac6eab00e4b05b637ce4ce7e",
+          "title": "UK economy shrank by 0.1% in April as Iran war held back growth",
+          "url": "https://www.theguardian.com/business/2026/jun/12/uk-economy-gdp-shrank-april-iran-war-held-back-growth",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-12T07:17:15.108083+00:00",
+          "published": "Fri, 12 Jun 2026 06:31:37 GMT",
+          "summary": "As energy prices have risen as a result of the conflict, after Iran closed off the strait of Hormuz – a vital shipping route for global trade – the UK’s strong expansion in the first quarter slid into reverse. The UK economy contracted by 0.1% in April as the Iran war began to take its toll on growth, official figures show."
+        },
         {
           "id": "e398e5bcc7e22f2bff2673966562b35d3975c9bce11b8a02d6b1205544bffcde",
           "title": "Stock markets surge as Trump calls off strikes on Iran, touts peace deal",
@@ -886,26 +920,6 @@
           "collected_at": "2026-06-11T21:16:37.126020+00:00",
           "published": "Thu, 11 Jun 2026 20:20:17 +0000",
           "summary": "However, Trump has touted a deal as nearly done more than three dozen times, so observers will be watching to see what happens next.Despite some efforts by the United States and other countries to assist ships in safely transiting through the Strait of Hormuz, shipping traffic remains far below pre-war volumes."
-        },
-        {
-          "id": "9d843e7d2ec9f1a4824a2985a01aa6794eb0c85b74a6f14d6a5e4087a7fff976",
-          "title": "Hormuz Isn’t Closed Anymore. But It’s Not Fully Open, Either.",
-          "url": "https://foreignpolicy.com/2026/06/11/iran-us-war-hormuz-strait-shadow-fleet-trump/",
-          "host": "foreignpolicy.com",
-          "format": "Article",
-          "collected_at": "2026-06-11T21:16:42.715772+00:00",
-          "published": "Thu, 11 Jun 2026 19:25:35 +0000",
-          "summary": "President Donald Trump said that he would open the Strait of Hormuz, what he evidently meant was that the United States would promote the kinds of shady practices that animate the “shadow fleets” of Russia, Iran, and Venezuela. That is one reason why oil prices have stayed roughly in the $90 range rather than spiking, as Trump himself said, even as global oil inventories dwindle and the shortfalls from 100 days of war pile up."
-        },
-        {
-          "id": "57d9ea3a4be9e1325d35bbfbe849da8d66d5c8e2fbdc1aa998bb7f8c999cebfc",
-          "title": "Egypt's delicate balancing act in the Iran war",
-          "url": "https://www.dw.com/en/egypt-s-delicate-balancing-act-in-the-iran-war/a-77506331?maca=en-rss-en-world-4025-rdf",
-          "host": "dw.com",
-          "format": "Article",
-          "collected_at": "2026-06-11T21:17:01.724124+00:00",
-          "published": "2026-06-11T19:18:00Z",
-          "summary": "\"Saudi Arabia and Kuwait have deposited $5.3 billion and $4 billion with the Egyptian central bank, respectively, while the United Arab Emirates has injected $35 billion into the country through a major real estate acquisition and Qatar has committed to investing $29.7 billion in another massive property deal,\" the Crisis Group's analysis said. After the Iran-aligned Houthi militia in Yemen resumed attacks on shipping in the Red Sea and Bab al-Mandab Strait in support of Iran, traffic through Egypt's Suez Canal was reduced."
         }
       ]
     },
@@ -1178,8 +1192,11 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 494,
+      "count": 497,
       "evidence_ids": [
+        "8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b",
+        "e6aab811b36fada3fe6cf3dd6f80804137596a2dac6eab00e4b05b637ce4ce7e",
+        "bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c",
         "e398e5bcc7e22f2bff2673966562b35d3975c9bce11b8a02d6b1205544bffcde",
         "1548b0f7353544b4fc109ba7eb356daf5be4c657c5367fb63eb1e2ffdd09869a",
         "8cc444210b8da3829e6b4f3d66ed3b4d653e6bcc3432a581bcc192f85a9128aa",
@@ -1188,15 +1205,12 @@
         "9d843e7d2ec9f1a4824a2985a01aa6794eb0c85b74a6f14d6a5e4087a7fff976",
         "57d9ea3a4be9e1325d35bbfbe849da8d66d5c8e2fbdc1aa998bb7f8c999cebfc",
         "733440684f946b0878409fe3e1deb9412975eff70b3c34981cb42238a9c95a76",
-        "8ea6823aff74d0b706af52cec00b57016a9899bea023ec2e79ed9b5dac646ad4",
-        "24d3bd027d78fdbcc53df75f9b77445b19c21af47234604ca50462a68502f5d8",
-        "8d586a7c83de489fa408a94dd64d38e9951d9a15950f09285b887f00f14bc8bf",
-        "061142734779b815a7722c15eb2874d2faf4c5d794dbaad2f2976fa484f7c445"
+        "8ea6823aff74d0b706af52cec00b57016a9899bea023ec2e79ed9b5dac646ad4"
       ],
       "top_sources": [
         {
           "name": "theguardian.com",
-          "value": 102
+          "value": 105
         },
         {
           "name": "reliefweb.int",
@@ -1218,8 +1232,9 @@
     },
     {
       "name": "Americas",
-      "count": 418,
+      "count": 419,
       "evidence_ids": [
+        "8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b",
         "8cc444210b8da3829e6b4f3d66ed3b4d653e6bcc3432a581bcc192f85a9128aa",
         "6c9bc26b89fa2293eb8b499e3ea48922a5e7995fc77a96a35ed43f6bae05bb06",
         "9d843e7d2ec9f1a4824a2985a01aa6794eb0c85b74a6f14d6a5e4087a7fff976",
@@ -1230,13 +1245,12 @@
         "2a8d95ae11cb9b3811f55724005dfeb75594f40c1d0d93a53c18efdcf766674c",
         "bdd9fcb7cf711eed26f40ec9249d9e1572c13d63de56b20335cfda08d847d74b",
         "6f219aadc0b559e163fdd48c848f2ad18be3488ea821ec6327b4c3ef632d8c11",
-        "177d0950b4411c217a8c2fc3570408c8b7980891054b7c49653e34ab92098a01",
-        "9b0ea6befb420d7dcb2ed79441796efdf72b6434113362bb2b35fb389892becd"
+        "177d0950b4411c217a8c2fc3570408c8b7980891054b7c49653e34ab92098a01"
       ],
       "top_sources": [
         {
           "name": "theguardian.com",
-          "value": 77
+          "value": 78
         },
         {
           "name": "warontherocks.com",
@@ -1258,8 +1272,9 @@
     },
     {
       "name": "Europe and Russia",
-      "count": 386,
+      "count": 387,
       "evidence_ids": [
+        "bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c",
         "1548b0f7353544b4fc109ba7eb356daf5be4c657c5367fb63eb1e2ffdd09869a",
         "9b4df6f155b62834df09e43636c7e15c6b0d4168b72cb0fcc084a231297965da",
         "8cc444210b8da3829e6b4f3d66ed3b4d653e6bcc3432a581bcc192f85a9128aa",
@@ -1270,13 +1285,12 @@
         "60181a92a24d4cd6a8e97fb7f13eb73d33061050e3f034deb0f62e420812d1a3",
         "b9dec690beba9153499f1c5f49a822eb19e6b6d32d4921d90844262fe3ba3164",
         "2b7ee881570720934fdb000bcfe8d8717c6e147666bd156ca38931dd6cec2e80",
-        "48155c000909f798088361d1eb20a25145223185acf23c96a1c774d9338f2bd1",
-        "794391e6b936711d8511330d30f067543c9c4608eab9ae6927ceae995f293767"
+        "48155c000909f798088361d1eb20a25145223185acf23c96a1c774d9338f2bd1"
       ],
       "top_sources": [
         {
           "name": "theguardian.com",
-          "value": 73
+          "value": 74
         },
         {
           "name": "reliefweb.int",
@@ -1298,8 +1312,9 @@
     },
     {
       "name": "Global Institutions",
-      "count": 351,
+      "count": 352,
       "evidence_ids": [
+        "bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c",
         "9b4df6f155b62834df09e43636c7e15c6b0d4168b72cb0fcc084a231297965da",
         "c856d3ec038b0430cee895f339143e0814c2725382d60fb334603989be3e375c",
         "57d9ea3a4be9e1325d35bbfbe849da8d66d5c8e2fbdc1aa998bb7f8c999cebfc",
@@ -1310,8 +1325,7 @@
         "61ee0d0b9a2204ea4b9d4dd3073af3ec961ee264e3a088bc52c890c83bbf706f",
         "60181a92a24d4cd6a8e97fb7f13eb73d33061050e3f034deb0f62e420812d1a3",
         "b9dec690beba9153499f1c5f49a822eb19e6b6d32d4921d90844262fe3ba3164",
-        "7444a13e00246443ded9222592c9c00d2ac86b97c71e708fb12f1b1d04081e75",
-        "fa21b648e7959714a59751a8124dfc279a76f417723df2ea8f0cd3705321a76a"
+        "7444a13e00246443ded9222592c9c00d2ac86b97c71e708fb12f1b1d04081e75"
       ],
       "top_sources": [
         {
@@ -1320,7 +1334,7 @@
         },
         {
           "name": "theguardian.com",
-          "value": 52
+          "value": 53
         },
         {
           "name": "aljazeera.com",
@@ -1378,8 +1392,9 @@
     },
     {
       "name": "Indo-Pacific",
-      "count": 220,
+      "count": 221,
       "evidence_ids": [
+        "8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b",
         "e398e5bcc7e22f2bff2673966562b35d3975c9bce11b8a02d6b1205544bffcde",
         "6c9bc26b89fa2293eb8b499e3ea48922a5e7995fc77a96a35ed43f6bae05bb06",
         "8ea6823aff74d0b706af52cec00b57016a9899bea023ec2e79ed9b5dac646ad4",
@@ -1390,8 +1405,7 @@
         "2b7ee881570720934fdb000bcfe8d8717c6e147666bd156ca38931dd6cec2e80",
         "7a12c069798e96c505f164f9c9ed3f64bfe1e0b6e0b32a9d27ec77c1b3757628",
         "7444a13e00246443ded9222592c9c00d2ac86b97c71e708fb12f1b1d04081e75",
-        "57cb170839d7e10a56f0d4c3a00797461573e6511e7a28cf66473e79fb649f33",
-        "fa21b648e7959714a59751a8124dfc279a76f417723df2ea8f0cd3705321a76a"
+        "57cb170839d7e10a56f0d4c3a00797461573e6511e7a28cf66473e79fb649f33"
       ],
       "top_sources": [
         {
@@ -1400,7 +1414,7 @@
         },
         {
           "name": "theguardian.com",
-          "value": 31
+          "value": 32
         },
         {
           "name": "reliefweb.int",
@@ -2400,6 +2414,241 @@
     }
   ],
   "latest_evidence": [
+    {
+      "id": "8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b",
+      "topic": "geopolitics",
+      "title": "Middle East crisis live: Iran says no final peace agreement reached, after Trump claims deal could be signed soon",
+      "url": "https://www.theguardian.com/world/live/2026/jun/12/middle-east-crisis-live-us-iran-israel-lebanon-trump-hormuz-oil-peace-deal-doubt-latest-news-updates",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-12T07:16:52.027966+00:00",
+      "published": "Fri, 12 Jun 2026 07:02:25 GMT",
+      "text_chars": 4187,
+      "raw_path": "data/geopolitics/raw/8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b.html",
+      "text_path": "data/geopolitics/raw/8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b.txt",
+      "summary": "The price of oil rose after Trump threatened a “very hard” attack on Iran, but plunged hours later after he said he was cancelling the strikes. The deal, if confirmed, would be the most significant diplomatic breakthrough yet to end the three-month-old war, which has killed thousands and sent global energy prices sharply higher. A strike wounded 10 staff members of a hospital in the Lebanese city of Tyre on Thursday, the facility’s director told the AFP news agency, as Israeli raids continued in the country’s south.",
+      "bullets": [
+        "The price of oil rose after Trump threatened a “very hard” attack on Iran, but plunged hours later after he said he was cancelling the strikes.",
+        "The deal, if confirmed, would be the most significant diplomatic breakthrough yet to end the three-month-old war, which has killed thousands and sent global energy prices sharply higher.",
+        "A strike wounded 10 staff members of a hospital in the Lebanese city of Tyre on Thursday, the facility’s director told the AFP news agency, as Israeli raids continued in the country’s south.",
+        "But Iran’s foreign ministry spokesperson, Esmaeil Baghaei, has said that while large parts of the text under negotiation have been finalised, “a final conclusion” has not been reached.",
+        "Since mid-March, Trump has repeatedly claimed a deal with Iran to end the war was close, but no agreement has materialised."
+      ],
+      "excerpt": "Key events Summary: Iran contradicts Trump claim to be on verge of peace deal Hello and welcome to the Guardian’s continuing coverage of the crisis in the Middle East. Iran’s foreign ministry has contradicted claims from Donald Trump that a peace deal between Washington and Tehran could be signed as soon as this weekend. The deal, if confirmed, would be the most significant diplomatic breakthrough yet to end the three-month-old war, which has killed thousands and sent global energy prices sharply higher. But Iran’s foreign ministry spokesperson, Esmaeil Baghaei, has said that while large parts of the text under negotiation have been finalised, “a final conclusion” has not been reached. “This is a very important issue that is currently being reviewed by the relevant decision-making bodies,” Baghaei said, adding that Tehran would not compromise on its red lines. Trump told reporters at the White House: “We just made a great settlement of the war with Iran. “The strait will officially open as soon as we sign, which could be soon, very soon, maybe over the weekend in Europe,” he said, adding that vice-president JD Vance could sign for the US. Since mid-March, Trump has repeatedly claim",
+      "keywords": [
+        {
+          "name": "iran",
+          "value": 14
+        },
+        {
+          "name": "trump",
+          "value": 10
+        },
+        {
+          "name": "soon",
+          "value": 6
+        },
+        {
+          "name": "deal",
+          "value": 5
+        },
+        {
+          "name": "agreement",
+          "value": 4
+        },
+        {
+          "name": "bahrain",
+          "value": 4
+        },
+        {
+          "name": "final",
+          "value": 4
+        },
+        {
+          "name": "sign",
+          "value": 4
+        },
+        {
+          "name": "strait",
+          "value": 4
+        },
+        {
+          "name": "city",
+          "value": 3
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Territory and Chokepoints",
+        "Energy and Supply Chains"
+      ],
+      "regions": [
+        "Indo-Pacific",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b",
+      "evidence_json": "/evidence/8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b.json"
+    },
+    {
+      "id": "e6aab811b36fada3fe6cf3dd6f80804137596a2dac6eab00e4b05b637ce4ce7e",
+      "topic": "geopolitics",
+      "title": "UK economy shrank by 0.1% in April as Iran war held back growth",
+      "url": "https://www.theguardian.com/business/2026/jun/12/uk-economy-gdp-shrank-april-iran-war-held-back-growth",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-12T07:17:15.108083+00:00",
+      "published": "Fri, 12 Jun 2026 06:31:37 GMT",
+      "text_chars": 2565,
+      "raw_path": "data/geopolitics/raw/e6aab811b36fada3fe6cf3dd6f80804137596a2dac6eab00e4b05b637ce4ce7e.html",
+      "text_path": "data/geopolitics/raw/e6aab811b36fada3fe6cf3dd6f80804137596a2dac6eab00e4b05b637ce4ce7e.txt",
+      "summary": "As energy prices have risen as a result of the conflict, after Iran closed off the strait of Hormuz – a vital shipping route for global trade – the UK’s strong expansion in the first quarter slid into reverse. The UK economy contracted by 0.1% in April as the Iran war began to take its toll on growth, official figures show.",
+      "bullets": [
+        "As energy prices have risen as a result of the conflict, after Iran closed off the strait of Hormuz – a vital shipping route for global trade – the UK’s strong expansion in the first quarter slid into reverse.",
+        "The UK economy contracted by 0.1% in April as the Iran war began to take its toll on growth, official figures show.",
+        "While construction output was up over the month, that “came solely from an increase in repair and maintenance”, it said, with new work down 0.3% – despite Labour’s promise to “get Britain building” and its pledge to get 1.5m new homes built.",
+        "Over the three months to April – a longer-term perspective that tends to be less volatile – GDP growth was 0.7%, the ONS said.",
+        "Responding to the figures, she said: “Before the conflict in the Middle East, growth was higher than expected and inflation was falling."
+      ],
+      "excerpt": "The UK economy contracted by 0.1% in April as the Iran war began to take its toll on growth, official figures show. As energy prices have risen as a result of the conflict, after Iran closed off the strait of Hormuz – a vital shipping route for global trade – the UK’s strong expansion in the first quarter slid into reverse. The fall in gross domestic product in April, which had been expected by economists, followed a 0.3% increase in March, according to the Office for National Statistics. The data will underline fears that the UK economy will contract in the second quarter of the year. The chancellor, Rachel Reeves, has sought to argue that the economy was strong as it entered the crisis and has criticised Donald Trump’s “folly” in unleashing the conflict. Responding to the figures, she said: “Before the conflict in the Middle East, growth was higher than expected and inflation was falling. This is not a war we wanted or joined, but one that will have an impact at home.” She added: “The choices I have made as chancellor mean our economy is in a stronger position to deal with the costs of the war, and we are getting on with the job of building a stronger and more secure economy.” Th",
+      "keywords": [
+        {
+          "name": "economy",
+          "value": 8
+        },
+        {
+          "name": "april",
+          "value": 5
+        },
+        {
+          "name": "growth",
+          "value": 5
+        },
+        {
+          "name": "conflict",
+          "value": 4
+        },
+        {
+          "name": "energy",
+          "value": 3
+        },
+        {
+          "name": "higher",
+          "value": 3
+        },
+        {
+          "name": "inflation",
+          "value": 3
+        },
+        {
+          "name": "iran",
+          "value": 3
+        },
+        {
+          "name": "output",
+          "value": 3
+        },
+        {
+          "name": "quarter",
+          "value": 3
+        }
+      ],
+      "signals": [
+        "Energy and Supply Chains",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "detail_path": "/evidence/e6aab811b36fada3fe6cf3dd6f80804137596a2dac6eab00e4b05b637ce4ce7e",
+      "evidence_json": "/evidence/e6aab811b36fada3fe6cf3dd6f80804137596a2dac6eab00e4b05b637ce4ce7e.json"
+    },
+    {
+      "id": "bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c",
+      "topic": "geopolitics",
+      "title": "Video of visually impaired Palestinian boy crying over broken glasses draws global attention",
+      "url": "https://www.theguardian.com/world/2026/jun/12/video-visually-impaired-palestinian-boy-gaza-ayoub-junaid-crying-broken-glasses",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Video",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-12T07:16:57.207610+00:00",
+      "published": "Fri, 12 Jun 2026 04:00:37 GMT",
+      "text_chars": 6130,
+      "raw_path": "data/geopolitics/raw/bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c.html",
+      "text_path": "data/geopolitics/raw/bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c.txt",
+      "summary": "The footage of Ayoub Junaid has shone a light on the plight of the many visually impaired children in Gaza who, because of Israel’s blockade and the devastation caused by the war, have been unable to access eye examinations, corrective lenses or specialist ophthalmic surgery. Ayoub’s mother, Eman Junaid, 30, displaced in the Gaza City port area, tells the Guardian her son’s problem began when he was two.",
+      "bullets": [
+        "The footage of Ayoub Junaid has shone a light on the plight of the many visually impaired children in Gaza who, because of Israel’s blockade and the devastation caused by the war, have been unable to access eye examinations, corrective lenses or specialist ophthalmic surgery.",
+        "Ayoub’s mother, Eman Junaid, 30, displaced in the Gaza City port area, tells the Guardian her son’s problem began when he was two.",
+        "A doctor told Junaid that Ayoub’s vision would gradually improve as he got older, but the opposite happened – the prescription he required increased and the lenses he now needs are not available in Gaza.",
+        "The doctors warned the family not to let him engage in strenuous activities because any fall or blow could cause further damage to his retinas.",
+        "A video of a seven-year-old Palestinian boy in Gaza who suffers from a severe visual impairment crying over his shattered glasses has drawn widespread attention across social and international media."
+      ],
+      "excerpt": "A video of a seven-year-old Palestinian boy in Gaza who suffers from a severe visual impairment crying over his shattered glasses has drawn widespread attention across social and international media. The footage of Ayoub Junaid has shone a light on the plight of the many visually impaired children in Gaza who, because of Israel’s blockade and the devastation caused by the war, have been unable to access eye examinations, corrective lenses or specialist ophthalmic surgery. After the clip was viewed by tens of millions of people, Ayoub received a new pair of glasses. This good news, however, does not solve the underlying problem, as he urgently needs surgery. Ayoub’s mother, Eman Junaid, 30, displaced in the Gaza City port area, tells the Guardian her son’s problem began when he was two. “Ayoub suffers from very severe nearsightedness after having a fever illness,” she says. A doctor told Junaid that Ayoub’s vision would gradually improve as he got older, but the opposite happened – the prescription he required increased and the lenses he now needs are not available in Gaza. “We were preparing to travel for treatment, but the war started and everything stopped,” she adds. Ayoub holdi",
+      "keywords": [
+        {
+          "name": "glasses",
+          "value": 15
+        },
+        {
+          "name": "ayoub",
+          "value": 12
+        },
+        {
+          "name": "gaza",
+          "value": 11
+        },
+        {
+          "name": "children",
+          "value": 8
+        },
+        {
+          "name": "medical",
+          "value": 8
+        },
+        {
+          "name": "without",
+          "value": 6
+        },
+        {
+          "name": "around",
+          "value": 5
+        },
+        {
+          "name": "family",
+          "value": 5
+        },
+        {
+          "name": "junaid",
+          "value": 5
+        },
+        {
+          "name": "surgery",
+          "value": 5
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "War and Escalation",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Middle East",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c",
+      "evidence_json": "/evidence/bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c.json"
+    },
     {
       "id": "e398e5bcc7e22f2bff2673966562b35d3975c9bce11b8a02d6b1205544bffcde",
       "topic": "geopolitics",
@@ -8417,243 +8666,6 @@
       ],
       "detail_path": "/evidence/e7d0ff6750a57183234ea92d395ebff817d62bb7871e4b89cd5d57d8bf631984",
       "evidence_json": "/evidence/e7d0ff6750a57183234ea92d395ebff817d62bb7871e4b89cd5d57d8bf631984.json"
-    },
-    {
-      "id": "0bdcd3ec451bf3c28c4eebd7384ff3109cd2a86b36ac14766c411492eb4485df",
-      "topic": "geopolitics",
-      "title": "After FCAS demise, Germany’s options include ordering more F-35 warplanes",
-      "url": "https://www.defensenews.com/global/europe/2026/06/09/after-fcas-demise-germanys-options-include-ordering-more-f-35-warplanes/",
-      "host": "defensenews.com",
-      "source": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=utf-8",
-      "collected_at": "2026-06-09T16:29:48.369391+00:00",
-      "published": "Tue, 09 Jun 2026 15:39:53 +0000",
-      "text_chars": 2297,
-      "raw_path": "data/geopolitics/raw/0bdcd3ec451bf3c28c4eebd7384ff3109cd2a86b36ac14766c411492eb4485df.html",
-      "text_path": "data/geopolitics/raw/0bdcd3ec451bf3c28c4eebd7384ff3109cd2a86b36ac14766c411492eb4485df.txt",
-      "summary": "One option consists of buying additional stealthy F-35 jets from the United States on top of the 35 already ordered, he said on the sidelines of a meeting with his Czech counterpart, Jaromír Zůna, in Berlin. German news outlet Der Spiegel reported last October that plans were already in the works to purchase 15 such warplanes from the U.S., to the tune of almost $3 billion.",
-      "bullets": [
-        "One option consists of buying additional stealthy F-35 jets from the United States on top of the 35 already ordered, he said on the sidelines of a meeting with his Czech counterpart, Jaromír Zůna, in Berlin.",
-        "German news outlet Der Spiegel reported last October that plans were already in the works to purchase 15 such warplanes from the U.S., to the tune of almost $3 billion.",
-        "As the dust was still settling in Berlin from Monday’s bombshell news, Defense Minister Boris Pistorius outlined three options on Tuesday, plus a mysterious fourth path that he alluded to but left unexplained.",
-        "The second option entails Berlin getting involved in an existing international fighter program with sixth-generation features, Pistorius said.",
-        "Finally, Germany could start its own program, Pistorius said, “ under German leadership with Airbus and other partners.” He said German defense leaders had been talking with Airbus about feasible options “for months,” because the end of the FCAS program had been expected."
-      ],
-      "excerpt": "COLOGNE, Germany — German defense leaders will go back to the drawing board in their quest for a next-generation fighter jet following the end of the once-ambitious French-German-Spanish Future Combat Air System. As the dust was still settling in Berlin from Monday’s bombshell news, Defense Minister Boris Pistorius outlined three options on Tuesday, plus a mysterious fourth path that he alluded to but left unexplained. One option consists of buying additional stealthy F-35 jets from the United States on top of the 35 already ordered, he said on the sidelines of a meeting with his Czech counterpart, Jaromír Zůna, in Berlin. German news outlet Der Spiegel reported last October that plans were already in the works to purchase 15 such warplanes from the U.S., to the tune of almost $3 billion. Pistorius confirmed those plans are now on the table, saying they could be a “bridge” solution “or whatever” on the way to a next-generation weapon for Germany. The second option entails Berlin getting involved in an existing international fighter program with sixth-generation features, Pistorius said. Aside from a U.S. push to that end, the most obvious candidate for this path would be a British-",
-      "keywords": [
-        {
-          "name": "defense",
-          "value": 7
-        },
-        {
-          "name": "germany",
-          "value": 6
-        },
-        {
-          "name": "pistorius",
-          "value": 6
-        },
-        {
-          "name": "program",
-          "value": 5
-        },
-        {
-          "name": "berlin",
-          "value": 4
-        },
-        {
-          "name": "german",
-          "value": 4
-        },
-        {
-          "name": "leaders",
-          "value": 3
-        },
-        {
-          "name": "options",
-          "value": 3
-        },
-        {
-          "name": "airbus",
-          "value": 2
-        },
-        {
-          "name": "already",
-          "value": 2
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Americas",
-        "Indo-Pacific"
-      ],
-      "detail_path": "/evidence/0bdcd3ec451bf3c28c4eebd7384ff3109cd2a86b36ac14766c411492eb4485df",
-      "evidence_json": "/evidence/0bdcd3ec451bf3c28c4eebd7384ff3109cd2a86b36ac14766c411492eb4485df.json"
-    },
-    {
-      "id": "af1ab3abd4e0292681fbaf5d84d2cf2d3ec7ed4a48312abbfb725c27f431f16d",
-      "topic": "geopolitics",
-      "title": "Is Israel spying on US? Espionage among allies nothing new",
-      "url": "https://www.dw.com/en/is-israel-spying-on-us-espionage-among-allies-nothing-new/a-77475139?maca=en-rss-en-world-4025-rdf",
-      "host": "dw.com",
-      "source": "https://rss.dw.com/rdf/rss-en-world",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=utf-8",
-      "collected_at": "2026-06-10T07:02:56.474351+00:00",
-      "published": "2026-06-09T15:05:00Z",
-      "text_chars": 5765,
-      "raw_path": "data/geopolitics/raw/af1ab3abd4e0292681fbaf5d84d2cf2d3ec7ed4a48312abbfb725c27f431f16d.html",
-      "text_path": "data/geopolitics/raw/af1ab3abd4e0292681fbaf5d84d2cf2d3ec7ed4a48312abbfb725c27f431f16d.txt",
-      "summary": "Conversely, Israel has always been an interesting target for the National Security Agency's electronic surveillance, especially during all wars,\" he said. The US government has denied the reports; Israel has called them \"completely false.\" The reports are causing a stir in Washington, where Israel remains one of the closest partners for the United States, highlighting a decades-old issue: mutual distrust regarding intelligence activities carried out by strategic allies.",
-      "bullets": [
-        "Conversely, Israel has always been an interesting target for the National Security Agency's electronic surveillance, especially during all wars,\" he said.",
-        "The US government has denied the reports; Israel has called them \"completely false.\" The reports are causing a stir in Washington, where Israel remains one of the closest partners for the United States, highlighting a decades-old issue: mutual distrust regarding intelligence activities carried out by strategic allies.",
-        "When Pollard was allowed to leave for Israel in 2020, Prime Minister Benjamin Netanyahu personally greeted him at the airport.",
-        "In 2004, it became known that Lawrence Franklin, a political analyst at the US Department of Defense, had passed on confidential information about US policy toward Iran to Israel via the influential pro-Israel lobbying organization AIPAC.",
-        "The NSA in the US, and the Mossad in Israel have been spying on each other for decades Image: NSA/dpa/picture alliance Israeli espionage against the United States Probably the most prominent case of Israeli espionage in the United States to date is that of Jonathan Pollard in 1987."
-      ],
-      "excerpt": "Several media outlets report that an anonymous source from the US Defense Intelligence Agency (DIA) leaked internal information indicating that the Pentagon has elevated Israel to the highest category of counterintelligence threat. The change was reportedly made because Israel has significantly expanded intelligence activities against the United States. The US government has denied the reports; Israel has called them \"completely false.\" The reports are causing a stir in Washington, where Israel remains one of the closest partners for the United States, highlighting a decades-old issue: mutual distrust regarding intelligence activities carried out by strategic allies. Historic distrust In Germany, the news brings to mind a remark made by then Chancellor Angela Merkel in 2013 after it became known that the US National Security Agency (NSA) had been monitoring her cellphone: \" Spying on friends is never acceptable,\" Merkel said. Shortly thereafter, however, it became known that the German foreign intelligence service, the BND, had also been spying on allied countries, governments and institutions for decades. German intelligence expert Erich Schmidt-Eenboom said even friendly nations ",
-      "keywords": [
-        {
-          "name": "israel",
-          "value": 18
-        },
-        {
-          "name": "intelligence",
-          "value": 12
-        },
-        {
-          "name": "israeli",
-          "value": 6
-        },
-        {
-          "name": "states",
-          "value": 6
-        },
-        {
-          "name": "united",
-          "value": 6
-        },
-        {
-          "name": "documents",
-          "value": 5
-        },
-        {
-          "name": "espionage",
-          "value": 5
-        },
-        {
-          "name": "however",
-          "value": 5
-        },
-        {
-          "name": "information",
-          "value": 5
-        },
-        {
-          "name": "spying",
-          "value": 5
-        }
-      ],
-      "signals": [
-        "Diplomacy and Negotiations",
-        "War and Escalation",
-        "Nuclear and Strategic Risk",
-        "Territory and Chokepoints"
-      ],
-      "regions": [
-        "Americas",
-        "Middle East",
-        "Indo-Pacific"
-      ],
-      "detail_path": "/evidence/af1ab3abd4e0292681fbaf5d84d2cf2d3ec7ed4a48312abbfb725c27f431f16d",
-      "evidence_json": "/evidence/af1ab3abd4e0292681fbaf5d84d2cf2d3ec7ed4a48312abbfb725c27f431f16d.json"
-    },
-    {
-      "id": "d760992a5dc4f435044e654ad6ae78ae662f980851ce724b5453b7539373b5e5",
-      "topic": "geopolitics",
-      "title": "US-Israel: What are the allegations of espionage all about?",
-      "url": "https://www.dw.com/en/us-israel-what-are-the-allegations-of-espionage-all-about/a-77475139?maca=en-rss-en-world-4025-rdf",
-      "host": "dw.com",
-      "source": "https://rss.dw.com/rdf/rss-en-world",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=utf-8",
-      "collected_at": "2026-06-09T16:29:43.558340+00:00",
-      "published": "2026-06-09T15:05:00Z",
-      "text_chars": 5899,
-      "raw_path": "data/geopolitics/raw/d760992a5dc4f435044e654ad6ae78ae662f980851ce724b5453b7539373b5e5.html",
-      "text_path": "data/geopolitics/raw/d760992a5dc4f435044e654ad6ae78ae662f980851ce724b5453b7539373b5e5.txt",
-      "summary": "Conversely, Israel has always been an interesting target for the National Security Agency's electronic surveillance, especially during all wars,\" he said. When Pollard was allowed to leave for Israel in 2020, Prime Minister Benjamin Netanyahu personally greeted him at the airport. In 2004, it became known that Lawrence Franklin, a political analyst at the US Department of Defense, had passed on confidential information about US policy toward Iran to Israel via the influential pro-Israel lobbying organization AIPAC.",
-      "bullets": [
-        "Conversely, Israel has always been an interesting target for the National Security Agency's electronic surveillance, especially during all wars,\" he said.",
-        "When Pollard was allowed to leave for Israel in 2020, Prime Minister Benjamin Netanyahu personally greeted him at the airport.",
-        "In 2004, it became known that Lawrence Franklin, a political analyst at the US Department of Defense, had passed on confidential information about US policy toward Iran to Israel via the influential pro-Israel lobbying organization AIPAC.",
-        "The NSA in the US, and the Mossad in Israel have been spying on each other for decades Image: NSA/dpa/picture alliance Israeli espionage against the United States Probably the most prominent case of Israeli espionage in the United States to date is that of Jonathan Pollard in 1987.",
-        "Officially, Washington has denounced the reports, and Israel has dismissed the allegations as \"completely false.\" However, the allegations are still causing a stir in Washington as Israel is considered one of the closest partners of the US."
-      ],
-      "excerpt": "Several US media outlets report that an anonymous source from the US Defense Intelligence Agency (DIA) leaked internal information indicating that the Pentagon has elevated Israel to the highest category of counterintelligence threat. The change was reportedly made due to significantly expanded intelligence activities against the US. Officially, Washington has denounced the reports, and Israel has dismissed the allegations as \"completely false.\" However, the allegations are still causing a stir in Washington as Israel is considered one of the closest partners of the US. At the same time, these reports highlight a decades-old issue: mutual distrust regarding intelligence activities carried out by strategic allies. Ultimately, though, the real cause could be something entirely different. Historic distrust In Germany, the news brings to mind a remark made by then-Chancellor Angela Merkel in 2013 after it became known that the US National Security Agency (NSA) had been monitoring her cell phone: \" Spying on friends is never acceptable,\" Merkel said at the time. Shortly thereafter, however, it became known that the German foreign intelligence service, the BND, had also been spying on al",
-      "keywords": [
-        {
-          "name": "israel",
-          "value": 16
-        },
-        {
-          "name": "intelligence",
-          "value": 12
-        },
-        {
-          "name": "however",
-          "value": 6
-        },
-        {
-          "name": "israeli",
-          "value": 6
-        },
-        {
-          "name": "documents",
-          "value": 5
-        },
-        {
-          "name": "espionage",
-          "value": 5
-        },
-        {
-          "name": "information",
-          "value": 5
-        },
-        {
-          "name": "became",
-          "value": 4
-        },
-        {
-          "name": "pollard",
-          "value": 4
-        },
-        {
-          "name": "snowden",
-          "value": 4
-        }
-      ],
-      "signals": [
-        "Diplomacy and Negotiations",
-        "War and Escalation",
-        "Nuclear and Strategic Risk",
-        "Territory and Chokepoints"
-      ],
-      "regions": [
-        "Americas",
-        "Middle East",
-        "Indo-Pacific"
-      ],
-      "detail_path": "/evidence/d760992a5dc4f435044e654ad6ae78ae662f980851ce724b5453b7539373b5e5",
-      "evidence_json": "/evidence/d760992a5dc4f435044e654ad6ae78ae662f980851ce724b5453b7539373b5e5.json"
     }
   ],
   "deep_reads": [
@@ -8747,7 +8759,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-12T02:41:30.266486+00:00",
+      "collected_at": "2026-06-12T07:16:36.714537+00:00",
       "published": "",
       "text_chars": 9080594,
       "raw_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.xml",
@@ -9627,7 +9639,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-12T02:40:51.134796+00:00",
+      "collected_at": "2026-06-12T07:16:01.581989+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -9702,7 +9714,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-12T02:40:51.445720+00:00",
+      "collected_at": "2026-06-12T07:16:01.835487+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -10892,87 +10904,6 @@
   ],
   "documents": [
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-12T02:41:38.865224+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -10982,7 +10913,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-12T02:41:33.704291+00:00",
+      "collected_at": "2026-06-12T07:16:51.733459+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -11054,74 +10985,85 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
       "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-12T02:41:32.410599+00:00",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-12T07:16:43.539816+00:00",
       "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
       "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
       ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
       "keywords": [
         {
-          "name": "admin",
-          "value": 2
+          "name": "power",
+          "value": 596
         },
         {
-          "name": "areas",
-          "value": 2
+          "name": "convention",
+          "value": 551
         },
         {
-          "name": "disputed",
-          "value": 2
+          "name": "prisoners",
+          "value": 512
         },
         {
-          "name": "naciscdn",
-          "value": 2
+          "name": "parties",
+          "value": 284
         },
         {
-          "name": "application",
-          "value": 1
+          "name": "conflict",
+          "value": 267
         },
         {
-          "name": "binary",
-          "value": 1
+          "name": "detaining",
+          "value": 266
         },
         {
-          "name": "bytes",
-          "value": 1
+          "name": "medical",
+          "value": 249
         },
         {
-          "name": "collected",
-          "value": 1
+          "name": "provisions",
+          "value": 209
         },
         {
-          "name": "content-type",
-          "value": 1
+          "name": "powers",
+          "value": 205
         },
         {
-          "name": "cultural",
-          "value": 1
+          "name": "geneva",
+          "value": 201
         }
       ],
       "signals": [
-        "Territory and Chokepoints"
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
       ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
       "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
@@ -11133,7 +11075,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-12T02:41:32.375901+00:00",
+      "collected_at": "2026-06-12T07:16:38.574159+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
@@ -11197,6 +11139,76 @@
       "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
     },
     {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-12T07:16:38.547022+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -11206,7 +11218,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-12T02:41:32.357438+00:00",
+      "collected_at": "2026-06-12T07:16:38.525896+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11287,7 +11299,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-12T02:41:30.266486+00:00",
+      "collected_at": "2026-06-12T07:16:36.714537+00:00",
       "published": "",
       "text_chars": 9080594,
       "raw_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.xml",
@@ -11367,7 +11379,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-12T02:40:56.023393+00:00",
+      "collected_at": "2026-06-12T07:16:05.569131+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/fea7d9571ff7ca2efb3238e0492a555dedb78bd63fbcf1aab057cb00127447d0.xml",
@@ -11447,7 +11459,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-12T02:40:53.799526+00:00",
+      "collected_at": "2026-06-12T07:16:04.443112+00:00",
       "published": "",
       "text_chars": 824644,
       "raw_path": "data/geopolitics/raw/bec087eadb9ef9d96d7ff41d900bc505a024b6bb6db68234894d82098465289d.xml",
@@ -11527,7 +11539,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-12T02:40:51.445720+00:00",
+      "collected_at": "2026-06-12T07:16:01.835487+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -11604,7 +11616,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-12T02:40:51.134796+00:00",
+      "collected_at": "2026-06-12T07:16:01.581989+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -15444,87 +15456,6 @@
   "cited_evidence": [],
   "evidence": [
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-12T02:41:38.865224+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -15534,7 +15465,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-12T02:41:33.704291+00:00",
+      "collected_at": "2026-06-12T07:16:51.733459+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15606,74 +15537,85 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
       "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-12T02:41:32.410599+00:00",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-12T07:16:43.539816+00:00",
       "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
       "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
       ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
       "keywords": [
         {
-          "name": "admin",
-          "value": 2
+          "name": "power",
+          "value": 596
         },
         {
-          "name": "areas",
-          "value": 2
+          "name": "convention",
+          "value": 551
         },
         {
-          "name": "disputed",
-          "value": 2
+          "name": "prisoners",
+          "value": 512
         },
         {
-          "name": "naciscdn",
-          "value": 2
+          "name": "parties",
+          "value": 284
         },
         {
-          "name": "application",
-          "value": 1
+          "name": "conflict",
+          "value": 267
         },
         {
-          "name": "binary",
-          "value": 1
+          "name": "detaining",
+          "value": 266
         },
         {
-          "name": "bytes",
-          "value": 1
+          "name": "medical",
+          "value": 249
         },
         {
-          "name": "collected",
-          "value": 1
+          "name": "provisions",
+          "value": 209
         },
         {
-          "name": "content-type",
-          "value": 1
+          "name": "powers",
+          "value": 205
         },
         {
-          "name": "cultural",
-          "value": 1
+          "name": "geneva",
+          "value": 201
         }
       ],
       "signals": [
-        "Territory and Chokepoints"
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
       ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
       "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
@@ -15685,7 +15627,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-12T02:41:32.375901+00:00",
+      "collected_at": "2026-06-12T07:16:38.574159+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
@@ -15749,6 +15691,76 @@
       "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
     },
     {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-12T07:16:38.547022+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -15758,7 +15770,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-12T02:41:32.357438+00:00",
+      "collected_at": "2026-06-12T07:16:38.525896+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15839,7 +15851,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-12T02:41:30.266486+00:00",
+      "collected_at": "2026-06-12T07:16:36.714537+00:00",
       "published": "",
       "text_chars": 9080594,
       "raw_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.xml",
@@ -15919,7 +15931,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-12T02:40:56.023393+00:00",
+      "collected_at": "2026-06-12T07:16:05.569131+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/fea7d9571ff7ca2efb3238e0492a555dedb78bd63fbcf1aab057cb00127447d0.xml",
@@ -15999,7 +16011,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-12T02:40:53.799526+00:00",
+      "collected_at": "2026-06-12T07:16:04.443112+00:00",
       "published": "",
       "text_chars": 824644,
       "raw_path": "data/geopolitics/raw/bec087eadb9ef9d96d7ff41d900bc505a024b6bb6db68234894d82098465289d.xml",
@@ -16079,7 +16091,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-12T02:40:51.445720+00:00",
+      "collected_at": "2026-06-12T07:16:01.835487+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -16156,7 +16168,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-12T02:40:51.134796+00:00",
+      "collected_at": "2026-06-12T07:16:01.581989+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -16220,6 +16232,241 @@
       ],
       "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
       "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
+    },
+    {
+      "id": "8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b",
+      "topic": "geopolitics",
+      "title": "Middle East crisis live: Iran says no final peace agreement reached, after Trump claims deal could be signed soon",
+      "url": "https://www.theguardian.com/world/live/2026/jun/12/middle-east-crisis-live-us-iran-israel-lebanon-trump-hormuz-oil-peace-deal-doubt-latest-news-updates",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-12T07:16:52.027966+00:00",
+      "published": "Fri, 12 Jun 2026 07:02:25 GMT",
+      "text_chars": 4187,
+      "raw_path": "data/geopolitics/raw/8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b.html",
+      "text_path": "data/geopolitics/raw/8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b.txt",
+      "summary": "The price of oil rose after Trump threatened a “very hard” attack on Iran, but plunged hours later after he said he was cancelling the strikes. The deal, if confirmed, would be the most significant diplomatic breakthrough yet to end the three-month-old war, which has killed thousands and sent global energy prices sharply higher. A strike wounded 10 staff members of a hospital in the Lebanese city of Tyre on Thursday, the facility’s director told the AFP news agency, as Israeli raids continued in the country’s south.",
+      "bullets": [
+        "The price of oil rose after Trump threatened a “very hard” attack on Iran, but plunged hours later after he said he was cancelling the strikes.",
+        "The deal, if confirmed, would be the most significant diplomatic breakthrough yet to end the three-month-old war, which has killed thousands and sent global energy prices sharply higher.",
+        "A strike wounded 10 staff members of a hospital in the Lebanese city of Tyre on Thursday, the facility’s director told the AFP news agency, as Israeli raids continued in the country’s south.",
+        "But Iran’s foreign ministry spokesperson, Esmaeil Baghaei, has said that while large parts of the text under negotiation have been finalised, “a final conclusion” has not been reached.",
+        "Since mid-March, Trump has repeatedly claimed a deal with Iran to end the war was close, but no agreement has materialised."
+      ],
+      "excerpt": "Key events Summary: Iran contradicts Trump claim to be on verge of peace deal Hello and welcome to the Guardian’s continuing coverage of the crisis in the Middle East. Iran’s foreign ministry has contradicted claims from Donald Trump that a peace deal between Washington and Tehran could be signed as soon as this weekend. The deal, if confirmed, would be the most significant diplomatic breakthrough yet to end the three-month-old war, which has killed thousands and sent global energy prices sharply higher. But Iran’s foreign ministry spokesperson, Esmaeil Baghaei, has said that while large parts of the text under negotiation have been finalised, “a final conclusion” has not been reached. “This is a very important issue that is currently being reviewed by the relevant decision-making bodies,” Baghaei said, adding that Tehran would not compromise on its red lines. Trump told reporters at the White House: “We just made a great settlement of the war with Iran. “The strait will officially open as soon as we sign, which could be soon, very soon, maybe over the weekend in Europe,” he said, adding that vice-president JD Vance could sign for the US. Since mid-March, Trump has repeatedly claim",
+      "keywords": [
+        {
+          "name": "iran",
+          "value": 14
+        },
+        {
+          "name": "trump",
+          "value": 10
+        },
+        {
+          "name": "soon",
+          "value": 6
+        },
+        {
+          "name": "deal",
+          "value": 5
+        },
+        {
+          "name": "agreement",
+          "value": 4
+        },
+        {
+          "name": "bahrain",
+          "value": 4
+        },
+        {
+          "name": "final",
+          "value": 4
+        },
+        {
+          "name": "sign",
+          "value": 4
+        },
+        {
+          "name": "strait",
+          "value": 4
+        },
+        {
+          "name": "city",
+          "value": 3
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Territory and Chokepoints",
+        "Energy and Supply Chains"
+      ],
+      "regions": [
+        "Indo-Pacific",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b",
+      "evidence_json": "/evidence/8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b.json"
+    },
+    {
+      "id": "e6aab811b36fada3fe6cf3dd6f80804137596a2dac6eab00e4b05b637ce4ce7e",
+      "topic": "geopolitics",
+      "title": "UK economy shrank by 0.1% in April as Iran war held back growth",
+      "url": "https://www.theguardian.com/business/2026/jun/12/uk-economy-gdp-shrank-april-iran-war-held-back-growth",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-12T07:17:15.108083+00:00",
+      "published": "Fri, 12 Jun 2026 06:31:37 GMT",
+      "text_chars": 2565,
+      "raw_path": "data/geopolitics/raw/e6aab811b36fada3fe6cf3dd6f80804137596a2dac6eab00e4b05b637ce4ce7e.html",
+      "text_path": "data/geopolitics/raw/e6aab811b36fada3fe6cf3dd6f80804137596a2dac6eab00e4b05b637ce4ce7e.txt",
+      "summary": "As energy prices have risen as a result of the conflict, after Iran closed off the strait of Hormuz – a vital shipping route for global trade – the UK’s strong expansion in the first quarter slid into reverse. The UK economy contracted by 0.1% in April as the Iran war began to take its toll on growth, official figures show.",
+      "bullets": [
+        "As energy prices have risen as a result of the conflict, after Iran closed off the strait of Hormuz – a vital shipping route for global trade – the UK’s strong expansion in the first quarter slid into reverse.",
+        "The UK economy contracted by 0.1% in April as the Iran war began to take its toll on growth, official figures show.",
+        "While construction output was up over the month, that “came solely from an increase in repair and maintenance”, it said, with new work down 0.3% – despite Labour’s promise to “get Britain building” and its pledge to get 1.5m new homes built.",
+        "Over the three months to April – a longer-term perspective that tends to be less volatile – GDP growth was 0.7%, the ONS said.",
+        "Responding to the figures, she said: “Before the conflict in the Middle East, growth was higher than expected and inflation was falling."
+      ],
+      "excerpt": "The UK economy contracted by 0.1% in April as the Iran war began to take its toll on growth, official figures show. As energy prices have risen as a result of the conflict, after Iran closed off the strait of Hormuz – a vital shipping route for global trade – the UK’s strong expansion in the first quarter slid into reverse. The fall in gross domestic product in April, which had been expected by economists, followed a 0.3% increase in March, according to the Office for National Statistics. The data will underline fears that the UK economy will contract in the second quarter of the year. The chancellor, Rachel Reeves, has sought to argue that the economy was strong as it entered the crisis and has criticised Donald Trump’s “folly” in unleashing the conflict. Responding to the figures, she said: “Before the conflict in the Middle East, growth was higher than expected and inflation was falling. This is not a war we wanted or joined, but one that will have an impact at home.” She added: “The choices I have made as chancellor mean our economy is in a stronger position to deal with the costs of the war, and we are getting on with the job of building a stronger and more secure economy.” Th",
+      "keywords": [
+        {
+          "name": "economy",
+          "value": 8
+        },
+        {
+          "name": "april",
+          "value": 5
+        },
+        {
+          "name": "growth",
+          "value": 5
+        },
+        {
+          "name": "conflict",
+          "value": 4
+        },
+        {
+          "name": "energy",
+          "value": 3
+        },
+        {
+          "name": "higher",
+          "value": 3
+        },
+        {
+          "name": "inflation",
+          "value": 3
+        },
+        {
+          "name": "iran",
+          "value": 3
+        },
+        {
+          "name": "output",
+          "value": 3
+        },
+        {
+          "name": "quarter",
+          "value": 3
+        }
+      ],
+      "signals": [
+        "Energy and Supply Chains",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "detail_path": "/evidence/e6aab811b36fada3fe6cf3dd6f80804137596a2dac6eab00e4b05b637ce4ce7e",
+      "evidence_json": "/evidence/e6aab811b36fada3fe6cf3dd6f80804137596a2dac6eab00e4b05b637ce4ce7e.json"
+    },
+    {
+      "id": "bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c",
+      "topic": "geopolitics",
+      "title": "Video of visually impaired Palestinian boy crying over broken glasses draws global attention",
+      "url": "https://www.theguardian.com/world/2026/jun/12/video-visually-impaired-palestinian-boy-gaza-ayoub-junaid-crying-broken-glasses",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Video",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-12T07:16:57.207610+00:00",
+      "published": "Fri, 12 Jun 2026 04:00:37 GMT",
+      "text_chars": 6130,
+      "raw_path": "data/geopolitics/raw/bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c.html",
+      "text_path": "data/geopolitics/raw/bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c.txt",
+      "summary": "The footage of Ayoub Junaid has shone a light on the plight of the many visually impaired children in Gaza who, because of Israel’s blockade and the devastation caused by the war, have been unable to access eye examinations, corrective lenses or specialist ophthalmic surgery. Ayoub’s mother, Eman Junaid, 30, displaced in the Gaza City port area, tells the Guardian her son’s problem began when he was two.",
+      "bullets": [
+        "The footage of Ayoub Junaid has shone a light on the plight of the many visually impaired children in Gaza who, because of Israel’s blockade and the devastation caused by the war, have been unable to access eye examinations, corrective lenses or specialist ophthalmic surgery.",
+        "Ayoub’s mother, Eman Junaid, 30, displaced in the Gaza City port area, tells the Guardian her son’s problem began when he was two.",
+        "A doctor told Junaid that Ayoub’s vision would gradually improve as he got older, but the opposite happened – the prescription he required increased and the lenses he now needs are not available in Gaza.",
+        "The doctors warned the family not to let him engage in strenuous activities because any fall or blow could cause further damage to his retinas.",
+        "A video of a seven-year-old Palestinian boy in Gaza who suffers from a severe visual impairment crying over his shattered glasses has drawn widespread attention across social and international media."
+      ],
+      "excerpt": "A video of a seven-year-old Palestinian boy in Gaza who suffers from a severe visual impairment crying over his shattered glasses has drawn widespread attention across social and international media. The footage of Ayoub Junaid has shone a light on the plight of the many visually impaired children in Gaza who, because of Israel’s blockade and the devastation caused by the war, have been unable to access eye examinations, corrective lenses or specialist ophthalmic surgery. After the clip was viewed by tens of millions of people, Ayoub received a new pair of glasses. This good news, however, does not solve the underlying problem, as he urgently needs surgery. Ayoub’s mother, Eman Junaid, 30, displaced in the Gaza City port area, tells the Guardian her son’s problem began when he was two. “Ayoub suffers from very severe nearsightedness after having a fever illness,” she says. A doctor told Junaid that Ayoub’s vision would gradually improve as he got older, but the opposite happened – the prescription he required increased and the lenses he now needs are not available in Gaza. “We were preparing to travel for treatment, but the war started and everything stopped,” she adds. Ayoub holdi",
+      "keywords": [
+        {
+          "name": "glasses",
+          "value": 15
+        },
+        {
+          "name": "ayoub",
+          "value": 12
+        },
+        {
+          "name": "gaza",
+          "value": 11
+        },
+        {
+          "name": "children",
+          "value": 8
+        },
+        {
+          "name": "medical",
+          "value": 8
+        },
+        {
+          "name": "without",
+          "value": 6
+        },
+        {
+          "name": "around",
+          "value": 5
+        },
+        {
+          "name": "family",
+          "value": 5
+        },
+        {
+          "name": "junaid",
+          "value": 5
+        },
+        {
+          "name": "surgery",
+          "value": 5
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "War and Escalation",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Middle East",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c",
+      "evidence_json": "/evidence/bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c.json"
     },
     {
       "id": "e398e5bcc7e22f2bff2673966562b35d3975c9bce11b8a02d6b1205544bffcde",
