@@ -1,86 +1,108 @@
 {
-  "generated_at": "2026-06-13T19:12:02.566379+00:00",
+  "generated_at": "2026-06-13T21:06:31.071528+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating tensions in the Middle East and Europe signal a critical juncture in global geopolitics.",
+    "headline": "Escalating tensions in the Middle East and Europe highlight urgent humanitarian and geopolitical challenges.",
     "executive_summary": [
-      "Recent developments in the Middle East highlight a significant escalation in hostilities, particularly in Lebanon, where airstrikes and displacement orders have resulted in thousands of casualties and widespread humanitarian crises. As of June 11, 2026, at least 3,711 deaths and 11,483 injuries have been reported, with over 134,800 internally displaced persons registered in collective shelters, indicating a dire need for humanitarian assistance (evidence id: 14).",
-      "In parallel, the geopolitical landscape is shifting with the United States planning to reduce its military presence in Europe, which could impact NATO's operational capabilities. Reports suggest a significant cut in the number of aircraft and warships available for NATO operations, raising concerns about the alliance's readiness in the face of ongoing threats (evidence id: 20).",
-      "Diplomatic efforts are underway to address the escalating violence in Gaza, with Palestinian and Israeli civil society groups urging G7 leaders to take decisive action to enforce a ceasefire and promote reconstruction efforts. The urgency of these discussions is underscored by the deteriorating humanitarian situation in Gaza, where the potential for a two-state solution is increasingly at risk (evidence id: 17).",
-      "The interplay of military actions, diplomatic negotiations, and humanitarian pressures across these regions underscores the complexity of current geopolitical dynamics, necessitating close monitoring of developments as they unfold."
+      "Recent developments in the Middle East, particularly in Lebanon, have seen a significant escalation of hostilities, resulting in thousands of casualties and widespread displacement. As of June 11, 2026, at least 3,711 deaths and 11,483 injuries have been reported since March, with over 134,800 internally displaced persons registered in collective shelters. The humanitarian situation is deteriorating, with hospitals being damaged and healthcare access severely impacted (evidence ids: 15, 16, 25).",
+      "In the context of ongoing US-Iran negotiations, President Trump has oscillated between threats of military action and claims of nearing a peace deal, causing fluctuations in global oil prices. The potential reopening of the Strait of Hormuz could significantly affect energy supply chains, with oil prices recently dropping as optimism about a deal increased (evidence ids: 17, 27).",
+      "The geopolitical landscape in Europe is also shifting, with the US planning to reduce its military presence in NATO operations, which may affect the alliance's long-term strategic capabilities. This decision reflects a broader trend of European nations increasing their defense spending and capabilities, potentially altering the balance of responsibility within NATO (evidence ids: 21).",
+      "Civil society groups in Israel and Palestine are urging G7 leaders to take decisive action to support a two-state solution, emphasizing the urgent need for a ceasefire and reconstruction efforts in Gaza. The ongoing violence and settlement expansion continue to undermine peace prospects, highlighting the critical role of international diplomacy in resolving the conflict (evidence ids: 18, 10)."
     ],
     "key_judgments": [
       {
-        "title": "Escalation of Hostilities in Lebanon",
-        "finding": "The ongoing conflict in Lebanon has resulted in significant civilian casualties and displacement, with urgent humanitarian needs emerging.",
+        "title": "Humanitarian Crisis in Lebanon",
+        "finding": "The ongoing hostilities in Lebanon have resulted in significant civilian casualties and displacement, with critical damage to healthcare facilities.",
         "citations": [
-          "14"
+          "15",
+          "16",
+          "25"
         ]
       },
       {
-        "title": "US Military Reductions in Europe",
-        "finding": "The planned reduction of US military assets in Europe could weaken NATO's operational capabilities and readiness.",
+        "title": "US-Iran Negotiations Impact on Oil Markets",
+        "finding": "President Trump's fluctuating rhetoric regarding US-Iran negotiations is causing volatility in global oil prices, with potential implications for energy supply chains.",
         "citations": [
-          "20"
+          "17",
+          "27"
         ]
       },
       {
-        "title": "Urgent Diplomatic Efforts in Gaza",
-        "finding": "Civil society groups are calling for immediate action from G7 leaders to address the humanitarian crisis and promote peace in Gaza.",
+        "title": "US Military Reductions in NATO",
+        "finding": "The planned reduction of US military assets in NATO operations may weaken the alliance's operational capabilities and shift defense responsibilities to European nations.",
         "citations": [
-          "17"
+          "21"
+        ]
+      },
+      {
+        "title": "Call for G7 Action on Israeli-Palestinian Conflict",
+        "finding": "Civil society groups are pressing for G7 intervention to support peace efforts in the Israeli-Palestinian conflict, emphasizing the urgency of addressing humanitarian needs.",
+        "citations": [
+          "18",
+          "10"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The Middle East is experiencing heightened tensions, particularly in Lebanon and Gaza, with significant humanitarian implications.",
+        "assessment": "The Middle East is experiencing heightened tensions and humanitarian crises, particularly in Lebanon and Gaza, necessitating urgent international attention and intervention.",
         "citations": [
-          "14",
-          "17"
+          "15",
+          "18",
+          "10"
         ]
       },
       {
         "region": "Europe and Russia",
-        "assessment": "The reduction of US military support in Europe poses risks to NATO's collective defense posture amid ongoing threats.",
+        "assessment": "Europe faces strategic shifts as the US reduces its military commitments to NATO, prompting European nations to enhance their defense capabilities amidst ongoing geopolitical challenges.",
         "citations": [
-          "20"
+          "21"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "Lebanon Conflict",
-        "why_it_matters": "The humanitarian crisis in Lebanon is escalating, with thousands displaced and in need of assistance, which could destabilize the region further.",
+        "label": "Lebanon Hostilities",
+        "why_it_matters": "Continued violence in Lebanon poses a significant humanitarian crisis, with potential regional implications for stability and security.",
         "citations": [
-          "14"
+          "15",
+          "16"
         ]
       },
       {
-        "label": "US-NATO Relations",
-        "why_it_matters": "Changes in US military commitments to NATO could affect the alliance's ability to respond to threats, particularly from Russia.",
+        "label": "US-Iran Relations",
+        "why_it_matters": "The outcome of US-Iran negotiations could drastically affect global oil markets and regional security dynamics.",
         "citations": [
-          "20"
+          "17",
+          "27"
         ]
       },
       {
-        "label": "Gaza Reconstruction Efforts",
-        "why_it_matters": "The potential for a two-state solution is at risk, and failure to address the humanitarian situation in Gaza could lead to further violence.",
+        "label": "NATO Military Readiness",
+        "why_it_matters": "Reductions in US military support for NATO could impact the alliance's ability to respond to threats, altering the security landscape in Europe.",
         "citations": [
-          "17"
+          "21"
+        ]
+      },
+      {
+        "label": "Israeli-Palestinian Peace Efforts",
+        "why_it_matters": "The lack of progress in peace negotiations and ongoing violence threaten regional stability and humanitarian conditions.",
+        "citations": [
+          "18",
+          "10"
         ]
       }
     ],
     "caveats": [
-      "Limitations from source coverage may affect the comprehensiveness of the analysis."
+      "Limitations from source coverage"
     ]
   },
   "summary": {
-    "raw_documents": 956,
-    "total_text_chars": 155436381,
+    "raw_documents": 957,
+    "total_text_chars": 155440666,
     "sources": 32,
     "signals": 8,
     "regions": 6,
@@ -91,7 +113,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 690
+      "value": 691
     },
     {
       "name": "PDF",
@@ -125,7 +147,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 660
+      "value": 661
     },
     {
       "name": "pdfs",
@@ -211,7 +233,7 @@
     },
     {
       "name": "npr.org",
-      "value": 28
+      "value": 29
     },
     {
       "name": "euronews.com",
@@ -293,7 +315,7 @@
     },
     {
       "name": "iran",
-      "value": 2803
+      "value": 2809
     },
     {
       "name": "humanitarian",
@@ -321,7 +343,7 @@
     },
     {
       "name": "trump",
-      "value": 1545
+      "value": 1554
     },
     {
       "name": "ukraine",
@@ -361,7 +383,7 @@
     },
     {
       "name": "security",
-      "value": 879
+      "value": 885
     },
     {
       "name": "funding",
@@ -471,11 +493,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 636,
+      "count": 637,
       "formats": [
         {
           "name": "Article",
-          "value": 524
+          "value": 525
         },
         {
           "name": "PDF",
@@ -496,6 +518,7 @@
       ],
       "evidence_ids": [
         "4d268bb4b9abaaf60cc41739ee01211eb12ae246583366d7659f77a55fcc2217",
+        "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
         "9abbcfbba6571b1371a01122efdff13a8b441b20e4c58f4923967361d5e53686",
         "7e80e78028bec57f7a82233cf38b51371e9bf79a3efd72703a006130c7650d4f",
         "3c16e08a8f73b1ff33ee61bc5f1ca4dcd81b8495ffe083fc92be03116f95e262",
@@ -503,10 +526,9 @@
         "ab8d9673debbbfa6239f2cd7622b9c34dc7e94046541d653d84dbf9754771e2e",
         "fad3e1ea733420a0f42a871372089d32d9fec52c420b67b256fd4b4ec5f6c869",
         "09e5695fa3e5cab45f23fa887b0052325e1aac18408ac4931c5d1039871448a5",
-        "c33cec3aaccc5c57a9fe6d31477c109e15c6a96cbbdf6d30ebad40c24dffc700",
-        "3d53956b24413513a619ba5ee2ab8e7eb3e933ecf9bc7595fbacba3703022b1e"
+        "c33cec3aaccc5c57a9fe6d31477c109e15c6a96cbbdf6d30ebad40c24dffc700"
       ],
-      "summary": "The event comes as settler violence in the West Bank has reached unprecedented levels, and as a coalition of western countries – including the UK, France, Canada, Germany and Italy – have called for an end to the construction of Israeli settlements it says breach international law. Civil society organisations have said the event normalises illegal settlements by marketing them alongside properties in Israeli cities, and called on government to stop trade and investment enabling “unlawful occupation”. He later spoke explicitly of European “civilizational suicide.” Some might argue that the United States under Trump does not fully qualify as a civilization-state in the sense that China, India, and Russia fit the designation. Under President Donald Trump’s second term, the language of strategy has given way to a heightened language of civilization: warnings of “civilizational erasure” in Europe, invocations of a “ Judeo-Christian ” heritage under siege, and threats to Iran destroy the Iranian civilization. Authorities in Canada are investigating whether the killing of a Toronto police officer while he was executing search warrants related to a shooting at the city’s US consulate is linked a broader series of global terror attacks. The source said investigators were also looking at the possibility that the case was linked to a global terror network that has threatened retribution for US attacks on Iran. SITUATION OVERVIEW Despite the extension of the ceasefire announced last week, Lebanon continues to experience new waves of displacement driven by insecurity – airstrikes, shelling and displacement orders across broad swaths of southern Lebanon. HIGHLIGHT Hostilities continued with airstrikes and three renewed displacement orders covering six localities across the South and Nabatieh Governorates triggering additional displacement.",
+      "summary": "The event comes as settler violence in the West Bank has reached unprecedented levels, and as a coalition of western countries – including the UK, France, Canada, Germany and Italy – have called for an end to the construction of Israeli settlements it says breach international law. Civil society organisations have said the event normalises illegal settlements by marketing them alongside properties in Israeli cities, and called on government to stop trade and investment enabling “unlawful occupation”. President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions. and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S. Constanze Stelzenmuller, a trans-Atlantic security expert at the Brookings Institution, said leaders will carry that lesson into any meetings with President Trump at the summit. He later spoke explicitly of European “civilizational suicide.” Some might argue that the United States under Trump does not fully qualify as a civilization-state in the sense that China, India, and Russia fit the designation. Under President Donald Trump’s second term, the language of strategy has given way to a heightened language of civilization: warnings of “civilizational erasure” in Europe, invocations of a “ Judeo-Christian ” heritage under siege, and threats to Iran destroy the Iranian civilization. Authorities in Canada are investigating whether the killing of a Toronto police officer while he was executing search warrants related to a shooting at the city’s US consulate is linked a broader series of global terror attacks. The source said investigators were also looking at the possibility that the case was linked to a global terror network that has threatened retribution for US attacks on Iran.",
       "latest": [
         {
           "id": "4d268bb4b9abaaf60cc41739ee01211eb12ae246583366d7659f77a55fcc2217",
@@ -517,6 +539,16 @@
           "collected_at": "2026-06-13T17:15:20.270118+00:00",
           "published": "Sat, 13 Jun 2026 16:06:00 GMT",
           "summary": "The event comes as settler violence in the West Bank has reached unprecedented levels, and as a coalition of western countries – including the UK, France, Canada, Germany and Italy – have called for an end to the construction of Israeli settlements it says breach international law. Civil society organisations have said the event normalises illegal settlements by marketing them alongside properties in Israeli cities, and called on government to stop trade and investment enabling “unlawful occupation”."
+        },
+        {
+          "id": "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
+          "title": "Trump travels to France for the 52nd G7 Summit",
+          "url": "https://www.npr.org/2026/06/13/nx-s1-5854957/trump-travels-to-france-for-the-52nd-g7-summit",
+          "host": "npr.org",
+          "format": "Article",
+          "collected_at": "2026-06-13T21:06:50.493010+00:00",
+          "published": "Sat, 13 Jun 2026 07:39:31 -0400",
+          "summary": "President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions. and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S. Constanze Stelzenmuller, a trans-Atlantic security expert at the Brookings Institution, said leaders will carry that lesson into any meetings with President Trump at the summit."
         },
         {
           "id": "9abbcfbba6571b1371a01122efdff13a8b441b20e4c58f4923967361d5e53686",
@@ -547,26 +579,16 @@
           "collected_at": "2026-06-12T21:28:00.747818+00:00",
           "published": "Fri, 12 Jun 2026 17:15:25 +0000",
           "summary": "SITUATION OVERVIEW Despite the extension of the ceasefire announced last week, Lebanon continues to experience new waves of displacement driven by insecurity – airstrikes, shelling and displacement orders across broad swaths of southern Lebanon. HIGHLIGHT Hostilities continued with airstrikes and three renewed displacement orders covering six localities across the South and Nabatieh Governorates triggering additional displacement."
-        },
-        {
-          "id": "52b0336ea896c12613f7358e7016417127c29ed914dd74341d4228cdcaedec9e",
-          "title": "Lebanon: Flash Update #34 - Escalation of hostilities in Lebanon (as of 11 June 2026) (pdf)",
-          "url": "https://reliefweb.int/attachments/703c736c-cc7a-4e3b-952b-3e780dd843c6/2026.06.11_OCHA_Lebanon_Flash_Update%20No%2034.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-06-12T21:28:01.158105+00:00",
-          "published": "Fri, 12 Jun 2026 17:15:25 +0000",
-          "summary": "34 | 2 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org remains extremely limited, necessitating referrals of people seeking places in collective shelters to northern areas of the country. The mission of the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is to coordinate the global emergency response to save lives and protect people in humanitarian crises."
         }
       ]
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 555,
+      "count": 556,
       "formats": [
         {
           "name": "Article",
-          "value": 462
+          "value": 463
         },
         {
           "name": "PDF",
@@ -587,6 +609,7 @@
       ],
       "evidence_ids": [
         "4d268bb4b9abaaf60cc41739ee01211eb12ae246583366d7659f77a55fcc2217",
+        "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
         "9abbcfbba6571b1371a01122efdff13a8b441b20e4c58f4923967361d5e53686",
         "7e80e78028bec57f7a82233cf38b51371e9bf79a3efd72703a006130c7650d4f",
         "ab8d9673debbbfa6239f2cd7622b9c34dc7e94046541d653d84dbf9754771e2e",
@@ -594,10 +617,9 @@
         "09e5695fa3e5cab45f23fa887b0052325e1aac18408ac4931c5d1039871448a5",
         "59434c53ee0ef76d586d9875748488d0383deea2c53c23ca691a66f4131a1ce2",
         "c33cec3aaccc5c57a9fe6d31477c109e15c6a96cbbdf6d30ebad40c24dffc700",
-        "b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db",
-        "dbc675127780ae9c658efc9ce0d16c547104a71043c56ac28ffad6427d035b6a"
+        "b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db"
       ],
-      "summary": "The event comes as settler violence in the West Bank has reached unprecedented levels, and as a coalition of western countries – including the UK, France, Canada, Germany and Italy – have called for an end to the construction of Israeli settlements it says breach international law. Civil society organisations have said the event normalises illegal settlements by marketing them alongside properties in Israeli cities, and called on government to stop trade and investment enabling “unlawful occupation”. He later spoke explicitly of European “civilizational suicide.” Some might argue that the United States under Trump does not fully qualify as a civilization-state in the sense that China, India, and Russia fit the designation. Under President Donald Trump’s second term, the language of strategy has given way to a heightened language of civilization: warnings of “civilizational erasure” in Europe, invocations of a “ Judeo-Christian ” heritage under siege, and threats to Iran destroy the Iranian civilization. Authorities in Canada are investigating whether the killing of a Toronto police officer while he was executing search warrants related to a shooting at the city’s US consulate is linked a broader series of global terror attacks. The source said investigators were also looking at the possibility that the case was linked to a global terror network that has threatened retribution for US attacks on Iran. Photograph: Michael M Santiago/Getty Images “I have, as President of the United States of America, cancelled the scheduled strikes and bombings against Iran this evening,” Trump declared on his Truth Social platform as if providing his full capitalised title added any weight to the statement. This comes only hours after Trump warned Iran was about to be struck “VERY HARD”, a threat that had sent oil prices up and stocks down.",
+      "summary": "The event comes as settler violence in the West Bank has reached unprecedented levels, and as a coalition of western countries – including the UK, France, Canada, Germany and Italy – have called for an end to the construction of Israeli settlements it says breach international law. Civil society organisations have said the event normalises illegal settlements by marketing them alongside properties in Israeli cities, and called on government to stop trade and investment enabling “unlawful occupation”. President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions. and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S. Constanze Stelzenmuller, a trans-Atlantic security expert at the Brookings Institution, said leaders will carry that lesson into any meetings with President Trump at the summit. He later spoke explicitly of European “civilizational suicide.” Some might argue that the United States under Trump does not fully qualify as a civilization-state in the sense that China, India, and Russia fit the designation. Under President Donald Trump’s second term, the language of strategy has given way to a heightened language of civilization: warnings of “civilizational erasure” in Europe, invocations of a “ Judeo-Christian ” heritage under siege, and threats to Iran destroy the Iranian civilization. Authorities in Canada are investigating whether the killing of a Toronto police officer while he was executing search warrants related to a shooting at the city’s US consulate is linked a broader series of global terror attacks. The source said investigators were also looking at the possibility that the case was linked to a global terror network that has threatened retribution for US attacks on Iran.",
       "latest": [
         {
           "id": "4d268bb4b9abaaf60cc41739ee01211eb12ae246583366d7659f77a55fcc2217",
@@ -608,6 +630,16 @@
           "collected_at": "2026-06-13T17:15:20.270118+00:00",
           "published": "Sat, 13 Jun 2026 16:06:00 GMT",
           "summary": "The event comes as settler violence in the West Bank has reached unprecedented levels, and as a coalition of western countries – including the UK, France, Canada, Germany and Italy – have called for an end to the construction of Israeli settlements it says breach international law. Civil society organisations have said the event normalises illegal settlements by marketing them alongside properties in Israeli cities, and called on government to stop trade and investment enabling “unlawful occupation”."
+        },
+        {
+          "id": "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
+          "title": "Trump travels to France for the 52nd G7 Summit",
+          "url": "https://www.npr.org/2026/06/13/nx-s1-5854957/trump-travels-to-france-for-the-52nd-g7-summit",
+          "host": "npr.org",
+          "format": "Article",
+          "collected_at": "2026-06-13T21:06:50.493010+00:00",
+          "published": "Sat, 13 Jun 2026 07:39:31 -0400",
+          "summary": "President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions. and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S. Constanze Stelzenmuller, a trans-Atlantic security expert at the Brookings Institution, said leaders will carry that lesson into any meetings with President Trump at the summit."
         },
         {
           "id": "9abbcfbba6571b1371a01122efdff13a8b441b20e4c58f4923967361d5e53686",
@@ -638,16 +670,6 @@
           "collected_at": "2026-06-12T17:36:02.791136+00:00",
           "published": "Fri, 12 Jun 2026 16:39:11 GMT",
           "summary": "Photograph: Michael M Santiago/Getty Images “I have, as President of the United States of America, cancelled the scheduled strikes and bombings against Iran this evening,” Trump declared on his Truth Social platform as if providing his full capitalised title added any weight to the statement. This comes only hours after Trump warned Iran was about to be struck “VERY HARD”, a threat that had sent oil prices up and stocks down."
-        },
-        {
-          "id": "fad3e1ea733420a0f42a871372089d32d9fec52c420b67b256fd4b4ec5f6c869",
-          "title": "Palestinian and Israeli civil society groups urge G7 to take action on Gaza",
-          "url": "https://www.theguardian.com/world/2026/jun/12/palestinian-israeli-civil-society-groups-g7-summit-gaza",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-12T17:35:42.077232+00:00",
-          "published": "Fri, 12 Jun 2026 16:00:49 GMT",
-          "summary": "Israelis and Palestinians alike remain trapped in fear, insecurity and trauma.” The groups said they feared talks over Gaza might be cast aside at the G7 summit and urged its leaders to instead “recognise the window for a solution remains open, but it is narrowing. The moment requires urgent diplomacy, grounded in partnership with civil society.” Progress on Palestinian self-rule and an Israeli exit from Gaza has been stalled for six months as each side blames the other for failing to take the steps required for peace laid down in Donald Trump’s..."
         }
       ]
     },
@@ -835,11 +857,11 @@
     },
     {
       "name": "Energy and Supply Chains",
-      "count": 291,
+      "count": 292,
       "formats": [
         {
           "name": "Article",
-          "value": 232
+          "value": 233
         },
         {
           "name": "PDF",
@@ -851,6 +873,7 @@
         }
       ],
       "evidence_ids": [
+        "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
         "9abbcfbba6571b1371a01122efdff13a8b441b20e4c58f4923967361d5e53686",
         "3c16e08a8f73b1ff33ee61bc5f1ca4dcd81b8495ffe083fc92be03116f95e262",
         "52b0336ea896c12613f7358e7016417127c29ed914dd74341d4228cdcaedec9e",
@@ -859,11 +882,20 @@
         "b1929ec33a564c8bb449b3782e176a73657963e19358895410e5da84a375232e",
         "ff2d6ddd85b9a5eb3418d9a32085ddd5af767faf478be8c13d95a12c41a6e326",
         "8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b",
-        "e6aab811b36fada3fe6cf3dd6f80804137596a2dac6eab00e4b05b637ce4ce7e",
-        "e398e5bcc7e22f2bff2673966562b35d3975c9bce11b8a02d6b1205544bffcde"
+        "e6aab811b36fada3fe6cf3dd6f80804137596a2dac6eab00e4b05b637ce4ce7e"
       ],
-      "summary": "He later spoke explicitly of European “civilizational suicide.” Some might argue that the United States under Trump does not fully qualify as a civilization-state in the sense that China, India, and Russia fit the designation. Under President Donald Trump’s second term, the language of strategy has given way to a heightened language of civilization: warnings of “civilizational erasure” in Europe, invocations of a “ Judeo-Christian ” heritage under siege, and threats to Iran destroy the Iranian civilization. SITUATION OVERVIEW Despite the extension of the ceasefire announced last week, Lebanon continues to experience new waves of displacement driven by insecurity – airstrikes, shelling and displacement orders across broad swaths of southern Lebanon. HIGHLIGHT Hostilities continued with airstrikes and three renewed displacement orders covering six localities across the South and Nabatieh Governorates triggering additional displacement. 34 | 2 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org remains extremely limited, necessitating referrals of people seeking places in collective shelters to northern areas of the country. The mission of the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is to coordinate the global emergency response to save lives and protect people in humanitarian crises. Photograph: Michael M Santiago/Getty Images “I have, as President of the United States of America, cancelled the scheduled strikes and bombings against Iran this evening,” Trump declared on his Truth Social platform as if providing his full capitalised title added any weight to the statement. This comes only hours after Trump warned Iran was about to be struck “VERY HARD”, a threat that had sent oil prices up and stocks down.",
+      "summary": "President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions. and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S. Constanze Stelzenmuller, a trans-Atlantic security expert at the Brookings Institution, said leaders will carry that lesson into any meetings with President Trump at the summit. He later spoke explicitly of European “civilizational suicide.” Some might argue that the United States under Trump does not fully qualify as a civilization-state in the sense that China, India, and Russia fit the designation. Under President Donald Trump’s second term, the language of strategy has given way to a heightened language of civilization: warnings of “civilizational erasure” in Europe, invocations of a “ Judeo-Christian ” heritage under siege, and threats to Iran destroy the Iranian civilization. SITUATION OVERVIEW Despite the extension of the ceasefire announced last week, Lebanon continues to experience new waves of displacement driven by insecurity – airstrikes, shelling and displacement orders across broad swaths of southern Lebanon. HIGHLIGHT Hostilities continued with airstrikes and three renewed displacement orders covering six localities across the South and Nabatieh Governorates triggering additional displacement. 34 | 2 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org remains extremely limited, necessitating referrals of people seeking places in collective shelters to northern areas of the country. The mission of the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is to coordinate the global emergency response to save lives and protect people in humanitarian crises.",
       "latest": [
+        {
+          "id": "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
+          "title": "Trump travels to France for the 52nd G7 Summit",
+          "url": "https://www.npr.org/2026/06/13/nx-s1-5854957/trump-travels-to-france-for-the-52nd-g7-summit",
+          "host": "npr.org",
+          "format": "Article",
+          "collected_at": "2026-06-13T21:06:50.493010+00:00",
+          "published": "Sat, 13 Jun 2026 07:39:31 -0400",
+          "summary": "President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions. and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S. Constanze Stelzenmuller, a trans-Atlantic security expert at the Brookings Institution, said leaders will carry that lesson into any meetings with President Trump at the summit."
+        },
         {
           "id": "9abbcfbba6571b1371a01122efdff13a8b441b20e4c58f4923967361d5e53686",
           "title": "Trump Is Shattering the Illusion of the West",
@@ -903,26 +935,16 @@
           "collected_at": "2026-06-12T17:36:02.791136+00:00",
           "published": "Fri, 12 Jun 2026 16:39:11 GMT",
           "summary": "Photograph: Michael M Santiago/Getty Images “I have, as President of the United States of America, cancelled the scheduled strikes and bombings against Iran this evening,” Trump declared on his Truth Social platform as if providing his full capitalised title added any weight to the statement. This comes only hours after Trump warned Iran was about to be struck “VERY HARD”, a threat that had sent oil prices up and stocks down."
-        },
-        {
-          "id": "a55620babe35d6bc518284dca2a92b5e3318b288bf0051d3dc0ea5dc01585893",
-          "title": "Oil prices plummet as Trump claims he is close to US-Iran deal",
-          "url": "https://www.theguardian.com/business/2026/jun/12/global-oil-prices-trump-us-iran-deal-brent-crude-strait-of-hormuz",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-12T11:38:22.812115+00:00",
-          "published": "Fri, 12 Jun 2026 11:07:33 GMT",
-          "summary": "“Headlines are driving the market once again, as confidence grows that an eventual deal will be struck and the strait reopens,” said Tamas Varga, an analyst at PVM Oil Associates. Trump called off his plan for renewed strikes on Iran late on Thursday, saying that talks with Iran had progressed and a peace deal could lead to the reopening of trade through the strait of Hormuz as soon as this weekend."
         }
       ]
     },
     {
       "name": "Institutions and Law",
-      "count": 210,
+      "count": 211,
       "formats": [
         {
           "name": "Article",
-          "value": 133
+          "value": 134
         },
         {
           "name": "PDF",
@@ -942,6 +964,7 @@
         }
       ],
       "evidence_ids": [
+        "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
         "52b0336ea896c12613f7358e7016417127c29ed914dd74341d4228cdcaedec9e",
         "b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db",
         "ff2d6ddd85b9a5eb3418d9a32085ddd5af767faf478be8c13d95a12c41a6e326",
@@ -950,11 +973,20 @@
         "9b4df6f155b62834df09e43636c7e15c6b0d4168b72cb0fcc084a231297965da",
         "f6b3dd27580b7cb3e0dca9977f20e1d86c9cb10dc7e3575b74aa00697727d0ca",
         "b9dec690beba9153499f1c5f49a822eb19e6b6d32d4921d90844262fe3ba3164",
-        "017ff0b0ee60ad46ba418cf9a29d0e148ae229865b4dd9409858e80cdef62b71",
-        "7444a13e00246443ded9222592c9c00d2ac86b97c71e708fb12f1b1d04081e75"
+        "017ff0b0ee60ad46ba418cf9a29d0e148ae229865b4dd9409858e80cdef62b71"
       ],
-      "summary": "34 | 2 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org remains extremely limited, necessitating referrals of people seeking places in collective shelters to northern areas of the country. The mission of the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is to coordinate the global emergency response to save lives and protect people in humanitarian crises. “The future of the United Nations responsibility towards those within its duty of care – and, indeed, the future of international criminal justice – now stand before the Council,” she said. The discussion focused on the International Residual Mechanism for Criminal Tribunals, established by the Council in 2010 to carry forward essential functions after the closure of the International Criminal Tribunal for Rwanda (ICTR) and the International Criminal Tribunal for the former Yugoslavia (ICTY). The connections run through Gulf sponsorship, Red Sea geography, gold flows from Sudan to the United Arab Emirates (UAE), and the wars in Yemen and Sudan. It transmits local conflict dynamics to the global economy by disrupting Red Sea shipping and pushing food and fuel prices higher in import-dependent states. Russia has gained some economic relief thanks to higher energy sales on the back of the Iran war. As it struggles on the battlefield, some experts warn that Russia may seek to regain the initiative by leaning into some of its most provocative tactics, such as sabotage in Europe and drone incursions into NATO territory. In a separate move, on May 29, a Russian attack drone slammed into a Romanian building near that country’s border with Ukraine, injuring two people and partially destroying an apartment.",
+      "summary": "President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions. and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S. Constanze Stelzenmuller, a trans-Atlantic security expert at the Brookings Institution, said leaders will carry that lesson into any meetings with President Trump at the summit. 34 | 2 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org remains extremely limited, necessitating referrals of people seeking places in collective shelters to northern areas of the country. The mission of the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is to coordinate the global emergency response to save lives and protect people in humanitarian crises. “The future of the United Nations responsibility towards those within its duty of care – and, indeed, the future of international criminal justice – now stand before the Council,” she said. The discussion focused on the International Residual Mechanism for Criminal Tribunals, established by the Council in 2010 to carry forward essential functions after the closure of the International Criminal Tribunal for Rwanda (ICTR) and the International Criminal Tribunal for the former Yugoslavia (ICTY). The connections run through Gulf sponsorship, Red Sea geography, gold flows from Sudan to the United Arab Emirates (UAE), and the wars in Yemen and Sudan. It transmits local conflict dynamics to the global economy by disrupting Red Sea shipping and pushing food and fuel prices higher in import-dependent states.",
       "latest": [
+        {
+          "id": "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
+          "title": "Trump travels to France for the 52nd G7 Summit",
+          "url": "https://www.npr.org/2026/06/13/nx-s1-5854957/trump-travels-to-france-for-the-52nd-g7-summit",
+          "host": "npr.org",
+          "format": "Article",
+          "collected_at": "2026-06-13T21:06:50.493010+00:00",
+          "published": "Sat, 13 Jun 2026 07:39:31 -0400",
+          "summary": "President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions. and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S. Constanze Stelzenmuller, a trans-Atlantic security expert at the Brookings Institution, said leaders will carry that lesson into any meetings with President Trump at the summit."
+        },
         {
           "id": "52b0336ea896c12613f7358e7016417127c29ed914dd74341d4228cdcaedec9e",
           "title": "Lebanon: Flash Update #34 - Escalation of hostilities in Lebanon (as of 11 June 2026) (pdf)",
@@ -994,16 +1026,6 @@
           "collected_at": "2026-06-12T11:38:18.952349+00:00",
           "published": "Fri, 12 Jun 2026 09:00:16 +0000",
           "summary": "Russia has gained some economic relief thanks to higher energy sales on the back of the Iran war. As it struggles on the battlefield, some experts warn that Russia may seek to regain the initiative by leaning into some of its most provocative tactics, such as sabotage in Europe and drone incursions into NATO territory. In a separate move, on May 29, a Russian attack drone slammed into a Romanian building near that country’s border with Ukraine, injuring two people and partially destroying an apartment."
-        },
-        {
-          "id": "2785cfe08a8a09f21a2183f9f0f4e0bb1dd355d2c3590a11010c9f03e6ad99cc",
-          "title": "UNHCR-IOM Pakistan Flash update # 97 on Arrest and Detention/Flow Monitoring, 15 Sep 2023 to 6 Jun 2026 (pdf)",
-          "url": "https://reliefweb.int/attachments/ce9400ae-0ed2-5c74-a269-a1fe79909bbb/UNHCR%20-%20IOM%20Flash%20Update%2097-v3.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-06-12T11:38:27.573324+00:00",
-          "published": "Fri, 12 Jun 2026 07:03:12 +0000",
-          "summary": "• Across Pakistan, the top three districts for arrest and detention between 1 January and 6 June 2026 are Chaghi (Balochistan), Peshawar (KP), and Islamabad (ICT). • During the period 31 May – 6 June 2026, UNHCR and IOM estimate 25,443 Afghans returned through the Torkham, Ghulam Khan (located in Khyber Pakhtunkhwa), Chaman, Badini and Bahramcha (located in Balochistan) border crossing points to Afghanistan. In January, the GoP announced that Afghan nationals should relocate from Islamabad Capital Territory (ICT) and Rawalpindi, or else face deportation."
         }
       ]
     },
@@ -1185,9 +1207,10 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 513,
+      "count": 514,
       "evidence_ids": [
         "4d268bb4b9abaaf60cc41739ee01211eb12ae246583366d7659f77a55fcc2217",
+        "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
         "7e80e78028bec57f7a82233cf38b51371e9bf79a3efd72703a006130c7650d4f",
         "3c16e08a8f73b1ff33ee61bc5f1ca4dcd81b8495ffe083fc92be03116f95e262",
         "52b0336ea896c12613f7358e7016417127c29ed914dd74341d4228cdcaedec9e",
@@ -1197,8 +1220,7 @@
         "d393e7904a2540a7da4bb39c460572733f4738324016ad8199bdb8747b950cb5",
         "dbc675127780ae9c658efc9ce0d16c547104a71043c56ac28ffad6427d035b6a",
         "fe76276cf2b76af495634d4a7db1ae7714f05b83c2ca3771f84bdb3bb1ee234d",
-        "a55620babe35d6bc518284dca2a92b5e3318b288bf0051d3dc0ea5dc01585893",
-        "b1929ec33a564c8bb449b3782e176a73657963e19358895410e5da84a375232e"
+        "a55620babe35d6bc518284dca2a92b5e3318b288bf0051d3dc0ea5dc01585893"
       ],
       "top_sources": [
         {
@@ -1265,9 +1287,10 @@
     },
     {
       "name": "Europe and Russia",
-      "count": 402,
+      "count": 403,
       "evidence_ids": [
         "4240766b44d494e7165f47ccfc3761063814aecbffdc5aa4935059270a816948",
+        "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
         "9abbcfbba6571b1371a01122efdff13a8b441b20e4c58f4923967361d5e53686",
         "52b0336ea896c12613f7358e7016417127c29ed914dd74341d4228cdcaedec9e",
         "09e5695fa3e5cab45f23fa887b0052325e1aac18408ac4931c5d1039871448a5",
@@ -1277,8 +1300,7 @@
         "3d53956b24413513a619ba5ee2ab8e7eb3e933ecf9bc7595fbacba3703022b1e",
         "cb505510c9076c7c54246a870dbf74a191309bd6d1a3837113ff2584dbfc97f4",
         "fe76276cf2b76af495634d4a7db1ae7714f05b83c2ca3771f84bdb3bb1ee234d",
-        "c195855efe22203e153b8a895f62b6e5f6fa4f09fa6eed0d968f2b08e7ac636a",
-        "71b2b32374a33e54ea5d6fe61019e59dc5363066294745d6c8187dfcb28f30ea"
+        "c195855efe22203e153b8a895f62b6e5f6fa4f09fa6eed0d968f2b08e7ac636a"
       ],
       "top_sources": [
         {
@@ -1305,9 +1327,10 @@
     },
     {
       "name": "Global Institutions",
-      "count": 365,
+      "count": 366,
       "evidence_ids": [
         "4240766b44d494e7165f47ccfc3761063814aecbffdc5aa4935059270a816948",
+        "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
         "52b0336ea896c12613f7358e7016417127c29ed914dd74341d4228cdcaedec9e",
         "ab8d9673debbbfa6239f2cd7622b9c34dc7e94046541d653d84dbf9754771e2e",
         "a9270c1a229d464c0dff783302800898652e1512e2b55bcee64f6a04b40bd1d5",
@@ -1317,8 +1340,7 @@
         "ff2d6ddd85b9a5eb3418d9a32085ddd5af767faf478be8c13d95a12c41a6e326",
         "71b2b32374a33e54ea5d6fe61019e59dc5363066294745d6c8187dfcb28f30ea",
         "4818b4e9a8ed690ca0d3703914bfba351b6be287a3016d17a2555530b07ca865",
-        "8c06b8b54364cd736b6409a289ff552d65b535f35d7bc3953a4562c31ee63f9a",
-        "2785cfe08a8a09f21a2183f9f0f4e0bb1dd355d2c3590a11010c9f03e6ad99cc"
+        "8c06b8b54364cd736b6409a289ff552d65b535f35d7bc3953a4562c31ee63f9a"
       ],
       "top_sources": [
         {
@@ -1924,6 +1946,13 @@
     },
     {
       "date": "2026",
+      "evidence_id": "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
+      "title": "Trump travels to France for the 52nd G7 Summit",
+      "url": "https://www.npr.org/2026/06/13/nx-s1-5854957/trump-travels-to-france-for-the-52nd-g7-summit",
+      "excerpt": "smaller power like Iran, then how will it push back on a larger power if needed? Franco Ordoñez, NPR News. Copyright © 2026 NPR. All rights reserved. Visit our website terms of use and permissions pages at www.npr.org for further information. Accuracy and availability of NPR transcripts may vary. Transcript text may be revised to correct errors or match updates to audio. Audio"
+    },
+    {
+      "date": "2026",
       "evidence_id": "3c16e08a8f73b1ff33ee61bc5f1ca4dcd81b8495ffe083fc92be03116f95e262",
       "title": "Lebanon: Flash Update #34 - Escalation of hostilities in Lebanon (as of 11 June 2026)",
       "url": "https://reliefweb.int/report/lebanon/lebanon-flash-update-34-escalation-hostilities-lebanon-11-june-2026",
@@ -2397,13 +2426,6 @@
       "title": "Syrian Arab Republic: Child Protection, Gender Based Violence Prevention and Response, and Mental Health & Psychosocial Support Factsheet (January- March 2026)",
       "url": "https://reliefweb.int/report/syrian-arab-republic/syrian-arab-republic-child-protection-gender-based-violence-prevention-and-response-and-mental-health-psychosocial-support-factsheet-january-march-2026",
       "excerpt": "13,779 individuals reached in 2026 by Child Protection, Gender Based Violence (GBV) Prevention and Response, and Mental Health & Psychosocial Support (MHPSS) 168 older persons and persons with disabilities reached 73% Female 27% Male 58% Children Case management UNHCR’s integrated case man"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "bce2b5cb783f8ba7008663cee47d3dde9200b3d9359f948e8db63ec565781c5b",
-      "title": "Syrian Arab Republic: Child Protection, Gender Based Violence Prevention and Response, and Mental Health & Psychosocial Support Factsheet (January- March 2026) (pdf)",
-      "url": "https://reliefweb.int/attachments/98a1b01c-4f17-48c8-8d73-266057c63718/GBV%2CCP%2C%20MHPSS%20factsheet%20-%20Q1%20-%202026.pdf",
-      "excerpt": "ction, Gender Based Violence Prevention and Response, and Mental Health & Psychosocial Support Factsheet January- March 2026 13,779 individuals reached in 2026 by Child Protection, Gender Based Violence (GBV) Prevention and Response, and Mental Health & Psychosocial Support (MHPSS) 168 older persons and persons with disabilities reached 73% Female 27% Male 58% Children Age, Gen"
     }
   ],
   "latest_evidence": [
@@ -2557,6 +2579,86 @@
       ],
       "detail_path": "/evidence/4240766b44d494e7165f47ccfc3761063814aecbffdc5aa4935059270a816948",
       "evidence_json": "/evidence/4240766b44d494e7165f47ccfc3761063814aecbffdc5aa4935059270a816948.json"
+    },
+    {
+      "id": "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
+      "topic": "geopolitics",
+      "title": "Trump travels to France for the 52nd G7 Summit",
+      "url": "https://www.npr.org/2026/06/13/nx-s1-5854957/trump-travels-to-france-for-the-52nd-g7-summit",
+      "host": "npr.org",
+      "source": "https://www.npr.org/rss/rss.php?id=1004",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-13T21:06:50.493010+00:00",
+      "published": "Sat, 13 Jun 2026 07:39:31 -0400",
+      "text_chars": 4285,
+      "raw_path": "data/geopolitics/raw/d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2.html",
+      "text_path": "data/geopolitics/raw/d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2.txt",
+      "summary": "President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions. and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S. Constanze Stelzenmuller, a trans-Atlantic security expert at the Brookings Institution, said leaders will carry that lesson into any meetings with President Trump at the summit.",
+      "bullets": [
+        "President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions.",
+        "and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S.",
+        "Constanze Stelzenmuller, a trans-Atlantic security expert at the Brookings Institution, said leaders will carry that lesson into any meetings with President Trump at the summit.",
+        "It was originally expected to be a meeting focused on a variety of separate economic and security issues, but it has been overtaken by concerns over surging energy costs as well as differences over the escalating conflict with Iran.",
+        "troops from Germany during a clash between the Europeans over their reluctance to support the U.S.-led war in Iran."
+      ],
+      "excerpt": "President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions. ELISSA NADWORNY, HOST: President Trump travels to Evian, France, next week for a G7 Summit. It was originally expected to be a meeting focused on a variety of separate economic and security issues, but it has been overtaken by concerns over surging energy costs as well as differences over the escalating conflict with Iran. NPR's Franco Ordoñez reports. FRANCO ORDOÑEZ, BYLINE: The bubbling tensions between the U.S. and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S. troops from Germany during a clash between the Europeans over their reluctance to support the U.S.-led war in Iran. (SOUNDBITE OF ARCHIVED RECORDING) PRESIDENT DONALD TRUMP: We defend all these countries. And then, do you have any minesweepers? And they say, well, would it be possible for us not to get involved? ORDOÑEZ: The decision was partially reversed with the troops redirected to Poland, but the episode illustrated what diplomats describe as the real security consequences of embarrassing or crossing the president. Constanze S",
+      "keywords": [
+        {
+          "name": "ordo",
+          "value": 9
+        },
+        {
+          "name": "trump",
+          "value": 9
+        },
+        {
+          "name": "president",
+          "value": 7
+        },
+        {
+          "name": "iran",
+          "value": 6
+        },
+        {
+          "name": "security",
+          "value": 6
+        },
+        {
+          "name": "economic",
+          "value": 5
+        },
+        {
+          "name": "bruen",
+          "value": 4
+        },
+        {
+          "name": "france",
+          "value": 4
+        },
+        {
+          "name": "summit",
+          "value": 4
+        },
+        {
+          "name": "well",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Energy and Supply Chains",
+        "Diplomacy and Negotiations",
+        "Institutions and Law"
+      ],
+      "regions": [
+        "Global Institutions",
+        "Middle East",
+        "Europe and Russia"
+      ],
+      "detail_path": "/evidence/d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
+      "evidence_json": "/evidence/d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2.json"
     },
     {
       "id": "9abbcfbba6571b1371a01122efdff13a8b441b20e4c58f4923967361d5e53686",
@@ -8559,83 +8661,6 @@
       "file_asset": "/evidence-files/0b068201461b90eed2ba071c4e4fd2791b066215498613d37e38281d6c80ab02.pdf",
       "detail_path": "/evidence/0b068201461b90eed2ba071c4e4fd2791b066215498613d37e38281d6c80ab02",
       "evidence_json": "/evidence/0b068201461b90eed2ba071c4e4fd2791b066215498613d37e38281d6c80ab02.json"
-    },
-    {
-      "id": "b25ff718ff19f917b39d15524a728f8ef317744d1bbe5216c35bf0c30227ff12",
-      "topic": "geopolitics",
-      "title": "The Gambia — Transhumance Flow Monitoring Dashboard (December 2025 - March 2026)",
-      "url": "https://reliefweb.int/report/gambia/gambia-transhumance-flow-monitoring-dashboard-december-2025-march-2026",
-      "host": "reliefweb.int",
-      "source": "https://reliefweb.int/updates/rss.xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-06-10T17:56:27.997415+00:00",
-      "published": "Wed, 10 Jun 2026 13:33:26 +0000",
-      "text_chars": 1074,
-      "raw_path": "data/geopolitics/raw/b25ff718ff19f917b39d15524a728f8ef317744d1bbe5216c35bf0c30227ff12.html",
-      "text_path": "data/geopolitics/raw/b25ff718ff19f917b39d15524a728f8ef317744d1bbe5216c35bf0c30227ff12.txt",
-      "summary": "Data collection was conducted through direct observation and interviews by DTM enumerators, with financial support from the United Nations Peacebuilding Fund (PBF). Similarly, 90 per cent of recorded livestock movements were cross-border, highlighting the strong regional dimension of transhumance in The Gambia. Transhumance movements observed during the reporting period follow seasonal patterns, with herders – primarily from Senegal as well as within The Gambia – moving during the dry season in search of water and pasture.",
-      "bullets": [
-        "Data collection was conducted through direct observation and interviews by DTM enumerators, with financial support from the United Nations Peacebuilding Fund (PBF).",
-        "Similarly, 90 per cent of recorded livestock movements were cross-border, highlighting the strong regional dimension of transhumance in The Gambia.",
-        "Transhumance movements observed during the reporting period follow seasonal patterns, with herders – primarily from Senegal as well as within The Gambia – moving during the dry season in search of water and pasture.",
-        "These movements are often strategically coordinated, with family members traveling ahead to assess security conditions before herds are relocated.",
-        "This report presents findings from data collected between December 2025 and March 2026 across ten Flow Monitoring Points (FMPs) in CRR-S, CRR-N, NBR, and LRR."
-      ],
-      "excerpt": "This report presents findings from data collected between December 2025 and March 2026 across ten Flow Monitoring Points (FMPs) in CRR-S, CRR-N, NBR, and LRR. Data collection was conducted through direct observation and interviews by DTM enumerators, with financial support from the United Nations Peacebuilding Fund (PBF). Transhumance movements observed during the reporting period follow seasonal patterns, with herders – primarily from Senegal as well as within The Gambia – moving during the dry season in search of water and pasture. These movements are often strategically coordinated, with family members traveling ahead to assess security conditions before herds are relocated. During the reporting period, a total of 2,222 herders were recorded across the four regions, with the highest numbers observed in CRR-N and CRR-S. The majority of herders (90%) were Senegalese nationals, while 10 per cent were Gambian. Similarly, 90 per cent of recorded livestock movements were cross-border, highlighting the strong regional dimension of transhumance in The Gambia.",
-      "keywords": [
-        {
-          "name": "gambia",
-          "value": 3
-        },
-        {
-          "name": "herders",
-          "value": 3
-        },
-        {
-          "name": "movements",
-          "value": 3
-        },
-        {
-          "name": "transhumance",
-          "value": 3
-        },
-        {
-          "name": "across",
-          "value": 2
-        },
-        {
-          "name": "cent",
-          "value": 2
-        },
-        {
-          "name": "crr-n",
-          "value": 2
-        },
-        {
-          "name": "crr-s",
-          "value": 2
-        },
-        {
-          "name": "data",
-          "value": 2
-        },
-        {
-          "name": "december",
-          "value": 2
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "Nuclear and Strategic Risk",
-        "Territory and Chokepoints"
-      ],
-      "regions": [
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/b25ff718ff19f917b39d15524a728f8ef317744d1bbe5216c35bf0c30227ff12",
-      "evidence_json": "/evidence/b25ff718ff19f917b39d15524a728f8ef317744d1bbe5216c35bf0c30227ff12.json"
     }
   ],
   "deep_reads": [
@@ -8729,7 +8754,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-13T19:11:59.438967+00:00",
+      "collected_at": "2026-06-13T21:06:20.754666+00:00",
       "published": "",
       "text_chars": 9080594,
       "raw_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.xml",
@@ -9609,7 +9634,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-13T19:11:19.868200+00:00",
+      "collected_at": "2026-06-13T21:05:47.730491+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -9684,7 +9709,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-13T19:11:20.191428+00:00",
+      "collected_at": "2026-06-13T21:05:48.006676+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -10883,7 +10908,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-13T19:12:02.566379+00:00",
+      "collected_at": "2026-06-13T21:06:31.071528+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -10955,74 +10980,158 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
       "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-13T19:12:01.614981+00:00",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-13T21:06:30.285602+00:00",
       "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
       "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
       ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
       "keywords": [
         {
-          "name": "admin",
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 512
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "conflict",
+          "value": 267
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 209
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
+      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-06-13T21:06:25.119859+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
+      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
           "value": 2
         },
         {
-          "name": "areas",
+          "name": "classified",
           "value": 2
         },
         {
-          "name": "disputed",
+          "name": "even",
           "value": 2
         },
         {
-          "name": "naciscdn",
+          "name": "some",
           "value": 2
         },
         {
-          "name": "application",
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
           "value": 1
         },
         {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
+          "name": "added",
           "value": 1
         }
       ],
       "signals": [
-        "Territory and Chokepoints"
+        "Sanctions and Finance"
       ],
       "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
     },
     {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
@@ -11034,7 +11143,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-13T19:12:01.612756+00:00",
+      "collected_at": "2026-06-13T21:06:25.099362+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11106,77 +11215,74 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
       "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
       "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-06-13T19:11:59.533161+00:00",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-13T21:06:20.803241+00:00",
       "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
-      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
       "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
       ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
       "keywords": [
         {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
+          "name": "admin",
           "value": 2
         },
         {
-          "name": "classified",
+          "name": "areas",
           "value": 2
         },
         {
-          "name": "even",
+          "name": "disputed",
           "value": 2
         },
         {
-          "name": "some",
+          "name": "naciscdn",
           "value": 2
         },
         {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
+          "name": "application",
           "value": 1
         },
         {
-          "name": "added",
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
           "value": 1
         }
       ],
       "signals": [
-        "Sanctions and Finance"
+        "Territory and Chokepoints"
       ],
       "regions": [],
-      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
     },
     {
       "id": "4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79",
@@ -11188,7 +11294,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-13T19:11:59.438967+00:00",
+      "collected_at": "2026-06-13T21:06:20.754666+00:00",
       "published": "",
       "text_chars": 9080594,
       "raw_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.xml",
@@ -11268,7 +11374,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-13T19:11:24.455358+00:00",
+      "collected_at": "2026-06-13T21:05:50.413527+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/fea7d9571ff7ca2efb3238e0492a555dedb78bd63fbcf1aab057cb00127447d0.xml",
@@ -11339,86 +11445,6 @@
       "evidence_json": "/evidence/fea7d9571ff7ca2efb3238e0492a555dedb78bd63fbcf1aab057cb00127447d0.json"
     },
     {
-      "id": "cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-06-13T19:11:22.635519+00:00",
-      "published": "",
-      "text_chars": 824644,
-      "raw_path": "data/geopolitics/raw/cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a.xml",
-      "text_path": "data/geopolitics/raw/cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-      "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
-      ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 1476
-        },
-        {
-          "name": "security",
-          "value": 1473
-        },
-        {
-          "name": "interpol",
-          "value": 1239
-        },
-        {
-          "name": "resolution",
-          "value": 840
-        },
-        {
-          "name": "interpol-un",
-          "value": 683
-        },
-        {
-          "name": "afghanistan",
-          "value": 636
-        },
-        {
-          "name": "link",
-          "value": 612
-        },
-        {
-          "name": "republic",
-          "value": 539
-        },
-        {
-          "name": "al-qaida",
-          "value": 515
-        },
-        {
-          "name": "iraq",
-          "value": 480
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "War and Escalation",
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Africa",
-        "Middle East",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a",
-      "evidence_json": "/evidence/cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a.json"
-    },
-    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -11428,7 +11454,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-13T19:11:20.191428+00:00",
+      "collected_at": "2026-06-13T21:05:48.006676+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -11505,7 +11531,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-13T19:11:19.868200+00:00",
+      "collected_at": "2026-06-13T21:05:47.730491+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -11571,85 +11597,84 @@
       "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
     },
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "id": "cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a",
       "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
       "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-13T17:15:04.274240+00:00",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-06-13T21:05:47.446696+00:00",
       "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "text_chars": 824644,
+      "raw_path": "data/geopolitics/raw/cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a.xml",
+      "text_path": "data/geopolitics/raw/cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
       "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
       ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
       "keywords": [
         {
-          "name": "power",
-          "value": 596
+          "name": "council",
+          "value": 1476
         },
         {
-          "name": "convention",
-          "value": 551
+          "name": "security",
+          "value": 1473
         },
         {
-          "name": "prisoners",
-          "value": 512
+          "name": "interpol",
+          "value": 1239
         },
         {
-          "name": "parties",
-          "value": 284
+          "name": "resolution",
+          "value": 840
         },
         {
-          "name": "conflict",
-          "value": 267
+          "name": "interpol-un",
+          "value": 683
         },
         {
-          "name": "detaining",
-          "value": 266
+          "name": "afghanistan",
+          "value": 636
         },
         {
-          "name": "medical",
-          "value": 249
+          "name": "link",
+          "value": 612
         },
         {
-          "name": "provisions",
-          "value": 209
+          "name": "republic",
+          "value": 539
         },
         {
-          "name": "powers",
-          "value": 205
+          "name": "al-qaida",
+          "value": 515
         },
         {
-          "name": "geneva",
-          "value": 201
+          "name": "iraq",
+          "value": 480
         }
       ],
       "signals": [
-        "Humanitarian Pressure",
         "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
       ],
       "regions": [
-        "Americas",
-        "Europe and Russia",
+        "Africa",
+        "Middle East",
         "Global Institutions"
       ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+      "detail_path": "/evidence/cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a",
+      "evidence_json": "/evidence/cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a.json"
     },
     {
       "id": "bec087eadb9ef9d96d7ff41d900bc505a024b6bb6db68234894d82098465289d",
@@ -15442,7 +15467,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-13T19:12:02.566379+00:00",
+      "collected_at": "2026-06-13T21:06:31.071528+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15514,74 +15539,158 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
       "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-13T19:12:01.614981+00:00",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-13T21:06:30.285602+00:00",
       "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
       "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
       ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
       "keywords": [
         {
-          "name": "admin",
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 512
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "conflict",
+          "value": 267
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 209
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
+      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-06-13T21:06:25.119859+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
+      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
           "value": 2
         },
         {
-          "name": "areas",
+          "name": "classified",
           "value": 2
         },
         {
-          "name": "disputed",
+          "name": "even",
           "value": 2
         },
         {
-          "name": "naciscdn",
+          "name": "some",
           "value": 2
         },
         {
-          "name": "application",
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
           "value": 1
         },
         {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
+          "name": "added",
           "value": 1
         }
       ],
       "signals": [
-        "Territory and Chokepoints"
+        "Sanctions and Finance"
       ],
       "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
     },
     {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
@@ -15593,7 +15702,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-13T19:12:01.612756+00:00",
+      "collected_at": "2026-06-13T21:06:25.099362+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15665,77 +15774,74 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
       "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
       "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-06-13T19:11:59.533161+00:00",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-13T21:06:20.803241+00:00",
       "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
-      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
       "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
       ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
       "keywords": [
         {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
+          "name": "admin",
           "value": 2
         },
         {
-          "name": "classified",
+          "name": "areas",
           "value": 2
         },
         {
-          "name": "even",
+          "name": "disputed",
           "value": 2
         },
         {
-          "name": "some",
+          "name": "naciscdn",
           "value": 2
         },
         {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
+          "name": "application",
           "value": 1
         },
         {
-          "name": "added",
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
           "value": 1
         }
       ],
       "signals": [
-        "Sanctions and Finance"
+        "Territory and Chokepoints"
       ],
       "regions": [],
-      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
     },
     {
       "id": "4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79",
@@ -15747,7 +15853,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-13T19:11:59.438967+00:00",
+      "collected_at": "2026-06-13T21:06:20.754666+00:00",
       "published": "",
       "text_chars": 9080594,
       "raw_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.xml",
@@ -15827,7 +15933,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-13T19:11:24.455358+00:00",
+      "collected_at": "2026-06-13T21:05:50.413527+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/fea7d9571ff7ca2efb3238e0492a555dedb78bd63fbcf1aab057cb00127447d0.xml",
@@ -15898,86 +16004,6 @@
       "evidence_json": "/evidence/fea7d9571ff7ca2efb3238e0492a555dedb78bd63fbcf1aab057cb00127447d0.json"
     },
     {
-      "id": "cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-06-13T19:11:22.635519+00:00",
-      "published": "",
-      "text_chars": 824644,
-      "raw_path": "data/geopolitics/raw/cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a.xml",
-      "text_path": "data/geopolitics/raw/cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-      "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
-      ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 1476
-        },
-        {
-          "name": "security",
-          "value": 1473
-        },
-        {
-          "name": "interpol",
-          "value": 1239
-        },
-        {
-          "name": "resolution",
-          "value": 840
-        },
-        {
-          "name": "interpol-un",
-          "value": 683
-        },
-        {
-          "name": "afghanistan",
-          "value": 636
-        },
-        {
-          "name": "link",
-          "value": 612
-        },
-        {
-          "name": "republic",
-          "value": 539
-        },
-        {
-          "name": "al-qaida",
-          "value": 515
-        },
-        {
-          "name": "iraq",
-          "value": 480
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "War and Escalation",
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Africa",
-        "Middle East",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a",
-      "evidence_json": "/evidence/cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a.json"
-    },
-    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -15987,7 +16013,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-13T19:11:20.191428+00:00",
+      "collected_at": "2026-06-13T21:05:48.006676+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -16064,7 +16090,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-13T19:11:19.868200+00:00",
+      "collected_at": "2026-06-13T21:05:47.730491+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -16130,85 +16156,84 @@
       "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
     },
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "id": "cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a",
       "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
       "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-13T17:15:04.274240+00:00",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-06-13T21:05:47.446696+00:00",
       "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "text_chars": 824644,
+      "raw_path": "data/geopolitics/raw/cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a.xml",
+      "text_path": "data/geopolitics/raw/cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
       "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
       ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
       "keywords": [
         {
-          "name": "power",
-          "value": 596
+          "name": "council",
+          "value": 1476
         },
         {
-          "name": "convention",
-          "value": 551
+          "name": "security",
+          "value": 1473
         },
         {
-          "name": "prisoners",
-          "value": 512
+          "name": "interpol",
+          "value": 1239
         },
         {
-          "name": "parties",
-          "value": 284
+          "name": "resolution",
+          "value": 840
         },
         {
-          "name": "conflict",
-          "value": 267
+          "name": "interpol-un",
+          "value": 683
         },
         {
-          "name": "detaining",
-          "value": 266
+          "name": "afghanistan",
+          "value": 636
         },
         {
-          "name": "medical",
-          "value": 249
+          "name": "link",
+          "value": 612
         },
         {
-          "name": "provisions",
-          "value": 209
+          "name": "republic",
+          "value": 539
         },
         {
-          "name": "powers",
-          "value": 205
+          "name": "al-qaida",
+          "value": 515
         },
         {
-          "name": "geneva",
-          "value": 201
+          "name": "iraq",
+          "value": 480
         }
       ],
       "signals": [
-        "Humanitarian Pressure",
         "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
       ],
       "regions": [
-        "Americas",
-        "Europe and Russia",
+        "Africa",
+        "Middle East",
         "Global Institutions"
       ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+      "detail_path": "/evidence/cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a",
+      "evidence_json": "/evidence/cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a.json"
     },
     {
       "id": "4d268bb4b9abaaf60cc41739ee01211eb12ae246583366d7659f77a55fcc2217",
@@ -16360,6 +16385,86 @@
       ],
       "detail_path": "/evidence/4240766b44d494e7165f47ccfc3761063814aecbffdc5aa4935059270a816948",
       "evidence_json": "/evidence/4240766b44d494e7165f47ccfc3761063814aecbffdc5aa4935059270a816948.json"
+    },
+    {
+      "id": "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
+      "topic": "geopolitics",
+      "title": "Trump travels to France for the 52nd G7 Summit",
+      "url": "https://www.npr.org/2026/06/13/nx-s1-5854957/trump-travels-to-france-for-the-52nd-g7-summit",
+      "host": "npr.org",
+      "source": "https://www.npr.org/rss/rss.php?id=1004",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-13T21:06:50.493010+00:00",
+      "published": "Sat, 13 Jun 2026 07:39:31 -0400",
+      "text_chars": 4285,
+      "raw_path": "data/geopolitics/raw/d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2.html",
+      "text_path": "data/geopolitics/raw/d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2.txt",
+      "summary": "President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions. and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S. Constanze Stelzenmuller, a trans-Atlantic security expert at the Brookings Institution, said leaders will carry that lesson into any meetings with President Trump at the summit.",
+      "bullets": [
+        "President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions.",
+        "and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S.",
+        "Constanze Stelzenmuller, a trans-Atlantic security expert at the Brookings Institution, said leaders will carry that lesson into any meetings with President Trump at the summit.",
+        "It was originally expected to be a meeting focused on a variety of separate economic and security issues, but it has been overtaken by concerns over surging energy costs as well as differences over the escalating conflict with Iran.",
+        "troops from Germany during a clash between the Europeans over their reluctance to support the U.S.-led war in Iran."
+      ],
+      "excerpt": "President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions. ELISSA NADWORNY, HOST: President Trump travels to Evian, France, next week for a G7 Summit. It was originally expected to be a meeting focused on a variety of separate economic and security issues, but it has been overtaken by concerns over surging energy costs as well as differences over the escalating conflict with Iran. NPR's Franco Ordoñez reports. FRANCO ORDOÑEZ, BYLINE: The bubbling tensions between the U.S. and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S. troops from Germany during a clash between the Europeans over their reluctance to support the U.S.-led war in Iran. (SOUNDBITE OF ARCHIVED RECORDING) PRESIDENT DONALD TRUMP: We defend all these countries. And then, do you have any minesweepers? And they say, well, would it be possible for us not to get involved? ORDOÑEZ: The decision was partially reversed with the troops redirected to Poland, but the episode illustrated what diplomats describe as the real security consequences of embarrassing or crossing the president. Constanze S",
+      "keywords": [
+        {
+          "name": "ordo",
+          "value": 9
+        },
+        {
+          "name": "trump",
+          "value": 9
+        },
+        {
+          "name": "president",
+          "value": 7
+        },
+        {
+          "name": "iran",
+          "value": 6
+        },
+        {
+          "name": "security",
+          "value": 6
+        },
+        {
+          "name": "economic",
+          "value": 5
+        },
+        {
+          "name": "bruen",
+          "value": 4
+        },
+        {
+          "name": "france",
+          "value": 4
+        },
+        {
+          "name": "summit",
+          "value": 4
+        },
+        {
+          "name": "well",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Energy and Supply Chains",
+        "Diplomacy and Negotiations",
+        "Institutions and Law"
+      ],
+      "regions": [
+        "Global Institutions",
+        "Middle East",
+        "Europe and Russia"
+      ],
+      "detail_path": "/evidence/d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
+      "evidence_json": "/evidence/d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2.json"
     },
     {
       "id": "bec087eadb9ef9d96d7ff41d900bc505a024b6bb6db68234894d82098465289d",
