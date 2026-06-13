@@ -1,93 +1,112 @@
 {
-  "generated_at": "2026-06-13T02:33:54.234967+00:00",
+  "generated_at": "2026-06-13T06:53:04.649280+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating tensions in the Middle East and Europe signal potential for increased conflict and humanitarian crises.",
+    "headline": "Escalating tensions in the Middle East and Europe signal potential for increased humanitarian crises and geopolitical instability.",
     "executive_summary": [
-      "Recent developments in the Middle East indicate a significant escalation of hostilities, particularly in Lebanon, where airstrikes and displacement orders have resulted in thousands of casualties and widespread humanitarian needs. As of June 11, 2026, at least 3,711 deaths and 11,483 injuries have been reported since March, with over 134,800 internally displaced persons registered in collective shelters (evidence id: 13).",
-      "In Ukraine, the ongoing conflict continues to inflict heavy civilian casualties, with the UN reporting at least 274 civilians killed and 1,763 injured in May 2026 alone, marking the highest toll in four years. The use of long-range weapons in urban areas has been identified as a primary factor contributing to this increase in civilian harm (evidence id: 21).",
-      "The geopolitical landscape is further complicated by the United States' plans to reduce military support for NATO operations in Europe, which could limit NATO's operational capabilities amid rising tensions with Russia. This decision reflects a shift in the balance of responsibility within the alliance as European nations are urged to enhance their defense spending (evidence id: 19).",
-      "Additionally, the potential for a US-Iran peace agreement has created fluctuations in global oil prices, with recent claims by President Trump suggesting progress in negotiations. However, skepticism remains regarding the actualization of such a deal, as both sides have yet to finalize terms (evidence id: 24)."
+      "Recent reports indicate a significant escalation of hostilities in Lebanon, with airstrikes and displacement orders leading to over 3,700 deaths and 134,800 internally displaced persons since early March. The humanitarian situation is deteriorating, with hospitals being damaged and healthcare access severely impacted, raising concerns about the capacity to respond to ongoing needs (evidence id: 13, 14, 23).",
+      "In Ukraine, civilian casualties have surged, with the UN reporting the highest toll in four years, driven by intensified attacks on urban areas. The use of long-range weapons has been a major factor, highlighting the ongoing humanitarian crisis and the urgent need for international attention and support (evidence id: 21, 26).",
+      "Diplomatic efforts surrounding the US-Iran relationship remain volatile, with President Trump oscillating between threats of military action and claims of nearing a peace agreement. This uncertainty is affecting global oil prices and could have broader implications for regional stability and economic conditions (evidence id: 15, 25).",
+      "The interconnectedness of conflicts in the Horn of Africa and the Greater Middle East poses a significant risk of escalation, potentially drawing more countries into conflict. This situation underscores the need for coordinated international responses to prevent further destabilization and humanitarian crises (evidence id: 27, 28)."
     ],
     "key_judgments": [
       {
         "title": "Escalation of Hostilities in Lebanon",
-        "finding": "The ongoing conflict in Lebanon has led to significant civilian casualties and displacement, exacerbating the humanitarian crisis in the region.",
+        "finding": "The ongoing military actions in Lebanon have resulted in significant civilian casualties and displacement, exacerbating the humanitarian crisis.",
         "citations": [
-          "13"
+          "13",
+          "14",
+          "23"
         ]
       },
       {
-        "title": "Civilian Casualties in Ukraine",
-        "finding": "The conflict in Ukraine has resulted in the highest civilian casualty toll in four years, driven by the use of powerful weapons in urban areas.",
+        "title": "Surge in Civilian Casualties in Ukraine",
+        "finding": "Ukraine is experiencing a dramatic increase in civilian casualties due to intensified military operations, particularly in urban areas.",
         "citations": [
-          "21"
+          "21",
+          "26"
         ]
       },
       {
-        "title": "US Military Support Reduction for NATO",
-        "finding": "The planned reduction of US military assets for NATO operations may hinder the alliance's ability to respond effectively to threats, particularly from Russia.",
+        "title": "Volatility in US-Iran Relations",
+        "finding": "The fluctuating diplomatic stance of the US towards Iran is creating uncertainty in the region, impacting oil prices and geopolitical stability.",
         "citations": [
-          "19"
+          "15",
+          "25"
         ]
       },
       {
-        "title": "Uncertain US-Iran Negotiations",
-        "finding": "While there are claims of progress in US-Iran negotiations, skepticism remains regarding the likelihood of a successful peace agreement.",
+        "title": "Risk of Merging Conflicts in the Horn of Africa and Greater Middle East",
+        "finding": "The potential merging of conflict clusters in these regions poses a significant threat to global stability and economic conditions.",
         "citations": [
-          "24"
+          "27",
+          "28"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The Middle East is experiencing heightened tensions, particularly in Lebanon and the ongoing conflict with Iran, which could lead to further instability and humanitarian crises.",
+        "assessment": "The Middle East is facing escalating conflicts, particularly in Lebanon and the ongoing tensions with Iran, which are contributing to a worsening humanitarian situation.",
         "citations": [
           "13",
-          "24"
+          "15",
+          "25"
         ]
       },
       {
         "region": "Europe and Russia",
-        "assessment": "The reduction of US military support for NATO operations in Europe raises concerns about the alliance's preparedness to address potential threats from Russia.",
+        "assessment": "The conflict in Ukraine continues to escalate, with rising civilian casualties and a need for increased humanitarian support amidst ongoing military operations.",
         "citations": [
-          "19"
+          "21",
+          "26"
         ]
       }
     ],
     "watchlist": [
       {
         "label": "Lebanon Humanitarian Crisis",
-        "why_it_matters": "The escalating violence and displacement in Lebanon could lead to a severe humanitarian crisis, necessitating urgent international attention and assistance.",
+        "why_it_matters": "The ongoing conflict and humanitarian crisis in Lebanon could lead to regional instability and increased refugee flows.",
         "citations": [
-          "13"
+          "13",
+          "14",
+          "23"
         ]
       },
       {
-        "label": "Civilian Safety in Ukraine",
-        "why_it_matters": "The high civilian casualty rates in Ukraine highlight the urgent need for protective measures and humanitarian support for affected populations.",
+        "label": "US-Iran Diplomatic Developments",
+        "why_it_matters": "Shifts in US-Iran relations could significantly impact regional security and global oil markets.",
         "citations": [
-          "21"
+          "15",
+          "25"
         ]
       },
       {
-        "label": "US-Iran Relations",
-        "why_it_matters": "The potential for a US-Iran peace agreement could significantly impact regional stability and global oil markets, making it a critical area for monitoring.",
+        "label": "Civilian Casualties in Ukraine",
+        "why_it_matters": "The rising civilian toll in Ukraine highlights the urgent need for international humanitarian assistance and intervention.",
         "citations": [
-          "24"
+          "21",
+          "26"
+        ]
+      },
+      {
+        "label": "Interconnected Conflicts in Africa and the Middle East",
+        "why_it_matters": "The potential merging of conflict systems in these regions could have catastrophic implications for global stability.",
+        "citations": [
+          "27",
+          "28"
         ]
       }
     ],
     "caveats": [
-      "Limitations from source coverage"
+      "Limitations from source coverage may affect the comprehensiveness of the analysis."
     ]
   },
   "summary": {
-    "raw_documents": 953,
-    "total_text_chars": 155426319,
+    "raw_documents": 954,
+    "total_text_chars": 155430064,
     "sources": 32,
     "signals": 8,
     "regions": 6,
@@ -98,7 +117,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 688
+      "value": 689
     },
     {
       "name": "PDF",
@@ -132,7 +151,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 658
+      "value": 659
     },
     {
       "name": "pdfs",
@@ -206,7 +225,7 @@
     },
     {
       "name": "news.un.org",
-      "value": 41
+      "value": 42
     },
     {
       "name": "foreignpolicy.com",
@@ -419,12 +438,12 @@
       "value": 677
     },
     {
-      "name": "households",
-      "value": 659
+      "name": "international",
+      "value": 660
     },
     {
-      "name": "international",
-      "value": 654
+      "name": "households",
+      "value": 659
     },
     {
       "name": "russian",
@@ -569,11 +588,11 @@
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 553,
+      "count": 554,
       "formats": [
         {
           "name": "Article",
-          "value": 460
+          "value": 461
         },
         {
           "name": "PDF",
@@ -600,9 +619,9 @@
         "09e5695fa3e5cab45f23fa887b0052325e1aac18408ac4931c5d1039871448a5",
         "59434c53ee0ef76d586d9875748488d0383deea2c53c23ca691a66f4131a1ce2",
         "c33cec3aaccc5c57a9fe6d31477c109e15c6a96cbbdf6d30ebad40c24dffc700",
+        "b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db",
         "dbc675127780ae9c658efc9ce0d16c547104a71043c56ac28ffad6427d035b6a",
-        "fe76276cf2b76af495634d4a7db1ae7714f05b83c2ca3771f84bdb3bb1ee234d",
-        "a55620babe35d6bc518284dca2a92b5e3318b288bf0051d3dc0ea5dc01585893"
+        "fe76276cf2b76af495634d4a7db1ae7714f05b83c2ca3771f84bdb3bb1ee234d"
       ],
       "summary": "He later spoke explicitly of European “civilizational suicide.” Some might argue that the United States under Trump does not fully qualify as a civilization-state in the sense that China, India, and Russia fit the designation. Under President Donald Trump’s second term, the language of strategy has given way to a heightened language of civilization: warnings of “civilizational erasure” in Europe, invocations of a “ Judeo-Christian ” heritage under siege, and threats to Iran destroy the Iranian civilization. Authorities in Canada are investigating whether the killing of a Toronto police officer while he was executing search warrants related to a shooting at the city’s US consulate is linked a broader series of global terror attacks. The source said investigators were also looking at the possibility that the case was linked to a global terror network that has threatened retribution for US attacks on Iran. Photograph: Michael M Santiago/Getty Images “I have, as President of the United States of America, cancelled the scheduled strikes and bombings against Iran this evening,” Trump declared on his Truth Social platform as if providing his full capitalised title added any weight to the statement. This comes only hours after Trump warned Iran was about to be struck “VERY HARD”, a threat that had sent oil prices up and stocks down. Israelis and Palestinians alike remain trapped in fear, insecurity and trauma.” The groups said they feared talks over Gaza might be cast aside at the G7 summit and urged its leaders to instead “recognise the window for a solution remains open, but it is narrowing. The moment requires urgent diplomacy, grounded in partnership with civil society.” Progress on Palestinian self-rule and an Israeli exit from Gaza has been stalled for six months as each side blames the other for failing to take the steps required for peace laid down in Donald Trump’s...",
       "latest": [
@@ -925,11 +944,11 @@
     },
     {
       "name": "Institutions and Law",
-      "count": 209,
+      "count": 210,
       "formats": [
         {
           "name": "Article",
-          "value": 132
+          "value": 133
         },
         {
           "name": "PDF",
@@ -950,6 +969,7 @@
       ],
       "evidence_ids": [
         "52b0336ea896c12613f7358e7016417127c29ed914dd74341d4228cdcaedec9e",
+        "b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db",
         "ff2d6ddd85b9a5eb3418d9a32085ddd5af767faf478be8c13d95a12c41a6e326",
         "71b2b32374a33e54ea5d6fe61019e59dc5363066294745d6c8187dfcb28f30ea",
         "2785cfe08a8a09f21a2183f9f0f4e0bb1dd355d2c3590a11010c9f03e6ad99cc",
@@ -957,10 +977,9 @@
         "f6b3dd27580b7cb3e0dca9977f20e1d86c9cb10dc7e3575b74aa00697727d0ca",
         "b9dec690beba9153499f1c5f49a822eb19e6b6d32d4921d90844262fe3ba3164",
         "017ff0b0ee60ad46ba418cf9a29d0e148ae229865b4dd9409858e80cdef62b71",
-        "7444a13e00246443ded9222592c9c00d2ac86b97c71e708fb12f1b1d04081e75",
-        "fa21b648e7959714a59751a8124dfc279a76f417723df2ea8f0cd3705321a76a"
+        "7444a13e00246443ded9222592c9c00d2ac86b97c71e708fb12f1b1d04081e75"
       ],
-      "summary": "34 | 2 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org remains extremely limited, necessitating referrals of people seeking places in collective shelters to northern areas of the country. The mission of the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is to coordinate the global emergency response to save lives and protect people in humanitarian crises. The connections run through Gulf sponsorship, Red Sea geography, gold flows from Sudan to the United Arab Emirates (UAE), and the wars in Yemen and Sudan. It transmits local conflict dynamics to the global economy by disrupting Red Sea shipping and pushing food and fuel prices higher in import-dependent states. Russia has gained some economic relief thanks to higher energy sales on the back of the Iran war. As it struggles on the battlefield, some experts warn that Russia may seek to regain the initiative by leaning into some of its most provocative tactics, such as sabotage in Europe and drone incursions into NATO territory. In a separate move, on May 29, a Russian attack drone slammed into a Romanian building near that country’s border with Ukraine, injuring two people and partially destroying an apartment. • Across Pakistan, the top three districts for arrest and detention between 1 January and 6 June 2026 are Chaghi (Balochistan), Peshawar (KP), and Islamabad (ICT). • During the period 31 May – 6 June 2026, UNHCR and IOM estimate 25,443 Afghans returned through the Torkham, Ghulam Khan (located in Khyber Pakhtunkhwa), Chaman, Badini and Bahramcha (located in Balochistan) border crossing points to Afghanistan. In January, the GoP announced that Afghan nationals should relocate from Islamabad Capital Territory (ICT) and Rawalpindi, or else face deportation.",
+      "summary": "34 | 2 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org remains extremely limited, necessitating referrals of people seeking places in collective shelters to northern areas of the country. The mission of the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is to coordinate the global emergency response to save lives and protect people in humanitarian crises. “The future of the United Nations responsibility towards those within its duty of care – and, indeed, the future of international criminal justice – now stand before the Council,” she said. The discussion focused on the International Residual Mechanism for Criminal Tribunals, established by the Council in 2010 to carry forward essential functions after the closure of the International Criminal Tribunal for Rwanda (ICTR) and the International Criminal Tribunal for the former Yugoslavia (ICTY). The connections run through Gulf sponsorship, Red Sea geography, gold flows from Sudan to the United Arab Emirates (UAE), and the wars in Yemen and Sudan. It transmits local conflict dynamics to the global economy by disrupting Red Sea shipping and pushing food and fuel prices higher in import-dependent states. Russia has gained some economic relief thanks to higher energy sales on the back of the Iran war. As it struggles on the battlefield, some experts warn that Russia may seek to regain the initiative by leaning into some of its most provocative tactics, such as sabotage in Europe and drone incursions into NATO territory. In a separate move, on May 29, a Russian attack drone slammed into a Romanian building near that country’s border with Ukraine, injuring two people and partially destroying an apartment.",
       "latest": [
         {
           "id": "52b0336ea896c12613f7358e7016417127c29ed914dd74341d4228cdcaedec9e",
@@ -971,6 +990,16 @@
           "collected_at": "2026-06-12T21:28:01.158105+00:00",
           "published": "Fri, 12 Jun 2026 17:15:25 +0000",
           "summary": "34 | 2 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org remains extremely limited, necessitating referrals of people seeking places in collective shelters to northern areas of the country. The mission of the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is to coordinate the global emergency response to save lives and protect people in humanitarian crises."
+        },
+        {
+          "id": "b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db",
+          "title": "Security Council weighs future of UN war crimes mechanism as closure nears",
+          "url": "https://news.un.org/feed/view/en/story/2026/06/1167715",
+          "host": "news.un.org",
+          "format": "Article",
+          "collected_at": "2026-06-13T06:53:28.987966+00:00",
+          "published": "Fri, 12 Jun 2026 12:00:00 +0000",
+          "summary": "“The future of the United Nations responsibility towards those within its duty of care – and, indeed, the future of international criminal justice – now stand before the Council,” she said. The discussion focused on the International Residual Mechanism for Criminal Tribunals, established by the Council in 2010 to carry forward essential functions after the closure of the International Criminal Tribunal for Rwanda (ICTR) and the International Criminal Tribunal for the former Yugoslavia (ICTY)."
         },
         {
           "id": "ff2d6ddd85b9a5eb3418d9a32085ddd5af767faf478be8c13d95a12c41a6e326",
@@ -1001,26 +1030,16 @@
           "collected_at": "2026-06-12T11:38:27.573324+00:00",
           "published": "Fri, 12 Jun 2026 07:03:12 +0000",
           "summary": "• Across Pakistan, the top three districts for arrest and detention between 1 January and 6 June 2026 are Chaghi (Balochistan), Peshawar (KP), and Islamabad (ICT). • During the period 31 May – 6 June 2026, UNHCR and IOM estimate 25,443 Afghans returned through the Torkham, Ghulam Khan (located in Khyber Pakhtunkhwa), Chaman, Badini and Bahramcha (located in Balochistan) border crossing points to Afghanistan. In January, the GoP announced that Afghan nationals should relocate from Islamabad Capital Territory (ICT) and Rawalpindi, or else face deportation."
-        },
-        {
-          "id": "9b4df6f155b62834df09e43636c7e15c6b0d4168b72cb0fcc084a231297965da",
-          "title": "DR Congo: FoBE Association and MONUSCO Launch a Pilot Socio-Economic Reintegration Project for Women Victims of Sexual Exploitation and Abuse in North Kivu",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/fobe-association-and-monusco-launch-pilot-socio-economic-reintegration-project-women-victims-sexual-exploitation-and-abuse-north-kivu",
-          "host": "reliefweb.int",
-          "format": "Article",
-          "collected_at": "2026-06-12T02:41:42.553290+00:00",
-          "published": "Fri, 12 Jun 2026 00:07:40 +0000",
-          "summary": "The Biesther Foundation (FoBE Association), in partnership with the United Nations Organization Stabilization Mission in the Democratic Republic of the Congo (MONUSCO), has launched a pilot socio-economic reintegration project for 50 vulnerable women and girls from Goma, Sake, and Nyiragongo in North Kivu Province."
         }
       ]
     },
     {
       "name": "Nuclear and Strategic Risk",
-      "count": 150,
+      "count": 151,
       "formats": [
         {
           "name": "Article",
-          "value": 142
+          "value": 143
         },
         {
           "name": "PDF",
@@ -1033,6 +1052,7 @@
       ],
       "evidence_ids": [
         "09e5695fa3e5cab45f23fa887b0052325e1aac18408ac4931c5d1039871448a5",
+        "b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db",
         "8de994682896bf0853b69c09c28798dc528af168e170ec41267489cc77bf4ee3",
         "8c06b8b54364cd736b6409a289ff552d65b535f35d7bc3953a4562c31ee63f9a",
         "8cc444210b8da3829e6b4f3d66ed3b4d653e6bcc3432a581bcc192f85a9128aa",
@@ -1040,10 +1060,9 @@
         "061142734779b815a7722c15eb2874d2faf4c5d794dbaad2f2976fa484f7c445",
         "2a8d95ae11cb9b3811f55724005dfeb75594f40c1d0d93a53c18efdcf766674c",
         "61ee0d0b9a2204ea4b9d4dd3073af3ec961ee264e3a088bc52c890c83bbf706f",
-        "d59e59eacb6f495dee5815f2f11be3284ae4beff6e88235b587acf23b4d5c9b5",
-        "7a12c069798e96c505f164f9c9ed3f64bfe1e0b6e0b32a9d27ec77c1b3757628"
+        "d59e59eacb6f495dee5815f2f11be3284ae4beff6e88235b587acf23b4d5c9b5"
       ],
-      "summary": "KYIV — Warfare in Ukraine and beyond faces a paradigm shift in the coming years as artificial intelligence systems integrate into unified networks that speed up decisions on the battlefield, a senior Ukrainian official said. But Tsvok said the goal was to create a single operating system to recommend battlefield decisions all the way up from individual frontline units to strategic command. Kyiv has created Brave1 Dataroom, a project to share battlefield data with allied countries for training their software. (Coges Events photo) “Europe, like the United States, will have to equip itself with broad missile defense, including of course hypersonic missile interceptors,” Beaudouin said. Alexander Sollfrank told Reuters in November that Russia could launch a “small-scale attack” against NATO territory at any time. With some military experts warning Europe risks a direct confrontation with Russia in the next two years, defense equipment still in development would arrive too late to make a difference at the outbreak of a conflict, said Charles Beaudouin, the CEO... U.S.-Gulf working groups on integrated air and missile defense and maritime security have continued in recent years. Recent crises in the Red Sea, the Strait of Hormuz, and the airspace above the Gulf have exposed a harder test: whether those institutions can move at crisis speed when a missile salvo, drone attack, or maritime disruption gives the region minutes or hours, not days, to respond. Missiles, drones, and maritime disruptions do not stop at national borders. He again said the agreement was “a great deal for the United States and for the Middle East ” and ultimately, Iran will “in no way, shape or form have a nuclear weapon ”. But after announcing that he was canceling tonight’s strikes because of the “great settlement” reached with Iran, he said a military operation to take Kharg would be off the table “if we sign this agreement”.",
+      "summary": "KYIV — Warfare in Ukraine and beyond faces a paradigm shift in the coming years as artificial intelligence systems integrate into unified networks that speed up decisions on the battlefield, a senior Ukrainian official said. But Tsvok said the goal was to create a single operating system to recommend battlefield decisions all the way up from individual frontline units to strategic command. Kyiv has created Brave1 Dataroom, a project to share battlefield data with allied countries for training their software. “The future of the United Nations responsibility towards those within its duty of care – and, indeed, the future of international criminal justice – now stand before the Council,” she said. The discussion focused on the International Residual Mechanism for Criminal Tribunals, established by the Council in 2010 to carry forward essential functions after the closure of the International Criminal Tribunal for Rwanda (ICTR) and the International Criminal Tribunal for the former Yugoslavia (ICTY). (Coges Events photo) “Europe, like the United States, will have to equip itself with broad missile defense, including of course hypersonic missile interceptors,” Beaudouin said. Alexander Sollfrank told Reuters in November that Russia could launch a “small-scale attack” against NATO territory at any time. With some military experts warning Europe risks a direct confrontation with Russia in the next two years, defense equipment still in development would arrive too late to make a difference at the outbreak of a conflict, said Charles Beaudouin, the CEO... U.S.-Gulf working groups on integrated air and missile defense and maritime security have continued in recent years. Recent crises in the Red Sea, the Strait of Hormuz, and the airspace above the Gulf have exposed a harder test: whether those institutions can move at crisis speed when a missile salvo, drone attack, or maritime disruption gives the region minutes or hours, not days, to respond. Missiles, drones, and maritime disruptions do not stop at national borders.",
       "latest": [
         {
           "id": "09e5695fa3e5cab45f23fa887b0052325e1aac18408ac4931c5d1039871448a5",
@@ -1054,6 +1073,16 @@
           "collected_at": "2026-06-12T17:36:13.687049+00:00",
           "published": "Fri, 12 Jun 2026 14:38:09 +0000",
           "summary": "KYIV — Warfare in Ukraine and beyond faces a paradigm shift in the coming years as artificial intelligence systems integrate into unified networks that speed up decisions on the battlefield, a senior Ukrainian official said. But Tsvok said the goal was to create a single operating system to recommend battlefield decisions all the way up from individual frontline units to strategic command. Kyiv has created Brave1 Dataroom, a project to share battlefield data with allied countries for training their software."
+        },
+        {
+          "id": "b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db",
+          "title": "Security Council weighs future of UN war crimes mechanism as closure nears",
+          "url": "https://news.un.org/feed/view/en/story/2026/06/1167715",
+          "host": "news.un.org",
+          "format": "Article",
+          "collected_at": "2026-06-13T06:53:28.987966+00:00",
+          "published": "Fri, 12 Jun 2026 12:00:00 +0000",
+          "summary": "“The future of the United Nations responsibility towards those within its duty of care – and, indeed, the future of international criminal justice – now stand before the Council,” she said. The discussion focused on the International Residual Mechanism for Criminal Tribunals, established by the Council in 2010 to carry forward essential functions after the closure of the International Criminal Tribunal for Rwanda (ICTR) and the International Criminal Tribunal for the former Yugoslavia (ICTY)."
         },
         {
           "id": "8de994682896bf0853b69c09c28798dc528af168e170ec41267489cc77bf4ee3",
@@ -1084,16 +1113,6 @@
           "collected_at": "2026-06-11T21:16:35.816464+00:00",
           "published": "Thu, 11 Jun 2026 21:00:34 GMT",
           "summary": "He again said the agreement was “a great deal for the United States and for the Middle East ” and ultimately, Iran will “in no way, shape or form have a nuclear weapon ”. But after announcing that he was canceling tonight’s strikes because of the “great settlement” reached with Iran, he said a military operation to take Kharg would be off the table “if we sign this agreement”."
-        },
-        {
-          "id": "24d3bd027d78fdbcc53df75f9b77445b19c21af47234604ca50462a68502f5d8",
-          "title": "US-Iran war to pull global economy to post-COVID low: World Bank",
-          "url": "https://www.aljazeera.com/economy/2026/6/11/global-growth-to-slow-to-lowest-since-covid-due-to-iran-war-world-bank?traffic_source=rss",
-          "host": "aljazeera.com",
-          "format": "Article",
-          "collected_at": "2026-06-11T18:10:22.606976+00:00",
-          "published": "Thu, 11 Jun 2026 16:55:16 +0000",
-          "summary": "US-Iran war to pull global economy to post-COVID low: World Bank The Washington institution cut its global growth forecast by 0.4 percentage points to 2.5 percent, citing surging energy prices, inflation and borrowing costs. Published On 11 Jun 2026 11 Jun 2026 The conflict in the Middle East is set to bring global economic growth to its slowest since the COVID-19 pandemic, the World Bank has warned."
         }
       ]
     },
@@ -1232,20 +1251,20 @@
     },
     {
       "name": "Americas",
-      "count": 429,
+      "count": 430,
       "evidence_ids": [
         "9abbcfbba6571b1371a01122efdff13a8b441b20e4c58f4923967361d5e53686",
         "7e80e78028bec57f7a82233cf38b51371e9bf79a3efd72703a006130c7650d4f",
         "ab8d9673debbbfa6239f2cd7622b9c34dc7e94046541d653d84dbf9754771e2e",
         "fad3e1ea733420a0f42a871372089d32d9fec52c420b67b256fd4b4ec5f6c869",
         "c33cec3aaccc5c57a9fe6d31477c109e15c6a96cbbdf6d30ebad40c24dffc700",
+        "b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db",
         "b1929ec33a564c8bb449b3782e176a73657963e19358895410e5da84a375232e",
         "71b2b32374a33e54ea5d6fe61019e59dc5363066294745d6c8187dfcb28f30ea",
         "8de994682896bf0853b69c09c28798dc528af168e170ec41267489cc77bf4ee3",
         "4818b4e9a8ed690ca0d3703914bfba351b6be287a3016d17a2555530b07ca865",
         "8c06b8b54364cd736b6409a289ff552d65b535f35d7bc3953a4562c31ee63f9a",
-        "8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b",
-        "8cc444210b8da3829e6b4f3d66ed3b4d653e6bcc3432a581bcc192f85a9128aa"
+        "8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b"
       ],
       "top_sources": [
         {
@@ -1312,20 +1331,20 @@
     },
     {
       "name": "Global Institutions",
-      "count": 363,
+      "count": 364,
       "evidence_ids": [
         "52b0336ea896c12613f7358e7016417127c29ed914dd74341d4228cdcaedec9e",
         "ab8d9673debbbfa6239f2cd7622b9c34dc7e94046541d653d84dbf9754771e2e",
         "a9270c1a229d464c0dff783302800898652e1512e2b55bcee64f6a04b40bd1d5",
         "c33cec3aaccc5c57a9fe6d31477c109e15c6a96cbbdf6d30ebad40c24dffc700",
+        "b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db",
         "fe76276cf2b76af495634d4a7db1ae7714f05b83c2ca3771f84bdb3bb1ee234d",
         "ff2d6ddd85b9a5eb3418d9a32085ddd5af767faf478be8c13d95a12c41a6e326",
         "71b2b32374a33e54ea5d6fe61019e59dc5363066294745d6c8187dfcb28f30ea",
         "4818b4e9a8ed690ca0d3703914bfba351b6be287a3016d17a2555530b07ca865",
         "8c06b8b54364cd736b6409a289ff552d65b535f35d7bc3953a4562c31ee63f9a",
         "2785cfe08a8a09f21a2183f9f0f4e0bb1dd355d2c3590a11010c9f03e6ad99cc",
-        "bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c",
-        "9b4df6f155b62834df09e43636c7e15c6b0d4168b72cb0fcc084a231297965da"
+        "bf2676c43135dc8b9cd012cc43b81717b7a0645769a091f28da9d1503d0d8c5c"
       ],
       "top_sources": [
         {
@@ -1345,7 +1364,7 @@
           "value": 26
         },
         {
-          "name": "scsanctions.un.org",
+          "name": "news.un.org",
           "value": 23
         }
       ]
@@ -1392,9 +1411,10 @@
     },
     {
       "name": "Indo-Pacific",
-      "count": 227,
+      "count": 228,
       "evidence_ids": [
         "9abbcfbba6571b1371a01122efdff13a8b441b20e4c58f4923967361d5e53686",
+        "b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db",
         "a55620babe35d6bc518284dca2a92b5e3318b288bf0051d3dc0ea5dc01585893",
         "8de994682896bf0853b69c09c28798dc528af168e170ec41267489cc77bf4ee3",
         "c71e2d58be9fabc42e3604f151618e217a22fe16ae9ae84ffe0a6570edeac362",
@@ -1404,8 +1424,7 @@
         "e398e5bcc7e22f2bff2673966562b35d3975c9bce11b8a02d6b1205544bffcde",
         "6c9bc26b89fa2293eb8b499e3ea48922a5e7995fc77a96a35ed43f6bae05bb06",
         "8ea6823aff74d0b706af52cec00b57016a9899bea023ec2e79ed9b5dac646ad4",
-        "8d586a7c83de489fa408a94dd64d38e9951d9a15950f09285b887f00f14bc8bf",
-        "2a8d95ae11cb9b3811f55724005dfeb75594f40c1d0d93a53c18efdcf766674c"
+        "8d586a7c83de489fa408a94dd64d38e9951d9a15950f09285b887f00f14bc8bf"
       ],
       "top_sources": [
         {
@@ -1910,17 +1929,17 @@
     },
     {
       "date": "2026",
-      "evidence_id": "4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79",
-      "title": "OFAC Specially Designated Nationals List",
-      "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
-      "excerpt": "06/11/2026 19065 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity"
-    },
-    {
-      "date": "2026",
       "evidence_id": "fea7d9571ff7ca2efb3238e0492a555dedb78bd63fbcf1aab057cb00127447d0",
       "title": "Consolidated Sanctions List",
       "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
       "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong"
+    },
+    {
+      "date": "2026",
+      "evidence_id": "4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79",
+      "title": "OFAC Specially Designated Nationals List",
+      "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
+      "excerpt": "06/11/2026 19065 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity"
     },
     {
       "date": "2026",
@@ -3416,6 +3435,85 @@
       ],
       "detail_path": "/evidence/3d53956b24413513a619ba5ee2ab8e7eb3e933ecf9bc7595fbacba3703022b1e",
       "evidence_json": "/evidence/3d53956b24413513a619ba5ee2ab8e7eb3e933ecf9bc7595fbacba3703022b1e.json"
+    },
+    {
+      "id": "b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db",
+      "topic": "geopolitics",
+      "title": "Security Council weighs future of UN war crimes mechanism as closure nears",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167715",
+      "host": "news.un.org",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-13T06:53:28.987966+00:00",
+      "published": "Fri, 12 Jun 2026 12:00:00 +0000",
+      "text_chars": 3745,
+      "raw_path": "data/geopolitics/raw/b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db.html",
+      "text_path": "data/geopolitics/raw/b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db.txt",
+      "summary": "“The future of the United Nations responsibility towards those within its duty of care – and, indeed, the future of international criminal justice – now stand before the Council,” she said. The discussion focused on the International Residual Mechanism for Criminal Tribunals, established by the Council in 2010 to carry forward essential functions after the closure of the International Criminal Tribunal for Rwanda (ICTR) and the International Criminal Tribunal for the former Yugoslavia (ICTY).",
+      "bullets": [
+        "“The future of the United Nations responsibility towards those within its duty of care – and, indeed, the future of international criminal justice – now stand before the Council,” she said.",
+        "The discussion focused on the International Residual Mechanism for Criminal Tribunals, established by the Council in 2010 to carry forward essential functions after the closure of the International Criminal Tribunal for Rwanda (ICTR) and the International Criminal Tribunal for the former Yugoslavia (ICTY).",
+        "“The horrific atrocities in Rwanda and the former Yugoslavia were not random outbreaks of violence,” he said, warning that hate speech and propaganda had paved the way for violence and underscoring the educational value of the archives.",
+        "Similar disagreements emerged over the future location of the archives of the former Yugoslavia tribunal.",
+        "The United States said the Council now faced important decisions to ensure “a responsible and expeditious conclusion” of the Mechanism's work."
+      ],
+      "excerpt": "The discussion focused on the International Residual Mechanism for Criminal Tribunals, established by the Council in 2010 to carry forward essential functions after the closure of the International Criminal Tribunal for Rwanda (ICTR) and the International Criminal Tribunal for the former Yugoslavia (ICTY). Addressing the Council, Mechanism President Graciela Gatti Santana said the body had “effectively executed its mandate” and that only “limited – but still essential – work remains” following the referral of one of its final contempt cases to a national jurisdiction. “The future of the United Nations responsibility towards those within its duty of care – and, indeed, the future of international criminal justice – now stand before the Council,” she said. Major downsizing proposed Ms. Gatti Santana outlined a strategic plan that could achieve a nearly 90 per cent reduction in staffing resources while transferring some functions, including assistance to national jurisdictions and management of archives, to the UN Secretariat. However, she argued that a small number of judicial responsibilities must remain at the international level, including matters related to prisoner transfers and",
+      "keywords": [
+        {
+          "name": "mechanism",
+          "value": 9
+        },
+        {
+          "name": "archives",
+          "value": 8
+        },
+        {
+          "name": "council",
+          "value": 6
+        },
+        {
+          "name": "international",
+          "value": 6
+        },
+        {
+          "name": "closure",
+          "value": 5
+        },
+        {
+          "name": "future",
+          "value": 5
+        },
+        {
+          "name": "rwanda",
+          "value": 5
+        },
+        {
+          "name": "criminal",
+          "value": 4
+        },
+        {
+          "name": "functions",
+          "value": 4
+        },
+        {
+          "name": "tribunal",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "Nuclear and Strategic Risk"
+      ],
+      "regions": [
+        "Global Institutions",
+        "Americas",
+        "Indo-Pacific"
+      ],
+      "detail_path": "/evidence/b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db",
+      "evidence_json": "/evidence/b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db.json"
     },
     {
       "id": "cb505510c9076c7c54246a870dbf74a191309bd6d1a3837113ff2584dbfc97f4",
@@ -8565,83 +8663,6 @@
       ],
       "detail_path": "/evidence/f5504721188b2fc09fc98a3f14d9999292aec996ae19c66748ad56a60fcafc99",
       "evidence_json": "/evidence/f5504721188b2fc09fc98a3f14d9999292aec996ae19c66748ad56a60fcafc99.json"
-    },
-    {
-      "id": "37c175cb3f1580fc8d7dfad0ac696d71837a1ab056be0a80bf4c888310a5dcde",
-      "topic": "geopolitics",
-      "title": "German air show opens under shadow of Iran war, fighter project collapse",
-      "url": "https://www.defensenews.com/global/europe/2026/06/10/german-air-show-opens-under-shadow-of-iran-war-fighter-project-collapse/",
-      "host": "defensenews.com",
-      "source": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=utf-8",
-      "collected_at": "2026-06-10T14:23:05.023652+00:00",
-      "published": "Wed, 10 Jun 2026 13:21:24 +0000",
-      "text_chars": 2999,
-      "raw_path": "data/geopolitics/raw/37c175cb3f1580fc8d7dfad0ac696d71837a1ab056be0a80bf4c888310a5dcde.html",
-      "text_path": "data/geopolitics/raw/37c175cb3f1580fc8d7dfad0ac696d71837a1ab056be0a80bf4c888310a5dcde.txt",
-      "summary": "The Iran war has added to the sense of unease, exposing strains in transatlantic ties and even raising questions about NATO’s future, while also hitting airlines as flights are canceled and jet fuel costs rise. Stephanie Lingemann, a senior executive at defense startup Helsing, said technologies such as software-driven defense systems and autonomy in warfare could now be folded into whatever follows FCAS.",
-      "bullets": [
-        "The Iran war has added to the sense of unease, exposing strains in transatlantic ties and even raising questions about NATO’s future, while also hitting airlines as flights are canceled and jet fuel costs rise.",
-        "Stephanie Lingemann, a senior executive at defense startup Helsing, said technologies such as software-driven defense systems and autonomy in warfare could now be folded into whatever follows FCAS.",
-        "BERLIN — Germany’s ILA air show opened on Wednesday under the twin shadows of the Iran war and the collapse this week of a flagship Franco-German fighter jet project, clouding what is meant to be one of Europe’s premier aerospace showcases.",
-        "The Berlin event, which dates back to 1909, puts a large slice of Europe’s defense industry on display as companies pitch new technology to governments and military buyers.",
-        "The decision comes as Western officials warn of a growing threat from Russia and the U.S."
-      ],
-      "excerpt": "BERLIN — Germany’s ILA air show opened on Wednesday under the twin shadows of the Iran war and the collapse this week of a flagship Franco-German fighter jet project, clouding what is meant to be one of Europe’s premier aerospace showcases. The Berlin event, which dates back to 1909, puts a large slice of Europe’s defense industry on display as companies pitch new technology to governments and military buyers. It also highlights the push by European manufacturers to narrow the gap with U.S. rivals and persuade governments to back them as the region ramps up defense spending. RELATED “Knowing what we know today, we wouldn’t set up a program in this way again,” Pistorius said. Yet the build-up to the show was dominated by the scrapping of the Franco-German Future Combat Air System (FCAS), long billed as Europe’s most ambitious defense project but ultimately undone by industrial rivalry. Its demise has underscored the difficulty Europe faces in building military capacity at scale. The decision comes as Western officials warn of a growing threat from Russia and the U.S. presses Europe to re-arm more quickly. Reshaping alliances Airbus, which represented Germany and Spain in FCAS, is in",
-      "keywords": [
-        {
-          "name": "show",
-          "value": 6
-        },
-        {
-          "name": "defense",
-          "value": 5
-        },
-        {
-          "name": "europe",
-          "value": 5
-        },
-        {
-          "name": "germany",
-          "value": 4
-        },
-        {
-          "name": "berlin",
-          "value": 3
-        },
-        {
-          "name": "companies",
-          "value": 3
-        },
-        {
-          "name": "fcas",
-          "value": 3
-        },
-        {
-          "name": "fighter",
-          "value": 3
-        },
-        {
-          "name": "iran",
-          "value": 3
-        },
-        {
-          "name": "project",
-          "value": 3
-        }
-      ],
-      "signals": [
-        "War and Escalation"
-      ],
-      "regions": [
-        "Europe and Russia",
-        "Global Institutions",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/37c175cb3f1580fc8d7dfad0ac696d71837a1ab056be0a80bf4c888310a5dcde",
-      "evidence_json": "/evidence/37c175cb3f1580fc8d7dfad0ac696d71837a1ab056be0a80bf4c888310a5dcde.json"
     }
   ],
   "deep_reads": [
@@ -8735,7 +8756,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-13T02:33:51.161815+00:00",
+      "collected_at": "2026-06-13T06:52:57.701073+00:00",
       "published": "",
       "text_chars": 9080594,
       "raw_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.xml",
@@ -9615,7 +9636,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-13T02:33:17.464210+00:00",
+      "collected_at": "2026-06-13T06:52:20.213683+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -9690,7 +9711,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-13T02:33:17.752913+00:00",
+      "collected_at": "2026-06-13T06:52:20.534257+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -10889,7 +10910,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-13T02:33:54.234967+00:00",
+      "collected_at": "2026-06-13T06:53:04.649280+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -10970,7 +10991,7 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-06-13T02:33:53.220511+00:00",
+      "collected_at": "2026-06-13T06:53:00.792826+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -11040,7 +11061,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-13T02:33:53.183899+00:00",
+      "collected_at": "2026-06-13T06:53:00.789098+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11121,7 +11142,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-13T02:33:51.231044+00:00",
+      "collected_at": "2026-06-13T06:52:58.819434+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
@@ -11185,86 +11206,6 @@
       "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
     },
     {
-      "id": "4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79",
-      "topic": "geopolitics",
-      "title": "OFAC Specially Designated Nationals List",
-      "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
-      "host": "treasury.gov",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "text/xml",
-      "collected_at": "2026-06-13T02:33:51.161815+00:00",
-      "published": "",
-      "text_chars": 9080594,
-      "raw_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.xml",
-      "text_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.txt",
-      "summary": "6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg.",
-      "bullets": [
-        "6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A.",
-        "strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg.",
-        "Entity CUBA 357 Buenos Aires Argentina 590 CUBACANCUN CIGARS AND GIFT SHOPS Entity CUBA 358 Cancun Mexico 591 CUBAEXPORT Entity CUBA 359 Spain 592 CUBAFRUTAS Entity CUBA 360 Spain 593 CUBAN CIGARS TRADE Entity CUBA 361 Italy 621 CUBANATUR Entity CUBA 362 Baja California 255, Edificio B.",
-        "11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A.",
-        "06500 Mexico 622 CUBATABACO Entity CUBA 363 Spain 636 CUMEXINT, S.A."
-      ],
-      "excerpt": "06/11/2026 19065 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity CUBA 219 a.k.a. weak BNC 220 a.k.a. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg. 6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. Entity CUBA 276 Panama City Panama 535 CIMEX Entity CUBA 317 Emerson No. 148 Piso 7 Mexico, D.F. 11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A. Entity CUBA 319 Panama 540 COMERCIAL IBEROAMERICANA, S.A. Entity CUBA 471 a.k.a. strong COIBA 321 Spain 551 COMERCIAL CIMEX, S.A. Entity CUBA 328 Panama 552 COMERCIAL DE RODAJES Y MAQUINARIA, S.A. Entity CUBA 475 a.k.a. strong CRYMSA 329 Jose Lazaro Galdeano 6-6 Madrid 28016 Spain 555 COMERCIALIZACION DE PRODUCTOS VARIOS Enti",
-      "keywords": [
-        {
-          "name": "sanctions",
-          "value": 19835
-        },
-        {
-          "name": "russia",
-          "value": 16743
-        },
-        {
-          "name": "executive",
-          "value": 13346
-        },
-        {
-          "name": "order",
-          "value": 13305
-        },
-        {
-          "name": "risk",
-          "value": 11405
-        },
-        {
-          "name": "entity",
-          "value": 10003
-        },
-        {
-          "name": "russia-eo",
-          "value": 6386
-        },
-        {
-          "name": "iran",
-          "value": 6123
-        },
-        {
-          "name": "gender",
-          "value": 5349
-        },
-        {
-          "name": "mexico",
-          "value": 4934
-        }
-      ],
-      "signals": [
-        "Energy and Supply Chains",
-        "Sanctions and Finance",
-        "Territory and Chokepoints",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Africa",
-        "Middle East",
-        "Americas"
-      ],
-      "detail_path": "/evidence/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79",
-      "evidence_json": "/evidence/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.json"
-    },
-    {
       "id": "fea7d9571ff7ca2efb3238e0492a555dedb78bd63fbcf1aab057cb00127447d0",
       "topic": "geopolitics",
       "title": "Consolidated Sanctions List",
@@ -11274,7 +11215,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-13T02:33:21.105171+00:00",
+      "collected_at": "2026-06-13T06:52:58.758895+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/fea7d9571ff7ca2efb3238e0492a555dedb78bd63fbcf1aab057cb00127447d0.xml",
@@ -11345,6 +11286,86 @@
       "evidence_json": "/evidence/fea7d9571ff7ca2efb3238e0492a555dedb78bd63fbcf1aab057cb00127447d0.json"
     },
     {
+      "id": "4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79",
+      "topic": "geopolitics",
+      "title": "OFAC Specially Designated Nationals List",
+      "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
+      "host": "treasury.gov",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "text/xml",
+      "collected_at": "2026-06-13T06:52:57.701073+00:00",
+      "published": "",
+      "text_chars": 9080594,
+      "raw_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.xml",
+      "text_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.txt",
+      "summary": "6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg.",
+      "bullets": [
+        "6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A.",
+        "strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg.",
+        "Entity CUBA 357 Buenos Aires Argentina 590 CUBACANCUN CIGARS AND GIFT SHOPS Entity CUBA 358 Cancun Mexico 591 CUBAEXPORT Entity CUBA 359 Spain 592 CUBAFRUTAS Entity CUBA 360 Spain 593 CUBAN CIGARS TRADE Entity CUBA 361 Italy 621 CUBANATUR Entity CUBA 362 Baja California 255, Edificio B.",
+        "11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A.",
+        "06500 Mexico 622 CUBATABACO Entity CUBA 363 Spain 636 CUMEXINT, S.A."
+      ],
+      "excerpt": "06/11/2026 19065 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity CUBA 219 a.k.a. weak BNC 220 a.k.a. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg. 6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. Entity CUBA 276 Panama City Panama 535 CIMEX Entity CUBA 317 Emerson No. 148 Piso 7 Mexico, D.F. 11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A. Entity CUBA 319 Panama 540 COMERCIAL IBEROAMERICANA, S.A. Entity CUBA 471 a.k.a. strong COIBA 321 Spain 551 COMERCIAL CIMEX, S.A. Entity CUBA 328 Panama 552 COMERCIAL DE RODAJES Y MAQUINARIA, S.A. Entity CUBA 475 a.k.a. strong CRYMSA 329 Jose Lazaro Galdeano 6-6 Madrid 28016 Spain 555 COMERCIALIZACION DE PRODUCTOS VARIOS Enti",
+      "keywords": [
+        {
+          "name": "sanctions",
+          "value": 19835
+        },
+        {
+          "name": "russia",
+          "value": 16743
+        },
+        {
+          "name": "executive",
+          "value": 13346
+        },
+        {
+          "name": "order",
+          "value": 13305
+        },
+        {
+          "name": "risk",
+          "value": 11405
+        },
+        {
+          "name": "entity",
+          "value": 10003
+        },
+        {
+          "name": "russia-eo",
+          "value": 6386
+        },
+        {
+          "name": "iran",
+          "value": 6123
+        },
+        {
+          "name": "gender",
+          "value": 5349
+        },
+        {
+          "name": "mexico",
+          "value": 4934
+        }
+      ],
+      "signals": [
+        "Energy and Supply Chains",
+        "Sanctions and Finance",
+        "Territory and Chokepoints",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Americas"
+      ],
+      "detail_path": "/evidence/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79",
+      "evidence_json": "/evidence/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.json"
+    },
+    {
       "id": "cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a",
       "topic": "geopolitics",
       "title": "Consolidated Sanctions List",
@@ -11354,7 +11375,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-13T02:33:19.409233+00:00",
+      "collected_at": "2026-06-13T06:52:23.902932+00:00",
       "published": "",
       "text_chars": 824644,
       "raw_path": "data/geopolitics/raw/cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a.xml",
@@ -11434,7 +11455,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-13T02:33:17.752913+00:00",
+      "collected_at": "2026-06-13T06:52:20.534257+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -11511,7 +11532,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-13T02:33:17.464210+00:00",
+      "collected_at": "2026-06-13T06:52:20.213683+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -15448,7 +15469,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-13T02:33:54.234967+00:00",
+      "collected_at": "2026-06-13T06:53:04.649280+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15529,7 +15550,7 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-06-13T02:33:53.220511+00:00",
+      "collected_at": "2026-06-13T06:53:00.792826+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -15599,7 +15620,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-13T02:33:53.183899+00:00",
+      "collected_at": "2026-06-13T06:53:00.789098+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15680,7 +15701,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-13T02:33:51.231044+00:00",
+      "collected_at": "2026-06-13T06:52:58.819434+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
@@ -15744,86 +15765,6 @@
       "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
     },
     {
-      "id": "4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79",
-      "topic": "geopolitics",
-      "title": "OFAC Specially Designated Nationals List",
-      "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
-      "host": "treasury.gov",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "text/xml",
-      "collected_at": "2026-06-13T02:33:51.161815+00:00",
-      "published": "",
-      "text_chars": 9080594,
-      "raw_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.xml",
-      "text_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.txt",
-      "summary": "6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg.",
-      "bullets": [
-        "6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A.",
-        "strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg.",
-        "Entity CUBA 357 Buenos Aires Argentina 590 CUBACANCUN CIGARS AND GIFT SHOPS Entity CUBA 358 Cancun Mexico 591 CUBAEXPORT Entity CUBA 359 Spain 592 CUBAFRUTAS Entity CUBA 360 Spain 593 CUBAN CIGARS TRADE Entity CUBA 361 Italy 621 CUBANATUR Entity CUBA 362 Baja California 255, Edificio B.",
-        "11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A.",
-        "06500 Mexico 622 CUBATABACO Entity CUBA 363 Spain 636 CUMEXINT, S.A."
-      ],
-      "excerpt": "06/11/2026 19065 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity CUBA 219 a.k.a. weak BNC 220 a.k.a. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg. 6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. Entity CUBA 276 Panama City Panama 535 CIMEX Entity CUBA 317 Emerson No. 148 Piso 7 Mexico, D.F. 11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A. Entity CUBA 319 Panama 540 COMERCIAL IBEROAMERICANA, S.A. Entity CUBA 471 a.k.a. strong COIBA 321 Spain 551 COMERCIAL CIMEX, S.A. Entity CUBA 328 Panama 552 COMERCIAL DE RODAJES Y MAQUINARIA, S.A. Entity CUBA 475 a.k.a. strong CRYMSA 329 Jose Lazaro Galdeano 6-6 Madrid 28016 Spain 555 COMERCIALIZACION DE PRODUCTOS VARIOS Enti",
-      "keywords": [
-        {
-          "name": "sanctions",
-          "value": 19835
-        },
-        {
-          "name": "russia",
-          "value": 16743
-        },
-        {
-          "name": "executive",
-          "value": 13346
-        },
-        {
-          "name": "order",
-          "value": 13305
-        },
-        {
-          "name": "risk",
-          "value": 11405
-        },
-        {
-          "name": "entity",
-          "value": 10003
-        },
-        {
-          "name": "russia-eo",
-          "value": 6386
-        },
-        {
-          "name": "iran",
-          "value": 6123
-        },
-        {
-          "name": "gender",
-          "value": 5349
-        },
-        {
-          "name": "mexico",
-          "value": 4934
-        }
-      ],
-      "signals": [
-        "Energy and Supply Chains",
-        "Sanctions and Finance",
-        "Territory and Chokepoints",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Africa",
-        "Middle East",
-        "Americas"
-      ],
-      "detail_path": "/evidence/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79",
-      "evidence_json": "/evidence/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.json"
-    },
-    {
       "id": "fea7d9571ff7ca2efb3238e0492a555dedb78bd63fbcf1aab057cb00127447d0",
       "topic": "geopolitics",
       "title": "Consolidated Sanctions List",
@@ -15833,7 +15774,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-13T02:33:21.105171+00:00",
+      "collected_at": "2026-06-13T06:52:58.758895+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/fea7d9571ff7ca2efb3238e0492a555dedb78bd63fbcf1aab057cb00127447d0.xml",
@@ -15904,6 +15845,86 @@
       "evidence_json": "/evidence/fea7d9571ff7ca2efb3238e0492a555dedb78bd63fbcf1aab057cb00127447d0.json"
     },
     {
+      "id": "4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79",
+      "topic": "geopolitics",
+      "title": "OFAC Specially Designated Nationals List",
+      "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
+      "host": "treasury.gov",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "text/xml",
+      "collected_at": "2026-06-13T06:52:57.701073+00:00",
+      "published": "",
+      "text_chars": 9080594,
+      "raw_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.xml",
+      "text_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.txt",
+      "summary": "6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg.",
+      "bullets": [
+        "6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A.",
+        "strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg.",
+        "Entity CUBA 357 Buenos Aires Argentina 590 CUBACANCUN CIGARS AND GIFT SHOPS Entity CUBA 358 Cancun Mexico 591 CUBAEXPORT Entity CUBA 359 Spain 592 CUBAFRUTAS Entity CUBA 360 Spain 593 CUBAN CIGARS TRADE Entity CUBA 361 Italy 621 CUBANATUR Entity CUBA 362 Baja California 255, Edificio B.",
+        "11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A.",
+        "06500 Mexico 622 CUBATABACO Entity CUBA 363 Spain 636 CUMEXINT, S.A."
+      ],
+      "excerpt": "06/11/2026 19065 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity CUBA 219 a.k.a. weak BNC 220 a.k.a. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg. 6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. Entity CUBA 276 Panama City Panama 535 CIMEX Entity CUBA 317 Emerson No. 148 Piso 7 Mexico, D.F. 11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A. Entity CUBA 319 Panama 540 COMERCIAL IBEROAMERICANA, S.A. Entity CUBA 471 a.k.a. strong COIBA 321 Spain 551 COMERCIAL CIMEX, S.A. Entity CUBA 328 Panama 552 COMERCIAL DE RODAJES Y MAQUINARIA, S.A. Entity CUBA 475 a.k.a. strong CRYMSA 329 Jose Lazaro Galdeano 6-6 Madrid 28016 Spain 555 COMERCIALIZACION DE PRODUCTOS VARIOS Enti",
+      "keywords": [
+        {
+          "name": "sanctions",
+          "value": 19835
+        },
+        {
+          "name": "russia",
+          "value": 16743
+        },
+        {
+          "name": "executive",
+          "value": 13346
+        },
+        {
+          "name": "order",
+          "value": 13305
+        },
+        {
+          "name": "risk",
+          "value": 11405
+        },
+        {
+          "name": "entity",
+          "value": 10003
+        },
+        {
+          "name": "russia-eo",
+          "value": 6386
+        },
+        {
+          "name": "iran",
+          "value": 6123
+        },
+        {
+          "name": "gender",
+          "value": 5349
+        },
+        {
+          "name": "mexico",
+          "value": 4934
+        }
+      ],
+      "signals": [
+        "Energy and Supply Chains",
+        "Sanctions and Finance",
+        "Territory and Chokepoints",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Americas"
+      ],
+      "detail_path": "/evidence/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79",
+      "evidence_json": "/evidence/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.json"
+    },
+    {
       "id": "cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a",
       "topic": "geopolitics",
       "title": "Consolidated Sanctions List",
@@ -15913,7 +15934,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-13T02:33:19.409233+00:00",
+      "collected_at": "2026-06-13T06:52:23.902932+00:00",
       "published": "",
       "text_chars": 824644,
       "raw_path": "data/geopolitics/raw/cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a.xml",
@@ -15993,7 +16014,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-13T02:33:17.752913+00:00",
+      "collected_at": "2026-06-13T06:52:20.534257+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -16070,7 +16091,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-13T02:33:17.464210+00:00",
+      "collected_at": "2026-06-13T06:52:20.213683+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -17298,6 +17319,85 @@
       ],
       "detail_path": "/evidence/3d53956b24413513a619ba5ee2ab8e7eb3e933ecf9bc7595fbacba3703022b1e",
       "evidence_json": "/evidence/3d53956b24413513a619ba5ee2ab8e7eb3e933ecf9bc7595fbacba3703022b1e.json"
+    },
+    {
+      "id": "b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db",
+      "topic": "geopolitics",
+      "title": "Security Council weighs future of UN war crimes mechanism as closure nears",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167715",
+      "host": "news.un.org",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-13T06:53:28.987966+00:00",
+      "published": "Fri, 12 Jun 2026 12:00:00 +0000",
+      "text_chars": 3745,
+      "raw_path": "data/geopolitics/raw/b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db.html",
+      "text_path": "data/geopolitics/raw/b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db.txt",
+      "summary": "“The future of the United Nations responsibility towards those within its duty of care – and, indeed, the future of international criminal justice – now stand before the Council,” she said. The discussion focused on the International Residual Mechanism for Criminal Tribunals, established by the Council in 2010 to carry forward essential functions after the closure of the International Criminal Tribunal for Rwanda (ICTR) and the International Criminal Tribunal for the former Yugoslavia (ICTY).",
+      "bullets": [
+        "“The future of the United Nations responsibility towards those within its duty of care – and, indeed, the future of international criminal justice – now stand before the Council,” she said.",
+        "The discussion focused on the International Residual Mechanism for Criminal Tribunals, established by the Council in 2010 to carry forward essential functions after the closure of the International Criminal Tribunal for Rwanda (ICTR) and the International Criminal Tribunal for the former Yugoslavia (ICTY).",
+        "“The horrific atrocities in Rwanda and the former Yugoslavia were not random outbreaks of violence,” he said, warning that hate speech and propaganda had paved the way for violence and underscoring the educational value of the archives.",
+        "Similar disagreements emerged over the future location of the archives of the former Yugoslavia tribunal.",
+        "The United States said the Council now faced important decisions to ensure “a responsible and expeditious conclusion” of the Mechanism's work."
+      ],
+      "excerpt": "The discussion focused on the International Residual Mechanism for Criminal Tribunals, established by the Council in 2010 to carry forward essential functions after the closure of the International Criminal Tribunal for Rwanda (ICTR) and the International Criminal Tribunal for the former Yugoslavia (ICTY). Addressing the Council, Mechanism President Graciela Gatti Santana said the body had “effectively executed its mandate” and that only “limited – but still essential – work remains” following the referral of one of its final contempt cases to a national jurisdiction. “The future of the United Nations responsibility towards those within its duty of care – and, indeed, the future of international criminal justice – now stand before the Council,” she said. Major downsizing proposed Ms. Gatti Santana outlined a strategic plan that could achieve a nearly 90 per cent reduction in staffing resources while transferring some functions, including assistance to national jurisdictions and management of archives, to the UN Secretariat. However, she argued that a small number of judicial responsibilities must remain at the international level, including matters related to prisoner transfers and",
+      "keywords": [
+        {
+          "name": "mechanism",
+          "value": 9
+        },
+        {
+          "name": "archives",
+          "value": 8
+        },
+        {
+          "name": "council",
+          "value": 6
+        },
+        {
+          "name": "international",
+          "value": 6
+        },
+        {
+          "name": "closure",
+          "value": 5
+        },
+        {
+          "name": "future",
+          "value": 5
+        },
+        {
+          "name": "rwanda",
+          "value": 5
+        },
+        {
+          "name": "criminal",
+          "value": 4
+        },
+        {
+          "name": "functions",
+          "value": 4
+        },
+        {
+          "name": "tribunal",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "Nuclear and Strategic Risk"
+      ],
+      "regions": [
+        "Global Institutions",
+        "Americas",
+        "Indo-Pacific"
+      ],
+      "detail_path": "/evidence/b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db",
+      "evidence_json": "/evidence/b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db.json"
     },
     {
       "id": "cb505510c9076c7c54246a870dbf74a191309bd6d1a3837113ff2584dbfc97f4",
