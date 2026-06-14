@@ -1,89 +1,70 @@
 {
-  "generated_at": "2026-06-14T00:00:57.682553+00:00",
+  "generated_at": "2026-06-14T04:12:38.658666+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating tensions in the Middle East and Europe signal urgent geopolitical challenges.",
+    "headline": "Escalating tensions in the Middle East and humanitarian crises prompt urgent international response.",
     "executive_summary": [
-      "Recent developments in the Middle East highlight a significant escalation in hostilities, particularly in Lebanon, where airstrikes and displacement orders have resulted in thousands of casualties and widespread humanitarian distress. Reports indicate that at least 3,711 deaths and 11,483 injuries have been recorded since early March, with over 134,800 internally displaced persons seeking shelter in collective facilities (evidence id: 17).",
-      "In parallel, the geopolitical landscape is shifting as the United States plans to reduce its military presence in Europe, potentially impacting NATO's operational capabilities. This decision includes cutting the number of fighter jets and warships available for NATO operations, which could limit the alliance's ability to conduct long-range strikes and surveillance (evidence id: 23).",
-      "Diplomatic efforts are underway to address the ongoing conflict in Gaza, with civil society groups urging G7 leaders to take decisive action to enforce a ceasefire and promote reconstruction efforts. The situation remains precarious, with fears that the window for a two-state solution is rapidly closing (evidence id: 20).",
-      "The humanitarian crisis in Afghanistan continues to worsen, exacerbated by logistical challenges in delivering aid. Recent reports detail the complexities faced by organizations like the World Food Programme in getting essential supplies to vulnerable populations amid border closures and regional instability (evidence id: 12)."
+      "The ongoing conflict in the Middle East, particularly the war in Iran and its repercussions, has led to significant humanitarian crises, with millions affected by violence and displacement. Reports indicate that airstrikes and military actions have resulted in thousands of casualties and widespread destruction of infrastructure, particularly in Lebanon and Gaza.",
+      "International diplomatic efforts are intensifying as civil society groups urge G7 leaders to take decisive action to address the deteriorating situation in Gaza, emphasizing the need for a ceasefire and reconstruction initiatives. The call for urgent diplomacy highlights the narrowing window for a viable two-state solution amidst escalating violence and settlement expansion.",
+      "The humanitarian situation in Lebanon is critical, with hospitals and healthcare facilities suffering damage from ongoing hostilities. The UN reports that over 134,800 individuals have been displaced, and humanitarian partners are struggling to provide essential relief amid significant funding shortfalls.",
+      "As geopolitical tensions rise, particularly between the US and Iran, the potential for further escalation remains high. The international community is closely monitoring developments, with sanctions and diplomatic negotiations being key tools in addressing the multifaceted crises in the region."
     ],
     "key_judgments": [
       {
-        "title": "Escalation of Hostilities in Lebanon",
-        "finding": "The ongoing conflict in Lebanon has resulted in significant civilian casualties and displacement, with over 3,700 deaths reported since March.",
+        "title": "Humanitarian Crisis in Lebanon",
+        "finding": "The humanitarian situation in Lebanon has deteriorated significantly due to ongoing hostilities, with over 134,800 internally displaced persons reported and extensive damage to healthcare facilities.",
         "citations": [
-          "17"
+          "18",
+          "19",
+          "28"
         ]
       },
       {
-        "title": "US Military Reductions in Europe",
-        "finding": "The planned reduction of US military assets in Europe may hinder NATO's operational effectiveness and response capabilities.",
+        "title": "Urgent Need for Diplomatic Action",
+        "finding": "Civil society groups are calling for immediate action from G7 leaders to enforce a ceasefire and support reconstruction efforts in Gaza, highlighting the urgency of diplomatic engagement.",
         "citations": [
-          "23"
-        ]
-      },
-      {
-        "title": "Urgent Need for G7 Action on Gaza",
-        "finding": "Civil society groups are calling for immediate G7 intervention to address the deteriorating situation in Gaza and support a two-state solution.",
-        "citations": [
-          "20"
-        ]
-      },
-      {
-        "title": "Humanitarian Crisis in Afghanistan",
-        "finding": "Logistical challenges are severely impacting the delivery of humanitarian aid in Afghanistan, complicating efforts to address widespread hunger.",
-        "citations": [
+          "21",
           "12"
+        ]
+      },
+      {
+        "title": "Escalation of Violence in the Middle East",
+        "finding": "The conflict in Iran and its regional implications have led to increased military actions and civilian casualties, with reports indicating a significant rise in violence and instability.",
+        "citations": [
+          "20",
+          "9"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The Middle East is experiencing heightened tensions, particularly in Lebanon and Gaza, with significant humanitarian implications.",
+        "assessment": "The Middle East is experiencing heightened tensions and humanitarian crises, particularly in Lebanon and Gaza, where military actions have led to significant civilian casualties and displacement.",
         "citations": [
-          "17",
-          "20"
-        ]
-      },
-      {
-        "region": "Europe and Russia",
-        "assessment": "The reduction of US military support in Europe poses risks to NATO's collective defense posture amid ongoing geopolitical challenges.",
-        "citations": [
-          "23"
+          "18",
+          "19",
+          "21",
+          "28"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "Lebanon Hostilities",
-        "why_it_matters": "Continued violence in Lebanon threatens regional stability and exacerbates the humanitarian crisis.",
+        "label": "Lebanon",
+        "why_it_matters": "The ongoing conflict and humanitarian crisis in Lebanon require urgent international attention to prevent further deterioration and support displaced populations.",
         "citations": [
-          "17"
+          "18",
+          "19",
+          "28"
         ]
       },
       {
-        "label": "US-NATO Relations",
-        "why_it_matters": "Changes in US military commitments could alter the balance of power within NATO and impact collective security.",
+        "label": "Gaza",
+        "why_it_matters": "The situation in Gaza is critical, with calls for a ceasefire and reconstruction efforts amidst escalating violence and humanitarian needs.",
         "citations": [
-          "23"
-        ]
-      },
-      {
-        "label": "Gaza Reconstruction Efforts",
-        "why_it_matters": "Failure to address the humanitarian needs in Gaza could lead to further instability and conflict in the region.",
-        "citations": [
-          "20"
-        ]
-      },
-      {
-        "label": "Afghanistan Humanitarian Aid",
-        "why_it_matters": "Logistical challenges in delivering aid to Afghanistan could result in increased suffering and instability.",
-        "citations": [
+          "21",
           "12"
         ]
       }
@@ -93,8 +74,8 @@
     ]
   },
   "summary": {
-    "raw_documents": 960,
-    "total_text_chars": 156270030,
+    "raw_documents": 961,
+    "total_text_chars": 156273961,
     "sources": 32,
     "signals": 8,
     "regions": 6,
@@ -105,7 +86,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 692
+      "value": 693
     },
     {
       "name": "PDF",
@@ -139,7 +120,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 662
+      "value": 663
     },
     {
       "name": "pdfs",
@@ -201,7 +182,7 @@
     },
     {
       "name": "aljazeera.com",
-      "value": 74
+      "value": 75
     },
     {
       "name": "warontherocks.com",
@@ -307,7 +288,7 @@
     },
     {
       "name": "iran",
-      "value": 2809
+      "value": 2814
     },
     {
       "name": "humanitarian",
@@ -485,11 +466,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 639,
+      "count": 640,
       "formats": [
         {
           "name": "Article",
-          "value": 526
+          "value": 527
         },
         {
           "name": "PDF",
@@ -509,6 +490,7 @@
         }
       ],
       "evidence_ids": [
+        "fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9",
         "4d268bb4b9abaaf60cc41739ee01211eb12ae246583366d7659f77a55fcc2217",
         "c2147442cd2797903f91c6cc2a4f360d53219661784eadd63077a4d0cf7c0d67",
         "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
@@ -517,11 +499,20 @@
         "3c16e08a8f73b1ff33ee61bc5f1ca4dcd81b8495ffe083fc92be03116f95e262",
         "52b0336ea896c12613f7358e7016417127c29ed914dd74341d4228cdcaedec9e",
         "ab8d9673debbbfa6239f2cd7622b9c34dc7e94046541d653d84dbf9754771e2e",
-        "fad3e1ea733420a0f42a871372089d32d9fec52c420b67b256fd4b4ec5f6c869",
-        "09e5695fa3e5cab45f23fa887b0052325e1aac18408ac4931c5d1039871448a5"
+        "fad3e1ea733420a0f42a871372089d32d9fec52c420b67b256fd4b4ec5f6c869"
       ],
-      "summary": "The event comes as settler violence in the West Bank has reached unprecedented levels, and as a coalition of western countries – including the UK, France, Canada, Germany and Italy – have called for an end to the construction of Israeli settlements it says breach international law. Civil society organisations have said the event normalises illegal settlements by marketing them alongside properties in Israeli cities, and called on government to stop trade and investment enabling “unlawful occupation”. However, geopolitics strikes again and, as instability spread across the Middle East, in effect closing the critical Strait of Hormuz since March, WFP is forced to rethink the plan once more. The country suffers from repeated floods and earthquakes, declining humanitarian funding and two crises along its borders. The original plan was for the shipment to be transferred to trucks for a 7,000 km trip through Pakistan but, amid tensions between the country and Afghanistan, the border was closed. President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions. and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S. Constanze Stelzenmuller, a trans-Atlantic security expert at the Brookings Institution, said leaders will carry that lesson into any meetings with President Trump at the summit. He later spoke explicitly of European “civilizational suicide.” Some might argue that the United States under Trump does not fully qualify as a civilization-state in the sense that China, India, and Russia fit the designation. Under President Donald Trump’s second term, the language of strategy has given way to a heightened language of civilization: warnings of “civilizational erasure” in Europe, invocations of a “ Judeo-Christian ” heritage under siege, and threats to Iran destroy the Iranian civilization.",
+      "summary": "Recommended Stories list of 4 items end of list Gold has been under pressure since the United States and Israel attacked Iran in late February, launching a months-long war. To retaliate against the US and Israel, Iran has been blocking traffic through the waterway since the start of the war, impeding a major artery for oil and gas shipments. The roots of the inflation spike lie, in large part, with the Strait of Hormuz. The event comes as settler violence in the West Bank has reached unprecedented levels, and as a coalition of western countries – including the UK, France, Canada, Germany and Italy – have called for an end to the construction of Israeli settlements it says breach international law. Civil society organisations have said the event normalises illegal settlements by marketing them alongside properties in Israeli cities, and called on government to stop trade and investment enabling “unlawful occupation”. However, geopolitics strikes again and, as instability spread across the Middle East, in effect closing the critical Strait of Hormuz since March, WFP is forced to rethink the plan once more. The country suffers from repeated floods and earthquakes, declining humanitarian funding and two crises along its borders. The original plan was for the shipment to be transferred to trucks for a 7,000 km trip through Pakistan but, amid tensions between the country and Afghanistan, the border was closed. President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions. and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S. Constanze Stelzenmuller, a trans-Atlantic security expert at the Brookings Institution, said leaders will carry that lesson into any meetings with President Trump at the summit.",
       "latest": [
+        {
+          "id": "fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9",
+          "title": "Why is the price of gold trending down?",
+          "url": "https://www.aljazeera.com/economy/2026/6/14/why-is-the-price-of-gold-trending-down?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-06-14T04:12:54.670037+00:00",
+          "published": "Sun, 14 Jun 2026 00:56:36 +0000",
+          "summary": "Recommended Stories list of 4 items end of list Gold has been under pressure since the United States and Israel attacked Iran in late February, launching a months-long war. To retaliate against the US and Israel, Iran has been blocking traffic through the waterway since the start of the war, impeding a major artery for oil and gas shipments. The roots of the inflation spike lie, in large part, with the Strait of Hormuz."
+        },
         {
           "id": "4d268bb4b9abaaf60cc41739ee01211eb12ae246583366d7659f77a55fcc2217",
           "title": "MPs call for end to real estate event over fear it pushes sale of Israeli settlements",
@@ -561,16 +552,6 @@
           "collected_at": "2026-06-12T19:57:38.786567+00:00",
           "published": "Fri, 12 Jun 2026 18:40:03 +0000",
           "summary": "He later spoke explicitly of European “civilizational suicide.” Some might argue that the United States under Trump does not fully qualify as a civilization-state in the sense that China, India, and Russia fit the designation. Under President Donald Trump’s second term, the language of strategy has given way to a heightened language of civilization: warnings of “civilizational erasure” in Europe, invocations of a “ Judeo-Christian ” heritage under siege, and threats to Iran destroy the Iranian civilization."
-        },
-        {
-          "id": "7e80e78028bec57f7a82233cf38b51371e9bf79a3efd72703a006130c7650d4f",
-          "title": "Canada police investigate whether Toronto police death linked to global terror attacks",
-          "url": "https://www.theguardian.com/world/2026/jun/12/canada-police-investigate-toronto-police-death-global-terror-attacks",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-12T19:57:46.875194+00:00",
-          "published": "Fri, 12 Jun 2026 18:08:37 GMT",
-          "summary": "Authorities in Canada are investigating whether the killing of a Toronto police officer while he was executing search warrants related to a shooting at the city’s US consulate is linked a broader series of global terror attacks. The source said investigators were also looking at the possibility that the case was linked to a global terror network that has threatened retribution for US attacks on Iran."
         }
       ]
     },
@@ -758,11 +739,11 @@
     },
     {
       "name": "Territory and Chokepoints",
-      "count": 392,
+      "count": 393,
       "formats": [
         {
           "name": "Article",
-          "value": 307
+          "value": 308
         },
         {
           "name": "PDF",
@@ -782,6 +763,7 @@
         }
       ],
       "evidence_ids": [
+        "fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9",
         "4d268bb4b9abaaf60cc41739ee01211eb12ae246583366d7659f77a55fcc2217",
         "c2147442cd2797903f91c6cc2a4f360d53219661784eadd63077a4d0cf7c0d67",
         "59434c53ee0ef76d586d9875748488d0383deea2c53c23ca691a66f4131a1ce2",
@@ -790,11 +772,20 @@
         "fe76276cf2b76af495634d4a7db1ae7714f05b83c2ca3771f84bdb3bb1ee234d",
         "a55620babe35d6bc518284dca2a92b5e3318b288bf0051d3dc0ea5dc01585893",
         "b1929ec33a564c8bb449b3782e176a73657963e19358895410e5da84a375232e",
-        "71b2b32374a33e54ea5d6fe61019e59dc5363066294745d6c8187dfcb28f30ea",
-        "8de994682896bf0853b69c09c28798dc528af168e170ec41267489cc77bf4ee3"
+        "71b2b32374a33e54ea5d6fe61019e59dc5363066294745d6c8187dfcb28f30ea"
       ],
-      "summary": "The event comes as settler violence in the West Bank has reached unprecedented levels, and as a coalition of western countries – including the UK, France, Canada, Germany and Italy – have called for an end to the construction of Israeli settlements it says breach international law. Civil society organisations have said the event normalises illegal settlements by marketing them alongside properties in Israeli cities, and called on government to stop trade and investment enabling “unlawful occupation”. However, geopolitics strikes again and, as instability spread across the Middle East, in effect closing the critical Strait of Hormuz since March, WFP is forced to rethink the plan once more. The country suffers from repeated floods and earthquakes, declining humanitarian funding and two crises along its borders. The original plan was for the shipment to be transferred to trucks for a 7,000 km trip through Pakistan but, amid tensions between the country and Afghanistan, the border was closed. The boundaries and names shown, and the designations used on this map do not imply official endorsement or acceptance by the International Organization for Migration. Over the five-month period from November 2025 to March 2026, the TTT early warning system captured 151 alerts through trained enumerators, key informants, community representatives, and local authorities. CONSEQUENCES OF EVENTS TYPES OF ALERTS 19 UPPER FULLADU 48 NIANI 99 MOVEMENTS 52 EVENTS 151 ALERTS 10 NIAMINA WEST 4 JARRA EAST This map is for illustration purposes only. The decision would limit NATO’s ability to launch long-range strikes and conduct surveillance, the report said. This would strengthen NATO’s defense by reducing reliance on a single ally and reflect a broader change happening within the alliance, Hart said in an emailed statement. European Command said in a statement last week that it would “rightsize” its contributions to the NATO Force Model, without providing further details.",
+      "summary": "Recommended Stories list of 4 items end of list Gold has been under pressure since the United States and Israel attacked Iran in late February, launching a months-long war. To retaliate against the US and Israel, Iran has been blocking traffic through the waterway since the start of the war, impeding a major artery for oil and gas shipments. The roots of the inflation spike lie, in large part, with the Strait of Hormuz. The event comes as settler violence in the West Bank has reached unprecedented levels, and as a coalition of western countries – including the UK, France, Canada, Germany and Italy – have called for an end to the construction of Israeli settlements it says breach international law. Civil society organisations have said the event normalises illegal settlements by marketing them alongside properties in Israeli cities, and called on government to stop trade and investment enabling “unlawful occupation”. However, geopolitics strikes again and, as instability spread across the Middle East, in effect closing the critical Strait of Hormuz since March, WFP is forced to rethink the plan once more. The country suffers from repeated floods and earthquakes, declining humanitarian funding and two crises along its borders. The original plan was for the shipment to be transferred to trucks for a 7,000 km trip through Pakistan but, amid tensions between the country and Afghanistan, the border was closed. The boundaries and names shown, and the designations used on this map do not imply official endorsement or acceptance by the International Organization for Migration. Over the five-month period from November 2025 to March 2026, the TTT early warning system captured 151 alerts through trained enumerators, key informants, community representatives, and local authorities. CONSEQUENCES OF EVENTS TYPES OF ALERTS 19 UPPER FULLADU 48 NIANI 99 MOVEMENTS 52 EVENTS 151 ALERTS 10 NIAMINA WEST 4 JARRA EAST This map is for illustration purposes only.",
       "latest": [
+        {
+          "id": "fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9",
+          "title": "Why is the price of gold trending down?",
+          "url": "https://www.aljazeera.com/economy/2026/6/14/why-is-the-price-of-gold-trending-down?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-06-14T04:12:54.670037+00:00",
+          "published": "Sun, 14 Jun 2026 00:56:36 +0000",
+          "summary": "Recommended Stories list of 4 items end of list Gold has been under pressure since the United States and Israel attacked Iran in late February, launching a months-long war. To retaliate against the US and Israel, Iran has been blocking traffic through the waterway since the start of the war, impeding a major artery for oil and gas shipments. The roots of the inflation spike lie, in large part, with the Strait of Hormuz."
+        },
         {
           "id": "4d268bb4b9abaaf60cc41739ee01211eb12ae246583366d7659f77a55fcc2217",
           "title": "MPs call for end to real estate event over fear it pushes sale of Israeli settlements",
@@ -834,26 +825,16 @@
           "collected_at": "2026-06-12T14:39:14.833496+00:00",
           "published": "Fri, 12 Jun 2026 13:05:31 +0000",
           "summary": "The decision would limit NATO’s ability to launch long-range strikes and conduct surveillance, the report said. This would strengthen NATO’s defense by reducing reliance on a single ally and reflect a broader change happening within the alliance, Hart said in an emailed statement. European Command said in a statement last week that it would “rightsize” its contributions to the NATO Force Model, without providing further details."
-        },
-        {
-          "id": "3d53956b24413513a619ba5ee2ab8e7eb3e933ecf9bc7595fbacba3703022b1e",
-          "title": "Ukraine civilian casualty toll in May highest in four years, UN monitors say",
-          "url": "https://news.un.org/feed/view/en/story/2026/06/1167707",
-          "host": "news.un.org",
-          "format": "Article",
-          "collected_at": "2026-06-12T17:36:19.793095+00:00",
-          "published": "Fri, 12 Jun 2026 12:00:00 +0000",
-          "summary": "On 14 May, a missile struck an apartment building in the capital, Kyiv, killing 24 civilians while at least seven others were wounded. Casualties in Russian-occupied territory While the vast majority of casualties occurred in territory under Ukrainian Government control – namely across 20 regions and the city of Kyiv – HRMMU also verified that some civilians were killed and injured in Russian-occupied territory."
         }
       ]
     },
     {
       "name": "Energy and Supply Chains",
-      "count": 293,
+      "count": 294,
       "formats": [
         {
           "name": "Article",
-          "value": 234
+          "value": 235
         },
         {
           "name": "PDF",
@@ -865,6 +846,7 @@
         }
       ],
       "evidence_ids": [
+        "fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9",
         "c2147442cd2797903f91c6cc2a4f360d53219661784eadd63077a4d0cf7c0d67",
         "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
         "9abbcfbba6571b1371a01122efdff13a8b441b20e4c58f4923967361d5e53686",
@@ -873,11 +855,20 @@
         "ab8d9673debbbfa6239f2cd7622b9c34dc7e94046541d653d84dbf9754771e2e",
         "a55620babe35d6bc518284dca2a92b5e3318b288bf0051d3dc0ea5dc01585893",
         "b1929ec33a564c8bb449b3782e176a73657963e19358895410e5da84a375232e",
-        "ff2d6ddd85b9a5eb3418d9a32085ddd5af767faf478be8c13d95a12c41a6e326",
-        "8485b27b6b0a0b6012026c7a770b5b6e34fc318e0947fa5762f2d9b1ffa6211b"
+        "ff2d6ddd85b9a5eb3418d9a32085ddd5af767faf478be8c13d95a12c41a6e326"
       ],
-      "summary": "However, geopolitics strikes again and, as instability spread across the Middle East, in effect closing the critical Strait of Hormuz since March, WFP is forced to rethink the plan once more. The country suffers from repeated floods and earthquakes, declining humanitarian funding and two crises along its borders. The original plan was for the shipment to be transferred to trucks for a 7,000 km trip through Pakistan but, amid tensions between the country and Afghanistan, the border was closed. President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions. and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S. Constanze Stelzenmuller, a trans-Atlantic security expert at the Brookings Institution, said leaders will carry that lesson into any meetings with President Trump at the summit. He later spoke explicitly of European “civilizational suicide.” Some might argue that the United States under Trump does not fully qualify as a civilization-state in the sense that China, India, and Russia fit the designation. Under President Donald Trump’s second term, the language of strategy has given way to a heightened language of civilization: warnings of “civilizational erasure” in Europe, invocations of a “ Judeo-Christian ” heritage under siege, and threats to Iran destroy the Iranian civilization. SITUATION OVERVIEW Despite the extension of the ceasefire announced last week, Lebanon continues to experience new waves of displacement driven by insecurity – airstrikes, shelling and displacement orders across broad swaths of southern Lebanon. HIGHLIGHT Hostilities continued with airstrikes and three renewed displacement orders covering six localities across the South and Nabatieh Governorates triggering additional displacement.",
+      "summary": "Recommended Stories list of 4 items end of list Gold has been under pressure since the United States and Israel attacked Iran in late February, launching a months-long war. To retaliate against the US and Israel, Iran has been blocking traffic through the waterway since the start of the war, impeding a major artery for oil and gas shipments. The roots of the inflation spike lie, in large part, with the Strait of Hormuz. However, geopolitics strikes again and, as instability spread across the Middle East, in effect closing the critical Strait of Hormuz since March, WFP is forced to rethink the plan once more. The country suffers from repeated floods and earthquakes, declining humanitarian funding and two crises along its borders. The original plan was for the shipment to be transferred to trucks for a 7,000 km trip through Pakistan but, amid tensions between the country and Afghanistan, the border was closed. President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions. and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S. Constanze Stelzenmuller, a trans-Atlantic security expert at the Brookings Institution, said leaders will carry that lesson into any meetings with President Trump at the summit. He later spoke explicitly of European “civilizational suicide.” Some might argue that the United States under Trump does not fully qualify as a civilization-state in the sense that China, India, and Russia fit the designation. Under President Donald Trump’s second term, the language of strategy has given way to a heightened language of civilization: warnings of “civilizational erasure” in Europe, invocations of a “ Judeo-Christian ” heritage under siege, and threats to Iran destroy the Iranian civilization.",
       "latest": [
+        {
+          "id": "fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9",
+          "title": "Why is the price of gold trending down?",
+          "url": "https://www.aljazeera.com/economy/2026/6/14/why-is-the-price-of-gold-trending-down?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-06-14T04:12:54.670037+00:00",
+          "published": "Sun, 14 Jun 2026 00:56:36 +0000",
+          "summary": "Recommended Stories list of 4 items end of list Gold has been under pressure since the United States and Israel attacked Iran in late February, launching a months-long war. To retaliate against the US and Israel, Iran has been blocking traffic through the waterway since the start of the war, impeding a major artery for oil and gas shipments. The roots of the inflation spike lie, in large part, with the Strait of Hormuz."
+        },
         {
           "id": "c2147442cd2797903f91c6cc2a4f360d53219661784eadd63077a4d0cf7c0d67",
           "title": "Instability, war and closed borders: How aid workers get emergency food to hungry Afghan children",
@@ -917,16 +908,6 @@
           "collected_at": "2026-06-12T21:28:00.747818+00:00",
           "published": "Fri, 12 Jun 2026 17:15:25 +0000",
           "summary": "SITUATION OVERVIEW Despite the extension of the ceasefire announced last week, Lebanon continues to experience new waves of displacement driven by insecurity – airstrikes, shelling and displacement orders across broad swaths of southern Lebanon. HIGHLIGHT Hostilities continued with airstrikes and three renewed displacement orders covering six localities across the South and Nabatieh Governorates triggering additional displacement."
-        },
-        {
-          "id": "52b0336ea896c12613f7358e7016417127c29ed914dd74341d4228cdcaedec9e",
-          "title": "Lebanon: Flash Update #34 - Escalation of hostilities in Lebanon (as of 11 June 2026) (pdf)",
-          "url": "https://reliefweb.int/attachments/703c736c-cc7a-4e3b-952b-3e780dd843c6/2026.06.11_OCHA_Lebanon_Flash_Update%20No%2034.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-06-12T21:28:01.158105+00:00",
-          "published": "Fri, 12 Jun 2026 17:15:25 +0000",
-          "summary": "34 | 2 United Nations Office for the Coordination of Humanitarian Affairs www.unocha.org remains extremely limited, necessitating referrals of people seeking places in collective shelters to northern areas of the country. The mission of the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is to coordinate the global emergency response to save lives and protect people in humanitarian crises."
         }
       ]
     },
@@ -1106,11 +1087,11 @@
     },
     {
       "name": "Sanctions and Finance",
-      "count": 148,
+      "count": 149,
       "formats": [
         {
           "name": "Article",
-          "value": 104
+          "value": 105
         },
         {
           "name": "Sanctions",
@@ -1130,6 +1111,7 @@
         }
       ],
       "evidence_ids": [
+        "fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9",
         "4d268bb4b9abaaf60cc41739ee01211eb12ae246583366d7659f77a55fcc2217",
         "9abbcfbba6571b1371a01122efdff13a8b441b20e4c58f4923967361d5e53686",
         "fad3e1ea733420a0f42a871372089d32d9fec52c420b67b256fd4b4ec5f6c869",
@@ -1138,11 +1120,20 @@
         "8de994682896bf0853b69c09c28798dc528af168e170ec41267489cc77bf4ee3",
         "9b4df6f155b62834df09e43636c7e15c6b0d4168b72cb0fcc084a231297965da",
         "733440684f946b0878409fe3e1deb9412975eff70b3c34981cb42238a9c95a76",
-        "2a8d95ae11cb9b3811f55724005dfeb75594f40c1d0d93a53c18efdcf766674c",
-        "7a12c069798e96c505f164f9c9ed3f64bfe1e0b6e0b32a9d27ec77c1b3757628"
+        "2a8d95ae11cb9b3811f55724005dfeb75594f40c1d0d93a53c18efdcf766674c"
       ],
-      "summary": "The event comes as settler violence in the West Bank has reached unprecedented levels, and as a coalition of western countries – including the UK, France, Canada, Germany and Italy – have called for an end to the construction of Israeli settlements it says breach international law. Civil society organisations have said the event normalises illegal settlements by marketing them alongside properties in Israeli cities, and called on government to stop trade and investment enabling “unlawful occupation”. He later spoke explicitly of European “civilizational suicide.” Some might argue that the United States under Trump does not fully qualify as a civilization-state in the sense that China, India, and Russia fit the designation. Under President Donald Trump’s second term, the language of strategy has given way to a heightened language of civilization: warnings of “civilizational erasure” in Europe, invocations of a “ Judeo-Christian ” heritage under siege, and threats to Iran destroy the Iranian civilization. Israelis and Palestinians alike remain trapped in fear, insecurity and trauma.” The groups said they feared talks over Gaza might be cast aside at the G7 summit and urged its leaders to instead “recognise the window for a solution remains open, but it is narrowing. The moment requires urgent diplomacy, grounded in partnership with civil society.” Progress on Palestinian self-rule and an Israeli exit from Gaza has been stalled for six months as each side blames the other for failing to take the steps required for peace laid down in Donald Trump’s... The boundaries and names shown, and the designations used on this map do not imply official endorsement or acceptance by the International Organization for Migration. Over the five-month period from November 2025 to March 2026, the TTT early warning system captured 151 alerts through trained enumerators, key informants, community representatives, and local authorities. CONSEQUENCES OF EVENTS TYPES OF ALERTS 19 UPPER FULLADU 48 NIANI 99 MOVEMENTS 52 EVENTS 151 ALERTS 10 NIAMINA WEST 4 JARRA EAST This map is for illustration purposes only.",
+      "summary": "Recommended Stories list of 4 items end of list Gold has been under pressure since the United States and Israel attacked Iran in late February, launching a months-long war. To retaliate against the US and Israel, Iran has been blocking traffic through the waterway since the start of the war, impeding a major artery for oil and gas shipments. The roots of the inflation spike lie, in large part, with the Strait of Hormuz. The event comes as settler violence in the West Bank has reached unprecedented levels, and as a coalition of western countries – including the UK, France, Canada, Germany and Italy – have called for an end to the construction of Israeli settlements it says breach international law. Civil society organisations have said the event normalises illegal settlements by marketing them alongside properties in Israeli cities, and called on government to stop trade and investment enabling “unlawful occupation”. He later spoke explicitly of European “civilizational suicide.” Some might argue that the United States under Trump does not fully qualify as a civilization-state in the sense that China, India, and Russia fit the designation. Under President Donald Trump’s second term, the language of strategy has given way to a heightened language of civilization: warnings of “civilizational erasure” in Europe, invocations of a “ Judeo-Christian ” heritage under siege, and threats to Iran destroy the Iranian civilization. Israelis and Palestinians alike remain trapped in fear, insecurity and trauma.” The groups said they feared talks over Gaza might be cast aside at the G7 summit and urged its leaders to instead “recognise the window for a solution remains open, but it is narrowing. The moment requires urgent diplomacy, grounded in partnership with civil society.” Progress on Palestinian self-rule and an Israeli exit from Gaza has been stalled for six months as each side blames the other for failing to take the steps required for peace laid down in Donald Trump’s...",
       "latest": [
+        {
+          "id": "fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9",
+          "title": "Why is the price of gold trending down?",
+          "url": "https://www.aljazeera.com/economy/2026/6/14/why-is-the-price-of-gold-trending-down?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-06-14T04:12:54.670037+00:00",
+          "published": "Sun, 14 Jun 2026 00:56:36 +0000",
+          "summary": "Recommended Stories list of 4 items end of list Gold has been under pressure since the United States and Israel attacked Iran in late February, launching a months-long war. To retaliate against the US and Israel, Iran has been blocking traffic through the waterway since the start of the war, impeding a major artery for oil and gas shipments. The roots of the inflation spike lie, in large part, with the Strait of Hormuz."
+        },
         {
           "id": "4d268bb4b9abaaf60cc41739ee01211eb12ae246583366d7659f77a55fcc2217",
           "title": "MPs call for end to real estate event over fear it pushes sale of Israeli settlements",
@@ -1182,16 +1173,6 @@
           "collected_at": "2026-06-12T14:39:18.448076+00:00",
           "published": "Fri, 12 Jun 2026 13:33:07 +0000",
           "summary": "The boundaries and names shown, and the designations used on this map do not imply official endorsement or acceptance by the International Organization for Migration. Over the five-month period from November 2025 to March 2026, the TTT early warning system captured 151 alerts through trained enumerators, key informants, community representatives, and local authorities. CONSEQUENCES OF EVENTS TYPES OF ALERTS 19 UPPER FULLADU 48 NIANI 99 MOVEMENTS 52 EVENTS 151 ALERTS 10 NIAMINA WEST 4 JARRA EAST This map is for illustration purposes only."
-        },
-        {
-          "id": "fe76276cf2b76af495634d4a7db1ae7714f05b83c2ca3771f84bdb3bb1ee234d",
-          "title": "Armed forces minister called for ‘new way of governing’ in resignation letter to Starmer – UK politics live",
-          "url": "https://www.theguardian.com/politics/live/2026/jun/12/keir-starmer-defence-investment-plan-spending-dan-jarvis-al-cairns-john-healey-latest-news-updates",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-12T11:38:18.308965+00:00",
-          "published": "Fri, 12 Jun 2026 11:15:41 GMT",
-          "summary": "It is one where working people feel economically secure, public services function, energy is resilient, communities are stable and young people can see a future worth working towards. If my resignation accelerates the transition towards resolution, then the impact will far outweigh the act. Officials and ministers who know the truth are not always rewarded for telling it."
         }
       ]
     }
@@ -1199,8 +1180,9 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 516,
+      "count": 517,
       "evidence_ids": [
+        "fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9",
         "4d268bb4b9abaaf60cc41739ee01211eb12ae246583366d7659f77a55fcc2217",
         "c2147442cd2797903f91c6cc2a4f360d53219661784eadd63077a4d0cf7c0d67",
         "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
@@ -1211,8 +1193,7 @@
         "fad3e1ea733420a0f42a871372089d32d9fec52c420b67b256fd4b4ec5f6c869",
         "02629152a29808a21b5e4b5a6439e6a948ac2d3ea84c44cde0b2d56bff713a90",
         "d393e7904a2540a7da4bb39c460572733f4738324016ad8199bdb8747b950cb5",
-        "dbc675127780ae9c658efc9ce0d16c547104a71043c56ac28ffad6427d035b6a",
-        "fe76276cf2b76af495634d4a7db1ae7714f05b83c2ca3771f84bdb3bb1ee234d"
+        "dbc675127780ae9c658efc9ce0d16c547104a71043c56ac28ffad6427d035b6a"
       ],
       "top_sources": [
         {
@@ -1225,7 +1206,7 @@
         },
         {
           "name": "aljazeera.com",
-          "value": 58
+          "value": 59
         },
         {
           "name": "global.unitednations.entermediadb.net",
@@ -1239,8 +1220,9 @@
     },
     {
       "name": "Americas",
-      "count": 431,
+      "count": 432,
       "evidence_ids": [
+        "fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9",
         "4d268bb4b9abaaf60cc41739ee01211eb12ae246583366d7659f77a55fcc2217",
         "9abbcfbba6571b1371a01122efdff13a8b441b20e4c58f4923967361d5e53686",
         "7e80e78028bec57f7a82233cf38b51371e9bf79a3efd72703a006130c7650d4f",
@@ -1251,8 +1233,7 @@
         "b1929ec33a564c8bb449b3782e176a73657963e19358895410e5da84a375232e",
         "71b2b32374a33e54ea5d6fe61019e59dc5363066294745d6c8187dfcb28f30ea",
         "8de994682896bf0853b69c09c28798dc528af168e170ec41267489cc77bf4ee3",
-        "4818b4e9a8ed690ca0d3703914bfba351b6be287a3016d17a2555530b07ca865",
-        "8c06b8b54364cd736b6409a289ff552d65b535f35d7bc3953a4562c31ee63f9a"
+        "4818b4e9a8ed690ca0d3703914bfba351b6be287a3016d17a2555530b07ca865"
       ],
       "top_sources": [
         {
@@ -1269,7 +1250,7 @@
         },
         {
           "name": "aljazeera.com",
-          "value": 48
+          "value": 49
         },
         {
           "name": "foreignpolicy.com",
@@ -1903,17 +1884,17 @@
     },
     {
       "date": "2026-04-08",
-      "evidence_id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
-    },
-    {
-      "date": "2026-04-08",
       "evidence_id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "title": "MS.MIL.XPND.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
       "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\","
+    },
+    {
+      "date": "2026-04-08",
+      "evidence_id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
     },
     {
       "date": "2026",
@@ -1928,6 +1909,13 @@
       "title": "Consolidated Sanctions List",
       "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
       "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong"
+    },
+    {
+      "date": "2026",
+      "evidence_id": "fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9",
+      "title": "Why is the price of gold trending down?",
+      "url": "https://www.aljazeera.com/economy/2026/6/14/why-is-the-price-of-gold-trending-down?traffic_source=rss",
+      "excerpt": "st rates and inflation as two sides of a seesaw … and gold sits right in the middle of that,” said Plume. “The catch in 2026 is that both are happening at once — and right now, the rate side is winning. That’s why gold is facing headwinds.” On Friday, as the news of a potential deal between the US and Iran broke, gold closed slightly higher than on the previous day. “Headlines"
     },
     {
       "date": "2026",
@@ -2411,16 +2399,88 @@
       "title": "Tuesday briefing: Is a social media ban in the UK enough to help protect young people?",
       "url": "https://www.theguardian.com/world/2026/jun/09/tuesday-briefing-first-edition-social-media-ban-young-people-online-safety-act",
       "excerpt": "’sa fascinating story of isolation, illness and unabashed creativity. Sinéad Our TV desk has run down the best shows of 2026 so far – from Heated Rivalry’s gloriously steamy ice hockey romance to an Attenbrough retrospective, there’s bound to be something on there that piques your interest. Toby This great read about the changing attitudes towards the dog meat industry in Niger"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "fc1e5a8a77a21c35aa29aa1d228ef7ab3185318407bd4dcc96530459f5b60c65",
-      "title": "US lists China’s BYD, Alibaba, Baidu as ‘Chinese military companies’",
-      "url": "https://www.aljazeera.com/economy/2026/6/9/us-lists-chinas-byd-alibaba-baidu-as-chinese-military-companies?traffic_source=rss",
-      "excerpt": "Published On 9 Jun 2026 9 Jun 2026 The United States has designated Chinese corporate giants Alibaba, BYD and Baidu as companies that support China’s military, expanding its blacklist to some of the country’s best-known commercial brands. The Pentagon included the firms in an up"
     }
   ],
   "latest_evidence": [
+    {
+      "id": "fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9",
+      "topic": "geopolitics",
+      "title": "Why is the price of gold trending down?",
+      "url": "https://www.aljazeera.com/economy/2026/6/14/why-is-the-price-of-gold-trending-down?traffic_source=rss",
+      "host": "aljazeera.com",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-06-14T04:12:54.670037+00:00",
+      "published": "Sun, 14 Jun 2026 00:56:36 +0000",
+      "text_chars": 3931,
+      "raw_path": "data/geopolitics/raw/fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9.html",
+      "text_path": "data/geopolitics/raw/fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9.txt",
+      "summary": "Recommended Stories list of 4 items end of list Gold has been under pressure since the United States and Israel attacked Iran in late February, launching a months-long war. To retaliate against the US and Israel, Iran has been blocking traffic through the waterway since the start of the war, impeding a major artery for oil and gas shipments. The roots of the inflation spike lie, in large part, with the Strait of Hormuz.",
+      "bullets": [
+        "Recommended Stories list of 4 items end of list Gold has been under pressure since the United States and Israel attacked Iran in late February, launching a months-long war.",
+        "To retaliate against the US and Israel, Iran has been blocking traffic through the waterway since the start of the war, impeding a major artery for oil and gas shipments.",
+        "The roots of the inflation spike lie, in large part, with the Strait of Hormuz.",
+        "That is because soaring inflation has raised concerns that central banks will not slash interest rates.",
+        "At the same time, the country’s job market has held steady, dashing expectations of any immediate cuts to interest rates."
+      ],
+      "excerpt": "In times of global crises, the price of gold shoots up as investors look at the yellow metal as a safe haven against inflation. But that has not been the case this time. Recommended Stories list of 4 items end of list Gold has been under pressure since the United States and Israel attacked Iran in late February, launching a months-long war. Prices have fallen from a high of $5,303 per troy ounce (31.1g) on January 28 to $4,235 on Friday. That is because soaring inflation has raised concerns that central banks will not slash interest rates. They may even hike them to rein in prices. The roots of the inflation spike lie, in large part, with the Strait of Hormuz. To retaliate against the US and Israel, Iran has been blocking traffic through the waterway since the start of the war, impeding a major artery for oil and gas shipments. Energy prices have shot up in response, which in turn has pushed up inflation. In the US, inflation is at its highest in three years, at 4.2 percent. At the same time, the country’s job market has held steady, dashing expectations of any immediate cuts to interest rates. While gold acts as an inflation hedge for investors, the higher interest rates tend to w",
+      "keywords": [
+        {
+          "name": "gold",
+          "value": 23
+        },
+        {
+          "name": "interest",
+          "value": 9
+        },
+        {
+          "name": "rates",
+          "value": 9
+        },
+        {
+          "name": "inflation",
+          "value": 8
+        },
+        {
+          "name": "prices",
+          "value": 6
+        },
+        {
+          "name": "dollar",
+          "value": 5
+        },
+        {
+          "name": "iran",
+          "value": 5
+        },
+        {
+          "name": "cardwell",
+          "value": 4
+        },
+        {
+          "name": "plume",
+          "value": 4
+        },
+        {
+          "name": "rate",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "Energy and Supply Chains",
+        "Sanctions and Finance",
+        "Territory and Chokepoints",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas"
+      ],
+      "detail_path": "/evidence/fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9",
+      "evidence_json": "/evidence/fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9.json"
+    },
     {
       "id": "4d268bb4b9abaaf60cc41739ee01211eb12ae246583366d7659f77a55fcc2217",
       "topic": "geopolitics",
@@ -8568,81 +8628,6 @@
       ],
       "detail_path": "/evidence/cee47456459dbc28391730dd47ab15d170d147af336d2339aca50c5156fcb8c0",
       "evidence_json": "/evidence/cee47456459dbc28391730dd47ab15d170d147af336d2339aca50c5156fcb8c0.json"
-    },
-    {
-      "id": "de46c5c0bbb833f4b0c6b00441803a834ea890c7e3bd09a4fffb8ddc62e94dbe",
-      "topic": "geopolitics",
-      "title": "WH Smith raises £100m as it warns on profits due to Iran war",
-      "url": "https://www.theguardian.com/business/2026/jun/10/wh-smith-shut-stories-profit-warning-iran-war-airport-middle-east",
-      "host": "theguardian.com",
-      "source": "https://www.theguardian.com/world/rss",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-06-10T14:23:10.407658+00:00",
-      "published": "Wed, 10 Jun 2026 13:57:23 GMT",
-      "text_chars": 3878,
-      "raw_path": "data/geopolitics/raw/de46c5c0bbb833f4b0c6b00441803a834ea890c7e3bd09a4fffb8ddc62e94dbe.html",
-      "text_path": "data/geopolitics/raw/de46c5c0bbb833f4b0c6b00441803a834ea890c7e3bd09a4fffb8ddc62e94dbe.txt",
-      "summary": "Richard Hunter, head of markets at Interactive Investor, said: “Things are going from bad to worse at WH Smith and this statement is little more than a kitchen sink exercise. On Tuesday, the UK accounting watchdog, the Financial Reporting Council, said it was investigating PwC’s auditing of WH Smith’s financial statements for the year to 31 August 2024.",
-      "bullets": [
-        "Richard Hunter, head of markets at Interactive Investor, said: “Things are going from bad to worse at WH Smith and this statement is little more than a kitchen sink exercise.",
-        "On Tuesday, the UK accounting watchdog, the Financial Reporting Council, said it was investigating PwC’s auditing of WH Smith’s financial statements for the year to 31 August 2024.",
-        "“Management’s expectations for the full financial year reflect the observed and anticipated decline in passenger numbers and weakening consumer demand across all divisions and a reduction in brand marketing, increased promotional activity and inflation headwinds across the group,” the company said.",
-        "“We are now taking action to sell, exit or renegotiate loss-making or low-return situations and, where appropriate, we are replacing directly run operations with franchises in sub-scale markets,” he said.",
-        "WH Smith, which has already experienced a fall in revenues in its UK airport operation due to the conflict in the Middle East, said North America had now also been affected, with revenues at its airport operations falling 2% year on year in the seven weeks to 6 June."
-      ],
-      "excerpt": "WH Smith has issued a profit warning after shopper numbers at its stores in US airports fell as a result of the war in the Middle East, prompting the company to raise fresh capital from investors. The retailer, which operates 1,200 outlets globally in airports, railway stations and hospitals, raised £102m through a share sale on Wednesday to strengthen its balance sheet, pay down debt, invest in technology and shut down unprofitable stores after “a downturn in trading conditions”. WH Smith, which has already experienced a fall in revenues in its UK airport operation due to the conflict in the Middle East, said North America had now also been affected, with revenues at its airport operations falling 2% year on year in the seven weeks to 6 June. As a result the company expected pre-tax profits of between £75m and £90m this year, down from previous guidance of between £90m and £105m. “Management’s expectations for the full financial year reflect the observed and anticipated decline in passenger numbers and weakening consumer demand across all divisions and a reduction in brand marketing, increased promotional activity and inflation headwinds across the group,” the company said. “The g",
-      "keywords": [
-        {
-          "name": "smith",
-          "value": 12
-        },
-        {
-          "name": "year",
-          "value": 10
-        },
-        {
-          "name": "stores",
-          "value": 6
-        },
-        {
-          "name": "across",
-          "value": 4
-        },
-        {
-          "name": "financial",
-          "value": 4
-        },
-        {
-          "name": "group",
-          "value": 4
-        },
-        {
-          "name": "revenues",
-          "value": 4
-        },
-        {
-          "name": "airport",
-          "value": 3
-        },
-        {
-          "name": "business",
-          "value": 3
-        },
-        {
-          "name": "capital",
-          "value": 3
-        }
-      ],
-      "signals": [
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "detail_path": "/evidence/de46c5c0bbb833f4b0c6b00441803a834ea890c7e3bd09a4fffb8ddc62e94dbe",
-      "evidence_json": "/evidence/de46c5c0bbb833f4b0c6b00441803a834ea890c7e3bd09a4fffb8ddc62e94dbe.json"
     }
   ],
   "deep_reads": [
@@ -8736,7 +8721,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-14T00:00:53.796170+00:00",
+      "collected_at": "2026-06-14T04:12:35.330785+00:00",
       "published": "",
       "text_chars": 9080594,
       "raw_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.xml",
@@ -9616,7 +9601,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-14T00:00:15.745264+00:00",
+      "collected_at": "2026-06-14T04:11:56.612223+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -9691,7 +9676,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-14T00:00:15.484631+00:00",
+      "collected_at": "2026-06-14T04:11:56.924616+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -10890,7 +10875,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-14T00:00:57.682553+00:00",
+      "collected_at": "2026-06-14T04:12:38.658666+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -10962,6 +10947,76 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-14T04:12:37.890906+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
       "topic": "geopolitics",
       "title": "The World Factbook",
@@ -10971,7 +11026,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-14T00:00:55.891478+00:00",
+      "collected_at": "2026-06-14T04:12:37.472894+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
@@ -11044,7 +11099,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-14T00:00:55.783169+00:00",
+      "collected_at": "2026-06-14T04:12:37.389300+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11116,76 +11171,6 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-14T00:00:53.833415+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
       "id": "4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -11195,7 +11180,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-14T00:00:53.796170+00:00",
+      "collected_at": "2026-06-14T04:12:35.330785+00:00",
       "published": "",
       "text_chars": 9080594,
       "raw_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.xml",
@@ -11275,7 +11260,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-14T00:00:19.928540+00:00",
+      "collected_at": "2026-06-14T04:12:00.996657+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/fea7d9571ff7ca2efb3238e0492a555dedb78bd63fbcf1aab057cb00127447d0.xml",
@@ -11355,7 +11340,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-14T00:00:18.670706+00:00",
+      "collected_at": "2026-06-14T04:11:59.252914+00:00",
       "published": "",
       "text_chars": 824644,
       "raw_path": "data/geopolitics/raw/2492e73203d1bdff96758d502b75553c1b627f7231412c0b34eee989f5af6a6e.xml",
@@ -11426,81 +11411,6 @@
       "evidence_json": "/evidence/2492e73203d1bdff96758d502b75553c1b627f7231412c0b34eee989f5af6a6e.json"
     },
     {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-14T00:00:15.745264+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -11510,7 +11420,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-14T00:00:15.484631+00:00",
+      "collected_at": "2026-06-14T04:11:56.924616+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -11576,6 +11486,81 @@
       ],
       "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-14T04:11:56.612223+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
     },
     {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
@@ -15447,7 +15432,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-14T00:00:57.682553+00:00",
+      "collected_at": "2026-06-14T04:12:38.658666+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15519,6 +15504,76 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-14T04:12:37.890906+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
       "topic": "geopolitics",
       "title": "The World Factbook",
@@ -15528,7 +15583,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-14T00:00:55.891478+00:00",
+      "collected_at": "2026-06-14T04:12:37.472894+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
@@ -15601,7 +15656,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-14T00:00:55.783169+00:00",
+      "collected_at": "2026-06-14T04:12:37.389300+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15673,76 +15728,6 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-14T00:00:53.833415+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
       "id": "4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -15752,7 +15737,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-14T00:00:53.796170+00:00",
+      "collected_at": "2026-06-14T04:12:35.330785+00:00",
       "published": "",
       "text_chars": 9080594,
       "raw_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.xml",
@@ -15832,7 +15817,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-14T00:00:19.928540+00:00",
+      "collected_at": "2026-06-14T04:12:00.996657+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/fea7d9571ff7ca2efb3238e0492a555dedb78bd63fbcf1aab057cb00127447d0.xml",
@@ -15912,7 +15897,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-14T00:00:18.670706+00:00",
+      "collected_at": "2026-06-14T04:11:59.252914+00:00",
       "published": "",
       "text_chars": 824644,
       "raw_path": "data/geopolitics/raw/2492e73203d1bdff96758d502b75553c1b627f7231412c0b34eee989f5af6a6e.xml",
@@ -15983,81 +15968,6 @@
       "evidence_json": "/evidence/2492e73203d1bdff96758d502b75553c1b627f7231412c0b34eee989f5af6a6e.json"
     },
     {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-14T00:00:15.745264+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -16067,7 +15977,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-14T00:00:15.484631+00:00",
+      "collected_at": "2026-06-14T04:11:56.924616+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -16133,6 +16043,160 @@
       ],
       "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-14T04:11:56.612223+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
+    },
+    {
+      "id": "fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9",
+      "topic": "geopolitics",
+      "title": "Why is the price of gold trending down?",
+      "url": "https://www.aljazeera.com/economy/2026/6/14/why-is-the-price-of-gold-trending-down?traffic_source=rss",
+      "host": "aljazeera.com",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-06-14T04:12:54.670037+00:00",
+      "published": "Sun, 14 Jun 2026 00:56:36 +0000",
+      "text_chars": 3931,
+      "raw_path": "data/geopolitics/raw/fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9.html",
+      "text_path": "data/geopolitics/raw/fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9.txt",
+      "summary": "Recommended Stories list of 4 items end of list Gold has been under pressure since the United States and Israel attacked Iran in late February, launching a months-long war. To retaliate against the US and Israel, Iran has been blocking traffic through the waterway since the start of the war, impeding a major artery for oil and gas shipments. The roots of the inflation spike lie, in large part, with the Strait of Hormuz.",
+      "bullets": [
+        "Recommended Stories list of 4 items end of list Gold has been under pressure since the United States and Israel attacked Iran in late February, launching a months-long war.",
+        "To retaliate against the US and Israel, Iran has been blocking traffic through the waterway since the start of the war, impeding a major artery for oil and gas shipments.",
+        "The roots of the inflation spike lie, in large part, with the Strait of Hormuz.",
+        "That is because soaring inflation has raised concerns that central banks will not slash interest rates.",
+        "At the same time, the country’s job market has held steady, dashing expectations of any immediate cuts to interest rates."
+      ],
+      "excerpt": "In times of global crises, the price of gold shoots up as investors look at the yellow metal as a safe haven against inflation. But that has not been the case this time. Recommended Stories list of 4 items end of list Gold has been under pressure since the United States and Israel attacked Iran in late February, launching a months-long war. Prices have fallen from a high of $5,303 per troy ounce (31.1g) on January 28 to $4,235 on Friday. That is because soaring inflation has raised concerns that central banks will not slash interest rates. They may even hike them to rein in prices. The roots of the inflation spike lie, in large part, with the Strait of Hormuz. To retaliate against the US and Israel, Iran has been blocking traffic through the waterway since the start of the war, impeding a major artery for oil and gas shipments. Energy prices have shot up in response, which in turn has pushed up inflation. In the US, inflation is at its highest in three years, at 4.2 percent. At the same time, the country’s job market has held steady, dashing expectations of any immediate cuts to interest rates. While gold acts as an inflation hedge for investors, the higher interest rates tend to w",
+      "keywords": [
+        {
+          "name": "gold",
+          "value": 23
+        },
+        {
+          "name": "interest",
+          "value": 9
+        },
+        {
+          "name": "rates",
+          "value": 9
+        },
+        {
+          "name": "inflation",
+          "value": 8
+        },
+        {
+          "name": "prices",
+          "value": 6
+        },
+        {
+          "name": "dollar",
+          "value": 5
+        },
+        {
+          "name": "iran",
+          "value": 5
+        },
+        {
+          "name": "cardwell",
+          "value": 4
+        },
+        {
+          "name": "plume",
+          "value": 4
+        },
+        {
+          "name": "rate",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "Energy and Supply Chains",
+        "Sanctions and Finance",
+        "Territory and Chokepoints",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas"
+      ],
+      "detail_path": "/evidence/fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9",
+      "evidence_json": "/evidence/fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9.json"
     },
     {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
