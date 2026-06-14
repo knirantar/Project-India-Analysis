@@ -1,69 +1,90 @@
 {
-  "generated_at": "2026-06-14T08:40:14.114936+00:00",
+  "generated_at": "2026-06-14T11:27:17.634107+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating tensions in the Middle East and Europe signal a critical juncture in global geopolitics.",
+    "headline": "Geopolitical Tensions Escalate Amid Ongoing Conflicts and Humanitarian Crises",
     "executive_summary": [
-      "Recent developments in the Middle East, particularly the ongoing conflict involving Iran and its implications for regional stability, have raised significant concerns among global leaders. The situation has been exacerbated by military actions and diplomatic negotiations that appear to be in a state of flux, as evidenced by the fluctuating rhetoric from U.S. officials regarding potential peace agreements with Iran (evidence id: 22).",
-      "In Lebanon, hostilities have intensified, leading to a humanitarian crisis characterized by mass displacement and significant civilian casualties. Reports indicate that over 134,800 individuals have been displaced due to ongoing airstrikes and military operations, highlighting the urgent need for humanitarian assistance and international intervention (evidence id: 20).",
-      "The geopolitical landscape in Europe is also shifting, with the U.S. planning to reduce its military presence in NATO operations, which could impact the alliance's long-term strategic capabilities. This decision reflects a broader trend of European nations increasing their defense spending and capabilities, potentially altering the balance of power within NATO (evidence id: 26).",
-      "As global powers navigate these complex dynamics, the interplay between military actions, humanitarian needs, and diplomatic efforts will be crucial in shaping the future of international relations. The ongoing crises in the Middle East and Europe underscore the interconnectedness of regional conflicts and their global ramifications (evidence id: 18)."
+      "Recent developments in the Middle East highlight a significant escalation in hostilities, particularly in Lebanon, where airstrikes and displacement orders have resulted in thousands of casualties and widespread humanitarian needs. As of June 11, 2026, at least 3,711 deaths and 11,483 injuries have been reported, with over 134,800 individuals displaced and seeking shelter amid ongoing violence (evidence id: 22).",
+      "In the context of international diplomacy, the G7 summit has become a focal point for discussions on the Israeli-Palestinian conflict, with civil society groups urging leaders to take decisive action to enforce a ceasefire and address humanitarian needs in Gaza. The situation remains precarious, with fears that the opportunity for a two-state solution is diminishing (evidence id: 25).",
+      "The United States is reportedly planning to reduce its military contributions to NATO operations in Europe, which could impact the alliance's long-range strike capabilities and surveillance operations. This shift reflects a broader strategy to encourage European allies to enhance their defense spending and capabilities (evidence id: 28).",
+      "Additionally, the humanitarian crisis in Afghanistan continues to worsen, with logistical challenges complicating the delivery of essential food supplies. The World Food Programme is adapting its strategies to navigate closed borders and regional instability, emphasizing the urgent need for effective humanitarian responses (evidence id: 17)."
     ],
     "key_judgments": [
       {
         "title": "Escalation of Hostilities in Lebanon",
-        "finding": "The ongoing military operations in Lebanon have resulted in significant civilian displacement and casualties, necessitating urgent humanitarian intervention.",
-        "citations": [
-          "20"
-        ]
-      },
-      {
-        "title": "U.S. Military Strategy in Europe",
-        "finding": "The planned reduction of U.S. military assets available for NATO operations may weaken the alliance's response capabilities amid rising tensions.",
-        "citations": [
-          "26"
-        ]
-      },
-      {
-        "title": "Iran Conflict and Global Implications",
-        "finding": "The fluctuating diplomatic efforts regarding the U.S.-Iran conflict indicate a precarious balance between military threats and potential peace negotiations.",
+        "finding": "The ongoing conflict in Lebanon has led to significant civilian casualties and displacement, exacerbating the humanitarian crisis in the region.",
         "citations": [
           "22"
+        ]
+      },
+      {
+        "title": "G7 Summit and Israeli-Palestinian Conflict",
+        "finding": "Civil society groups are pressing G7 leaders to take action on the Israeli-Palestinian conflict, highlighting the urgent need for a ceasefire and humanitarian assistance.",
+        "citations": [
+          "25"
+        ]
+      },
+      {
+        "title": "US Military Reductions in NATO",
+        "finding": "The planned reduction of US military assets for NATO operations may hinder the alliance's operational capabilities and reflects a shift towards greater European defense responsibility.",
+        "citations": [
+          "28"
+        ]
+      },
+      {
+        "title": "Humanitarian Crisis in Afghanistan",
+        "finding": "Logistical challenges are severely impacting the delivery of humanitarian aid in Afghanistan, necessitating urgent and adaptive responses to address food insecurity.",
+        "citations": [
+          "17"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The Middle East remains a focal point of geopolitical tension, with ongoing conflicts in Lebanon and Iran impacting regional stability and humanitarian conditions.",
+        "assessment": "The Middle East remains a hotspot of conflict, with Lebanon experiencing severe hostilities and the Israeli-Palestinian situation deteriorating, leading to increased humanitarian needs.",
         "citations": [
-          "20",
-          "22"
+          "22",
+          "25"
         ]
       },
       {
-        "region": "Europe",
-        "assessment": "Europe is experiencing a shift in defense dynamics as the U.S. reduces its military footprint, prompting European nations to bolster their own military capabilities.",
+        "region": "Europe and Russia",
+        "assessment": "The reduction of US military support for NATO operations signals a strategic shift that may affect European security dynamics and defense spending.",
         "citations": [
-          "26"
+          "28"
+        ]
+      },
+      {
+        "region": "Global Institutions",
+        "assessment": "International diplomatic efforts are being challenged by ongoing conflicts, particularly in the Middle East, complicating the role of global institutions in conflict resolution.",
+        "citations": [
+          "25"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "Humanitarian Crisis in Lebanon",
-        "why_it_matters": "The humanitarian situation in Lebanon is deteriorating rapidly, with significant displacement and casualties that require immediate international attention.",
+        "label": "Lebanon Hostilities",
+        "why_it_matters": "The ongoing violence in Lebanon poses a significant risk to regional stability and humanitarian conditions, necessitating close monitoring.",
         "citations": [
-          "20"
+          "22"
         ]
       },
       {
-        "label": "U.S.-Iran Diplomatic Efforts",
-        "why_it_matters": "The outcome of U.S.-Iran negotiations could have far-reaching implications for regional security and global energy markets.",
+        "label": "US-NATO Relations",
+        "why_it_matters": "Changes in US military commitments to NATO could alter the balance of power and security in Europe, impacting collective defense strategies.",
         "citations": [
-          "22"
+          "28"
+        ]
+      },
+      {
+        "label": "Humanitarian Aid in Afghanistan",
+        "why_it_matters": "The worsening humanitarian situation in Afghanistan requires urgent attention and adaptive strategies to ensure aid delivery amidst logistical challenges.",
+        "citations": [
+          "17"
         ]
       }
     ],
@@ -72,8 +93,8 @@
     ]
   },
   "summary": {
-    "raw_documents": 963,
-    "total_text_chars": 156291135,
+    "raw_documents": 965,
+    "total_text_chars": 156296749,
     "sources": 32,
     "signals": 8,
     "regions": 6,
@@ -84,7 +105,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 695
+      "value": 697
     },
     {
       "name": "PDF",
@@ -118,7 +139,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 665
+      "value": 667
     },
     {
       "name": "pdfs",
@@ -172,7 +193,7 @@
     },
     {
       "name": "theguardian.com",
-      "value": 154
+      "value": 155
     },
     {
       "name": "global.unitednations.entermediadb.net",
@@ -204,7 +225,7 @@
     },
     {
       "name": "npr.org",
-      "value": 29
+      "value": 30
     },
     {
       "name": "euronews.com",
@@ -318,7 +339,7 @@
     },
     {
       "name": "ukraine",
-      "value": 1521
+      "value": 1525
     },
     {
       "name": "care",
@@ -346,7 +367,7 @@
     },
     {
       "name": "russia",
-      "value": 1031
+      "value": 1035
     },
     {
       "name": "military",
@@ -555,11 +576,11 @@
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 558,
+      "count": 560,
       "formats": [
         {
           "name": "Article",
-          "value": 464
+          "value": 466
         },
         {
           "name": "PDF",
@@ -579,6 +600,8 @@
         }
       ],
       "evidence_ids": [
+        "40e3b3a290bc550cdc8d0630379eeac5d4ae21bdb04737fabedf7896a456102c",
+        "c2a24baec0dec60f8a8821bce2afd76f70d00aee118034f311b73eab73a2768c",
         "787ddd333c781bfe75f24712a6b7eb7b94ea6384da5827508cb5387e4ced4b2c",
         "4d268bb4b9abaaf60cc41739ee01211eb12ae246583366d7659f77a55fcc2217",
         "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
@@ -586,12 +609,30 @@
         "7e80e78028bec57f7a82233cf38b51371e9bf79a3efd72703a006130c7650d4f",
         "ab8d9673debbbfa6239f2cd7622b9c34dc7e94046541d653d84dbf9754771e2e",
         "fad3e1ea733420a0f42a871372089d32d9fec52c420b67b256fd4b4ec5f6c869",
-        "09e5695fa3e5cab45f23fa887b0052325e1aac18408ac4931c5d1039871448a5",
-        "59434c53ee0ef76d586d9875748488d0383deea2c53c23ca691a66f4131a1ce2",
-        "c33cec3aaccc5c57a9fe6d31477c109e15c6a96cbbdf6d30ebad40c24dffc700"
+        "09e5695fa3e5cab45f23fa887b0052325e1aac18408ac4931c5d1039871448a5"
       ],
-      "summary": "However, the US president warned if no deal was reached the US has “the ultimate alternative, hopefully never to be used again!” In a Truth Social post, Trump said Iran “no longer want a Nuclear Weapon, nor will they have one, either through purchase, development, or any other form of procurement”. More than 18,000 Indian seafarers are employed in the Middle East, an official in the country’s shipping ministry said last week. The event comes as settler violence in the West Bank has reached unprecedented levels, and as a coalition of western countries – including the UK, France, Canada, Germany and Italy – have called for an end to the construction of Israeli settlements it says breach international law. Civil society organisations have said the event normalises illegal settlements by marketing them alongside properties in Israeli cities, and called on government to stop trade and investment enabling “unlawful occupation”. President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions. and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S. Constanze Stelzenmuller, a trans-Atlantic security expert at the Brookings Institution, said leaders will carry that lesson into any meetings with President Trump at the summit. He later spoke explicitly of European “civilizational suicide.” Some might argue that the United States under Trump does not fully qualify as a civilization-state in the sense that China, India, and Russia fit the designation. Under President Donald Trump’s second term, the language of strategy has given way to a heightened language of civilization: warnings of “civilizational erasure” in Europe, invocations of a “ Judeo-Christian ” heritage under siege, and threats to Iran destroy the Iranian civilization.",
+      "summary": "Dan Jarvis, who replaced Healey as defence secretary, has been given until the Nato summit in Ankara in a fortnight’s time to offer up an alternative plan which would see more investment. Photograph: Stefan Rousseau/Reuters Nandy said that she did not accept difficult decisions were not being made in order to fund higher spending on defence – especially when the Ministry of Defence had seen large uplifts at previous budgets. Kin Cheung/AP hide caption toggle caption Kin Cheung/AP LONDON — Britain is investigating a sanctioned tanker that is suspected of being part of the Russian \"shadow fleet,\" shipping oil in violation of international sanctions over Moscow's war on Ukraine, British Prime Minister Keir Starmer said Sunday. The operation was carried out \"in close coordination\" with French authorities, who have previously intercepted a number of vessels linked to the \"shadow fleet.\" Russia is believed to be using a fleet of hundreds of ships to evade sanctions over its war... However, the US president warned if no deal was reached the US has “the ultimate alternative, hopefully never to be used again!” In a Truth Social post, Trump said Iran “no longer want a Nuclear Weapon, nor will they have one, either through purchase, development, or any other form of procurement”. More than 18,000 Indian seafarers are employed in the Middle East, an official in the country’s shipping ministry said last week. The event comes as settler violence in the West Bank has reached unprecedented levels, and as a coalition of western countries – including the UK, France, Canada, Germany and Italy – have called for an end to the construction of Israeli settlements it says breach international law. Civil society organisations have said the event normalises illegal settlements by marketing them alongside properties in Israeli cities, and called on government to stop trade and investment enabling “unlawful occupation”.",
       "latest": [
+        {
+          "id": "40e3b3a290bc550cdc8d0630379eeac5d4ae21bdb04737fabedf7896a456102c",
+          "title": "Cabinet ministers asked to look for cuts to fund UK defence spending increase",
+          "url": "https://www.theguardian.com/politics/2026/jun/14/cabinet-ministers-asked-to-look-for-cuts-to-fund-uk-defence-spending-increase",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-14T11:27:25.606226+00:00",
+          "published": "Sun, 14 Jun 2026 09:18:46 GMT",
+          "summary": "Dan Jarvis, who replaced Healey as defence secretary, has been given until the Nato summit in Ankara in a fortnight’s time to offer up an alternative plan which would see more investment. Photograph: Stefan Rousseau/Reuters Nandy said that she did not accept difficult decisions were not being made in order to fund higher spending on defence – especially when the Ministry of Defence had seen large uplifts at previous budgets."
+        },
+        {
+          "id": "c2a24baec0dec60f8a8821bce2afd76f70d00aee118034f311b73eab73a2768c",
+          "title": "Britain detains sanctioned oil tanker believed to be linked to Russia's shadow fleet",
+          "url": "https://www.npr.org/2026/06/14/nx-s1-5857587/britain-detains-sanctioned-oil-tanker-believed-linked-to-russias-shadow-fleet",
+          "host": "npr.org",
+          "format": "Article",
+          "collected_at": "2026-06-14T11:27:21.766385+00:00",
+          "published": "Sun, 14 Jun 2026 04:45:23 -0400",
+          "summary": "Kin Cheung/AP hide caption toggle caption Kin Cheung/AP LONDON — Britain is investigating a sanctioned tanker that is suspected of being part of the Russian \"shadow fleet,\" shipping oil in violation of international sanctions over Moscow's war on Ukraine, British Prime Minister Keir Starmer said Sunday. The operation was carried out \"in close coordination\" with French authorities, who have previously intercepted a number of vessels linked to the \"shadow fleet.\" Russia is believed to be using a fleet of hundreds of ships to evade sanctions over its war..."
+        },
         {
           "id": "787ddd333c781bfe75f24712a6b7eb7b94ea6384da5827508cb5387e4ced4b2c",
           "title": "Middle East crisis live: Trump says Iran deal will be signed today but Tehran casts doubt on timing",
@@ -621,26 +662,6 @@
           "collected_at": "2026-06-13T21:06:50.493010+00:00",
           "published": "Sat, 13 Jun 2026 07:39:31 -0400",
           "summary": "President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions. and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S. Constanze Stelzenmuller, a trans-Atlantic security expert at the Brookings Institution, said leaders will carry that lesson into any meetings with President Trump at the summit."
-        },
-        {
-          "id": "9abbcfbba6571b1371a01122efdff13a8b441b20e4c58f4923967361d5e53686",
-          "title": "Trump Is Shattering the Illusion of the West",
-          "url": "https://foreignpolicy.com/2026/06/12/trump-west-china-rome-civilization-vance-iran-hegseth-russia/",
-          "host": "foreignpolicy.com",
-          "format": "Article",
-          "collected_at": "2026-06-12T19:57:38.786567+00:00",
-          "published": "Fri, 12 Jun 2026 18:40:03 +0000",
-          "summary": "He later spoke explicitly of European “civilizational suicide.” Some might argue that the United States under Trump does not fully qualify as a civilization-state in the sense that China, India, and Russia fit the designation. Under President Donald Trump’s second term, the language of strategy has given way to a heightened language of civilization: warnings of “civilizational erasure” in Europe, invocations of a “ Judeo-Christian ” heritage under siege, and threats to Iran destroy the Iranian civilization."
-        },
-        {
-          "id": "7e80e78028bec57f7a82233cf38b51371e9bf79a3efd72703a006130c7650d4f",
-          "title": "Canada police investigate whether Toronto police death linked to global terror attacks",
-          "url": "https://www.theguardian.com/world/2026/jun/12/canada-police-investigate-toronto-police-death-global-terror-attacks",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-12T19:57:46.875194+00:00",
-          "published": "Fri, 12 Jun 2026 18:08:37 GMT",
-          "summary": "Authorities in Canada are investigating whether the killing of a Toronto police officer while he was executing search warrants related to a shooting at the city’s US consulate is linked a broader series of global terror attacks. The source said investigators were also looking at the possibility that the case was linked to a global terror network that has threatened retribution for US attacks on Iran."
         }
       ]
     },
@@ -828,11 +849,11 @@
     },
     {
       "name": "Energy and Supply Chains",
-      "count": 294,
+      "count": 295,
       "formats": [
         {
           "name": "Article",
-          "value": 235
+          "value": 236
         },
         {
           "name": "PDF",
@@ -844,6 +865,7 @@
         }
       ],
       "evidence_ids": [
+        "c2a24baec0dec60f8a8821bce2afd76f70d00aee118034f311b73eab73a2768c",
         "fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9",
         "c2147442cd2797903f91c6cc2a4f360d53219661784eadd63077a4d0cf7c0d67",
         "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
@@ -852,11 +874,20 @@
         "52b0336ea896c12613f7358e7016417127c29ed914dd74341d4228cdcaedec9e",
         "ab8d9673debbbfa6239f2cd7622b9c34dc7e94046541d653d84dbf9754771e2e",
         "a55620babe35d6bc518284dca2a92b5e3318b288bf0051d3dc0ea5dc01585893",
-        "b1929ec33a564c8bb449b3782e176a73657963e19358895410e5da84a375232e",
-        "ff2d6ddd85b9a5eb3418d9a32085ddd5af767faf478be8c13d95a12c41a6e326"
+        "b1929ec33a564c8bb449b3782e176a73657963e19358895410e5da84a375232e"
       ],
-      "summary": "Recommended Stories list of 4 items end of list Gold has been under pressure since the United States and Israel attacked Iran in late February, launching a months-long war. To retaliate against the US and Israel, Iran has been blocking traffic through the waterway since the start of the war, impeding a major artery for oil and gas shipments. The roots of the inflation spike lie, in large part, with the Strait of Hormuz. However, geopolitics strikes again and, as instability spread across the Middle East, in effect closing the critical Strait of Hormuz since March, WFP is forced to rethink the plan once more. The country suffers from repeated floods and earthquakes, declining humanitarian funding and two crises along its borders. The original plan was for the shipment to be transferred to trucks for a 7,000 km trip through Pakistan but, amid tensions between the country and Afghanistan, the border was closed. President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions. and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S. Constanze Stelzenmuller, a trans-Atlantic security expert at the Brookings Institution, said leaders will carry that lesson into any meetings with President Trump at the summit. He later spoke explicitly of European “civilizational suicide.” Some might argue that the United States under Trump does not fully qualify as a civilization-state in the sense that China, India, and Russia fit the designation. Under President Donald Trump’s second term, the language of strategy has given way to a heightened language of civilization: warnings of “civilizational erasure” in Europe, invocations of a “ Judeo-Christian ” heritage under siege, and threats to Iran destroy the Iranian civilization.",
+      "summary": "Kin Cheung/AP hide caption toggle caption Kin Cheung/AP LONDON — Britain is investigating a sanctioned tanker that is suspected of being part of the Russian \"shadow fleet,\" shipping oil in violation of international sanctions over Moscow's war on Ukraine, British Prime Minister Keir Starmer said Sunday. The operation was carried out \"in close coordination\" with French authorities, who have previously intercepted a number of vessels linked to the \"shadow fleet.\" Russia is believed to be using a fleet of hundreds of ships to evade sanctions over its war... Recommended Stories list of 4 items end of list Gold has been under pressure since the United States and Israel attacked Iran in late February, launching a months-long war. To retaliate against the US and Israel, Iran has been blocking traffic through the waterway since the start of the war, impeding a major artery for oil and gas shipments. The roots of the inflation spike lie, in large part, with the Strait of Hormuz. However, geopolitics strikes again and, as instability spread across the Middle East, in effect closing the critical Strait of Hormuz since March, WFP is forced to rethink the plan once more. The country suffers from repeated floods and earthquakes, declining humanitarian funding and two crises along its borders. The original plan was for the shipment to be transferred to trucks for a 7,000 km trip through Pakistan but, amid tensions between the country and Afghanistan, the border was closed. President Trump heads to France for the G7 as the war in Iran continues to dominate global discussions. and its G7 allies over the war in Iran exploded into public view a few weeks ago, when Trump announced the withdrawal of at least 5,000 U.S. Constanze Stelzenmuller, a trans-Atlantic security expert at the Brookings Institution, said leaders will carry that lesson into any meetings with President Trump at the summit.",
       "latest": [
+        {
+          "id": "c2a24baec0dec60f8a8821bce2afd76f70d00aee118034f311b73eab73a2768c",
+          "title": "Britain detains sanctioned oil tanker believed to be linked to Russia's shadow fleet",
+          "url": "https://www.npr.org/2026/06/14/nx-s1-5857587/britain-detains-sanctioned-oil-tanker-believed-linked-to-russias-shadow-fleet",
+          "host": "npr.org",
+          "format": "Article",
+          "collected_at": "2026-06-14T11:27:21.766385+00:00",
+          "published": "Sun, 14 Jun 2026 04:45:23 -0400",
+          "summary": "Kin Cheung/AP hide caption toggle caption Kin Cheung/AP LONDON — Britain is investigating a sanctioned tanker that is suspected of being part of the Russian \"shadow fleet,\" shipping oil in violation of international sanctions over Moscow's war on Ukraine, British Prime Minister Keir Starmer said Sunday. The operation was carried out \"in close coordination\" with French authorities, who have previously intercepted a number of vessels linked to the \"shadow fleet.\" Russia is believed to be using a fleet of hundreds of ships to evade sanctions over its war..."
+        },
         {
           "id": "fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9",
           "title": "Why is the price of gold trending down?",
@@ -896,16 +927,6 @@
           "collected_at": "2026-06-12T19:57:38.786567+00:00",
           "published": "Fri, 12 Jun 2026 18:40:03 +0000",
           "summary": "He later spoke explicitly of European “civilizational suicide.” Some might argue that the United States under Trump does not fully qualify as a civilization-state in the sense that China, India, and Russia fit the designation. Under President Donald Trump’s second term, the language of strategy has given way to a heightened language of civilization: warnings of “civilizational erasure” in Europe, invocations of a “ Judeo-Christian ” heritage under siege, and threats to Iran destroy the Iranian civilization."
-        },
-        {
-          "id": "3c16e08a8f73b1ff33ee61bc5f1ca4dcd81b8495ffe083fc92be03116f95e262",
-          "title": "Lebanon: Flash Update #34 - Escalation of hostilities in Lebanon (as of 11 June 2026)",
-          "url": "https://reliefweb.int/report/lebanon/lebanon-flash-update-34-escalation-hostilities-lebanon-11-june-2026",
-          "host": "reliefweb.int",
-          "format": "Article",
-          "collected_at": "2026-06-12T21:28:00.747818+00:00",
-          "published": "Fri, 12 Jun 2026 17:15:25 +0000",
-          "summary": "SITUATION OVERVIEW Despite the extension of the ceasefire announced last week, Lebanon continues to experience new waves of displacement driven by insecurity – airstrikes, shelling and displacement orders across broad swaths of southern Lebanon. HIGHLIGHT Hostilities continued with airstrikes and three renewed displacement orders covering six localities across the South and Nabatieh Governorates triggering additional displacement."
         }
       ]
     },
@@ -1085,11 +1106,11 @@
     },
     {
       "name": "Sanctions and Finance",
-      "count": 149,
+      "count": 151,
       "formats": [
         {
           "name": "Article",
-          "value": 105
+          "value": 107
         },
         {
           "name": "Sanctions",
@@ -1109,6 +1130,8 @@
         }
       ],
       "evidence_ids": [
+        "40e3b3a290bc550cdc8d0630379eeac5d4ae21bdb04737fabedf7896a456102c",
+        "c2a24baec0dec60f8a8821bce2afd76f70d00aee118034f311b73eab73a2768c",
         "fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9",
         "4d268bb4b9abaaf60cc41739ee01211eb12ae246583366d7659f77a55fcc2217",
         "9abbcfbba6571b1371a01122efdff13a8b441b20e4c58f4923967361d5e53686",
@@ -1116,12 +1139,30 @@
         "59434c53ee0ef76d586d9875748488d0383deea2c53c23ca691a66f4131a1ce2",
         "fe76276cf2b76af495634d4a7db1ae7714f05b83c2ca3771f84bdb3bb1ee234d",
         "8de994682896bf0853b69c09c28798dc528af168e170ec41267489cc77bf4ee3",
-        "9b4df6f155b62834df09e43636c7e15c6b0d4168b72cb0fcc084a231297965da",
-        "733440684f946b0878409fe3e1deb9412975eff70b3c34981cb42238a9c95a76",
-        "2a8d95ae11cb9b3811f55724005dfeb75594f40c1d0d93a53c18efdcf766674c"
+        "9b4df6f155b62834df09e43636c7e15c6b0d4168b72cb0fcc084a231297965da"
       ],
-      "summary": "Recommended Stories list of 4 items end of list Gold has been under pressure since the United States and Israel attacked Iran in late February, launching a months-long war. To retaliate against the US and Israel, Iran has been blocking traffic through the waterway since the start of the war, impeding a major artery for oil and gas shipments. The roots of the inflation spike lie, in large part, with the Strait of Hormuz. The event comes as settler violence in the West Bank has reached unprecedented levels, and as a coalition of western countries – including the UK, France, Canada, Germany and Italy – have called for an end to the construction of Israeli settlements it says breach international law. Civil society organisations have said the event normalises illegal settlements by marketing them alongside properties in Israeli cities, and called on government to stop trade and investment enabling “unlawful occupation”. He later spoke explicitly of European “civilizational suicide.” Some might argue that the United States under Trump does not fully qualify as a civilization-state in the sense that China, India, and Russia fit the designation. Under President Donald Trump’s second term, the language of strategy has given way to a heightened language of civilization: warnings of “civilizational erasure” in Europe, invocations of a “ Judeo-Christian ” heritage under siege, and threats to Iran destroy the Iranian civilization. Israelis and Palestinians alike remain trapped in fear, insecurity and trauma.” The groups said they feared talks over Gaza might be cast aside at the G7 summit and urged its leaders to instead “recognise the window for a solution remains open, but it is narrowing. The moment requires urgent diplomacy, grounded in partnership with civil society.” Progress on Palestinian self-rule and an Israeli exit from Gaza has been stalled for six months as each side blames the other for failing to take the steps required for peace laid down in Donald Trump’s...",
+      "summary": "Dan Jarvis, who replaced Healey as defence secretary, has been given until the Nato summit in Ankara in a fortnight’s time to offer up an alternative plan which would see more investment. Photograph: Stefan Rousseau/Reuters Nandy said that she did not accept difficult decisions were not being made in order to fund higher spending on defence – especially when the Ministry of Defence had seen large uplifts at previous budgets. Kin Cheung/AP hide caption toggle caption Kin Cheung/AP LONDON — Britain is investigating a sanctioned tanker that is suspected of being part of the Russian \"shadow fleet,\" shipping oil in violation of international sanctions over Moscow's war on Ukraine, British Prime Minister Keir Starmer said Sunday. The operation was carried out \"in close coordination\" with French authorities, who have previously intercepted a number of vessels linked to the \"shadow fleet.\" Russia is believed to be using a fleet of hundreds of ships to evade sanctions over its war... Recommended Stories list of 4 items end of list Gold has been under pressure since the United States and Israel attacked Iran in late February, launching a months-long war. To retaliate against the US and Israel, Iran has been blocking traffic through the waterway since the start of the war, impeding a major artery for oil and gas shipments. The roots of the inflation spike lie, in large part, with the Strait of Hormuz. The event comes as settler violence in the West Bank has reached unprecedented levels, and as a coalition of western countries – including the UK, France, Canada, Germany and Italy – have called for an end to the construction of Israeli settlements it says breach international law. Civil society organisations have said the event normalises illegal settlements by marketing them alongside properties in Israeli cities, and called on government to stop trade and investment enabling “unlawful occupation”.",
       "latest": [
+        {
+          "id": "40e3b3a290bc550cdc8d0630379eeac5d4ae21bdb04737fabedf7896a456102c",
+          "title": "Cabinet ministers asked to look for cuts to fund UK defence spending increase",
+          "url": "https://www.theguardian.com/politics/2026/jun/14/cabinet-ministers-asked-to-look-for-cuts-to-fund-uk-defence-spending-increase",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-06-14T11:27:25.606226+00:00",
+          "published": "Sun, 14 Jun 2026 09:18:46 GMT",
+          "summary": "Dan Jarvis, who replaced Healey as defence secretary, has been given until the Nato summit in Ankara in a fortnight’s time to offer up an alternative plan which would see more investment. Photograph: Stefan Rousseau/Reuters Nandy said that she did not accept difficult decisions were not being made in order to fund higher spending on defence – especially when the Ministry of Defence had seen large uplifts at previous budgets."
+        },
+        {
+          "id": "c2a24baec0dec60f8a8821bce2afd76f70d00aee118034f311b73eab73a2768c",
+          "title": "Britain detains sanctioned oil tanker believed to be linked to Russia's shadow fleet",
+          "url": "https://www.npr.org/2026/06/14/nx-s1-5857587/britain-detains-sanctioned-oil-tanker-believed-linked-to-russias-shadow-fleet",
+          "host": "npr.org",
+          "format": "Article",
+          "collected_at": "2026-06-14T11:27:21.766385+00:00",
+          "published": "Sun, 14 Jun 2026 04:45:23 -0400",
+          "summary": "Kin Cheung/AP hide caption toggle caption Kin Cheung/AP LONDON — Britain is investigating a sanctioned tanker that is suspected of being part of the Russian \"shadow fleet,\" shipping oil in violation of international sanctions over Moscow's war on Ukraine, British Prime Minister Keir Starmer said Sunday. The operation was carried out \"in close coordination\" with French authorities, who have previously intercepted a number of vessels linked to the \"shadow fleet.\" Russia is believed to be using a fleet of hundreds of ships to evade sanctions over its war..."
+        },
         {
           "id": "fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9",
           "title": "Why is the price of gold trending down?",
@@ -1151,26 +1192,6 @@
           "collected_at": "2026-06-12T19:57:38.786567+00:00",
           "published": "Fri, 12 Jun 2026 18:40:03 +0000",
           "summary": "He later spoke explicitly of European “civilizational suicide.” Some might argue that the United States under Trump does not fully qualify as a civilization-state in the sense that China, India, and Russia fit the designation. Under President Donald Trump’s second term, the language of strategy has given way to a heightened language of civilization: warnings of “civilizational erasure” in Europe, invocations of a “ Judeo-Christian ” heritage under siege, and threats to Iran destroy the Iranian civilization."
-        },
-        {
-          "id": "fad3e1ea733420a0f42a871372089d32d9fec52c420b67b256fd4b4ec5f6c869",
-          "title": "Palestinian and Israeli civil society groups urge G7 to take action on Gaza",
-          "url": "https://www.theguardian.com/world/2026/jun/12/palestinian-israeli-civil-society-groups-g7-summit-gaza",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-12T17:35:42.077232+00:00",
-          "published": "Fri, 12 Jun 2026 16:00:49 GMT",
-          "summary": "Israelis and Palestinians alike remain trapped in fear, insecurity and trauma.” The groups said they feared talks over Gaza might be cast aside at the G7 summit and urged its leaders to instead “recognise the window for a solution remains open, but it is narrowing. The moment requires urgent diplomacy, grounded in partnership with civil society.” Progress on Palestinian self-rule and an Israeli exit from Gaza has been stalled for six months as each side blames the other for failing to take the steps required for peace laid down in Donald Trump’s..."
-        },
-        {
-          "id": "59434c53ee0ef76d586d9875748488d0383deea2c53c23ca691a66f4131a1ce2",
-          "title": "IOM Transhumance Tracking Tool (TTT) CRR-S, CRR-N, NBR, LRR REGIONS, The Gambia - Early Warning and Early Response Dashboard 1 (November 2025 - March 2026) (pdf)",
-          "url": "https://reliefweb.int/attachments/e95ca586-1486-5979-9ddb-80cb502b1ea4/Gambia%20%E2%80%94%20TTT%20Report%20%E2%80%94%20Early%20Warning%20Dashboard%201%20%28May%202026%29.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-06-12T14:39:18.448076+00:00",
-          "published": "Fri, 12 Jun 2026 13:33:07 +0000",
-          "summary": "The boundaries and names shown, and the designations used on this map do not imply official endorsement or acceptance by the International Organization for Migration. Over the five-month period from November 2025 to March 2026, the TTT early warning system captured 151 alerts through trained enumerators, key informants, community representatives, and local authorities. CONSEQUENCES OF EVENTS TYPES OF ALERTS 19 UPPER FULLADU 48 NIANI 99 MOVEMENTS 52 EVENTS 151 ALERTS 10 NIAMINA WEST 4 JARRA EAST This map is for illustration purposes only."
         }
       ]
     }
@@ -1218,8 +1239,9 @@
     },
     {
       "name": "Americas",
-      "count": 432,
+      "count": 433,
       "evidence_ids": [
+        "40e3b3a290bc550cdc8d0630379eeac5d4ae21bdb04737fabedf7896a456102c",
         "fde6f084c45d966fe92ae852529dac66228cfd7bc7aaf04667891056d6b053c9",
         "4d268bb4b9abaaf60cc41739ee01211eb12ae246583366d7659f77a55fcc2217",
         "9abbcfbba6571b1371a01122efdff13a8b441b20e4c58f4923967361d5e53686",
@@ -1230,13 +1252,12 @@
         "b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db",
         "b1929ec33a564c8bb449b3782e176a73657963e19358895410e5da84a375232e",
         "71b2b32374a33e54ea5d6fe61019e59dc5363066294745d6c8187dfcb28f30ea",
-        "8de994682896bf0853b69c09c28798dc528af168e170ec41267489cc77bf4ee3",
-        "4818b4e9a8ed690ca0d3703914bfba351b6be287a3016d17a2555530b07ca865"
+        "8de994682896bf0853b69c09c28798dc528af168e170ec41267489cc77bf4ee3"
       ],
       "top_sources": [
         {
           "name": "theguardian.com",
-          "value": 82
+          "value": 83
         },
         {
           "name": "warontherocks.com",
@@ -1258,8 +1279,10 @@
     },
     {
       "name": "Europe and Russia",
-      "count": 404,
+      "count": 406,
       "evidence_ids": [
+        "40e3b3a290bc550cdc8d0630379eeac5d4ae21bdb04737fabedf7896a456102c",
+        "c2a24baec0dec60f8a8821bce2afd76f70d00aee118034f311b73eab73a2768c",
         "91fc5fa6df6b59819629c9c73551aed1517962f838c823d40c46d2ae213e0ef5",
         "4240766b44d494e7165f47ccfc3761063814aecbffdc5aa4935059270a816948",
         "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
@@ -1269,14 +1292,12 @@
         "a9270c1a229d464c0dff783302800898652e1512e2b55bcee64f6a04b40bd1d5",
         "c33cec3aaccc5c57a9fe6d31477c109e15c6a96cbbdf6d30ebad40c24dffc700",
         "39fc1d2a4267eddf08af28ffce6f1f4d7e49e03d1afa6fa9c23c1e3a087e7430",
-        "3d53956b24413513a619ba5ee2ab8e7eb3e933ecf9bc7595fbacba3703022b1e",
-        "cb505510c9076c7c54246a870dbf74a191309bd6d1a3837113ff2584dbfc97f4",
-        "fe76276cf2b76af495634d4a7db1ae7714f05b83c2ca3771f84bdb3bb1ee234d"
+        "3d53956b24413513a619ba5ee2ab8e7eb3e933ecf9bc7595fbacba3703022b1e"
       ],
       "top_sources": [
         {
           "name": "theguardian.com",
-          "value": 76
+          "value": 77
         },
         {
           "name": "reliefweb.int",
@@ -1298,8 +1319,9 @@
     },
     {
       "name": "Global Institutions",
-      "count": 368,
+      "count": 369,
       "evidence_ids": [
+        "40e3b3a290bc550cdc8d0630379eeac5d4ae21bdb04737fabedf7896a456102c",
         "91fc5fa6df6b59819629c9c73551aed1517962f838c823d40c46d2ae213e0ef5",
         "4240766b44d494e7165f47ccfc3761063814aecbffdc5aa4935059270a816948",
         "d5c65c6e69166443eef3e1a32dd618dbcde2d5e45bdca29cd5eebbca9f5adff2",
@@ -1310,8 +1332,7 @@
         "b99d9ca8ef50e3a9478850256a8369c5491f7ad32f738de7068ddecb453ef3db",
         "fe76276cf2b76af495634d4a7db1ae7714f05b83c2ca3771f84bdb3bb1ee234d",
         "ff2d6ddd85b9a5eb3418d9a32085ddd5af767faf478be8c13d95a12c41a6e326",
-        "71b2b32374a33e54ea5d6fe61019e59dc5363066294745d6c8187dfcb28f30ea",
-        "4818b4e9a8ed690ca0d3703914bfba351b6be287a3016d17a2555530b07ca865"
+        "71b2b32374a33e54ea5d6fe61019e59dc5363066294745d6c8187dfcb28f30ea"
       ],
       "top_sources": [
         {
@@ -1320,7 +1341,7 @@
         },
         {
           "name": "theguardian.com",
-          "value": 55
+          "value": 56
         },
         {
           "name": "aljazeera.com",
@@ -1889,17 +1910,17 @@
     },
     {
       "date": "2026-04-08",
-      "evidence_id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
-    },
-    {
-      "date": "2026-04-08",
       "evidence_id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "title": "MS.MIL.XPND.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
       "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\","
+    },
+    {
+      "date": "2026-04-08",
+      "evidence_id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
     },
     {
       "date": "2026",
@@ -1914,6 +1935,13 @@
       "title": "Consolidated Sanctions List",
       "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
       "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong"
+    },
+    {
+      "date": "2026",
+      "evidence_id": "c2a24baec0dec60f8a8821bce2afd76f70d00aee118034f311b73eab73a2768c",
+      "title": "Britain detains sanctioned oil tanker believed to be linked to Russia's shadow fleet",
+      "url": "https://www.npr.org/2026/06/14/nx-s1-5857587/britain-detains-sanctioned-oil-tanker-believed-linked-to-russias-shadow-fleet",
+      "excerpt": "Downing Street to attend the weekly session of Prime Minister's Questions in parliament in London, Wednesday, June 10, 2026. Kin Cheung/AP hide caption toggle caption Kin Cheung/AP LONDON — Britain is investigating a sanctioned tanker that is suspected of being part of the Russian \"shadow fleet,\" shipping oil in violation of international sanctions over Moscow's war on Ukraine"
     },
     {
       "date": "2026",
@@ -2390,16 +2418,164 @@
       "title": "Mozambique: 2026 Flood Humanitarian Response - as of 30 April 2026 [EN/PT] (pdf)",
       "url": "https://reliefweb.int/attachments/1173fb10-ef98-4157-bf86-d64dac5de78a/04.%20MOZ_OCHA_2026_flood%20Response_Monitoring%20-%20as%20of%2030%20April%202026.pdf",
       "excerpt": "Power BI Desktop MOZAMBIQUE 2026 Flood Humanitarian Response PEOPLE AFFECTED PEOPLE TARGETED AND REACHED BY CLUSTERSITUATION OVERVIEW PEOPLE REACHED BY DISTRICT The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the Uni"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "527c2c31b3cfb02fffb3d462ae444fb52fed5eed8debb721595b389446ff9d2a",
-      "title": "From Pyongyang to Primorsk: When Sanctions Evasion Becomes System Design",
-      "url": "https://warontherocks.com/from-pyongyang-to-primorsk-when-sanctions-evasion-becomes-system-design/",
-      "excerpt": "vessels have also used fraudulent registries, following the example of North Korea’s use of Fiji’s registry. In January 2026, Windward found that of the 18 fraudulent registries identified by the International Maritime Organization, 91 percent of the vessels claiming registration with those registries were already sanctioned. In both cases, sanctioned vessels were disproportion"
     }
   ],
   "latest_evidence": [
+    {
+      "id": "40e3b3a290bc550cdc8d0630379eeac5d4ae21bdb04737fabedf7896a456102c",
+      "topic": "geopolitics",
+      "title": "Cabinet ministers asked to look for cuts to fund UK defence spending increase",
+      "url": "https://www.theguardian.com/politics/2026/jun/14/cabinet-ministers-asked-to-look-for-cuts-to-fund-uk-defence-spending-increase",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-14T11:27:25.606226+00:00",
+      "published": "Sun, 14 Jun 2026 09:18:46 GMT",
+      "text_chars": 4040,
+      "raw_path": "data/geopolitics/raw/40e3b3a290bc550cdc8d0630379eeac5d4ae21bdb04737fabedf7896a456102c.html",
+      "text_path": "data/geopolitics/raw/40e3b3a290bc550cdc8d0630379eeac5d4ae21bdb04737fabedf7896a456102c.txt",
+      "summary": "Dan Jarvis, who replaced Healey as defence secretary, has been given until the Nato summit in Ankara in a fortnight’s time to offer up an alternative plan which would see more investment. Photograph: Stefan Rousseau/Reuters Nandy said that she did not accept difficult decisions were not being made in order to fund higher spending on defence – especially when the Ministry of Defence had seen large uplifts at previous budgets.",
+      "bullets": [
+        "Dan Jarvis, who replaced Healey as defence secretary, has been given until the Nato summit in Ankara in a fortnight’s time to offer up an alternative plan which would see more investment.",
+        "Photograph: Stefan Rousseau/Reuters Nandy said that she did not accept difficult decisions were not being made in order to fund higher spending on defence – especially when the Ministry of Defence had seen large uplifts at previous budgets.",
+        "She said she had been among ministers who “expressed private reservations” about the decision to cut international aid but said that it was “clear that was a decision that [Starmer] was going to make, a decision by which he would stand”.",
+        "Though Starmer said in February that Britain “needs to go faster” on defence spending, all he was prepared to offer Healey was an extra £2bn or 0.08% of GDP by 2030.",
+        "Cabinet ministers have been asked to look for more money in their departments to fund an increase in defence spending after the resignation of the former defence secretary John Healey."
+      ],
+      "excerpt": "Cabinet ministers have been asked to look for more money in their departments to fund an increase in defence spending after the resignation of the former defence secretary John Healey. The culture secretary, Lisa Nandy, told the BBC that her department was among those still in conversations with the Treasury about finding further sums for defence. Healey resigned last week over a far smaller than expected settlement for the defence investment plan (Dip). The ex-defence secretary said in his resignation letter he “could not accept a Dip settlement that does not give our forces the resources they need”. Though Starmer said in February that Britain “needs to go faster” on defence spending, all he was prepared to offer Healey was an extra £2bn or 0.08% of GDP by 2030. Starmer was reportedly not then willing to put a target date on when spending would reach 3% of GDP, expected to come after the next election. Defence secretary quits with ‘blistering’ swipe at Starmer - The Latest Speaking on Sunday, Nandy said that departments were being asked to find more for the settlement. Dan Jarvis, who replaced Healey as defence secretary, has been given until the Nato summit in Ankara in a fortni",
+      "keywords": [
+        {
+          "name": "defence",
+          "value": 14
+        },
+        {
+          "name": "healey",
+          "value": 7
+        },
+        {
+          "name": "secretary",
+          "value": 7
+        },
+        {
+          "name": "nandy",
+          "value": 6
+        },
+        {
+          "name": "spending",
+          "value": 6
+        },
+        {
+          "name": "discussions",
+          "value": 5
+        },
+        {
+          "name": "starmer",
+          "value": 5
+        },
+        {
+          "name": "asked",
+          "value": 4
+        },
+        {
+          "name": "minister",
+          "value": 4
+        },
+        {
+          "name": "cuts",
+          "value": 3
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Sanctions and Finance"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/40e3b3a290bc550cdc8d0630379eeac5d4ae21bdb04737fabedf7896a456102c",
+      "evidence_json": "/evidence/40e3b3a290bc550cdc8d0630379eeac5d4ae21bdb04737fabedf7896a456102c.json"
+    },
+    {
+      "id": "c2a24baec0dec60f8a8821bce2afd76f70d00aee118034f311b73eab73a2768c",
+      "topic": "geopolitics",
+      "title": "Britain detains sanctioned oil tanker believed to be linked to Russia's shadow fleet",
+      "url": "https://www.npr.org/2026/06/14/nx-s1-5857587/britain-detains-sanctioned-oil-tanker-believed-linked-to-russias-shadow-fleet",
+      "host": "npr.org",
+      "source": "https://www.npr.org/rss/rss.php?id=1004",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-14T11:27:21.766385+00:00",
+      "published": "Sun, 14 Jun 2026 04:45:23 -0400",
+      "text_chars": 1574,
+      "raw_path": "data/geopolitics/raw/c2a24baec0dec60f8a8821bce2afd76f70d00aee118034f311b73eab73a2768c.html",
+      "text_path": "data/geopolitics/raw/c2a24baec0dec60f8a8821bce2afd76f70d00aee118034f311b73eab73a2768c.txt",
+      "summary": "Kin Cheung/AP hide caption toggle caption Kin Cheung/AP LONDON — Britain is investigating a sanctioned tanker that is suspected of being part of the Russian \"shadow fleet,\" shipping oil in violation of international sanctions over Moscow's war on Ukraine, British Prime Minister Keir Starmer said Sunday. The operation was carried out \"in close coordination\" with French authorities, who have previously intercepted a number of vessels linked to the \"shadow fleet.\" Russia is believed to be using a fleet of hundreds of ships to evade sanctions over its war...",
+      "bullets": [
+        "Kin Cheung/AP hide caption toggle caption Kin Cheung/AP LONDON — Britain is investigating a sanctioned tanker that is suspected of being part of the Russian \"shadow fleet,\" shipping oil in violation of international sanctions over Moscow's war on Ukraine, British Prime Minister Keir Starmer said Sunday.",
+        "The operation was carried out \"in close coordination\" with French authorities, who have previously intercepted a number of vessels linked to the \"shadow fleet.\" Russia is believed to be using a fleet of hundreds of ships to evade sanctions over its war against Ukraine.",
+        "\"This operation delivers yet another blow to Russia and reminds those fueling Putin's war in Ukraine that they cannot hide,\" Starmer said.",
+        "authorities said that such operations were \"directly bearing down on the resources sustaining Russia's aggression in Ukraine and reducing its capacity to threaten security across Europe and beyond.\"",
+        "Britain's Prime Minister Keir Starmer leaves 10 Downing Street to attend the weekly session of Prime Minister's Questions in parliament in London, Wednesday, June 10, 2026."
+      ],
+      "excerpt": "Britain's Prime Minister Keir Starmer leaves 10 Downing Street to attend the weekly session of Prime Minister's Questions in parliament in London, Wednesday, June 10, 2026. Kin Cheung/AP hide caption toggle caption Kin Cheung/AP LONDON — Britain is investigating a sanctioned tanker that is suspected of being part of the Russian \"shadow fleet,\" shipping oil in violation of international sanctions over Moscow's war on Ukraine, British Prime Minister Keir Starmer said Sunday. British armed forces boarded and detained the vessel, the Smyrtos, on Sunday in the English Channel, in what the country's Defense Ministry called \"the first UK-led operation of its kind.\" The vessel will be held and monitored off the south coast of England for investigation, according to a statement by the Defense Ministry. The operation was carried out \"in close coordination\" with French authorities, who have previously intercepted a number of vessels linked to the \"shadow fleet.\" Russia is believed to be using a fleet of hundreds of ships to evade sanctions over its war against Ukraine. \"This operation delivers yet another blow to Russia and reminds those fueling Putin's war in Ukraine that they cannot hide,\" ",
+      "keywords": [
+        {
+          "name": "fleet",
+          "value": 4
+        },
+        {
+          "name": "russia",
+          "value": 4
+        },
+        {
+          "name": "ukraine",
+          "value": 4
+        },
+        {
+          "name": "britain",
+          "value": 3
+        },
+        {
+          "name": "minister",
+          "value": 3
+        },
+        {
+          "name": "operation",
+          "value": 3
+        },
+        {
+          "name": "prime",
+          "value": 3
+        },
+        {
+          "name": "shadow",
+          "value": 3
+        },
+        {
+          "name": "starmer",
+          "value": 3
+        },
+        {
+          "name": "authorities",
+          "value": 2
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Energy and Supply Chains",
+        "Sanctions and Finance"
+      ],
+      "regions": [
+        "Europe and Russia"
+      ],
+      "detail_path": "/evidence/c2a24baec0dec60f8a8821bce2afd76f70d00aee118034f311b73eab73a2768c",
+      "evidence_json": "/evidence/c2a24baec0dec60f8a8821bce2afd76f70d00aee118034f311b73eab73a2768c.json"
+    },
     {
       "id": "787ddd333c781bfe75f24712a6b7eb7b94ea6384da5827508cb5387e4ced4b2c",
       "topic": "geopolitics",
@@ -8471,165 +8647,6 @@
       ],
       "detail_path": "/evidence/fa21b648e7959714a59751a8124dfc279a76f417723df2ea8f0cd3705321a76a",
       "evidence_json": "/evidence/fa21b648e7959714a59751a8124dfc279a76f417723df2ea8f0cd3705321a76a.json"
-    },
-    {
-      "id": "cdfb153c85a5d70c045b164a1531904aa63c99f17185b0147e13fd16dd121e87",
-      "topic": "geopolitics",
-      "title": "Mali: ICRC steps up support to people affected by armed violence",
-      "url": "https://reliefweb.int/report/mali/mali-icrc-steps-support-people-affected-armed-violence",
-      "host": "reliefweb.int",
-      "source": "https://reliefweb.int/updates/rss.xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-06-10T17:56:00.151794+00:00",
-      "published": "Wed, 10 Jun 2026 16:46:20 +0000",
-      "text_chars": 7077,
-      "raw_path": "data/geopolitics/raw/cdfb153c85a5d70c045b164a1531904aa63c99f17185b0147e13fd16dd121e87.html",
-      "text_path": "data/geopolitics/raw/cdfb153c85a5d70c045b164a1531904aa63c99f17185b0147e13fd16dd121e87.txt",
-      "summary": "Bamako (ICRC) – The security situation has deteriorated in several regions of Mali since 25 April 2026, leading to massive casualties, loss of life and new waves of displacement. ICRC teams are also engaged in confidential, bilateral dialogue with the authorities and parties to the conflict to promote the protection of civilians, health workers and facilities, and public goods essential to people’s survival, such as drinking water and food stocks.",
-      "bullets": [
-        "Bamako (ICRC) – The security situation has deteriorated in several regions of Mali since 25 April 2026, leading to massive casualties, loss of life and new waves of displacement.",
-        "ICRC teams are also engaged in confidential, bilateral dialogue with the authorities and parties to the conflict to promote the protection of civilians, health workers and facilities, and public goods essential to people’s survival, such as drinking water and food stocks.",
-        "Emergency aid for displaced people: The ICRC and the Mali Red Cross provided household essentials (mats, kitchen utensils, clothing, and more) to 100 families that had been displaced from Korikori to Sevaré in the Mopti region.",
-        "“We are deeply concerned about the repercussions of escalating armed violence on civilians,” said Nicolas Lambert, head of the ICRC delegation in Mali.",
-        "We are redoubling our efforts to provide emergency aid, ensure access to essential services and strengthen community resilience.” Operational update In May 2026 , the ICRC took the following actions to meet the urgent needs of the most vulnerable while strengthening community capacities and local infrastructure in response to the ongoing crisis."
-      ],
-      "excerpt": "Bamako (ICRC) – The security situation has deteriorated in several regions of Mali since 25 April 2026, leading to massive casualties, loss of life and new waves of displacement. The fighting has also put increased pressure on livelihoods and access to essential services. In response, the International Committee of the Red Cross (ICRC) is helping to meet the urgent needs of those affected while maintaining essential services and strengthening community resilience. The organization has provided quality health care to the wounded and distributed everyday necessities to displaced people. ICRC teams are also engaged in confidential, bilateral dialogue with the authorities and parties to the conflict to promote the protection of civilians, health workers and facilities, and public goods essential to people’s survival, such as drinking water and food stocks. “We are deeply concerned about the repercussions of escalating armed violence on civilians,” said Nicolas Lambert, head of the ICRC delegation in Mali. “Civilians are not targets. They must be respected and protected, as should health facilities and water supply systems. We are redoubling our efforts to provide emergency aid, ensure ",
-      "keywords": [
-        {
-          "name": "icrc",
-          "value": 25
-        },
-        {
-          "name": "mali",
-          "value": 13
-        },
-        {
-          "name": "provided",
-          "value": 12
-        },
-        {
-          "name": "cross",
-          "value": 7
-        },
-        {
-          "name": "essential",
-          "value": 7
-        },
-        {
-          "name": "families",
-          "value": 7
-        },
-        {
-          "name": "mopti",
-          "value": 7
-        },
-        {
-          "name": "care",
-          "value": 6
-        },
-        {
-          "name": "health",
-          "value": 6
-        },
-        {
-          "name": "hospital",
-          "value": 6
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations",
-        "War and Escalation",
-        "Energy and Supply Chains"
-      ],
-      "regions": [
-        "Africa",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/cdfb153c85a5d70c045b164a1531904aa63c99f17185b0147e13fd16dd121e87",
-      "evidence_json": "/evidence/cdfb153c85a5d70c045b164a1531904aa63c99f17185b0147e13fd16dd121e87.json"
-    },
-    {
-      "id": "48155c000909f798088361d1eb20a25145223185acf23c96a1c774d9338f2bd1",
-      "topic": "geopolitics",
-      "title": "Europe Plans to Crack Down on Russia—but for Real This Time",
-      "url": "https://foreignpolicy.com/2026/06/10/europe-russia-sanctions-package-trump-putin/",
-      "host": "foreignpolicy.com",
-      "source": "https://foreignpolicy.com/feed/",
-      "data_type": "sanctions_designations",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-06-10T17:56:00.262107+00:00",
-      "published": "Wed, 10 Jun 2026 16:45:31 +0000",
-      "text_chars": 7429,
-      "raw_path": "data/geopolitics/raw/48155c000909f798088361d1eb20a25145223185acf23c96a1c774d9338f2bd1.html",
-      "text_path": "data/geopolitics/raw/48155c000909f798088361d1eb20a25145223185acf23c96a1c774d9338f2bd1.txt",
-      "summary": "We want to maintain the full intensity of our sanctions.” In May, Russia’s energy export revenues climbed another 2 percent over the already-high levels of April to 726 million euros per day, according to the Finland-based Centre for Research on Energy and Clean Air (CREA), which tracks Russian energy earnings during the war. The latest sanctions package is especially important because Moscow has received a shot of relief this spring, thanks to the Iran war and the Trump administration’s easing of sanctions.",
-      "bullets": [
-        "We want to maintain the full intensity of our sanctions.” In May, Russia’s energy export revenues climbed another 2 percent over the already-high levels of April to 726 million euros per day, according to the Finland-based Centre for Research on Energy and Clean Air (CREA), which tracks Russian energy earnings during the war.",
-        "The latest sanctions package is especially important because Moscow has received a shot of relief this spring, thanks to the Iran war and the Trump administration’s easing of sanctions.",
-        "Crude oil loadings at the key Baltic Sea port of Ust-Luga, which Ukraine hammered in March and April with drone strikes, were up almost 50 percent in May.",
-        "The latest proposed package also sanctions several more Russian banks, seeks to limit trade in items that can aid Russia’s defense industry, and will ban from Europe any Russian who has participated in the “special military operation” in Ukraine, as the Kremlin refers to it.",
-        "Additionally, the Trump administration has repeatedly offered Russia relief from previously levied sanctions to keep oil prices from exploding."
-      ],
-      "excerpt": "The European Union has proposed its 21st package of sanctions on Russia, a bid to finally bring the Russian war economy to heel, in a war that has now lasted as long as World War I. The latest sanctions package is especially important because Moscow has received a shot of relief this spring, thanks to the Iran war and the Trump administration’s easing of sanctions. Russian energy revenues are now at more than two-year highs. The European Union has proposed its 21st package of sanctions on Russia, a bid to finally bring the Russian war economy to heel, in a war that has now lasted as long as World War I. The latest sanctions package is especially important because Moscow has received a shot of relief this spring, thanks to the Iran war and the Trump administration’s easing of sanctions. Russian energy revenues are now at more than two-year highs. That explains why the European Commission is targeting energy this time, with measures meant to curtail Russian oil earnings; sanction more “shadow fleet” tankers; take aim at ports and refineries that allow Russia to do business even still; and limit the future sale of specialized gas tankers to Moscow. The latest proposed package also san",
-      "keywords": [
-        {
-          "name": "russia",
-          "value": 24
-        },
-        {
-          "name": "russian",
-          "value": 20
-        },
-        {
-          "name": "sanctions",
-          "value": 19
-        },
-        {
-          "name": "package",
-          "value": 9
-        },
-        {
-          "name": "energy",
-          "value": 8
-        },
-        {
-          "name": "moscow",
-          "value": 7
-        },
-        {
-          "name": "tankers",
-          "value": 7
-        },
-        {
-          "name": "european",
-          "value": 6
-        },
-        {
-          "name": "administration",
-          "value": 5
-        },
-        {
-          "name": "levi",
-          "value": 5
-        }
-      ],
-      "signals": [
-        "Diplomacy and Negotiations",
-        "Energy and Supply Chains",
-        "War and Escalation",
-        "Sanctions and Finance"
-      ],
-      "regions": [
-        "Europe and Russia",
-        "Americas",
-        "Indo-Pacific"
-      ],
-      "detail_path": "/evidence/48155c000909f798088361d1eb20a25145223185acf23c96a1c774d9338f2bd1",
-      "evidence_json": "/evidence/48155c000909f798088361d1eb20a25145223185acf23c96a1c774d9338f2bd1.json"
     }
   ],
   "deep_reads": [
@@ -8723,7 +8740,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-14T08:40:07.182269+00:00",
+      "collected_at": "2026-06-14T11:27:09.435804+00:00",
       "published": "",
       "text_chars": 9080594,
       "raw_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.xml",
@@ -9603,7 +9620,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-14T08:39:34.684991+00:00",
+      "collected_at": "2026-06-14T11:26:29.731047+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -9678,7 +9695,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-14T08:39:34.369725+00:00",
+      "collected_at": "2026-06-14T11:26:30.049080+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -10868,230 +10885,6 @@
   ],
   "documents": [
     {
-      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "topic": "geopolitics",
-      "title": "United Nations Charter",
-      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
-      "host": "treaties.un.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-14T08:40:14.114936+00:00",
-      "published": "",
-      "text_chars": 89992,
-      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
-      "summary": "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
-      "bullets": [
-        "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
-        "Article 5 / A Member of the United Nations against which preventive or enforcement action has been taken by the Security Council may be suspended from the exercise of the rights and privileges of mem- bership by the General Assembly upon the recom- mendation of the Security Council.",
-        "Article 6 A Member of the United Nations which has persistently violated the Principles contained in the present Charter may be expelled from the Organization by the General Assembly upon the recommendation of the Security Council.",
-        "Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
-        "CHAPTER I PURPOSES AND PRINCIPLES Article 1 The^Purposes of the United Nations are: 1."
-      ],
-      "excerpt": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 160
-        },
-        {
-          "name": "court",
-          "value": 155
-        },
-        {
-          "name": "security",
-          "value": 148
-        },
-        {
-          "name": "united",
-          "value": 127
-        },
-        {
-          "name": "nations",
-          "value": 121
-        },
-        {
-          "name": "members",
-          "value": 116
-        },
-        {
-          "name": "general",
-          "value": 94
-        },
-        {
-          "name": "assembly",
-          "value": 83
-        },
-        {
-          "name": "international",
-          "value": 79
-        },
-        {
-          "name": "member",
-          "value": 59
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation",
-        "Humanitarian Pressure"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "detail_path": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
-    },
-    {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-14T08:40:12.569647+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
-      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-06-14T08:40:12.567386+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
-      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
-    },
-    {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
       "title": "ICRC International Humanitarian Law Handbook",
@@ -11101,7 +10894,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-14T08:40:12.551622+00:00",
+      "collected_at": "2026-06-14T11:27:17.634107+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -11173,6 +10966,160 @@
       "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
+      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "topic": "geopolitics",
+      "title": "United Nations Charter",
+      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
+      "host": "treaties.un.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-14T11:27:12.420244+00:00",
+      "published": "",
+      "text_chars": 89992,
+      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
+      "summary": "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
+      "bullets": [
+        "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
+        "Article 5 / A Member of the United Nations against which preventive or enforcement action has been taken by the Security Council may be suspended from the exercise of the rights and privileges of mem- bership by the General Assembly upon the recom- mendation of the Security Council.",
+        "Article 6 A Member of the United Nations which has persistently violated the Principles contained in the present Charter may be expelled from the Organization by the General Assembly upon the recommendation of the Security Council.",
+        "Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
+        "CHAPTER I PURPOSES AND PRINCIPLES Article 1 The^Purposes of the United Nations are: 1."
+      ],
+      "excerpt": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 160
+        },
+        {
+          "name": "court",
+          "value": 155
+        },
+        {
+          "name": "security",
+          "value": 148
+        },
+        {
+          "name": "united",
+          "value": 127
+        },
+        {
+          "name": "nations",
+          "value": 121
+        },
+        {
+          "name": "members",
+          "value": 116
+        },
+        {
+          "name": "general",
+          "value": 94
+        },
+        {
+          "name": "assembly",
+          "value": 83
+        },
+        {
+          "name": "international",
+          "value": 79
+        },
+        {
+          "name": "member",
+          "value": 59
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "detail_path": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
+    },
+    {
+      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-06-14T11:27:11.506069+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
+      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -11182,7 +11129,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-14T08:40:08.736028+00:00",
+      "collected_at": "2026-06-14T11:27:11.486387+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11254,6 +11201,76 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-14T11:27:09.487109+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -11263,7 +11280,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-14T08:40:07.182269+00:00",
+      "collected_at": "2026-06-14T11:27:09.435804+00:00",
       "published": "",
       "text_chars": 9080594,
       "raw_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.xml",
@@ -11343,7 +11360,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-14T08:39:37.919250+00:00",
+      "collected_at": "2026-06-14T11:26:34.026812+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/fea7d9571ff7ca2efb3238e0492a555dedb78bd63fbcf1aab057cb00127447d0.xml",
@@ -11423,7 +11440,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-14T08:39:37.086280+00:00",
+      "collected_at": "2026-06-14T11:26:32.132221+00:00",
       "published": "",
       "text_chars": 824644,
       "raw_path": "data/geopolitics/raw/2492e73203d1bdff96758d502b75553c1b627f7231412c0b34eee989f5af6a6e.xml",
@@ -11494,81 +11511,6 @@
       "evidence_json": "/evidence/2492e73203d1bdff96758d502b75553c1b627f7231412c0b34eee989f5af6a6e.json"
     },
     {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-14T08:39:34.684991+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -11578,7 +11520,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-14T08:39:34.369725+00:00",
+      "collected_at": "2026-06-14T11:26:30.049080+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -11644,6 +11586,81 @@
       ],
       "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-14T11:26:29.731047+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
     },
     {
       "id": "cb9b70917b15180a3c460fcaa7a9aef59c5244ea79c4d1be0f54f57c707ca44a",
@@ -15425,230 +15442,6 @@
   "cited_evidence": [],
   "evidence": [
     {
-      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "topic": "geopolitics",
-      "title": "United Nations Charter",
-      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
-      "host": "treaties.un.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-14T08:40:14.114936+00:00",
-      "published": "",
-      "text_chars": 89992,
-      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
-      "summary": "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
-      "bullets": [
-        "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
-        "Article 5 / A Member of the United Nations against which preventive or enforcement action has been taken by the Security Council may be suspended from the exercise of the rights and privileges of mem- bership by the General Assembly upon the recom- mendation of the Security Council.",
-        "Article 6 A Member of the United Nations which has persistently violated the Principles contained in the present Charter may be expelled from the Organization by the General Assembly upon the recommendation of the Security Council.",
-        "Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
-        "CHAPTER I PURPOSES AND PRINCIPLES Article 1 The^Purposes of the United Nations are: 1."
-      ],
-      "excerpt": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 160
-        },
-        {
-          "name": "court",
-          "value": 155
-        },
-        {
-          "name": "security",
-          "value": 148
-        },
-        {
-          "name": "united",
-          "value": 127
-        },
-        {
-          "name": "nations",
-          "value": 121
-        },
-        {
-          "name": "members",
-          "value": 116
-        },
-        {
-          "name": "general",
-          "value": 94
-        },
-        {
-          "name": "assembly",
-          "value": 83
-        },
-        {
-          "name": "international",
-          "value": 79
-        },
-        {
-          "name": "member",
-          "value": 59
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation",
-        "Humanitarian Pressure"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "detail_path": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
-    },
-    {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-14T08:40:12.569647+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
-      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-06-14T08:40:12.567386+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
-      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
-    },
-    {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
       "title": "ICRC International Humanitarian Law Handbook",
@@ -15658,7 +15451,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-14T08:40:12.551622+00:00",
+      "collected_at": "2026-06-14T11:27:17.634107+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -15730,6 +15523,160 @@
       "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
+      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "topic": "geopolitics",
+      "title": "United Nations Charter",
+      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
+      "host": "treaties.un.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-14T11:27:12.420244+00:00",
+      "published": "",
+      "text_chars": 89992,
+      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
+      "summary": "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
+      "bullets": [
+        "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
+        "Article 5 / A Member of the United Nations against which preventive or enforcement action has been taken by the Security Council may be suspended from the exercise of the rights and privileges of mem- bership by the General Assembly upon the recom- mendation of the Security Council.",
+        "Article 6 A Member of the United Nations which has persistently violated the Principles contained in the present Charter may be expelled from the Organization by the General Assembly upon the recommendation of the Security Council.",
+        "Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
+        "CHAPTER I PURPOSES AND PRINCIPLES Article 1 The^Purposes of the United Nations are: 1."
+      ],
+      "excerpt": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 160
+        },
+        {
+          "name": "court",
+          "value": 155
+        },
+        {
+          "name": "security",
+          "value": 148
+        },
+        {
+          "name": "united",
+          "value": 127
+        },
+        {
+          "name": "nations",
+          "value": 121
+        },
+        {
+          "name": "members",
+          "value": 116
+        },
+        {
+          "name": "general",
+          "value": 94
+        },
+        {
+          "name": "assembly",
+          "value": 83
+        },
+        {
+          "name": "international",
+          "value": 79
+        },
+        {
+          "name": "member",
+          "value": 59
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "detail_path": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
+    },
+    {
+      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-06-14T11:27:11.506069+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
+      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -15739,7 +15686,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-14T08:40:08.736028+00:00",
+      "collected_at": "2026-06-14T11:27:11.486387+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15811,6 +15758,76 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-14T11:27:09.487109+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -15820,7 +15837,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-14T08:40:07.182269+00:00",
+      "collected_at": "2026-06-14T11:27:09.435804+00:00",
       "published": "",
       "text_chars": 9080594,
       "raw_path": "data/geopolitics/raw/4aa5eb16f3b7647dea5c3db4e18657c5f3306682a73e2969e1017351b3c11a79.xml",
@@ -15900,7 +15917,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-14T08:39:37.919250+00:00",
+      "collected_at": "2026-06-14T11:26:34.026812+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/fea7d9571ff7ca2efb3238e0492a555dedb78bd63fbcf1aab057cb00127447d0.xml",
@@ -15980,7 +15997,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-14T08:39:37.086280+00:00",
+      "collected_at": "2026-06-14T11:26:32.132221+00:00",
       "published": "",
       "text_chars": 824644,
       "raw_path": "data/geopolitics/raw/2492e73203d1bdff96758d502b75553c1b627f7231412c0b34eee989f5af6a6e.xml",
@@ -16051,81 +16068,6 @@
       "evidence_json": "/evidence/2492e73203d1bdff96758d502b75553c1b627f7231412c0b34eee989f5af6a6e.json"
     },
     {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-14T08:39:34.684991+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -16135,7 +16077,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-14T08:39:34.369725+00:00",
+      "collected_at": "2026-06-14T11:26:30.049080+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -16201,6 +16143,236 @@
       ],
       "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-14T11:26:29.731047+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
+    },
+    {
+      "id": "40e3b3a290bc550cdc8d0630379eeac5d4ae21bdb04737fabedf7896a456102c",
+      "topic": "geopolitics",
+      "title": "Cabinet ministers asked to look for cuts to fund UK defence spending increase",
+      "url": "https://www.theguardian.com/politics/2026/jun/14/cabinet-ministers-asked-to-look-for-cuts-to-fund-uk-defence-spending-increase",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-14T11:27:25.606226+00:00",
+      "published": "Sun, 14 Jun 2026 09:18:46 GMT",
+      "text_chars": 4040,
+      "raw_path": "data/geopolitics/raw/40e3b3a290bc550cdc8d0630379eeac5d4ae21bdb04737fabedf7896a456102c.html",
+      "text_path": "data/geopolitics/raw/40e3b3a290bc550cdc8d0630379eeac5d4ae21bdb04737fabedf7896a456102c.txt",
+      "summary": "Dan Jarvis, who replaced Healey as defence secretary, has been given until the Nato summit in Ankara in a fortnight’s time to offer up an alternative plan which would see more investment. Photograph: Stefan Rousseau/Reuters Nandy said that she did not accept difficult decisions were not being made in order to fund higher spending on defence – especially when the Ministry of Defence had seen large uplifts at previous budgets.",
+      "bullets": [
+        "Dan Jarvis, who replaced Healey as defence secretary, has been given until the Nato summit in Ankara in a fortnight’s time to offer up an alternative plan which would see more investment.",
+        "Photograph: Stefan Rousseau/Reuters Nandy said that she did not accept difficult decisions were not being made in order to fund higher spending on defence – especially when the Ministry of Defence had seen large uplifts at previous budgets.",
+        "She said she had been among ministers who “expressed private reservations” about the decision to cut international aid but said that it was “clear that was a decision that [Starmer] was going to make, a decision by which he would stand”.",
+        "Though Starmer said in February that Britain “needs to go faster” on defence spending, all he was prepared to offer Healey was an extra £2bn or 0.08% of GDP by 2030.",
+        "Cabinet ministers have been asked to look for more money in their departments to fund an increase in defence spending after the resignation of the former defence secretary John Healey."
+      ],
+      "excerpt": "Cabinet ministers have been asked to look for more money in their departments to fund an increase in defence spending after the resignation of the former defence secretary John Healey. The culture secretary, Lisa Nandy, told the BBC that her department was among those still in conversations with the Treasury about finding further sums for defence. Healey resigned last week over a far smaller than expected settlement for the defence investment plan (Dip). The ex-defence secretary said in his resignation letter he “could not accept a Dip settlement that does not give our forces the resources they need”. Though Starmer said in February that Britain “needs to go faster” on defence spending, all he was prepared to offer Healey was an extra £2bn or 0.08% of GDP by 2030. Starmer was reportedly not then willing to put a target date on when spending would reach 3% of GDP, expected to come after the next election. Defence secretary quits with ‘blistering’ swipe at Starmer - The Latest Speaking on Sunday, Nandy said that departments were being asked to find more for the settlement. Dan Jarvis, who replaced Healey as defence secretary, has been given until the Nato summit in Ankara in a fortni",
+      "keywords": [
+        {
+          "name": "defence",
+          "value": 14
+        },
+        {
+          "name": "healey",
+          "value": 7
+        },
+        {
+          "name": "secretary",
+          "value": 7
+        },
+        {
+          "name": "nandy",
+          "value": 6
+        },
+        {
+          "name": "spending",
+          "value": 6
+        },
+        {
+          "name": "discussions",
+          "value": 5
+        },
+        {
+          "name": "starmer",
+          "value": 5
+        },
+        {
+          "name": "asked",
+          "value": 4
+        },
+        {
+          "name": "minister",
+          "value": 4
+        },
+        {
+          "name": "cuts",
+          "value": 3
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Sanctions and Finance"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/40e3b3a290bc550cdc8d0630379eeac5d4ae21bdb04737fabedf7896a456102c",
+      "evidence_json": "/evidence/40e3b3a290bc550cdc8d0630379eeac5d4ae21bdb04737fabedf7896a456102c.json"
+    },
+    {
+      "id": "c2a24baec0dec60f8a8821bce2afd76f70d00aee118034f311b73eab73a2768c",
+      "topic": "geopolitics",
+      "title": "Britain detains sanctioned oil tanker believed to be linked to Russia's shadow fleet",
+      "url": "https://www.npr.org/2026/06/14/nx-s1-5857587/britain-detains-sanctioned-oil-tanker-believed-linked-to-russias-shadow-fleet",
+      "host": "npr.org",
+      "source": "https://www.npr.org/rss/rss.php?id=1004",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-14T11:27:21.766385+00:00",
+      "published": "Sun, 14 Jun 2026 04:45:23 -0400",
+      "text_chars": 1574,
+      "raw_path": "data/geopolitics/raw/c2a24baec0dec60f8a8821bce2afd76f70d00aee118034f311b73eab73a2768c.html",
+      "text_path": "data/geopolitics/raw/c2a24baec0dec60f8a8821bce2afd76f70d00aee118034f311b73eab73a2768c.txt",
+      "summary": "Kin Cheung/AP hide caption toggle caption Kin Cheung/AP LONDON — Britain is investigating a sanctioned tanker that is suspected of being part of the Russian \"shadow fleet,\" shipping oil in violation of international sanctions over Moscow's war on Ukraine, British Prime Minister Keir Starmer said Sunday. The operation was carried out \"in close coordination\" with French authorities, who have previously intercepted a number of vessels linked to the \"shadow fleet.\" Russia is believed to be using a fleet of hundreds of ships to evade sanctions over its war...",
+      "bullets": [
+        "Kin Cheung/AP hide caption toggle caption Kin Cheung/AP LONDON — Britain is investigating a sanctioned tanker that is suspected of being part of the Russian \"shadow fleet,\" shipping oil in violation of international sanctions over Moscow's war on Ukraine, British Prime Minister Keir Starmer said Sunday.",
+        "The operation was carried out \"in close coordination\" with French authorities, who have previously intercepted a number of vessels linked to the \"shadow fleet.\" Russia is believed to be using a fleet of hundreds of ships to evade sanctions over its war against Ukraine.",
+        "\"This operation delivers yet another blow to Russia and reminds those fueling Putin's war in Ukraine that they cannot hide,\" Starmer said.",
+        "authorities said that such operations were \"directly bearing down on the resources sustaining Russia's aggression in Ukraine and reducing its capacity to threaten security across Europe and beyond.\"",
+        "Britain's Prime Minister Keir Starmer leaves 10 Downing Street to attend the weekly session of Prime Minister's Questions in parliament in London, Wednesday, June 10, 2026."
+      ],
+      "excerpt": "Britain's Prime Minister Keir Starmer leaves 10 Downing Street to attend the weekly session of Prime Minister's Questions in parliament in London, Wednesday, June 10, 2026. Kin Cheung/AP hide caption toggle caption Kin Cheung/AP LONDON — Britain is investigating a sanctioned tanker that is suspected of being part of the Russian \"shadow fleet,\" shipping oil in violation of international sanctions over Moscow's war on Ukraine, British Prime Minister Keir Starmer said Sunday. British armed forces boarded and detained the vessel, the Smyrtos, on Sunday in the English Channel, in what the country's Defense Ministry called \"the first UK-led operation of its kind.\" The vessel will be held and monitored off the south coast of England for investigation, according to a statement by the Defense Ministry. The operation was carried out \"in close coordination\" with French authorities, who have previously intercepted a number of vessels linked to the \"shadow fleet.\" Russia is believed to be using a fleet of hundreds of ships to evade sanctions over its war against Ukraine. \"This operation delivers yet another blow to Russia and reminds those fueling Putin's war in Ukraine that they cannot hide,\" ",
+      "keywords": [
+        {
+          "name": "fleet",
+          "value": 4
+        },
+        {
+          "name": "russia",
+          "value": 4
+        },
+        {
+          "name": "ukraine",
+          "value": 4
+        },
+        {
+          "name": "britain",
+          "value": 3
+        },
+        {
+          "name": "minister",
+          "value": 3
+        },
+        {
+          "name": "operation",
+          "value": 3
+        },
+        {
+          "name": "prime",
+          "value": 3
+        },
+        {
+          "name": "shadow",
+          "value": 3
+        },
+        {
+          "name": "starmer",
+          "value": 3
+        },
+        {
+          "name": "authorities",
+          "value": 2
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Energy and Supply Chains",
+        "Sanctions and Finance"
+      ],
+      "regions": [
+        "Europe and Russia"
+      ],
+      "detail_path": "/evidence/c2a24baec0dec60f8a8821bce2afd76f70d00aee118034f311b73eab73a2768c",
+      "evidence_json": "/evidence/c2a24baec0dec60f8a8821bce2afd76f70d00aee118034f311b73eab73a2768c.json"
     },
     {
       "id": "787ddd333c781bfe75f24712a6b7eb7b94ea6384da5827508cb5387e4ced4b2c",
