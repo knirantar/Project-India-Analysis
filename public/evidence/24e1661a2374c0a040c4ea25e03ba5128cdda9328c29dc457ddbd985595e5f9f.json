@@ -78,241 +78,6 @@
   "full_text": "In February, Operation Epic Fury, the United States’ war against Iran, revealed that the cloud—the rented stack of data centers, compute, and software services—is a core part of operations, not a back-office IT service. During the campaign, peak daily usage of one Pentagon AI targeting system \nrose 4,425 percent. \nCameron Stanley, the Pentagon’s chief digital and AI officer, \nsummed up\n the lesson: “My biggest fear is really not the adversary at this point. My biggest fear is, can we keep up?”\n\nFor NATO, the answer is no. Allies are each making procurement decisions about cloud infrastructure for national civilian and defense purposes that will boost capacity—but they’re being pulled in opposite directions in harmful ways that will compound over the coming decades.\n\nThe first pressure, driven by politics, is the balkanization of cloud capacity. When the International Criminal Court’s lead prosecutor, Karim Khan, suddenly found himself \nlocked out\n of his Microsoft email account in 2025 after U.S. sanctions targeted the court, allied governments awoke to a hard fact. The digital substrate on which their states, militaries, and economies run is not neutral plumbing. It is broadly American, and it can be turned off. French President Emmanuel Macron \nput the lesson\n plainly: “There is no such thing as happy vassalage.”\n\nEuropean capitals have been racing to address that vulnerability ever since, pouring money into “sovereign stacks” including national clouds, data residency requirements, and mandates that locals operate the infrastructure. That impulse is now hardening into blocwide policy with the release of the European Commission’s tech-sovereignty strategy which encourages homegrown alternatives across chips, cloud, and AI.\n\nThe second pressure, driven by operational considerations, is the concentration of cloud capacity. Operation Epic Fury highlights how cloud infrastructure has become central to what military theorists call the operational tail—the logistics, sustainment, and support that enable combat forces to fight. That tail now runs largely on three commercial providers: Amazon Web Services, Microsoft Azure, and Google Cloud—the “hyperscalers” whose data centers, networks, and compute platforms provide much of the digital infrastructure for both civilian and defense sectors.\n\nHistorically, the operational tail was a rear-area concern, comfortably behind the lines. It is now contested. Adversaries can reach into the tail through cyberattack, long-range strikes on data centers, anti-satellite weapons, and political pressure on the commercial providers that own most of the relevant infrastructure. Future conflicts – particularly an Article 5 event – will require enormous compute capacity that can be jointly accessed from anywhere within the alliance. None of that is currently possible.\n\nReducing exposure to U.S. leverage risks degrading coordination and fragmenting the alliance’s capability. A French defense workload that cannot move to a German cloud is no more interoperable than a French workload that cannot move off Microsoft Azure. A series of siloed sovereign stacks is the cloud equivalent of different shell-casing sizes—a major interoperability problem that, in a future conflict, leaves NATO unable to distribute innovations quickly or surge capacity to allies when it matters. Conversely, accepting the dependence of U.S.-dominated systems leaves the alliance with infrastructure that can be turned off by a single, and increasingly unreliable, sovereign actor.\n\nNATO has been here before. In the decades after the alliance’s founding, NATO confronted what could have been a fatal coordination problem: every member fielding its own rifle calibers, fuel grades, communications protocols, friend-or-foe identification systems, and so forth. However superior their kit may have been, allied forces that could not interoperate could not fight together.\n\nThe solution was not to build a single U.S.-dominated NATO weapons industry; it was to standardize the interfaces among national industries. The alliance produced a body of agreements called Standardization Agreements, or STANAGs. Today there are hundreds of STANAGs, covering everything from 5.56 mm ammunition to fuel additives to identification, friend or foe protocols. Compliance with STANAGs became, in effect, the price of belonging.\n\nThere is no STANAG for the cloud. We need one.\n\nPicture the cloud as a layered stack. At the bottom is core infrastructure: raw compute, networking, and the storage where data physically lives. Above that sits the platform layer: managed databases, container registries, analytics engines services that engineers use to build and run applications. At the top is the model and application layer: the AI systems, dashboards, and software that warfighters and analysts actually touch. Each layer locks in the layer above it: If you cannot move your data, you cannot move your platform; if you cannot move your platform, you cannot move your applications.\n\nFortunately, at one critical layer of the stack, the market has already converged. The key is to start with object storage, where Amazon’s S3, launched in 2006, has become the de facto global standard, \nsupported\n by most major commercial providers, by every credible open-source implementation, and by most of the credible national-champion clouds across Europe and Asia. Cloudflare, DigitalOcean, IBM, MinIO, and a long list of others all offer S3-compatible storage. In effect, the alliance has an easy win in front of it: a de facto standard for storage that it just needs to turn into a de jure one.\n\nThis, in and of itself, would significantly boost interoperability within the alliance, but it should serve as a start, not an end point. Above object storage, at the platform layer, there are fewer de facto standards. But agreeing on common specifications for these platform services—so that an application built on one provider can move to another without being rebuilt—is no less essential than agreeing on them for storage.\n\nThe challenge is that the major providers have either built deliberately incompatible offerings or wrapped partial open standards in proprietary management systems that reintroduce the switching costs standards were meant to remove. Standardizing the interface layer is something NATO, with its collective buying power and political heft, is uniquely positioned to do.\n\nThat is precisely why NATO needs to first standardize around storage. Locking in S3 compatibility inside the alliance’s federated cloud procurement does three things at once. First, it captures an immediate operational and economic win—the ability to move workloads, fail over between clouds, and allow for genuine price competition at one of the highest-volume layers of the stack. Second, it builds the procurement muscle, the institutional precedent, and the coalition the alliance will need to fight the harder battles above. Third, it signals to the market that convergence is coming and so reshapes the providers’ incentive structure toward prioritizing and organizing themselves around standards on mature technologies.\n\nThis window of opportunity won’t stay open long. European allies risk fragmenting into multiple sovereign stacks. Germany’s recent procurement decisions are instructive. The country has increased its digital-sovereignty rhetoric: its coalition agreement frames digital sovereignty as “power, economic, and social policy”; its Sovereign Tech Fund channels public money into open-source infrastructure; and its Federal Office for Information Security sets some of the strictest cloud security requirements in Europe. The European Commission’s just published tech-sovereignty strategy focuses on capacity and not interoperability by creating a sovereignty test that measures control, not portability. More critically, it is silent about mandating the interface standards that would let workloads shift providers. This risks confounding any interoperability strategy NATO pursues.\n\nInternally, NATO itself is in the midst of making consequential decisions about cloud. The Allied Software for Cloud and Edge Services, or ACE, a high-visibility project to build a federated, classified-capable cloud architecture for allied forces is in its early acquisition stages.\n\nThe next step would be to embed in those contracts, as a non-negotiable technical requirement, a single specification at the storage layer: Object storage must be compatible with the S3 interface. The technical work can run through the relevant NATO body—the Digital Policy Committee (formerly the Consultation, Command, and Control Board), through its capability panels—with the NATO Standardization Office providing the formal STANAG path. From there, the alliance climbs the stack in phases – making de jure standards de facto wherever possible. Any sponsoring ally could propose itself as custodian.\n\nMember states—and now the EU Commission itself, with its push to boost players such as OVHcloud, SAP, and Mistral—may read a NATO interoperability requirement as a threat to those investments. It is the opposite. Standards expand the market for any provider competitive enough to clear them; they only threaten those that depend on lock-in. A French sovereign cloud that meets a NATO storage standard becomes purchasable by every other ally.\n\nAnother barrier is likely to come from the hyperscalers such as Amazon and Microsoft, who have spent two decades competing on proprietary capabilities and may, by reflex, resist any standardization. This is not insurmountable. The hyperscalers retain a structural advantage: the ability to scale capacity vertically into surge demand and horizontally across multiple continents. A NATO requirement does not ask the hyperscalers and model providers to surrender their commercial differentiation; it asks them to make the foundation interoperable, which is something they should rationally, but quietly, want.\n\nA final set of objections may come from Washington, where successive administrations have been wary of European digital sovereignty. But this is not a digital sovereignty initiative. It is a multicloud interoperability initiative—and critically, it is the architecture the United States has already adopted for itself.\n\nThe Pentagon’s Joint Warfighting Cloud Capability, or JWCC, is a four-vendor multicloud contract awarded in December 2022 to Amazon, Google, Microsoft, and Oracle for precisely this reason: to prevent the kind of single-vendor lock-in that would expose U.S. warfighting infrastructure to a commercial outage, a corporate decision, or a political turn at any one provider.\n\nNor is it a one-off: The Pentagon is \npreparing\n an expanded successor, JWCC Next, that doubles down on this approach. Multicloud-by-design is not a European sovereignty grievance; it is the U.S. Department of Defense’s stated procurement philosophy.\n\nCreating truly autonomous clouds is also simply unworkable for many NATO members. They are not realistic for Canada, for Norway, for Portugal, for the Baltic states, for any of NATO’s smaller southern-flank members because none has the capital to build globally available and hyperscaler-sized data centers, the engineering depth to operate them with sufficient reliability, or a domestic market large enough to amortize the cost.\n\nA digital sovereignty doctrine that may possibly work for two or three of NATO’s largest members is a doctrine that fragments the alliance at the moment it can least afford fragmentation. The right ambition is to treat the bottom of the cloud stack like a utility—interoperable, substitutable, defense-grade—so that every member, large or small, can plug into and draw upon it on their own terms.\n\nA standards-based approach delivers that, enabling allies of every size to have capacity and independence. It also works for partners outside the alliance—Australia, Japan, South Korea, India—who would benefit from an interface standard set by a credible defense-grade procurement body.\n\nThe question for NATO, then, is not, “Can we each build our own stack?” That question has a depressing answer for almost everyone in the room, and an unsatisfying one even for those who can attempt it. The question is, “Can we move our workloads?” That question has a workable answer—but only if the alliance acts inside the procurement window it has already opened.",
   "related": [
     {
-      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "topic": "geopolitics",
-      "title": "United Nations Charter",
-      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
-      "host": "treaties.un.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-19T19:29:51.774046+00:00",
-      "published": "",
-      "text_chars": 89992,
-      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
-      "summary": "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
-      "bullets": [
-        "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
-        "Article 5 / A Member of the United Nations against which preventive or enforcement action has been taken by the Security Council may be suspended from the exercise of the rights and privileges of mem- bership by the General Assembly upon the recom- mendation of the Security Council.",
-        "Article 6 A Member of the United Nations which has persistently violated the Principles contained in the present Charter may be expelled from the Organization by the General Assembly upon the recommendation of the Security Council.",
-        "Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
-        "CHAPTER I PURPOSES AND PRINCIPLES Article 1 The^Purposes of the United Nations are: 1."
-      ],
-      "excerpt": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 160
-        },
-        {
-          "name": "court",
-          "value": 155
-        },
-        {
-          "name": "security",
-          "value": 148
-        },
-        {
-          "name": "united",
-          "value": 127
-        },
-        {
-          "name": "nations",
-          "value": 121
-        },
-        {
-          "name": "members",
-          "value": 116
-        },
-        {
-          "name": "general",
-          "value": 94
-        },
-        {
-          "name": "assembly",
-          "value": 83
-        },
-        {
-          "name": "international",
-          "value": 79
-        },
-        {
-          "name": "member",
-          "value": 59
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation",
-        "Humanitarian Pressure"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "detail_path": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
-    },
-    {
-      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-06-19T19:29:47.747828+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
-      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
-    },
-    {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-19T19:29:47.728256+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -322,7 +87,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-19T19:29:42.771278+00:00",
+      "collected_at": "2026-06-19T21:04:08.762113+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -394,6 +159,160 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-19T21:04:04.285584+00:00",
+      "published": "",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 512
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "conflict",
+          "value": 267
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 209
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
+      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-06-19T21:03:59.256495+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
+      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
+    },
+    {
       "id": "ccc3ff520c15947ba62c2e4b2dbe9bb536ab2664c73765df8dae9e9eff70bd91",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -403,7 +322,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-19T19:29:40.641448+00:00",
+      "collected_at": "2026-06-19T21:03:59.007807+00:00",
       "published": "",
       "text_chars": 9085826,
       "raw_path": "data/geopolitics/raw/ccc3ff520c15947ba62c2e4b2dbe9bb536ab2664c73765df8dae9e9eff70bd91.xml",
@@ -483,7 +402,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-19T19:29:09.852263+00:00",
+      "collected_at": "2026-06-19T21:03:28.206033+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.xml",
@@ -563,7 +482,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-19T19:29:08.751222+00:00",
+      "collected_at": "2026-06-19T21:03:26.869647+00:00",
       "published": "",
       "text_chars": 824644,
       "raw_path": "data/geopolitics/raw/88da9d7afbef4e8448a2fd29fd528bf2e553a4b37eefe58cb8f613a77095d471.xml",
@@ -643,7 +562,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-19T19:29:06.305865+00:00",
+      "collected_at": "2026-06-19T21:03:24.237749+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -709,6 +628,87 @@
       ],
       "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "topic": "geopolitics",
+      "title": "United Nations Charter",
+      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
+      "host": "treaties.un.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-19T19:29:51.774046+00:00",
+      "published": "",
+      "text_chars": 89992,
+      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
+      "summary": "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
+      "bullets": [
+        "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
+        "Article 5 / A Member of the United Nations against which preventive or enforcement action has been taken by the Security Council may be suspended from the exercise of the rights and privileges of mem- bership by the General Assembly upon the recom- mendation of the Security Council.",
+        "Article 6 A Member of the United Nations which has persistently violated the Principles contained in the present Charter may be expelled from the Organization by the General Assembly upon the recommendation of the Security Council.",
+        "Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
+        "CHAPTER I PURPOSES AND PRINCIPLES Article 1 The^Purposes of the United Nations are: 1."
+      ],
+      "excerpt": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 160
+        },
+        {
+          "name": "court",
+          "value": 155
+        },
+        {
+          "name": "security",
+          "value": 148
+        },
+        {
+          "name": "united",
+          "value": 127
+        },
+        {
+          "name": "nations",
+          "value": 121
+        },
+        {
+          "name": "members",
+          "value": 116
+        },
+        {
+          "name": "general",
+          "value": 94
+        },
+        {
+          "name": "assembly",
+          "value": 83
+        },
+        {
+          "name": "international",
+          "value": 79
+        },
+        {
+          "name": "member",
+          "value": 59
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "detail_path": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     }
   ]
 }
