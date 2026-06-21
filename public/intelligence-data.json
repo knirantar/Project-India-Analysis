@@ -1,61 +1,99 @@
 {
-  "generated_at": "2026-06-21T12:08:03.216678+00:00",
+  "generated_at": "2026-06-21T15:09:19.703057+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating tensions in the Middle East threaten fragile US-Iran negotiations.",
+    "headline": "Escalating tensions in the Middle East threaten ongoing US-Iran negotiations amid violence in Lebanon.",
     "executive_summary": [
-      "Recent developments in the Middle East have seen a significant escalation in violence, particularly between Israel and Hezbollah in Lebanon, which has resulted in numerous casualties. Israeli airstrikes have reportedly killed at least 16 individuals, including children, despite ongoing ceasefire negotiations aimed at stabilizing the region and facilitating US-Iran talks (evidence id: 22).",
-      "Iran has responded to these Israeli actions by closing the Strait of Hormuz, a critical chokepoint for global oil supplies, citing violations of a ceasefire agreement by Israel and the US. This closure poses a significant risk to international energy markets and complicates the already delicate negotiations between the US and Iran (evidence id: 19).",
-      "The US and Iranian delegations are set to meet in Switzerland to discuss the implementation of a recent memorandum of understanding, which includes provisions for a ceasefire in Lebanon. However, the ongoing violence threatens to derail these talks, as both sides accuse each other of failing to uphold their commitments (evidence id: 11).",
-      "The situation remains fluid, with mediators from Pakistan and Qatar involved in the negotiations. The outcome of these discussions could have far-reaching implications for regional stability and the future of US-Iran relations, particularly concerning Iran's nuclear program (evidence id: 10)."
+      "Recent developments in the Middle East have seen a significant escalation in violence, particularly in Lebanon, where Israeli airstrikes have resulted in numerous casualties, including at least 16 deaths reported on June 20, 2026. This violence comes despite a purported ceasefire agreement aimed at stabilizing the region and facilitating US-Iran negotiations regarding Iran's nuclear program and broader peace efforts.",
+      "The Iranian military has announced the closure of the Strait of Hormuz, citing ongoing Israeli attacks as a violation of the ceasefire agreement. This closure poses a significant risk to global oil supply routes, as the strait is a critical chokepoint for oil and gas transit. The Iranian government has warned that further actions will be taken if aggression continues, indicating a potential escalation in hostilities.",
+      "In Colombia, the upcoming presidential runoff election is expected to significantly impact the country's long-standing armed conflict. The frontrunner, Abelardo de la Espriella, advocates for a return to military confrontation with armed groups, while his opponent, Iván Cepeda, supports a continuation of peace negotiations. This election reflects broader trends in Latin America, where a shift towards far-right politics is observed.",
+      "The humanitarian situation in Somalia remains dire, with reports indicating a rise in gender-based violence amid ongoing conflict and climate-induced displacement. The first quarter of 2026 has seen increased risks for women and girls, particularly in internally displaced persons (IDP) camps, highlighting the urgent need for humanitarian assistance and protection measures."
     ],
     "key_judgments": [
       {
         "title": "Escalation of Violence in Lebanon",
-        "finding": "Israeli airstrikes have resulted in significant civilian casualties, undermining ceasefire efforts.",
+        "finding": "Israeli airstrikes have resulted in significant casualties in Lebanon, undermining ceasefire efforts and threatening US-Iran negotiations.",
         "citations": [
-          "evidence id: 22"
+          "23",
+          "27"
         ]
       },
       {
         "title": "Closure of the Strait of Hormuz",
-        "finding": "Iran's closure of the Strait of Hormuz in response to Israeli strikes poses a threat to global oil supplies.",
+        "finding": "Iran's closure of the Strait of Hormuz in response to Israeli actions poses a risk to global oil supply and escalates regional tensions.",
         "citations": [
-          "evidence id: 19"
+          "20",
+          "21"
         ]
       },
       {
-        "title": "Fragile US-Iran Negotiations",
-        "finding": "Ongoing violence complicates US-Iran negotiations aimed at establishing a ceasefire and addressing nuclear concerns.",
+        "title": "Colombian Presidential Election Impact",
+        "finding": "The Colombian presidential runoff is likely to shift the approach to the country's armed conflict, with potential implications for violence and governance.",
         "citations": [
-          "evidence id: 11"
+          "17",
+          "22"
+        ]
+      },
+      {
+        "title": "Gender-Based Violence in Somalia",
+        "finding": "The humanitarian situation for women and girls in Somalia is deteriorating, with increased risks of gender-based violence amid conflict and displacement.",
+        "citations": [
+          "24",
+          "25"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The Middle East is experiencing heightened tensions due to ongoing conflicts, particularly between Israel and Hezbollah, which threaten regional stability and international negotiations.",
+        "assessment": "The Middle East is experiencing heightened tensions due to ongoing violence in Lebanon and the implications of US-Iran negotiations, which are at risk of collapse due to recent escalations.",
         "citations": [
-          "evidence id: 10"
+          "12",
+          "14"
+        ]
+      },
+      {
+        "region": "Americas",
+        "assessment": "Colombia's political landscape is shifting towards a more militarized approach to conflict resolution, reflecting broader regional trends towards right-wing governance.",
+        "citations": [
+          "17",
+          "22"
+        ]
+      },
+      {
+        "region": "Africa",
+        "assessment": "Somalia faces a critical humanitarian crisis, particularly for women and girls, exacerbated by conflict and inadequate protection services.",
+        "citations": [
+          "24",
+          "25"
         ]
       }
     ],
     "watchlist": [
       {
         "label": "US-Iran Negotiations",
-        "why_it_matters": "The outcome of these negotiations could significantly impact regional security and the global economy, particularly regarding energy supplies.",
+        "why_it_matters": "The outcome of US-Iran negotiations could significantly impact regional stability and global energy markets, particularly in light of Iran's actions in the Strait of Hormuz.",
         "citations": [
-          "evidence id: 11"
+          "12",
+          "20"
         ]
       },
       {
-        "label": "Israeli Military Actions",
-        "why_it_matters": "Continued Israeli military actions in Lebanon could escalate conflicts and undermine peace efforts in the region.",
+        "label": "Colombian Armed Conflict",
+        "why_it_matters": "The presidential election results could lead to a resurgence of violence in Colombia, affecting peace efforts and security in the region.",
         "citations": [
-          "evidence id: 22"
+          "17",
+          "22"
+        ]
+      },
+      {
+        "label": "Gender-Based Violence in Somalia",
+        "why_it_matters": "The rising incidence of gender-based violence in Somalia highlights the urgent need for humanitarian intervention and protection for vulnerable populations.",
+        "citations": [
+          "24",
+          "25"
         ]
       }
     ],
@@ -64,8 +102,8 @@
     ]
   },
   "summary": {
-    "raw_documents": 1239,
-    "total_text_chars": 173812866,
+    "raw_documents": 1240,
+    "total_text_chars": 173819911,
     "sources": 33,
     "signals": 8,
     "regions": 6,
@@ -76,7 +114,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 907
+      "value": 908
     },
     {
       "name": "PDF",
@@ -110,7 +148,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 865
+      "value": 866
     },
     {
       "name": "pdfs",
@@ -192,7 +230,7 @@
     },
     {
       "name": "npr.org",
-      "value": 41
+      "value": 42
     },
     {
       "name": "france24.com",
@@ -456,11 +494,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 839,
+      "count": 840,
       "formats": [
         {
           "name": "Article",
-          "value": 699
+          "value": 700
         },
         {
           "name": "PDF",
@@ -480,6 +518,7 @@
         }
       ],
       "evidence_ids": [
+        "e4f06067cfc69b24a3618ad1bd7a5e79eb3fca2d1e95ed88a85be2c3accd97ff",
         "c3250d6a88bfe9448e824d91b737b93f9de2106e70ba1c3cfdb39d9c735fdb40",
         "4eceab259b7cd1bdf9c01b07f70f101df2ce7729b5a346893cae950bcf64e15c",
         "264a99b6a632e9d0e24ad4dacb918a474f89c6212a6e77b7fcacfa8b53422a36",
@@ -488,11 +527,20 @@
         "545f006490bc10d6ca89ff39b7c18498d2f14a00469d29813e07fdfa409cff20",
         "78e7c40df93fd2c93f2a4322b4e18f165ea153a86f4a7473a85c3c12e52e6de1",
         "7ba2afbbc4a99b028dd4e5f68fabdd02de877e056cd0478c0f644af011222926",
-        "aebe45e2c55622a1eadb1873db06b0334fd5bd03ec711d080973fb779dfa30a8",
-        "d93e85c14dc4fc449e24bc3e899ae91e9beae1456fbdce01a1f4071aafe31287"
+        "aebe45e2c55622a1eadb1873db06b0334fd5bd03ec711d080973fb779dfa30a8"
       ],
-      "summary": "Palestinian journalists have paid tribute to their Al Jazeera colleague Ahmed Wishah, who was killed in an Israeli air attack on central Gaza’s Bureij refugee camp. Recommended Stories list of 3 items end of list At least 260 Palestinian journalists have been killed since Israel launched its genocidal war in October 2023, according to the Committee to Protect Journalists. Wishah gained prominence during the Gaza war by accompanying and filming footage for his late brother, an Al Jazeera Mubasher correspondent killed on April 8. Read our latest report here: Iran has said it is closing the strait of Hormuz after waves of Israeli strikes in Lebanon in a move that threatens to derail the fragile interim peace deal with the US, signed just days ago. Tehran said on Thursday it had signed a deal with Washington to end months of hostilities that began on 28 February following US-Israeli attacks on Iran. This follows news that Iran has said it has closed the strait of Hormuz over continued strikes from Israel in Lebanon. “Here, they [Iran] are talking particularly about … the cessation of hostilities in Lebanon, the lifting of the US maritime blockade, the reopening of the Strait of Hormuz, the release of Iranian frozen assets and, of course, the lifting of US sanctions when it comes to Iran’s oil sector and petrochemical products and related sectors,” he said. The US and Iran earlier this week agreed to a 60-day ceasefire extension for the negotiations, but Iran’s Islamic Revolutionary Guard Corps (IRGC) on Saturday announced the closure of the ⁠Strait of Hormuz in response to Israeli attacks in Lebanon – although the US military said commercial vessels kept operating. Trump said no toll would be charged for passage through the strait during or after the 60-day ceasefire – unless the US imposes one should peace talks fail.",
+      "summary": "Polls predict that Abelardo De La Espriella, a far-right criminal defense attorney and political newcomer will defeat Iván Cepeda, a left-wing senator from the ruling party and a protégé of outgoing President Gustavo Petro, in a contest reflecting a broader rightward shift in parts of Latin America. \"Even in the worst of times, Colombia has chosen life, democracy, hope and peace as the path forward,\" Cepeda said at a recent campaign rally. Palestinian journalists have paid tribute to their Al Jazeera colleague Ahmed Wishah, who was killed in an Israeli air attack on central Gaza’s Bureij refugee camp. Recommended Stories list of 3 items end of list At least 260 Palestinian journalists have been killed since Israel launched its genocidal war in October 2023, according to the Committee to Protect Journalists. Wishah gained prominence during the Gaza war by accompanying and filming footage for his late brother, an Al Jazeera Mubasher correspondent killed on April 8. Read our latest report here: Iran has said it is closing the strait of Hormuz after waves of Israeli strikes in Lebanon in a move that threatens to derail the fragile interim peace deal with the US, signed just days ago. Tehran said on Thursday it had signed a deal with Washington to end months of hostilities that began on 28 February following US-Israeli attacks on Iran. This follows news that Iran has said it has closed the strait of Hormuz over continued strikes from Israel in Lebanon. “Here, they [Iran] are talking particularly about … the cessation of hostilities in Lebanon, the lifting of the US maritime blockade, the reopening of the Strait of Hormuz, the release of Iranian frozen assets and, of course, the lifting of US sanctions when it comes to Iran’s oil sector and petrochemical products and related sectors,” he said.",
       "latest": [
+        {
+          "id": "e4f06067cfc69b24a3618ad1bd7a5e79eb3fca2d1e95ed88a85be2c3accd97ff",
+          "title": "Colombia runoff vote shaped by security fears and conflict warnings",
+          "url": "https://www.npr.org/2026/06/21/nx-s1-5862783/colombia-election-conflict",
+          "host": "npr.org",
+          "format": "Article",
+          "collected_at": "2026-06-21T15:09:26.506724+00:00",
+          "published": "Sun, 21 Jun 2026 08:06:08 -0400",
+          "summary": "Polls predict that Abelardo De La Espriella, a far-right criminal defense attorney and political newcomer will defeat Iván Cepeda, a left-wing senator from the ruling party and a protégé of outgoing President Gustavo Petro, in a contest reflecting a broader rightward shift in parts of Latin America. \"Even in the worst of times, Colombia has chosen life, democracy, hope and peace as the path forward,\" Cepeda said at a recent campaign rally."
+        },
         {
           "id": "c3250d6a88bfe9448e824d91b737b93f9de2106e70ba1c3cfdb39d9c735fdb40",
           "title": "‘Kind, principled’: Colleagues remember Gaza journalist killed by Israel",
@@ -532,26 +580,16 @@
           "collected_at": "2026-06-21T09:39:02.990823+00:00",
           "published": "Sun, 21 Jun 2026 07:39:51 +0000",
           "summary": "The US and Iran earlier this week agreed to a 60-day ceasefire extension for the negotiations, but Iran’s Islamic Revolutionary Guard Corps (IRGC) on Saturday announced the closure of the ⁠Strait of Hormuz in response to Israeli attacks in Lebanon – although the US military said commercial vessels kept operating. Trump said no toll would be charged for passage through the strait during or after the 60-day ceasefire – unless the US imposes one should peace talks fail."
-        },
-        {
-          "id": "a2ebb9d915210c63201939744f8ad0f21cf246be4d2fef40cc79d73dc08808b7",
-          "title": "US and Iranian delegations arrive in Switzerland for peace deal talks",
-          "url": "http://www.euronews.com/2026/06/21/us-and-iranian-delegations-arrive-in-switzerland-for-peace-deal-talks",
-          "host": "euronews.com",
-          "format": "Article",
-          "collected_at": "2026-06-21T09:39:04.288566+00:00",
-          "published": "Sun, 21 Jun 2026 09:19:09 +0200",
-          "summary": "Published on 21/06/2026 - 9:19 GMT+2 US and Iranian delegations have arrived in Switzerland ahead of planned talks over implementing Washington and Tehran's provisional peace agreement, the Swiss foreign ministry said on Sunday. \"We're going to hopefully make progress on the nuclear issue, make progress on the Lebanon ceasefire issue — those are the two big things that I think we're going to be focused on,\" he said. Iran's military said on Saturday that it had closed the Strait of Hormuz due to Israeli strikes on southern Lebanon."
         }
       ]
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 741,
+      "count": 742,
       "formats": [
         {
           "name": "Article",
-          "value": 625
+          "value": 626
         },
         {
           "name": "PDF",
@@ -571,6 +609,7 @@
         }
       ],
       "evidence_ids": [
+        "e4f06067cfc69b24a3618ad1bd7a5e79eb3fca2d1e95ed88a85be2c3accd97ff",
         "c3250d6a88bfe9448e824d91b737b93f9de2106e70ba1c3cfdb39d9c735fdb40",
         "4eceab259b7cd1bdf9c01b07f70f101df2ce7729b5a346893cae950bcf64e15c",
         "264a99b6a632e9d0e24ad4dacb918a474f89c6212a6e77b7fcacfa8b53422a36",
@@ -579,11 +618,20 @@
         "545f006490bc10d6ca89ff39b7c18498d2f14a00469d29813e07fdfa409cff20",
         "78e7c40df93fd2c93f2a4322b4e18f165ea153a86f4a7473a85c3c12e52e6de1",
         "aebe45e2c55622a1eadb1873db06b0334fd5bd03ec711d080973fb779dfa30a8",
-        "d93e85c14dc4fc449e24bc3e899ae91e9beae1456fbdce01a1f4071aafe31287",
-        "f3e121dafe6b0bc02a5b8a23c89981beb709fe99419ba91d70cb9bbb43dd35f4"
+        "d93e85c14dc4fc449e24bc3e899ae91e9beae1456fbdce01a1f4071aafe31287"
       ],
-      "summary": "Palestinian journalists have paid tribute to their Al Jazeera colleague Ahmed Wishah, who was killed in an Israeli air attack on central Gaza’s Bureij refugee camp. Recommended Stories list of 3 items end of list At least 260 Palestinian journalists have been killed since Israel launched its genocidal war in October 2023, according to the Committee to Protect Journalists. Wishah gained prominence during the Gaza war by accompanying and filming footage for his late brother, an Al Jazeera Mubasher correspondent killed on April 8. Read our latest report here: Iran has said it is closing the strait of Hormuz after waves of Israeli strikes in Lebanon in a move that threatens to derail the fragile interim peace deal with the US, signed just days ago. Tehran said on Thursday it had signed a deal with Washington to end months of hostilities that began on 28 February following US-Israeli attacks on Iran. This follows news that Iran has said it has closed the strait of Hormuz over continued strikes from Israel in Lebanon. “Here, they [Iran] are talking particularly about … the cessation of hostilities in Lebanon, the lifting of the US maritime blockade, the reopening of the Strait of Hormuz, the release of Iranian frozen assets and, of course, the lifting of US sanctions when it comes to Iran’s oil sector and petrochemical products and related sectors,” he said. The US and Iran earlier this week agreed to a 60-day ceasefire extension for the negotiations, but Iran’s Islamic Revolutionary Guard Corps (IRGC) on Saturday announced the closure of the ⁠Strait of Hormuz in response to Israeli attacks in Lebanon – although the US military said commercial vessels kept operating. Trump said no toll would be charged for passage through the strait during or after the 60-day ceasefire – unless the US imposes one should peace talks fail.",
+      "summary": "Polls predict that Abelardo De La Espriella, a far-right criminal defense attorney and political newcomer will defeat Iván Cepeda, a left-wing senator from the ruling party and a protégé of outgoing President Gustavo Petro, in a contest reflecting a broader rightward shift in parts of Latin America. \"Even in the worst of times, Colombia has chosen life, democracy, hope and peace as the path forward,\" Cepeda said at a recent campaign rally. Palestinian journalists have paid tribute to their Al Jazeera colleague Ahmed Wishah, who was killed in an Israeli air attack on central Gaza’s Bureij refugee camp. Recommended Stories list of 3 items end of list At least 260 Palestinian journalists have been killed since Israel launched its genocidal war in October 2023, according to the Committee to Protect Journalists. Wishah gained prominence during the Gaza war by accompanying and filming footage for his late brother, an Al Jazeera Mubasher correspondent killed on April 8. Read our latest report here: Iran has said it is closing the strait of Hormuz after waves of Israeli strikes in Lebanon in a move that threatens to derail the fragile interim peace deal with the US, signed just days ago. Tehran said on Thursday it had signed a deal with Washington to end months of hostilities that began on 28 February following US-Israeli attacks on Iran. This follows news that Iran has said it has closed the strait of Hormuz over continued strikes from Israel in Lebanon. “Here, they [Iran] are talking particularly about … the cessation of hostilities in Lebanon, the lifting of the US maritime blockade, the reopening of the Strait of Hormuz, the release of Iranian frozen assets and, of course, the lifting of US sanctions when it comes to Iran’s oil sector and petrochemical products and related sectors,” he said.",
       "latest": [
+        {
+          "id": "e4f06067cfc69b24a3618ad1bd7a5e79eb3fca2d1e95ed88a85be2c3accd97ff",
+          "title": "Colombia runoff vote shaped by security fears and conflict warnings",
+          "url": "https://www.npr.org/2026/06/21/nx-s1-5862783/colombia-election-conflict",
+          "host": "npr.org",
+          "format": "Article",
+          "collected_at": "2026-06-21T15:09:26.506724+00:00",
+          "published": "Sun, 21 Jun 2026 08:06:08 -0400",
+          "summary": "Polls predict that Abelardo De La Espriella, a far-right criminal defense attorney and political newcomer will defeat Iván Cepeda, a left-wing senator from the ruling party and a protégé of outgoing President Gustavo Petro, in a contest reflecting a broader rightward shift in parts of Latin America. \"Even in the worst of times, Colombia has chosen life, democracy, hope and peace as the path forward,\" Cepeda said at a recent campaign rally."
+        },
         {
           "id": "c3250d6a88bfe9448e824d91b737b93f9de2106e70ba1c3cfdb39d9c735fdb40",
           "title": "‘Kind, principled’: Colleagues remember Gaza journalist killed by Israel",
@@ -623,26 +671,16 @@
           "collected_at": "2026-06-21T09:39:02.990823+00:00",
           "published": "Sun, 21 Jun 2026 07:39:51 +0000",
           "summary": "The US and Iran earlier this week agreed to a 60-day ceasefire extension for the negotiations, but Iran’s Islamic Revolutionary Guard Corps (IRGC) on Saturday announced the closure of the ⁠Strait of Hormuz in response to Israeli attacks in Lebanon – although the US military said commercial vessels kept operating. Trump said no toll would be charged for passage through the strait during or after the 60-day ceasefire – unless the US imposes one should peace talks fail."
-        },
-        {
-          "id": "a2ebb9d915210c63201939744f8ad0f21cf246be4d2fef40cc79d73dc08808b7",
-          "title": "US and Iranian delegations arrive in Switzerland for peace deal talks",
-          "url": "http://www.euronews.com/2026/06/21/us-and-iranian-delegations-arrive-in-switzerland-for-peace-deal-talks",
-          "host": "euronews.com",
-          "format": "Article",
-          "collected_at": "2026-06-21T09:39:04.288566+00:00",
-          "published": "Sun, 21 Jun 2026 09:19:09 +0200",
-          "summary": "Published on 21/06/2026 - 9:19 GMT+2 US and Iranian delegations have arrived in Switzerland ahead of planned talks over implementing Washington and Tehran's provisional peace agreement, the Swiss foreign ministry said on Sunday. \"We're going to hopefully make progress on the nuclear issue, make progress on the Lebanon ceasefire issue — those are the two big things that I think we're going to be focused on,\" he said. Iran's military said on Saturday that it had closed the Strait of Hormuz due to Israeli strikes on southern Lebanon."
         }
       ]
     },
     {
       "name": "Humanitarian Pressure",
-      "count": 534,
+      "count": 535,
       "formats": [
         {
           "name": "Article",
-          "value": 366
+          "value": 367
         },
         {
           "name": "PDF",
@@ -662,6 +700,7 @@
         }
       ],
       "evidence_ids": [
+        "e4f06067cfc69b24a3618ad1bd7a5e79eb3fca2d1e95ed88a85be2c3accd97ff",
         "c3250d6a88bfe9448e824d91b737b93f9de2106e70ba1c3cfdb39d9c735fdb40",
         "d93e85c14dc4fc449e24bc3e899ae91e9beae1456fbdce01a1f4071aafe31287",
         "f3e121dafe6b0bc02a5b8a23c89981beb709fe99419ba91d70cb9bbb43dd35f4",
@@ -670,11 +709,20 @@
         "dfd6c9693c431c65042a789a8153f7806441b2f73d37400088398f48bd5aba82",
         "16834bf0207b978963f7d8bf489f76a51c1691244c1a0484f885a982517861c9",
         "5bd67d302047cdb1bf2aa46e0b40a78adc0394a44b28767e08680905179f5732",
-        "d1a4462571ef7909ea9047b55db87ff6d55702bef357c6c0403e6b76f6ae913c",
-        "984dbbc47ba8c6d00a94ca2fd779129c99d219b85fb9a30d264b885f2cc261ac"
+        "d1a4462571ef7909ea9047b55db87ff6d55702bef357c6c0403e6b76f6ae913c"
       ],
-      "summary": "Palestinian journalists have paid tribute to their Al Jazeera colleague Ahmed Wishah, who was killed in an Israeli air attack on central Gaza’s Bureij refugee camp. Recommended Stories list of 3 items end of list At least 260 Palestinian journalists have been killed since Israel launched its genocidal war in October 2023, according to the Committee to Protect Journalists. Wishah gained prominence during the Gaza war by accompanying and filming footage for his late brother, an Al Jazeera Mubasher correspondent killed on April 8. Iran has closed the strait of Hormuz – citing alleged ⁠violations of a ceasefire agreement ​by the US ‌and Israel. 20/06/2026 - 16:19 Iran negotiators leave for Switzerland to discuss US interim deal An Iranian negotiating team left Iran for Switzerland on Saturday for discussions on the implementation of the agreement signed between it and the United States to halt the Mideast war, state media reported. Composite: Getty Images Cepeda’s father was assassinated by army officers linked to a paramilitary group, and the 63-year-old leftwing senator forged his public career as a human rights activist exposing those groups’ crimes. De la Espriella, 47, a far-right admirer of Donald Trump and self-styled outsider, launched his legal career defending paramilitary leaders. The interim US-Iran agreement signed this week has already reopened the strait of Hormuz, which before the war carried about a fifth of the world’s supplies of oil and liquid gas but was closed to most shipping by Tehran shortly after the beginning of the conflict. Israeli strikes on southern Lebanon have killed at least 16 people, local authorities said on Saturday, despite reports of a renewed ceasefire aiming to end persistent violence that threatens the new agreement between the US and Iran.",
+      "summary": "Polls predict that Abelardo De La Espriella, a far-right criminal defense attorney and political newcomer will defeat Iván Cepeda, a left-wing senator from the ruling party and a protégé of outgoing President Gustavo Petro, in a contest reflecting a broader rightward shift in parts of Latin America. \"Even in the worst of times, Colombia has chosen life, democracy, hope and peace as the path forward,\" Cepeda said at a recent campaign rally. Palestinian journalists have paid tribute to their Al Jazeera colleague Ahmed Wishah, who was killed in an Israeli air attack on central Gaza’s Bureij refugee camp. Recommended Stories list of 3 items end of list At least 260 Palestinian journalists have been killed since Israel launched its genocidal war in October 2023, according to the Committee to Protect Journalists. Wishah gained prominence during the Gaza war by accompanying and filming footage for his late brother, an Al Jazeera Mubasher correspondent killed on April 8. Iran has closed the strait of Hormuz – citing alleged ⁠violations of a ceasefire agreement ​by the US ‌and Israel. 20/06/2026 - 16:19 Iran negotiators leave for Switzerland to discuss US interim deal An Iranian negotiating team left Iran for Switzerland on Saturday for discussions on the implementation of the agreement signed between it and the United States to halt the Mideast war, state media reported. Composite: Getty Images Cepeda’s father was assassinated by army officers linked to a paramilitary group, and the 63-year-old leftwing senator forged his public career as a human rights activist exposing those groups’ crimes. De la Espriella, 47, a far-right admirer of Donald Trump and self-styled outsider, launched his legal career defending paramilitary leaders.",
       "latest": [
+        {
+          "id": "e4f06067cfc69b24a3618ad1bd7a5e79eb3fca2d1e95ed88a85be2c3accd97ff",
+          "title": "Colombia runoff vote shaped by security fears and conflict warnings",
+          "url": "https://www.npr.org/2026/06/21/nx-s1-5862783/colombia-election-conflict",
+          "host": "npr.org",
+          "format": "Article",
+          "collected_at": "2026-06-21T15:09:26.506724+00:00",
+          "published": "Sun, 21 Jun 2026 08:06:08 -0400",
+          "summary": "Polls predict that Abelardo De La Espriella, a far-right criminal defense attorney and political newcomer will defeat Iván Cepeda, a left-wing senator from the ruling party and a protégé of outgoing President Gustavo Petro, in a contest reflecting a broader rightward shift in parts of Latin America. \"Even in the worst of times, Colombia has chosen life, democracy, hope and peace as the path forward,\" Cepeda said at a recent campaign rally."
+        },
         {
           "id": "c3250d6a88bfe9448e824d91b737b93f9de2106e70ba1c3cfdb39d9c735fdb40",
           "title": "‘Kind, principled’: Colleagues remember Gaza journalist killed by Israel",
@@ -714,16 +762,6 @@
           "collected_at": "2026-06-20T13:30:44.240982+00:00",
           "published": "Sat, 20 Jun 2026 11:54:09 GMT",
           "summary": "The interim US-Iran agreement signed this week has already reopened the strait of Hormuz, which before the war carried about a fifth of the world’s supplies of oil and liquid gas but was closed to most shipping by Tehran shortly after the beginning of the conflict. Israeli strikes on southern Lebanon have killed at least 16 people, local authorities said on Saturday, despite reports of a renewed ceasefire aiming to end persistent violence that threatens the new agreement between the US and Iran."
-        },
-        {
-          "id": "77802ee89d3ac5d6069fb23c42b8a77a9ebc0956ba540565e617aa0045fd4973",
-          "title": "Escalating Risks and Shrinking Services: GBV Situation in Somalia, Q1 2026 (pdf)",
-          "url": "https://reliefweb.int/attachments/71b559be-a695-478b-9031-3d1b56317315/Gender%20Based%20Violence%20Situation%20-Q1%202026%20SOMALIA.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-06-20T17:19:19.273282+00:00",
-          "published": "Sat, 20 Jun 2026 11:39:37 +0000",
-          "summary": "Overview Gender Based Violence SITUATION Ist Quarter 2026 2 Gender Based Violence Situation -Ist Quarter 2026 Key Geographic Hotspots and Risk Factors – Quarter 1, 2026 Region Primary Risk Factors Most Affected Districts Lower Shabelle Military operations, clan-based violence, and climate displacement. The surge in Lower Shabelle is primarily driven by the active military operations and clan-based insecurity, armed groups; and climate induced displacement in Afgoye and Bariire corridors."
         }
       ]
     },
@@ -1254,8 +1292,9 @@
     },
     {
       "name": "Europe and Russia",
-      "count": 514,
+      "count": 515,
       "evidence_ids": [
+        "e4f06067cfc69b24a3618ad1bd7a5e79eb3fca2d1e95ed88a85be2c3accd97ff",
         "78e7c40df93fd2c93f2a4322b4e18f165ea153a86f4a7473a85c3c12e52e6de1",
         "7ba2afbbc4a99b028dd4e5f68fabdd02de877e056cd0478c0f644af011222926",
         "f3e121dafe6b0bc02a5b8a23c89981beb709fe99419ba91d70cb9bbb43dd35f4",
@@ -1266,8 +1305,7 @@
         "03c67dc072aeac6e574fa142dd69391e5e96c732a196204870dac67ba19993fb",
         "21f06decf1bf72da756a2aa9cc704af7b4c86e87919040b1fbcf6a383788e282",
         "12dd74fae2663dc1423fd647ebbc3a185ab92edabddf7da7fbd61f98353c90db",
-        "34e7e9f5e388947434c4095ff389ffe6986e104b1b7b3dbe4b95b9e5c41e40c1",
-        "d55f1d0f6382d88ba192217b4051d2ed80ad78918cfc5b0e036a388b4197131b"
+        "34e7e9f5e388947434c4095ff389ffe6986e104b1b7b3dbe4b95b9e5c41e40c1"
       ],
       "top_sources": [
         {
@@ -1294,8 +1332,9 @@
     },
     {
       "name": "Global Institutions",
-      "count": 479,
+      "count": 480,
       "evidence_ids": [
+        "e4f06067cfc69b24a3618ad1bd7a5e79eb3fca2d1e95ed88a85be2c3accd97ff",
         "78e7c40df93fd2c93f2a4322b4e18f165ea153a86f4a7473a85c3c12e52e6de1",
         "7ba2afbbc4a99b028dd4e5f68fabdd02de877e056cd0478c0f644af011222926",
         "f3e121dafe6b0bc02a5b8a23c89981beb709fe99419ba91d70cb9bbb43dd35f4",
@@ -1306,8 +1345,7 @@
         "c6b396e258f7b70051d43d23cfc468a18355b96f6027c18f4b34a7f45a5d5f01",
         "d1a4462571ef7909ea9047b55db87ff6d55702bef357c6c0403e6b76f6ae913c",
         "ccdefb1f059b16ad6e39c997fa6b98f86eb0f0a20abc470ce075e0d2ba5a6bb4",
-        "5ffae07f98836c628176f8d1868c1174bfd647f1f857d0cee99ccc43d6683995",
-        "2fa0afbb9ba8e1864e1e7fd2c4b8807d2cd8b3992a7c9ae286c841f4f3468ba4"
+        "5ffae07f98836c628176f8d1868c1174bfd647f1f857d0cee99ccc43d6683995"
       ],
       "top_sources": [
         {
@@ -2032,17 +2070,17 @@
     },
     {
       "date": "2026-04-08",
-      "evidence_id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
-    },
-    {
-      "date": "2026-04-08",
       "evidence_id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "title": "MS.MIL.XPND.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
       "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\","
+    },
+    {
+      "date": "2026-04-08",
+      "evidence_id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
     },
     {
       "date": "2026",
@@ -2057,6 +2095,13 @@
       "title": "Consolidated Sanctions List",
       "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
       "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong"
+    },
+    {
+      "date": "2026",
+      "evidence_id": "e4f06067cfc69b24a3618ad1bd7a5e79eb3fca2d1e95ed88a85be2c3accd97ff",
+      "title": "Colombia runoff vote shaped by security fears and conflict warnings",
+      "url": "https://www.npr.org/2026/06/21/nx-s1-5862783/colombia-election-conflict",
+      "excerpt": "n Cepdepa, of the Pacto Historico Political Party, in the upcoming presidential election in Cali, Colombia, on June 17, 2026. Joaquin Sarmiento/AFP via Getty Images hide caption toggle caption Joaquin Sarmiento/AFP via Getty Images LA HORMIGA, Colombia – In the jungles of southern Colombia, rebels turned in so many automatic rifles, pistols and bandoliers of bullets that one of"
     },
     {
       "date": "2026",
@@ -2386,16 +2431,87 @@
       "title": "World: Mr. Tom Fletcher, Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator – Opening remarks 2026 ECOSOC Humanitarian Affairs Segment, 17 June 2026",
       "url": "https://reliefweb.int/report/world/mr-tom-fletcher-under-secretary-general-humanitarian-affairs-and-emergency-relief-coordinator-opening-remarks-2026-ecosoc-humanitarian-affairs-segment-17-june-2026",
       "excerpt": "New York, 17 June 2026 As delivered Well, thank you, Ambassador and Excellencies, colleagues, friends, and partners. For over a year, you have heard me saying that the humanitarian system is overstretched, underfunded and under attack. Today, the challenge that we face collecti"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "a5673f27e1f8b7694202d06a1bdcc7823f5821e817d7eb6e44556423136e1da9",
-      "title": "World: Mr. Tom Fletcher, Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator – Opening remarks 2026 ECOSOC Humanitarian Affairs Segment, 17 June 2026 (pdf)",
-      "url": "https://reliefweb.int/attachments/cbdbd1d6-de48-47a7-80f6-f93ccad0947c/20260617%20USG%20Opening%20Remarks%20ECOSOC%20HAS%20AS%20DELIVERED.pdf",
-      "excerpt": "irs MR. TOM FLETCHER, UNDER-SECRETARY-GENERAL FOR HUMANITARIAN AFFAIRS AND EMERGENCY RELIEF COORDINATOR Opening remarks 2026 ECOSOC Humanitarian Affairs Segment Wednesday, 17 June 2026, 10:00 – 10:30 am UN Secretariat, ECOSOC Chamber [AS DELIVERED] Well, thank you, Ambassador and Excellencies, colleagues, friends, and partners. For over a year, you have heard me saying that the"
     }
   ],
   "latest_evidence": [
+    {
+      "id": "e4f06067cfc69b24a3618ad1bd7a5e79eb3fca2d1e95ed88a85be2c3accd97ff",
+      "topic": "geopolitics",
+      "title": "Colombia runoff vote shaped by security fears and conflict warnings",
+      "url": "https://www.npr.org/2026/06/21/nx-s1-5862783/colombia-election-conflict",
+      "host": "npr.org",
+      "source": "https://www.npr.org/rss/rss.php?id=1004",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-21T15:09:26.506724+00:00",
+      "published": "Sun, 21 Jun 2026 08:06:08 -0400",
+      "text_chars": 7045,
+      "raw_path": "data/geopolitics/raw/e4f06067cfc69b24a3618ad1bd7a5e79eb3fca2d1e95ed88a85be2c3accd97ff.html",
+      "text_path": "data/geopolitics/raw/e4f06067cfc69b24a3618ad1bd7a5e79eb3fca2d1e95ed88a85be2c3accd97ff.txt",
+      "summary": "Polls predict that Abelardo De La Espriella, a far-right criminal defense attorney and political newcomer will defeat Iván Cepeda, a left-wing senator from the ruling party and a protégé of outgoing President Gustavo Petro, in a contest reflecting a broader rightward shift in parts of Latin America. \"Even in the worst of times, Colombia has chosen life, democracy, hope and peace as the path forward,\" Cepeda said at a recent campaign rally.",
+      "bullets": [
+        "Polls predict that Abelardo De La Espriella, a far-right criminal defense attorney and political newcomer will defeat Iván Cepeda, a left-wing senator from the ruling party and a protégé of outgoing President Gustavo Petro, in a contest reflecting a broader rightward shift in parts of Latin America.",
+        "\"Even in the worst of times, Colombia has chosen life, democracy, hope and peace as the path forward,\" Cepeda said at a recent campaign rally.",
+        "\"If some turn in their guns and others don't, it doesn't make much sense,\" said Antonio Paguey, a social worker from La Ruidoso, a village under the control of the Border Commandos, who attended the ceremony.",
+        "The 100 members of a group called the Border Commandos, who disarmed at the jungle ceremony on Thursday, were the first and only batch of rebels to do so under the Petro government.",
+        "The Border Commandos, who control villages and smuggle cocaine along parts of Colombia's frontier with Ecuador, number about 1,000 fighters, thus only 10% of the group actually turned in weapons."
+      ],
+      "excerpt": "Aerial view of billboards inviting Colombians to vote for presidential canditate Abelardo de la Espriella, of the Salvadores de la Patria movement (R), and for Ivan Cepdepa, of the Pacto Historico Political Party, in the upcoming presidential election in Cali, Colombia, on June 17, 2026. Joaquin Sarmiento/AFP via Getty Images hide caption toggle caption Joaquin Sarmiento/AFP via Getty Images LA HORMIGA, Colombia – In the jungles of southern Colombia, rebels turned in so many automatic rifles, pistols and bandoliers of bullets that one of the tables holding them collapsed in the mud. It was a small glitch in a ceremony designed to show that government's quest to disarm drug-trafficking guerrillas is finally paying off. But depending on the outcome of today's presidential runoff election, this may be Colombia's last farewell-to-arms ceremony for some time to come. Polls predict that Abelardo De La Espriella, a far-right criminal defense attorney and political newcomer will defeat Iván Cepeda, a left-wing senator from the ruling party and a protégé of outgoing President Gustavo Petro, in a contest reflecting a broader rightward shift in parts of Latin America. De La Espriella, who has",
+      "keywords": [
+        {
+          "name": "colombia",
+          "value": 12
+        },
+        {
+          "name": "border",
+          "value": 11
+        },
+        {
+          "name": "ceremony",
+          "value": 10
+        },
+        {
+          "name": "commandos",
+          "value": 10
+        },
+        {
+          "name": "government",
+          "value": 9
+        },
+        {
+          "name": "peace",
+          "value": 7
+        },
+        {
+          "name": "petro",
+          "value": 5
+        },
+        {
+          "name": "rebel",
+          "value": 5
+        },
+        {
+          "name": "weapons",
+          "value": 5
+        },
+        {
+          "name": "cepeda",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Diplomacy and Negotiations",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/e4f06067cfc69b24a3618ad1bd7a5e79eb3fca2d1e95ed88a85be2c3accd97ff",
+      "evidence_json": "/evidence/e4f06067cfc69b24a3618ad1bd7a5e79eb3fca2d1e95ed88a85be2c3accd97ff.json"
+    },
     {
       "id": "c3250d6a88bfe9448e824d91b737b93f9de2106e70ba1c3cfdb39d9c735fdb40",
       "topic": "geopolitics",
@@ -8596,85 +8712,6 @@
       ],
       "detail_path": "/evidence/6d6087062c483f3067841b32ac40486b5a283555983cbb45c16266895d6c5681",
       "evidence_json": "/evidence/6d6087062c483f3067841b32ac40486b5a283555983cbb45c16266895d6c5681.json"
-    },
-    {
-      "id": "13dcce846ce15a517201ff34734fb8ffe055f6caa8ac8b2849355bd752c708ef",
-      "topic": "geopolitics",
-      "title": "UN upholds freedom of movement for peacekeepers in Lebanon",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167758",
-      "host": "news.un.org",
-      "source": "https://news.un.org/feed/subscribe/en/news/topic/peace-and-security/feed/rss.xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-06-18T23:46:09.652546+00:00",
-      "published": "Thu, 18 Jun 2026 12:00:00 +0000",
-      "text_chars": 3084,
-      "raw_path": "data/geopolitics/raw/13dcce846ce15a517201ff34734fb8ffe055f6caa8ac8b2849355bd752c708ef.html",
-      "text_path": "data/geopolitics/raw/13dcce846ce15a517201ff34734fb8ffe055f6caa8ac8b2849355bd752c708ef.txt",
-      "summary": "Underlining UN commitment Meanwhile, the UN Deputy Special Coordinator and top humanitarian official in Lebanon, Imran Riza, together with UNIFIL head Major General Diodato Abagnara, held talks with President Joseph Aoun and Speaker of Parliament Nabih Berri in Beirut on Wednesday. “General Abagnara stressed that UNIFIL remains committed to supporting, in close coordination with the Lebanese Armed Forces, the full implementation of resolution 1701 , which continues to be the framework for restoring stability and security in south Lebanon,” the...",
-      "bullets": [
-        "Underlining UN commitment Meanwhile, the UN Deputy Special Coordinator and top humanitarian official in Lebanon, Imran Riza, together with UNIFIL head Major General Diodato Abagnara, held talks with President Joseph Aoun and Speaker of Parliament Nabih Berri in Beirut on Wednesday.",
-        "“General Abagnara stressed that UNIFIL remains committed to supporting, in close coordination with the Lebanese Armed Forces, the full implementation of resolution 1701 , which continues to be the framework for restoring stability and security in south Lebanon,” the Spokesperson said.",
-        "“It will also help address the growing food insecurity that we are seeing among some of the displaced population in Lebanon.” Difficult return home Nearly 50,000 people have returned to their homes in Nabatieh and South Governorates since the announcement of the regional ceasefire, according to the UN humanitarian agency OCHA.",
-        "UN Spokesperson Stéphane Dujarric updated journalists on the activities of the UN Interim Force in Lebanon ( UNIFIL ) and ongoing humanitarian support to people displaced by hostilities between Israeli troops and Hezbollah militants.",
-        "“We reiterate once again that UNIFIL peacekeepers must have unrestricted freedom of movement throughout their area of operations, as they are doing their work on behalf of the Security Council,” he said."
-      ],
-      "excerpt": "UN Spokesperson Stéphane Dujarric updated journalists on the activities of the UN Interim Force in Lebanon ( UNIFIL ) and ongoing humanitarian support to people displaced by hostilities between Israeli troops and Hezbollah militants. He said UNIFIL peacekeepers reported observing 143 trajectories of projectiles on Thursday, with 119 attributed to Israel and the remainder to Hezbollah, and no violations of Lebanese airspace. On Wednesday, they observed 364 projectile launches, with 330 attributed to Israel and 34 to Hezbollah, as well as 38 airspace violations. UNIFIL convoy obstructed Peacekeepers also continue to observe extensive Israeli ground activities throughout the mission’s area of operations, he said, noting that a UNIFIL convoy was obstructed by two Israeli tanks in Tiri on Wednesday. One of the tanks aimed its weapon at a UNIFIL vehicle, while soldiers signalled the convoy to halt, forcing the patrol to stop and reverse. The convoy was later allowed to take an alternate route to its intended destination. “We reiterate once again that UNIFIL peacekeepers must have unrestricted freedom of movement throughout their area of operations, as they are doing their work on behalf ",
-      "keywords": [
-        {
-          "name": "unifil",
-          "value": 9
-        },
-        {
-          "name": "humanitarian",
-          "value": 7
-        },
-        {
-          "name": "lebanon",
-          "value": 5
-        },
-        {
-          "name": "convoy",
-          "value": 4
-        },
-        {
-          "name": "peacekeepers",
-          "value": 4
-        },
-        {
-          "name": "wednesday",
-          "value": 4
-        },
-        {
-          "name": "area",
-          "value": 3
-        },
-        {
-          "name": "displaced",
-          "value": 3
-        },
-        {
-          "name": "dujarric",
-          "value": 3
-        },
-        {
-          "name": "help",
-          "value": 3
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Global Institutions",
-        "Middle East",
-        "Europe and Russia"
-      ],
-      "detail_path": "/evidence/13dcce846ce15a517201ff34734fb8ffe055f6caa8ac8b2849355bd752c708ef",
-      "evidence_json": "/evidence/13dcce846ce15a517201ff34734fb8ffe055f6caa8ac8b2849355bd752c708ef.json"
     }
   ],
   "deep_reads": [
@@ -8688,7 +8725,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-21T12:08:00.462947+00:00",
+      "collected_at": "2026-06-21T15:09:10.172901+00:00",
       "published": "",
       "text_chars": 9085826,
       "raw_path": "data/geopolitics/raw/ccc3ff520c15947ba62c2e4b2dbe9bb536ab2664c73765df8dae9e9eff70bd91.xml",
@@ -9728,7 +9765,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-21T12:07:26.332796+00:00",
+      "collected_at": "2026-06-21T15:08:44.230199+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -9803,7 +9840,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-21T12:07:26.056074+00:00",
+      "collected_at": "2026-06-21T15:08:44.455383+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -10913,6 +10950,87 @@
   ],
   "documents": [
     {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-21T15:09:19.703057+00:00",
+      "published": "",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 512
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "conflict",
+          "value": 267
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 209
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -10922,7 +11040,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-21T12:08:03.216678+00:00",
+      "collected_at": "2026-06-21T15:09:15.659530+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -10994,74 +11112,77 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
       "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
       "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-21T12:08:02.488014+00:00",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-06-21T15:09:13.959712+00:00",
       "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
+      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
       "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
       ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
       "keywords": [
         {
-          "name": "admin",
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
           "value": 2
         },
         {
-          "name": "areas",
+          "name": "classified",
           "value": 2
         },
         {
-          "name": "disputed",
+          "name": "even",
           "value": 2
         },
         {
-          "name": "naciscdn",
+          "name": "some",
           "value": 2
         },
         {
-          "name": "application",
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
           "value": 1
         },
         {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
+          "name": "added",
           "value": 1
         }
       ],
       "signals": [
-        "Territory and Chokepoints"
+        "Sanctions and Finance"
       ],
       "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
     },
     {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
@@ -11073,7 +11194,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-21T12:08:02.470461+00:00",
+      "collected_at": "2026-06-21T15:09:13.914155+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11145,79 +11266,6 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-06-21T12:08:00.545097+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
-      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
-    },
-    {
       "id": "ccc3ff520c15947ba62c2e4b2dbe9bb536ab2664c73765df8dae9e9eff70bd91",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -11227,7 +11275,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-21T12:08:00.462947+00:00",
+      "collected_at": "2026-06-21T15:09:10.172901+00:00",
       "published": "",
       "text_chars": 9085826,
       "raw_path": "data/geopolitics/raw/ccc3ff520c15947ba62c2e4b2dbe9bb536ab2664c73765df8dae9e9eff70bd91.xml",
@@ -11307,7 +11355,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-21T12:07:29.956221+00:00",
+      "collected_at": "2026-06-21T15:08:46.231399+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.xml",
@@ -11376,6 +11424,228 @@
       ],
       "detail_path": "/evidence/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7",
       "evidence_json": "/evidence/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.json"
+    },
+    {
+      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "topic": "geopolitics",
+      "title": "MS.MIL.XPND.CD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-21T15:08:44.455383+00:00",
+      "published": "",
+      "text_chars": 6187025,
+      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
+      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
+      "keywords": [
+        {
+          "name": "expenditure",
+          "value": 17556
+        },
+        {
+          "name": "military",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        },
+        {
+          "name": "asia",
+          "value": 528
+        },
+        {
+          "name": "ibrd",
+          "value": 528
+        },
+        {
+          "name": "middle",
+          "value": 462
+        }
+      ],
+      "signals": [
+        "War and Escalation"
+      ],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-21T15:08:44.230199+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-21T15:08:43.885251+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
     },
     {
       "id": "6a5084d85ab91a7cace7ab1de3e36fe040ed976db9ee0d6b025db0a9e8f03847",
@@ -11456,239 +11726,6 @@
       ],
       "detail_path": "/evidence/6a5084d85ab91a7cace7ab1de3e36fe040ed976db9ee0d6b025db0a9e8f03847",
       "evidence_json": "/evidence/6a5084d85ab91a7cace7ab1de3e36fe040ed976db9ee0d6b025db0a9e8f03847.json"
-    },
-    {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-21T12:07:26.332796+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
-      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "topic": "geopolitics",
-      "title": "MS.MIL.XPND.CD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-21T12:07:26.056074+00:00",
-      "published": "",
-      "text_chars": 6187025,
-      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
-      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
-      "keywords": [
-        {
-          "name": "expenditure",
-          "value": 17556
-        },
-        {
-          "name": "military",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        },
-        {
-          "name": "asia",
-          "value": 528
-        },
-        {
-          "name": "ibrd",
-          "value": 528
-        },
-        {
-          "name": "middle",
-          "value": 462
-        }
-      ],
-      "signals": [
-        "War and Escalation"
-      ],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
-    },
-    {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-21T00:07:36.518882+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
       "id": "6e4cc603f938f4e51ee15c85e0a3f997325ddf5eaa768715513d82228e3fada9",
@@ -15464,6 +15501,87 @@
   "cited_evidence": [],
   "evidence": [
     {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-21T15:09:19.703057+00:00",
+      "published": "",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 512
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "conflict",
+          "value": 267
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 209
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -15473,7 +15591,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-21T12:08:03.216678+00:00",
+      "collected_at": "2026-06-21T15:09:15.659530+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15545,74 +15663,77 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
       "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
       "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-21T12:08:02.488014+00:00",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-06-21T15:09:13.959712+00:00",
       "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
+      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
       "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
       ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
       "keywords": [
         {
-          "name": "admin",
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
           "value": 2
         },
         {
-          "name": "areas",
+          "name": "classified",
           "value": 2
         },
         {
-          "name": "disputed",
+          "name": "even",
           "value": 2
         },
         {
-          "name": "naciscdn",
+          "name": "some",
           "value": 2
         },
         {
-          "name": "application",
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
           "value": 1
         },
         {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
+          "name": "added",
           "value": 1
         }
       ],
       "signals": [
-        "Territory and Chokepoints"
+        "Sanctions and Finance"
       ],
       "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
     },
     {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
@@ -15624,7 +15745,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-21T12:08:02.470461+00:00",
+      "collected_at": "2026-06-21T15:09:13.914155+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15696,79 +15817,6 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-06-21T12:08:00.545097+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
-      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
-    },
-    {
       "id": "ccc3ff520c15947ba62c2e4b2dbe9bb536ab2664c73765df8dae9e9eff70bd91",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -15778,7 +15826,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-21T12:08:00.462947+00:00",
+      "collected_at": "2026-06-21T15:09:10.172901+00:00",
       "published": "",
       "text_chars": 9085826,
       "raw_path": "data/geopolitics/raw/ccc3ff520c15947ba62c2e4b2dbe9bb536ab2664c73765df8dae9e9eff70bd91.xml",
@@ -15858,7 +15906,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-21T12:07:29.956221+00:00",
+      "collected_at": "2026-06-21T15:08:46.231399+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.xml",
@@ -15927,6 +15975,228 @@
       ],
       "detail_path": "/evidence/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7",
       "evidence_json": "/evidence/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.json"
+    },
+    {
+      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "topic": "geopolitics",
+      "title": "MS.MIL.XPND.CD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-21T15:08:44.455383+00:00",
+      "published": "",
+      "text_chars": 6187025,
+      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
+      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
+      "keywords": [
+        {
+          "name": "expenditure",
+          "value": 17556
+        },
+        {
+          "name": "military",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        },
+        {
+          "name": "asia",
+          "value": 528
+        },
+        {
+          "name": "ibrd",
+          "value": 528
+        },
+        {
+          "name": "middle",
+          "value": 462
+        }
+      ],
+      "signals": [
+        "War and Escalation"
+      ],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
+      "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-21T15:08:44.230199+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-21T15:08:43.885251+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
     },
     {
       "id": "6a5084d85ab91a7cace7ab1de3e36fe040ed976db9ee0d6b025db0a9e8f03847",
@@ -16009,156 +16279,82 @@
       "evidence_json": "/evidence/6a5084d85ab91a7cace7ab1de3e36fe040ed976db9ee0d6b025db0a9e8f03847.json"
     },
     {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "id": "e4f06067cfc69b24a3618ad1bd7a5e79eb3fca2d1e95ed88a85be2c3accd97ff",
       "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-21T12:07:26.332796+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "title": "Colombia runoff vote shaped by security fears and conflict warnings",
+      "url": "https://www.npr.org/2026/06/21/nx-s1-5862783/colombia-election-conflict",
+      "host": "npr.org",
+      "source": "https://www.npr.org/rss/rss.php?id=1004",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-21T15:09:26.506724+00:00",
+      "published": "Sun, 21 Jun 2026 08:06:08 -0400",
+      "text_chars": 7045,
+      "raw_path": "data/geopolitics/raw/e4f06067cfc69b24a3618ad1bd7a5e79eb3fca2d1e95ed88a85be2c3accd97ff.html",
+      "text_path": "data/geopolitics/raw/e4f06067cfc69b24a3618ad1bd7a5e79eb3fca2d1e95ed88a85be2c3accd97ff.txt",
+      "summary": "Polls predict that Abelardo De La Espriella, a far-right criminal defense attorney and political newcomer will defeat Iván Cepeda, a left-wing senator from the ruling party and a protégé of outgoing President Gustavo Petro, in a contest reflecting a broader rightward shift in parts of Latin America. \"Even in the worst of times, Colombia has chosen life, democracy, hope and peace as the path forward,\" Cepeda said at a recent campaign rally.",
       "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+        "Polls predict that Abelardo De La Espriella, a far-right criminal defense attorney and political newcomer will defeat Iván Cepeda, a left-wing senator from the ruling party and a protégé of outgoing President Gustavo Petro, in a contest reflecting a broader rightward shift in parts of Latin America.",
+        "\"Even in the worst of times, Colombia has chosen life, democracy, hope and peace as the path forward,\" Cepeda said at a recent campaign rally.",
+        "\"If some turn in their guns and others don't, it doesn't make much sense,\" said Antonio Paguey, a social worker from La Ruidoso, a village under the control of the Border Commandos, who attended the ceremony.",
+        "The 100 members of a group called the Border Commandos, who disarmed at the jungle ceremony on Thursday, were the first and only batch of rebels to do so under the Petro government.",
+        "The Border Commandos, who control villages and smuggle cocaine along parts of Colombia's frontier with Ecuador, number about 1,000 fighters, thus only 10% of the group actually turned in weapons."
       ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "excerpt": "Aerial view of billboards inviting Colombians to vote for presidential canditate Abelardo de la Espriella, of the Salvadores de la Patria movement (R), and for Ivan Cepdepa, of the Pacto Historico Political Party, in the upcoming presidential election in Cali, Colombia, on June 17, 2026. Joaquin Sarmiento/AFP via Getty Images hide caption toggle caption Joaquin Sarmiento/AFP via Getty Images LA HORMIGA, Colombia – In the jungles of southern Colombia, rebels turned in so many automatic rifles, pistols and bandoliers of bullets that one of the tables holding them collapsed in the mud. It was a small glitch in a ceremony designed to show that government's quest to disarm drug-trafficking guerrillas is finally paying off. But depending on the outcome of today's presidential runoff election, this may be Colombia's last farewell-to-arms ceremony for some time to come. Polls predict that Abelardo De La Espriella, a far-right criminal defense attorney and political newcomer will defeat Iván Cepeda, a left-wing senator from the ruling party and a protégé of outgoing President Gustavo Petro, in a contest reflecting a broader rightward shift in parts of Latin America. De La Espriella, who has",
       "keywords": [
         {
-          "name": "arms",
-          "value": 17556
+          "name": "colombia",
+          "value": 12
         },
         {
-          "name": "imports",
-          "value": 17556
+          "name": "border",
+          "value": 11
         },
         {
-          "name": "sipri",
-          "value": 17556
+          "name": "ceremony",
+          "value": 10
         },
         {
-          "name": "status",
-          "value": 17556
+          "name": "commandos",
+          "value": 10
         },
         {
-          "name": "trend",
-          "value": 17556
+          "name": "government",
+          "value": 9
         },
         {
-          "name": "unit",
-          "value": 17556
+          "name": "peace",
+          "value": 7
         },
         {
-          "name": "values",
-          "value": 17556
+          "name": "petro",
+          "value": 5
         },
         {
-          "name": "income",
-          "value": 726
+          "name": "rebel",
+          "value": 5
         },
         {
-          "name": "africa",
-          "value": 594
+          "name": "weapons",
+          "value": 5
         },
         {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
-      "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "topic": "geopolitics",
-      "title": "MS.MIL.XPND.CD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-21T12:07:26.056074+00:00",
-      "published": "",
-      "text_chars": 6187025,
-      "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
-      "text_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
-      "keywords": [
-        {
-          "name": "expenditure",
-          "value": 17556
-        },
-        {
-          "name": "military",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        },
-        {
-          "name": "asia",
-          "value": 528
-        },
-        {
-          "name": "ibrd",
-          "value": 528
-        },
-        {
-          "name": "middle",
-          "value": 462
+          "name": "cepeda",
+          "value": 4
         }
       ],
       "signals": [
-        "War and Escalation"
+        "War and Escalation",
+        "Diplomacy and Negotiations",
+        "Humanitarian Pressure"
       ],
       "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
+        "Europe and Russia",
+        "Global Institutions"
       ],
-      "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
-      "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+      "detail_path": "/evidence/e4f06067cfc69b24a3618ad1bd7a5e79eb3fca2d1e95ed88a85be2c3accd97ff",
+      "evidence_json": "/evidence/e4f06067cfc69b24a3618ad1bd7a5e79eb3fca2d1e95ed88a85be2c3accd97ff.json"
     },
     {
       "id": "c3250d6a88bfe9448e824d91b737b93f9de2106e70ba1c3cfdb39d9c735fdb40",
@@ -16713,87 +16909,6 @@
       ],
       "detail_path": "/evidence/78e7c40df93fd2c93f2a4322b4e18f165ea153a86f4a7473a85c3c12e52e6de1",
       "evidence_json": "/evidence/78e7c40df93fd2c93f2a4322b4e18f165ea153a86f4a7473a85c3c12e52e6de1.json"
-    },
-    {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-21T00:07:36.518882+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
       "id": "6e4cc603f938f4e51ee15c85e0a3f997325ddf5eaa768715513d82228e3fada9",
