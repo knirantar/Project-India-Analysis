@@ -1,84 +1,90 @@
 {
-  "generated_at": "2026-06-22T23:14:39.101590+00:00",
+  "generated_at": "2026-06-23T02:16:47.678175+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Geopolitical Tensions Escalate Amid Humanitarian Crises and Diplomatic Maneuvers.",
+    "headline": "Geopolitical Tensions Escalate Amid Ongoing Humanitarian Crises and Diplomatic Efforts.",
     "executive_summary": [
-      "Recent developments indicate a significant escalation in geopolitical tensions, particularly in the context of the ongoing conflict in Ukraine and the broader implications for regional stability. Ukrainian military operations have targeted critical infrastructure in Russia, including missile electronics plants, which raises concerns about the potential for further retaliatory actions and an intensification of hostilities (evidence id: 19).",
-      "Simultaneously, the humanitarian situation in various regions remains dire, with millions displaced and in need of assistance. The UN has reported that humanitarian needs in Syria are acute, with a focus on recovery and reintegration efforts for returning refugees (evidence id: 16). The ongoing Ebola outbreak in the Democratic Republic of the Congo has also prompted international attention, highlighting the need for coordinated health responses (evidence id: 23).",
-      "Diplomatic efforts are underway to address these crises, with significant negotiations occurring between the U.S. and Iran regarding nuclear inspections and sanctions relief. This deal is seen as a pivotal moment for regional diplomacy, potentially impacting the balance of power in the Middle East (evidence id: 15).",
-      "The interplay between military actions, humanitarian needs, and diplomatic negotiations underscores a complex geopolitical landscape where the stakes are high, and the potential for conflict remains ever-present."
+      "Recent developments indicate a significant escalation in geopolitical tensions, particularly in the context of the ongoing conflict in Ukraine and the broader implications for regional stability. Ukrainian military operations have targeted critical infrastructure in Russia, raising concerns about the Kremlin's narrative of military success and its impact on public perception (evidence id: 21).",
+      "In the Middle East, the recent US-Iran agreement has sparked discussions about its potential to reshape regional dynamics, although skepticism remains regarding its long-term effectiveness and the risk of renewed conflict (evidence id: 16). The agreement includes provisions for UN nuclear inspectors' return to Iran, which may influence the geopolitical landscape surrounding the Strait of Hormuz (evidence id: 16).",
+      "Humanitarian crises continue to unfold in various regions, notably in the Democratic Republic of the Congo, where the Ebola outbreak has exacerbated existing vulnerabilities among children and adolescents (evidence id: 17). The UN has reported a record number of grave violations against children in armed conflict, highlighting the urgent need for international attention and action (evidence id: 27).",
+      "Diplomatic efforts are underway to address these crises, with the UN emphasizing the importance of sustained humanitarian action and political will to facilitate recovery and reintegration in conflict-affected areas (evidence id: 19). However, access constraints and logistical challenges hinder the delivery of essential aid, underscoring the complexities of the current geopolitical landscape."
     ],
     "key_judgments": [
       {
-        "title": "Escalation of Military Conflict in Ukraine",
-        "finding": "Ukrainian strikes on Russian military infrastructure indicate a significant escalation in the conflict, potentially leading to increased retaliatory measures from Russia.",
+        "title": "Escalation of Military Operations in Ukraine",
+        "finding": "Ukrainian strikes on Russian military infrastructure indicate a shift in the conflict dynamics, challenging the Kremlin's narrative of success.",
         "citations": [
-          "19"
+          "21"
         ]
       },
       {
-        "title": "Humanitarian Crisis in Syria",
-        "finding": "The humanitarian situation in Syria remains critical, with millions displaced and in need of assistance, necessitating sustained international support for recovery efforts.",
+        "title": "US-Iran Agreement's Impact on Regional Stability",
+        "finding": "The recent US-Iran agreement may alter regional dynamics, but skepticism about its durability and potential for renewed conflict persists.",
         "citations": [
           "16"
         ]
       },
       {
-        "title": "U.S.-Iran Diplomatic Engagement",
-        "finding": "The recent U.S.-Iran agreement to allow UN nuclear inspectors back into Iran marks a significant diplomatic development that could reshape regional dynamics.",
+        "title": "Humanitarian Crisis in the DRC",
+        "finding": "The Ebola outbreak in the DRC has led to significant vulnerabilities among children, necessitating urgent humanitarian intervention.",
         "citations": [
-          "15"
+          "17"
+        ]
+      },
+      {
+        "title": "UN's Call for Humanitarian Action",
+        "finding": "The UN emphasizes the need for sustained humanitarian action and political will to address ongoing crises and facilitate recovery.",
+        "citations": [
+          "19"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Europe and Russia",
-        "assessment": "The ongoing conflict in Ukraine continues to strain relations between Russia and Western nations, with military actions escalating and diplomatic solutions remaining elusive.",
+        "assessment": "The conflict in Ukraine remains a focal point of geopolitical tension, with military operations intensifying and impacting regional stability.",
         "citations": [
-          "19",
-          "12"
-        ]
-      },
-      {
-        "region": "Middle East",
-        "assessment": "The U.S.-Iran negotiations represent a critical juncture in Middle Eastern diplomacy, with potential implications for regional security and stability.",
-        "citations": [
-          "15",
           "21"
         ]
       },
       {
-        "region": "Africa",
-        "assessment": "The humanitarian crisis in the Democratic Republic of the Congo due to the Ebola outbreak highlights the need for urgent international health responses.",
-        "citations": [
-          "23"
-        ]
-      }
-    ],
-    "watchlist": [
-      {
-        "label": "Ukraine-Russia Conflict",
-        "why_it_matters": "The ongoing military conflict poses risks of broader regional instability and potential escalation into a larger war.",
-        "citations": [
-          "19"
-        ]
-      },
-      {
-        "label": "Humanitarian Needs in Syria",
-        "why_it_matters": "The acute humanitarian crisis requires immediate international attention and resources to prevent further deterioration of conditions.",
+        "region": "Middle East",
+        "assessment": "The US-Iran agreement introduces new dynamics in the region, but its effectiveness in preventing conflict remains uncertain.",
         "citations": [
           "16"
         ]
       },
       {
-        "label": "U.S.-Iran Relations",
-        "why_it_matters": "The outcome of U.S.-Iran negotiations could significantly impact geopolitical stability in the Middle East and influence global energy markets.",
+        "region": "Africa",
+        "assessment": "The humanitarian situation in the DRC is critical, with the Ebola outbreak exacerbating existing vulnerabilities and necessitating immediate action.",
         "citations": [
-          "15"
+          "17"
+        ]
+      }
+    ],
+    "watchlist": [
+      {
+        "label": "Ongoing Humanitarian Crises",
+        "why_it_matters": "The worsening humanitarian situation in conflict-affected regions poses significant risks to stability and requires urgent international attention.",
+        "citations": [
+          "17",
+          "19"
+        ]
+      },
+      {
+        "label": "Geopolitical Tensions in Ukraine",
+        "why_it_matters": "Escalating military operations in Ukraine could lead to broader regional instability and impact international relations.",
+        "citations": [
+          "21"
+        ]
+      },
+      {
+        "label": "US-Iran Relations",
+        "why_it_matters": "The evolving dynamics of US-Iran relations could have far-reaching implications for regional security and diplomatic efforts.",
+        "citations": [
+          "16"
         ]
       }
     ],
@@ -87,23 +93,23 @@
     ]
   },
   "summary": {
-    "raw_documents": 1285,
-    "total_text_chars": 184106087,
+    "raw_documents": 1288,
+    "total_text_chars": 184136041,
     "sources": 33,
     "signals": 8,
     "regions": 6,
     "visual_items": 109,
-    "pdf_items": 137,
-    "renderable_files": 130
+    "pdf_items": 138,
+    "renderable_files": 131
   },
   "format_counts": [
     {
       "name": "Article",
-      "value": 941
+      "value": 943
     },
     {
       "name": "PDF",
-      "value": 137
+      "value": 138
     },
     {
       "name": "Image",
@@ -133,11 +139,11 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 897
+      "value": 899
     },
     {
       "name": "pdfs",
-      "value": 134
+      "value": 135
     },
     {
       "name": "images",
@@ -183,7 +189,7 @@
   "source_counts": [
     {
       "name": "reliefweb.int",
-      "value": 274
+      "value": 277
     },
     {
       "name": "theguardian.com",
@@ -301,11 +307,11 @@
     },
     {
       "name": "health",
-      "value": 4301
+      "value": 4311
     },
     {
       "name": "humanitarian",
-      "value": 3286
+      "value": 3323
     },
     {
       "name": "israel",
@@ -345,19 +351,19 @@
     },
     {
       "name": "care",
-      "value": 1558
+      "value": 1564
     },
     {
       "name": "united",
-      "value": 1529
+      "value": 1536
+    },
+    {
+      "name": "sudan",
+      "value": 1430
     },
     {
       "name": "data",
       "value": 1426
-    },
-    {
-      "name": "sudan",
-      "value": 1391
     },
     {
       "name": "support",
@@ -385,7 +391,7 @@
     },
     {
       "name": "access",
-      "value": 1068
+      "value": 1086
     },
     {
       "name": "million",
@@ -412,20 +418,20 @@
       "value": 979
     },
     {
+      "name": "services",
+      "value": 976
+    },
+    {
       "name": "deal",
       "value": 952
     },
     {
-      "name": "services",
-      "value": 946
+      "name": "funding",
+      "value": 922
     },
     {
       "name": "incidents",
       "value": 920
-    },
-    {
-      "name": "funding",
-      "value": 918
     },
     {
       "name": "china",
@@ -440,6 +446,10 @@
       "value": 825
     },
     {
+      "name": "including",
+      "value": 803
+    },
+    {
       "name": "unhcr",
       "value": 796
     },
@@ -448,20 +458,16 @@
       "value": 793
     },
     {
-      "name": "including",
-      "value": 780
-    },
-    {
       "name": "nuclear",
       "value": 755
     },
     {
-      "name": "refugees",
-      "value": 733
+      "name": "nations",
+      "value": 735
     },
     {
-      "name": "nations",
-      "value": 728
+      "name": "refugees",
+      "value": 733
     },
     {
       "name": "palestinian",
@@ -570,7 +576,7 @@
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 772,
+      "count": 773,
       "formats": [
         {
           "name": "Article",
@@ -578,7 +584,7 @@
         },
         {
           "name": "PDF",
-          "value": 63
+          "value": 64
         },
         {
           "name": "Sanctions",
@@ -661,15 +667,15 @@
     },
     {
       "name": "Humanitarian Pressure",
-      "count": 555,
+      "count": 558,
       "formats": [
         {
           "name": "Article",
-          "value": 381
+          "value": 383
         },
         {
           "name": "PDF",
-          "value": 125
+          "value": 126
         },
         {
           "name": "Sanctions",
@@ -685,19 +691,29 @@
         }
       ],
       "evidence_ids": [
+        "490c8ff55f5ff036f7819d3ddc75005e69242040d6c93807c6dd008e234618f7",
         "c0d2e258d5b5ee99dc9bbea91af721b801d31a4640be72bdbcc9d7654f247c75",
+        "8c58b86bb4563f94c4ac87ce22fe424bceb6994b296cc5b1c0bc12a044146af8",
         "9c6de96b80a9a3cac29481b56e6f3a70e2ae92f4dcfc905677ebf5c215e453f8",
         "a99a0336a21dcf6367cd7a564bff948513c7367c7bfe2739f6d559471580dfbd",
+        "7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c",
         "c8e08079b334bd00e34296c4d7eb8af488d51f8917a4bcd827c1a1446d3db3ed",
         "eabbb9e95421055b29cd1e06d15d43538ca1045c1d2a70cfe0a78540ee934766",
         "f605b25cd728be3bc09b18a0e7d25add2ed33d90d2293fbbaab9c237b2d9a369",
-        "6caadcfdb574776d9a9dc70745d5125b3479d761dd03d11b0a9213fc0a2a9b2a",
-        "749a4705b9e1b1a85b7ed65136027664229b791c04974fec0765474b4c820195",
-        "60da8b413170756ece9d959e7534b9395f5b915e6751858ecb1865c76742cd01",
-        "adf7816f0d9d9b79f219477bd27b4de079ed2b5736485cb2148b501341829e58"
+        "6caadcfdb574776d9a9dc70745d5125b3479d761dd03d11b0a9213fc0a2a9b2a"
       ],
-      "summary": "The attacks on Moscow discomfited the long-planned June 18 Russia–Association of Southeast Asian Nations (ASEAN) summit in Kazan, which was long on protocol and ceremony but predictably short on substance ( Kommersant, June 18). Putin scheduled the Kazan summit to coincide with the Group of Seven (G7) summit in Evian, France, to demonstrate Russia’s preference for cultivating ties with the so-called Global South, but instead delivered a demonstration of inflated ambitions and degraded energy power ( RIAC, June 19). Meetings between the Government and UN partners in May mapped out the path forward under the “No Camps, No Tents” vision, focused on protection, service provision and sustainable livelihoods. Alongside the Government’s “Statement of National Recovery Priorities,” this way forward provides a clear national direction for recovery and reintegration. In coordination with authorities, humanitarian partners responded rapidly, deploying ambulances and boats, reinforcing embankments, protecting farmlands, and delivering critical supplies to families in need. Tom Fletcher, Under Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator Briefing to the Security Council on the humanitarian situation in Syria New York, 22 June 2026 [As delivered] Madam President, A better future for Syria remains within reach. United Nations Nations Unies Office for the Coordination of Humanitarian Affairs Mr. Meetings between the Government and UN partners in May mapped out the path forward under the “No Camps, No Tents” vision, focused on protection, service provision and sustainable livelihoods. The day, which is coordinated by the United Nations High Commissioner for Refugees (UNHCR) and other international organizations, honors the plight of millions of refugees and internally displaced people who have been forced to flee their homes. The ‘My integrity’ project is a concrete step toward a more inclusive future, in which work becomes a tool for dignity and integration.” LEBANON Salesian missionaries are responding with aid and shelter for families that have been impacted by the conflict in the Middle East.",
+      "summary": "GENEVA, 22 June 2026 —The United Nations High-Level Meeting on HIV/AIDS opened today at a moment of incertitude for the global AIDS response. “The global multilateral response to HIV has become not only one of the United Nations’ greatest success stories, but one of the most remarkable achievements in the history of public global health,” said Annalena Baerbock, President of the United Nations General Assembly. The attacks on Moscow discomfited the long-planned June 18 Russia–Association of Southeast Asian Nations (ASEAN) summit in Kazan, which was long on protocol and ceremony but predictably short on substance ( Kommersant, June 18). Putin scheduled the Kazan summit to coincide with the Group of Seven (G7) summit in Evian, France, to demonstrate Russia’s preference for cultivating ties with the so-called Global South, but instead delivered a demonstration of inflated ambitions and degraded energy power ( RIAC, June 19). “Our teams in Ituri have met children who have lost their mothers, and in some cases both parents, to Ebola,\" said UNICEF Executive Director Catherine Russell. Infectious disease outbreaks also increase the risk of violence, including sexual violence, against women and girls. In eastern DRC, these risks are compounded by years of conflict and mass displacement, which have long exposed children to violence, exploitation, and other protection risks. Meetings between the Government and UN partners in May mapped out the path forward under the “No Camps, No Tents” vision, focused on protection, service provision and sustainable livelihoods. Alongside the Government’s “Statement of National Recovery Priorities,” this way forward provides a clear national direction for recovery and reintegration. In coordination with authorities, humanitarian partners responded rapidly, deploying ambulances and boats, reinforcing embankments, protecting farmlands, and delivering critical supplies to families in need.",
       "latest": [
+        {
+          "id": "490c8ff55f5ff036f7819d3ddc75005e69242040d6c93807c6dd008e234618f7",
+          "title": "World: United Nations High-Level Meeting on HIV/AIDS opens as UNAIDS urges countries to firmly commit to ending AIDS by 2030",
+          "url": "https://reliefweb.int/report/world/united-nations-high-level-meeting-hivaids-opens-unaids-urges-countries-firmly-commit-ending-aids-2030",
+          "host": "reliefweb.int",
+          "format": "Article",
+          "collected_at": "2026-06-23T02:17:07.837790+00:00",
+          "published": "Mon, 22 Jun 2026 22:03:06 +0000",
+          "summary": "GENEVA, 22 June 2026 —The United Nations High-Level Meeting on HIV/AIDS opened today at a moment of incertitude for the global AIDS response. “The global multilateral response to HIV has become not only one of the United Nations’ greatest success stories, but one of the most remarkable achievements in the history of public global health,” said Annalena Baerbock, President of the United Nations General Assembly."
+        },
         {
           "id": "c0d2e258d5b5ee99dc9bbea91af721b801d31a4640be72bdbcc9d7654f247c75",
           "title": "Ukrainian Strikes Expose Russia’s Weakness Amid Growing Pressure for Compromise",
@@ -707,6 +723,16 @@
           "collected_at": "2026-06-22T23:14:55.201846+00:00",
           "published": "Mon, 22 Jun 2026 21:20:51 +0000",
           "summary": "The attacks on Moscow discomfited the long-planned June 18 Russia–Association of Southeast Asian Nations (ASEAN) summit in Kazan, which was long on protocol and ceremony but predictably short on substance ( Kommersant, June 18). Putin scheduled the Kazan summit to coincide with the Group of Seven (G7) summit in Evian, France, to demonstrate Russia’s preference for cultivating ties with the so-called Global South, but instead delivered a demonstration of inflated ambitions and degraded energy power ( RIAC, June 19)."
+        },
+        {
+          "id": "8c58b86bb4563f94c4ac87ce22fe424bceb6994b296cc5b1c0bc12a044146af8",
+          "title": "As Ebola cases hit 1,000, almost 3 million children and adolescents face rising risks in eastern DR Congo",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/ebola-cases-hit-1000-almost-3-million-children-and-adolescents-face-rising-risks-eastern-dr-congo",
+          "host": "reliefweb.int",
+          "format": "Article",
+          "collected_at": "2026-06-23T02:17:05.083543+00:00",
+          "published": "Mon, 22 Jun 2026 16:33:08 +0000",
+          "summary": "“Our teams in Ituri have met children who have lost their mothers, and in some cases both parents, to Ebola,\" said UNICEF Executive Director Catherine Russell. Infectious disease outbreaks also increase the risk of violence, including sexual violence, against women and girls. In eastern DRC, these risks are compounded by years of conflict and mass displacement, which have long exposed children to violence, exploitation, and other protection risks."
         },
         {
           "id": "9c6de96b80a9a3cac29481b56e6f3a70e2ae92f4dcfc905677ebf5c215e453f8",
@@ -727,26 +753,6 @@
           "collected_at": "2026-06-22T21:31:24.194823+00:00",
           "published": "Mon, 22 Jun 2026 15:52:36 +0000",
           "summary": "Tom Fletcher, Under Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator Briefing to the Security Council on the humanitarian situation in Syria New York, 22 June 2026 [As delivered] Madam President, A better future for Syria remains within reach. United Nations Nations Unies Office for the Coordination of Humanitarian Affairs Mr. Meetings between the Government and UN partners in May mapped out the path forward under the “No Camps, No Tents” vision, focused on protection, service provision and sustainable livelihoods."
-        },
-        {
-          "id": "c8e08079b334bd00e34296c4d7eb8af488d51f8917a4bcd827c1a1446d3db3ed",
-          "title": "Italy: World Refugee Day: Salesian Missions highlights social programs for refugees and people displaced by conflict",
-          "url": "https://reliefweb.int/report/italy/world-refugee-day-salesian-missions-highlights-social-programs-refugees-and-people-displaced-conflict",
-          "host": "reliefweb.int",
-          "format": "Article",
-          "collected_at": "2026-06-22T21:31:23.879327+00:00",
-          "published": "Mon, 22 Jun 2026 14:01:40 +0000",
-          "summary": "The day, which is coordinated by the United Nations High Commissioner for Refugees (UNHCR) and other international organizations, honors the plight of millions of refugees and internally displaced people who have been forced to flee their homes. The ‘My integrity’ project is a concrete step toward a more inclusive future, in which work becomes a tool for dignity and integration.” LEBANON Salesian missionaries are responding with aid and shelter for families that have been impacted by the conflict in the Middle East."
-        },
-        {
-          "id": "eabbb9e95421055b29cd1e06d15d43538ca1045c1d2a70cfe0a78540ee934766",
-          "title": "DR Congo: Virtual High level presidential meeting (HLPM) of African Heads of State and Government and Partners on the Ebola Bundibugyo Virus Disease Outbreak in the DRC and Uganda (pdf)",
-          "url": "https://reliefweb.int/attachments/93813b3e-7dc3-45b5-b20d-79ff3e50317e/Ebola-Bundibugyo-Virus-Disease-Outbreak-in-the-DRC-and-Uganda.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-06-22T21:31:24.514736+00:00",
-          "published": "Mon, 22 Jun 2026 13:41:42 +0000",
-          "summary": "It paid www.africacdc.org africacdc Virtual High Level Presidential Meeting (HLPM) of African Heads of State and Government and Partners COMMUNIQUÉ The Africa Centres for Disease Control and Prevention is the public health agency of the African Union. The HLPM emphasized strengthened cross-border coordination among affected and at-risk Member States under the leadership of national authorities, with Africa CDC and WHO technical support and UN OCHA humanitarian coordination."
         }
       ]
     },
@@ -843,7 +849,7 @@
     },
     {
       "name": "Energy and Supply Chains",
-      "count": 403,
+      "count": 404,
       "formats": [
         {
           "name": "Article",
@@ -851,7 +857,7 @@
         },
         {
           "name": "PDF",
-          "value": 52
+          "value": 53
         },
         {
           "name": "Sanctions",
@@ -866,15 +872,15 @@
         "c0d2e258d5b5ee99dc9bbea91af721b801d31a4640be72bdbcc9d7654f247c75",
         "39e182b7b81dfa350c2db98a7013d0db4c1599fa5a3109d2d3fa2ad844f41d84",
         "b91f64912cef63c437d8bf4e827d957940f713055501936a7f9622af352ec53e",
+        "7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c",
         "d00a21b022219b7b48ea3d3f8a43412625c36eb3884ee3e55b6059e0bc574390",
         "34be00ba03928fe2d2ef8898e836e3aa47304ad80b03c0f2ab41aea6dfbefc0b",
         "842aa7fccfe65910df3c0101b3d3ab66856f2ac7b9e9d45f9b57915d6d27d289",
         "94f896a6a1dabc4f3c165025738d45c2e43a2c2e3571b9a25d885d0fadaa519a",
         "d5ef3c29413af9e62744b9cb10de9b9eacc6e2a0c31108f2d8bf6a2f368de24b",
-        "4eceab259b7cd1bdf9c01b07f70f101df2ce7729b5a346893cae950bcf64e15c",
-        "264a99b6a632e9d0e24ad4dacb918a474f89c6212a6e77b7fcacfa8b53422a36"
+        "4eceab259b7cd1bdf9c01b07f70f101df2ce7729b5a346893cae950bcf64e15c"
       ],
-      "summary": "The attacks on Moscow discomfited the long-planned June 18 Russia–Association of Southeast Asian Nations (ASEAN) summit in Kazan, which was long on protocol and ceremony but predictably short on substance ( Kommersant, June 18). Putin scheduled the Kazan summit to coincide with the Group of Seven (G7) summit in Evian, France, to demonstrate Russia’s preference for cultivating ties with the so-called Global South, but instead delivered a demonstration of inflated ambitions and degraded energy power ( RIAC, June 19). Iran has agreed to allow UN nuclear inspectors back into the country as part of an agreement under which Washington will lift sanctions on Tehran’s oil exports and the strait of Hormuz will reopen, the US vice-president, JD Vance, has said. Photograph: Nathan Howard/AFP/Getty Images In a development vital to unlocking progress, the US treasury is preparing to issue a 60-day waiver that will lift sanctions on Iran’s oil, petrochemicals and derivatives. The Pakistani government has been pursuing a hands-on diplomatic strategy towards Tehran, with Pakistan's most senior military commander Asim Munir and Prime Minister Shehbaz Sharif both visiting Iran in May 2025, just weeks before the short-lived conflict with Israel that ended with the US bombing Iran's nuclear facilities. “They were saying that the memorandum of understanding – particularly Articles 1, 10 and 11 – had to be initiated and implemented for the technical talks to move forward,” he said, referring to the sections on ending fighting on all fronts, including Lebanon; waiving US sanctions on Iranian energy exports; and releasing frozen Iranian assets.",
+      "summary": "The attacks on Moscow discomfited the long-planned June 18 Russia–Association of Southeast Asian Nations (ASEAN) summit in Kazan, which was long on protocol and ceremony but predictably short on substance ( Kommersant, June 18). Putin scheduled the Kazan summit to coincide with the Group of Seven (G7) summit in Evian, France, to demonstrate Russia’s preference for cultivating ties with the so-called Global South, but instead delivered a demonstration of inflated ambitions and degraded energy power ( RIAC, June 19). Iran has agreed to allow UN nuclear inspectors back into the country as part of an agreement under which Washington will lift sanctions on Tehran’s oil exports and the strait of Hormuz will reopen, the US vice-president, JD Vance, has said. Photograph: Nathan Howard/AFP/Getty Images In a development vital to unlocking progress, the US treasury is preparing to issue a 60-day waiver that will lift sanctions on Iran’s oil, petrochemicals and derivatives. The Pakistani government has been pursuing a hands-on diplomatic strategy towards Tehran, with Pakistan's most senior military commander Asim Munir and Prime Minister Shehbaz Sharif both visiting Iran in May 2025, just weeks before the short-lived conflict with Israel that ended with the US bombing Iran's nuclear facilities. The crisis has also exacerbated the humanitarian situation in Chad and South Sudan, both of which were already dealing with protracted emergencies. To address these logistical challenges and mitigate disruptions to the humanitarian supply chain, the Logistics Cluster has been scaling up its operations since 2023 (following its initial activation in 2020).",
       "latest": [
         {
           "id": "c0d2e258d5b5ee99dc9bbea91af721b801d31a4640be72bdbcc9d7654f247c75",
@@ -907,6 +913,16 @@
           "summary": "The Pakistani government has been pursuing a hands-on diplomatic strategy towards Tehran, with Pakistan's most senior military commander Asim Munir and Prime Minister Shehbaz Sharif both visiting Iran in May 2025, just weeks before the short-lived conflict with Israel that ended with the US bombing Iran's nuclear facilities."
         },
         {
+          "id": "7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c",
+          "title": "Sudan - Concept of Operations, June 2026 (pdf)",
+          "url": "https://reliefweb.int/attachments/8a52d5f6-35e0-55c2-b1fd-317fea715771/sudanlcconcept-operationsjune2026english.pdf",
+          "host": "reliefweb.int",
+          "format": "PDF",
+          "collected_at": "2026-06-23T02:17:01.202519+00:00",
+          "published": "Mon, 22 Jun 2026 14:10:05 +0000",
+          "summary": "The crisis has also exacerbated the humanitarian situation in Chad and South Sudan, both of which were already dealing with protracted emergencies. To address these logistical challenges and mitigate disruptions to the humanitarian supply chain, the Logistics Cluster has been scaling up its operations since 2023 (following its initial activation in 2020)."
+        },
+        {
           "id": "d00a21b022219b7b48ea3d3f8a43412625c36eb3884ee3e55b6059e0bc574390",
           "title": "US, Iran agree on ‘roadmap’ towards final deal in Switzerland talks",
           "url": "https://www.aljazeera.com/news/2026/6/22/us-iran-agree-on-roadmap-towards-final-deal-in-switzerland-talks?traffic_source=rss",
@@ -915,30 +931,20 @@
           "collected_at": "2026-06-22T08:53:33.885014+00:00",
           "published": "Mon, 22 Jun 2026 08:01:00 +0000",
           "summary": "“They were saying that the memorandum of understanding – particularly Articles 1, 10 and 11 – had to be initiated and implemented for the technical talks to move forward,” he said, referring to the sections on ending fighting on all fronts, including Lebanon; waiving US sanctions on Iranian energy exports; and releasing frozen Iranian assets."
-        },
-        {
-          "id": "34be00ba03928fe2d2ef8898e836e3aa47304ad80b03c0f2ab41aea6dfbefc0b",
-          "title": "Too Big To Break Again: India, Italy, and the Defense Partnership That Almost Wasn’t",
-          "url": "https://warontherocks.com/too-big-to-break-again-india-italy-and-the-defense-partnership-that-almost-wasnt/",
-          "host": "warontherocks.com",
-          "format": "Article",
-          "collected_at": "2026-06-22T08:53:35.677849+00:00",
-          "published": "Mon, 22 Jun 2026 07:30:07 +0000",
-          "summary": "The latest achievement came during Indian Prime Minister Narendra Modi’s visit to Rome in May 2026, where India and Italy signed a Defence Industrial Roadmap, defining their relationship as a “Special Strategic Partnership” . What Italy Put in India’s Hands While Italy is rarely counted among India’s major defense suppliers — a group consisting of Russia, France, and the United States — Italian technology is woven through the Indian military, especially its navy."
         }
       ]
     },
     {
       "name": "Institutions and Law",
-      "count": 291,
+      "count": 293,
       "formats": [
         {
           "name": "Article",
-          "value": 183
+          "value": 184
         },
         {
           "name": "PDF",
-          "value": 51
+          "value": 52
         },
         {
           "name": "Sanctions",
@@ -954,19 +960,29 @@
         }
       ],
       "evidence_ids": [
+        "490c8ff55f5ff036f7819d3ddc75005e69242040d6c93807c6dd008e234618f7",
         "178fdb347a961ae4f24e58f5aad737a9f1053db21df76c0d9f18ac538bdd3168",
         "9c6de96b80a9a3cac29481b56e6f3a70e2ae92f4dcfc905677ebf5c215e453f8",
         "a99a0336a21dcf6367cd7a564bff948513c7367c7bfe2739f6d559471580dfbd",
+        "7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c",
         "c8e08079b334bd00e34296c4d7eb8af488d51f8917a4bcd827c1a1446d3db3ed",
         "eabbb9e95421055b29cd1e06d15d43538ca1045c1d2a70cfe0a78540ee934766",
         "f605b25cd728be3bc09b18a0e7d25add2ed33d90d2293fbbaab9c237b2d9a369",
         "98fa7756d054150127547dfe4f79b80d7882d4f98c00c0abe9c35d727f3b82e0",
-        "c5e215f841d1b3ae97a366131da6e78dcd255c93bbff1e18b9ab44618e3bf944",
-        "b239b4e417bf331f213c7eb1316233772d988d96a0a7dc515efeb344bcdd9b11",
-        "1e2182426156f76b3716e886070386b9501ca2495ebb4bd30c80644194bd2572"
+        "c5e215f841d1b3ae97a366131da6e78dcd255c93bbff1e18b9ab44618e3bf944"
       ],
-      "summary": "In a draft for a G-7 statement commemorating the third anniversary of Russia’s invasion that month, the United States reportedly sought to remove references to Russia as being the “ aggressor ” state. “Sometimes, when I speak to [U.S.] officials, they see Ukraine as a state that would not be able to survive a day or two without international support,” a foreign official working on military aid to Ukraine previously told Foreign Policy. Trump last week described Russia as the “offensive” party in the war and signed on to a pro-Ukraine statement. Meetings between the Government and UN partners in May mapped out the path forward under the “No Camps, No Tents” vision, focused on protection, service provision and sustainable livelihoods. Alongside the Government’s “Statement of National Recovery Priorities,” this way forward provides a clear national direction for recovery and reintegration. In coordination with authorities, humanitarian partners responded rapidly, deploying ambulances and boats, reinforcing embankments, protecting farmlands, and delivering critical supplies to families in need. Tom Fletcher, Under Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator Briefing to the Security Council on the humanitarian situation in Syria New York, 22 June 2026 [As delivered] Madam President, A better future for Syria remains within reach. United Nations Nations Unies Office for the Coordination of Humanitarian Affairs Mr. Meetings between the Government and UN partners in May mapped out the path forward under the “No Camps, No Tents” vision, focused on protection, service provision and sustainable livelihoods. The day, which is coordinated by the United Nations High Commissioner for Refugees (UNHCR) and other international organizations, honors the plight of millions of refugees and internally displaced people who have been forced to flee their homes. The ‘My integrity’ project is a concrete step toward a more inclusive future, in which work becomes a tool for dignity and integration.” LEBANON Salesian missionaries are responding with aid and shelter for families that have been impacted by the conflict in the Middle East.",
+      "summary": "GENEVA, 22 June 2026 —The United Nations High-Level Meeting on HIV/AIDS opened today at a moment of incertitude for the global AIDS response. “The global multilateral response to HIV has become not only one of the United Nations’ greatest success stories, but one of the most remarkable achievements in the history of public global health,” said Annalena Baerbock, President of the United Nations General Assembly. In a draft for a G-7 statement commemorating the third anniversary of Russia’s invasion that month, the United States reportedly sought to remove references to Russia as being the “ aggressor ” state. “Sometimes, when I speak to [U.S.] officials, they see Ukraine as a state that would not be able to survive a day or two without international support,” a foreign official working on military aid to Ukraine previously told Foreign Policy. Trump last week described Russia as the “offensive” party in the war and signed on to a pro-Ukraine statement. Meetings between the Government and UN partners in May mapped out the path forward under the “No Camps, No Tents” vision, focused on protection, service provision and sustainable livelihoods. Alongside the Government’s “Statement of National Recovery Priorities,” this way forward provides a clear national direction for recovery and reintegration. In coordination with authorities, humanitarian partners responded rapidly, deploying ambulances and boats, reinforcing embankments, protecting farmlands, and delivering critical supplies to families in need. Tom Fletcher, Under Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator Briefing to the Security Council on the humanitarian situation in Syria New York, 22 June 2026 [As delivered] Madam President, A better future for Syria remains within reach. United Nations Nations Unies Office for the Coordination of Humanitarian Affairs Mr. Meetings between the Government and UN partners in May mapped out the path forward under the “No Camps, No Tents” vision, focused on protection, service provision and sustainable livelihoods.",
       "latest": [
+        {
+          "id": "490c8ff55f5ff036f7819d3ddc75005e69242040d6c93807c6dd008e234618f7",
+          "title": "World: United Nations High-Level Meeting on HIV/AIDS opens as UNAIDS urges countries to firmly commit to ending AIDS by 2030",
+          "url": "https://reliefweb.int/report/world/united-nations-high-level-meeting-hivaids-opens-unaids-urges-countries-firmly-commit-ending-aids-2030",
+          "host": "reliefweb.int",
+          "format": "Article",
+          "collected_at": "2026-06-23T02:17:07.837790+00:00",
+          "published": "Mon, 22 Jun 2026 22:03:06 +0000",
+          "summary": "GENEVA, 22 June 2026 —The United Nations High-Level Meeting on HIV/AIDS opened today at a moment of incertitude for the global AIDS response. “The global multilateral response to HIV has become not only one of the United Nations’ greatest success stories, but one of the most remarkable achievements in the history of public global health,” said Annalena Baerbock, President of the United Nations General Assembly."
+        },
         {
           "id": "178fdb347a961ae4f24e58f5aad737a9f1053db21df76c0d9f18ac538bdd3168",
           "title": "The White House’s New Pro-Ukraine Tone Shift",
@@ -998,24 +1014,14 @@
           "summary": "Tom Fletcher, Under Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator Briefing to the Security Council on the humanitarian situation in Syria New York, 22 June 2026 [As delivered] Madam President, A better future for Syria remains within reach. United Nations Nations Unies Office for the Coordination of Humanitarian Affairs Mr. Meetings between the Government and UN partners in May mapped out the path forward under the “No Camps, No Tents” vision, focused on protection, service provision and sustainable livelihoods."
         },
         {
-          "id": "c8e08079b334bd00e34296c4d7eb8af488d51f8917a4bcd827c1a1446d3db3ed",
-          "title": "Italy: World Refugee Day: Salesian Missions highlights social programs for refugees and people displaced by conflict",
-          "url": "https://reliefweb.int/report/italy/world-refugee-day-salesian-missions-highlights-social-programs-refugees-and-people-displaced-conflict",
-          "host": "reliefweb.int",
-          "format": "Article",
-          "collected_at": "2026-06-22T21:31:23.879327+00:00",
-          "published": "Mon, 22 Jun 2026 14:01:40 +0000",
-          "summary": "The day, which is coordinated by the United Nations High Commissioner for Refugees (UNHCR) and other international organizations, honors the plight of millions of refugees and internally displaced people who have been forced to flee their homes. The ‘My integrity’ project is a concrete step toward a more inclusive future, in which work becomes a tool for dignity and integration.” LEBANON Salesian missionaries are responding with aid and shelter for families that have been impacted by the conflict in the Middle East."
-        },
-        {
-          "id": "eabbb9e95421055b29cd1e06d15d43538ca1045c1d2a70cfe0a78540ee934766",
-          "title": "DR Congo: Virtual High level presidential meeting (HLPM) of African Heads of State and Government and Partners on the Ebola Bundibugyo Virus Disease Outbreak in the DRC and Uganda (pdf)",
-          "url": "https://reliefweb.int/attachments/93813b3e-7dc3-45b5-b20d-79ff3e50317e/Ebola-Bundibugyo-Virus-Disease-Outbreak-in-the-DRC-and-Uganda.pdf",
+          "id": "7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c",
+          "title": "Sudan - Concept of Operations, June 2026 (pdf)",
+          "url": "https://reliefweb.int/attachments/8a52d5f6-35e0-55c2-b1fd-317fea715771/sudanlcconcept-operationsjune2026english.pdf",
           "host": "reliefweb.int",
           "format": "PDF",
-          "collected_at": "2026-06-22T21:31:24.514736+00:00",
-          "published": "Mon, 22 Jun 2026 13:41:42 +0000",
-          "summary": "It paid www.africacdc.org africacdc Virtual High Level Presidential Meeting (HLPM) of African Heads of State and Government and Partners COMMUNIQUÉ The Africa Centres for Disease Control and Prevention is the public health agency of the African Union. The HLPM emphasized strengthened cross-border coordination among affected and at-risk Member States under the leadership of national authorities, with Africa CDC and WHO technical support and UN OCHA humanitarian coordination."
+          "collected_at": "2026-06-23T02:17:01.202519+00:00",
+          "published": "Mon, 22 Jun 2026 14:10:05 +0000",
+          "summary": "The crisis has also exacerbated the humanitarian situation in Chad and South Sudan, both of which were already dealing with protracted emergencies. To address these logistical challenges and mitigate disruptions to the humanitarian supply chain, the Logistics Cluster has been scaling up its operations since 2023 (following its initial activation in 2020)."
         }
       ]
     },
@@ -1197,7 +1203,7 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 711,
+      "count": 712,
       "evidence_ids": [
         "c0d2e258d5b5ee99dc9bbea91af721b801d31a4640be72bdbcc9d7654f247c75",
         "b1f8df0b82323d224b5b0d7eeecdd192e2a98acc9de294c3f680a92069190621",
@@ -1205,12 +1211,12 @@
         "9c6de96b80a9a3cac29481b56e6f3a70e2ae92f4dcfc905677ebf5c215e453f8",
         "a99a0336a21dcf6367cd7a564bff948513c7367c7bfe2739f6d559471580dfbd",
         "b91f64912cef63c437d8bf4e827d957940f713055501936a7f9622af352ec53e",
+        "7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c",
         "c8e08079b334bd00e34296c4d7eb8af488d51f8917a4bcd827c1a1446d3db3ed",
         "749a4705b9e1b1a85b7ed65136027664229b791c04974fec0765474b4c820195",
         "98fa7756d054150127547dfe4f79b80d7882d4f98c00c0abe9c35d727f3b82e0",
         "60da8b413170756ece9d959e7534b9395f5b915e6751858ecb1865c76742cd01",
-        "d00a21b022219b7b48ea3d3f8a43412625c36eb3884ee3e55b6059e0bc574390",
-        "5f61cf3e0b32ca7423d0a08eedf1617da298ef377e7f3a2cd81385c0bae91c07"
+        "d00a21b022219b7b48ea3d3f8a43412625c36eb3884ee3e55b6059e0bc574390"
       ],
       "top_sources": [
         {
@@ -1219,7 +1225,7 @@
         },
         {
           "name": "reliefweb.int",
-          "value": 113
+          "value": 114
         },
         {
           "name": "aljazeera.com",
@@ -1317,25 +1323,25 @@
     },
     {
       "name": "Global Institutions",
-      "count": 509,
+      "count": 511,
       "evidence_ids": [
+        "490c8ff55f5ff036f7819d3ddc75005e69242040d6c93807c6dd008e234618f7",
         "c0d2e258d5b5ee99dc9bbea91af721b801d31a4640be72bdbcc9d7654f247c75",
         "178fdb347a961ae4f24e58f5aad737a9f1053db21df76c0d9f18ac538bdd3168",
         "39e182b7b81dfa350c2db98a7013d0db4c1599fa5a3109d2d3fa2ad844f41d84",
         "9c6de96b80a9a3cac29481b56e6f3a70e2ae92f4dcfc905677ebf5c215e453f8",
         "a99a0336a21dcf6367cd7a564bff948513c7367c7bfe2739f6d559471580dfbd",
         "260fe579d3a1c14dedf6880c7e693dfe90601aff39ec9c8b1213014bf2edcc4d",
+        "7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c",
         "c8e08079b334bd00e34296c4d7eb8af488d51f8917a4bcd827c1a1446d3db3ed",
         "eabbb9e95421055b29cd1e06d15d43538ca1045c1d2a70cfe0a78540ee934766",
         "f605b25cd728be3bc09b18a0e7d25add2ed33d90d2293fbbaab9c237b2d9a369",
-        "6caadcfdb574776d9a9dc70745d5125b3479d761dd03d11b0a9213fc0a2a9b2a",
-        "98fa7756d054150127547dfe4f79b80d7882d4f98c00c0abe9c35d727f3b82e0",
-        "c5e215f841d1b3ae97a366131da6e78dcd255c93bbff1e18b9ab44618e3bf944"
+        "6caadcfdb574776d9a9dc70745d5125b3479d761dd03d11b0a9213fc0a2a9b2a"
       ],
       "top_sources": [
         {
           "name": "reliefweb.int",
-          "value": 152
+          "value": 154
         },
         {
           "name": "theguardian.com",
@@ -1357,9 +1363,12 @@
     },
     {
       "name": "Africa",
-      "count": 326,
+      "count": 329,
       "evidence_ids": [
+        "490c8ff55f5ff036f7819d3ddc75005e69242040d6c93807c6dd008e234618f7",
         "b1f8df0b82323d224b5b0d7eeecdd192e2a98acc9de294c3f680a92069190621",
+        "8c58b86bb4563f94c4ac87ce22fe424bceb6994b296cc5b1c0bc12a044146af8",
+        "7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c",
         "eabbb9e95421055b29cd1e06d15d43538ca1045c1d2a70cfe0a78540ee934766",
         "6caadcfdb574776d9a9dc70745d5125b3479d761dd03d11b0a9213fc0a2a9b2a",
         "5e0dc4f9bae177ab6733ed28396b61fa0f8c877b061a4d09c7f18a26ed8a82c7",
@@ -1367,15 +1376,12 @@
         "1bdb58e3b37628d3437f15686c958a5bf864f3cd98e966059f01713411186a99",
         "842aa7fccfe65910df3c0101b3d3ab66856f2ac7b9e9d45f9b57915d6d27d289",
         "eaed0fd4195564116fbcaf12e46fc1a9d32ce4adcb17cf614e7efc2c2702c615",
-        "ed410c945bb3263efc1a16b95eb4f4bbf35bdb161302c44a8309a4014c8dc6bf",
-        "77802ee89d3ac5d6069fb23c42b8a77a9ebc0956ba540565e617aa0045fd4973",
-        "dfd6c9693c431c65042a789a8153f7806441b2f73d37400088398f48bd5aba82",
-        "16834bf0207b978963f7d8bf489f76a51c1691244c1a0484f885a982517861c9"
+        "ed410c945bb3263efc1a16b95eb4f4bbf35bdb161302c44a8309a4014c8dc6bf"
       ],
       "top_sources": [
         {
           "name": "reliefweb.int",
-          "value": 121
+          "value": 124
         },
         {
           "name": "theguardian.com",
@@ -2076,17 +2082,17 @@
     },
     {
       "date": "2026-04-08",
-      "evidence_id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
-    },
-    {
-      "date": "2026-04-08",
       "evidence_id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "title": "MS.MIL.XPND.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
       "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\","
+    },
+    {
+      "date": "2026-04-08",
+      "evidence_id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
     },
     {
       "date": "2026",
@@ -2101,6 +2107,20 @@
       "title": "Consolidated Sanctions List",
       "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
       "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong"
+    },
+    {
+      "date": "2026",
+      "evidence_id": "490c8ff55f5ff036f7819d3ddc75005e69242040d6c93807c6dd008e234618f7",
+      "title": "World: United Nations High-Level Meeting on HIV/AIDS opens as UNAIDS urges countries to firmly commit to ending AIDS by 2030",
+      "url": "https://reliefweb.int/report/world/united-nations-high-level-meeting-hivaids-opens-unaids-urges-countries-firmly-commit-ending-aids-2030",
+      "excerpt": "GENEVA, 22 June 2026 —The United Nations High-Level Meeting on HIV/AIDS opened today at a moment of incertitude for the global AIDS response. Decades of progress have delivered what once seemed impossible: millions of lives saved, new HIV infections reduced, and treatment exp"
+    },
+    {
+      "date": "2026",
+      "evidence_id": "8c58b86bb4563f94c4ac87ce22fe424bceb6994b296cc5b1c0bc12a044146af8",
+      "title": "As Ebola cases hit 1,000, almost 3 million children and adolescents face rising risks in eastern DR Congo",
+      "url": "https://reliefweb.int/report/democratic-republic-congo/ebola-cases-hit-1000-almost-3-million-children-and-adolescents-face-rising-risks-eastern-dr-congo",
+      "excerpt": "eft over 130 children orphaned in Ituri, driving urgent need for protection and care NEW YORK/KAMPALA/KINSHASA, 22 June 2026 – As global confirmed Ebola cases reach 1,000, an estimated 2.95 million children and adolescents aged 18 and under – representing 54 per cent of the population in 31 affected health zones – are at risk from Ebola itself and the breakdown of essential ser"
     },
     {
       "date": "2026",
@@ -2129,6 +2149,13 @@
       "title": "OFAC Specially Designated Nationals List",
       "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
       "excerpt": "06/18/2026 19073 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity"
+    },
+    {
+      "date": "2026",
+      "evidence_id": "7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c",
+      "title": "Sudan - Concept of Operations, June 2026 (pdf)",
+      "url": "https://reliefweb.int/attachments/8a52d5f6-35e0-55c2-b1fd-317fea715771/sudanlcconcept-operationsjune2026english.pdf",
+      "excerpt": "Concept of Operations, June 2026 Sudan This Concept of Operations is a live document, and the activities will be adapted and revised as the situation unfolds and further assessment results become available, including the possible provision of additional logistics common services as requi"
     },
     {
       "date": "2026",
@@ -2395,30 +2422,86 @@
       "title": "oPt: Mr. Tom Fletcher, Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator – Briefing to the Security Council on the humanitarian situation in Gaza, 18 June 2026 (pdf)",
       "url": "https://reliefweb.int/attachments/fe13ab44-3571-4d15-ab7f-58248436d9c9/20260618%20USG%20SC%20Statement%20on%20OPT%20AS%20DELIVERED.pdf",
       "excerpt": "d Emergency Relief Coordinator Briefing to the Security Council on the humanitarian situation in Gaza New York, 18 June 2026 [As delivered] Madam President, Members of the Council, Seven months ago, this Council came together to pass, without objection, UN Security Council resolution 2803. A moment of hope – fragile, but real hope. It followed months of intensive mediation, inc"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "d622172d792de659c4c166789042ec70f86ab2e614f2c57aef3ef84b34820553",
-      "title": "oPt: Mr. Tom Fletcher, Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator – Briefing to the Security Council on the humanitarian situation in Gaza, 18 June 2026",
-      "url": "https://reliefweb.int/report/occupied-palestinian-territory/mr-tom-fletcher-under-secretary-general-humanitarian-affairs-and-emergency-relief-coordinator-briefing-security-council-humanitarian-situation-gaza-18-june-2026",
-      "excerpt": "New York, 18 June 2026 As delivered Madam President, Members of the Council, Seven months ago, this Council came together to pass, without objection, UN Security Council resolution 2803. A moment of hope – fragile, but real hope. It followed months of intensive mediation, inclu"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "686f7027bea16b5d42eabb75a6dbb218829d3ba00594c0d0606e35dd13286d31",
-      "title": "Gas prices fall below $4 on average after Trump’s signing of Iran deal to end war",
-      "url": "https://www.theguardian.com/us-news/2026/jun/18/gas-prices-fall-iran-deal",
-      "excerpt": "likely to outlast the fighting. “Product prices across the United States are projected to keep climbing for the rest of 2026,” Patrick Penfield, a professor of supply chain practice at Syracuse University, told the Associated Press on Thursday. Penfield pointed to depleted inventories and ongoing supply chain consequences spanning from the war. He noted that farmers, for exampl"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "6417e3bf3d9e4391d156da97a42669f8aa662a18a7279a3e8af76a9c267f96fb",
-      "title": "War Department Review to Ensure 'NATO 3.0' Becomes Europe-Led Defense Alliance",
-      "url": "https://www.war.gov/News/News-Stories/Article/Article/4521330/war-department-review-to-ensure-nato-30-becomes-europe-led-defense-alliance/",
-      "excerpt": "r the last six months, President Trump is also committed to the United States defense spending more than $1 trillion in 2026 and a commitment of $1.5 trillion in 2027. We will lead and exceed our own NATO spending standards.\" NATO 3.0, Hegseth said, is a post-Cold War embodiment of the defense alliance with a focus on real military capabilities ready to deter threats to the Eur"
     }
   ],
   "latest_evidence": [
+    {
+      "id": "490c8ff55f5ff036f7819d3ddc75005e69242040d6c93807c6dd008e234618f7",
+      "topic": "geopolitics",
+      "title": "World: United Nations High-Level Meeting on HIV/AIDS opens as UNAIDS urges countries to firmly commit to ending AIDS by 2030",
+      "url": "https://reliefweb.int/report/world/united-nations-high-level-meeting-hivaids-opens-unaids-urges-countries-firmly-commit-ending-aids-2030",
+      "host": "reliefweb.int",
+      "source": "https://reliefweb.int/updates/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-23T02:17:07.837790+00:00",
+      "published": "Mon, 22 Jun 2026 22:03:06 +0000",
+      "text_chars": 6252,
+      "raw_path": "data/geopolitics/raw/490c8ff55f5ff036f7819d3ddc75005e69242040d6c93807c6dd008e234618f7.html",
+      "text_path": "data/geopolitics/raw/490c8ff55f5ff036f7819d3ddc75005e69242040d6c93807c6dd008e234618f7.txt",
+      "summary": "GENEVA, 22 June 2026 —The United Nations High-Level Meeting on HIV/AIDS opened today at a moment of incertitude for the global AIDS response. “The global multilateral response to HIV has become not only one of the United Nations’ greatest success stories, but one of the most remarkable achievements in the history of public global health,” said Annalena Baerbock, President of the United Nations General Assembly.",
+      "bullets": [
+        "GENEVA, 22 June 2026 —The United Nations High-Level Meeting on HIV/AIDS opened today at a moment of incertitude for the global AIDS response.",
+        "“The global multilateral response to HIV has become not only one of the United Nations’ greatest success stories, but one of the most remarkable achievements in the history of public global health,” said Annalena Baerbock, President of the United Nations General Assembly.",
+        "“This meeting is a chance to demonstrate that, even in difficult times, the international community can rally, once again, around science, around human dignity, solidarity and shared responsibility,” said Amina Mohammed, Deputy Secretary-General of the United Nations, delivering remarks on behalf of the UN Secretary-General.",
+        "Global leaders face a defining question: will the world protect hard-won gains and accelerate towards ending AIDS?",
+        "Let us move forward together—with a sense of urgency, with solidarity and with ambition.” Recent funding cuts from multiple donors have severely impacted HIV prevention and community-led services, and criminalization of key populations is increasing for the first time since UNAIDS began tracking these trends."
+      ],
+      "excerpt": "GENEVA, 22 June 2026 —The United Nations High-Level Meeting on HIV/AIDS opened today at a moment of incertitude for the global AIDS response. Decades of progress have delivered what once seemed impossible: millions of lives saved, new HIV infections reduced, and treatment expanded around the world. However, as global leaders gather in New York to adopt a new UN Political Declaration on HIV/AIDS, the last Declaration before the goal of ending AIDS as a public health threat by 2030, that progress is increasingly threatened due to funding cuts and a push back on human rights. Global leaders face a defining question: will the world protect hard-won gains and accelerate towards ending AIDS? “This Political Declaration is our chance to build on 25 years of commitment and point the way to 2030 to show that multilateralism can deliver,” said Winnie Byanyima, Executive Director of UNAIDS. “We cannot fail, because we know what we must do: commit to multilateralism; sustain international financing as countries mobilize their own resources; protect the rights of people living with HIV; let communities lead for their people; and spur the science, so that innovations reach everyone in need as fa",
+      "keywords": [
+        {
+          "name": "aids",
+          "value": 19
+        },
+        {
+          "name": "unaids",
+          "value": 11
+        },
+        {
+          "name": "nations",
+          "value": 7
+        },
+        {
+          "name": "united",
+          "value": 7
+        },
+        {
+          "name": "world",
+          "value": 7
+        },
+        {
+          "name": "meeting",
+          "value": 6
+        },
+        {
+          "name": "declaration",
+          "value": 5
+        },
+        {
+          "name": "health",
+          "value": 5
+        },
+        {
+          "name": "ending",
+          "value": 4
+        },
+        {
+          "name": "funding",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law"
+      ],
+      "regions": [
+        "Global Institutions",
+        "Africa"
+      ],
+      "detail_path": "/evidence/490c8ff55f5ff036f7819d3ddc75005e69242040d6c93807c6dd008e234618f7",
+      "evidence_json": "/evidence/490c8ff55f5ff036f7819d3ddc75005e69242040d6c93807c6dd008e234618f7.json"
+    },
     {
       "id": "77ec975aedaf2ecd2231cf246352a4a0d8943bb8ea172bd75ae8adffb7a371b2",
       "topic": "geopolitics",
@@ -2811,6 +2894,81 @@
       ],
       "detail_path": "/evidence/39e182b7b81dfa350c2db98a7013d0db4c1599fa5a3109d2d3fa2ad844f41d84",
       "evidence_json": "/evidence/39e182b7b81dfa350c2db98a7013d0db4c1599fa5a3109d2d3fa2ad844f41d84.json"
+    },
+    {
+      "id": "8c58b86bb4563f94c4ac87ce22fe424bceb6994b296cc5b1c0bc12a044146af8",
+      "topic": "geopolitics",
+      "title": "As Ebola cases hit 1,000, almost 3 million children and adolescents face rising risks in eastern DR Congo",
+      "url": "https://reliefweb.int/report/democratic-republic-congo/ebola-cases-hit-1000-almost-3-million-children-and-adolescents-face-rising-risks-eastern-dr-congo",
+      "host": "reliefweb.int",
+      "source": "https://reliefweb.int/updates/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-23T02:17:05.083543+00:00",
+      "published": "Mon, 22 Jun 2026 16:33:08 +0000",
+      "text_chars": 4991,
+      "raw_path": "data/geopolitics/raw/8c58b86bb4563f94c4ac87ce22fe424bceb6994b296cc5b1c0bc12a044146af8.html",
+      "text_path": "data/geopolitics/raw/8c58b86bb4563f94c4ac87ce22fe424bceb6994b296cc5b1c0bc12a044146af8.txt",
+      "summary": "“Our teams in Ituri have met children who have lost their mothers, and in some cases both parents, to Ebola,\" said UNICEF Executive Director Catherine Russell. Infectious disease outbreaks also increase the risk of violence, including sexual violence, against women and girls. In eastern DRC, these risks are compounded by years of conflict and mass displacement, which have long exposed children to violence, exploitation, and other protection risks.",
+      "bullets": [
+        "“Our teams in Ituri have met children who have lost their mothers, and in some cases both parents, to Ebola,\" said UNICEF Executive Director Catherine Russell.",
+        "Infectious disease outbreaks also increase the risk of violence, including sexual violence, against women and girls.",
+        "In eastern DRC, these risks are compounded by years of conflict and mass displacement, which have long exposed children to violence, exploitation, and other protection risks.",
+        "In DRC and Uganda, UNICEF is supporting the government and partners, including WHO and Africa CDC, to contain the outbreak through infection prevention and control, contact tracing, safe and dignified burials, and community engagement, including with young people and community leaders.",
+        "\"Children are trying to make sense of the threat while surrounded by rumors and online misinformation.” Although the situation remains fluid, children and adolescents account for approximately 15 per cent of confirmed Ebola cases and over 25 per cent of confirmed deaths in eastern DRC as of 19 June."
+      ],
+      "excerpt": "Ebola has left over 130 children orphaned in Ituri, driving urgent need for protection and care NEW YORK/KAMPALA/KINSHASA, 22 June 2026 – As global confirmed Ebola cases reach 1,000, an estimated 2.95 million children and adolescents aged 18 and under – representing 54 per cent of the population in 31 affected health zones – are at risk from Ebola itself and the breakdown of essential services in eastern Democratic Republic of the Congo (DRC), UNICEF warned today. “Our teams in Ituri have met children who have lost their mothers, and in some cases both parents, to Ebola,\" said UNICEF Executive Director Catherine Russell. \"Children are trying to make sense of the threat while surrounded by rumors and online misinformation.” Although the situation remains fluid, children and adolescents account for approximately 15 per cent of confirmed Ebola cases and over 25 per cent of confirmed deaths in eastern DRC as of 19 June. Children and adolescents with confirmed Ebola are almost twice as likely to die as adults, highlighting the disproportionate impact of the outbreak on younger populations. While testing capacity has recently improved, surveillance and contact tracing remain constrained,",
+      "keywords": [
+        {
+          "name": "children",
+          "value": 19
+        },
+        {
+          "name": "unicef",
+          "value": 15
+        },
+        {
+          "name": "ebola",
+          "value": 12
+        },
+        {
+          "name": "cases",
+          "value": 7
+        },
+        {
+          "name": "care",
+          "value": 6
+        },
+        {
+          "name": "confirmed",
+          "value": 6
+        },
+        {
+          "name": "including",
+          "value": 6
+        },
+        {
+          "name": "services",
+          "value": 6
+        },
+        {
+          "name": "adolescents",
+          "value": 5
+        },
+        {
+          "name": "health",
+          "value": 5
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Africa"
+      ],
+      "detail_path": "/evidence/8c58b86bb4563f94c4ac87ce22fe424bceb6994b296cc5b1c0bc12a044146af8",
+      "evidence_json": "/evidence/8c58b86bb4563f94c4ac87ce22fe424bceb6994b296cc5b1c0bc12a044146af8.json"
     },
     {
       "id": "9c6de96b80a9a3cac29481b56e6f3a70e2ae92f4dcfc905677ebf5c215e453f8",
@@ -3209,6 +3367,87 @@
       ],
       "detail_path": "/evidence/b91f64912cef63c437d8bf4e827d957940f713055501936a7f9622af352ec53e",
       "evidence_json": "/evidence/b91f64912cef63c437d8bf4e827d957940f713055501936a7f9622af352ec53e.json"
+    },
+    {
+      "id": "7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c",
+      "topic": "geopolitics",
+      "title": "Sudan - Concept of Operations, June 2026 (pdf)",
+      "url": "https://reliefweb.int/attachments/8a52d5f6-35e0-55c2-b1fd-317fea715771/sudanlcconcept-operationsjune2026english.pdf",
+      "host": "reliefweb.int",
+      "source": "https://reliefweb.int/updates/rss.xml",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-23T02:17:01.202519+00:00",
+      "published": "Mon, 22 Jun 2026 14:10:05 +0000",
+      "text_chars": 18711,
+      "raw_path": "data/geopolitics/raw/7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c.pdf",
+      "text_path": "data/geopolitics/raw/7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c.txt",
+      "summary": "The crisis has also exacerbated the humanitarian situation in Chad and South Sudan, both of which were already dealing with protracted emergencies. To address these logistical challenges and mitigate disruptions to the humanitarian supply chain, the Logistics Cluster has been scaling up its operations since 2023 (following its initial activation in 2020).",
+      "bullets": [
+        "The crisis has also exacerbated the humanitarian situation in Chad and South Sudan, both of which were already dealing with protracted emergencies.",
+        "To address these logistical challenges and mitigate disruptions to the humanitarian supply chain, the Logistics Cluster has been scaling up its operations since 2023 (following its initial activation in 2020).",
+        "Concept of Operations, June 2026 Sudan This Concept of Operations is a live document, and the activities will be adapted and revised as the situation unfolds and further assessment results become available, including the possible provision of additional logistics common services as required by the humanitarian community.",
+        "Background Since the outbreak of conflict between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) in April 2023, Sudan has faced one of the world’s largest humanitarian crises.",
+        "In 2026, 33.7 million people in Sudan require humanitarian assistance – an increase of 3.3 million from 2025 ."
+      ],
+      "excerpt": "Concept of Operations, June 2026 Sudan This Concept of Operations is a live document, and the activities will be adapted and revised as the situation unfolds and further assessment results become available, including the possible provision of additional logistics common services as required by the humanitarian community. Background Since the outbreak of conflict between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) in April 2023, Sudan has faced one of the world’s largest humanitarian crises. Nearly 8.9 million people are internally displaced – including more than 6.6 million displaced since the conflict began. This represents a 23 percent decrease from the peak of almost 11.6 million recorded in January 2025, reflecting increased returns, particularly to Khartoum and Al Jazirah. Nearly 4.6 million people have fled to neighbouring countries. The crisis has also exacerbated the humanitarian situation in Chad and South Sudan, both of which were already dealing with protracted emergencies. In 2026, 33.7 million people in Sudan require humanitarian assistance – an increase of 3.3 million from 2025 . Despite these overwhelming needs, access constraints, bureaucratic",
+      "keywords": [
+        {
+          "name": "logistics",
+          "value": 58
+        },
+        {
+          "name": "sudan",
+          "value": 39
+        },
+        {
+          "name": "humanitarian",
+          "value": 37
+        },
+        {
+          "name": "partners",
+          "value": 28
+        },
+        {
+          "name": "cluster",
+          "value": 25
+        },
+        {
+          "name": "operations",
+          "value": 24
+        },
+        {
+          "name": "services",
+          "value": 24
+        },
+        {
+          "name": "access",
+          "value": 18
+        },
+        {
+          "name": "concept",
+          "value": 18
+        },
+        {
+          "name": "including",
+          "value": 17
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Energy and Supply Chains",
+        "Humanitarian Pressure",
+        "Institutions and Law"
+      ],
+      "regions": [
+        "Africa",
+        "Global Institutions",
+        "Middle East"
+      ],
+      "file_asset": "/evidence-files/7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c.pdf",
+      "detail_path": "/evidence/7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c",
+      "evidence_json": "/evidence/7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c.json"
     },
     {
       "id": "c8e08079b334bd00e34296c4d7eb8af488d51f8917a4bcd827c1a1446d3db3ed",
@@ -8441,235 +8680,6 @@
       ],
       "detail_path": "/evidence/2fa0afbb9ba8e1864e1e7fd2c4b8807d2cd8b3992a7c9ae286c841f4f3468ba4",
       "evidence_json": "/evidence/2fa0afbb9ba8e1864e1e7fd2c4b8807d2cd8b3992a7c9ae286c841f4f3468ba4.json"
-    },
-    {
-      "id": "11c23b5cba989c6d637c6d944f30cc698c1f4700957fe6ee31694c883fb04ee3",
-      "topic": "geopolitics",
-      "title": "Gaza: Sneeze and you might get shot, warns UNICEF in alert on child killings (image)",
-      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/12-05-2026-UNICEF-Gaza.jpg/image560x340cropped.jpg",
-      "host": "global.unitednations.entermediadb.net",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "data_type": "images",
-      "format": "Image",
-      "content_type": "image/jpeg",
-      "collected_at": "2026-06-19T16:00:06.753130+00:00",
-      "published": "Fri, 19 Jun 2026 12:00:00 +0000",
-      "text_chars": 444,
-      "raw_path": "data/geopolitics/raw/11c23b5cba989c6d637c6d944f30cc698c1f4700957fe6ee31694c883fb04ee3.jpg",
-      "text_path": "data/geopolitics/raw/11c23b5cba989c6d637c6d944f30cc698c1f4700957fe6ee31694c883fb04ee3.txt",
-      "summary": "Binary images source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Binary images source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: Gaza: Sneeze and you might get shot, warns UNICEF in alert on child killings (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/12-05-2026-UNICEF-Gaza.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 44958",
-      "keywords": [
-        {
-          "name": "alert",
-          "value": 2
-        },
-        {
-          "name": "child",
-          "value": 2
-        },
-        {
-          "name": "entermediadb",
-          "value": 2
-        },
-        {
-          "name": "gaza",
-          "value": 2
-        },
-        {
-          "name": "killings",
-          "value": 2
-        },
-        {
-          "name": "might",
-          "value": 2
-        },
-        {
-          "name": "shot",
-          "value": 2
-        },
-        {
-          "name": "sneeze",
-          "value": 2
-        },
-        {
-          "name": "unicef",
-          "value": 2
-        },
-        {
-          "name": "unitednations",
-          "value": 2
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Middle East"
-      ],
-      "preview_asset": "/evidence-assets/11c23b5cba989c6d637c6d944f30cc698c1f4700957fe6ee31694c883fb04ee3.jpg",
-      "detail_path": "/evidence/11c23b5cba989c6d637c6d944f30cc698c1f4700957fe6ee31694c883fb04ee3",
-      "evidence_json": "/evidence/11c23b5cba989c6d637c6d944f30cc698c1f4700957fe6ee31694c883fb04ee3.json"
-    },
-    {
-      "id": "12dd74fae2663dc1423fd647ebbc3a185ab92edabddf7da7fbd61f98353c90db",
-      "topic": "geopolitics",
-      "title": "Survivors of wartime rape share stories of trauma and survival",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167767",
-      "host": "news.un.org",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-06-19T21:04:31.951263+00:00",
-      "published": "Fri, 19 Jun 2026 12:00:00 +0000",
-      "text_chars": 4892,
-      "raw_path": "data/geopolitics/raw/12dd74fae2663dc1423fd647ebbc3a185ab92edabddf7da7fbd61f98353c90db.html",
-      "text_path": "data/geopolitics/raw/12dd74fae2663dc1423fd647ebbc3a185ab92edabddf7da7fbd61f98353c90db.txt",
-      "summary": "The vast majority of these acts of degrading brutality go unreported, but for those who do come forward, support provided by United Nations partners can begin to heal the psychological wounds. A grave violation of international humanitarian law, this form of violence has become a tactic of war, used to terrorize civilians, punish communities, and force people from their homes.",
-      "bullets": [
-        "The vast majority of these acts of degrading brutality go unreported, but for those who do come forward, support provided by United Nations partners can begin to heal the psychological wounds.",
-        "A grave violation of international humanitarian law, this form of violence has become a tactic of war, used to terrorize civilians, punish communities, and force people from their homes.",
-        "Shadia* - ‘They took our dignity’ In Sudan, Shadia said she was assaulted while looking for vegetables outside the city of El Fasher, which was captured by the anti-Government RSF militia last October following 18 months of siege.",
-        "Her attackers “robbed us, beat us, and then took our dignity,” she said.",
-        "As Russian forces tightened control over the area, soldiers repeatedly entered her property in 2022, looted her business, and threatened her family."
-      ],
-      "excerpt": "The vast majority of these acts of degrading brutality go unreported, but for those who do come forward, support provided by United Nations partners can begin to heal the psychological wounds. Four survivors spoke to the UN ahead of the International Day for the Elimination of Sexual Violence in Conflict, marked annually on 19 June. Kateryna* - ‘I stopped resisting and he raped me’ “I thought if they killed me, our son would lose both parents, so I stopped resisting and he raped me.” © UNOCHA/Ximena Borrazas Kateryna sits on the bed in the room where she was sexually assaulted by a Russian soldier. Kateryna lived under occupation in the Kherson Region in Ukraine. As Russian forces tightened control over the area, soldiers repeatedly entered her property in 2022, looted her business, and threatened her family. The violence she endured was part of a broader pattern of conflict-related sexual violence documented by international organizations and Ukrainian authorities. A grave violation of international humanitarian law, this form of violence has become a tactic of war, used to terrorize civilians, punish communities, and force people from their homes. Noor* - ‘The abuse was relentles",
-      "keywords": [
-        {
-          "name": "survivors",
-          "value": 10
-        },
-        {
-          "name": "violence",
-          "value": 9
-        },
-        {
-          "name": "raped",
-          "value": 6
-        },
-        {
-          "name": "sexual",
-          "value": 6
-        },
-        {
-          "name": "support",
-          "value": 6
-        },
-        {
-          "name": "children",
-          "value": 4
-        },
-        {
-          "name": "conflict",
-          "value": 4
-        },
-        {
-          "name": "kateryna",
-          "value": 4
-        },
-        {
-          "name": "noor",
-          "value": 4
-        },
-        {
-          "name": "rape",
-          "value": 4
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Africa",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/12dd74fae2663dc1423fd647ebbc3a185ab92edabddf7da7fbd61f98353c90db",
-      "evidence_json": "/evidence/12dd74fae2663dc1423fd647ebbc3a185ab92edabddf7da7fbd61f98353c90db.json"
-    },
-    {
-      "id": "34e7e9f5e388947434c4095ff389ffe6986e104b1b7b3dbe4b95b9e5c41e40c1",
-      "topic": "geopolitics",
-      "title": "UN welcomes fresh Lebanon ceasefire reports as rights experts urge Iran accountability",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167768",
-      "host": "news.un.org",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-06-19T21:04:09.217677+00:00",
-      "published": "Fri, 19 Jun 2026 12:00:00 +0000",
-      "text_chars": 3893,
-      "raw_path": "data/geopolitics/raw/34e7e9f5e388947434c4095ff389ffe6986e104b1b7b3dbe4b95b9e5c41e40c1.html",
-      "text_path": "data/geopolitics/raw/34e7e9f5e388947434c4095ff389ffe6986e104b1b7b3dbe4b95b9e5c41e40c1.txt",
-      "summary": "The continued fighting between Israeli forces operating inside southern Lebanon and Hezbollah has tested the provisional agreement signed by Washington and Tehran this week, which includes the demand for a ceasefire on all fronts, including Lebanon. In the coastal city of Saida, French and UK development ministers joined the UN humanitarian and resident coordinator, Imran Riza, for a joint visit to a collective shelter, where site managers reported that many families who had left following the recent agreement were returning.",
-      "bullets": [
-        "The continued fighting between Israeli forces operating inside southern Lebanon and Hezbollah has tested the provisional agreement signed by Washington and Tehran this week, which includes the demand for a ceasefire on all fronts, including Lebanon.",
-        "In the coastal city of Saida, French and UK development ministers joined the UN humanitarian and resident coordinator, Imran Riza, for a joint visit to a collective shelter, where site managers reported that many families who had left following the recent agreement were returning.",
-        "Israel has indicated it is not bound by the deal, and neither Israel nor Hezbollah have publicly confirmed the renewed ceasefire commitment, according to reports.",
-        "Diplomats reported that talks to advance the provisional deal between the US and Iran in Switzerland had been postponed due to Israeli strikes on Lebanon Friday.",
-        "UNIFIL recorded 748 trajectories – 695 attributed to Israeli forces and 53 to non-State actors – along with 49 airspace violations and 51 airstrikes by Israeli forces as well as continued Israeli ground activity, including armoured movements and logistical operations."
-      ],
-      "excerpt": "UN Spokesperson Stéphane Dujarric told journalists at the noon briefing in New York that the UN was “aware of reports indicating that Israel and Hezbollah have agreed to a ceasefire” and welcomed the development while renewing calls on all parties “to cease hostilities, respect existing ceasefire arrangements and pursue dialogue as the only viable path to long-term security and stability”. The continued fighting between Israeli forces operating inside southern Lebanon and Hezbollah has tested the provisional agreement signed by Washington and Tehran this week, which includes the demand for a ceasefire on all fronts, including Lebanon. Israel has indicated it is not bound by the deal, and neither Israel nor Hezbollah have publicly confirmed the renewed ceasefire commitment, according to reports. Diplomats reported that talks to advance the provisional deal between the US and Iran in Switzerland had been postponed due to Israeli strikes on Lebanon Friday. UN peacekeeping mission ‘in constant contact’ The UN Interim Force in Lebanon ( UNIFIL ) confirmed its leadership was in constant contact with the parties through the agreed mechanism, though its own figures underscored how far from",
-      "keywords": [
-        {
-          "name": "ceasefire",
-          "value": 6
-        },
-        {
-          "name": "experts",
-          "value": 6
-        },
-        {
-          "name": "israeli",
-          "value": 6
-        },
-        {
-          "name": "lebanon",
-          "value": 5
-        },
-        {
-          "name": "rights",
-          "value": 5
-        },
-        {
-          "name": "forces",
-          "value": 4
-        },
-        {
-          "name": "friday",
-          "value": 4
-        },
-        {
-          "name": "hezbollah",
-          "value": 4
-        },
-        {
-          "name": "iran",
-          "value": 4
-        },
-        {
-          "name": "israel",
-          "value": 4
-        }
-      ],
-      "signals": [
-        "Diplomacy and Negotiations",
-        "Humanitarian Pressure",
-        "War and Escalation",
-        "Sanctions and Finance"
-      ],
-      "regions": [
-        "Middle East",
-        "Americas",
-        "Europe and Russia"
-      ],
-      "detail_path": "/evidence/34e7e9f5e388947434c4095ff389ffe6986e104b1b7b3dbe4b95b9e5c41e40c1",
-      "evidence_json": "/evidence/34e7e9f5e388947434c4095ff389ffe6986e104b1b7b3dbe4b95b9e5c41e40c1.json"
     }
   ],
   "deep_reads": [
@@ -8683,7 +8693,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-22T23:14:28.493924+00:00",
+      "collected_at": "2026-06-23T02:16:39.520416+00:00",
       "published": "",
       "text_chars": 9092094,
       "raw_path": "data/geopolitics/raw/441dc51f4123c775eb9e2704d0934ebc66cc11622ade12461f8c75227937c93e.xml",
@@ -9803,7 +9813,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-22T23:13:51.611515+00:00",
+      "collected_at": "2026-06-23T02:16:00.216087+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -9878,7 +9888,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-22T23:13:51.328075+00:00",
+      "collected_at": "2026-06-23T02:16:00.498961+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -10917,7 +10927,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-22T23:14:39.101590+00:00",
+      "collected_at": "2026-06-23T02:16:47.678175+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -10989,76 +10999,6 @@
       "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-22T23:14:31.216342+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
       "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
       "topic": "geopolitics",
       "title": "The World Factbook",
@@ -11068,7 +11008,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-22T23:14:31.191984+00:00",
+      "collected_at": "2026-06-23T02:16:42.400591+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
@@ -11141,7 +11081,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-22T23:14:31.170936+00:00",
+      "collected_at": "2026-06-23T02:16:42.361286+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -11213,6 +11153,76 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-23T02:16:41.592211+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -11222,7 +11232,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-22T23:14:30.458578+00:00",
+      "collected_at": "2026-06-23T02:16:41.566625+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11303,7 +11313,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-22T23:14:28.493924+00:00",
+      "collected_at": "2026-06-23T02:16:39.520416+00:00",
       "published": "",
       "text_chars": 9092094,
       "raw_path": "data/geopolitics/raw/441dc51f4123c775eb9e2704d0934ebc66cc11622ade12461f8c75227937c93e.xml",
@@ -11383,7 +11393,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-22T23:13:56.214617+00:00",
+      "collected_at": "2026-06-23T02:16:04.500418+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.xml",
@@ -11463,7 +11473,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-22T23:13:53.428048+00:00",
+      "collected_at": "2026-06-23T02:16:02.537053+00:00",
       "published": "",
       "text_chars": 824644,
       "raw_path": "data/geopolitics/raw/65e13115149aa9e9735fe85932b7891b94e1fd359bf9d2f168fc4f72e1644e8e.xml",
@@ -11534,81 +11544,6 @@
       "evidence_json": "/evidence/65e13115149aa9e9735fe85932b7891b94e1fd359bf9d2f168fc4f72e1644e8e.json"
     },
     {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-22T23:13:51.611515+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -11618,7 +11553,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-22T23:13:51.328075+00:00",
+      "collected_at": "2026-06-23T02:16:00.498961+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -11684,6 +11619,81 @@
       ],
       "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-23T02:16:00.216087+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
     },
     {
       "id": "6a5084d85ab91a7cace7ab1de3e36fe040ed976db9ee0d6b025db0a9e8f03847",
@@ -11925,6 +11935,87 @@
       ],
       "detail_path": "/evidence/ccc3ff520c15947ba62c2e4b2dbe9bb536ab2664c73765df8dae9e9eff70bd91",
       "evidence_json": "/evidence/ccc3ff520c15947ba62c2e4b2dbe9bb536ab2664c73765df8dae9e9eff70bd91.json"
+    },
+    {
+      "id": "7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c",
+      "topic": "geopolitics",
+      "title": "Sudan - Concept of Operations, June 2026 (pdf)",
+      "url": "https://reliefweb.int/attachments/8a52d5f6-35e0-55c2-b1fd-317fea715771/sudanlcconcept-operationsjune2026english.pdf",
+      "host": "reliefweb.int",
+      "source": "https://reliefweb.int/updates/rss.xml",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-23T02:17:01.202519+00:00",
+      "published": "Mon, 22 Jun 2026 14:10:05 +0000",
+      "text_chars": 18711,
+      "raw_path": "data/geopolitics/raw/7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c.pdf",
+      "text_path": "data/geopolitics/raw/7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c.txt",
+      "summary": "The crisis has also exacerbated the humanitarian situation in Chad and South Sudan, both of which were already dealing with protracted emergencies. To address these logistical challenges and mitigate disruptions to the humanitarian supply chain, the Logistics Cluster has been scaling up its operations since 2023 (following its initial activation in 2020).",
+      "bullets": [
+        "The crisis has also exacerbated the humanitarian situation in Chad and South Sudan, both of which were already dealing with protracted emergencies.",
+        "To address these logistical challenges and mitigate disruptions to the humanitarian supply chain, the Logistics Cluster has been scaling up its operations since 2023 (following its initial activation in 2020).",
+        "Concept of Operations, June 2026 Sudan This Concept of Operations is a live document, and the activities will be adapted and revised as the situation unfolds and further assessment results become available, including the possible provision of additional logistics common services as required by the humanitarian community.",
+        "Background Since the outbreak of conflict between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) in April 2023, Sudan has faced one of the world’s largest humanitarian crises.",
+        "In 2026, 33.7 million people in Sudan require humanitarian assistance – an increase of 3.3 million from 2025 ."
+      ],
+      "excerpt": "Concept of Operations, June 2026 Sudan This Concept of Operations is a live document, and the activities will be adapted and revised as the situation unfolds and further assessment results become available, including the possible provision of additional logistics common services as required by the humanitarian community. Background Since the outbreak of conflict between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) in April 2023, Sudan has faced one of the world’s largest humanitarian crises. Nearly 8.9 million people are internally displaced – including more than 6.6 million displaced since the conflict began. This represents a 23 percent decrease from the peak of almost 11.6 million recorded in January 2025, reflecting increased returns, particularly to Khartoum and Al Jazirah. Nearly 4.6 million people have fled to neighbouring countries. The crisis has also exacerbated the humanitarian situation in Chad and South Sudan, both of which were already dealing with protracted emergencies. In 2026, 33.7 million people in Sudan require humanitarian assistance – an increase of 3.3 million from 2025 . Despite these overwhelming needs, access constraints, bureaucratic",
+      "keywords": [
+        {
+          "name": "logistics",
+          "value": 58
+        },
+        {
+          "name": "sudan",
+          "value": 39
+        },
+        {
+          "name": "humanitarian",
+          "value": 37
+        },
+        {
+          "name": "partners",
+          "value": 28
+        },
+        {
+          "name": "cluster",
+          "value": 25
+        },
+        {
+          "name": "operations",
+          "value": 24
+        },
+        {
+          "name": "services",
+          "value": 24
+        },
+        {
+          "name": "access",
+          "value": 18
+        },
+        {
+          "name": "concept",
+          "value": 18
+        },
+        {
+          "name": "including",
+          "value": 17
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Energy and Supply Chains",
+        "Humanitarian Pressure",
+        "Institutions and Law"
+      ],
+      "regions": [
+        "Africa",
+        "Global Institutions",
+        "Middle East"
+      ],
+      "file_asset": "/evidence-files/7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c.pdf",
+      "detail_path": "/evidence/7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c",
+      "evidence_json": "/evidence/7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c.json"
     },
     {
       "id": "eabbb9e95421055b29cd1e06d15d43538ca1045c1d2a70cfe0a78540ee934766",
@@ -13680,82 +13771,6 @@
       "file_asset": "/evidence-files/c8d9aead8385b3c408e0f9c99ffb6a1ff15c108d1f0829673860bdc1709b1916.pdf",
       "detail_path": "/evidence/c8d9aead8385b3c408e0f9c99ffb6a1ff15c108d1f0829673860bdc1709b1916",
       "evidence_json": "/evidence/c8d9aead8385b3c408e0f9c99ffb6a1ff15c108d1f0829673860bdc1709b1916.json"
-    },
-    {
-      "id": "201a16ec2b61b82835e2771b24595e92162b15f4fc2045ad727baad936727318",
-      "topic": "geopolitics",
-      "title": "REACH Afghanistan Quarterly Food Security Monitoring (QFSM), Methodology Note (June 2026) (pdf)",
-      "url": "https://reliefweb.int/attachments/97a55849-beee-4243-ae94-4224ceef2b5d/REACH_AFG_Methodology-Note_QFSM_June-2026.pdf",
-      "host": "reliefweb.int",
-      "source": "https://reliefweb.int/updates/rss.xml",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-17T11:31:58.199507+00:00",
-      "published": "Wed, 17 Jun 2026 10:02:02 +0000",
-      "text_chars": 16460,
-      "raw_path": "data/geopolitics/raw/201a16ec2b61b82835e2771b24595e92162b15f4fc2045ad727baad936727318.pdf",
-      "text_path": "data/geopolitics/raw/201a16ec2b61b82835e2771b24595e92162b15f4fc2045ad727baad936727318.txt",
-      "summary": "Although the framework will mainly rely on data from REACH’s quarterly Humanitarian Situation Monitoring, other data sources may be considered1, such as market data from the Joint Market Monitoring Initiative (JMMI). 1 Additional data sources that will be considered include WFP-VAM’s Market Bulletin Data, remote-sensing data analyzed by Alcis, as well as community-based early warning signed identified by the Community Driven Development Organization.",
-      "bullets": [
-        "Although the framework will mainly rely on data from REACH’s quarterly Humanitarian Situation Monitoring, other data sources may be considered1, such as market data from the Joint Market Monitoring Initiative (JMMI).",
-        "1 Additional data sources that will be considered include WFP-VAM’s Market Bulletin Data, remote-sensing data analyzed by Alcis, as well as community-based early warning signed identified by the Community Driven Development Organization.",
-        "Background Considering the high levels of needs amidst limited available resources as well as seasonal and geographic variations affecting Afghanistan, REACH proposes to jointly develop an analytical framework with WFP to monitor food insecurity across the country in near-real time.",
-        "QFSM analysis and findings support WFP’s early warning system in identifying districts at risk of food security deterioration.",
-        "www.reach-initiative.org 1 Quarterly Food Security Monitoring Methodology Note Afghanistan | March 2026 In addition to the NMF, the QFSM will help to delve deeper into the food security pillar of the NMF, in collaboration with WFP."
-      ],
-      "excerpt": "www.reach-initiative.org 1 Quarterly Food Security Monitoring Methodology Note Afghanistan | March 2026 In addition to the NMF, the QFSM will help to delve deeper into the food security pillar of the NMF, in collaboration with WFP. The motivation behind this is to be able to provide more detailed sectoral information to meet individual cluster needs. QFSM analysis and findings support WFP’s early warning system in identifying districts at risk of food security deterioration. These findings help trigger rapid needs assessments, including WFP Rapid Needs Assessments (RNA) and REACH Rapid Food Security As sessments (RFSA) (see ToR). The combination of QFSM monitoring with subsequent targeted data collection strengthens real -time monitoring of the food security situation across the country. Background Considering the high levels of needs amidst limited available resources as well as seasonal and geographic variations affecting Afghanistan, REACH proposes to jointly develop an analytical framework with WFP to monitor food insecurity across the country in near-real time. This will be critical to support a targeted response with subnational prioritization and possibly detect pockets at h",
-      "keywords": [
-        {
-          "name": "food",
-          "value": 79
-        },
-        {
-          "name": "security",
-          "value": 28
-        },
-        {
-          "name": "district",
-          "value": 26
-        },
-        {
-          "name": "monitoring",
-          "value": 26
-        },
-        {
-          "name": "framework",
-          "value": 25
-        },
-        {
-          "name": "severity",
-          "value": 22
-        },
-        {
-          "name": "access",
-          "value": 21
-        },
-        {
-          "name": "settlements",
-          "value": 21
-        },
-        {
-          "name": "needs",
-          "value": 19
-        },
-        {
-          "name": "data",
-          "value": 18
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Energy and Supply Chains",
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "file_asset": "/evidence-files/201a16ec2b61b82835e2771b24595e92162b15f4fc2045ad727baad936727318.pdf",
-      "detail_path": "/evidence/201a16ec2b61b82835e2771b24595e92162b15f4fc2045ad727baad936727318",
-      "evidence_json": "/evidence/201a16ec2b61b82835e2771b24595e92162b15f4fc2045ad727baad936727318.json"
     }
   ],
   "visual_evidence": [
@@ -15471,7 +15486,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-22T23:14:39.101590+00:00",
+      "collected_at": "2026-06-23T02:16:47.678175+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -15543,76 +15558,6 @@
       "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-22T23:14:31.216342+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
       "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
       "topic": "geopolitics",
       "title": "The World Factbook",
@@ -15622,7 +15567,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-06-22T23:14:31.191984+00:00",
+      "collected_at": "2026-06-23T02:16:42.400591+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
@@ -15695,7 +15640,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-22T23:14:31.170936+00:00",
+      "collected_at": "2026-06-23T02:16:42.361286+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15767,6 +15712,76 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-23T02:16:41.592211+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -15776,7 +15791,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-22T23:14:30.458578+00:00",
+      "collected_at": "2026-06-23T02:16:41.566625+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15857,7 +15872,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-22T23:14:28.493924+00:00",
+      "collected_at": "2026-06-23T02:16:39.520416+00:00",
       "published": "",
       "text_chars": 9092094,
       "raw_path": "data/geopolitics/raw/441dc51f4123c775eb9e2704d0934ebc66cc11622ade12461f8c75227937c93e.xml",
@@ -15937,7 +15952,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-22T23:13:56.214617+00:00",
+      "collected_at": "2026-06-23T02:16:04.500418+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.xml",
@@ -16017,7 +16032,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-22T23:13:53.428048+00:00",
+      "collected_at": "2026-06-23T02:16:02.537053+00:00",
       "published": "",
       "text_chars": 824644,
       "raw_path": "data/geopolitics/raw/65e13115149aa9e9735fe85932b7891b94e1fd359bf9d2f168fc4f72e1644e8e.xml",
@@ -16088,81 +16103,6 @@
       "evidence_json": "/evidence/65e13115149aa9e9735fe85932b7891b94e1fd359bf9d2f168fc4f72e1644e8e.json"
     },
     {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-22T23:13:51.611515+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -16172,7 +16112,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-22T23:13:51.328075+00:00",
+      "collected_at": "2026-06-23T02:16:00.498961+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -16238,6 +16178,158 @@
       ],
       "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-23T02:16:00.216087+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
+    },
+    {
+      "id": "490c8ff55f5ff036f7819d3ddc75005e69242040d6c93807c6dd008e234618f7",
+      "topic": "geopolitics",
+      "title": "World: United Nations High-Level Meeting on HIV/AIDS opens as UNAIDS urges countries to firmly commit to ending AIDS by 2030",
+      "url": "https://reliefweb.int/report/world/united-nations-high-level-meeting-hivaids-opens-unaids-urges-countries-firmly-commit-ending-aids-2030",
+      "host": "reliefweb.int",
+      "source": "https://reliefweb.int/updates/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-23T02:17:07.837790+00:00",
+      "published": "Mon, 22 Jun 2026 22:03:06 +0000",
+      "text_chars": 6252,
+      "raw_path": "data/geopolitics/raw/490c8ff55f5ff036f7819d3ddc75005e69242040d6c93807c6dd008e234618f7.html",
+      "text_path": "data/geopolitics/raw/490c8ff55f5ff036f7819d3ddc75005e69242040d6c93807c6dd008e234618f7.txt",
+      "summary": "GENEVA, 22 June 2026 —The United Nations High-Level Meeting on HIV/AIDS opened today at a moment of incertitude for the global AIDS response. “The global multilateral response to HIV has become not only one of the United Nations’ greatest success stories, but one of the most remarkable achievements in the history of public global health,” said Annalena Baerbock, President of the United Nations General Assembly.",
+      "bullets": [
+        "GENEVA, 22 June 2026 —The United Nations High-Level Meeting on HIV/AIDS opened today at a moment of incertitude for the global AIDS response.",
+        "“The global multilateral response to HIV has become not only one of the United Nations’ greatest success stories, but one of the most remarkable achievements in the history of public global health,” said Annalena Baerbock, President of the United Nations General Assembly.",
+        "“This meeting is a chance to demonstrate that, even in difficult times, the international community can rally, once again, around science, around human dignity, solidarity and shared responsibility,” said Amina Mohammed, Deputy Secretary-General of the United Nations, delivering remarks on behalf of the UN Secretary-General.",
+        "Global leaders face a defining question: will the world protect hard-won gains and accelerate towards ending AIDS?",
+        "Let us move forward together—with a sense of urgency, with solidarity and with ambition.” Recent funding cuts from multiple donors have severely impacted HIV prevention and community-led services, and criminalization of key populations is increasing for the first time since UNAIDS began tracking these trends."
+      ],
+      "excerpt": "GENEVA, 22 June 2026 —The United Nations High-Level Meeting on HIV/AIDS opened today at a moment of incertitude for the global AIDS response. Decades of progress have delivered what once seemed impossible: millions of lives saved, new HIV infections reduced, and treatment expanded around the world. However, as global leaders gather in New York to adopt a new UN Political Declaration on HIV/AIDS, the last Declaration before the goal of ending AIDS as a public health threat by 2030, that progress is increasingly threatened due to funding cuts and a push back on human rights. Global leaders face a defining question: will the world protect hard-won gains and accelerate towards ending AIDS? “This Political Declaration is our chance to build on 25 years of commitment and point the way to 2030 to show that multilateralism can deliver,” said Winnie Byanyima, Executive Director of UNAIDS. “We cannot fail, because we know what we must do: commit to multilateralism; sustain international financing as countries mobilize their own resources; protect the rights of people living with HIV; let communities lead for their people; and spur the science, so that innovations reach everyone in need as fa",
+      "keywords": [
+        {
+          "name": "aids",
+          "value": 19
+        },
+        {
+          "name": "unaids",
+          "value": 11
+        },
+        {
+          "name": "nations",
+          "value": 7
+        },
+        {
+          "name": "united",
+          "value": 7
+        },
+        {
+          "name": "world",
+          "value": 7
+        },
+        {
+          "name": "meeting",
+          "value": 6
+        },
+        {
+          "name": "declaration",
+          "value": 5
+        },
+        {
+          "name": "health",
+          "value": 5
+        },
+        {
+          "name": "ending",
+          "value": 4
+        },
+        {
+          "name": "funding",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law"
+      ],
+      "regions": [
+        "Global Institutions",
+        "Africa"
+      ],
+      "detail_path": "/evidence/490c8ff55f5ff036f7819d3ddc75005e69242040d6c93807c6dd008e234618f7",
+      "evidence_json": "/evidence/490c8ff55f5ff036f7819d3ddc75005e69242040d6c93807c6dd008e234618f7.json"
     },
     {
       "id": "6a5084d85ab91a7cace7ab1de3e36fe040ed976db9ee0d6b025db0a9e8f03847",
@@ -16711,6 +16803,81 @@
       ],
       "detail_path": "/evidence/39e182b7b81dfa350c2db98a7013d0db4c1599fa5a3109d2d3fa2ad844f41d84",
       "evidence_json": "/evidence/39e182b7b81dfa350c2db98a7013d0db4c1599fa5a3109d2d3fa2ad844f41d84.json"
+    },
+    {
+      "id": "8c58b86bb4563f94c4ac87ce22fe424bceb6994b296cc5b1c0bc12a044146af8",
+      "topic": "geopolitics",
+      "title": "As Ebola cases hit 1,000, almost 3 million children and adolescents face rising risks in eastern DR Congo",
+      "url": "https://reliefweb.int/report/democratic-republic-congo/ebola-cases-hit-1000-almost-3-million-children-and-adolescents-face-rising-risks-eastern-dr-congo",
+      "host": "reliefweb.int",
+      "source": "https://reliefweb.int/updates/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-23T02:17:05.083543+00:00",
+      "published": "Mon, 22 Jun 2026 16:33:08 +0000",
+      "text_chars": 4991,
+      "raw_path": "data/geopolitics/raw/8c58b86bb4563f94c4ac87ce22fe424bceb6994b296cc5b1c0bc12a044146af8.html",
+      "text_path": "data/geopolitics/raw/8c58b86bb4563f94c4ac87ce22fe424bceb6994b296cc5b1c0bc12a044146af8.txt",
+      "summary": "“Our teams in Ituri have met children who have lost their mothers, and in some cases both parents, to Ebola,\" said UNICEF Executive Director Catherine Russell. Infectious disease outbreaks also increase the risk of violence, including sexual violence, against women and girls. In eastern DRC, these risks are compounded by years of conflict and mass displacement, which have long exposed children to violence, exploitation, and other protection risks.",
+      "bullets": [
+        "“Our teams in Ituri have met children who have lost their mothers, and in some cases both parents, to Ebola,\" said UNICEF Executive Director Catherine Russell.",
+        "Infectious disease outbreaks also increase the risk of violence, including sexual violence, against women and girls.",
+        "In eastern DRC, these risks are compounded by years of conflict and mass displacement, which have long exposed children to violence, exploitation, and other protection risks.",
+        "In DRC and Uganda, UNICEF is supporting the government and partners, including WHO and Africa CDC, to contain the outbreak through infection prevention and control, contact tracing, safe and dignified burials, and community engagement, including with young people and community leaders.",
+        "\"Children are trying to make sense of the threat while surrounded by rumors and online misinformation.” Although the situation remains fluid, children and adolescents account for approximately 15 per cent of confirmed Ebola cases and over 25 per cent of confirmed deaths in eastern DRC as of 19 June."
+      ],
+      "excerpt": "Ebola has left over 130 children orphaned in Ituri, driving urgent need for protection and care NEW YORK/KAMPALA/KINSHASA, 22 June 2026 – As global confirmed Ebola cases reach 1,000, an estimated 2.95 million children and adolescents aged 18 and under – representing 54 per cent of the population in 31 affected health zones – are at risk from Ebola itself and the breakdown of essential services in eastern Democratic Republic of the Congo (DRC), UNICEF warned today. “Our teams in Ituri have met children who have lost their mothers, and in some cases both parents, to Ebola,\" said UNICEF Executive Director Catherine Russell. \"Children are trying to make sense of the threat while surrounded by rumors and online misinformation.” Although the situation remains fluid, children and adolescents account for approximately 15 per cent of confirmed Ebola cases and over 25 per cent of confirmed deaths in eastern DRC as of 19 June. Children and adolescents with confirmed Ebola are almost twice as likely to die as adults, highlighting the disproportionate impact of the outbreak on younger populations. While testing capacity has recently improved, surveillance and contact tracing remain constrained,",
+      "keywords": [
+        {
+          "name": "children",
+          "value": 19
+        },
+        {
+          "name": "unicef",
+          "value": 15
+        },
+        {
+          "name": "ebola",
+          "value": 12
+        },
+        {
+          "name": "cases",
+          "value": 7
+        },
+        {
+          "name": "care",
+          "value": 6
+        },
+        {
+          "name": "confirmed",
+          "value": 6
+        },
+        {
+          "name": "including",
+          "value": 6
+        },
+        {
+          "name": "services",
+          "value": 6
+        },
+        {
+          "name": "adolescents",
+          "value": 5
+        },
+        {
+          "name": "health",
+          "value": 5
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Africa"
+      ],
+      "detail_path": "/evidence/8c58b86bb4563f94c4ac87ce22fe424bceb6994b296cc5b1c0bc12a044146af8",
+      "evidence_json": "/evidence/8c58b86bb4563f94c4ac87ce22fe424bceb6994b296cc5b1c0bc12a044146af8.json"
     },
     {
       "id": "9c6de96b80a9a3cac29481b56e6f3a70e2ae92f4dcfc905677ebf5c215e453f8",
@@ -17189,6 +17356,87 @@
       ],
       "detail_path": "/evidence/b91f64912cef63c437d8bf4e827d957940f713055501936a7f9622af352ec53e",
       "evidence_json": "/evidence/b91f64912cef63c437d8bf4e827d957940f713055501936a7f9622af352ec53e.json"
+    },
+    {
+      "id": "7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c",
+      "topic": "geopolitics",
+      "title": "Sudan - Concept of Operations, June 2026 (pdf)",
+      "url": "https://reliefweb.int/attachments/8a52d5f6-35e0-55c2-b1fd-317fea715771/sudanlcconcept-operationsjune2026english.pdf",
+      "host": "reliefweb.int",
+      "source": "https://reliefweb.int/updates/rss.xml",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-23T02:17:01.202519+00:00",
+      "published": "Mon, 22 Jun 2026 14:10:05 +0000",
+      "text_chars": 18711,
+      "raw_path": "data/geopolitics/raw/7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c.pdf",
+      "text_path": "data/geopolitics/raw/7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c.txt",
+      "summary": "The crisis has also exacerbated the humanitarian situation in Chad and South Sudan, both of which were already dealing with protracted emergencies. To address these logistical challenges and mitigate disruptions to the humanitarian supply chain, the Logistics Cluster has been scaling up its operations since 2023 (following its initial activation in 2020).",
+      "bullets": [
+        "The crisis has also exacerbated the humanitarian situation in Chad and South Sudan, both of which were already dealing with protracted emergencies.",
+        "To address these logistical challenges and mitigate disruptions to the humanitarian supply chain, the Logistics Cluster has been scaling up its operations since 2023 (following its initial activation in 2020).",
+        "Concept of Operations, June 2026 Sudan This Concept of Operations is a live document, and the activities will be adapted and revised as the situation unfolds and further assessment results become available, including the possible provision of additional logistics common services as required by the humanitarian community.",
+        "Background Since the outbreak of conflict between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) in April 2023, Sudan has faced one of the world’s largest humanitarian crises.",
+        "In 2026, 33.7 million people in Sudan require humanitarian assistance – an increase of 3.3 million from 2025 ."
+      ],
+      "excerpt": "Concept of Operations, June 2026 Sudan This Concept of Operations is a live document, and the activities will be adapted and revised as the situation unfolds and further assessment results become available, including the possible provision of additional logistics common services as required by the humanitarian community. Background Since the outbreak of conflict between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) in April 2023, Sudan has faced one of the world’s largest humanitarian crises. Nearly 8.9 million people are internally displaced – including more than 6.6 million displaced since the conflict began. This represents a 23 percent decrease from the peak of almost 11.6 million recorded in January 2025, reflecting increased returns, particularly to Khartoum and Al Jazirah. Nearly 4.6 million people have fled to neighbouring countries. The crisis has also exacerbated the humanitarian situation in Chad and South Sudan, both of which were already dealing with protracted emergencies. In 2026, 33.7 million people in Sudan require humanitarian assistance – an increase of 3.3 million from 2025 . Despite these overwhelming needs, access constraints, bureaucratic",
+      "keywords": [
+        {
+          "name": "logistics",
+          "value": 58
+        },
+        {
+          "name": "sudan",
+          "value": 39
+        },
+        {
+          "name": "humanitarian",
+          "value": 37
+        },
+        {
+          "name": "partners",
+          "value": 28
+        },
+        {
+          "name": "cluster",
+          "value": 25
+        },
+        {
+          "name": "operations",
+          "value": 24
+        },
+        {
+          "name": "services",
+          "value": 24
+        },
+        {
+          "name": "access",
+          "value": 18
+        },
+        {
+          "name": "concept",
+          "value": 18
+        },
+        {
+          "name": "including",
+          "value": 17
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Energy and Supply Chains",
+        "Humanitarian Pressure",
+        "Institutions and Law"
+      ],
+      "regions": [
+        "Africa",
+        "Global Institutions",
+        "Middle East"
+      ],
+      "file_asset": "/evidence-files/7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c.pdf",
+      "detail_path": "/evidence/7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c",
+      "evidence_json": "/evidence/7e1378b31c11529424a63b0c58a987998d89bcb90ec6b4cbb3f977ffe738413c.json"
     },
     {
       "id": "c8e08079b334bd00e34296c4d7eb8af488d51f8917a4bcd827c1a1446d3db3ed",
