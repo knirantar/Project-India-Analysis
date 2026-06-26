@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-06-26T18:25:54.923135+00:00",
+  "generated_at": "2026-06-26T20:31:20.589200+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating tensions in the Middle East and Europe highlight urgent geopolitical challenges.",
+    "headline": "Geopolitical Tensions Escalate Amid Ongoing Conflicts and Humanitarian Crises.",
     "executive_summary": [
-      "Recent developments in the Middle East, particularly the ongoing conflict involving Iran and Israel, have intensified humanitarian pressures and raised concerns over regional stability. The United Nations has reported significant casualties among Palestinians, with over 1,100 deaths since the escalation of violence in October 2023, underscoring the dire humanitarian situation in the occupied territories (evidence id: 13).",
-      "In Europe, NATO's military exercises in the Arctic reflect heightened concerns over Russian military capabilities and the need for collective defense strategies among member states. The Arctic Sentry initiative aims to bolster NATO's northern flank amid increasing Russian assertiveness in the region (evidence id: 9).",
-      "The economic implications of the ongoing conflicts are profound, with energy prices fluctuating due to disruptions in the Strait of Hormuz, a critical chokepoint for global oil supplies. The war has led to significant profits for energy firms, highlighting the intersection of military conflict and economic interests (evidence id: 27).",
-      "As diplomatic negotiations continue, particularly regarding Iran's nuclear program, the need for robust verification mechanisms has been emphasized by the International Atomic Energy Agency (IAEA). The agency's calls for access to Iranian nuclear sites are critical for ensuring compliance with international agreements (evidence id: 26)."
+      "Recent developments in the Middle East highlight a significant escalation in military operations, particularly in the context of the ongoing conflict involving Israel and Palestinian territories. Reports indicate that over 1,100 Palestinians, including numerous children, have been killed since the onset of heightened military actions following the Hamas-led attack on Israel, underscoring the severe humanitarian impact of the conflict (evidence id: 14).",
+      "In the Arctic region, NATO allies are intensifying military exercises in response to Russia's growing military presence and modernization efforts. The Arctic Sentry initiative aims to bolster defense capabilities against potential threats, reflecting a shift in strategic priorities as climate change opens new routes and increases geopolitical competition (evidence id: 11).",
+      "Iran's geopolitical maneuvering continues to evolve, with recent statements condemning US-GCC joint declarations as interventionist. The Iranian government is navigating complex diplomatic waters following military engagements and sanctions, while also seeking to maintain its nuclear ambitions amid international scrutiny (evidence id: 19).",
+      "The humanitarian situation in various regions remains dire, with reports of significant displacement and health crises, such as the ongoing Ebola outbreak in the Democratic Republic of the Congo, where nearly 300 individuals remain unaccounted for. This highlights the challenges faced by health authorities in conflict-affected areas (evidence id: 26)."
     ],
     "key_judgments": [
       {
-        "title": "Humanitarian Crisis in the Occupied Territories",
-        "finding": "The ongoing violence has resulted in significant civilian casualties and a deteriorating humanitarian situation in the West Bank.",
+        "title": "Escalation of Violence in the Middle East",
+        "finding": "The conflict in the Middle East has resulted in significant civilian casualties, with over 1,100 Palestinians reported killed since the escalation began.",
         "citations": [
-          "13"
+          "14"
         ]
       },
       {
         "title": "NATO's Arctic Defense Strategy",
-        "finding": "NATO's military exercises in the Arctic signify a strategic response to Russian military advancements and the need for enhanced collective defense.",
+        "finding": "NATO is enhancing its military posture in the Arctic in response to Russia's increased military capabilities and strategic interests in the region.",
         "citations": [
-          "9"
+          "11"
         ]
       },
       {
-        "title": "Economic Impact of Middle Eastern Conflicts",
-        "finding": "The conflict has led to increased energy prices and substantial profits for oil companies, reflecting the economic ramifications of geopolitical instability.",
+        "title": "Iran's Diplomatic Challenges",
+        "finding": "Iran is facing increased diplomatic pressure from the US and Gulf states while attempting to assert its nuclear ambitions amidst ongoing military conflicts.",
         "citations": [
-          "27"
+          "19"
         ]
       },
       {
-        "title": "Verification of Iran's Nuclear Program",
-        "finding": "The IAEA's demand for access to Iranian nuclear sites is crucial for ensuring compliance with international nuclear agreements.",
+        "title": "Humanitarian Crisis in the DRC",
+        "finding": "The humanitarian situation in the Democratic Republic of the Congo is critical, with a significant number of Ebola cases unaccounted for amid ongoing conflict.",
         "citations": [
           "26"
         ]
@@ -44,33 +44,48 @@
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The region is experiencing heightened tensions due to ongoing conflicts, particularly involving Iran and Israel, which have significant humanitarian and geopolitical implications.",
+        "assessment": "The Middle East remains a focal point of conflict, with escalating violence impacting civilian populations and complicating humanitarian efforts.",
         "citations": [
-          "13",
-          "26"
+          "14",
+          "19"
         ]
       },
       {
-        "region": "Europe and Russia",
-        "assessment": "NATO's focus on Arctic defense reflects growing concerns over Russian military capabilities and the need for a unified response among member states.",
+        "region": "Arctic",
+        "assessment": "The Arctic region is witnessing increased military activity as NATO seeks to counter Russian advancements, reflecting a shift in strategic military focus.",
         "citations": [
-          "9"
+          "11"
+        ]
+      },
+      {
+        "region": "Africa",
+        "assessment": "Africa is grappling with severe humanitarian crises, including health emergencies like Ebola, exacerbated by ongoing conflicts and lack of access to aid.",
+        "citations": [
+          "26"
         ]
       }
     ],
     "watchlist": [
       {
         "label": "Iran's Nuclear Program",
-        "why_it_matters": "The potential for Iran to develop nuclear weapons poses a significant threat to regional and global security, necessitating close monitoring of diplomatic negotiations and compliance.",
+        "why_it_matters": "Iran's nuclear ambitions continue to be a point of contention, with potential implications for regional and global security.",
+        "citations": [
+          "19",
+          "27"
+        ]
+      },
+      {
+        "label": "Humanitarian Access in Conflict Zones",
+        "why_it_matters": "The inability to provide humanitarian aid in conflict-affected areas, such as the DRC, poses significant risks to civilian populations.",
         "citations": [
           "26"
         ]
       },
       {
-        "label": "Energy Supply Chains",
-        "why_it_matters": "Disruptions in the Strait of Hormuz can have far-reaching effects on global energy markets, impacting economic stability worldwide.",
+        "label": "NATO's Arctic Operations",
+        "why_it_matters": "NATO's military exercises in the Arctic could escalate tensions with Russia and impact global security dynamics.",
         "citations": [
-          "27"
+          "11"
         ]
       }
     ],
@@ -79,8 +94,8 @@
     ]
   },
   "summary": {
-    "raw_documents": 1436,
-    "total_text_chars": 224734822,
+    "raw_documents": 1437,
+    "total_text_chars": 224743683,
     "sources": 34,
     "signals": 8,
     "regions": 6,
@@ -91,7 +106,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 1056
+      "value": 1057
     },
     {
       "name": "PDF",
@@ -125,7 +140,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 1006
+      "value": 1007
     },
     {
       "name": "pdfs",
@@ -203,7 +218,7 @@
     },
     {
       "name": "foreignpolicy.com",
-      "value": 63
+      "value": 64
     },
     {
       "name": "npr.org",
@@ -289,7 +304,7 @@
   "keyword_counts": [
     {
       "name": "iran",
-      "value": 5398
+      "value": 5443
     },
     {
       "name": "health",
@@ -309,7 +324,7 @@
     },
     {
       "name": "israel",
-      "value": 2842
+      "value": 2863
     },
     {
       "name": "trump",
@@ -341,7 +356,7 @@
     },
     {
       "name": "united",
-      "value": 1654
+      "value": 1664
     },
     {
       "name": "care",
@@ -365,7 +380,7 @@
     },
     {
       "name": "states",
-      "value": 1274
+      "value": 1286
     },
     {
       "name": "protection",
@@ -471,11 +486,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 972,
+      "count": 973,
       "formats": [
         {
           "name": "Article",
-          "value": 813
+          "value": 814
         },
         {
           "name": "PDF",
@@ -495,6 +510,7 @@
         }
       ],
       "evidence_ids": [
+        "2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1",
         "fba7b31290a527b354a0667f6d17db8643f1f2187644a9b2d25653623dd63169",
         "ea1cfaa2a001ec6e5858411f67cc23639f77880e2bb62f08df3816092c1d57bc",
         "1669dd1da6f147710f6129b7f0e5ff5c501373ad4997fd2691189288c3b29939",
@@ -503,11 +519,20 @@
         "fdf575e39716563a7502676c9b6ecd78065f9742cc95802a0bbee9fbf529bbe4",
         "a5213162773568d3e99b03aa242695fc54f7e7473f2b3a7b203d70bef8175114",
         "bed309e24ef59525b46d821c01f7573ade332fff488b9e41b94f448de5d3da6c",
-        "fbf02fa11ee81052cc13b31c5eeb90f8e4f56643791069f367c0af8f90595b6d",
-        "43f08bc854c388fe09f2d08a8d47e8afb902b3edee9bd568cf42428b0b1eb0d4"
+        "fbf02fa11ee81052cc13b31c5eeb90f8e4f56643791069f367c0af8f90595b6d"
       ],
-      "summary": "It requires long-term investments in a wide range of assets – including ice-breakers, submarines, drones and satellites – testing allies’ economic and military resources at a time when Trump has threatened to leave NATO altogether and Washington is withdrawing troops, planes, ships and weapons from Europe. In response to questions from the news agency, a NATO official said the United States remains a key contributor to NATO’s Arctic defence, noting the commitment was reaffirmed in a joint statement between the Arctic allies in June. Launches of nuclear-capable ballistic missiles have become more frequent, as has the construction of military infrastructure on NATO borders. Russia broke its monthly launch record in May, which became the deadliest month for Ukraine’s civilians since April 2022, according to the United Nations. Strategic Snapshot: Ukrainian Drone Mastery Changing War’s Tide Ukraine finds itself in its best battlefield position since autumn 2022. ANKARA — Romania received its first new warship in 30 years last week, a the vessel destined to boost Black Sea security and relations with seller country Turkey at the same time. The transfer marks the first delivery of a Turkish-built warship to a European Union and NATO member state, underscoring Turkey’s growing naval exports. The Romanian Naval Forces stated the vessel can perform surveillance, reconnaissance, maritime patrol, interdiction, search and rescue, anti-air and anti-submarine warfare operations, while supporting helicopter operations. He is one of the 1,103 Palestinians, including 241 children, in the occupied West Bank that the United Nations says have been killed by Israeli settlers or security forces since the Hamas-led attack on Israel from Gaza on Oct. A poster announces the death of Nayef Samaro, 25, after he was killed during an Israeli military raid on Nablus in May. Samaro, 25, was killed during an Israeli military raid on May 3 on a busy shopping thoroughfare in Nablus.",
+      "summary": "If the United States and Israel attacked Iran, Hezbollah, with its over 100,000 rockets and fighters seasoned by years of war in Syria, could rain down fire on all of Israel and threaten cross-border raids. Tehran’s new leaders are riding high, with the initial memorandum of understanding offering Iran significant short-term financial relief—and the potential for far more over time—without demanding immediate concessions on its nuclear or missile programs. It requires long-term investments in a wide range of assets – including ice-breakers, submarines, drones and satellites – testing allies’ economic and military resources at a time when Trump has threatened to leave NATO altogether and Washington is withdrawing troops, planes, ships and weapons from Europe. In response to questions from the news agency, a NATO official said the United States remains a key contributor to NATO’s Arctic defence, noting the commitment was reaffirmed in a joint statement between the Arctic allies in June. Launches of nuclear-capable ballistic missiles have become more frequent, as has the construction of military infrastructure on NATO borders. Russia broke its monthly launch record in May, which became the deadliest month for Ukraine’s civilians since April 2022, according to the United Nations. Strategic Snapshot: Ukrainian Drone Mastery Changing War’s Tide Ukraine finds itself in its best battlefield position since autumn 2022. ANKARA — Romania received its first new warship in 30 years last week, a the vessel destined to boost Black Sea security and relations with seller country Turkey at the same time. The transfer marks the first delivery of a Turkish-built warship to a European Union and NATO member state, underscoring Turkey’s growing naval exports. The Romanian Naval Forces stated the vessel can perform surveillance, reconnaissance, maritime patrol, interdiction, search and rescue, anti-air and anti-submarine warfare operations, while supporting helicopter operations.",
       "latest": [
+        {
+          "id": "2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1",
+          "title": "Is Hezbollah Now More an Obligation Than an Asset to Tehran?",
+          "url": "https://foreignpolicy.com/2026/06/26/iran-hezbollah-united-states-war-israel-lebanon-proxies/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-06-26T20:31:30.297380+00:00",
+          "published": "Fri, 26 Jun 2026 19:20:07 +0000",
+          "summary": "If the United States and Israel attacked Iran, Hezbollah, with its over 100,000 rockets and fighters seasoned by years of war in Syria, could rain down fire on all of Israel and threaten cross-border raids. Tehran’s new leaders are riding high, with the initial memorandum of understanding offering Iran significant short-term financial relief—and the potential for far more over time—without demanding immediate concessions on its nuclear or missile programs."
+        },
         {
           "id": "fba7b31290a527b354a0667f6d17db8643f1f2187644a9b2d25653623dd63169",
           "title": "NATO allies promised Trump they’d secure the Arctic; they’ve got work to do",
@@ -547,26 +572,16 @@
           "collected_at": "2026-06-26T16:11:15.108183+00:00",
           "published": "Fri, 26 Jun 2026 11:45:25 -0400",
           "summary": "He is one of the 1,103 Palestinians, including 241 children, in the occupied West Bank that the United Nations says have been killed by Israeli settlers or security forces since the Hamas-led attack on Israel from Gaza on Oct. A poster announces the death of Nayef Samaro, 25, after he was killed during an Israeli military raid on Nablus in May. Samaro, 25, was killed during an Israeli military raid on May 3 on a busy shopping thoroughfare in Nablus."
-        },
-        {
-          "id": "3cf1187c1cd3d925c1905758bdfdbd48d06892bd1afdd03066c2b474121c4e07",
-          "title": "‘Knowledge-Based’ Economy Facilitates Tech Transfers to Iran",
-          "url": "https://jamestown.org/knowledge-based-economy-facilitates-tech-transfers-to-iran/",
-          "host": "jamestown.org",
-          "format": "Article",
-          "collected_at": "2026-06-26T16:10:59.413328+00:00",
-          "published": "Fri, 26 Jun 2026 15:21:54 +0000",
-          "summary": "oil-sanctions waiver, and Parliament Speaker Mohammad Bagher Ghalibaf’s elevation as Iran’s special envoy for the PRC are hardening the network into a durable procurement pipeline, positioned to tap into the proposed $300 billion reconstruction fund. These networks include the ghost armada of tankers, the de-dollarized barter system insured by the state, the movement of missile precursors through Chinese ports, and the loose ecosystem of nominally civilian Chinese firms running the supply chains behind Iran’s drone manufacturing ( U.S."
         }
       ]
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 864,
+      "count": 865,
       "formats": [
         {
           "name": "Article",
-          "value": 727
+          "value": 728
         },
         {
           "name": "PDF",
@@ -586,6 +601,7 @@
         }
       ],
       "evidence_ids": [
+        "2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1",
         "fba7b31290a527b354a0667f6d17db8643f1f2187644a9b2d25653623dd63169",
         "ea1cfaa2a001ec6e5858411f67cc23639f77880e2bb62f08df3816092c1d57bc",
         "12cedde180e8e9687b67b98b3ca98181b0658e966c76572f2977c438bf2c599d",
@@ -594,11 +610,20 @@
         "bed309e24ef59525b46d821c01f7573ade332fff488b9e41b94f448de5d3da6c",
         "fbf02fa11ee81052cc13b31c5eeb90f8e4f56643791069f367c0af8f90595b6d",
         "29d2863e6de23e92dbaface4e4b7110d8d9b2066233683931b30cc5fdbe08202",
-        "43f08bc854c388fe09f2d08a8d47e8afb902b3edee9bd568cf42428b0b1eb0d4",
-        "3d5df2ba790e0fe82310aeb49a798bd04abaab093a3d7c0435f452d5ced0543f"
+        "43f08bc854c388fe09f2d08a8d47e8afb902b3edee9bd568cf42428b0b1eb0d4"
       ],
-      "summary": "It requires long-term investments in a wide range of assets – including ice-breakers, submarines, drones and satellites – testing allies’ economic and military resources at a time when Trump has threatened to leave NATO altogether and Washington is withdrawing troops, planes, ships and weapons from Europe. In response to questions from the news agency, a NATO official said the United States remains a key contributor to NATO’s Arctic defence, noting the commitment was reaffirmed in a joint statement between the Arctic allies in June. Launches of nuclear-capable ballistic missiles have become more frequent, as has the construction of military infrastructure on NATO borders. Russia broke its monthly launch record in May, which became the deadliest month for Ukraine’s civilians since April 2022, according to the United Nations. Strategic Snapshot: Ukrainian Drone Mastery Changing War’s Tide Ukraine finds itself in its best battlefield position since autumn 2022. He is one of the 1,103 Palestinians, including 241 children, in the occupied West Bank that the United Nations says have been killed by Israeli settlers or security forces since the Hamas-led attack on Israel from Gaza on Oct. A poster announces the death of Nayef Samaro, 25, after he was killed during an Israeli military raid on Nablus in May. Samaro, 25, was killed during an Israeli military raid on May 3 on a busy shopping thoroughfare in Nablus. oil-sanctions waiver, and Parliament Speaker Mohammad Bagher Ghalibaf’s elevation as Iran’s special envoy for the PRC are hardening the network into a durable procurement pipeline, positioned to tap into the proposed $300 billion reconstruction fund. These networks include the ghost armada of tankers, the de-dollarized barter system insured by the state, the movement of missile precursors through Chinese ports, and the loose ecosystem of nominally civilian Chinese firms running the supply chains behind Iran’s drone manufacturing ( U.S.",
+      "summary": "If the United States and Israel attacked Iran, Hezbollah, with its over 100,000 rockets and fighters seasoned by years of war in Syria, could rain down fire on all of Israel and threaten cross-border raids. Tehran’s new leaders are riding high, with the initial memorandum of understanding offering Iran significant short-term financial relief—and the potential for far more over time—without demanding immediate concessions on its nuclear or missile programs. It requires long-term investments in a wide range of assets – including ice-breakers, submarines, drones and satellites – testing allies’ economic and military resources at a time when Trump has threatened to leave NATO altogether and Washington is withdrawing troops, planes, ships and weapons from Europe. In response to questions from the news agency, a NATO official said the United States remains a key contributor to NATO’s Arctic defence, noting the commitment was reaffirmed in a joint statement between the Arctic allies in June. Launches of nuclear-capable ballistic missiles have become more frequent, as has the construction of military infrastructure on NATO borders. Russia broke its monthly launch record in May, which became the deadliest month for Ukraine’s civilians since April 2022, according to the United Nations. Strategic Snapshot: Ukrainian Drone Mastery Changing War’s Tide Ukraine finds itself in its best battlefield position since autumn 2022. He is one of the 1,103 Palestinians, including 241 children, in the occupied West Bank that the United Nations says have been killed by Israeli settlers or security forces since the Hamas-led attack on Israel from Gaza on Oct. A poster announces the death of Nayef Samaro, 25, after he was killed during an Israeli military raid on Nablus in May. Samaro, 25, was killed during an Israeli military raid on May 3 on a busy shopping thoroughfare in Nablus.",
       "latest": [
+        {
+          "id": "2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1",
+          "title": "Is Hezbollah Now More an Obligation Than an Asset to Tehran?",
+          "url": "https://foreignpolicy.com/2026/06/26/iran-hezbollah-united-states-war-israel-lebanon-proxies/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-06-26T20:31:30.297380+00:00",
+          "published": "Fri, 26 Jun 2026 19:20:07 +0000",
+          "summary": "If the United States and Israel attacked Iran, Hezbollah, with its over 100,000 rockets and fighters seasoned by years of war in Syria, could rain down fire on all of Israel and threaten cross-border raids. Tehran’s new leaders are riding high, with the initial memorandum of understanding offering Iran significant short-term financial relief—and the potential for far more over time—without demanding immediate concessions on its nuclear or missile programs."
+        },
         {
           "id": "fba7b31290a527b354a0667f6d17db8643f1f2187644a9b2d25653623dd63169",
           "title": "NATO allies promised Trump they’d secure the Arctic; they’ve got work to do",
@@ -638,16 +663,6 @@
           "collected_at": "2026-06-26T16:10:59.413328+00:00",
           "published": "Fri, 26 Jun 2026 15:21:54 +0000",
           "summary": "oil-sanctions waiver, and Parliament Speaker Mohammad Bagher Ghalibaf’s elevation as Iran’s special envoy for the PRC are hardening the network into a durable procurement pipeline, positioned to tap into the proposed $300 billion reconstruction fund. These networks include the ghost armada of tankers, the de-dollarized barter system insured by the state, the movement of missile precursors through Chinese ports, and the loose ecosystem of nominally civilian Chinese firms running the supply chains behind Iran’s drone manufacturing ( U.S."
-        },
-        {
-          "id": "a5213162773568d3e99b03aa242695fc54f7e7473f2b3a7b203d70bef8175114",
-          "title": "How the Iran war impacts Abu Dhabi's AI strategy",
-          "url": "https://www.dw.com/en/how-the-iran-war-impacts-abu-dhabi-s-ai-strategy/a-77722632?maca=en-rss-en-world-4025-rdf",
-          "host": "dw.com",
-          "format": "Article",
-          "collected_at": "2026-06-26T16:11:19.935561+00:00",
-          "published": "2026-06-26T14:36:00Z",
-          "summary": "Furthermore, the blockade of the Strait of Hormuz by Iran, and later by the United States, delayed hardware deliveries. However, after the United States and Israel attacked Iran in February 2026, the UAE became one of Iran's key targets: Over the course of the war, thousands of Iranian missile and drone strikes were aimed at local offices and data centers operated by global companies such as Amazon, Google, Microsoft and Nvidia."
         }
       ]
     },
@@ -744,11 +759,11 @@
     },
     {
       "name": "Territory and Chokepoints",
-      "count": 563,
+      "count": 564,
       "formats": [
         {
           "name": "Article",
-          "value": 450
+          "value": 451
         },
         {
           "name": "PDF",
@@ -768,6 +783,7 @@
         }
       ],
       "evidence_ids": [
+        "2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1",
         "fba7b31290a527b354a0667f6d17db8643f1f2187644a9b2d25653623dd63169",
         "1669dd1da6f147710f6129b7f0e5ff5c501373ad4997fd2691189288c3b29939",
         "fdf575e39716563a7502676c9b6ecd78065f9742cc95802a0bbee9fbf529bbe4",
@@ -776,11 +792,20 @@
         "4c28c3de87d94aef6cd4dbb5c1b73f3d6df019b0b10ed62efc46fc86f64ad564",
         "3d5df2ba790e0fe82310aeb49a798bd04abaab093a3d7c0435f452d5ced0543f",
         "c2fca770c23c2c83f503d72a8a02a7312695218f620353168aae4415cf6c0f22",
-        "69141ca8394bebe5bf2fade9c636a52501f92a5c85f29f5685b348bb49594911",
-        "672a8299e118d14cf87897c011c92f9ae9db4e8f83c287eda08a3ed96846df33"
+        "69141ca8394bebe5bf2fade9c636a52501f92a5c85f29f5685b348bb49594911"
       ],
-      "summary": "It requires long-term investments in a wide range of assets – including ice-breakers, submarines, drones and satellites – testing allies’ economic and military resources at a time when Trump has threatened to leave NATO altogether and Washington is withdrawing troops, planes, ships and weapons from Europe. In response to questions from the news agency, a NATO official said the United States remains a key contributor to NATO’s Arctic defence, noting the commitment was reaffirmed in a joint statement between the Arctic allies in June. ANKARA — Romania received its first new warship in 30 years last week, a the vessel destined to boost Black Sea security and relations with seller country Turkey at the same time. The transfer marks the first delivery of a Turkish-built warship to a European Union and NATO member state, underscoring Turkey’s growing naval exports. The Romanian Naval Forces stated the vessel can perform surveillance, reconnaissance, maritime patrol, interdiction, search and rescue, anti-air and anti-submarine warfare operations, while supporting helicopter operations. Kateryna Klochko/AP hide caption toggle caption Kateryna Klochko/AP Ukraine launched a major nighttime attack on a dozen Russian regions, Russian-held Crimea and the surrounding seas, Moscow's Defense Ministry said Friday, in what appeared to be one of Kyiv's biggest drone assaults since the Kremlin's full-scale invasion more than four years ago. Furthermore, the blockade of the Strait of Hormuz by Iran, and later by the United States, delayed hardware deliveries. However, after the United States and Israel attacked Iran in February 2026, the UAE became one of Iran's key targets: Over the course of the war, thousands of Iranian missile and drone strikes were aimed at local offices and data centers operated by global companies such as Amazon, Google, Microsoft and Nvidia.",
+      "summary": "If the United States and Israel attacked Iran, Hezbollah, with its over 100,000 rockets and fighters seasoned by years of war in Syria, could rain down fire on all of Israel and threaten cross-border raids. Tehran’s new leaders are riding high, with the initial memorandum of understanding offering Iran significant short-term financial relief—and the potential for far more over time—without demanding immediate concessions on its nuclear or missile programs. It requires long-term investments in a wide range of assets – including ice-breakers, submarines, drones and satellites – testing allies’ economic and military resources at a time when Trump has threatened to leave NATO altogether and Washington is withdrawing troops, planes, ships and weapons from Europe. In response to questions from the news agency, a NATO official said the United States remains a key contributor to NATO’s Arctic defence, noting the commitment was reaffirmed in a joint statement between the Arctic allies in June. ANKARA — Romania received its first new warship in 30 years last week, a the vessel destined to boost Black Sea security and relations with seller country Turkey at the same time. The transfer marks the first delivery of a Turkish-built warship to a European Union and NATO member state, underscoring Turkey’s growing naval exports. The Romanian Naval Forces stated the vessel can perform surveillance, reconnaissance, maritime patrol, interdiction, search and rescue, anti-air and anti-submarine warfare operations, while supporting helicopter operations. Kateryna Klochko/AP hide caption toggle caption Kateryna Klochko/AP Ukraine launched a major nighttime attack on a dozen Russian regions, Russian-held Crimea and the surrounding seas, Moscow's Defense Ministry said Friday, in what appeared to be one of Kyiv's biggest drone assaults since the Kremlin's full-scale invasion more than four years ago.",
       "latest": [
+        {
+          "id": "2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1",
+          "title": "Is Hezbollah Now More an Obligation Than an Asset to Tehran?",
+          "url": "https://foreignpolicy.com/2026/06/26/iran-hezbollah-united-states-war-israel-lebanon-proxies/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-06-26T20:31:30.297380+00:00",
+          "published": "Fri, 26 Jun 2026 19:20:07 +0000",
+          "summary": "If the United States and Israel attacked Iran, Hezbollah, with its over 100,000 rockets and fighters seasoned by years of war in Syria, could rain down fire on all of Israel and threaten cross-border raids. Tehran’s new leaders are riding high, with the initial memorandum of understanding offering Iran significant short-term financial relief—and the potential for far more over time—without demanding immediate concessions on its nuclear or missile programs."
+        },
         {
           "id": "fba7b31290a527b354a0667f6d17db8643f1f2187644a9b2d25653623dd63169",
           "title": "NATO allies promised Trump they’d secure the Arctic; they’ve got work to do",
@@ -820,16 +845,6 @@
           "collected_at": "2026-06-26T16:11:19.935561+00:00",
           "published": "2026-06-26T14:36:00Z",
           "summary": "Furthermore, the blockade of the Strait of Hormuz by Iran, and later by the United States, delayed hardware deliveries. However, after the United States and Israel attacked Iran in February 2026, the UAE became one of Iran's key targets: Over the course of the war, thousands of Iranian missile and drone strikes were aimed at local offices and data centers operated by global companies such as Amazon, Google, Microsoft and Nvidia."
-        },
-        {
-          "id": "fbf02fa11ee81052cc13b31c5eeb90f8e4f56643791069f367c0af8f90595b6d",
-          "title": "Iran slams the GCC and the US for ‘interventionist’ statement: What we know",
-          "url": "https://www.aljazeera.com/news/2026/6/26/iran-slams-the-gcc-and-the-us-for-interventionist-statement-what-we-know?traffic_source=rss",
-          "host": "aljazeera.com",
-          "format": "Article",
-          "collected_at": "2026-06-26T16:11:15.078256+00:00",
-          "published": "Fri, 26 Jun 2026 14:04:34 +0000",
-          "summary": "In a statement on Friday, Iran’s Foreign Ministry rejected the communique issued after a GCC-US ministerial meeting in Bahrain on June 25, saying it distorted regional realities and repeated US and Israeli positions on Iran’s nuclear programme, missile capabilities, regional allies and the Strait of Hormuz. The ministers said “any trade and investment with Iran is conditional and reversible”, and reaffirmed “the shared objective of preventing Iran from ever developing or otherwise acquiring a nuclear weapon”."
         }
       ]
     },
@@ -1104,11 +1119,11 @@
     },
     {
       "name": "Nuclear and Strategic Risk",
-      "count": 231,
+      "count": 232,
       "formats": [
         {
           "name": "Article",
-          "value": 219
+          "value": 220
         },
         {
           "name": "PDF",
@@ -1124,6 +1139,7 @@
         }
       ],
       "evidence_ids": [
+        "2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1",
         "fba7b31290a527b354a0667f6d17db8643f1f2187644a9b2d25653623dd63169",
         "ea1cfaa2a001ec6e5858411f67cc23639f77880e2bb62f08df3816092c1d57bc",
         "1669dd1da6f147710f6129b7f0e5ff5c501373ad4997fd2691189288c3b29939",
@@ -1132,11 +1148,20 @@
         "69141ca8394bebe5bf2fade9c636a52501f92a5c85f29f5685b348bb49594911",
         "79b70ddf25d0b2fae600a8ecb889b6d3473e5ae6e81d711a897cc91e0e282381",
         "c59808361b975697586f161e32c22c55bad54c5803b8fd3a91fe173ee52bc6ce",
-        "378db74d712e8137391894d7d55a1fe2b8dfbe527b767c2759b91dda7be21d66",
-        "188cff7b0b12de5a648184200f82ebdb9222778659cefd0ef2c14f9e8026222f"
+        "378db74d712e8137391894d7d55a1fe2b8dfbe527b767c2759b91dda7be21d66"
       ],
-      "summary": "It requires long-term investments in a wide range of assets – including ice-breakers, submarines, drones and satellites – testing allies’ economic and military resources at a time when Trump has threatened to leave NATO altogether and Washington is withdrawing troops, planes, ships and weapons from Europe. In response to questions from the news agency, a NATO official said the United States remains a key contributor to NATO’s Arctic defence, noting the commitment was reaffirmed in a joint statement between the Arctic allies in June. Launches of nuclear-capable ballistic missiles have become more frequent, as has the construction of military infrastructure on NATO borders. Russia broke its monthly launch record in May, which became the deadliest month for Ukraine’s civilians since April 2022, according to the United Nations. Strategic Snapshot: Ukrainian Drone Mastery Changing War’s Tide Ukraine finds itself in its best battlefield position since autumn 2022. ANKARA — Romania received its first new warship in 30 years last week, a the vessel destined to boost Black Sea security and relations with seller country Turkey at the same time. The transfer marks the first delivery of a Turkish-built warship to a European Union and NATO member state, underscoring Turkey’s growing naval exports. The Romanian Naval Forces stated the vessel can perform surveillance, reconnaissance, maritime patrol, interdiction, search and rescue, anti-air and anti-submarine warfare operations, while supporting helicopter operations. To address this concern, the 2018 Nuclear Posture Review called for introduction of two supplemental low-yield nuclear capabilities: a submarine-launched ballistic missile and a nuclear-armed sea-launched cruise missile. Though the Biden administration later cancelled the nuclear-armed sea-launched cruise missile, Congress in 2024 resurrected it, directing the Department of Defense to pursue the capability.",
+      "summary": "If the United States and Israel attacked Iran, Hezbollah, with its over 100,000 rockets and fighters seasoned by years of war in Syria, could rain down fire on all of Israel and threaten cross-border raids. Tehran’s new leaders are riding high, with the initial memorandum of understanding offering Iran significant short-term financial relief—and the potential for far more over time—without demanding immediate concessions on its nuclear or missile programs. It requires long-term investments in a wide range of assets – including ice-breakers, submarines, drones and satellites – testing allies’ economic and military resources at a time when Trump has threatened to leave NATO altogether and Washington is withdrawing troops, planes, ships and weapons from Europe. In response to questions from the news agency, a NATO official said the United States remains a key contributor to NATO’s Arctic defence, noting the commitment was reaffirmed in a joint statement between the Arctic allies in June. Launches of nuclear-capable ballistic missiles have become more frequent, as has the construction of military infrastructure on NATO borders. Russia broke its monthly launch record in May, which became the deadliest month for Ukraine’s civilians since April 2022, according to the United Nations. Strategic Snapshot: Ukrainian Drone Mastery Changing War’s Tide Ukraine finds itself in its best battlefield position since autumn 2022. ANKARA — Romania received its first new warship in 30 years last week, a the vessel destined to boost Black Sea security and relations with seller country Turkey at the same time. The transfer marks the first delivery of a Turkish-built warship to a European Union and NATO member state, underscoring Turkey’s growing naval exports. The Romanian Naval Forces stated the vessel can perform surveillance, reconnaissance, maritime patrol, interdiction, search and rescue, anti-air and anti-submarine warfare operations, while supporting helicopter operations.",
       "latest": [
+        {
+          "id": "2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1",
+          "title": "Is Hezbollah Now More an Obligation Than an Asset to Tehran?",
+          "url": "https://foreignpolicy.com/2026/06/26/iran-hezbollah-united-states-war-israel-lebanon-proxies/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-06-26T20:31:30.297380+00:00",
+          "published": "Fri, 26 Jun 2026 19:20:07 +0000",
+          "summary": "If the United States and Israel attacked Iran, Hezbollah, with its over 100,000 rockets and fighters seasoned by years of war in Syria, could rain down fire on all of Israel and threaten cross-border raids. Tehran’s new leaders are riding high, with the initial memorandum of understanding offering Iran significant short-term financial relief—and the potential for far more over time—without demanding immediate concessions on its nuclear or missile programs."
+        },
         {
           "id": "fba7b31290a527b354a0667f6d17db8643f1f2187644a9b2d25653623dd63169",
           "title": "NATO allies promised Trump they’d secure the Arctic; they’ve got work to do",
@@ -1176,16 +1201,6 @@
           "collected_at": "2026-06-26T16:11:04.256249+00:00",
           "published": "Fri, 26 Jun 2026 14:15:37 +0000",
           "summary": "To address this concern, the 2018 Nuclear Posture Review called for introduction of two supplemental low-yield nuclear capabilities: a submarine-launched ballistic missile and a nuclear-armed sea-launched cruise missile. Though the Biden administration later cancelled the nuclear-armed sea-launched cruise missile, Congress in 2024 resurrected it, directing the Department of Defense to pursue the capability."
-        },
-        {
-          "id": "fbf02fa11ee81052cc13b31c5eeb90f8e4f56643791069f367c0af8f90595b6d",
-          "title": "Iran slams the GCC and the US for ‘interventionist’ statement: What we know",
-          "url": "https://www.aljazeera.com/news/2026/6/26/iran-slams-the-gcc-and-the-us-for-interventionist-statement-what-we-know?traffic_source=rss",
-          "host": "aljazeera.com",
-          "format": "Article",
-          "collected_at": "2026-06-26T16:11:15.078256+00:00",
-          "published": "Fri, 26 Jun 2026 14:04:34 +0000",
-          "summary": "In a statement on Friday, Iran’s Foreign Ministry rejected the communique issued after a GCC-US ministerial meeting in Bahrain on June 25, saying it distorted regional realities and repeated US and Israeli positions on Iran’s nuclear programme, missile capabilities, regional allies and the Strait of Hormuz. The ministers said “any trade and investment with Iran is conditional and reversible”, and reaffirmed “the shared objective of preventing Iran from ever developing or otherwise acquiring a nuclear weapon”."
         }
       ]
     }
@@ -1193,8 +1208,9 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 794,
+      "count": 795,
       "evidence_ids": [
+        "2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1",
         "ea1cfaa2a001ec6e5858411f67cc23639f77880e2bb62f08df3816092c1d57bc",
         "12cedde180e8e9687b67b98b3ca98181b0658e966c76572f2977c438bf2c599d",
         "3cf1187c1cd3d925c1905758bdfdbd48d06892bd1afdd03066c2b474121c4e07",
@@ -1205,8 +1221,7 @@
         "3d5df2ba790e0fe82310aeb49a798bd04abaab093a3d7c0435f452d5ced0543f",
         "c2fca770c23c2c83f503d72a8a02a7312695218f620353168aae4415cf6c0f22",
         "371b9168e9359a7c2d714470afe762fbe60045ecc087279849329e3552c6a822",
-        "cdc26d047d7275300e74e0b04f778ff250c2f59c8d38489e54ebdc2b2b8bb7fe",
-        "c98ba94caa1f8e7984634a9845bdfb809b8f53be0314262a9bf82abc35bc2e43"
+        "cdc26d047d7275300e74e0b04f778ff250c2f59c8d38489e54ebdc2b2b8bb7fe"
       ],
       "top_sources": [
         {
@@ -1226,15 +1241,16 @@
           "value": 50
         },
         {
-          "name": "npr.org",
+          "name": "foreignpolicy.com",
           "value": 35
         }
       ]
     },
     {
       "name": "Americas",
-      "count": 649,
+      "count": 650,
       "evidence_ids": [
+        "2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1",
         "fba7b31290a527b354a0667f6d17db8643f1f2187644a9b2d25653623dd63169",
         "3cf1187c1cd3d925c1905758bdfdbd48d06892bd1afdd03066c2b474121c4e07",
         "a5213162773568d3e99b03aa242695fc54f7e7473f2b3a7b203d70bef8175114",
@@ -1245,8 +1261,7 @@
         "3d5df2ba790e0fe82310aeb49a798bd04abaab093a3d7c0435f452d5ced0543f",
         "c2fca770c23c2c83f503d72a8a02a7312695218f620353168aae4415cf6c0f22",
         "75418722487ee8d6b4b9848dfeb026b7b62aca26d4191a0e4077eadeaa696f15",
-        "69141ca8394bebe5bf2fade9c636a52501f92a5c85f29f5685b348bb49594911",
-        "672a8299e118d14cf87897c011c92f9ae9db4e8f83c287eda08a3ed96846df33"
+        "69141ca8394bebe5bf2fade9c636a52501f92a5c85f29f5685b348bb49594911"
       ],
       "top_sources": [
         {
@@ -1267,7 +1282,7 @@
         },
         {
           "name": "foreignpolicy.com",
-          "value": 57
+          "value": 58
         }
       ]
     },
@@ -2156,6 +2171,13 @@
     },
     {
       "date": "2026",
+      "evidence_id": "2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1",
+      "title": "Is Hezbollah Now More an Obligation Than an Asset to Tehran?",
+      "url": "https://foreignpolicy.com/2026/06/26/iran-hezbollah-united-states-war-israel-lebanon-proxies/",
+      "excerpt": "bollah’s estimated 150,000 rockets are now down to 25,000 or less. When Israel and the United States did attack Iran in 2026 and declared their objective to be regime change —a true existential threat—Hezbollah launched missiles and drones at Israel, but it did not launch an all-out attack, and its impact on Israel was limited. The strikes seem to suggest its desire to show sol"
+    },
+    {
+      "date": "2026",
       "evidence_id": "ea1cfaa2a001ec6e5858411f67cc23639f77880e2bb62f08df3816092c1d57bc",
       "title": "Strategic Snapshot: Ukrainian Drone Mastery Changing War’s Tide",
       "url": "https://jamestown.org/strategic-snapshot-ukrainian-drone-mastery-changing-wars-tide/",
@@ -2405,16 +2427,88 @@
       "title": "Trump airs grievances with NATO chief over alliance's lack of Iran war support",
       "url": "https://www.npr.org/2026/06/25/nx-s1-5869806/trump-airs-grievances-with-nato-chief-over-alliances-lack-of-iran-war-support",
       "excerpt": "prioritizes, A. MARTÍNEZ: That's reporter Teri Schultz in Brussels. Teri, thanks. SCHULTZ: You're welcome. Copyright © 2026 NPR. All rights reserved. Visit our website terms of use and permissions pages at www.npr.org for further information. Accuracy and availability of NPR transcripts may vary. Transcript text may be revised to correct errors or match updates to audio. Audio"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "0ecbc6307cd883c2e66a35c0d811f94e7aa910d9289fc243bffe4ea26c1840c0",
-      "title": "Iran war day 118: IRGC rejects new Hormuz route; Rubio to meet GCC leaders",
-      "url": "https://www.aljazeera.com/news/2026/6/25/iran-war-day-118-irgc-rejects-new-hormuz-route-rubio-to-meet-gcc-leaders?traffic_source=rss",
-      "excerpt": "warns against alternative route in the Strait of Hormuz as top US diplomat to meet Gulf officials. Published On 25 Jun 2026 25 Jun 2026 US Secretary of State Marco Rubio has arrived for a meeting of the Gulf Cooperation Council in Bahrain, where he is expected to reassure regional allies that Washington will protect their security and economic interests as it seeks to reach a"
     }
   ],
   "latest_evidence": [
+    {
+      "id": "2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1",
+      "topic": "geopolitics",
+      "title": "Is Hezbollah Now More an Obligation Than an Asset to Tehran?",
+      "url": "https://foreignpolicy.com/2026/06/26/iran-hezbollah-united-states-war-israel-lebanon-proxies/",
+      "host": "foreignpolicy.com",
+      "source": "https://foreignpolicy.com/feed/",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-26T20:31:30.297380+00:00",
+      "published": "Fri, 26 Jun 2026 19:20:07 +0000",
+      "text_chars": 8861,
+      "raw_path": "data/geopolitics/raw/2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1.html",
+      "text_path": "data/geopolitics/raw/2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1.txt",
+      "summary": "If the United States and Israel attacked Iran, Hezbollah, with its over 100,000 rockets and fighters seasoned by years of war in Syria, could rain down fire on all of Israel and threaten cross-border raids. Tehran’s new leaders are riding high, with the initial memorandum of understanding offering Iran significant short-term financial relief—and the potential for far more over time—without demanding immediate concessions on its nuclear or missile programs.",
+      "bullets": [
+        "If the United States and Israel attacked Iran, Hezbollah, with its over 100,000 rockets and fighters seasoned by years of war in Syria, could rain down fire on all of Israel and threaten cross-border raids.",
+        "Tehran’s new leaders are riding high, with the initial memorandum of understanding offering Iran significant short-term financial relief—and the potential for far more over time—without demanding immediate concessions on its nuclear or missile programs.",
+        "7, 2023, attack on Israel and the wars that followed, Iran relied on regional proxies to deter and threaten its opponents.",
+        "Indeed, all Iran must do is allow traffic to flow through the Strait of Hormuz, and even there Tehran is working on a way to extract tolls by another name.",
+        "partners can generate pressure on the United States more quickly and reliably than Hezbollah rockets or militia attacks."
+      ],
+      "excerpt": "Tehran’s new leaders are riding high, with the initial memorandum of understanding offering Iran significant short-term financial relief—and the potential for far more over time—without demanding immediate concessions on its nuclear or missile programs. Indeed, all Iran must do is allow traffic to flow through the Strait of Hormuz, and even there Tehran is working on a way to extract tolls by another name. Iran’s successes, however, mask a key change: The country is now far less dependent on proxy forces like Hezbollah to intimidate its enemies. Proxies remain useful to Iran, but they are no longer the centerpiece of its deterrent strategy. Instead, Iran is learning that threats to global energy markets and vulnerable U.S. partners can generate pressure on the United States more quickly and reliably than Hezbollah rockets or militia attacks. That does not make Hezbollah, Hamas, or the Houthis irrelevant, but it does change their role: They are now part of a broader coercive portfolio rather than Iran’s main shield. Indeed, Tehran is now riding to their rescue, rather than the other way around. Tehran’s new leaders are riding high, with the initial memorandum of understanding offeri",
+      "keywords": [
+        {
+          "name": "iran",
+          "value": 45
+        },
+        {
+          "name": "hezbollah",
+          "value": 28
+        },
+        {
+          "name": "israel",
+          "value": 21
+        },
+        {
+          "name": "proxies",
+          "value": 16
+        },
+        {
+          "name": "states",
+          "value": 12
+        },
+        {
+          "name": "tehran",
+          "value": 11
+        },
+        {
+          "name": "united",
+          "value": 10
+        },
+        {
+          "name": "attacks",
+          "value": 8
+        },
+        {
+          "name": "financial",
+          "value": 6
+        },
+        {
+          "name": "hamas",
+          "value": 6
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Diplomacy and Negotiations",
+        "Territory and Chokepoints",
+        "Nuclear and Strategic Risk"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas"
+      ],
+      "detail_path": "/evidence/2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1",
+      "evidence_json": "/evidence/2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1.json"
+    },
     {
       "id": "fba7b31290a527b354a0667f6d17db8643f1f2187644a9b2d25653623dd63169",
       "topic": "geopolitics",
@@ -8575,86 +8669,6 @@
       ],
       "detail_path": "/evidence/3343f4548f44ba7cd92b2cf4cc38a09a392a78a188d311ab66112d9438e33be6",
       "evidence_json": "/evidence/3343f4548f44ba7cd92b2cf4cc38a09a392a78a188d311ab66112d9438e33be6.json"
-    },
-    {
-      "id": "a2809cb46a227824d29e1b9132af197f999bd498fb3e140338f046913ca9f45a",
-      "topic": "geopolitics",
-      "title": "Why the Iran Deal Might Endure",
-      "url": "https://foreignpolicy.com/2026/06/24/ali-vaez-iran-deal-united-states-memorandum-understanding-hezbollah-lebanon-ali-vaez-oil-sanctions/",
-      "host": "foreignpolicy.com",
-      "source": "https://foreignpolicy.com/feed/",
-      "data_type": "sanctions_designations",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-06-24T17:03:08.151572+00:00",
-      "published": "Wed, 24 Jun 2026 15:47:55 +0000",
-      "text_chars": 14812,
-      "raw_path": "data/geopolitics/raw/a2809cb46a227824d29e1b9132af197f999bd498fb3e140338f046913ca9f45a.html",
-      "text_path": "data/geopolitics/raw/a2809cb46a227824d29e1b9132af197f999bd498fb3e140338f046913ca9f45a.txt",
-      "summary": "Vaez thinks a “strong nuclear deal” is still possible, since Iran is today in a very different place than it was during the 2015 nuclear talks under the Obama administration. The United States and Iran continue to stumble through talks over phase 2 of their memorandum of understanding (MOU), presenting different versions of what they agreed on. Ali Vaez: I’ve lived through this in the past—a very similar situation when we had the Joint Comprehensive Plan of Action [JCPOA], the 2015 nuclear deal.",
-      "bullets": [
-        "Vaez thinks a “strong nuclear deal” is still possible, since Iran is today in a very different place than it was during the 2015 nuclear talks under the Obama administration.",
-        "The United States and Iran continue to stumble through talks over phase 2 of their memorandum of understanding (MOU), presenting different versions of what they agreed on.",
-        "Ali Vaez: I’ve lived through this in the past—a very similar situation when we had the Joint Comprehensive Plan of Action [JCPOA], the 2015 nuclear deal.",
-        "For Iran, a much weaker conventional military power, which has survived in this confrontation with the strongest military and the mightiest intelligence organization in the world—the United States and Israel, respectively—that is quite an achievement.",
-        "But could it be that the basic deal so far might endure because the alternative—a return to war—is awful for all sides?"
-      ],
-      "excerpt": "The United States and Iran continue to stumble through talks over phase 2 of their memorandum of understanding (MOU), presenting different versions of what they agreed on. But could it be that the basic deal so far might endure because the alternative—a return to war—is awful for all sides? On the latest episode of FP Live, I spoke with Ali Vaez, the Iran project director at the International Crisis Group, an international body that seeks to bridge differences in global peace talks. Vaez thinks a “strong nuclear deal” is still possible, since Iran is today in a very different place than it was during the 2015 nuclear talks under the Obama administration. Subscribers can watch the full discussion on the video box atop this page, or follow the free FP Live podcast, on which I also offer my own read on the last week’s news. What follows here is a condensed and lightly edited transcript. Ravi Agrawal: Both Tehran and the White House are spinning the MOU as a win. Who has the better argument? Ali Vaez: I’ve lived through this in the past—a very similar situation when we had the Joint Comprehensive Plan of Action [JCPOA], the 2015 nuclear deal. The reality is that the imperatives of dome",
-      "keywords": [
-        {
-          "name": "iran",
-          "value": 37
-        },
-        {
-          "name": "trump",
-          "value": 16
-        },
-        {
-          "name": "nuclear",
-          "value": 14
-        },
-        {
-          "name": "iranian",
-          "value": 12
-        },
-        {
-          "name": "administration",
-          "value": 11
-        },
-        {
-          "name": "hezbollah",
-          "value": 10
-        },
-        {
-          "name": "billion",
-          "value": 9
-        },
-        {
-          "name": "deal",
-          "value": 9
-        },
-        {
-          "name": "economic",
-          "value": 9
-        },
-        {
-          "name": "very",
-          "value": 9
-        }
-      ],
-      "signals": [
-        "Diplomacy and Negotiations",
-        "Energy and Supply Chains",
-        "Sanctions and Finance",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Middle East",
-        "Americas",
-        "Europe and Russia"
-      ],
-      "detail_path": "/evidence/a2809cb46a227824d29e1b9132af197f999bd498fb3e140338f046913ca9f45a",
-      "evidence_json": "/evidence/a2809cb46a227824d29e1b9132af197f999bd498fb3e140338f046913ca9f45a.json"
     }
   ],
   "deep_reads": [
@@ -8668,7 +8682,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-26T18:25:47.156272+00:00",
+      "collected_at": "2026-06-26T20:31:01.999164+00:00",
       "published": "",
       "text_chars": 9106608,
       "raw_path": "data/geopolitics/raw/2dde8e0f96955346e6ebd81a1e1c32b6f4b3d34d6c0b11caa237e74d45d788cd.xml",
@@ -10108,7 +10122,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-26T18:25:13.829121+00:00",
+      "collected_at": "2026-06-26T20:30:25.693388+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -10183,7 +10197,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-26T18:25:14.117877+00:00",
+      "collected_at": "2026-06-26T20:30:25.979894+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -10893,160 +10907,6 @@
   ],
   "documents": [
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-26T18:25:54.923135+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
-      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-06-26T18:25:49.909810+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
-      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -11056,7 +10916,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-26T18:25:49.890451+00:00",
+      "collected_at": "2026-06-26T20:31:20.589200+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -11128,6 +10988,157 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-26T20:31:11.459358+00:00",
+      "published": "",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 512
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "conflict",
+          "value": 267
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 209
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-26T20:31:05.893255+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -11137,7 +11148,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-26T18:25:49.120819+00:00",
+      "collected_at": "2026-06-26T20:31:05.874606+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11209,6 +11220,159 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
+      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-06-26T20:31:03.861120+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
+      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
+    },
+    {
+      "id": "ad23efb36a153de3c079483ea83d39219b456cbb79d345d2261fd9519697c23a",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-06-26T20:31:03.795637+00:00",
+      "published": "",
+      "text_chars": 824644,
+      "raw_path": "data/geopolitics/raw/ad23efb36a153de3c079483ea83d39219b456cbb79d345d2261fd9519697c23a.xml",
+      "text_path": "data/geopolitics/raw/ad23efb36a153de3c079483ea83d39219b456cbb79d345d2261fd9519697c23a.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "bullets": [
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+      ],
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 1476
+        },
+        {
+          "name": "security",
+          "value": 1473
+        },
+        {
+          "name": "interpol",
+          "value": 1239
+        },
+        {
+          "name": "resolution",
+          "value": 840
+        },
+        {
+          "name": "interpol-un",
+          "value": 683
+        },
+        {
+          "name": "afghanistan",
+          "value": 636
+        },
+        {
+          "name": "link",
+          "value": 612
+        },
+        {
+          "name": "republic",
+          "value": 539
+        },
+        {
+          "name": "al-qaida",
+          "value": 515
+        },
+        {
+          "name": "iraq",
+          "value": 480
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/ad23efb36a153de3c079483ea83d39219b456cbb79d345d2261fd9519697c23a",
+      "evidence_json": "/evidence/ad23efb36a153de3c079483ea83d39219b456cbb79d345d2261fd9519697c23a.json"
+    },
+    {
       "id": "2dde8e0f96955346e6ebd81a1e1c32b6f4b3d34d6c0b11caa237e74d45d788cd",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -11218,7 +11382,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-26T18:25:47.156272+00:00",
+      "collected_at": "2026-06-26T20:31:01.999164+00:00",
       "published": "",
       "text_chars": 9106608,
       "raw_path": "data/geopolitics/raw/2dde8e0f96955346e6ebd81a1e1c32b6f4b3d34d6c0b11caa237e74d45d788cd.xml",
@@ -11298,7 +11462,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-26T18:25:16.304557+00:00",
+      "collected_at": "2026-06-26T20:30:27.810506+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.xml",
@@ -11378,7 +11542,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-26T18:25:14.117877+00:00",
+      "collected_at": "2026-06-26T20:30:25.979894+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -11455,7 +11619,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-26T18:25:13.829121+00:00",
+      "collected_at": "2026-06-26T20:30:25.693388+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -11519,156 +11683,6 @@
       ],
       "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
       "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-26T18:25:13.461172+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
-      "id": "ad23efb36a153de3c079483ea83d39219b456cbb79d345d2261fd9519697c23a",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-06-26T16:10:09.112825+00:00",
-      "published": "",
-      "text_chars": 824644,
-      "raw_path": "data/geopolitics/raw/ad23efb36a153de3c079483ea83d39219b456cbb79d345d2261fd9519697c23a.xml",
-      "text_path": "data/geopolitics/raw/ad23efb36a153de3c079483ea83d39219b456cbb79d345d2261fd9519697c23a.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-      "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
-      ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 1476
-        },
-        {
-          "name": "security",
-          "value": 1473
-        },
-        {
-          "name": "interpol",
-          "value": 1239
-        },
-        {
-          "name": "resolution",
-          "value": 840
-        },
-        {
-          "name": "interpol-un",
-          "value": 683
-        },
-        {
-          "name": "afghanistan",
-          "value": 636
-        },
-        {
-          "name": "link",
-          "value": 612
-        },
-        {
-          "name": "republic",
-          "value": 539
-        },
-        {
-          "name": "al-qaida",
-          "value": 515
-        },
-        {
-          "name": "iraq",
-          "value": 480
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "War and Escalation",
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Africa",
-        "Middle East",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/ad23efb36a153de3c079483ea83d39219b456cbb79d345d2261fd9519697c23a",
-      "evidence_json": "/evidence/ad23efb36a153de3c079483ea83d39219b456cbb79d345d2261fd9519697c23a.json"
     },
     {
       "id": "64b4476c0977ce55db1aee4606986b9d8d241f777f4381c5e22ee9926819dcb9",
@@ -15468,160 +15482,6 @@
   "cited_evidence": [],
   "evidence": [
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-26T18:25:54.923135+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
-      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-06-26T18:25:49.909810+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
-      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -15631,7 +15491,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-26T18:25:49.890451+00:00",
+      "collected_at": "2026-06-26T20:31:20.589200+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15703,6 +15563,157 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-26T20:31:11.459358+00:00",
+      "published": "",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 512
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "conflict",
+          "value": 267
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 209
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-06-26T20:31:05.893255+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -15712,7 +15723,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-26T18:25:49.120819+00:00",
+      "collected_at": "2026-06-26T20:31:05.874606+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15784,6 +15795,159 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
+      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-06-26T20:31:03.861120+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
+      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
+    },
+    {
+      "id": "ad23efb36a153de3c079483ea83d39219b456cbb79d345d2261fd9519697c23a",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-06-26T20:31:03.795637+00:00",
+      "published": "",
+      "text_chars": 824644,
+      "raw_path": "data/geopolitics/raw/ad23efb36a153de3c079483ea83d39219b456cbb79d345d2261fd9519697c23a.xml",
+      "text_path": "data/geopolitics/raw/ad23efb36a153de3c079483ea83d39219b456cbb79d345d2261fd9519697c23a.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "bullets": [
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+      ],
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 1476
+        },
+        {
+          "name": "security",
+          "value": 1473
+        },
+        {
+          "name": "interpol",
+          "value": 1239
+        },
+        {
+          "name": "resolution",
+          "value": 840
+        },
+        {
+          "name": "interpol-un",
+          "value": 683
+        },
+        {
+          "name": "afghanistan",
+          "value": 636
+        },
+        {
+          "name": "link",
+          "value": 612
+        },
+        {
+          "name": "republic",
+          "value": 539
+        },
+        {
+          "name": "al-qaida",
+          "value": 515
+        },
+        {
+          "name": "iraq",
+          "value": 480
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/ad23efb36a153de3c079483ea83d39219b456cbb79d345d2261fd9519697c23a",
+      "evidence_json": "/evidence/ad23efb36a153de3c079483ea83d39219b456cbb79d345d2261fd9519697c23a.json"
+    },
+    {
       "id": "2dde8e0f96955346e6ebd81a1e1c32b6f4b3d34d6c0b11caa237e74d45d788cd",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -15793,7 +15957,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-26T18:25:47.156272+00:00",
+      "collected_at": "2026-06-26T20:31:01.999164+00:00",
       "published": "",
       "text_chars": 9106608,
       "raw_path": "data/geopolitics/raw/2dde8e0f96955346e6ebd81a1e1c32b6f4b3d34d6c0b11caa237e74d45d788cd.xml",
@@ -15873,7 +16037,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-26T18:25:16.304557+00:00",
+      "collected_at": "2026-06-26T20:30:27.810506+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.xml",
@@ -15953,7 +16117,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-26T18:25:14.117877+00:00",
+      "collected_at": "2026-06-26T20:30:25.979894+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -16030,7 +16194,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-26T18:25:13.829121+00:00",
+      "collected_at": "2026-06-26T20:30:25.693388+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -16096,74 +16260,83 @@
       "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "id": "2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1",
       "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-06-26T18:25:13.461172+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "title": "Is Hezbollah Now More an Obligation Than an Asset to Tehran?",
+      "url": "https://foreignpolicy.com/2026/06/26/iran-hezbollah-united-states-war-israel-lebanon-proxies/",
+      "host": "foreignpolicy.com",
+      "source": "https://foreignpolicy.com/feed/",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-26T20:31:30.297380+00:00",
+      "published": "Fri, 26 Jun 2026 19:20:07 +0000",
+      "text_chars": 8861,
+      "raw_path": "data/geopolitics/raw/2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1.html",
+      "text_path": "data/geopolitics/raw/2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1.txt",
+      "summary": "If the United States and Israel attacked Iran, Hezbollah, with its over 100,000 rockets and fighters seasoned by years of war in Syria, could rain down fire on all of Israel and threaten cross-border raids. Tehran’s new leaders are riding high, with the initial memorandum of understanding offering Iran significant short-term financial relief—and the potential for far more over time—without demanding immediate concessions on its nuclear or missile programs.",
       "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+        "If the United States and Israel attacked Iran, Hezbollah, with its over 100,000 rockets and fighters seasoned by years of war in Syria, could rain down fire on all of Israel and threaten cross-border raids.",
+        "Tehran’s new leaders are riding high, with the initial memorandum of understanding offering Iran significant short-term financial relief—and the potential for far more over time—without demanding immediate concessions on its nuclear or missile programs.",
+        "7, 2023, attack on Israel and the wars that followed, Iran relied on regional proxies to deter and threaten its opponents.",
+        "Indeed, all Iran must do is allow traffic to flow through the Strait of Hormuz, and even there Tehran is working on a way to extract tolls by another name.",
+        "partners can generate pressure on the United States more quickly and reliably than Hezbollah rockets or militia attacks."
       ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "excerpt": "Tehran’s new leaders are riding high, with the initial memorandum of understanding offering Iran significant short-term financial relief—and the potential for far more over time—without demanding immediate concessions on its nuclear or missile programs. Indeed, all Iran must do is allow traffic to flow through the Strait of Hormuz, and even there Tehran is working on a way to extract tolls by another name. Iran’s successes, however, mask a key change: The country is now far less dependent on proxy forces like Hezbollah to intimidate its enemies. Proxies remain useful to Iran, but they are no longer the centerpiece of its deterrent strategy. Instead, Iran is learning that threats to global energy markets and vulnerable U.S. partners can generate pressure on the United States more quickly and reliably than Hezbollah rockets or militia attacks. That does not make Hezbollah, Hamas, or the Houthis irrelevant, but it does change their role: They are now part of a broader coercive portfolio rather than Iran’s main shield. Indeed, Tehran is now riding to their rescue, rather than the other way around. Tehran’s new leaders are riding high, with the initial memorandum of understanding offeri",
       "keywords": [
         {
-          "name": "admin",
-          "value": 2
+          "name": "iran",
+          "value": 45
         },
         {
-          "name": "areas",
-          "value": 2
+          "name": "hezbollah",
+          "value": 28
         },
         {
-          "name": "disputed",
-          "value": 2
+          "name": "israel",
+          "value": 21
         },
         {
-          "name": "naciscdn",
-          "value": 2
+          "name": "proxies",
+          "value": 16
         },
         {
-          "name": "application",
-          "value": 1
+          "name": "states",
+          "value": 12
         },
         {
-          "name": "binary",
-          "value": 1
+          "name": "tehran",
+          "value": 11
         },
         {
-          "name": "bytes",
-          "value": 1
+          "name": "united",
+          "value": 10
         },
         {
-          "name": "collected",
-          "value": 1
+          "name": "attacks",
+          "value": 8
         },
         {
-          "name": "content-type",
-          "value": 1
+          "name": "financial",
+          "value": 6
         },
         {
-          "name": "cultural",
-          "value": 1
+          "name": "hamas",
+          "value": 6
         }
       ],
       "signals": [
-        "Territory and Chokepoints"
+        "War and Escalation",
+        "Diplomacy and Negotiations",
+        "Territory and Chokepoints",
+        "Nuclear and Strategic Risk"
       ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+      "regions": [
+        "Middle East",
+        "Americas"
+      ],
+      "detail_path": "/evidence/2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1",
+      "evidence_json": "/evidence/2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1.json"
     },
     {
       "id": "fba7b31290a527b354a0667f6d17db8643f1f2187644a9b2d25653623dd63169",
@@ -16324,86 +16497,6 @@
       ],
       "detail_path": "/evidence/ea1cfaa2a001ec6e5858411f67cc23639f77880e2bb62f08df3816092c1d57bc",
       "evidence_json": "/evidence/ea1cfaa2a001ec6e5858411f67cc23639f77880e2bb62f08df3816092c1d57bc.json"
-    },
-    {
-      "id": "ad23efb36a153de3c079483ea83d39219b456cbb79d345d2261fd9519697c23a",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-06-26T16:10:09.112825+00:00",
-      "published": "",
-      "text_chars": 824644,
-      "raw_path": "data/geopolitics/raw/ad23efb36a153de3c079483ea83d39219b456cbb79d345d2261fd9519697c23a.xml",
-      "text_path": "data/geopolitics/raw/ad23efb36a153de3c079483ea83d39219b456cbb79d345d2261fd9519697c23a.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-      "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
-      ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 1476
-        },
-        {
-          "name": "security",
-          "value": 1473
-        },
-        {
-          "name": "interpol",
-          "value": 1239
-        },
-        {
-          "name": "resolution",
-          "value": 840
-        },
-        {
-          "name": "interpol-un",
-          "value": 683
-        },
-        {
-          "name": "afghanistan",
-          "value": 636
-        },
-        {
-          "name": "link",
-          "value": 612
-        },
-        {
-          "name": "republic",
-          "value": 539
-        },
-        {
-          "name": "al-qaida",
-          "value": 515
-        },
-        {
-          "name": "iraq",
-          "value": 480
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "War and Escalation",
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Africa",
-        "Middle East",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/ad23efb36a153de3c079483ea83d39219b456cbb79d345d2261fd9519697c23a",
-      "evidence_json": "/evidence/ad23efb36a153de3c079483ea83d39219b456cbb79d345d2261fd9519697c23a.json"
     },
     {
       "id": "1669dd1da6f147710f6129b7f0e5ff5c501373ad4997fd2691189288c3b29939",
