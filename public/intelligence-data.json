@@ -1,93 +1,109 @@
 {
-  "generated_at": "2026-06-28T21:56:36.335328+00:00",
+  "generated_at": "2026-06-29T00:04:35.383998+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating Tensions in the Middle East: US-Iran Conflict Intensifies",
+    "headline": "Escalating Tensions in the Middle East Amidst Ongoing Humanitarian Crises",
     "executive_summary": [
-      "Recent military exchanges between the United States and Iran have escalated tensions in the Middle East, particularly around the strategic Strait of Hormuz. Following an Iranian drone attack on a commercial vessel, the US launched retaliatory strikes targeting Iranian military infrastructure, which Iran condemned as a violation of a recently established ceasefire agreement.",
-      "Iran's Islamic Revolutionary Guard Corps (IRGC) responded by attacking US military sites in Kuwait and Bahrain, asserting its control over the Strait of Hormuz. This back-and-forth has raised concerns about the stability of the ceasefire and the potential for further military escalation in the region.",
-      "The situation is compounded by the ongoing humanitarian crisis in South Sudan, where forecasts indicate rising drought risks and food insecurity, affecting millions. The UN has classified South Sudan as one of the countries of highest global concern due to acute food insecurity, exacerbated by conflict and climatic shocks.",
-      "In Venezuela, a recent series of earthquakes has resulted in significant casualties and displacement, prompting international humanitarian responses. The situation underscores the broader challenges facing the region, including the need for effective governance and humanitarian assistance."
+      "Recent military exchanges between the United States and Iran have intensified, with both sides conducting strikes in the Strait of Hormuz, raising concerns over the stability of the fragile ceasefire established through a memorandum of understanding. The U.S. military confirmed strikes on Iranian military targets in response to an Iranian drone attack on a commercial vessel, while Iran retaliated by targeting U.S. military sites in Kuwait and Bahrain, asserting its control over the strategic waterway (evidence ids: 18, 19, 25, 27).",
+      "In Venezuela, a devastating series of earthquakes has resulted in significant casualties and widespread destruction, prompting the government to declare a state of emergency. As of June 27, the official toll stands at 1,430 dead and over 3,200 injured, with more than 3,100 families displaced. The international community is mobilizing humanitarian assistance to address the urgent needs of the affected population (evidence ids: 10, 22, 23).",
+      "In South Sudan, forecasts indicate rising drought risks and food insecurity, exacerbated by ongoing conflict and economic pressures. An estimated 7.8 million people are classified in crisis or worse during the lean season, highlighting the urgent need for humanitarian intervention as the country faces severe climatic challenges (evidence ids: 16, 17).",
+      "The geopolitical landscape remains fraught with challenges as regional powers express concerns over Iran's influence and military activities. U.S. Secretary of State Marco Rubio acknowledged the apprehensions of Gulf leaders regarding Iran's continued support for proxy groups, emphasizing the need for a comprehensive agreement that addresses these issues alongside nuclear negotiations (evidence ids: 20, 28)."
     ],
     "key_judgments": [
       {
-        "title": "US-Iran Military Escalation",
-        "finding": "The US and Iran have engaged in military strikes against each other, undermining the fragile ceasefire established by a memorandum of understanding.",
+        "title": "U.S.-Iran Military Escalation",
+        "finding": "The military exchanges between the U.S. and Iran threaten the fragile ceasefire and could escalate into broader conflict.",
+        "citations": [
+          "18",
+          "19",
+          "25",
+          "27"
+        ]
+      },
+      {
+        "title": "Humanitarian Crisis in Venezuela",
+        "finding": "The earthquakes in Venezuela have resulted in a significant humanitarian crisis, necessitating urgent international assistance.",
+        "citations": [
+          "10",
+          "22",
+          "23"
+        ]
+      },
+      {
+        "title": "Food Insecurity in South Sudan",
+        "finding": "Rising drought risks and ongoing conflict in South Sudan are contributing to severe food insecurity affecting millions.",
         "citations": [
           "16",
-          "23",
-          "28"
+          "17"
         ]
       },
       {
-        "title": "Humanitarian Crisis in South Sudan",
-        "finding": "South Sudan faces severe food insecurity, with an estimated 7.8 million people classified in crisis or worse due to conflict and climatic shocks.",
-        "citations": [
-          "14",
-          "15"
-        ]
-      },
-      {
-        "title": "Venezuela Earthquake Response",
-        "finding": "Venezuela is experiencing a national emergency following two significant earthquakes, with over 1,400 reported dead and thousands displaced.",
+        "title": "Regional Concerns Over Iran's Influence",
+        "finding": "Gulf states remain anxious about Iran's regional activities and the implications for their security and stability.",
         "citations": [
           "20",
-          "21"
+          "28"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The ongoing military exchanges between the US and Iran threaten regional stability, particularly affecting shipping routes through the Strait of Hormuz, a critical chokepoint for global oil supplies.",
+        "assessment": "The region is experiencing heightened military tensions, particularly between the U.S. and Iran, alongside ongoing humanitarian crises in countries like Venezuela and South Sudan.",
         "citations": [
-          "17",
+          "18",
           "19",
-          "24"
-        ]
-      },
-      {
-        "region": "Africa",
-        "assessment": "South Sudan's humanitarian situation is deteriorating due to climatic challenges and ongoing conflict, necessitating urgent international assistance.",
-        "citations": [
-          "14",
-          "15"
+          "20",
+          "22",
+          "23"
         ]
       },
       {
         "region": "Americas",
-        "assessment": "Venezuela's recent earthquakes have triggered a humanitarian crisis, highlighting the need for coordinated international relief efforts.",
+        "assessment": "Venezuela's humanitarian situation is critical following recent earthquakes, with significant international response required to address the needs of the affected population.",
         "citations": [
-          "20",
-          "21"
+          "10",
+          "22",
+          "23"
+        ]
+      },
+      {
+        "region": "Africa",
+        "assessment": "South Sudan faces escalating food insecurity due to climatic challenges and conflict, necessitating urgent humanitarian interventions.",
+        "citations": [
+          "16",
+          "17"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "Iran's Military Actions",
-        "why_it_matters": "Iran's military responses to US strikes could lead to further escalation and destabilization in the region, impacting global oil markets.",
+        "label": "Iran's Military Activities",
+        "why_it_matters": "Iran's military actions in the Gulf could destabilize the region and impact global oil supply routes.",
         "citations": [
-          "16",
+          "18",
+          "19",
+          "25",
+          "27"
+        ]
+      },
+      {
+        "label": "Venezuela's Earthquake Response",
+        "why_it_matters": "The humanitarian response to the earthquakes in Venezuela is critical for stabilizing the region and preventing further humanitarian crises.",
+        "citations": [
+          "10",
+          "22",
           "23"
         ]
       },
       {
-        "label": "Humanitarian Needs in South Sudan",
-        "why_it_matters": "The worsening humanitarian crisis in South Sudan requires immediate attention to prevent further loss of life and displacement.",
+        "label": "Food Security in South Sudan",
+        "why_it_matters": "The worsening food insecurity in South Sudan poses a significant risk to regional stability and requires immediate attention.",
         "citations": [
-          "14",
-          "15"
-        ]
-      },
-      {
-        "label": "Venezuela's Earthquake Recovery",
-        "why_it.matters": "The international community's response to Venezuela's earthquake crisis will be crucial in addressing the immediate humanitarian needs and stabilizing the region.",
-        "citations": [
-          "20",
-          "21"
+          "16",
+          "17"
         ]
       }
     ],
@@ -96,23 +112,23 @@
     ]
   },
   "summary": {
-    "raw_documents": 1465,
-    "total_text_chars": 226562040,
+    "raw_documents": 1467,
+    "total_text_chars": 226592382,
     "sources": 34,
     "signals": 8,
     "regions": 6,
     "visual_items": 125,
-    "pdf_items": 152,
-    "renderable_files": 145
+    "pdf_items": 153,
+    "renderable_files": 146
   },
   "format_counts": [
     {
       "name": "Article",
-      "value": 1077
+      "value": 1078
     },
     {
       "name": "PDF",
-      "value": 152
+      "value": 153
     },
     {
       "name": "Image",
@@ -142,11 +158,11 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 1026
+      "value": 1027
     },
     {
       "name": "pdfs",
-      "value": 148
+      "value": 149
     },
     {
       "name": "images",
@@ -192,7 +208,7 @@
   "source_counts": [
     {
       "name": "reliefweb.int",
-      "value": 310
+      "value": 312
     },
     {
       "name": "theguardian.com",
@@ -314,7 +330,7 @@
     },
     {
       "name": "humanitarian",
-      "value": 4070
+      "value": 4115
     },
     {
       "name": "reliefweb",
@@ -365,12 +381,12 @@
       "value": 1645
     },
     {
-      "name": "russia",
-      "value": 1502
+      "name": "support",
+      "value": 1522
     },
     {
-      "name": "support",
-      "value": 1498
+      "name": "russia",
+      "value": 1502
     },
     {
       "name": "data",
@@ -386,7 +402,7 @@
     },
     {
       "name": "protection",
-      "value": 1220
+      "value": 1242
     },
     {
       "name": "access",
@@ -397,12 +413,12 @@
       "value": 1208
     },
     {
-      "name": "defense",
-      "value": 1170
+      "name": "million",
+      "value": 1173
     },
     {
-      "name": "million",
-      "value": 1157
+      "name": "defense",
+      "value": 1170
     },
     {
       "name": "services",
@@ -430,7 +446,7 @@
     },
     {
       "name": "june",
-      "value": 987
+      "value": 999
     },
     {
       "name": "deal",
@@ -478,7 +494,7 @@
     },
     {
       "name": "assistance",
-      "value": 768
+      "value": 780
     },
     {
       "name": "nations",
@@ -670,15 +686,15 @@
     },
     {
       "name": "Humanitarian Pressure",
-      "count": 634,
+      "count": 636,
       "formats": [
         {
           "name": "Article",
-          "value": 439
+          "value": 440
         },
         {
           "name": "PDF",
-          "value": 140
+          "value": 141
         },
         {
           "name": "Sanctions",
@@ -694,6 +710,8 @@
         }
       ],
       "evidence_ids": [
+        "30aceea491bd176e226277f2b06aace02ad5f7e8b019d8054cd406af8092f718",
+        "56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa",
         "28b17d88bef221d1be7009fc10758bf7805971dbe77471f3e838eaa8dfef98f6",
         "797ecc4c13c121a50740622712d4a4a4af441dad4244c0054707678333672045",
         "2d5e0db8aa70cbf616d4f3a36327faa9e37bcb1f7ad6a6980a98bbb6fb0e0715",
@@ -701,12 +719,30 @@
         "9d3edd7822062f5abaefe00aef4d49c53c8ab32cdde20cc23c3148df8e059c79",
         "f671a7a15283ac4d045c25ac74e0940a5e7c649bef8ccbb59776beed2e1b9917",
         "4a78a02b89f174275be9c7b3de09d0800ffddaf4592cbaa0725e5926dfcb9263",
-        "7caf1497a4f38b4c7f20999f894cb5e209b9f87b73abb2b8e1285c8cbb5738fe",
-        "ea1cfaa2a001ec6e5858411f67cc23639f77880e2bb62f08df3816092c1d57bc",
-        "12cedde180e8e9687b67b98b3ca98181b0658e966c76572f2977c438bf2c599d"
+        "7caf1497a4f38b4c7f20999f894cb5e209b9f87b73abb2b8e1285c8cbb5738fe"
       ],
-      "summary": "Meanwhile, the latest Food and Agriculture Organization of the United Nations (FAO) and the United Nations World Food Programme (WFP) Hunger Hotspots report has highlights South Sudan as one of the four countries of highest global concern, driven by the scale and severity of acute food insecurity. • The Emergency Relief Coordinator, Tom Fletcher, has announced an allocation of US$6 million for Ebola operational readiness in South Sudan. Meanwhile, the latest Food and Agriculture Organization of the United Nations (FAO) and the United Nations World Food Programme (WFP) Hunger Hotspots report has highlights South Sudan as one of the four countries of highest global concern, driven by the scale and severity of acute food insecurity. • The Emergency Relief Coordinator, Tom Fletcher, has announced an allocation of US$6 million for Ebola operational readiness in South Sudan. “They’ve shared with us some very concrete concerns,” the US secretary of state admitted, and insisted that any definitive agreement will require Tehran to not only restrict its nuclear programme but also halt its support of Hamas in Gaza, Hezbollah in Lebanon, militia in Iraq and the Houthis in Yemen. The militant Islamist organisation also manifestly failed in its primary strategic role for Iran: to deter an Israeli direct strike. 28/06/2026 - 11:21 Iran FM warns any challenge to Hormuz strait will 'increase tensions' Iran's foreign minister warned on Sunday that any challenge to the country's control of the strategic Strait of Hormuz would increase tensions despite ongoing peace negotiations to end the Middle East war. 28/06/2026 - 11:42 Israel military says soldier killed in south Lebanon fighting The Israeli military said a soldier was killed on Sunday in fighting in southern Lebanon, two days after Israel and Lebanon signed an agreement aimed at ending hostilities.",
+      "summary": "UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela. UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela. Note that before the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded. • UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela. • UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela. Note that b efore the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded. Meanwhile, the latest Food and Agriculture Organization of the United Nations (FAO) and the United Nations World Food Programme (WFP) Hunger Hotspots report has highlights South Sudan as one of the four countries of highest global concern, driven by the scale and severity of acute food insecurity. • The Emergency Relief Coordinator, Tom Fletcher, has announced an allocation of US$6 million for Ebola operational readiness in South Sudan. Meanwhile, the latest Food and Agriculture Organization of the United Nations (FAO) and the United Nations World Food Programme (WFP) Hunger Hotspots report has highlights South Sudan as one of the four countries of highest global concern, driven by the scale and severity of acute food insecurity. • The Emergency Relief Coordinator, Tom Fletcher, has announced an allocation of US$6 million for Ebola operational readiness in South Sudan.",
       "latest": [
+        {
+          "id": "30aceea491bd176e226277f2b06aace02ad5f7e8b019d8054cd406af8092f718",
+          "title": "UNICEF Venezuela Humanitarian Situation Report No.2 (Earthquake), 27 June 2026",
+          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/unicef-venezuela-humanitarian-situation-report-no2-earthquake-27-june-2026",
+          "host": "reliefweb.int",
+          "format": "Article",
+          "collected_at": "2026-06-29T00:04:56.184670+00:00",
+          "published": "Sun, 28 Jun 2026 23:51:23 +0000",
+          "summary": "UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela. UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela. Note that before the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded."
+        },
+        {
+          "id": "56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa",
+          "title": "UNICEF Venezuela Humanitarian Situation Report No.2 (Earthquake), 27 June 2026 (pdf)",
+          "url": "https://reliefweb.int/attachments/6cbd2797-8426-4521-bcd9-92a62a0d3a56/UNICEF%20Venezuela%20Humanitarian%20Situation%20Report%20No.2%20%28Earthquake%29%2C%2027%20June%202026.pdf",
+          "host": "reliefweb.int",
+          "format": "PDF",
+          "collected_at": "2026-06-29T00:04:58.489095+00:00",
+          "published": "Sun, 28 Jun 2026 23:51:23 +0000",
+          "summary": "• UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela. • UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela. Note that b efore the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded."
+        },
         {
           "id": "28b17d88bef221d1be7009fc10758bf7805971dbe77471f3e838eaa8dfef98f6",
           "title": "South Sudan Humanitarian Update as of 26 June 2026 (pdf)",
@@ -736,40 +772,20 @@
           "collected_at": "2026-06-28T09:56:40.683471+00:00",
           "published": "Sun, 28 Jun 2026 07:00:03 GMT",
           "summary": "“They’ve shared with us some very concrete concerns,” the US secretary of state admitted, and insisted that any definitive agreement will require Tehran to not only restrict its nuclear programme but also halt its support of Hamas in Gaza, Hezbollah in Lebanon, militia in Iraq and the Houthis in Yemen. The militant Islamist organisation also manifestly failed in its primary strategic role for Iran: to deter an Israeli direct strike."
-        },
-        {
-          "id": "452ba646b530d5e603082ccd93e664814b4135d1398bb293100d2a995e3ea72c",
-          "title": "Middle East live: Iran targets Bahrain and Kuwait in response to US strikes",
-          "url": "https://www.france24.com/en/middle-east/20260628-middle-east-live-iran-threatens-a-completely-halt-in-talks-with-us-following-exchange-of-fire",
-          "host": "france24.com",
-          "format": "Article",
-          "collected_at": "2026-06-28T09:56:54.560409+00:00",
-          "published": "Sun, 28 Jun 2026 05:25:25 GMT",
-          "summary": "28/06/2026 - 11:21 Iran FM warns any challenge to Hormuz strait will 'increase tensions' Iran's foreign minister warned on Sunday that any challenge to the country's control of the strategic Strait of Hormuz would increase tensions despite ongoing peace negotiations to end the Middle East war. 28/06/2026 - 11:42 Israel military says soldier killed in south Lebanon fighting The Israeli military said a soldier was killed on Sunday in fighting in southern Lebanon, two days after Israel and Lebanon signed an agreement aimed at ending hostilities."
-        },
-        {
-          "id": "9d3edd7822062f5abaefe00aef4d49c53c8ab32cdde20cc23c3148df8e059c79",
-          "title": "Earthquakes in Venezuela: Situation Report No. 4 (27 June 2026, Time: 3:00 pm) (pdf)",
-          "url": "https://reliefweb.int/attachments/d78ef3a5-04b7-4259-8e42-1658555e994a/VE_%20Earthquake%20Situation%20in%20Venezuela_OCHA_27%20June%202026_4.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-06-28T06:58:48.719379+00:00",
-          "published": "Sun, 28 Jun 2026 00:10:18 +0000",
-          "summary": " The Humanitarian Coordinator, Gianluca Rampolla, conducted an initial visit to La Guaida with United Nations agencies to coordinate the response with the authorities. United Nations Office for the Coordination of Humanitarian Affairs (OCHA) www.unocha.org Highlights  Two consecutive earthquakes of magnitude 7.2 and 7.5 on 24 June (18:00 local time); authorities report more than 430 aftershocks. The United Nations and its partner organizations are coordinating for the next phase of the response."
         }
       ]
     },
     {
       "name": "Territory and Chokepoints",
-      "count": 576,
+      "count": 578,
       "formats": [
         {
           "name": "Article",
-          "value": 460
+          "value": 461
         },
         {
           "name": "PDF",
-          "value": 75
+          "value": 76
         },
         {
           "name": "Sanctions",
@@ -785,6 +801,8 @@
         }
       ],
       "evidence_ids": [
+        "30aceea491bd176e226277f2b06aace02ad5f7e8b019d8054cd406af8092f718",
+        "56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa",
         "28b17d88bef221d1be7009fc10758bf7805971dbe77471f3e838eaa8dfef98f6",
         "797ecc4c13c121a50740622712d4a4a4af441dad4244c0054707678333672045",
         "36c65ec56f6ca27a9ed8428d06953f7556875294f88a5be011593550fbf41c1a",
@@ -792,12 +810,30 @@
         "2d5e0db8aa70cbf616d4f3a36327faa9e37bcb1f7ad6a6980a98bbb6fb0e0715",
         "452ba646b530d5e603082ccd93e664814b4135d1398bb293100d2a995e3ea72c",
         "9d3edd7822062f5abaefe00aef4d49c53c8ab32cdde20cc23c3148df8e059c79",
-        "3c83728e15b4676dd206d55a03337c8e99d5df532f360375c935c5c89304958d",
-        "20591990ae899c712b3612f0c879fad9d4ca980a2f668cd251b077056ed24c6f",
-        "2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1"
+        "3c83728e15b4676dd206d55a03337c8e99d5df532f360375c935c5c89304958d"
       ],
-      "summary": "Meanwhile, the latest Food and Agriculture Organization of the United Nations (FAO) and the United Nations World Food Programme (WFP) Hunger Hotspots report has highlights South Sudan as one of the four countries of highest global concern, driven by the scale and severity of acute food insecurity. • The Emergency Relief Coordinator, Tom Fletcher, has announced an allocation of US$6 million for Ebola operational readiness in South Sudan. Meanwhile, the latest Food and Agriculture Organization of the United Nations (FAO) and the United Nations World Food Programme (WFP) Hunger Hotspots report has highlights South Sudan as one of the four countries of highest global concern, driven by the scale and severity of acute food insecurity. • The Emergency Relief Coordinator, Tom Fletcher, has announced an allocation of US$6 million for Ebola operational readiness in South Sudan. Iran’s foreign minister said that bringing maritime traffic back to pre-war levels in Hormuz lies solely with Tehran, and warned that any challenge over the strait will “increase tensions”. Key events Iran’s foreign minister warns any challenge to Iranian oversight of Hormuz will ‘increase tensions’ Iran’s foreign minister Abbas Araghchi is in Baghdad for a meeting with his Iraqi counterpart. US Central Command (CENTCOM) said its navy and air force “conducted strikes tonight on 10 Iranian military targets at multiple locations in and near the Strait of Hormuz”, saying the attacks were a response to an Iranian drone attack on the Kiku oil tanker. Iran has said vessels transiting the strait can only use its designated route and warned that ships using any other routes would be violating the ceasefire agreement.",
+      "summary": "UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela. UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela. Note that before the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded. • UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela. • UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela. Note that b efore the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded. Meanwhile, the latest Food and Agriculture Organization of the United Nations (FAO) and the United Nations World Food Programme (WFP) Hunger Hotspots report has highlights South Sudan as one of the four countries of highest global concern, driven by the scale and severity of acute food insecurity. • The Emergency Relief Coordinator, Tom Fletcher, has announced an allocation of US$6 million for Ebola operational readiness in South Sudan. Meanwhile, the latest Food and Agriculture Organization of the United Nations (FAO) and the United Nations World Food Programme (WFP) Hunger Hotspots report has highlights South Sudan as one of the four countries of highest global concern, driven by the scale and severity of acute food insecurity. • The Emergency Relief Coordinator, Tom Fletcher, has announced an allocation of US$6 million for Ebola operational readiness in South Sudan.",
       "latest": [
+        {
+          "id": "30aceea491bd176e226277f2b06aace02ad5f7e8b019d8054cd406af8092f718",
+          "title": "UNICEF Venezuela Humanitarian Situation Report No.2 (Earthquake), 27 June 2026",
+          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/unicef-venezuela-humanitarian-situation-report-no2-earthquake-27-june-2026",
+          "host": "reliefweb.int",
+          "format": "Article",
+          "collected_at": "2026-06-29T00:04:56.184670+00:00",
+          "published": "Sun, 28 Jun 2026 23:51:23 +0000",
+          "summary": "UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela. UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela. Note that before the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded."
+        },
+        {
+          "id": "56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa",
+          "title": "UNICEF Venezuela Humanitarian Situation Report No.2 (Earthquake), 27 June 2026 (pdf)",
+          "url": "https://reliefweb.int/attachments/6cbd2797-8426-4521-bcd9-92a62a0d3a56/UNICEF%20Venezuela%20Humanitarian%20Situation%20Report%20No.2%20%28Earthquake%29%2C%2027%20June%202026.pdf",
+          "host": "reliefweb.int",
+          "format": "PDF",
+          "collected_at": "2026-06-29T00:04:58.489095+00:00",
+          "published": "Sun, 28 Jun 2026 23:51:23 +0000",
+          "summary": "• UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela. • UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela. Note that b efore the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded."
+        },
         {
           "id": "28b17d88bef221d1be7009fc10758bf7805971dbe77471f3e838eaa8dfef98f6",
           "title": "South Sudan Humanitarian Update as of 26 June 2026 (pdf)",
@@ -827,26 +863,6 @@
           "collected_at": "2026-06-28T09:56:42.121696+00:00",
           "published": "Sun, 28 Jun 2026 09:28:55 GMT",
           "summary": "Iran’s foreign minister said that bringing maritime traffic back to pre-war levels in Hormuz lies solely with Tehran, and warned that any challenge over the strait will “increase tensions”. Key events Iran’s foreign minister warns any challenge to Iranian oversight of Hormuz will ‘increase tensions’ Iran’s foreign minister Abbas Araghchi is in Baghdad for a meeting with his Iraqi counterpart."
-        },
-        {
-          "id": "eed49902cdcec756be6a2a43b969858dfb032b28a98504cd3cb2df242312f343",
-          "title": "Iran and US trade attacks as Strait of Hormuz ceasefire falters",
-          "url": "https://www.aljazeera.com/news/2026/6/28/iran-attacks-kuwait-and-bahrain-in-response-to-us-strikes?traffic_source=rss",
-          "host": "aljazeera.com",
-          "format": "Article",
-          "collected_at": "2026-06-28T15:15:38.665158+00:00",
-          "published": "Sun, 28 Jun 2026 08:39:48 +0000",
-          "summary": "US Central Command (CENTCOM) said its navy and air force “conducted strikes tonight on 10 Iranian military targets at multiple locations in and near the Strait of Hormuz”, saying the attacks were a response to an Iranian drone attack on the Kiku oil tanker. Iran has said vessels transiting the strait can only use its designated route and warned that ships using any other routes would be violating the ceasefire agreement."
-        },
-        {
-          "id": "2d5e0db8aa70cbf616d4f3a36327faa9e37bcb1f7ad6a6980a98bbb6fb0e0715",
-          "title": "Gulf shares concerns with US as Iran’s influence and power continue by proxy",
-          "url": "https://www.theguardian.com/world/2026/jun/28/gulf-us-iran-war-proxies-middle-east",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-06-28T09:56:40.683471+00:00",
-          "published": "Sun, 28 Jun 2026 07:00:03 GMT",
-          "summary": "“They’ve shared with us some very concrete concerns,” the US secretary of state admitted, and insisted that any definitive agreement will require Tehran to not only restrict its nuclear programme but also halt its support of Hamas in Gaza, Hezbollah in Lebanon, militia in Iraq and the Houthis in Yemen. The militant Islamist organisation also manifestly failed in its primary strategic role for Iran: to deter an Israeli direct strike."
         }
       ]
     },
@@ -939,15 +955,15 @@
     },
     {
       "name": "Institutions and Law",
-      "count": 336,
+      "count": 338,
       "formats": [
         {
           "name": "Article",
-          "value": 212
+          "value": 213
         },
         {
           "name": "PDF",
-          "value": 59
+          "value": 60
         },
         {
           "name": "Sanctions",
@@ -963,6 +979,8 @@
         }
       ],
       "evidence_ids": [
+        "30aceea491bd176e226277f2b06aace02ad5f7e8b019d8054cd406af8092f718",
+        "56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa",
         "9688d04803d6f67bd66cfb2eb5988ef152e88dbf2543cedb6c580aad4d1f4b05",
         "28b17d88bef221d1be7009fc10758bf7805971dbe77471f3e838eaa8dfef98f6",
         "797ecc4c13c121a50740622712d4a4a4af441dad4244c0054707678333672045",
@@ -970,12 +988,30 @@
         "9d3edd7822062f5abaefe00aef4d49c53c8ab32cdde20cc23c3148df8e059c79",
         "f671a7a15283ac4d045c25ac74e0940a5e7c649bef8ccbb59776beed2e1b9917",
         "824beeace90dd7e99a7a4b78e13c7d060922b119c5ac7bda62c2321197db3245",
-        "7caf1497a4f38b4c7f20999f894cb5e209b9f87b73abb2b8e1285c8cbb5738fe",
-        "12cedde180e8e9687b67b98b3ca98181b0658e966c76572f2977c438bf2c599d",
-        "8acc369bfbac549bf05d32a51c6aacff3c916d3d4f6544e28488f32e805b34ea"
+        "7caf1497a4f38b4c7f20999f894cb5e209b9f87b73abb2b8e1285c8cbb5738fe"
       ],
-      "summary": "In a fleetingly rare instance of a Republican politician directly standing up to Trump, Cassidy let rip at a Capitol Hill lunch over the senator’s support for a war powers resolution that was a symbolic rebuke to the White House. The senator added that he had “accomplished the mission” in that following the blazing row Trump conceded and granted him a briefing on the war from Vice-President JD Vance and special envoy Steve Witkoff. Meanwhile, the latest Food and Agriculture Organization of the United Nations (FAO) and the United Nations World Food Programme (WFP) Hunger Hotspots report has highlights South Sudan as one of the four countries of highest global concern, driven by the scale and severity of acute food insecurity. • The Emergency Relief Coordinator, Tom Fletcher, has announced an allocation of US$6 million for Ebola operational readiness in South Sudan. Meanwhile, the latest Food and Agriculture Organization of the United Nations (FAO) and the United Nations World Food Programme (WFP) Hunger Hotspots report has highlights South Sudan as one of the four countries of highest global concern, driven by the scale and severity of acute food insecurity. • The Emergency Relief Coordinator, Tom Fletcher, has announced an allocation of US$6 million for Ebola operational readiness in South Sudan. US Central Command (CENTCOM) said its navy and air force “conducted strikes tonight on 10 Iranian military targets at multiple locations in and near the Strait of Hormuz”, saying the attacks were a response to an Iranian drone attack on the Kiku oil tanker. Iran has said vessels transiting the strait can only use its designated route and warned that ships using any other routes would be violating the ceasefire agreement.",
+      "summary": "UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela. UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela. Note that before the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded. • UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela. • UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela. Note that b efore the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded. In a fleetingly rare instance of a Republican politician directly standing up to Trump, Cassidy let rip at a Capitol Hill lunch over the senator’s support for a war powers resolution that was a symbolic rebuke to the White House. The senator added that he had “accomplished the mission” in that following the blazing row Trump conceded and granted him a briefing on the war from Vice-President JD Vance and special envoy Steve Witkoff. Meanwhile, the latest Food and Agriculture Organization of the United Nations (FAO) and the United Nations World Food Programme (WFP) Hunger Hotspots report has highlights South Sudan as one of the four countries of highest global concern, driven by the scale and severity of acute food insecurity. • The Emergency Relief Coordinator, Tom Fletcher, has announced an allocation of US$6 million for Ebola operational readiness in South Sudan.",
       "latest": [
+        {
+          "id": "30aceea491bd176e226277f2b06aace02ad5f7e8b019d8054cd406af8092f718",
+          "title": "UNICEF Venezuela Humanitarian Situation Report No.2 (Earthquake), 27 June 2026",
+          "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/unicef-venezuela-humanitarian-situation-report-no2-earthquake-27-june-2026",
+          "host": "reliefweb.int",
+          "format": "Article",
+          "collected_at": "2026-06-29T00:04:56.184670+00:00",
+          "published": "Sun, 28 Jun 2026 23:51:23 +0000",
+          "summary": "UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela. UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela. Note that before the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded."
+        },
+        {
+          "id": "56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa",
+          "title": "UNICEF Venezuela Humanitarian Situation Report No.2 (Earthquake), 27 June 2026 (pdf)",
+          "url": "https://reliefweb.int/attachments/6cbd2797-8426-4521-bcd9-92a62a0d3a56/UNICEF%20Venezuela%20Humanitarian%20Situation%20Report%20No.2%20%28Earthquake%29%2C%2027%20June%202026.pdf",
+          "host": "reliefweb.int",
+          "format": "PDF",
+          "collected_at": "2026-06-29T00:04:58.489095+00:00",
+          "published": "Sun, 28 Jun 2026 23:51:23 +0000",
+          "summary": "• UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela. • UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela. Note that b efore the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded."
+        },
         {
           "id": "9688d04803d6f67bd66cfb2eb5988ef152e88dbf2543cedb6c580aad4d1f4b05",
           "title": "Bill Cassidy accuses Trump of treating Congress as ‘merely an appendage’",
@@ -1005,26 +1041,6 @@
           "collected_at": "2026-06-28T15:15:52.978028+00:00",
           "published": "Sun, 28 Jun 2026 11:21:05 +0000",
           "summary": "Meanwhile, the latest Food and Agriculture Organization of the United Nations (FAO) and the United Nations World Food Programme (WFP) Hunger Hotspots report has highlights South Sudan as one of the four countries of highest global concern, driven by the scale and severity of acute food insecurity. • The Emergency Relief Coordinator, Tom Fletcher, has announced an allocation of US$6 million for Ebola operational readiness in South Sudan."
-        },
-        {
-          "id": "eed49902cdcec756be6a2a43b969858dfb032b28a98504cd3cb2df242312f343",
-          "title": "Iran and US trade attacks as Strait of Hormuz ceasefire falters",
-          "url": "https://www.aljazeera.com/news/2026/6/28/iran-attacks-kuwait-and-bahrain-in-response-to-us-strikes?traffic_source=rss",
-          "host": "aljazeera.com",
-          "format": "Article",
-          "collected_at": "2026-06-28T15:15:38.665158+00:00",
-          "published": "Sun, 28 Jun 2026 08:39:48 +0000",
-          "summary": "US Central Command (CENTCOM) said its navy and air force “conducted strikes tonight on 10 Iranian military targets at multiple locations in and near the Strait of Hormuz”, saying the attacks were a response to an Iranian drone attack on the Kiku oil tanker. Iran has said vessels transiting the strait can only use its designated route and warned that ships using any other routes would be violating the ceasefire agreement."
-        },
-        {
-          "id": "9d3edd7822062f5abaefe00aef4d49c53c8ab32cdde20cc23c3148df8e059c79",
-          "title": "Earthquakes in Venezuela: Situation Report No. 4 (27 June 2026, Time: 3:00 pm) (pdf)",
-          "url": "https://reliefweb.int/attachments/d78ef3a5-04b7-4259-8e42-1658555e994a/VE_%20Earthquake%20Situation%20in%20Venezuela_OCHA_27%20June%202026_4.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-06-28T06:58:48.719379+00:00",
-          "published": "Sun, 28 Jun 2026 00:10:18 +0000",
-          "summary": " The Humanitarian Coordinator, Gianluca Rampolla, conducted an initial visit to La Guaida with United Nations agencies to coordinate the response with the authorities. United Nations Office for the Coordination of Humanitarian Affairs (OCHA) www.unocha.org Highlights  Two consecutive earthquakes of magnitude 7.2 and 7.5 on 24 June (18:00 local time); authorities report more than 430 aftershocks. The United Nations and its partner organizations are coordinating for the next phase of the response."
         }
       ]
     },
@@ -1210,8 +1226,9 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 810,
+      "count": 811,
       "evidence_ids": [
+        "56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa",
         "9688d04803d6f67bd66cfb2eb5988ef152e88dbf2543cedb6c580aad4d1f4b05",
         "36c65ec56f6ca27a9ed8428d06953f7556875294f88a5be011593550fbf41c1a",
         "eed49902cdcec756be6a2a43b969858dfb032b28a98504cd3cb2df242312f343",
@@ -1222,8 +1239,7 @@
         "3c83728e15b4676dd206d55a03337c8e99d5df532f360375c935c5c89304958d",
         "20591990ae899c712b3612f0c879fad9d4ca980a2f668cd251b077056ed24c6f",
         "824beeace90dd7e99a7a4b78e13c7d060922b119c5ac7bda62c2321197db3245",
-        "1772c53376b14a9deea0a84dc444a0b5674ceb40d2fd59ed6aebd5efdd7ab359",
-        "2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1"
+        "1772c53376b14a9deea0a84dc444a0b5674ceb40d2fd59ed6aebd5efdd7ab359"
       ],
       "top_sources": [
         {
@@ -1232,7 +1248,7 @@
         },
         {
           "name": "reliefweb.int",
-          "value": 127
+          "value": 128
         },
         {
           "name": "aljazeera.com",
@@ -1250,8 +1266,10 @@
     },
     {
       "name": "Americas",
-      "count": 664,
+      "count": 666,
       "evidence_ids": [
+        "30aceea491bd176e226277f2b06aace02ad5f7e8b019d8054cd406af8092f718",
+        "56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa",
         "36c65ec56f6ca27a9ed8428d06953f7556875294f88a5be011593550fbf41c1a",
         "eed49902cdcec756be6a2a43b969858dfb032b28a98504cd3cb2df242312f343",
         "2d5e0db8aa70cbf616d4f3a36327faa9e37bcb1f7ad6a6980a98bbb6fb0e0715",
@@ -1261,9 +1279,7 @@
         "4a78a02b89f174275be9c7b3de09d0800ffddaf4592cbaa0725e5926dfcb9263",
         "20591990ae899c712b3612f0c879fad9d4ca980a2f668cd251b077056ed24c6f",
         "824beeace90dd7e99a7a4b78e13c7d060922b119c5ac7bda62c2321197db3245",
-        "1772c53376b14a9deea0a84dc444a0b5674ceb40d2fd59ed6aebd5efdd7ab359",
-        "7caf1497a4f38b4c7f20999f894cb5e209b9f87b73abb2b8e1285c8cbb5738fe",
-        "2135b1a05f9e16b33fdd461c8351bdd12b57690445b20dfb3d0e861247f457e1"
+        "1772c53376b14a9deea0a84dc444a0b5674ceb40d2fd59ed6aebd5efdd7ab359"
       ],
       "top_sources": [
         {
@@ -1276,7 +1292,7 @@
         },
         {
           "name": "reliefweb.int",
-          "value": 77
+          "value": 79
         },
         {
           "name": "warontherocks.com",
@@ -1330,8 +1346,10 @@
     },
     {
       "name": "Global Institutions",
-      "count": 584,
+      "count": 586,
       "evidence_ids": [
+        "30aceea491bd176e226277f2b06aace02ad5f7e8b019d8054cd406af8092f718",
+        "56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa",
         "9688d04803d6f67bd66cfb2eb5988ef152e88dbf2543cedb6c580aad4d1f4b05",
         "58925139574a8fe821057ab3352a66926716f94bb1cba951455daf9a2a13e158",
         "079bf5c921ef60da31350a6bee6ec91d5aa7e9d296467af8cb6ff91b77bcc477",
@@ -1341,14 +1359,12 @@
         "9d3edd7822062f5abaefe00aef4d49c53c8ab32cdde20cc23c3148df8e059c79",
         "f671a7a15283ac4d045c25ac74e0940a5e7c649bef8ccbb59776beed2e1b9917",
         "824beeace90dd7e99a7a4b78e13c7d060922b119c5ac7bda62c2321197db3245",
-        "7caf1497a4f38b4c7f20999f894cb5e209b9f87b73abb2b8e1285c8cbb5738fe",
-        "ea1cfaa2a001ec6e5858411f67cc23639f77880e2bb62f08df3816092c1d57bc",
-        "1669dd1da6f147710f6129b7f0e5ff5c501373ad4997fd2691189288c3b29939"
+        "7caf1497a4f38b4c7f20999f894cb5e209b9f87b73abb2b8e1285c8cbb5738fe"
       ],
       "top_sources": [
         {
           "name": "reliefweb.int",
-          "value": 175
+          "value": 177
         },
         {
           "name": "theguardian.com",
@@ -2152,17 +2168,17 @@
     },
     {
       "date": "2026-04-08",
-      "evidence_id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
-    },
-    {
-      "date": "2026-04-08",
       "evidence_id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "title": "MS.MIL.XPND.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
       "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\","
+    },
+    {
+      "date": "2026-04-08",
+      "evidence_id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
     },
     {
       "date": "2026",
@@ -2177,6 +2193,20 @@
       "title": "Consolidated Sanctions List",
       "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
       "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong"
+    },
+    {
+      "date": "2026",
+      "evidence_id": "30aceea491bd176e226277f2b06aace02ad5f7e8b019d8054cd406af8092f718",
+      "title": "UNICEF Venezuela Humanitarian Situation Report No.2 (Earthquake), 27 June 2026",
+      "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/unicef-venezuela-humanitarian-situation-report-no2-earthquake-27-june-2026",
+      "excerpt": "ely 72 hours have passed since two major earthquakes of magnitude 7.2 and 7.5 struck north-central Venezuela on 24 June 2026, causing widespread destruction across densely populated urban areas. As of 27 June, at least 1430 people have been reported dead and over 3,000 have been injured with casualty figures expected to rise as search and rescue operations continue. In response"
+    },
+    {
+      "date": "2026",
+      "evidence_id": "56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa",
+      "title": "UNICEF Venezuela Humanitarian Situation Report No.2 (Earthquake), 27 June 2026 (pdf)",
+      "url": "https://reliefweb.int/attachments/6cbd2797-8426-4521-bcd9-92a62a0d3a56/UNICEF%20Venezuela%20Humanitarian%20Situation%20Report%20No.2%20%28Earthquake%29%2C%2027%20June%202026.pdf",
+      "excerpt": "ppeal US$ To be updated Situation in Numbers 6.76 million People affected by the earthquakes (according to IOM, 27 June 2026) 1.8 million People in need of humanitarian assistance (UNICEF estimate) 680K children in need of humanitarian assistance (UNICEF estimate) 650K People to be reached (UNICEF estimate) 234K Children to be reached (UNICEF estimate) US$52 million Required fo"
     },
     {
       "date": "2026",
@@ -2415,23 +2445,167 @@
       "title": "US Counterterrorism Aircraft Could Be Surprisingly Useful in a Taiwan War",
       "url": "https://thediplomat.com/2026/06/us-counterterrorism-aircraft-could-be-surprisingly-useful-in-a-taiwan-war/",
       "excerpt": "y’s interceptors than the previous 30 years. The same drones were used for Iran’s two fatal strikes on U.S. soldiers in 2026 , which cost seven American lives. Given that China already helps Russia and Iran build Shahed-style drones for their war efforts, Beijing is highly likely to replicate this if it starts a war in the Pacific. In response, the United States has already pre"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "95d30c0ca4f825921462105d80f2b452aba482c072dc9a8de73fb11b22cf4cd6",
-      "title": "Sudan: Warnings mount over the risk of new mass atrocities",
-      "url": "https://www.dw.com/en/sudan-warnings-mount-over-the-risk-of-new-mass-atrocities/a-77709377?maca=en-rss-en-world-4025-rdf",
-      "excerpt": "According to the UN human rights agency, more than 1,000 civilians were killed in drone strikes between January and May 2026. However, with the beginning of the rainy season in July, the trajectory of combat drones becomes less predictable, Ali said. \"If the RSF wants to advance towards other cities within Sudan, the most sensible course of action is to find a forward operating"
-    },
-    {
-      "date": "2026",
-      "evidence_id": "a99dc0976de92bad2611d75d7030b2e9d9a42260789f7d2a729817964bcb2f02",
-      "title": "USVDIV-32 Advances Unmanned Operations With NATO During BALTOPS 2026",
-      "url": "https://www.war.gov/News/News-Stories/Article/Article/4526512/usvdiv-32-advances-unmanned-operations-with-nato-during-baltops-2026/",
-      "excerpt": "ed to the Unmanned Surface Vessel Division 32 are at the forefront of the Navy's fleet during exercise Baltic Operation 2026, delivering realistic counter-unmanned surface vessel training against unmanned vessels to NATO allies. Established early this year, USVDIV-32 is one of the newest additions to the Navy's unmanned operational units. Tasked with maintaining and implementin"
     }
   ],
   "latest_evidence": [
+    {
+      "id": "30aceea491bd176e226277f2b06aace02ad5f7e8b019d8054cd406af8092f718",
+      "topic": "geopolitics",
+      "title": "UNICEF Venezuela Humanitarian Situation Report No.2 (Earthquake), 27 June 2026",
+      "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/unicef-venezuela-humanitarian-situation-report-no2-earthquake-27-june-2026",
+      "host": "reliefweb.int",
+      "source": "https://reliefweb.int/updates/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-29T00:04:56.184670+00:00",
+      "published": "Sun, 28 Jun 2026 23:51:23 +0000",
+      "text_chars": 8368,
+      "raw_path": "data/geopolitics/raw/30aceea491bd176e226277f2b06aace02ad5f7e8b019d8054cd406af8092f718.html",
+      "text_path": "data/geopolitics/raw/30aceea491bd176e226277f2b06aace02ad5f7e8b019d8054cd406af8092f718.txt",
+      "summary": "UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela. UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela. Note that before the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded.",
+      "bullets": [
+        "UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela.",
+        "UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela.",
+        "Note that before the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded.",
+        "The funding requirement come at a time when Venezuela was already facing a protracted humanitarian situation, with an estimated 7.9 million people, including 3.9 children, in need of assistance prior to the disaster.",
+        "As of 27 June, at least 1430 people have been reported dead and over 3,000 have been injured with casualty figures expected to rise as search and rescue operations continue."
+      ],
+      "excerpt": "Highlights Approximately 72 hours have passed since two major earthquakes of magnitude 7.2 and 7.5 struck north-central Venezuela on 24 June 2026, causing widespread destruction across densely populated urban areas. As of 27 June, at least 1430 people have been reported dead and over 3,000 have been injured with casualty figures expected to rise as search and rescue operations continue. In response, the Government of the Bolivarian Republic of Venezuela declared a State of Emergency to mobilize technical, human, financial and material resources. An estimated 6.76 million people, including approximately 2 million in Caracas, could be affected by the 24 June earthquakes in Venezuela, with preliminary satellite analysis indicating that 31.5 per cent of buildings in only one location (Catia La Mar) have been damaged (IOM, 27 June). UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela. These figures are expected to evolve as access improves and further assessments are conducted. UNICEF has activated a scaled-up emergency response, deploying additional surge staff, mobilizing pre",
+      "keywords": [
+        {
+          "name": "unicef",
+          "value": 26
+        },
+        {
+          "name": "humanitarian",
+          "value": 18
+        },
+        {
+          "name": "children",
+          "value": 16
+        },
+        {
+          "name": "million",
+          "value": 16
+        },
+        {
+          "name": "response",
+          "value": 14
+        },
+        {
+          "name": "assistance",
+          "value": 12
+        },
+        {
+          "name": "june",
+          "value": 12
+        },
+        {
+          "name": "earthquakes",
+          "value": 11
+        },
+        {
+          "name": "emergency",
+          "value": 11
+        },
+        {
+          "name": "venezuela",
+          "value": 11
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Territory and Chokepoints",
+        "Institutions and Law"
+      ],
+      "regions": [
+        "Americas",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/30aceea491bd176e226277f2b06aace02ad5f7e8b019d8054cd406af8092f718",
+      "evidence_json": "/evidence/30aceea491bd176e226277f2b06aace02ad5f7e8b019d8054cd406af8092f718.json"
+    },
+    {
+      "id": "56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa",
+      "topic": "geopolitics",
+      "title": "UNICEF Venezuela Humanitarian Situation Report No.2 (Earthquake), 27 June 2026 (pdf)",
+      "url": "https://reliefweb.int/attachments/6cbd2797-8426-4521-bcd9-92a62a0d3a56/UNICEF%20Venezuela%20Humanitarian%20Situation%20Report%20No.2%20%28Earthquake%29%2C%2027%20June%202026.pdf",
+      "host": "reliefweb.int",
+      "source": "https://reliefweb.int/updates/rss.xml",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-29T00:04:58.489095+00:00",
+      "published": "Sun, 28 Jun 2026 23:51:23 +0000",
+      "text_chars": 21974,
+      "raw_path": "data/geopolitics/raw/56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa.pdf",
+      "text_path": "data/geopolitics/raw/56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa.txt",
+      "summary": "• UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela. • UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela. Note that b efore the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded.",
+      "bullets": [
+        "• UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela.",
+        "• UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela.",
+        "Note that b efore the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded.",
+        "The funding requirement come at a time when Venezuela was already facing a protracted humanitarian situation, with an estimated 7.9 million people, including 3.9 children, in need of assistance prior to the disaster.",
+        "*According to UNICEF’s Urgent Humanitarian Response Plan for the 2026 Venezuela earthquakes."
+      ],
+      "excerpt": "1 UNICEF Venezuela Appeal US$ To be updated Situation in Numbers 6.76 million People affected by the earthquakes (according to IOM, 27 June 2026) 1.8 million People in need of humanitarian assistance (UNICEF estimate) 680K children in need of humanitarian assistance (UNICEF estimate) 650K People to be reached (UNICEF estimate) 234K Children to be reached (UNICEF estimate) US$52 million Required for UNICEF humanitarian response Highlights • Approximately 72 hours have passed since two major earthquakes of magnitude 7.2 and 7.5 struck north -central Venezuela on 24 June 2026, causing widespread destruction across densely populated urban areas. As of 2 7 June, at least 1430 people have been reported dead and over 3,000 have been injured with casualty figures expected to rise as search and rescue operations continue. In response, t he Government of the Bolivarian Republic of Venezuela declared a State of Emergency to mobilize technical, human, financial and material resources. • An estimated 6.76 million people, including approximately 2 million in Caracas, could be affected by the 24 June earthquakes in Venezuela, with preliminary satellite analysis indicating that 31.5 per cent of bu",
+      "keywords": [
+        {
+          "name": "unicef",
+          "value": 46
+        },
+        {
+          "name": "children",
+          "value": 31
+        },
+        {
+          "name": "response",
+          "value": 29
+        },
+        {
+          "name": "humanitarian",
+          "value": 27
+        },
+        {
+          "name": "support",
+          "value": 24
+        },
+        {
+          "name": "needs",
+          "value": 23
+        },
+        {
+          "name": "protection",
+          "value": 22
+        },
+        {
+          "name": "affected",
+          "value": 21
+        },
+        {
+          "name": "venezuela",
+          "value": 21
+        },
+        {
+          "name": "earthquakes",
+          "value": 20
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Territory and Chokepoints",
+        "Institutions and Law"
+      ],
+      "regions": [
+        "Americas",
+        "Global Institutions",
+        "Middle East"
+      ],
+      "file_asset": "/evidence-files/56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa.pdf",
+      "detail_path": "/evidence/56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa",
+      "evidence_json": "/evidence/56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa.json"
+    },
     {
       "id": "6ec33b7bcb391d78f4f122a93ddc27fe6d249494bb7286acae8fe02667e76d6e",
       "topic": "geopolitics",
@@ -8488,162 +8662,6 @@
       ],
       "detail_path": "/evidence/6c49dafa61feb3df59e3f055c8e2c2564b3327fbcf1a042e02205ba1b0bb2db7",
       "evidence_json": "/evidence/6c49dafa61feb3df59e3f055c8e2c2564b3327fbcf1a042e02205ba1b0bb2db7.json"
-    },
-    {
-      "id": "700557d47418d5014b6a16bac2aa982b42dd02a371c9f5d9393c1a96ccefe50f",
-      "topic": "geopolitics",
-      "title": "Trump airs grievances with NATO chief over alliance's lack of Iran war support",
-      "url": "https://www.npr.org/2026/06/25/nx-s1-5869806/trump-airs-grievances-with-nato-chief-over-alliances-lack-of-iran-war-support",
-      "host": "npr.org",
-      "source": "https://www.npr.org/rss/rss.php?id=1004",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-06-25T19:05:03.769993+00:00",
-      "published": "Thu, 25 Jun 2026 04:44:55 -0400",
-      "text_chars": 4878,
-      "raw_path": "data/geopolitics/raw/700557d47418d5014b6a16bac2aa982b42dd02a371c9f5d9393c1a96ccefe50f.html",
-      "text_path": "data/geopolitics/raw/700557d47418d5014b6a16bac2aa982b42dd02a371c9f5d9393c1a96ccefe50f.txt",
-      "summary": "Trump's fury that many NATO countries didn't enthusiastically join or even support his war on Iran has been a very divisive issue in the transatlantic relationship and for Rutte himself, who made multiple statements that were very favorable toward Trump's attacks, despite that not being the NATO consensus. President Trump met with NATO Secretary General Mark Rutte Wednesday, where he shared his frustrations with the lack of support he's received from allies on the Iran war.",
-      "bullets": [
-        "Trump's fury that many NATO countries didn't enthusiastically join or even support his war on Iran has been a very divisive issue in the transatlantic relationship and for Rutte himself, who made multiple statements that were very favorable toward Trump's attacks, despite that not being the NATO consensus.",
-        "President Trump met with NATO Secretary General Mark Rutte Wednesday, where he shared his frustrations with the lack of support he's received from allies on the Iran war.",
-        "TERI SCHULTZ, BYLINE: It's very much on Rutte's shoulders to ensure that NATO can come out of every meeting, especially a summit with all 32 heads of state and government say they're more united than ever.",
-        "Teri, Rutte made this trip primarily to work on issues ahead of a crucial NATO summit in Turkey.",
-        "A MARTÍNEZ, HOST: NATO Secretary General Mark Rutte met with President Trump at the White House on Wednesday."
-      ],
-      "excerpt": "President Trump met with NATO Secretary General Mark Rutte Wednesday, where he shared his frustrations with the lack of support he's received from allies on the Iran war. A MARTÍNEZ, HOST: NATO Secretary General Mark Rutte met with President Trump at the White House on Wednesday. Trump has repeatedly slammed NATO, and he continued on Wednesday. (SOUNDBITE OF ARCHIVED RECORDING) PRESIDENT DONALD TRUMP: We were disappointed with the U.K. We were disappointed with Germany and France. We were disappointed with - most of Spain is a horror show. MARTÍNEZ: But pointing at Rutte, Trump said, I have great respect for this man. We're joined now by reporter Teri Schultz in Brussels, who covers NATO closely. Teri, Rutte made this trip primarily to work on issues ahead of a crucial NATO summit in Turkey. What's he worried about? TERI SCHULTZ, BYLINE: It's very much on Rutte's shoulders to ensure that NATO can come out of every meeting, especially a summit with all 32 heads of state and government say they're more united than ever. And this continuous criticism of NATO and of individual countries makes that difficult. Trump actually said yesterday that if it weren't being hosted by Turkish presi",
-      "keywords": [
-        {
-          "name": "trump",
-          "value": 19
-        },
-        {
-          "name": "rutte",
-          "value": 15
-        },
-        {
-          "name": "nato",
-          "value": 13
-        },
-        {
-          "name": "schultz",
-          "value": 8
-        },
-        {
-          "name": "president",
-          "value": 7
-        },
-        {
-          "name": "defense",
-          "value": 5
-        },
-        {
-          "name": "many",
-          "value": 5
-        },
-        {
-          "name": "mart",
-          "value": 5
-        },
-        {
-          "name": "teri",
-          "value": 5
-        },
-        {
-          "name": "allies",
-          "value": 4
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/700557d47418d5014b6a16bac2aa982b42dd02a371c9f5d9393c1a96ccefe50f",
-      "evidence_json": "/evidence/700557d47418d5014b6a16bac2aa982b42dd02a371c9f5d9393c1a96ccefe50f.json"
-    },
-    {
-      "id": "00c36c2f78fdfc5e321dc6a7b579c9296f182670deecb8ca4b282c5e0072f063",
-      "topic": "geopolitics",
-      "title": "Europe is 'reading the tea leaves' on Trump's Ukraine policy, says ex-NATO envoy",
-      "url": "https://www.npr.org/2026/06/25/nx-s1-5869554/trump-nato-ukraine-kurt-volker",
-      "host": "npr.org",
-      "source": "https://www.npr.org/rss/rss.php?id=1004",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-06-25T16:20:03.123441+00:00",
-      "published": "Thu, 25 Jun 2026 04:44:52 -0400",
-      "text_chars": 2044,
-      "raw_path": "data/geopolitics/raw/00c36c2f78fdfc5e321dc6a7b579c9296f182670deecb8ca4b282c5e0072f063.html",
-      "text_path": "data/geopolitics/raw/00c36c2f78fdfc5e321dc6a7b579c9296f182670deecb8ca4b282c5e0072f063.txt",
-      "summary": "As NPR's Teri Schultz reported, NATO Secretary General Mark Rutte, who's visiting Washington this week, is under pressure to keep the 32-member alliance united after Trump suggested he might skip the summit if it were not hosted by Turkish President Recep Tayyip Erdogan, whom Trump has praised. He expected the NATO summit would be \"fairly smooth\" and focused on defense spending and military procurement. Rutte met with Trump ahead of next month's NATO summit and as the Pentagon conducts a six-month review of U.S.",
-      "bullets": [
-        "As NPR's Teri Schultz reported, NATO Secretary General Mark Rutte, who's visiting Washington this week, is under pressure to keep the 32-member alliance united after Trump suggested he might skip the summit if it were not hosted by Turkish President Recep Tayyip Erdogan, whom Trump has praised.",
-        "He expected the NATO summit would be \"fairly smooth\" and focused on defense spending and military procurement.",
-        "Rutte met with Trump ahead of next month's NATO summit and as the Pentagon conducts a six-month review of U.S.",
-        "Ambassador to NATO Kurt Volker says European leaders expect next month's NATO summit in Turkey to proceed normally despite President Donald Trump's latest criticism of the alliance.",
-        "Volker also said Ukraine has gained an advantage in drone warfare and Russia's economy has weakened."
-      ],
-      "excerpt": "NATO Secretary-General Mark Rutte, left, meets with President Donald Trump and other officials in the Oval Office on Wednesday in Washington. Rutte met with Trump ahead of next month's NATO summit and as the Pentagon conducts a six-month review of U.S. forces in Europe. Andrew Harnik/Getty Images hide caption toggle caption Andrew Harnik/Getty Images Former U.S. Ambassador to NATO Kurt Volker says European leaders expect next month's NATO summit in Turkey to proceed normally despite President Donald Trump's latest criticism of the alliance. As NPR's Teri Schultz reported, NATO Secretary General Mark Rutte, who's visiting Washington this week, is under pressure to keep the 32-member alliance united after Trump suggested he might skip the summit if it were not hosted by Turkish President Recep Tayyip Erdogan, whom Trump has praised. Trump has also pressed NATO members to raise defense spending to 5% of their gross domestic product. Speaking to NPR's Morning Edition from Poland, where he is attending the Ukraine Recovery Conference, Volker said European officials remain frustrated with Trump but are encouraged by recent signs of continued U.S. support for Ukraine, including backing Eu",
-      "keywords": [
-        {
-          "name": "trump",
-          "value": 10
-        },
-        {
-          "name": "nato",
-          "value": 7
-        },
-        {
-          "name": "european",
-          "value": 4
-        },
-        {
-          "name": "president",
-          "value": 4
-        },
-        {
-          "name": "summit",
-          "value": 4
-        },
-        {
-          "name": "ukraine",
-          "value": 4
-        },
-        {
-          "name": "volker",
-          "value": 4
-        },
-        {
-          "name": "rutte",
-          "value": 3
-        },
-        {
-          "name": "alliance",
-          "value": 2
-        },
-        {
-          "name": "american",
-          "value": 2
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Europe and Russia",
-        "Americas",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/00c36c2f78fdfc5e321dc6a7b579c9296f182670deecb8ca4b282c5e0072f063",
-      "evidence_json": "/evidence/00c36c2f78fdfc5e321dc6a7b579c9296f182670deecb8ca4b282c5e0072f063.json"
     }
   ],
   "deep_reads": [
@@ -8657,7 +8675,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-28T21:56:26.153551+00:00",
+      "collected_at": "2026-06-29T00:04:27.225856+00:00",
       "published": "",
       "text_chars": 9106608,
       "raw_path": "data/geopolitics/raw/2dde8e0f96955346e6ebd81a1e1c32b6f4b3d34d6c0b11caa237e74d45d788cd.xml",
@@ -10097,7 +10115,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-28T21:55:46.821281+00:00",
+      "collected_at": "2026-06-29T00:03:46.903242+00:00",
       "published": "",
       "text_chars": 6269339,
       "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
@@ -10172,7 +10190,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-28T21:55:46.544933+00:00",
+      "collected_at": "2026-06-29T00:03:47.187436+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -10882,87 +10900,6 @@
   ],
   "documents": [
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-28T21:56:36.335328+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -10972,7 +10909,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-28T21:56:29.069005+00:00",
+      "collected_at": "2026-06-29T00:04:35.383998+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -11053,7 +10990,7 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-06-28T21:56:28.267503+00:00",
+      "collected_at": "2026-06-29T00:04:34.581055+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -11114,77 +11051,85 @@
       "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
     },
     {
-      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
       "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-06-28T21:56:28.246518+00:00",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-29T00:04:34.575333+00:00",
       "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
-      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
       "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
       ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
       "keywords": [
         {
-          "name": "world",
-          "value": 12
+          "name": "power",
+          "value": 596
         },
         {
-          "name": "factbook",
-          "value": 11
+          "name": "convention",
+          "value": 551
         },
         {
-          "name": "intelligence",
-          "value": 3
+          "name": "prisoners",
+          "value": 512
         },
         {
-          "name": "basic",
-          "value": 2
+          "name": "parties",
+          "value": 284
         },
         {
-          "name": "classified",
-          "value": 2
+          "name": "conflict",
+          "value": 267
         },
         {
-          "name": "even",
-          "value": 2
+          "name": "detaining",
+          "value": 266
         },
         {
-          "name": "some",
-          "value": 2
+          "name": "medical",
+          "value": 249
         },
         {
-          "name": "unclassified",
-          "value": 2
+          "name": "provisions",
+          "value": 209
         },
         {
-          "name": "access",
-          "value": 1
+          "name": "powers",
+          "value": 205
         },
         {
-          "name": "added",
-          "value": 1
+          "name": "geneva",
+          "value": 201
         }
       ],
       "signals": [
-        "Sanctions and Finance"
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
       ],
-      "regions": [],
-      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
@@ -11196,7 +11141,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-28T21:56:28.226579+00:00",
+      "collected_at": "2026-06-29T00:04:29.332631+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11268,6 +11213,79 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
+      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-06-29T00:04:27.322790+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
+      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
+    },
+    {
       "id": "2dde8e0f96955346e6ebd81a1e1c32b6f4b3d34d6c0b11caa237e74d45d788cd",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -11277,7 +11295,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-28T21:56:26.153551+00:00",
+      "collected_at": "2026-06-29T00:04:27.225856+00:00",
       "published": "",
       "text_chars": 9106608,
       "raw_path": "data/geopolitics/raw/2dde8e0f96955346e6ebd81a1e1c32b6f4b3d34d6c0b11caa237e74d45d788cd.xml",
@@ -11357,7 +11375,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-28T21:55:51.126891+00:00",
+      "collected_at": "2026-06-29T00:03:51.090145+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.xml",
@@ -11437,7 +11455,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-28T21:55:48.859245+00:00",
+      "collected_at": "2026-06-29T00:03:49.269089+00:00",
       "published": "",
       "text_chars": 824644,
       "raw_path": "data/geopolitics/raw/5b06ad218e6f6a3b33a1da51517d2e2962ec3d76fd11814ab9beaf4cfe5540ec.xml",
@@ -11508,81 +11526,6 @@
       "evidence_json": "/evidence/5b06ad218e6f6a3b33a1da51517d2e2962ec3d76fd11814ab9beaf4cfe5540ec.json"
     },
     {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-28T21:55:46.821281+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -11592,7 +11535,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-28T21:55:46.544933+00:00",
+      "collected_at": "2026-06-29T00:03:47.187436+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -11658,6 +11601,161 @@
       ],
       "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-29T00:03:46.903242+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
+    },
+    {
+      "id": "56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa",
+      "topic": "geopolitics",
+      "title": "UNICEF Venezuela Humanitarian Situation Report No.2 (Earthquake), 27 June 2026 (pdf)",
+      "url": "https://reliefweb.int/attachments/6cbd2797-8426-4521-bcd9-92a62a0d3a56/UNICEF%20Venezuela%20Humanitarian%20Situation%20Report%20No.2%20%28Earthquake%29%2C%2027%20June%202026.pdf",
+      "host": "reliefweb.int",
+      "source": "https://reliefweb.int/updates/rss.xml",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-29T00:04:58.489095+00:00",
+      "published": "Sun, 28 Jun 2026 23:51:23 +0000",
+      "text_chars": 21974,
+      "raw_path": "data/geopolitics/raw/56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa.pdf",
+      "text_path": "data/geopolitics/raw/56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa.txt",
+      "summary": "• UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela. • UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela. Note that b efore the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded.",
+      "bullets": [
+        "• UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela.",
+        "• UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela.",
+        "Note that b efore the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded.",
+        "The funding requirement come at a time when Venezuela was already facing a protracted humanitarian situation, with an estimated 7.9 million people, including 3.9 children, in need of assistance prior to the disaster.",
+        "*According to UNICEF’s Urgent Humanitarian Response Plan for the 2026 Venezuela earthquakes."
+      ],
+      "excerpt": "1 UNICEF Venezuela Appeal US$ To be updated Situation in Numbers 6.76 million People affected by the earthquakes (according to IOM, 27 June 2026) 1.8 million People in need of humanitarian assistance (UNICEF estimate) 680K children in need of humanitarian assistance (UNICEF estimate) 650K People to be reached (UNICEF estimate) 234K Children to be reached (UNICEF estimate) US$52 million Required for UNICEF humanitarian response Highlights • Approximately 72 hours have passed since two major earthquakes of magnitude 7.2 and 7.5 struck north -central Venezuela on 24 June 2026, causing widespread destruction across densely populated urban areas. As of 2 7 June, at least 1430 people have been reported dead and over 3,000 have been injured with casualty figures expected to rise as search and rescue operations continue. In response, t he Government of the Bolivarian Republic of Venezuela declared a State of Emergency to mobilize technical, human, financial and material resources. • An estimated 6.76 million people, including approximately 2 million in Caracas, could be affected by the 24 June earthquakes in Venezuela, with preliminary satellite analysis indicating that 31.5 per cent of bu",
+      "keywords": [
+        {
+          "name": "unicef",
+          "value": 46
+        },
+        {
+          "name": "children",
+          "value": 31
+        },
+        {
+          "name": "response",
+          "value": 29
+        },
+        {
+          "name": "humanitarian",
+          "value": 27
+        },
+        {
+          "name": "support",
+          "value": 24
+        },
+        {
+          "name": "needs",
+          "value": 23
+        },
+        {
+          "name": "protection",
+          "value": 22
+        },
+        {
+          "name": "affected",
+          "value": 21
+        },
+        {
+          "name": "venezuela",
+          "value": 21
+        },
+        {
+          "name": "earthquakes",
+          "value": 20
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Territory and Chokepoints",
+        "Institutions and Law"
+      ],
+      "regions": [
+        "Americas",
+        "Global Institutions",
+        "Middle East"
+      ],
+      "file_asset": "/evidence-files/56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa.pdf",
+      "detail_path": "/evidence/56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa",
+      "evidence_json": "/evidence/56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa.json"
     },
     {
       "id": "28b17d88bef221d1be7009fc10758bf7805971dbe77471f3e838eaa8dfef98f6",
@@ -13659,86 +13757,6 @@
       "file_asset": "/evidence-files/a99a0336a21dcf6367cd7a564bff948513c7367c7bfe2739f6d559471580dfbd.pdf",
       "detail_path": "/evidence/a99a0336a21dcf6367cd7a564bff948513c7367c7bfe2739f6d559471580dfbd",
       "evidence_json": "/evidence/a99a0336a21dcf6367cd7a564bff948513c7367c7bfe2739f6d559471580dfbd.json"
-    },
-    {
-      "id": "ccc3ff520c15947ba62c2e4b2dbe9bb536ab2664c73765df8dae9e9eff70bd91",
-      "topic": "geopolitics",
-      "title": "OFAC Specially Designated Nationals List",
-      "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
-      "host": "treasury.gov",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "text/xml",
-      "collected_at": "2026-06-22T14:28:27.832936+00:00",
-      "published": "",
-      "text_chars": 9085826,
-      "raw_path": "data/geopolitics/raw/ccc3ff520c15947ba62c2e4b2dbe9bb536ab2664c73765df8dae9e9eff70bd91.xml",
-      "text_path": "data/geopolitics/raw/ccc3ff520c15947ba62c2e4b2dbe9bb536ab2664c73765df8dae9e9eff70bd91.txt",
-      "summary": "6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg.",
-      "bullets": [
-        "6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A.",
-        "strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg.",
-        "Entity CUBA 357 Buenos Aires Argentina 590 CUBACANCUN CIGARS AND GIFT SHOPS Entity CUBA 358 Cancun Mexico 591 CUBAEXPORT Entity CUBA 359 Spain 592 CUBAFRUTAS Entity CUBA 360 Spain 593 CUBAN CIGARS TRADE Entity CUBA 361 Italy 621 CUBANATUR Entity CUBA 362 Baja California 255, Edificio B.",
-        "11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A.",
-        "06500 Mexico 622 CUBATABACO Entity CUBA 363 Spain 636 CUMEXINT, S.A."
-      ],
-      "excerpt": "06/18/2026 19073 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity CUBA 219 a.k.a. weak BNC 220 a.k.a. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg. 6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. Entity CUBA 276 Panama City Panama 535 CIMEX Entity CUBA 317 Emerson No. 148 Piso 7 Mexico, D.F. 11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A. Entity CUBA 319 Panama 540 COMERCIAL IBEROAMERICANA, S.A. Entity CUBA 471 a.k.a. strong COIBA 321 Spain 551 COMERCIAL CIMEX, S.A. Entity CUBA 328 Panama 552 COMERCIAL DE RODAJES Y MAQUINARIA, S.A. Entity CUBA 475 a.k.a. strong CRYMSA 329 Jose Lazaro Galdeano 6-6 Madrid 28016 Spain 555 COMERCIALIZACION DE PRODUCTOS VARIOS Enti",
-      "keywords": [
-        {
-          "name": "sanctions",
-          "value": 19864
-        },
-        {
-          "name": "russia",
-          "value": 16743
-        },
-        {
-          "name": "executive",
-          "value": 13362
-        },
-        {
-          "name": "order",
-          "value": 13321
-        },
-        {
-          "name": "risk",
-          "value": 11413
-        },
-        {
-          "name": "entity",
-          "value": 10008
-        },
-        {
-          "name": "russia-eo",
-          "value": 6386
-        },
-        {
-          "name": "iran",
-          "value": 6123
-        },
-        {
-          "name": "gender",
-          "value": 5352
-        },
-        {
-          "name": "mexico",
-          "value": 4934
-        }
-      ],
-      "signals": [
-        "Energy and Supply Chains",
-        "Sanctions and Finance",
-        "Territory and Chokepoints",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Africa",
-        "Middle East",
-        "Americas"
-      ],
-      "detail_path": "/evidence/ccc3ff520c15947ba62c2e4b2dbe9bb536ab2664c73765df8dae9e9eff70bd91",
-      "evidence_json": "/evidence/ccc3ff520c15947ba62c2e4b2dbe9bb536ab2664c73765df8dae9e9eff70bd91.json"
     }
   ],
   "visual_evidence": [
@@ -15458,87 +15476,6 @@
   "cited_evidence": [],
   "evidence": [
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-06-28T21:56:36.335328+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -15548,7 +15485,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-28T21:56:29.069005+00:00",
+      "collected_at": "2026-06-29T00:04:35.383998+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15629,7 +15566,7 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-06-28T21:56:28.267503+00:00",
+      "collected_at": "2026-06-29T00:04:34.581055+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -15690,77 +15627,85 @@
       "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
     },
     {
-      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
       "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-06-28T21:56:28.246518+00:00",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-29T00:04:34.575333+00:00",
       "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
-      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
       "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
       ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
       "keywords": [
         {
-          "name": "world",
-          "value": 12
+          "name": "power",
+          "value": 596
         },
         {
-          "name": "factbook",
-          "value": 11
+          "name": "convention",
+          "value": 551
         },
         {
-          "name": "intelligence",
-          "value": 3
+          "name": "prisoners",
+          "value": 512
         },
         {
-          "name": "basic",
-          "value": 2
+          "name": "parties",
+          "value": 284
         },
         {
-          "name": "classified",
-          "value": 2
+          "name": "conflict",
+          "value": 267
         },
         {
-          "name": "even",
-          "value": 2
+          "name": "detaining",
+          "value": 266
         },
         {
-          "name": "some",
-          "value": 2
+          "name": "medical",
+          "value": 249
         },
         {
-          "name": "unclassified",
-          "value": 2
+          "name": "provisions",
+          "value": 209
         },
         {
-          "name": "access",
-          "value": 1
+          "name": "powers",
+          "value": 205
         },
         {
-          "name": "added",
-          "value": 1
+          "name": "geneva",
+          "value": 201
         }
       ],
       "signals": [
-        "Sanctions and Finance"
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
       ],
-      "regions": [],
-      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
-      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
@@ -15772,7 +15717,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-06-28T21:56:28.226579+00:00",
+      "collected_at": "2026-06-29T00:04:29.332631+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15844,6 +15789,79 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
+      "id": "33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-06-29T00:04:27.322790+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.html",
+      "text_path": "data/geopolitics/raw/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d",
+      "evidence_json": "/evidence/33e2e199866a2ed5ec6939281b62d996eb1f865e47314e108b2ff83200ccd96d.json"
+    },
+    {
       "id": "2dde8e0f96955346e6ebd81a1e1c32b6f4b3d34d6c0b11caa237e74d45d788cd",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -15853,7 +15871,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-28T21:56:26.153551+00:00",
+      "collected_at": "2026-06-29T00:04:27.225856+00:00",
       "published": "",
       "text_chars": 9106608,
       "raw_path": "data/geopolitics/raw/2dde8e0f96955346e6ebd81a1e1c32b6f4b3d34d6c0b11caa237e74d45d788cd.xml",
@@ -15933,7 +15951,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-06-28T21:55:51.126891+00:00",
+      "collected_at": "2026-06-29T00:03:51.090145+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.xml",
@@ -16013,7 +16031,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-06-28T21:55:48.859245+00:00",
+      "collected_at": "2026-06-29T00:03:49.269089+00:00",
       "published": "",
       "text_chars": 824644,
       "raw_path": "data/geopolitics/raw/5b06ad218e6f6a3b33a1da51517d2e2962ec3d76fd11814ab9beaf4cfe5540ec.xml",
@@ -16084,81 +16102,6 @@
       "evidence_json": "/evidence/5b06ad218e6f6a3b33a1da51517d2e2962ec3d76fd11814ab9beaf4cfe5540ec.json"
     },
     {
-      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-28T21:55:46.821281+00:00",
-      "published": "",
-      "text_chars": 6269339,
-      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
-      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17556
-        },
-        {
-          "name": "imports",
-          "value": 17556
-        },
-        {
-          "name": "sipri",
-          "value": 17556
-        },
-        {
-          "name": "status",
-          "value": 17556
-        },
-        {
-          "name": "trend",
-          "value": 17556
-        },
-        {
-          "name": "unit",
-          "value": 17556
-        },
-        {
-          "name": "values",
-          "value": 17556
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
-      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
-    },
-    {
       "id": "20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -16168,7 +16111,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-06-28T21:55:46.544933+00:00",
+      "collected_at": "2026-06-29T00:03:47.187436+00:00",
       "published": "",
       "text_chars": 6187025,
       "raw_path": "data/geopolitics/raw/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json.raw",
@@ -16234,6 +16177,239 @@
       ],
       "detail_path": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d",
       "evidence_json": "/evidence/20894d477f950496ba3aa7e9f09d746b4760ded845733c5e2f8598dbd4a2fe7d.json"
+    },
+    {
+      "id": "26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-06-29T00:03:46.903242+00:00",
+      "published": "",
+      "text_chars": 6269339,
+      "raw_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json.raw",
+      "text_path": "data/geopolitics/raw/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17556, \"sourceid\": \"2\", \"lastupdated\": \"2026-04-08\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17556
+        },
+        {
+          "name": "imports",
+          "value": 17556
+        },
+        {
+          "name": "sipri",
+          "value": 17556
+        },
+        {
+          "name": "status",
+          "value": 17556
+        },
+        {
+          "name": "trend",
+          "value": 17556
+        },
+        {
+          "name": "unit",
+          "value": 17556
+        },
+        {
+          "name": "values",
+          "value": 17556
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff",
+      "evidence_json": "/evidence/26fa6b07a62806a59fa4af3d749670b027459fd84167fafab592221a30e689ff.json"
+    },
+    {
+      "id": "30aceea491bd176e226277f2b06aace02ad5f7e8b019d8054cd406af8092f718",
+      "topic": "geopolitics",
+      "title": "UNICEF Venezuela Humanitarian Situation Report No.2 (Earthquake), 27 June 2026",
+      "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/unicef-venezuela-humanitarian-situation-report-no2-earthquake-27-june-2026",
+      "host": "reliefweb.int",
+      "source": "https://reliefweb.int/updates/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-06-29T00:04:56.184670+00:00",
+      "published": "Sun, 28 Jun 2026 23:51:23 +0000",
+      "text_chars": 8368,
+      "raw_path": "data/geopolitics/raw/30aceea491bd176e226277f2b06aace02ad5f7e8b019d8054cd406af8092f718.html",
+      "text_path": "data/geopolitics/raw/30aceea491bd176e226277f2b06aace02ad5f7e8b019d8054cd406af8092f718.txt",
+      "summary": "UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela. UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela. Note that before the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded.",
+      "bullets": [
+        "UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela.",
+        "UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela.",
+        "Note that before the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded.",
+        "The funding requirement come at a time when Venezuela was already facing a protracted humanitarian situation, with an estimated 7.9 million people, including 3.9 children, in need of assistance prior to the disaster.",
+        "As of 27 June, at least 1430 people have been reported dead and over 3,000 have been injured with casualty figures expected to rise as search and rescue operations continue."
+      ],
+      "excerpt": "Highlights Approximately 72 hours have passed since two major earthquakes of magnitude 7.2 and 7.5 struck north-central Venezuela on 24 June 2026, causing widespread destruction across densely populated urban areas. As of 27 June, at least 1430 people have been reported dead and over 3,000 have been injured with casualty figures expected to rise as search and rescue operations continue. In response, the Government of the Bolivarian Republic of Venezuela declared a State of Emergency to mobilize technical, human, financial and material resources. An estimated 6.76 million people, including approximately 2 million in Caracas, could be affected by the 24 June earthquakes in Venezuela, with preliminary satellite analysis indicating that 31.5 per cent of buildings in only one location (Catia La Mar) have been damaged (IOM, 27 June). UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela. These figures are expected to evolve as access improves and further assessments are conducted. UNICEF has activated a scaled-up emergency response, deploying additional surge staff, mobilizing pre",
+      "keywords": [
+        {
+          "name": "unicef",
+          "value": 26
+        },
+        {
+          "name": "humanitarian",
+          "value": 18
+        },
+        {
+          "name": "children",
+          "value": 16
+        },
+        {
+          "name": "million",
+          "value": 16
+        },
+        {
+          "name": "response",
+          "value": 14
+        },
+        {
+          "name": "assistance",
+          "value": 12
+        },
+        {
+          "name": "june",
+          "value": 12
+        },
+        {
+          "name": "earthquakes",
+          "value": 11
+        },
+        {
+          "name": "emergency",
+          "value": 11
+        },
+        {
+          "name": "venezuela",
+          "value": 11
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Territory and Chokepoints",
+        "Institutions and Law"
+      ],
+      "regions": [
+        "Americas",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/30aceea491bd176e226277f2b06aace02ad5f7e8b019d8054cd406af8092f718",
+      "evidence_json": "/evidence/30aceea491bd176e226277f2b06aace02ad5f7e8b019d8054cd406af8092f718.json"
+    },
+    {
+      "id": "56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa",
+      "topic": "geopolitics",
+      "title": "UNICEF Venezuela Humanitarian Situation Report No.2 (Earthquake), 27 June 2026 (pdf)",
+      "url": "https://reliefweb.int/attachments/6cbd2797-8426-4521-bcd9-92a62a0d3a56/UNICEF%20Venezuela%20Humanitarian%20Situation%20Report%20No.2%20%28Earthquake%29%2C%2027%20June%202026.pdf",
+      "host": "reliefweb.int",
+      "source": "https://reliefweb.int/updates/rss.xml",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-06-29T00:04:58.489095+00:00",
+      "published": "Sun, 28 Jun 2026 23:51:23 +0000",
+      "text_chars": 21974,
+      "raw_path": "data/geopolitics/raw/56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa.pdf",
+      "text_path": "data/geopolitics/raw/56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa.txt",
+      "summary": "• UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela. • UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela. Note that b efore the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded.",
+      "bullets": [
+        "• UNICEF estimates that approximately 1.8 million people, including 680,000 children, are in need of humanitarian assistance* following the earthquakes in Venezuela.",
+        "• UNICEF estimates that US$52 million will be required to support the humanitarian response to the earthquake emergency in Venezuela.",
+        "Note that b efore the earthquakes, UNICEF's 2026 Humanitarian Action for Children appeal for Venezuela stood at US$137.6 million, with only 35 per cent funded.",
+        "The funding requirement come at a time when Venezuela was already facing a protracted humanitarian situation, with an estimated 7.9 million people, including 3.9 children, in need of assistance prior to the disaster.",
+        "*According to UNICEF’s Urgent Humanitarian Response Plan for the 2026 Venezuela earthquakes."
+      ],
+      "excerpt": "1 UNICEF Venezuela Appeal US$ To be updated Situation in Numbers 6.76 million People affected by the earthquakes (according to IOM, 27 June 2026) 1.8 million People in need of humanitarian assistance (UNICEF estimate) 680K children in need of humanitarian assistance (UNICEF estimate) 650K People to be reached (UNICEF estimate) 234K Children to be reached (UNICEF estimate) US$52 million Required for UNICEF humanitarian response Highlights • Approximately 72 hours have passed since two major earthquakes of magnitude 7.2 and 7.5 struck north -central Venezuela on 24 June 2026, causing widespread destruction across densely populated urban areas. As of 2 7 June, at least 1430 people have been reported dead and over 3,000 have been injured with casualty figures expected to rise as search and rescue operations continue. In response, t he Government of the Bolivarian Republic of Venezuela declared a State of Emergency to mobilize technical, human, financial and material resources. • An estimated 6.76 million people, including approximately 2 million in Caracas, could be affected by the 24 June earthquakes in Venezuela, with preliminary satellite analysis indicating that 31.5 per cent of bu",
+      "keywords": [
+        {
+          "name": "unicef",
+          "value": 46
+        },
+        {
+          "name": "children",
+          "value": 31
+        },
+        {
+          "name": "response",
+          "value": 29
+        },
+        {
+          "name": "humanitarian",
+          "value": 27
+        },
+        {
+          "name": "support",
+          "value": 24
+        },
+        {
+          "name": "needs",
+          "value": 23
+        },
+        {
+          "name": "protection",
+          "value": 22
+        },
+        {
+          "name": "affected",
+          "value": 21
+        },
+        {
+          "name": "venezuela",
+          "value": 21
+        },
+        {
+          "name": "earthquakes",
+          "value": 20
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Territory and Chokepoints",
+        "Institutions and Law"
+      ],
+      "regions": [
+        "Americas",
+        "Global Institutions",
+        "Middle East"
+      ],
+      "file_asset": "/evidence-files/56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa.pdf",
+      "detail_path": "/evidence/56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa",
+      "evidence_json": "/evidence/56ef7ed60b996892074b0dcd82bc109414d293870be8893c36523928f5d770fa.json"
     },
     {
       "id": "6ec33b7bcb391d78f4f122a93ddc27fe6d249494bb7286acae8fe02667e76d6e",
