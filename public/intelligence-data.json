@@ -1,91 +1,101 @@
 {
-  "generated_at": "2026-07-04T17:13:16.966635+00:00",
+  "generated_at": "2026-07-04T20:10:14.063795+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating Tensions in the Middle East and Europe Amid Ongoing Conflicts and Diplomatic Maneuvers",
+    "headline": "Geopolitical Tensions Escalate Amid Ongoing Conflicts and Diplomatic Maneuvers.",
     "executive_summary": [
-      "Recent developments in the Middle East highlight the ongoing humanitarian crisis in Gaza, where over 1,000 days of conflict have led to severe restrictions on movement and access to essential services for the population. Reports indicate that more than 65% of Gaza is now off-limits to Palestinians, exacerbating the humanitarian catastrophe as basic supplies remain blocked despite a ceasefire announcement. This situation underscores the urgent need for international intervention and adherence to humanitarian law (evidence id: 21).",
-      "In Sudan, the city of El Obeid has become a focal point of violence, with drone strikes resulting in significant casualties and destruction of infrastructure. The UN has warned of potential atrocities as the conflict between the Sudanese Armed Forces and the Rapid Support Forces escalates, raising alarms about a possible repeat of past massacres in the region (evidence id: 10).",
-      "In Europe, NATO's upcoming summit in Ankara is set against a backdrop of strained relations between the U.S. and its allies, particularly regarding defense spending and military commitments. President Trump has criticized NATO's structure as 'one-sided,' prompting discussions on how European nations can fill the gaps left by U.S. military reductions (evidence id: 19).",
-      "Iran's control over the Strait of Hormuz remains a contentious issue, with threats issued against vessels using unapproved routes. This situation complicates ongoing negotiations for a peace deal with the U.S., as Iran seeks to assert its influence over this critical maritime chokepoint (evidence id: 28)."
+      "Recent developments in Ukraine have seen significant military actions, including drone strikes targeting key infrastructure in St Petersburg, Russia, which have raised concerns about the effectiveness of Russian air defenses and the impact on its oil refining capacity. Reports indicate that Ukraine's military operations have successfully disrupted a substantial portion of Russia's oil production capabilities, further complicating the energy landscape amid ongoing sanctions and military engagements.",
+      "In the Middle East, the humanitarian situation in Gaza continues to deteriorate, with reports of severe restrictions on movement and access to essential services for the Palestinian population. The ongoing blockade and military actions have led to widespread suffering, prompting international calls for urgent humanitarian assistance and a reevaluation of the situation under international law, as outlined in various humanitarian frameworks.",
+      "The NATO alliance is facing internal pressures as member states prepare for an upcoming summit in Ankara, where discussions will focus on defense spending and collective security commitments. U.S. President Donald Trump's recent criticisms of NATO spending have reignited debates about the alliance's future and the balance of military responsibilities among member states, particularly in light of the ongoing conflict in Ukraine and tensions in the Middle East.",
+      "In Africa, the situation in Sudan remains critical, with reports of escalating violence and humanitarian crises exacerbated by drone strikes in urban areas. The international community is urged to respond to the unfolding humanitarian catastrophe, as the conflict between the Sudanese Armed Forces and paramilitary groups continues to threaten civilian lives and infrastructure."
     ],
     "key_judgments": [
       {
+        "title": "Impact of Ukrainian Drone Strikes on Russian Oil Infrastructure",
+        "finding": "Ukrainian drone strikes have significantly disrupted Russian oil refining capabilities, with reports indicating a 42.74% reduction in operational capacity.",
+        "citations": [
+          "13",
+          "24"
+        ]
+      },
+      {
         "title": "Humanitarian Crisis in Gaza",
-        "finding": "The humanitarian situation in Gaza continues to deteriorate, with over 1,000 days of conflict leading to severe restrictions on movement and access to essential services.",
+        "finding": "The ongoing blockade and military actions have resulted in severe humanitarian conditions for Palestinians in Gaza, with reports of widespread malnutrition and restricted access to essential services.",
         "citations": [
-          "evidence id: 21"
+          "22"
         ]
       },
       {
-        "title": "Escalation of Violence in Sudan",
-        "finding": "The conflict in Sudan is intensifying, particularly in El Obeid, where drone strikes have resulted in significant casualties and destruction.",
+        "title": "NATO's Internal Dynamics and Future Commitments",
+        "finding": "The upcoming NATO summit in Ankara is expected to address U.S. concerns over defense spending among allies, amidst pressures from President Trump regarding the alliance's financial commitments.",
         "citations": [
-          "evidence id: 10"
+          "14",
+          "28"
         ]
       },
       {
-        "title": "NATO's Defense Spending Debate",
-        "finding": "The upcoming NATO summit will address the imbalance in defense spending among member states, particularly in light of U.S. military reductions.",
+        "title": "Escalating Violence in Sudan",
+        "finding": "The conflict in Sudan is intensifying, with drone strikes causing significant civilian casualties and prompting urgent calls for international humanitarian assistance.",
         "citations": [
-          "evidence id: 19"
-        ]
-      },
-      {
-        "title": "Iran's Maritime Threats",
-        "finding": "Iran's threats against vessels in the Strait of Hormuz complicate ongoing diplomatic negotiations and highlight its strategic control over this vital shipping route.",
-        "citations": [
-          "evidence id: 28"
+          "11"
         ]
       }
     ],
     "regional_read": [
       {
-        "region": "Middle East",
-        "assessment": "The Middle East remains a hotspot of conflict, with ongoing humanitarian crises in Gaza and Sudan, and rising tensions surrounding Iran's maritime activities.",
+        "region": "Europe and Russia",
+        "assessment": "The region is experiencing heightened military tensions due to ongoing conflicts in Ukraine and the implications of NATO's strategic adjustments in response to U.S. policy changes.",
         "citations": [
-          "evidence id: 21",
-          "evidence id: 10",
-          "evidence id: 28"
+          "10",
+          "24"
         ]
       },
       {
-        "region": "Europe and Russia",
-        "assessment": "European nations are grappling with defense spending issues as NATO prepares for a critical summit, amid concerns over U.S. military commitments.",
+        "region": "Middle East",
+        "assessment": "The humanitarian situation in Gaza is critical, with ongoing military actions and blockades leading to severe restrictions on civilian life and access to essential services.",
         "citations": [
-          "evidence id: 19"
+          "22"
+        ]
+      },
+      {
+        "region": "Africa",
+        "assessment": "Sudan is facing a humanitarian crisis exacerbated by ongoing violence and military actions, with significant implications for civilian safety and international humanitarian response.",
+        "citations": [
+          "11"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "Gaza Humanitarian Situation",
-        "why_it_matters": "The ongoing humanitarian crisis in Gaza poses significant risks to civilian populations and challenges to international law.",
+        "label": "Ukrainian Military Operations",
+        "why_it_matters": "Continued military actions by Ukraine could further destabilize the region and impact global energy markets.",
         "citations": [
-          "evidence id: 21"
+          "13",
+          "24"
         ]
       },
       {
-        "label": "Sudan Conflict Dynamics",
-        "why_it_matters": "The escalation of violence in Sudan could lead to widespread atrocities and further destabilization in the region.",
+        "label": "Humanitarian Access in Gaza",
+        "why_it_matters": "The ongoing humanitarian crisis necessitates urgent international intervention to prevent further deterioration of living conditions.",
         "citations": [
-          "evidence id: 10"
+          "22"
         ]
       },
       {
         "label": "NATO Summit Outcomes",
-        "why_it_matters": "Decisions made at the NATO summit could reshape defense strategies and alliances in Europe, impacting global security dynamics.",
+        "why_it_matters": "Decisions made at the upcoming NATO summit could reshape the alliance's defense posture and impact transatlantic relations.",
         "citations": [
-          "evidence id: 19"
+          "14",
+          "28"
         ]
       },
       {
-        "label": "Iran's Strait of Hormuz Control",
-        "why_it_matters": "Iran's threats regarding maritime navigation could disrupt global energy supplies and escalate tensions in the region.",
+        "label": "Conflict in Sudan",
+        "why_it_matters": "The escalating violence in Sudan poses significant risks to civilian populations and requires immediate international humanitarian action.",
         "citations": [
-          "evidence id: 28"
+          "11"
         ]
       }
     ],
@@ -94,8 +104,8 @@
     ]
   },
   "summary": {
-    "raw_documents": 1598,
-    "total_text_chars": 271835218,
+    "raw_documents": 1599,
+    "total_text_chars": 271838581,
     "sources": 34,
     "signals": 8,
     "regions": 6,
@@ -106,7 +116,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 1167
+      "value": 1168
     },
     {
       "name": "PDF",
@@ -140,7 +150,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 1117
+      "value": 1118
     },
     {
       "name": "pdfs",
@@ -270,7 +280,7 @@
     },
     {
       "name": "bbc.co.uk",
-      "value": 7
+      "value": 8
     },
     {
       "name": "cia.gov",
@@ -340,7 +350,7 @@
     },
     {
       "name": "ukraine",
-      "value": 2382
+      "value": 2389
     },
     {
       "name": "israeli",
@@ -364,11 +374,11 @@
     },
     {
       "name": "russia",
-      "value": 1719
+      "value": 1723
     },
     {
       "name": "military",
-      "value": 1602
+      "value": 1607
     },
     {
       "name": "myanmar",
@@ -424,7 +434,7 @@
     },
     {
       "name": "russian",
-      "value": 1094
+      "value": 1102
     },
     {
       "name": "insecurity",
@@ -486,11 +496,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 1083,
+      "count": 1084,
       "formats": [
         {
           "name": "Article",
-          "value": 904
+          "value": 905
         },
         {
           "name": "PDF",
@@ -510,6 +520,7 @@
         }
       ],
       "evidence_ids": [
+        "d17124a95b20e0e06c71bccc4efce586f8633507cfb0b625a0dfb883f9aa52b9",
         "d55730a8087a093dcd4abec92389940b90a920ab5e79af46933ec74a452e88d2",
         "f9630e87e0f7adbf6d865b181ff0255d9bee2de855d94ad7594f07d827488a23",
         "e6214c8433fc23a5730b2766faa5c932876d81f019042c4556e72a890e89abb5",
@@ -518,11 +529,20 @@
         "1fdd6bdd0e565f9b1137b5a765012a82992816b408fa0b1683e25b06ff6762be",
         "a4b2ae509c4e0dee379e130301f29ff78d7fd6eab43b105f0f0002143e281699",
         "00e04b9bdcb29f9593e87563db377d73821c2a070804b9d970cbc1d00832d825",
-        "4485c36ad0c9de65fd3d0ced44d89ba8e85740f914016d9704c1a50b33e2993c",
-        "49f0083568ae784eee6fb8e3d024e81a725f9d7da8b45660258dd8723d79f9cf"
+        "4485c36ad0c9de65fd3d0ced44d89ba8e85740f914016d9704c1a50b33e2993c"
       ],
-      "summary": "Fatima is losing count of the number of drone attacks on the besieged city of El Obeid in Sudan, but says the attacks this past weekend were the most violent so far. El Obeid, a city of half a million people, is a key battleground in the war between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces. He said: “The ‌signs from El Obeid are ‌clear and unmistakable: another human rights catastrophe is unfolding in Sudan. “They have taken the form of envoys of the Secretary-General, of fact finding and investigative missions, of regional offices, of panels of experts helping the Security Council monitor sanctions regimes, and of missions accompanying complex political transitions,” she said. They are civilian missions mandated to: Prevent conflict Support peace processes Help build sustainable peace Some facilitate peace negotiations, others monitor ceasefire agreements, support border demarcation, investigate serious violations, or assist political reform processes. Ukrainian President Volodymyr Zelenskyy said Ukrainian forces had struck oil infrastructure funding Russia’s war effort and also hit the Kronstadt naval base in St Petersburg, calling it “an important military target”. Meanwhile, Russia on Saturday struck a gas production facility with a drone in the central Poltava region, causing a fire, Ukrainian state energy firm Naftogaz said. As Donald Trump complained about European allies and their reluctance to support the United States during the war against Iran, the NATO secretary-general responded with praise. The summit will bring together the leaders of NATO's 32 allied countries at a moment of growing uncertainty amid heightened tensions in the Middle East and Russia's ongoing war with Ukraine.",
+      "summary": "Zelensky said on Saturday morning that the targets hit in St Petersburg and the surrounding region were about 850km (528 miles) from Ukraine's border. In its latest operational bulletin on Saturday afternoon, the Russian defence ministry said it had shot down more than 500 Ukrainian drones and missiles launched overnight and in the morning. The military also said a key naval base of the Russian Baltic Fleet in Kronstadt was hit. Fatima is losing count of the number of drone attacks on the besieged city of El Obeid in Sudan, but says the attacks this past weekend were the most violent so far. El Obeid, a city of half a million people, is a key battleground in the war between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces. He said: “The ‌signs from El Obeid are ‌clear and unmistakable: another human rights catastrophe is unfolding in Sudan. “They have taken the form of envoys of the Secretary-General, of fact finding and investigative missions, of regional offices, of panels of experts helping the Security Council monitor sanctions regimes, and of missions accompanying complex political transitions,” she said. They are civilian missions mandated to: Prevent conflict Support peace processes Help build sustainable peace Some facilitate peace negotiations, others monitor ceasefire agreements, support border demarcation, investigate serious violations, or assist political reform processes. Ukrainian President Volodymyr Zelenskyy said Ukrainian forces had struck oil infrastructure funding Russia’s war effort and also hit the Kronstadt naval base in St Petersburg, calling it “an important military target”. Meanwhile, Russia on Saturday struck a gas production facility with a drone in the central Poltava region, causing a fire, Ukrainian state energy firm Naftogaz said.",
       "latest": [
+        {
+          "id": "d17124a95b20e0e06c71bccc4efce586f8633507cfb0b625a0dfb883f9aa52b9",
+          "title": "Ukraine hits major oil terminal in Russia's St Petersburg",
+          "url": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro?at_medium=RSS&at_campaign=rss",
+          "host": "bbc.co.uk",
+          "format": "Article",
+          "collected_at": "2026-07-04T18:59:52.146351+00:00",
+          "published": "Sat, 04 Jul 2026 18:41:25 GMT",
+          "summary": "Zelensky said on Saturday morning that the targets hit in St Petersburg and the surrounding region were about 850km (528 miles) from Ukraine's border. In its latest operational bulletin on Saturday afternoon, the Russian defence ministry said it had shot down more than 500 Ukrainian drones and missiles launched overnight and in the morning. The military also said a key naval base of the Russian Baltic Fleet in Kronstadt was hit."
+        },
         {
           "id": "d55730a8087a093dcd4abec92389940b90a920ab5e79af46933ec74a452e88d2",
           "title": "‘The situation is terrible’: aid workers on life in Sudanese city pummelled by drone strikes",
@@ -562,16 +582,6 @@
           "collected_at": "2026-07-04T07:40:46.300669+00:00",
           "published": "2026-07-04T07:01:00Z",
           "summary": "As Donald Trump complained about European allies and their reluctance to support the United States during the war against Iran, the NATO secretary-general responded with praise. The summit will bring together the leaders of NATO's 32 allied countries at a moment of growing uncertainty amid heightened tensions in the Middle East and Russia's ongoing war with Ukraine."
-        },
-        {
-          "id": "814d00b7ee9e4ffbaf49ab620b687c718d716d2c8b26da6130f28c3e9e829ac6",
-          "title": "Iran's control of the Strait of Hormuz remains a powerful bargaining chip",
-          "url": "https://www.npr.org/2026/07/03/nx-s1-5879278/irans-control-of-the-strait-of-hormuz-remains-a-powerful-bargaining-chip",
-          "host": "npr.org",
-          "format": "Article",
-          "collected_at": "2026-07-04T04:31:31.172264+00:00",
-          "published": "Fri, 03 Jul 2026 16:51:04 -0400",
-          "summary": "BATRAWY: Yeah, so Iran has been really clear that management of the Strait of Hormuz will not return to what it was before the war. JUANA SUMMERS, HOST: A fifth of the world's oil used to pass through the Strait of Hormuz. BOWMAN: Well, this temporary agreement signed three weeks ago says Iran will ensure safe passage of commercial vessels with no charge for 60 days."
         }
       ]
     },
@@ -668,11 +678,11 @@
     },
     {
       "name": "Humanitarian Pressure",
-      "count": 689,
+      "count": 690,
       "formats": [
         {
           "name": "Article",
-          "value": 474
+          "value": 475
         },
         {
           "name": "PDF",
@@ -692,6 +702,7 @@
         }
       ],
       "evidence_ids": [
+        "d17124a95b20e0e06c71bccc4efce586f8633507cfb0b625a0dfb883f9aa52b9",
         "d55730a8087a093dcd4abec92389940b90a920ab5e79af46933ec74a452e88d2",
         "f9630e87e0f7adbf6d865b181ff0255d9bee2de855d94ad7594f07d827488a23",
         "4ba2332a1a7c7b96c8e167fce3231136e25ee54fb370369537cd3ba181c4c440",
@@ -700,11 +711,20 @@
         "5472b785b398298abc0b410e68bb2c9ea526db5747a94cda8a07fa996705710e",
         "6b4ae161bd82364759e7a10abaca77881a048a0bb30440f8d95c2bb0ab980de0",
         "c16b735ac52d34b759893634a9014ce71c9e1c2b8fc56996450212b02dd47083",
-        "3f32a521240f5534020591ecc33a5c39a931ea2a419163e745c3eb6b48be4660",
-        "8e4a35ab9a6924ad6ebc4abef503f579c9ddd4b04d99546686a227840ecf0231"
+        "3f32a521240f5534020591ecc33a5c39a931ea2a419163e745c3eb6b48be4660"
       ],
-      "summary": "Fatima is losing count of the number of drone attacks on the besieged city of El Obeid in Sudan, but says the attacks this past weekend were the most violent so far. El Obeid, a city of half a million people, is a key battleground in the war between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces. He said: “The ‌signs from El Obeid are ‌clear and unmistakable: another human rights catastrophe is unfolding in Sudan. “They have taken the form of envoys of the Secretary-General, of fact finding and investigative missions, of regional offices, of panels of experts helping the Security Council monitor sanctions regimes, and of missions accompanying complex political transitions,” she said. They are civilian missions mandated to: Prevent conflict Support peace processes Help build sustainable peace Some facilitate peace negotiations, others monitor ceasefire agreements, support border demarcation, investigate serious violations, or assist political reform processes. defense procurement minister Luke Pollard called the contract “a major step forward towards delivery” of the GCAP. The three nations said on Friday they had handed the 18-month contract to Edgewing, the industrial consortium grouping firms building the sixth-generation fighter. To the relief of the partner firms, the DIP - which was released on the same day the stop gap contract expired - committed £8.6 billion ($11.4 billion) over four years to the program, more than the £6 billion expected. 11 June 2026: Near Yan Lin Phai village, Kha Meik village tract, Tamu township and district, Sagaing region, a makeshift clinic and ten other buildings of a base camp of local resistance forces were taken over by the Myanmar military. As reported on 16 June 2026: In Shauk Pin village, Aung Myin village tract, Gangaw township, Gangaw district, Magway region, a sub-rural health centre, a public school, and a monastery have been occupied by the Myanmar military since early 2025.",
+      "summary": "Zelensky said on Saturday morning that the targets hit in St Petersburg and the surrounding region were about 850km (528 miles) from Ukraine's border. In its latest operational bulletin on Saturday afternoon, the Russian defence ministry said it had shot down more than 500 Ukrainian drones and missiles launched overnight and in the morning. The military also said a key naval base of the Russian Baltic Fleet in Kronstadt was hit. Fatima is losing count of the number of drone attacks on the besieged city of El Obeid in Sudan, but says the attacks this past weekend were the most violent so far. El Obeid, a city of half a million people, is a key battleground in the war between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces. He said: “The ‌signs from El Obeid are ‌clear and unmistakable: another human rights catastrophe is unfolding in Sudan. “They have taken the form of envoys of the Secretary-General, of fact finding and investigative missions, of regional offices, of panels of experts helping the Security Council monitor sanctions regimes, and of missions accompanying complex political transitions,” she said. They are civilian missions mandated to: Prevent conflict Support peace processes Help build sustainable peace Some facilitate peace negotiations, others monitor ceasefire agreements, support border demarcation, investigate serious violations, or assist political reform processes. defense procurement minister Luke Pollard called the contract “a major step forward towards delivery” of the GCAP. The three nations said on Friday they had handed the 18-month contract to Edgewing, the industrial consortium grouping firms building the sixth-generation fighter. To the relief of the partner firms, the DIP - which was released on the same day the stop gap contract expired - committed £8.6 billion ($11.4 billion) over four years to the program, more than the £6 billion expected.",
       "latest": [
+        {
+          "id": "d17124a95b20e0e06c71bccc4efce586f8633507cfb0b625a0dfb883f9aa52b9",
+          "title": "Ukraine hits major oil terminal in Russia's St Petersburg",
+          "url": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro?at_medium=RSS&at_campaign=rss",
+          "host": "bbc.co.uk",
+          "format": "Article",
+          "collected_at": "2026-07-04T18:59:52.146351+00:00",
+          "published": "Sat, 04 Jul 2026 18:41:25 GMT",
+          "summary": "Zelensky said on Saturday morning that the targets hit in St Petersburg and the surrounding region were about 850km (528 miles) from Ukraine's border. In its latest operational bulletin on Saturday afternoon, the Russian defence ministry said it had shot down more than 500 Ukrainian drones and missiles launched overnight and in the morning. The military also said a key naval base of the Russian Baltic Fleet in Kronstadt was hit."
+        },
         {
           "id": "d55730a8087a093dcd4abec92389940b90a920ab5e79af46933ec74a452e88d2",
           "title": "‘The situation is terrible’: aid workers on life in Sudanese city pummelled by drone strikes",
@@ -744,16 +764,6 @@
           "collected_at": "2026-07-03T23:01:06.504408+00:00",
           "published": "Fri, 03 Jul 2026 13:40:14 +0000",
           "summary": "11 June 2026: Near Yan Lin Phai village, Kha Meik village tract, Tamu township and district, Sagaing region, a makeshift clinic and ten other buildings of a base camp of local resistance forces were taken over by the Myanmar military. As reported on 16 June 2026: In Shauk Pin village, Aung Myin village tract, Gangaw township, Gangaw district, Magway region, a sub-rural health centre, a public school, and a monastery have been occupied by the Myanmar military since early 2025."
-        },
-        {
-          "id": "49f0083568ae784eee6fb8e3d024e81a725f9d7da8b45660258dd8723d79f9cf",
-          "title": "oPt: After 1,000 days, Palestinians in Gaza face ongoing horror",
-          "url": "https://reliefweb.int/report/occupied-palestinian-territory/after-1000-days-palestinians-gaza-face-ongoing-horror",
-          "host": "reliefweb.int",
-          "format": "Article",
-          "collected_at": "2026-07-03T23:00:57.329271+00:00",
-          "published": "Fri, 03 Jul 2026 13:38:49 +0000",
-          "summary": "For 1,000 days we have seen unprecedented disregard for international law and a colossal global failure to protect civilians, all of which continues despite the ceasefire announcement. Palestinians in Gaza still face daily attacks, extreme suffering and denial of their basic rights as the crisis passes 1,000 days, Islamic Relief says."
         }
       ]
     },
@@ -1288,8 +1298,9 @@
     },
     {
       "name": "Europe and Russia",
-      "count": 679,
+      "count": 680,
       "evidence_ids": [
+        "d17124a95b20e0e06c71bccc4efce586f8633507cfb0b625a0dfb883f9aa52b9",
         "e6214c8433fc23a5730b2766faa5c932876d81f019042c4556e72a890e89abb5",
         "f110db3627390d9d2bdd2c00beb5b545ff7c5cfa8aea1de3b813f3d64392f90e",
         "1fdd6bdd0e565f9b1137b5a765012a82992816b408fa0b1683e25b06ff6762be",
@@ -1300,8 +1311,7 @@
         "344414ccd8e8e62586cc45da7836570f22411f4da0941bc5b8780f6c460291ec",
         "3f32a521240f5534020591ecc33a5c39a931ea2a419163e745c3eb6b48be4660",
         "5080aa97b397e7311f1cb786e54de27b97492df381fc196d7d8d2707d7edcc1e",
-        "b04fb3bbe7caf2e48a5ac7cd7c8a516e324310e15ebb438258c0240e6bc3443c",
-        "53cf6c9d4f0cddac1a1228080523b87e5bb564414fdf15fe82cb4e3d132631aa"
+        "b04fb3bbe7caf2e48a5ac7cd7c8a516e324310e15ebb438258c0240e6bc3443c"
       ],
       "top_sources": [
         {
@@ -1328,8 +1338,9 @@
     },
     {
       "name": "Global Institutions",
-      "count": 643,
+      "count": 644,
       "evidence_ids": [
+        "d17124a95b20e0e06c71bccc4efce586f8633507cfb0b625a0dfb883f9aa52b9",
         "f9630e87e0f7adbf6d865b181ff0255d9bee2de855d94ad7594f07d827488a23",
         "e6214c8433fc23a5730b2766faa5c932876d81f019042c4556e72a890e89abb5",
         "f110db3627390d9d2bdd2c00beb5b545ff7c5cfa8aea1de3b813f3d64392f90e",
@@ -1340,8 +1351,7 @@
         "5080aa97b397e7311f1cb786e54de27b97492df381fc196d7d8d2707d7edcc1e",
         "8e4a35ab9a6924ad6ebc4abef503f579c9ddd4b04d99546686a227840ecf0231",
         "9f2c3476ea4d7dc63879ebd4eed8c26629180f089b2c6f786d8f62ee7f6cb2d1",
-        "50fa311ccecac15483c6e171d3dfa359f6e4dab4be9cccc63410c22f6dfcc54a",
-        "cd9606ce87483be5eaea44ed7a41f78bed3d69fa76123dd43949e7a2673f4173"
+        "50fa311ccecac15483c6e171d3dfa359f6e4dab4be9cccc63410c22f6dfcc54a"
       ],
       "top_sources": [
         {
@@ -2255,17 +2265,17 @@
     },
     {
       "date": "2026-07-01",
-      "evidence_id": "5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
-    },
-    {
-      "date": "2026-07-01",
       "evidence_id": "60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
       "title": "MS.MIL.XPND.CD",
       "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
       "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\","
+    },
+    {
+      "date": "2026-07-01",
+      "evidence_id": "5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_sta"
     },
     {
       "date": "2026-06",
@@ -2430,6 +2440,83 @@
     }
   ],
   "latest_evidence": [
+    {
+      "id": "d17124a95b20e0e06c71bccc4efce586f8633507cfb0b625a0dfb883f9aa52b9",
+      "topic": "geopolitics",
+      "title": "Ukraine hits major oil terminal in Russia's St Petersburg",
+      "url": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro?at_medium=RSS&at_campaign=rss",
+      "host": "bbc.co.uk",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html",
+      "collected_at": "2026-07-04T18:59:52.146351+00:00",
+      "published": "Sat, 04 Jul 2026 18:41:25 GMT",
+      "text_chars": 3363,
+      "raw_path": "data/geopolitics/raw/d17124a95b20e0e06c71bccc4efce586f8633507cfb0b625a0dfb883f9aa52b9.html",
+      "text_path": "data/geopolitics/raw/d17124a95b20e0e06c71bccc4efce586f8633507cfb0b625a0dfb883f9aa52b9.txt",
+      "summary": "Zelensky said on Saturday morning that the targets hit in St Petersburg and the surrounding region were about 850km (528 miles) from Ukraine's border. In its latest operational bulletin on Saturday afternoon, the Russian defence ministry said it had shot down more than 500 Ukrainian drones and missiles launched overnight and in the morning. The military also said a key naval base of the Russian Baltic Fleet in Kronstadt was hit.",
+      "bullets": [
+        "Zelensky said on Saturday morning that the targets hit in St Petersburg and the surrounding region were about 850km (528 miles) from Ukraine's border.",
+        "In its latest operational bulletin on Saturday afternoon, the Russian defence ministry said it had shot down more than 500 Ukrainian drones and missiles launched overnight and in the morning.",
+        "The military also said a key naval base of the Russian Baltic Fleet in Kronstadt was hit.",
+        "Governor Beglov said that 72 Ukrainian drones were shot down over St Petersburg and the wider Leningrad region.",
+        "Ukrainian attacks on Russian civilian facilities \"will not go unanswered\", the ministry said."
+      ],
+      "excerpt": "Zelensky said on Saturday morning that the targets hit in St Petersburg and the surrounding region were about 850km (528 miles) from Ukraine's border. The extent of the damage was not immediately clear, but a video posted by the Ukrainian president showed a drone flying towards a target and a huge column of black smoke billowing from the area after the strike. The BBC later verified that St Petersburg's oil terminal was hit. Ukraine's military described the terminal as \"one of the largest\" in Russia, capable of producing 12.5 million tonnes of petroleum products per year. The military also said a key naval base of the Russian Baltic Fleet in Kronstadt was hit. Russia has not publicly commented on the claim. Governor Beglov said that 72 Ukrainian drones were shot down over St Petersburg and the wider Leningrad region. He urged city residents to stay indoors until the drone threat was lifted. Mobile internet services might also be disrupted, he warned. More than five million people live in St Petersburg. In a separate development on Saturday, Ukraine's military denied that the key eastern Ukrainian town of Kostyantynivka was now under full Russian control. Military spokesman Maj Andr",
+      "keywords": [
+        {
+          "name": "russian",
+          "value": 8
+        },
+        {
+          "name": "kostyantynivka",
+          "value": 7
+        },
+        {
+          "name": "ukraine",
+          "value": 7
+        },
+        {
+          "name": "ukrainian",
+          "value": 7
+        },
+        {
+          "name": "military",
+          "value": 5
+        },
+        {
+          "name": "petersburg",
+          "value": 5
+        },
+        {
+          "name": "putin",
+          "value": 5
+        },
+        {
+          "name": "saturday",
+          "value": 5
+        },
+        {
+          "name": "control",
+          "value": 4
+        },
+        {
+          "name": "russia",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/d17124a95b20e0e06c71bccc4efce586f8633507cfb0b625a0dfb883f9aa52b9",
+      "evidence_json": "/evidence/d17124a95b20e0e06c71bccc4efce586f8633507cfb0b625a0dfb883f9aa52b9.json"
+    },
     {
       "id": "d55730a8087a093dcd4abec92389940b90a920ab5e79af46933ec74a452e88d2",
       "topic": "geopolitics",
@@ -8570,84 +8657,6 @@
       ],
       "detail_path": "/evidence/113118743ef973c9f5eb9e7154c5c170096bd76c2b142568c7dff0cc2c6bfa18",
       "evidence_json": "/evidence/113118743ef973c9f5eb9e7154c5c170096bd76c2b142568c7dff0cc2c6bfa18.json"
-    },
-    {
-      "id": "a442ff48080c0ece64494603177ff15b7d95c89b862cdaa95562e601b1ee3e42",
-      "topic": "geopolitics",
-      "title": "Iran war supercharges pivot to renewable energy",
-      "url": "https://www.npr.org/2026/06/30/nx-s1-5869701/iran-war-supercharges-pivot-to-renewable-energy",
-      "host": "npr.org",
-      "source": "https://www.npr.org/rss/rss.php?id=1004",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-06-30T18:32:30.277281+00:00",
-      "published": "Tue, 30 Jun 2026 04:46:26 -0400",
-      "text_chars": 4475,
-      "raw_path": "data/geopolitics/raw/a442ff48080c0ece64494603177ff15b7d95c89b862cdaa95562e601b1ee3e42.html",
-      "text_path": "data/geopolitics/raw/a442ff48080c0ece64494603177ff15b7d95c89b862cdaa95562e601b1ee3e42.txt",
-      "summary": "The Iran war and high oil and gas prices have supercharged the adoption of renewables and EVs worldwide. FADEL: So why do researchers see this war as so important in the global energy story? LEILA FADEL, HOST: Global oil prices have now fallen since their highs when the Iran war began.",
-      "bullets": [
-        "The Iran war and high oil and gas prices have supercharged the adoption of renewables and EVs worldwide.",
-        "FADEL: So why do researchers see this war as so important in the global energy story?",
-        "LEILA FADEL, HOST: Global oil prices have now fallen since their highs when the Iran war began.",
-        "Iran effectively shut the Strait of Hormuz, which cut off oil and natural gas supplies.",
-        "SIMON: You know, this recent war really laid bare the precarity of fossil fuels."
-      ],
-      "excerpt": "The Iran war and high oil and gas prices have supercharged the adoption of renewables and EVs worldwide. Global investors say these technologies make financial sense and increase energy security. LEILA FADEL, HOST: Global oil prices have now fallen since their highs when the Iran war began. But those high prices had a lasting impact. And energy watchers say it's accelerated the transition from oil and gas to renewable energy and electric vehicles. We're joined now by NPR's energy and climate solutions correspondent Julia Simon to talk about this. Good morning, Julia. JULIA SIMON, BYLINE: Good morning, Leila. FADEL: So why do researchers see this war as so important in the global energy story? SIMON: You know, this recent war really laid bare the precarity of fossil fuels. Iran effectively shut the Strait of Hormuz, which cut off oil and natural gas supplies. Prices obviously shot up. And, Leila, this is the second time in four years that you're seeing this kind of major supply and price shock, the first being the Russian invasion of Ukraine. Meanwhile, you have countries turning to these technologies that are basically impervious to whatever happens in the Strait of Hormuz, those b",
-      "keywords": [
-        {
-          "name": "energy",
-          "value": 15
-        },
-        {
-          "name": "simon",
-          "value": 11
-        },
-        {
-          "name": "fadel",
-          "value": 7
-        },
-        {
-          "name": "fossil",
-          "value": 6
-        },
-        {
-          "name": "julia",
-          "value": 6
-        },
-        {
-          "name": "leila",
-          "value": 6
-        },
-        {
-          "name": "countries",
-          "value": 5
-        },
-        {
-          "name": "iran",
-          "value": 5
-        },
-        {
-          "name": "solar",
-          "value": 5
-        },
-        {
-          "name": "china",
-          "value": 4
-        }
-      ],
-      "signals": [
-        "Energy and Supply Chains",
-        "Territory and Chokepoints"
-      ],
-      "regions": [
-        "Europe and Russia",
-        "Indo-Pacific",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/a442ff48080c0ece64494603177ff15b7d95c89b862cdaa95562e601b1ee3e42",
-      "evidence_json": "/evidence/a442ff48080c0ece64494603177ff15b7d95c89b862cdaa95562e601b1ee3e42.json"
     }
   ],
   "deep_reads": [
@@ -8661,7 +8670,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-04T17:13:05.849499+00:00",
+      "collected_at": "2026-07-04T20:10:04.121929+00:00",
       "published": "",
       "text_chars": 9122085,
       "raw_path": "data/geopolitics/raw/824a913dc40b072461625e2f26528a8555f8358b7421a5b1d544b8f764103f23.xml",
@@ -10416,7 +10425,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-04T17:12:30.290156+00:00",
+      "collected_at": "2026-07-04T20:09:25.717717+00:00",
       "published": "",
       "text_chars": 6243887,
       "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
@@ -10568,7 +10577,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-04T17:12:30.015408+00:00",
+      "collected_at": "2026-07-04T20:09:25.994187+00:00",
       "published": "",
       "text_chars": 6161766,
       "raw_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json.raw",
@@ -10887,7 +10896,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-04T17:13:16.966635+00:00",
+      "collected_at": "2026-07-04T20:10:14.063795+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -10959,79 +10968,6 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
-      "id": "fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-07-04T17:13:15.245496+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.html",
-      "text_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
-      "evidence_json": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.json"
-    },
-    {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
       "title": "ICRC International Humanitarian Law Handbook",
@@ -11041,7 +10977,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-04T17:13:15.205725+00:00",
+      "collected_at": "2026-07-04T20:10:11.450025+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -11122,7 +11058,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-04T17:13:09.932235+00:00",
+      "collected_at": "2026-07-04T20:10:06.226558+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11194,6 +11130,79 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
+      "id": "fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-07-04T20:10:04.216161+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.html",
+      "text_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
+      "evidence_json": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.json"
+    },
+    {
       "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
       "topic": "geopolitics",
       "title": "Ne 10m Admin 0 Disputed Areas",
@@ -11203,7 +11212,7 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-07-04T17:13:07.925595+00:00",
+      "collected_at": "2026-07-04T20:10:04.184688+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -11264,86 +11273,6 @@
       "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
     },
     {
-      "id": "2253b8a7ebae5a1610577b8a7ec64e7e4ee532dda750d2062323b0bd27db3c86",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-07-04T17:13:07.885703+00:00",
-      "published": "",
-      "text_chars": 824644,
-      "raw_path": "data/geopolitics/raw/2253b8a7ebae5a1610577b8a7ec64e7e4ee532dda750d2062323b0bd27db3c86.xml",
-      "text_path": "data/geopolitics/raw/2253b8a7ebae5a1610577b8a7ec64e7e4ee532dda750d2062323b0bd27db3c86.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-      "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
-      ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 1476
-        },
-        {
-          "name": "security",
-          "value": 1473
-        },
-        {
-          "name": "interpol",
-          "value": 1239
-        },
-        {
-          "name": "resolution",
-          "value": 840
-        },
-        {
-          "name": "interpol-un",
-          "value": 683
-        },
-        {
-          "name": "afghanistan",
-          "value": 636
-        },
-        {
-          "name": "link",
-          "value": 612
-        },
-        {
-          "name": "republic",
-          "value": 539
-        },
-        {
-          "name": "al-qaida",
-          "value": 515
-        },
-        {
-          "name": "iraq",
-          "value": 480
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "War and Escalation",
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Africa",
-        "Middle East",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/2253b8a7ebae5a1610577b8a7ec64e7e4ee532dda750d2062323b0bd27db3c86",
-      "evidence_json": "/evidence/2253b8a7ebae5a1610577b8a7ec64e7e4ee532dda750d2062323b0bd27db3c86.json"
-    },
-    {
       "id": "824a913dc40b072461625e2f26528a8555f8358b7421a5b1d544b8f764103f23",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -11353,7 +11282,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-04T17:13:05.849499+00:00",
+      "collected_at": "2026-07-04T20:10:04.121929+00:00",
       "published": "",
       "text_chars": 9122085,
       "raw_path": "data/geopolitics/raw/824a913dc40b072461625e2f26528a8555f8358b7421a5b1d544b8f764103f23.xml",
@@ -11433,7 +11362,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-04T17:12:31.889003+00:00",
+      "collected_at": "2026-07-04T20:09:29.809028+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.xml",
@@ -11504,79 +11433,84 @@
       "evidence_json": "/evidence/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.json"
     },
     {
-      "id": "5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
+      "id": "2253b8a7ebae5a1610577b8a7ec64e7e4ee532dda750d2062323b0bd27db3c86",
       "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
       "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-04T17:12:30.290156+00:00",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-07-04T20:09:27.965994+00:00",
       "published": "",
-      "text_chars": 6243887,
-      "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
-      "text_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "text_chars": 824644,
+      "raw_path": "data/geopolitics/raw/2253b8a7ebae5a1610577b8a7ec64e7e4ee532dda750d2062323b0bd27db3c86.xml",
+      "text_path": "data/geopolitics/raw/2253b8a7ebae5a1610577b8a7ec64e7e4ee532dda750d2062323b0bd27db3c86.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
       "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
       ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
       "keywords": [
         {
-          "name": "arms",
-          "value": 17490
+          "name": "council",
+          "value": 1476
         },
         {
-          "name": "imports",
-          "value": 17490
+          "name": "security",
+          "value": 1473
         },
         {
-          "name": "sipri",
-          "value": 17490
+          "name": "interpol",
+          "value": 1239
         },
         {
-          "name": "status",
-          "value": 17490
+          "name": "resolution",
+          "value": 840
         },
         {
-          "name": "trend",
-          "value": 17490
+          "name": "interpol-un",
+          "value": 683
         },
         {
-          "name": "unit",
-          "value": 17490
+          "name": "afghanistan",
+          "value": 636
         },
         {
-          "name": "values",
-          "value": 17490
+          "name": "link",
+          "value": 612
         },
         {
-          "name": "income",
-          "value": 726
+          "name": "republic",
+          "value": 539
         },
         {
-          "name": "africa",
-          "value": 594
+          "name": "al-qaida",
+          "value": 515
         },
         {
-          "name": "islands",
-          "value": 594
+          "name": "iraq",
+          "value": 480
         }
       ],
-      "signals": [],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
       "regions": [
         "Africa",
-        "Americas",
-        "Middle East"
+        "Middle East",
+        "Global Institutions"
       ],
-      "detail_path": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
-      "evidence_json": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json"
+      "detail_path": "/evidence/2253b8a7ebae5a1610577b8a7ec64e7e4ee532dda750d2062323b0bd27db3c86",
+      "evidence_json": "/evidence/2253b8a7ebae5a1610577b8a7ec64e7e4ee532dda750d2062323b0bd27db3c86.json"
     },
     {
       "id": "60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
@@ -11588,7 +11522,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-04T17:12:30.015408+00:00",
+      "collected_at": "2026-07-04T20:09:25.994187+00:00",
       "published": "",
       "text_chars": 6161766,
       "raw_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json.raw",
@@ -11654,6 +11588,81 @@
       ],
       "detail_path": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
       "evidence_json": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json"
+    },
+    {
+      "id": "5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-07-04T20:09:25.717717+00:00",
+      "published": "",
+      "text_chars": 6243887,
+      "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
+      "text_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17490
+        },
+        {
+          "name": "imports",
+          "value": 17490
+        },
+        {
+          "name": "sipri",
+          "value": 17490
+        },
+        {
+          "name": "status",
+          "value": 17490
+        },
+        {
+          "name": "trend",
+          "value": 17490
+        },
+        {
+          "name": "unit",
+          "value": 17490
+        },
+        {
+          "name": "values",
+          "value": 17490
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
+      "evidence_json": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json"
     },
     {
       "id": "e835c420832ea3c8e576ea5b24192355bd835b0eb2ce4a4cf86c7b92f575bb81",
@@ -15435,7 +15444,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-04T17:13:16.966635+00:00",
+      "collected_at": "2026-07-04T20:10:14.063795+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15507,79 +15516,6 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
-      "id": "fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-07-04T17:13:15.245496+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.html",
-      "text_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
-      "evidence_json": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.json"
-    },
-    {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
       "title": "ICRC International Humanitarian Law Handbook",
@@ -15589,7 +15525,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-04T17:13:15.205725+00:00",
+      "collected_at": "2026-07-04T20:10:11.450025+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -15670,7 +15606,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-04T17:13:09.932235+00:00",
+      "collected_at": "2026-07-04T20:10:06.226558+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15742,6 +15678,79 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
+      "id": "fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-07-04T20:10:04.216161+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.html",
+      "text_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
+      "evidence_json": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.json"
+    },
+    {
       "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
       "topic": "geopolitics",
       "title": "Ne 10m Admin 0 Disputed Areas",
@@ -15751,7 +15760,7 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-07-04T17:13:07.925595+00:00",
+      "collected_at": "2026-07-04T20:10:04.184688+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -15812,86 +15821,6 @@
       "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
     },
     {
-      "id": "2253b8a7ebae5a1610577b8a7ec64e7e4ee532dda750d2062323b0bd27db3c86",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-07-04T17:13:07.885703+00:00",
-      "published": "",
-      "text_chars": 824644,
-      "raw_path": "data/geopolitics/raw/2253b8a7ebae5a1610577b8a7ec64e7e4ee532dda750d2062323b0bd27db3c86.xml",
-      "text_path": "data/geopolitics/raw/2253b8a7ebae5a1610577b8a7ec64e7e4ee532dda750d2062323b0bd27db3c86.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-      "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
-      ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 1476
-        },
-        {
-          "name": "security",
-          "value": 1473
-        },
-        {
-          "name": "interpol",
-          "value": 1239
-        },
-        {
-          "name": "resolution",
-          "value": 840
-        },
-        {
-          "name": "interpol-un",
-          "value": 683
-        },
-        {
-          "name": "afghanistan",
-          "value": 636
-        },
-        {
-          "name": "link",
-          "value": 612
-        },
-        {
-          "name": "republic",
-          "value": 539
-        },
-        {
-          "name": "al-qaida",
-          "value": 515
-        },
-        {
-          "name": "iraq",
-          "value": 480
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "War and Escalation",
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Africa",
-        "Middle East",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/2253b8a7ebae5a1610577b8a7ec64e7e4ee532dda750d2062323b0bd27db3c86",
-      "evidence_json": "/evidence/2253b8a7ebae5a1610577b8a7ec64e7e4ee532dda750d2062323b0bd27db3c86.json"
-    },
-    {
       "id": "824a913dc40b072461625e2f26528a8555f8358b7421a5b1d544b8f764103f23",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -15901,7 +15830,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-04T17:13:05.849499+00:00",
+      "collected_at": "2026-07-04T20:10:04.121929+00:00",
       "published": "",
       "text_chars": 9122085,
       "raw_path": "data/geopolitics/raw/824a913dc40b072461625e2f26528a8555f8358b7421a5b1d544b8f764103f23.xml",
@@ -15981,7 +15910,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-04T17:12:31.889003+00:00",
+      "collected_at": "2026-07-04T20:09:29.809028+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.xml",
@@ -16052,79 +15981,84 @@
       "evidence_json": "/evidence/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.json"
     },
     {
-      "id": "5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
+      "id": "2253b8a7ebae5a1610577b8a7ec64e7e4ee532dda750d2062323b0bd27db3c86",
       "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
       "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-04T17:12:30.290156+00:00",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-07-04T20:09:27.965994+00:00",
       "published": "",
-      "text_chars": 6243887,
-      "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
-      "text_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "text_chars": 824644,
+      "raw_path": "data/geopolitics/raw/2253b8a7ebae5a1610577b8a7ec64e7e4ee532dda750d2062323b0bd27db3c86.xml",
+      "text_path": "data/geopolitics/raw/2253b8a7ebae5a1610577b8a7ec64e7e4ee532dda750d2062323b0bd27db3c86.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
       "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
       ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
       "keywords": [
         {
-          "name": "arms",
-          "value": 17490
+          "name": "council",
+          "value": 1476
         },
         {
-          "name": "imports",
-          "value": 17490
+          "name": "security",
+          "value": 1473
         },
         {
-          "name": "sipri",
-          "value": 17490
+          "name": "interpol",
+          "value": 1239
         },
         {
-          "name": "status",
-          "value": 17490
+          "name": "resolution",
+          "value": 840
         },
         {
-          "name": "trend",
-          "value": 17490
+          "name": "interpol-un",
+          "value": 683
         },
         {
-          "name": "unit",
-          "value": 17490
+          "name": "afghanistan",
+          "value": 636
         },
         {
-          "name": "values",
-          "value": 17490
+          "name": "link",
+          "value": 612
         },
         {
-          "name": "income",
-          "value": 726
+          "name": "republic",
+          "value": 539
         },
         {
-          "name": "africa",
-          "value": 594
+          "name": "al-qaida",
+          "value": 515
         },
         {
-          "name": "islands",
-          "value": 594
+          "name": "iraq",
+          "value": 480
         }
       ],
-      "signals": [],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
       "regions": [
         "Africa",
-        "Americas",
-        "Middle East"
+        "Middle East",
+        "Global Institutions"
       ],
-      "detail_path": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
-      "evidence_json": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json"
+      "detail_path": "/evidence/2253b8a7ebae5a1610577b8a7ec64e7e4ee532dda750d2062323b0bd27db3c86",
+      "evidence_json": "/evidence/2253b8a7ebae5a1610577b8a7ec64e7e4ee532dda750d2062323b0bd27db3c86.json"
     },
     {
       "id": "60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
@@ -16136,7 +16070,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-04T17:12:30.015408+00:00",
+      "collected_at": "2026-07-04T20:09:25.994187+00:00",
       "published": "",
       "text_chars": 6161766,
       "raw_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json.raw",
@@ -16202,6 +16136,158 @@
       ],
       "detail_path": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
       "evidence_json": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json"
+    },
+    {
+      "id": "5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-07-04T20:09:25.717717+00:00",
+      "published": "",
+      "text_chars": 6243887,
+      "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
+      "text_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17490
+        },
+        {
+          "name": "imports",
+          "value": 17490
+        },
+        {
+          "name": "sipri",
+          "value": 17490
+        },
+        {
+          "name": "status",
+          "value": 17490
+        },
+        {
+          "name": "trend",
+          "value": 17490
+        },
+        {
+          "name": "unit",
+          "value": 17490
+        },
+        {
+          "name": "values",
+          "value": 17490
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
+      "evidence_json": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json"
+    },
+    {
+      "id": "d17124a95b20e0e06c71bccc4efce586f8633507cfb0b625a0dfb883f9aa52b9",
+      "topic": "geopolitics",
+      "title": "Ukraine hits major oil terminal in Russia's St Petersburg",
+      "url": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro?at_medium=RSS&at_campaign=rss",
+      "host": "bbc.co.uk",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html",
+      "collected_at": "2026-07-04T18:59:52.146351+00:00",
+      "published": "Sat, 04 Jul 2026 18:41:25 GMT",
+      "text_chars": 3363,
+      "raw_path": "data/geopolitics/raw/d17124a95b20e0e06c71bccc4efce586f8633507cfb0b625a0dfb883f9aa52b9.html",
+      "text_path": "data/geopolitics/raw/d17124a95b20e0e06c71bccc4efce586f8633507cfb0b625a0dfb883f9aa52b9.txt",
+      "summary": "Zelensky said on Saturday morning that the targets hit in St Petersburg and the surrounding region were about 850km (528 miles) from Ukraine's border. In its latest operational bulletin on Saturday afternoon, the Russian defence ministry said it had shot down more than 500 Ukrainian drones and missiles launched overnight and in the morning. The military also said a key naval base of the Russian Baltic Fleet in Kronstadt was hit.",
+      "bullets": [
+        "Zelensky said on Saturday morning that the targets hit in St Petersburg and the surrounding region were about 850km (528 miles) from Ukraine's border.",
+        "In its latest operational bulletin on Saturday afternoon, the Russian defence ministry said it had shot down more than 500 Ukrainian drones and missiles launched overnight and in the morning.",
+        "The military also said a key naval base of the Russian Baltic Fleet in Kronstadt was hit.",
+        "Governor Beglov said that 72 Ukrainian drones were shot down over St Petersburg and the wider Leningrad region.",
+        "Ukrainian attacks on Russian civilian facilities \"will not go unanswered\", the ministry said."
+      ],
+      "excerpt": "Zelensky said on Saturday morning that the targets hit in St Petersburg and the surrounding region were about 850km (528 miles) from Ukraine's border. The extent of the damage was not immediately clear, but a video posted by the Ukrainian president showed a drone flying towards a target and a huge column of black smoke billowing from the area after the strike. The BBC later verified that St Petersburg's oil terminal was hit. Ukraine's military described the terminal as \"one of the largest\" in Russia, capable of producing 12.5 million tonnes of petroleum products per year. The military also said a key naval base of the Russian Baltic Fleet in Kronstadt was hit. Russia has not publicly commented on the claim. Governor Beglov said that 72 Ukrainian drones were shot down over St Petersburg and the wider Leningrad region. He urged city residents to stay indoors until the drone threat was lifted. Mobile internet services might also be disrupted, he warned. More than five million people live in St Petersburg. In a separate development on Saturday, Ukraine's military denied that the key eastern Ukrainian town of Kostyantynivka was now under full Russian control. Military spokesman Maj Andr",
+      "keywords": [
+        {
+          "name": "russian",
+          "value": 8
+        },
+        {
+          "name": "kostyantynivka",
+          "value": 7
+        },
+        {
+          "name": "ukraine",
+          "value": 7
+        },
+        {
+          "name": "ukrainian",
+          "value": 7
+        },
+        {
+          "name": "military",
+          "value": 5
+        },
+        {
+          "name": "petersburg",
+          "value": 5
+        },
+        {
+          "name": "putin",
+          "value": 5
+        },
+        {
+          "name": "saturday",
+          "value": 5
+        },
+        {
+          "name": "control",
+          "value": 4
+        },
+        {
+          "name": "russia",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/d17124a95b20e0e06c71bccc4efce586f8633507cfb0b625a0dfb883f9aa52b9",
+      "evidence_json": "/evidence/d17124a95b20e0e06c71bccc4efce586f8633507cfb0b625a0dfb883f9aa52b9.json"
     },
     {
       "id": "d55730a8087a093dcd4abec92389940b90a920ab5e79af46933ec74a452e88d2",
