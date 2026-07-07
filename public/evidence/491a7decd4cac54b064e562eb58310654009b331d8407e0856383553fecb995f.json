@@ -75,87 +75,6 @@
   "full_text": "Between February 2022 and September 2025, Bellingcat staff and volunteers collected, geolocated, and \nshared more than 2,500 incidents\n of civilian harm following Russia’s full-scale invasion of Ukraine. \n\nAs part of this effort, Bellingcat tested a new machine learning model intended to rank Telegram social media posts on their likelihood of containing incidents of civilian harm. \n\nThis novel methodology dramatically reduced the search and selection time required, freeing researchers to focus on verifying incidents of civilian harm – not just searching for them. \n\nThis piece documents our methodology, ethical considerations and lessons learned in the hope that others researching similar topics can benefit from our work. \n\nOpen source research into civilian harm is still a relatively new field and it presents many challenges – one of the biggest is organising and sorting through the huge volume of user generated content being produced to find what is relevant. \n\nMachine learning, a form of artificial intelligence that uses algorithms to identify patterns from large amounts of data and make predictions, can make this task more efficient.\n\nWith ongoing conflicts involving large amounts of civilian harm occurring in Sudan, and much of the Middle East, this guide aims to offer those covering these conflicts an example of how machine learning can be used to help find and sort incidents. You can also access the \nCode Notebook\n for our model \nhere.\n\nWe defined “civilian harm” not just as civilian deaths or injuries resulting from armed conflict, but also the broader and delayed effects on civilians from mental trauma, loss of livelihood, displacement, destruction of infrastructure and more. This definition was informed by the Protection of Civilians \nbook\n \non civilian harm. \n\nInitial Telegram Dataset \n\nEach Telegram post containing civilian harm which had already been manually verified by researchers was used to build an initial dataset of confirmed cases of civilian harm, which data scientists call \npositive instances. We collected a total of 5,848 unique URLs for these Telegram posts. For our manual collection we reviewed posts on relevant Telegram channels, working through oldest to newest posts each day. Assuming that a given post made it to our geolocated incidents list, it meant the researcher who flagged it also looked at the posts that appeared before and after it on Telegram and did not flag those ones, so we selected the 10 posts surrounding the verified civilian harm post as our additional dataset of posts that did not contain civilian harm. After excluding any deleted or duplicate posts, we ended up with 48,545 non-civilian harm posts, our \nnegative instances. \n\nThe choice to overrepresent negative instances aims at better reflecting the real world and increasing data available for model training. \n\nWe enriched each URL with metadata from the Telegram API, such as the time of publication, reactions or textual content. As some of these posts had been deleted, we completed the missing data points with previously preserved versions from our \nAuto Archiver\n database, only available for the positive instances.\n\nFeature Engineering\n\nTraining a machine learning model requires numerical data, as these models compute a prediction score based on mathematical operations.\n\nWe built these by converting raw data from our initial dataset, such as keywords signalling potential civilian harm, into numerical scores (or “features”) that the model could interpret, with the aim of increasing the model’s ability to identify patterns. This process, known as \nfeature engineering, can significantly improve model results because it allows data scientists to suggest explicit context knowledge. \n\nA full list of features we used to train the model can be found in the \ncode notebook \naccompanying this piece. Many features were directly inspired by researchers’ input from their experiences manually screening cases of civilian harm by sorting through a set number of Telegram channels and inspecting each post individually.\n\nSeveral of the features used were directly built from the metadata contained in each Telegram post including \nmedia_type, \nday_of_week; or binary ones: \nforwarded, \nedited and\n \nreply_to. \n\nOther features included engagement information: \nviews, \nforwards, \ntotal_reactions, and even individual features for most used emojis including the \nreaction_crying_face\n to count 😭 emoji.\n\nConverting Text to Numbers \n\nTo embed the experience from the manual collection process, researchers put together a list of keywords both in Ukrainian and Russian that, to them, signalled posts likely to  show civilian harm. For instance, “Шахед” and “КАБ” translated to “Shahed” and “Guided aerial bomb” respectively. We created a numerical feature to count their frequency. \n\nIn addition, we included several generic English-language keywords which meaningfully signalled potential civilian harm, such as “injured”, “school affected” and “hospital affected” that were only used for generating semantic similarity scores. \n\nA semantic similarity score is a calculation used to determine the proximity in meaning between different words and phrases. To get the semantic similarity between the post text and each of our keywords, we represented each in a list of numbers via a \nSentence Transformer model, which converts words into numerical representations called vectors that a computer can understand. \n\nWe then calculated the level of similarity between each vector using \ncosine similarity, one of the most popular methods for measuring similarity between two pieces of text.\n\nDue to how embeddings work, this calculation results in a figure on a scale from -1 (no semantic proximity) to 1 (same meaning). For example, the words “hurt” and “injured” would have a high similarity score, while “residential” and “injured” would have a negative score as the words are not semantically similar. \n\nFinally, to enable the model to identify the relevance of each post to civilian harm in Ukraine, we used a \nmultilingual text transformer\n from the \nBERT\n family of language models to represent the entire post’s text as a vector of 768 numerical values. This model can efficiently represent text from many languages in a way that captures meaning: the same sentence in different languages will generate similar embeddings, and trained machine learning models can detect patterns in the embeddings. \n\nIt is important to note that for this initial prototype of a civilian harm detection model, we did not include any features derived from media content such as photos and videos, although that would be a logical next step in attempting to improve model performance.\n\nSelecting, Training and Evaluating Models\n\nWith 54,393 rows of 893 numerical features each, we selected four machine learning algorithms to train our predictive models. \n\nWe chose \nLogistic Regression\n as a baseline algorithm due to its simplicity. We also selected three other “best in class” models, \nRandom Forest, \nXGBoost, and \nLightGBM. These choices centred on the \ninterpretability\n of the models and their ability to work on tabular data of this size. For example, we avoided neural networks due to a lack of interpretability and because those models work best with a larger dataset. \n\nTo genuinely assess the performance of the trained models, we split our dataset into three parts:  \n\nA training set – the data the models were trained on (60 percent of the full dataset’s rows)\n\nA validation set – used for an intermediary evaluation when tuning model parameters (20 percent of all rows)\n\nA test set – hidden for the final performance assessment, so the models were evaluated on unseen data (remaining 20 percent of rows)\n\nWe used a \nstratified split\n to divide the dataset instead of a random split. This method ensured the proportion of positive instances (i.e. confirmed cases of civilian harm) remained consistent across all three sets at about 11 percent.\n\nTo measure the performance of machine learning models, we ran them through the test set and measured the number of correct and incorrect predictions. Models output a likelihood between 0 and 1 that each Telegram post contains civilian harm, and we tried to find a cut-off threshold that leads to a good balance between flagging almost every post (0.1) or flagging very few (0.9). \n\nThere are two main types of evaluation metrics to gauge a model’s prediction power. \nRecall\n asserts what fraction of positive instances (i.e. known civilian harm posts) were correctly flagged as such. \nPrecision\n measures the fraction of posts flagged as civilian harm that are indeed civilian harm posts.\n\nDuring the training phase, we tuned the models to maximise \naverage precision\n (PR-AUC), a metric that summarises precision across all recall levels. While this method also accounts for precision, it prioritises recall, which is preferable for this use case as it steers model selection to reduce the number of civilian harm posts that are skipped. \n\nThe following table sorts models from best to worst PR-AUC against a baseline of a coin-flip predictor. ROC-AUC and F1 are two other evaluation metrics included as sanity checks. Simply put, ROC-AUC measures the probability of ranking two instances, one negative and one positive, correctly; F1 balances precision and recall equally and its best cut-off threshold value.\n\nModel test scores comparison, XGBoost stands out in every relevant metric evaluated. \n\nFrom these results, we selected XGBoost as our final model as it had the best scores when compared across all metrics.\n\nInterpreting the Model\n\nBecause these models are interpretable, we can understand which features are the most useful when predicting whether a post includes civilian harm. The above table shows the top 10 features that most strongly signal the XGBoost model to make a decision:\n\nsemantic_keywords_similarity: the semantic proximity between the post text and manually selected keywords “casualties”, “damage” and “civilian harm”\n\nbert:  the model was able to discern meaning from the text with the same strength as some of the other features in this list – there are three cases of this in the top 10\n\nreaction_crying_face: reactions with crying face emojis on the post\n\ngroup_of_messages: whether a post contains multiple media files\n\nkeywords_in_text: the number of custom Ukrainian or Russian keywords in the post\n\nThese results generally tally with what you might expect when selecting Telegram posts for instances of civilian harm, including that posts that generate a lot of emotional engagement and posts using keywords about civilian harm were among those most likely to contain content related to this topic. Not all models had the same top features as XGBoost. In fact, for the Random Forest model the most important feature was the number of crying face emojis present in a post, a soft pattern highlighted by researchers when this methodology was first imagined.\n\nLLM Results and Comparison\n\nRetroactively, we decided to run a sample of the same test dataset through different large language models (LLMs) to gauge their ability to make these same predictions. \n\nWe aimed to include an LLM-generated score as an extra feature for our trained models, which would be captured as relevant if it correlated with the correct predictions. \n\nTo start, we selected two local models, the 1B and 4B variants of Gemma 3 from Google DeepMind, and two cloud-hosted models, Gemini 2.5 flash and Gemini 3.5 flash. With this selection, we hoped to compare results across a wide range of models’ expected performance. \n\nWe generated a 400-row stratified sample (preserving the same proportion of real civilian harm instances) from the test dataset used for the custom models. For each of the four LLM models, we ran two tests: one where only the Telegram post message was sent, and another including both the message and the engineered features (excluding the text embeddings, as the model had direct access to the text). In the prompt for each model, we asked for a score between 0 and 1. We then evaluated the results as we did for the custom models. \n\nThe above table shows that LLMs can indeed extract value from the engineered features. All four LLMs surpassed the baseline Logistic Regression model in our tests, yet none of them performed better than the other custom-trained models, and XGBoost remained the one with the highest PR-AUC. \n\nStill, Gemini 2.5 Flash performed better than its newer version 3.5 and even achieved a slightly higher best F1 score than any other model. While this is a good result, for the flagging of civilian harm posts, the PR-AUC remains the crucial metric, as it captures the model’s ability to identify infrequent instances of civilian harm while minimising false positives.\n\nEthical Considerations\n\nIntroducing an instrument of automated decision-making into a process of detecting civilian harm brings inherent ethical questions. These include automation bias, or how humans tend to blindly place faith in machine-generated recommendations; algorithmic bias, or how the results of these models echo the same patterns present in the training data, including under- or over-representation of types of civilian harm. \n\nThe decision to test an automated methodology for this particular project came from the fact that there were limited resources for both steps in the process – the detection of potential civilian harm and its actual verification. Historically, we built an enormous backlog of unverified incidents because a lot of time had to be spent on monitoring the most recent events so that potential evidence would be captured and preserved as soon as possible. \n\nThe automation of this process also reduced the exposure of researchers to a significant amount of unpleasant and distressing visual and text content, reducing the burden of exposure to traumatic content. \n\nFor this project, we tried to ameliorate the ethical challenges with a number of strategies including randomly flagging posts not captured by any model, monitoring which features models relied on to make decisions, and by doing historical comparisons of patterns in data. \n\nAdditionally, as stated above, for this initial prototype of a civilian harm detection model we did not include any features derived from the media content itself. In the future, it would be a logical next step in attempting to improve the model performance, to include the media from the posts – but using AI to review actual media comes with additional ethical challenges such as \nmodel bias.\n\nBecause of the opaque ownership of many LLM companies and their generative nature, the use of LLMs for an extra feature presented additional ethical challenges including privacy and safety concerns considering the sensitive nature of the data. Our model did not rely on LLMs, though we retroactively ran a sample through it. \n\nHow the Model Fits into the Bigger Picture \n\nAfter selecting this model, we created a user interface where researchers could view a list of Telegram posts sorted from most to least likely to contain indications of civilian harm. The user interface was designed for quick triage and integration, where a positive confirmation from researchers would instantly send the post to the \nAuto Archiver\n (Bellingcat’s tool for preserving digital content) and then transfer it to \nATLOS\n (our internal collaborative verification platform). Bellingcat staff and volunteers could then manually verify incidents. Researcher input was constantly stored so that this data could be used to improve the model in the future. \n\nPreliminary feedback indicated that the AI model was useful. Not only were we able to reduce time and harm from scouring through dozens of war reporting Telegram channels, researchers also reported that the stream of new posts being added to the verification backlog were capturing real and diverse cases of civilian harm. \n\nDespite the focus on civilian harm and Telegram (\nhighly popular\n in Ukraine and Russia), this pipeline is generic and can be adapted to other conflict monitoring tasks. How easily this can be done does depend on how open the social media platform is and whether it is possible to scrape posts from it. Apart from that, it is easy to incorporate new features and data, and cheap to automatically retrain, test and deploy models as the system receives more human input.  \n\nLooking forward, sorting through overwhelming amounts of data in a conflict will continue to be challenging. Hopefully, this methodology can help newsrooms, conflict monitoring organisations, and others find the balance between ethical considerations and resources in order to carry out open source investigations on civilian harm and human rights violations. \n\nBellingcat is a non-profit and the ability to carry out our work is dependent on the kind support of individual donors. If you would like to support our work, you can do so \nhere. You can also subscribe to our Patreon channel \nhere. Subscribe to our \nNewsletter\n and follow us on Bluesky \nhere, Instagram \nhere, Reddit \nhere \nand YouTube \nhere.",
   "related": [
     {
-      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "topic": "geopolitics",
-      "title": "United Nations Charter",
-      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
-      "host": "treaties.un.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-07-07T07:31:58.397006+00:00",
-      "published": "",
-      "text_chars": 89992,
-      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
-      "summary": "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
-      "bullets": [
-        "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
-        "Article 5 / A Member of the United Nations against which preventive or enforcement action has been taken by the Security Council may be suspended from the exercise of the rights and privileges of mem- bership by the General Assembly upon the recom- mendation of the Security Council.",
-        "Article 6 A Member of the United Nations which has persistently violated the Principles contained in the present Charter may be expelled from the Organization by the General Assembly upon the recommendation of the Security Council.",
-        "Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
-        "CHAPTER I PURPOSES AND PRINCIPLES Article 1 The^Purposes of the United Nations are: 1."
-      ],
-      "excerpt": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 160
-        },
-        {
-          "name": "court",
-          "value": 155
-        },
-        {
-          "name": "security",
-          "value": 148
-        },
-        {
-          "name": "united",
-          "value": 127
-        },
-        {
-          "name": "nations",
-          "value": 121
-        },
-        {
-          "name": "members",
-          "value": 116
-        },
-        {
-          "name": "general",
-          "value": 94
-        },
-        {
-          "name": "assembly",
-          "value": 83
-        },
-        {
-          "name": "international",
-          "value": 79
-        },
-        {
-          "name": "member",
-          "value": 59
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation",
-        "Humanitarian Pressure"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "detail_path": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
-    },
-    {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
       "title": "ICRC International Humanitarian Law Handbook",
@@ -165,7 +84,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-07T07:31:49.852057+00:00",
+      "collected_at": "2026-07-07T10:48:56.753111+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -237,6 +156,87 @@
       "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
+      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "topic": "geopolitics",
+      "title": "United Nations Charter",
+      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
+      "host": "treaties.un.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-07-07T10:48:51.791915+00:00",
+      "published": "",
+      "text_chars": 89992,
+      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
+      "summary": "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
+      "bullets": [
+        "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
+        "Article 5 / A Member of the United Nations against which preventive or enforcement action has been taken by the Security Council may be suspended from the exercise of the rights and privileges of mem- bership by the General Assembly upon the recom- mendation of the Security Council.",
+        "Article 6 A Member of the United Nations which has persistently violated the Principles contained in the present Charter may be expelled from the Organization by the General Assembly upon the recommendation of the Security Council.",
+        "Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
+        "CHAPTER I PURPOSES AND PRINCIPLES Article 1 The^Purposes of the United Nations are: 1."
+      ],
+      "excerpt": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 160
+        },
+        {
+          "name": "court",
+          "value": 155
+        },
+        {
+          "name": "security",
+          "value": 148
+        },
+        {
+          "name": "united",
+          "value": 127
+        },
+        {
+          "name": "nations",
+          "value": 121
+        },
+        {
+          "name": "members",
+          "value": 116
+        },
+        {
+          "name": "general",
+          "value": 94
+        },
+        {
+          "name": "assembly",
+          "value": 83
+        },
+        {
+          "name": "international",
+          "value": 79
+        },
+        {
+          "name": "member",
+          "value": 59
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "detail_path": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -246,7 +246,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-07T07:31:43.824480+00:00",
+      "collected_at": "2026-07-07T10:48:51.035809+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -318,86 +318,6 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "05bde86a120ff44631cf7b9723ed700b56e6ba0f79818ca468b9c8d1659c3c58",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-07-07T07:31:41.676023+00:00",
-      "published": "",
-      "text_chars": 824644,
-      "raw_path": "data/geopolitics/raw/05bde86a120ff44631cf7b9723ed700b56e6ba0f79818ca468b9c8d1659c3c58.xml",
-      "text_path": "data/geopolitics/raw/05bde86a120ff44631cf7b9723ed700b56e6ba0f79818ca468b9c8d1659c3c58.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-      "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
-      ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 1476
-        },
-        {
-          "name": "security",
-          "value": 1473
-        },
-        {
-          "name": "interpol",
-          "value": 1239
-        },
-        {
-          "name": "resolution",
-          "value": 840
-        },
-        {
-          "name": "interpol-un",
-          "value": 683
-        },
-        {
-          "name": "afghanistan",
-          "value": 636
-        },
-        {
-          "name": "link",
-          "value": 612
-        },
-        {
-          "name": "republic",
-          "value": 539
-        },
-        {
-          "name": "al-qaida",
-          "value": 515
-        },
-        {
-          "name": "iraq",
-          "value": 480
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "War and Escalation",
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Africa",
-        "Middle East",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/05bde86a120ff44631cf7b9723ed700b56e6ba0f79818ca468b9c8d1659c3c58",
-      "evidence_json": "/evidence/05bde86a120ff44631cf7b9723ed700b56e6ba0f79818ca468b9c8d1659c3c58.json"
-    },
-    {
       "id": "824a913dc40b072461625e2f26528a8555f8358b7421a5b1d544b8f764103f23",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -407,7 +327,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-07T07:31:39.569826+00:00",
+      "collected_at": "2026-07-07T10:48:48.973234+00:00",
       "published": "",
       "text_chars": 9122085,
       "raw_path": "data/geopolitics/raw/824a913dc40b072461625e2f26528a8555f8358b7421a5b1d544b8f764103f23.xml",
@@ -487,7 +407,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-07T07:31:04.562553+00:00",
+      "collected_at": "2026-07-07T10:48:18.473966+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.xml",
@@ -558,160 +478,243 @@
       "evidence_json": "/evidence/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.json"
     },
     {
-      "id": "c4603a44f3829c32f7d44d097a10aad0de62d2576067ab36ec48ca763ce54476",
+      "id": "05bde86a120ff44631cf7b9723ed700b56e6ba0f79818ca468b9c8d1659c3c58",
       "topic": "geopolitics",
-      "title": "Death toll from China storms and floods rises to 15, state media says",
-      "url": "http://www.euronews.com/2026/07/07/death-toll-from-china-storms-and-floods-rises-to-15-state-media-says",
-      "host": "euronews.com",
-      "source": "https://www.euronews.com/rss?level=theme&name=news",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-07-07T07:32:15.536667+00:00",
-      "published": "Tue, 07 Jul 2026 07:28:18 +0200",
-      "text_chars": 2274,
-      "raw_path": "data/geopolitics/raw/c4603a44f3829c32f7d44d097a10aad0de62d2576067ab36ec48ca763ce54476.html",
-      "text_path": "data/geopolitics/raw/c4603a44f3829c32f7d44d097a10aad0de62d2576067ab36ec48ca763ce54476.txt",
-      "summary": "Published on 07/07/2026 - 7:28 GMT+2 Thunderstorms and strong winds have killed at least 15 people and injured 275 in central China, state media said on Tuesday, as heavy rains and flooding left two more dead in the south. China is the world's biggest emitter of greenhouse gases, but it is also a global renewable energy powerhouse that aims to make its massive economy carbon-neutral by 2060. Rescue workers were seen wearing life vests and helmets, while others were on inflatable boats searching for people.",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-07-07T10:48:16.006510+00:00",
+      "published": "",
+      "text_chars": 824644,
+      "raw_path": "data/geopolitics/raw/05bde86a120ff44631cf7b9723ed700b56e6ba0f79818ca468b9c8d1659c3c58.xml",
+      "text_path": "data/geopolitics/raw/05bde86a120ff44631cf7b9723ed700b56e6ba0f79818ca468b9c8d1659c3c58.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
       "bullets": [
-        "Published on 07/07/2026 - 7:28 GMT+2 Thunderstorms and strong winds have killed at least 15 people and injured 275 in central China, state media said on Tuesday, as heavy rains and flooding left two more dead in the south.",
-        "China is the world's biggest emitter of greenhouse gases, but it is also a global renewable energy powerhouse that aims to make its massive economy carbon-neutral by 2060.",
-        "Rescue workers were seen wearing life vests and helmets, while others were on inflatable boats searching for people.",
-        "Xi stressed \"the need to go all out in organising emergency rescue operations, treating the injured, and resettling affected residents, carrying out disaster prevention and relief work effectively\", state broadcaster CCTV said.",
-        "Scientists warn the intensity and frequency of global extreme weather events will increase as the planet continues to heat up because of fossil fuel emissions."
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
       ],
-      "excerpt": "Published on 07/07/2026 - 7:28 GMT+2 Thunderstorms and strong winds have killed at least 15 people and injured 275 in central China, state media said on Tuesday, as heavy rains and flooding left two more dead in the south. ADVERTISEMENT ADVERTISEMENT Multiple areas in Hubei province experienced \"severe convective weather\" on Monday, state broadcaster CCTV reported. \"Thunderstorms and strong winds swept\" through cities including Huangshi and Huanggang, killing eight people, it added. Tornadoes were reported in some areas and nine people are missing. The \"severe weather\" had injured 275 people in Huanggang's Huangzhou district as of Tuesday morning, state news agency Xinhua reported, without giving details of their severity. Authorities also evacuated 408 residents to safe areas, it added. \"Rescue and relief efforts are underway,\" Xinhua said. Heavy rains and severe flooding from Typhoon Maysak killed at least two people in the southern region of Guangxi and prompted authorities to evacuate at least 48,000 people as of Monday evening. Officials in Nanning, Guangxi's capital, raised the flood control emergency response to the highest level after torrential rain breached dams. Rain cau",
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
       "keywords": [
         {
-          "name": "state",
+          "name": "council",
+          "value": 1476
+        },
+        {
+          "name": "security",
+          "value": 1473
+        },
+        {
+          "name": "interpol",
+          "value": 1239
+        },
+        {
+          "name": "resolution",
+          "value": 840
+        },
+        {
+          "name": "interpol-un",
+          "value": 683
+        },
+        {
+          "name": "afghanistan",
+          "value": 636
+        },
+        {
+          "name": "link",
+          "value": 612
+        },
+        {
+          "name": "republic",
+          "value": 539
+        },
+        {
+          "name": "al-qaida",
+          "value": 515
+        },
+        {
+          "name": "iraq",
+          "value": 480
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/05bde86a120ff44631cf7b9723ed700b56e6ba0f79818ca468b9c8d1659c3c58",
+      "evidence_json": "/evidence/05bde86a120ff44631cf7b9723ed700b56e6ba0f79818ca468b9c8d1659c3c58.json"
+    },
+    {
+      "id": "d5bacdf7dae84afba6aebebfbd5102da3f3ff86ea7937b7238e3bd04c858745c",
+      "topic": "geopolitics",
+      "title": "After Iran war upheaval, global shipping eyes return to status quo",
+      "url": "https://www.aljazeera.com/economy/2026/7/7/after-iran-war-upheaval-global-shipping-eyes-return-to-status-quo?traffic_source=rss",
+      "host": "aljazeera.com",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-07-07T10:49:11.491796+00:00",
+      "published": "Tue, 07 Jul 2026 08:31:05 +0000",
+      "text_chars": 7625,
+      "raw_path": "data/geopolitics/raw/d5bacdf7dae84afba6aebebfbd5102da3f3ff86ea7937b7238e3bd04c858745c.html",
+      "text_path": "data/geopolitics/raw/d5bacdf7dae84afba6aebebfbd5102da3f3ff86ea7937b7238e3bd04c858745c.txt",
+      "summary": "While the Iran war and Houthi attacks in the Red Sea since 2023 scrambled regional supply chains, shipping companies have been rapidly adding capacity since Washington and Tehran signed their memorandum of understanding on ending the conflict on June 17. The United States-Israel war on Iran has inflicted the greatest disruption to merchant shipping since the back-to-back shocks of the COVID-19 pandemic and Russia’s invasion of Ukraine.",
+      "bullets": [
+        "While the Iran war and Houthi attacks in the Red Sea since 2023 scrambled regional supply chains, shipping companies have been rapidly adding capacity since Washington and Tehran signed their memorandum of understanding on ending the conflict on June 17.",
+        "The United States-Israel war on Iran has inflicted the greatest disruption to merchant shipping since the back-to-back shocks of the COVID-19 pandemic and Russia’s invasion of Ukraine.",
+        "While there is no alternative to the strait to access oil-producing Gulf nations by sea, container shipping firms have had the option of redirecting their vessels along longer alternative routes to avoid conflict in the region, including attacks by the Iran-aligned Houthis in the Red Sea.",
+        "Shipping will look “remarkably familiar” in five years from now because it is an industry driven by demand, said Punit Oza, the head of the consultancy Maritime NXT and the former executive director of the Singapore Chamber of Maritime Arbitration.",
+        "That is likely to be especially the case for the container shipping industry, which, unlike the operators of the oil and gas tankers whose dislocation has roiled energy markets, is not heavily reliant on the Strait of Hormuz to transport its cargoes, which range from agricultural produce to apparel and consumer electronics."
+      ],
+      "excerpt": "The United States-Israel war on Iran has inflicted the greatest disruption to merchant shipping since the back-to-back shocks of the COVID-19 pandemic and Russia’s invasion of Ukraine. Since the start of the war in late February, shipping lines have faced attacks on their vessels, lengthy delays and steep rises in operating costs. Recommended Stories list of 4 items end of list Yet even after more than four months of turmoil for the industry, the most enduring legacy of the war for shipping may end up being just how little it ultimately changes. While shipping firms are expected to more explicitly factor risk into their expenses and diversify supply chains where possible in the future, the indispensable nature of seaborne trade means the industry is likely to continue much as before over the long term, analysts say. That is likely to be especially the case for the container shipping industry, which, unlike the operators of the oil and gas tankers whose dislocation has roiled energy markets, is not heavily reliant on the Strait of Hormuz to transport its cargoes, which range from agricultural produce to apparel and consumer electronics. While there is no alternative to the strait to",
+      "keywords": [
+        {
+          "name": "shipping",
+          "value": 22
+        },
+        {
+          "name": "maritime",
+          "value": 9
+        },
+        {
+          "name": "trade",
+          "value": 8
+        },
+        {
+          "name": "container",
+          "value": 7
+        },
+        {
+          "name": "industry",
           "value": 6
         },
         {
-          "name": "china",
-          "value": 4
+          "name": "transport",
+          "value": 6
         },
         {
-          "name": "reported",
-          "value": 4
+          "name": "cargo",
+          "value": 5
         },
         {
-          "name": "rescue",
-          "value": 4
+          "name": "conflict",
+          "value": 5
         },
         {
-          "name": "areas",
-          "value": 3
+          "name": "international",
+          "value": 5
         },
         {
-          "name": "cctv",
-          "value": 3
-        },
-        {
-          "name": "injured",
-          "value": 3
-        },
-        {
-          "name": "least",
-          "value": 3
-        },
-        {
-          "name": "media",
-          "value": 3
-        },
-        {
-          "name": "severe",
-          "value": 3
+          "name": "since",
+          "value": 5
         }
       ],
       "signals": [
         "Energy and Supply Chains",
-        "Humanitarian Pressure"
+        "Territory and Chokepoints",
+        "War and Escalation"
       ],
       "regions": [
-        "Indo-Pacific"
+        "Americas",
+        "Middle East",
+        "Europe and Russia"
       ],
-      "detail_path": "/evidence/c4603a44f3829c32f7d44d097a10aad0de62d2576067ab36ec48ca763ce54476",
-      "evidence_json": "/evidence/c4603a44f3829c32f7d44d097a10aad0de62d2576067ab36ec48ca763ce54476.json"
+      "detail_path": "/evidence/d5bacdf7dae84afba6aebebfbd5102da3f3ff86ea7937b7238e3bd04c858745c",
+      "evidence_json": "/evidence/d5bacdf7dae84afba6aebebfbd5102da3f3ff86ea7937b7238e3bd04c858745c.json"
     },
     {
-      "id": "6e865628a46f91d5b99eb9075dc36fde4bf0fa48cea48caa89aef17fe9af6ba0",
+      "id": "54a2e58c133f4f40ade021a629328e1df99f7102d1afad09ffedb12061458c88",
       "topic": "geopolitics",
-      "title": "Nato braces for difficult summit as Trump puts pressure on spending",
-      "url": "https://www.theguardian.com/world/2026/jul/07/nato-braces-for-difficult-summit-as-trump-puts-pressure-on-spending",
-      "host": "theguardian.com",
-      "source": "https://www.theguardian.com/world/rss",
+      "title": "Gathering Clouds: Building Digital Strategic Depth in the Compute Age",
+      "url": "https://warontherocks.com/cogs-of-war/gathering-clouds-building-digital-strategic-depth-in-the-compute-age/",
+      "host": "warontherocks.com",
+      "source": "https://warontherocks.com/feed/",
       "data_type": "rss_feed_content",
       "format": "Article",
       "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-07-07T07:32:05.044233+00:00",
-      "published": "Tue, 07 Jul 2026 04:00:31 GMT",
-      "text_chars": 6506,
-      "raw_path": "data/geopolitics/raw/6e865628a46f91d5b99eb9075dc36fde4bf0fa48cea48caa89aef17fe9af6ba0.html",
-      "text_path": "data/geopolitics/raw/6e865628a46f91d5b99eb9075dc36fde4bf0fa48cea48caa89aef17fe9af6ba0.txt",
-      "summary": "The two-day summit in the Turkish capital is expected to agree that allies will commit a largely symbolic €70bn (£60bn) in military aid to Ukraine this year and next, though this largely reflects commitments already made to a country that has no pathway to joining Nato. He failed to consult European leaders before the US and Israel launched their economically disastrous attack on Iran, and then complained when they did not allow US jets to bomb Iran from their territory.",
+      "collected_at": "2026-07-07T10:49:08.202771+00:00",
+      "published": "Tue, 07 Jul 2026 08:00:42 +0000",
+      "text_chars": 15909,
+      "raw_path": "data/geopolitics/raw/54a2e58c133f4f40ade021a629328e1df99f7102d1afad09ffedb12061458c88.html",
+      "text_path": "data/geopolitics/raw/54a2e58c133f4f40ade021a629328e1df99f7102d1afad09ffedb12061458c88.txt",
+      "summary": "The wars in Ukraine and the Middle East have exposed a strategic reality that military planners are only beginning to confront: In a data-centric age, digital infrastructure has become part of the battlespace. Sign Up for Our Newsletter Defining Strategic Depth The convergence of digital technology and state power creates a new center of gravity — not just the physical military platforms proliferating on the battlefield, but the data and compute that enable them.",
       "bullets": [
-        "The two-day summit in the Turkish capital is expected to agree that allies will commit a largely symbolic €70bn (£60bn) in military aid to Ukraine this year and next, though this largely reflects commitments already made to a country that has no pathway to joining Nato.",
-        "He failed to consult European leaders before the US and Israel launched their economically disastrous attack on Iran, and then complained when they did not allow US jets to bomb Iran from their territory.",
-        "Nato leaders will gather in Ankara on Tuesday after a turbulent six months, hoping – in the case of the other 31 members of the alliance – to mollify an unpredictable Donald Trump, as Washington continues to pressure its allies to increase defence spending.",
-        "Nato members will unveil tens of billions in new arms contracts at an industry forum on the sidelines of the summit, as they attempt to show Trump that they are delivering on defence spending pledges.",
-        "Photograph: Yuri Gripas/UPI/Shutterstock On Friday, Trump posted a graphic on his Truth Social platform showing Nato members’ defence budgets, comparing a vast US spend of $999m (£747m) with smaller figures from European states including the UK and France."
+        "The wars in Ukraine and the Middle East have exposed a strategic reality that military planners are only beginning to confront: In a data-centric age, digital infrastructure has become part of the battlespace.",
+        "Sign Up for Our Newsletter Defining Strategic Depth The convergence of digital technology and state power creates a new center of gravity — not just the physical military platforms proliferating on the battlefield, but the data and compute that enable them.",
+        "Digital strategic depth is the ability of a state to sustain, regenerate, and project competitive military, governmental, and economic power despite disruption to its digital infrastructure.",
+        "Commercial hyperscale cloud and its strategic benefits are not exclusive to my employer but are a unique capability that exists within the United States and its partners.",
+        "Alex Rough detailed the physical vulnerability of data infrastructure in these pages in 2025 and correctly observed the increasing strategic centrality of that same infrastructure."
       ],
-      "excerpt": "Nato leaders will gather in Ankara on Tuesday after a turbulent six months, hoping – in the case of the other 31 members of the alliance – to mollify an unpredictable Donald Trump, as Washington continues to pressure its allies to increase defence spending. On Monday, Mark Rutte, Nato’s secretary general, called for the allies to present “clear, concrete and credible plans” to reach the organisation’s spending targets. “President Trump fully expects that all allies will step up immediately and get on the path to 5% and do it with urgency,” he said. Nato members will unveil tens of billions in new arms contracts at an industry forum on the sidelines of the summit, as they attempt to show Trump that they are delivering on defence spending pledges. The two-day summit in the Turkish capital is expected to agree that allies will commit a largely symbolic €70bn (£60bn) in military aid to Ukraine this year and next, though this largely reflects commitments already made to a country that has no pathway to joining Nato. The venue for the Nato summit in Ankara, Turkey. Photograph: Yves Herman/Reuters It is not a deal to command Trump’s attention in the same way as last year’s headline agreem",
+      "excerpt": "The wars in Ukraine and the Middle East have exposed a strategic reality that military planners are only beginning to confront: In a data-centric age, digital infrastructure has become part of the battlespace. Data centers and cloud regions are now the digital backbone of military power and economic prosperity. As such, they present attractive targets for rapidly proliferating long-range strike systems, drones, and cyber capabilities. As the protective value of physical distance erodes, strategic depth — once conceived in geographical terms — must now be measured in the resilience of data and compute. Alex Rough detailed the physical vulnerability of data infrastructure in these pages in 2025 and correctly observed the increasing strategic centrality of that same infrastructure. I agree that governments are increasingly reliant on commercial technology and must ensure access to it, but rather than focusing primarily on policies to harden and govern data centers, modern strategy demands a new way of thinking about critical technology — it should not simply mean transferring existing on-premises models onto cloud platforms. The risk is that governments mistake local control for real ",
       "keywords": [
         {
-          "name": "trump",
-          "value": 18
+          "name": "data",
+          "value": 46
         },
         {
-          "name": "nato",
+          "name": "strategic",
+          "value": 22
+        },
+        {
+          "name": "infrastructure",
+          "value": 21
+        },
+        {
+          "name": "depth",
+          "value": 17
+        },
+        {
+          "name": "digital",
           "value": 16
         },
         {
-          "name": "summit",
+          "name": "cloud",
+          "value": 15
+        },
+        {
+          "name": "ability",
+          "value": 11
+        },
+        {
+          "name": "compute",
+          "value": 11
+        },
+        {
+          "name": "governments",
           "value": 10
         },
         {
-          "name": "defence",
-          "value": 9
-        },
-        {
-          "name": "spending",
-          "value": 8
-        },
-        {
-          "name": "allies",
-          "value": 6
-        },
-        {
-          "name": "last",
-          "value": 6
-        },
-        {
-          "name": "members",
-          "value": 6
-        },
-        {
-          "name": "rutte",
-          "value": 6
-        },
-        {
-          "name": "europe",
-          "value": 5
+          "name": "sovereign",
+          "value": 10
         }
       ],
       "signals": [
         "War and Escalation",
         "Diplomacy and Negotiations",
         "Humanitarian Pressure",
-        "Territory and Chokepoints"
+        "Nuclear and Strategic Risk"
       ],
       "regions": [
-        "Americas",
         "Europe and Russia",
-        "Middle East"
+        "Americas",
+        "Indo-Pacific"
       ],
-      "detail_path": "/evidence/6e865628a46f91d5b99eb9075dc36fde4bf0fa48cea48caa89aef17fe9af6ba0",
-      "evidence_json": "/evidence/6e865628a46f91d5b99eb9075dc36fde4bf0fa48cea48caa89aef17fe9af6ba0.json"
+      "detail_path": "/evidence/54a2e58c133f4f40ade021a629328e1df99f7102d1afad09ffedb12061458c88",
+      "evidence_json": "/evidence/54a2e58c133f4f40ade021a629328e1df99f7102d1afad09ffedb12061458c88.json"
     }
   ]
 }
