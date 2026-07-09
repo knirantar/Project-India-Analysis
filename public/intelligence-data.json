@@ -1,67 +1,84 @@
 {
-  "generated_at": "2026-07-09T20:45:12.811650+00:00",
+  "generated_at": "2026-07-09T22:17:29.256411+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating US-Iran tensions threaten regional stability as military actions intensify.",
+    "headline": "Escalating US-Iran tensions threaten regional stability and global energy markets.",
     "executive_summary": [
-      "The ongoing conflict between the United States and Iran has escalated significantly, with the US conducting extensive airstrikes targeting Iranian military infrastructure in response to Iranian attacks on commercial shipping in the Strait of Hormuz. Reports indicate that the US military struck approximately 170 targets over two nights, resulting in at least 14 fatalities in Iran, as confirmed by Iranian health authorities (evidence id: 25).",
-      "Iran has retaliated by targeting US military bases in Bahrain, Kuwait, and Qatar, further complicating the fragile ceasefire established by a memorandum of understanding (MoU) signed in June. The Iranian military's actions have raised concerns about the potential for a broader conflict, as both sides have vowed to escalate their responses to provocations (evidence id: 23).",
-      "The geopolitical implications of this conflict extend beyond military engagements, affecting global energy markets and regional security dynamics. The Strait of Hormuz, a critical chokepoint for oil transportation, has seen a significant reduction in shipping activity due to heightened risks, leading to fluctuations in oil prices (evidence id: 17).",
-      "International responses have varied, with calls for diplomacy emerging from regional actors like Qatar, while other nations, including France, have placed blame on Iran for violating the truce and provoking US strikes. The situation remains fluid, with the potential for further military actions and diplomatic negotiations (evidence id: 27)."
+      "Recent military exchanges between the US and Iran have intensified, with the US conducting airstrikes on Iranian targets in response to attacks on commercial shipping in the Strait of Hormuz. This escalation follows President Trump's declaration that the ceasefire agreement with Iran is effectively 'over', raising concerns about the potential for a broader conflict in the region. The US military has reported striking over 170 targets in Iran, aiming to degrade its capacity to threaten maritime navigation, while Iran has retaliated by targeting US bases in the Gulf.",
+      "The situation in the Strait of Hormuz, a critical chokepoint for global oil supplies, has become increasingly precarious. The International Maritime Organization has condemned Iran's actions and called for the protection of vital shipping lanes, highlighting the significant impact on energy markets and global economic stability. Brent crude prices have already seen fluctuations due to the renewed hostilities, reflecting the market's sensitivity to developments in the region.",
+      "Humanitarian conditions in the region are deteriorating as military actions continue. Reports indicate that at least 14 people have been killed in the latest exchanges, with many more injured. The ongoing conflict has exacerbated humanitarian needs, particularly in areas like Gaza, where access to essential services is severely limited. The UN has called for increased support to address the humanitarian crisis, which is compounded by the violence and instability.",
+      "Diplomatic efforts to de-escalate tensions appear to be faltering, with both sides entrenched in their positions. The US has emphasized its commitment to protecting freedom of navigation, while Iran insists on its right to manage the Strait of Hormuz. The potential for further military escalation remains high, with both nations threatening to intensify their responses if provocations continue."
     ],
     "key_judgments": [
       {
-        "title": "Intensified Military Engagements",
-        "finding": "The US has significantly increased military operations against Iran, targeting key military infrastructure in response to Iranian provocations.",
+        "title": "US-Iran military exchanges escalate significantly.",
+        "finding": "The US has conducted extensive airstrikes on Iranian targets, marking the most intense military engagement since the ceasefire agreement.",
         "citations": [
-          "25",
-          "23"
+          "22",
+          "28"
         ]
       },
       {
-        "title": "Threat to Regional Stability",
-        "finding": "The ongoing military exchanges between the US and Iran threaten to destabilize the region, particularly affecting shipping routes in the Strait of Hormuz.",
+        "title": "Strait of Hormuz remains a critical flashpoint.",
+        "finding": "The ongoing conflict threatens the security of maritime navigation in the Strait of Hormuz, a vital route for global oil supplies.",
         "citations": [
-          "17",
-          "19"
+          "20",
+          "22"
         ]
       },
       {
-        "title": "Diplomatic Efforts Under Strain",
-        "finding": "The fragile ceasefire established by the MoU is under severe strain, with both sides engaging in retaliatory actions that undermine diplomatic efforts.",
+        "title": "Humanitarian crisis exacerbated by conflict.",
+        "finding": "The violence has led to significant civilian casualties and worsened humanitarian conditions in affected regions.",
         "citations": [
-          "23",
+          "19",
           "27"
+        ]
+      },
+      {
+        "title": "Diplomatic efforts to resolve tensions are failing.",
+        "finding": "Both the US and Iran are entrenched in their positions, complicating potential diplomatic resolutions.",
+        "citations": [
+          "11",
+          "26"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The Middle East is experiencing heightened tensions due to the US-Iran conflict, with significant implications for regional security and energy supply chains.",
+        "assessment": "The Middle East is experiencing heightened tensions due to the escalating conflict between the US and Iran, with significant implications for regional stability and humanitarian conditions.",
         "citations": [
-          "17",
-          "19"
+          "11",
+          "20",
+          "22"
         ]
       }
     ],
     "watchlist": [
       {
         "label": "Strait of Hormuz",
-        "why_it_matters": "The Strait of Hormuz is a vital shipping lane for global oil transport, and ongoing military actions threaten its accessibility and security.",
+        "why_it_matters": "The Strait of Hormuz is a critical chokepoint for global oil transportation, and any disruption could have severe economic repercussions worldwide.",
         "citations": [
-          "17",
-          "19"
+          "20",
+          "22"
         ]
       },
       {
-        "label": "Iranian Military Capabilities",
-        "why_it_matters": "Iran's military responses to US actions indicate a potential escalation in hostilities, which could lead to broader regional conflict.",
+        "label": "US-Iran ceasefire agreement",
+        "why_it.matters": "The breakdown of the ceasefire agreement raises the risk of a broader military conflict in the region, impacting global security.",
         "citations": [
-          "23",
-          "25"
+          "11",
+          "28"
+        ]
+      },
+      {
+        "label": "Humanitarian conditions in Gaza",
+        "why_it.matters": "The ongoing conflict has led to a humanitarian crisis in Gaza, necessitating urgent international attention and assistance.",
+        "citations": [
+          "19",
+          "27"
         ]
       }
     ],
@@ -70,19 +87,19 @@
     ]
   },
   "summary": {
-    "raw_documents": 1814,
-    "total_text_chars": 277411043,
+    "raw_documents": 1818,
+    "total_text_chars": 277429535,
     "sources": 34,
     "signals": 8,
     "regions": 6,
-    "visual_items": 158,
+    "visual_items": 159,
     "pdf_items": 171,
     "renderable_files": 164
   },
   "format_counts": [
     {
       "name": "Article",
-      "value": 1339
+      "value": 1342
     },
     {
       "name": "PDF",
@@ -90,7 +107,7 @@
     },
     {
       "name": "Image",
-      "value": 164
+      "value": 165
     },
     {
       "name": "Sanctions",
@@ -116,7 +133,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 1286
+      "value": 1289
     },
     {
       "name": "pdfs",
@@ -124,7 +141,7 @@
     },
     {
       "name": "images",
-      "value": 160
+      "value": 161
     },
     {
       "name": "sanctions_designations",
@@ -170,7 +187,7 @@
     },
     {
       "name": "theguardian.com",
-      "value": 313
+      "value": 314
     },
     {
       "name": "aljazeera.com",
@@ -178,7 +195,7 @@
     },
     {
       "name": "global.unitednations.entermediadb.net",
-      "value": 152
+      "value": 153
     },
     {
       "name": "defensenews.com",
@@ -186,7 +203,7 @@
     },
     {
       "name": "foreignpolicy.com",
-      "value": 90
+      "value": 91
     },
     {
       "name": "warontherocks.com",
@@ -194,7 +211,7 @@
     },
     {
       "name": "news.un.org",
-      "value": 81
+      "value": 82
     },
     {
       "name": "npr.org",
@@ -280,7 +297,7 @@
   "keyword_counts": [
     {
       "name": "iran",
-      "value": 6401
+      "value": 6413
     },
     {
       "name": "health",
@@ -316,7 +333,7 @@
     },
     {
       "name": "gaza",
-      "value": 2515
+      "value": 2519
     },
     {
       "name": "israeli",
@@ -344,7 +361,7 @@
     },
     {
       "name": "support",
-      "value": 1793
+      "value": 1796
     },
     {
       "name": "nato",
@@ -352,7 +369,7 @@
     },
     {
       "name": "military",
-      "value": 1775
+      "value": 1781
     },
     {
       "name": "myanmar",
@@ -376,7 +393,7 @@
     },
     {
       "name": "access",
-      "value": 1504
+      "value": 1507
     },
     {
       "name": "million",
@@ -420,7 +437,7 @@
     },
     {
       "name": "nuclear",
-      "value": 1056
+      "value": 1064
     },
     {
       "name": "households",
@@ -462,11 +479,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 1243,
+      "count": 1245,
       "formats": [
         {
           "name": "Article",
-          "value": 1048
+          "value": 1050
         },
         {
           "name": "PDF",
@@ -486,6 +503,8 @@
         }
       ],
       "evidence_ids": [
+        "aaa7dc75162229666d430fc7593645eafa2e4fe79e9cc9ffe44bb38a589b9773",
+        "3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420",
         "dc96012f52f88df18be3f54abd8348d490ee0dcda6b5e2ab987f4b9789d55e66",
         "24dd796f59f6c7f3623c3e424a46f26c98e1b6c98680276ef433d3ac97ea83c2",
         "a1790e4ff7f369f70af1641fbaf3cfcfa0dd0bfd6d2f4ed11c354a2d34edad09",
@@ -493,12 +512,30 @@
         "45c3c72d31f4d981f7d06dc33b01d8d205c61c2005deef6a0ac4d3703b88415b",
         "471510ad83f5110b73c5fb8e709b5894fffab6a28ab3194415c9340e92c80736",
         "0ec7e35ffc11b00f661eb6fd7bde32f5f2c8bd12b04c569c2b3fcec1fc244a75",
-        "75cdc5593887bbe4a0c9ec6364a89a55aec4b2e8dfb221119c4be991ab90a66c",
-        "a91bdf28e414e1d21a73dd2b7e26f601ce1a295c40c78e79924c9e6b3b66cbd7",
-        "78c662dbe42ac2369b6a0da40e47987d72b04246ef8abf096f5c4223183862a6"
+        "75cdc5593887bbe4a0c9ec6364a89a55aec4b2e8dfb221119c4be991ab90a66c"
       ],
-      "summary": "Before the NATO summit, the US had called on European allies to help it secure the strait. War on Iran overshadows defence alliance’s summit in Turkiye. The leaders of NATO member states met in Ankara, ostensibly to discuss increasing defence investment and long-term military support for Ukraine. On the flight back from Ankara, where Nato leaders had gathered for two days, the British prime minister said he and others had received a revolver engraved with their names. “An unusual gift from president Erdoğan at the Nato summit: a Magnum revolver with ammunition, engraved with my name,” the Hungarian prime minister, Péter Magyar, said on X. VIENNA — The United Kingdom unveiled a $50 billion, decade-long push to accelerate European deep precision strike capabilities during the NATO summit on Wednesday, positioning London at the head of a coalition of twelve NATO allies. The British contribution to the sum is £3 billion ($4 billion), according to a press release by the prime minister’s office, which was split across a bilateral project with Germany and trilateral work with Italy and France on the Stratus missile. Germany will purchase Tomahawk cruise missiles from the United States and station them on German soil, Chancellor Friedrich Merz said on Thursday, in a shift from planned U.S. government on the sidelines of a NATO summit in Ankara, adding that the meetings on Tuesday and Wednesday had exceeded his expectations. “We are closing a critical strategic gap in our defence, while simultaneously working to develop our own European systems and station them in Europe,” he said.",
+      "summary": "Photograph: Dan Himbrechts/AAP Share Updated at 18.17 EDT Key events Wong says world really wants ceasefire to hold Wong said she believes the ceasefire deal in the Middle East is “certainly fraying around the edges” amid strikes between the US and Iran. The foreign affairs minister said: double quotation mark The world really is looking to this ceasefire to hold, to firm up. military said on Thursday, “including air defense systems, coastal surveillance assets, missile and drone storage sites, naval capabilities, and military logistics infrastructure along Iran’s coastline” as well as small boats belonging to the Islamic Revolutionary Guard Corps. According to video footage verified by the New York Times on Thursday as well as statements from Iranian officials, a railway bridge near the city of Agh Qala, more than 700 miles from the Strait of Hormuz, was also hit. Before the NATO summit, the US had called on European allies to help it secure the strait. War on Iran overshadows defence alliance’s summit in Turkiye. The leaders of NATO member states met in Ankara, ostensibly to discuss increasing defence investment and long-term military support for Ukraine. On the flight back from Ankara, where Nato leaders had gathered for two days, the British prime minister said he and others had received a revolver engraved with their names. “An unusual gift from president Erdoğan at the Nato summit: a Magnum revolver with ammunition, engraved with my name,” the Hungarian prime minister, Péter Magyar, said on X.",
       "latest": [
+        {
+          "id": "aaa7dc75162229666d430fc7593645eafa2e4fe79e9cc9ffe44bb38a589b9773",
+          "title": "Australia news live: Hanson defends UK ‘fact-finding’ trip; Qantas tops airline punctuality table",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/10/australia-news-live-pauline-hanson-one-nation-modi-anthony-albanese-royal-commission-antisemitism-ntwnfb",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-07-09T22:17:55.225911+00:00",
+          "published": "Thu, 09 Jul 2026 22:06:14 GMT",
+          "summary": "Photograph: Dan Himbrechts/AAP Share Updated at 18.17 EDT Key events Wong says world really wants ceasefire to hold Wong said she believes the ceasefire deal in the Middle East is “certainly fraying around the edges” amid strikes between the US and Iran. The foreign affairs minister said: double quotation mark The world really is looking to this ceasefire to hold, to firm up."
+        },
+        {
+          "id": "3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420",
+          "title": "U.S., Iran Return to the Brink of All-Out War",
+          "url": "https://foreignpolicy.com/2026/07/09/us-iran-war-strikes-intensify-cease-fire-over-trump-strait-hormuz/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-07-09T22:17:41.841710+00:00",
+          "published": "Thu, 09 Jul 2026 21:10:18 +0000",
+          "summary": "military said on Thursday, “including air defense systems, coastal surveillance assets, missile and drone storage sites, naval capabilities, and military logistics infrastructure along Iran’s coastline” as well as small boats belonging to the Islamic Revolutionary Guard Corps. According to video footage verified by the New York Times on Thursday as well as statements from Iranian officials, a railway bridge near the city of Agh Qala, more than 700 miles from the Strait of Hormuz, was also hit."
+        },
         {
           "id": "dc96012f52f88df18be3f54abd8348d490ee0dcda6b5e2ab987f4b9789d55e66",
           "title": "Will NATO get involved in securing Strait of Hormuz?",
@@ -528,36 +565,16 @@
           "collected_at": "2026-07-09T16:26:16.618910+00:00",
           "published": "Thu, 09 Jul 2026 14:33:09 +0000",
           "summary": "VIENNA — The United Kingdom unveiled a $50 billion, decade-long push to accelerate European deep precision strike capabilities during the NATO summit on Wednesday, positioning London at the head of a coalition of twelve NATO allies. The British contribution to the sum is £3 billion ($4 billion), according to a press release by the prime minister’s office, which was split across a bilateral project with Germany and trilateral work with Italy and France on the Stratus missile."
-        },
-        {
-          "id": "cd6a18a779cbc43fc00c3e4c26d03a6d44c6e9ef0a03adf48270db4b962d6f52",
-          "title": "Germany to buy US Tomahawks in shift toward own long-range capability",
-          "url": "https://www.defensenews.com/global/europe/2026/07/09/germany-to-buy-us-tomahawks-in-shift-toward-own-long-range-capability/",
-          "host": "defensenews.com",
-          "format": "Article",
-          "collected_at": "2026-07-09T13:47:04.682449+00:00",
-          "published": "Thu, 09 Jul 2026 13:36:46 +0000",
-          "summary": "Germany will purchase Tomahawk cruise missiles from the United States and station them on German soil, Chancellor Friedrich Merz said on Thursday, in a shift from planned U.S. government on the sidelines of a NATO summit in Ankara, adding that the meetings on Tuesday and Wednesday had exceeded his expectations. “We are closing a critical strategic gap in our defence, while simultaneously working to develop our own European systems and station them in Europe,” he said."
-        },
-        {
-          "id": "45c3c72d31f4d981f7d06dc33b01d8d205c61c2005deef6a0ac4d3703b88415b",
-          "title": "Trump targets Spain, NATO backs Ukraine: Is the alliance still united?",
-          "url": "https://www.aljazeera.com/news/2026/7/9/trump-targets-spain-nato-backs-ukraine-is-the-alliance-still-united?traffic_source=rss",
-          "host": "aljazeera.com",
-          "format": "Article",
-          "collected_at": "2026-07-09T13:46:58.999143+00:00",
-          "published": "Thu, 09 Jul 2026 13:02:47 +0000",
-          "summary": "Leaders agree to increase defence spending, Ukraine aid In their summit declaration, NATO leaders reaffirmed their “ironclad commitment” to the mutual assistance clause enshrined in Article 5 of the alliance treaty. But Trump has repeatedly questioned the worth of the alliance, accused NATO members of “not being there” for the US when it needed them — such as during the war on Iran this year — and left open the possibility that Washington might not come to the defence of allies if they come under attack."
         }
       ]
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 1088,
+      "count": 1090,
       "formats": [
         {
           "name": "Article",
-          "value": 926
+          "value": 928
         },
         {
           "name": "PDF",
@@ -577,6 +594,8 @@
         }
       ],
       "evidence_ids": [
+        "aaa7dc75162229666d430fc7593645eafa2e4fe79e9cc9ffe44bb38a589b9773",
+        "3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420",
         "24dd796f59f6c7f3623c3e424a46f26c98e1b6c98680276ef433d3ac97ea83c2",
         "a1790e4ff7f369f70af1641fbaf3cfcfa0dd0bfd6d2f4ed11c354a2d34edad09",
         "cd6a18a779cbc43fc00c3e4c26d03a6d44c6e9ef0a03adf48270db4b962d6f52",
@@ -584,12 +603,30 @@
         "0ec7e35ffc11b00f661eb6fd7bde32f5f2c8bd12b04c569c2b3fcec1fc244a75",
         "75cdc5593887bbe4a0c9ec6364a89a55aec4b2e8dfb221119c4be991ab90a66c",
         "78c662dbe42ac2369b6a0da40e47987d72b04246ef8abf096f5c4223183862a6",
-        "1bdfe5b7f5338fcbaa5d8d8e94e89ed7f5d80b2a342584b5f08c9bd4b7200621",
-        "3ce95ae7da37f7e5333e68364d86b0fe12778803e357f6af4b7baf6737e93852",
-        "0b10765634e446e41b30f7f23f5526b8c2b74f915327f3f27697034b9a9f43fb"
+        "1bdfe5b7f5338fcbaa5d8d8e94e89ed7f5d80b2a342584b5f08c9bd4b7200621"
       ],
-      "summary": "On the flight back from Ankara, where Nato leaders had gathered for two days, the British prime minister said he and others had received a revolver engraved with their names. “An unusual gift from president Erdoğan at the Nato summit: a Magnum revolver with ammunition, engraved with my name,” the Hungarian prime minister, Péter Magyar, said on X. VIENNA — The United Kingdom unveiled a $50 billion, decade-long push to accelerate European deep precision strike capabilities during the NATO summit on Wednesday, positioning London at the head of a coalition of twelve NATO allies. The British contribution to the sum is £3 billion ($4 billion), according to a press release by the prime minister’s office, which was split across a bilateral project with Germany and trilateral work with Italy and France on the Stratus missile. Germany will purchase Tomahawk cruise missiles from the United States and station them on German soil, Chancellor Friedrich Merz said on Thursday, in a shift from planned U.S. government on the sidelines of a NATO summit in Ankara, adding that the meetings on Tuesday and Wednesday had exceeded his expectations. “We are closing a critical strategic gap in our defence, while simultaneously working to develop our own European systems and station them in Europe,” he said. Leaders agree to increase defence spending, Ukraine aid In their summit declaration, NATO leaders reaffirmed their “ironclad commitment” to the mutual assistance clause enshrined in Article 5 of the alliance treaty. But Trump has repeatedly questioned the worth of the alliance, accused NATO members of “not being there” for the US when it needed them — such as during the war on Iran this year — and left open the possibility that Washington might not come to the defence of allies if they come under attack.",
+      "summary": "Photograph: Dan Himbrechts/AAP Share Updated at 18.17 EDT Key events Wong says world really wants ceasefire to hold Wong said she believes the ceasefire deal in the Middle East is “certainly fraying around the edges” amid strikes between the US and Iran. The foreign affairs minister said: double quotation mark The world really is looking to this ceasefire to hold, to firm up. military said on Thursday, “including air defense systems, coastal surveillance assets, missile and drone storage sites, naval capabilities, and military logistics infrastructure along Iran’s coastline” as well as small boats belonging to the Islamic Revolutionary Guard Corps. According to video footage verified by the New York Times on Thursday as well as statements from Iranian officials, a railway bridge near the city of Agh Qala, more than 700 miles from the Strait of Hormuz, was also hit. On the flight back from Ankara, where Nato leaders had gathered for two days, the British prime minister said he and others had received a revolver engraved with their names. “An unusual gift from president Erdoğan at the Nato summit: a Magnum revolver with ammunition, engraved with my name,” the Hungarian prime minister, Péter Magyar, said on X. VIENNA — The United Kingdom unveiled a $50 billion, decade-long push to accelerate European deep precision strike capabilities during the NATO summit on Wednesday, positioning London at the head of a coalition of twelve NATO allies. The British contribution to the sum is £3 billion ($4 billion), according to a press release by the prime minister’s office, which was split across a bilateral project with Germany and trilateral work with Italy and France on the Stratus missile.",
       "latest": [
+        {
+          "id": "aaa7dc75162229666d430fc7593645eafa2e4fe79e9cc9ffe44bb38a589b9773",
+          "title": "Australia news live: Hanson defends UK ‘fact-finding’ trip; Qantas tops airline punctuality table",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/10/australia-news-live-pauline-hanson-one-nation-modi-anthony-albanese-royal-commission-antisemitism-ntwnfb",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-07-09T22:17:55.225911+00:00",
+          "published": "Thu, 09 Jul 2026 22:06:14 GMT",
+          "summary": "Photograph: Dan Himbrechts/AAP Share Updated at 18.17 EDT Key events Wong says world really wants ceasefire to hold Wong said she believes the ceasefire deal in the Middle East is “certainly fraying around the edges” amid strikes between the US and Iran. The foreign affairs minister said: double quotation mark The world really is looking to this ceasefire to hold, to firm up."
+        },
+        {
+          "id": "3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420",
+          "title": "U.S., Iran Return to the Brink of All-Out War",
+          "url": "https://foreignpolicy.com/2026/07/09/us-iran-war-strikes-intensify-cease-fire-over-trump-strait-hormuz/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-07-09T22:17:41.841710+00:00",
+          "published": "Thu, 09 Jul 2026 21:10:18 +0000",
+          "summary": "military said on Thursday, “including air defense systems, coastal surveillance assets, missile and drone storage sites, naval capabilities, and military logistics infrastructure along Iran’s coastline” as well as small boats belonging to the Islamic Revolutionary Guard Corps. According to video footage verified by the New York Times on Thursday as well as statements from Iranian officials, a railway bridge near the city of Agh Qala, more than 700 miles from the Strait of Hormuz, was also hit."
+        },
         {
           "id": "24dd796f59f6c7f3623c3e424a46f26c98e1b6c98680276ef433d3ac97ea83c2",
           "title": "Nato leaders surprised by Turkish president’s gift of guns after summit",
@@ -619,36 +656,16 @@
           "collected_at": "2026-07-09T13:47:04.682449+00:00",
           "published": "Thu, 09 Jul 2026 13:36:46 +0000",
           "summary": "Germany will purchase Tomahawk cruise missiles from the United States and station them on German soil, Chancellor Friedrich Merz said on Thursday, in a shift from planned U.S. government on the sidelines of a NATO summit in Ankara, adding that the meetings on Tuesday and Wednesday had exceeded his expectations. “We are closing a critical strategic gap in our defence, while simultaneously working to develop our own European systems and station them in Europe,” he said."
-        },
-        {
-          "id": "45c3c72d31f4d981f7d06dc33b01d8d205c61c2005deef6a0ac4d3703b88415b",
-          "title": "Trump targets Spain, NATO backs Ukraine: Is the alliance still united?",
-          "url": "https://www.aljazeera.com/news/2026/7/9/trump-targets-spain-nato-backs-ukraine-is-the-alliance-still-united?traffic_source=rss",
-          "host": "aljazeera.com",
-          "format": "Article",
-          "collected_at": "2026-07-09T13:46:58.999143+00:00",
-          "published": "Thu, 09 Jul 2026 13:02:47 +0000",
-          "summary": "Leaders agree to increase defence spending, Ukraine aid In their summit declaration, NATO leaders reaffirmed their “ironclad commitment” to the mutual assistance clause enshrined in Article 5 of the alliance treaty. But Trump has repeatedly questioned the worth of the alliance, accused NATO members of “not being there” for the US when it needed them — such as during the war on Iran this year — and left open the possibility that Washington might not come to the defence of allies if they come under attack."
-        },
-        {
-          "id": "0ec7e35ffc11b00f661eb6fd7bde32f5f2c8bd12b04c569c2b3fcec1fc244a75",
-          "title": "First Thing: Second day of US strikes on Iran as Trump says Tehran ‘behaving very badly’",
-          "url": "https://www.theguardian.com/us-news/2026/jul/09/first-thing-second-day-us-strikes-iran-trump-tehran",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-07-09T13:46:48.878986+00:00",
-          "published": "Thu, 09 Jul 2026 12:16:10 GMT",
-          "summary": "At the Nato summit in Ankara on Wednesday, the US president said: “Anything that happens is going to happen very fast” and that the latest strikes would not result in “long-term” military action. The US military carried out strikes on Iran for a second day, hours after Donald Trump said an interim agreement to end the war was “over”. On Tuesday, three cargo ships ⁠transiting the strait of Hormuz were attacked, leading to the most extensive exchange of fire between the two sides since the interim deal was signed last month."
         }
       ]
     },
     {
       "name": "Humanitarian Pressure",
-      "count": 743,
+      "count": 746,
       "formats": [
         {
           "name": "Article",
-          "value": 515
+          "value": 517
         },
         {
           "name": "PDF",
@@ -660,7 +677,7 @@
         },
         {
           "name": "Image",
-          "value": 20
+          "value": 21
         },
         {
           "name": "Video",
@@ -668,19 +685,49 @@
         }
       ],
       "evidence_ids": [
+        "3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420",
+        "22d9836eb498fa08985b3c60ae5187049157ace8547b06c37c3d350483505b8d",
+        "2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54",
         "a91bdf28e414e1d21a73dd2b7e26f601ce1a295c40c78e79924c9e6b3b66cbd7",
         "1bdfe5b7f5338fcbaa5d8d8e94e89ed7f5d80b2a342584b5f08c9bd4b7200621",
         "3ce95ae7da37f7e5333e68364d86b0fe12778803e357f6af4b7baf6737e93852",
         "9437357ff2165d9d03e9f33dcd91bc26e94517c38ea080bc7451eea648d17481",
         "0b10765634e446e41b30f7f23f5526b8c2b74f915327f3f27697034b9a9f43fb",
         "84ed7060d0e0bbf25435d26f7e626cd837a31483047bce699479996e2c114a65",
-        "6c09ee2e516cad4e3b9cb0ae766f950fdfd05a27b6031951f5fa981169e45ec7",
-        "fccdac9f2e4e2a6f9cef463d366cbc3b5b02045e8a8d5e1ef091068cc15f9a43",
-        "3735d576cab7eb33d7f692b38c19b1a9198173cd1ee954e777de6bd85d0c2f1e",
-        "4be0e5628ee06eab587c282927ca5107745eff90a5b7594879ec5be8b23be9e7"
+        "6c09ee2e516cad4e3b9cb0ae766f950fdfd05a27b6031951f5fa981169e45ec7"
       ],
-      "summary": "Binary images source collected for Global Geopolitics Monitor. Serhii, a 46-year-old Ukrainian army officer who ran a furniture store in civilian life, has survived four years of war against Russia. The Ukrainians, he said, are striking devastating blows against Russia’s energy infrastructure, vital logistics, and the factories that produce critical components for its high-tech weaponry. These days, he commands a battalion of 300 troops in Ukraine’s front-line city of Sloviansk. Annual performance report for 2025 Draft decision* The Board approves the annual performance report for 2025 (WFP/EB.A/2026/4 -A), noting that it provides a comprehensive account of WFP’s performance during the reporting period and of progress towards the objectives of the WFP strategic plan for 2022–2025 and the corporate results framework. 31 3.2 Performance by strategic outcome................................................................................... More than 1.4 million people lived in famine-like conditions across six WFP operations – Haiti, Mali, the State of Palestine (Gaza), South Sudan, the Sudan and Yemen. In 2025, hunger was driven by violent conflicts, natural disasters, and economic shocks, compounded by severe constraints on humanitarian access, which limited food availability for those most in need. Over the last three years, more than 1,000 humanitarian workers have been killed, including 334 in 2025 alone.",
+      "summary": "military said on Thursday, “including air defense systems, coastal surveillance assets, missile and drone storage sites, naval capabilities, and military logistics infrastructure along Iran’s coastline” as well as small boats belonging to the Islamic Revolutionary Guard Corps. According to video footage verified by the New York Times on Thursday as well as statements from Iranian officials, a railway bridge near the city of Agh Qala, more than 700 miles from the Strait of Hormuz, was also hit. The UN Humanitarian Coordinator for the Occupied Palestinian Territory (OPT), Ramiz Alakbarov, and his deputy, Suzanna Tkalec, led the online visit to the site in Al Mawasi, Khan Younis. “ Just like journalists, diplomatic missions have had difficulty getting into Gaza since October 2023,” UN Spokesperson Stéphane Dujarric said during his regular briefing from New York. Binary images source collected for Global Geopolitics Monitor. Binary images source collected for Global Geopolitics Monitor.",
       "latest": [
+        {
+          "id": "3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420",
+          "title": "U.S., Iran Return to the Brink of All-Out War",
+          "url": "https://foreignpolicy.com/2026/07/09/us-iran-war-strikes-intensify-cease-fire-over-trump-strait-hormuz/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-07-09T22:17:41.841710+00:00",
+          "published": "Thu, 09 Jul 2026 21:10:18 +0000",
+          "summary": "military said on Thursday, “including air defense systems, coastal surveillance assets, missile and drone storage sites, naval capabilities, and military logistics infrastructure along Iran’s coastline” as well as small boats belonging to the Islamic Revolutionary Guard Corps. According to video footage verified by the New York Times on Thursday as well as statements from Iranian officials, a railway bridge near the city of Agh Qala, more than 700 miles from the Strait of Hormuz, was also hit."
+        },
+        {
+          "id": "22d9836eb498fa08985b3c60ae5187049157ace8547b06c37c3d350483505b8d",
+          "title": "Diplomats go virtual to witness Gaza displacement site up close",
+          "url": "https://news.un.org/feed/view/en/story/2026/07/1167912",
+          "host": "news.un.org",
+          "format": "Article",
+          "collected_at": "2026-07-09T22:17:42.209399+00:00",
+          "published": "Thu, 09 Jul 2026 12:00:00 +0000",
+          "summary": "The UN Humanitarian Coordinator for the Occupied Palestinian Territory (OPT), Ramiz Alakbarov, and his deputy, Suzanna Tkalec, led the online visit to the site in Al Mawasi, Khan Younis. “ Just like journalists, diplomatic missions have had difficulty getting into Gaza since October 2023,” UN Spokesperson Stéphane Dujarric said during his regular briefing from New York."
+        },
+        {
+          "id": "2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54",
+          "title": "Diplomats go virtual to witness Gaza displacement site up close (image)",
+          "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/16-06-2025_UNDP_Gaza_Water_04.jpg/image560x340cropped.jpg",
+          "host": "global.unitednations.entermediadb.net",
+          "format": "Image",
+          "collected_at": "2026-07-09T22:17:53.646893+00:00",
+          "published": "Thu, 09 Jul 2026 12:00:00 +0000",
+          "summary": "Binary images source collected for Global Geopolitics Monitor."
+        },
         {
           "id": "a91bdf28e414e1d21a73dd2b7e26f601ce1a295c40c78e79924c9e6b3b66cbd7",
           "title": "Security Council LIVE: ‘Urgent de-escalation’ needed now in Ukraine amid spike in civilian deaths (image)",
@@ -700,46 +747,16 @@
           "collected_at": "2026-07-09T13:46:51.225830+00:00",
           "published": "Thu, 09 Jul 2026 10:52:24 +0000",
           "summary": "Serhii, a 46-year-old Ukrainian army officer who ran a furniture store in civilian life, has survived four years of war against Russia. The Ukrainians, he said, are striking devastating blows against Russia’s energy infrastructure, vital logistics, and the factories that produce critical components for its high-tech weaponry. These days, he commands a battalion of 300 troops in Ukraine’s front-line city of Sloviansk."
-        },
-        {
-          "id": "3ce95ae7da37f7e5333e68364d86b0fe12778803e357f6af4b7baf6737e93852",
-          "title": "World: UN WFP Annual Performance Report 2025 _ Delivering faster and smarter despite compounding crises (pdf)",
-          "url": "https://reliefweb.int/attachments/a830e714-0a04-4708-925a-bf20995b0542/WFP-Annual%20Performance%20Report%202025_English.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-07-09T10:54:03.885268+00:00",
-          "published": "Thu, 09 Jul 2026 10:10:32 +0000",
-          "summary": "Annual performance report for 2025 Draft decision* The Board approves the annual performance report for 2025 (WFP/EB.A/2026/4 -A), noting that it provides a comprehensive account of WFP’s performance during the reporting period and of progress towards the objectives of the WFP strategic plan for 2022–2025 and the corporate results framework. 31 3.2 Performance by strategic outcome..................................................................................."
-        },
-        {
-          "id": "9437357ff2165d9d03e9f33dcd91bc26e94517c38ea080bc7451eea648d17481",
-          "title": "World: UN WFP Annual Performance Report 2025 _ Delivering faster and smarter despite compounding crises",
-          "url": "https://reliefweb.int/report/world/un-wfp-annual-performance-report-2025-delivering-faster-and-smarter-despite-compounding-crises",
-          "host": "reliefweb.int",
-          "format": "Article",
-          "collected_at": "2026-07-09T10:53:59.102686+00:00",
-          "published": "Thu, 09 Jul 2026 10:10:32 +0000",
-          "summary": "More than 1.4 million people lived in famine-like conditions across six WFP operations – Haiti, Mali, the State of Palestine (Gaza), South Sudan, the Sudan and Yemen. In 2025, hunger was driven by violent conflicts, natural disasters, and economic shocks, compounded by severe constraints on humanitarian access, which limited food availability for those most in need. Over the last three years, more than 1,000 humanitarian workers have been killed, including 334 in 2025 alone."
-        },
-        {
-          "id": "0b10765634e446e41b30f7f23f5526b8c2b74f915327f3f27697034b9a9f43fb",
-          "title": "US, Iran launch more attacks as mediators urge both sides to uphold MoU",
-          "url": "https://www.aljazeera.com/news/2026/7/9/us-iran-launch-more-attacks-as-mediators-urge-warring-sides-to-uphold-mou?traffic_source=rss",
-          "host": "aljazeera.com",
-          "format": "Article",
-          "collected_at": "2026-07-09T10:54:09.658346+00:00",
-          "published": "Thu, 09 Jul 2026 09:04:50 +0000",
-          "summary": "If it happens again, it will get much worse!” The latest attacks come a day after the US said it hit more than 80 targets in Iran in response to Iranian attacks on commercial vessels in the Strait of Hormuz. Speaking to reporters on board Air Force One as he travelled back to the US after attending the NATO summit in Turkiye, Trump said the Iranian side had “called a little while ago” and that they wanted “to make a deal so badly”."
         }
       ]
     },
     {
       "name": "Territory and Chokepoints",
-      "count": 696,
+      "count": 697,
       "formats": [
         {
           "name": "Article",
-          "value": 564
+          "value": 565
         },
         {
           "name": "PDF",
@@ -762,15 +779,15 @@
         "dc96012f52f88df18be3f54abd8348d490ee0dcda6b5e2ab987f4b9789d55e66",
         "45c3c72d31f4d981f7d06dc33b01d8d205c61c2005deef6a0ac4d3703b88415b",
         "0ec7e35ffc11b00f661eb6fd7bde32f5f2c8bd12b04c569c2b3fcec1fc244a75",
+        "22d9836eb498fa08985b3c60ae5187049157ace8547b06c37c3d350483505b8d",
         "75cdc5593887bbe4a0c9ec6364a89a55aec4b2e8dfb221119c4be991ab90a66c",
         "78c662dbe42ac2369b6a0da40e47987d72b04246ef8abf096f5c4223183862a6",
         "0b10765634e446e41b30f7f23f5526b8c2b74f915327f3f27697034b9a9f43fb",
         "35725bd8bc725c37396aa720242f8de9234d46fa3b0b01869c40900d5edaeffe",
         "63c83b71b66e613ced16358a548f99e7c7d3ae16968540f3f5b00fb2cc51450e",
-        "6697895e00f6e55f023d564a42b126455e805a3c54ece85e5b9052537d70f924",
-        "9aa9bbd5dceef8db651329d7cca09484c5495e5bb8867be3b33fa6afc3dc96be"
+        "6697895e00f6e55f023d564a42b126455e805a3c54ece85e5b9052537d70f924"
       ],
-      "summary": "Before the NATO summit, the US had called on European allies to help it secure the strait. War on Iran overshadows defence alliance’s summit in Turkiye. The leaders of NATO member states met in Ankara, ostensibly to discuss increasing defence investment and long-term military support for Ukraine. Leaders agree to increase defence spending, Ukraine aid In their summit declaration, NATO leaders reaffirmed their “ironclad commitment” to the mutual assistance clause enshrined in Article 5 of the alliance treaty. But Trump has repeatedly questioned the worth of the alliance, accused NATO members of “not being there” for the US when it needed them — such as during the war on Iran this year — and left open the possibility that Washington might not come to the defence of allies if they come under attack. At the Nato summit in Ankara on Wednesday, the US president said: “Anything that happens is going to happen very fast” and that the latest strikes would not result in “long-term” military action. The US military carried out strikes on Iran for a second day, hours after Donald Trump said an interim agreement to end the war was “over”. On Tuesday, three cargo ships ⁠transiting the strait of Hormuz were attacked, leading to the most extensive exchange of fire between the two sides since the interim deal was signed last month. Other requirements listed in the memorandum’s text include the reopening of the Strait of Hormuz to all shipping and an easing of US and UN Security Council sanctions on the Middle East nation. Tuesday’s reported attacks in the Strait of Hormuz also caused a temporary spike in crude oil prices which recovered on Thursday to around $77 per barrel, still higher than pre-war levels.",
+      "summary": "Before the NATO summit, the US had called on European allies to help it secure the strait. War on Iran overshadows defence alliance’s summit in Turkiye. The leaders of NATO member states met in Ankara, ostensibly to discuss increasing defence investment and long-term military support for Ukraine. Leaders agree to increase defence spending, Ukraine aid In their summit declaration, NATO leaders reaffirmed their “ironclad commitment” to the mutual assistance clause enshrined in Article 5 of the alliance treaty. But Trump has repeatedly questioned the worth of the alliance, accused NATO members of “not being there” for the US when it needed them — such as during the war on Iran this year — and left open the possibility that Washington might not come to the defence of allies if they come under attack. At the Nato summit in Ankara on Wednesday, the US president said: “Anything that happens is going to happen very fast” and that the latest strikes would not result in “long-term” military action. The US military carried out strikes on Iran for a second day, hours after Donald Trump said an interim agreement to end the war was “over”. On Tuesday, three cargo ships ⁠transiting the strait of Hormuz were attacked, leading to the most extensive exchange of fire between the two sides since the interim deal was signed last month. The UN Humanitarian Coordinator for the Occupied Palestinian Territory (OPT), Ramiz Alakbarov, and his deputy, Suzanna Tkalec, led the online visit to the site in Al Mawasi, Khan Younis. “ Just like journalists, diplomatic missions have had difficulty getting into Gaza since October 2023,” UN Spokesperson Stéphane Dujarric said during his regular briefing from New York.",
       "latest": [
         {
           "id": "dc96012f52f88df18be3f54abd8348d490ee0dcda6b5e2ab987f4b9789d55e66",
@@ -803,6 +820,16 @@
           "summary": "At the Nato summit in Ankara on Wednesday, the US president said: “Anything that happens is going to happen very fast” and that the latest strikes would not result in “long-term” military action. The US military carried out strikes on Iran for a second day, hours after Donald Trump said an interim agreement to end the war was “over”. On Tuesday, three cargo ships ⁠transiting the strait of Hormuz were attacked, leading to the most extensive exchange of fire between the two sides since the interim deal was signed last month."
         },
         {
+          "id": "22d9836eb498fa08985b3c60ae5187049157ace8547b06c37c3d350483505b8d",
+          "title": "Diplomats go virtual to witness Gaza displacement site up close",
+          "url": "https://news.un.org/feed/view/en/story/2026/07/1167912",
+          "host": "news.un.org",
+          "format": "Article",
+          "collected_at": "2026-07-09T22:17:42.209399+00:00",
+          "published": "Thu, 09 Jul 2026 12:00:00 +0000",
+          "summary": "The UN Humanitarian Coordinator for the Occupied Palestinian Territory (OPT), Ramiz Alakbarov, and his deputy, Suzanna Tkalec, led the online visit to the site in Al Mawasi, Khan Younis. “ Just like journalists, diplomatic missions have had difficulty getting into Gaza since October 2023,” UN Spokesperson Stéphane Dujarric said during his regular briefing from New York."
+        },
+        {
           "id": "75cdc5593887bbe4a0c9ec6364a89a55aec4b2e8dfb221119c4be991ab90a66c",
           "title": "US-Iran war leaves shipping at near-standstill in Hormuz again",
           "url": "https://news.un.org/feed/view/en/story/2026/07/1167905",
@@ -811,26 +838,16 @@
           "collected_at": "2026-07-09T16:26:06.704039+00:00",
           "published": "Thu, 09 Jul 2026 12:00:00 +0000",
           "summary": "Other requirements listed in the memorandum’s text include the reopening of the Strait of Hormuz to all shipping and an easing of US and UN Security Council sanctions on the Middle East nation. Tuesday’s reported attacks in the Strait of Hormuz also caused a temporary spike in crude oil prices which recovered on Thursday to around $77 per barrel, still higher than pre-war levels."
-        },
-        {
-          "id": "78c662dbe42ac2369b6a0da40e47987d72b04246ef8abf096f5c4223183862a6",
-          "title": "US and Iran trade most intense strikes since ceasefire extended",
-          "url": "https://www.theguardian.com/world/2026/jul/09/iran-trade-strikes-ceasefire-extended-donald-trump",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-07-09T13:46:56.504683+00:00",
-          "published": "Thu, 09 Jul 2026 11:39:38 GMT",
-          "summary": "It said the attacks were meant to degrade Iran’s capacity to “threaten freedom of navigation” in the strait of Hormuz, a critical choke point for about 20% of the world’s oil and gas. The attacks came hours after Donald Trump said the memorandum of understanding was “over” because of Iranian attacks on ships in the strait of Hormuz. The bridges constitute key infrastructure for Iran’s cross-border trade with China, which has dramatically increased since the start of the war."
         }
       ]
     },
     {
       "name": "Energy and Supply Chains",
-      "count": 551,
+      "count": 553,
       "formats": [
         {
           "name": "Article",
-          "value": 454
+          "value": 456
         },
         {
           "name": "PDF",
@@ -846,6 +863,8 @@
         }
       ],
       "evidence_ids": [
+        "aaa7dc75162229666d430fc7593645eafa2e4fe79e9cc9ffe44bb38a589b9773",
+        "3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420",
         "0ec7e35ffc11b00f661eb6fd7bde32f5f2c8bd12b04c569c2b3fcec1fc244a75",
         "75cdc5593887bbe4a0c9ec6364a89a55aec4b2e8dfb221119c4be991ab90a66c",
         "78c662dbe42ac2369b6a0da40e47987d72b04246ef8abf096f5c4223183862a6",
@@ -853,12 +872,30 @@
         "3ce95ae7da37f7e5333e68364d86b0fe12778803e357f6af4b7baf6737e93852",
         "9437357ff2165d9d03e9f33dcd91bc26e94517c38ea080bc7451eea648d17481",
         "6c09ee2e516cad4e3b9cb0ae766f950fdfd05a27b6031951f5fa981169e45ec7",
-        "6697895e00f6e55f023d564a42b126455e805a3c54ece85e5b9052537d70f924",
-        "9aa9bbd5dceef8db651329d7cca09484c5495e5bb8867be3b33fa6afc3dc96be",
-        "06c845133d7a1e809712d82f0e4075b1435f7f54a1b8290f57caf7fcd66fa1f1"
+        "6697895e00f6e55f023d564a42b126455e805a3c54ece85e5b9052537d70f924"
       ],
-      "summary": "At the Nato summit in Ankara on Wednesday, the US president said: “Anything that happens is going to happen very fast” and that the latest strikes would not result in “long-term” military action. The US military carried out strikes on Iran for a second day, hours after Donald Trump said an interim agreement to end the war was “over”. On Tuesday, three cargo ships ⁠transiting the strait of Hormuz were attacked, leading to the most extensive exchange of fire between the two sides since the interim deal was signed last month. Other requirements listed in the memorandum’s text include the reopening of the Strait of Hormuz to all shipping and an easing of US and UN Security Council sanctions on the Middle East nation. Tuesday’s reported attacks in the Strait of Hormuz also caused a temporary spike in crude oil prices which recovered on Thursday to around $77 per barrel, still higher than pre-war levels. It said the attacks were meant to degrade Iran’s capacity to “threaten freedom of navigation” in the strait of Hormuz, a critical choke point for about 20% of the world’s oil and gas. The attacks came hours after Donald Trump said the memorandum of understanding was “over” because of Iranian attacks on ships in the strait of Hormuz. The bridges constitute key infrastructure for Iran’s cross-border trade with China, which has dramatically increased since the start of the war. Serhii, a 46-year-old Ukrainian army officer who ran a furniture store in civilian life, has survived four years of war against Russia. The Ukrainians, he said, are striking devastating blows against Russia’s energy infrastructure, vital logistics, and the factories that produce critical components for its high-tech weaponry. These days, he commands a battalion of 300 troops in Ukraine’s front-line city of Sloviansk.",
+      "summary": "Photograph: Dan Himbrechts/AAP Share Updated at 18.17 EDT Key events Wong says world really wants ceasefire to hold Wong said she believes the ceasefire deal in the Middle East is “certainly fraying around the edges” amid strikes between the US and Iran. The foreign affairs minister said: double quotation mark The world really is looking to this ceasefire to hold, to firm up. military said on Thursday, “including air defense systems, coastal surveillance assets, missile and drone storage sites, naval capabilities, and military logistics infrastructure along Iran’s coastline” as well as small boats belonging to the Islamic Revolutionary Guard Corps. According to video footage verified by the New York Times on Thursday as well as statements from Iranian officials, a railway bridge near the city of Agh Qala, more than 700 miles from the Strait of Hormuz, was also hit. At the Nato summit in Ankara on Wednesday, the US president said: “Anything that happens is going to happen very fast” and that the latest strikes would not result in “long-term” military action. The US military carried out strikes on Iran for a second day, hours after Donald Trump said an interim agreement to end the war was “over”. On Tuesday, three cargo ships ⁠transiting the strait of Hormuz were attacked, leading to the most extensive exchange of fire between the two sides since the interim deal was signed last month. Other requirements listed in the memorandum’s text include the reopening of the Strait of Hormuz to all shipping and an easing of US and UN Security Council sanctions on the Middle East nation. Tuesday’s reported attacks in the Strait of Hormuz also caused a temporary spike in crude oil prices which recovered on Thursday to around $77 per barrel, still higher than pre-war levels.",
       "latest": [
+        {
+          "id": "aaa7dc75162229666d430fc7593645eafa2e4fe79e9cc9ffe44bb38a589b9773",
+          "title": "Australia news live: Hanson defends UK ‘fact-finding’ trip; Qantas tops airline punctuality table",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/10/australia-news-live-pauline-hanson-one-nation-modi-anthony-albanese-royal-commission-antisemitism-ntwnfb",
+          "host": "theguardian.com",
+          "format": "Article",
+          "collected_at": "2026-07-09T22:17:55.225911+00:00",
+          "published": "Thu, 09 Jul 2026 22:06:14 GMT",
+          "summary": "Photograph: Dan Himbrechts/AAP Share Updated at 18.17 EDT Key events Wong says world really wants ceasefire to hold Wong said she believes the ceasefire deal in the Middle East is “certainly fraying around the edges” amid strikes between the US and Iran. The foreign affairs minister said: double quotation mark The world really is looking to this ceasefire to hold, to firm up."
+        },
+        {
+          "id": "3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420",
+          "title": "U.S., Iran Return to the Brink of All-Out War",
+          "url": "https://foreignpolicy.com/2026/07/09/us-iran-war-strikes-intensify-cease-fire-over-trump-strait-hormuz/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-07-09T22:17:41.841710+00:00",
+          "published": "Thu, 09 Jul 2026 21:10:18 +0000",
+          "summary": "military said on Thursday, “including air defense systems, coastal surveillance assets, missile and drone storage sites, naval capabilities, and military logistics infrastructure along Iran’s coastline” as well as small boats belonging to the Islamic Revolutionary Guard Corps. According to video footage verified by the New York Times on Thursday as well as statements from Iranian officials, a railway bridge near the city of Agh Qala, more than 700 miles from the Strait of Hormuz, was also hit."
+        },
         {
           "id": "0ec7e35ffc11b00f661eb6fd7bde32f5f2c8bd12b04c569c2b3fcec1fc244a75",
           "title": "First Thing: Second day of US strikes on Iran as Trump says Tehran ‘behaving very badly’",
@@ -888,26 +925,6 @@
           "collected_at": "2026-07-09T13:46:56.504683+00:00",
           "published": "Thu, 09 Jul 2026 11:39:38 GMT",
           "summary": "It said the attacks were meant to degrade Iran’s capacity to “threaten freedom of navigation” in the strait of Hormuz, a critical choke point for about 20% of the world’s oil and gas. The attacks came hours after Donald Trump said the memorandum of understanding was “over” because of Iranian attacks on ships in the strait of Hormuz. The bridges constitute key infrastructure for Iran’s cross-border trade with China, which has dramatically increased since the start of the war."
-        },
-        {
-          "id": "1bdfe5b7f5338fcbaa5d8d8e94e89ed7f5d80b2a342584b5f08c9bd4b7200621",
-          "title": "Ukraine Finally Has a Theory of Victory. Will It Work?",
-          "url": "https://foreignpolicy.com/2026/07/09/ukraine-russia-war-theory-victory-putin-zelensky-crimea-missiles-deep-strikes-oil-refinieries/",
-          "host": "foreignpolicy.com",
-          "format": "Article",
-          "collected_at": "2026-07-09T13:46:51.225830+00:00",
-          "published": "Thu, 09 Jul 2026 10:52:24 +0000",
-          "summary": "Serhii, a 46-year-old Ukrainian army officer who ran a furniture store in civilian life, has survived four years of war against Russia. The Ukrainians, he said, are striking devastating blows against Russia’s energy infrastructure, vital logistics, and the factories that produce critical components for its high-tech weaponry. These days, he commands a battalion of 300 troops in Ukraine’s front-line city of Sloviansk."
-        },
-        {
-          "id": "3ce95ae7da37f7e5333e68364d86b0fe12778803e357f6af4b7baf6737e93852",
-          "title": "World: UN WFP Annual Performance Report 2025 _ Delivering faster and smarter despite compounding crises (pdf)",
-          "url": "https://reliefweb.int/attachments/a830e714-0a04-4708-925a-bf20995b0542/WFP-Annual%20Performance%20Report%202025_English.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-07-09T10:54:03.885268+00:00",
-          "published": "Thu, 09 Jul 2026 10:10:32 +0000",
-          "summary": "Annual performance report for 2025 Draft decision* The Board approves the annual performance report for 2025 (WFP/EB.A/2026/4 -A), noting that it provides a comprehensive account of WFP’s performance during the reporting period and of progress towards the objectives of the WFP strategic plan for 2022–2025 and the corporate results framework. 31 3.2 Performance by strategic outcome..................................................................................."
         }
       ]
     },
@@ -1184,25 +1201,25 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 975,
+      "count": 979,
       "evidence_ids": [
+        "aaa7dc75162229666d430fc7593645eafa2e4fe79e9cc9ffe44bb38a589b9773",
+        "3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420",
         "dc96012f52f88df18be3f54abd8348d490ee0dcda6b5e2ab987f4b9789d55e66",
         "45c3c72d31f4d981f7d06dc33b01d8d205c61c2005deef6a0ac4d3703b88415b",
         "0ec7e35ffc11b00f661eb6fd7bde32f5f2c8bd12b04c569c2b3fcec1fc244a75",
+        "22d9836eb498fa08985b3c60ae5187049157ace8547b06c37c3d350483505b8d",
+        "2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54",
         "75cdc5593887bbe4a0c9ec6364a89a55aec4b2e8dfb221119c4be991ab90a66c",
         "78c662dbe42ac2369b6a0da40e47987d72b04246ef8abf096f5c4223183862a6",
         "3ce95ae7da37f7e5333e68364d86b0fe12778803e357f6af4b7baf6737e93852",
         "9437357ff2165d9d03e9f33dcd91bc26e94517c38ea080bc7451eea648d17481",
-        "0b10765634e446e41b30f7f23f5526b8c2b74f915327f3f27697034b9a9f43fb",
-        "84ed7060d0e0bbf25435d26f7e626cd837a31483047bce699479996e2c114a65",
-        "6c09ee2e516cad4e3b9cb0ae766f950fdfd05a27b6031951f5fa981169e45ec7",
-        "35725bd8bc725c37396aa720242f8de9234d46fa3b0b01869c40900d5edaeffe",
-        "63c83b71b66e613ced16358a548f99e7c7d3ae16968540f3f5b00fb2cc51450e"
+        "0b10765634e446e41b30f7f23f5526b8c2b74f915327f3f27697034b9a9f43fb"
       ],
       "top_sources": [
         {
           "name": "theguardian.com",
-          "value": 214
+          "value": 215
         },
         {
           "name": "reliefweb.int",
@@ -1214,18 +1231,19 @@
         },
         {
           "name": "global.unitednations.entermediadb.net",
-          "value": 59
+          "value": 60
         },
         {
-          "name": "npr.org",
+          "name": "foreignpolicy.com",
           "value": 49
         }
       ]
     },
     {
       "name": "Europe and Russia",
-      "count": 818,
+      "count": 820,
       "evidence_ids": [
+        "aaa7dc75162229666d430fc7593645eafa2e4fe79e9cc9ffe44bb38a589b9773",
         "dc96012f52f88df18be3f54abd8348d490ee0dcda6b5e2ab987f4b9789d55e66",
         "24dd796f59f6c7f3623c3e424a46f26c98e1b6c98680276ef433d3ac97ea83c2",
         "a1790e4ff7f369f70af1641fbaf3cfcfa0dd0bfd6d2f4ed11c354a2d34edad09",
@@ -1233,16 +1251,15 @@
         "45c3c72d31f4d981f7d06dc33b01d8d205c61c2005deef6a0ac4d3703b88415b",
         "471510ad83f5110b73c5fb8e709b5894fffab6a28ab3194415c9340e92c80736",
         "0ec7e35ffc11b00f661eb6fd7bde32f5f2c8bd12b04c569c2b3fcec1fc244a75",
+        "22d9836eb498fa08985b3c60ae5187049157ace8547b06c37c3d350483505b8d",
         "a91bdf28e414e1d21a73dd2b7e26f601ce1a295c40c78e79924c9e6b3b66cbd7",
         "1bdfe5b7f5338fcbaa5d8d8e94e89ed7f5d80b2a342584b5f08c9bd4b7200621",
-        "6c09ee2e516cad4e3b9cb0ae766f950fdfd05a27b6031951f5fa981169e45ec7",
-        "35725bd8bc725c37396aa720242f8de9234d46fa3b0b01869c40900d5edaeffe",
-        "63c83b71b66e613ced16358a548f99e7c7d3ae16968540f3f5b00fb2cc51450e"
+        "6c09ee2e516cad4e3b9cb0ae766f950fdfd05a27b6031951f5fa981169e45ec7"
       ],
       "top_sources": [
         {
           "name": "theguardian.com",
-          "value": 164
+          "value": 165
         },
         {
           "name": "reliefweb.int",
@@ -1264,8 +1281,9 @@
     },
     {
       "name": "Americas",
-      "count": 817,
+      "count": 818,
       "evidence_ids": [
+        "3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420",
         "24dd796f59f6c7f3623c3e424a46f26c98e1b6c98680276ef433d3ac97ea83c2",
         "cd6a18a779cbc43fc00c3e4c26d03a6d44c6e9ef0a03adf48270db4b962d6f52",
         "45c3c72d31f4d981f7d06dc33b01d8d205c61c2005deef6a0ac4d3703b88415b",
@@ -1276,8 +1294,7 @@
         "0b10765634e446e41b30f7f23f5526b8c2b74f915327f3f27697034b9a9f43fb",
         "84ed7060d0e0bbf25435d26f7e626cd837a31483047bce699479996e2c114a65",
         "35725bd8bc725c37396aa720242f8de9234d46fa3b0b01869c40900d5edaeffe",
-        "63c83b71b66e613ced16358a548f99e7c7d3ae16968540f3f5b00fb2cc51450e",
-        "6697895e00f6e55f023d564a42b126455e805a3c54ece85e5b9052537d70f924"
+        "63c83b71b66e613ced16358a548f99e7c7d3ae16968540f3f5b00fb2cc51450e"
       ],
       "top_sources": [
         {
@@ -1294,7 +1311,7 @@
         },
         {
           "name": "foreignpolicy.com",
-          "value": 77
+          "value": 78
         },
         {
           "name": "warontherocks.com",
@@ -1304,20 +1321,20 @@
     },
     {
       "name": "Global Institutions",
-      "count": 755,
+      "count": 757,
       "evidence_ids": [
+        "aaa7dc75162229666d430fc7593645eafa2e4fe79e9cc9ffe44bb38a589b9773",
         "dc96012f52f88df18be3f54abd8348d490ee0dcda6b5e2ab987f4b9789d55e66",
         "24dd796f59f6c7f3623c3e424a46f26c98e1b6c98680276ef433d3ac97ea83c2",
         "a1790e4ff7f369f70af1641fbaf3cfcfa0dd0bfd6d2f4ed11c354a2d34edad09",
         "cd6a18a779cbc43fc00c3e4c26d03a6d44c6e9ef0a03adf48270db4b962d6f52",
+        "22d9836eb498fa08985b3c60ae5187049157ace8547b06c37c3d350483505b8d",
         "75cdc5593887bbe4a0c9ec6364a89a55aec4b2e8dfb221119c4be991ab90a66c",
         "a91bdf28e414e1d21a73dd2b7e26f601ce1a295c40c78e79924c9e6b3b66cbd7",
         "1bdfe5b7f5338fcbaa5d8d8e94e89ed7f5d80b2a342584b5f08c9bd4b7200621",
         "9437357ff2165d9d03e9f33dcd91bc26e94517c38ea080bc7451eea648d17481",
         "0b10765634e446e41b30f7f23f5526b8c2b74f915327f3f27697034b9a9f43fb",
-        "84ed7060d0e0bbf25435d26f7e626cd837a31483047bce699479996e2c114a65",
-        "6c09ee2e516cad4e3b9cb0ae766f950fdfd05a27b6031951f5fa981169e45ec7",
-        "b31a1e8f9817c47272b693cb763dad7f8fda75811ff2bba064481d12370e4bfc"
+        "84ed7060d0e0bbf25435d26f7e626cd837a31483047bce699479996e2c114a65"
       ],
       "top_sources": [
         {
@@ -1326,7 +1343,7 @@
         },
         {
           "name": "theguardian.com",
-          "value": 133
+          "value": 134
         },
         {
           "name": "aljazeera.com",
@@ -1384,8 +1401,9 @@
     },
     {
       "name": "Indo-Pacific",
-      "count": 393,
+      "count": 394,
       "evidence_ids": [
+        "3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420",
         "78c662dbe42ac2369b6a0da40e47987d72b04246ef8abf096f5c4223183862a6",
         "1bdfe5b7f5338fcbaa5d8d8e94e89ed7f5d80b2a342584b5f08c9bd4b7200621",
         "6697895e00f6e55f023d564a42b126455e805a3c54ece85e5b9052537d70f924",
@@ -1396,8 +1414,7 @@
         "9059d409e4131b870107b16f42df75712d2f1cf95cbb20dafc51fa23857f8dbf",
         "b47ac896d21f62241ef544857d23a72cdd8340dfb1e04e86e73cba0c84a626a0",
         "d2a213b6f582af71dcd9f853ac28fedf7321d71266230ad415b85d97c5674f70",
-        "9e346e42f92e9a26bde828f1d2b67bf7527d726751a2457d6ac9f1650cb02b55",
-        "f07fe30f77bec11464d53eaaad27cb131bf58b659c28170a5f7b7032f89ac354"
+        "9e346e42f92e9a26bde828f1d2b67bf7527d726751a2457d6ac9f1650cb02b55"
       ],
       "top_sources": [
         {
@@ -1417,8 +1434,8 @@
           "value": 38
         },
         {
-          "name": "defensenews.com",
-          "value": 33
+          "name": "foreignpolicy.com",
+          "value": 34
         }
       ]
     }
@@ -2407,6 +2424,165 @@
   ],
   "latest_evidence": [
     {
+      "id": "aaa7dc75162229666d430fc7593645eafa2e4fe79e9cc9ffe44bb38a589b9773",
+      "topic": "geopolitics",
+      "title": "Australia news live: Hanson defends UK ‘fact-finding’ trip; Qantas tops airline punctuality table",
+      "url": "https://www.theguardian.com/australia-news/live/2026/jul/10/australia-news-live-pauline-hanson-one-nation-modi-anthony-albanese-royal-commission-antisemitism-ntwnfb",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-09T22:17:55.225911+00:00",
+      "published": "Thu, 09 Jul 2026 22:06:14 GMT",
+      "text_chars": 6904,
+      "raw_path": "data/geopolitics/raw/aaa7dc75162229666d430fc7593645eafa2e4fe79e9cc9ffe44bb38a589b9773.html",
+      "text_path": "data/geopolitics/raw/aaa7dc75162229666d430fc7593645eafa2e4fe79e9cc9ffe44bb38a589b9773.txt",
+      "summary": "Photograph: Dan Himbrechts/AAP Share Updated at 18.17 EDT Key events Wong says world really wants ceasefire to hold Wong said she believes the ceasefire deal in the Middle East is “certainly fraying around the edges” amid strikes between the US and Iran. The foreign affairs minister said: double quotation mark The world really is looking to this ceasefire to hold, to firm up.",
+      "bullets": [
+        "Photograph: Dan Himbrechts/AAP Share Updated at 18.17 EDT Key events Wong says world really wants ceasefire to hold Wong said she believes the ceasefire deal in the Middle East is “certainly fraying around the edges” amid strikes between the US and Iran.",
+        "The foreign affairs minister said: double quotation mark The world really is looking to this ceasefire to hold, to firm up.",
+        "Photograph: Lukas Coch/AAP Share Updated at 17.52 EDT Wong says Telstra let Australians down The foreign affairs minister, Penny Wong, said Telstra had “let the Australian community down” after its outages this week, including trouble with the triple-zero network.",
+        "In a statement last night, the premier, Jacinta Allan, said the government would pay back affected passengers and expected “Telstra to match it, dollar for dollar”.",
+        "Alliance with One Nation ‘not our plan’, Angus Taylor says The opposition leader, Angus Taylor, said the Coalition doesn’t believe Pauline Hanson ’s One Nation can be the party of government, describing it as a “one-person show”."
+      ],
+      "excerpt": "Alliance with One Nation ‘not our plan’, Angus Taylor says The opposition leader, Angus Taylor, said the Coalition doesn’t believe Pauline Hanson ’s One Nation can be the party of government, describing it as a “one-person show”. Taylor spoke to ABC News Breakfast, saying the opposition was focused on getting rid of the Labor government, but wasn’t interested in “some kind of coalition or alliance” with One Nation. He said: double quotation mark We are working to get rid of the Labor government, that’s our focus. Our focus isn’t on some kind of coalition or alliance. Our focus is on getting rid of a rotten Labor government. I want us to be in government in our own right. That is not our plan. Our plan is to get rid of the government. Liberal leader Angus Taylor. Photograph: Dan Himbrechts/AAP Share Updated at 18.17 EDT Key events Wong says world really wants ceasefire to hold Wong said she believes the ceasefire deal in the Middle East is “certainly fraying around the edges” amid strikes between the US and Iran. The foreign affairs minister said: double quotation mark The world really is looking to this ceasefire to hold, to firm up. The world wants to see an end to this conflict, ",
+      "keywords": [
+        {
+          "name": "government",
+          "value": 13
+        },
+        {
+          "name": "hanson",
+          "value": 11
+        },
+        {
+          "name": "telstra",
+          "value": 9
+        },
+        {
+          "name": "nation",
+          "value": 8
+        },
+        {
+          "name": "angus",
+          "value": 7
+        },
+        {
+          "name": "taylor",
+          "value": 7
+        },
+        {
+          "name": "wong",
+          "value": 7
+        },
+        {
+          "name": "double",
+          "value": 6
+        },
+        {
+          "name": "labor",
+          "value": 6
+        },
+        {
+          "name": "leader",
+          "value": 6
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Energy and Supply Chains"
+      ],
+      "regions": [
+        "Middle East",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/aaa7dc75162229666d430fc7593645eafa2e4fe79e9cc9ffe44bb38a589b9773",
+      "evidence_json": "/evidence/aaa7dc75162229666d430fc7593645eafa2e4fe79e9cc9ffe44bb38a589b9773.json"
+    },
+    {
+      "id": "3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420",
+      "topic": "geopolitics",
+      "title": "U.S., Iran Return to the Brink of All-Out War",
+      "url": "https://foreignpolicy.com/2026/07/09/us-iran-war-strikes-intensify-cease-fire-over-trump-strait-hormuz/",
+      "host": "foreignpolicy.com",
+      "source": "https://foreignpolicy.com/feed/",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-09T22:17:41.841710+00:00",
+      "published": "Thu, 09 Jul 2026 21:10:18 +0000",
+      "text_chars": 8728,
+      "raw_path": "data/geopolitics/raw/3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420.html",
+      "text_path": "data/geopolitics/raw/3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420.txt",
+      "summary": "military said on Thursday, “including air defense systems, coastal surveillance assets, missile and drone storage sites, naval capabilities, and military logistics infrastructure along Iran’s coastline” as well as small boats belonging to the Islamic Revolutionary Guard Corps. According to video footage verified by the New York Times on Thursday as well as statements from Iranian officials, a railway bridge near the city of Agh Qala, more than 700 miles from the Strait of Hormuz, was also hit.",
+      "bullets": [
+        "military said on Thursday, “including air defense systems, coastal surveillance assets, missile and drone storage sites, naval capabilities, and military logistics infrastructure along Iran’s coastline” as well as small boats belonging to the Islamic Revolutionary Guard Corps.",
+        "According to video footage verified by the New York Times on Thursday as well as statements from Iranian officials, a railway bridge near the city of Agh Qala, more than 700 miles from the Strait of Hormuz, was also hit.",
+        "strikes have killed at least 14 people and injured some 78 others in Iran thus far, Iranian officials said.",
+        "On Tuesday, Iran targeted several oil and gas tankers in the Strait of Hormuz that appeared to be trying to use a route that circumvented Iranian waters.",
+        "and Iranian strikes, a leadership contest for Britain ’s Labour Party, and Australia selling uranium to India."
+      ],
+      "excerpt": "Welcome back to World Brief, where we’re looking at escalating U.S. and Iranian strikes, a leadership contest for Britain ’s Labour Party, and Australia selling uranium to India. Tit-for-Tat Attacks U.S. and Iranian forces intensified their strikes on Thursday, as both sides exchanged fire for a third consecutive day. With Washington and Tehran expanding the scope and scale of their attacks, experts have suggested that the Middle East may be on the brink of returning to all-out war. On Tuesday, Iran targeted several oil and gas tankers in the Strait of Hormuz that appeared to be trying to use a route that circumvented Iranian waters. Within hours, the U.S. military launched retaliatory strikes, and on Wednesday, President Donald Trump declared that the U.S.-Iran cease-fire was effectively “over.” “This is in retribution for yesterday’s bombing of ships by Iran,” Trump wrote on Truth Social on Wednesday. “If it happens again, it will get much worse!” That day, Trump also suggested that he could order bombings on critical civilian infrastructure—such as bridges, electric plants, and desalination facilities—and he threatened to “take over Kharg Island,” a vital hub for Iran’s crude in",
+      "keywords": [
+        {
+          "name": "iran",
+          "value": 12
+        },
+        {
+          "name": "thursday",
+          "value": 12
+        },
+        {
+          "name": "iranian",
+          "value": 8
+        },
+        {
+          "name": "nuclear",
+          "value": 8
+        },
+        {
+          "name": "uranium",
+          "value": 7
+        },
+        {
+          "name": "india",
+          "value": 6
+        },
+        {
+          "name": "military",
+          "value": 6
+        },
+        {
+          "name": "bavi",
+          "value": 5
+        },
+        {
+          "name": "strikes",
+          "value": 5
+        },
+        {
+          "name": "australia",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Energy and Supply Chains",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Indo-Pacific",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420",
+      "evidence_json": "/evidence/3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420.json"
+    },
+    {
       "id": "dc96012f52f88df18be3f54abd8348d490ee0dcda6b5e2ab987f4b9789d55e66",
       "topic": "geopolitics",
       "title": "Will NATO get involved in securing Strait of Hormuz?",
@@ -2954,6 +3130,156 @@
       ],
       "detail_path": "/evidence/0ec7e35ffc11b00f661eb6fd7bde32f5f2c8bd12b04c569c2b3fcec1fc244a75",
       "evidence_json": "/evidence/0ec7e35ffc11b00f661eb6fd7bde32f5f2c8bd12b04c569c2b3fcec1fc244a75.json"
+    },
+    {
+      "id": "22d9836eb498fa08985b3c60ae5187049157ace8547b06c37c3d350483505b8d",
+      "topic": "geopolitics",
+      "title": "Diplomats go virtual to witness Gaza displacement site up close",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167912",
+      "host": "news.un.org",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-09T22:17:42.209399+00:00",
+      "published": "Thu, 09 Jul 2026 12:00:00 +0000",
+      "text_chars": 2424,
+      "raw_path": "data/geopolitics/raw/22d9836eb498fa08985b3c60ae5187049157ace8547b06c37c3d350483505b8d.html",
+      "text_path": "data/geopolitics/raw/22d9836eb498fa08985b3c60ae5187049157ace8547b06c37c3d350483505b8d.txt",
+      "summary": "The UN Humanitarian Coordinator for the Occupied Palestinian Territory (OPT), Ramiz Alakbarov, and his deputy, Suzanna Tkalec, led the online visit to the site in Al Mawasi, Khan Younis. “ Just like journalists, diplomatic missions have had difficulty getting into Gaza since October 2023,” UN Spokesperson Stéphane Dujarric said during his regular briefing from New York.",
+      "bullets": [
+        "The UN Humanitarian Coordinator for the Occupied Palestinian Territory (OPT), Ramiz Alakbarov, and his deputy, Suzanna Tkalec, led the online visit to the site in Al Mawasi, Khan Younis.",
+        "“ Just like journalists, diplomatic missions have had difficulty getting into Gaza since October 2023,” UN Spokesperson Stéphane Dujarric said during his regular briefing from New York.",
+        "In related developments, the World Health Organization ( WHO ) said it is providing specialized bottles for 45 infants in Gaza who were born with cleft lip or cleft palate, which prevents normal breastfeeding.",
+        "Water and work Via videolink, the diplomats observed the living conditions and relief efforts at the displacement site, interacting with children, adults and aid workers.",
+        "At a distribution point, they saw how community members – including children – collected water carried by truck through a project operated by a local partner and funded by the UN’s OPT Humanitarian Fund."
+      ],
+      "excerpt": "The UN Humanitarian Coordinator for the Occupied Palestinian Territory (OPT), Ramiz Alakbarov, and his deputy, Suzanna Tkalec, led the online visit to the site in Al Mawasi, Khan Younis. “ Just like journalists, diplomatic missions have had difficulty getting into Gaza since October 2023,” UN Spokesperson Stéphane Dujarric said during his regular briefing from New York. Water and work Via videolink, the diplomats observed the living conditions and relief efforts at the displacement site, interacting with children, adults and aid workers. At a distribution point, they saw how community members – including children – collected water carried by truck through a project operated by a local partner and funded by the UN’s OPT Humanitarian Fund. “Displaced people told the diplomats that they need sustainable water services, especially during the hot summer days, and cash-for-work opportunities to feed their families,” Mr. Dujarric said. “Participants in the virtual visit were also led through hundreds of tents crammed along the shoreline,” he added. Mr. Alakbarov thanked the diplomats for their financial support for relief efforts, indicating that more is needed to both sustain and scale u",
+      "keywords": [
+        {
+          "name": "water",
+          "value": 7
+        },
+        {
+          "name": "diplomats",
+          "value": 4
+        },
+        {
+          "name": "gaza",
+          "value": 4
+        },
+        {
+          "name": "access",
+          "value": 3
+        },
+        {
+          "name": "children",
+          "value": 3
+        },
+        {
+          "name": "site",
+          "value": 3
+        },
+        {
+          "name": "support",
+          "value": 3
+        },
+        {
+          "name": "unrwa",
+          "value": 3
+        },
+        {
+          "name": "alakbarov",
+          "value": 2
+        },
+        {
+          "name": "cleft",
+          "value": 2
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Middle East",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/22d9836eb498fa08985b3c60ae5187049157ace8547b06c37c3d350483505b8d",
+      "evidence_json": "/evidence/22d9836eb498fa08985b3c60ae5187049157ace8547b06c37c3d350483505b8d.json"
+    },
+    {
+      "id": "2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54",
+      "topic": "geopolitics",
+      "title": "Diplomats go virtual to witness Gaza displacement site up close (image)",
+      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/16-06-2025_UNDP_Gaza_Water_04.jpg/image560x340cropped.jpg",
+      "host": "global.unitednations.entermediadb.net",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "images",
+      "format": "Image",
+      "content_type": "image/jpeg",
+      "collected_at": "2026-07-09T22:17:53.646893+00:00",
+      "published": "Thu, 09 Jul 2026 12:00:00 +0000",
+      "text_chars": 436,
+      "raw_path": "data/geopolitics/raw/2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54.jpg",
+      "text_path": "data/geopolitics/raw/2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54.txt",
+      "summary": "Binary images source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Binary images source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: Diplomats go virtual to witness Gaza displacement site up close (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/16-06-2025_UNDP_Gaza_Water_04.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 44542",
+      "keywords": [
+        {
+          "name": "gaza",
+          "value": 3
+        },
+        {
+          "name": "close",
+          "value": 2
+        },
+        {
+          "name": "diplomats",
+          "value": 2
+        },
+        {
+          "name": "displacement",
+          "value": 2
+        },
+        {
+          "name": "entermediadb",
+          "value": 2
+        },
+        {
+          "name": "site",
+          "value": 2
+        },
+        {
+          "name": "unitednations",
+          "value": 2
+        },
+        {
+          "name": "virtual",
+          "value": 2
+        },
+        {
+          "name": "witness",
+          "value": 2
+        },
+        {
+          "name": "binary",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "preview_asset": "/evidence-assets/2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54.jpg",
+      "detail_path": "/evidence/2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54",
+      "evidence_json": "/evidence/2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54.json"
     },
     {
       "id": "75cdc5593887bbe4a0c9ec6364a89a55aec4b2e8dfb221119c4be991ab90a66c",
@@ -8280,310 +8606,6 @@
       ],
       "detail_path": "/evidence/ed1dfaa2976301774c045ea22a93efff3ab71b10c4a8e683deccc1a6aec5ecc7",
       "evidence_json": "/evidence/ed1dfaa2976301774c045ea22a93efff3ab71b10c4a8e683deccc1a6aec5ecc7.json"
-    },
-    {
-      "id": "a41a7c1598d5c821ed76ce7be0df71834017ac79b221bac68dcb1e4f0a6af723",
-      "topic": "geopolitics",
-      "title": "UK waters hit with extreme heatwave as global sea temperatures reach record levels",
-      "url": "https://www.theguardian.com/environment/2026/jul/08/uk-waters-extreme-heatwave-global-sea-temperatures-record-climate-crisis",
-      "host": "theguardian.com",
-      "source": "https://www.theguardian.com/world/rss",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-07-08T12:17:44.957929+00:00",
-      "published": "Wed, 08 Jul 2026 11:13:33 GMT",
-      "text_chars": 3000,
-      "raw_path": "data/geopolitics/raw/a41a7c1598d5c821ed76ce7be0df71834017ac79b221bac68dcb1e4f0a6af723.html",
-      "text_path": "data/geopolitics/raw/a41a7c1598d5c821ed76ce7be0df71834017ac79b221bac68dcb1e4f0a6af723.txt",
-      "summary": "Berthou said this is the third and most intense marine heatwave the UK has seen this year, with temperatures on average 2C warmer than usual and with some locations reaching “severe” conditions where the water temperature is 4-5C warmer than usual. UK waters are being hit with an “extreme” marine heatwave, the Met Office has said, as scientists warn that high ocean temperatures globally could result in “mass-mortality events” for some species.",
-      "bullets": [
-        "Berthou said this is the third and most intense marine heatwave the UK has seen this year, with temperatures on average 2C warmer than usual and with some locations reaching “severe” conditions where the water temperature is 4-5C warmer than usual.",
-        "UK waters are being hit with an “extreme” marine heatwave, the Met Office has said, as scientists warn that high ocean temperatures globally could result in “mass-mortality events” for some species.",
-        "Dr Ségolène Berthou, an air-sea interaction specialist at the Met Office, said these atmospheric conditions drive the marine heatwave.",
-        "Photograph: Xinhua/Shutterstock The UN secretary general, António Guterres, said the world must treat the arrival of El Niño conditions as the “urgent climate warning it is”.",
-        "He said: “The only effective response is climate action equal to the crisis: ending the addiction to fossil fuels, accelerating the shift to renewables, protecting the most vulnerable, and delivering early warning systems for all.” skip past newsletter promotion Sign up to Down to Earth The planet's most important stories."
-      ],
-      "excerpt": "UK waters are being hit with an “extreme” marine heatwave, the Met Office has said, as scientists warn that high ocean temperatures globally could result in “mass-mortality events” for some species. The forecasters said these elevated temperatures have developed rapidly because of last month’s heat dome, during which most of Europe sweltered in its worst ever heatwave that scientists said would have been impossible without the climate crisis. The third heatwave of the summer has arrived in the UK this week, with temperatures on track to exceed 30C for up to 10 consecutive days. Dr Ségolène Berthou, an air-sea interaction specialist at the Met Office, said these atmospheric conditions drive the marine heatwave. “The ocean didn’t have enough time to cool down between the two land heatwaves,” she said. Oceans absorb more than 90% of the excess energy in the Earth system, which is primarily caused by burning fossil fuels. Berthou said this is the third and most intense marine heatwave the UK has seen this year, with temperatures on average 2C warmer than usual and with some locations reaching “severe” conditions where the water temperature is 4-5C warmer than usual. “There’s no sign of",
-      "keywords": [
-        {
-          "name": "heatwave",
-          "value": 7
-        },
-        {
-          "name": "marine",
-          "value": 7
-        },
-        {
-          "name": "temperatures",
-          "value": 7
-        },
-        {
-          "name": "conditions",
-          "value": 5
-        },
-        {
-          "name": "climate",
-          "value": 4
-        },
-        {
-          "name": "most",
-          "value": 4
-        },
-        {
-          "name": "berthou",
-          "value": 3
-        },
-        {
-          "name": "extreme",
-          "value": 3
-        },
-        {
-          "name": "last",
-          "value": 3
-        },
-        {
-          "name": "record",
-          "value": 3
-        }
-      ],
-      "signals": [
-        "Energy and Supply Chains"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a41a7c1598d5c821ed76ce7be0df71834017ac79b221bac68dcb1e4f0a6af723",
-      "evidence_json": "/evidence/a41a7c1598d5c821ed76ce7be0df71834017ac79b221bac68dcb1e4f0a6af723.json"
-    },
-    {
-      "id": "9059d409e4131b870107b16f42df75712d2f1cf95cbb20dafc51fa23857f8dbf",
-      "topic": "geopolitics",
-      "title": "UNHCR Afghanistan Border Monitoring Report January-April 2026",
-      "url": "https://reliefweb.int/report/afghanistan/unhcr-afghanistan-border-monitoring-report-january-april-2026",
-      "host": "reliefweb.int",
-      "source": "https://reliefweb.int/updates/rss.xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-07-08T12:17:43.761504+00:00",
-      "published": "Wed, 08 Jul 2026 11:03:19 +0000",
-      "text_chars": 2283,
-      "raw_path": "data/geopolitics/raw/9059d409e4131b870107b16f42df75712d2f1cf95cbb20dafc51fa23857f8dbf.html",
-      "text_path": "data/geopolitics/raw/9059d409e4131b870107b16f42df75712d2f1cf95cbb20dafc51fa23857f8dbf.txt",
-      "summary": "BACKGROUND AND METHODOLOGY ▪ In line with UNHCR’s protection monitoring objectives, UNHCR maintains a strong presence through border monitoring partners at official and unofficial crossing points connecting Afghanistan with Iran, Pakistan, Tajikistan, Uzbekistan, and Turkmenistan. ▪ During the first quarter of 2026, UNHCR border monitoring partners conducted 44,335 interviews, including 455 KIIs, at 9 official and 65 unofficial crossing points.",
-      "bullets": [
-        "BACKGROUND AND METHODOLOGY ▪ In line with UNHCR’s protection monitoring objectives, UNHCR maintains a strong presence through border monitoring partners at official and unofficial crossing points connecting Afghanistan with Iran, Pakistan, Tajikistan, Uzbekistan, and Turkmenistan.",
-        "▪ During the first quarter of 2026, UNHCR border monitoring partners conducted 44,335 interviews, including 455 KIIs, at 9 official and 65 unofficial crossing points.",
-        "▪ The lower proportion of female respondents reflects the profiles of individuals crossing the borders and operational constraints (see page 2).",
-        "The monitoring exercise is protection-focused and aims to assess the triggers, intentions, and motives behind Afghan cross-border movements, including protection needs, movement trends, and related protection risks and human rights concerns.",
-        "▪ Outflow monitoring at official borders covers passport holders, whereas inflow monitoring covers Afghan returnees and deportees upon arrival, regardless of documentation status."
-      ],
-      "excerpt": "BACKGROUND AND METHODOLOGY ▪ In line with UNHCR’s protection monitoring objectives, UNHCR maintains a strong presence through border monitoring partners at official and unofficial crossing points connecting Afghanistan with Iran, Pakistan, Tajikistan, Uzbekistan, and Turkmenistan. The monitoring exercise is protection-focused and aims to assess the triggers, intentions, and motives behind Afghan cross-border movements, including protection needs, movement trends, and related protection risks and human rights concerns. ▪ UNHCR conducts inflow and outflow monitoring interviews at individual and household levels across ten official crossing points, while Key Informant Interviews (KIIs) are conducted at around 70 unofficial crossing points. ▪ Outflow monitoring at official borders covers passport holders, whereas inflow monitoring covers Afghan returnees and deportees upon arrival, regardless of documentation status. At unofficial borders, KIs include transport drivers, nearby business owners, community elders, and local health providers. ▪ Respondents are selected using a systematic sampling approach, based on a fixed skipping interval determined by the average number of arrivals/depa",
-      "keywords": [
-        {
-          "name": "monitoring",
-          "value": 8
-        },
-        {
-          "name": "percent",
-          "value": 7
-        },
-        {
-          "name": "female",
-          "value": 6
-        },
-        {
-          "name": "unhcr",
-          "value": 6
-        },
-        {
-          "name": "crossing",
-          "value": 5
-        },
-        {
-          "name": "respondents",
-          "value": 5
-        },
-        {
-          "name": "aged",
-          "value": 4
-        },
-        {
-          "name": "official",
-          "value": 4
-        },
-        {
-          "name": "points",
-          "value": 4
-        },
-        {
-          "name": "unofficial",
-          "value": 4
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Indo-Pacific",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/9059d409e4131b870107b16f42df75712d2f1cf95cbb20dafc51fa23857f8dbf",
-      "evidence_json": "/evidence/9059d409e4131b870107b16f42df75712d2f1cf95cbb20dafc51fa23857f8dbf.json"
-    },
-    {
-      "id": "b47ac896d21f62241ef544857d23a72cdd8340dfb1e04e86e73cba0c84a626a0",
-      "topic": "geopolitics",
-      "title": "UNHCR Afghanistan Border Monitoring Report January-April 2026 (pdf)",
-      "url": "https://reliefweb.int/attachments/c12bfbad-6e96-5b16-971a-879ef6bd5eda/AFG%20BM%20Report%20-%20Jan%20-%20Apr%202026.pdf",
-      "host": "reliefweb.int",
-      "source": "https://reliefweb.int/updates/rss.xml",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-07-08T12:17:44.889572+00:00",
-      "published": "Wed, 08 Jul 2026 11:03:19 +0000",
-      "text_chars": 27416,
-      "raw_path": "data/geopolitics/raw/b47ac896d21f62241ef544857d23a72cdd8340dfb1e04e86e73cba0c84a626a0.pdf",
-      "text_path": "data/geopolitics/raw/b47ac896d21f62241ef544857d23a72cdd8340dfb1e04e86e73cba0c84a626a0.txt",
-      "summary": "▪ During the first quarter of 2026, UNHCR border monitoring partners conducted 44,335 interviews, including 455 KIIs, at 9 official and 65 unofficial crossing points. ▪ The lower proportion of female respondents reflects the profiles of individuals crossing the borders and operational constraints (see page 2). The monitoring exercise is protection-focused and aims to assess the triggers, intentions, and motives behind Afghan cross-border movements, including protection needs, movement trends, and related protection risks and human rights concerns.",
-      "bullets": [
-        "▪ During the first quarter of 2026, UNHCR border monitoring partners conducted 44,335 interviews, including 455 KIIs, at 9 official and 65 unofficial crossing points.",
-        "▪ The lower proportion of female respondents reflects the profiles of individuals crossing the borders and operational constraints (see page 2).",
-        "The monitoring exercise is protection-focused and aims to assess the triggers, intentions, and motives behind Afghan cross-border movements, including protection needs, movement trends, and related protection risks and human rights concerns.",
-        "▪ Outflow monitoring at official borders covers passport holders, whereas inflow monitoring covers Afghan returnees and deportees upon arrival, regardless of documentation status.",
-        "At unofficial borders, KIs include transport drivers, nearby business owners, community elders, and local health providers."
-      ],
-      "excerpt": "0.3% 17% 11% 1% 12-17 18-34 35-59 60+ UNHCR AFGHANISTAN BORDER MONITORING JANUARY- APRIL 2026 BACKGROUND AND METHODOLOGY ▪ In line with UNHCR’s protection monitoring objectives, UNHCR maintains a strong presence through border monitoring partners at official and unofficial crossing points connecting Afghanistan with Iran, Pakistan, Tajikistan, Uzbekistan, and Turkmenistan. The monitoring exercise is protection-focused and aims to assess the triggers, intentions, and motives behind Afghan cross-border movements, including protection needs, movement trends, and related protection risks and human rights concerns. ▪ UNHCR conducts inflow and outflow monitoring interviews at individual and household levels across ten official crossing points, while Key Informant Interviews (KIIs) are conducted at around 70 unofficial crossing points. ▪ Outflow monitoring at official borders covers passport holders, whereas inflow monitoring covers Afghan returnees and deportees upon arrival, regardless of documentation status. At unofficial borders, KIs include transport drivers, nearby business owners, community elders, and local health providers. ▪ Respondents are selected using a systematic sampling ",
-      "keywords": [
-        {
-          "name": "protection",
-          "value": 46
-        },
-        {
-          "name": "return",
-          "value": 44
-        },
-        {
-          "name": "iran",
-          "value": 43
-        },
-        {
-          "name": "pakistan",
-          "value": 39
-        },
-        {
-          "name": "percent",
-          "value": 34
-        },
-        {
-          "name": "unhcr",
-          "value": 30
-        },
-        {
-          "name": "chart",
-          "value": 28
-        },
-        {
-          "name": "including",
-          "value": 24
-        },
-        {
-          "name": "monitoring",
-          "value": 22
-        },
-        {
-          "name": "returnees",
-          "value": 22
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "War and Escalation",
-        "Sanctions and Finance"
-      ],
-      "regions": [
-        "Indo-Pacific",
-        "Americas",
-        "Middle East"
-      ],
-      "file_asset": "/evidence-files/b47ac896d21f62241ef544857d23a72cdd8340dfb1e04e86e73cba0c84a626a0.pdf",
-      "detail_path": "/evidence/b47ac896d21f62241ef544857d23a72cdd8340dfb1e04e86e73cba0c84a626a0",
-      "evidence_json": "/evidence/b47ac896d21f62241ef544857d23a72cdd8340dfb1e04e86e73cba0c84a626a0.json"
-    },
-    {
-      "id": "2ed66d5eec35b1f3b9f789b43bd8042826d26e7fee665bd2570b2a0e0d0bceb1",
-      "topic": "geopolitics",
-      "title": "oPt: Urgent action needed to protect Dr. Hussam Abu Safiya [EN/AR]",
-      "url": "https://reliefweb.int/report/occupied-palestinian-territory/urgent-action-needed-protect-dr-hussam-abu-safiya-enar",
-      "host": "reliefweb.int",
-      "source": "https://reliefweb.int/updates/rss.xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-07-08T12:17:28.053678+00:00",
-      "published": "Wed, 08 Jul 2026 10:54:47 +0000",
-      "text_chars": 3432,
-      "raw_path": "data/geopolitics/raw/2ed66d5eec35b1f3b9f789b43bd8042826d26e7fee665bd2570b2a0e0d0bceb1.html",
-      "text_path": "data/geopolitics/raw/2ed66d5eec35b1f3b9f789b43bd8042826d26e7fee665bd2570b2a0e0d0bceb1.txt",
-      "summary": "UN Human Rights in the Occupied Palestinian Territory calls on the Israeli Government to urgently protect Dr. Abu Safiya’s detention, the courts have so far failed to protect his rights under international law, compounding concerns about the effectiveness of the Israeli judicial safeguards and remedies in relation to Palestinian detainees. Despite several appeals to Israeli courts challenging the legality of Dr.",
-      "bullets": [
-        "UN Human Rights in the Occupied Palestinian Territory calls on the Israeli Government to urgently protect Dr.",
-        "Abu Safiya’s detention, the courts have so far failed to protect his rights under international law, compounding concerns about the effectiveness of the Israeli judicial safeguards and remedies in relation to Palestinian detainees.",
-        "Despite several appeals to Israeli courts challenging the legality of Dr.",
-        "In the meantime, he must be urgently transferred to a civilian hospital to ensure that he receives life-saving medical care.",
-        "Abu Safiya, the director of Kamal Adwan Hospital in northern Gaza, has been held in Israeli custody since December 2024 under Israel's Unlawful Combatant Law, without charge or trial."
-      ],
-      "excerpt": "UN Human Rights in the Occupied Palestinian Territory calls on the Israeli Government to urgently protect Dr. Hussam Abu Safiya and ensure his safety, dignity, and physical integrity. The Israeli Government must immediately release Dr. Abu Safiya, or promptly charge him with a recognizable criminal offence and grant him a fair trial. In the meantime, he must be urgently transferred to a civilian hospital to ensure that he receives life-saving medical care. Dr. Abu Safiya, the director of Kamal Adwan Hospital in northern Gaza, has been held in Israeli custody since December 2024 under Israel's Unlawful Combatant Law, without charge or trial. He was arrested at the hospital after refusing to evacuate while treating critical patients. According to his lawyers, Dr. Abu Safiya appears to be at imminent risk of death. Information available to UN Human Rights - OPT indicates he has been subjected to torture and other ill-treatment, including prolonged solitary confinement, repeated severe assaults resulting in grave injuries, and denial of medical care. His case raises serious concerns under international humanitarian law and international human rights law, including the prohibition of to",
-      "keywords": [
-        {
-          "name": "israeli",
-          "value": 9
-        },
-        {
-          "name": "rights",
-          "value": 9
-        },
-        {
-          "name": "detention",
-          "value": 8
-        },
-        {
-          "name": "human",
-          "value": 8
-        },
-        {
-          "name": "safiya",
-          "value": 7
-        },
-        {
-          "name": "including",
-          "value": 6
-        },
-        {
-          "name": "palestinian",
-          "value": 6
-        },
-        {
-          "name": "international",
-          "value": 5
-        },
-        {
-          "name": "must",
-          "value": 5
-        },
-        {
-          "name": "torture",
-          "value": 5
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Territory and Chokepoints"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "detail_path": "/evidence/2ed66d5eec35b1f3b9f789b43bd8042826d26e7fee665bd2570b2a0e0d0bceb1",
-      "evidence_json": "/evidence/2ed66d5eec35b1f3b9f789b43bd8042826d26e7fee665bd2570b2a0e0d0bceb1.json"
     }
   ],
   "deep_reads": [
@@ -8597,7 +8619,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-09T20:45:01.581392+00:00",
+      "collected_at": "2026-07-09T22:17:22.622301+00:00",
       "published": "",
       "text_chars": 9122085,
       "raw_path": "data/geopolitics/raw/824a913dc40b072461625e2f26528a8555f8358b7421a5b1d544b8f764103f23.xml",
@@ -10352,7 +10374,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-09T20:44:26.289478+00:00",
+      "collected_at": "2026-07-09T22:16:53.217063+00:00",
       "published": "",
       "text_chars": 6243887,
       "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
@@ -10504,7 +10526,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-09T20:44:26.563237+00:00",
+      "collected_at": "2026-07-09T22:16:52.977431+00:00",
       "published": "",
       "text_chars": 6161766,
       "raw_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json.raw",
@@ -10823,7 +10845,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-09T20:45:12.811650+00:00",
+      "collected_at": "2026-07-09T22:17:29.256411+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -10895,76 +10917,6 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-07-09T20:45:09.167441+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
       "id": "fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
       "topic": "geopolitics",
       "title": "The World Factbook",
@@ -10974,7 +10926,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-07-09T20:45:08.725617+00:00",
+      "collected_at": "2026-07-09T22:17:27.849791+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.html",
@@ -11038,6 +10990,76 @@
       "evidence_json": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.json"
     },
     {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-07-09T22:17:27.797268+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
       "title": "ICRC International Humanitarian Law Handbook",
@@ -11047,7 +11069,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-09T20:45:08.699776+00:00",
+      "collected_at": "2026-07-09T22:17:27.779179+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -11128,7 +11150,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-09T20:45:03.658944+00:00",
+      "collected_at": "2026-07-09T22:17:24.192852+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11209,7 +11231,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-09T20:45:01.581392+00:00",
+      "collected_at": "2026-07-09T22:17:22.622301+00:00",
       "published": "",
       "text_chars": 9122085,
       "raw_path": "data/geopolitics/raw/824a913dc40b072461625e2f26528a8555f8358b7421a5b1d544b8f764103f23.xml",
@@ -11289,7 +11311,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-09T20:44:29.368828+00:00",
+      "collected_at": "2026-07-09T22:16:56.793247+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.xml",
@@ -11360,158 +11382,6 @@
       "evidence_json": "/evidence/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.json"
     },
     {
-      "id": "60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
-      "topic": "geopolitics",
-      "title": "MS.MIL.XPND.CD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-09T20:44:26.563237+00:00",
-      "published": "",
-      "text_chars": 6161766,
-      "raw_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json.raw",
-      "text_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
-      "keywords": [
-        {
-          "name": "expenditure",
-          "value": 17490
-        },
-        {
-          "name": "military",
-          "value": 17490
-        },
-        {
-          "name": "status",
-          "value": 17490
-        },
-        {
-          "name": "unit",
-          "value": 17490
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        },
-        {
-          "name": "asia",
-          "value": 528
-        },
-        {
-          "name": "ibrd",
-          "value": 528
-        },
-        {
-          "name": "middle",
-          "value": 462
-        }
-      ],
-      "signals": [
-        "War and Escalation"
-      ],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
-      "evidence_json": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json"
-    },
-    {
-      "id": "5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-09T20:44:26.289478+00:00",
-      "published": "",
-      "text_chars": 6243887,
-      "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
-      "text_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17490
-        },
-        {
-          "name": "imports",
-          "value": 17490
-        },
-        {
-          "name": "sipri",
-          "value": 17490
-        },
-        {
-          "name": "status",
-          "value": 17490
-        },
-        {
-          "name": "trend",
-          "value": 17490
-        },
-        {
-          "name": "unit",
-          "value": 17490
-        },
-        {
-          "name": "values",
-          "value": 17490
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
-      "evidence_json": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json"
-    },
-    {
       "id": "431036efd6727482412c3f072a56008a1b7d183aa7fac27c2824349727aff48d",
       "topic": "geopolitics",
       "title": "Consolidated Sanctions List",
@@ -11521,7 +11391,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-07-09T20:44:25.801157+00:00",
+      "collected_at": "2026-07-09T22:16:55.555140+00:00",
       "published": "",
       "text_chars": 824840,
       "raw_path": "data/geopolitics/raw/431036efd6727482412c3f072a56008a1b7d183aa7fac27c2824349727aff48d.xml",
@@ -11590,6 +11460,158 @@
       ],
       "detail_path": "/evidence/431036efd6727482412c3f072a56008a1b7d183aa7fac27c2824349727aff48d",
       "evidence_json": "/evidence/431036efd6727482412c3f072a56008a1b7d183aa7fac27c2824349727aff48d.json"
+    },
+    {
+      "id": "5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-07-09T22:16:53.217063+00:00",
+      "published": "",
+      "text_chars": 6243887,
+      "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
+      "text_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17490
+        },
+        {
+          "name": "imports",
+          "value": 17490
+        },
+        {
+          "name": "sipri",
+          "value": 17490
+        },
+        {
+          "name": "status",
+          "value": 17490
+        },
+        {
+          "name": "trend",
+          "value": 17490
+        },
+        {
+          "name": "unit",
+          "value": 17490
+        },
+        {
+          "name": "values",
+          "value": 17490
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
+      "evidence_json": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json"
+    },
+    {
+      "id": "60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
+      "topic": "geopolitics",
+      "title": "MS.MIL.XPND.CD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-07-09T22:16:52.977431+00:00",
+      "published": "",
+      "text_chars": 6161766,
+      "raw_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json.raw",
+      "text_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
+      "keywords": [
+        {
+          "name": "expenditure",
+          "value": 17490
+        },
+        {
+          "name": "military",
+          "value": 17490
+        },
+        {
+          "name": "status",
+          "value": 17490
+        },
+        {
+          "name": "unit",
+          "value": 17490
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        },
+        {
+          "name": "asia",
+          "value": 528
+        },
+        {
+          "name": "ibrd",
+          "value": 528
+        },
+        {
+          "name": "middle",
+          "value": 462
+        }
+      ],
+      "signals": [
+        "War and Escalation"
+      ],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
+      "evidence_json": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json"
     },
     {
       "id": "3ce95ae7da37f7e5333e68364d86b0fe12778803e357f6af4b7baf6737e93852",
@@ -13654,6 +13676,78 @@
   ],
   "visual_evidence": [
     {
+      "id": "2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54",
+      "topic": "geopolitics",
+      "title": "Diplomats go virtual to witness Gaza displacement site up close (image)",
+      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/16-06-2025_UNDP_Gaza_Water_04.jpg/image560x340cropped.jpg",
+      "host": "global.unitednations.entermediadb.net",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "images",
+      "format": "Image",
+      "content_type": "image/jpeg",
+      "collected_at": "2026-07-09T22:17:53.646893+00:00",
+      "published": "Thu, 09 Jul 2026 12:00:00 +0000",
+      "text_chars": 436,
+      "raw_path": "data/geopolitics/raw/2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54.jpg",
+      "text_path": "data/geopolitics/raw/2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54.txt",
+      "summary": "Binary images source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Binary images source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: Diplomats go virtual to witness Gaza displacement site up close (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/16-06-2025_UNDP_Gaza_Water_04.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 44542",
+      "keywords": [
+        {
+          "name": "gaza",
+          "value": 3
+        },
+        {
+          "name": "close",
+          "value": 2
+        },
+        {
+          "name": "diplomats",
+          "value": 2
+        },
+        {
+          "name": "displacement",
+          "value": 2
+        },
+        {
+          "name": "entermediadb",
+          "value": 2
+        },
+        {
+          "name": "site",
+          "value": 2
+        },
+        {
+          "name": "unitednations",
+          "value": 2
+        },
+        {
+          "name": "virtual",
+          "value": 2
+        },
+        {
+          "name": "witness",
+          "value": 2
+        },
+        {
+          "name": "binary",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "preview_asset": "/evidence-assets/2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54.jpg",
+      "detail_path": "/evidence/2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54",
+      "evidence_json": "/evidence/2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54.json"
+    },
+    {
       "id": "a91bdf28e414e1d21a73dd2b7e26f601ce1a295c40c78e79924c9e6b3b66cbd7",
       "topic": "geopolitics",
       "title": "Security Council LIVE: ‘Urgent de-escalation’ needed now in Ukraine amid spike in civilian deaths (image)",
@@ -15290,79 +15384,6 @@
       "preview_asset": "/evidence-assets/937542b1278f9a96d76a3e2ccb1eb1f90cef76da4fcdd21b9a746255d1fa8649.jpg",
       "detail_path": "/evidence/937542b1278f9a96d76a3e2ccb1eb1f90cef76da4fcdd21b9a746255d1fa8649",
       "evidence_json": "/evidence/937542b1278f9a96d76a3e2ccb1eb1f90cef76da4fcdd21b9a746255d1fa8649.json"
-    },
-    {
-      "id": "b95938660a8c0c162be618e450e8b56ae1966d54ae72794d5145e074bf7d527f",
-      "topic": "geopolitics",
-      "title": "Security Council LIVE: Emergency meeting on Iranian attack in Bahrain (image)",
-      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/21-11-2025-UN-News-Manama.jpg/image560x340cropped.jpg",
-      "host": "global.unitednations.entermediadb.net",
-      "source": "https://news.un.org/feed/subscribe/en/news/topic/peace-and-security/feed/rss.xml",
-      "data_type": "images",
-      "format": "Image",
-      "content_type": "image/jpeg",
-      "collected_at": "2026-07-02T17:31:18.275663+00:00",
-      "published": "Thu, 02 Jul 2026 12:00:00 +0000",
-      "text_chars": 464,
-      "raw_path": "data/geopolitics/raw/b95938660a8c0c162be618e450e8b56ae1966d54ae72794d5145e074bf7d527f.jpg",
-      "text_path": "data/geopolitics/raw/b95938660a8c0c162be618e450e8b56ae1966d54ae72794d5145e074bf7d527f.txt",
-      "summary": "Binary images source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Binary images source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: Security Council LIVE: Emergency meeting on Iranian attack in Bahrain (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/21-11-2025-UN-News-Manama.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/topic/peace-and-security/feed/rss.xml Content-Type: image/jpeg Bytes: 55083",
-      "keywords": [
-        {
-          "name": "attack",
-          "value": 2
-        },
-        {
-          "name": "bahrain",
-          "value": 2
-        },
-        {
-          "name": "council",
-          "value": 2
-        },
-        {
-          "name": "emergency",
-          "value": 2
-        },
-        {
-          "name": "entermediadb",
-          "value": 2
-        },
-        {
-          "name": "feed",
-          "value": 2
-        },
-        {
-          "name": "iranian",
-          "value": 2
-        },
-        {
-          "name": "live",
-          "value": 2
-        },
-        {
-          "name": "meeting",
-          "value": 2
-        },
-        {
-          "name": "security",
-          "value": 2
-        }
-      ],
-      "signals": [
-        "Institutions and Law"
-      ],
-      "regions": [
-        "Global Institutions",
-        "Middle East"
-      ],
-      "preview_asset": "/evidence-assets/b95938660a8c0c162be618e450e8b56ae1966d54ae72794d5145e074bf7d527f.jpg",
-      "detail_path": "/evidence/b95938660a8c0c162be618e450e8b56ae1966d54ae72794d5145e074bf7d527f",
-      "evidence_json": "/evidence/b95938660a8c0c162be618e450e8b56ae1966d54ae72794d5145e074bf7d527f.json"
     }
   ],
   "cited_evidence": [],
@@ -15377,7 +15398,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-09T20:45:12.811650+00:00",
+      "collected_at": "2026-07-09T22:17:29.256411+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15449,76 +15470,6 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-07-09T20:45:09.167441+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
       "id": "fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
       "topic": "geopolitics",
       "title": "The World Factbook",
@@ -15528,7 +15479,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-07-09T20:45:08.725617+00:00",
+      "collected_at": "2026-07-09T22:17:27.849791+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.html",
@@ -15592,6 +15543,76 @@
       "evidence_json": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.json"
     },
     {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-07-09T22:17:27.797268+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
       "title": "ICRC International Humanitarian Law Handbook",
@@ -15601,7 +15622,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-09T20:45:08.699776+00:00",
+      "collected_at": "2026-07-09T22:17:27.779179+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -15682,7 +15703,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-09T20:45:03.658944+00:00",
+      "collected_at": "2026-07-09T22:17:24.192852+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15763,7 +15784,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-09T20:45:01.581392+00:00",
+      "collected_at": "2026-07-09T22:17:22.622301+00:00",
       "published": "",
       "text_chars": 9122085,
       "raw_path": "data/geopolitics/raw/824a913dc40b072461625e2f26528a8555f8358b7421a5b1d544b8f764103f23.xml",
@@ -15843,7 +15864,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-09T20:44:29.368828+00:00",
+      "collected_at": "2026-07-09T22:16:56.793247+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.xml",
@@ -15914,158 +15935,6 @@
       "evidence_json": "/evidence/4e96af748827d84dd5b4a0da6f855cf0242099672797fe73bcf10bed7c8726a7.json"
     },
     {
-      "id": "60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
-      "topic": "geopolitics",
-      "title": "MS.MIL.XPND.CD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-09T20:44:26.563237+00:00",
-      "published": "",
-      "text_chars": 6161766,
-      "raw_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json.raw",
-      "text_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
-      "keywords": [
-        {
-          "name": "expenditure",
-          "value": 17490
-        },
-        {
-          "name": "military",
-          "value": 17490
-        },
-        {
-          "name": "status",
-          "value": 17490
-        },
-        {
-          "name": "unit",
-          "value": 17490
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        },
-        {
-          "name": "asia",
-          "value": 528
-        },
-        {
-          "name": "ibrd",
-          "value": 528
-        },
-        {
-          "name": "middle",
-          "value": 462
-        }
-      ],
-      "signals": [
-        "War and Escalation"
-      ],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
-      "evidence_json": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json"
-    },
-    {
-      "id": "5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-09T20:44:26.289478+00:00",
-      "published": "",
-      "text_chars": 6243887,
-      "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
-      "text_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17490
-        },
-        {
-          "name": "imports",
-          "value": 17490
-        },
-        {
-          "name": "sipri",
-          "value": 17490
-        },
-        {
-          "name": "status",
-          "value": 17490
-        },
-        {
-          "name": "trend",
-          "value": 17490
-        },
-        {
-          "name": "unit",
-          "value": 17490
-        },
-        {
-          "name": "values",
-          "value": 17490
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
-      "evidence_json": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json"
-    },
-    {
       "id": "431036efd6727482412c3f072a56008a1b7d183aa7fac27c2824349727aff48d",
       "topic": "geopolitics",
       "title": "Consolidated Sanctions List",
@@ -16075,7 +15944,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-07-09T20:44:25.801157+00:00",
+      "collected_at": "2026-07-09T22:16:55.555140+00:00",
       "published": "",
       "text_chars": 824840,
       "raw_path": "data/geopolitics/raw/431036efd6727482412c3f072a56008a1b7d183aa7fac27c2824349727aff48d.xml",
@@ -16144,6 +16013,317 @@
       ],
       "detail_path": "/evidence/431036efd6727482412c3f072a56008a1b7d183aa7fac27c2824349727aff48d",
       "evidence_json": "/evidence/431036efd6727482412c3f072a56008a1b7d183aa7fac27c2824349727aff48d.json"
+    },
+    {
+      "id": "5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-07-09T22:16:53.217063+00:00",
+      "published": "",
+      "text_chars": 6243887,
+      "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
+      "text_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17490
+        },
+        {
+          "name": "imports",
+          "value": 17490
+        },
+        {
+          "name": "sipri",
+          "value": 17490
+        },
+        {
+          "name": "status",
+          "value": 17490
+        },
+        {
+          "name": "trend",
+          "value": 17490
+        },
+        {
+          "name": "unit",
+          "value": 17490
+        },
+        {
+          "name": "values",
+          "value": 17490
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
+      "evidence_json": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json"
+    },
+    {
+      "id": "60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
+      "topic": "geopolitics",
+      "title": "MS.MIL.XPND.CD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-07-09T22:16:52.977431+00:00",
+      "published": "",
+      "text_chars": 6161766,
+      "raw_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json.raw",
+      "text_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
+      "keywords": [
+        {
+          "name": "expenditure",
+          "value": 17490
+        },
+        {
+          "name": "military",
+          "value": 17490
+        },
+        {
+          "name": "status",
+          "value": 17490
+        },
+        {
+          "name": "unit",
+          "value": 17490
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        },
+        {
+          "name": "asia",
+          "value": 528
+        },
+        {
+          "name": "ibrd",
+          "value": 528
+        },
+        {
+          "name": "middle",
+          "value": 462
+        }
+      ],
+      "signals": [
+        "War and Escalation"
+      ],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
+      "evidence_json": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json"
+    },
+    {
+      "id": "aaa7dc75162229666d430fc7593645eafa2e4fe79e9cc9ffe44bb38a589b9773",
+      "topic": "geopolitics",
+      "title": "Australia news live: Hanson defends UK ‘fact-finding’ trip; Qantas tops airline punctuality table",
+      "url": "https://www.theguardian.com/australia-news/live/2026/jul/10/australia-news-live-pauline-hanson-one-nation-modi-anthony-albanese-royal-commission-antisemitism-ntwnfb",
+      "host": "theguardian.com",
+      "source": "https://www.theguardian.com/world/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-09T22:17:55.225911+00:00",
+      "published": "Thu, 09 Jul 2026 22:06:14 GMT",
+      "text_chars": 6904,
+      "raw_path": "data/geopolitics/raw/aaa7dc75162229666d430fc7593645eafa2e4fe79e9cc9ffe44bb38a589b9773.html",
+      "text_path": "data/geopolitics/raw/aaa7dc75162229666d430fc7593645eafa2e4fe79e9cc9ffe44bb38a589b9773.txt",
+      "summary": "Photograph: Dan Himbrechts/AAP Share Updated at 18.17 EDT Key events Wong says world really wants ceasefire to hold Wong said she believes the ceasefire deal in the Middle East is “certainly fraying around the edges” amid strikes between the US and Iran. The foreign affairs minister said: double quotation mark The world really is looking to this ceasefire to hold, to firm up.",
+      "bullets": [
+        "Photograph: Dan Himbrechts/AAP Share Updated at 18.17 EDT Key events Wong says world really wants ceasefire to hold Wong said she believes the ceasefire deal in the Middle East is “certainly fraying around the edges” amid strikes between the US and Iran.",
+        "The foreign affairs minister said: double quotation mark The world really is looking to this ceasefire to hold, to firm up.",
+        "Photograph: Lukas Coch/AAP Share Updated at 17.52 EDT Wong says Telstra let Australians down The foreign affairs minister, Penny Wong, said Telstra had “let the Australian community down” after its outages this week, including trouble with the triple-zero network.",
+        "In a statement last night, the premier, Jacinta Allan, said the government would pay back affected passengers and expected “Telstra to match it, dollar for dollar”.",
+        "Alliance with One Nation ‘not our plan’, Angus Taylor says The opposition leader, Angus Taylor, said the Coalition doesn’t believe Pauline Hanson ’s One Nation can be the party of government, describing it as a “one-person show”."
+      ],
+      "excerpt": "Alliance with One Nation ‘not our plan’, Angus Taylor says The opposition leader, Angus Taylor, said the Coalition doesn’t believe Pauline Hanson ’s One Nation can be the party of government, describing it as a “one-person show”. Taylor spoke to ABC News Breakfast, saying the opposition was focused on getting rid of the Labor government, but wasn’t interested in “some kind of coalition or alliance” with One Nation. He said: double quotation mark We are working to get rid of the Labor government, that’s our focus. Our focus isn’t on some kind of coalition or alliance. Our focus is on getting rid of a rotten Labor government. I want us to be in government in our own right. That is not our plan. Our plan is to get rid of the government. Liberal leader Angus Taylor. Photograph: Dan Himbrechts/AAP Share Updated at 18.17 EDT Key events Wong says world really wants ceasefire to hold Wong said she believes the ceasefire deal in the Middle East is “certainly fraying around the edges” amid strikes between the US and Iran. The foreign affairs minister said: double quotation mark The world really is looking to this ceasefire to hold, to firm up. The world wants to see an end to this conflict, ",
+      "keywords": [
+        {
+          "name": "government",
+          "value": 13
+        },
+        {
+          "name": "hanson",
+          "value": 11
+        },
+        {
+          "name": "telstra",
+          "value": 9
+        },
+        {
+          "name": "nation",
+          "value": 8
+        },
+        {
+          "name": "angus",
+          "value": 7
+        },
+        {
+          "name": "taylor",
+          "value": 7
+        },
+        {
+          "name": "wong",
+          "value": 7
+        },
+        {
+          "name": "double",
+          "value": 6
+        },
+        {
+          "name": "labor",
+          "value": 6
+        },
+        {
+          "name": "leader",
+          "value": 6
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Energy and Supply Chains"
+      ],
+      "regions": [
+        "Middle East",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/aaa7dc75162229666d430fc7593645eafa2e4fe79e9cc9ffe44bb38a589b9773",
+      "evidence_json": "/evidence/aaa7dc75162229666d430fc7593645eafa2e4fe79e9cc9ffe44bb38a589b9773.json"
+    },
+    {
+      "id": "3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420",
+      "topic": "geopolitics",
+      "title": "U.S., Iran Return to the Brink of All-Out War",
+      "url": "https://foreignpolicy.com/2026/07/09/us-iran-war-strikes-intensify-cease-fire-over-trump-strait-hormuz/",
+      "host": "foreignpolicy.com",
+      "source": "https://foreignpolicy.com/feed/",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-09T22:17:41.841710+00:00",
+      "published": "Thu, 09 Jul 2026 21:10:18 +0000",
+      "text_chars": 8728,
+      "raw_path": "data/geopolitics/raw/3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420.html",
+      "text_path": "data/geopolitics/raw/3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420.txt",
+      "summary": "military said on Thursday, “including air defense systems, coastal surveillance assets, missile and drone storage sites, naval capabilities, and military logistics infrastructure along Iran’s coastline” as well as small boats belonging to the Islamic Revolutionary Guard Corps. According to video footage verified by the New York Times on Thursday as well as statements from Iranian officials, a railway bridge near the city of Agh Qala, more than 700 miles from the Strait of Hormuz, was also hit.",
+      "bullets": [
+        "military said on Thursday, “including air defense systems, coastal surveillance assets, missile and drone storage sites, naval capabilities, and military logistics infrastructure along Iran’s coastline” as well as small boats belonging to the Islamic Revolutionary Guard Corps.",
+        "According to video footage verified by the New York Times on Thursday as well as statements from Iranian officials, a railway bridge near the city of Agh Qala, more than 700 miles from the Strait of Hormuz, was also hit.",
+        "strikes have killed at least 14 people and injured some 78 others in Iran thus far, Iranian officials said.",
+        "On Tuesday, Iran targeted several oil and gas tankers in the Strait of Hormuz that appeared to be trying to use a route that circumvented Iranian waters.",
+        "and Iranian strikes, a leadership contest for Britain ’s Labour Party, and Australia selling uranium to India."
+      ],
+      "excerpt": "Welcome back to World Brief, where we’re looking at escalating U.S. and Iranian strikes, a leadership contest for Britain ’s Labour Party, and Australia selling uranium to India. Tit-for-Tat Attacks U.S. and Iranian forces intensified their strikes on Thursday, as both sides exchanged fire for a third consecutive day. With Washington and Tehran expanding the scope and scale of their attacks, experts have suggested that the Middle East may be on the brink of returning to all-out war. On Tuesday, Iran targeted several oil and gas tankers in the Strait of Hormuz that appeared to be trying to use a route that circumvented Iranian waters. Within hours, the U.S. military launched retaliatory strikes, and on Wednesday, President Donald Trump declared that the U.S.-Iran cease-fire was effectively “over.” “This is in retribution for yesterday’s bombing of ships by Iran,” Trump wrote on Truth Social on Wednesday. “If it happens again, it will get much worse!” That day, Trump also suggested that he could order bombings on critical civilian infrastructure—such as bridges, electric plants, and desalination facilities—and he threatened to “take over Kharg Island,” a vital hub for Iran’s crude in",
+      "keywords": [
+        {
+          "name": "iran",
+          "value": 12
+        },
+        {
+          "name": "thursday",
+          "value": 12
+        },
+        {
+          "name": "iranian",
+          "value": 8
+        },
+        {
+          "name": "nuclear",
+          "value": 8
+        },
+        {
+          "name": "uranium",
+          "value": 7
+        },
+        {
+          "name": "india",
+          "value": 6
+        },
+        {
+          "name": "military",
+          "value": 6
+        },
+        {
+          "name": "bavi",
+          "value": 5
+        },
+        {
+          "name": "strikes",
+          "value": 5
+        },
+        {
+          "name": "australia",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Energy and Supply Chains",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Indo-Pacific",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420",
+      "evidence_json": "/evidence/3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420.json"
     },
     {
       "id": "dc96012f52f88df18be3f54abd8348d490ee0dcda6b5e2ab987f4b9789d55e66",
@@ -16693,6 +16873,156 @@
       ],
       "detail_path": "/evidence/0ec7e35ffc11b00f661eb6fd7bde32f5f2c8bd12b04c569c2b3fcec1fc244a75",
       "evidence_json": "/evidence/0ec7e35ffc11b00f661eb6fd7bde32f5f2c8bd12b04c569c2b3fcec1fc244a75.json"
+    },
+    {
+      "id": "22d9836eb498fa08985b3c60ae5187049157ace8547b06c37c3d350483505b8d",
+      "topic": "geopolitics",
+      "title": "Diplomats go virtual to witness Gaza displacement site up close",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167912",
+      "host": "news.un.org",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-09T22:17:42.209399+00:00",
+      "published": "Thu, 09 Jul 2026 12:00:00 +0000",
+      "text_chars": 2424,
+      "raw_path": "data/geopolitics/raw/22d9836eb498fa08985b3c60ae5187049157ace8547b06c37c3d350483505b8d.html",
+      "text_path": "data/geopolitics/raw/22d9836eb498fa08985b3c60ae5187049157ace8547b06c37c3d350483505b8d.txt",
+      "summary": "The UN Humanitarian Coordinator for the Occupied Palestinian Territory (OPT), Ramiz Alakbarov, and his deputy, Suzanna Tkalec, led the online visit to the site in Al Mawasi, Khan Younis. “ Just like journalists, diplomatic missions have had difficulty getting into Gaza since October 2023,” UN Spokesperson Stéphane Dujarric said during his regular briefing from New York.",
+      "bullets": [
+        "The UN Humanitarian Coordinator for the Occupied Palestinian Territory (OPT), Ramiz Alakbarov, and his deputy, Suzanna Tkalec, led the online visit to the site in Al Mawasi, Khan Younis.",
+        "“ Just like journalists, diplomatic missions have had difficulty getting into Gaza since October 2023,” UN Spokesperson Stéphane Dujarric said during his regular briefing from New York.",
+        "In related developments, the World Health Organization ( WHO ) said it is providing specialized bottles for 45 infants in Gaza who were born with cleft lip or cleft palate, which prevents normal breastfeeding.",
+        "Water and work Via videolink, the diplomats observed the living conditions and relief efforts at the displacement site, interacting with children, adults and aid workers.",
+        "At a distribution point, they saw how community members – including children – collected water carried by truck through a project operated by a local partner and funded by the UN’s OPT Humanitarian Fund."
+      ],
+      "excerpt": "The UN Humanitarian Coordinator for the Occupied Palestinian Territory (OPT), Ramiz Alakbarov, and his deputy, Suzanna Tkalec, led the online visit to the site in Al Mawasi, Khan Younis. “ Just like journalists, diplomatic missions have had difficulty getting into Gaza since October 2023,” UN Spokesperson Stéphane Dujarric said during his regular briefing from New York. Water and work Via videolink, the diplomats observed the living conditions and relief efforts at the displacement site, interacting with children, adults and aid workers. At a distribution point, they saw how community members – including children – collected water carried by truck through a project operated by a local partner and funded by the UN’s OPT Humanitarian Fund. “Displaced people told the diplomats that they need sustainable water services, especially during the hot summer days, and cash-for-work opportunities to feed their families,” Mr. Dujarric said. “Participants in the virtual visit were also led through hundreds of tents crammed along the shoreline,” he added. Mr. Alakbarov thanked the diplomats for their financial support for relief efforts, indicating that more is needed to both sustain and scale u",
+      "keywords": [
+        {
+          "name": "water",
+          "value": 7
+        },
+        {
+          "name": "diplomats",
+          "value": 4
+        },
+        {
+          "name": "gaza",
+          "value": 4
+        },
+        {
+          "name": "access",
+          "value": 3
+        },
+        {
+          "name": "children",
+          "value": 3
+        },
+        {
+          "name": "site",
+          "value": 3
+        },
+        {
+          "name": "support",
+          "value": 3
+        },
+        {
+          "name": "unrwa",
+          "value": 3
+        },
+        {
+          "name": "alakbarov",
+          "value": 2
+        },
+        {
+          "name": "cleft",
+          "value": 2
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Middle East",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/22d9836eb498fa08985b3c60ae5187049157ace8547b06c37c3d350483505b8d",
+      "evidence_json": "/evidence/22d9836eb498fa08985b3c60ae5187049157ace8547b06c37c3d350483505b8d.json"
+    },
+    {
+      "id": "2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54",
+      "topic": "geopolitics",
+      "title": "Diplomats go virtual to witness Gaza displacement site up close (image)",
+      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/16-06-2025_UNDP_Gaza_Water_04.jpg/image560x340cropped.jpg",
+      "host": "global.unitednations.entermediadb.net",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "images",
+      "format": "Image",
+      "content_type": "image/jpeg",
+      "collected_at": "2026-07-09T22:17:53.646893+00:00",
+      "published": "Thu, 09 Jul 2026 12:00:00 +0000",
+      "text_chars": 436,
+      "raw_path": "data/geopolitics/raw/2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54.jpg",
+      "text_path": "data/geopolitics/raw/2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54.txt",
+      "summary": "Binary images source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Binary images source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: Diplomats go virtual to witness Gaza displacement site up close (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/16-06-2025_UNDP_Gaza_Water_04.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 44542",
+      "keywords": [
+        {
+          "name": "gaza",
+          "value": 3
+        },
+        {
+          "name": "close",
+          "value": 2
+        },
+        {
+          "name": "diplomats",
+          "value": 2
+        },
+        {
+          "name": "displacement",
+          "value": 2
+        },
+        {
+          "name": "entermediadb",
+          "value": 2
+        },
+        {
+          "name": "site",
+          "value": 2
+        },
+        {
+          "name": "unitednations",
+          "value": 2
+        },
+        {
+          "name": "virtual",
+          "value": 2
+        },
+        {
+          "name": "witness",
+          "value": 2
+        },
+        {
+          "name": "binary",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "preview_asset": "/evidence-assets/2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54.jpg",
+      "detail_path": "/evidence/2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54",
+      "evidence_json": "/evidence/2830262cedcbac54452bc828eb1cbceaf861c008e430583c0d820ad20f35de54.json"
     },
     {
       "id": "75cdc5593887bbe4a0c9ec6364a89a55aec4b2e8dfb221119c4be991ab90a66c",
