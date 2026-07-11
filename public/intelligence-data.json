@@ -1,43 +1,43 @@
 {
-  "generated_at": "2026-07-11T21:42:14.778431+00:00",
+  "generated_at": "2026-07-11T22:41:21.191780+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Geopolitical Tensions Escalate Amid Humanitarian Crises and Military Developments",
+    "headline": "Escalating Humanitarian Crises and Geopolitical Tensions Shape Global Landscape",
     "executive_summary": [
-      "Recent developments in Ukraine highlight the ongoing military escalation, with Russia's missile and drone attacks resulting in civilian casualties and infrastructure damage. The Ukrainian Air Force reported significant challenges in intercepting these attacks, emphasizing the urgent need for enhanced air defense capabilities, including the potential production of Patriot missiles domestically, as discussed in recent NATO meetings (evidence id: 10, 24).",
-      "In the Americas, Venezuela faces a humanitarian crisis following devastating earthquakes that have resulted in thousands of casualties and widespread displacement. The United Nations has called for international support to address the urgent needs of affected populations, with a significant appeal for funding to assist over a million people (evidence id: 12, 16).",
-      "Poland's relations with Ukraine are strained due to historical grievances, which may impact military cooperation as Poland considers reducing arms aid amidst domestic political pressures. This situation underscores the complexities of regional alliances and the influence of historical narratives on current geopolitical dynamics (evidence id: 11).",
-      "Georgia's absence from the recent NATO summit has sparked concerns about its political isolation and relevance in regional security discussions. This development reflects broader geopolitical shifts and the challenges faced by countries seeking closer ties with Western institutions amid evolving security landscapes (evidence id: 17)."
+      "Recent developments highlight a significant humanitarian crisis in Venezuela following two powerful earthquakes, resulting in over 4,000 fatalities and extensive international aid appeals. The United Nations has called for sustained support to address the urgent needs of affected populations, emphasizing the importance of humanitarian law and international cooperation in crisis response (evidence id: 12, 13).",
+      "In Ukraine, the ongoing conflict has seen a marked escalation, with recent missile and drone attacks resulting in civilian casualties and infrastructure damage. The U.S. has pledged to support Ukraine's defense capabilities by allowing the production of Patriot missile systems domestically, a move that could enhance Ukraine's military resilience against Russian aggression (evidence id: 10, 24).",
+      "Poland's military aid to Ukraine is under scrutiny amid historical tensions, as domestic political disputes threaten to impact military cooperation. The Polish government faces pressure to balance historical grievances with the need for a united front against Russian threats, complicating the regional security landscape (evidence id: 11).",
+      "Georgia's absence from recent NATO discussions raises concerns about its political isolation and relevance in regional security matters. The lack of representation at the NATO summit has sparked debates within Georgia regarding its strategic partnerships and future alignment with Western institutions (evidence id: 17)."
     ],
     "key_judgments": [
       {
-        "title": "Escalation of Military Conflict in Ukraine",
-        "finding": "Russia's recent missile and drone attacks on Ukraine have resulted in civilian casualties and highlight the urgent need for enhanced air defense systems.",
+        "title": "Venezuela's Humanitarian Crisis",
+        "finding": "The aftermath of the earthquakes in Venezuela has led to a humanitarian emergency, with over 4,000 deaths and significant international aid requirements.",
+        "citations": [
+          "12",
+          "13"
+        ]
+      },
+      {
+        "title": "Ukraine's Military Support from the U.S.",
+        "finding": "The U.S. has committed to allowing Ukraine to produce Patriot missile systems, enhancing its defense capabilities against ongoing Russian attacks.",
         "citations": [
           "10",
           "24"
         ]
       },
       {
-        "title": "Humanitarian Crisis in Venezuela",
-        "finding": "The aftermath of the earthquakes in Venezuela has led to a significant humanitarian crisis, with calls for international assistance to support affected populations.",
-        "citations": [
-          "12",
-          "16"
-        ]
-      },
-      {
-        "title": "Strained Polish-Ukrainian Relations",
-        "finding": "Historical grievances are impacting Poland's military support for Ukraine, potentially affecting regional security cooperation.",
+        "title": "Poland's Military Aid Controversy",
+        "finding": "Domestic political tensions in Poland threaten to undermine military support for Ukraine, complicating regional security dynamics.",
         "citations": [
           "11"
         ]
       },
       {
-        "title": "Georgia's Political Isolation",
-        "finding": "Georgia's exclusion from the NATO summit raises concerns about its political influence and future in regional security discussions.",
+        "title": "Georgia's NATO Representation Issues",
+        "finding": "Georgia's exclusion from NATO discussions signals potential political isolation and raises questions about its future role in regional security.",
         "citations": [
           "17"
         ]
@@ -45,49 +45,58 @@
     ],
     "regional_read": [
       {
-        "region": "Europe and Russia",
-        "assessment": "The ongoing military conflict in Ukraine continues to escalate, with significant implications for regional security and humanitarian conditions.",
+        "region": "Americas",
+        "assessment": "Venezuela faces a dire humanitarian situation following devastating earthquakes, necessitating international support and adherence to humanitarian principles.",
         "citations": [
-          "10",
-          "11",
-          "17"
+          "12",
+          "13"
         ]
       },
       {
-        "region": "Americas",
-        "assessment": "Venezuela's humanitarian crisis following the earthquakes necessitates urgent international support, while Poland's political dynamics may affect its military commitments to Ukraine.",
+        "region": "Europe and Russia",
+        "assessment": "The conflict in Ukraine continues to escalate, with significant military and humanitarian implications as Western support evolves.",
         "citations": [
-          "12",
-          "16"
+          "10",
+          "11",
+          "24"
+        ]
+      },
+      {
+        "region": "Global Institutions",
+        "assessment": "The geopolitical landscape is increasingly influenced by historical grievances and current conflicts, affecting international cooperation and security frameworks.",
+        "citations": [
+          "11",
+          "17"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "Ukraine's Air Defense Capabilities",
-        "why_it_matters": "The ability to produce Patriot missiles domestically could significantly enhance Ukraine's defense against Russian attacks.",
+        "label": "Venezuela Earthquake Response",
+        "why_it_matters": "The scale of the humanitarian crisis in Venezuela requires urgent international attention and resources to prevent further loss of life.",
         "citations": [
+          "12",
+          "13"
+        ]
+      },
+      {
+        "label": "Ukraine's Defense Capabilities",
+        "why_it_matters": "The ability of Ukraine to produce its own defense systems could significantly alter the balance of power in the ongoing conflict with Russia.",
+        "citations": [
+          "10",
           "24"
         ]
       },
       {
-        "label": "Venezuela's Humanitarian Response",
-        "why_it_matters": "The international community's response to Venezuela's humanitarian crisis will be critical in addressing the needs of millions affected by the earthquakes.",
-        "citations": [
-          "12",
-          "16"
-        ]
-      },
-      {
-        "label": "Poland's Military Aid to Ukraine",
-        "why_it_matters": "Changes in Poland's military support for Ukraine could alter the balance of power in the region and affect NATO's collective security posture.",
+        "label": "Poland's Military Aid Dynamics",
+        "why_it_matters": "Political disputes in Poland may hinder military support for Ukraine, impacting regional security against Russian aggression.",
         "citations": [
           "11"
         ]
       },
       {
-        "label": "Georgia's NATO Aspirations",
-        "why_it_matters": "Georgia's exclusion from NATO discussions may hinder its aspirations for closer ties with Western institutions and impact regional stability.",
+        "label": "Georgia's NATO Engagement",
+        "why_it_matters": "Georgia's absence from NATO discussions could indicate a shift in its geopolitical standing and affect its security partnerships.",
         "citations": [
           "17"
         ]
@@ -8687,7 +8696,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-11T21:42:06.192537+00:00",
+      "collected_at": "2026-07-11T22:41:13.076227+00:00",
       "published": "",
       "text_chars": 9129274,
       "raw_path": "data/geopolitics/raw/8f0ef27af29ca41c471db4321a28fa523643e8ee7abe2df9a443d8a89ad660f7.xml",
@@ -10522,7 +10531,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-11T21:41:27.218488+00:00",
+      "collected_at": "2026-07-11T22:40:34.376268+00:00",
       "published": "",
       "text_chars": 6243887,
       "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
@@ -10674,7 +10683,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-11T21:41:27.503430+00:00",
+      "collected_at": "2026-07-11T22:40:34.097129+00:00",
       "published": "",
       "text_chars": 6161766,
       "raw_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json.raw",
@@ -10904,87 +10913,6 @@
   ],
   "documents": [
     {
-      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "topic": "geopolitics",
-      "title": "United Nations Charter",
-      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
-      "host": "treaties.un.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-07-11T21:42:14.778431+00:00",
-      "published": "",
-      "text_chars": 89992,
-      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
-      "summary": "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
-      "bullets": [
-        "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
-        "Article 5 / A Member of the United Nations against which preventive or enforcement action has been taken by the Security Council may be suspended from the exercise of the rights and privileges of mem- bership by the General Assembly upon the recom- mendation of the Security Council.",
-        "Article 6 A Member of the United Nations which has persistently violated the Principles contained in the present Charter may be expelled from the Organization by the General Assembly upon the recommendation of the Security Council.",
-        "Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
-        "CHAPTER I PURPOSES AND PRINCIPLES Article 1 The^Purposes of the United Nations are: 1."
-      ],
-      "excerpt": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 160
-        },
-        {
-          "name": "court",
-          "value": 155
-        },
-        {
-          "name": "security",
-          "value": 148
-        },
-        {
-          "name": "united",
-          "value": 127
-        },
-        {
-          "name": "nations",
-          "value": 121
-        },
-        {
-          "name": "members",
-          "value": 116
-        },
-        {
-          "name": "general",
-          "value": 94
-        },
-        {
-          "name": "assembly",
-          "value": 83
-        },
-        {
-          "name": "international",
-          "value": 79
-        },
-        {
-          "name": "member",
-          "value": 59
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation",
-        "Humanitarian Pressure"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "detail_path": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
-    },
-    {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
       "title": "ICRC International Humanitarian Law Handbook",
@@ -10994,7 +10922,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-11T21:42:13.966220+00:00",
+      "collected_at": "2026-07-11T22:41:21.191780+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -11066,6 +10994,160 @@
       "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
+      "id": "fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-07-11T22:41:15.956578+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.html",
+      "text_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
+      "evidence_json": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.json"
+    },
+    {
+      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "topic": "geopolitics",
+      "title": "United Nations Charter",
+      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
+      "host": "treaties.un.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-07-11T22:41:15.932720+00:00",
+      "published": "",
+      "text_chars": 89992,
+      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
+      "summary": "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
+      "bullets": [
+        "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
+        "Article 5 / A Member of the United Nations against which preventive or enforcement action has been taken by the Security Council may be suspended from the exercise of the rights and privileges of mem- bership by the General Assembly upon the recom- mendation of the Security Council.",
+        "Article 6 A Member of the United Nations which has persistently violated the Principles contained in the present Charter may be expelled from the Organization by the General Assembly upon the recommendation of the Security Council.",
+        "Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
+        "CHAPTER I PURPOSES AND PRINCIPLES Article 1 The^Purposes of the United Nations are: 1."
+      ],
+      "excerpt": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 160
+        },
+        {
+          "name": "court",
+          "value": 155
+        },
+        {
+          "name": "security",
+          "value": 148
+        },
+        {
+          "name": "united",
+          "value": 127
+        },
+        {
+          "name": "nations",
+          "value": 121
+        },
+        {
+          "name": "members",
+          "value": 116
+        },
+        {
+          "name": "general",
+          "value": 94
+        },
+        {
+          "name": "assembly",
+          "value": 83
+        },
+        {
+          "name": "international",
+          "value": 79
+        },
+        {
+          "name": "member",
+          "value": 59
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "detail_path": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -11075,7 +11157,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-11T21:42:08.485484+00:00",
+      "collected_at": "2026-07-11T22:41:15.126644+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11147,79 +11229,6 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-07-11T21:42:06.369153+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.html",
-      "text_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
-      "evidence_json": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.json"
-    },
-    {
       "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
       "topic": "geopolitics",
       "title": "Ne 10m Admin 0 Disputed Areas",
@@ -11229,7 +11238,7 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-07-11T21:42:06.300349+00:00",
+      "collected_at": "2026-07-11T22:41:13.112281+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -11299,7 +11308,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-11T21:42:06.192537+00:00",
+      "collected_at": "2026-07-11T22:41:13.076227+00:00",
       "published": "",
       "text_chars": 9129274,
       "raw_path": "data/geopolitics/raw/8f0ef27af29ca41c471db4321a28fa523643e8ee7abe2df9a443d8a89ad660f7.xml",
@@ -11379,7 +11388,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-11T21:41:31.283101+00:00",
+      "collected_at": "2026-07-11T22:40:38.180632+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/5943dbbf6be05c843c0731eb9d60f7057e4398f2d30cea6d0036c92845e3bbb3.xml",
@@ -11459,7 +11468,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-07-11T21:41:29.545253+00:00",
+      "collected_at": "2026-07-11T22:40:36.363638+00:00",
       "published": "",
       "text_chars": 824840,
       "raw_path": "data/geopolitics/raw/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6.xml",
@@ -11530,6 +11539,81 @@
       "evidence_json": "/evidence/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6.json"
     },
     {
+      "id": "5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-07-11T22:40:34.376268+00:00",
+      "published": "",
+      "text_chars": 6243887,
+      "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
+      "text_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17490
+        },
+        {
+          "name": "imports",
+          "value": 17490
+        },
+        {
+          "name": "sipri",
+          "value": 17490
+        },
+        {
+          "name": "status",
+          "value": 17490
+        },
+        {
+          "name": "trend",
+          "value": 17490
+        },
+        {
+          "name": "unit",
+          "value": 17490
+        },
+        {
+          "name": "values",
+          "value": 17490
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
+      "evidence_json": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json"
+    },
+    {
       "id": "60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -11539,7 +11623,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-11T21:41:27.503430+00:00",
+      "collected_at": "2026-07-11T22:40:34.097129+00:00",
       "published": "",
       "text_chars": 6161766,
       "raw_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json.raw",
@@ -11605,81 +11689,6 @@
       ],
       "detail_path": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
       "evidence_json": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json"
-    },
-    {
-      "id": "5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-11T21:41:27.218488+00:00",
-      "published": "",
-      "text_chars": 6243887,
-      "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
-      "text_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17490
-        },
-        {
-          "name": "imports",
-          "value": 17490
-        },
-        {
-          "name": "sipri",
-          "value": 17490
-        },
-        {
-          "name": "status",
-          "value": 17490
-        },
-        {
-          "name": "trend",
-          "value": 17490
-        },
-        {
-          "name": "unit",
-          "value": 17490
-        },
-        {
-          "name": "values",
-          "value": 17490
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
-      "evidence_json": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json"
     },
     {
       "id": "d1d2db881327e1369790895d2bebb3629c15ab1410bd24b647b177170d1d901e",
@@ -15476,87 +15485,6 @@
   "cited_evidence": [],
   "evidence": [
     {
-      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "topic": "geopolitics",
-      "title": "United Nations Charter",
-      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
-      "host": "treaties.un.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-07-11T21:42:14.778431+00:00",
-      "published": "",
-      "text_chars": 89992,
-      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
-      "summary": "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
-      "bullets": [
-        "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
-        "Article 5 / A Member of the United Nations against which preventive or enforcement action has been taken by the Security Council may be suspended from the exercise of the rights and privileges of mem- bership by the General Assembly upon the recom- mendation of the Security Council.",
-        "Article 6 A Member of the United Nations which has persistently violated the Principles contained in the present Charter may be expelled from the Organization by the General Assembly upon the recommendation of the Security Council.",
-        "Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
-        "CHAPTER I PURPOSES AND PRINCIPLES Article 1 The^Purposes of the United Nations are: 1."
-      ],
-      "excerpt": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 160
-        },
-        {
-          "name": "court",
-          "value": 155
-        },
-        {
-          "name": "security",
-          "value": 148
-        },
-        {
-          "name": "united",
-          "value": 127
-        },
-        {
-          "name": "nations",
-          "value": 121
-        },
-        {
-          "name": "members",
-          "value": 116
-        },
-        {
-          "name": "general",
-          "value": 94
-        },
-        {
-          "name": "assembly",
-          "value": 83
-        },
-        {
-          "name": "international",
-          "value": 79
-        },
-        {
-          "name": "member",
-          "value": 59
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation",
-        "Humanitarian Pressure"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "detail_path": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
-    },
-    {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
       "title": "ICRC International Humanitarian Law Handbook",
@@ -15566,7 +15494,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-11T21:42:13.966220+00:00",
+      "collected_at": "2026-07-11T22:41:21.191780+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -15638,6 +15566,160 @@
       "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
+      "id": "fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-07-11T22:41:15.956578+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.html",
+      "text_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
+      "evidence_json": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.json"
+    },
+    {
+      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "topic": "geopolitics",
+      "title": "United Nations Charter",
+      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
+      "host": "treaties.un.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-07-11T22:41:15.932720+00:00",
+      "published": "",
+      "text_chars": 89992,
+      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
+      "summary": "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
+      "bullets": [
+        "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
+        "Article 5 / A Member of the United Nations against which preventive or enforcement action has been taken by the Security Council may be suspended from the exercise of the rights and privileges of mem- bership by the General Assembly upon the recom- mendation of the Security Council.",
+        "Article 6 A Member of the United Nations which has persistently violated the Principles contained in the present Charter may be expelled from the Organization by the General Assembly upon the recommendation of the Security Council.",
+        "Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
+        "CHAPTER I PURPOSES AND PRINCIPLES Article 1 The^Purposes of the United Nations are: 1."
+      ],
+      "excerpt": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 160
+        },
+        {
+          "name": "court",
+          "value": 155
+        },
+        {
+          "name": "security",
+          "value": 148
+        },
+        {
+          "name": "united",
+          "value": 127
+        },
+        {
+          "name": "nations",
+          "value": 121
+        },
+        {
+          "name": "members",
+          "value": 116
+        },
+        {
+          "name": "general",
+          "value": 94
+        },
+        {
+          "name": "assembly",
+          "value": 83
+        },
+        {
+          "name": "international",
+          "value": 79
+        },
+        {
+          "name": "member",
+          "value": 59
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "detail_path": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -15647,7 +15729,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-11T21:42:08.485484+00:00",
+      "collected_at": "2026-07-11T22:41:15.126644+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15719,79 +15801,6 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-07-11T21:42:06.369153+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.html",
-      "text_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
-      "evidence_json": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.json"
-    },
-    {
       "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
       "topic": "geopolitics",
       "title": "Ne 10m Admin 0 Disputed Areas",
@@ -15801,7 +15810,7 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-07-11T21:42:06.300349+00:00",
+      "collected_at": "2026-07-11T22:41:13.112281+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -15871,7 +15880,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-11T21:42:06.192537+00:00",
+      "collected_at": "2026-07-11T22:41:13.076227+00:00",
       "published": "",
       "text_chars": 9129274,
       "raw_path": "data/geopolitics/raw/8f0ef27af29ca41c471db4321a28fa523643e8ee7abe2df9a443d8a89ad660f7.xml",
@@ -15951,7 +15960,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-11T21:41:31.283101+00:00",
+      "collected_at": "2026-07-11T22:40:38.180632+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/5943dbbf6be05c843c0731eb9d60f7057e4398f2d30cea6d0036c92845e3bbb3.xml",
@@ -16031,7 +16040,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-07-11T21:41:29.545253+00:00",
+      "collected_at": "2026-07-11T22:40:36.363638+00:00",
       "published": "",
       "text_chars": 824840,
       "raw_path": "data/geopolitics/raw/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6.xml",
@@ -16102,6 +16111,81 @@
       "evidence_json": "/evidence/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6.json"
     },
     {
+      "id": "5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-07-11T22:40:34.376268+00:00",
+      "published": "",
+      "text_chars": 6243887,
+      "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
+      "text_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17490
+        },
+        {
+          "name": "imports",
+          "value": 17490
+        },
+        {
+          "name": "sipri",
+          "value": 17490
+        },
+        {
+          "name": "status",
+          "value": 17490
+        },
+        {
+          "name": "trend",
+          "value": 17490
+        },
+        {
+          "name": "unit",
+          "value": 17490
+        },
+        {
+          "name": "values",
+          "value": 17490
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
+      "evidence_json": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json"
+    },
+    {
       "id": "60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -16111,7 +16195,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-11T21:41:27.503430+00:00",
+      "collected_at": "2026-07-11T22:40:34.097129+00:00",
       "published": "",
       "text_chars": 6161766,
       "raw_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json.raw",
@@ -16177,81 +16261,6 @@
       ],
       "detail_path": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
       "evidence_json": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json"
-    },
-    {
-      "id": "5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-11T21:41:27.218488+00:00",
-      "published": "",
-      "text_chars": 6243887,
-      "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
-      "text_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17490
-        },
-        {
-          "name": "imports",
-          "value": 17490
-        },
-        {
-          "name": "sipri",
-          "value": 17490
-        },
-        {
-          "name": "status",
-          "value": 17490
-        },
-        {
-          "name": "trend",
-          "value": 17490
-        },
-        {
-          "name": "unit",
-          "value": 17490
-        },
-        {
-          "name": "values",
-          "value": 17490
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
-      "evidence_json": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json"
     },
     {
       "id": "36b1568bd912a1645d13f3ff488d8e99f59d65e3168db75fc7d561a7134fb61e",
