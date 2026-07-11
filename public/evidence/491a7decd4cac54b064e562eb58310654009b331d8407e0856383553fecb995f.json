@@ -75,87 +75,6 @@
   "full_text": "Between February 2022 and September 2025, Bellingcat staff and volunteers collected, geolocated, and \nshared more than 2,500 incidents\n of civilian harm following Russia’s full-scale invasion of Ukraine. \n\nAs part of this effort, Bellingcat tested a new machine learning model intended to rank Telegram social media posts on their likelihood of containing incidents of civilian harm. \n\nThis novel methodology dramatically reduced the search and selection time required, freeing researchers to focus on verifying incidents of civilian harm – not just searching for them. \n\nThis piece documents our methodology, ethical considerations and lessons learned in the hope that others researching similar topics can benefit from our work. \n\nOpen source research into civilian harm is still a relatively new field and it presents many challenges – one of the biggest is organising and sorting through the huge volume of user generated content being produced to find what is relevant. \n\nMachine learning, a form of artificial intelligence that uses algorithms to identify patterns from large amounts of data and make predictions, can make this task more efficient.\n\nWith ongoing conflicts involving large amounts of civilian harm occurring in Sudan, and much of the Middle East, this guide aims to offer those covering these conflicts an example of how machine learning can be used to help find and sort incidents. You can also access the \nCode Notebook\n for our model \nhere.\n\nWe defined “civilian harm” not just as civilian deaths or injuries resulting from armed conflict, but also the broader and delayed effects on civilians from mental trauma, loss of livelihood, displacement, destruction of infrastructure and more. This definition was informed by the Protection of Civilians \nbook\n \non civilian harm. \n\nInitial Telegram Dataset \n\nEach Telegram post containing civilian harm which had already been manually verified by researchers was used to build an initial dataset of confirmed cases of civilian harm, which data scientists call \npositive instances. We collected a total of 5,848 unique URLs for these Telegram posts. For our manual collection we reviewed posts on relevant Telegram channels, working through oldest to newest posts each day. Assuming that a given post made it to our geolocated incidents list, it meant the researcher who flagged it also looked at the posts that appeared before and after it on Telegram and did not flag those ones, so we selected the 10 posts surrounding the verified civilian harm post as our additional dataset of posts that did not contain civilian harm. After excluding any deleted or duplicate posts, we ended up with 48,545 non-civilian harm posts, our \nnegative instances. \n\nThe choice to overrepresent negative instances aims at better reflecting the real world and increasing data available for model training. \n\nWe enriched each URL with metadata from the Telegram API, such as the time of publication, reactions or textual content. As some of these posts had been deleted, we completed the missing data points with previously preserved versions from our \nAuto Archiver\n database, only available for the positive instances.\n\nFeature Engineering\n\nTraining a machine learning model requires numerical data, as these models compute a prediction score based on mathematical operations.\n\nWe built these by converting raw data from our initial dataset, such as keywords signalling potential civilian harm, into numerical scores (or “features”) that the model could interpret, with the aim of increasing the model’s ability to identify patterns. This process, known as \nfeature engineering, can significantly improve model results because it allows data scientists to suggest explicit context knowledge. \n\nA full list of features we used to train the model can be found in the \ncode notebook \naccompanying this piece. Many features were directly inspired by researchers’ input from their experiences manually screening cases of civilian harm by sorting through a set number of Telegram channels and inspecting each post individually.\n\nSeveral of the features used were directly built from the metadata contained in each Telegram post including \nmedia_type, \nday_of_week; or binary ones: \nforwarded, \nedited and\n \nreply_to. \n\nOther features included engagement information: \nviews, \nforwards, \ntotal_reactions, and even individual features for most used emojis including the \nreaction_crying_face\n to count 😭 emoji.\n\nConverting Text to Numbers \n\nTo embed the experience from the manual collection process, researchers put together a list of keywords both in Ukrainian and Russian that, to them, signalled posts likely to  show civilian harm. For instance, “Шахед” and “КАБ” translated to “Shahed” and “Guided aerial bomb” respectively. We created a numerical feature to count their frequency. \n\nIn addition, we included several generic English-language keywords which meaningfully signalled potential civilian harm, such as “injured”, “school affected” and “hospital affected” that were only used for generating semantic similarity scores. \n\nA semantic similarity score is a calculation used to determine the proximity in meaning between different words and phrases. To get the semantic similarity between the post text and each of our keywords, we represented each in a list of numbers via a \nSentence Transformer model, which converts words into numerical representations called vectors that a computer can understand. \n\nWe then calculated the level of similarity between each vector using \ncosine similarity, one of the most popular methods for measuring similarity between two pieces of text.\n\nDue to how embeddings work, this calculation results in a figure on a scale from -1 (no semantic proximity) to 1 (same meaning). For example, the words “hurt” and “injured” would have a high similarity score, while “residential” and “injured” would have a negative score as the words are not semantically similar. \n\nFinally, to enable the model to identify the relevance of each post to civilian harm in Ukraine, we used a \nmultilingual text transformer\n from the \nBERT\n family of language models to represent the entire post’s text as a vector of 768 numerical values. This model can efficiently represent text from many languages in a way that captures meaning: the same sentence in different languages will generate similar embeddings, and trained machine learning models can detect patterns in the embeddings. \n\nIt is important to note that for this initial prototype of a civilian harm detection model, we did not include any features derived from media content such as photos and videos, although that would be a logical next step in attempting to improve model performance.\n\nSelecting, Training and Evaluating Models\n\nWith 54,393 rows of 893 numerical features each, we selected four machine learning algorithms to train our predictive models. \n\nWe chose \nLogistic Regression\n as a baseline algorithm due to its simplicity. We also selected three other “best in class” models, \nRandom Forest, \nXGBoost, and \nLightGBM. These choices centred on the \ninterpretability\n of the models and their ability to work on tabular data of this size. For example, we avoided neural networks due to a lack of interpretability and because those models work best with a larger dataset. \n\nTo genuinely assess the performance of the trained models, we split our dataset into three parts:  \n\nA training set – the data the models were trained on (60 percent of the full dataset’s rows)\n\nA validation set – used for an intermediary evaluation when tuning model parameters (20 percent of all rows)\n\nA test set – hidden for the final performance assessment, so the models were evaluated on unseen data (remaining 20 percent of rows)\n\nWe used a \nstratified split\n to divide the dataset instead of a random split. This method ensured the proportion of positive instances (i.e. confirmed cases of civilian harm) remained consistent across all three sets at about 11 percent.\n\nTo measure the performance of machine learning models, we ran them through the test set and measured the number of correct and incorrect predictions. Models output a likelihood between 0 and 1 that each Telegram post contains civilian harm, and we tried to find a cut-off threshold that leads to a good balance between flagging almost every post (0.1) or flagging very few (0.9). \n\nThere are two main types of evaluation metrics to gauge a model’s prediction power. \nRecall\n asserts what fraction of positive instances (i.e. known civilian harm posts) were correctly flagged as such. \nPrecision\n measures the fraction of posts flagged as civilian harm that are indeed civilian harm posts.\n\nDuring the training phase, we tuned the models to maximise \naverage precision\n (PR-AUC), a metric that summarises precision across all recall levels. While this method also accounts for precision, it prioritises recall, which is preferable for this use case as it steers model selection to reduce the number of civilian harm posts that are skipped. \n\nThe following table sorts models from best to worst PR-AUC against a baseline of a coin-flip predictor. ROC-AUC and F1 are two other evaluation metrics included as sanity checks. Simply put, ROC-AUC measures the probability of ranking two instances, one negative and one positive, correctly; F1 balances precision and recall equally and its best cut-off threshold value.\n\nModel test scores comparison, XGBoost stands out in every relevant metric evaluated. \n\nFrom these results, we selected XGBoost as our final model as it had the best scores when compared across all metrics.\n\nInterpreting the Model\n\nBecause these models are interpretable, we can understand which features are the most useful when predicting whether a post includes civilian harm. The above table shows the top 10 features that most strongly signal the XGBoost model to make a decision:\n\nsemantic_keywords_similarity: the semantic proximity between the post text and manually selected keywords “casualties”, “damage” and “civilian harm”\n\nbert:  the model was able to discern meaning from the text with the same strength as some of the other features in this list – there are three cases of this in the top 10\n\nreaction_crying_face: reactions with crying face emojis on the post\n\ngroup_of_messages: whether a post contains multiple media files\n\nkeywords_in_text: the number of custom Ukrainian or Russian keywords in the post\n\nThese results generally tally with what you might expect when selecting Telegram posts for instances of civilian harm, including that posts that generate a lot of emotional engagement and posts using keywords about civilian harm were among those most likely to contain content related to this topic. Not all models had the same top features as XGBoost. In fact, for the Random Forest model the most important feature was the number of crying face emojis present in a post, a soft pattern highlighted by researchers when this methodology was first imagined.\n\nLLM Results and Comparison\n\nRetroactively, we decided to run a sample of the same test dataset through different large language models (LLMs) to gauge their ability to make these same predictions. \n\nWe aimed to include an LLM-generated score as an extra feature for our trained models, which would be captured as relevant if it correlated with the correct predictions. \n\nTo start, we selected two local models, the 1B and 4B variants of Gemma 3 from Google DeepMind, and two cloud-hosted models, Gemini 2.5 flash and Gemini 3.5 flash. With this selection, we hoped to compare results across a wide range of models’ expected performance. \n\nWe generated a 400-row stratified sample (preserving the same proportion of real civilian harm instances) from the test dataset used for the custom models. For each of the four LLM models, we ran two tests: one where only the Telegram post message was sent, and another including both the message and the engineered features (excluding the text embeddings, as the model had direct access to the text). In the prompt for each model, we asked for a score between 0 and 1. We then evaluated the results as we did for the custom models. \n\nThe above table shows that LLMs can indeed extract value from the engineered features. All four LLMs surpassed the baseline Logistic Regression model in our tests, yet none of them performed better than the other custom-trained models, and XGBoost remained the one with the highest PR-AUC. \n\nStill, Gemini 2.5 Flash performed better than its newer version 3.5 and even achieved a slightly higher best F1 score than any other model. While this is a good result, for the flagging of civilian harm posts, the PR-AUC remains the crucial metric, as it captures the model’s ability to identify infrequent instances of civilian harm while minimising false positives.\n\nEthical Considerations\n\nIntroducing an instrument of automated decision-making into a process of detecting civilian harm brings inherent ethical questions. These include automation bias, or how humans tend to blindly place faith in machine-generated recommendations; algorithmic bias, or how the results of these models echo the same patterns present in the training data, including under- or over-representation of types of civilian harm. \n\nThe decision to test an automated methodology for this particular project came from the fact that there were limited resources for both steps in the process – the detection of potential civilian harm and its actual verification. Historically, we built an enormous backlog of unverified incidents because a lot of time had to be spent on monitoring the most recent events so that potential evidence would be captured and preserved as soon as possible. \n\nThe automation of this process also reduced the exposure of researchers to a significant amount of unpleasant and distressing visual and text content, reducing the burden of exposure to traumatic content. \n\nFor this project, we tried to ameliorate the ethical challenges with a number of strategies including randomly flagging posts not captured by any model, monitoring which features models relied on to make decisions, and by doing historical comparisons of patterns in data. \n\nAdditionally, as stated above, for this initial prototype of a civilian harm detection model we did not include any features derived from the media content itself. In the future, it would be a logical next step in attempting to improve the model performance, to include the media from the posts – but using AI to review actual media comes with additional ethical challenges such as \nmodel bias.\n\nBecause of the opaque ownership of many LLM companies and their generative nature, the use of LLMs for an extra feature presented additional ethical challenges including privacy and safety concerns considering the sensitive nature of the data. Our model did not rely on LLMs, though we retroactively ran a sample through it. \n\nHow the Model Fits into the Bigger Picture \n\nAfter selecting this model, we created a user interface where researchers could view a list of Telegram posts sorted from most to least likely to contain indications of civilian harm. The user interface was designed for quick triage and integration, where a positive confirmation from researchers would instantly send the post to the \nAuto Archiver\n (Bellingcat’s tool for preserving digital content) and then transfer it to \nATLOS\n (our internal collaborative verification platform). Bellingcat staff and volunteers could then manually verify incidents. Researcher input was constantly stored so that this data could be used to improve the model in the future. \n\nPreliminary feedback indicated that the AI model was useful. Not only were we able to reduce time and harm from scouring through dozens of war reporting Telegram channels, researchers also reported that the stream of new posts being added to the verification backlog were capturing real and diverse cases of civilian harm. \n\nDespite the focus on civilian harm and Telegram (\nhighly popular\n in Ukraine and Russia), this pipeline is generic and can be adapted to other conflict monitoring tasks. How easily this can be done does depend on how open the social media platform is and whether it is possible to scrape posts from it. Apart from that, it is easy to incorporate new features and data, and cheap to automatically retrain, test and deploy models as the system receives more human input.  \n\nLooking forward, sorting through overwhelming amounts of data in a conflict will continue to be challenging. Hopefully, this methodology can help newsrooms, conflict monitoring organisations, and others find the balance between ethical considerations and resources in order to carry out open source investigations on civilian harm and human rights violations. \n\nBellingcat is a non-profit and the ability to carry out our work is dependent on the kind support of individual donors. If you would like to support our work, you can do so \nhere. You can also subscribe to our Patreon channel \nhere. Subscribe to our \nNewsletter\n and follow us on Bluesky \nhere, Instagram \nhere, Reddit \nhere \nand YouTube \nhere.",
   "related": [
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-07-11T07:08:52.470675+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -165,7 +84,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-11T07:08:46.903366+00:00",
+      "collected_at": "2026-07-11T09:20:21.222823+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -237,6 +156,87 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-07-11T09:20:16.051794+00:00",
+      "published": "",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 512
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "conflict",
+          "value": 267
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 209
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -246,7 +246,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-11T07:08:44.966630+00:00",
+      "collected_at": "2026-07-11T09:20:12.228796+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -327,7 +327,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-11T07:08:40.951582+00:00",
+      "collected_at": "2026-07-11T09:20:10.415660+00:00",
       "published": "",
       "text_chars": 9129274,
       "raw_path": "data/geopolitics/raw/8f0ef27af29ca41c471db4321a28fa523643e8ee7abe2df9a443d8a89ad660f7.xml",
@@ -396,6 +396,86 @@
       ],
       "detail_path": "/evidence/8f0ef27af29ca41c471db4321a28fa523643e8ee7abe2df9a443d8a89ad660f7",
       "evidence_json": "/evidence/8f0ef27af29ca41c471db4321a28fa523643e8ee7abe2df9a443d8a89ad660f7.json"
+    },
+    {
+      "id": "5943dbbf6be05c843c0731eb9d60f7057e4398f2d30cea6d0036c92845e3bbb3",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
+      "host": "treasury.gov",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "text/xml",
+      "collected_at": "2026-07-11T09:19:45.046806+00:00",
+      "published": "",
+      "text_chars": 392158,
+      "raw_path": "data/geopolitics/raw/5943dbbf6be05c843c0731eb9d60f7057e4398f2d30cea6d0036c92845e3bbb3.xml",
+      "text_path": "data/geopolitics/raw/5943dbbf6be05c843c0731eb9d60f7057e4398f2d30cea6d0036c92845e3bbb3.txt",
+      "summary": "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a. strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
+      "bullets": [
+        "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a.",
+        "strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a.",
+        "strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
+        "strong HASAN DOUKHAN Abdul Fattah 4709 1936 true 9649 Ibrahim Mohammed DAHBOUR Individual NS-PLC 12132 Jenin West Bank Palestinian 4710 1968 true 9650 Mariam Mahmoud SALEH Individual NS-PLC 12133 Ramallah West Bank Palestinian 4711 1952 true 9651 Fathi Mohammed QAR'AWI Individual NS-PLC 9162 a.k.a.",
+        "strong NAWFAL Imad Mahmoud 12136 Qalqilya West Bank Palestinian 4716 1970 true 9654 Omar Mahmoud MATAR Individual NS-PLC 12137 Salfit West Bank Palestinian 4717 1958 true 9655 Muna Salim Saleh MANSOUR Individual NS-PLC 9165 a.k.a."
+      ],
+      "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Mohammad Mahmoud 4698 1951 true 4699 Umm Tuba true 9641 Jamileh Abdullah AL-SHANTI Individual NS-PLC 9154 a.k.a. strong EL-SHANTI Jameela Abdallah 9155 a.k.a. strong AL SHANTEE Jamila Abed Allah 12128 Gaza Palestinian 4700 1955 true 4701 Jabalia Camp true 9642 Mohammed Jamal NU'MAN ALAEDDIN Individual NS-PLC 9156 a.k.a. strong ALA AL DIN Mohamad Nouman 9157 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a. strong RABBAI Khalil Mussa 4705 1959 true 9645 Huda Naim AL-QREINAWI Individual NS-PLC 9159 a.k.a. strong AL QRENAWI Houda Naim 12130 Gaza Palestinian 4706 1969 true 9646 Mahmoud Ahmad AL-RAMAHI Individual NS-PLC 12131 Ramallah West Bank Palestinian 4707 1963 true 9647 Mahmoud Khaled ZAHHAR Individual (Linked To: HAMAS) NS-PLC SDGT 16681",
+      "keywords": [
+        {
+          "name": "sanctions",
+          "value": 942
+        },
+        {
+          "name": "russia",
+          "value": 663
+        },
+        {
+          "name": "ukraine",
+          "value": 565
+        },
+        {
+          "name": "executive",
+          "value": 440
+        },
+        {
+          "name": "order",
+          "value": 439
+        },
+        {
+          "name": "entity",
+          "value": 383
+        },
+        {
+          "name": "risk",
+          "value": 372
+        },
+        {
+          "name": "information",
+          "value": 370
+        },
+        {
+          "name": "subject",
+          "value": 323
+        },
+        {
+          "name": "treasury",
+          "value": 313
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/5943dbbf6be05c843c0731eb9d60f7057e4398f2d30cea6d0036c92845e3bbb3",
+      "evidence_json": "/evidence/5943dbbf6be05c843c0731eb9d60f7057e4398f2d30cea6d0036c92845e3bbb3.json"
     },
     {
       "id": "1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6",
@@ -476,86 +556,6 @@
       ],
       "detail_path": "/evidence/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6",
       "evidence_json": "/evidence/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6.json"
-    },
-    {
-      "id": "5943dbbf6be05c843c0731eb9d60f7057e4398f2d30cea6d0036c92845e3bbb3",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
-      "host": "treasury.gov",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "text/xml",
-      "collected_at": "2026-07-11T07:08:04.939708+00:00",
-      "published": "",
-      "text_chars": 392158,
-      "raw_path": "data/geopolitics/raw/5943dbbf6be05c843c0731eb9d60f7057e4398f2d30cea6d0036c92845e3bbb3.xml",
-      "text_path": "data/geopolitics/raw/5943dbbf6be05c843c0731eb9d60f7057e4398f2d30cea6d0036c92845e3bbb3.txt",
-      "summary": "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a. strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
-      "bullets": [
-        "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a.",
-        "strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a.",
-        "strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
-        "strong HASAN DOUKHAN Abdul Fattah 4709 1936 true 9649 Ibrahim Mohammed DAHBOUR Individual NS-PLC 12132 Jenin West Bank Palestinian 4710 1968 true 9650 Mariam Mahmoud SALEH Individual NS-PLC 12133 Ramallah West Bank Palestinian 4711 1952 true 9651 Fathi Mohammed QAR'AWI Individual NS-PLC 9162 a.k.a.",
-        "strong NAWFAL Imad Mahmoud 12136 Qalqilya West Bank Palestinian 4716 1970 true 9654 Omar Mahmoud MATAR Individual NS-PLC 12137 Salfit West Bank Palestinian 4717 1958 true 9655 Muna Salim Saleh MANSOUR Individual NS-PLC 9165 a.k.a."
-      ],
-      "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Mohammad Mahmoud 4698 1951 true 4699 Umm Tuba true 9641 Jamileh Abdullah AL-SHANTI Individual NS-PLC 9154 a.k.a. strong EL-SHANTI Jameela Abdallah 9155 a.k.a. strong AL SHANTEE Jamila Abed Allah 12128 Gaza Palestinian 4700 1955 true 4701 Jabalia Camp true 9642 Mohammed Jamal NU'MAN ALAEDDIN Individual NS-PLC 9156 a.k.a. strong ALA AL DIN Mohamad Nouman 9157 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a. strong RABBAI Khalil Mussa 4705 1959 true 9645 Huda Naim AL-QREINAWI Individual NS-PLC 9159 a.k.a. strong AL QRENAWI Houda Naim 12130 Gaza Palestinian 4706 1969 true 9646 Mahmoud Ahmad AL-RAMAHI Individual NS-PLC 12131 Ramallah West Bank Palestinian 4707 1963 true 9647 Mahmoud Khaled ZAHHAR Individual (Linked To: HAMAS) NS-PLC SDGT 16681",
-      "keywords": [
-        {
-          "name": "sanctions",
-          "value": 942
-        },
-        {
-          "name": "russia",
-          "value": 663
-        },
-        {
-          "name": "ukraine",
-          "value": 565
-        },
-        {
-          "name": "executive",
-          "value": 440
-        },
-        {
-          "name": "order",
-          "value": 439
-        },
-        {
-          "name": "entity",
-          "value": 383
-        },
-        {
-          "name": "risk",
-          "value": 372
-        },
-        {
-          "name": "information",
-          "value": 370
-        },
-        {
-          "name": "subject",
-          "value": 323
-        },
-        {
-          "name": "treasury",
-          "value": 313
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance",
-        "Energy and Supply Chains",
-        "Territory and Chokepoints",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Europe and Russia",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/5943dbbf6be05c843c0731eb9d60f7057e4398f2d30cea6d0036c92845e3bbb3",
-      "evidence_json": "/evidence/5943dbbf6be05c843c0731eb9d60f7057e4398f2d30cea6d0036c92845e3bbb3.json"
     },
     {
       "id": "935ecdae55a1226385cc60a8dad93e81d30add5bc53c33fab81fd54e84344d44",
