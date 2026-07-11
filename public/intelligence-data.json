@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-07-11T18:47:16.426838+00:00",
+  "generated_at": "2026-07-11T20:53:47.603715+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Geopolitical Tensions Escalate Amid Humanitarian Crises and Military Developments",
+    "headline": "Escalating tensions in Ukraine and humanitarian crises in Venezuela dominate geopolitical landscape.",
     "executive_summary": [
-      "Recent developments in Ukraine highlight the ongoing military escalation, with Russia's missile and drone attacks resulting in civilian casualties and infrastructure damage. The Ukrainian Air Force has struggled to intercept these attacks, prompting calls for enhanced air defense support from Western allies, particularly following a significant NATO summit where military aid was pledged.",
-      "In Venezuela, the aftermath of devastating earthquakes has led to a humanitarian crisis, with thousands dead and injured. The United Nations has called for international support to address the urgent needs of affected populations, emphasizing the importance of a coordinated humanitarian response to assist those displaced and in need of basic services.",
-      "Poland's military aid to Ukraine is under scrutiny due to historical tensions, particularly regarding the glorification of the Ukrainian Insurgent Army. This has led to political debates within Poland, potentially impacting future military cooperation with Ukraine as both nations face the threat posed by Russia.",
-      "Georgia's absence from recent NATO discussions has raised concerns about its political isolation and relevance in regional security matters. The lack of representation at the NATO summit has sparked debates within Georgia about its strategic partnerships and future alignment with Western institutions."
+      "The ongoing conflict in Ukraine has seen a significant escalation, with recent missile and drone attacks resulting in civilian casualties and damage to critical infrastructure. The Ukrainian Air Force reported that despite downing many drones, several ballistic missiles breached defenses, highlighting the urgent need for enhanced air defense systems, including the potential production of Patriot missiles domestically, as discussed in recent NATO meetings (evidence id: 10, 24).",
+      "In parallel, Poland's military support for Ukraine is under scrutiny due to historical tensions, particularly regarding the glorification of the Ukrainian Insurgent Army. This has led to political debates within Poland about the future of military aid to Ukraine, which is critical as both nations face the threat from Russia (evidence id: 11).",
+      "Meanwhile, Venezuela is grappling with a humanitarian crisis following devastating earthquakes that have resulted in thousands of casualties and significant displacement. The United Nations has called for international support to address the urgent needs of affected populations, emphasizing the scale of the disaster and the ongoing humanitarian response efforts (evidence id: 12, 16).",
+      "The geopolitical landscape is further complicated by U.S.-Iran tensions, with recent strikes and retaliatory actions indicating a breakdown of ceasefire negotiations. Diplomatic efforts are ongoing, but the situation remains volatile, with potential implications for regional stability (evidence id: 18)."
     ],
     "key_judgments": [
       {
-        "title": "Escalation of Military Conflict in Ukraine",
-        "finding": "Russia's recent missile and drone attacks on Ukraine have resulted in significant civilian casualties and infrastructure damage, highlighting the urgent need for enhanced air defense capabilities.",
+        "title": "Escalation of conflict in Ukraine",
+        "finding": "Recent missile and drone attacks by Russia have resulted in civilian casualties and infrastructure damage, underscoring the need for enhanced air defense systems.",
         "citations": [
           "10",
-          "19"
+          "24"
         ]
       },
       {
-        "title": "Humanitarian Crisis in Venezuela",
-        "finding": "The earthquakes in Venezuela have led to a humanitarian emergency, with over 4,000 reported deaths and a call for international assistance to support recovery efforts.",
+        "title": "Poland's military aid to Ukraine under threat",
+        "finding": "Historical tensions regarding the Ukrainian Insurgent Army are straining Poland's military support for Ukraine, raising concerns about future cooperation.",
+        "citations": [
+          "11"
+        ]
+      },
+      {
+        "title": "Humanitarian crisis in Venezuela",
+        "finding": "The aftermath of recent earthquakes has led to a significant humanitarian crisis in Venezuela, with thousands dead and many more in need of assistance.",
         "citations": [
           "12",
           "16"
         ]
       },
       {
-        "title": "Political Tensions Affecting Military Aid to Ukraine",
-        "finding": "Poland's internal political disputes regarding military aid to Ukraine may hinder future cooperation, particularly in light of historical grievances.",
+        "title": "U.S.-Iran negotiations falter",
+        "finding": "Recent military actions indicate a breakdown in ceasefire negotiations between the U.S. and Iran, complicating regional security dynamics.",
         "citations": [
-          "11"
-        ]
-      },
-      {
-        "title": "Georgia's Political Isolation from NATO",
-        "finding": "Georgia's exclusion from recent NATO discussions indicates a potential decline in its political influence and raises questions about its future alignment with Western security frameworks.",
-        "citations": [
-          "17"
+          "18"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Europe and Russia",
-        "assessment": "The region is experiencing heightened military tensions, particularly in Ukraine, where ongoing Russian aggression poses significant challenges to regional stability and security.",
+        "assessment": "The region is experiencing heightened military tensions, particularly in Ukraine, with significant implications for NATO member states and their military strategies.",
         "citations": [
           "10",
           "11",
-          "19"
+          "24"
         ]
       },
       {
         "region": "Americas",
-        "assessment": "Venezuela is facing a severe humanitarian crisis following recent earthquakes, necessitating urgent international support to address the needs of affected populations.",
+        "assessment": "Venezuela's humanitarian crisis is drawing international attention, with calls for support to address the needs of those affected by the earthquakes.",
         "citations": [
           "12",
           "16"
@@ -64,33 +64,33 @@
     ],
     "watchlist": [
       {
-        "label": "Ukraine's Air Defense Capabilities",
-        "why_it_matters": "The effectiveness of Ukraine's air defense systems is critical in mitigating the impact of Russian missile attacks, which have escalated in frequency and intensity.",
+        "label": "Ukraine's air defense capabilities",
+        "why_it_matters": "The ability to produce and deploy advanced air defense systems like the Patriot is crucial for Ukraine's defense against ongoing Russian attacks.",
         "citations": [
           "10",
-          "19"
+          "24"
         ]
       },
       {
-        "label": "Humanitarian Response in Venezuela",
-        "why_it_matters": "The international community's response to the humanitarian crisis in Venezuela will significantly impact recovery efforts and the well-being of millions affected by the earthquakes.",
+        "label": "Poland's military support for Ukraine",
+        "why_it_matters": "Political disputes in Poland could jeopardize military aid to Ukraine, impacting its defense capabilities against Russia.",
+        "citations": [
+          "11"
+        ]
+      },
+      {
+        "label": "Venezuela's humanitarian response",
+        "why_it_matters": "The scale of the humanitarian crisis following the earthquakes necessitates sustained international support to prevent further deterioration of conditions.",
         "citations": [
           "12",
           "16"
         ]
       },
       {
-        "label": "Poland's Military Aid Policy",
-        "why_it_matters": "Internal political disputes in Poland regarding military aid to Ukraine could affect the broader coalition against Russian aggression in Eastern Europe.",
+        "label": "U.S.-Iran relations",
+        "why_it_matters": "The breakdown of ceasefire negotiations could lead to increased military confrontations, affecting regional stability and security.",
         "citations": [
-          "11"
-        ]
-      },
-      {
-        "label": "Georgia's NATO Relations",
-        "why_it_matters": "Georgia's absence from NATO discussions may signal a shift in its geopolitical standing and influence within the alliance, impacting regional security dynamics.",
-        "citations": [
-          "17"
+          "18"
         ]
       }
     ],
@@ -8688,7 +8688,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-11T18:47:08.226540+00:00",
+      "collected_at": "2026-07-11T20:53:35.678780+00:00",
       "published": "",
       "text_chars": 9129274,
       "raw_path": "data/geopolitics/raw/8f0ef27af29ca41c471db4321a28fa523643e8ee7abe2df9a443d8a89ad660f7.xml",
@@ -10523,7 +10523,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-11T18:46:31.702070+00:00",
+      "collected_at": "2026-07-11T20:52:57.432409+00:00",
       "published": "",
       "text_chars": 6243887,
       "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
@@ -10675,7 +10675,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-11T18:46:31.440806+00:00",
+      "collected_at": "2026-07-11T20:52:57.159816+00:00",
       "published": "",
       "text_chars": 6161766,
       "raw_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json.raw",
@@ -10905,6 +10905,87 @@
   ],
   "documents": [
     {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-07-11T20:53:47.603715+00:00",
+      "published": "",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 512
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "conflict",
+          "value": 267
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 209
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -10914,7 +10995,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-11T18:47:16.426838+00:00",
+      "collected_at": "2026-07-11T20:53:41.842484+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -10995,7 +11076,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-07-11T18:47:15.641548+00:00",
+      "collected_at": "2026-07-11T20:53:39.859843+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.html",
@@ -11059,87 +11140,6 @@
       "evidence_json": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.json"
     },
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-07-11T18:47:15.617176+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -11149,7 +11149,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-11T18:47:10.351750+00:00",
+      "collected_at": "2026-07-11T20:53:39.806011+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11221,6 +11221,76 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-07-11T20:53:35.712951+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "8f0ef27af29ca41c471db4321a28fa523643e8ee7abe2df9a443d8a89ad660f7",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -11230,7 +11300,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-11T18:47:08.226540+00:00",
+      "collected_at": "2026-07-11T20:53:35.678780+00:00",
       "published": "",
       "text_chars": 9129274,
       "raw_path": "data/geopolitics/raw/8f0ef27af29ca41c471db4321a28fa523643e8ee7abe2df9a443d8a89ad660f7.xml",
@@ -11301,6 +11371,86 @@
       "evidence_json": "/evidence/8f0ef27af29ca41c471db4321a28fa523643e8ee7abe2df9a443d8a89ad660f7.json"
     },
     {
+      "id": "1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-07-11T20:53:01.697878+00:00",
+      "published": "",
+      "text_chars": 824840,
+      "raw_path": "data/geopolitics/raw/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6.xml",
+      "text_path": "data/geopolitics/raw/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "bullets": [
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+      ],
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 1476
+        },
+        {
+          "name": "security",
+          "value": 1473
+        },
+        {
+          "name": "interpol",
+          "value": 1241
+        },
+        {
+          "name": "resolution",
+          "value": 840
+        },
+        {
+          "name": "interpol-un",
+          "value": 683
+        },
+        {
+          "name": "afghanistan",
+          "value": 636
+        },
+        {
+          "name": "link",
+          "value": 612
+        },
+        {
+          "name": "republic",
+          "value": 539
+        },
+        {
+          "name": "al-qaida",
+          "value": 515
+        },
+        {
+          "name": "iraq",
+          "value": 480
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6",
+      "evidence_json": "/evidence/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6.json"
+    },
+    {
       "id": "5943dbbf6be05c843c0731eb9d60f7057e4398f2d30cea6d0036c92845e3bbb3",
       "topic": "geopolitics",
       "title": "Consolidated Sanctions List",
@@ -11310,7 +11460,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-11T18:46:33.765135+00:00",
+      "collected_at": "2026-07-11T20:52:59.585959+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/5943dbbf6be05c843c0731eb9d60f7057e4398f2d30cea6d0036c92845e3bbb3.xml",
@@ -11390,7 +11540,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-11T18:46:31.702070+00:00",
+      "collected_at": "2026-07-11T20:52:57.432409+00:00",
       "published": "",
       "text_chars": 6243887,
       "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
@@ -11465,7 +11615,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-11T18:46:31.440806+00:00",
+      "collected_at": "2026-07-11T20:52:57.159816+00:00",
       "published": "",
       "text_chars": 6161766,
       "raw_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json.raw",
@@ -11531,156 +11681,6 @@
       ],
       "detail_path": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
       "evidence_json": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json"
-    },
-    {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-07-11T18:46:31.082690+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
-      "id": "1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-07-11T16:45:03.710530+00:00",
-      "published": "",
-      "text_chars": 824840,
-      "raw_path": "data/geopolitics/raw/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6.xml",
-      "text_path": "data/geopolitics/raw/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-      "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
-      ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 1476
-        },
-        {
-          "name": "security",
-          "value": 1473
-        },
-        {
-          "name": "interpol",
-          "value": 1241
-        },
-        {
-          "name": "resolution",
-          "value": 840
-        },
-        {
-          "name": "interpol-un",
-          "value": 683
-        },
-        {
-          "name": "afghanistan",
-          "value": 636
-        },
-        {
-          "name": "link",
-          "value": 612
-        },
-        {
-          "name": "republic",
-          "value": 539
-        },
-        {
-          "name": "al-qaida",
-          "value": 515
-        },
-        {
-          "name": "iraq",
-          "value": 480
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "War and Escalation",
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Africa",
-        "Middle East",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6",
-      "evidence_json": "/evidence/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6.json"
     },
     {
       "id": "d1d2db881327e1369790895d2bebb3629c15ab1410bd24b647b177170d1d901e",
@@ -15477,6 +15477,87 @@
   "cited_evidence": [],
   "evidence": [
     {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-07-11T20:53:47.603715+00:00",
+      "published": "",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 512
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "conflict",
+          "value": 267
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 209
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -15486,7 +15567,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-11T18:47:16.426838+00:00",
+      "collected_at": "2026-07-11T20:53:41.842484+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15567,7 +15648,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-07-11T18:47:15.641548+00:00",
+      "collected_at": "2026-07-11T20:53:39.859843+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.html",
@@ -15631,87 +15712,6 @@
       "evidence_json": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.json"
     },
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-07-11T18:47:15.617176+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -15721,7 +15721,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-11T18:47:10.351750+00:00",
+      "collected_at": "2026-07-11T20:53:39.806011+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15793,6 +15793,76 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-07-11T20:53:35.712951+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "8f0ef27af29ca41c471db4321a28fa523643e8ee7abe2df9a443d8a89ad660f7",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -15802,7 +15872,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-11T18:47:08.226540+00:00",
+      "collected_at": "2026-07-11T20:53:35.678780+00:00",
       "published": "",
       "text_chars": 9129274,
       "raw_path": "data/geopolitics/raw/8f0ef27af29ca41c471db4321a28fa523643e8ee7abe2df9a443d8a89ad660f7.xml",
@@ -15873,6 +15943,86 @@
       "evidence_json": "/evidence/8f0ef27af29ca41c471db4321a28fa523643e8ee7abe2df9a443d8a89ad660f7.json"
     },
     {
+      "id": "1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-07-11T20:53:01.697878+00:00",
+      "published": "",
+      "text_chars": 824840,
+      "raw_path": "data/geopolitics/raw/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6.xml",
+      "text_path": "data/geopolitics/raw/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "bullets": [
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+      ],
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 1476
+        },
+        {
+          "name": "security",
+          "value": 1473
+        },
+        {
+          "name": "interpol",
+          "value": 1241
+        },
+        {
+          "name": "resolution",
+          "value": 840
+        },
+        {
+          "name": "interpol-un",
+          "value": 683
+        },
+        {
+          "name": "afghanistan",
+          "value": 636
+        },
+        {
+          "name": "link",
+          "value": 612
+        },
+        {
+          "name": "republic",
+          "value": 539
+        },
+        {
+          "name": "al-qaida",
+          "value": 515
+        },
+        {
+          "name": "iraq",
+          "value": 480
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6",
+      "evidence_json": "/evidence/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6.json"
+    },
+    {
       "id": "5943dbbf6be05c843c0731eb9d60f7057e4398f2d30cea6d0036c92845e3bbb3",
       "topic": "geopolitics",
       "title": "Consolidated Sanctions List",
@@ -15882,7 +16032,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-11T18:46:33.765135+00:00",
+      "collected_at": "2026-07-11T20:52:59.585959+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/5943dbbf6be05c843c0731eb9d60f7057e4398f2d30cea6d0036c92845e3bbb3.xml",
@@ -15962,7 +16112,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-11T18:46:31.702070+00:00",
+      "collected_at": "2026-07-11T20:52:57.432409+00:00",
       "published": "",
       "text_chars": 6243887,
       "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
@@ -16037,7 +16187,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-11T18:46:31.440806+00:00",
+      "collected_at": "2026-07-11T20:52:57.159816+00:00",
       "published": "",
       "text_chars": 6161766,
       "raw_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json.raw",
@@ -16103,156 +16253,6 @@
       ],
       "detail_path": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
       "evidence_json": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json"
-    },
-    {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-07-11T18:46:31.082690+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
-      "id": "1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-07-11T16:45:03.710530+00:00",
-      "published": "",
-      "text_chars": 824840,
-      "raw_path": "data/geopolitics/raw/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6.xml",
-      "text_path": "data/geopolitics/raw/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-      "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
-      ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 1476
-        },
-        {
-          "name": "security",
-          "value": 1473
-        },
-        {
-          "name": "interpol",
-          "value": 1241
-        },
-        {
-          "name": "resolution",
-          "value": 840
-        },
-        {
-          "name": "interpol-un",
-          "value": 683
-        },
-        {
-          "name": "afghanistan",
-          "value": 636
-        },
-        {
-          "name": "link",
-          "value": 612
-        },
-        {
-          "name": "republic",
-          "value": 539
-        },
-        {
-          "name": "al-qaida",
-          "value": 515
-        },
-        {
-          "name": "iraq",
-          "value": 480
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "War and Escalation",
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Africa",
-        "Middle East",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6",
-      "evidence_json": "/evidence/1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6.json"
     },
     {
       "id": "36b1568bd912a1645d13f3ff488d8e99f59d65e3168db75fc7d561a7134fb61e",
