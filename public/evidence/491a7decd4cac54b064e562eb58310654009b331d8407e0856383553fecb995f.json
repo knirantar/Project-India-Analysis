@@ -75,87 +75,6 @@
   "full_text": "Between February 2022 and September 2025, Bellingcat staff and volunteers collected, geolocated, and \nshared more than 2,500 incidents\n of civilian harm following Russia’s full-scale invasion of Ukraine. \n\nAs part of this effort, Bellingcat tested a new machine learning model intended to rank Telegram social media posts on their likelihood of containing incidents of civilian harm. \n\nThis novel methodology dramatically reduced the search and selection time required, freeing researchers to focus on verifying incidents of civilian harm – not just searching for them. \n\nThis piece documents our methodology, ethical considerations and lessons learned in the hope that others researching similar topics can benefit from our work. \n\nOpen source research into civilian harm is still a relatively new field and it presents many challenges – one of the biggest is organising and sorting through the huge volume of user generated content being produced to find what is relevant. \n\nMachine learning, a form of artificial intelligence that uses algorithms to identify patterns from large amounts of data and make predictions, can make this task more efficient.\n\nWith ongoing conflicts involving large amounts of civilian harm occurring in Sudan, and much of the Middle East, this guide aims to offer those covering these conflicts an example of how machine learning can be used to help find and sort incidents. You can also access the \nCode Notebook\n for our model \nhere.\n\nWe defined “civilian harm” not just as civilian deaths or injuries resulting from armed conflict, but also the broader and delayed effects on civilians from mental trauma, loss of livelihood, displacement, destruction of infrastructure and more. This definition was informed by the Protection of Civilians \nbook\n \non civilian harm. \n\nInitial Telegram Dataset \n\nEach Telegram post containing civilian harm which had already been manually verified by researchers was used to build an initial dataset of confirmed cases of civilian harm, which data scientists call \npositive instances. We collected a total of 5,848 unique URLs for these Telegram posts. For our manual collection we reviewed posts on relevant Telegram channels, working through oldest to newest posts each day. Assuming that a given post made it to our geolocated incidents list, it meant the researcher who flagged it also looked at the posts that appeared before and after it on Telegram and did not flag those ones, so we selected the 10 posts surrounding the verified civilian harm post as our additional dataset of posts that did not contain civilian harm. After excluding any deleted or duplicate posts, we ended up with 48,545 non-civilian harm posts, our \nnegative instances. \n\nThe choice to overrepresent negative instances aims at better reflecting the real world and increasing data available for model training. \n\nWe enriched each URL with metadata from the Telegram API, such as the time of publication, reactions or textual content. As some of these posts had been deleted, we completed the missing data points with previously preserved versions from our \nAuto Archiver\n database, only available for the positive instances.\n\nFeature Engineering\n\nTraining a machine learning model requires numerical data, as these models compute a prediction score based on mathematical operations.\n\nWe built these by converting raw data from our initial dataset, such as keywords signalling potential civilian harm, into numerical scores (or “features”) that the model could interpret, with the aim of increasing the model’s ability to identify patterns. This process, known as \nfeature engineering, can significantly improve model results because it allows data scientists to suggest explicit context knowledge. \n\nA full list of features we used to train the model can be found in the \ncode notebook \naccompanying this piece. Many features were directly inspired by researchers’ input from their experiences manually screening cases of civilian harm by sorting through a set number of Telegram channels and inspecting each post individually.\n\nSeveral of the features used were directly built from the metadata contained in each Telegram post including \nmedia_type, \nday_of_week; or binary ones: \nforwarded, \nedited and\n \nreply_to. \n\nOther features included engagement information: \nviews, \nforwards, \ntotal_reactions, and even individual features for most used emojis including the \nreaction_crying_face\n to count 😭 emoji.\n\nConverting Text to Numbers \n\nTo embed the experience from the manual collection process, researchers put together a list of keywords both in Ukrainian and Russian that, to them, signalled posts likely to  show civilian harm. For instance, “Шахед” and “КАБ” translated to “Shahed” and “Guided aerial bomb” respectively. We created a numerical feature to count their frequency. \n\nIn addition, we included several generic English-language keywords which meaningfully signalled potential civilian harm, such as “injured”, “school affected” and “hospital affected” that were only used for generating semantic similarity scores. \n\nA semantic similarity score is a calculation used to determine the proximity in meaning between different words and phrases. To get the semantic similarity between the post text and each of our keywords, we represented each in a list of numbers via a \nSentence Transformer model, which converts words into numerical representations called vectors that a computer can understand. \n\nWe then calculated the level of similarity between each vector using \ncosine similarity, one of the most popular methods for measuring similarity between two pieces of text.\n\nDue to how embeddings work, this calculation results in a figure on a scale from -1 (no semantic proximity) to 1 (same meaning). For example, the words “hurt” and “injured” would have a high similarity score, while “residential” and “injured” would have a negative score as the words are not semantically similar. \n\nFinally, to enable the model to identify the relevance of each post to civilian harm in Ukraine, we used a \nmultilingual text transformer\n from the \nBERT\n family of language models to represent the entire post’s text as a vector of 768 numerical values. This model can efficiently represent text from many languages in a way that captures meaning: the same sentence in different languages will generate similar embeddings, and trained machine learning models can detect patterns in the embeddings. \n\nIt is important to note that for this initial prototype of a civilian harm detection model, we did not include any features derived from media content such as photos and videos, although that would be a logical next step in attempting to improve model performance.\n\nSelecting, Training and Evaluating Models\n\nWith 54,393 rows of 893 numerical features each, we selected four machine learning algorithms to train our predictive models. \n\nWe chose \nLogistic Regression\n as a baseline algorithm due to its simplicity. We also selected three other “best in class” models, \nRandom Forest, \nXGBoost, and \nLightGBM. These choices centred on the \ninterpretability\n of the models and their ability to work on tabular data of this size. For example, we avoided neural networks due to a lack of interpretability and because those models work best with a larger dataset. \n\nTo genuinely assess the performance of the trained models, we split our dataset into three parts:  \n\nA training set – the data the models were trained on (60 percent of the full dataset’s rows)\n\nA validation set – used for an intermediary evaluation when tuning model parameters (20 percent of all rows)\n\nA test set – hidden for the final performance assessment, so the models were evaluated on unseen data (remaining 20 percent of rows)\n\nWe used a \nstratified split\n to divide the dataset instead of a random split. This method ensured the proportion of positive instances (i.e. confirmed cases of civilian harm) remained consistent across all three sets at about 11 percent.\n\nTo measure the performance of machine learning models, we ran them through the test set and measured the number of correct and incorrect predictions. Models output a likelihood between 0 and 1 that each Telegram post contains civilian harm, and we tried to find a cut-off threshold that leads to a good balance between flagging almost every post (0.1) or flagging very few (0.9). \n\nThere are two main types of evaluation metrics to gauge a model’s prediction power. \nRecall\n asserts what fraction of positive instances (i.e. known civilian harm posts) were correctly flagged as such. \nPrecision\n measures the fraction of posts flagged as civilian harm that are indeed civilian harm posts.\n\nDuring the training phase, we tuned the models to maximise \naverage precision\n (PR-AUC), a metric that summarises precision across all recall levels. While this method also accounts for precision, it prioritises recall, which is preferable for this use case as it steers model selection to reduce the number of civilian harm posts that are skipped. \n\nThe following table sorts models from best to worst PR-AUC against a baseline of a coin-flip predictor. ROC-AUC and F1 are two other evaluation metrics included as sanity checks. Simply put, ROC-AUC measures the probability of ranking two instances, one negative and one positive, correctly; F1 balances precision and recall equally and its best cut-off threshold value.\n\nModel test scores comparison, XGBoost stands out in every relevant metric evaluated. \n\nFrom these results, we selected XGBoost as our final model as it had the best scores when compared across all metrics.\n\nInterpreting the Model\n\nBecause these models are interpretable, we can understand which features are the most useful when predicting whether a post includes civilian harm. The above table shows the top 10 features that most strongly signal the XGBoost model to make a decision:\n\nsemantic_keywords_similarity: the semantic proximity between the post text and manually selected keywords “casualties”, “damage” and “civilian harm”\n\nbert:  the model was able to discern meaning from the text with the same strength as some of the other features in this list – there are three cases of this in the top 10\n\nreaction_crying_face: reactions with crying face emojis on the post\n\ngroup_of_messages: whether a post contains multiple media files\n\nkeywords_in_text: the number of custom Ukrainian or Russian keywords in the post\n\nThese results generally tally with what you might expect when selecting Telegram posts for instances of civilian harm, including that posts that generate a lot of emotional engagement and posts using keywords about civilian harm were among those most likely to contain content related to this topic. Not all models had the same top features as XGBoost. In fact, for the Random Forest model the most important feature was the number of crying face emojis present in a post, a soft pattern highlighted by researchers when this methodology was first imagined.\n\nLLM Results and Comparison\n\nRetroactively, we decided to run a sample of the same test dataset through different large language models (LLMs) to gauge their ability to make these same predictions. \n\nWe aimed to include an LLM-generated score as an extra feature for our trained models, which would be captured as relevant if it correlated with the correct predictions. \n\nTo start, we selected two local models, the 1B and 4B variants of Gemma 3 from Google DeepMind, and two cloud-hosted models, Gemini 2.5 flash and Gemini 3.5 flash. With this selection, we hoped to compare results across a wide range of models’ expected performance. \n\nWe generated a 400-row stratified sample (preserving the same proportion of real civilian harm instances) from the test dataset used for the custom models. For each of the four LLM models, we ran two tests: one where only the Telegram post message was sent, and another including both the message and the engineered features (excluding the text embeddings, as the model had direct access to the text). In the prompt for each model, we asked for a score between 0 and 1. We then evaluated the results as we did for the custom models. \n\nThe above table shows that LLMs can indeed extract value from the engineered features. All four LLMs surpassed the baseline Logistic Regression model in our tests, yet none of them performed better than the other custom-trained models, and XGBoost remained the one with the highest PR-AUC. \n\nStill, Gemini 2.5 Flash performed better than its newer version 3.5 and even achieved a slightly higher best F1 score than any other model. While this is a good result, for the flagging of civilian harm posts, the PR-AUC remains the crucial metric, as it captures the model’s ability to identify infrequent instances of civilian harm while minimising false positives.\n\nEthical Considerations\n\nIntroducing an instrument of automated decision-making into a process of detecting civilian harm brings inherent ethical questions. These include automation bias, or how humans tend to blindly place faith in machine-generated recommendations; algorithmic bias, or how the results of these models echo the same patterns present in the training data, including under- or over-representation of types of civilian harm. \n\nThe decision to test an automated methodology for this particular project came from the fact that there were limited resources for both steps in the process – the detection of potential civilian harm and its actual verification. Historically, we built an enormous backlog of unverified incidents because a lot of time had to be spent on monitoring the most recent events so that potential evidence would be captured and preserved as soon as possible. \n\nThe automation of this process also reduced the exposure of researchers to a significant amount of unpleasant and distressing visual and text content, reducing the burden of exposure to traumatic content. \n\nFor this project, we tried to ameliorate the ethical challenges with a number of strategies including randomly flagging posts not captured by any model, monitoring which features models relied on to make decisions, and by doing historical comparisons of patterns in data. \n\nAdditionally, as stated above, for this initial prototype of a civilian harm detection model we did not include any features derived from the media content itself. In the future, it would be a logical next step in attempting to improve the model performance, to include the media from the posts – but using AI to review actual media comes with additional ethical challenges such as \nmodel bias.\n\nBecause of the opaque ownership of many LLM companies and their generative nature, the use of LLMs for an extra feature presented additional ethical challenges including privacy and safety concerns considering the sensitive nature of the data. Our model did not rely on LLMs, though we retroactively ran a sample through it. \n\nHow the Model Fits into the Bigger Picture \n\nAfter selecting this model, we created a user interface where researchers could view a list of Telegram posts sorted from most to least likely to contain indications of civilian harm. The user interface was designed for quick triage and integration, where a positive confirmation from researchers would instantly send the post to the \nAuto Archiver\n (Bellingcat’s tool for preserving digital content) and then transfer it to \nATLOS\n (our internal collaborative verification platform). Bellingcat staff and volunteers could then manually verify incidents. Researcher input was constantly stored so that this data could be used to improve the model in the future. \n\nPreliminary feedback indicated that the AI model was useful. Not only were we able to reduce time and harm from scouring through dozens of war reporting Telegram channels, researchers also reported that the stream of new posts being added to the verification backlog were capturing real and diverse cases of civilian harm. \n\nDespite the focus on civilian harm and Telegram (\nhighly popular\n in Ukraine and Russia), this pipeline is generic and can be adapted to other conflict monitoring tasks. How easily this can be done does depend on how open the social media platform is and whether it is possible to scrape posts from it. Apart from that, it is easy to incorporate new features and data, and cheap to automatically retrain, test and deploy models as the system receives more human input.  \n\nLooking forward, sorting through overwhelming amounts of data in a conflict will continue to be challenging. Hopefully, this methodology can help newsrooms, conflict monitoring organisations, and others find the balance between ethical considerations and resources in order to carry out open source investigations on civilian harm and human rights violations. \n\nBellingcat is a non-profit and the ability to carry out our work is dependent on the kind support of individual donors. If you would like to support our work, you can do so \nhere. You can also subscribe to our Patreon channel \nhere. Subscribe to our \nNewsletter\n and follow us on Bluesky \nhere, Instagram \nhere, Reddit \nhere \nand YouTube \nhere.",
   "related": [
     {
-      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "topic": "geopolitics",
-      "title": "United Nations Charter",
-      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
-      "host": "treaties.un.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-07-12T14:26:49.209572+00:00",
-      "published": "",
-      "text_chars": 89992,
-      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
-      "summary": "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
-      "bullets": [
-        "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
-        "Article 5 / A Member of the United Nations against which preventive or enforcement action has been taken by the Security Council may be suspended from the exercise of the rights and privileges of mem- bership by the General Assembly upon the recom- mendation of the Security Council.",
-        "Article 6 A Member of the United Nations which has persistently violated the Principles contained in the present Charter may be expelled from the Organization by the General Assembly upon the recommendation of the Security Council.",
-        "Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
-        "CHAPTER I PURPOSES AND PRINCIPLES Article 1 The^Purposes of the United Nations are: 1."
-      ],
-      "excerpt": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 160
-        },
-        {
-          "name": "court",
-          "value": 155
-        },
-        {
-          "name": "security",
-          "value": 148
-        },
-        {
-          "name": "united",
-          "value": 127
-        },
-        {
-          "name": "nations",
-          "value": 121
-        },
-        {
-          "name": "members",
-          "value": 116
-        },
-        {
-          "name": "general",
-          "value": 94
-        },
-        {
-          "name": "assembly",
-          "value": 83
-        },
-        {
-          "name": "international",
-          "value": 79
-        },
-        {
-          "name": "member",
-          "value": 59
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation",
-        "Humanitarian Pressure"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
-      "detail_path": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
-      "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
-    },
-    {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
       "title": "ICRC International Humanitarian Law Handbook",
@@ -165,7 +84,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-12T14:26:47.475117+00:00",
+      "collected_at": "2026-07-12T15:54:19.442379+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -237,6 +156,87 @@
       "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
+      "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "topic": "geopolitics",
+      "title": "United Nations Charter",
+      "url": "https://treaties.un.org/doc/publication/ctc/uncharter.pdf",
+      "host": "treaties.un.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-07-12T15:54:13.794460+00:00",
+      "published": "",
+      "text_chars": 89992,
+      "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "text_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.txt",
+      "summary": "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
+      "bullets": [
+        "CHAPTER II MEMBERSHIP Article 3 The original Members of the United Nations shall be the states which, having participated in the United Nations Conference on International Organization at San Francisco, or having previ- ously signed the Declaration by United Nations of January 1,1942, sign the present Charter and ratify it in accordance with Article 110.",
+        "Article 5 / A Member of the United Nations against which preventive or enforcement action has been taken by the Security Council may be suspended from the exercise of the rights and privileges of mem- bership by the General Assembly upon the recom- mendation of the Security Council.",
+        "Article 6 A Member of the United Nations which has persistently violated the Principles contained in the present Charter may be expelled from the Organization by the General Assembly upon the recommendation of the Security Council.",
+        "Accordingly, our respective Governments, through representatives assembled in the city of San Francisco, who have exhibited their full powers found to be in good and due form, have agreed to the present Charter of the United Nations and do hereby establish an international organization to be known as the United Nations.",
+        "CHAPTER I PURPOSES AND PRINCIPLES Article 1 The^Purposes of the United Nations are: 1."
+      ],
+      "excerpt": "CHARTER OF THE UNITED NATIONS AND STATUTE OF THE INTERNATIONAL COURT OF JUSTICE SAN FRANCISCO • 1945 CHARTER OF THE UNITED NATIONS WE THE PEOPLES OF THE UNITED NATIONS DETERMINED to save succeeding generations from the scourge of war, which twice in our life- time has brought untold sorrow to mankind, and to reaffirm faith in fundamental human rights, in the dignity and worth of the human person, in the equal rights of men and women and of nations large and small, and to establish conditions under which justice and respect for the obligations arising from treaties and other sources of international law can be maintained, and to promote social progress and better standards of life in larger freedom, AND FOR THESE ENDS to practice tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain international peace and security, and to ensure, by the acceptance of principles and the institution of methods, that armed force shall not be used, save in the common interest, and to employ international machinery for the promotion of the economic and social advancement of all peoples, HAVE RESOLVED TO COMBINE OUR EFFORTS TO ACCOMPLISH THESE AIMS",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 160
+        },
+        {
+          "name": "court",
+          "value": 155
+        },
+        {
+          "name": "security",
+          "value": 148
+        },
+        {
+          "name": "united",
+          "value": 127
+        },
+        {
+          "name": "nations",
+          "value": 121
+        },
+        {
+          "name": "members",
+          "value": 116
+        },
+        {
+          "name": "general",
+          "value": 94
+        },
+        {
+          "name": "assembly",
+          "value": 83
+        },
+        {
+          "name": "international",
+          "value": 79
+        },
+        {
+          "name": "member",
+          "value": 59
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
+      "detail_path": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
+      "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -246,7 +246,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-12T14:26:42.234639+00:00",
+      "collected_at": "2026-07-12T15:54:11.820970+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -318,6 +318,86 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
+      "id": "b01b487e5c9a8f4ffded8148b32b3b5bea788504c150311171118eda245f00d4",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-07-12T15:54:09.563656+00:00",
+      "published": "",
+      "text_chars": 824840,
+      "raw_path": "data/geopolitics/raw/b01b487e5c9a8f4ffded8148b32b3b5bea788504c150311171118eda245f00d4.xml",
+      "text_path": "data/geopolitics/raw/b01b487e5c9a8f4ffded8148b32b3b5bea788504c150311171118eda245f00d4.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "bullets": [
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+      ],
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 1476
+        },
+        {
+          "name": "security",
+          "value": 1473
+        },
+        {
+          "name": "interpol",
+          "value": 1241
+        },
+        {
+          "name": "resolution",
+          "value": 840
+        },
+        {
+          "name": "interpol-un",
+          "value": 683
+        },
+        {
+          "name": "afghanistan",
+          "value": 636
+        },
+        {
+          "name": "link",
+          "value": 612
+        },
+        {
+          "name": "republic",
+          "value": 539
+        },
+        {
+          "name": "al-qaida",
+          "value": 515
+        },
+        {
+          "name": "iraq",
+          "value": 480
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/b01b487e5c9a8f4ffded8148b32b3b5bea788504c150311171118eda245f00d4",
+      "evidence_json": "/evidence/b01b487e5c9a8f4ffded8148b32b3b5bea788504c150311171118eda245f00d4.json"
+    },
+    {
       "id": "8f0ef27af29ca41c471db4321a28fa523643e8ee7abe2df9a443d8a89ad660f7",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -327,7 +407,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-12T14:26:40.197233+00:00",
+      "collected_at": "2026-07-12T15:54:05.885722+00:00",
       "published": "",
       "text_chars": 9129274,
       "raw_path": "data/geopolitics/raw/8f0ef27af29ca41c471db4321a28fa523643e8ee7abe2df9a443d8a89ad660f7.xml",
@@ -407,7 +487,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-12T14:26:05.586130+00:00",
+      "collected_at": "2026-07-12T15:53:31.894600+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/5943dbbf6be05c843c0731eb9d60f7057e4398f2d30cea6d0036c92845e3bbb3.xml",
@@ -478,84 +558,84 @@
       "evidence_json": "/evidence/5943dbbf6be05c843c0731eb9d60f7057e4398f2d30cea6d0036c92845e3bbb3.json"
     },
     {
-      "id": "b01b487e5c9a8f4ffded8148b32b3b5bea788504c150311171118eda245f00d4",
+      "id": "0b33cca117f374194c6afa7560340fec27e8fd88e14315284f95bef28b7be647",
       "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-07-12T11:08:35.262926+00:00",
-      "published": "",
-      "text_chars": 824840,
-      "raw_path": "data/geopolitics/raw/b01b487e5c9a8f4ffded8148b32b3b5bea788504c150311171118eda245f00d4.xml",
-      "text_path": "data/geopolitics/raw/b01b487e5c9a8f4ffded8148b32b3b5bea788504c150311171118eda245f00d4.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "title": "What made US Republican Senator Lindsey Graham a controversial figure",
+      "url": "https://www.aljazeera.com/news/2026/7/12/what-made-us-republican-senator-lindsey-graham-a-controversial-figure?traffic_source=rss",
+      "host": "aljazeera.com",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-07-12T15:54:35.357439+00:00",
+      "published": "Sun, 12 Jul 2026 15:03:49 +0000",
+      "text_chars": 8317,
+      "raw_path": "data/geopolitics/raw/0b33cca117f374194c6afa7560340fec27e8fd88e14315284f95bef28b7be647.html",
+      "text_path": "data/geopolitics/raw/0b33cca117f374194c6afa7560340fec27e8fd88e14315284f95bef28b7be647.txt",
+      "summary": "Lindsey Graham, a longtime Republican senator in the United States, has died after a “brief and sudden” illness, his office said. Graham had also suggested that Israel would be justified in using nuclear weapons on Gaza, where Israeli attacks since October 2023 have not stopped, despite a “ceasefire” signed with Hamas in October. Lindsey will be greatly missed!!!” Known for his hawkish defence and foreign policy views, Graham strongly supported Ukraine in its war with Russia and Israel’s occupation of Palestinian territories.",
       "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+        "Lindsey Graham, a longtime Republican senator in the United States, has died after a “brief and sudden” illness, his office said.",
+        "Graham had also suggested that Israel would be justified in using nuclear weapons on Gaza, where Israeli attacks since October 2023 have not stopped, despite a “ceasefire” signed with Hamas in October.",
+        "Lindsey will be greatly missed!!!” Known for his hawkish defence and foreign policy views, Graham strongly supported Ukraine in its war with Russia and Israel’s occupation of Palestinian territories.",
+        "In 2017, a year before the first Trump administration moved the US embassy from Tel Aviv to Jerusalem, Graham had signed a resolution backing the move and called Jerusalem “the undeniable capital of Israel”.",
+        "In July 2024, when protests to stop the war raged around the world, including in the US, he made some controversial anti-Palestinian remarks on social media."
       ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "excerpt": "Lindsey Graham, a longtime Republican senator in the United States, has died after a “brief and sudden” illness, his office said. A foe-turned-close-ally of President Donald Trump, the 71-year-old politician represented the US state of South Carolina and was up for re-election in midterm elections in November. Recommended Stories list of 3 items end of list “Senator Lindsey Graham, one of the greatest people and Senators I have ever known, is dead!” Trump posted on his social media early on Sunday. “He was always working, and was a true American Patriot. Lindsey will be greatly missed!!!” Known for his hawkish defence and foreign policy views, Graham strongly supported Ukraine in its war with Russia and Israel’s occupation of Palestinian territories. He has also called for a “regime change” in Iran and endorsed US-Israeli military strikes on the country. Graham’s actions and public statements, therefore, made him a controversial political figure not just in the US, but across the world. Here’s what we know: Support for Israel In his staunch support for Israel, Graham made many controversial remarks. In 2017, a year before the first Trump administration moved the US embassy from Tel",
       "keywords": [
         {
-          "name": "council",
-          "value": 1476
+          "name": "graham",
+          "value": 31
         },
         {
-          "name": "security",
-          "value": 1473
+          "name": "israel",
+          "value": 13
         },
         {
-          "name": "interpol",
-          "value": 1241
+          "name": "trump",
+          "value": 13
         },
         {
-          "name": "resolution",
-          "value": 840
+          "name": "iran",
+          "value": 11
         },
         {
-          "name": "interpol-un",
-          "value": 683
+          "name": "president",
+          "value": 9
         },
         {
-          "name": "afghanistan",
-          "value": 636
+          "name": "military",
+          "value": 8
         },
         {
-          "name": "link",
-          "value": 612
+          "name": "ukraine",
+          "value": 7
         },
         {
-          "name": "republic",
-          "value": 539
+          "name": "gulf",
+          "value": 6
         },
         {
-          "name": "al-qaida",
-          "value": 515
+          "name": "regime",
+          "value": 6
         },
         {
-          "name": "iraq",
-          "value": 480
+          "name": "senator",
+          "value": 6
         }
       ],
       "signals": [
-        "Institutions and Law",
         "War and Escalation",
+        "Diplomacy and Negotiations",
         "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
+        "Institutions and Law"
       ],
       "regions": [
-        "Africa",
         "Middle East",
-        "Global Institutions"
+        "Europe and Russia",
+        "Americas"
       ],
-      "detail_path": "/evidence/b01b487e5c9a8f4ffded8148b32b3b5bea788504c150311171118eda245f00d4",
-      "evidence_json": "/evidence/b01b487e5c9a8f4ffded8148b32b3b5bea788504c150311171118eda245f00d4.json"
+      "detail_path": "/evidence/0b33cca117f374194c6afa7560340fec27e8fd88e14315284f95bef28b7be647",
+      "evidence_json": "/evidence/0b33cca117f374194c6afa7560340fec27e8fd88e14315284f95bef28b7be647.json"
     },
     {
       "id": "1208ad698c53958387c25b9b34762f9226d7eddb3165dfc6a60d366b595bbb46",
@@ -636,86 +716,6 @@
       ],
       "detail_path": "/evidence/1208ad698c53958387c25b9b34762f9226d7eddb3165dfc6a60d366b595bbb46",
       "evidence_json": "/evidence/1208ad698c53958387c25b9b34762f9226d7eddb3165dfc6a60d366b595bbb46.json"
-    },
-    {
-      "id": "29262e719af2e078edf78a070efdbbdf9159e19e9df0cf61843a469baf5a6b9e",
-      "topic": "geopolitics",
-      "title": "US and Iran exchange strikes as Tehran again says strait of Hormuz is closed",
-      "url": "https://www.theguardian.com/world/2026/jul/12/us-and-iran-exchange-strikes-as-tehran-again-says-strait-of-hormuz-is-closed",
-      "host": "theguardian.com",
-      "source": "https://www.theguardian.com/world/rss",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-07-12T09:57:01.955341+00:00",
-      "published": "Sun, 12 Jul 2026 05:27:38 GMT",
-      "text_chars": 5374,
-      "raw_path": "data/geopolitics/raw/29262e719af2e078edf78a070efdbbdf9159e19e9df0cf61843a469baf5a6b9e.html",
-      "text_path": "data/geopolitics/raw/29262e719af2e078edf78a070efdbbdf9159e19e9df0cf61843a469baf5a6b9e.txt",
-      "summary": "We call on Iran to abide by its obligations under the agreement, including to ensure safe passage through the strait of Hormuz.” Trump restarts war with Iran and plays nice(ish) with Nato | Politics Weekly America The latest incident comes amid efforts in Oman to discuss the fate of the strait. Iran and the US exchanged fresh strikes early on Sunday over what Tehran said was unauthorised use of the strait of Hormuz by a container ship, raising further doubts about the prospects of talks to agree a way forward for the vital waterway.",
-      "bullets": [
-        "We call on Iran to abide by its obligations under the agreement, including to ensure safe passage through the strait of Hormuz.” Trump restarts war with Iran and plays nice(ish) with Nato | Politics Weekly America The latest incident comes amid efforts in Oman to discuss the fate of the strait.",
-        "Iran and the US exchanged fresh strikes early on Sunday over what Tehran said was unauthorised use of the strait of Hormuz by a container ship, raising further doubts about the prospects of talks to agree a way forward for the vital waterway.",
-        "A spokesperson for foreign minister Penny Wong said: “We want to see negotiations between the US and Iran continue, the ceasefire to resume and the strait of Hormuz to be kept open.",
-        "“The United States is imposing a heavy cost by continuing to degrade Iran’s ability to attack civilian mariners and commercial ships freely transiting the strait,” the military said.",
-        "“A vessel that had jeopardised maritime security by switching off its systems was struck and ⁠brought to a halt,” the navy of Iran’s ⁠Islamic Revolutionary Guard Corps (IRGC) said in ​a statement, without giving further details."
-      ],
-      "excerpt": "Iran and the US exchanged fresh strikes early on Sunday over what Tehran said was unauthorised use of the strait of Hormuz by a container ship, raising further doubts about the prospects of talks to agree a way forward for the vital waterway. The latest flare-up began when the ⁠Islamic Revolutionary Guard Corps said it had struck a vessel travelling on an unapproved route and then closed the strait, warning that any retaliation would be met with a “severe response”. “A vessel that had jeopardised maritime security by switching off its systems was struck and ⁠brought to a halt,” the navy of Iran’s ⁠Islamic Revolutionary Guard Corps (IRGC) said in ​a statement, without giving further details. A short time later, US Central Command said its forces had carried out a round of strikes against Iran, attacking at least 140 targets. “The United States is imposing a heavy cost by continuing to degrade Iran’s ability to attack civilian mariners and commercial ships freely transiting the strait,” the military said. Air defence interceptions in the sky above Doha. Photograph: AFP/Getty Images The targets included missile and drone sites, naval capabilities, ammunition depots, communication netw",
-      "keywords": [
-        {
-          "name": "iran",
-          "value": 18
-        },
-        {
-          "name": "strait",
-          "value": 11
-        },
-        {
-          "name": "hormuz",
-          "value": 7
-        },
-        {
-          "name": "tehran",
-          "value": 5
-        },
-        {
-          "name": "united",
-          "value": 5
-        },
-        {
-          "name": "safe",
-          "value": 4
-        },
-        {
-          "name": "strikes",
-          "value": 4
-        },
-        {
-          "name": "trump",
-          "value": 4
-        },
-        {
-          "name": "vessel",
-          "value": 4
-        },
-        {
-          "name": "agreement",
-          "value": 3
-        }
-      ],
-      "signals": [
-        "Diplomacy and Negotiations",
-        "War and Escalation",
-        "Territory and Chokepoints",
-        "Humanitarian Pressure"
-      ],
-      "regions": [
-        "Americas",
-        "Middle East",
-        "Indo-Pacific"
-      ],
-      "detail_path": "/evidence/29262e719af2e078edf78a070efdbbdf9159e19e9df0cf61843a469baf5a6b9e",
-      "evidence_json": "/evidence/29262e719af2e078edf78a070efdbbdf9159e19e9df0cf61843a469baf5a6b9e.json"
     }
   ]
 }
