@@ -1,92 +1,105 @@
 {
-  "generated_at": "2026-07-12T05:21:28.637888+00:00",
+  "generated_at": "2026-07-12T08:03:51.129565+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating Tensions in Global Geopolitics Amid Humanitarian Crises and Military Developments",
+    "headline": "Escalating tensions in the Middle East and humanitarian crises in Venezuela dominate current geopolitical landscape.",
     "executive_summary": [
-      "Recent developments in the Middle East and Europe highlight a significant escalation in military tensions, particularly with ongoing conflicts involving Iran and Ukraine. The U.S. has responded to Iranian military actions in the Strait of Hormuz with airstrikes, indicating a breakdown in ceasefire negotiations and a return to hostilities (evidence id: 13). Meanwhile, Ukraine faces intensified Russian missile attacks, resulting in civilian casualties and infrastructure damage, underscoring the urgent need for enhanced air defense capabilities (evidence id: 15).",
-      "In the humanitarian sphere, Venezuela is grappling with the aftermath of devastating earthquakes that have resulted in thousands of casualties and widespread displacement. The United Nations has called for international support to address the urgent needs of affected populations, highlighting the ongoing humanitarian crisis in the region (evidence id: 17). This situation is compounded by the broader implications of geopolitical instability in Latin America, where food insecurity is also a pressing concern (evidence id: 21).",
-      "Diplomatic efforts are underway in various regions, with the EU facing criticism for its slow response to trade regulations concerning Israeli settlements amid a humanitarian crisis in Gaza (evidence id: 10). Additionally, the NATO summit has seen discussions on military aid to Ukraine, with the U.S. agreeing to allow Ukraine to produce its own Patriot missile systems, a significant step in bolstering its defense capabilities against Russian aggression (evidence id: 24).",
-      "The geopolitical landscape remains fraught with challenges as nations navigate complex relationships and historical grievances. Poland's military support for Ukraine is now under scrutiny due to domestic political tensions, while Georgia's absence from NATO discussions raises concerns about its political isolation (evidence id: 22). These dynamics illustrate the intricate interplay of diplomacy, military strategy, and humanitarian needs in shaping global geopolitics."
+      "Recent military escalations in the Middle East, particularly involving Iran and the United States, have led to a breakdown of ceasefire agreements, with both sides engaging in retaliatory strikes. The U.S. has launched multiple rounds of attacks against Iranian targets following incidents in the Strait of Hormuz, where Iranian forces targeted civilian vessels, raising concerns over maritime security and regional stability. These developments underscore the fragility of diplomatic efforts in the region, as both nations appear to be moving further away from negotiations (evidence ids: 13, 17, 28).",
+      "In parallel, the humanitarian situation in Venezuela has reached critical levels following devastating earthquakes that have resulted in thousands of casualties and widespread displacement. The United Nations has called for significant international support to address the urgent needs of affected populations, highlighting the challenges faced by humanitarian organizations in delivering aid amidst ongoing crises. The Venezuelan government is coordinating with international partners to manage the response, but the scale of the disaster necessitates additional resources (evidence ids: 21, 25, 26).",
+      "The geopolitical landscape is further complicated by the recent death of U.S. Senator Lindsey Graham, a prominent figure in American foreign policy, particularly regarding support for Ukraine and relations with Israel. His passing may impact ongoing legislative efforts related to sanctions and military aid, as he was a key advocate for U.S. involvement in international conflicts. The implications of his absence could be significant as the U.S. navigates its foreign policy priorities in a rapidly changing global environment (evidence ids: 10, 12, 11).",
+      "Additionally, tensions between Poland and Ukraine have escalated due to historical grievances, potentially affecting military cooperation as Poland reassesses its support for Ukraine amidst domestic political pressures. This situation reflects broader regional dynamics where historical narratives intersect with contemporary security concerns, complicating alliances and military aid commitments (evidence ids: 20, 15)."
     ],
     "key_judgments": [
       {
-        "title": "U.S.-Iran Relations Deteriorate",
-        "finding": "The U.S. has resumed military strikes against Iran following provocations in the Strait of Hormuz, signaling a collapse of ceasefire negotiations.",
+        "title": "U.S.-Iran relations deteriorate amid military escalations",
+        "finding": "The U.S. and Iran are engaged in a cycle of retaliatory strikes, undermining previous ceasefire agreements and complicating diplomatic negotiations.",
         "citations": [
-          "13"
+          "13",
+          "17",
+          "28"
         ]
       },
       {
-        "title": "Ukraine's Defense Capabilities Enhanced",
-        "finding": "The U.S. has granted Ukraine the license to produce Patriot missile systems, a critical development in its defense strategy against Russian missile attacks.",
+        "title": "Venezuela faces humanitarian crisis post-earthquakes",
+        "finding": "The aftermath of the earthquakes in Venezuela has led to significant casualties and a call for international humanitarian assistance to address urgent needs.",
         "citations": [
-          "24"
+          "21",
+          "25",
+          "26"
         ]
       },
       {
-        "title": "Venezuela Faces Humanitarian Crisis",
-        "finding": "The aftermath of recent earthquakes in Venezuela has resulted in significant casualties and a call for international humanitarian assistance.",
+        "title": "Impact of Lindsey Graham's death on U.S. foreign policy",
+        "finding": "The death of Senator Lindsey Graham may influence U.S. legislative support for international military aid and sanctions, particularly in relation to Ukraine and Israel.",
         "citations": [
-          "17"
+          "10",
+          "12",
+          "11"
         ]
       },
       {
-        "title": "EU's Diplomatic Challenges",
-        "finding": "The EU is criticized for its indecisiveness regarding trade regulations with Israel amidst ongoing humanitarian issues in Gaza.",
+        "title": "Poland-Ukraine relations strained by historical grievances",
+        "finding": "Recent tensions over historical issues may hinder Poland's military support for Ukraine, reflecting broader regional security dynamics.",
         "citations": [
-          "10"
+          "20",
+          "15"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The region is experiencing heightened military tensions, particularly between the U.S. and Iran, alongside a humanitarian crisis in Gaza.",
+        "assessment": "The region is experiencing heightened military tensions, particularly between the U.S. and Iran, with significant implications for maritime security and diplomatic relations.",
         "citations": [
-          "10",
-          "13"
-        ]
-      },
-      {
-        "region": "Europe and Russia",
-        "assessment": "Ukraine continues to face aggressive military actions from Russia, prompting significant international military support and strategic discussions at NATO.",
-        "citations": [
-          "15",
-          "24"
+          "13",
+          "17",
+          "28"
         ]
       },
       {
         "region": "Americas",
-        "assessment": "Venezuela's humanitarian situation is critical following earthquakes, with international aid efforts being mobilized to address the needs of affected populations.",
+        "assessment": "Venezuela is grappling with a severe humanitarian crisis following earthquakes, necessitating urgent international aid and support for recovery efforts.",
         "citations": [
-          "17",
-          "21"
+          "21",
+          "25",
+          "26"
+        ]
+      },
+      {
+        "region": "Europe and Russia",
+        "assessment": "The death of a key U.S. senator may shift the dynamics of U.S. foreign policy in Europe, particularly regarding support for Ukraine amidst ongoing conflicts.",
+        "citations": [
+          "10",
+          "12",
+          "11"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "Iran's Military Actions",
-        "why_it_matters": "Iran's military provocations in the Strait of Hormuz could escalate into broader regional conflict, impacting global oil supply and security.",
+        "label": "Iran's military actions in the Strait of Hormuz",
+        "why_it_matters": "Iran's aggressive military posture in the Strait of Hormuz poses a significant threat to international shipping and regional stability.",
         "citations": [
-          "13"
-        ]
-      },
-      {
-        "label": "Ukraine's Air Defense Development",
-        "why_it_matters": "The development of Ukraine's own air defense capabilities is crucial for its ongoing conflict with Russia and could shift the balance of power in the region.",
-        "citations": [
-          "24"
-        ]
-      },
-      {
-        "label": "Venezuela's Humanitarian Needs",
-        "why_it_matters": "The humanitarian crisis in Venezuela requires urgent international attention to prevent further deterioration of living conditions for millions.",
-        "citations": [
+          "13",
           "17"
+        ]
+      },
+      {
+        "label": "Humanitarian response in Venezuela",
+        "why_it_matters": "The scale of the humanitarian crisis in Venezuela requires immediate international attention and resources to prevent further deterioration of conditions.",
+        "citations": [
+          "21",
+          "25"
+        ]
+      },
+      {
+        "label": "Poland's military aid to Ukraine",
+        "why_it_matters": "Ongoing historical tensions may impact Poland's willingness to provide military support to Ukraine, affecting regional security dynamics.",
+        "citations": [
+          "20",
+          "15"
         ]
       }
     ],
@@ -95,8 +108,8 @@
     ]
   },
   "summary": {
-    "raw_documents": 1871,
-    "total_text_chars": 289855766,
+    "raw_documents": 1876,
+    "total_text_chars": 289905187,
     "sources": 34,
     "signals": 8,
     "regions": 6,
@@ -107,7 +120,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 1377
+      "value": 1382
     },
     {
       "name": "PDF",
@@ -141,7 +154,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 1324
+      "value": 1329
     },
     {
       "name": "pdfs",
@@ -199,7 +212,7 @@
     },
     {
       "name": "aljazeera.com",
-      "value": 170
+      "value": 171
     },
     {
       "name": "global.unitednations.entermediadb.net",
@@ -227,7 +240,7 @@
     },
     {
       "name": "france24.com",
-      "value": 59
+      "value": 60
     },
     {
       "name": "scsanctions.un.org",
@@ -239,7 +252,7 @@
     },
     {
       "name": "euronews.com",
-      "value": 46
+      "value": 47
     },
     {
       "name": "treasury.gov",
@@ -254,19 +267,19 @@
       "value": 19
     },
     {
+      "name": "bbc.co.uk",
+      "value": 17
+    },
+    {
       "name": "atlanticcouncil.org",
       "value": 16
     },
     {
-      "name": "bbc.co.uk",
+      "name": "press.un.org",
       "value": 16
     },
     {
       "name": "foreignaffairs.com",
-      "value": 15
-    },
-    {
-      "name": "press.un.org",
       "value": 15
     },
     {
@@ -305,7 +318,7 @@
   "keyword_counts": [
     {
       "name": "iran",
-      "value": 6548
+      "value": 6595
     },
     {
       "name": "health",
@@ -325,7 +338,7 @@
     },
     {
       "name": "trump",
-      "value": 3608
+      "value": 3617
     },
     {
       "name": "food",
@@ -333,11 +346,11 @@
     },
     {
       "name": "israel",
-      "value": 3046
+      "value": 3050
     },
     {
       "name": "ukraine",
-      "value": 3027
+      "value": 3031
     },
     {
       "name": "gaza",
@@ -360,12 +373,12 @@
       "value": 2000
     },
     {
-      "name": "support",
-      "value": 1883
+      "name": "united",
+      "value": 1889
     },
     {
-      "name": "united",
-      "value": 1878
+      "name": "support",
+      "value": 1883
     },
     {
       "name": "conflict",
@@ -397,7 +410,7 @@
     },
     {
       "name": "states",
-      "value": 1523
+      "value": 1533
     },
     {
       "name": "access",
@@ -448,16 +461,16 @@
       "value": 1102
     },
     {
-      "name": "strait",
-      "value": 1074
+      "name": "nuclear",
+      "value": 1086
     },
     {
-      "name": "nuclear",
-      "value": 1064
+      "name": "strait",
+      "value": 1081
     },
     {
       "name": "president",
-      "value": 1046
+      "value": 1051
     },
     {
       "name": "including",
@@ -469,7 +482,7 @@
     },
     {
       "name": "deal",
-      "value": 1010
+      "value": 1016
     },
     {
       "name": "assistance",
@@ -487,11 +500,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 1281,
+      "count": 1284,
       "formats": [
         {
           "name": "Article",
-          "value": 1080
+          "value": 1083
         },
         {
           "name": "PDF",
@@ -511,19 +524,39 @@
         }
       ],
       "evidence_ids": [
+        "57964dcb7aff950a518b8bfefb389856733ede5e6708574b0a125695f956c0dd",
+        "e270b803c662d518ad2d2d89f07628484da97b9077313c1022be3be4099b4bd2",
         "7d39182b872a9a279ea5b83c8fb0f9c8d8c56ce8d318e79e249e38265eb0e932",
         "f5c89053487940f45bb44a9e817501506f4481bce40bf10d31b72afa752443c3",
         "8f387620f2e32a5c32a8bbdc3a980346a03ab6f12ebd36b430427cd1bc48ffc5",
         "caf67dd55fdeffe643d1a5f6317117a19dc3df042e3b7d07c4efb7436ffa9aa9",
         "935ecdae55a1226385cc60a8dad93e81d30add5bc53c33fab81fd54e84344d44",
+        "664bb0f2851095630838be6436d43da2b94082adbd76af4e6fe9afeb891f397a",
         "dc8f4c2d87ddfd4682fc50f7d8160c10fee12f8daaf5288760e2a4208120b300",
-        "fded506a46cd1250c279d6010335474c06d446c4077c8f5f8d21848ca96bb0f8",
-        "b22f2a2abd0bc0657d9f26aa59521790b4c4d7a92229f59c1517a7feff8623c0",
-        "fec7e5a6e3c10158fba2399b1a9ceeb3f4c7a740d56c597cbf5ae3038517372a",
-        "32a6a45706215b29a2afad91987b1c22d0a80faa8c0f9a19c6b93cb9c1368046"
+        "fded506a46cd1250c279d6010335474c06d446c4077c8f5f8d21848ca96bb0f8"
       ],
-      "summary": "But the US president’s volatile performance at the western military alliance’s annual summit in Ankara this week seemed extreme, even by Trumpian standards. At a joint press conference with Erdoğan on Tuesday, Trump said he might not have attended the summit if had not been held in Turkey, with which he said he had a “great relationship”. Donald Trump’s relationship with Washington’s Nato allies is nobody’s idea of a happy marriage. Key events If you’d like to read more about China’s ballistic missile test in the Pacific, David Vallance, a research associate at the Lowy Institute’s International Security Program, wrote a comment piece about it earlier in the week. Appearing on Sky News, Joyce – who is now One Nation’s treasury spokesperson – brushed off Taylor’s attack. The opposition leader, Angus Taylor, last week used a major speech to argue Hanson’s platform would cost more than $1tn over a decade, force the Reserve Bank to lift rates and even risk a sovereign debt crisis. Vahid Salemi/AP hide caption toggle caption Vahid Salemi/AP DUBAI, United Arab Emirates — Iran said the Strait of Hormuz was closed once again after a warning shot fired by its military struck a vessel using an unauthorized route in the critical waterway, further jeopardizing the already tenuous ceasefire agreement with the United States. He said defenders downed most targets “but not the ballistic ones,” and urged allies to quickly deliver air defence packages agreed at this week’s NATO summit. Recommended Stories list of 3 items end of list Ballistic missiles and specialised drone swarms struck multiple districts across Kyiv, wounding at least 11 civilians and damaging critical infrastructure. The complex assault launched highlights the escalating threat facing Kyiv’s airspace as defenders ration depleted air defence stockpiles while waiting for Western military aid to arrive.",
+      "summary": "Published On 12 Jul 2026 12 Jul 2026 Lindsey Graham, a prominent Republican senator in the United States and a key ally of President Donald Trump, has ⁠died aged 71. He was a strong supporter of the 2003 US invasion of Iraq and had long pushed for military action against Iran. Israel’s Defence Ministry said on Sunday morning it was saddened by the death of Graham, “who stood with Israel in its most difficult time”. © Pakistan Prime Minister's Office, AFP 12/07/2026 - 07:09 Kuwait armed forces responding to aerial attacks Kuwait's military said its air defence forces were working to intercept an ongoing attack on its territory, as countries across the Gulf were targeted by drones and missiles. \"A second vessel accused of violating regulations in the Strait of Hormuz has been struck,\" the Guards said in a statement carried by state television IRIB, adding they had also attacked a US base in Qatar. But the US president’s volatile performance at the western military alliance’s annual summit in Ankara this week seemed extreme, even by Trumpian standards. At a joint press conference with Erdoğan on Tuesday, Trump said he might not have attended the summit if had not been held in Turkey, with which he said he had a “great relationship”. Donald Trump’s relationship with Washington’s Nato allies is nobody’s idea of a happy marriage. Key events If you’d like to read more about China’s ballistic missile test in the Pacific, David Vallance, a research associate at the Lowy Institute’s International Security Program, wrote a comment piece about it earlier in the week. Appearing on Sky News, Joyce – who is now One Nation’s treasury spokesperson – brushed off Taylor’s attack. The opposition leader, Angus Taylor, last week used a major speech to argue Hanson’s platform would cost more than $1tn over a decade, force the Reserve Bank to lift rates and even risk a sovereign debt crisis.",
       "latest": [
+        {
+          "id": "57964dcb7aff950a518b8bfefb389856733ede5e6708574b0a125695f956c0dd",
+          "title": "Lindsey Graham, one of Israel’s strongest US Senate allies, dies",
+          "url": "https://www.aljazeera.com/news/2026/7/12/us-senator-lindsey-graham-passes-away?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-07-12T08:04:10.159274+00:00",
+          "published": "Sun, 12 Jul 2026 06:27:06 +0000",
+          "summary": "Published On 12 Jul 2026 12 Jul 2026 Lindsey Graham, a prominent Republican senator in the United States and a key ally of President Donald Trump, has ⁠died aged 71. He was a strong supporter of the 2003 US invasion of Iraq and had long pushed for military action against Iran. Israel’s Defence Ministry said on Sunday morning it was saddened by the death of Graham, “who stood with Israel in its most difficult time”."
+        },
+        {
+          "id": "e270b803c662d518ad2d2d89f07628484da97b9077313c1022be3be4099b4bd2",
+          "title": "Live: US launches strikes after Iran fires on ship in Strait of Hormuz",
+          "url": "https://www.france24.com/en/middle-east/20260712-live-us-attacks-iran-over-ship-being-hit-in-strait-of-hormuz",
+          "host": "france24.com",
+          "format": "Article",
+          "collected_at": "2026-07-12T08:03:58.547801+00:00",
+          "published": "Sun, 12 Jul 2026 05:05:35 GMT",
+          "summary": "© Pakistan Prime Minister's Office, AFP 12/07/2026 - 07:09 Kuwait armed forces responding to aerial attacks Kuwait's military said its air defence forces were working to intercept an ongoing attack on its territory, as countries across the Gulf were targeted by drones and missiles. \"A second vessel accused of violating regulations in the Strait of Hormuz has been struck,\" the Guards said in a statement carried by state television IRIB, adding they had also attacked a US base in Qatar."
+        },
         {
           "id": "7d39182b872a9a279ea5b83c8fb0f9c8d8c56ce8d318e79e249e38265eb0e932",
           "title": "US allies apprehensive after capricious Trump changes tune at Nato summit",
@@ -553,36 +586,16 @@
           "collected_at": "2026-07-12T01:52:30.987913+00:00",
           "published": "Sat, 11 Jul 2026 21:32:36 -0400",
           "summary": "Vahid Salemi/AP hide caption toggle caption Vahid Salemi/AP DUBAI, United Arab Emirates — Iran said the Strait of Hormuz was closed once again after a warning shot fired by its military struck a vessel using an unauthorized route in the critical waterway, further jeopardizing the already tenuous ceasefire agreement with the United States."
-        },
-        {
-          "id": "caf67dd55fdeffe643d1a5f6317117a19dc3df042e3b7d07c4efb7436ffa9aa9",
-          "title": "Russian missile and drone barrage kills two and wounds 19 in Ukraine",
-          "url": "https://www.aljazeera.com/news/2026/7/11/russian-missile-attacks-wound-11-in-kyiv?traffic_source=rss",
-          "host": "aljazeera.com",
-          "format": "Article",
-          "collected_at": "2026-07-11T12:59:45.806004+00:00",
-          "published": "Sat, 11 Jul 2026 08:53:23 +0000",
-          "summary": "He said defenders downed most targets “but not the ballistic ones,” and urged allies to quickly deliver air defence packages agreed at this week’s NATO summit. Recommended Stories list of 3 items end of list Ballistic missiles and specialised drone swarms struck multiple districts across Kyiv, wounding at least 11 civilians and damaging critical infrastructure. The complex assault launched highlights the escalating threat facing Kyiv’s airspace as defenders ration depleted air defence stockpiles while waiting for Western military aid to arrive."
-        },
-        {
-          "id": "935ecdae55a1226385cc60a8dad93e81d30add5bc53c33fab81fd54e84344d44",
-          "title": "Poland could cut arms aid to Ukraine as WWII spat continues",
-          "url": "https://www.dw.com/en/poland-could-cut-arms-aid-to-ukraine-as-wwii-spat-continues/a-77893170?maca=en-rss-en-world-4025-rdf",
-          "host": "dw.com",
-          "format": "Article",
-          "collected_at": "2026-07-11T07:09:00.136277+00:00",
-          "published": "2026-07-11T05:19:00Z",
-          "summary": "Defense Minister Wladyslaw Kosiniak-Kamysz published previously secret data on the scale of Poland's military aid since the outbreak of the war. Relations between Poland and Ukraine have been mired in crisis since Ukrainian President Volodymyr Zelenskyy gave a military unit the honorary title \"Heroes of the UPA.\" The initials stand for the Ukrainian Insurgent Army, which was instrumental to the killing of up to 100,000 Polish civilians during World War II."
         }
       ]
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 1122,
+      "count": 1125,
       "formats": [
         {
           "name": "Article",
-          "value": 953
+          "value": 956
         },
         {
           "name": "PDF",
@@ -602,19 +615,39 @@
         }
       ],
       "evidence_ids": [
+        "a295cf011fe4d61faea7cce9d41ca83c594dc5c9195c3a35df8a35f2022600e0",
+        "e270b803c662d518ad2d2d89f07628484da97b9077313c1022be3be4099b4bd2",
         "58634b2a0400d43c9f4c12a5d3af71527ebc297678172ebd5c422da63e5e0317",
         "7d39182b872a9a279ea5b83c8fb0f9c8d8c56ce8d318e79e249e38265eb0e932",
         "f5c89053487940f45bb44a9e817501506f4481bce40bf10d31b72afa752443c3",
         "8f387620f2e32a5c32a8bbdc3a980346a03ab6f12ebd36b430427cd1bc48ffc5",
         "935ecdae55a1226385cc60a8dad93e81d30add5bc53c33fab81fd54e84344d44",
         "d1d2db881327e1369790895d2bebb3629c15ab1410bd24b647b177170d1d901e",
-        "ec64b0273dffd007103978b0921a5802ca5bd810035e49ec45ebb37bc6b0819a",
-        "fded506a46cd1250c279d6010335474c06d446c4077c8f5f8d21848ca96bb0f8",
-        "b22f2a2abd0bc0657d9f26aa59521790b4c4d7a92229f59c1517a7feff8623c0",
-        "fec7e5a6e3c10158fba2399b1a9ceeb3f4c7a740d56c597cbf5ae3038517372a"
+        "664bb0f2851095630838be6436d43da2b94082adbd76af4e6fe9afeb891f397a",
+        "ec64b0273dffd007103978b0921a5802ca5bd810035e49ec45ebb37bc6b0819a"
       ],
-      "summary": "EU foreign ministers meeting in Brussels on Monday will discuss a possible ban on imports from the settlements, against an ongoing humanitarian crisis in Gaza, where a UN inquiry found Israel to be committing a genocide, and surging state-backed violence in the occupied West Bank, which has killed at least 235 children. Under the EU-Israel agreement, goods from the occupied Palestinian territories (the Golan Heights, Gaza and the West Bank, including East Jerusalem) are not entitled to the preferential trade terms that apply to Israel. But the US president’s volatile performance at the western military alliance’s annual summit in Ankara this week seemed extreme, even by Trumpian standards. At a joint press conference with Erdoğan on Tuesday, Trump said he might not have attended the summit if had not been held in Turkey, with which he said he had a “great relationship”. Donald Trump’s relationship with Washington’s Nato allies is nobody’s idea of a happy marriage. Key events If you’d like to read more about China’s ballistic missile test in the Pacific, David Vallance, a research associate at the Lowy Institute’s International Security Program, wrote a comment piece about it earlier in the week. Appearing on Sky News, Joyce – who is now One Nation’s treasury spokesperson – brushed off Taylor’s attack. The opposition leader, Angus Taylor, last week used a major speech to argue Hanson’s platform would cost more than $1tn over a decade, force the Reserve Bank to lift rates and even risk a sovereign debt crisis. Vahid Salemi/AP hide caption toggle caption Vahid Salemi/AP DUBAI, United Arab Emirates — Iran said the Strait of Hormuz was closed once again after a warning shot fired by its military struck a vessel using an unauthorized route in the critical waterway, further jeopardizing the already tenuous ceasefire agreement with the United States.",
+      "summary": "In his most recent trip to Ukraine, Graham was working on a version of the Russia sanctions bill, which he said would give \"tools to President Trump to end this war.\" Over the years, Graham clashed with President Trump, but he became one of his staunchest backers. \"Senator Graham's family appreciates prayers at this time and asks for privacy during this incredibly difficult period.\" Elected to the Senate in 2002, the South Carolina politician was one of Washington's most influential voices on foreign policy and a key ally of Trump. © Pakistan Prime Minister's Office, AFP 12/07/2026 - 07:09 Kuwait armed forces responding to aerial attacks Kuwait's military said its air defence forces were working to intercept an ongoing attack on its territory, as countries across the Gulf were targeted by drones and missiles. \"A second vessel accused of violating regulations in the Strait of Hormuz has been struck,\" the Guards said in a statement carried by state television IRIB, adding they had also attacked a US base in Qatar. EU foreign ministers meeting in Brussels on Monday will discuss a possible ban on imports from the settlements, against an ongoing humanitarian crisis in Gaza, where a UN inquiry found Israel to be committing a genocide, and surging state-backed violence in the occupied West Bank, which has killed at least 235 children. Under the EU-Israel agreement, goods from the occupied Palestinian territories (the Golan Heights, Gaza and the West Bank, including East Jerusalem) are not entitled to the preferential trade terms that apply to Israel. But the US president’s volatile performance at the western military alliance’s annual summit in Ankara this week seemed extreme, even by Trumpian standards. At a joint press conference with Erdoğan on Tuesday, Trump said he might not have attended the summit if had not been held in Turkey, with which he said he had a “great relationship”. Donald Trump’s relationship with Washington’s Nato allies is nobody’s idea of a happy marriage.",
       "latest": [
+        {
+          "id": "a295cf011fe4d61faea7cce9d41ca83c594dc5c9195c3a35df8a35f2022600e0",
+          "title": "US Senator Lindsey Graham dies after 'brief and sudden illness', his office says",
+          "url": "https://www.bbc.co.uk/news/articles/cvgj25j6nmeo?at_medium=RSS&at_campaign=rss",
+          "host": "bbc.co.uk",
+          "format": "Article",
+          "collected_at": "2026-07-12T08:04:10.042534+00:00",
+          "published": "Sun, 12 Jul 2026 07:33:12 GMT",
+          "summary": "In his most recent trip to Ukraine, Graham was working on a version of the Russia sanctions bill, which he said would give \"tools to President Trump to end this war.\" Over the years, Graham clashed with President Trump, but he became one of his staunchest backers. \"Senator Graham's family appreciates prayers at this time and asks for privacy during this incredibly difficult period.\" Elected to the Senate in 2002, the South Carolina politician was one of Washington's most influential voices on foreign policy and a key ally of Trump."
+        },
+        {
+          "id": "e270b803c662d518ad2d2d89f07628484da97b9077313c1022be3be4099b4bd2",
+          "title": "Live: US launches strikes after Iran fires on ship in Strait of Hormuz",
+          "url": "https://www.france24.com/en/middle-east/20260712-live-us-attacks-iran-over-ship-being-hit-in-strait-of-hormuz",
+          "host": "france24.com",
+          "format": "Article",
+          "collected_at": "2026-07-12T08:03:58.547801+00:00",
+          "published": "Sun, 12 Jul 2026 05:05:35 GMT",
+          "summary": "© Pakistan Prime Minister's Office, AFP 12/07/2026 - 07:09 Kuwait armed forces responding to aerial attacks Kuwait's military said its air defence forces were working to intercept an ongoing attack on its territory, as countries across the Gulf were targeted by drones and missiles. \"A second vessel accused of violating regulations in the Strait of Hormuz has been struck,\" the Guards said in a statement carried by state television IRIB, adding they had also attacked a US base in Qatar."
+        },
         {
           "id": "58634b2a0400d43c9f4c12a5d3af71527ebc297678172ebd5c422da63e5e0317",
           "title": "EU accused of dragging its feet over ban on trade with illegal Israeli settlements",
@@ -644,36 +677,16 @@
           "collected_at": "2026-07-12T01:52:25.560923+00:00",
           "published": "Sun, 12 Jul 2026 01:38:19 GMT",
           "summary": "Key events If you’d like to read more about China’s ballistic missile test in the Pacific, David Vallance, a research associate at the Lowy Institute’s International Security Program, wrote a comment piece about it earlier in the week. Appearing on Sky News, Joyce – who is now One Nation’s treasury spokesperson – brushed off Taylor’s attack. The opposition leader, Angus Taylor, last week used a major speech to argue Hanson’s platform would cost more than $1tn over a decade, force the Reserve Bank to lift rates and even risk a sovereign debt crisis."
-        },
-        {
-          "id": "8f387620f2e32a5c32a8bbdc3a980346a03ab6f12ebd36b430427cd1bc48ffc5",
-          "title": "U.S. launches strikes after Iran fires on civilian vessel in Strait of Hormuz",
-          "url": "https://www.npr.org/2026/07/11/g-s1-133212/us-iran-vessel-attack-strait-hormuz",
-          "host": "npr.org",
-          "format": "Article",
-          "collected_at": "2026-07-12T01:52:30.987913+00:00",
-          "published": "Sat, 11 Jul 2026 21:32:36 -0400",
-          "summary": "Vahid Salemi/AP hide caption toggle caption Vahid Salemi/AP DUBAI, United Arab Emirates — Iran said the Strait of Hormuz was closed once again after a warning shot fired by its military struck a vessel using an unauthorized route in the critical waterway, further jeopardizing the already tenuous ceasefire agreement with the United States."
-        },
-        {
-          "id": "935ecdae55a1226385cc60a8dad93e81d30add5bc53c33fab81fd54e84344d44",
-          "title": "Poland could cut arms aid to Ukraine as WWII spat continues",
-          "url": "https://www.dw.com/en/poland-could-cut-arms-aid-to-ukraine-as-wwii-spat-continues/a-77893170?maca=en-rss-en-world-4025-rdf",
-          "host": "dw.com",
-          "format": "Article",
-          "collected_at": "2026-07-11T07:09:00.136277+00:00",
-          "published": "2026-07-11T05:19:00Z",
-          "summary": "Defense Minister Wladyslaw Kosiniak-Kamysz published previously secret data on the scale of Poland's military aid since the outbreak of the war. Relations between Poland and Ukraine have been mired in crisis since Ukrainian President Volodymyr Zelenskyy gave a military unit the honorary title \"Heroes of the UPA.\" The initials stand for the Ukrainian Insurgent Army, which was instrumental to the killing of up to 100,000 Polish civilians during World War II."
         }
       ]
     },
     {
       "name": "Humanitarian Pressure",
-      "count": 774,
+      "count": 775,
       "formats": [
         {
           "name": "Article",
-          "value": 534
+          "value": 535
         },
         {
           "name": "PDF",
@@ -699,10 +712,10 @@
         "935ecdae55a1226385cc60a8dad93e81d30add5bc53c33fab81fd54e84344d44",
         "c9362742f382d4ef909b3df7468af96e9389e2025226932b58e341ab8d93f822",
         "d1d2db881327e1369790895d2bebb3629c15ab1410bd24b647b177170d1d901e",
+        "664bb0f2851095630838be6436d43da2b94082adbd76af4e6fe9afeb891f397a",
         "aec70dbbf266b86d54d44b94a6b180cb526776bd590bbfd826ef61634188251c",
         "dc8f4c2d87ddfd4682fc50f7d8160c10fee12f8daaf5288760e2a4208120b300",
-        "b22f2a2abd0bc0657d9f26aa59521790b4c4d7a92229f59c1517a7feff8623c0",
-        "32a6a45706215b29a2afad91987b1c22d0a80faa8c0f9a19c6b93cb9c1368046"
+        "b22f2a2abd0bc0657d9f26aa59521790b4c4d7a92229f59c1517a7feff8623c0"
       ],
       "summary": "EU foreign ministers meeting in Brussels on Monday will discuss a possible ban on imports from the settlements, against an ongoing humanitarian crisis in Gaza, where a UN inquiry found Israel to be committing a genocide, and surging state-backed violence in the occupied West Bank, which has killed at least 235 children. Under the EU-Israel agreement, goods from the occupied Palestinian territories (the Golan Heights, Gaza and the West Bank, including East Jerusalem) are not entitled to the preferential trade terms that apply to Israel. Vahid Salemi/AP hide caption toggle caption Vahid Salemi/AP DUBAI, United Arab Emirates — Iran said the Strait of Hormuz was closed once again after a warning shot fired by its military struck a vessel using an unauthorized route in the critical waterway, further jeopardizing the already tenuous ceasefire agreement with the United States. He said defenders downed most targets “but not the ballistic ones,” and urged allies to quickly deliver air defence packages agreed at this week’s NATO summit. Recommended Stories list of 3 items end of list Ballistic missiles and specialised drone swarms struck multiple districts across Kyiv, wounding at least 11 civilians and damaging critical infrastructure. The complex assault launched highlights the escalating threat facing Kyiv’s airspace as defenders ration depleted air defence stockpiles while waiting for Western military aid to arrive. Defense Minister Wladyslaw Kosiniak-Kamysz published previously secret data on the scale of Poland's military aid since the outbreak of the war. Relations between Poland and Ukraine have been mired in crisis since Ukrainian President Volodymyr Zelenskyy gave a military unit the honorary title \"Heroes of the UPA.\" The initials stand for the Ukrainian Insurgent Army, which was instrumental to the killing of up to 100,000 Polish civilians during World War II.",
       "latest": [
@@ -760,11 +773,11 @@
     },
     {
       "name": "Territory and Chokepoints",
-      "count": 719,
+      "count": 720,
       "formats": [
         {
           "name": "Article",
-          "value": 581
+          "value": 582
         },
         {
           "name": "PDF",
@@ -784,6 +797,7 @@
         }
       ],
       "evidence_ids": [
+        "e270b803c662d518ad2d2d89f07628484da97b9077313c1022be3be4099b4bd2",
         "58634b2a0400d43c9f4c12a5d3af71527ebc297678172ebd5c422da63e5e0317",
         "7d39182b872a9a279ea5b83c8fb0f9c8d8c56ce8d318e79e249e38265eb0e932",
         "aec70dbbf266b86d54d44b94a6b180cb526776bd590bbfd826ef61634188251c",
@@ -792,11 +806,20 @@
         "d973394f5d76adfebc8155baf596652e8a00c5fcf9108d046b66be61e99b7c96",
         "1ab15003e812a90955e01452120cb6ea1b56d5599f942291c92df0c87ddcce62",
         "4c1b28af50ac92f1620fcb8aa3bcd00421c174f05902e773f42039306813d524",
-        "c13ccb8b6b23c5a1dc45df78a6383674e4c3774d5167659f57f56f436bea5f65",
-        "7d84c19f1f1c6c16e16bf5a110d780dffab08c1498114e06d8e32a89e7c8e7da"
+        "c13ccb8b6b23c5a1dc45df78a6383674e4c3774d5167659f57f56f436bea5f65"
       ],
-      "summary": "EU foreign ministers meeting in Brussels on Monday will discuss a possible ban on imports from the settlements, against an ongoing humanitarian crisis in Gaza, where a UN inquiry found Israel to be committing a genocide, and surging state-backed violence in the occupied West Bank, which has killed at least 235 children. Under the EU-Israel agreement, goods from the occupied Palestinian territories (the Golan Heights, Gaza and the West Bank, including East Jerusalem) are not entitled to the preferential trade terms that apply to Israel. But the US president’s volatile performance at the western military alliance’s annual summit in Ankara this week seemed extreme, even by Trumpian standards. At a joint press conference with Erdoğan on Tuesday, Trump said he might not have attended the summit if had not been held in Turkey, with which he said he had a “great relationship”. Donald Trump’s relationship with Washington’s Nato allies is nobody’s idea of a happy marriage. LATIN AMERICA & THE CARIBBEAN Weekly Situation Update As of 10 July 2026 The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. Following visits to affected communities and meetings with national and international humanitarian partners, UN Under- Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator Tom Fletcher announced an appeal for an additional US$298 million to meet the needs of 1.3 million people over the next six months. On Tuesday, Iranian forces launched strikes on three oil and gas tankers in the Strait of Hormuz, prompting U.S. facilities in Bahrain, Jordan, Kuwait, and Qatar and Washington striking “air defense systems, coastal surveillance assets, missile and drone storage sites, naval capabilities, and military logistics infrastructure along Iran’s coastline,” according to U.S.",
+      "summary": "© Pakistan Prime Minister's Office, AFP 12/07/2026 - 07:09 Kuwait armed forces responding to aerial attacks Kuwait's military said its air defence forces were working to intercept an ongoing attack on its territory, as countries across the Gulf were targeted by drones and missiles. \"A second vessel accused of violating regulations in the Strait of Hormuz has been struck,\" the Guards said in a statement carried by state television IRIB, adding they had also attacked a US base in Qatar. EU foreign ministers meeting in Brussels on Monday will discuss a possible ban on imports from the settlements, against an ongoing humanitarian crisis in Gaza, where a UN inquiry found Israel to be committing a genocide, and surging state-backed violence in the occupied West Bank, which has killed at least 235 children. Under the EU-Israel agreement, goods from the occupied Palestinian territories (the Golan Heights, Gaza and the West Bank, including East Jerusalem) are not entitled to the preferential trade terms that apply to Israel. But the US president’s volatile performance at the western military alliance’s annual summit in Ankara this week seemed extreme, even by Trumpian standards. At a joint press conference with Erdoğan on Tuesday, Trump said he might not have attended the summit if had not been held in Turkey, with which he said he had a “great relationship”. Donald Trump’s relationship with Washington’s Nato allies is nobody’s idea of a happy marriage. LATIN AMERICA & THE CARIBBEAN Weekly Situation Update As of 10 July 2026 The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. Following visits to affected communities and meetings with national and international humanitarian partners, UN Under- Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator Tom Fletcher announced an appeal for an additional US$298 million to meet the needs of 1.3 million people over the next six months.",
       "latest": [
+        {
+          "id": "e270b803c662d518ad2d2d89f07628484da97b9077313c1022be3be4099b4bd2",
+          "title": "Live: US launches strikes after Iran fires on ship in Strait of Hormuz",
+          "url": "https://www.france24.com/en/middle-east/20260712-live-us-attacks-iran-over-ship-being-hit-in-strait-of-hormuz",
+          "host": "france24.com",
+          "format": "Article",
+          "collected_at": "2026-07-12T08:03:58.547801+00:00",
+          "published": "Sun, 12 Jul 2026 05:05:35 GMT",
+          "summary": "© Pakistan Prime Minister's Office, AFP 12/07/2026 - 07:09 Kuwait armed forces responding to aerial attacks Kuwait's military said its air defence forces were working to intercept an ongoing attack on its territory, as countries across the Gulf were targeted by drones and missiles. \"A second vessel accused of violating regulations in the Strait of Hormuz has been struck,\" the Guards said in a statement carried by state television IRIB, adding they had also attacked a US base in Qatar."
+        },
         {
           "id": "58634b2a0400d43c9f4c12a5d3af71527ebc297678172ebd5c422da63e5e0317",
           "title": "EU accused of dragging its feet over ban on trade with illegal Israeli settlements",
@@ -836,16 +859,6 @@
           "collected_at": "2026-07-10T20:18:12.669257+00:00",
           "published": "Fri, 10 Jul 2026 19:27:46 +0000",
           "summary": "On Tuesday, Iranian forces launched strikes on three oil and gas tankers in the Strait of Hormuz, prompting U.S. facilities in Bahrain, Jordan, Kuwait, and Qatar and Washington striking “air defense systems, coastal surveillance assets, missile and drone storage sites, naval capabilities, and military logistics infrastructure along Iran’s coastline,” according to U.S."
-        },
-        {
-          "id": "fec7e5a6e3c10158fba2399b1a9ceeb3f4c7a740d56c597cbf5ae3038517372a",
-          "title": "How Ukraine Figured Out Trump World",
-          "url": "https://foreignpolicy.com/2026/07/10/dmytro-kuleba-ukraine-russia-war-victory-nato-patriot-missile/",
-          "host": "foreignpolicy.com",
-          "format": "Article",
-          "collected_at": "2026-07-10T18:20:23.411899+00:00",
-          "published": "Fri, 10 Jul 2026 17:48:02 +0000",
-          "summary": "And at the NATO summit in Turkey earlier this week, Trump agreed to give Kyiv a license to manufacture Patriot missile interceptors, potentially mitigating a key Ukrainian vulnerability in the future. Amid the Iran conflict, the United States and its allies have turned to Ukraine to learn how it built an ecosystem of cheap offensive drones. President Donald Trump told Ukraine’s Volodymyr Zelensky “you don’t have the cards.” Kyiv seems to have come up with some aces recently, with regular drone attacks deep into Russian territory."
         }
       ]
     },
@@ -938,11 +951,11 @@
     },
     {
       "name": "Institutions and Law",
-      "count": 418,
+      "count": 419,
       "formats": [
         {
           "name": "Article",
-          "value": 261
+          "value": 262
         },
         {
           "name": "PDF",
@@ -966,12 +979,12 @@
         "935ecdae55a1226385cc60a8dad93e81d30add5bc53c33fab81fd54e84344d44",
         "c9362742f382d4ef909b3df7468af96e9389e2025226932b58e341ab8d93f822",
         "d1d2db881327e1369790895d2bebb3629c15ab1410bd24b647b177170d1d901e",
+        "664bb0f2851095630838be6436d43da2b94082adbd76af4e6fe9afeb891f397a",
         "aec70dbbf266b86d54d44b94a6b180cb526776bd590bbfd826ef61634188251c",
         "4c1b28af50ac92f1620fcb8aa3bcd00421c174f05902e773f42039306813d524",
         "c13ccb8b6b23c5a1dc45df78a6383674e4c3774d5167659f57f56f436bea5f65",
         "7f5547f15c67cd0319c5af6f3ec8ca560ac51d43b8dd070665c28c8bb7b72031",
-        "d03d5132a93cf5f368c86e5bce7c23831bfd09254c3cc81e1c8e3b1107db19bf",
-        "53f92b2f851d361ddc31f0042cddb36a510c790a3e1953d19f68ba25a4a6f1b4"
+        "d03d5132a93cf5f368c86e5bce7c23831bfd09254c3cc81e1c8e3b1107db19bf"
       ],
       "summary": "EU foreign ministers meeting in Brussels on Monday will discuss a possible ban on imports from the settlements, against an ongoing humanitarian crisis in Gaza, where a UN inquiry found Israel to be committing a genocide, and surging state-backed violence in the occupied West Bank, which has killed at least 235 children. Under the EU-Israel agreement, goods from the occupied Palestinian territories (the Golan Heights, Gaza and the West Bank, including East Jerusalem) are not entitled to the preferential trade terms that apply to Israel. Defense Minister Wladyslaw Kosiniak-Kamysz published previously secret data on the scale of Poland's military aid since the outbreak of the war. Relations between Poland and Ukraine have been mired in crisis since Ukrainian President Volodymyr Zelenskyy gave a military unit the honorary title \"Heroes of the UPA.\" The initials stand for the Ukrainian Insurgent Army, which was instrumental to the killing of up to 100,000 Polish civilians during World War II. The United Nations Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator, Tom Fletcher, concluded his four-day visit to Venezuela on Friday and called on the international community to maintain its support for the Humanitarian Response Plan (HRP) to help address the most urgent needs of people in vulnerable situations. The United Nations system and its partner organizations, in coordination with the Government, are responding with multisectoral actions and will continue to scale up assistance to affected people. The United Nations Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator, Tom Fletcher, concluded his four -day visit to Venezuela on Friday and called on the international community to maintain its support for the Humanitarian Response Plan (HRP) to help address the most urgent needs of people in vulnerable situations.",
       "latest": [
@@ -1016,14 +1029,14 @@
           "summary": "The United Nations Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator, Tom Fletcher, concluded his four -day visit to Venezuela on Friday and called on the international community to maintain its support for the Humanitarian Response Plan (HRP) to help address the most urgent needs of people in vulnerable situations."
         },
         {
-          "id": "aec70dbbf266b86d54d44b94a6b180cb526776bd590bbfd826ef61634188251c",
-          "title": "Venezuela: Latin America & The Caribbean Weekly Situation Update as of 10 July 2026 (pdf)",
-          "url": "https://reliefweb.int/attachments/d46f132e-182d-437e-ad76-d8f574d4f180/2026-07-10%20Weekly%20Situation%20Update%20%28as%20of%2010%20July%29.pdf",
-          "host": "reliefweb.int",
-          "format": "PDF",
-          "collected_at": "2026-07-10T22:54:48.655776+00:00",
-          "published": "Fri, 10 Jul 2026 19:42:28 +0000",
-          "summary": "LATIN AMERICA & THE CARIBBEAN Weekly Situation Update As of 10 July 2026 The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. Following visits to affected communities and meetings with national and international humanitarian partners, UN Under- Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator Tom Fletcher announced an appeal for an additional US$298 million to meet the needs of 1.3 million people over the next six months."
+          "id": "664bb0f2851095630838be6436d43da2b94082adbd76af4e6fe9afeb891f397a",
+          "title": "UN Watchdog ‘Lost Continuity of Knowledge’ on Iran Nuclear Programme, Security Council Told amid Dispute over Sanctions",
+          "url": "https://press.un.org/en/2026/sc16409.doc.htm",
+          "host": "press.un.org",
+          "format": "Article",
+          "collected_at": "2026-07-12T08:03:51.330532+00:00",
+          "published": "Fri, 10 Jul 2026 15:55:53 -0400",
+          "summary": "Presenting the Secretary-General’s most recent report on the implementation of resolution 2231 (2015), she said the International Atomic Energy Agency (IAEA) has received no updated nuclear declarations from Iran and has been unable to conduct visits to any sites in the country. Resolution 2231 (2015) endorsed the Joint Comprehensive Plan of Action — commonly known as the Iran nuclear deal reached after years of negotiations between the United States, Iran and other key actors."
         }
       ]
     },
@@ -1116,11 +1129,11 @@
     },
     {
       "name": "Sanctions and Finance",
-      "count": 300,
+      "count": 301,
       "formats": [
         {
           "name": "Article",
-          "value": 227
+          "value": 228
         },
         {
           "name": "Sanctions",
@@ -1140,6 +1153,7 @@
         }
       ],
       "evidence_ids": [
+        "a295cf011fe4d61faea7cce9d41ca83c594dc5c9195c3a35df8a35f2022600e0",
         "f5c89053487940f45bb44a9e817501506f4481bce40bf10d31b72afa752443c3",
         "aec70dbbf266b86d54d44b94a6b180cb526776bd590bbfd826ef61634188251c",
         "73960461334ca4e2bde172faeb23eb76f6945e40ad138c911c5fc58ae7d1a11c",
@@ -1148,11 +1162,20 @@
         "a1790e4ff7f369f70af1641fbaf3cfcfa0dd0bfd6d2f4ed11c354a2d34edad09",
         "45c3c72d31f4d981f7d06dc33b01d8d205c61c2005deef6a0ac4d3703b88415b",
         "35725bd8bc725c37396aa720242f8de9234d46fa3b0b01869c40900d5edaeffe",
-        "06c845133d7a1e809712d82f0e4075b1435f7f54a1b8290f57caf7fcd66fa1f1",
-        "e8a0cc33d96e219ad49e23721600f7146a4cf67786bfa3cd458148f9dd533bce"
+        "06c845133d7a1e809712d82f0e4075b1435f7f54a1b8290f57caf7fcd66fa1f1"
       ],
-      "summary": "Key events If you’d like to read more about China’s ballistic missile test in the Pacific, David Vallance, a research associate at the Lowy Institute’s International Security Program, wrote a comment piece about it earlier in the week. Appearing on Sky News, Joyce – who is now One Nation’s treasury spokesperson – brushed off Taylor’s attack. The opposition leader, Angus Taylor, last week used a major speech to argue Hanson’s platform would cost more than $1tn over a decade, force the Reserve Bank to lift rates and even risk a sovereign debt crisis. LATIN AMERICA & THE CARIBBEAN Weekly Situation Update As of 10 July 2026 The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. Following visits to affected communities and meetings with national and international humanitarian partners, UN Under- Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator Tom Fletcher announced an appeal for an additional US$298 million to meet the needs of 1.3 million people over the next six months. He added: “I will insist on taking a polygraph to prove my innocence.” Zhykovych’s lawyer, Anatoliy Ivanov, said his client denied the allegations. Ukrainian media reported that Reut, 33, studied law at the national university in Kyiv, and worked for Ukraine’s GUR military intelligence agency. The case of a suspected bomber accused of targeting a Ukrainian oligarch has taken another murky turn, after details of her subsequent murder were revealed in court with evidence suggesting the involvement of Kyiv’s intelligence agencies. FEWS NET estimates that 1.5-1.99 million people will require humanitarian food assistance during the October- January lean season. While plans for humanitarian assistance have not yet been finalized, past trends indicate that assistance is typically provided from November through at least January, coinciding with the peak of the lean season. Below-average rainfall is likely in southern Malawi during the 2026/27 season, with October to January rains delayed and poorly distributed.",
+      "summary": "In his most recent trip to Ukraine, Graham was working on a version of the Russia sanctions bill, which he said would give \"tools to President Trump to end this war.\" Over the years, Graham clashed with President Trump, but he became one of his staunchest backers. \"Senator Graham's family appreciates prayers at this time and asks for privacy during this incredibly difficult period.\" Elected to the Senate in 2002, the South Carolina politician was one of Washington's most influential voices on foreign policy and a key ally of Trump. Key events If you’d like to read more about China’s ballistic missile test in the Pacific, David Vallance, a research associate at the Lowy Institute’s International Security Program, wrote a comment piece about it earlier in the week. Appearing on Sky News, Joyce – who is now One Nation’s treasury spokesperson – brushed off Taylor’s attack. The opposition leader, Angus Taylor, last week used a major speech to argue Hanson’s platform would cost more than $1tn over a decade, force the Reserve Bank to lift rates and even risk a sovereign debt crisis. LATIN AMERICA & THE CARIBBEAN Weekly Situation Update As of 10 July 2026 The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations. Following visits to affected communities and meetings with national and international humanitarian partners, UN Under- Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator Tom Fletcher announced an appeal for an additional US$298 million to meet the needs of 1.3 million people over the next six months. He added: “I will insist on taking a polygraph to prove my innocence.” Zhykovych’s lawyer, Anatoliy Ivanov, said his client denied the allegations. Ukrainian media reported that Reut, 33, studied law at the national university in Kyiv, and worked for Ukraine’s GUR military intelligence agency. The case of a suspected bomber accused of targeting a Ukrainian oligarch has taken another murky turn, after details of her subsequent murder were revealed in court with evidence suggesting the involvement of Kyiv’s intelligence agencies.",
       "latest": [
+        {
+          "id": "a295cf011fe4d61faea7cce9d41ca83c594dc5c9195c3a35df8a35f2022600e0",
+          "title": "US Senator Lindsey Graham dies after 'brief and sudden illness', his office says",
+          "url": "https://www.bbc.co.uk/news/articles/cvgj25j6nmeo?at_medium=RSS&at_campaign=rss",
+          "host": "bbc.co.uk",
+          "format": "Article",
+          "collected_at": "2026-07-12T08:04:10.042534+00:00",
+          "published": "Sun, 12 Jul 2026 07:33:12 GMT",
+          "summary": "In his most recent trip to Ukraine, Graham was working on a version of the Russia sanctions bill, which he said would give \"tools to President Trump to end this war.\" Over the years, Graham clashed with President Trump, but he became one of his staunchest backers. \"Senator Graham's family appreciates prayers at this time and asks for privacy during this incredibly difficult period.\" Elected to the Senate in 2002, the South Carolina politician was one of Washington's most influential voices on foreign policy and a key ally of Trump."
+        },
         {
           "id": "f5c89053487940f45bb44a9e817501506f4481bce40bf10d31b72afa752443c3",
           "title": "Australia news live: Barnaby Joyce won’t guarantee One Nation policies will be costed before next election",
@@ -1192,16 +1215,6 @@
           "collected_at": "2026-07-10T00:00:29.865361+00:00",
           "published": "Thu, 09 Jul 2026 23:36:39 +0000",
           "summary": "FEWS NET estimates that 1.5-1.99 million people will require humanitarian food assistance during the October- January lean season. While plans for humanitarian assistance have not yet been finalized, past trends indicate that assistance is typically provided from November through at least January, coinciding with the peak of the lean season. Below-average rainfall is likely in southern Malawi during the 2026/27 season, with October to January rains delayed and poorly distributed."
-        },
-        {
-          "id": "24dd796f59f6c7f3623c3e424a46f26c98e1b6c98680276ef433d3ac97ea83c2",
-          "title": "Nato leaders surprised by Turkish president’s gift of guns after summit",
-          "url": "https://www.theguardian.com/world/2026/jul/09/turkish-president-gives-nato-leaders-engraved-guns-and-bullets-at-summit",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-07-09T18:49:57.511370+00:00",
-          "published": "Thu, 09 Jul 2026 16:32:50 GMT",
-          "summary": "On the flight back from Ankara, where Nato leaders had gathered for two days, the British prime minister said he and others had received a revolver engraved with their names. “An unusual gift from president Erdoğan at the Nato summit: a Magnum revolver with ammunition, engraved with my name,” the Hungarian prime minister, Péter Magyar, said on X."
         }
       ]
     }
@@ -1209,8 +1222,10 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 1000,
+      "count": 1002,
       "evidence_ids": [
+        "57964dcb7aff950a518b8bfefb389856733ede5e6708574b0a125695f956c0dd",
+        "e270b803c662d518ad2d2d89f07628484da97b9077313c1022be3be4099b4bd2",
         "58634b2a0400d43c9f4c12a5d3af71527ebc297678172ebd5c422da63e5e0317",
         "8f387620f2e32a5c32a8bbdc3a980346a03ab6f12ebd36b430427cd1bc48ffc5",
         "36b1568bd912a1645d13f3ff488d8e99f59d65e3168db75fc7d561a7134fb61e",
@@ -1220,9 +1235,7 @@
         "dc709177d39e0c27b85ed8161af886dc146784f17e84ab3d10b3baefd24f8321",
         "d03d5132a93cf5f368c86e5bce7c23831bfd09254c3cc81e1c8e3b1107db19bf",
         "53f92b2f851d361ddc31f0042cddb36a510c790a3e1953d19f68ba25a4a6f1b4",
-        "c6e875635f560ad8418b2c40280b3dd6daa284a70a229bcf79626eba12f8509d",
-        "c26b31c10a69f14d548a517d1968e077a6c565984cf976f0e849b4f1d1e172ab",
-        "f6c9f16e8d3ae22a70716ba0dc78af740bb83d536c90ef9514e336c00038be11"
+        "c6e875635f560ad8418b2c40280b3dd6daa284a70a229bcf79626eba12f8509d"
       ],
       "top_sources": [
         {
@@ -1235,7 +1248,7 @@
         },
         {
           "name": "aljazeera.com",
-          "value": 130
+          "value": 131
         },
         {
           "name": "global.unitednations.entermediadb.net",
@@ -1249,20 +1262,20 @@
     },
     {
       "name": "Europe and Russia",
-      "count": 851,
+      "count": 855,
       "evidence_ids": [
+        "b31680bada91eb69c769a56415754cb288e2feb45e830fba7ba42ea7d04d13fa",
+        "a295cf011fe4d61faea7cce9d41ca83c594dc5c9195c3a35df8a35f2022600e0",
+        "57964dcb7aff950a518b8bfefb389856733ede5e6708574b0a125695f956c0dd",
         "7d39182b872a9a279ea5b83c8fb0f9c8d8c56ce8d318e79e249e38265eb0e932",
         "f5c89053487940f45bb44a9e817501506f4481bce40bf10d31b72afa752443c3",
         "caf67dd55fdeffe643d1a5f6317117a19dc3df042e3b7d07c4efb7436ffa9aa9",
         "935ecdae55a1226385cc60a8dad93e81d30add5bc53c33fab81fd54e84344d44",
         "c9362742f382d4ef909b3df7468af96e9389e2025226932b58e341ab8d93f822",
         "d1d2db881327e1369790895d2bebb3629c15ab1410bd24b647b177170d1d901e",
+        "664bb0f2851095630838be6436d43da2b94082adbd76af4e6fe9afeb891f397a",
         "aec70dbbf266b86d54d44b94a6b180cb526776bd590bbfd826ef61634188251c",
-        "dc8f4c2d87ddfd4682fc50f7d8160c10fee12f8daaf5288760e2a4208120b300",
-        "ec64b0273dffd007103978b0921a5802ca5bd810035e49ec45ebb37bc6b0819a",
-        "fded506a46cd1250c279d6010335474c06d446c4077c8f5f8d21848ca96bb0f8",
-        "b22f2a2abd0bc0657d9f26aa59521790b4c4d7a92229f59c1517a7feff8623c0",
-        "fec7e5a6e3c10158fba2399b1a9ceeb3f4c7a740d56c597cbf5ae3038517372a"
+        "dc8f4c2d87ddfd4682fc50f7d8160c10fee12f8daaf5288760e2a4208120b300"
       ],
       "top_sources": [
         {
@@ -1279,7 +1292,7 @@
         },
         {
           "name": "aljazeera.com",
-          "value": 75
+          "value": 76
         },
         {
           "name": "foreignpolicy.com",
@@ -1289,8 +1302,11 @@
     },
     {
       "name": "Americas",
-      "count": 841,
+      "count": 844,
       "evidence_ids": [
+        "a295cf011fe4d61faea7cce9d41ca83c594dc5c9195c3a35df8a35f2022600e0",
+        "57964dcb7aff950a518b8bfefb389856733ede5e6708574b0a125695f956c0dd",
+        "e270b803c662d518ad2d2d89f07628484da97b9077313c1022be3be4099b4bd2",
         "7d39182b872a9a279ea5b83c8fb0f9c8d8c56ce8d318e79e249e38265eb0e932",
         "8f387620f2e32a5c32a8bbdc3a980346a03ab6f12ebd36b430427cd1bc48ffc5",
         "c9362742f382d4ef909b3df7468af96e9389e2025226932b58e341ab8d93f822",
@@ -1299,10 +1315,7 @@
         "dc8f4c2d87ddfd4682fc50f7d8160c10fee12f8daaf5288760e2a4208120b300",
         "fded506a46cd1250c279d6010335474c06d446c4077c8f5f8d21848ca96bb0f8",
         "b22f2a2abd0bc0657d9f26aa59521790b4c4d7a92229f59c1517a7feff8623c0",
-        "fec7e5a6e3c10158fba2399b1a9ceeb3f4c7a740d56c597cbf5ae3038517372a",
-        "d973394f5d76adfebc8155baf596652e8a00c5fcf9108d046b66be61e99b7c96",
-        "4c1b28af50ac92f1620fcb8aa3bcd00421c174f05902e773f42039306813d524",
-        "d34ad9e734b152697246ec6f548955433198e63a55d54f1d403cded37653fd78"
+        "fec7e5a6e3c10158fba2399b1a9ceeb3f4c7a740d56c597cbf5ae3038517372a"
       ],
       "top_sources": [
         {
@@ -1311,7 +1324,7 @@
         },
         {
           "name": "aljazeera.com",
-          "value": 119
+          "value": 120
         },
         {
           "name": "reliefweb.int",
@@ -1329,8 +1342,10 @@
     },
     {
       "name": "Global Institutions",
-      "count": 794,
+      "count": 797,
       "evidence_ids": [
+        "b31680bada91eb69c769a56415754cb288e2feb45e830fba7ba42ea7d04d13fa",
+        "a295cf011fe4d61faea7cce9d41ca83c594dc5c9195c3a35df8a35f2022600e0",
         "58634b2a0400d43c9f4c12a5d3af71527ebc297678172ebd5c422da63e5e0317",
         "7d39182b872a9a279ea5b83c8fb0f9c8d8c56ce8d318e79e249e38265eb0e932",
         "f5c89053487940f45bb44a9e817501506f4481bce40bf10d31b72afa752443c3",
@@ -1338,11 +1353,9 @@
         "935ecdae55a1226385cc60a8dad93e81d30add5bc53c33fab81fd54e84344d44",
         "c9362742f382d4ef909b3df7468af96e9389e2025226932b58e341ab8d93f822",
         "d1d2db881327e1369790895d2bebb3629c15ab1410bd24b647b177170d1d901e",
+        "664bb0f2851095630838be6436d43da2b94082adbd76af4e6fe9afeb891f397a",
         "aec70dbbf266b86d54d44b94a6b180cb526776bd590bbfd826ef61634188251c",
-        "dc8f4c2d87ddfd4682fc50f7d8160c10fee12f8daaf5288760e2a4208120b300",
-        "ec64b0273dffd007103978b0921a5802ca5bd810035e49ec45ebb37bc6b0819a",
-        "b22f2a2abd0bc0657d9f26aa59521790b4c4d7a92229f59c1517a7feff8623c0",
-        "fec7e5a6e3c10158fba2399b1a9ceeb3f4c7a740d56c597cbf5ae3038517372a"
+        "dc8f4c2d87ddfd4682fc50f7d8160c10fee12f8daaf5288760e2a4208120b300"
       ],
       "top_sources": [
         {
@@ -1409,9 +1422,11 @@
     },
     {
       "name": "Indo-Pacific",
-      "count": 401,
+      "count": 403,
       "evidence_ids": [
+        "e270b803c662d518ad2d2d89f07628484da97b9077313c1022be3be4099b4bd2",
         "f5c89053487940f45bb44a9e817501506f4481bce40bf10d31b72afa752443c3",
+        "664bb0f2851095630838be6436d43da2b94082adbd76af4e6fe9afeb891f397a",
         "ec64b0273dffd007103978b0921a5802ca5bd810035e49ec45ebb37bc6b0819a",
         "fded506a46cd1250c279d6010335474c06d446c4077c8f5f8d21848ca96bb0f8",
         "96d1439a63f051d92a088714956337793964eb4f43f0a13c05db10c3fbab9c0e",
@@ -1420,9 +1435,7 @@
         "3d157bb77240e620820fbe01b85b1a6bdd80c31fdc970f76c26c7ab79a5df420",
         "e08305beae714098eb76ee1cef7d4b9701b157950fc4d1dcf17cb7a9f95c05ef",
         "78c662dbe42ac2369b6a0da40e47987d72b04246ef8abf096f5c4223183862a6",
-        "1bdfe5b7f5338fcbaa5d8d8e94e89ed7f5d80b2a342584b5f08c9bd4b7200621",
-        "6697895e00f6e55f023d564a42b126455e805a3c54ece85e5b9052537d70f924",
-        "9aa9bbd5dceef8db651329d7cca09484c5495e5bb8867be3b33fa6afc3dc96be"
+        "1bdfe5b7f5338fcbaa5d8d8e94e89ed7f5d80b2a342584b5f08c9bd4b7200621"
       ],
       "top_sources": [
         {
@@ -2432,6 +2445,310 @@
   ],
   "latest_evidence": [
     {
+      "id": "b31680bada91eb69c769a56415754cb288e2feb45e830fba7ba42ea7d04d13fa",
+      "topic": "geopolitics",
+      "title": "US Senator Lindsey Graham dies after 'brief and sudden illness'",
+      "url": "http://www.euronews.com/2026/07/12/us-senator-lindsey-graham-dies-after-brief-and-sudden-illness",
+      "host": "euronews.com",
+      "source": "https://www.euronews.com/rss?level=theme&name=news",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-12T08:04:09.815002+00:00",
+      "published": "Sun, 12 Jul 2026 09:33:35 +0200",
+      "text_chars": 32683,
+      "raw_path": "data/geopolitics/raw/b31680bada91eb69c769a56415754cb288e2feb45e830fba7ba42ea7d04d13fa.html",
+      "text_path": "data/geopolitics/raw/b31680bada91eb69c769a56415754cb288e2feb45e830fba7ba42ea7d04d13fa.txt",
+      "summary": "[�\u00186 �jo\u000f�(���3�R�z\u0000Tgb�\u001b��ן�=p\u0000��?\u0018Mf��fw8]n�����_[����+Ϋ!�ph��\u0014z�u�qv��(EQ�s�h��79����˴��ϋ�8CY\u0002PM>\u001a@�\u0004��@��ͳ� \u001d��-\u0019I\u0010��O}��>Mu��em� �?}\u00133�-;Q�_$�ޏ��C�D\u0004\u0002\\\u0000�Dg=s��U�{U������_���\u0015����^�.��$X�<���H2gnV\u0003h��@\u0000\u0006@J���A:A��\u0015Dg�+��6���W5�\u000eR�GTJ���%J�}8e��<��t�{���\u00033\u001f�4\u0007 �\u0019��\u0012��r@J>�2=��\u0000\u0010�h�Q\u001c\u001d[ִ&{Z�lO�rjk���j���C�)�Ҳ�e�Yf���b���}5�1\u0016�:�+�à\u001ccӸ4x�\u0004����\u000f��\u0001H�,@I'D�N�v=s����\u0007��І\u001c*�XV)����\u0007.�?�\u0010�ͥ�m��������4A\u0011��^��������`0�nS",
+      "bullets": [
+        "[�\u00186 �jo\u000f�(���3�R�z\u0000Tgb�\u001b��ן�=p\u0000��?\u0018Mf��fw8]n�����_[����+Ϋ!�ph��\u0014z�u�qv��(EQ�s�h��79����˴��ϋ�8CY\u0002PM>\u001a@�\u0004��@��ͳ� \u001d��-\u0019I\u0010��O}��>Mu��em� �?}\u00133�-;Q�_$�ޏ��C�D\u0004\u0002\\\u0000�Dg=s��U�{U������_���\u0015����^�.��$X�<���H2gnV\u0003h��@\u0000\u0006@J���A:A��\u0015Dg�+��6���W5�\u000eR�GTJ���%J�}8e��<��t�{���\u00033\u001f�4\u0007 �\u0019��\u0012��r@J>�2=��\u0000\u0010�h�Q\u001c\u001d[ִ&{Z�lO�rjk���j���C�)�Ҳ�e�Yf���b���}5�1\u0016�:�+�à\u001ccӸ4x�\u0004����\u000f��\u0001H�,@I'D�N�v=s����\u0007��І\u001c*�XV)����\u0007.�?�\u0010�ͥ�m��������4A\u0011��^��������`0�nS"
+      ],
+      "excerpt": "[�\u00186 �jo\u000f�(���3�R�z\u0000Tgb�\u001b��ן�=p\u0000��?\u0018Mf��fw8]n�����_[����+Ϋ!�ph��\u0014z�u�qv��(EQ�s�h��79����˴��ϋ�8CY\u0002PM>\u001a@�\u0004��@��ͳ� \u001d��-\u0019I\u0010��O}��>Mu��em� �?}\u00133�-;Q�_$�ޏ��C�D\u0004\u0002\\\u0000�Dg=s��U�{U������_���\u0015����^�.��$X�<���H2gnV\u0003h��@\u0000\u0006@J���A:A��\u0015Dg�+��6���W5�\u000eR�GTJ���%J�}8e��<��t�{���\u00033\u001f�4\u0007 �\u0019��\u0012��r@J>�2=��\u0000\u0010�h�Q\u001c\u001d[ִ&{Z�lO�rjk���j���C�)�Ҳ�e�Yf���b���}5�1\u0016�:�+�à\u001ccӸ4x�\u0004����\u000f��\u0001H�,@I'D�N�v=s����\u0007��І\u001c*�XV)����\u0007.�?�\u0010�ͥ�m��������4A\u0011��^��������`0�nSϖ���tm\u0015�\u0006F��*��F�jYaSh��֙�ݱ\u001c�J�h%gc,���\u0016h��:��\u0018�3�O��\u0001�\u000e3�/��{߯ �� )J&cZ�����D\u001c$��c��{mߋ �~�\u0001\u0007z��&�Z1)��\"�, �ޜ���\u001e�J���6�����:\u0005 �\"\u0012���T�,���^\u0012��\u0006��Q \u0005�v�\u001f��}�?�\u001c�DEB�5��p�����6\"�k���W'�X\u0001��\u0018À��\u0018c�����5���1��Q�; z׫�_���9���n��a�CN�ү\u001e�>a\u0005��2�\u0015\u0006����> �(�a�\u0015ǌ*����c�kK�6�\u0019>\u0007�%�-�\u0000��e{����ް��7\u001aQ�z\u0013�[1�x\u000e7������_;;�M�+��<�OM�q�Y�%ݐbq�T��\u0004�|S7�\u0012Hl9\u0006���8�1jWȎ�<�O��Y�qD�\u0013B��7���\u0011 \u0004�\u0002 \u0011�y�=;\u000fZ��� H��w?6}\u0013\u0001*�!�4\u000f_)\u000f��Ķ��n:�}\u0011���\u001b�ϴ��_#�\u0001F9�}�ȞH{�\u001a���̇��yK�S��N6���X\u0012�a,)\u0018���K(r�6��\u0013Z��|����fs>��,���QGxi~�?�����*�\u0010>ߘ[�%�Sݍ�B\bޯc\b���ջ\u001eC��jڭ\u0013�T\u001a�\u0012�\u0004�K�1|�7_�\u0001�@h�3����C�\u000f�v��5��v5vB�~I*��\u0013�ڵ�c.���KoL,�s\u001a��K����UU�򍯳�|�#�sM\u0017S�_[os���\u001f�Ӈ��u?ߌ_23��m�q��Dñ�c���Ŏ��Z\u0011zrއ@�k��\u0010\u0003\u0016\u001d.Ṵ����sh���eXo\u00193��s��Έa(�s �\u0014_\u0002t�����̱�)qQ{�,2t�r �7�H\u001d��GgM2+���ë�j��u�\u001f���x� �l�V��GE^�w�+ޮ�W� , i�,��� ��g",
+      "keywords": [
+        {
+          "name": "ahqx",
+          "value": 1
+        },
+        {
+          "name": "avlg",
+          "value": 1
+        },
+        {
+          "name": "avxo",
+          "value": 1
+        },
+        {
+          "name": "bmnj",
+          "value": 1
+        },
+        {
+          "name": "bnnhm",
+          "value": 1
+        },
+        {
+          "name": "brief",
+          "value": 1
+        },
+        {
+          "name": "bwrg",
+          "value": 1
+        },
+        {
+          "name": "demwq",
+          "value": 1
+        },
+        {
+          "name": "dies",
+          "value": 1
+        },
+        {
+          "name": "dpbu",
+          "value": 1
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/b31680bada91eb69c769a56415754cb288e2feb45e830fba7ba42ea7d04d13fa",
+      "evidence_json": "/evidence/b31680bada91eb69c769a56415754cb288e2feb45e830fba7ba42ea7d04d13fa.json"
+    },
+    {
+      "id": "a295cf011fe4d61faea7cce9d41ca83c594dc5c9195c3a35df8a35f2022600e0",
+      "topic": "geopolitics",
+      "title": "US Senator Lindsey Graham dies after 'brief and sudden illness', his office says",
+      "url": "https://www.bbc.co.uk/news/articles/cvgj25j6nmeo?at_medium=RSS&at_campaign=rss",
+      "host": "bbc.co.uk",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html",
+      "collected_at": "2026-07-12T08:04:10.042534+00:00",
+      "published": "Sun, 12 Jul 2026 07:33:12 GMT",
+      "text_chars": 1498,
+      "raw_path": "data/geopolitics/raw/a295cf011fe4d61faea7cce9d41ca83c594dc5c9195c3a35df8a35f2022600e0.html",
+      "text_path": "data/geopolitics/raw/a295cf011fe4d61faea7cce9d41ca83c594dc5c9195c3a35df8a35f2022600e0.txt",
+      "summary": "In his most recent trip to Ukraine, Graham was working on a version of the Russia sanctions bill, which he said would give \"tools to President Trump to end this war.\" Over the years, Graham clashed with President Trump, but he became one of his staunchest backers. \"Senator Graham's family appreciates prayers at this time and asks for privacy during this incredibly difficult period.\" Elected to the Senate in 2002, the South Carolina politician was one of Washington's most influential voices on foreign policy and a key ally of Trump.",
+      "bullets": [
+        "In his most recent trip to Ukraine, Graham was working on a version of the Russia sanctions bill, which he said would give \"tools to President Trump to end this war.\" Over the years, Graham clashed with President Trump, but he became one of his staunchest backers.",
+        "\"Senator Graham's family appreciates prayers at this time and asks for privacy during this incredibly difficult period.\" Elected to the Senate in 2002, the South Carolina politician was one of Washington's most influential voices on foreign policy and a key ally of Trump.",
+        "In a social media post marking the senator's death, US President Donald Trump said Graham was a \"true American Patriot\".",
+        "\"To be weak in Ukraine means that you lose in Taiwan,\" he said.",
+        "But I am sticking with him because I saw what he did,\" citing Trump's record on the US southern border, the killing of Iran's Qasem Soleimani and the appointment of conservative judges."
+      ],
+      "excerpt": "US Republican Senator Lindsey Graham has died following a brief and sudden illness. His office has released a statement saying he died on Saturday evening. \"Senator Graham's family appreciates prayers at this time and asks for privacy during this incredibly difficult period.\" Elected to the Senate in 2002, the South Carolina politician was one of Washington's most influential voices on foreign policy and a key ally of Trump. He had just returned from Kyiv, where he met the Ukrainian President Volodymyr Zelensky on Friday. There were no known health concerns ahead of his trip. In a social media post marking the senator's death, US President Donald Trump said Graham was a \"true American Patriot\". Graham also served as Chairman of the Senate Budget Committee. He was a strong proponent of US support for Ukraine. \"Putin will not stop in Ukraine,\" he told the BBC in 2023. \"To be weak in Ukraine means that you lose in Taiwan,\" he said. In his most recent trip to Ukraine, Graham was working on a version of the Russia sanctions bill, which he said would give \"tools to President Trump to end this war.\" Over the years, Graham clashed with President Trump, but he became one of his staunchest b",
+      "keywords": [
+        {
+          "name": "graham",
+          "value": 7
+        },
+        {
+          "name": "trump",
+          "value": 6
+        },
+        {
+          "name": "president",
+          "value": 5
+        },
+        {
+          "name": "senator",
+          "value": 4
+        },
+        {
+          "name": "ukraine",
+          "value": 4
+        },
+        {
+          "name": "brief",
+          "value": 2
+        },
+        {
+          "name": "died",
+          "value": 2
+        },
+        {
+          "name": "donald",
+          "value": 2
+        },
+        {
+          "name": "illness",
+          "value": 2
+        },
+        {
+          "name": "lindsey",
+          "value": 2
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Sanctions and Finance"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Americas",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/a295cf011fe4d61faea7cce9d41ca83c594dc5c9195c3a35df8a35f2022600e0",
+      "evidence_json": "/evidence/a295cf011fe4d61faea7cce9d41ca83c594dc5c9195c3a35df8a35f2022600e0.json"
+    },
+    {
+      "id": "57964dcb7aff950a518b8bfefb389856733ede5e6708574b0a125695f956c0dd",
+      "topic": "geopolitics",
+      "title": "Lindsey Graham, one of Israel’s strongest US Senate allies, dies",
+      "url": "https://www.aljazeera.com/news/2026/7/12/us-senator-lindsey-graham-passes-away?traffic_source=rss",
+      "host": "aljazeera.com",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-07-12T08:04:10.159274+00:00",
+      "published": "Sun, 12 Jul 2026 06:27:06 +0000",
+      "text_chars": 1787,
+      "raw_path": "data/geopolitics/raw/57964dcb7aff950a518b8bfefb389856733ede5e6708574b0a125695f956c0dd.html",
+      "text_path": "data/geopolitics/raw/57964dcb7aff950a518b8bfefb389856733ede5e6708574b0a125695f956c0dd.txt",
+      "summary": "Published On 12 Jul 2026 12 Jul 2026 Lindsey Graham, a prominent Republican senator in the United States and a key ally of President Donald Trump, has ⁠died aged 71. He was a strong supporter of the 2003 US invasion of Iraq and had long pushed for military action against Iran. Israel’s Defence Ministry said on Sunday morning it was saddened by the death of Graham, “who stood with Israel in its most difficult time”.",
+      "bullets": [
+        "Published On 12 Jul 2026 12 Jul 2026 Lindsey Graham, a prominent Republican senator in the United States and a key ally of President Donald Trump, has ⁠died aged 71.",
+        "He was a strong supporter of the 2003 US invasion of Iraq and had long pushed for military action against Iran.",
+        "Israel’s Defence Ministry said on Sunday morning it was saddened by the death of Graham, “who stood with Israel in its most difficult time”.",
+        "“Senator Graham’s ⁠family appreciates prayers ⁠at this ⁠time and asks for privacy during this incredibly ‌difficult period,” his office added.",
+        "He was a strong supporter of Israel and backed Trump’s ongoing war on Iran."
+      ],
+      "excerpt": "Published On 12 Jul 2026 12 Jul 2026 Lindsey Graham, a prominent Republican senator in the United States and a key ally of President Donald Trump, has ⁠died aged 71. Graham passed away on ⁠Saturday evening after a ‌brief and sudden illness, the communications director ⁠for his office ⁠said in ⁠a post ⁠on ⁠X early Sunday. “Senator Graham’s ⁠family appreciates prayers ⁠at this ⁠time and asks for privacy during this incredibly ‌difficult period,” his office added. Graham was elected to the US Senate in 2002 and was re-elected in 2008, 2014 and 2020. In 1994, he served in ⁠the US House of Representatives, the lower house of the US Congress, for South Carolina’s third congressional district. He recently served as chairman of the Senate Budget Committee. Graham also served as a member of ‌the Senate Committee on Appropriations, the Senate Judiciary Committee and the Senate Committee on Environment and Public Works. He was a strong supporter of the 2003 US invasion of Iraq and had long pushed for military action against Iran. “Graham has consistently pushed for outcomes in the War on Terror that protect our long-term national security interests,” read his website. He was a strong supporte",
+      "keywords": [
+        {
+          "name": "graham",
+          "value": 9
+        },
+        {
+          "name": "senate",
+          "value": 6
+        },
+        {
+          "name": "committee",
+          "value": 4
+        },
+        {
+          "name": "israel",
+          "value": 4
+        },
+        {
+          "name": "served",
+          "value": 4
+        },
+        {
+          "name": "trump",
+          "value": 3
+        },
+        {
+          "name": "allies",
+          "value": 2
+        },
+        {
+          "name": "congress",
+          "value": 2
+        },
+        {
+          "name": "difficult",
+          "value": 2
+        },
+        {
+          "name": "force",
+          "value": 2
+        }
+      ],
+      "signals": [
+        "War and Escalation"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas",
+        "Europe and Russia"
+      ],
+      "detail_path": "/evidence/57964dcb7aff950a518b8bfefb389856733ede5e6708574b0a125695f956c0dd",
+      "evidence_json": "/evidence/57964dcb7aff950a518b8bfefb389856733ede5e6708574b0a125695f956c0dd.json"
+    },
+    {
+      "id": "e270b803c662d518ad2d2d89f07628484da97b9077313c1022be3be4099b4bd2",
+      "topic": "geopolitics",
+      "title": "Live: US launches strikes after Iran fires on ship in Strait of Hormuz",
+      "url": "https://www.france24.com/en/middle-east/20260712-live-us-attacks-iran-over-ship-being-hit-in-strait-of-hormuz",
+      "host": "france24.com",
+      "source": "https://www.france24.com/en/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-12T08:03:58.547801+00:00",
+      "published": "Sun, 12 Jul 2026 05:05:35 GMT",
+      "text_chars": 4429,
+      "raw_path": "data/geopolitics/raw/e270b803c662d518ad2d2d89f07628484da97b9077313c1022be3be4099b4bd2.html",
+      "text_path": "data/geopolitics/raw/e270b803c662d518ad2d2d89f07628484da97b9077313c1022be3be4099b4bd2.txt",
+      "summary": "© Pakistan Prime Minister's Office, AFP 12/07/2026 - 07:09 Kuwait armed forces responding to aerial attacks Kuwait's military said its air defence forces were working to intercept an ongoing attack on its territory, as countries across the Gulf were targeted by drones and missiles. \"A second vessel accused of violating regulations in the Strait of Hormuz has been struck,\" the Guards said in a statement carried by state television IRIB, adding they had also attacked a US base in Qatar.",
+      "bullets": [
+        "© Pakistan Prime Minister's Office, AFP 12/07/2026 - 07:09 Kuwait armed forces responding to aerial attacks Kuwait's military said its air defence forces were working to intercept an ongoing attack on its territory, as countries across the Gulf were targeted by drones and missiles.",
+        "\"A second vessel accused of violating regulations in the Strait of Hormuz has been struck,\" the Guards said in a statement carried by state television IRIB, adding they had also attacked a US base in Qatar.",
+        "12/07/2026 - 09:07 Iranian drones have struck some sites in Oman, the sultanate's state news agency reports The Omani state news agency said drones struck sites in northeastern Oman in the region that sits on the Strait of Hormuz.",
+        "12/07/2026 - 09:20 US attacks Iran over ship being hit in Strait of Hormuz The United States attacked Iran early Sunday morning over an Iranian strike on a vessel in the Strait of Hormuz that set the container ship ablaze and forced its crew to abandon it.",
+        "12/07/2026 - 07:07 Iran Guards say struck second vessel in Strait of Hormuz, says state media The Iranian Revolutionary Guards announced they had hit a second vessel in the Strait of Hormuz, state media reported, after closing the key waterway and trading strikes with the United States."
+      ],
+      "excerpt": "12/07/2026 - 10:01 Mojtaba Khamenei: Iran supreme leader vows revenge for father's killing Iran's supreme leader Mojtaba Khamenei on Saturday vowed revenge for the US-Israeli killing of his father and predecessor, hours after President Donald Trump warned against any attempt to assassinate him. 12/07/2026 - 09:20 US attacks Iran over ship being hit in Strait of Hormuz The United States attacked Iran early Sunday morning over an Iranian strike on a vessel in the Strait of Hormuz that set the container ship ablaze and forced its crew to abandon it. A projectile is fired during what the US Central Command (CENTCOM) said was a third round of strikes this week against Iran, in this screen grab taken from a handout video released on July 11, 2026. © US Central Command Handout via Reuters 12/07/2026 - 09:15 One Indian national missing after attack on vessel off Oman, foreign ministry says One ⁠Indian national ​is missing after ​an attack on the commercial vessel GFS Galaxy off the ​coast ‌of Oman earlier ⁠on Sunday, the Ministry ‌of External Affairs said. \"Of the ⁠11 Indian nationals on board, 10 have ​been rescued so far, ‌while one Indian National is reportedly missing,\" ‌the ministry s",
+      "keywords": [
+        {
+          "name": "iran",
+          "value": 13
+        },
+        {
+          "name": "iranian",
+          "value": 8
+        },
+        {
+          "name": "ministry",
+          "value": 8
+        },
+        {
+          "name": "hormuz",
+          "value": 7
+        },
+        {
+          "name": "strait",
+          "value": 7
+        },
+        {
+          "name": "vessel",
+          "value": 7
+        },
+        {
+          "name": "oman",
+          "value": 6
+        },
+        {
+          "name": "struck",
+          "value": 6
+        },
+        {
+          "name": "foreign",
+          "value": 5
+        },
+        {
+          "name": "minister",
+          "value": 5
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Diplomacy and Negotiations",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Indo-Pacific",
+        "Middle East",
+        "Americas"
+      ],
+      "detail_path": "/evidence/e270b803c662d518ad2d2d89f07628484da97b9077313c1022be3be4099b4bd2",
+      "evidence_json": "/evidence/e270b803c662d518ad2d2d89f07628484da97b9077313c1022be3be4099b4bd2.json"
+    },
+    {
       "id": "58634b2a0400d43c9f4c12a5d3af71527ebc297678172ebd5c422da63e5e0317",
       "topic": "geopolitics",
       "title": "EU accused of dragging its feet over ban on trade with illegal Israeli settlements",
@@ -3134,6 +3451,86 @@
       "file_asset": "/evidence-files/d1d2db881327e1369790895d2bebb3629c15ab1410bd24b647b177170d1d901e.pdf",
       "detail_path": "/evidence/d1d2db881327e1369790895d2bebb3629c15ab1410bd24b647b177170d1d901e",
       "evidence_json": "/evidence/d1d2db881327e1369790895d2bebb3629c15ab1410bd24b647b177170d1d901e.json"
+    },
+    {
+      "id": "664bb0f2851095630838be6436d43da2b94082adbd76af4e6fe9afeb891f397a",
+      "topic": "geopolitics",
+      "title": "UN Watchdog ‘Lost Continuity of Knowledge’ on Iran Nuclear Programme, Security Council Told amid Dispute over Sanctions",
+      "url": "https://press.un.org/en/2026/sc16409.doc.htm",
+      "host": "press.un.org",
+      "source": "https://press.un.org/en/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-12T08:03:51.330532+00:00",
+      "published": "Fri, 10 Jul 2026 15:55:53 -0400",
+      "text_chars": 9024,
+      "raw_path": "data/geopolitics/raw/664bb0f2851095630838be6436d43da2b94082adbd76af4e6fe9afeb891f397a.html",
+      "text_path": "data/geopolitics/raw/664bb0f2851095630838be6436d43da2b94082adbd76af4e6fe9afeb891f397a.txt",
+      "summary": "Presenting the Secretary-General’s most recent report on the implementation of resolution 2231 (2015), she said the International Atomic Energy Agency (IAEA) has received no updated nuclear declarations from Iran and has been unable to conduct visits to any sites in the country. Resolution 2231 (2015) endorsed the Joint Comprehensive Plan of Action — commonly known as the Iran nuclear deal reached after years of negotiations between the United States, Iran and other key actors.",
+      "bullets": [
+        "Presenting the Secretary-General’s most recent report on the implementation of resolution 2231 (2015), she said the International Atomic Energy Agency (IAEA) has received no updated nuclear declarations from Iran and has been unable to conduct visits to any sites in the country.",
+        "Resolution 2231 (2015) endorsed the Joint Comprehensive Plan of Action — commonly known as the Iran nuclear deal reached after years of negotiations between the United States, Iran and other key actors.",
+        "“A framework for further negotiations remains a critical step towards the peaceful settlement of the Iran nuclear issue,” said Rosemary DiCarlo, Under-Secretary-General for Political and Peacebuilding Affairs, following the procedural vote.",
+        "At the outset, delegates sharply debated whether discussions about the Iran nuclear programme — as laid out in resolution 2231 (2015) — are even rightfully under the Council’s purview.",
+        "It suspended sanctions on Iran and stated that the Council would end its consideration of Iran’s nuclear programme in October 2025, the original date when the deal was slated to expire, unless so-called “snapback measures” were activated."
+      ],
+      "excerpt": "Following the collapse of the 2015 Iran nuclear deal and the region’s chaotic recent military escalations, the United Nations dedicated nuclear agency has “lost continuity of knowledge” about the Iranian nuclear programme it was once tasked with overseeing, the Security Council heard today, in a briefing by the Organization’s senior political affairs officer. At the outset, delegates sharply debated whether discussions about the Iran nuclear programme — as laid out in resolution 2231 (2015) — are even rightfully under the Council’s purview. Members voted 11 in favour to 2 against (China, Russian Federation), with 2 abstentions (Pakistan, Somalia), to hold the meeting. Resolution 2231 (2015) endorsed the Joint Comprehensive Plan of Action — commonly known as the Iran nuclear deal reached after years of negotiations between the United States, Iran and other key actors. It suspended sanctions on Iran and stated that the Council would end its consideration of Iran’s nuclear programme in October 2025, the original date when the deal was slated to expire, unless so-called “snapback measures” were activated. Several parties to the deal activated those snapback measures, though the validit",
+      "keywords": [
+        {
+          "name": "iran",
+          "value": 34
+        },
+        {
+          "name": "nuclear",
+          "value": 22
+        },
+        {
+          "name": "council",
+          "value": 11
+        },
+        {
+          "name": "united",
+          "value": 11
+        },
+        {
+          "name": "states",
+          "value": 10
+        },
+        {
+          "name": "sanctions",
+          "value": 8
+        },
+        {
+          "name": "representative",
+          "value": 7
+        },
+        {
+          "name": "deal",
+          "value": 6
+        },
+        {
+          "name": "delegate",
+          "value": 6
+        },
+        {
+          "name": "memorandum",
+          "value": 6
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Global Institutions",
+        "Europe and Russia",
+        "Indo-Pacific"
+      ],
+      "detail_path": "/evidence/664bb0f2851095630838be6436d43da2b94082adbd76af4e6fe9afeb891f397a",
+      "evidence_json": "/evidence/664bb0f2851095630838be6436d43da2b94082adbd76af4e6fe9afeb891f397a.json"
     },
     {
       "id": "aec70dbbf266b86d54d44b94a6b180cb526776bd590bbfd826ef61634188251c",
@@ -8289,391 +8686,6 @@
       ],
       "detail_path": "/evidence/06c845133d7a1e809712d82f0e4075b1435f7f54a1b8290f57caf7fcd66fa1f1",
       "evidence_json": "/evidence/06c845133d7a1e809712d82f0e4075b1435f7f54a1b8290f57caf7fcd66fa1f1.json"
-    },
-    {
-      "id": "b31a1e8f9817c47272b693cb763dad7f8fda75811ff2bba064481d12370e4bfc",
-      "topic": "geopolitics",
-      "title": "Trump moves to remove Syria from US list of state sponsors of terrorism (image)",
-      "url": "https://s.france24.com/media/display/f38ffaf8-7ade-11f1-9249-005056a90284/w:1024/p:16x9/2026-07-08T142746Z-1816862540-RC2Q9MA69BRO-RTRMADP-3-NATO-SUMMIT-TRUMP.jpg",
-      "host": "s.france24.com",
-      "source": "https://www.france24.com/en/rss",
-      "data_type": "images",
-      "format": "Image",
-      "content_type": "image/jpeg",
-      "collected_at": "2026-07-09T00:03:41.484204+00:00",
-      "published": "Wed, 08 Jul 2026 23:07:25 GMT",
-      "text_chars": 395,
-      "raw_path": "data/geopolitics/raw/b31a1e8f9817c47272b693cb763dad7f8fda75811ff2bba064481d12370e4bfc.jpg",
-      "text_path": "data/geopolitics/raw/b31a1e8f9817c47272b693cb763dad7f8fda75811ff2bba064481d12370e4bfc.txt",
-      "summary": "Title: Trump moves to remove Syria from US list of state sponsors of terrorism (image) URL: https://s.france24.com/media/display/f38ffaf8-7ade-11f1-9249-005056a90284/w:1024/p:16x9/2026-07-08T142746Z-1816862540-RC2Q9MA69BRO-RTRMADP-3-NATO-SUMMIT-TRUMP.jpg Source: https://www.france24.com/en/rss Content-Type: image/jpeg Bytes: 99724 Binary images source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: Trump moves to remove Syria from US list of state sponsors of terrorism (image) URL: https://s.france24.com/media/display/f38ffaf8-7ade-11f1-9249-005056a90284/w:1024/p:16x9/2026-07-08T142746Z-1816862540-RC2Q9MA69BRO-RTRMADP-3-NATO-SUMMIT-TRUMP.jpg Source: https://www.france24.com/en/rss Content-Type: image/jpeg Bytes: 99724",
-        "Binary images source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: Trump moves to remove Syria from US list of state sponsors of terrorism (image) URL: https://s.france24.com/media/display/f38ffaf8-7ade-11f1-9249-005056a90284/w:1024/p:16x9/2026-07-08T142746Z-1816862540-RC2Q9MA69BRO-RTRMADP-3-NATO-SUMMIT-TRUMP.jpg Source: https://www.france24.com/en/rss Content-Type: image/jpeg Bytes: 99724",
-      "keywords": [
-        {
-          "name": "france",
-          "value": 3
-        },
-        {
-          "name": "moves",
-          "value": 2
-        },
-        {
-          "name": "remove",
-          "value": 2
-        },
-        {
-          "name": "sponsors",
-          "value": 2
-        },
-        {
-          "name": "state",
-          "value": 2
-        },
-        {
-          "name": "syria",
-          "value": 2
-        },
-        {
-          "name": "terrorism",
-          "value": 2
-        },
-        {
-          "name": "trump",
-          "value": 2
-        },
-        {
-          "name": "ade",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Europe and Russia",
-        "Global Institutions",
-        "Middle East"
-      ],
-      "preview_asset": "/evidence-assets/b31a1e8f9817c47272b693cb763dad7f8fda75811ff2bba064481d12370e4bfc.jpg",
-      "detail_path": "/evidence/b31a1e8f9817c47272b693cb763dad7f8fda75811ff2bba064481d12370e4bfc",
-      "evidence_json": "/evidence/b31a1e8f9817c47272b693cb763dad7f8fda75811ff2bba064481d12370e4bfc.json"
-    },
-    {
-      "id": "99872f9cb4c96e374c06acc0fd97df6f98c47ef3cf0acc97a8f7b9e0cc513eff",
-      "topic": "geopolitics",
-      "title": "Trump Hands NATO a Mixed Bag",
-      "url": "https://foreignpolicy.com/2026/07/08/trump-nato-ankara-summit-iran-ukraine-greenland-spain/",
-      "host": "foreignpolicy.com",
-      "source": "https://foreignpolicy.com/feed/",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-07-09T00:03:33.215086+00:00",
-      "published": "Wed, 08 Jul 2026 22:06:40 +0000",
-      "text_chars": 9483,
-      "raw_path": "data/geopolitics/raw/99872f9cb4c96e374c06acc0fd97df6f98c47ef3cf0acc97a8f7b9e0cc513eff.html",
-      "text_path": "data/geopolitics/raw/99872f9cb4c96e374c06acc0fd97df6f98c47ef3cf0acc97a8f7b9e0cc513eff.txt",
-      "summary": "Trump said talks with Iran could continue, but he believes they’re a “waste of time.” All of this pushed the Iran war into the spotlight at a summit that many NATO allies had hoped would focus on Ukraine and defense spending commitments. On Wednesday, he called for the United States to “cut off all trade” with Spain, seemingly over its refusal to commit to the alliance’s defense spending target, describing the country as a “wasted cause” and “a terrible partner in NATO.” Spanish Prime Minister Pedro Sánchez—who has criticized Trump over the Iran...",
-      "bullets": [
-        "Trump said talks with Iran could continue, but he believes they’re a “waste of time.” All of this pushed the Iran war into the spotlight at a summit that many NATO allies had hoped would focus on Ukraine and defense spending commitments.",
-        "On Wednesday, he called for the United States to “cut off all trade” with Spain, seemingly over its refusal to commit to the alliance’s defense spending target, describing the country as a “wasted cause” and “a terrible partner in NATO.” Spanish Prime Minister Pedro Sánchez—who has criticized Trump over the Iran war—downplayed the U.S.",
-        "Between his arrival at the NATO summit in Ankara on Tuesday afternoon and his departure on Wednesday evening, Trump resurfaced his long-standing desire to take over Greenland from Denmark, said he would cut off all trade with Spain, and threatened to pull all U.S.",
-        "president’s remarks and insisted that relations between Washington and Madrid are “positive.” Trump also used the summit as an opportunity to reiterate his desire for the United States to acquire Greenland—an aspiration that has enraged NATO allies.",
-        "Welcome back to our second and final 2026 NATO summit edition of Foreign Policy ’s Situation Report."
-      ],
-      "excerpt": "Welcome back to our second and final 2026 NATO summit edition of Foreign Policy ’s Situation Report. U.S. President Donald Trump is wheels up from Ankara, but not on his shiny new Qatari-gifted airplane. Instead, he said he will be “going home by normal methods,” by which he means taking an older Air Force One plane (and not seats 29D and 29E of Turkish Airlines like your SitRep co-authors). Alright, here’s what’s on tap for the day: Trump wraps up an erratic NATO summit and Ukraine gets a big (but vague) offer. NATO allies announced billions in new defense investments, hammered home hopeful messages of alliance unity, and stressed that Europe was making more progress in taking care of its own defense. Then Trump came in like a wrecking ball. Between his arrival at the NATO summit in Ankara on Tuesday afternoon and his departure on Wednesday evening, Trump resurfaced his long-standing desire to take over Greenland from Denmark, said he would cut off all trade with Spain, and threatened to pull all U.S. troops out of Europe. Meanwhile, the U.S. also started bombing Iran again—following attacks on vessels in the Strait of Hormuz. Trump said he thinks the cease-fire with Tehran is “ov",
-      "keywords": [
-        {
-          "name": "nato",
-          "value": 34
-        },
-        {
-          "name": "trump",
-          "value": 27
-        },
-        {
-          "name": "summit",
-          "value": 18
-        },
-        {
-          "name": "ukraine",
-          "value": 16
-        },
-        {
-          "name": "alliance",
-          "value": 13
-        },
-        {
-          "name": "iran",
-          "value": 13
-        },
-        {
-          "name": "ankara",
-          "value": 11
-        },
-        {
-          "name": "turkey",
-          "value": 10
-        },
-        {
-          "name": "wednesday",
-          "value": 10
-        },
-        {
-          "name": "allies",
-          "value": 7
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Diplomacy and Negotiations",
-        "Territory and Chokepoints",
-        "Nuclear and Strategic Risk"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/99872f9cb4c96e374c06acc0fd97df6f98c47ef3cf0acc97a8f7b9e0cc513eff",
-      "evidence_json": "/evidence/99872f9cb4c96e374c06acc0fd97df6f98c47ef3cf0acc97a8f7b9e0cc513eff.json"
-    },
-    {
-      "id": "b9942ea56a25320ea1bb2f560d074a122b02de6c3eb22fb6f931fc1392dcd9f1",
-      "topic": "geopolitics",
-      "title": "US stock markets fall amid Iran strikes and potential higher interest rates",
-      "url": "https://www.theguardian.com/us-news/2026/jul/08/us-stock-markets-iran-interest-rates",
-      "host": "theguardian.com",
-      "source": "https://www.theguardian.com/world/rss",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-07-08T22:04:16.371574+00:00",
-      "published": "Wed, 08 Jul 2026 21:19:16 GMT",
-      "text_chars": 3044,
-      "raw_path": "data/geopolitics/raw/b9942ea56a25320ea1bb2f560d074a122b02de6c3eb22fb6f931fc1392dcd9f1.html",
-      "text_path": "data/geopolitics/raw/b9942ea56a25320ea1bb2f560d074a122b02de6c3eb22fb6f931fc1392dcd9f1.txt",
-      "summary": "Donald Trump’s declaration at the Nato summit in Ankara that the Iran-US ceasefire is over sent oil prices sharply higher on Wednesday. At the Nato summit in Turkey, Trump criticized Iran’s leadership, calling them “sick people”, and said that he was “very upset” with the country’s military alliance with Spain. US stock markets fell on Wednesday as the US continued strikes on Iran and the Federal Reserve flagged concerns that would warrant higher interest rates.",
-      "bullets": [
-        "Donald Trump’s declaration at the Nato summit in Ankara that the Iran-US ceasefire is over sent oil prices sharply higher on Wednesday.",
-        "At the Nato summit in Turkey, Trump criticized Iran’s leadership, calling them “sick people”, and said that he was “very upset” with the country’s military alliance with Spain.",
-        "US stock markets fell on Wednesday as the US continued strikes on Iran and the Federal Reserve flagged concerns that would warrant higher interest rates.",
-        "“As far as I’m concerned, it’s over,” Trump said, though he said that US negotiators wanted to continue talks.",
-        "US diesel futures also rose 13% on Wednesday after Russia implemented a diesel export ban following a Ukrainian drone strike that hit key refineries."
-      ],
-      "excerpt": "US stock markets fell on Wednesday as the US continued strikes on Iran and the Federal Reserve flagged concerns that would warrant higher interest rates. Donald Trump’s declaration at the Nato summit in Ankara that the Iran-US ceasefire is over sent oil prices sharply higher on Wednesday. Brent crude, the global benchmark, jumped more than 5% to crest $80 a barrel. US stocks fell in step, with the Dow down 1.09%, or 500 points, at closing Wednesday afternoon. The S&P 500 saw a small loss while the tech-heavy Nasdaq rose slightly. Global stocks had fallen earlier in the day, with the UK’s FTSE 100 down 1% as Japan’s Nikkei fell 2.1%. At the Nato summit in Turkey, Trump criticized Iran’s leadership, calling them “sick people”, and said that he was “very upset” with the country’s military alliance with Spain. “As far as I’m concerned, it’s over,” Trump said, though he said that US negotiators wanted to continue talks. The economic impacts of the Iran war have reverberated across the globe. On Wednesday, the International Monetary Fund lowered its global economic growth forecast to 3%, down from 3.1% in April, citing conflict in the Middle East and pressurized AI spending. Global growt",
-      "keywords": [
-        {
-          "name": "inflation",
-          "value": 8
-        },
-        {
-          "name": "higher",
-          "value": 6
-        },
-        {
-          "name": "interest",
-          "value": 6
-        },
-        {
-          "name": "rates",
-          "value": 5
-        },
-        {
-          "name": "trump",
-          "value": 5
-        },
-        {
-          "name": "wednesday",
-          "value": 5
-        },
-        {
-          "name": "down",
-          "value": 4
-        },
-        {
-          "name": "fell",
-          "value": 4
-        },
-        {
-          "name": "iran",
-          "value": 4
-        },
-        {
-          "name": "prices",
-          "value": 4
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Diplomacy and Negotiations",
-        "Energy and Supply Chains"
-      ],
-      "regions": [
-        "Europe and Russia",
-        "Global Institutions",
-        "Indo-Pacific"
-      ],
-      "detail_path": "/evidence/b9942ea56a25320ea1bb2f560d074a122b02de6c3eb22fb6f931fc1392dcd9f1",
-      "evidence_json": "/evidence/b9942ea56a25320ea1bb2f560d074a122b02de6c3eb22fb6f931fc1392dcd9f1.json"
-    },
-    {
-      "id": "8cc8093821a65919e3c92e89fed0f48c33fa77663e9d9f90535d3687dc82bd69",
-      "topic": "geopolitics",
-      "title": "Is the U.S.-Iran Cease-Fire Over?",
-      "url": "https://foreignpolicy.com/2026/07/08/us-iran-cease-fire-over-trump-nato-summit-strikes-strait-hormuz/",
-      "host": "foreignpolicy.com",
-      "source": "https://foreignpolicy.com/feed/",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-07-08T22:04:24.155001+00:00",
-      "published": "Wed, 08 Jul 2026 20:59:58 +0000",
-      "text_chars": 8791,
-      "raw_path": "data/geopolitics/raw/8cc8093821a65919e3c92e89fed0f48c33fa77663e9d9f90535d3687dc82bd69.html",
-      "text_path": "data/geopolitics/raw/8cc8093821a65919e3c92e89fed0f48c33fa77663e9d9f90535d3687dc82bd69.txt",
-      "summary": "naval blockade on Iran, and laid the groundwork for future nuclear talks, U.S. and Iranian forces, the winners and losers of the NATO leaders’ summit, and the United States threatening to cut off trade with Spain. military announced that it had begun “conducting additional strikes against Iran to further degrade their ability to threaten freedom of navigation in the Strait of Hormuz.” Trump also suggested on Wednesday that the United States could reimpose its naval blockade on Iran; more than 20 U.S.",
-      "bullets": [
-        "naval blockade on Iran, and laid the groundwork for future nuclear talks, U.S.",
-        "and Iranian forces, the winners and losers of the NATO leaders’ summit, and the United States threatening to cut off trade with Spain.",
-        "military announced that it had begun “conducting additional strikes against Iran to further degrade their ability to threaten freedom of navigation in the Strait of Hormuz.” Trump also suggested on Wednesday that the United States could reimpose its naval blockade on Iran; more than 20 U.S.",
-        "On Tuesday, Iranian forces damaged several oil and gas tankers traversing the Strait of Hormuz; these vessels appeared to be trying to use a route that avoided Iranian waters.",
-        "The United States hit Iran “very hard last night,” Trump said on Wednesday, and will “probably hit them hard again tonight.” Hours later, the U.S."
-      ],
-      "excerpt": "Welcome back to World Brief, where we’re looking at renewed strikes between U.S. and Iranian forces, the winners and losers of the NATO leaders’ summit, and the United States threatening to cut off trade with Spain. ‘It’s Over’ The U.S.-Iran cease-fire appears to be effectively dead. Just 21 days after U.S. and Iranian officials signed a memorandum of understanding (MOU) that halted active fighting, removed the U.S. naval blockade on Iran, and laid the groundwork for future nuclear talks, U.S. President Donald Trump told NATO leaders on Wednesday that the truce deal is done. “As far as I’m concerned, it’s over,” Trump said, calling the Iranian regime “cuckoo.” Although the U.S. president said that peace talks would continue, he remained skeptical about their probability of success. “They can talk, but I think they’re wasting their time,” Trump said. On Tuesday, Iranian forces damaged several oil and gas tankers traversing the Strait of Hormuz; these vessels appeared to be trying to use a route that avoided Iranian waters. Within hours, the U.S. military responded with more than 80 strikes on Iranian air defense systems, command and control centers, coastal radar sites, and anti-shi",
-      "keywords": [
-        {
-          "name": "trump",
-          "value": 19
-        },
-        {
-          "name": "wednesday",
-          "value": 16
-        },
-        {
-          "name": "iran",
-          "value": 14
-        },
-        {
-          "name": "nato",
-          "value": 13
-        },
-        {
-          "name": "united",
-          "value": 11
-        },
-        {
-          "name": "states",
-          "value": 10
-        },
-        {
-          "name": "iranian",
-          "value": 9
-        },
-        {
-          "name": "trade",
-          "value": 9
-        },
-        {
-          "name": "defense",
-          "value": 7
-        },
-        {
-          "name": "president",
-          "value": 6
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Diplomacy and Negotiations",
-        "Energy and Supply Chains",
-        "Territory and Chokepoints"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/8cc8093821a65919e3c92e89fed0f48c33fa77663e9d9f90535d3687dc82bd69",
-      "evidence_json": "/evidence/8cc8093821a65919e3c92e89fed0f48c33fa77663e9d9f90535d3687dc82bd69.json"
-    },
-    {
-      "id": "d0ef51c53958189f7b83e70ee4a00f2e454ac5c7750c7abef1f7b25a8bd6af93",
-      "topic": "geopolitics",
-      "title": "Is the U.S.-Iran Cease-Fire Over? (image)",
-      "url": "https://foreignpolicy.com/wp-content/uploads/2026/07/TrumpIranNATO-GettyImages-2284500904.jpg",
-      "host": "foreignpolicy.com",
-      "source": "https://foreignpolicy.com/feed/",
-      "data_type": "images",
-      "format": "Image",
-      "content_type": "image/jpeg",
-      "collected_at": "2026-07-08T22:04:36.847322+00:00",
-      "published": "Wed, 08 Jul 2026 20:59:58 +0000",
-      "text_chars": 289,
-      "raw_path": "data/geopolitics/raw/d0ef51c53958189f7b83e70ee4a00f2e454ac5c7750c7abef1f7b25a8bd6af93.jpg",
-      "text_path": "data/geopolitics/raw/d0ef51c53958189f7b83e70ee4a00f2e454ac5c7750c7abef1f7b25a8bd6af93.txt",
-      "summary": "(image) URL: https://foreignpolicy.com/wp-content/uploads/2026/07/TrumpIranNATO-GettyImages-2284500904.jpg Source: https://foreignpolicy.com/feed/ Content-Type: image/jpeg Bytes: 156733 Binary images source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "(image) URL: https://foreignpolicy.com/wp-content/uploads/2026/07/TrumpIranNATO-GettyImages-2284500904.jpg Source: https://foreignpolicy.com/feed/ Content-Type: image/jpeg Bytes: 156733",
-        "Binary images source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: Is the U.S.-Iran Cease-Fire Over? (image) URL: https://foreignpolicy.com/wp-content/uploads/2026/07/TrumpIranNATO-GettyImages-2284500904.jpg Source: https://foreignpolicy.com/feed/ Content-Type: image/jpeg Bytes: 156733",
-      "keywords": [
-        {
-          "name": "foreignpolicy",
-          "value": 3
-        },
-        {
-          "name": "cease-fire",
-          "value": 2
-        },
-        {
-          "name": "iran",
-          "value": 2
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "feed",
-          "value": 1
-        },
-        {
-          "name": "geopolitics",
-          "value": 1
-        },
-        {
-          "name": "jpeg",
-          "value": 1
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Europe and Russia",
-        "Global Institutions",
-        "Middle East"
-      ],
-      "preview_asset": "/evidence-assets/d0ef51c53958189f7b83e70ee4a00f2e454ac5c7750c7abef1f7b25a8bd6af93.jpg",
-      "detail_path": "/evidence/d0ef51c53958189f7b83e70ee4a00f2e454ac5c7750c7abef1f7b25a8bd6af93",
-      "evidence_json": "/evidence/d0ef51c53958189f7b83e70ee4a00f2e454ac5c7750c7abef1f7b25a8bd6af93.json"
     }
   ],
   "deep_reads": [
@@ -8687,7 +8699,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-12T05:21:20.378998+00:00",
+      "collected_at": "2026-07-12T08:03:41.780410+00:00",
       "published": "",
       "text_chars": 9129274,
       "raw_path": "data/geopolitics/raw/8f0ef27af29ca41c471db4321a28fa523643e8ee7abe2df9a443d8a89ad660f7.xml",
@@ -10522,7 +10534,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-12T05:20:41.059736+00:00",
+      "collected_at": "2026-07-12T08:03:02.130125+00:00",
       "published": "",
       "text_chars": 6243887,
       "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
@@ -10674,7 +10686,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-12T05:20:41.354267+00:00",
+      "collected_at": "2026-07-12T08:03:01.848757+00:00",
       "published": "",
       "text_chars": 6161766,
       "raw_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json.raw",
@@ -10913,7 +10925,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-12T05:21:28.637888+00:00",
+      "collected_at": "2026-07-12T08:03:51.129565+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -10985,6 +10997,149 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
+      "id": "fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-07-12T08:03:49.592221+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.html",
+      "text_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
+      "evidence_json": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-07-12T08:03:49.523283+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
       "title": "ICRC International Humanitarian Law Handbook",
@@ -10994,7 +11149,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-12T05:21:27.827906+00:00",
+      "collected_at": "2026-07-12T08:03:49.501327+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -11066,76 +11221,6 @@
       "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-07-12T05:21:22.516613+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -11145,7 +11230,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-12T05:21:22.509196+00:00",
+      "collected_at": "2026-07-12T08:03:44.077204+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11217,79 +11302,6 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-07-12T05:21:20.461450+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.html",
-      "text_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
-      "evidence_json": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.json"
-    },
-    {
       "id": "8f0ef27af29ca41c471db4321a28fa523643e8ee7abe2df9a443d8a89ad660f7",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -11299,7 +11311,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-12T05:21:20.378998+00:00",
+      "collected_at": "2026-07-12T08:03:41.780410+00:00",
       "published": "",
       "text_chars": 9129274,
       "raw_path": "data/geopolitics/raw/8f0ef27af29ca41c471db4321a28fa523643e8ee7abe2df9a443d8a89ad660f7.xml",
@@ -11379,7 +11391,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-12T05:20:45.384099+00:00",
+      "collected_at": "2026-07-12T08:03:06.600827+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/5943dbbf6be05c843c0731eb9d60f7057e4398f2d30cea6d0036c92845e3bbb3.xml",
@@ -11459,7 +11471,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-07-12T05:20:43.481176+00:00",
+      "collected_at": "2026-07-12T08:03:04.918474+00:00",
       "published": "",
       "text_chars": 824840,
       "raw_path": "data/geopolitics/raw/b01b487e5c9a8f4ffded8148b32b3b5bea788504c150311171118eda245f00d4.xml",
@@ -11530,6 +11542,81 @@
       "evidence_json": "/evidence/b01b487e5c9a8f4ffded8148b32b3b5bea788504c150311171118eda245f00d4.json"
     },
     {
+      "id": "5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-07-12T08:03:02.130125+00:00",
+      "published": "",
+      "text_chars": 6243887,
+      "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
+      "text_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17490
+        },
+        {
+          "name": "imports",
+          "value": 17490
+        },
+        {
+          "name": "sipri",
+          "value": 17490
+        },
+        {
+          "name": "status",
+          "value": 17490
+        },
+        {
+          "name": "trend",
+          "value": 17490
+        },
+        {
+          "name": "unit",
+          "value": 17490
+        },
+        {
+          "name": "values",
+          "value": 17490
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
+      "evidence_json": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json"
+    },
+    {
       "id": "60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -11539,7 +11626,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-12T05:20:41.354267+00:00",
+      "collected_at": "2026-07-12T08:03:01.848757+00:00",
       "published": "",
       "text_chars": 6161766,
       "raw_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json.raw",
@@ -11605,81 +11692,6 @@
       ],
       "detail_path": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
       "evidence_json": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json"
-    },
-    {
-      "id": "5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-12T05:20:41.059736+00:00",
-      "published": "",
-      "text_chars": 6243887,
-      "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
-      "text_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17490
-        },
-        {
-          "name": "imports",
-          "value": 17490
-        },
-        {
-          "name": "sipri",
-          "value": 17490
-        },
-        {
-          "name": "status",
-          "value": 17490
-        },
-        {
-          "name": "trend",
-          "value": 17490
-        },
-        {
-          "name": "unit",
-          "value": 17490
-        },
-        {
-          "name": "values",
-          "value": 17490
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
-      "evidence_json": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json"
     },
     {
       "id": "1174c3df71aea2f9a11fa5ea545ed6eddd100dac9b775fffbec4723a62bd86f6",
@@ -15489,7 +15501,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-12T05:21:28.637888+00:00",
+      "collected_at": "2026-07-12T08:03:51.129565+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15561,6 +15573,149 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
+      "id": "fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-07-12T08:03:49.592221+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.html",
+      "text_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
+      "evidence_json": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-07-12T08:03:49.523283+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
       "title": "ICRC International Humanitarian Law Handbook",
@@ -15570,7 +15725,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-12T05:21:27.827906+00:00",
+      "collected_at": "2026-07-12T08:03:49.501327+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -15642,76 +15797,6 @@
       "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-07-12T05:21:22.516613+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -15721,7 +15806,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-12T05:21:22.509196+00:00",
+      "collected_at": "2026-07-12T08:03:44.077204+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15793,79 +15878,6 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-07-12T05:21:20.461450+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.html",
-      "text_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
-      "evidence_json": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.json"
-    },
-    {
       "id": "8f0ef27af29ca41c471db4321a28fa523643e8ee7abe2df9a443d8a89ad660f7",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -15875,7 +15887,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-12T05:21:20.378998+00:00",
+      "collected_at": "2026-07-12T08:03:41.780410+00:00",
       "published": "",
       "text_chars": 9129274,
       "raw_path": "data/geopolitics/raw/8f0ef27af29ca41c471db4321a28fa523643e8ee7abe2df9a443d8a89ad660f7.xml",
@@ -15955,7 +15967,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-12T05:20:45.384099+00:00",
+      "collected_at": "2026-07-12T08:03:06.600827+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/5943dbbf6be05c843c0731eb9d60f7057e4398f2d30cea6d0036c92845e3bbb3.xml",
@@ -16035,7 +16047,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "application/xml",
-      "collected_at": "2026-07-12T05:20:43.481176+00:00",
+      "collected_at": "2026-07-12T08:03:04.918474+00:00",
       "published": "",
       "text_chars": 824840,
       "raw_path": "data/geopolitics/raw/b01b487e5c9a8f4ffded8148b32b3b5bea788504c150311171118eda245f00d4.xml",
@@ -16106,6 +16118,81 @@
       "evidence_json": "/evidence/b01b487e5c9a8f4ffded8148b32b3b5bea788504c150311171118eda245f00d4.json"
     },
     {
+      "id": "5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-07-12T08:03:02.130125+00:00",
+      "published": "",
+      "text_chars": 6243887,
+      "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
+      "text_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17490
+        },
+        {
+          "name": "imports",
+          "value": 17490
+        },
+        {
+          "name": "sipri",
+          "value": 17490
+        },
+        {
+          "name": "status",
+          "value": 17490
+        },
+        {
+          "name": "trend",
+          "value": 17490
+        },
+        {
+          "name": "unit",
+          "value": 17490
+        },
+        {
+          "name": "values",
+          "value": 17490
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
+      "evidence_json": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json"
+    },
+    {
       "id": "60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -16115,7 +16202,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-12T05:20:41.354267+00:00",
+      "collected_at": "2026-07-12T08:03:01.848757+00:00",
       "published": "",
       "text_chars": 6161766,
       "raw_path": "data/geopolitics/raw/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json.raw",
@@ -16183,79 +16270,308 @@
       "evidence_json": "/evidence/60a6326a84a900ecf3176cde113234f3ba49c51bae6eebef11f55aa7a8878f92.json"
     },
     {
-      "id": "5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
+      "id": "b31680bada91eb69c769a56415754cb288e2feb45e830fba7ba42ea7d04d13fa",
       "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-12T05:20:41.059736+00:00",
-      "published": "",
-      "text_chars": 6243887,
-      "raw_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json.raw",
-      "text_path": "data/geopolitics/raw/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "title": "US Senator Lindsey Graham dies after 'brief and sudden illness'",
+      "url": "http://www.euronews.com/2026/07/12/us-senator-lindsey-graham-dies-after-brief-and-sudden-illness",
+      "host": "euronews.com",
+      "source": "https://www.euronews.com/rss?level=theme&name=news",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-12T08:04:09.815002+00:00",
+      "published": "Sun, 12 Jul 2026 09:33:35 +0200",
+      "text_chars": 32683,
+      "raw_path": "data/geopolitics/raw/b31680bada91eb69c769a56415754cb288e2feb45e830fba7ba42ea7d04d13fa.html",
+      "text_path": "data/geopolitics/raw/b31680bada91eb69c769a56415754cb288e2feb45e830fba7ba42ea7d04d13fa.txt",
+      "summary": "[�\u00186 �jo\u000f�(���3�R�z\u0000Tgb�\u001b��ן�=p\u0000��?\u0018Mf��fw8]n�����_[����+Ϋ!�ph��\u0014z�u�qv��(EQ�s�h��79����˴��ϋ�8CY\u0002PM>\u001a@�\u0004��@��ͳ� \u001d��-\u0019I\u0010��O}��>Mu��em� �?}\u00133�-;Q�_$�ޏ��C�D\u0004\u0002\\\u0000�Dg=s��U�{U������_���\u0015����^�.��$X�<���H2gnV\u0003h��@\u0000\u0006@J���A:A��\u0015Dg�+��6���W5�\u000eR�GTJ���%J�}8e��<��t�{���\u00033\u001f�4\u0007 �\u0019��\u0012��r@J>�2=��\u0000\u0010�h�Q\u001c\u001d[ִ&{Z�lO�rjk���j���C�)�Ҳ�e�Yf���b���}5�1\u0016�:�+�à\u001ccӸ4x�\u0004����\u000f��\u0001H�,@I'D�N�v=s����\u0007��І\u001c*�XV)����\u0007.�?�\u0010�ͥ�m��������4A\u0011��^��������`0�nS",
       "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+        "[�\u00186 �jo\u000f�(���3�R�z\u0000Tgb�\u001b��ן�=p\u0000��?\u0018Mf��fw8]n�����_[����+Ϋ!�ph��\u0014z�u�qv��(EQ�s�h��79����˴��ϋ�8CY\u0002PM>\u001a@�\u0004��@��ͳ� \u001d��-\u0019I\u0010��O}��>Mu��em� �?}\u00133�-;Q�_$�ޏ��C�D\u0004\u0002\\\u0000�Dg=s��U�{U������_���\u0015����^�.��$X�<���H2gnV\u0003h��@\u0000\u0006@J���A:A��\u0015Dg�+��6���W5�\u000eR�GTJ���%J�}8e��<��t�{���\u00033\u001f�4\u0007 �\u0019��\u0012��r@J>�2=��\u0000\u0010�h�Q\u001c\u001d[ִ&{Z�lO�rjk���j���C�)�Ҳ�e�Yf���b���}5�1\u0016�:�+�à\u001ccӸ4x�\u0004����\u000f��\u0001H�,@I'D�N�v=s����\u0007��І\u001c*�XV)����\u0007.�?�\u0010�ͥ�m��������4A\u0011��^��������`0�nS"
       ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-01\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "excerpt": "[�\u00186 �jo\u000f�(���3�R�z\u0000Tgb�\u001b��ן�=p\u0000��?\u0018Mf��fw8]n�����_[����+Ϋ!�ph��\u0014z�u�qv��(EQ�s�h��79����˴��ϋ�8CY\u0002PM>\u001a@�\u0004��@��ͳ� \u001d��-\u0019I\u0010��O}��>Mu��em� �?}\u00133�-;Q�_$�ޏ��C�D\u0004\u0002\\\u0000�Dg=s��U�{U������_���\u0015����^�.��$X�<���H2gnV\u0003h��@\u0000\u0006@J���A:A��\u0015Dg�+��6���W5�\u000eR�GTJ���%J�}8e��<��t�{���\u00033\u001f�4\u0007 �\u0019��\u0012��r@J>�2=��\u0000\u0010�h�Q\u001c\u001d[ִ&{Z�lO�rjk���j���C�)�Ҳ�e�Yf���b���}5�1\u0016�:�+�à\u001ccӸ4x�\u0004����\u000f��\u0001H�,@I'D�N�v=s����\u0007��І\u001c*�XV)����\u0007.�?�\u0010�ͥ�m��������4A\u0011��^��������`0�nSϖ���tm\u0015�\u0006F��*��F�jYaSh��֙�ݱ\u001c�J�h%gc,���\u0016h��:��\u0018�3�O��\u0001�\u000e3�/��{߯ �� )J&cZ�����D\u001c$��c��{mߋ �~�\u0001\u0007z��&�Z1)��\"�, �ޜ���\u001e�J���6�����:\u0005 �\"\u0012���T�,���^\u0012��\u0006��Q \u0005�v�\u001f��}�?�\u001c�DEB�5��p�����6\"�k���W'�X\u0001��\u0018À��\u0018c�����5���1��Q�; z׫�_���9���n��a�CN�ү\u001e�>a\u0005��2�\u0015\u0006����> �(�a�\u0015ǌ*����c�kK�6�\u0019>\u0007�%�-�\u0000��e{����ް��7\u001aQ�z\u0013�[1�x\u000e7������_;;�M�+��<�OM�q�Y�%ݐbq�T��\u0004�|S7�\u0012Hl9\u0006���8�1jWȎ�<�O��Y�qD�\u0013B��7���\u0011 \u0004�\u0002 \u0011�y�=;\u000fZ��� H��w?6}\u0013\u0001*�!�4\u000f_)\u000f��Ķ��n:�}\u0011���\u001b�ϴ��_#�\u0001F9�}�ȞH{�\u001a���̇��yK�S��N6���X\u0012�a,)\u0018���K(r�6��\u0013Z��|����fs>��,���QGxi~�?�����*�\u0010>ߘ[�%�Sݍ�B\bޯc\b���ջ\u001eC��jڭ\u0013�T\u001a�\u0012�\u0004�K�1|�7_�\u0001�@h�3����C�\u000f�v��5��v5vB�~I*��\u0013�ڵ�c.���KoL,�s\u001a��K����UU�򍯳�|�#�sM\u0017S�_[os���\u001f�Ӈ��u?ߌ_23��m�q��Dñ�c���Ŏ��Z\u0011zrއ@�k��\u0010\u0003\u0016\u001d.Ṵ����sh���eXo\u00193��s��Έa(�s �\u0014_\u0002t�����̱�)qQ{�,2t�r �7�H\u001d��GgM2+���ë�j��u�\u001f���x� �l�V��GE^�w�+ޮ�W� , i�,��� ��g",
       "keywords": [
         {
-          "name": "arms",
-          "value": 17490
+          "name": "ahqx",
+          "value": 1
         },
         {
-          "name": "imports",
-          "value": 17490
+          "name": "avlg",
+          "value": 1
         },
         {
-          "name": "sipri",
-          "value": 17490
+          "name": "avxo",
+          "value": 1
         },
         {
-          "name": "status",
-          "value": 17490
+          "name": "bmnj",
+          "value": 1
         },
         {
-          "name": "trend",
-          "value": 17490
+          "name": "bnnhm",
+          "value": 1
         },
         {
-          "name": "unit",
-          "value": 17490
+          "name": "brief",
+          "value": 1
         },
         {
-          "name": "values",
-          "value": 17490
+          "name": "bwrg",
+          "value": 1
         },
         {
-          "name": "income",
-          "value": 726
+          "name": "demwq",
+          "value": 1
         },
         {
-          "name": "africa",
-          "value": 594
+          "name": "dies",
+          "value": 1
         },
         {
-          "name": "islands",
-          "value": 594
+          "name": "dpbu",
+          "value": 1
         }
       ],
       "signals": [],
       "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
+        "Europe and Russia",
+        "Global Institutions"
       ],
-      "detail_path": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87",
-      "evidence_json": "/evidence/5f2e182a1999ba687fcb46a209c789922d996d301ea4a93c797d0b0d9aa21e87.json"
+      "detail_path": "/evidence/b31680bada91eb69c769a56415754cb288e2feb45e830fba7ba42ea7d04d13fa",
+      "evidence_json": "/evidence/b31680bada91eb69c769a56415754cb288e2feb45e830fba7ba42ea7d04d13fa.json"
+    },
+    {
+      "id": "a295cf011fe4d61faea7cce9d41ca83c594dc5c9195c3a35df8a35f2022600e0",
+      "topic": "geopolitics",
+      "title": "US Senator Lindsey Graham dies after 'brief and sudden illness', his office says",
+      "url": "https://www.bbc.co.uk/news/articles/cvgj25j6nmeo?at_medium=RSS&at_campaign=rss",
+      "host": "bbc.co.uk",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html",
+      "collected_at": "2026-07-12T08:04:10.042534+00:00",
+      "published": "Sun, 12 Jul 2026 07:33:12 GMT",
+      "text_chars": 1498,
+      "raw_path": "data/geopolitics/raw/a295cf011fe4d61faea7cce9d41ca83c594dc5c9195c3a35df8a35f2022600e0.html",
+      "text_path": "data/geopolitics/raw/a295cf011fe4d61faea7cce9d41ca83c594dc5c9195c3a35df8a35f2022600e0.txt",
+      "summary": "In his most recent trip to Ukraine, Graham was working on a version of the Russia sanctions bill, which he said would give \"tools to President Trump to end this war.\" Over the years, Graham clashed with President Trump, but he became one of his staunchest backers. \"Senator Graham's family appreciates prayers at this time and asks for privacy during this incredibly difficult period.\" Elected to the Senate in 2002, the South Carolina politician was one of Washington's most influential voices on foreign policy and a key ally of Trump.",
+      "bullets": [
+        "In his most recent trip to Ukraine, Graham was working on a version of the Russia sanctions bill, which he said would give \"tools to President Trump to end this war.\" Over the years, Graham clashed with President Trump, but he became one of his staunchest backers.",
+        "\"Senator Graham's family appreciates prayers at this time and asks for privacy during this incredibly difficult period.\" Elected to the Senate in 2002, the South Carolina politician was one of Washington's most influential voices on foreign policy and a key ally of Trump.",
+        "In a social media post marking the senator's death, US President Donald Trump said Graham was a \"true American Patriot\".",
+        "\"To be weak in Ukraine means that you lose in Taiwan,\" he said.",
+        "But I am sticking with him because I saw what he did,\" citing Trump's record on the US southern border, the killing of Iran's Qasem Soleimani and the appointment of conservative judges."
+      ],
+      "excerpt": "US Republican Senator Lindsey Graham has died following a brief and sudden illness. His office has released a statement saying he died on Saturday evening. \"Senator Graham's family appreciates prayers at this time and asks for privacy during this incredibly difficult period.\" Elected to the Senate in 2002, the South Carolina politician was one of Washington's most influential voices on foreign policy and a key ally of Trump. He had just returned from Kyiv, where he met the Ukrainian President Volodymyr Zelensky on Friday. There were no known health concerns ahead of his trip. In a social media post marking the senator's death, US President Donald Trump said Graham was a \"true American Patriot\". Graham also served as Chairman of the Senate Budget Committee. He was a strong proponent of US support for Ukraine. \"Putin will not stop in Ukraine,\" he told the BBC in 2023. \"To be weak in Ukraine means that you lose in Taiwan,\" he said. In his most recent trip to Ukraine, Graham was working on a version of the Russia sanctions bill, which he said would give \"tools to President Trump to end this war.\" Over the years, Graham clashed with President Trump, but he became one of his staunchest b",
+      "keywords": [
+        {
+          "name": "graham",
+          "value": 7
+        },
+        {
+          "name": "trump",
+          "value": 6
+        },
+        {
+          "name": "president",
+          "value": 5
+        },
+        {
+          "name": "senator",
+          "value": 4
+        },
+        {
+          "name": "ukraine",
+          "value": 4
+        },
+        {
+          "name": "brief",
+          "value": 2
+        },
+        {
+          "name": "died",
+          "value": 2
+        },
+        {
+          "name": "donald",
+          "value": 2
+        },
+        {
+          "name": "illness",
+          "value": 2
+        },
+        {
+          "name": "lindsey",
+          "value": 2
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Sanctions and Finance"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Americas",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/a295cf011fe4d61faea7cce9d41ca83c594dc5c9195c3a35df8a35f2022600e0",
+      "evidence_json": "/evidence/a295cf011fe4d61faea7cce9d41ca83c594dc5c9195c3a35df8a35f2022600e0.json"
+    },
+    {
+      "id": "57964dcb7aff950a518b8bfefb389856733ede5e6708574b0a125695f956c0dd",
+      "topic": "geopolitics",
+      "title": "Lindsey Graham, one of Israel’s strongest US Senate allies, dies",
+      "url": "https://www.aljazeera.com/news/2026/7/12/us-senator-lindsey-graham-passes-away?traffic_source=rss",
+      "host": "aljazeera.com",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-07-12T08:04:10.159274+00:00",
+      "published": "Sun, 12 Jul 2026 06:27:06 +0000",
+      "text_chars": 1787,
+      "raw_path": "data/geopolitics/raw/57964dcb7aff950a518b8bfefb389856733ede5e6708574b0a125695f956c0dd.html",
+      "text_path": "data/geopolitics/raw/57964dcb7aff950a518b8bfefb389856733ede5e6708574b0a125695f956c0dd.txt",
+      "summary": "Published On 12 Jul 2026 12 Jul 2026 Lindsey Graham, a prominent Republican senator in the United States and a key ally of President Donald Trump, has ⁠died aged 71. He was a strong supporter of the 2003 US invasion of Iraq and had long pushed for military action against Iran. Israel’s Defence Ministry said on Sunday morning it was saddened by the death of Graham, “who stood with Israel in its most difficult time”.",
+      "bullets": [
+        "Published On 12 Jul 2026 12 Jul 2026 Lindsey Graham, a prominent Republican senator in the United States and a key ally of President Donald Trump, has ⁠died aged 71.",
+        "He was a strong supporter of the 2003 US invasion of Iraq and had long pushed for military action against Iran.",
+        "Israel’s Defence Ministry said on Sunday morning it was saddened by the death of Graham, “who stood with Israel in its most difficult time”.",
+        "“Senator Graham’s ⁠family appreciates prayers ⁠at this ⁠time and asks for privacy during this incredibly ‌difficult period,” his office added.",
+        "He was a strong supporter of Israel and backed Trump’s ongoing war on Iran."
+      ],
+      "excerpt": "Published On 12 Jul 2026 12 Jul 2026 Lindsey Graham, a prominent Republican senator in the United States and a key ally of President Donald Trump, has ⁠died aged 71. Graham passed away on ⁠Saturday evening after a ‌brief and sudden illness, the communications director ⁠for his office ⁠said in ⁠a post ⁠on ⁠X early Sunday. “Senator Graham’s ⁠family appreciates prayers ⁠at this ⁠time and asks for privacy during this incredibly ‌difficult period,” his office added. Graham was elected to the US Senate in 2002 and was re-elected in 2008, 2014 and 2020. In 1994, he served in ⁠the US House of Representatives, the lower house of the US Congress, for South Carolina’s third congressional district. He recently served as chairman of the Senate Budget Committee. Graham also served as a member of ‌the Senate Committee on Appropriations, the Senate Judiciary Committee and the Senate Committee on Environment and Public Works. He was a strong supporter of the 2003 US invasion of Iraq and had long pushed for military action against Iran. “Graham has consistently pushed for outcomes in the War on Terror that protect our long-term national security interests,” read his website. He was a strong supporte",
+      "keywords": [
+        {
+          "name": "graham",
+          "value": 9
+        },
+        {
+          "name": "senate",
+          "value": 6
+        },
+        {
+          "name": "committee",
+          "value": 4
+        },
+        {
+          "name": "israel",
+          "value": 4
+        },
+        {
+          "name": "served",
+          "value": 4
+        },
+        {
+          "name": "trump",
+          "value": 3
+        },
+        {
+          "name": "allies",
+          "value": 2
+        },
+        {
+          "name": "congress",
+          "value": 2
+        },
+        {
+          "name": "difficult",
+          "value": 2
+        },
+        {
+          "name": "force",
+          "value": 2
+        }
+      ],
+      "signals": [
+        "War and Escalation"
+      ],
+      "regions": [
+        "Middle East",
+        "Americas",
+        "Europe and Russia"
+      ],
+      "detail_path": "/evidence/57964dcb7aff950a518b8bfefb389856733ede5e6708574b0a125695f956c0dd",
+      "evidence_json": "/evidence/57964dcb7aff950a518b8bfefb389856733ede5e6708574b0a125695f956c0dd.json"
+    },
+    {
+      "id": "e270b803c662d518ad2d2d89f07628484da97b9077313c1022be3be4099b4bd2",
+      "topic": "geopolitics",
+      "title": "Live: US launches strikes after Iran fires on ship in Strait of Hormuz",
+      "url": "https://www.france24.com/en/middle-east/20260712-live-us-attacks-iran-over-ship-being-hit-in-strait-of-hormuz",
+      "host": "france24.com",
+      "source": "https://www.france24.com/en/rss",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-12T08:03:58.547801+00:00",
+      "published": "Sun, 12 Jul 2026 05:05:35 GMT",
+      "text_chars": 4429,
+      "raw_path": "data/geopolitics/raw/e270b803c662d518ad2d2d89f07628484da97b9077313c1022be3be4099b4bd2.html",
+      "text_path": "data/geopolitics/raw/e270b803c662d518ad2d2d89f07628484da97b9077313c1022be3be4099b4bd2.txt",
+      "summary": "© Pakistan Prime Minister's Office, AFP 12/07/2026 - 07:09 Kuwait armed forces responding to aerial attacks Kuwait's military said its air defence forces were working to intercept an ongoing attack on its territory, as countries across the Gulf were targeted by drones and missiles. \"A second vessel accused of violating regulations in the Strait of Hormuz has been struck,\" the Guards said in a statement carried by state television IRIB, adding they had also attacked a US base in Qatar.",
+      "bullets": [
+        "© Pakistan Prime Minister's Office, AFP 12/07/2026 - 07:09 Kuwait armed forces responding to aerial attacks Kuwait's military said its air defence forces were working to intercept an ongoing attack on its territory, as countries across the Gulf were targeted by drones and missiles.",
+        "\"A second vessel accused of violating regulations in the Strait of Hormuz has been struck,\" the Guards said in a statement carried by state television IRIB, adding they had also attacked a US base in Qatar.",
+        "12/07/2026 - 09:07 Iranian drones have struck some sites in Oman, the sultanate's state news agency reports The Omani state news agency said drones struck sites in northeastern Oman in the region that sits on the Strait of Hormuz.",
+        "12/07/2026 - 09:20 US attacks Iran over ship being hit in Strait of Hormuz The United States attacked Iran early Sunday morning over an Iranian strike on a vessel in the Strait of Hormuz that set the container ship ablaze and forced its crew to abandon it.",
+        "12/07/2026 - 07:07 Iran Guards say struck second vessel in Strait of Hormuz, says state media The Iranian Revolutionary Guards announced they had hit a second vessel in the Strait of Hormuz, state media reported, after closing the key waterway and trading strikes with the United States."
+      ],
+      "excerpt": "12/07/2026 - 10:01 Mojtaba Khamenei: Iran supreme leader vows revenge for father's killing Iran's supreme leader Mojtaba Khamenei on Saturday vowed revenge for the US-Israeli killing of his father and predecessor, hours after President Donald Trump warned against any attempt to assassinate him. 12/07/2026 - 09:20 US attacks Iran over ship being hit in Strait of Hormuz The United States attacked Iran early Sunday morning over an Iranian strike on a vessel in the Strait of Hormuz that set the container ship ablaze and forced its crew to abandon it. A projectile is fired during what the US Central Command (CENTCOM) said was a third round of strikes this week against Iran, in this screen grab taken from a handout video released on July 11, 2026. © US Central Command Handout via Reuters 12/07/2026 - 09:15 One Indian national missing after attack on vessel off Oman, foreign ministry says One ⁠Indian national ​is missing after ​an attack on the commercial vessel GFS Galaxy off the ​coast ‌of Oman earlier ⁠on Sunday, the Ministry ‌of External Affairs said. \"Of the ⁠11 Indian nationals on board, 10 have ​been rescued so far, ‌while one Indian National is reportedly missing,\" ‌the ministry s",
+      "keywords": [
+        {
+          "name": "iran",
+          "value": 13
+        },
+        {
+          "name": "iranian",
+          "value": 8
+        },
+        {
+          "name": "ministry",
+          "value": 8
+        },
+        {
+          "name": "hormuz",
+          "value": 7
+        },
+        {
+          "name": "strait",
+          "value": 7
+        },
+        {
+          "name": "vessel",
+          "value": 7
+        },
+        {
+          "name": "oman",
+          "value": 6
+        },
+        {
+          "name": "struck",
+          "value": 6
+        },
+        {
+          "name": "foreign",
+          "value": 5
+        },
+        {
+          "name": "minister",
+          "value": 5
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Diplomacy and Negotiations",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Indo-Pacific",
+        "Middle East",
+        "Americas"
+      ],
+      "detail_path": "/evidence/e270b803c662d518ad2d2d89f07628484da97b9077313c1022be3be4099b4bd2",
+      "evidence_json": "/evidence/e270b803c662d518ad2d2d89f07628484da97b9077313c1022be3be4099b4bd2.json"
     },
     {
       "id": "58634b2a0400d43c9f4c12a5d3af71527ebc297678172ebd5c422da63e5e0317",
@@ -17120,6 +17436,86 @@
       ],
       "detail_path": "/evidence/4eb8de5c098fef065121401b95b5e17a5fb34a64ecbc8592c039153c9b768240",
       "evidence_json": "/evidence/4eb8de5c098fef065121401b95b5e17a5fb34a64ecbc8592c039153c9b768240.json"
+    },
+    {
+      "id": "664bb0f2851095630838be6436d43da2b94082adbd76af4e6fe9afeb891f397a",
+      "topic": "geopolitics",
+      "title": "UN Watchdog ‘Lost Continuity of Knowledge’ on Iran Nuclear Programme, Security Council Told amid Dispute over Sanctions",
+      "url": "https://press.un.org/en/2026/sc16409.doc.htm",
+      "host": "press.un.org",
+      "source": "https://press.un.org/en/rss.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-12T08:03:51.330532+00:00",
+      "published": "Fri, 10 Jul 2026 15:55:53 -0400",
+      "text_chars": 9024,
+      "raw_path": "data/geopolitics/raw/664bb0f2851095630838be6436d43da2b94082adbd76af4e6fe9afeb891f397a.html",
+      "text_path": "data/geopolitics/raw/664bb0f2851095630838be6436d43da2b94082adbd76af4e6fe9afeb891f397a.txt",
+      "summary": "Presenting the Secretary-General’s most recent report on the implementation of resolution 2231 (2015), she said the International Atomic Energy Agency (IAEA) has received no updated nuclear declarations from Iran and has been unable to conduct visits to any sites in the country. Resolution 2231 (2015) endorsed the Joint Comprehensive Plan of Action — commonly known as the Iran nuclear deal reached after years of negotiations between the United States, Iran and other key actors.",
+      "bullets": [
+        "Presenting the Secretary-General’s most recent report on the implementation of resolution 2231 (2015), she said the International Atomic Energy Agency (IAEA) has received no updated nuclear declarations from Iran and has been unable to conduct visits to any sites in the country.",
+        "Resolution 2231 (2015) endorsed the Joint Comprehensive Plan of Action — commonly known as the Iran nuclear deal reached after years of negotiations between the United States, Iran and other key actors.",
+        "“A framework for further negotiations remains a critical step towards the peaceful settlement of the Iran nuclear issue,” said Rosemary DiCarlo, Under-Secretary-General for Political and Peacebuilding Affairs, following the procedural vote.",
+        "At the outset, delegates sharply debated whether discussions about the Iran nuclear programme — as laid out in resolution 2231 (2015) — are even rightfully under the Council’s purview.",
+        "It suspended sanctions on Iran and stated that the Council would end its consideration of Iran’s nuclear programme in October 2025, the original date when the deal was slated to expire, unless so-called “snapback measures” were activated."
+      ],
+      "excerpt": "Following the collapse of the 2015 Iran nuclear deal and the region’s chaotic recent military escalations, the United Nations dedicated nuclear agency has “lost continuity of knowledge” about the Iranian nuclear programme it was once tasked with overseeing, the Security Council heard today, in a briefing by the Organization’s senior political affairs officer. At the outset, delegates sharply debated whether discussions about the Iran nuclear programme — as laid out in resolution 2231 (2015) — are even rightfully under the Council’s purview. Members voted 11 in favour to 2 against (China, Russian Federation), with 2 abstentions (Pakistan, Somalia), to hold the meeting. Resolution 2231 (2015) endorsed the Joint Comprehensive Plan of Action — commonly known as the Iran nuclear deal reached after years of negotiations between the United States, Iran and other key actors. It suspended sanctions on Iran and stated that the Council would end its consideration of Iran’s nuclear programme in October 2025, the original date when the deal was slated to expire, unless so-called “snapback measures” were activated. Several parties to the deal activated those snapback measures, though the validit",
+      "keywords": [
+        {
+          "name": "iran",
+          "value": 34
+        },
+        {
+          "name": "nuclear",
+          "value": 22
+        },
+        {
+          "name": "council",
+          "value": 11
+        },
+        {
+          "name": "united",
+          "value": 11
+        },
+        {
+          "name": "states",
+          "value": 10
+        },
+        {
+          "name": "sanctions",
+          "value": 8
+        },
+        {
+          "name": "representative",
+          "value": 7
+        },
+        {
+          "name": "deal",
+          "value": 6
+        },
+        {
+          "name": "delegate",
+          "value": 6
+        },
+        {
+          "name": "memorandum",
+          "value": 6
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure"
+      ],
+      "regions": [
+        "Global Institutions",
+        "Europe and Russia",
+        "Indo-Pacific"
+      ],
+      "detail_path": "/evidence/664bb0f2851095630838be6436d43da2b94082adbd76af4e6fe9afeb891f397a",
+      "evidence_json": "/evidence/664bb0f2851095630838be6436d43da2b94082adbd76af4e6fe9afeb891f397a.json"
     },
     {
       "id": "aec70dbbf266b86d54d44b94a6b180cb526776bd590bbfd826ef61634188251c",
