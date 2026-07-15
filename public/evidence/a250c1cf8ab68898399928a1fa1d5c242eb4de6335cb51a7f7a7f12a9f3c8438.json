@@ -8,7 +8,7 @@
   "data_type": "geospatial_mapping_data",
   "format": "Dataset",
   "content_type": "application/zip",
-  "collected_at": "2026-07-15T13:16:51.136967+00:00",
+  "collected_at": "2026-07-15T15:21:58.522015+00:00",
   "published": "",
   "text_chars": 238,
   "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -67,6 +67,166 @@
   "regions": [],
   "full_text": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.\nTitle: \nURL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip\nSource: topic-config\nContent-Type: application/zip\nBytes: 215221",
   "related": [
+    {
+      "id": "f85bbd3ce39a3493e867e34d54712001d861e87ac30c41219080fe54f1928937",
+      "topic": "geopolitics",
+      "title": "OFAC Specially Designated Nationals List",
+      "url": "https://www.treasury.gov/ofac/downloads/sdn.xml",
+      "host": "treasury.gov",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "text/xml",
+      "collected_at": "2026-07-15T15:21:50.779512+00:00",
+      "published": "",
+      "text_chars": 9161694,
+      "raw_path": "data/geopolitics/raw/f85bbd3ce39a3493e867e34d54712001d861e87ac30c41219080fe54f1928937.xml",
+      "text_path": "data/geopolitics/raw/f85bbd3ce39a3493e867e34d54712001d861e87ac30c41219080fe54f1928937.txt",
+      "summary": "6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg.",
+      "bullets": [
+        "6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A.",
+        "strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg.",
+        "Entity CUBA 357 Buenos Aires Argentina 590 CUBACANCUN CIGARS AND GIFT SHOPS Entity CUBA 358 Cancun Mexico 591 CUBAEXPORT Entity CUBA 359 Spain 592 CUBAFRUTAS Entity CUBA 360 Spain 593 CUBAN CIGARS TRADE Entity CUBA 361 Italy 621 CUBANATUR Entity CUBA 362 Baja California 255, Edificio B.",
+        "11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A.",
+        "06500 Mexico 622 CUBATABACO Entity CUBA 363 Spain 636 CUMEXINT, S.A."
+      ],
+      "excerpt": "07/15/2026 19217 36 AEROCARIBBEAN AIRLINES Entity CUBA 12 a.k.a. strong AERO-CARIBBEAN 25 Havana Cuba 173 ANGLO-CARIBBEAN CO., LTD. Entity CUBA 57 a.k.a. strong AVIA IMPORT 129 Ibex House, The Minories London EC3N 1DY United Kingdom 306 BANCO NACIONAL DE CUBA Entity CUBA 219 a.k.a. weak BNC 220 a.k.a. strong NATIONAL BANK OF CUBA 199 Zweierstrasse 35 Zurich CH-8022 Switzerland 200 Avenida de Concha Espina 8 Madrid E-28036 Spain 201 Dai-Ichi Bldg. 6th Floor, 10-2 Nihombashi, 2-chome, Chuo-ku Tokyo 103 Japan 202 Federico Boyd Avenue & 51 Street Panama City Panama 424 BOUTIQUE LA MAISON Entity CUBA 247 42 Via Brasil Panama City Panama 475 CASA DE CUBA Entity CUBA 271 Spain 272 Mexico 480 CECOEX, S.A. Entity CUBA 276 Panama City Panama 535 CIMEX Entity CUBA 317 Emerson No. 148 Piso 7 Mexico, D.F. 11570 Mexico 536 CIMEX IBERICA Entity CUBA 318 Spain 537 CIMEX, S.A. Entity CUBA 319 Panama 540 COMERCIAL IBEROAMERICANA, S.A. Entity CUBA 471 a.k.a. strong COIBA 321 Spain 551 COMERCIAL CIMEX, S.A. Entity CUBA 328 Panama 552 COMERCIAL DE RODAJES Y MAQUINARIA, S.A. Entity CUBA 475 a.k.a. strong CRYMSA 329 Jose Lazaro Galdeano 6-6 Madrid 28016 Spain 555 COMERCIALIZACION DE PRODUCTOS VARIOS Enti",
+      "keywords": [
+        {
+          "name": "sanctions",
+          "value": 19912
+        },
+        {
+          "name": "russia",
+          "value": 16716
+        },
+        {
+          "name": "executive",
+          "value": 13399
+        },
+        {
+          "name": "order",
+          "value": 13359
+        },
+        {
+          "name": "risk",
+          "value": 11419
+        },
+        {
+          "name": "entity",
+          "value": 10116
+        },
+        {
+          "name": "russia-eo",
+          "value": 6361
+        },
+        {
+          "name": "iran",
+          "value": 6198
+        },
+        {
+          "name": "gender",
+          "value": 5393
+        },
+        {
+          "name": "organization",
+          "value": 5033
+        }
+      ],
+      "signals": [
+        "Energy and Supply Chains",
+        "Sanctions and Finance",
+        "Territory and Chokepoints",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Americas"
+      ],
+      "detail_path": "/evidence/f85bbd3ce39a3493e867e34d54712001d861e87ac30c41219080fe54f1928937",
+      "evidence_json": "/evidence/f85bbd3ce39a3493e867e34d54712001d861e87ac30c41219080fe54f1928937.json"
+    },
+    {
+      "id": "a794492c670e88f662ffa85cc3b46476ff9582c71a7b6b2bf61c7b6fdc68835b",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml",
+      "host": "treasury.gov",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "text/xml",
+      "collected_at": "2026-07-15T15:21:19.649409+00:00",
+      "published": "",
+      "text_chars": 392158,
+      "raw_path": "data/geopolitics/raw/a794492c670e88f662ffa85cc3b46476ff9582c71a7b6b2bf61c7b6fdc68835b.xml",
+      "text_path": "data/geopolitics/raw/a794492c670e88f662ffa85cc3b46476ff9582c71a7b6b2bf61c7b6fdc68835b.txt",
+      "summary": "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a. strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
+      "bullets": [
+        "strong QARAWI Mohammed Fathi 12134 Tulkarim West Bank Palestinian 4712 1958 true 4713 Ramin, West Bank true 9652 Anwar Mohammed ZBOUN Individual NS-PLC 9163 a.k.a.",
+        "strong AL-ZBOUN Anwar Muhammad 12135 Bethlehem West Bank Palestinian 4714 1968 true 4715 Ilar true 9653 Imad Mahmoud NOFAL Individual NS-PLC 9164 a.k.a.",
+        "strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a.",
+        "strong HASAN DOUKHAN Abdul Fattah 4709 1936 true 9649 Ibrahim Mohammed DAHBOUR Individual NS-PLC 12132 Jenin West Bank Palestinian 4710 1968 true 9650 Mariam Mahmoud SALEH Individual NS-PLC 12133 Ramallah West Bank Palestinian 4711 1952 true 9651 Fathi Mohammed QAR'AWI Individual NS-PLC 9162 a.k.a.",
+        "strong NAWFAL Imad Mahmoud 12136 Qalqilya West Bank Palestinian 4716 1970 true 9654 Omar Mahmoud MATAR Individual NS-PLC 12137 Salfit West Bank Palestinian 4717 1958 true 9655 Muna Salim Saleh MANSOUR Individual NS-PLC 9165 a.k.a."
+      ],
+      "excerpt": "01/08/2026 442 9639 Ismail Abdul Salah HANIYA Individual NS-PLC 9150 a.k.a. strong HANIYA Ismail 9151 a.k.a. strong HANIYYA Ismaeel 4696 1962 true 4697 Shati true 9640 Mohammed ABU TEIR Individual NS-PLC 9152 a.k.a. strong ABU TAIR Mohammed Mahmud 9153 a.k.a. strong ABOU TAYR Mohammad Mahmoud 4698 1951 true 4699 Umm Tuba true 9641 Jamileh Abdullah AL-SHANTI Individual NS-PLC 9154 a.k.a. strong EL-SHANTI Jameela Abdallah 9155 a.k.a. strong AL SHANTEE Jamila Abed Allah 12128 Gaza Palestinian 4700 1955 true 4701 Jabalia Camp true 9642 Mohammed Jamal NU'MAN ALAEDDIN Individual NS-PLC 9156 a.k.a. strong ALA AL DIN Mohamad Nouman 9157 a.k.a. strong AL NATSHEH Mohammed 12129 Hebron West Bank Palestinian 4702 1959 true 9643 Yasser Daoud MANSOUR Individual NS-PLC 4703 1967 true 4704 Nablus, West Bank true 9644 Khalil Musa RABAI Individual NS-PLC 9158 a.k.a. strong RABBAI Khalil Mussa 4705 1959 true 9645 Huda Naim AL-QREINAWI Individual NS-PLC 9159 a.k.a. strong AL QRENAWI Houda Naim 12130 Gaza Palestinian 4706 1969 true 9646 Mahmoud Ahmad AL-RAMAHI Individual NS-PLC 12131 Ramallah West Bank Palestinian 4707 1963 true 9647 Mahmoud Khaled ZAHHAR Individual (Linked To: HAMAS) NS-PLC SDGT 16681",
+      "keywords": [
+        {
+          "name": "sanctions",
+          "value": 942
+        },
+        {
+          "name": "russia",
+          "value": 663
+        },
+        {
+          "name": "ukraine",
+          "value": 565
+        },
+        {
+          "name": "executive",
+          "value": 440
+        },
+        {
+          "name": "order",
+          "value": 439
+        },
+        {
+          "name": "entity",
+          "value": 383
+        },
+        {
+          "name": "risk",
+          "value": 372
+        },
+        {
+          "name": "information",
+          "value": 370
+        },
+        {
+          "name": "subject",
+          "value": 323
+        },
+        {
+          "name": "treasury",
+          "value": 313
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/a794492c670e88f662ffa85cc3b46476ff9582c71a7b6b2bf61c7b6fdc68835b",
+      "evidence_json": "/evidence/a794492c670e88f662ffa85cc3b46476ff9582c71a7b6b2bf61c7b6fdc68835b.json"
+    },
     {
       "id": "5856c9a420e8b656c8a75d8f6f027018412bae920871fba8600f3769a9fa39c7",
       "topic": "geopolitics",
@@ -546,159 +706,6 @@
       ],
       "detail_path": "/evidence/b8db4e170944646e03231b52fc00ff9b38b3e64f5686e4a92d132d3feecd819d",
       "evidence_json": "/evidence/b8db4e170944646e03231b52fc00ff9b38b3e64f5686e4a92d132d3feecd819d.json"
-    },
-    {
-      "id": "6ce7e134b85aec29bd47c98139352d7029d8b9acb42d14e22f72e16543c67925",
-      "topic": "geopolitics",
-      "title": "Israeli firm wants to convert commercial ships into floating drone bases",
-      "url": "https://www.defensenews.com/global/mideast-africa/2026/07/15/israeli-firm-wants-to-convert-commercial-ships-into-floating-drone-bases/",
-      "host": "defensenews.com",
-      "source": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=utf-8",
-      "collected_at": "2026-07-15T11:25:45.695298+00:00",
-      "published": "Wed, 15 Jul 2026 10:27:52 +0000",
-      "text_chars": 2734,
-      "raw_path": "data/geopolitics/raw/6ce7e134b85aec29bd47c98139352d7029d8b9acb42d14e22f72e16543c67925.html",
-      "text_path": "data/geopolitics/raw/6ce7e134b85aec29bd47c98139352d7029d8b9acb42d14e22f72e16543c67925.txt",
-      "summary": "For Israel, a maritime UAS-carrier concept holds appeal given Israel’s encompassing offshore gas platforms that sit dozens of kilometers from shore and require monitoring against both conventional threats and drone and missile attacks from Iran and its proxies. JERUSALEM — Elbit Systems detailed a new maritime concept centered on its Hermes 650 Spark unmanned aircraft, envisioning the conversion of commercial vessels into dedicated platforms for unmanned aviation, the Israeli company said this week.",
-      "bullets": [
-        "For Israel, a maritime UAS-carrier concept holds appeal given Israel’s encompassing offshore gas platforms that sit dozens of kilometers from shore and require monitoring against both conventional threats and drone and missile attacks from Iran and its proxies.",
-        "JERUSALEM — Elbit Systems detailed a new maritime concept centered on its Hermes 650 Spark unmanned aircraft, envisioning the conversion of commercial vessels into dedicated platforms for unmanned aviation, the Israeli company said this week.",
-        "The Israeli defense company cited Japan’s expansive maritime geography, Denmark’s responsibilities around Greenland, and Germany’s security environment in the Baltic Sea as examples of the kind of large, distant maritime areas the concept is meant to address.",
-        "A converted vessel carrying multiple long-endurance UAS could extend early-warning coverage over these installations and fit Israel’s broader doctrinal preference for cost-effective, unmanned-heavy solutions over large manned platforms.",
-        "Elbit says the aircraft is built for compatibility with the ground control infrastructure of its larger Hermes 900 drone, meaning the smaller 650 Spark would be managed as part of a combined array with the Hermes 900 from a land-based control system."
-      ],
-      "excerpt": "JERUSALEM — Elbit Systems detailed a new maritime concept centered on its Hermes 650 Spark unmanned aircraft, envisioning the conversion of commercial vessels into dedicated platforms for unmanned aviation, the Israeli company said this week. Each platform would carry between nine and 12 Hermes 650 Spark aircraft along with the deck infrastructure, control systems and mission support needed to operate them. Elbit described the approach as an alternative to acquiring a traditional aircraft carrier, aimed at giving naval forces extended maritime reach without the associated cost and complexity. The Hermes 650 Spark is built around a front-mounted engine that provides a wider speed envelope and additional power margin, supporting short takeoff and landing (STOL) capability, heavier payloads and longer missions. The aircraft carries two payload bays, satellite communications and diagnostic systems, the Israeli company notes. Elbit says the aircraft is built for compatibility with the ground control infrastructure of its larger Hermes 900 drone, meaning the smaller 650 Spark would be managed as part of a combined array with the Hermes 900 from a land-based control system. In such a setu",
-      "keywords": [
-        {
-          "name": "hermes",
-          "value": 6
-        },
-        {
-          "name": "aircraft",
-          "value": 5
-        },
-        {
-          "name": "maritime",
-          "value": 5
-        },
-        {
-          "name": "control",
-          "value": 4
-        },
-        {
-          "name": "elbit",
-          "value": 4
-        },
-        {
-          "name": "israel",
-          "value": 4
-        },
-        {
-          "name": "israeli",
-          "value": 4
-        },
-        {
-          "name": "spark",
-          "value": 4
-        },
-        {
-          "name": "concept",
-          "value": 3
-        },
-        {
-          "name": "defense",
-          "value": 3
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Territory and Chokepoints"
-      ],
-      "regions": [
-        "Indo-Pacific",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/6ce7e134b85aec29bd47c98139352d7029d8b9acb42d14e22f72e16543c67925",
-      "evidence_json": "/evidence/6ce7e134b85aec29bd47c98139352d7029d8b9acb42d14e22f72e16543c67925.json"
-    },
-    {
-      "id": "637a9934ef88439e773b14967bba26ce2d0a8c31105108d227d562713c6ad2bf",
-      "topic": "geopolitics",
-      "title": "DR Congo: Africa CDC and SIMBA integrate Biological Security into the Response to the Bundibugyo virus disease (BVD) Outbreak (pdf)",
-      "url": "https://reliefweb.int/attachments/25b7c2fd-dc8f-4421-b5ba-3a8ee30de7a5/Joint-Statement-SIMBA-Africa-CDC_Integrating-Biological-Security-into-the-Response-to-the-Bundibugyo-virus-disease-BVD-Outbreak-1.pdf",
-      "host": "reliefweb.int",
-      "source": "https://reliefweb.int/updates/rss.xml",
-      "data_type": "diplomatic_statements",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-07-15T11:25:45.003881+00:00",
-      "published": "Wed, 15 Jul 2026 09:55:06 +0000",
-      "text_chars": 6971,
-      "raw_path": "data/geopolitics/raw/637a9934ef88439e773b14967bba26ce2d0a8c31105108d227d562713c6ad2bf.pdf",
-      "text_path": "data/geopolitics/raw/637a9934ef88439e773b14967bba26ce2d0a8c31105108d227d562713c6ad2bf.txt",
-      "summary": "Lessons from previous Ebola disease outbreaks, including in West Africa a decade ago, have shown that effective outbreak response requires not only rapid detection and robust clinical care, but also strong biological security systems that reduce biol ogical risks from high consequence pathogens throughout the response cycle. 1 Integrating Biological Security into the Response to the Bundibugyo virus disease (BVD) Outbreak Biological risks, whether naturally occurring, acci dental, or deliberate, do not respect geo- political borders.",
-      "bullets": [
-        "Lessons from previous Ebola disease outbreaks, including in West Africa a decade ago, have shown that effective outbreak response requires not only rapid detection and robust clinical care, but also strong biological security systems that reduce biol ogical risks from high consequence pathogens throughout the response cycle.",
-        "1 Integrating Biological Security into the Response to the Bundibugyo virus disease (BVD) Outbreak Biological risks, whether naturally occurring, acci dental, or deliberate, do not respect geo- political borders.",
-        "Safe, secure, and accountable management of patient samples, laboratory facilities including biobanks a nd processes, Ebola treatment centres, data, waste streams, and transport systems is therefore an essential component of preparedness, response, and long-term resilience.",
-        "Its multisectoral and partnership-based approach enables rapid coordinati on, promotes interoperability across institutions and borders, and leverages trusted reg ional relationships and existing training networks to support effective, sustainable, and nat ionally owned responses to biological incidents.",
-        "The Signature Initiative to Mitigate Biological Threats in Africa (SIMBA) provides a framework for integrating biosecurity in public hea lth response to outbreaks of high consequence pathogens."
-      ],
-      "excerpt": "1 Integrating Biological Security into the Response to the Bundibugyo virus disease (BVD) Outbreak Biological risks, whether naturally occurring, acci dental, or deliberate, do not respect geo- political borders. The current Bundibugyo Virus Dis ease (BVD) outbreak in the Democratic Republic of the Congo and Uganda once again demonst rates how rapidly highly infectious diseases can evolve into regional and international health security threats, particularly in contexts marked by insecurity, population mobility, cross-border trade, disinformation, fragile health systems, weak early warning surveillance and limited laboratory capacity underscoring the importance of coordinated, effective preparedness and response efforts. For the Global Partnership Against the Spread of Weapons and Materials of Mass Destruction (GP), outbreaks caused by high consequence pathogen s such as Orthoebola viruses must also be understood and managed as biological security and potential bio-proliferation risks. Lessons from previous Ebola disease outbreaks, including in West Africa a decade ago, have shown that effective outbreak response requires not only rapid detection and robust clinical care, but also s",
-      "keywords": [
-        {
-          "name": "biological",
-          "value": 15
-        },
-        {
-          "name": "response",
-          "value": 12
-        },
-        {
-          "name": "outbreak",
-          "value": 10
-        },
-        {
-          "name": "security",
-          "value": 10
-        },
-        {
-          "name": "management",
-          "value": 8
-        },
-        {
-          "name": "bundibugyo",
-          "value": 7
-        },
-        {
-          "name": "health",
-          "value": 7
-        },
-        {
-          "name": "risks",
-          "value": 7
-        },
-        {
-          "name": "laboratory",
-          "value": 6
-        },
-        {
-          "name": "outbreaks",
-          "value": 6
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [
-        "Africa"
-      ],
-      "file_asset": "/evidence-files/637a9934ef88439e773b14967bba26ce2d0a8c31105108d227d562713c6ad2bf.pdf",
-      "detail_path": "/evidence/637a9934ef88439e773b14967bba26ce2d0a8c31105108d227d562713c6ad2bf",
-      "evidence_json": "/evidence/637a9934ef88439e773b14967bba26ce2d0a8c31105108d227d562713c6ad2bf.json"
     }
   ]
 }
