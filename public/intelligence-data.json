@@ -1,71 +1,91 @@
 {
-  "generated_at": "2026-07-16T04:54:31.222350+00:00",
+  "generated_at": "2026-07-16T07:19:16.091646+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating tensions in the Middle East as US-Iran conflict intensifies.",
+    "headline": "Escalating tensions in the Middle East highlight the fragility of regional stability and international relations.",
     "executive_summary": [
-      "Recent military actions in the Strait of Hormuz have marked a significant escalation in the ongoing conflict between the US and Iran. The US military has conducted multiple strikes targeting Iranian coastal defenses and missile sites, while Iran has retaliated with threats to disrupt regional energy exports, raising concerns over global oil supply stability. These developments follow a series of US attacks on Iranian military capabilities, which have reportedly resulted in significant casualties on both sides, further complicating the already volatile situation in the region.",
-      "The US has reimposed a naval blockade on Iranian ports, leading to heightened military engagement in the area. Reports indicate that US forces disabled an oil tanker attempting to breach this blockade, a move that underscores the aggressive posture adopted by Washington in response to perceived threats from Iran. The Iranian government has condemned these actions, claiming they threaten maritime security and regional stability, while also vowing to retaliate against US interests in the region.",
-      "In the political arena, the US Congress is experiencing a notable shift in sentiment regarding military aid to Israel, with over 100 House Democrats voting to cut military support amid accusations of human rights violations in Gaza. This internal division reflects a growing concern among US lawmakers about the implications of continued military assistance to Israel, particularly in light of the ongoing humanitarian crisis in the region.",
-      "As the conflict escalates, the international community is closely monitoring the situation, with fears that a full-scale war could erupt if diplomatic efforts fail. The potential for increased military engagement in the Middle East poses significant risks not only to regional stability but also to global energy markets, as the Strait of Hormuz remains a critical chokepoint for oil transportation."
+      "Recent military actions in the Middle East, particularly between the US and Iran, have intensified, with the US targeting Iranian military capabilities in response to threats against maritime traffic in the Strait of Hormuz. The US military has disabled an oil tanker attempting to breach a blockade, marking a significant escalation in hostilities (evidence id: 11, 13).",
+      "The geopolitical landscape is further complicated by the shifting sentiments within the US Congress regarding military aid to Israel, as over 100 House Democrats voted to cut military assistance, reflecting growing dissent against the Netanyahu government's actions in Gaza (evidence id: 14, 19). This internal division underscores the changing dynamics of US foreign policy in the region.",
+      "Internationally, the perception of the US is declining, with a recent poll indicating that more countries view China favorably compared to the US, a shift attributed to the US's handling of conflicts and its foreign policy decisions (evidence id: 16). This change in global opinion could have long-term implications for US influence in international affairs.",
+      "As tensions rise, the humanitarian situation in conflict zones remains dire, with reports of significant civilian casualties in Gaza and accusations of complicity against Western leaders for their support of military actions (evidence id: 21). The ongoing conflict and its repercussions highlight the urgent need for diplomatic solutions to prevent further escalation."
     ],
     "key_judgments": [
       {
-        "title": "US military actions escalate tensions with Iran",
-        "finding": "The US has conducted multiple strikes against Iranian military targets, leading to increased hostilities and threats from Iran to disrupt energy exports.",
+        "title": "US-Iran Military Escalation",
+        "finding": "The US has intensified military operations against Iran, targeting its military capabilities in response to threats in the Strait of Hormuz.",
         "citations": [
-          "9",
           "11",
-          "27"
+          "13"
         ]
       },
       {
-        "title": "Internal US political divisions over military aid to Israel",
-        "finding": "A significant number of House Democrats have expressed opposition to continued military aid to Israel, reflecting a shift in party sentiment regarding US foreign policy in the Middle East.",
+        "title": "US Congressional Sentiment on Israel",
+        "finding": "A significant number of House Democrats have expressed dissent against military aid to Israel, indicating a shift in US foreign policy dynamics.",
         "citations": [
-          "12",
-          "17"
+          "14",
+          "19"
+        ]
+      },
+      {
+        "title": "Global Perception of the US",
+        "finding": "Recent polling shows a decline in favorable views of the US compared to China, reflecting changing global attitudes towards US foreign policy.",
+        "citations": [
+          "16"
+        ]
+      },
+      {
+        "title": "Humanitarian Crisis in Gaza",
+        "finding": "The humanitarian situation in Gaza is critical, with high civilian casualties and accusations against Western leaders for complicity in the conflict.",
+        "citations": [
+          "21"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The ongoing conflict between the US and Iran is intensifying, with military actions and political divisions in the US impacting regional stability and security.",
+        "assessment": "The Middle East remains a focal point of geopolitical tensions, particularly with the ongoing US-Iran conflict and the humanitarian crisis in Gaza, which complicates diplomatic efforts.",
         "citations": [
-          "9",
           "11",
-          "27"
+          "14",
+          "21"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "Strait of Hormuz",
-        "why_it_matters": "The Strait of Hormuz is a critical chokepoint for global oil supplies, and any disruption could have significant implications for international energy markets.",
+        "label": "US-Iran Relations",
+        "why_it_matters": "The ongoing military actions and rhetoric between the US and Iran could lead to a broader conflict, impacting regional stability and global oil markets.",
         "citations": [
-          "9",
-          "27"
+          "11",
+          "13"
         ]
       },
       {
-        "label": "US military aid to Israel",
-        "why_it_matters": "The internal debate over military aid to Israel could influence US foreign policy and its relationship with Middle Eastern countries amid ongoing humanitarian crises.",
+        "label": "US Military Aid to Israel",
+        "why_it_matters": "The internal dissent within the US Congress regarding military aid to Israel may affect future US-Israel relations and the broader Middle East peace process.",
         "citations": [
-          "12",
-          "17"
+          "14",
+          "19"
+        ]
+      },
+      {
+        "label": "Humanitarian Situation in Gaza",
+        "why_it_matters": "The escalating humanitarian crisis in Gaza could lead to increased international scrutiny and pressure on Western governments to reassess their military support.",
+        "citations": [
+          "21"
         ]
       }
     ],
     "caveats": [
-      "Limitations from source coverage"
+      "Limitations from source coverage may affect the comprehensiveness of the analysis."
     ]
   },
   "summary": {
-    "raw_documents": 2093,
-    "total_text_chars": 335788360,
+    "raw_documents": 2095,
+    "total_text_chars": 335820642,
     "sources": 34,
     "signals": 8,
     "regions": 6,
@@ -76,7 +96,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 1530
+      "value": 1532
     },
     {
       "name": "PDF",
@@ -110,7 +130,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 1464
+      "value": 1466
     },
     {
       "name": "pdfs",
@@ -180,14 +200,14 @@
     },
     {
       "name": "foreignpolicy.com",
-      "value": 103
-    },
-    {
-      "name": "news.un.org",
-      "value": 89
+      "value": 104
     },
     {
       "name": "warontherocks.com",
+      "value": 90
+    },
+    {
+      "name": "news.un.org",
       "value": 89
     },
     {
@@ -274,7 +294,7 @@
   "keyword_counts": [
     {
       "name": "iran",
-      "value": 7255
+      "value": 7262
     },
     {
       "name": "health",
@@ -302,7 +322,7 @@
     },
     {
       "name": "ukraine",
-      "value": 3477
+      "value": 3492
     },
     {
       "name": "israel",
@@ -378,19 +398,19 @@
     },
     {
       "name": "states",
-      "value": 1652
+      "value": 1660
+    },
+    {
+      "name": "security",
+      "value": 1643
+    },
+    {
+      "name": "data",
+      "value": 1642
     },
     {
       "name": "services",
       "value": 1642
-    },
-    {
-      "name": "data",
-      "value": 1630
-    },
-    {
-      "name": "security",
-      "value": 1594
     },
     {
       "name": "russian",
@@ -456,11 +476,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 1418,
+      "count": 1420,
       "formats": [
         {
           "name": "Article",
-          "value": 1188
+          "value": 1190
         },
         {
           "name": "PDF",
@@ -480,6 +500,8 @@
         }
       ],
       "evidence_ids": [
+        "c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b",
+        "470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c",
         "5e1cc8d3acd57bc70be0186efb89d68d9df3e55b024c8b861a74ae23be796e5e",
         "5a958f816898107340a4cb467df0d06fc7fd29dfd90ba379c9a2a2f75cd5f0ba",
         "33b22e8fbe8673e77da62d6f8afa5659317d6ffc53fd9bebc34e691f199943ec",
@@ -487,12 +509,30 @@
         "309dc5d5cec2f8e99460bd69ae42ba282f2320aab5de6a28050e67dc5ee7ca98",
         "3e8375fc4dda9fab271e66e73105782ded3f80576e393fc8faef54fa0350c944",
         "21139267da904aca3ffdb7e88eb3e19b29cb6cdc04ee31076d6f17483b6a7fcf",
-        "f6d777c22180b44d2935bfb82469f264b6446f00f1406b31d97ec0bad038356a",
-        "53ece634de15e6c8cf14a60191b67bedfb7f80b0198c0c0d70883f872ad3eaa3",
-        "6a3d8ddc942a822f1b2af34e39906f719fffd26be26ce1347a6c872bb5317dfa"
+        "f6d777c22180b44d2935bfb82469f264b6446f00f1406b31d97ec0bad038356a"
       ],
-      "summary": "The tit-for-tat attacks between the US and Iran have intensified since Tehran said it was closing the strait on Saturday, once again imperilling the movement of maritime traffic through the vital waterway which carried about a fifth of global oil and gas supplies before the war. The US has fired on an oil tanker attempting to reach Kharg Island in the strait of Hormuz as part of its blockade on Iranian ports, as Tehran came under attack for the first time in this latest round of strikes. US military says it disabled vessel in strait of Hormuz trying to breach reimposed blockade on Iranian ports US Central Command has said US aircraft fired missiles into an oil tanker’s smokestack in the strait of Hormuz, disabling the vessel. In an update on X, Centcom said: double quotation mark US forces enforced naval blockade measures against Iran, July 15, by disabling an unladen oil tanker attempting to sail toward an Iranian port in the Arabian Gulf. More than 100 House Democrats on Wednesday voted to slash military aid to Israel, a significant rebuke of the longtime US ally as accusations that Prime Minister Benjamin Netanyahu’s government green-lit genocide in Gaza continue to convulse the party ahead of November’s midterm election. The amendment proposed by Republican congressman Thomas Massie to a spending measure would have halted $3.3bn in planned aid – much of which would have gone to Israel’s military – but was rejected by a 104-314 vote, with 10 lawmakers voting present. Trump’s demands to control Greenland, the American military raid that captured Venezuela’s then-leader Nicolás Maduro, and the US handling of the Israeli-Hamas war in Gaza also have led to low approval in many countries, Silver said. It marks the first time in the roughly 20 years Pew has been tracking global opinions that China has been viewed more positively than the US, said Laura Silver, associate director of Pew’s Global Attitudes Research and one of the researchers on the study.",
+      "summary": "The United States is fighting a new kind of global competition — over supply chains, chips, and sanctions. In the United States, the workforce and the pipeline to feed it does not yet exist at the scale the moment requires. To remain a global leader, the United States should establish and maintain an economic security workforce, including by creating a new academic discipline, before the talent deficit hardens into a strategic liability. But Ukraine remains the only state to have stress-tested its digital infrastructure in a full-scale war with a bigger enemy, and its lessons map onto the Gulf’s AI buildup after the Iran war. They missed the Industrial Revolution, and when the post-World War II energy-dependent global order enriched them financially, the gains lacked strategic depth, leaving their political economy tied to the oil boom. The tit-for-tat attacks between the US and Iran have intensified since Tehran said it was closing the strait on Saturday, once again imperilling the movement of maritime traffic through the vital waterway which carried about a fifth of global oil and gas supplies before the war. The US has fired on an oil tanker attempting to reach Kharg Island in the strait of Hormuz as part of its blockade on Iranian ports, as Tehran came under attack for the first time in this latest round of strikes. US military says it disabled vessel in strait of Hormuz trying to breach reimposed blockade on Iranian ports US Central Command has said US aircraft fired missiles into an oil tanker’s smokestack in the strait of Hormuz, disabling the vessel. In an update on X, Centcom said: double quotation mark US forces enforced naval blockade measures against Iran, July 15, by disabling an unladen oil tanker attempting to sail toward an Iranian port in the Arabian Gulf.",
       "latest": [
+        {
+          "id": "c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b",
+          "title": "Academia’s Critical Role in Developing an Economic Security Workforce",
+          "url": "https://warontherocks.com/academias-critical-role-in-developing-an-economic-security-workforce/",
+          "host": "warontherocks.com",
+          "format": "Article",
+          "collected_at": "2026-07-16T07:19:23.607611+00:00",
+          "published": "Thu, 16 Jul 2026 07:15:51 +0000",
+          "summary": "The United States is fighting a new kind of global competition — over supply chains, chips, and sanctions. In the United States, the workforce and the pipeline to feed it does not yet exist at the scale the moment requires. To remain a global leader, the United States should establish and maintain an economic security workforce, including by creating a new academic discipline, before the talent deficit hardens into a strategic liability."
+        },
+        {
+          "id": "470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c",
+          "title": "Iranian Attacks Need Not Change the Gulf’s AI Ambitions",
+          "url": "https://foreignpolicy.com/2026/07/16/iranian-attacks-gulf-ai-ambitions/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-07-16T07:19:27.251707+00:00",
+          "published": "Thu, 16 Jul 2026 04:01:55 +0000",
+          "summary": "But Ukraine remains the only state to have stress-tested its digital infrastructure in a full-scale war with a bigger enemy, and its lessons map onto the Gulf’s AI buildup after the Iran war. They missed the Industrial Revolution, and when the post-World War II energy-dependent global order enriched them financially, the gains lacked strategic depth, leaving their political economy tied to the oil boom."
+        },
         {
           "id": "5e1cc8d3acd57bc70be0186efb89d68d9df3e55b024c8b861a74ae23be796e5e",
           "title": "US attacks oil tanker in strait of Hormuz as strikes reported in Tehran",
@@ -522,36 +562,16 @@
           "collected_at": "2026-07-16T01:47:49.766319+00:00",
           "published": "Thu, 16 Jul 2026 01:34:02 GMT",
           "summary": "More than 100 House Democrats on Wednesday voted to slash military aid to Israel, a significant rebuke of the longtime US ally as accusations that Prime Minister Benjamin Netanyahu’s government green-lit genocide in Gaza continue to convulse the party ahead of November’s midterm election. The amendment proposed by Republican congressman Thomas Massie to a spending measure would have halted $3.3bn in planned aid – much of which would have gone to Israel’s military – but was rejected by a 104-314 vote, with 10 lawmakers voting present."
-        },
-        {
-          "id": "916e5f00440509e28e1d55c6089fb002bab8bba8464a893b81d02dd3c8633ba9",
-          "title": "China and Xi Jinping seen more favourably than the US and Trump in poll of major countries",
-          "url": "https://www.theguardian.com/us-news/2026/jul/16/china-more-positive-view-us-pew-poll-survey",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-07-16T01:47:44.682311+00:00",
-          "published": "Wed, 15 Jul 2026 23:46:30 GMT",
-          "summary": "Trump’s demands to control Greenland, the American military raid that captured Venezuela’s then-leader Nicolás Maduro, and the US handling of the Israeli-Hamas war in Gaza also have led to low approval in many countries, Silver said. It marks the first time in the roughly 20 years Pew has been tracking global opinions that China has been viewed more positively than the US, said Laura Silver, associate director of Pew’s Global Attitudes Research and one of the researchers on the study."
-        },
-        {
-          "id": "309dc5d5cec2f8e99460bd69ae42ba282f2320aab5de6a28050e67dc5ee7ca98",
-          "title": "Fedorov out as Ukraine’s defense minister in major government shake-up",
-          "url": "https://www.defensenews.com/global/europe/2026/07/15/fedorov-out-as-ukraines-defense-minister-in-major-government-shake-up/",
-          "host": "defensenews.com",
-          "format": "Article",
-          "collected_at": "2026-07-15T21:52:57.355995+00:00",
-          "published": "Wed, 15 Jul 2026 21:37:00 +0000",
-          "summary": "In his farewell message, Fedorov listed 22 accomplishments he said his team completed during his tenure, including restricting Russian access to Starlink, instituting draft and military pay reform, and launching the country’s antiballistics initiatives. “Not everyone is happy with Fedorov’s proposals for reforming the military, particularly his plans to overhaul the way the Defense Ministry operates.” Ukraine’s Interior Minister, Ihor Klymenko, has reportedly been offered the job to replace Fedorov, according to the Kyiv Independent, which cited..."
         }
       ]
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 1241,
+      "count": 1242,
       "formats": [
         {
           "name": "Article",
-          "value": 1043
+          "value": 1044
         },
         {
           "name": "PDF",
@@ -571,6 +591,7 @@
         }
       ],
       "evidence_ids": [
+        "c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b",
         "5e1cc8d3acd57bc70be0186efb89d68d9df3e55b024c8b861a74ae23be796e5e",
         "5a958f816898107340a4cb467df0d06fc7fd29dfd90ba379c9a2a2f75cd5f0ba",
         "33b22e8fbe8673e77da62d6f8afa5659317d6ffc53fd9bebc34e691f199943ec",
@@ -579,11 +600,20 @@
         "2370279b223bbe12fb6bdd90e21bf814e52742da69006a70b0cb17f853b1f98c",
         "21139267da904aca3ffdb7e88eb3e19b29cb6cdc04ee31076d6f17483b6a7fcf",
         "f6d777c22180b44d2935bfb82469f264b6446f00f1406b31d97ec0bad038356a",
-        "53ece634de15e6c8cf14a60191b67bedfb7f80b0198c0c0d70883f872ad3eaa3",
-        "6a3d8ddc942a822f1b2af34e39906f719fffd26be26ce1347a6c872bb5317dfa"
+        "53ece634de15e6c8cf14a60191b67bedfb7f80b0198c0c0d70883f872ad3eaa3"
       ],
-      "summary": "The tit-for-tat attacks between the US and Iran have intensified since Tehran said it was closing the strait on Saturday, once again imperilling the movement of maritime traffic through the vital waterway which carried about a fifth of global oil and gas supplies before the war. The US has fired on an oil tanker attempting to reach Kharg Island in the strait of Hormuz as part of its blockade on Iranian ports, as Tehran came under attack for the first time in this latest round of strikes. US military says it disabled vessel in strait of Hormuz trying to breach reimposed blockade on Iranian ports US Central Command has said US aircraft fired missiles into an oil tanker’s smokestack in the strait of Hormuz, disabling the vessel. In an update on X, Centcom said: double quotation mark US forces enforced naval blockade measures against Iran, July 15, by disabling an unladen oil tanker attempting to sail toward an Iranian port in the Arabian Gulf. More than 100 House Democrats on Wednesday voted to slash military aid to Israel, a significant rebuke of the longtime US ally as accusations that Prime Minister Benjamin Netanyahu’s government green-lit genocide in Gaza continue to convulse the party ahead of November’s midterm election. The amendment proposed by Republican congressman Thomas Massie to a spending measure would have halted $3.3bn in planned aid – much of which would have gone to Israel’s military – but was rejected by a 104-314 vote, with 10 lawmakers voting present. In his farewell message, Fedorov listed 22 accomplishments he said his team completed during his tenure, including restricting Russian access to Starlink, instituting draft and military pay reform, and launching the country’s antiballistics initiatives. “Not everyone is happy with Fedorov’s proposals for reforming the military, particularly his plans to overhaul the way the Defense Ministry operates.” Ukraine’s Interior Minister, Ihor Klymenko, has reportedly been offered the job to replace Fedorov, according to the Kyiv Independent, which cited...",
+      "summary": "The United States is fighting a new kind of global competition — over supply chains, chips, and sanctions. In the United States, the workforce and the pipeline to feed it does not yet exist at the scale the moment requires. To remain a global leader, the United States should establish and maintain an economic security workforce, including by creating a new academic discipline, before the talent deficit hardens into a strategic liability. The tit-for-tat attacks between the US and Iran have intensified since Tehran said it was closing the strait on Saturday, once again imperilling the movement of maritime traffic through the vital waterway which carried about a fifth of global oil and gas supplies before the war. The US has fired on an oil tanker attempting to reach Kharg Island in the strait of Hormuz as part of its blockade on Iranian ports, as Tehran came under attack for the first time in this latest round of strikes. US military says it disabled vessel in strait of Hormuz trying to breach reimposed blockade on Iranian ports US Central Command has said US aircraft fired missiles into an oil tanker’s smokestack in the strait of Hormuz, disabling the vessel. In an update on X, Centcom said: double quotation mark US forces enforced naval blockade measures against Iran, July 15, by disabling an unladen oil tanker attempting to sail toward an Iranian port in the Arabian Gulf. More than 100 House Democrats on Wednesday voted to slash military aid to Israel, a significant rebuke of the longtime US ally as accusations that Prime Minister Benjamin Netanyahu’s government green-lit genocide in Gaza continue to convulse the party ahead of November’s midterm election. The amendment proposed by Republican congressman Thomas Massie to a spending measure would have halted $3.3bn in planned aid – much of which would have gone to Israel’s military – but was rejected by a 104-314 vote, with 10 lawmakers voting present.",
       "latest": [
+        {
+          "id": "c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b",
+          "title": "Academia’s Critical Role in Developing an Economic Security Workforce",
+          "url": "https://warontherocks.com/academias-critical-role-in-developing-an-economic-security-workforce/",
+          "host": "warontherocks.com",
+          "format": "Article",
+          "collected_at": "2026-07-16T07:19:23.607611+00:00",
+          "published": "Thu, 16 Jul 2026 07:15:51 +0000",
+          "summary": "The United States is fighting a new kind of global competition — over supply chains, chips, and sanctions. In the United States, the workforce and the pipeline to feed it does not yet exist at the scale the moment requires. To remain a global leader, the United States should establish and maintain an economic security workforce, including by creating a new academic discipline, before the talent deficit hardens into a strategic liability."
+        },
         {
           "id": "5e1cc8d3acd57bc70be0186efb89d68d9df3e55b024c8b861a74ae23be796e5e",
           "title": "US attacks oil tanker in strait of Hormuz as strikes reported in Tehran",
@@ -623,16 +653,6 @@
           "collected_at": "2026-07-15T21:52:57.355995+00:00",
           "published": "Wed, 15 Jul 2026 21:37:00 +0000",
           "summary": "In his farewell message, Fedorov listed 22 accomplishments he said his team completed during his tenure, including restricting Russian access to Starlink, instituting draft and military pay reform, and launching the country’s antiballistics initiatives. “Not everyone is happy with Fedorov’s proposals for reforming the military, particularly his plans to overhaul the way the Defense Ministry operates.” Ukraine’s Interior Minister, Ihor Klymenko, has reportedly been offered the job to replace Fedorov, according to the Kyiv Independent, which cited..."
-        },
-        {
-          "id": "3e8375fc4dda9fab271e66e73105782ded3f80576e393fc8faef54fa0350c944",
-          "title": "House defeats bid to end military aid to Israel as over 100 Democrats vote for it",
-          "url": "https://www.theguardian.com/us-news/2026/jul/15/house-democrats-israel-aid",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-07-15T21:52:48.668457+00:00",
-          "published": "Wed, 15 Jul 2026 21:37:00 GMT",
-          "summary": "The House on Wednesday defeated a measure to slash military aid to Israel, but more than 100 House Democrats voted for it in a significant rebuke of the longtime US ally as accusations that Prime Minister Benjamin Netanyahu’s government green-lit genocide in Gaza continue to convulse the party ahead of November’s midterm election. The amendment proposed by Republican congressman Thomas Massie to a spending measure would have halted $3.3bn in planned aid – much of which would have gone to Israel’s military."
         }
       ]
     },
@@ -729,11 +749,11 @@
     },
     {
       "name": "Territory and Chokepoints",
-      "count": 812,
+      "count": 813,
       "formats": [
         {
           "name": "Article",
-          "value": 642
+          "value": 643
         },
         {
           "name": "PDF",
@@ -753,6 +773,7 @@
         }
       ],
       "evidence_ids": [
+        "470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c",
         "5e1cc8d3acd57bc70be0186efb89d68d9df3e55b024c8b861a74ae23be796e5e",
         "5a958f816898107340a4cb467df0d06fc7fd29dfd90ba379c9a2a2f75cd5f0ba",
         "2370279b223bbe12fb6bdd90e21bf814e52742da69006a70b0cb17f853b1f98c",
@@ -761,11 +782,20 @@
         "d8ebabfbd3aa2cfed864bed83169cd9f6f59b962e585e7d7d7c65ca84ac28891",
         "013c60be074d01818882b4319522b15ed53e82218c0d802f6dbcbb34198d857b",
         "6680442605277e20c7c4219f253473c0e3e5a4de7b5ea4fa916081cfc38bf379",
-        "7851e3f5d2b52967085790ec2f3b510879fec16ad6750d9b1c2316d070d38023",
-        "fb5da255fd9018ca9c5a99e3b05a3c4edec2a38120c78e72a71e4ef5a938cee8"
+        "7851e3f5d2b52967085790ec2f3b510879fec16ad6750d9b1c2316d070d38023"
       ],
-      "summary": "The tit-for-tat attacks between the US and Iran have intensified since Tehran said it was closing the strait on Saturday, once again imperilling the movement of maritime traffic through the vital waterway which carried about a fifth of global oil and gas supplies before the war. The US has fired on an oil tanker attempting to reach Kharg Island in the strait of Hormuz as part of its blockade on Iranian ports, as Tehran came under attack for the first time in this latest round of strikes. US military says it disabled vessel in strait of Hormuz trying to breach reimposed blockade on Iranian ports US Central Command has said US aircraft fired missiles into an oil tanker’s smokestack in the strait of Hormuz, disabling the vessel. In an update on X, Centcom said: double quotation mark US forces enforced naval blockade measures against Iran, July 15, by disabling an unladen oil tanker attempting to sail toward an Iranian port in the Arabian Gulf. They have been affected by Ukraine's very effective targeting of their oil and gas industry through drones going deep into Russian territory. SHAHEEN: So it's designed to address both sanctions on financial entities in Russia, as well as oligarchs and other individuals and companies that are supporting the war in Ukraine or Russia... SHAHEEN: ...But also to address those countries that are buying Russian oil and gas and really funding the war. In a sign of the strategic chaos, Trump proposed – then almost immediately abandoned – a suggestion that the US could charge tolls for clearing the strait, leaving it unclear if Washington had any vision for the future of the waterway. Washington’s short-term aim is clear enough – to regain control of the strait of Hormuz from Iran – and the president seems willing to extend the bombing campaign from beyond Iran’s southern shores to achieve this.",
+      "summary": "But Ukraine remains the only state to have stress-tested its digital infrastructure in a full-scale war with a bigger enemy, and its lessons map onto the Gulf’s AI buildup after the Iran war. They missed the Industrial Revolution, and when the post-World War II energy-dependent global order enriched them financially, the gains lacked strategic depth, leaving their political economy tied to the oil boom. The tit-for-tat attacks between the US and Iran have intensified since Tehran said it was closing the strait on Saturday, once again imperilling the movement of maritime traffic through the vital waterway which carried about a fifth of global oil and gas supplies before the war. The US has fired on an oil tanker attempting to reach Kharg Island in the strait of Hormuz as part of its blockade on Iranian ports, as Tehran came under attack for the first time in this latest round of strikes. US military says it disabled vessel in strait of Hormuz trying to breach reimposed blockade on Iranian ports US Central Command has said US aircraft fired missiles into an oil tanker’s smokestack in the strait of Hormuz, disabling the vessel. In an update on X, Centcom said: double quotation mark US forces enforced naval blockade measures against Iran, July 15, by disabling an unladen oil tanker attempting to sail toward an Iranian port in the Arabian Gulf. They have been affected by Ukraine's very effective targeting of their oil and gas industry through drones going deep into Russian territory. SHAHEEN: So it's designed to address both sanctions on financial entities in Russia, as well as oligarchs and other individuals and companies that are supporting the war in Ukraine or Russia... SHAHEEN: ...But also to address those countries that are buying Russian oil and gas and really funding the war.",
       "latest": [
+        {
+          "id": "470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c",
+          "title": "Iranian Attacks Need Not Change the Gulf’s AI Ambitions",
+          "url": "https://foreignpolicy.com/2026/07/16/iranian-attacks-gulf-ai-ambitions/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-07-16T07:19:27.251707+00:00",
+          "published": "Thu, 16 Jul 2026 04:01:55 +0000",
+          "summary": "But Ukraine remains the only state to have stress-tested its digital infrastructure in a full-scale war with a bigger enemy, and its lessons map onto the Gulf’s AI buildup after the Iran war. They missed the Industrial Revolution, and when the post-World War II energy-dependent global order enriched them financially, the gains lacked strategic depth, leaving their political economy tied to the oil boom."
+        },
         {
           "id": "5e1cc8d3acd57bc70be0186efb89d68d9df3e55b024c8b861a74ae23be796e5e",
           "title": "US attacks oil tanker in strait of Hormuz as strikes reported in Tehran",
@@ -805,26 +835,16 @@
           "collected_at": "2026-07-15T18:59:33.359415+00:00",
           "published": "Wed, 15 Jul 2026 17:32:52 GMT",
           "summary": "In a sign of the strategic chaos, Trump proposed – then almost immediately abandoned – a suggestion that the US could charge tolls for clearing the strait, leaving it unclear if Washington had any vision for the future of the waterway. Washington’s short-term aim is clear enough – to regain control of the strait of Hormuz from Iran – and the president seems willing to extend the bombing campaign from beyond Iran’s southern shores to achieve this."
-        },
-        {
-          "id": "6a3d8ddc942a822f1b2af34e39906f719fffd26be26ce1347a6c872bb5317dfa",
-          "title": "MBDA appoints Airbus executive Jean-Brice Dumont as new CEO",
-          "url": "https://www.defensenews.com/global/europe/2026/07/15/mbda-appoints-airbus-executive-jean-brice-dumont-as-new-ceo/",
-          "host": "defensenews.com",
-          "format": "Article",
-          "collected_at": "2026-07-15T17:09:49.257357+00:00",
-          "published": "Wed, 15 Jul 2026 16:38:38 +0000",
-          "summary": "Olmo/Europa Press via Getty Images) European governments including France have been pushing MBDA to accelerate a ramp-up in missile production, after Russia’s invasion of Ukraine and Houthi attacks in the Red Sea highlighted Europe’s limited missile stockpiles and production capacity. “When I joined in 2019, none of us could have imagined what we would be faced with,” Béranger said in the statement. The executives will start a handover process in October to ensure “a seamless transition,” MBDA said on Wednesday."
         }
       ]
     },
     {
       "name": "Energy and Supply Chains",
-      "count": 632,
+      "count": 634,
       "formats": [
         {
           "name": "Article",
-          "value": 506
+          "value": 508
         },
         {
           "name": "PDF",
@@ -840,6 +860,8 @@
         }
       ],
       "evidence_ids": [
+        "c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b",
+        "470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c",
         "5e1cc8d3acd57bc70be0186efb89d68d9df3e55b024c8b861a74ae23be796e5e",
         "d8e8d2d5c5197f3f09b5109d37a8ab9baf5c93ca5f96b71afb9b5f2dd26f1341",
         "2370279b223bbe12fb6bdd90e21bf814e52742da69006a70b0cb17f853b1f98c",
@@ -847,12 +869,30 @@
         "388ae2a703e065f66f9f9f8adb13672aa5a93e66fd5bbb62c6b760bb27b8d216",
         "64f65b858d97d54e54985c893bad07120e77fdfba96424ade048b202c814aee8",
         "4f0cf599a7c04a83d0a385c7e38e72b6e0abe8ef0b5a1d3cda2ee5d0e12a7315",
-        "5408e70db8c27c295462c79d78bd636aa0b66eddd8915abb5ba752a35870364d",
-        "971d5db94a07b9303805e3d7922d0806928479fa4c519cfde1904aa8b5d55fc3",
-        "ec024d1cafee66519ff78dda5cda11ef2b7a0cdf8e39695d133d90a91b3c9901"
+        "5408e70db8c27c295462c79d78bd636aa0b66eddd8915abb5ba752a35870364d"
       ],
-      "summary": "The tit-for-tat attacks between the US and Iran have intensified since Tehran said it was closing the strait on Saturday, once again imperilling the movement of maritime traffic through the vital waterway which carried about a fifth of global oil and gas supplies before the war. The US has fired on an oil tanker attempting to reach Kharg Island in the strait of Hormuz as part of its blockade on Iranian ports, as Tehran came under attack for the first time in this latest round of strikes. Heavy, three-day downpours in the region had increased in intensity by roughly 23% since record-keeping began, they said. “The climate is changing faster than most nations can adapt,” said Friederike Otto, a professor of climate science at Imperial College London. Photograph: Olympia de Maismont/AFP/Getty Over the course of 72 hours, intense rainfall drenched the densely populated coastal regions of Côte d’Ivoire, Ghana, Togo and Nigeria. They have been affected by Ukraine's very effective targeting of their oil and gas industry through drones going deep into Russian territory. SHAHEEN: So it's designed to address both sanctions on financial entities in Russia, as well as oligarchs and other individuals and companies that are supporting the war in Ukraine or Russia... SHAHEEN: ...But also to address those countries that are buying Russian oil and gas and really funding the war. Among those expected in Doha is Iran's Foreign Minister Abbas Araghchi, whose visit comes as tensions between Tehran and Washington remain high following renewed military exchanges in the Gulf. Published on 15/07/2026 - 19:43 GMT+2 World leaders continued to arrive in Doha on Wednesday as Qatar observed the third day of national mourning for Sheikh Hamad bin Khalifa Al Thani, who ruled the country from 1995 to 2013 and is widely credited with transforming Qatar from a small Gulf emirate into a global power in energy, diplomacy and media.",
+      "summary": "The United States is fighting a new kind of global competition — over supply chains, chips, and sanctions. In the United States, the workforce and the pipeline to feed it does not yet exist at the scale the moment requires. To remain a global leader, the United States should establish and maintain an economic security workforce, including by creating a new academic discipline, before the talent deficit hardens into a strategic liability. But Ukraine remains the only state to have stress-tested its digital infrastructure in a full-scale war with a bigger enemy, and its lessons map onto the Gulf’s AI buildup after the Iran war. They missed the Industrial Revolution, and when the post-World War II energy-dependent global order enriched them financially, the gains lacked strategic depth, leaving their political economy tied to the oil boom. The tit-for-tat attacks between the US and Iran have intensified since Tehran said it was closing the strait on Saturday, once again imperilling the movement of maritime traffic through the vital waterway which carried about a fifth of global oil and gas supplies before the war. The US has fired on an oil tanker attempting to reach Kharg Island in the strait of Hormuz as part of its blockade on Iranian ports, as Tehran came under attack for the first time in this latest round of strikes. Heavy, three-day downpours in the region had increased in intensity by roughly 23% since record-keeping began, they said. “The climate is changing faster than most nations can adapt,” said Friederike Otto, a professor of climate science at Imperial College London. Photograph: Olympia de Maismont/AFP/Getty Over the course of 72 hours, intense rainfall drenched the densely populated coastal regions of Côte d’Ivoire, Ghana, Togo and Nigeria.",
       "latest": [
+        {
+          "id": "c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b",
+          "title": "Academia’s Critical Role in Developing an Economic Security Workforce",
+          "url": "https://warontherocks.com/academias-critical-role-in-developing-an-economic-security-workforce/",
+          "host": "warontherocks.com",
+          "format": "Article",
+          "collected_at": "2026-07-16T07:19:23.607611+00:00",
+          "published": "Thu, 16 Jul 2026 07:15:51 +0000",
+          "summary": "The United States is fighting a new kind of global competition — over supply chains, chips, and sanctions. In the United States, the workforce and the pipeline to feed it does not yet exist at the scale the moment requires. To remain a global leader, the United States should establish and maintain an economic security workforce, including by creating a new academic discipline, before the talent deficit hardens into a strategic liability."
+        },
+        {
+          "id": "470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c",
+          "title": "Iranian Attacks Need Not Change the Gulf’s AI Ambitions",
+          "url": "https://foreignpolicy.com/2026/07/16/iranian-attacks-gulf-ai-ambitions/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-07-16T07:19:27.251707+00:00",
+          "published": "Thu, 16 Jul 2026 04:01:55 +0000",
+          "summary": "But Ukraine remains the only state to have stress-tested its digital infrastructure in a full-scale war with a bigger enemy, and its lessons map onto the Gulf’s AI buildup after the Iran war. They missed the Industrial Revolution, and when the post-World War II energy-dependent global order enriched them financially, the gains lacked strategic depth, leaving their political economy tied to the oil boom."
+        },
         {
           "id": "5e1cc8d3acd57bc70be0186efb89d68d9df3e55b024c8b861a74ae23be796e5e",
           "title": "US attacks oil tanker in strait of Hormuz as strikes reported in Tehran",
@@ -882,26 +922,6 @@
           "collected_at": "2026-07-16T04:54:42.902396+00:00",
           "published": "Wed, 15 Jul 2026 17:23:00 -0400",
           "summary": "They have been affected by Ukraine's very effective targeting of their oil and gas industry through drones going deep into Russian territory. SHAHEEN: So it's designed to address both sanctions on financial entities in Russia, as well as oligarchs and other individuals and companies that are supporting the war in Ukraine or Russia... SHAHEEN: ...But also to address those countries that are buying Russian oil and gas and really funding the war."
-        },
-        {
-          "id": "f6d777c22180b44d2935bfb82469f264b6446f00f1406b31d97ec0bad038356a",
-          "title": "More world leaders arrive in Doha to honour Qatar's former emir",
-          "url": "http://www.euronews.com/2026/07/15/more-world-leaders-arrive-in-doha-to-honour-qatars-former-emir",
-          "host": "euronews.com",
-          "format": "Article",
-          "collected_at": "2026-07-15T18:59:52.666147+00:00",
-          "published": "Wed, 15 Jul 2026 19:43:15 +0200",
-          "summary": "Among those expected in Doha is Iran's Foreign Minister Abbas Araghchi, whose visit comes as tensions between Tehran and Washington remain high following renewed military exchanges in the Gulf. Published on 15/07/2026 - 19:43 GMT+2 World leaders continued to arrive in Doha on Wednesday as Qatar observed the third day of national mourning for Sheikh Hamad bin Khalifa Al Thani, who ruled the country from 1995 to 2013 and is widely credited with transforming Qatar from a small Gulf emirate into a global power in energy, diplomacy and media."
-        },
-        {
-          "id": "388ae2a703e065f66f9f9f8adb13672aa5a93e66fd5bbb62c6b760bb27b8d216",
-          "title": "July 15, 10 years on: Turkiye’s will, Turkiye’s victory",
-          "url": "https://www.aljazeera.com/opinions/2026/7/15/july-15-10-years-on-turkiyes-will-turkiyes-victory?traffic_source=rss",
-          "host": "aljazeera.com",
-          "format": "Article",
-          "collected_at": "2026-07-15T17:09:46.973350+00:00",
-          "published": "Wed, 15 Jul 2026 15:12:32 +0000",
-          "summary": "Today, Turkiye conducts a diplomacy that thinks globally but acts locally in every corner of the world by availing of several complementary political, economic, humanitarian, and cultural tools. It has been 10 years since the nefarious coup attempt of July 15 carried out by the Fethullah Terrorist Organization (FETO), which was foiled by our beloved nation’s honourable, courageous and heroic stance. Far from faltering, Turkiye emerged from that not weaker, but stronger — ushering in a new era marked by strategic empowerment."
         }
       ]
     },
@@ -998,11 +1018,11 @@
     },
     {
       "name": "Nuclear and Strategic Risk",
-      "count": 335,
+      "count": 336,
       "formats": [
         {
           "name": "Article",
-          "value": 312
+          "value": 313
         },
         {
           "name": "PDF",
@@ -1018,6 +1038,7 @@
         }
       ],
       "evidence_ids": [
+        "470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c",
         "5408e70db8c27c295462c79d78bd636aa0b66eddd8915abb5ba752a35870364d",
         "ec024d1cafee66519ff78dda5cda11ef2b7a0cdf8e39695d133d90a91b3c9901",
         "f2a5a4569d71d70b21af155990eda48f23b5b2f91e06b436eeb5d7a8826a5bbe",
@@ -1026,11 +1047,20 @@
         "c80a29248c6e08e3d0cbb9bc92dcd5d7f5b02daffbf1bafddc875fac58e3a983",
         "de191464c3fb01de7b22d8148695854add26580a5360c3fffe6230df7b577f45",
         "ea451fd434c9d182e6fdb5565ddcced6e4e5d470ee760a9684eb6a3107e56f41",
-        "19d27b6f172a238dcb0e9d1255406fae182b3f43c1f6637f2b4a1216021fe9aa",
-        "04007e7271c73523dd1079e753e38f2f45e1a6ef166c402b040ae41d6e95da66"
+        "19d27b6f172a238dcb0e9d1255406fae182b3f43c1f6637f2b4a1216021fe9aa"
       ],
-      "summary": "SITUATION OVERVIEW • Regional conflicts are exacerbating the humanitarian crisis in Afghanistan, with staple food prices at elevated levels and transport costs tripling due to prolonged border closure with Pakistan, re-routed supply chains due to the conflict in the Middle East, and increased fuel prices. • In addition, funding constraints have compelled WFP to suspend cash assistance for returnees from Iran and Pakistan at all border crossings, leaving vulnerable families without critical support upon arrival. US military has resumed its air strikes against Iran in broad daylight on Wednesday, as Washington said it was intensifying its campaign aimed at limiting Tehran’s ability to threaten commercial shipping in the Strait of Hormuz. CENTCOM said the strikes were intended to further reduce Iran’s ability to attack commercial vessels passing through the strategic waterway. Voting in both rounds was conducted in “a peaceful and orderly fashion”, with security forces deployed to protect the process while national and international election observers provided independent oversight, he said, noting that this will be the third administration elected since the signing of the historic 2016 agreement. “Overcoming them will require holistic solutions that are precisely those called for under the Peace Agreement of 2016,” he said. As they jockey to strengthen their hand over the Strait of Hormuz, they risk a larger war that might include Israeli strikes on critical Iranian infrastructure and Houthi attacks in the Red Sea, effectively closing another major shipping route. In the early days of the April cease-fire, Iran declared the strait “completely open” to all commercial shipping through a “coordinated route,” signaling it would lift the de facto tolls imposed during the war and ease passage.",
+      "summary": "But Ukraine remains the only state to have stress-tested its digital infrastructure in a full-scale war with a bigger enemy, and its lessons map onto the Gulf’s AI buildup after the Iran war. They missed the Industrial Revolution, and when the post-World War II energy-dependent global order enriched them financially, the gains lacked strategic depth, leaving their political economy tied to the oil boom. SITUATION OVERVIEW • Regional conflicts are exacerbating the humanitarian crisis in Afghanistan, with staple food prices at elevated levels and transport costs tripling due to prolonged border closure with Pakistan, re-routed supply chains due to the conflict in the Middle East, and increased fuel prices. • In addition, funding constraints have compelled WFP to suspend cash assistance for returnees from Iran and Pakistan at all border crossings, leaving vulnerable families without critical support upon arrival. US military has resumed its air strikes against Iran in broad daylight on Wednesday, as Washington said it was intensifying its campaign aimed at limiting Tehran’s ability to threaten commercial shipping in the Strait of Hormuz. CENTCOM said the strikes were intended to further reduce Iran’s ability to attack commercial vessels passing through the strategic waterway. Voting in both rounds was conducted in “a peaceful and orderly fashion”, with security forces deployed to protect the process while national and international election observers provided independent oversight, he said, noting that this will be the third administration elected since the signing of the historic 2016 agreement. “Overcoming them will require holistic solutions that are precisely those called for under the Peace Agreement of 2016,” he said.",
       "latest": [
+        {
+          "id": "470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c",
+          "title": "Iranian Attacks Need Not Change the Gulf’s AI Ambitions",
+          "url": "https://foreignpolicy.com/2026/07/16/iranian-attacks-gulf-ai-ambitions/",
+          "host": "foreignpolicy.com",
+          "format": "Article",
+          "collected_at": "2026-07-16T07:19:27.251707+00:00",
+          "published": "Thu, 16 Jul 2026 04:01:55 +0000",
+          "summary": "But Ukraine remains the only state to have stress-tested its digital infrastructure in a full-scale war with a bigger enemy, and its lessons map onto the Gulf’s AI buildup after the Iran war. They missed the Industrial Revolution, and when the post-World War II energy-dependent global order enriched them financially, the gains lacked strategic depth, leaving their political economy tied to the oil boom."
+        },
         {
           "id": "5408e70db8c27c295462c79d78bd636aa0b66eddd8915abb5ba752a35870364d",
           "title": "Afghanistan: WFP Aghanistan Country Brief, July 2026 (pdf)",
@@ -1070,26 +1100,16 @@
           "collected_at": "2026-07-15T11:25:36.779702+00:00",
           "published": "Wed, 15 Jul 2026 10:48:10 +0000",
           "summary": "As they jockey to strengthen their hand over the Strait of Hormuz, they risk a larger war that might include Israeli strikes on critical Iranian infrastructure and Houthi attacks in the Red Sea, effectively closing another major shipping route. In the early days of the April cease-fire, Iran declared the strait “completely open” to all commercial shipping through a “coordinated route,” signaling it would lift the de facto tolls imposed during the war and ease passage."
-        },
-        {
-          "id": "27cff0b1816fd06faddc4429c6fda269d9968b693014427c35743a718a02b03e",
-          "title": "European firms plan exo-atmospheric interceptor for 2027 test",
-          "url": "https://www.defensenews.com/global/europe/2026/07/15/european-firms-plan-exo-atmospheric-interceptor-for-2027-test/",
-          "host": "defensenews.com",
-          "format": "Article",
-          "collected_at": "2026-07-15T09:54:56.751986+00:00",
-          "published": "Wed, 15 Jul 2026 09:21:01 +0000",
-          "summary": "“Europe has strong lower-layer missile defenses, but it still lacks a sovereign European upper layer against medium- and intermediate-range ballistic missiles,” Destinus CEO Mikhail Kokorich said in the statement. The program will be designed for full interoperability with NATO’s integrated air and missile defense and strengthen the European Sky Shield Initiative “by addressing the currently missing upper layer,” according to the companies."
         }
       ]
     },
     {
       "name": "Sanctions and Finance",
-      "count": 325,
+      "count": 326,
       "formats": [
         {
           "name": "Article",
-          "value": 240
+          "value": 241
         },
         {
           "name": "Sanctions",
@@ -1109,6 +1129,7 @@
         }
       ],
       "evidence_ids": [
+        "c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b",
         "5408e70db8c27c295462c79d78bd636aa0b66eddd8915abb5ba752a35870364d",
         "b4afc7b4cf877c76dd49332c7d1b9ba5b87eed2649fd00c5f5a53c9cf9f606a6",
         "2ccddb5d9f991d64ed9bb0e2063cb8a4e7a4a7d5e6523f71284fff2f8f9a3937",
@@ -1117,11 +1138,20 @@
         "c6d1ac121c2482b54a1855e39ebbc584c13926ffea98b84509f08d38aa3d68d1",
         "19d27b6f172a238dcb0e9d1255406fae182b3f43c1f6637f2b4a1216021fe9aa",
         "14b4565d023250c193639a734113bfa28063d2cb193c0fa1ffe4cbbf421160a8",
-        "cf5815a07352496aa3736c03c6342bc8ffe9b272c19852810574371461c55d3a",
-        "7131c64cf5904e0b2719e9812eeba8cacf8132f64ef34efce510c6828b81c773"
+        "cf5815a07352496aa3736c03c6342bc8ffe9b272c19852810574371461c55d3a"
       ],
-      "summary": "SITUATION OVERVIEW • Regional conflicts are exacerbating the humanitarian crisis in Afghanistan, with staple food prices at elevated levels and transport costs tripling due to prolonged border closure with Pakistan, re-routed supply chains due to the conflict in the Middle East, and increased fuel prices. • In addition, funding constraints have compelled WFP to suspend cash assistance for returnees from Iran and Pakistan at all border crossings, leaving vulnerable families without critical support upon arrival. Binary images source collected for Global Geopolitics Monitor. Photograph: Thierry Monasse/Getty Images If the EU’s 27 countries do not reach an agreement soon, the price cap on Russian oil will automatically go up, boosting revenues for Russian president Vladimir Putin. EU ambassadors began meeting on Wednesday morning to seek an agreement on the 21st round of sanctions against Russia after days of near misses on a deal. Middle East | Donald Trump has threatened to expand US strikes on Iran next week to target power plants and bridges if Tehran does not agree to a deal amid a continuing dispute over the strait of Hormuz. The representation of the people bill – supposedly one of Keir Starmer’s final acts as prime minister – contains numerous proposals, including the extension of the franchise to 16 and 17-year-olds and new rules on voter registration.",
+      "summary": "The United States is fighting a new kind of global competition — over supply chains, chips, and sanctions. In the United States, the workforce and the pipeline to feed it does not yet exist at the scale the moment requires. To remain a global leader, the United States should establish and maintain an economic security workforce, including by creating a new academic discipline, before the talent deficit hardens into a strategic liability. SITUATION OVERVIEW • Regional conflicts are exacerbating the humanitarian crisis in Afghanistan, with staple food prices at elevated levels and transport costs tripling due to prolonged border closure with Pakistan, re-routed supply chains due to the conflict in the Middle East, and increased fuel prices. • In addition, funding constraints have compelled WFP to suspend cash assistance for returnees from Iran and Pakistan at all border crossings, leaving vulnerable families without critical support upon arrival. Binary images source collected for Global Geopolitics Monitor. Photograph: Thierry Monasse/Getty Images If the EU’s 27 countries do not reach an agreement soon, the price cap on Russian oil will automatically go up, boosting revenues for Russian president Vladimir Putin. EU ambassadors began meeting on Wednesday morning to seek an agreement on the 21st round of sanctions against Russia after days of near misses on a deal.",
       "latest": [
+        {
+          "id": "c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b",
+          "title": "Academia’s Critical Role in Developing an Economic Security Workforce",
+          "url": "https://warontherocks.com/academias-critical-role-in-developing-an-economic-security-workforce/",
+          "host": "warontherocks.com",
+          "format": "Article",
+          "collected_at": "2026-07-16T07:19:23.607611+00:00",
+          "published": "Thu, 16 Jul 2026 07:15:51 +0000",
+          "summary": "The United States is fighting a new kind of global competition — over supply chains, chips, and sanctions. In the United States, the workforce and the pipeline to feed it does not yet exist at the scale the moment requires. To remain a global leader, the United States should establish and maintain an economic security workforce, including by creating a new academic discipline, before the talent deficit hardens into a strategic liability."
+        },
         {
           "id": "5408e70db8c27c295462c79d78bd636aa0b66eddd8915abb5ba752a35870364d",
           "title": "Afghanistan: WFP Aghanistan Country Brief, July 2026 (pdf)",
@@ -1161,16 +1191,6 @@
           "collected_at": "2026-07-15T07:11:17.508418+00:00",
           "published": "Wed, 15 Jul 2026 05:47:12 GMT",
           "summary": "Middle East | Donald Trump has threatened to expand US strikes on Iran next week to target power plants and bridges if Tehran does not agree to a deal amid a continuing dispute over the strait of Hormuz. The representation of the people bill – supposedly one of Keir Starmer’s final acts as prime minister – contains numerous proposals, including the extension of the franchise to 16 and 17-year-olds and new rules on voter registration."
-        },
-        {
-          "id": "ea451fd434c9d182e6fdb5565ddcced6e4e5d470ee760a9684eb6a3107e56f41",
-          "title": "NATO Is Splitting in Two",
-          "url": "https://foreignpolicy.com/2026/07/15/nato-future-ankara-summit/",
-          "host": "foreignpolicy.com",
-          "format": "Article",
-          "collected_at": "2026-07-15T07:11:28.169019+00:00",
-          "published": "Wed, 15 Jul 2026 04:01:47 +0000",
-          "summary": "Even the sudden resumption of air strikes against Iran during the summit did not derail proceedings. That reflects the increasingly common wisdom that NATO summits in the Trump era present little more than an opportunity for strife and presidential blow-ups from the U.S. And for all the positive vibes and photo opportunities, the summit also highlighted that while there has been significant progress on burden-sharing over the last few years, particularly in terms of spending, NATO’s other member states remain divided on a fundamental question: What are..."
         }
       ]
     }
@@ -1218,8 +1238,10 @@
     },
     {
       "name": "Americas",
-      "count": 949,
+      "count": 951,
       "evidence_ids": [
+        "c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b",
+        "470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c",
         "5e1cc8d3acd57bc70be0186efb89d68d9df3e55b024c8b861a74ae23be796e5e",
         "5a958f816898107340a4cb467df0d06fc7fd29dfd90ba379c9a2a2f75cd5f0ba",
         "33b22e8fbe8673e77da62d6f8afa5659317d6ffc53fd9bebc34e691f199943ec",
@@ -1229,9 +1251,7 @@
         "f6d777c22180b44d2935bfb82469f264b6446f00f1406b31d97ec0bad038356a",
         "53ece634de15e6c8cf14a60191b67bedfb7f80b0198c0c0d70883f872ad3eaa3",
         "d40dd12b9119e714c590fb0c9ea133ae07c325d9569060ef785f327dd83ad265",
-        "d8ebabfbd3aa2cfed864bed83169cd9f6f59b962e585e7d7d7c65ca84ac28891",
-        "64f65b858d97d54e54985c893bad07120e77fdfba96424ade048b202c814aee8",
-        "4f0cf599a7c04a83d0a385c7e38e72b6e0abe8ef0b5a1d3cda2ee5d0e12a7315"
+        "d8ebabfbd3aa2cfed864bed83169cd9f6f59b962e585e7d7d7c65ca84ac28891"
       ],
       "top_sources": [
         {
@@ -1248,18 +1268,19 @@
         },
         {
           "name": "foreignpolicy.com",
-          "value": 88
+          "value": 89
         },
         {
           "name": "warontherocks.com",
-          "value": 75
+          "value": 76
         }
       ]
     },
     {
       "name": "Europe and Russia",
-      "count": 948,
+      "count": 949,
       "evidence_ids": [
+        "470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c",
         "309dc5d5cec2f8e99460bd69ae42ba282f2320aab5de6a28050e67dc5ee7ca98",
         "3e8375fc4dda9fab271e66e73105782ded3f80576e393fc8faef54fa0350c944",
         "2370279b223bbe12fb6bdd90e21bf814e52742da69006a70b0cb17f853b1f98c",
@@ -1270,8 +1291,7 @@
         "5408e70db8c27c295462c79d78bd636aa0b66eddd8915abb5ba752a35870364d",
         "971d5db94a07b9303805e3d7922d0806928479fa4c519cfde1904aa8b5d55fc3",
         "c65f1c886ef5ae0528717c01666e3134e5e5ee5ff9895244e4cdf4e3e19c37ea",
-        "2ccddb5d9f991d64ed9bb0e2063cb8a4e7a4a7d5e6523f71284fff2f8f9a3937",
-        "27cff0b1816fd06faddc4429c6fda269d9968b693014427c35743a718a02b03e"
+        "2ccddb5d9f991d64ed9bb0e2063cb8a4e7a4a7d5e6523f71284fff2f8f9a3937"
       ],
       "top_sources": [
         {
@@ -1292,7 +1312,7 @@
         },
         {
           "name": "foreignpolicy.com",
-          "value": 73
+          "value": 74
         }
       ]
     },
@@ -1378,8 +1398,10 @@
     },
     {
       "name": "Indo-Pacific",
-      "count": 441,
+      "count": 443,
       "evidence_ids": [
+        "c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b",
+        "470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c",
         "916e5f00440509e28e1d55c6089fb002bab8bba8464a893b81d02dd3c8633ba9",
         "2370279b223bbe12fb6bdd90e21bf814e52742da69006a70b0cb17f853b1f98c",
         "d8ebabfbd3aa2cfed864bed83169cd9f6f59b962e585e7d7d7c65ca84ac28891",
@@ -1389,9 +1411,7 @@
         "b8db4e170944646e03231b52fc00ff9b38b3e64f5686e4a92d132d3feecd819d",
         "6ce7e134b85aec29bd47c98139352d7029d8b9acb42d14e22f72e16543c67925",
         "251e7a0e6e0d508b56d7917411a6a9bb732b37e2b1f58ad86dd0150601a72925",
-        "fbac2097a8448f5de77893ec4040665862a53610ec585cb429997c21a1fae36b",
-        "0280dcc6c7c6b24a3abfc8aa698089945fdc91d7fd58ec01b194737d87bde705",
-        "edfa454cdbe10067c2f4d70ff2a288231a02e7732f99f8e1fc68fa7e813d4396"
+        "fbac2097a8448f5de77893ec4040665862a53610ec585cb429997c21a1fae36b"
       ],
       "top_sources": [
         {
@@ -1404,7 +1424,7 @@
         },
         {
           "name": "warontherocks.com",
-          "value": 52
+          "value": 53
         },
         {
           "name": "aljazeera.com",
@@ -1412,7 +1432,7 @@
         },
         {
           "name": "foreignpolicy.com",
-          "value": 38
+          "value": 39
         }
       ]
     }
@@ -2400,6 +2420,165 @@
     }
   ],
   "latest_evidence": [
+    {
+      "id": "c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b",
+      "topic": "geopolitics",
+      "title": "Academia’s Critical Role in Developing an Economic Security Workforce",
+      "url": "https://warontherocks.com/academias-critical-role-in-developing-an-economic-security-workforce/",
+      "host": "warontherocks.com",
+      "source": "https://warontherocks.com/feed/",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-16T07:19:23.607611+00:00",
+      "published": "Thu, 16 Jul 2026 07:15:51 +0000",
+      "text_chars": 20097,
+      "raw_path": "data/geopolitics/raw/c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b.html",
+      "text_path": "data/geopolitics/raw/c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b.txt",
+      "summary": "The United States is fighting a new kind of global competition — over supply chains, chips, and sanctions. In the United States, the workforce and the pipeline to feed it does not yet exist at the scale the moment requires. To remain a global leader, the United States should establish and maintain an economic security workforce, including by creating a new academic discipline, before the talent deficit hardens into a strategic liability.",
+      "bullets": [
+        "The United States is fighting a new kind of global competition — over supply chains, chips, and sanctions.",
+        "In the United States, the workforce and the pipeline to feed it does not yet exist at the scale the moment requires.",
+        "To remain a global leader, the United States should establish and maintain an economic security workforce, including by creating a new academic discipline, before the talent deficit hardens into a strategic liability.",
+        "Editor’s note: This is the tenth article in an 11-part series examining how the United States should organize, lead, and integrate economic statecraft into strategy, defense practice, and the broader national security ecosystem.",
+        "The special series is brought to you by the Potomac Institute for Policy Studies and War on the Rocks."
+      ],
+      "excerpt": "Editor’s note: This is the tenth article in an 11-part series examining how the United States should organize, lead, and integrate economic statecraft into strategy, defense practice, and the broader national security ecosystem. The special series is brought to you by the Potomac Institute for Policy Studies and War on the Rocks. Prior installments can be found at the War by Other Ledgers page. The United States is fighting a new kind of global competition — over supply chains, chips, and sanctions. It barely has anyone trained to fight it. No single country can untangle itself from the forces of global trade, and no industry can stabilize in isolation. Because of this dynamic, countries are increasingly leveraging and protecting their economies in pursuit of broader national objectives. This interconnectedness of global markets demands public and private sector professionals capable of thinking critically about economic security. In the United States, the workforce and the pipeline to feed it does not yet exist at the scale the moment requires. Supply simply does not meet demand, and many of the practitioners dealing with economic threats have limited requisite formal education an",
+      "keywords": [
+        {
+          "name": "security",
+          "value": 49
+        },
+        {
+          "name": "economic",
+          "value": 46
+        },
+        {
+          "name": "academic",
+          "value": 19
+        },
+        {
+          "name": "policy",
+          "value": 15
+        },
+        {
+          "name": "discipline",
+          "value": 14
+        },
+        {
+          "name": "should",
+          "value": 14
+        },
+        {
+          "name": "programs",
+          "value": 13
+        },
+        {
+          "name": "public",
+          "value": 13
+        },
+        {
+          "name": "workforce",
+          "value": 13
+        },
+        {
+          "name": "field",
+          "value": 12
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance",
+        "Energy and Supply Chains",
+        "War and Escalation",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Americas",
+        "Indo-Pacific"
+      ],
+      "detail_path": "/evidence/c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b",
+      "evidence_json": "/evidence/c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b.json"
+    },
+    {
+      "id": "470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c",
+      "topic": "geopolitics",
+      "title": "Iranian Attacks Need Not Change the Gulf’s AI Ambitions",
+      "url": "https://foreignpolicy.com/2026/07/16/iranian-attacks-gulf-ai-ambitions/",
+      "host": "foreignpolicy.com",
+      "source": "https://foreignpolicy.com/feed/",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-16T07:19:27.251707+00:00",
+      "published": "Thu, 16 Jul 2026 04:01:55 +0000",
+      "text_chars": 12185,
+      "raw_path": "data/geopolitics/raw/470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c.html",
+      "text_path": "data/geopolitics/raw/470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c.txt",
+      "summary": "But Ukraine remains the only state to have stress-tested its digital infrastructure in a full-scale war with a bigger enemy, and its lessons map onto the Gulf’s AI buildup after the Iran war. They missed the Industrial Revolution, and when the post-World War II energy-dependent global order enriched them financially, the gains lacked strategic depth, leaving their political economy tied to the oil boom.",
+      "bullets": [
+        "But Ukraine remains the only state to have stress-tested its digital infrastructure in a full-scale war with a bigger enemy, and its lessons map onto the Gulf’s AI buildup after the Iran war.",
+        "They missed the Industrial Revolution, and when the post-World War II energy-dependent global order enriched them financially, the gains lacked strategic depth, leaving their political economy tied to the oil boom.",
+        "When Iran struck two Amazon Web Services (AWS) data centers in the United Arab Emirates and damaged a third in Bahrain in early March, Washington quickly deemed the Gulf’s artificial intelligence ambitions a catastrophic strategic miscalculation.",
+        "The question facing Gulf capitals is how they can adapt Kyiv’s wartime playbook to their own threat environment.",
+        "It is therefore unsurprising that the Iranian attacks haven’t deter the Gulf’s compute buildout."
+      ],
+      "excerpt": "When Iran struck two Amazon Web Services (AWS) data centers in the United Arab Emirates and damaged a third in Bahrain in early March, Washington quickly deemed the Gulf’s artificial intelligence ambitions a catastrophic strategic miscalculation. Gulf states had made a multihundred-billion-dollar bet on AI infrastructure in a volatile, risky region. The proposed solution was to relocate AI workloads that operate out of the Gulf to safer locations. This rested on two beliefs: The Gulf is too unstable for critical infrastructure, and there is no playbook for building AI infrastructure in such contested territory. Both assumptions deserve examination, and the second is not true. A playbook already exists, written under far heavier fire, in Europe. Since the Russian invasion of Ukraine, Kyiv has kept its digital infrastructure running through sustained bombardment. It moved terabytes of government data across borders in a matter of weeks to keep government services functioning and the state digitally intact, rebuilt its power grid and broader architecture around the assumption of continued Russian aerial attacks, and treated survivability as the core design principle of its critical in",
+      "keywords": [
+        {
+          "name": "gulf",
+          "value": 41
+        },
+        {
+          "name": "infrastructure",
+          "value": 19
+        },
+        {
+          "name": "ukraine",
+          "value": 15
+        },
+        {
+          "name": "data",
+          "value": 12
+        },
+        {
+          "name": "energy",
+          "value": 12
+        },
+        {
+          "name": "compute",
+          "value": 10
+        },
+        {
+          "name": "power",
+          "value": 10
+        },
+        {
+          "name": "should",
+          "value": 9
+        },
+        {
+          "name": "states",
+          "value": 8
+        },
+        {
+          "name": "iran",
+          "value": 7
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Nuclear and Strategic Risk",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Americas",
+        "Indo-Pacific"
+      ],
+      "detail_path": "/evidence/470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c",
+      "evidence_json": "/evidence/470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c.json"
+    },
     {
       "id": "5e1cc8d3acd57bc70be0186efb89d68d9df3e55b024c8b861a74ae23be796e5e",
       "topic": "geopolitics",
@@ -8489,165 +8668,6 @@
       ],
       "detail_path": "/evidence/c8c87ccb0369404872a2007ac5412d4810d454e606a442e453c662d80dd314a1",
       "evidence_json": "/evidence/c8c87ccb0369404872a2007ac5412d4810d454e606a442e453c662d80dd314a1.json"
-    },
-    {
-      "id": "d0d9b9ecd86eadcae6f345793121e0a8670cda2734cc7e30b1dd04092207a083",
-      "topic": "geopolitics",
-      "title": "The Pentagon Needs $1.5 Trillion",
-      "url": "https://foreignpolicy.com/2026/07/14/pentagon-defense-budget-trillion-congress-china-russia/",
-      "host": "foreignpolicy.com",
-      "source": "https://foreignpolicy.com/feed/",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-07-14T15:20:21.752762+00:00",
-      "published": "Tue, 14 Jul 2026 13:29:39 +0000",
-      "text_chars": 7806,
-      "raw_path": "data/geopolitics/raw/d0d9b9ecd86eadcae6f345793121e0a8670cda2734cc7e30b1dd04092207a083.html",
-      "text_path": "data/geopolitics/raw/d0d9b9ecd86eadcae6f345793121e0a8670cda2734cc7e30b1dd04092207a083.txt",
-      "summary": "Washington is simply not ready for war with China, Russia, North Korea, and Iran at the same time. China is more capable than the Soviet Union, and it is not the only nuclear-capable dictatorship challenging the United States. The war in Ukraine is a laboratory for the future of warfare, and investments in new technology will ensure that the United States remains on the cutting edge, including by helping U.S.",
-      "bullets": [
-        "Washington is simply not ready for war with China, Russia, North Korea, and Iran at the same time.",
-        "China is more capable than the Soviet Union, and it is not the only nuclear-capable dictatorship challenging the United States.",
-        "The war in Ukraine is a laboratory for the future of warfare, and investments in new technology will ensure that the United States remains on the cutting edge, including by helping U.S.",
-        "defense spending since the Korean War—nearly double the country’s 2022 defense budget and more than the next 18 nations combined.",
-        "Looking to the Cold War as a successful model, the United States spent an average of about 7 percent of its GDP on defense."
-      ],
-      "excerpt": "In his 2027 budget request, U.S. President Donald Trump has called for the largest U.S. defense budget in history: $1.5 trillion. This is the biggest surge in U.S. defense spending since the Korean War—nearly double the country’s 2022 defense budget and more than the next 18 nations combined. $1.5 trillion is a lot of money. And all of it is vitally necessary. The United States faces a dangerous security environment. There are major ongoing conflicts in Europe and the Middle East, and China engages in daily military aggression in the Indo-Pacific. As the 2026 U.S. National Defense Strategy correctly states, Washington and its allies face the risk of simultaneous major power wars across Eurasia. In fact, this moment may be more perilous than even the darkest days of the Cold War. China is more capable than the Soviet Union, and it is not the only nuclear-capable dictatorship challenging the United States. Washington is simply not ready for war with China, Russia, North Korea, and Iran at the same time. Looking to the Cold War as a successful model, the United States spent an average of about 7 percent of its GDP on defense. In contrast, the abovementioned 2022 defense budget amounte",
-      "keywords": [
-        {
-          "name": "defense",
-          "value": 35
-        },
-        {
-          "name": "spending",
-          "value": 14
-        },
-        {
-          "name": "states",
-          "value": 10
-        },
-        {
-          "name": "united",
-          "value": 9
-        },
-        {
-          "name": "base",
-          "value": 8
-        },
-        {
-          "name": "industrial",
-          "value": 8
-        },
-        {
-          "name": "percent",
-          "value": 8
-        },
-        {
-          "name": "budget",
-          "value": 7
-        },
-        {
-          "name": "national",
-          "value": 7
-        },
-        {
-          "name": "trump",
-          "value": 7
-        }
-      ],
-      "signals": [
-        "Nuclear and Strategic Risk",
-        "War and Escalation",
-        "Diplomacy and Negotiations",
-        "Humanitarian Pressure"
-      ],
-      "regions": [
-        "Americas",
-        "Indo-Pacific",
-        "Europe and Russia"
-      ],
-      "detail_path": "/evidence/d0d9b9ecd86eadcae6f345793121e0a8670cda2734cc7e30b1dd04092207a083",
-      "evidence_json": "/evidence/d0d9b9ecd86eadcae6f345793121e0a8670cda2734cc7e30b1dd04092207a083.json"
-    },
-    {
-      "id": "02f5727e4ee45e94673f83f979dd8a0a25b0441be8faf8f02a0181980dd2d7d3",
-      "topic": "geopolitics",
-      "title": "Saving Lives Under Threat: Thousands in Central Mali Protected from Explosive Risks Amid Funding Crisis (pdf)",
-      "url": "https://reliefweb.int/attachments/ad3268b4-d5ac-41b6-a97a-e109b16566bb/Thousands%20in%20Central%20Mali%20Protected%20from%20Explosive%20Risks_DCA%20Mali%20Press%20release%2014%20JULY%202026.pdf",
-      "host": "reliefweb.int",
-      "source": "https://reliefweb.int/updates/rss.xml",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-07-14T15:20:09.394163+00:00",
-      "published": "Tue, 14 Jul 2026 13:15:04 +0000",
-      "text_chars": 6622,
-      "raw_path": "data/geopolitics/raw/02f5727e4ee45e94673f83f979dd8a0a25b0441be8faf8f02a0181980dd2d7d3.pdf",
-      "text_path": "data/geopolitics/raw/02f5727e4ee45e94673f83f979dd8a0a25b0441be8faf8f02a0181980dd2d7d3.txt",
-      "summary": "Thousands of civilians have been displaced in search of safety away from their communities and the impact of the insecurity across the Sahel has also resulted in large number of refugees seeking safety in Mali. Almost 55,000 Malians have received lifesaving training on identifying and deal with unexploded bombs – and now the same people are training others in their communities.",
-      "bullets": [
-        "Thousands of civilians have been displaced in search of safety away from their communities and the impact of the insecurity across the Sahel has also resulted in large number of refugees seeking safety in Mali.",
-        "Almost 55,000 Malians have received lifesaving training on identifying and deal with unexploded bombs – and now the same people are training others in their communities.",
-        "According to the UN’s office for Humanitarian Affairs, OCHA, only 16% of the $577.9 million funding plan to help 5.1 million people in need of assistance in Mali in 2026 had been secured by May.",
-        "Mali is currently home to more than 138,000 refugees – predominantly from Burkina Faso and Niger.",
-        "They need support and protection – two things that DCA and its Malian partner AAPPOR (Association pour l’Appui aux Populations Rurales) have been delivering with EU humanitarian support."
-      ],
-      "excerpt": "PRESS RELEASE “Saving Lives Under Threat: Thousands in Central Mali Protected from Explosive Risks Amid Funding Crisis” Bamako, July 14, 2026 While the number of displaced people in Mali is growing and funding is dwindling, DanChurchAid (DCA) Mali and its national partner, AA PPOR, continue to deliver support to tens of thousands of the most vulnerable among them with the support of the European Union. Almost 55,000 Malians have received lifesaving training on identifying and deal with unexploded bombs – and now the same people are training others in their communities. Mali has been impacted by the devolving security context in the Sahel for more than a decade – with grave human costs. Thousands of civilians have been displaced in search of safety away from their communities and the impact of the insecurity across the Sahel has also resulted in large number of refugees seeking safety in Mali. Mali is currently home to more than 138,000 refugees – predominantly from Burkina Faso and Niger. They are joined by a growing number of Malians who are displaced by fighting in their own country. According to the Malian government there were 378,363 internally displaced people (IDPs) in Mali ",
-      "keywords": [
-        {
-          "name": "mali",
-          "value": 19
-        },
-        {
-          "name": "humanitarian",
-          "value": 10
-        },
-        {
-          "name": "assistance",
-          "value": 7
-        },
-        {
-          "name": "communities",
-          "value": 7
-        },
-        {
-          "name": "explosive",
-          "value": 7
-        },
-        {
-          "name": "support",
-          "value": 7
-        },
-        {
-          "name": "conflict",
-          "value": 6
-        },
-        {
-          "name": "european",
-          "value": 6
-        },
-        {
-          "name": "displaced",
-          "value": 5
-        },
-        {
-          "name": "funding",
-          "value": 5
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations",
-        "Institutions and Law"
-      ],
-      "regions": [
-        "Africa",
-        "Europe and Russia"
-      ],
-      "file_asset": "/evidence-files/02f5727e4ee45e94673f83f979dd8a0a25b0441be8faf8f02a0181980dd2d7d3.pdf",
-      "detail_path": "/evidence/02f5727e4ee45e94673f83f979dd8a0a25b0441be8faf8f02a0181980dd2d7d3",
-      "evidence_json": "/evidence/02f5727e4ee45e94673f83f979dd8a0a25b0441be8faf8f02a0181980dd2d7d3.json"
     }
   ],
   "deep_reads": [
@@ -8661,7 +8681,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-16T04:54:24.157790+00:00",
+      "collected_at": "2026-07-16T07:19:06.865574+00:00",
       "published": "",
       "text_chars": 9161694,
       "raw_path": "data/geopolitics/raw/f85bbd3ce39a3493e867e34d54712001d861e87ac30c41219080fe54f1928937.xml",
@@ -10736,7 +10756,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-16T04:53:59.292712+00:00",
+      "collected_at": "2026-07-16T07:18:30.275748+00:00",
       "published": "",
       "text_chars": 6243953,
       "raw_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json.raw",
@@ -10888,7 +10908,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-16T04:54:31.222350+00:00",
+      "collected_at": "2026-07-16T07:19:16.091646+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -10960,79 +10980,6 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
-      "id": "fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-07-16T04:54:28.928021+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.html",
-      "text_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
-      "evidence_json": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.json"
-    },
-    {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
       "title": "ICRC International Humanitarian Law Handbook",
@@ -11042,7 +10989,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-16T04:54:28.911983+00:00",
+      "collected_at": "2026-07-16T07:19:14.204709+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -11123,7 +11070,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-16T04:54:25.729380+00:00",
+      "collected_at": "2026-07-16T07:19:08.937863+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11195,6 +11142,79 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
+      "id": "fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-07-16T07:19:06.926598+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.html",
+      "text_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
+      "evidence_json": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.json"
+    },
+    {
       "id": "f85bbd3ce39a3493e867e34d54712001d861e87ac30c41219080fe54f1928937",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -11204,7 +11224,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-16T04:54:24.157790+00:00",
+      "collected_at": "2026-07-16T07:19:06.865574+00:00",
       "published": "",
       "text_chars": 9161694,
       "raw_path": "data/geopolitics/raw/f85bbd3ce39a3493e867e34d54712001d861e87ac30c41219080fe54f1928937.xml",
@@ -11284,7 +11304,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-16T04:54:01.033835+00:00",
+      "collected_at": "2026-07-16T07:18:32.247892+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/a794492c670e88f662ffa85cc3b46476ff9582c71a7b6b2bf61c7b6fdc68835b.xml",
@@ -11355,76 +11375,6 @@
       "evidence_json": "/evidence/a794492c670e88f662ffa85cc3b46476ff9582c71a7b6b2bf61c7b6fdc68835b.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-07-16T04:53:59.362115+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
       "id": "0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b",
       "topic": "geopolitics",
       "title": "MS.MIL.MPRT.KD",
@@ -11434,7 +11384,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-16T04:53:59.292712+00:00",
+      "collected_at": "2026-07-16T07:18:30.275748+00:00",
       "published": "",
       "text_chars": 6243953,
       "raw_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json.raw",
@@ -11509,7 +11459,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-16T04:53:59.005991+00:00",
+      "collected_at": "2026-07-16T07:18:30.012402+00:00",
       "published": "",
       "text_chars": 6161830,
       "raw_path": "data/geopolitics/raw/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.json.raw",
@@ -11575,6 +11525,76 @@
       ],
       "detail_path": "/evidence/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152",
       "evidence_json": "/evidence/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-07-16T07:18:29.654074+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
     },
     {
       "id": "4c83076e290f560c87dc79518be523f31a6de7c40a9e9883a2420c6a5b94ce75",
@@ -15456,7 +15476,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-16T04:54:31.222350+00:00",
+      "collected_at": "2026-07-16T07:19:16.091646+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15528,79 +15548,6 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
-      "id": "fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-07-16T04:54:28.928021+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.html",
-      "text_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
-      "evidence_json": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.json"
-    },
-    {
       "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
       "topic": "geopolitics",
       "title": "ICRC International Humanitarian Law Handbook",
@@ -15610,7 +15557,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-16T04:54:28.911983+00:00",
+      "collected_at": "2026-07-16T07:19:14.204709+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -15691,7 +15638,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-16T04:54:25.729380+00:00",
+      "collected_at": "2026-07-16T07:19:08.937863+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15763,6 +15710,79 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
+      "id": "fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-07-16T07:19:06.926598+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.html",
+      "text_path": "data/geopolitics/raw/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e",
+      "evidence_json": "/evidence/fc97187b1e2f3bb97467ab641720a9344f98f01ed48392c07c9ee77b669c6b1e.json"
+    },
+    {
       "id": "f85bbd3ce39a3493e867e34d54712001d861e87ac30c41219080fe54f1928937",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -15772,7 +15792,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-16T04:54:24.157790+00:00",
+      "collected_at": "2026-07-16T07:19:06.865574+00:00",
       "published": "",
       "text_chars": 9161694,
       "raw_path": "data/geopolitics/raw/f85bbd3ce39a3493e867e34d54712001d861e87ac30c41219080fe54f1928937.xml",
@@ -15852,7 +15872,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-16T04:54:01.033835+00:00",
+      "collected_at": "2026-07-16T07:18:32.247892+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/a794492c670e88f662ffa85cc3b46476ff9582c71a7b6b2bf61c7b6fdc68835b.xml",
@@ -15923,76 +15943,6 @@
       "evidence_json": "/evidence/a794492c670e88f662ffa85cc3b46476ff9582c71a7b6b2bf61c7b6fdc68835b.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-07-16T04:53:59.362115+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
       "id": "0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b",
       "topic": "geopolitics",
       "title": "MS.MIL.MPRT.KD",
@@ -16002,7 +15952,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-16T04:53:59.292712+00:00",
+      "collected_at": "2026-07-16T07:18:30.275748+00:00",
       "published": "",
       "text_chars": 6243953,
       "raw_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json.raw",
@@ -16077,7 +16027,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-16T04:53:59.005991+00:00",
+      "collected_at": "2026-07-16T07:18:30.012402+00:00",
       "published": "",
       "text_chars": 6161830,
       "raw_path": "data/geopolitics/raw/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.json.raw",
@@ -16143,6 +16093,235 @@
       ],
       "detail_path": "/evidence/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152",
       "evidence_json": "/evidence/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-07-16T07:18:29.654074+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
+      "id": "c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b",
+      "topic": "geopolitics",
+      "title": "Academia’s Critical Role in Developing an Economic Security Workforce",
+      "url": "https://warontherocks.com/academias-critical-role-in-developing-an-economic-security-workforce/",
+      "host": "warontherocks.com",
+      "source": "https://warontherocks.com/feed/",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-16T07:19:23.607611+00:00",
+      "published": "Thu, 16 Jul 2026 07:15:51 +0000",
+      "text_chars": 20097,
+      "raw_path": "data/geopolitics/raw/c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b.html",
+      "text_path": "data/geopolitics/raw/c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b.txt",
+      "summary": "The United States is fighting a new kind of global competition — over supply chains, chips, and sanctions. In the United States, the workforce and the pipeline to feed it does not yet exist at the scale the moment requires. To remain a global leader, the United States should establish and maintain an economic security workforce, including by creating a new academic discipline, before the talent deficit hardens into a strategic liability.",
+      "bullets": [
+        "The United States is fighting a new kind of global competition — over supply chains, chips, and sanctions.",
+        "In the United States, the workforce and the pipeline to feed it does not yet exist at the scale the moment requires.",
+        "To remain a global leader, the United States should establish and maintain an economic security workforce, including by creating a new academic discipline, before the talent deficit hardens into a strategic liability.",
+        "Editor’s note: This is the tenth article in an 11-part series examining how the United States should organize, lead, and integrate economic statecraft into strategy, defense practice, and the broader national security ecosystem.",
+        "The special series is brought to you by the Potomac Institute for Policy Studies and War on the Rocks."
+      ],
+      "excerpt": "Editor’s note: This is the tenth article in an 11-part series examining how the United States should organize, lead, and integrate economic statecraft into strategy, defense practice, and the broader national security ecosystem. The special series is brought to you by the Potomac Institute for Policy Studies and War on the Rocks. Prior installments can be found at the War by Other Ledgers page. The United States is fighting a new kind of global competition — over supply chains, chips, and sanctions. It barely has anyone trained to fight it. No single country can untangle itself from the forces of global trade, and no industry can stabilize in isolation. Because of this dynamic, countries are increasingly leveraging and protecting their economies in pursuit of broader national objectives. This interconnectedness of global markets demands public and private sector professionals capable of thinking critically about economic security. In the United States, the workforce and the pipeline to feed it does not yet exist at the scale the moment requires. Supply simply does not meet demand, and many of the practitioners dealing with economic threats have limited requisite formal education an",
+      "keywords": [
+        {
+          "name": "security",
+          "value": 49
+        },
+        {
+          "name": "economic",
+          "value": 46
+        },
+        {
+          "name": "academic",
+          "value": 19
+        },
+        {
+          "name": "policy",
+          "value": 15
+        },
+        {
+          "name": "discipline",
+          "value": 14
+        },
+        {
+          "name": "should",
+          "value": 14
+        },
+        {
+          "name": "programs",
+          "value": 13
+        },
+        {
+          "name": "public",
+          "value": 13
+        },
+        {
+          "name": "workforce",
+          "value": 13
+        },
+        {
+          "name": "field",
+          "value": 12
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance",
+        "Energy and Supply Chains",
+        "War and Escalation",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Americas",
+        "Indo-Pacific"
+      ],
+      "detail_path": "/evidence/c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b",
+      "evidence_json": "/evidence/c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b.json"
+    },
+    {
+      "id": "470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c",
+      "topic": "geopolitics",
+      "title": "Iranian Attacks Need Not Change the Gulf’s AI Ambitions",
+      "url": "https://foreignpolicy.com/2026/07/16/iranian-attacks-gulf-ai-ambitions/",
+      "host": "foreignpolicy.com",
+      "source": "https://foreignpolicy.com/feed/",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-16T07:19:27.251707+00:00",
+      "published": "Thu, 16 Jul 2026 04:01:55 +0000",
+      "text_chars": 12185,
+      "raw_path": "data/geopolitics/raw/470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c.html",
+      "text_path": "data/geopolitics/raw/470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c.txt",
+      "summary": "But Ukraine remains the only state to have stress-tested its digital infrastructure in a full-scale war with a bigger enemy, and its lessons map onto the Gulf’s AI buildup after the Iran war. They missed the Industrial Revolution, and when the post-World War II energy-dependent global order enriched them financially, the gains lacked strategic depth, leaving their political economy tied to the oil boom.",
+      "bullets": [
+        "But Ukraine remains the only state to have stress-tested its digital infrastructure in a full-scale war with a bigger enemy, and its lessons map onto the Gulf’s AI buildup after the Iran war.",
+        "They missed the Industrial Revolution, and when the post-World War II energy-dependent global order enriched them financially, the gains lacked strategic depth, leaving their political economy tied to the oil boom.",
+        "When Iran struck two Amazon Web Services (AWS) data centers in the United Arab Emirates and damaged a third in Bahrain in early March, Washington quickly deemed the Gulf’s artificial intelligence ambitions a catastrophic strategic miscalculation.",
+        "The question facing Gulf capitals is how they can adapt Kyiv’s wartime playbook to their own threat environment.",
+        "It is therefore unsurprising that the Iranian attacks haven’t deter the Gulf’s compute buildout."
+      ],
+      "excerpt": "When Iran struck two Amazon Web Services (AWS) data centers in the United Arab Emirates and damaged a third in Bahrain in early March, Washington quickly deemed the Gulf’s artificial intelligence ambitions a catastrophic strategic miscalculation. Gulf states had made a multihundred-billion-dollar bet on AI infrastructure in a volatile, risky region. The proposed solution was to relocate AI workloads that operate out of the Gulf to safer locations. This rested on two beliefs: The Gulf is too unstable for critical infrastructure, and there is no playbook for building AI infrastructure in such contested territory. Both assumptions deserve examination, and the second is not true. A playbook already exists, written under far heavier fire, in Europe. Since the Russian invasion of Ukraine, Kyiv has kept its digital infrastructure running through sustained bombardment. It moved terabytes of government data across borders in a matter of weeks to keep government services functioning and the state digitally intact, rebuilt its power grid and broader architecture around the assumption of continued Russian aerial attacks, and treated survivability as the core design principle of its critical in",
+      "keywords": [
+        {
+          "name": "gulf",
+          "value": 41
+        },
+        {
+          "name": "infrastructure",
+          "value": 19
+        },
+        {
+          "name": "ukraine",
+          "value": 15
+        },
+        {
+          "name": "data",
+          "value": 12
+        },
+        {
+          "name": "energy",
+          "value": 12
+        },
+        {
+          "name": "compute",
+          "value": 10
+        },
+        {
+          "name": "power",
+          "value": 10
+        },
+        {
+          "name": "should",
+          "value": 9
+        },
+        {
+          "name": "states",
+          "value": 8
+        },
+        {
+          "name": "iran",
+          "value": 7
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Nuclear and Strategic Risk",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Americas",
+        "Indo-Pacific"
+      ],
+      "detail_path": "/evidence/470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c",
+      "evidence_json": "/evidence/470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c.json"
     },
     {
       "id": "5e1cc8d3acd57bc70be0186efb89d68d9df3e55b024c8b861a74ae23be796e5e",
