@@ -1,38 +1,45 @@
 {
-  "generated_at": "2026-07-17T11:18:23.655470+00:00",
+  "generated_at": "2026-07-17T13:08:37.194666+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating tensions in the Middle East as US-Iran conflict intensifies.",
+    "headline": "Escalating tensions in the Middle East and Europe signal potential geopolitical shifts.",
     "executive_summary": [
-      "Recent military actions have escalated tensions between the United States and Iran, with the US conducting multiple strikes on Iranian infrastructure, including airports and bridges, leading to significant casualties and damage. Iranian state media reported that these attacks resulted in at least seven deaths and hundreds of injuries, further inflaming the conflict.",
-      "In retaliation, Iran has launched missiles and drones targeting US allies in the region, including Bahrain and Kuwait, while also maintaining its closure of the Strait of Hormuz, a critical chokepoint for global oil exports. This ongoing cycle of violence raises concerns about the potential for a broader regional conflict.",
-      "The situation has prompted warnings from international bodies regarding the implications for global energy security, as the head of the International Energy Agency expressed concerns over the stability of oil flows through the Strait of Hormuz amidst the escalating hostilities.",
-      "The US military's enforcement of a blockade on Iranian ports has led to increased tensions, with reports of US forces boarding vessels and engaging in direct confrontations, complicating diplomatic efforts aimed at achieving a ceasefire."
+      "Recent developments in the Middle East indicate a significant escalation in tensions, particularly surrounding the Bab el-Mandeb strait, a critical chokepoint for global shipping. Reports suggest that the Iran-backed Houthis may attempt to close this strait, prompting the EU to enhance its naval presence in the region to ensure maritime security and protect vital trade routes. This situation underscores the fragility of international maritime security and the potential for increased military engagement in the area.",
+      "In Ukraine, a political crisis has emerged following President Zelenskyy's dismissal of Defense Minister Mykhailo Fedorov, a move that has sparked widespread protests. Fedorov's removal is seen as a setback for Ukraine's military modernization efforts, particularly in drone warfare, which has been pivotal in countering Russian advances. The public outcry reflects deep divisions within the Ukrainian government and raises concerns about the impact on the ongoing conflict with Russia.",
+      "The geopolitical landscape in Europe is also shifting, with Germany's military ambitions coming under scrutiny. The country is increasing its defense spending and pursuing independent military capabilities, which raises questions about the future of NATO's collective defense strategy. As Germany seeks to bolster its military presence, neighboring countries express concern over a potential resurgence of German militarism, complicating the security dynamics in Europe.",
+      "In the context of U.S.-Iran relations, recent military actions by the U.S. against Iranian targets have escalated tensions, with Iran retaliating through missile strikes on U.S. allies in the region. The ongoing conflict threatens global energy security, particularly through the Strait of Hormuz, a vital passage for oil shipments. The situation remains fluid, with potential implications for international energy markets and diplomatic relations."
     ],
     "key_judgments": [
       {
-        "title": "US military strikes on Iran escalate conflict",
-        "finding": "The US has intensified military operations against Iran, targeting key infrastructure and resulting in significant casualties.",
+        "title": "Potential closure of Bab el-Mandeb strait",
+        "finding": "The Iran-backed Houthis are reportedly preparing to close the Bab el-Mandeb strait, which could disrupt global shipping and increase military tensions in the region.",
         "citations": [
-          "10",
-          "28"
+          "9"
         ]
       },
       {
-        "title": "Iran's retaliatory actions threaten regional stability",
-        "finding": "Iran's missile and drone strikes against US allies indicate a significant escalation in hostilities, raising the risk of broader conflict.",
+        "title": "Political crisis in Ukraine",
+        "finding": "The dismissal of Defense Minister Mykhailo Fedorov has led to significant public protests, indicating a potential crisis in Ukraine's military leadership and strategy.",
         "citations": [
-          "10",
-          "28"
+          "16",
+          "22"
         ]
       },
       {
-        "title": "Global energy security at risk",
-        "finding": "The ongoing conflict poses serious threats to global energy security, particularly regarding oil flows through the Strait of Hormuz.",
+        "title": "Germany's military ambitions",
+        "finding": "Germany's increased defense spending and independent military initiatives are raising concerns among European neighbors about a potential shift in the balance of power within NATO.",
+        "citations": [
+          "21"
+        ]
+      },
+      {
+        "title": "Escalation of U.S.-Iran tensions",
+        "finding": "Recent U.S. military strikes on Iranian targets have escalated tensions, with Iran responding through missile attacks on U.S. allies, threatening regional stability and energy security.",
         "citations": [
           "12",
+          "14",
           "28"
         ]
       }
@@ -40,21 +47,52 @@
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The Middle East remains a volatile region as US-Iran tensions escalate, with potential implications for regional allies and global energy markets.",
+        "assessment": "The Middle East is experiencing heightened tensions due to potential Houthi actions in the Bab el-Mandeb strait and escalating U.S.-Iran hostilities, which could destabilize the region further.",
         "citations": [
-          "10",
+          "9",
           "12",
-          "28"
+          "14"
+        ]
+      },
+      {
+        "region": "Europe and Russia",
+        "assessment": "Europe faces a complex security environment as Germany seeks to enhance its military capabilities, while Ukraine grapples with internal political strife affecting its defense strategy against Russia.",
+        "citations": [
+          "16",
+          "21",
+          "22"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "US-Iran conflict",
-        "why_it_matters": "The conflict has the potential to destabilize the region and disrupt global oil supplies, impacting international markets and security.",
+        "label": "Houthi actions in Bab el-Mandeb",
+        "why_it_matters": "Closure of this strait would significantly impact global shipping routes and energy supplies, leading to increased military presence in the region.",
         "citations": [
-          "10",
+          "9"
+        ]
+      },
+      {
+        "label": "Ukraine's political stability",
+        "why_it_matters": "Ongoing protests and political instability could undermine Ukraine's military effectiveness against Russia, affecting the broader conflict dynamics.",
+        "citations": [
+          "16",
+          "22"
+        ]
+      },
+      {
+        "label": "Germany's military developments",
+        "why_it_matters": "Germany's push for military independence could alter NATO's strategic landscape and provoke reactions from neighboring countries.",
+        "citations": [
+          "21"
+        ]
+      },
+      {
+        "label": "U.S.-Iran military engagements",
+        "why_it.matters": "Continued military actions could escalate into broader conflict, impacting regional stability and global energy markets.",
+        "citations": [
           "12",
+          "14",
           "28"
         ]
       }
@@ -64,19 +102,19 @@
     ]
   },
   "summary": {
-    "raw_documents": 2123,
-    "total_text_chars": 336807334,
+    "raw_documents": 2126,
+    "total_text_chars": 336817904,
     "sources": 34,
     "signals": 8,
     "regions": 6,
-    "visual_items": 179,
+    "visual_items": 180,
     "pdf_items": 225,
     "renderable_files": 218
   },
   "format_counts": [
     {
       "name": "Article",
-      "value": 1554
+      "value": 1556
     },
     {
       "name": "PDF",
@@ -84,7 +122,7 @@
     },
     {
       "name": "Image",
-      "value": 185
+      "value": 186
     },
     {
       "name": "Sanctions",
@@ -110,7 +148,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 1487
+      "value": 1489
     },
     {
       "name": "pdfs",
@@ -118,7 +156,7 @@
     },
     {
       "name": "images",
-      "value": 181
+      "value": 182
     },
     {
       "name": "sanctions_designations",
@@ -172,11 +210,11 @@
     },
     {
       "name": "global.unitednations.entermediadb.net",
-      "value": 170
+      "value": 171
     },
     {
       "name": "defensenews.com",
-      "value": 137
+      "value": 138
     },
     {
       "name": "foreignpolicy.com",
@@ -204,7 +242,7 @@
     },
     {
       "name": "euronews.com",
-      "value": 51
+      "value": 52
     },
     {
       "name": "dw.com",
@@ -274,7 +312,7 @@
   "keyword_counts": [
     {
       "name": "iran",
-      "value": 7368
+      "value": 7373
     },
     {
       "name": "health",
@@ -374,7 +412,7 @@
     },
     {
       "name": "defense",
-      "value": 1722
+      "value": 1729
     },
     {
       "name": "states",
@@ -382,7 +420,7 @@
     },
     {
       "name": "security",
-      "value": 1647
+      "value": 1657
     },
     {
       "name": "data",
@@ -398,7 +436,7 @@
     },
     {
       "name": "strait",
-      "value": 1454
+      "value": 1459
     },
     {
       "name": "percent",
@@ -456,11 +494,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 1443,
+      "count": 1445,
       "formats": [
         {
           "name": "Article",
-          "value": 1211
+          "value": 1213
         },
         {
           "name": "PDF",
@@ -480,6 +518,8 @@
         }
       ],
       "evidence_ids": [
+        "b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6",
+        "1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda",
         "f9a86eeef051919ba5abe54696ceef5a45c37fe86ec3c1ea5132a6fa02639dad",
         "fce538f3455fb1f3dba2383c809aaef434c556af1247ba4a6791228c76f68daf",
         "e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
@@ -487,12 +527,30 @@
         "4e98f978e3927b0b224729cebec8fac717c4f6c81ef282a1cc2afc3e101d1391",
         "ebd1e36bad10d72cb2b725b7520e61d55cc3635dca3c7ce9b0d68b3d9f3da64b",
         "361db6685e9a46d64b857ff8834361c7a4381d06adcd02e2539fb5df8952b0c3",
-        "17418398dabaff118e32087b9eaef42db32161cbd82aafd94e794bbe96683ab9",
-        "bbd41cc35d1cc3701be179e59cb12aff1e669522315a8318b74cf6808256f12b",
-        "d4189d063c6c7e76877188a2e40c4492f0a4bc1eefa5405bfe6b1018b0b243f9"
+        "17418398dabaff118e32087b9eaef42db32161cbd82aafd94e794bbe96683ab9"
       ],
-      "summary": "Yemen’s Houthi leader ⁠Abdul Malik al-Houthi said all Saudi ​oil and other vital facilities ⁠would be targets for the group’s ⁠missiles and drones if ​Riyadh ‌involved itself ‌in what he ‌described as “comprehensive aggression” against Yemen and moved towards escalation. A drone struck a ship located off the port in Iraq’s southern province of Basra, reports said on Thursday, with AFP and Reuters citing oil and security sources as saying the ship was “carrying American-branded cars” and had arrived from the United Arab Emirates. It’s an old dilemma, for certain, but little digital town criers in our pockets bring instant, constant news about slaughter and ruin in Gaza, Ukraine, Sudan, and beyond — grim notices against the background of those chronicling the state of domestic American politics. It’sa political book, and a serious one, centered on the aftermath of Egypt’s 1952 revolution and military coup, and succeeds largely because its narrator goes out of his way to be anything but, well, political. Published On 17 Jul 2026 17 Jul 2026 The head of the International Energy Agency has warned that global energy security is under serious threat unless efforts by the United States and Iran lead to improved oil flows through the Strait of Hormuz. “The Strait of Hormuz is entirely within the sovereignty of Iran and Oman, and no external party has the right to interfere in its affairs, especially the United States of America.” Al Jazeera’s Rosiland Jordan said the US military’s Central Command (CENTCOM) had not released a formal report on its sixth night... (Alexander Nemenov/AFP via Getty Images) More than 2 million soldiers on both sides have been killed or wounded since Russia’s February 2022 invasion, with Russia bearing 1.4 million of those casualties, the CSIS researchers found, including as many as 450,000 dead — the highest battlefield death toll suffered by any major power since World War II.",
+      "summary": "The European Union is ramping up its security missions in the Red Sea as the Iran-backed Houthis are reported to be preparing at Tehran's behest to close the Bab el-Mandeb strait, the gateway to the key Red Sea global shipping route and oil route in the Horn of Africa. The campaign drove a roughly 50% drop in commercial traffic through the Red Sea between late 2023 and early 2024, forcing dozens of major shipping companies to reroute around Africa. One of the industry’s most influential figures warned the shift to drones and AI systems could disrupt defense as much as SpaceX transformed the launch business, as wars in Ukraine and Iran expose the need for faster developments and mass production. Organizers said defense will represent half of the record 1,600 exhibitors at the show, up from 40% historically, with a sharp increase in AI, deep-tech and finance companies. Yemen’s Houthi leader ⁠Abdul Malik al-Houthi said all Saudi ​oil and other vital facilities ⁠would be targets for the group’s ⁠missiles and drones if ​Riyadh ‌involved itself ‌in what he ‌described as “comprehensive aggression” against Yemen and moved towards escalation. A drone struck a ship located off the port in Iraq’s southern province of Basra, reports said on Thursday, with AFP and Reuters citing oil and security sources as saying the ship was “carrying American-branded cars” and had arrived from the United Arab Emirates. It’s an old dilemma, for certain, but little digital town criers in our pockets bring instant, constant news about slaughter and ruin in Gaza, Ukraine, Sudan, and beyond — grim notices against the background of those chronicling the state of domestic American politics. It’sa political book, and a serious one, centered on the aftermath of Egypt’s 1952 revolution and military coup, and succeeds largely because its narrator goes out of his way to be anything but, well, political.",
       "latest": [
+        {
+          "id": "b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6",
+          "title": "EU bolsters Red Sea mission amid reports Houthis may shut Bab el-Mandeb",
+          "url": "http://www.euronews.com/2026/07/17/eu-bolsters-red-sea-mission-amid-reports-houthis-may-shut-bab-el-mandeb",
+          "host": "euronews.com",
+          "format": "Article",
+          "collected_at": "2026-07-17T13:08:49.893739+00:00",
+          "published": "Fri, 17 Jul 2026 14:23:00 +0200",
+          "summary": "The European Union is ramping up its security missions in the Red Sea as the Iran-backed Houthis are reported to be preparing at Tehran's behest to close the Bab el-Mandeb strait, the gateway to the key Red Sea global shipping route and oil route in the Horn of Africa. The campaign drove a roughly 50% drop in commercial traffic through the Red Sea between late 2023 and early 2024, forcing dozens of major shipping companies to reroute around Africa."
+        },
+        {
+          "id": "1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda",
+          "title": "Wars shift focus from jets to weapons at giant Farnborough Airshow",
+          "url": "https://www.defensenews.com/global/europe/2026/07/17/wars-shift-focus-from-jets-to-weapons-at-giant-farnborough-airshow/",
+          "host": "defensenews.com",
+          "format": "Article",
+          "collected_at": "2026-07-17T13:08:49.717636+00:00",
+          "published": "Fri, 17 Jul 2026 12:20:33 +0000",
+          "summary": "One of the industry’s most influential figures warned the shift to drones and AI systems could disrupt defense as much as SpaceX transformed the launch business, as wars in Ukraine and Iran expose the need for faster developments and mass production. Organizers said defense will represent half of the record 1,600 exhibitors at the show, up from 40% historically, with a sharp increase in AI, deep-tech and finance companies."
+        },
         {
           "id": "f9a86eeef051919ba5abe54696ceef5a45c37fe86ec3c1ea5132a6fa02639dad",
           "title": "US strikes on Iran reportedly hit airport and bridges – Middle East crisis live",
@@ -522,36 +580,16 @@
           "collected_at": "2026-07-17T04:58:50.820391+00:00",
           "published": "Fri, 17 Jul 2026 02:25:55 +0000",
           "summary": "Published On 17 Jul 2026 17 Jul 2026 The head of the International Energy Agency has warned that global energy security is under serious threat unless efforts by the United States and Iran lead to improved oil flows through the Strait of Hormuz. “The Strait of Hormuz is entirely within the sovereignty of Iran and Oman, and no external party has the right to interfere in its affairs, especially the United States of America.” Al Jazeera’s Rosiland Jordan said the US military’s Central Command (CENTCOM) had not released a formal report on its sixth night..."
-        },
-        {
-          "id": "062afe477327ccb09984ec5178a84c6c9e8f9fb529066c38a20816c06070b3d3",
-          "title": "Russian troops survive just 20-30 minutes on Ukraine’s front lines, CIA director says",
-          "url": "https://www.defensenews.com/global/europe/2026/07/16/russian-troops-survive-just-20-30-minutes-on-ukraines-front-lines-cia-director-says/",
-          "host": "defensenews.com",
-          "format": "Article",
-          "collected_at": "2026-07-16T22:01:12.524021+00:00",
-          "published": "Thu, 16 Jul 2026 21:07:19 +0000",
-          "summary": "(Alexander Nemenov/AFP via Getty Images) More than 2 million soldiers on both sides have been killed or wounded since Russia’s February 2022 invasion, with Russia bearing 1.4 million of those casualties, the CSIS researchers found, including as many as 450,000 dead — the highest battlefield death toll suffered by any major power since World War II."
-        },
-        {
-          "id": "4e98f978e3927b0b224729cebec8fac717c4f6c81ef282a1cc2afc3e101d1391",
-          "title": "Zelensky’s Cabinet Reshuffle Sparks Public Outcry in Ukraine",
-          "url": "https://foreignpolicy.com/2026/07/16/ukraine-zelensky-cabinet-reshuffle-protests-fedorov-russia-war-drones/",
-          "host": "foreignpolicy.com",
-          "format": "Article",
-          "collected_at": "2026-07-16T22:01:03.883700+00:00",
-          "published": "Thu, 16 Jul 2026 20:51:49 +0000",
-          "summary": "“The war has changed completely,” Fedorov said on Thursday, arguing that new advancements are necessary to counter Russia. Welcome back to World Brief, where we’re looking at protests in Ukraine, Iran ’s new threats to the Gulf region, and dangerous air quality levels for Canada and the United States. Many Ukrainians have praised Fedorov for cracking down on corruption and pushing for asymmetric warfare that would limit Ukrainian casualties."
         }
       ]
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 1260,
+      "count": 1261,
       "formats": [
         {
           "name": "Article",
-          "value": 1061
+          "value": 1062
         },
         {
           "name": "PDF",
@@ -571,6 +609,7 @@
         }
       ],
       "evidence_ids": [
+        "b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6",
         "062afe477327ccb09984ec5178a84c6c9e8f9fb529066c38a20816c06070b3d3",
         "4e98f978e3927b0b224729cebec8fac717c4f6c81ef282a1cc2afc3e101d1391",
         "ebd1e36bad10d72cb2b725b7520e61d55cc3635dca3c7ce9b0d68b3d9f3da64b",
@@ -579,11 +618,20 @@
         "d4189d063c6c7e76877188a2e40c4492f0a4bc1eefa5405bfe6b1018b0b243f9",
         "1c9027c72598dbb1722e3771673f9e3d570970bfed8f24c16062d19c0180a673",
         "cd82cc72b28022a2b5eb4505c5178aaf27691614bdda4b5d6e7ee4c92a78f091",
-        "1c6df1b73a913b6da57862b8d2ab106b290beb370e3e957982019681fb9dc8bf",
-        "a5e069807829d4bda512bba1b87fdfff98cfbd6975bf9d18323059591d6161ec"
+        "1c6df1b73a913b6da57862b8d2ab106b290beb370e3e957982019681fb9dc8bf"
       ],
-      "summary": "(Alexander Nemenov/AFP via Getty Images) More than 2 million soldiers on both sides have been killed or wounded since Russia’s February 2022 invasion, with Russia bearing 1.4 million of those casualties, the CSIS researchers found, including as many as 450,000 dead — the highest battlefield death toll suffered by any major power since World War II. “The war has changed completely,” Fedorov said on Thursday, arguing that new advancements are necessary to counter Russia. Welcome back to World Brief, where we’re looking at protests in Ukraine, Iran ’s new threats to the Gulf region, and dangerous air quality levels for Canada and the United States. Many Ukrainians have praised Fedorov for cracking down on corruption and pushing for asymmetric warfare that would limit Ukrainian casualties. Senator John Fetterman said he would consider leaving the Democratic party it ever became “the anti-Israel party”, as more than 100 House lawmakers backed halting military aid to the Middle Eastern ally over its incursions into Gaza and Lebanon. “If I was going to, I would have already done that.” The senator spoke on the same day 103 House Democrats voted for an unsuccessful bid to halt $3.3bn in aid for Israel, the majority of which would be for its military. Speaking at a press conference in Kyiv with the British prime minister, Keir Starmer, Zelenskyy said there had been a “challenging dialogue” between Fedorov – widely seen as a reformist and moderniser – and the military’s commander in chief, Col Gen Oleksandr Syrskyi. Photograph: Sergey Dolzhenko/EPA The UK prime minister said Ukrainian drone strikes on long-range targets inside Russia had shifted the war’s momentum.",
+      "summary": "The European Union is ramping up its security missions in the Red Sea as the Iran-backed Houthis are reported to be preparing at Tehran's behest to close the Bab el-Mandeb strait, the gateway to the key Red Sea global shipping route and oil route in the Horn of Africa. The campaign drove a roughly 50% drop in commercial traffic through the Red Sea between late 2023 and early 2024, forcing dozens of major shipping companies to reroute around Africa. (Alexander Nemenov/AFP via Getty Images) More than 2 million soldiers on both sides have been killed or wounded since Russia’s February 2022 invasion, with Russia bearing 1.4 million of those casualties, the CSIS researchers found, including as many as 450,000 dead — the highest battlefield death toll suffered by any major power since World War II. “The war has changed completely,” Fedorov said on Thursday, arguing that new advancements are necessary to counter Russia. Welcome back to World Brief, where we’re looking at protests in Ukraine, Iran ’s new threats to the Gulf region, and dangerous air quality levels for Canada and the United States. Many Ukrainians have praised Fedorov for cracking down on corruption and pushing for asymmetric warfare that would limit Ukrainian casualties. Senator John Fetterman said he would consider leaving the Democratic party it ever became “the anti-Israel party”, as more than 100 House lawmakers backed halting military aid to the Middle Eastern ally over its incursions into Gaza and Lebanon. “If I was going to, I would have already done that.” The senator spoke on the same day 103 House Democrats voted for an unsuccessful bid to halt $3.3bn in aid for Israel, the majority of which would be for its military.",
       "latest": [
+        {
+          "id": "b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6",
+          "title": "EU bolsters Red Sea mission amid reports Houthis may shut Bab el-Mandeb",
+          "url": "http://www.euronews.com/2026/07/17/eu-bolsters-red-sea-mission-amid-reports-houthis-may-shut-bab-el-mandeb",
+          "host": "euronews.com",
+          "format": "Article",
+          "collected_at": "2026-07-17T13:08:49.893739+00:00",
+          "published": "Fri, 17 Jul 2026 14:23:00 +0200",
+          "summary": "The European Union is ramping up its security missions in the Red Sea as the Iran-backed Houthis are reported to be preparing at Tehran's behest to close the Bab el-Mandeb strait, the gateway to the key Red Sea global shipping route and oil route in the Horn of Africa. The campaign drove a roughly 50% drop in commercial traffic through the Red Sea between late 2023 and early 2024, forcing dozens of major shipping companies to reroute around Africa."
+        },
         {
           "id": "062afe477327ccb09984ec5178a84c6c9e8f9fb529066c38a20816c06070b3d3",
           "title": "Russian troops survive just 20-30 minutes on Ukraine’s front lines, CIA director says",
@@ -623,16 +671,6 @@
           "collected_at": "2026-07-16T23:54:09.400836+00:00",
           "published": "Thu, 16 Jul 2026 18:25:48 GMT",
           "summary": "Speaking at a press conference in Kyiv with the British prime minister, Keir Starmer, Zelenskyy said there had been a “challenging dialogue” between Fedorov – widely seen as a reformist and moderniser – and the military’s commander in chief, Col Gen Oleksandr Syrskyi. Photograph: Sergey Dolzhenko/EPA The UK prime minister said Ukrainian drone strikes on long-range targets inside Russia had shifted the war’s momentum."
-        },
-        {
-          "id": "17418398dabaff118e32087b9eaef42db32161cbd82aafd94e794bbe96683ab9",
-          "title": "German Military Power Needs to Go It Alone",
-          "url": "https://foreignpolicy.com/2026/07/16/germany-military-power-bundeswehr-nato-europe-russia/",
-          "host": "foreignpolicy.com",
-          "format": "Article",
-          "collected_at": "2026-07-16T17:07:32.959879+00:00",
-          "published": "Thu, 16 Jul 2026 16:05:43 +0000",
-          "summary": "NATO’s European forces are already burdened by disjointed structures, national caveats, and cumbersome chains of command—and the way they have been assembled into multinational forces is a product of intra-alliance diplomacy during peacetime, not of a laser focus on effectiveness in war. Others wonder whether European NATO members are heading toward a genuinely integrated defense of their continent—or simply back to rival national armies now that the United States no longer leads."
         }
       ]
     },
@@ -729,11 +767,11 @@
     },
     {
       "name": "Territory and Chokepoints",
-      "count": 822,
+      "count": 823,
       "formats": [
         {
           "name": "Article",
-          "value": 651
+          "value": 652
         },
         {
           "name": "PDF",
@@ -753,6 +791,7 @@
         }
       ],
       "evidence_ids": [
+        "b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6",
         "f9a86eeef051919ba5abe54696ceef5a45c37fe86ec3c1ea5132a6fa02639dad",
         "e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
         "4e98f978e3927b0b224729cebec8fac717c4f6c81ef282a1cc2afc3e101d1391",
@@ -761,11 +800,20 @@
         "df75cd8208a446d9820445c50855efa91da4b0bd517559dd1d34e5b40adf7c12",
         "c41a6434ecabaec16c6470d86eec5e4217721f765cc0e54d227420c35a06cbd9",
         "ee8c76d916e91bd5caf952c206e691faa79e2255f08fc7b5ad0934dba38c5980",
-        "3913f751f7f91f47e0096587684c57a3772320b747c2c8fa522bfe805a103586",
-        "470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c"
+        "3913f751f7f91f47e0096587684c57a3772320b747c2c8fa522bfe805a103586"
       ],
-      "summary": "Yemen’s Houthi leader ⁠Abdul Malik al-Houthi said all Saudi ​oil and other vital facilities ⁠would be targets for the group’s ⁠missiles and drones if ​Riyadh ‌involved itself ‌in what he ‌described as “comprehensive aggression” against Yemen and moved towards escalation. A drone struck a ship located off the port in Iraq’s southern province of Basra, reports said on Thursday, with AFP and Reuters citing oil and security sources as saying the ship was “carrying American-branded cars” and had arrived from the United Arab Emirates. Published On 17 Jul 2026 17 Jul 2026 The head of the International Energy Agency has warned that global energy security is under serious threat unless efforts by the United States and Iran lead to improved oil flows through the Strait of Hormuz. “The Strait of Hormuz is entirely within the sovereignty of Iran and Oman, and no external party has the right to interfere in its affairs, especially the United States of America.” Al Jazeera’s Rosiland Jordan said the US military’s Central Command (CENTCOM) had not released a formal report on its sixth night... “The war has changed completely,” Fedorov said on Thursday, arguing that new advancements are necessary to counter Russia. Welcome back to World Brief, where we’re looking at protests in Ukraine, Iran ’s new threats to the Gulf region, and dangerous air quality levels for Canada and the United States. Many Ukrainians have praised Fedorov for cracking down on corruption and pushing for asymmetric warfare that would limit Ukrainian casualties. URL: https://www.aljazeera.com/video/inside-story/2026/7/16/how-serious-is-irans-threat-to-disrupt-shipping-in-the-red-sea?traffic_source=rss Source: https://www.aljazeera.com/xml/rss/all.xml Content-Type: text/html; charset=utf-8 Bytes: 206212 Title: How serious is Iran’s threat to disrupt shipping in the Red Sea? Binary video_content source collected for Global Geopolitics Monitor.",
+      "summary": "The European Union is ramping up its security missions in the Red Sea as the Iran-backed Houthis are reported to be preparing at Tehran's behest to close the Bab el-Mandeb strait, the gateway to the key Red Sea global shipping route and oil route in the Horn of Africa. The campaign drove a roughly 50% drop in commercial traffic through the Red Sea between late 2023 and early 2024, forcing dozens of major shipping companies to reroute around Africa. Yemen’s Houthi leader ⁠Abdul Malik al-Houthi said all Saudi ​oil and other vital facilities ⁠would be targets for the group’s ⁠missiles and drones if ​Riyadh ‌involved itself ‌in what he ‌described as “comprehensive aggression” against Yemen and moved towards escalation. A drone struck a ship located off the port in Iraq’s southern province of Basra, reports said on Thursday, with AFP and Reuters citing oil and security sources as saying the ship was “carrying American-branded cars” and had arrived from the United Arab Emirates. Published On 17 Jul 2026 17 Jul 2026 The head of the International Energy Agency has warned that global energy security is under serious threat unless efforts by the United States and Iran lead to improved oil flows through the Strait of Hormuz. “The Strait of Hormuz is entirely within the sovereignty of Iran and Oman, and no external party has the right to interfere in its affairs, especially the United States of America.” Al Jazeera’s Rosiland Jordan said the US military’s Central Command (CENTCOM) had not released a formal report on its sixth night... “The war has changed completely,” Fedorov said on Thursday, arguing that new advancements are necessary to counter Russia. Welcome back to World Brief, where we’re looking at protests in Ukraine, Iran ’s new threats to the Gulf region, and dangerous air quality levels for Canada and the United States. Many Ukrainians have praised Fedorov for cracking down on corruption and pushing for asymmetric warfare that would limit Ukrainian casualties.",
       "latest": [
+        {
+          "id": "b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6",
+          "title": "EU bolsters Red Sea mission amid reports Houthis may shut Bab el-Mandeb",
+          "url": "http://www.euronews.com/2026/07/17/eu-bolsters-red-sea-mission-amid-reports-houthis-may-shut-bab-el-mandeb",
+          "host": "euronews.com",
+          "format": "Article",
+          "collected_at": "2026-07-17T13:08:49.893739+00:00",
+          "published": "Fri, 17 Jul 2026 14:23:00 +0200",
+          "summary": "The European Union is ramping up its security missions in the Red Sea as the Iran-backed Houthis are reported to be preparing at Tehran's behest to close the Bab el-Mandeb strait, the gateway to the key Red Sea global shipping route and oil route in the Horn of Africa. The campaign drove a roughly 50% drop in commercial traffic through the Red Sea between late 2023 and early 2024, forcing dozens of major shipping companies to reroute around Africa."
+        },
         {
           "id": "f9a86eeef051919ba5abe54696ceef5a45c37fe86ec3c1ea5132a6fa02639dad",
           "title": "US strikes on Iran reportedly hit airport and bridges – Middle East crisis live",
@@ -805,26 +853,16 @@
           "collected_at": "2026-07-16T20:55:55.313980+00:00",
           "published": "Thu, 16 Jul 2026 19:44:16 +0000",
           "summary": "URL: https://www.aljazeera.com/video/inside-story/2026/7/16/how-serious-is-irans-threat-to-disrupt-shipping-in-the-red-sea?traffic_source=rss Source: https://www.aljazeera.com/xml/rss/all.xml Content-Type: text/html; charset=utf-8 Bytes: 206212 Title: How serious is Iran’s threat to disrupt shipping in the Red Sea? Binary video_content source collected for Global Geopolitics Monitor."
-        },
-        {
-          "id": "cd82cc72b28022a2b5eb4505c5178aaf27691614bdda4b5d6e7ee4c92a78f091",
-          "title": "Target of Monaco bomb blames attack on Ukrainian spy agency",
-          "url": "https://www.theguardian.com/world/2026/jul/16/target-of-monaco-bomb-blames-attack-on-ukrainian-spy-agency",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-07-16T15:30:03.312134+00:00",
-          "published": "Thu, 16 Jul 2026 14:51:34 GMT",
-          "summary": "“Based on the investigative evidence available to us, we have no doubt that serving officers of the main intelligence directorate of the ministry of defence of Ukraine, commonly known as the GUR, were directly involved in this attempted assassination,” Iermolaiev said in a statement published by his lawyers. In his first public statement since the bombing that shook the wealthy principality, Vadym Iermolaiev alleged that serving and former officers of the GUR military intelligence agency were behind the attempted killing, which left him injured but his..."
         }
       ]
     },
     {
       "name": "Energy and Supply Chains",
-      "count": 645,
+      "count": 647,
       "formats": [
         {
           "name": "Article",
-          "value": 518
+          "value": 520
         },
         {
           "name": "PDF",
@@ -840,6 +878,8 @@
         }
       ],
       "evidence_ids": [
+        "b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6",
+        "1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda",
         "f9a86eeef051919ba5abe54696ceef5a45c37fe86ec3c1ea5132a6fa02639dad",
         "e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
         "b3ee9d109a83385563eb524a7b326ff7fcc2751f88455ed61d7540be0bd2c1b5",
@@ -847,12 +887,30 @@
         "d4189d063c6c7e76877188a2e40c4492f0a4bc1eefa5405bfe6b1018b0b243f9",
         "1c9027c72598dbb1722e3771673f9e3d570970bfed8f24c16062d19c0180a673",
         "df75cd8208a446d9820445c50855efa91da4b0bd517559dd1d34e5b40adf7c12",
-        "c41a6434ecabaec16c6470d86eec5e4217721f765cc0e54d227420c35a06cbd9",
-        "de8c4e1f231e7e5004a9485040869064aeee67424e447adb7cece0ff38da2a23",
-        "c25fdb8e4574be92d62eb024ca3622f0264b7187453d2b5c427d5f557f5c84ee"
+        "c41a6434ecabaec16c6470d86eec5e4217721f765cc0e54d227420c35a06cbd9"
       ],
-      "summary": "Yemen’s Houthi leader ⁠Abdul Malik al-Houthi said all Saudi ​oil and other vital facilities ⁠would be targets for the group’s ⁠missiles and drones if ​Riyadh ‌involved itself ‌in what he ‌described as “comprehensive aggression” against Yemen and moved towards escalation. A drone struck a ship located off the port in Iraq’s southern province of Basra, reports said on Thursday, with AFP and Reuters citing oil and security sources as saying the ship was “carrying American-branded cars” and had arrived from the United Arab Emirates. Published On 17 Jul 2026 17 Jul 2026 The head of the International Energy Agency has warned that global energy security is under serious threat unless efforts by the United States and Iran lead to improved oil flows through the Strait of Hormuz. “The Strait of Hormuz is entirely within the sovereignty of Iran and Oman, and no external party has the right to interfere in its affairs, especially the United States of America.” Al Jazeera’s Rosiland Jordan said the US military’s Central Command (CENTCOM) had not released a formal report on its sixth night... URL: https://www.aljazeera.com/video/inside-story/2026/7/16/how-serious-is-irans-threat-to-disrupt-shipping-in-the-red-sea?traffic_source=rss Source: https://www.aljazeera.com/xml/rss/all.xml Content-Type: text/html; charset=utf-8 Bytes: 206212 Title: How serious is Iran’s threat to disrupt shipping in the Red Sea? Binary video_content source collected for Global Geopolitics Monitor. Speaking at a press conference in Kyiv with the British prime minister, Keir Starmer, Zelenskyy said there had been a “challenging dialogue” between Fedorov – widely seen as a reformist and moderniser – and the military’s commander in chief, Col Gen Oleksandr Syrskyi. Photograph: Sergey Dolzhenko/EPA The UK prime minister said Ukrainian drone strikes on long-range targets inside Russia had shifted the war’s momentum.",
+      "summary": "The European Union is ramping up its security missions in the Red Sea as the Iran-backed Houthis are reported to be preparing at Tehran's behest to close the Bab el-Mandeb strait, the gateway to the key Red Sea global shipping route and oil route in the Horn of Africa. The campaign drove a roughly 50% drop in commercial traffic through the Red Sea between late 2023 and early 2024, forcing dozens of major shipping companies to reroute around Africa. One of the industry’s most influential figures warned the shift to drones and AI systems could disrupt defense as much as SpaceX transformed the launch business, as wars in Ukraine and Iran expose the need for faster developments and mass production. Organizers said defense will represent half of the record 1,600 exhibitors at the show, up from 40% historically, with a sharp increase in AI, deep-tech and finance companies. Yemen’s Houthi leader ⁠Abdul Malik al-Houthi said all Saudi ​oil and other vital facilities ⁠would be targets for the group’s ⁠missiles and drones if ​Riyadh ‌involved itself ‌in what he ‌described as “comprehensive aggression” against Yemen and moved towards escalation. A drone struck a ship located off the port in Iraq’s southern province of Basra, reports said on Thursday, with AFP and Reuters citing oil and security sources as saying the ship was “carrying American-branded cars” and had arrived from the United Arab Emirates. Published On 17 Jul 2026 17 Jul 2026 The head of the International Energy Agency has warned that global energy security is under serious threat unless efforts by the United States and Iran lead to improved oil flows through the Strait of Hormuz. “The Strait of Hormuz is entirely within the sovereignty of Iran and Oman, and no external party has the right to interfere in its affairs, especially the United States of America.” Al Jazeera’s Rosiland Jordan said the US military’s Central Command (CENTCOM) had not released a formal report on its sixth night...",
       "latest": [
+        {
+          "id": "b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6",
+          "title": "EU bolsters Red Sea mission amid reports Houthis may shut Bab el-Mandeb",
+          "url": "http://www.euronews.com/2026/07/17/eu-bolsters-red-sea-mission-amid-reports-houthis-may-shut-bab-el-mandeb",
+          "host": "euronews.com",
+          "format": "Article",
+          "collected_at": "2026-07-17T13:08:49.893739+00:00",
+          "published": "Fri, 17 Jul 2026 14:23:00 +0200",
+          "summary": "The European Union is ramping up its security missions in the Red Sea as the Iran-backed Houthis are reported to be preparing at Tehran's behest to close the Bab el-Mandeb strait, the gateway to the key Red Sea global shipping route and oil route in the Horn of Africa. The campaign drove a roughly 50% drop in commercial traffic through the Red Sea between late 2023 and early 2024, forcing dozens of major shipping companies to reroute around Africa."
+        },
+        {
+          "id": "1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda",
+          "title": "Wars shift focus from jets to weapons at giant Farnborough Airshow",
+          "url": "https://www.defensenews.com/global/europe/2026/07/17/wars-shift-focus-from-jets-to-weapons-at-giant-farnborough-airshow/",
+          "host": "defensenews.com",
+          "format": "Article",
+          "collected_at": "2026-07-17T13:08:49.717636+00:00",
+          "published": "Fri, 17 Jul 2026 12:20:33 +0000",
+          "summary": "One of the industry’s most influential figures warned the shift to drones and AI systems could disrupt defense as much as SpaceX transformed the launch business, as wars in Ukraine and Iran expose the need for faster developments and mass production. Organizers said defense will represent half of the record 1,600 exhibitors at the show, up from 40% historically, with a sharp increase in AI, deep-tech and finance companies."
+        },
         {
           "id": "f9a86eeef051919ba5abe54696ceef5a45c37fe86ec3c1ea5132a6fa02639dad",
           "title": "US strikes on Iran reportedly hit airport and bridges – Middle East crisis live",
@@ -882,26 +940,6 @@
           "collected_at": "2026-07-16T20:55:55.313980+00:00",
           "published": "Thu, 16 Jul 2026 19:44:16 +0000",
           "summary": "URL: https://www.aljazeera.com/video/inside-story/2026/7/16/how-serious-is-irans-threat-to-disrupt-shipping-in-the-red-sea?traffic_source=rss Source: https://www.aljazeera.com/xml/rss/all.xml Content-Type: text/html; charset=utf-8 Bytes: 206212 Title: How serious is Iran’s threat to disrupt shipping in the Red Sea? Binary video_content source collected for Global Geopolitics Monitor."
-        },
-        {
-          "id": "361db6685e9a46d64b857ff8834361c7a4381d06adcd02e2539fb5df8952b0c3",
-          "title": "Political crisis and protests in Ukraine as Zelenskyy defends sacking defence minister",
-          "url": "https://www.theguardian.com/world/2026/jul/17/zelenskyy-defends-sacking-ukraine-defence-minister-mykhailo-fedorov",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-07-16T23:54:09.400836+00:00",
-          "published": "Thu, 16 Jul 2026 18:25:48 GMT",
-          "summary": "Speaking at a press conference in Kyiv with the British prime minister, Keir Starmer, Zelenskyy said there had been a “challenging dialogue” between Fedorov – widely seen as a reformist and moderniser – and the military’s commander in chief, Col Gen Oleksandr Syrskyi. Photograph: Sergey Dolzhenko/EPA The UK prime minister said Ukrainian drone strikes on long-range targets inside Russia had shifted the war’s momentum."
-        },
-        {
-          "id": "d4189d063c6c7e76877188a2e40c4492f0a4bc1eefa5405bfe6b1018b0b243f9",
-          "title": "Zelenskyy defends sacking Ukraine’s defence minister Mykhailo Fedorov",
-          "url": "https://www.theguardian.com/world/2026/jul/16/zelenskyy-defends-sacking-ukraine-defence-minister-mykhailo-federov",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-07-16T17:07:23.119202+00:00",
-          "published": "Thu, 16 Jul 2026 15:16:10 GMT",
-          "summary": "Speaking at a press conference in Kyiv with the British prime minister, Keir Starmer, Zelenskyy said there had been a “challenging dialogue” between Fedorov – widely seen as a reformist and moderniser – and the military’s commander in chief, Col Gen Oleksandr Syrskyi. Photograph: Sergey Dolzhenko/EPA The UK prime minister said Ukrainian drone strikes on long-range targets inside Russia had shifted the war’s momentum."
         }
       ]
     },
@@ -1178,8 +1216,10 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 1123,
+      "count": 1125,
       "evidence_ids": [
+        "b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6",
+        "1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda",
         "f9a86eeef051919ba5abe54696ceef5a45c37fe86ec3c1ea5132a6fa02639dad",
         "fce538f3455fb1f3dba2383c809aaef434c556af1247ba4a6791228c76f68daf",
         "e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
@@ -1189,9 +1229,7 @@
         "1c9027c72598dbb1722e3771673f9e3d570970bfed8f24c16062d19c0180a673",
         "df75cd8208a446d9820445c50855efa91da4b0bd517559dd1d34e5b40adf7c12",
         "57f22ab9ae76e60fb333520e0123926082dc4f84b0d5610858c15e10fac89309",
-        "7765c69e4fd1c037f506194a66e36658bab97084f6609470e8f69f4d439267d8",
-        "c41a6434ecabaec16c6470d86eec5e4217721f765cc0e54d227420c35a06cbd9",
-        "ee8c76d916e91bd5caf952c206e691faa79e2255f08fc7b5ad0934dba38c5980"
+        "7765c69e4fd1c037f506194a66e36658bab97084f6609470e8f69f4d439267d8"
       ],
       "top_sources": [
         {
@@ -1218,8 +1256,9 @@
     },
     {
       "name": "Europe and Russia",
-      "count": 967,
+      "count": 968,
       "evidence_ids": [
+        "1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda",
         "fce538f3455fb1f3dba2383c809aaef434c556af1247ba4a6791228c76f68daf",
         "062afe477327ccb09984ec5178a84c6c9e8f9fb529066c38a20816c06070b3d3",
         "4e98f978e3927b0b224729cebec8fac717c4f6c81ef282a1cc2afc3e101d1391",
@@ -1230,8 +1269,7 @@
         "d4189d063c6c7e76877188a2e40c4492f0a4bc1eefa5405bfe6b1018b0b243f9",
         "1c9027c72598dbb1722e3771673f9e3d570970bfed8f24c16062d19c0180a673",
         "cd82cc72b28022a2b5eb4505c5178aaf27691614bdda4b5d6e7ee4c92a78f091",
-        "1c6df1b73a913b6da57862b8d2ab106b290beb370e3e957982019681fb9dc8bf",
-        "a5e069807829d4bda512bba1b87fdfff98cfbd6975bf9d18323059591d6161ec"
+        "1c6df1b73a913b6da57862b8d2ab106b290beb370e3e957982019681fb9dc8bf"
       ],
       "top_sources": [
         {
@@ -1244,7 +1282,7 @@
         },
         {
           "name": "defensenews.com",
-          "value": 105
+          "value": 106
         },
         {
           "name": "aljazeera.com",
@@ -1338,8 +1376,10 @@
     },
     {
       "name": "Africa",
-      "count": 520,
+      "count": 522,
       "evidence_ids": [
+        "b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6",
+        "59056678168766ad7bb2e194a3e61b7faf26efb32a64bbcfc26d4d71b5b85333",
         "f9a86eeef051919ba5abe54696ceef5a45c37fe86ec3c1ea5132a6fa02639dad",
         "fce538f3455fb1f3dba2383c809aaef434c556af1247ba4a6791228c76f68daf",
         "33b22e8fbe8673e77da62d6f8afa5659317d6ffc53fd9bebc34e691f199943ec",
@@ -1349,9 +1389,7 @@
         "388ae2a703e065f66f9f9f8adb13672aa5a93e66fd5bbb62c6b760bb27b8d216",
         "b4afc7b4cf877c76dd49332c7d1b9ba5b87eed2649fd00c5f5a53c9cf9f606a6",
         "cec6fa35f2f59af83c12e9151257d573c85ac9e35a3fe8ec89c42d5966193f1d",
-        "637a9934ef88439e773b14967bba26ce2d0a8c31105108d227d562713c6ad2bf",
-        "ea3fe8cb2ce1f587dc0617e2490fd78dece9a233cd7ba7f8693116aaea3a6ffb",
-        "c80a29248c6e08e3d0cbb9bc92dcd5d7f5b02daffbf1bafddc875fac58e3a983"
+        "637a9934ef88439e773b14967bba26ce2d0a8c31105108d227d562713c6ad2bf"
       ],
       "top_sources": [
         {
@@ -1368,7 +1406,7 @@
         },
         {
           "name": "global.unitednations.entermediadb.net",
-          "value": 35
+          "value": 36
         },
         {
           "name": "news.un.org",
@@ -1378,8 +1416,10 @@
     },
     {
       "name": "Indo-Pacific",
-      "count": 448,
+      "count": 450,
       "evidence_ids": [
+        "b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6",
+        "1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda",
         "e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
         "df75cd8208a446d9820445c50855efa91da4b0bd517559dd1d34e5b40adf7c12",
         "c41a6434ecabaec16c6470d86eec5e4217721f765cc0e54d227420c35a06cbd9",
@@ -1389,9 +1429,7 @@
         "470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c",
         "916e5f00440509e28e1d55c6089fb002bab8bba8464a893b81d02dd3c8633ba9",
         "2370279b223bbe12fb6bdd90e21bf814e52742da69006a70b0cb17f853b1f98c",
-        "d8ebabfbd3aa2cfed864bed83169cd9f6f59b962e585e7d7d7c65ca84ac28891",
-        "5408e70db8c27c295462c79d78bd636aa0b66eddd8915abb5ba752a35870364d",
-        "ec024d1cafee66519ff78dda5cda11ef2b7a0cdf8e39695d133d90a91b3c9901"
+        "d8ebabfbd3aa2cfed864bed83169cd9f6f59b962e585e7d7d7c65ca84ac28891"
       ],
       "top_sources": [
         {
@@ -1418,6 +1456,13 @@
     }
   ],
   "timeline": [
+    {
+      "date": "2027",
+      "evidence_id": "1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda",
+      "title": "Wars shift focus from jets to weapons at giant Farnborough Airshow",
+      "url": "https://www.defensenews.com/global/europe/2026/07/17/wars-shift-focus-from-jets-to-weapons-at-giant-farnborough-airshow/",
+      "excerpt": "ch issues is key to a repeatedly delayed target by Airbus to lift single-aisle jet output by about 25% to 75 a month in 2027. Boeing, looking to narrow a gap against its rival and put a floor under declining market share, has signaled it is studying production above currently targeted levels. “The supply chain...has improved relative to where it was a year or two ago but (not)"
+    },
     {
       "date": "2027",
       "evidence_id": "5408e70db8c27c295462c79d78bd636aa0b66eddd8915abb5ba752a35870364d",
@@ -2390,16 +2435,237 @@
       "title": "Invisible peacebuilders: How ‘diplomacy works’ to prevent conflict (image)",
       "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/07/02-07-2026_UNP_Cameroon.jpg/image560x340cropped.jpg",
       "excerpt": "tps://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/07/02-07-2026_UNP_Cameroon.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 35378"
-    },
-    {
-      "date": "2026/07/02",
-      "evidence_id": "82e92817dc05f8e5ebcedf2a33aa714f70c926f032cd24588f921921cb166d95",
-      "title": "Ukraine: Rescuers work to save trapped residents after wave of Russian attacks (image)",
-      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/07/02-07-2026-UNICEF-Ukraine-01.jpg/image560x340cropped.jpg",
-      "excerpt": "tps://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/07/02-07-2026-UNICEF-Ukraine-01.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 49954"
     }
   ],
   "latest_evidence": [
+    {
+      "id": "b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6",
+      "topic": "geopolitics",
+      "title": "EU bolsters Red Sea mission amid reports Houthis may shut Bab el-Mandeb",
+      "url": "http://www.euronews.com/2026/07/17/eu-bolsters-red-sea-mission-amid-reports-houthis-may-shut-bab-el-mandeb",
+      "host": "euronews.com",
+      "source": "https://www.euronews.com/rss?level=theme&name=news",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-17T13:08:49.893739+00:00",
+      "published": "Fri, 17 Jul 2026 14:23:00 +0200",
+      "text_chars": 5378,
+      "raw_path": "data/geopolitics/raw/b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6.html",
+      "text_path": "data/geopolitics/raw/b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6.txt",
+      "summary": "The European Union is ramping up its security missions in the Red Sea as the Iran-backed Houthis are reported to be preparing at Tehran's behest to close the Bab el-Mandeb strait, the gateway to the key Red Sea global shipping route and oil route in the Horn of Africa. The campaign drove a roughly 50% drop in commercial traffic through the Red Sea between late 2023 and early 2024, forcing dozens of major shipping companies to reroute around Africa.",
+      "bullets": [
+        "The European Union is ramping up its security missions in the Red Sea as the Iran-backed Houthis are reported to be preparing at Tehran's behest to close the Bab el-Mandeb strait, the gateway to the key Red Sea global shipping route and oil route in the Horn of Africa.",
+        "The campaign drove a roughly 50% drop in commercial traffic through the Red Sea between late 2023 and early 2024, forcing dozens of major shipping companies to reroute around Africa.",
+        "The Houthis launched their Red Sea campaign in October 2023, declaring solidarity with Hamas during the war in Gaza and targeting vessels they alleged had Israeli connections.",
+        "EUNAVFOR Aspides, launched in February 2024 in response to the Houthi campaign against commercial shipping that began in October 2023, is a purely defensive maritime security mission covering the Red Sea, Gulf of Aden, Arabian Sea and Gulf of Oman.",
+        "ADVERTISEMENT ADVERTISEMENT The Bab el-Mandeb — Arabic for \"Gate of Tears\" — is a narrow strait roughly 30 kilometres wide at its narrowest point, separating Yemen on the Arabian Peninsula from Djibouti and Eritrea on the Horn of Africa."
+      ],
+      "excerpt": "The European Union is ramping up its security missions in the Red Sea as the Iran-backed Houthis are reported to be preparing at Tehran's behest to close the Bab el-Mandeb strait, the gateway to the key Red Sea global shipping route and oil route in the Horn of Africa. ADVERTISEMENT ADVERTISEMENT The Bab el-Mandeb — Arabic for \"Gate of Tears\" — is a narrow strait roughly 30 kilometres wide at its narrowest point, separating Yemen on the Arabian Peninsula from Djibouti and Eritrea on the Horn of Africa. Around 10-15% of global maritime trade passes through it, including a significant share of Europe's oil and gas imports. A closure would force vessels to take the much longer route around the Cape of Good Hope, adding two to three weeks to journeys between Asia and Europe and sharply increasing shipping costs. EU High Representative for Foreign Affairs and Security Policy Kaja Kallas wrapped up a trip to Djibouti on Thursday, where she visited the EU’s Aspides and Atalanta naval missions, which ensure security in the Red Sea against the Houthis. “Maritime security is under growing pressure,\" Kallas told the gathered press in Djibouti. \"Iran's repeated attacks on commercial vessels tr",
+      "keywords": [
+        {
+          "name": "security",
+          "value": 10
+        },
+        {
+          "name": "djibouti",
+          "value": 9
+        },
+        {
+          "name": "kallas",
+          "value": 8
+        },
+        {
+          "name": "maritime",
+          "value": 7
+        },
+        {
+          "name": "el-mandeb",
+          "value": 6
+        },
+        {
+          "name": "houthis",
+          "value": 6
+        },
+        {
+          "name": "iran",
+          "value": 5
+        },
+        {
+          "name": "shipping",
+          "value": 5
+        },
+        {
+          "name": "strait",
+          "value": 5
+        },
+        {
+          "name": "agreement",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Middle East",
+        "Indo-Pacific",
+        "Africa"
+      ],
+      "detail_path": "/evidence/b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6",
+      "evidence_json": "/evidence/b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6.json"
+    },
+    {
+      "id": "1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda",
+      "topic": "geopolitics",
+      "title": "Wars shift focus from jets to weapons at giant Farnborough Airshow",
+      "url": "https://www.defensenews.com/global/europe/2026/07/17/wars-shift-focus-from-jets-to-weapons-at-giant-farnborough-airshow/",
+      "host": "defensenews.com",
+      "source": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-07-17T13:08:49.717636+00:00",
+      "published": "Fri, 17 Jul 2026 12:20:33 +0000",
+      "text_chars": 4759,
+      "raw_path": "data/geopolitics/raw/1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda.html",
+      "text_path": "data/geopolitics/raw/1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda.txt",
+      "summary": "One of the industry’s most influential figures warned the shift to drones and AI systems could disrupt defense as much as SpaceX transformed the launch business, as wars in Ukraine and Iran expose the need for faster developments and mass production. Organizers said defense will represent half of the record 1,600 exhibitors at the show, up from 40% historically, with a sharp increase in AI, deep-tech and finance companies.",
+      "bullets": [
+        "One of the industry’s most influential figures warned the shift to drones and AI systems could disrupt defense as much as SpaceX transformed the launch business, as wars in Ukraine and Iran expose the need for faster developments and mass production.",
+        "Organizers said defense will represent half of the record 1,600 exhibitors at the show, up from 40% historically, with a sharp increase in AI, deep-tech and finance companies.",
+        "Air shows can still produce surprises, but industry sources said total deals may struggle to climb far above 300 aircraft, well below some pre-show forecasts of as many as 800 jets.",
+        "With the Ukraine war in its fifth year and a ceasefire in tatters in the Gulf, those risks are also likely to move the ritual contest between Boeing and Airbus for jetliner orders down the pecking order at the July 20 to 24 show.",
+        "“Valuations are tilting in favor of the defense entrants but … most militaries are still spending the vast amount of their resources on manned platforms,” said Byron Callan, managing partner of research firm Capital Alpha."
+      ],
+      "excerpt": "FARNBOROUGH, England, July 17 (Reuters) — Spiraling security risks are expected to push defense to the forefront of Britain’s Farnborough Airshow, as aerospace and arms makers struggle to keep pace with demand for weapons while cementing a fragile recovery in civil jet and engine production. With the Ukraine war in its fifth year and a ceasefire in tatters in the Gulf, those risks are also likely to move the ritual contest between Boeing and Airbus for jetliner orders down the pecking order at the July 20 to 24 show. “The global security environment is arguably more complex and volatile today than we have seen in many, many decades, and we are watching security threats evolve at a breakneck pace,” Air Chief Marshal Harv Smyth, head of the Royal Air Force, told an International Air Chiefs Conference ahead of the show. Weapons makers enter their biennial bazaar witnessing the biggest rise in European defense spending since the Cold War but with unresolved questions about where and how it will be spent. RELATED Experts say Beijing used both methods to try out new, attention-grabbing and long-term ways to deter others from challenging its territorial claims. One of the industry’s most ",
+      "keywords": [
+        {
+          "name": "defense",
+          "value": 7
+        },
+        {
+          "name": "airbus",
+          "value": 5
+        },
+        {
+          "name": "show",
+          "value": 5
+        },
+        {
+          "name": "boeing",
+          "value": 4
+        },
+        {
+          "name": "most",
+          "value": 4
+        },
+        {
+          "name": "production",
+          "value": 4
+        },
+        {
+          "name": "supply",
+          "value": 4
+        },
+        {
+          "name": "aerospace",
+          "value": 3
+        },
+        {
+          "name": "both",
+          "value": 3
+        },
+        {
+          "name": "companies",
+          "value": 3
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Energy and Supply Chains"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Indo-Pacific",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda",
+      "evidence_json": "/evidence/1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda.json"
+    },
+    {
+      "id": "59056678168766ad7bb2e194a3e61b7faf26efb32a64bbcfc26d4d71b5b85333",
+      "topic": "geopolitics",
+      "title": "Hunger deepens for displaced families in Sudan’s El Obeid (image)",
+      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/06/26-03-2026_Ala_Khadija.jpg/image560x340cropped.jpg",
+      "host": "global.unitednations.entermediadb.net",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "images",
+      "format": "Image",
+      "content_type": "image/jpeg",
+      "collected_at": "2026-07-17T13:08:51.546703+00:00",
+      "published": "Fri, 17 Jul 2026 12:00:00 +0000",
+      "text_chars": 433,
+      "raw_path": "data/geopolitics/raw/59056678168766ad7bb2e194a3e61b7faf26efb32a64bbcfc26d4d71b5b85333.jpg",
+      "text_path": "data/geopolitics/raw/59056678168766ad7bb2e194a3e61b7faf26efb32a64bbcfc26d4d71b5b85333.txt",
+      "summary": "Binary images source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Binary images source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: Hunger deepens for displaced families in Sudan’s El Obeid (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/06/26-03-2026_Ala_Khadija.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 24847",
+      "keywords": [
+        {
+          "name": "deepens",
+          "value": 2
+        },
+        {
+          "name": "displaced",
+          "value": 2
+        },
+        {
+          "name": "entermediadb",
+          "value": 2
+        },
+        {
+          "name": "families",
+          "value": 2
+        },
+        {
+          "name": "hunger",
+          "value": 2
+        },
+        {
+          "name": "obeid",
+          "value": 2
+        },
+        {
+          "name": "sudan",
+          "value": 2
+        },
+        {
+          "name": "unitednations",
+          "value": 2
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa"
+      ],
+      "preview_asset": "/evidence-assets/59056678168766ad7bb2e194a3e61b7faf26efb32a64bbcfc26d4d71b5b85333.jpg",
+      "detail_path": "/evidence/59056678168766ad7bb2e194a3e61b7faf26efb32a64bbcfc26d4d71b5b85333",
+      "evidence_json": "/evidence/59056678168766ad7bb2e194a3e61b7faf26efb32a64bbcfc26d4d71b5b85333.json"
+    },
     {
       "id": "f9a86eeef051919ba5abe54696ceef5a45c37fe86ec3c1ea5132a6fa02639dad",
       "topic": "geopolitics",
@@ -8411,239 +8677,6 @@
       "file_asset": "/evidence-files/3866e7ec67f44209541110fec9c0bede949ef9d6afe510389468c56f89c20839.pdf",
       "detail_path": "/evidence/3866e7ec67f44209541110fec9c0bede949ef9d6afe510389468c56f89c20839",
       "evidence_json": "/evidence/3866e7ec67f44209541110fec9c0bede949ef9d6afe510389468c56f89c20839.json"
-    },
-    {
-      "id": "c6d1ac121c2482b54a1855e39ebbc584c13926ffea98b84509f08d38aa3d68d1",
-      "topic": "geopolitics",
-      "title": "oPt: UNRWA Situation Report #229 on the Humanitarian Crisis in the Gaza Strip and the West Bank, including East Jerusalem [EN/AR] (pdf)",
-      "url": "https://reliefweb.int/attachments/046be781-a1f1-481e-b0c8-e9ff6734ba8f/unrwa_gaza_sitrep_229_8july_2026_eng.pdf",
-      "host": "reliefweb.int",
-      "source": "https://reliefweb.int/updates/rss.xml",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-07-15T04:45:23.165087+00:00",
-      "published": "Wed, 15 Jul 2026 01:11:11 +0000",
-      "text_chars": 13374,
-      "raw_path": "data/geopolitics/raw/c6d1ac121c2482b54a1855e39ebbc584c13926ffea98b84509f08d38aa3d68d1.pdf",
-      "text_path": "data/geopolitics/raw/c6d1ac121c2482b54a1855e39ebbc584c13926ffea98b84509f08d38aa3d68d1.txt",
-      "summary": "UNRWA Situation Report #229 on the Humanitarian Crisis in the Occupied Palestinian Territory (the Gaza Strip and the West Bank, including East Jerusalem) All information updated for 1 – 7 July 2026[1] Days 997-1003 since the start of the war in the Gaza Strip Published on 8 July 2026 Page 2 of 6 1. • UNRWA has recorded 392 colleagues killed in Gaza since the start of the war (310 UNRWA per- sonnel, and 82 persons who were supporting UNRWA[2]), up to 7 July.",
-      "bullets": [
-        "UNRWA Situation Report #229 on the Humanitarian Crisis in the Occupied Palestinian Territory (the Gaza Strip and the West Bank, including East Jerusalem) All information updated for 1 – 7 July 2026[1] Days 997-1003 since the start of the war in the Gaza Strip Published on 8 July 2026 Page 2 of 6 1.",
-        "• UNRWA has recorded 392 colleagues killed in Gaza since the start of the war (310 UNRWA per- sonnel, and 82 persons who were supporting UNRWA[2]), up to 7 July.",
-        "Operational implications and humanitarian response • Around 11,000 Palestinian UNRWA personnel continue to provide services and assistance to peo- ple in Gaza.",
-        "In the occupied West Bank, UNRWA also plays a central role with over 4,000 of the Agency’s Palestinian personnel providing education, health, and other services to Palestine Refu- gees.",
-        "Access to water for domestic use declined between May and June, and drinking water was identified as the most pressing humanitarian concern, reported by 62 per cent of households."
-      ],
-      "excerpt": "Page 1 of 6 UNRWA medical teams provide life-saving maternal and child health services amid continued risks of malnutrition. © June 2026 UNRWA Photo Highlights The Gaza Strip • The latest WASH Cluster monitoring, conducted in June, indicate a continued deterioration in wa- ter security, with 84 per cent of assessed households experiencing moderate-to-high water inse- curity. Access to water for domestic use declined between May and June, and drinking water was identified as the most pressing humanitarian concern, reported by 62 per cent of households. • Sanitation and hygiene conditions also remain concerning. Eighty-six percent of households re- ported barriers to accessing toilets and latrines, due to lack of water, privacy concerns, and poor cleanliness, among others. Environmental health risks persist, with 52 per cent of households re- porting sewage or sludge near shelters and 43 per cent reporting nearby solid waste accumula- tion. More than half of households reported lacking hygiene items, while health concerns remain widespread, including skin diseases or scabies (64 per cent), bedbugs (31 per cent), and lice (22 per cent). [1] Some information reported may relate to peri",
-      "keywords": [
-        {
-          "name": "unrwa",
-          "value": 54
-        },
-        {
-          "name": "health",
-          "value": 28
-        },
-        {
-          "name": "gaza",
-          "value": 25
-        },
-        {
-          "name": "june",
-          "value": 18
-        },
-        {
-          "name": "including",
-          "value": 16
-        },
-        {
-          "name": "strip",
-          "value": 16
-        },
-        {
-          "name": "july",
-          "value": 14
-        },
-        {
-          "name": "services",
-          "value": 14
-        },
-        {
-          "name": "water",
-          "value": 12
-        },
-        {
-          "name": "medical",
-          "value": 10
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "War and Escalation",
-        "Territory and Chokepoints",
-        "Sanctions and Finance"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "file_asset": "/evidence-files/c6d1ac121c2482b54a1855e39ebbc584c13926ffea98b84509f08d38aa3d68d1.pdf",
-      "detail_path": "/evidence/c6d1ac121c2482b54a1855e39ebbc584c13926ffea98b84509f08d38aa3d68d1",
-      "evidence_json": "/evidence/c6d1ac121c2482b54a1855e39ebbc584c13926ffea98b84509f08d38aa3d68d1.json"
-    },
-    {
-      "id": "e633a36b88fb39034ded10fbf5616b6ed492d34f27b06cb942af0071b489d866",
-      "topic": "geopolitics",
-      "title": "oPt: UNRWA Situation Report #229 on the Humanitarian Crisis in the Gaza Strip and the West Bank, including East Jerusalem [EN/AR]",
-      "url": "https://reliefweb.int/report/occupied-palestinian-territory/unrwa-situation-report-229-humanitarian-crisis-gaza-strip-and-west-bank-including-east-jerusalem-enar",
-      "host": "reliefweb.int",
-      "source": "https://reliefweb.int/updates/rss.xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-07-15T04:45:22.679085+00:00",
-      "published": "Wed, 15 Jul 2026 01:11:11 +0000",
-      "text_chars": 1111,
-      "raw_path": "data/geopolitics/raw/e633a36b88fb39034ded10fbf5616b6ed492d34f27b06cb942af0071b489d866.html",
-      "text_path": "data/geopolitics/raw/e633a36b88fb39034ded10fbf5616b6ed492d34f27b06cb942af0071b489d866.txt",
-      "summary": "All information updated for 1 - 7 July 2026 [1] Days 997 - 1003 since the start of the war in the Gaza Strip Highlights The Gaza Strip The latest WASH Cluster monitoring, conducted in June, indicates a continued deterioration in water security, with 84 per cent of assessed households experiencing moderate-to-high water insecurity. Access to water for domestic use declined between May and June, and drinking water was identified as the most pressing humanitarian concern, reported by 62 per cent of households.",
-      "bullets": [
-        "All information updated for 1 - 7 July 2026 [1] Days 997 - 1003 since the start of the war in the Gaza Strip Highlights The Gaza Strip The latest WASH Cluster monitoring, conducted in June, indicates a continued deterioration in water security, with 84 per cent of assessed households experiencing moderate-to-high water insecurity.",
-        "Access to water for domestic use declined between May and June, and drinking water was identified as the most pressing humanitarian concern, reported by 62 per cent of households.",
-        "More than half of households reported lacking hygiene items, while health concerns remain widespread, including skin diseases or scabies (64 per cent), bedbugs (31 per cent), and lice (22 per cent).",
-        "Eighty-six per cent of households reported barriers to accessing toilets and latrines, due to lack of water, privacy concerns, and poor cleanliness, among others.",
-        "Environmental health risks persist, with 52 per cent of households reporting sewage or sludge near shelters and 43 per cent reporting nearby solid waste accumulation."
-      ],
-      "excerpt": "All information updated for 1 - 7 July 2026 [1] Days 997 - 1003 since the start of the war in the Gaza Strip Highlights The Gaza Strip The latest WASH Cluster monitoring, conducted in June, indicates a continued deterioration in water security, with 84 per cent of assessed households experiencing moderate-to-high water insecurity. Access to water for domestic use declined between May and June, and drinking water was identified as the most pressing humanitarian concern, reported by 62 per cent of households. Sanitation and hygiene conditions also remain concerning. Eighty-six per cent of households reported barriers to accessing toilets and latrines, due to lack of water, privacy concerns, and poor cleanliness, among others. Environmental health risks persist, with 52 per cent of households reporting sewage or sludge near shelters and 43 per cent reporting nearby solid waste accumulation. More than half of households reported lacking hygiene items, while health concerns remain widespread, including skin diseases or scabies (64 per cent), bedbugs (31 per cent), and lice (22 per cent).",
-      "keywords": [
-        {
-          "name": "cent",
-          "value": 8
-        },
-        {
-          "name": "households",
-          "value": 5
-        },
-        {
-          "name": "water",
-          "value": 5
-        },
-        {
-          "name": "gaza",
-          "value": 3
-        },
-        {
-          "name": "reported",
-          "value": 3
-        },
-        {
-          "name": "strip",
-          "value": 3
-        },
-        {
-          "name": "concerns",
-          "value": 2
-        },
-        {
-          "name": "health",
-          "value": 2
-        },
-        {
-          "name": "humanitarian",
-          "value": 2
-        },
-        {
-          "name": "hygiene",
-          "value": 2
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "detail_path": "/evidence/e633a36b88fb39034ded10fbf5616b6ed492d34f27b06cb942af0071b489d866",
-      "evidence_json": "/evidence/e633a36b88fb39034ded10fbf5616b6ed492d34f27b06cb942af0071b489d866.json"
-    },
-    {
-      "id": "5fb7c0bba26d869f8cea96fff19f78e36a64c3148f4615d32917a0196f36ce26",
-      "topic": "geopolitics",
-      "title": "Viet Nam: “Disasters don’t respect borders”: Save the Children launches early warning, early action initiative to save lives in Southeast Asia",
-      "url": "https://reliefweb.int/report/viet-nam/disasters-dont-respect-borders-save-children-launches-early-warning-early-action-initiative-save-lives-southeast-asia",
-      "host": "reliefweb.int",
-      "source": "https://reliefweb.int/updates/rss.xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-07-15T04:45:48.503860+00:00",
-      "published": "Wed, 15 Jul 2026 00:28:38 +0000",
-      "text_chars": 5099,
-      "raw_path": "data/geopolitics/raw/5fb7c0bba26d869f8cea96fff19f78e36a64c3148f4615d32917a0196f36ce26.html",
-      "text_path": "data/geopolitics/raw/5fb7c0bba26d869f8cea96fff19f78e36a64c3148f4615d32917a0196f36ce26.txt",
-      "summary": "Arshad Malik, Asia Regional Director, Save the Children said: “Climate driven disasters don't respect borders, so this programme is deliberately regional and will save lives by ensuring that warnings actually reach the most vulnerable, especially children, in time to act quickly and save lives. Cambodia has a national anticipatory action (AA) strategy, but only just over half of provincial officials are aware of it, according to Save the Children research, and in Laos, only a quarter of sub-national AA groups are active, with nine out of 10 district...",
-      "bullets": [
-        "Arshad Malik, Asia Regional Director, Save the Children said: “Climate driven disasters don't respect borders, so this programme is deliberately regional and will save lives by ensuring that warnings actually reach the most vulnerable, especially children, in time to act quickly and save lives.",
-        "Cambodia has a national anticipatory action (AA) strategy, but only just over half of provincial officials are aware of it, according to Save the Children research, and in Laos, only a quarter of sub-national AA groups are active, with nine out of 10 district offices citing a lack of funding and staff.",
-        "Building on Save the Children’s decades of work in the four countries and partnership with the European Union in Asia, the initiative will bring together child-centred disaster risk reduction - including child-friendly early warnings - school and community preparedness, child protection and strengthening of local systems.",
-        "It aims to ensure that more than 223,000 people are covered by early action and contingency plans, 56,000 are covered by a functional early warning system and local officials receive training and support.",
-        "Save the Children is launching a child-focused €4.5 million regional initiative funded by the European Union to save lives ahead of climate-fueled emergencies in Southeast Asia."
-      ],
-      "excerpt": "Save the Children is launching a child-focused €4.5 million regional initiative funded by the European Union to save lives ahead of climate-fueled emergencies in Southeast Asia. Working with partners and governments, the programme will help communities, schools, and local authorities across Thailand, Cambodia, Laos, and Vietnam turn early warnings into early action, protecting children and families before floods, storms, and other extreme weather events become disasters. BANGKOK, 15 July 2026 – As a major El Niño event threatens to increase extreme weather, Save the Children is launching a child-focused €4.5 million regional initiative funded by the European Union to save lives ahead of climate-fueled emergencies in Southeast Asia. Working with partners and governments, the programme will help communities, schools, and local authorities across Thailand, Cambodia, Laos, and Vietnam turn early warnings into early action, protecting children and families before floods, storms, and other extreme weather events become disasters. The same extreme weather can strike multiple countries, yet each country has separate warning systems and issues its own alerts. The programme will bring the fo",
-      "keywords": [
-        {
-          "name": "children",
-          "value": 16
-        },
-        {
-          "name": "early",
-          "value": 13
-        },
-        {
-          "name": "save",
-          "value": 13
-        },
-        {
-          "name": "across",
-          "value": 8
-        },
-        {
-          "name": "programme",
-          "value": 8
-        },
-        {
-          "name": "warnings",
-          "value": 8
-        },
-        {
-          "name": "action",
-          "value": 7
-        },
-        {
-          "name": "asia",
-          "value": 7
-        },
-        {
-          "name": "extreme",
-          "value": 7
-        },
-        {
-          "name": "lives",
-          "value": 7
-        }
-      ],
-      "signals": [
-        "Diplomacy and Negotiations",
-        "Humanitarian Pressure",
-        "Territory and Chokepoints",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Europe and Russia",
-        "Africa"
-      ],
-      "detail_path": "/evidence/5fb7c0bba26d869f8cea96fff19f78e36a64c3148f4615d32917a0196f36ce26",
-      "evidence_json": "/evidence/5fb7c0bba26d869f8cea96fff19f78e36a64c3148f4615d32917a0196f36ce26.json"
     }
   ],
   "deep_reads": [
@@ -8657,7 +8690,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-17T11:18:15.577281+00:00",
+      "collected_at": "2026-07-17T13:08:26.112185+00:00",
       "published": "",
       "text_chars": 9161694,
       "raw_path": "data/geopolitics/raw/f85bbd3ce39a3493e867e34d54712001d861e87ac30c41219080fe54f1928937.xml",
@@ -10732,7 +10765,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-17T11:17:44.098609+00:00",
+      "collected_at": "2026-07-17T13:07:52.048406+00:00",
       "published": "",
       "text_chars": 6243953,
       "raw_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json.raw",
@@ -10875,87 +10908,6 @@
   ],
   "documents": [
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-07-17T11:18:23.655470+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -10965,7 +10917,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-17T11:18:19.007161+00:00",
+      "collected_at": "2026-07-17T13:08:37.194666+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -11046,7 +10998,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-07-17T11:18:17.378161+00:00",
+      "collected_at": "2026-07-17T13:08:36.281392+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8.html",
@@ -11110,6 +11062,87 @@
       "evidence_json": "/evidence/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8.json"
     },
     {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-07-17T13:08:36.255950+00:00",
+      "published": "",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 512
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "conflict",
+          "value": 267
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 209
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -11119,7 +11152,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-17T11:18:17.345624+00:00",
+      "collected_at": "2026-07-17T13:08:30.942252+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11200,7 +11233,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-17T11:18:15.577281+00:00",
+      "collected_at": "2026-07-17T13:08:26.112185+00:00",
       "published": "",
       "text_chars": 9161694,
       "raw_path": "data/geopolitics/raw/f85bbd3ce39a3493e867e34d54712001d861e87ac30c41219080fe54f1928937.xml",
@@ -11280,7 +11313,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-17T11:17:46.171556+00:00",
+      "collected_at": "2026-07-17T13:07:54.728900+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/a794492c670e88f662ffa85cc3b46476ff9582c71a7b6b2bf61c7b6fdc68835b.xml",
@@ -11360,7 +11393,7 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-07-17T11:17:44.113948+00:00",
+      "collected_at": "2026-07-17T13:07:52.370376+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -11421,81 +11454,6 @@
       "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
     },
     {
-      "id": "0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-17T11:17:44.098609+00:00",
-      "published": "",
-      "text_chars": 6243953,
-      "raw_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json.raw",
-      "text_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-13\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17490
-        },
-        {
-          "name": "imports",
-          "value": 17490
-        },
-        {
-          "name": "sipri",
-          "value": 17490
-        },
-        {
-          "name": "status",
-          "value": 17490
-        },
-        {
-          "name": "trend",
-          "value": 17490
-        },
-        {
-          "name": "unit",
-          "value": 17490
-        },
-        {
-          "name": "values",
-          "value": 17490
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b",
-      "evidence_json": "/evidence/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json"
-    },
-    {
       "id": "8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -11505,7 +11463,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-17T11:17:43.865468+00:00",
+      "collected_at": "2026-07-17T13:07:52.343151+00:00",
       "published": "",
       "text_chars": 6161830,
       "raw_path": "data/geopolitics/raw/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.json.raw",
@@ -11571,6 +11529,81 @@
       ],
       "detail_path": "/evidence/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152",
       "evidence_json": "/evidence/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.json"
+    },
+    {
+      "id": "0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-07-17T13:07:52.048406+00:00",
+      "published": "",
+      "text_chars": 6243953,
+      "raw_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json.raw",
+      "text_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-13\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17490
+        },
+        {
+          "name": "imports",
+          "value": 17490
+        },
+        {
+          "name": "sipri",
+          "value": 17490
+        },
+        {
+          "name": "status",
+          "value": 17490
+        },
+        {
+          "name": "trend",
+          "value": 17490
+        },
+        {
+          "name": "unit",
+          "value": 17490
+        },
+        {
+          "name": "values",
+          "value": 17490
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b",
+      "evidence_json": "/evidence/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json"
     },
     {
       "id": "117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7",
@@ -13710,6 +13743,76 @@
   ],
   "visual_evidence": [
     {
+      "id": "59056678168766ad7bb2e194a3e61b7faf26efb32a64bbcfc26d4d71b5b85333",
+      "topic": "geopolitics",
+      "title": "Hunger deepens for displaced families in Sudan’s El Obeid (image)",
+      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/06/26-03-2026_Ala_Khadija.jpg/image560x340cropped.jpg",
+      "host": "global.unitednations.entermediadb.net",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "images",
+      "format": "Image",
+      "content_type": "image/jpeg",
+      "collected_at": "2026-07-17T13:08:51.546703+00:00",
+      "published": "Fri, 17 Jul 2026 12:00:00 +0000",
+      "text_chars": 433,
+      "raw_path": "data/geopolitics/raw/59056678168766ad7bb2e194a3e61b7faf26efb32a64bbcfc26d4d71b5b85333.jpg",
+      "text_path": "data/geopolitics/raw/59056678168766ad7bb2e194a3e61b7faf26efb32a64bbcfc26d4d71b5b85333.txt",
+      "summary": "Binary images source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Binary images source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: Hunger deepens for displaced families in Sudan’s El Obeid (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/06/26-03-2026_Ala_Khadija.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 24847",
+      "keywords": [
+        {
+          "name": "deepens",
+          "value": 2
+        },
+        {
+          "name": "displaced",
+          "value": 2
+        },
+        {
+          "name": "entermediadb",
+          "value": 2
+        },
+        {
+          "name": "families",
+          "value": 2
+        },
+        {
+          "name": "hunger",
+          "value": 2
+        },
+        {
+          "name": "obeid",
+          "value": 2
+        },
+        {
+          "name": "sudan",
+          "value": 2
+        },
+        {
+          "name": "unitednations",
+          "value": 2
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa"
+      ],
+      "preview_asset": "/evidence-assets/59056678168766ad7bb2e194a3e61b7faf26efb32a64bbcfc26d4d71b5b85333.jpg",
+      "detail_path": "/evidence/59056678168766ad7bb2e194a3e61b7faf26efb32a64bbcfc26d4d71b5b85333",
+      "evidence_json": "/evidence/59056678168766ad7bb2e194a3e61b7faf26efb32a64bbcfc26d4d71b5b85333.json"
+    },
+    {
       "id": "bbd41cc35d1cc3701be179e59cb12aff1e669522315a8318b74cf6808256f12b",
       "topic": "geopolitics",
       "title": "German Military Power Needs to Go It Alone (image)",
@@ -15362,164 +15465,10 @@
       "preview_asset": "/evidence-assets/b31a1e8f9817c47272b693cb763dad7f8fda75811ff2bba064481d12370e4bfc.jpg",
       "detail_path": "/evidence/b31a1e8f9817c47272b693cb763dad7f8fda75811ff2bba064481d12370e4bfc",
       "evidence_json": "/evidence/b31a1e8f9817c47272b693cb763dad7f8fda75811ff2bba064481d12370e4bfc.json"
-    },
-    {
-      "id": "d0ef51c53958189f7b83e70ee4a00f2e454ac5c7750c7abef1f7b25a8bd6af93",
-      "topic": "geopolitics",
-      "title": "Is the U.S.-Iran Cease-Fire Over? (image)",
-      "url": "https://foreignpolicy.com/wp-content/uploads/2026/07/TrumpIranNATO-GettyImages-2284500904.jpg",
-      "host": "foreignpolicy.com",
-      "source": "https://foreignpolicy.com/feed/",
-      "data_type": "images",
-      "format": "Image",
-      "content_type": "image/jpeg",
-      "collected_at": "2026-07-08T22:04:36.847322+00:00",
-      "published": "Wed, 08 Jul 2026 20:59:58 +0000",
-      "text_chars": 289,
-      "raw_path": "data/geopolitics/raw/d0ef51c53958189f7b83e70ee4a00f2e454ac5c7750c7abef1f7b25a8bd6af93.jpg",
-      "text_path": "data/geopolitics/raw/d0ef51c53958189f7b83e70ee4a00f2e454ac5c7750c7abef1f7b25a8bd6af93.txt",
-      "summary": "(image) URL: https://foreignpolicy.com/wp-content/uploads/2026/07/TrumpIranNATO-GettyImages-2284500904.jpg Source: https://foreignpolicy.com/feed/ Content-Type: image/jpeg Bytes: 156733 Binary images source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "(image) URL: https://foreignpolicy.com/wp-content/uploads/2026/07/TrumpIranNATO-GettyImages-2284500904.jpg Source: https://foreignpolicy.com/feed/ Content-Type: image/jpeg Bytes: 156733",
-        "Binary images source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: Is the U.S.-Iran Cease-Fire Over? (image) URL: https://foreignpolicy.com/wp-content/uploads/2026/07/TrumpIranNATO-GettyImages-2284500904.jpg Source: https://foreignpolicy.com/feed/ Content-Type: image/jpeg Bytes: 156733",
-      "keywords": [
-        {
-          "name": "foreignpolicy",
-          "value": 3
-        },
-        {
-          "name": "cease-fire",
-          "value": 2
-        },
-        {
-          "name": "iran",
-          "value": 2
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "feed",
-          "value": 1
-        },
-        {
-          "name": "geopolitics",
-          "value": 1
-        },
-        {
-          "name": "jpeg",
-          "value": 1
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Europe and Russia",
-        "Global Institutions",
-        "Middle East"
-      ],
-      "preview_asset": "/evidence-assets/d0ef51c53958189f7b83e70ee4a00f2e454ac5c7750c7abef1f7b25a8bd6af93.jpg",
-      "detail_path": "/evidence/d0ef51c53958189f7b83e70ee4a00f2e454ac5c7750c7abef1f7b25a8bd6af93",
-      "evidence_json": "/evidence/d0ef51c53958189f7b83e70ee4a00f2e454ac5c7750c7abef1f7b25a8bd6af93.json"
     }
   ],
   "cited_evidence": [],
   "evidence": [
-    {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-07-17T11:18:23.655470+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
     {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
@@ -15530,7 +15479,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-17T11:18:19.007161+00:00",
+      "collected_at": "2026-07-17T13:08:37.194666+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15611,7 +15560,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-07-17T11:18:17.378161+00:00",
+      "collected_at": "2026-07-17T13:08:36.281392+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8.html",
@@ -15675,6 +15624,87 @@
       "evidence_json": "/evidence/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8.json"
     },
     {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-07-17T13:08:36.255950+00:00",
+      "published": "",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 512
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "conflict",
+          "value": 267
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 209
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -15684,7 +15714,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-17T11:18:17.345624+00:00",
+      "collected_at": "2026-07-17T13:08:30.942252+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15765,7 +15795,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-17T11:18:15.577281+00:00",
+      "collected_at": "2026-07-17T13:08:26.112185+00:00",
       "published": "",
       "text_chars": 9161694,
       "raw_path": "data/geopolitics/raw/f85bbd3ce39a3493e867e34d54712001d861e87ac30c41219080fe54f1928937.xml",
@@ -15845,7 +15875,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-17T11:17:46.171556+00:00",
+      "collected_at": "2026-07-17T13:07:54.728900+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/a794492c670e88f662ffa85cc3b46476ff9582c71a7b6b2bf61c7b6fdc68835b.xml",
@@ -15925,7 +15955,7 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-07-17T11:17:44.113948+00:00",
+      "collected_at": "2026-07-17T13:07:52.370376+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -15986,81 +16016,6 @@
       "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
     },
     {
-      "id": "0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-17T11:17:44.098609+00:00",
-      "published": "",
-      "text_chars": 6243953,
-      "raw_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json.raw",
-      "text_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-13\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17490
-        },
-        {
-          "name": "imports",
-          "value": 17490
-        },
-        {
-          "name": "sipri",
-          "value": 17490
-        },
-        {
-          "name": "status",
-          "value": 17490
-        },
-        {
-          "name": "trend",
-          "value": 17490
-        },
-        {
-          "name": "unit",
-          "value": 17490
-        },
-        {
-          "name": "values",
-          "value": 17490
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b",
-      "evidence_json": "/evidence/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json"
-    },
-    {
       "id": "8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -16070,7 +16025,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-17T11:17:43.865468+00:00",
+      "collected_at": "2026-07-17T13:07:52.343151+00:00",
       "published": "",
       "text_chars": 6161830,
       "raw_path": "data/geopolitics/raw/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.json.raw",
@@ -16136,6 +16091,309 @@
       ],
       "detail_path": "/evidence/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152",
       "evidence_json": "/evidence/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.json"
+    },
+    {
+      "id": "0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-07-17T13:07:52.048406+00:00",
+      "published": "",
+      "text_chars": 6243953,
+      "raw_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json.raw",
+      "text_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-13\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17490
+        },
+        {
+          "name": "imports",
+          "value": 17490
+        },
+        {
+          "name": "sipri",
+          "value": 17490
+        },
+        {
+          "name": "status",
+          "value": 17490
+        },
+        {
+          "name": "trend",
+          "value": 17490
+        },
+        {
+          "name": "unit",
+          "value": 17490
+        },
+        {
+          "name": "values",
+          "value": 17490
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b",
+      "evidence_json": "/evidence/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json"
+    },
+    {
+      "id": "b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6",
+      "topic": "geopolitics",
+      "title": "EU bolsters Red Sea mission amid reports Houthis may shut Bab el-Mandeb",
+      "url": "http://www.euronews.com/2026/07/17/eu-bolsters-red-sea-mission-amid-reports-houthis-may-shut-bab-el-mandeb",
+      "host": "euronews.com",
+      "source": "https://www.euronews.com/rss?level=theme&name=news",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-17T13:08:49.893739+00:00",
+      "published": "Fri, 17 Jul 2026 14:23:00 +0200",
+      "text_chars": 5378,
+      "raw_path": "data/geopolitics/raw/b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6.html",
+      "text_path": "data/geopolitics/raw/b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6.txt",
+      "summary": "The European Union is ramping up its security missions in the Red Sea as the Iran-backed Houthis are reported to be preparing at Tehran's behest to close the Bab el-Mandeb strait, the gateway to the key Red Sea global shipping route and oil route in the Horn of Africa. The campaign drove a roughly 50% drop in commercial traffic through the Red Sea between late 2023 and early 2024, forcing dozens of major shipping companies to reroute around Africa.",
+      "bullets": [
+        "The European Union is ramping up its security missions in the Red Sea as the Iran-backed Houthis are reported to be preparing at Tehran's behest to close the Bab el-Mandeb strait, the gateway to the key Red Sea global shipping route and oil route in the Horn of Africa.",
+        "The campaign drove a roughly 50% drop in commercial traffic through the Red Sea between late 2023 and early 2024, forcing dozens of major shipping companies to reroute around Africa.",
+        "The Houthis launched their Red Sea campaign in October 2023, declaring solidarity with Hamas during the war in Gaza and targeting vessels they alleged had Israeli connections.",
+        "EUNAVFOR Aspides, launched in February 2024 in response to the Houthi campaign against commercial shipping that began in October 2023, is a purely defensive maritime security mission covering the Red Sea, Gulf of Aden, Arabian Sea and Gulf of Oman.",
+        "ADVERTISEMENT ADVERTISEMENT The Bab el-Mandeb — Arabic for \"Gate of Tears\" — is a narrow strait roughly 30 kilometres wide at its narrowest point, separating Yemen on the Arabian Peninsula from Djibouti and Eritrea on the Horn of Africa."
+      ],
+      "excerpt": "The European Union is ramping up its security missions in the Red Sea as the Iran-backed Houthis are reported to be preparing at Tehran's behest to close the Bab el-Mandeb strait, the gateway to the key Red Sea global shipping route and oil route in the Horn of Africa. ADVERTISEMENT ADVERTISEMENT The Bab el-Mandeb — Arabic for \"Gate of Tears\" — is a narrow strait roughly 30 kilometres wide at its narrowest point, separating Yemen on the Arabian Peninsula from Djibouti and Eritrea on the Horn of Africa. Around 10-15% of global maritime trade passes through it, including a significant share of Europe's oil and gas imports. A closure would force vessels to take the much longer route around the Cape of Good Hope, adding two to three weeks to journeys between Asia and Europe and sharply increasing shipping costs. EU High Representative for Foreign Affairs and Security Policy Kaja Kallas wrapped up a trip to Djibouti on Thursday, where she visited the EU’s Aspides and Atalanta naval missions, which ensure security in the Red Sea against the Houthis. “Maritime security is under growing pressure,\" Kallas told the gathered press in Djibouti. \"Iran's repeated attacks on commercial vessels tr",
+      "keywords": [
+        {
+          "name": "security",
+          "value": 10
+        },
+        {
+          "name": "djibouti",
+          "value": 9
+        },
+        {
+          "name": "kallas",
+          "value": 8
+        },
+        {
+          "name": "maritime",
+          "value": 7
+        },
+        {
+          "name": "el-mandeb",
+          "value": 6
+        },
+        {
+          "name": "houthis",
+          "value": 6
+        },
+        {
+          "name": "iran",
+          "value": 5
+        },
+        {
+          "name": "shipping",
+          "value": 5
+        },
+        {
+          "name": "strait",
+          "value": 5
+        },
+        {
+          "name": "agreement",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Middle East",
+        "Indo-Pacific",
+        "Africa"
+      ],
+      "detail_path": "/evidence/b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6",
+      "evidence_json": "/evidence/b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6.json"
+    },
+    {
+      "id": "1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda",
+      "topic": "geopolitics",
+      "title": "Wars shift focus from jets to weapons at giant Farnborough Airshow",
+      "url": "https://www.defensenews.com/global/europe/2026/07/17/wars-shift-focus-from-jets-to-weapons-at-giant-farnborough-airshow/",
+      "host": "defensenews.com",
+      "source": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-07-17T13:08:49.717636+00:00",
+      "published": "Fri, 17 Jul 2026 12:20:33 +0000",
+      "text_chars": 4759,
+      "raw_path": "data/geopolitics/raw/1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda.html",
+      "text_path": "data/geopolitics/raw/1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda.txt",
+      "summary": "One of the industry’s most influential figures warned the shift to drones and AI systems could disrupt defense as much as SpaceX transformed the launch business, as wars in Ukraine and Iran expose the need for faster developments and mass production. Organizers said defense will represent half of the record 1,600 exhibitors at the show, up from 40% historically, with a sharp increase in AI, deep-tech and finance companies.",
+      "bullets": [
+        "One of the industry’s most influential figures warned the shift to drones and AI systems could disrupt defense as much as SpaceX transformed the launch business, as wars in Ukraine and Iran expose the need for faster developments and mass production.",
+        "Organizers said defense will represent half of the record 1,600 exhibitors at the show, up from 40% historically, with a sharp increase in AI, deep-tech and finance companies.",
+        "Air shows can still produce surprises, but industry sources said total deals may struggle to climb far above 300 aircraft, well below some pre-show forecasts of as many as 800 jets.",
+        "With the Ukraine war in its fifth year and a ceasefire in tatters in the Gulf, those risks are also likely to move the ritual contest between Boeing and Airbus for jetliner orders down the pecking order at the July 20 to 24 show.",
+        "“Valuations are tilting in favor of the defense entrants but … most militaries are still spending the vast amount of their resources on manned platforms,” said Byron Callan, managing partner of research firm Capital Alpha."
+      ],
+      "excerpt": "FARNBOROUGH, England, July 17 (Reuters) — Spiraling security risks are expected to push defense to the forefront of Britain’s Farnborough Airshow, as aerospace and arms makers struggle to keep pace with demand for weapons while cementing a fragile recovery in civil jet and engine production. With the Ukraine war in its fifth year and a ceasefire in tatters in the Gulf, those risks are also likely to move the ritual contest between Boeing and Airbus for jetliner orders down the pecking order at the July 20 to 24 show. “The global security environment is arguably more complex and volatile today than we have seen in many, many decades, and we are watching security threats evolve at a breakneck pace,” Air Chief Marshal Harv Smyth, head of the Royal Air Force, told an International Air Chiefs Conference ahead of the show. Weapons makers enter their biennial bazaar witnessing the biggest rise in European defense spending since the Cold War but with unresolved questions about where and how it will be spent. RELATED Experts say Beijing used both methods to try out new, attention-grabbing and long-term ways to deter others from challenging its territorial claims. One of the industry’s most ",
+      "keywords": [
+        {
+          "name": "defense",
+          "value": 7
+        },
+        {
+          "name": "airbus",
+          "value": 5
+        },
+        {
+          "name": "show",
+          "value": 5
+        },
+        {
+          "name": "boeing",
+          "value": 4
+        },
+        {
+          "name": "most",
+          "value": 4
+        },
+        {
+          "name": "production",
+          "value": 4
+        },
+        {
+          "name": "supply",
+          "value": 4
+        },
+        {
+          "name": "aerospace",
+          "value": 3
+        },
+        {
+          "name": "both",
+          "value": 3
+        },
+        {
+          "name": "companies",
+          "value": 3
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Energy and Supply Chains"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Indo-Pacific",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda",
+      "evidence_json": "/evidence/1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda.json"
+    },
+    {
+      "id": "59056678168766ad7bb2e194a3e61b7faf26efb32a64bbcfc26d4d71b5b85333",
+      "topic": "geopolitics",
+      "title": "Hunger deepens for displaced families in Sudan’s El Obeid (image)",
+      "url": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/06/26-03-2026_Ala_Khadija.jpg/image560x340cropped.jpg",
+      "host": "global.unitednations.entermediadb.net",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "data_type": "images",
+      "format": "Image",
+      "content_type": "image/jpeg",
+      "collected_at": "2026-07-17T13:08:51.546703+00:00",
+      "published": "Fri, 17 Jul 2026 12:00:00 +0000",
+      "text_chars": 433,
+      "raw_path": "data/geopolitics/raw/59056678168766ad7bb2e194a3e61b7faf26efb32a64bbcfc26d4d71b5b85333.jpg",
+      "text_path": "data/geopolitics/raw/59056678168766ad7bb2e194a3e61b7faf26efb32a64bbcfc26d4d71b5b85333.txt",
+      "summary": "Binary images source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Binary images source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary images source collected for Global Geopolitics Monitor. Title: Hunger deepens for displaced families in Sudan’s El Obeid (image) URL: https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/06/26-03-2026_Ala_Khadija.jpg/image560x340cropped.jpg Source: https://news.un.org/feed/subscribe/en/news/all/rss.xml Content-Type: image/jpeg Bytes: 24847",
+      "keywords": [
+        {
+          "name": "deepens",
+          "value": 2
+        },
+        {
+          "name": "displaced",
+          "value": 2
+        },
+        {
+          "name": "entermediadb",
+          "value": 2
+        },
+        {
+          "name": "families",
+          "value": 2
+        },
+        {
+          "name": "hunger",
+          "value": 2
+        },
+        {
+          "name": "obeid",
+          "value": 2
+        },
+        {
+          "name": "sudan",
+          "value": 2
+        },
+        {
+          "name": "unitednations",
+          "value": 2
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa"
+      ],
+      "preview_asset": "/evidence-assets/59056678168766ad7bb2e194a3e61b7faf26efb32a64bbcfc26d4d71b5b85333.jpg",
+      "detail_path": "/evidence/59056678168766ad7bb2e194a3e61b7faf26efb32a64bbcfc26d4d71b5b85333",
+      "evidence_json": "/evidence/59056678168766ad7bb2e194a3e61b7faf26efb32a64bbcfc26d4d71b5b85333.json"
     },
     {
       "id": "117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7",

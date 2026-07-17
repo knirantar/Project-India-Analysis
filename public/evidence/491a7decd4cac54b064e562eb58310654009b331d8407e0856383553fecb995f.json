@@ -75,87 +75,6 @@
   "full_text": "Between February 2022 and September 2025, Bellingcat staff and volunteers collected, geolocated, and \nshared more than 2,500 incidents\n of civilian harm following Russia’s full-scale invasion of Ukraine. \n\nAs part of this effort, Bellingcat tested a new machine learning model intended to rank Telegram social media posts on their likelihood of containing incidents of civilian harm. \n\nThis novel methodology dramatically reduced the search and selection time required, freeing researchers to focus on verifying incidents of civilian harm – not just searching for them. \n\nThis piece documents our methodology, ethical considerations and lessons learned in the hope that others researching similar topics can benefit from our work. \n\nOpen source research into civilian harm is still a relatively new field and it presents many challenges – one of the biggest is organising and sorting through the huge volume of user generated content being produced to find what is relevant. \n\nMachine learning, a form of artificial intelligence that uses algorithms to identify patterns from large amounts of data and make predictions, can make this task more efficient.\n\nWith ongoing conflicts involving large amounts of civilian harm occurring in Sudan, and much of the Middle East, this guide aims to offer those covering these conflicts an example of how machine learning can be used to help find and sort incidents. You can also access the \nCode Notebook\n for our model \nhere.\n\nWe defined “civilian harm” not just as civilian deaths or injuries resulting from armed conflict, but also the broader and delayed effects on civilians from mental trauma, loss of livelihood, displacement, destruction of infrastructure and more. This definition was informed by the Protection of Civilians \nbook\n \non civilian harm. \n\nInitial Telegram Dataset \n\nEach Telegram post containing civilian harm which had already been manually verified by researchers was used to build an initial dataset of confirmed cases of civilian harm, which data scientists call \npositive instances. We collected a total of 5,848 unique URLs for these Telegram posts. For our manual collection we reviewed posts on relevant Telegram channels, working through oldest to newest posts each day. Assuming that a given post made it to our geolocated incidents list, it meant the researcher who flagged it also looked at the posts that appeared before and after it on Telegram and did not flag those ones, so we selected the 10 posts surrounding the verified civilian harm post as our additional dataset of posts that did not contain civilian harm. After excluding any deleted or duplicate posts, we ended up with 48,545 non-civilian harm posts, our \nnegative instances. \n\nThe choice to overrepresent negative instances aims at better reflecting the real world and increasing data available for model training. \n\nWe enriched each URL with metadata from the Telegram API, such as the time of publication, reactions or textual content. As some of these posts had been deleted, we completed the missing data points with previously preserved versions from our \nAuto Archiver\n database, only available for the positive instances.\n\nFeature Engineering\n\nTraining a machine learning model requires numerical data, as these models compute a prediction score based on mathematical operations.\n\nWe built these by converting raw data from our initial dataset, such as keywords signalling potential civilian harm, into numerical scores (or “features”) that the model could interpret, with the aim of increasing the model’s ability to identify patterns. This process, known as \nfeature engineering, can significantly improve model results because it allows data scientists to suggest explicit context knowledge. \n\nA full list of features we used to train the model can be found in the \ncode notebook \naccompanying this piece. Many features were directly inspired by researchers’ input from their experiences manually screening cases of civilian harm by sorting through a set number of Telegram channels and inspecting each post individually.\n\nSeveral of the features used were directly built from the metadata contained in each Telegram post including \nmedia_type, \nday_of_week; or binary ones: \nforwarded, \nedited and\n \nreply_to. \n\nOther features included engagement information: \nviews, \nforwards, \ntotal_reactions, and even individual features for most used emojis including the \nreaction_crying_face\n to count 😭 emoji.\n\nConverting Text to Numbers \n\nTo embed the experience from the manual collection process, researchers put together a list of keywords both in Ukrainian and Russian that, to them, signalled posts likely to  show civilian harm. For instance, “Шахед” and “КАБ” translated to “Shahed” and “Guided aerial bomb” respectively. We created a numerical feature to count their frequency. \n\nIn addition, we included several generic English-language keywords which meaningfully signalled potential civilian harm, such as “injured”, “school affected” and “hospital affected” that were only used for generating semantic similarity scores. \n\nA semantic similarity score is a calculation used to determine the proximity in meaning between different words and phrases. To get the semantic similarity between the post text and each of our keywords, we represented each in a list of numbers via a \nSentence Transformer model, which converts words into numerical representations called vectors that a computer can understand. \n\nWe then calculated the level of similarity between each vector using \ncosine similarity, one of the most popular methods for measuring similarity between two pieces of text.\n\nDue to how embeddings work, this calculation results in a figure on a scale from -1 (no semantic proximity) to 1 (same meaning). For example, the words “hurt” and “injured” would have a high similarity score, while “residential” and “injured” would have a negative score as the words are not semantically similar. \n\nFinally, to enable the model to identify the relevance of each post to civilian harm in Ukraine, we used a \nmultilingual text transformer\n from the \nBERT\n family of language models to represent the entire post’s text as a vector of 768 numerical values. This model can efficiently represent text from many languages in a way that captures meaning: the same sentence in different languages will generate similar embeddings, and trained machine learning models can detect patterns in the embeddings. \n\nIt is important to note that for this initial prototype of a civilian harm detection model, we did not include any features derived from media content such as photos and videos, although that would be a logical next step in attempting to improve model performance.\n\nSelecting, Training and Evaluating Models\n\nWith 54,393 rows of 893 numerical features each, we selected four machine learning algorithms to train our predictive models. \n\nWe chose \nLogistic Regression\n as a baseline algorithm due to its simplicity. We also selected three other “best in class” models, \nRandom Forest, \nXGBoost, and \nLightGBM. These choices centred on the \ninterpretability\n of the models and their ability to work on tabular data of this size. For example, we avoided neural networks due to a lack of interpretability and because those models work best with a larger dataset. \n\nTo genuinely assess the performance of the trained models, we split our dataset into three parts:  \n\nA training set – the data the models were trained on (60 percent of the full dataset’s rows)\n\nA validation set – used for an intermediary evaluation when tuning model parameters (20 percent of all rows)\n\nA test set – hidden for the final performance assessment, so the models were evaluated on unseen data (remaining 20 percent of rows)\n\nWe used a \nstratified split\n to divide the dataset instead of a random split. This method ensured the proportion of positive instances (i.e. confirmed cases of civilian harm) remained consistent across all three sets at about 11 percent.\n\nTo measure the performance of machine learning models, we ran them through the test set and measured the number of correct and incorrect predictions. Models output a likelihood between 0 and 1 that each Telegram post contains civilian harm, and we tried to find a cut-off threshold that leads to a good balance between flagging almost every post (0.1) or flagging very few (0.9). \n\nThere are two main types of evaluation metrics to gauge a model’s prediction power. \nRecall\n asserts what fraction of positive instances (i.e. known civilian harm posts) were correctly flagged as such. \nPrecision\n measures the fraction of posts flagged as civilian harm that are indeed civilian harm posts.\n\nDuring the training phase, we tuned the models to maximise \naverage precision\n (PR-AUC), a metric that summarises precision across all recall levels. While this method also accounts for precision, it prioritises recall, which is preferable for this use case as it steers model selection to reduce the number of civilian harm posts that are skipped. \n\nThe following table sorts models from best to worst PR-AUC against a baseline of a coin-flip predictor. ROC-AUC and F1 are two other evaluation metrics included as sanity checks. Simply put, ROC-AUC measures the probability of ranking two instances, one negative and one positive, correctly; F1 balances precision and recall equally and its best cut-off threshold value.\n\nModel test scores comparison, XGBoost stands out in every relevant metric evaluated. \n\nFrom these results, we selected XGBoost as our final model as it had the best scores when compared across all metrics.\n\nInterpreting the Model\n\nBecause these models are interpretable, we can understand which features are the most useful when predicting whether a post includes civilian harm. The above table shows the top 10 features that most strongly signal the XGBoost model to make a decision:\n\nsemantic_keywords_similarity: the semantic proximity between the post text and manually selected keywords “casualties”, “damage” and “civilian harm”\n\nbert:  the model was able to discern meaning from the text with the same strength as some of the other features in this list – there are three cases of this in the top 10\n\nreaction_crying_face: reactions with crying face emojis on the post\n\ngroup_of_messages: whether a post contains multiple media files\n\nkeywords_in_text: the number of custom Ukrainian or Russian keywords in the post\n\nThese results generally tally with what you might expect when selecting Telegram posts for instances of civilian harm, including that posts that generate a lot of emotional engagement and posts using keywords about civilian harm were among those most likely to contain content related to this topic. Not all models had the same top features as XGBoost. In fact, for the Random Forest model the most important feature was the number of crying face emojis present in a post, a soft pattern highlighted by researchers when this methodology was first imagined.\n\nLLM Results and Comparison\n\nRetroactively, we decided to run a sample of the same test dataset through different large language models (LLMs) to gauge their ability to make these same predictions. \n\nWe aimed to include an LLM-generated score as an extra feature for our trained models, which would be captured as relevant if it correlated with the correct predictions. \n\nTo start, we selected two local models, the 1B and 4B variants of Gemma 3 from Google DeepMind, and two cloud-hosted models, Gemini 2.5 flash and Gemini 3.5 flash. With this selection, we hoped to compare results across a wide range of models’ expected performance. \n\nWe generated a 400-row stratified sample (preserving the same proportion of real civilian harm instances) from the test dataset used for the custom models. For each of the four LLM models, we ran two tests: one where only the Telegram post message was sent, and another including both the message and the engineered features (excluding the text embeddings, as the model had direct access to the text). In the prompt for each model, we asked for a score between 0 and 1. We then evaluated the results as we did for the custom models. \n\nThe above table shows that LLMs can indeed extract value from the engineered features. All four LLMs surpassed the baseline Logistic Regression model in our tests, yet none of them performed better than the other custom-trained models, and XGBoost remained the one with the highest PR-AUC. \n\nStill, Gemini 2.5 Flash performed better than its newer version 3.5 and even achieved a slightly higher best F1 score than any other model. While this is a good result, for the flagging of civilian harm posts, the PR-AUC remains the crucial metric, as it captures the model’s ability to identify infrequent instances of civilian harm while minimising false positives.\n\nEthical Considerations\n\nIntroducing an instrument of automated decision-making into a process of detecting civilian harm brings inherent ethical questions. These include automation bias, or how humans tend to blindly place faith in machine-generated recommendations; algorithmic bias, or how the results of these models echo the same patterns present in the training data, including under- or over-representation of types of civilian harm. \n\nThe decision to test an automated methodology for this particular project came from the fact that there were limited resources for both steps in the process – the detection of potential civilian harm and its actual verification. Historically, we built an enormous backlog of unverified incidents because a lot of time had to be spent on monitoring the most recent events so that potential evidence would be captured and preserved as soon as possible. \n\nThe automation of this process also reduced the exposure of researchers to a significant amount of unpleasant and distressing visual and text content, reducing the burden of exposure to traumatic content. \n\nFor this project, we tried to ameliorate the ethical challenges with a number of strategies including randomly flagging posts not captured by any model, monitoring which features models relied on to make decisions, and by doing historical comparisons of patterns in data. \n\nAdditionally, as stated above, for this initial prototype of a civilian harm detection model we did not include any features derived from the media content itself. In the future, it would be a logical next step in attempting to improve the model performance, to include the media from the posts – but using AI to review actual media comes with additional ethical challenges such as \nmodel bias.\n\nBecause of the opaque ownership of many LLM companies and their generative nature, the use of LLMs for an extra feature presented additional ethical challenges including privacy and safety concerns considering the sensitive nature of the data. Our model did not rely on LLMs, though we retroactively ran a sample through it. \n\nHow the Model Fits into the Bigger Picture \n\nAfter selecting this model, we created a user interface where researchers could view a list of Telegram posts sorted from most to least likely to contain indications of civilian harm. The user interface was designed for quick triage and integration, where a positive confirmation from researchers would instantly send the post to the \nAuto Archiver\n (Bellingcat’s tool for preserving digital content) and then transfer it to \nATLOS\n (our internal collaborative verification platform). Bellingcat staff and volunteers could then manually verify incidents. Researcher input was constantly stored so that this data could be used to improve the model in the future. \n\nPreliminary feedback indicated that the AI model was useful. Not only were we able to reduce time and harm from scouring through dozens of war reporting Telegram channels, researchers also reported that the stream of new posts being added to the verification backlog were capturing real and diverse cases of civilian harm. \n\nDespite the focus on civilian harm and Telegram (\nhighly popular\n in Ukraine and Russia), this pipeline is generic and can be adapted to other conflict monitoring tasks. How easily this can be done does depend on how open the social media platform is and whether it is possible to scrape posts from it. Apart from that, it is easy to incorporate new features and data, and cheap to automatically retrain, test and deploy models as the system receives more human input.  \n\nLooking forward, sorting through overwhelming amounts of data in a conflict will continue to be challenging. Hopefully, this methodology can help newsrooms, conflict monitoring organisations, and others find the balance between ethical considerations and resources in order to carry out open source investigations on civilian harm and human rights violations. \n\nBellingcat is a non-profit and the ability to carry out our work is dependent on the kind support of individual donors. If you would like to support our work, you can do so \nhere. You can also subscribe to our Patreon channel \nhere. Subscribe to our \nNewsletter\n and follow us on Bluesky \nhere, Instagram \nhere, Reddit \nhere \nand YouTube \nhere.",
   "related": [
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-07-17T11:18:23.655470+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -165,7 +84,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-17T11:18:19.007161+00:00",
+      "collected_at": "2026-07-17T13:08:37.194666+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -237,6 +156,87 @@
       "evidence_json": "/evidence/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.json"
     },
     {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-07-17T13:08:36.255950+00:00",
+      "published": "",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 512
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "conflict",
+          "value": 267
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 209
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -246,7 +246,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-17T11:18:17.345624+00:00",
+      "collected_at": "2026-07-17T13:08:30.942252+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -327,7 +327,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-17T11:18:15.577281+00:00",
+      "collected_at": "2026-07-17T13:08:26.112185+00:00",
       "published": "",
       "text_chars": 9161694,
       "raw_path": "data/geopolitics/raw/f85bbd3ce39a3493e867e34d54712001d861e87ac30c41219080fe54f1928937.xml",
@@ -407,7 +407,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-17T11:17:46.171556+00:00",
+      "collected_at": "2026-07-17T13:07:54.728900+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/a794492c670e88f662ffa85cc3b46476ff9582c71a7b6b2bf61c7b6fdc68835b.xml",
@@ -476,6 +476,164 @@
       ],
       "detail_path": "/evidence/a794492c670e88f662ffa85cc3b46476ff9582c71a7b6b2bf61c7b6fdc68835b",
       "evidence_json": "/evidence/a794492c670e88f662ffa85cc3b46476ff9582c71a7b6b2bf61c7b6fdc68835b.json"
+    },
+    {
+      "id": "b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6",
+      "topic": "geopolitics",
+      "title": "EU bolsters Red Sea mission amid reports Houthis may shut Bab el-Mandeb",
+      "url": "http://www.euronews.com/2026/07/17/eu-bolsters-red-sea-mission-amid-reports-houthis-may-shut-bab-el-mandeb",
+      "host": "euronews.com",
+      "source": "https://www.euronews.com/rss?level=theme&name=news",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-17T13:08:49.893739+00:00",
+      "published": "Fri, 17 Jul 2026 14:23:00 +0200",
+      "text_chars": 5378,
+      "raw_path": "data/geopolitics/raw/b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6.html",
+      "text_path": "data/geopolitics/raw/b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6.txt",
+      "summary": "The European Union is ramping up its security missions in the Red Sea as the Iran-backed Houthis are reported to be preparing at Tehran's behest to close the Bab el-Mandeb strait, the gateway to the key Red Sea global shipping route and oil route in the Horn of Africa. The campaign drove a roughly 50% drop in commercial traffic through the Red Sea between late 2023 and early 2024, forcing dozens of major shipping companies to reroute around Africa.",
+      "bullets": [
+        "The European Union is ramping up its security missions in the Red Sea as the Iran-backed Houthis are reported to be preparing at Tehran's behest to close the Bab el-Mandeb strait, the gateway to the key Red Sea global shipping route and oil route in the Horn of Africa.",
+        "The campaign drove a roughly 50% drop in commercial traffic through the Red Sea between late 2023 and early 2024, forcing dozens of major shipping companies to reroute around Africa.",
+        "The Houthis launched their Red Sea campaign in October 2023, declaring solidarity with Hamas during the war in Gaza and targeting vessels they alleged had Israeli connections.",
+        "EUNAVFOR Aspides, launched in February 2024 in response to the Houthi campaign against commercial shipping that began in October 2023, is a purely defensive maritime security mission covering the Red Sea, Gulf of Aden, Arabian Sea and Gulf of Oman.",
+        "ADVERTISEMENT ADVERTISEMENT The Bab el-Mandeb — Arabic for \"Gate of Tears\" — is a narrow strait roughly 30 kilometres wide at its narrowest point, separating Yemen on the Arabian Peninsula from Djibouti and Eritrea on the Horn of Africa."
+      ],
+      "excerpt": "The European Union is ramping up its security missions in the Red Sea as the Iran-backed Houthis are reported to be preparing at Tehran's behest to close the Bab el-Mandeb strait, the gateway to the key Red Sea global shipping route and oil route in the Horn of Africa. ADVERTISEMENT ADVERTISEMENT The Bab el-Mandeb — Arabic for \"Gate of Tears\" — is a narrow strait roughly 30 kilometres wide at its narrowest point, separating Yemen on the Arabian Peninsula from Djibouti and Eritrea on the Horn of Africa. Around 10-15% of global maritime trade passes through it, including a significant share of Europe's oil and gas imports. A closure would force vessels to take the much longer route around the Cape of Good Hope, adding two to three weeks to journeys between Asia and Europe and sharply increasing shipping costs. EU High Representative for Foreign Affairs and Security Policy Kaja Kallas wrapped up a trip to Djibouti on Thursday, where she visited the EU’s Aspides and Atalanta naval missions, which ensure security in the Red Sea against the Houthis. “Maritime security is under growing pressure,\" Kallas told the gathered press in Djibouti. \"Iran's repeated attacks on commercial vessels tr",
+      "keywords": [
+        {
+          "name": "security",
+          "value": 10
+        },
+        {
+          "name": "djibouti",
+          "value": 9
+        },
+        {
+          "name": "kallas",
+          "value": 8
+        },
+        {
+          "name": "maritime",
+          "value": 7
+        },
+        {
+          "name": "el-mandeb",
+          "value": 6
+        },
+        {
+          "name": "houthis",
+          "value": 6
+        },
+        {
+          "name": "iran",
+          "value": 5
+        },
+        {
+          "name": "shipping",
+          "value": 5
+        },
+        {
+          "name": "strait",
+          "value": 5
+        },
+        {
+          "name": "agreement",
+          "value": 4
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Middle East",
+        "Indo-Pacific",
+        "Africa"
+      ],
+      "detail_path": "/evidence/b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6",
+      "evidence_json": "/evidence/b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6.json"
+    },
+    {
+      "id": "1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda",
+      "topic": "geopolitics",
+      "title": "Wars shift focus from jets to weapons at giant Farnborough Airshow",
+      "url": "https://www.defensenews.com/global/europe/2026/07/17/wars-shift-focus-from-jets-to-weapons-at-giant-farnborough-airshow/",
+      "host": "defensenews.com",
+      "source": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-07-17T13:08:49.717636+00:00",
+      "published": "Fri, 17 Jul 2026 12:20:33 +0000",
+      "text_chars": 4759,
+      "raw_path": "data/geopolitics/raw/1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda.html",
+      "text_path": "data/geopolitics/raw/1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda.txt",
+      "summary": "One of the industry’s most influential figures warned the shift to drones and AI systems could disrupt defense as much as SpaceX transformed the launch business, as wars in Ukraine and Iran expose the need for faster developments and mass production. Organizers said defense will represent half of the record 1,600 exhibitors at the show, up from 40% historically, with a sharp increase in AI, deep-tech and finance companies.",
+      "bullets": [
+        "One of the industry’s most influential figures warned the shift to drones and AI systems could disrupt defense as much as SpaceX transformed the launch business, as wars in Ukraine and Iran expose the need for faster developments and mass production.",
+        "Organizers said defense will represent half of the record 1,600 exhibitors at the show, up from 40% historically, with a sharp increase in AI, deep-tech and finance companies.",
+        "Air shows can still produce surprises, but industry sources said total deals may struggle to climb far above 300 aircraft, well below some pre-show forecasts of as many as 800 jets.",
+        "With the Ukraine war in its fifth year and a ceasefire in tatters in the Gulf, those risks are also likely to move the ritual contest between Boeing and Airbus for jetliner orders down the pecking order at the July 20 to 24 show.",
+        "“Valuations are tilting in favor of the defense entrants but … most militaries are still spending the vast amount of their resources on manned platforms,” said Byron Callan, managing partner of research firm Capital Alpha."
+      ],
+      "excerpt": "FARNBOROUGH, England, July 17 (Reuters) — Spiraling security risks are expected to push defense to the forefront of Britain’s Farnborough Airshow, as aerospace and arms makers struggle to keep pace with demand for weapons while cementing a fragile recovery in civil jet and engine production. With the Ukraine war in its fifth year and a ceasefire in tatters in the Gulf, those risks are also likely to move the ritual contest between Boeing and Airbus for jetliner orders down the pecking order at the July 20 to 24 show. “The global security environment is arguably more complex and volatile today than we have seen in many, many decades, and we are watching security threats evolve at a breakneck pace,” Air Chief Marshal Harv Smyth, head of the Royal Air Force, told an International Air Chiefs Conference ahead of the show. Weapons makers enter their biennial bazaar witnessing the biggest rise in European defense spending since the Cold War but with unresolved questions about where and how it will be spent. RELATED Experts say Beijing used both methods to try out new, attention-grabbing and long-term ways to deter others from challenging its territorial claims. One of the industry’s most ",
+      "keywords": [
+        {
+          "name": "defense",
+          "value": 7
+        },
+        {
+          "name": "airbus",
+          "value": 5
+        },
+        {
+          "name": "show",
+          "value": 5
+        },
+        {
+          "name": "boeing",
+          "value": 4
+        },
+        {
+          "name": "most",
+          "value": 4
+        },
+        {
+          "name": "production",
+          "value": 4
+        },
+        {
+          "name": "supply",
+          "value": 4
+        },
+        {
+          "name": "aerospace",
+          "value": 3
+        },
+        {
+          "name": "both",
+          "value": 3
+        },
+        {
+          "name": "companies",
+          "value": 3
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Energy and Supply Chains"
+      ],
+      "regions": [
+        "Europe and Russia",
+        "Indo-Pacific",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda",
+      "evidence_json": "/evidence/1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda.json"
     },
     {
       "id": "117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7",
@@ -556,163 +714,6 @@
       ],
       "detail_path": "/evidence/117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7",
       "evidence_json": "/evidence/117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7.json"
-    },
-    {
-      "id": "f9a86eeef051919ba5abe54696ceef5a45c37fe86ec3c1ea5132a6fa02639dad",
-      "topic": "geopolitics",
-      "title": "US strikes on Iran reportedly hit airport and bridges – Middle East crisis live",
-      "url": "https://www.theguardian.com/world/live/2026/jul/17/us-iran-war-strait-of-hormuz-donald-trump-israel-lebanon-latest-news-updates",
-      "host": "theguardian.com",
-      "source": "https://www.theguardian.com/world/rss",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-07-17T09:51:18.009712+00:00",
-      "published": "Fri, 17 Jul 2026 09:39:23 GMT",
-      "text_chars": 11932,
-      "raw_path": "data/geopolitics/raw/f9a86eeef051919ba5abe54696ceef5a45c37fe86ec3c1ea5132a6fa02639dad.html",
-      "text_path": "data/geopolitics/raw/f9a86eeef051919ba5abe54696ceef5a45c37fe86ec3c1ea5132a6fa02639dad.txt",
-      "summary": "Yemen’s Houthi leader ⁠Abdul Malik al-Houthi said all Saudi ​oil and other vital facilities ⁠would be targets for the group’s ⁠missiles and drones if ​Riyadh ‌involved itself ‌in what he ‌described as “comprehensive aggression” against Yemen and moved towards escalation. A drone struck a ship located off the port in Iraq’s southern province of Basra, reports said on Thursday, with AFP and Reuters citing oil and security sources as saying the ship was “carrying American-branded cars” and had arrived from the United Arab Emirates.",
-      "bullets": [
-        "Yemen’s Houthi leader ⁠Abdul Malik al-Houthi said all Saudi ​oil and other vital facilities ⁠would be targets for the group’s ⁠missiles and drones if ​Riyadh ‌involved itself ‌in what he ‌described as “comprehensive aggression” against Yemen and moved towards escalation.",
-        "A drone struck a ship located off the port in Iraq’s southern province of Basra, reports said on Thursday, with AFP and Reuters citing oil and security sources as saying the ship was “carrying American-branded cars” and had arrived from the United Arab Emirates.",
-        "Key events Kuwait says power and water desalination plant targeted in Iranian attack Kuwait’s energy ministry said one of its power and water desalination plants was attacked by Iran, resulting in a fire and damage to the facility.",
-        "A day before, US aircraft fired on and disabled an unladen oil tanker that tried to breach the blockade, it said.",
-        "Oil prices are near their highest in a month amid the tensions over the strait of Hormuz and Brent crude briefly climbed above $86 a barrel on Thursday US time before falling back to $84.08, down 1% from the previous day."
-      ],
-      "excerpt": "Welcome to our live coverage of the latest in the continuing Middle East crisis. US strikes on Iran overnight hit an airport, a railway station and two bridges, according to Iranian state media on Friday, while American forces boarded a ship as they enforced a renewed blockade of Iranian ports. Three blasts were heard around Iranshahr airport in the south-east and at least one US projectile hit. Bandar Abbas station in the southern port city was also targeted and an Iranian official report spoke of airstrikes on two bridges in Iran’s southern Hormozgan province that left seven people dead, according to state and semi-official media. The attacks came as the US and Iran exchanged intensifying fire on Thursday in a week-long escalation that has largely ⁠unravelled last month’s truce, while Tehran disputed Donald Trump ’s claim that it had released a detained US citizen. A fire burns on a damaged bridge in the aftermath of a strike in Bandar Khamir in Iran’s Hormozgan province on Thursday. Photograph: Social media/Reuters Meanwhile, American forces boarded a ship, the M/T Wen Yao, in the Gulf of Oman on Thursday to ensure “full compliance” with the renewed blockade of Iran’s ports that",
-      "keywords": [
-        {
-          "name": "iran",
-          "value": 31
-        },
-        {
-          "name": "iranian",
-          "value": 14
-        },
-        {
-          "name": "media",
-          "value": 14
-        },
-        {
-          "name": "province",
-          "value": 13
-        },
-        {
-          "name": "attacks",
-          "value": 12
-        },
-        {
-          "name": "bridges",
-          "value": 12
-        },
-        {
-          "name": "targeted",
-          "value": 11
-        },
-        {
-          "name": "thursday",
-          "value": 11
-        },
-        {
-          "name": "blockade",
-          "value": 10
-        },
-        {
-          "name": "hormozgan",
-          "value": 10
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Territory and Chokepoints",
-        "Humanitarian Pressure",
-        "Energy and Supply Chains"
-      ],
-      "regions": [
-        "Middle East",
-        "Africa"
-      ],
-      "detail_path": "/evidence/f9a86eeef051919ba5abe54696ceef5a45c37fe86ec3c1ea5132a6fa02639dad",
-      "evidence_json": "/evidence/f9a86eeef051919ba5abe54696ceef5a45c37fe86ec3c1ea5132a6fa02639dad.json"
-    },
-    {
-      "id": "fce538f3455fb1f3dba2383c809aaef434c556af1247ba4a6791228c76f68daf",
-      "topic": "geopolitics",
-      "title": "How Revolutions Break Their Believers",
-      "url": "https://warontherocks.com/how-revolutions-break-their-believers/",
-      "host": "warontherocks.com",
-      "source": "https://warontherocks.com/feed/",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=UTF-8",
-      "collected_at": "2026-07-17T09:51:24.081967+00:00",
-      "published": "Fri, 17 Jul 2026 07:15:47 +0000",
-      "text_chars": 9403,
-      "raw_path": "data/geopolitics/raw/fce538f3455fb1f3dba2383c809aaef434c556af1247ba4a6791228c76f68daf.html",
-      "text_path": "data/geopolitics/raw/fce538f3455fb1f3dba2383c809aaef434c556af1247ba4a6791228c76f68daf.txt",
-      "summary": "It’s an old dilemma, for certain, but little digital town criers in our pockets bring instant, constant news about slaughter and ruin in Gaza, Ukraine, Sudan, and beyond — grim notices against the background of those chronicling the state of domestic American politics. It’sa political book, and a serious one, centered on the aftermath of Egypt’s 1952 revolution and military coup, and succeeds largely because its narrator goes out of his way to be anything but, well, political.",
-      "bullets": [
-        "It’s an old dilemma, for certain, but little digital town criers in our pockets bring instant, constant news about slaughter and ruin in Gaza, Ukraine, Sudan, and beyond — grim notices against the background of those chronicling the state of domestic American politics.",
-        "It’sa political book, and a serious one, centered on the aftermath of Egypt’s 1952 revolution and military coup, and succeeds largely because its narrator goes out of his way to be anything but, well, political.",
-        "Perhaps one could forgive the hyperbolic conclusion that the literary minds of yesteryear did not have to deal with all this fuckery.",
-        "Waguih Ghali, Beer in the Snooker Club (Vintage International, 2014) The noise, the noise, the unrelenting noise of the world: How is any writer with an interest in the long view supposed to escape it, if only for a couple hours to work, let alone maintain their sanity in the remainders of a day?",
-        "To wit: In late December 1968, an Egyptian writer and political exile named Waguih Ghali swallowed 26 sleeping pills at the London home of his friend and occasional lover, editor Diana Athill."
-      ],
-      "excerpt": "Waguih Ghali, Beer in the Snooker Club (Vintage International, 2014) The noise, the noise, the unrelenting noise of the world: How is any writer with an interest in the long view supposed to escape it, if only for a couple hours to work, let alone maintain their sanity in the remainders of a day? It’s an old dilemma, for certain, but little digital town criers in our pockets bring instant, constant news about slaughter and ruin in Gaza, Ukraine, Sudan, and beyond — grim notices against the background of those chronicling the state of domestic American politics. Perhaps one could forgive the hyperbolic conclusion that the literary minds of yesteryear did not have to deal with all this fuckery. So one reads, of then and now, because we can, and must. And then one remembers that writing has always been something of a defiant act against the world’s ceaselessness, even when it is scrutinizing the very same. To wit: In late December 1968, an Egyptian writer and political exile named Waguih Ghali swallowed 26 sleeping pills at the London home of his friend and occasional lover, editor Diana Athill. Rushed to a nearby hospital, Ghali died 10 days later, believing himself an abject failure",
-      "keywords": [
-        {
-          "name": "ghali",
-          "value": 10
-        },
-        {
-          "name": "egypt",
-          "value": 8
-        },
-        {
-          "name": "beer",
-          "value": 7
-        },
-        {
-          "name": "edna",
-          "value": 7
-        },
-        {
-          "name": "font",
-          "value": 7
-        },
-        {
-          "name": "himself",
-          "value": 7
-        },
-        {
-          "name": "snooker",
-          "value": 7
-        },
-        {
-          "name": "club",
-          "value": 6
-        },
-        {
-          "name": "political",
-          "value": 6
-        },
-        {
-          "name": "regime",
-          "value": 6
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Middle East",
-        "Africa",
-        "Europe and Russia"
-      ],
-      "detail_path": "/evidence/fce538f3455fb1f3dba2383c809aaef434c556af1247ba4a6791228c76f68daf",
-      "evidence_json": "/evidence/fce538f3455fb1f3dba2383c809aaef434c556af1247ba4a6791228c76f68daf.json"
     }
   ]
 }
