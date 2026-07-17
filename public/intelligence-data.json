@@ -1,79 +1,102 @@
 {
-  "generated_at": "2026-07-17T01:52:44.740268+00:00",
+  "generated_at": "2026-07-17T04:58:38.739389+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Ukraine's political turmoil escalates as President Zelenskyy dismisses popular defense minister amid public outcry.",
+    "headline": "Escalating tensions in Ukraine and the Middle East highlight geopolitical instability.",
     "executive_summary": [
-      "Ukrainian President Volodymyr Zelenskyy has faced significant backlash following the dismissal of Defense Minister Mykhailo Fedorov, a key figure in Ukraine's military modernization efforts. Fedorov's removal has sparked protests across multiple cities, with demonstrators expressing their discontent and calling for his reinstatement, highlighting the deep divisions within the government and military leadership.",
-      "The decision to fire Fedorov, who had been instrumental in enhancing Ukraine's drone capabilities and military strategy, has raised concerns about the unity and effectiveness of Ukraine's defense against ongoing Russian aggression. Reports indicate that tensions between Fedorov and military leadership contributed to his dismissal, further complicating the already strained relations within the Ukrainian government.",
-      "Public sentiment appears to be shifting as citizens rally in support of Fedorov, viewing his leadership as crucial to Ukraine's recent battlefield successes. The protests reflect a broader dissatisfaction with Zelenskyy's administration and its handling of military affairs, raising questions about the government's stability during a critical phase of the conflict.",
-      "As the situation unfolds, the implications of this political crisis could affect Ukraine's international partnerships and military support, particularly as foreign allies monitor the internal dynamics that may influence Ukraine's capacity to respond to Russian advances."
+      "Recent developments in Ukraine have sparked significant public unrest following President Volodymyr Zelenskyy's dismissal of Defense Minister Mykhailo Fedorov. Fedorov, known for his modernization efforts in Ukraine's military, faced backlash from both the public and military leaders, leading to protests across several cities as citizens demand clarity and accountability from the government (evidence ids: 12, 14, 27, 28).",
+      "In the Middle East, the situation remains volatile as the United States intensifies military actions against Iran, including strikes on Iranian infrastructure and naval assets. This escalation has prompted retaliatory measures from Iran, further complicating the regional security landscape and threatening global energy supplies through the critical Strait of Hormuz (evidence ids: 10, 26, 24).",
+      "The ongoing conflict in Ukraine continues to see high casualty rates, with reports indicating that Russian recruits face severe risks on the battlefield. The introduction of advanced military technologies has shifted the dynamics of the conflict, raising concerns about the sustainability of Russian military operations (evidence ids: 11, 12).",
+      "International responses to these crises are varied, with some nations reevaluating their military support and diplomatic strategies. The implications of these developments could reshape alliances and influence future geopolitical engagements, particularly in light of the recent protests in Ukraine and the heightened military tensions in the Middle East (evidence ids: 13, 19)."
     ],
     "key_judgments": [
       {
-        "title": "Political Crisis in Ukraine",
-        "finding": "The dismissal of Defense Minister Mykhailo Fedorov has triggered widespread protests, indicating a significant political crisis within Ukraine's government.",
+        "title": "Public dissent in Ukraine over defense minister's dismissal",
+        "finding": "The removal of Defense Minister Mykhailo Fedorov has led to widespread protests, indicating significant public discontent with the government's decision-making process.",
+        "citations": [
+          "12",
+          "14",
+          "27",
+          "28"
+        ]
+      },
+      {
+        "title": "Escalation of US-Iran military tensions",
+        "finding": "The US has intensified military operations against Iran, which has retaliated, raising the risk of broader conflict in the region.",
+        "citations": [
+          "10",
+          "26",
+          "24"
+        ]
+      },
+      {
+        "title": "High casualty rates among Russian forces in Ukraine",
+        "finding": "Russian military recruits are facing unprecedented casualty rates, with emerging technologies significantly impacting battlefield dynamics.",
         "citations": [
           "11",
+          "12"
+        ]
+      },
+      {
+        "title": "Shifts in international military support and alliances",
+        "finding": "The geopolitical landscape is shifting as nations reassess their military support in light of recent events in Ukraine and the Middle East.",
+        "citations": [
           "13",
-          "27"
-        ]
-      },
-      {
-        "title": "Impact on Military Strategy",
-        "finding": "Fedorov's removal could undermine Ukraine's military strategy and modernization efforts, particularly in drone warfare, which has been pivotal in countering Russian forces.",
-        "citations": [
-          "11",
-          "26"
-        ]
-      },
-      {
-        "title": "Public Sentiment and Government Stability",
-        "finding": "The public's strong support for Fedorov suggests growing discontent with Zelenskyy's administration, potentially threatening the government's stability during the ongoing conflict.",
-        "citations": [
-          "11",
-          "27"
+          "19"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Europe and Russia",
-        "assessment": "The political turmoil in Ukraine may have broader implications for European security, particularly as the EU and NATO assess the effectiveness of their support for Ukraine amidst internal challenges.",
+        "assessment": "The political crisis in Ukraine, marked by public protests against government decisions, reflects deep societal divisions and challenges to leadership amid ongoing military conflict.",
         "citations": [
-          "11",
-          "13",
+          "12",
+          "14",
+          "27",
           "28"
+        ]
+      },
+      {
+        "region": "Middle East",
+        "assessment": "The escalation of military actions between the US and Iran poses significant risks to regional stability and global energy security, particularly through the Strait of Hormuz.",
+        "citations": [
+          "10",
+          "26",
+          "24"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "Ukrainian Defense Minister Mykhailo Fedorov",
-        "why_it_matters": "Fedorov's leadership has been crucial for Ukraine's military innovation; his dismissal could impact military effectiveness against Russia.",
+        "label": "Ukrainian political stability",
+        "why_it_matters": "The ongoing protests and political unrest could undermine Ukraine's military efforts against Russia and affect international support.",
         "citations": [
-          "11",
-          "26"
+          "12",
+          "14",
+          "27",
+          "28"
         ]
       },
       {
-        "label": "Public Protests in Ukraine",
-        "why_it_matters": "The scale and intensity of public protests could signal a shift in political power dynamics and affect future governance in Ukraine.",
+        "label": "US-Iran relations",
+        "why_it_matters": "Continued military escalation could lead to a broader conflict, impacting global energy markets and international diplomatic relations.",
         "citations": [
-          "11",
-          "27"
+          "10",
+          "26",
+          "24"
         ]
       }
     ],
     "caveats": [
-      "Limitations from source coverage may affect the comprehensiveness of the analysis."
+      "Limitations from source coverage"
     ]
   },
   "summary": {
-    "raw_documents": 2120,
-    "total_text_chars": 336782877,
+    "raw_documents": 2121,
+    "total_text_chars": 336785999,
     "sources": 34,
     "signals": 8,
     "regions": 6,
@@ -84,7 +107,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 1551
+      "value": 1552
     },
     {
       "name": "PDF",
@@ -118,7 +141,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 1484
+      "value": 1485
     },
     {
       "name": "pdfs",
@@ -176,7 +199,7 @@
     },
     {
       "name": "aljazeera.com",
-      "value": 188
+      "value": 189
     },
     {
       "name": "global.unitednations.entermediadb.net",
@@ -282,7 +305,7 @@
   "keyword_counts": [
     {
       "name": "iran",
-      "value": 7326
+      "value": 7337
     },
     {
       "name": "health",
@@ -342,7 +365,7 @@
     },
     {
       "name": "military",
-      "value": 2188
+      "value": 2192
     },
     {
       "name": "june",
@@ -389,12 +412,12 @@
       "value": 1660
     },
     {
-      "name": "data",
-      "value": 1644
+      "name": "security",
+      "value": 1647
     },
     {
-      "name": "security",
-      "value": 1643
+      "name": "data",
+      "value": 1644
     },
     {
       "name": "services",
@@ -406,7 +429,7 @@
     },
     {
       "name": "strait",
-      "value": 1447
+      "value": 1454
     },
     {
       "name": "percent",
@@ -464,11 +487,11 @@
   "signals": [
     {
       "name": "War and Escalation",
-      "count": 1440,
+      "count": 1441,
       "formats": [
         {
           "name": "Article",
-          "value": 1208
+          "value": 1209
         },
         {
           "name": "PDF",
@@ -488,6 +511,7 @@
         }
       ],
       "evidence_ids": [
+        "e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
         "062afe477327ccb09984ec5178a84c6c9e8f9fb529066c38a20816c06070b3d3",
         "4e98f978e3927b0b224729cebec8fac717c4f6c81ef282a1cc2afc3e101d1391",
         "ebd1e36bad10d72cb2b725b7520e61d55cc3635dca3c7ce9b0d68b3d9f3da64b",
@@ -496,11 +520,20 @@
         "bbd41cc35d1cc3701be179e59cb12aff1e669522315a8318b74cf6808256f12b",
         "d4189d063c6c7e76877188a2e40c4492f0a4bc1eefa5405bfe6b1018b0b243f9",
         "1c9027c72598dbb1722e3771673f9e3d570970bfed8f24c16062d19c0180a673",
-        "cd82cc72b28022a2b5eb4505c5178aaf27691614bdda4b5d6e7ee4c92a78f091",
-        "a5e069807829d4bda512bba1b87fdfff98cfbd6975bf9d18323059591d6161ec"
+        "cd82cc72b28022a2b5eb4505c5178aaf27691614bdda4b5d6e7ee4c92a78f091"
       ],
-      "summary": "(Alexander Nemenov/AFP via Getty Images) More than 2 million soldiers on both sides have been killed or wounded since Russia’s February 2022 invasion, with Russia bearing 1.4 million of those casualties, the CSIS researchers found, including as many as 450,000 dead — the highest battlefield death toll suffered by any major power since World War II. “The war has changed completely,” Fedorov said on Thursday, arguing that new advancements are necessary to counter Russia. Welcome back to World Brief, where we’re looking at protests in Ukraine, Iran ’s new threats to the Gulf region, and dangerous air quality levels for Canada and the United States. Many Ukrainians have praised Fedorov for cracking down on corruption and pushing for asymmetric warfare that would limit Ukrainian casualties. Senator John Fetterman said he would consider leaving the Democratic party it ever became “the anti-Israel party”, as more than 100 House lawmakers backed halting military aid to the Middle Eastern ally over its incursions into Gaza and Lebanon. “If I was going to, I would have already done that.” The senator spoke on the same day 103 House Democrats voted for an unsuccessful bid to halt $3.3bn in aid for Israel, the majority of which would be for its military. Speaking at a press conference in Kyiv with the British prime minister, Keir Starmer, Zelenskyy said there had been a “challenging dialogue” between Fedorov – widely seen as a reformist and moderniser – and the military’s commander in chief, Col Gen Oleksandr Syrskyi. Photograph: Sergey Dolzhenko/EPA The UK prime minister said Ukrainian drone strikes on long-range targets inside Russia had shifted the war’s momentum.",
+      "summary": "Published On 17 Jul 2026 17 Jul 2026 The head of the International Energy Agency has warned that global energy security is under serious threat unless efforts by the United States and Iran lead to improved oil flows through the Strait of Hormuz. “The Strait of Hormuz is entirely within the sovereignty of Iran and Oman, and no external party has the right to interfere in its affairs, especially the United States of America.” Al Jazeera’s Rosiland Jordan said the US military’s Central Command (CENTCOM) had not released a formal report on its sixth night... (Alexander Nemenov/AFP via Getty Images) More than 2 million soldiers on both sides have been killed or wounded since Russia’s February 2022 invasion, with Russia bearing 1.4 million of those casualties, the CSIS researchers found, including as many as 450,000 dead — the highest battlefield death toll suffered by any major power since World War II. “The war has changed completely,” Fedorov said on Thursday, arguing that new advancements are necessary to counter Russia. Welcome back to World Brief, where we’re looking at protests in Ukraine, Iran ’s new threats to the Gulf region, and dangerous air quality levels for Canada and the United States. Many Ukrainians have praised Fedorov for cracking down on corruption and pushing for asymmetric warfare that would limit Ukrainian casualties. Senator John Fetterman said he would consider leaving the Democratic party it ever became “the anti-Israel party”, as more than 100 House lawmakers backed halting military aid to the Middle Eastern ally over its incursions into Gaza and Lebanon. “If I was going to, I would have already done that.” The senator spoke on the same day 103 House Democrats voted for an unsuccessful bid to halt $3.3bn in aid for Israel, the majority of which would be for its military.",
       "latest": [
+        {
+          "id": "e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
+          "title": "IEA chief warns Strait of Hormuz crisis threatens global energy security",
+          "url": "https://www.aljazeera.com/news/2026/7/17/iea-chief-warns-strait-of-hormuz-crisis-threatens-global-energy-security?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-07-17T04:58:50.820391+00:00",
+          "published": "Fri, 17 Jul 2026 02:25:55 +0000",
+          "summary": "Published On 17 Jul 2026 17 Jul 2026 The head of the International Energy Agency has warned that global energy security is under serious threat unless efforts by the United States and Iran lead to improved oil flows through the Strait of Hormuz. “The Strait of Hormuz is entirely within the sovereignty of Iran and Oman, and no external party has the right to interfere in its affairs, especially the United States of America.” Al Jazeera’s Rosiland Jordan said the US military’s Central Command (CENTCOM) had not released a formal report on its sixth night..."
+        },
         {
           "id": "062afe477327ccb09984ec5178a84c6c9e8f9fb529066c38a20816c06070b3d3",
           "title": "Russian troops survive just 20-30 minutes on Ukraine’s front lines, CIA director says",
@@ -540,16 +573,6 @@
           "collected_at": "2026-07-16T23:54:09.400836+00:00",
           "published": "Thu, 16 Jul 2026 18:25:48 GMT",
           "summary": "Speaking at a press conference in Kyiv with the British prime minister, Keir Starmer, Zelenskyy said there had been a “challenging dialogue” between Fedorov – widely seen as a reformist and moderniser – and the military’s commander in chief, Col Gen Oleksandr Syrskyi. Photograph: Sergey Dolzhenko/EPA The UK prime minister said Ukrainian drone strikes on long-range targets inside Russia had shifted the war’s momentum."
-        },
-        {
-          "id": "17418398dabaff118e32087b9eaef42db32161cbd82aafd94e794bbe96683ab9",
-          "title": "German Military Power Needs to Go It Alone",
-          "url": "https://foreignpolicy.com/2026/07/16/germany-military-power-bundeswehr-nato-europe-russia/",
-          "host": "foreignpolicy.com",
-          "format": "Article",
-          "collected_at": "2026-07-16T17:07:32.959879+00:00",
-          "published": "Thu, 16 Jul 2026 16:05:43 +0000",
-          "summary": "NATO’s European forces are already burdened by disjointed structures, national caveats, and cumbersome chains of command—and the way they have been assembled into multinational forces is a product of intra-alliance diplomacy during peacetime, not of a laser focus on effectiveness in war. Others wonder whether European NATO members are heading toward a genuinely integrated defense of their continent—or simply back to rival national armies now that the United States no longer leads."
         }
       ]
     },
@@ -737,11 +760,11 @@
     },
     {
       "name": "Territory and Chokepoints",
-      "count": 820,
+      "count": 821,
       "formats": [
         {
           "name": "Article",
-          "value": 649
+          "value": 650
         },
         {
           "name": "PDF",
@@ -761,6 +784,7 @@
         }
       ],
       "evidence_ids": [
+        "e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
         "4e98f978e3927b0b224729cebec8fac717c4f6c81ef282a1cc2afc3e101d1391",
         "b3ee9d109a83385563eb524a7b326ff7fcc2751f88455ed61d7540be0bd2c1b5",
         "cd82cc72b28022a2b5eb4505c5178aaf27691614bdda4b5d6e7ee4c92a78f091",
@@ -769,11 +793,20 @@
         "ee8c76d916e91bd5caf952c206e691faa79e2255f08fc7b5ad0934dba38c5980",
         "3913f751f7f91f47e0096587684c57a3772320b747c2c8fa522bfe805a103586",
         "470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c",
-        "5e1cc8d3acd57bc70be0186efb89d68d9df3e55b024c8b861a74ae23be796e5e",
-        "5a958f816898107340a4cb467df0d06fc7fd29dfd90ba379c9a2a2f75cd5f0ba"
+        "5e1cc8d3acd57bc70be0186efb89d68d9df3e55b024c8b861a74ae23be796e5e"
       ],
-      "summary": "“The war has changed completely,” Fedorov said on Thursday, arguing that new advancements are necessary to counter Russia. Welcome back to World Brief, where we’re looking at protests in Ukraine, Iran ’s new threats to the Gulf region, and dangerous air quality levels for Canada and the United States. Many Ukrainians have praised Fedorov for cracking down on corruption and pushing for asymmetric warfare that would limit Ukrainian casualties. URL: https://www.aljazeera.com/video/inside-story/2026/7/16/how-serious-is-irans-threat-to-disrupt-shipping-in-the-red-sea?traffic_source=rss Source: https://www.aljazeera.com/xml/rss/all.xml Content-Type: text/html; charset=utf-8 Bytes: 206212 Title: How serious is Iran’s threat to disrupt shipping in the Red Sea? Binary video_content source collected for Global Geopolitics Monitor. “Based on the investigative evidence available to us, we have no doubt that serving officers of the main intelligence directorate of the ministry of defence of Ukraine, commonly known as the GUR, were directly involved in this attempted assassination,” Iermolaiev said in a statement published by his lawyers. In his first public statement since the bombing that shook the wealthy principality, Vadym Iermolaiev alleged that serving and former officers of the GUR military intelligence agency were behind the attempted killing, which left him injured but his... As part of the ceasefire deal Washington also eased decades-old sanctions by issuing a temporary license to allow the sale of Iranian oil and payment to Tehran in US dollars. Analysts with advocacy and monitoring group United Against Nuclear Iran (UANI) and shipping experts TankerTrackers.com estimate that between the end of the blockade and its resumption Iran has exported at least 74 million barrels of oil.",
+      "summary": "Published On 17 Jul 2026 17 Jul 2026 The head of the International Energy Agency has warned that global energy security is under serious threat unless efforts by the United States and Iran lead to improved oil flows through the Strait of Hormuz. “The Strait of Hormuz is entirely within the sovereignty of Iran and Oman, and no external party has the right to interfere in its affairs, especially the United States of America.” Al Jazeera’s Rosiland Jordan said the US military’s Central Command (CENTCOM) had not released a formal report on its sixth night... “The war has changed completely,” Fedorov said on Thursday, arguing that new advancements are necessary to counter Russia. Welcome back to World Brief, where we’re looking at protests in Ukraine, Iran ’s new threats to the Gulf region, and dangerous air quality levels for Canada and the United States. Many Ukrainians have praised Fedorov for cracking down on corruption and pushing for asymmetric warfare that would limit Ukrainian casualties. URL: https://www.aljazeera.com/video/inside-story/2026/7/16/how-serious-is-irans-threat-to-disrupt-shipping-in-the-red-sea?traffic_source=rss Source: https://www.aljazeera.com/xml/rss/all.xml Content-Type: text/html; charset=utf-8 Bytes: 206212 Title: How serious is Iran’s threat to disrupt shipping in the Red Sea? Binary video_content source collected for Global Geopolitics Monitor. “Based on the investigative evidence available to us, we have no doubt that serving officers of the main intelligence directorate of the ministry of defence of Ukraine, commonly known as the GUR, were directly involved in this attempted assassination,” Iermolaiev said in a statement published by his lawyers. In his first public statement since the bombing that shook the wealthy principality, Vadym Iermolaiev alleged that serving and former officers of the GUR military intelligence agency were behind the attempted killing, which left him injured but his...",
       "latest": [
+        {
+          "id": "e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
+          "title": "IEA chief warns Strait of Hormuz crisis threatens global energy security",
+          "url": "https://www.aljazeera.com/news/2026/7/17/iea-chief-warns-strait-of-hormuz-crisis-threatens-global-energy-security?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-07-17T04:58:50.820391+00:00",
+          "published": "Fri, 17 Jul 2026 02:25:55 +0000",
+          "summary": "Published On 17 Jul 2026 17 Jul 2026 The head of the International Energy Agency has warned that global energy security is under serious threat unless efforts by the United States and Iran lead to improved oil flows through the Strait of Hormuz. “The Strait of Hormuz is entirely within the sovereignty of Iran and Oman, and no external party has the right to interfere in its affairs, especially the United States of America.” Al Jazeera’s Rosiland Jordan said the US military’s Central Command (CENTCOM) had not released a formal report on its sixth night..."
+        },
         {
           "id": "4e98f978e3927b0b224729cebec8fac717c4f6c81ef282a1cc2afc3e101d1391",
           "title": "Zelensky’s Cabinet Reshuffle Sparks Public Outcry in Ukraine",
@@ -813,26 +846,16 @@
           "collected_at": "2026-07-16T13:24:54.818812+00:00",
           "published": "Thu, 16 Jul 2026 12:09:26 GMT",
           "summary": "As part of the ceasefire deal Washington also eased decades-old sanctions by issuing a temporary license to allow the sale of Iranian oil and payment to Tehran in US dollars. Analysts with advocacy and monitoring group United Against Nuclear Iran (UANI) and shipping experts TankerTrackers.com estimate that between the end of the blockade and its resumption Iran has exported at least 74 million barrels of oil."
-        },
-        {
-          "id": "c41a6434ecabaec16c6470d86eec5e4217721f765cc0e54d227420c35a06cbd9",
-          "title": "US intensifies attacks on Iran as Tehran hits back at Gulf states",
-          "url": "https://www.theguardian.com/world/2026/jul/16/us-intensifies-attacks-on-iran-as-tehran-hits-back-at-gulf-states",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-07-16T13:24:47.236993+00:00",
-          "published": "Thu, 16 Jul 2026 11:47:12 GMT",
-          "summary": "The attacks have been accompanied by escalating rhetoric from both sides, as the US enforced its naval blockade and Iran said it had shut the strait of Hormuz, which before the conflict handled around a fifth of global oil and gas exports. The US also said it fired on a tanker sailing towards Kharg island, Iran’s biggest oil export terminal. Iraq’s prime minister, Ali al-Zaidi, also said there was an overnight drone attack on the city of Erbil in Iraqi Kurdistan."
         }
       ]
     },
     {
       "name": "Energy and Supply Chains",
-      "count": 643,
+      "count": 644,
       "formats": [
         {
           "name": "Article",
-          "value": 516
+          "value": 517
         },
         {
           "name": "PDF",
@@ -848,6 +871,7 @@
         }
       ],
       "evidence_ids": [
+        "e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
         "b3ee9d109a83385563eb524a7b326ff7fcc2751f88455ed61d7540be0bd2c1b5",
         "361db6685e9a46d64b857ff8834361c7a4381d06adcd02e2539fb5df8952b0c3",
         "d4189d063c6c7e76877188a2e40c4492f0a4bc1eefa5405bfe6b1018b0b243f9",
@@ -856,11 +880,20 @@
         "c41a6434ecabaec16c6470d86eec5e4217721f765cc0e54d227420c35a06cbd9",
         "de8c4e1f231e7e5004a9485040869064aeee67424e447adb7cece0ff38da2a23",
         "c25fdb8e4574be92d62eb024ca3622f0264b7187453d2b5c427d5f557f5c84ee",
-        "eca0eb2e0189a46557cb11d6f0edae6b4286d33327e0ec773e9124d5af0c5045",
-        "c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b"
+        "eca0eb2e0189a46557cb11d6f0edae6b4286d33327e0ec773e9124d5af0c5045"
       ],
-      "summary": "URL: https://www.aljazeera.com/video/inside-story/2026/7/16/how-serious-is-irans-threat-to-disrupt-shipping-in-the-red-sea?traffic_source=rss Source: https://www.aljazeera.com/xml/rss/all.xml Content-Type: text/html; charset=utf-8 Bytes: 206212 Title: How serious is Iran’s threat to disrupt shipping in the Red Sea? Binary video_content source collected for Global Geopolitics Monitor. Speaking at a press conference in Kyiv with the British prime minister, Keir Starmer, Zelenskyy said there had been a “challenging dialogue” between Fedorov – widely seen as a reformist and moderniser – and the military’s commander in chief, Col Gen Oleksandr Syrskyi. Photograph: Sergey Dolzhenko/EPA The UK prime minister said Ukrainian drone strikes on long-range targets inside Russia had shifted the war’s momentum. Speaking at a press conference in Kyiv with the British prime minister, Keir Starmer, Zelenskyy said there had been a “challenging dialogue” between Fedorov – widely seen as a reformist and moderniser – and the military’s commander in chief, Col Gen Oleksandr Syrskyi. Photograph: Sergey Dolzhenko/EPA The UK prime minister said Ukrainian drone strikes on long-range targets inside Russia had shifted the war’s momentum. In other developments: 103 House Democrats voted to cut military aid to Israel as accusations that Israel’s government carried out a genocide in Gaza are gaining more traction in the party. She said he had always been there for her and vowed: “Now, I will be there for him.” “I promise to work hard over the next several months to support the president and carry forward the efforts of my brother on behalf of the citizens of South Carolina and the United States,” she said.",
+      "summary": "Published On 17 Jul 2026 17 Jul 2026 The head of the International Energy Agency has warned that global energy security is under serious threat unless efforts by the United States and Iran lead to improved oil flows through the Strait of Hormuz. “The Strait of Hormuz is entirely within the sovereignty of Iran and Oman, and no external party has the right to interfere in its affairs, especially the United States of America.” Al Jazeera’s Rosiland Jordan said the US military’s Central Command (CENTCOM) had not released a formal report on its sixth night... URL: https://www.aljazeera.com/video/inside-story/2026/7/16/how-serious-is-irans-threat-to-disrupt-shipping-in-the-red-sea?traffic_source=rss Source: https://www.aljazeera.com/xml/rss/all.xml Content-Type: text/html; charset=utf-8 Bytes: 206212 Title: How serious is Iran’s threat to disrupt shipping in the Red Sea? Binary video_content source collected for Global Geopolitics Monitor. Speaking at a press conference in Kyiv with the British prime minister, Keir Starmer, Zelenskyy said there had been a “challenging dialogue” between Fedorov – widely seen as a reformist and moderniser – and the military’s commander in chief, Col Gen Oleksandr Syrskyi. Photograph: Sergey Dolzhenko/EPA The UK prime minister said Ukrainian drone strikes on long-range targets inside Russia had shifted the war’s momentum. Speaking at a press conference in Kyiv with the British prime minister, Keir Starmer, Zelenskyy said there had been a “challenging dialogue” between Fedorov – widely seen as a reformist and moderniser – and the military’s commander in chief, Col Gen Oleksandr Syrskyi. Photograph: Sergey Dolzhenko/EPA The UK prime minister said Ukrainian drone strikes on long-range targets inside Russia had shifted the war’s momentum.",
       "latest": [
+        {
+          "id": "e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
+          "title": "IEA chief warns Strait of Hormuz crisis threatens global energy security",
+          "url": "https://www.aljazeera.com/news/2026/7/17/iea-chief-warns-strait-of-hormuz-crisis-threatens-global-energy-security?traffic_source=rss",
+          "host": "aljazeera.com",
+          "format": "Article",
+          "collected_at": "2026-07-17T04:58:50.820391+00:00",
+          "published": "Fri, 17 Jul 2026 02:25:55 +0000",
+          "summary": "Published On 17 Jul 2026 17 Jul 2026 The head of the International Energy Agency has warned that global energy security is under serious threat unless efforts by the United States and Iran lead to improved oil flows through the Strait of Hormuz. “The Strait of Hormuz is entirely within the sovereignty of Iran and Oman, and no external party has the right to interfere in its affairs, especially the United States of America.” Al Jazeera’s Rosiland Jordan said the US military’s Central Command (CENTCOM) had not released a formal report on its sixth night..."
+        },
         {
           "id": "b3ee9d109a83385563eb524a7b326ff7fcc2751f88455ed61d7540be0bd2c1b5",
           "title": "How serious is Iran’s threat to disrupt shipping in the Red Sea?",
@@ -900,16 +933,6 @@
           "collected_at": "2026-07-16T15:30:11.188932+00:00",
           "published": "Thu, 16 Jul 2026 15:06:55 GMT",
           "summary": "In other developments: 103 House Democrats voted to cut military aid to Israel as accusations that Israel’s government carried out a genocide in Gaza are gaining more traction in the party. She said he had always been there for her and vowed: “Now, I will be there for him.” “I promise to work hard over the next several months to support the president and carry forward the efforts of my brother on behalf of the citizens of South Carolina and the United States,” she said."
-        },
-        {
-          "id": "df75cd8208a446d9820445c50855efa91da4b0bd517559dd1d34e5b40adf7c12",
-          "title": "US strikes first tanker with missiles as it enforces new blockade",
-          "url": "https://www.bbc.co.uk/news/articles/clyqwkegqk0o?at_medium=RSS&at_campaign=rss",
-          "host": "bbc.co.uk",
-          "format": "Article",
-          "collected_at": "2026-07-16T13:24:54.818812+00:00",
-          "published": "Thu, 16 Jul 2026 12:09:26 GMT",
-          "summary": "As part of the ceasefire deal Washington also eased decades-old sanctions by issuing a temporary license to allow the sale of Iranian oil and payment to Tehran in US dollars. Analysts with advocacy and monitoring group United Against Nuclear Iran (UANI) and shipping experts TankerTrackers.com estimate that between the end of the blockade and its resumption Iran has exported at least 74 million barrels of oil."
         }
       ]
     },
@@ -1186,8 +1209,9 @@
   "regions": [
     {
       "name": "Middle East",
-      "count": 1120,
+      "count": 1121,
       "evidence_ids": [
+        "e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
         "4e98f978e3927b0b224729cebec8fac717c4f6c81ef282a1cc2afc3e101d1391",
         "b3ee9d109a83385563eb524a7b326ff7fcc2751f88455ed61d7540be0bd2c1b5",
         "ebd1e36bad10d72cb2b725b7520e61d55cc3635dca3c7ce9b0d68b3d9f3da64b",
@@ -1198,8 +1222,7 @@
         "c41a6434ecabaec16c6470d86eec5e4217721f765cc0e54d227420c35a06cbd9",
         "ee8c76d916e91bd5caf952c206e691faa79e2255f08fc7b5ad0934dba38c5980",
         "3913f751f7f91f47e0096587684c57a3772320b747c2c8fa522bfe805a103586",
-        "5e1cc8d3acd57bc70be0186efb89d68d9df3e55b024c8b861a74ae23be796e5e",
-        "5a958f816898107340a4cb467df0d06fc7fd29dfd90ba379c9a2a2f75cd5f0ba"
+        "5e1cc8d3acd57bc70be0186efb89d68d9df3e55b024c8b861a74ae23be796e5e"
       ],
       "top_sources": [
         {
@@ -1212,7 +1235,7 @@
         },
         {
           "name": "aljazeera.com",
-          "value": 144
+          "value": 145
         },
         {
           "name": "global.unitednations.entermediadb.net",
@@ -1266,8 +1289,9 @@
     },
     {
       "name": "Americas",
-      "count": 959,
+      "count": 960,
       "evidence_ids": [
+        "e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
         "062afe477327ccb09984ec5178a84c6c9e8f9fb529066c38a20816c06070b3d3",
         "4e98f978e3927b0b224729cebec8fac717c4f6c81ef282a1cc2afc3e101d1391",
         "17418398dabaff118e32087b9eaef42db32161cbd82aafd94e794bbe96683ab9",
@@ -1278,8 +1302,7 @@
         "3913f751f7f91f47e0096587684c57a3772320b747c2c8fa522bfe805a103586",
         "c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b",
         "470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c",
-        "5e1cc8d3acd57bc70be0186efb89d68d9df3e55b024c8b861a74ae23be796e5e",
-        "5a958f816898107340a4cb467df0d06fc7fd29dfd90ba379c9a2a2f75cd5f0ba"
+        "5e1cc8d3acd57bc70be0186efb89d68d9df3e55b024c8b861a74ae23be796e5e"
       ],
       "top_sources": [
         {
@@ -1288,7 +1311,7 @@
         },
         {
           "name": "aljazeera.com",
-          "value": 134
+          "value": 135
         },
         {
           "name": "reliefweb.int",
@@ -1386,8 +1409,9 @@
     },
     {
       "name": "Indo-Pacific",
-      "count": 447,
+      "count": 448,
       "evidence_ids": [
+        "e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
         "df75cd8208a446d9820445c50855efa91da4b0bd517559dd1d34e5b40adf7c12",
         "c41a6434ecabaec16c6470d86eec5e4217721f765cc0e54d227420c35a06cbd9",
         "fdbe8aa2ace6018bdf99ec185d99e81ffa2469bcac4fd4c9a215425b3514b14e",
@@ -1398,8 +1422,7 @@
         "2370279b223bbe12fb6bdd90e21bf814e52742da69006a70b0cb17f853b1f98c",
         "d8ebabfbd3aa2cfed864bed83169cd9f6f59b962e585e7d7d7c65ca84ac28891",
         "5408e70db8c27c295462c79d78bd636aa0b66eddd8915abb5ba752a35870364d",
-        "ec024d1cafee66519ff78dda5cda11ef2b7a0cdf8e39695d133d90a91b3c9901",
-        "fb5da255fd9018ca9c5a99e3b05a3c4edec2a38120c78e72a71e4ef5a938cee8"
+        "ec024d1cafee66519ff78dda5cda11ef2b7a0cdf8e39695d133d90a91b3c9901"
       ],
       "top_sources": [
         {
@@ -1416,7 +1439,7 @@
         },
         {
           "name": "aljazeera.com",
-          "value": 40
+          "value": 41
         },
         {
           "name": "foreignpolicy.com",
@@ -2408,6 +2431,85 @@
     }
   ],
   "latest_evidence": [
+    {
+      "id": "e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
+      "topic": "geopolitics",
+      "title": "IEA chief warns Strait of Hormuz crisis threatens global energy security",
+      "url": "https://www.aljazeera.com/news/2026/7/17/iea-chief-warns-strait-of-hormuz-crisis-threatens-global-energy-security?traffic_source=rss",
+      "host": "aljazeera.com",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-07-17T04:58:50.820391+00:00",
+      "published": "Fri, 17 Jul 2026 02:25:55 +0000",
+      "text_chars": 3122,
+      "raw_path": "data/geopolitics/raw/e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9.html",
+      "text_path": "data/geopolitics/raw/e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9.txt",
+      "summary": "Published On 17 Jul 2026 17 Jul 2026 The head of the International Energy Agency has warned that global energy security is under serious threat unless efforts by the United States and Iran lead to improved oil flows through the Strait of Hormuz. “The Strait of Hormuz is entirely within the sovereignty of Iran and Oman, and no external party has the right to interfere in its affairs, especially the United States of America.” Al Jazeera’s Rosiland Jordan said the US military’s Central Command (CENTCOM) had not released a formal report on its sixth night...",
+      "bullets": [
+        "Published On 17 Jul 2026 17 Jul 2026 The head of the International Energy Agency has warned that global energy security is under serious threat unless efforts by the United States and Iran lead to improved oil flows through the Strait of Hormuz.",
+        "“The Strait of Hormuz is entirely within the sovereignty of Iran and Oman, and no external party has the right to interfere in its affairs, especially the United States of America.” Al Jazeera’s Rosiland Jordan said the US military’s Central Command (CENTCOM) had not released a formal report on its sixth night of attacks on Iran.",
+        "He also said Iran was maintaining its closure of the Strait of Hormuz, citing what it described as a lack of US commitment to the memorandum of understanding.",
+        "“We insist on US not to interfere in the Strait of Hormuz, and on its withdrawal from the region,” Iranian Armed Forces spokesman Abolfazl Shekarchi said.",
+        "CENTCOM said that since the blockade on Iran was reimposed, five vessels have attempted to “run the blockade”."
+      ],
+      "excerpt": "Published On 17 Jul 2026 17 Jul 2026 The head of the International Energy Agency has warned that global energy security is under serious threat unless efforts by the United States and Iran lead to improved oil flows through the Strait of Hormuz. Fatih Birol said on Thursday that the world should be concerned about energy security if the situation does not improve soon. Recommended Stories list of 3 items end of list “Oil security is still a critical issue,” Birol said, speaking at an event hosted by the Council on Foreign Relations. ⁠”We should ⁠be worried, and I am worried if the situation ‌does not improve in the next ‌few weeks,” he added. Birol’s comments came after the US intensified attacks on Iran, carrying out a sixth consecutive night of strikes, hitting Bandar Abbas, Ahvaz and Iranshahr, and firing on a ship it accused of trying to break its reimposed naval blockade on Iranian ports. Tehran retaliated by launching missiles and drones at Washington’s allies in the region, targeting Kuwait, Bahrain and Jordan. Explosions were also reported in Qatar. The escalation has also put at risk a US-Iran memorandum of understanding (MoU), signed in Pakistan a month ago with the aim o",
+      "keywords": [
+        {
+          "name": "iran",
+          "value": 11
+        },
+        {
+          "name": "hormuz",
+          "value": 7
+        },
+        {
+          "name": "strait",
+          "value": 7
+        },
+        {
+          "name": "energy",
+          "value": 4
+        },
+        {
+          "name": "military",
+          "value": 4
+        },
+        {
+          "name": "security",
+          "value": 4
+        },
+        {
+          "name": "attacks",
+          "value": 3
+        },
+        {
+          "name": "birol",
+          "value": 3
+        },
+        {
+          "name": "blockade",
+          "value": 3
+        },
+        {
+          "name": "centcom",
+          "value": 3
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Americas",
+        "Indo-Pacific",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
+      "evidence_json": "/evidence/e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9.json"
+    },
     {
       "id": "062afe477327ccb09984ec5178a84c6c9e8f9fb529066c38a20816c06070b3d3",
       "topic": "geopolitics",
@@ -8568,84 +8670,6 @@
       ],
       "detail_path": "/evidence/dddc028c188f1111c36b9b36ff93656fec2d51b52555392bd1a030a2a1a03b0f",
       "evidence_json": "/evidence/dddc028c188f1111c36b9b36ff93656fec2d51b52555392bd1a030a2a1a03b0f.json"
-    },
-    {
-      "id": "8576a7e8d9847b7bc82a9910474cdf2978dca686fedcda7884816cbf248335ef",
-      "topic": "geopolitics",
-      "title": "Trump retreat over Hormuz tolls suggests he is struggling to end Iran war",
-      "url": "https://www.bbc.co.uk/news/articles/crele3r8j19o?at_medium=RSS&at_campaign=rss",
-      "host": "bbc.co.uk",
-      "source": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html",
-      "collected_at": "2026-07-15T01:28:55.253462+00:00",
-      "published": "Tue, 14 Jul 2026 23:17:27 GMT",
-      "text_chars": 3269,
-      "raw_path": "data/geopolitics/raw/8576a7e8d9847b7bc82a9910474cdf2978dca686fedcda7884816cbf248335ef.html",
-      "text_path": "data/geopolitics/raw/8576a7e8d9847b7bc82a9910474cdf2978dca686fedcda7884816cbf248335ef.txt",
-      "summary": "If Trump's latest moves do ultimately end with yet another ceasefire and face-to-face talks, the underlying, difficult-to-reconcile disagreements – over Hormuz, over the disposition of Iran's nuclear programme, over Iran's influence in the Middle East - remain. \"I think there's room for negotiation here over a Strait of Hormuz deal,\" said Abrams. With the reimposed blockade, their oil revenue – a lifeline for the Iranian regime – is again cut off.",
-      "bullets": [
-        "If Trump's latest moves do ultimately end with yet another ceasefire and face-to-face talks, the underlying, difficult-to-reconcile disagreements – over Hormuz, over the disposition of Iran's nuclear programme, over Iran's influence in the Middle East - remain.",
-        "\"I think there's room for negotiation here over a Strait of Hormuz deal,\" said Abrams.",
-        "With the reimposed blockade, their oil revenue – a lifeline for the Iranian regime – is again cut off.",
-        "Meanwhile, Trump is again facing a choice between escalation, which comes with domestic economic and political costs, and settling for some kind of resolution that leaves a hostile Iranian regime in power.",
-        "\"The Iranians, who will not be able to export oil, or the US and other countries that use Persian gulf oil?\" After months of concern that the Iran war was triggering a new round of popularity-crushing inflation, Trump received some good news on Tuesday that consumer prices were dropping."
-      ],
-      "excerpt": "Now Trump, and the Iranians, find themselves in a familiar predicament. The latter are once again facing American military attacks across their territory, underlining their inability to defend their territorial sovereignty. With the reimposed blockade, their oil revenue – a lifeline for the Iranian regime – is again cut off. Meanwhile, Trump is again facing a choice between escalation, which comes with domestic economic and political costs, and settling for some kind of resolution that leaves a hostile Iranian regime in power. \"We're back to where we were initially, where the question was: who's got more patience?\" said Elliot Abrams, senior fellow for Middle Eastern studies at the Council on Foreign Relations. \"The Iranians, who will not be able to export oil, or the US and other countries that use Persian gulf oil?\" After months of concern that the Iran war was triggering a new round of popularity-crushing inflation, Trump received some good news on Tuesday that consumer prices were dropping. A resumption of full hostilities, or even an escalation in the conflict, would inevitably push oil prices back toward previous highs, endangering that positive trend and again putting Republ",
-      "keywords": [
-        {
-          "name": "trump",
-          "value": 11
-        },
-        {
-          "name": "iran",
-          "value": 7
-        },
-        {
-          "name": "hormuz",
-          "value": 3
-        },
-        {
-          "name": "iranians",
-          "value": 3
-        },
-        {
-          "name": "middle",
-          "value": 3
-        },
-        {
-          "name": "regime",
-          "value": 3
-        },
-        {
-          "name": "abrams",
-          "value": 2
-        },
-        {
-          "name": "american",
-          "value": 2
-        },
-        {
-          "name": "back",
-          "value": 2
-        },
-        {
-          "name": "blockade",
-          "value": 2
-        }
-      ],
-      "signals": [
-        "War and Escalation",
-        "Diplomacy and Negotiations",
-        "Territory and Chokepoints",
-        "Institutions and Law"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "detail_path": "/evidence/8576a7e8d9847b7bc82a9910474cdf2978dca686fedcda7884816cbf248335ef",
-      "evidence_json": "/evidence/8576a7e8d9847b7bc82a9910474cdf2978dca686fedcda7884816cbf248335ef.json"
     }
   ],
   "deep_reads": [
@@ -8659,7 +8683,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-17T01:52:30.900613+00:00",
+      "collected_at": "2026-07-17T04:58:30.823585+00:00",
       "published": "",
       "text_chars": 9161694,
       "raw_path": "data/geopolitics/raw/f85bbd3ce39a3493e867e34d54712001d861e87ac30c41219080fe54f1928937.xml",
@@ -10734,7 +10758,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-17T01:52:02.361970+00:00",
+      "collected_at": "2026-07-17T04:57:54.649144+00:00",
       "published": "",
       "text_chars": 6243953,
       "raw_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json.raw",
@@ -10886,7 +10910,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-17T01:52:44.740268+00:00",
+      "collected_at": "2026-07-17T04:58:38.739389+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -10967,7 +10991,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-17T01:52:36.977408+00:00",
+      "collected_at": "2026-07-17T04:58:38.003445+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -11039,6 +11063,79 @@
       "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
+      "id": "37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-07-17T04:58:32.958564+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8.html",
+      "text_path": "data/geopolitics/raw/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8",
+      "evidence_json": "/evidence/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -11048,7 +11145,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-17T01:52:32.563369+00:00",
+      "collected_at": "2026-07-17T04:58:32.932999+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11120,79 +11217,6 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-07-17T01:52:31.019991+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8.html",
-      "text_path": "data/geopolitics/raw/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8",
-      "evidence_json": "/evidence/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8.json"
-    },
-    {
       "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
       "topic": "geopolitics",
       "title": "Ne 10m Admin 0 Disputed Areas",
@@ -11202,7 +11226,7 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-07-17T01:52:30.982501+00:00",
+      "collected_at": "2026-07-17T04:58:30.892197+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -11272,7 +11296,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-17T01:52:30.900613+00:00",
+      "collected_at": "2026-07-17T04:58:30.823585+00:00",
       "published": "",
       "text_chars": 9161694,
       "raw_path": "data/geopolitics/raw/f85bbd3ce39a3493e867e34d54712001d861e87ac30c41219080fe54f1928937.xml",
@@ -11343,86 +11367,6 @@
       "evidence_json": "/evidence/f85bbd3ce39a3493e867e34d54712001d861e87ac30c41219080fe54f1928937.json"
     },
     {
-      "id": "117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-07-17T01:52:05.846399+00:00",
-      "published": "",
-      "text_chars": 831301,
-      "raw_path": "data/geopolitics/raw/117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7.xml",
-      "text_path": "data/geopolitics/raw/117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-      "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
-      ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 1484
-        },
-        {
-          "name": "security",
-          "value": 1483
-        },
-        {
-          "name": "interpol",
-          "value": 1257
-        },
-        {
-          "name": "resolution",
-          "value": 840
-        },
-        {
-          "name": "interpol-un",
-          "value": 691
-        },
-        {
-          "name": "afghanistan",
-          "value": 636
-        },
-        {
-          "name": "link",
-          "value": 620
-        },
-        {
-          "name": "republic",
-          "value": 558
-        },
-        {
-          "name": "al-qaida",
-          "value": 515
-        },
-        {
-          "name": "iraq",
-          "value": 480
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "War and Escalation",
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Africa",
-        "Middle East",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7",
-      "evidence_json": "/evidence/117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7.json"
-    },
-    {
       "id": "a794492c670e88f662ffa85cc3b46476ff9582c71a7b6b2bf61c7b6fdc68835b",
       "topic": "geopolitics",
       "title": "Consolidated Sanctions List",
@@ -11432,7 +11376,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-17T01:52:04.349294+00:00",
+      "collected_at": "2026-07-17T04:57:59.462740+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/a794492c670e88f662ffa85cc3b46476ff9582c71a7b6b2bf61c7b6fdc68835b.xml",
@@ -11503,6 +11447,86 @@
       "evidence_json": "/evidence/a794492c670e88f662ffa85cc3b46476ff9582c71a7b6b2bf61c7b6fdc68835b.json"
     },
     {
+      "id": "117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-07-17T04:57:56.773899+00:00",
+      "published": "",
+      "text_chars": 831301,
+      "raw_path": "data/geopolitics/raw/117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7.xml",
+      "text_path": "data/geopolitics/raw/117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "bullets": [
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+      ],
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 1484
+        },
+        {
+          "name": "security",
+          "value": 1483
+        },
+        {
+          "name": "interpol",
+          "value": 1257
+        },
+        {
+          "name": "resolution",
+          "value": 840
+        },
+        {
+          "name": "interpol-un",
+          "value": 691
+        },
+        {
+          "name": "afghanistan",
+          "value": 636
+        },
+        {
+          "name": "link",
+          "value": 620
+        },
+        {
+          "name": "republic",
+          "value": 558
+        },
+        {
+          "name": "al-qaida",
+          "value": 515
+        },
+        {
+          "name": "iraq",
+          "value": 480
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7",
+      "evidence_json": "/evidence/117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7.json"
+    },
+    {
       "id": "8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -11512,7 +11536,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-17T01:52:02.638707+00:00",
+      "collected_at": "2026-07-17T04:57:54.928480+00:00",
       "published": "",
       "text_chars": 6161830,
       "raw_path": "data/geopolitics/raw/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.json.raw",
@@ -11589,7 +11613,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-17T01:52:02.361970+00:00",
+      "collected_at": "2026-07-17T04:57:54.649144+00:00",
       "published": "",
       "text_chars": 6243953,
       "raw_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json.raw",
@@ -15451,7 +15475,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-17T01:52:44.740268+00:00",
+      "collected_at": "2026-07-17T04:58:38.739389+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15532,7 +15556,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-17T01:52:36.977408+00:00",
+      "collected_at": "2026-07-17T04:58:38.003445+00:00",
       "published": "",
       "text_chars": 521571,
       "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
@@ -15604,6 +15628,79 @@
       "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
     },
     {
+      "id": "37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8",
+      "topic": "geopolitics",
+      "title": "The World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/",
+      "host": "cia.gov",
+      "source": "topic-config",
+      "data_type": "books",
+      "format": "Book",
+      "content_type": "text/html",
+      "collected_at": "2026-07-17T04:58:32.958564+00:00",
+      "published": "",
+      "text_chars": 1502,
+      "raw_path": "data/geopolitics/raw/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8.html",
+      "text_path": "data/geopolitics/raw/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8.txt",
+      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+      "bullets": [
+        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
+        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
+        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
+        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
+        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
+      ],
+      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
+      "keywords": [
+        {
+          "name": "world",
+          "value": 12
+        },
+        {
+          "name": "factbook",
+          "value": 11
+        },
+        {
+          "name": "intelligence",
+          "value": 3
+        },
+        {
+          "name": "basic",
+          "value": 2
+        },
+        {
+          "name": "classified",
+          "value": 2
+        },
+        {
+          "name": "even",
+          "value": 2
+        },
+        {
+          "name": "some",
+          "value": 2
+        },
+        {
+          "name": "unclassified",
+          "value": 2
+        },
+        {
+          "name": "access",
+          "value": 1
+        },
+        {
+          "name": "added",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Sanctions and Finance"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8",
+      "evidence_json": "/evidence/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -15613,7 +15710,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-17T01:52:32.563369+00:00",
+      "collected_at": "2026-07-17T04:58:32.932999+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15685,79 +15782,6 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8",
-      "topic": "geopolitics",
-      "title": "The World Factbook",
-      "url": "https://www.cia.gov/the-world-factbook/",
-      "host": "cia.gov",
-      "source": "topic-config",
-      "data_type": "books",
-      "format": "Book",
-      "content_type": "text/html",
-      "collected_at": "2026-07-17T01:52:31.019991+00:00",
-      "published": "",
-      "text_chars": 1502,
-      "raw_path": "data/geopolitics/raw/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8.html",
-      "text_path": "data/geopolitics/raw/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8.txt",
-      "summary": "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-      "bullets": [
-        "The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers.",
-        "Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site.",
-        "The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962.",
-        "In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year.",
-        "Finally, only CIA insiders would know that officers donated some of their personal travel photos to The World Factbook, which hosted more than 5,000 photographs that were copyright-free for anyone to access and use."
-      ],
-      "excerpt": "One of CIA’s oldest and most recognizable intelligence publications, The World Factbook, has sunset. The World Factbook served the Intelligence Community and the general public as a longstanding, one-stop basic reference about countries and communities around the globe. Let’s take a quick look into the history of The World Factbook. Over many decades, The World Factbook evolved from a classified to unclassified, hardcopy to electronic product that added new categories, and even new global entities. The original classified publication, titled The National Basic Intelligence Factbook, launched in 1962. The first unclassified companion version was issued in 1971. A decade later it was renamed The World Factbook. In 1997, The World Factbook went digital and debuted to a worldwide audience on CIA.gov, where it garnered millions of views each year. The World Factbook appealed to researchers, news organizations, teachers, students, and international travelers. Some readers even inquired whether their preferred geographic designation or world entity could be included on the high-profile site. Finally, only CIA insiders would know that officers donated some of their personal travel photos t",
-      "keywords": [
-        {
-          "name": "world",
-          "value": 12
-        },
-        {
-          "name": "factbook",
-          "value": 11
-        },
-        {
-          "name": "intelligence",
-          "value": 3
-        },
-        {
-          "name": "basic",
-          "value": 2
-        },
-        {
-          "name": "classified",
-          "value": 2
-        },
-        {
-          "name": "even",
-          "value": 2
-        },
-        {
-          "name": "some",
-          "value": 2
-        },
-        {
-          "name": "unclassified",
-          "value": 2
-        },
-        {
-          "name": "access",
-          "value": 1
-        },
-        {
-          "name": "added",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Sanctions and Finance"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8",
-      "evidence_json": "/evidence/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8.json"
-    },
-    {
       "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
       "topic": "geopolitics",
       "title": "Ne 10m Admin 0 Disputed Areas",
@@ -15767,7 +15791,7 @@
       "data_type": "geospatial_mapping_data",
       "format": "Dataset",
       "content_type": "application/zip",
-      "collected_at": "2026-07-17T01:52:30.982501+00:00",
+      "collected_at": "2026-07-17T04:58:30.892197+00:00",
       "published": "",
       "text_chars": 238,
       "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
@@ -15837,7 +15861,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-17T01:52:30.900613+00:00",
+      "collected_at": "2026-07-17T04:58:30.823585+00:00",
       "published": "",
       "text_chars": 9161694,
       "raw_path": "data/geopolitics/raw/f85bbd3ce39a3493e867e34d54712001d861e87ac30c41219080fe54f1928937.xml",
@@ -15908,86 +15932,6 @@
       "evidence_json": "/evidence/f85bbd3ce39a3493e867e34d54712001d861e87ac30c41219080fe54f1928937.json"
     },
     {
-      "id": "117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7",
-      "topic": "geopolitics",
-      "title": "Consolidated Sanctions List",
-      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
-      "host": "scsanctions.un.org",
-      "source": "topic-config",
-      "data_type": "sanctions_designations",
-      "format": "Sanctions",
-      "content_type": "application/xml",
-      "collected_at": "2026-07-17T01:52:05.846399+00:00",
-      "published": "",
-      "text_chars": 831301,
-      "raw_path": "data/geopolitics/raw/117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7.xml",
-      "text_path": "data/geopolitics/raw/117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7.txt",
-      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-      "bullets": [
-        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
-        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
-        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
-        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
-        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
-      ],
-      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
-      "keywords": [
-        {
-          "name": "council",
-          "value": 1484
-        },
-        {
-          "name": "security",
-          "value": 1483
-        },
-        {
-          "name": "interpol",
-          "value": 1257
-        },
-        {
-          "name": "resolution",
-          "value": 840
-        },
-        {
-          "name": "interpol-un",
-          "value": 691
-        },
-        {
-          "name": "afghanistan",
-          "value": 636
-        },
-        {
-          "name": "link",
-          "value": 620
-        },
-        {
-          "name": "republic",
-          "value": 558
-        },
-        {
-          "name": "al-qaida",
-          "value": 515
-        },
-        {
-          "name": "iraq",
-          "value": 480
-        }
-      ],
-      "signals": [
-        "Institutions and Law",
-        "War and Escalation",
-        "Humanitarian Pressure",
-        "Diplomacy and Negotiations"
-      ],
-      "regions": [
-        "Africa",
-        "Middle East",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7",
-      "evidence_json": "/evidence/117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7.json"
-    },
-    {
       "id": "a794492c670e88f662ffa85cc3b46476ff9582c71a7b6b2bf61c7b6fdc68835b",
       "topic": "geopolitics",
       "title": "Consolidated Sanctions List",
@@ -15997,7 +15941,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-17T01:52:04.349294+00:00",
+      "collected_at": "2026-07-17T04:57:59.462740+00:00",
       "published": "",
       "text_chars": 392158,
       "raw_path": "data/geopolitics/raw/a794492c670e88f662ffa85cc3b46476ff9582c71a7b6b2bf61c7b6fdc68835b.xml",
@@ -16068,6 +16012,86 @@
       "evidence_json": "/evidence/a794492c670e88f662ffa85cc3b46476ff9582c71a7b6b2bf61c7b6fdc68835b.json"
     },
     {
+      "id": "117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7",
+      "topic": "geopolitics",
+      "title": "Consolidated Sanctions List",
+      "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+      "host": "scsanctions.un.org",
+      "source": "topic-config",
+      "data_type": "sanctions_designations",
+      "format": "Sanctions",
+      "content_type": "application/xml",
+      "collected_at": "2026-07-17T04:57:56.773899+00:00",
+      "published": "",
+      "text_chars": 831301,
+      "raw_path": "data/geopolitics/raw/117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7.xml",
+      "text_path": "data/geopolitics/raw/117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7.txt",
+      "summary": "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016. Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+      "bullets": [
+        "Initially convicted on 23 May 2014 by the ICC to 12 years in prison for war crimes and crimes against humanity, the ICC Appeals Chamber reduced his sentence and determined that Katanga’s sentence should be completed on 18 January 2016.",
+        "Arrested by Congolese authorities in October 2005, acquitted by the Court of Appeal in Kisangani, subsequently transferred to the judicial authorities in Kinshasa on new charges of crimes against humanity, war crimes, murder, aggravated assault and battery.",
+        "INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Former M23 Deputy Commander UN List 2016-10-13 Good Colonel Innocent KAINA Low India Queen Uganda as of early 2016 EXACT Nov.",
+        "As of 25 March 2011, the High Military Court in Kinshasa opened a trial against Kakwavu for war crimes.",
+        "In November 2014, convicted by a DRC military court to ten years in prison for rape, murder, and torture."
+      ],
+      "excerpt": "6907993 1 ERIC BADEGE DRC CDi.001 2012-12-31 Male He fled to Rwanda in March 2013 and is still living there as of early 2016. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals YES https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals Democratic Republic of the Congo UN List 2016-10-13 Rwanda as of early 2016 EXACT 1971 6907994 1 FRANK KAKOLELE BWAMBALE DRC CDi.002 2005-11-01 Male Left the CNDP in January 2008. As of June 2011, resides in Kinshasa. Since 2010, Kakolele has been involved in activities apparently on behalf of the DRC government’s Programme de Stabilisation et Reconstruction des Zones Sortant des Conflits Armés (STAREC), including participation in a STAREC mission to Goma and Beni in March 2011. DRC authorities arrested him in December 2013 in Beni, North Kivu Province, for allegedly blocking the DDR process. He left the DRC and lived in Kenya for some time, before being called back by the DRC Government to assist them with the situation in the Territory of Beni. He was arrested in October 2015 in the area of Mambasa for allegedly supporting a Mai Mai group, but no char",
+      "keywords": [
+        {
+          "name": "council",
+          "value": 1484
+        },
+        {
+          "name": "security",
+          "value": 1483
+        },
+        {
+          "name": "interpol",
+          "value": 1257
+        },
+        {
+          "name": "resolution",
+          "value": 840
+        },
+        {
+          "name": "interpol-un",
+          "value": 691
+        },
+        {
+          "name": "afghanistan",
+          "value": 636
+        },
+        {
+          "name": "link",
+          "value": 620
+        },
+        {
+          "name": "republic",
+          "value": 558
+        },
+        {
+          "name": "al-qaida",
+          "value": 515
+        },
+        {
+          "name": "iraq",
+          "value": 480
+        }
+      ],
+      "signals": [
+        "Institutions and Law",
+        "War and Escalation",
+        "Humanitarian Pressure",
+        "Diplomacy and Negotiations"
+      ],
+      "regions": [
+        "Africa",
+        "Middle East",
+        "Global Institutions"
+      ],
+      "detail_path": "/evidence/117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7",
+      "evidence_json": "/evidence/117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7.json"
+    },
+    {
       "id": "8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152",
       "topic": "geopolitics",
       "title": "MS.MIL.XPND.CD",
@@ -16077,7 +16101,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-17T01:52:02.638707+00:00",
+      "collected_at": "2026-07-17T04:57:54.928480+00:00",
       "published": "",
       "text_chars": 6161830,
       "raw_path": "data/geopolitics/raw/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.json.raw",
@@ -16154,7 +16178,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-17T01:52:02.361970+00:00",
+      "collected_at": "2026-07-17T04:57:54.649144+00:00",
       "published": "",
       "text_chars": 6243953,
       "raw_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json.raw",
@@ -16218,6 +16242,85 @@
       ],
       "detail_path": "/evidence/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b",
       "evidence_json": "/evidence/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json"
+    },
+    {
+      "id": "e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
+      "topic": "geopolitics",
+      "title": "IEA chief warns Strait of Hormuz crisis threatens global energy security",
+      "url": "https://www.aljazeera.com/news/2026/7/17/iea-chief-warns-strait-of-hormuz-crisis-threatens-global-energy-security?traffic_source=rss",
+      "host": "aljazeera.com",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-07-17T04:58:50.820391+00:00",
+      "published": "Fri, 17 Jul 2026 02:25:55 +0000",
+      "text_chars": 3122,
+      "raw_path": "data/geopolitics/raw/e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9.html",
+      "text_path": "data/geopolitics/raw/e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9.txt",
+      "summary": "Published On 17 Jul 2026 17 Jul 2026 The head of the International Energy Agency has warned that global energy security is under serious threat unless efforts by the United States and Iran lead to improved oil flows through the Strait of Hormuz. “The Strait of Hormuz is entirely within the sovereignty of Iran and Oman, and no external party has the right to interfere in its affairs, especially the United States of America.” Al Jazeera’s Rosiland Jordan said the US military’s Central Command (CENTCOM) had not released a formal report on its sixth night...",
+      "bullets": [
+        "Published On 17 Jul 2026 17 Jul 2026 The head of the International Energy Agency has warned that global energy security is under serious threat unless efforts by the United States and Iran lead to improved oil flows through the Strait of Hormuz.",
+        "“The Strait of Hormuz is entirely within the sovereignty of Iran and Oman, and no external party has the right to interfere in its affairs, especially the United States of America.” Al Jazeera’s Rosiland Jordan said the US military’s Central Command (CENTCOM) had not released a formal report on its sixth night of attacks on Iran.",
+        "He also said Iran was maintaining its closure of the Strait of Hormuz, citing what it described as a lack of US commitment to the memorandum of understanding.",
+        "“We insist on US not to interfere in the Strait of Hormuz, and on its withdrawal from the region,” Iranian Armed Forces spokesman Abolfazl Shekarchi said.",
+        "CENTCOM said that since the blockade on Iran was reimposed, five vessels have attempted to “run the blockade”."
+      ],
+      "excerpt": "Published On 17 Jul 2026 17 Jul 2026 The head of the International Energy Agency has warned that global energy security is under serious threat unless efforts by the United States and Iran lead to improved oil flows through the Strait of Hormuz. Fatih Birol said on Thursday that the world should be concerned about energy security if the situation does not improve soon. Recommended Stories list of 3 items end of list “Oil security is still a critical issue,” Birol said, speaking at an event hosted by the Council on Foreign Relations. ⁠”We should ⁠be worried, and I am worried if the situation ‌does not improve in the next ‌few weeks,” he added. Birol’s comments came after the US intensified attacks on Iran, carrying out a sixth consecutive night of strikes, hitting Bandar Abbas, Ahvaz and Iranshahr, and firing on a ship it accused of trying to break its reimposed naval blockade on Iranian ports. Tehran retaliated by launching missiles and drones at Washington’s allies in the region, targeting Kuwait, Bahrain and Jordan. Explosions were also reported in Qatar. The escalation has also put at risk a US-Iran memorandum of understanding (MoU), signed in Pakistan a month ago with the aim o",
+      "keywords": [
+        {
+          "name": "iran",
+          "value": 11
+        },
+        {
+          "name": "hormuz",
+          "value": 7
+        },
+        {
+          "name": "strait",
+          "value": 7
+        },
+        {
+          "name": "energy",
+          "value": 4
+        },
+        {
+          "name": "military",
+          "value": 4
+        },
+        {
+          "name": "security",
+          "value": 4
+        },
+        {
+          "name": "attacks",
+          "value": 3
+        },
+        {
+          "name": "birol",
+          "value": 3
+        },
+        {
+          "name": "blockade",
+          "value": 3
+        },
+        {
+          "name": "centcom",
+          "value": 3
+        }
+      ],
+      "signals": [
+        "War and Escalation",
+        "Energy and Supply Chains",
+        "Territory and Chokepoints"
+      ],
+      "regions": [
+        "Americas",
+        "Indo-Pacific",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
+      "evidence_json": "/evidence/e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9.json"
     },
     {
       "id": "062afe477327ccb09984ec5178a84c6c9e8f9fb529066c38a20816c06070b3d3",
