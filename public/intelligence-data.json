@@ -1,81 +1,98 @@
 {
-  "generated_at": "2026-07-18T01:31:37.098588+00:00",
+  "generated_at": "2026-07-18T04:41:58.456625+00:00",
   "data_source": "knirantar/Project-India-Data/data",
   "mode": "ai-grounded-presentation",
   "briefing": {
     "method": "openai:gpt-4o-mini",
-    "headline": "Escalating Tensions in the Middle East: U.S.-Iran Conflict Intensifies",
+    "headline": "Escalating US-Iran tensions threaten regional stability and global energy security.",
     "executive_summary": [
-      "The ongoing conflict between the United States and Iran has escalated significantly, with the U.S. conducting multiple airstrikes targeting Iranian infrastructure, including bridges and energy facilities. Reports indicate that these strikes have resulted in civilian casualties, raising concerns about potential violations of international humanitarian law. The Iranian government has responded with retaliatory attacks on U.S. allies in the region, further complicating the situation.",
-      "The strategic importance of the Strait of Hormuz has come to the forefront as Iran has threatened to close this vital shipping route, which is crucial for global oil transport. The U.S. has reimposed a blockade on Iranian ports, exacerbating tensions and leading to a military buildup in the region. The situation remains volatile, with both sides showing no signs of de-escalation.",
-      "In parallel, diplomatic efforts appear to be faltering, as the interim agreement between the U.S. and Iran aimed at maintaining open navigation in the Strait of Hormuz has unraveled. The U.S. military's actions are seen as a direct challenge to Iranian control over the strait, which could have significant implications for global energy markets.",
-      "The international community is closely monitoring the developments, with potential repercussions for regional stability and global energy supply chains. The situation underscores the fragility of diplomatic relations and the risks associated with military engagements in strategically critical areas."
+      "The ongoing conflict between the United States and Iran has intensified, with the US conducting multiple airstrikes targeting Iranian infrastructure, including bridges and energy facilities. These strikes have reportedly resulted in significant casualties and damage, raising concerns about potential violations of international humanitarian law (evidence id: 11, 23, 28).",
+      "Iran's response to the US strikes has included retaliatory attacks on US allies in the region, further complicating the security landscape in the Middle East. The situation has escalated to a point where Iran has threatened to close the Strait of Hormuz, a critical chokepoint for global oil shipments, which could have severe implications for international energy markets (evidence id: 14, 18, 26).",
+      "The geopolitical ramifications of this conflict extend beyond the immediate region, as European nations are ramping up their military presence in response to threats posed by Iranian-backed groups. The EU has increased its naval missions in the Red Sea to counter potential disruptions to maritime trade routes, highlighting the interconnectedness of regional security and global economic stability (evidence id: 26).",
+      "As the US and Iran remain entrenched in their positions, the prospects for diplomatic resolution appear bleak. The recent escalation has undermined previous agreements aimed at stabilizing the region, indicating a potential shift towards a more prolonged and violent confrontation (evidence id: 11, 23, 28)."
     ],
     "key_judgments": [
       {
-        "title": "U.S. Airstrikes on Iran",
-        "finding": "U.S. airstrikes have targeted key Iranian infrastructure, resulting in civilian casualties and raising concerns about potential war crimes.",
+        "title": "US Airstrikes on Iran",
+        "finding": "The US has conducted extensive airstrikes on Iranian infrastructure, resulting in significant casualties and damage.",
         "citations": [
           "11",
-          "22",
-          "27"
+          "23",
+          "28"
         ]
       },
       {
-        "title": "Iran's Threat to Close the Strait of Hormuz",
-        "finding": "Iran has threatened to close the Strait of Hormuz, a critical chokepoint for global oil transport, in response to U.S. military actions.",
+        "title": "Iran's Retaliatory Actions",
+        "finding": "Iran has responded to US strikes with attacks on US allies, escalating regional tensions.",
         "citations": [
           "14",
-          "22"
+          "18",
+          "26"
         ]
       },
       {
-        "title": "Failure of Diplomatic Efforts",
-        "finding": "The interim agreement between the U.S. and Iran has collapsed, leading to increased military tensions and a blockade of Iranian ports.",
+        "title": "Impact on Global Energy Security",
+        "finding": "The conflict threatens the stability of the Strait of Hormuz, a vital route for global oil shipments.",
+        "citations": [
+          "14",
+          "18",
+          "26"
+        ]
+      },
+      {
+        "title": "Diplomatic Efforts Undermined",
+        "finding": "Recent escalations have undermined previous diplomatic agreements aimed at stabilizing the region.",
         "citations": [
           "11",
-          "22",
-          "27"
+          "23",
+          "28"
         ]
       }
     ],
     "regional_read": [
       {
         "region": "Middle East",
-        "assessment": "The Middle East remains a hotspot of geopolitical tension, particularly with the ongoing U.S.-Iran conflict impacting regional stability and energy security.",
+        "assessment": "The Middle East is experiencing heightened tensions due to the US-Iran conflict, with potential implications for regional security and energy supplies.",
         "citations": [
           "11",
-          "22",
-          "25"
+          "14",
+          "18"
         ]
       }
     ],
     "watchlist": [
       {
-        "label": "U.S.-Iran Relations",
-        "why_it_matters": "The deteriorating relationship between the U.S. and Iran poses risks for regional stability and global energy markets.",
+        "label": "Strait of Hormuz",
+        "why_it_matters": "Closure of this strategic chokepoint would severely disrupt global oil supplies and increase shipping costs.",
         "citations": [
-          "11",
-          "22",
-          "27"
+          "14",
+          "18",
+          "26"
         ]
       },
       {
-        "label": "Strait of Hormuz",
-        "why_it_matters": "The Strait of Hormuz is a critical chokepoint for global oil transport, and any disruption could have significant economic implications.",
+        "label": "Iranian Military Capabilities",
+        "why_it_matters": "Iran's ability to inflict damage despite US strikes indicates a resilient military posture that could prolong the conflict.",
         "citations": [
-          "14",
-          "22"
+          "18",
+          "23"
+        ]
+      },
+      {
+        "label": "EU Naval Missions",
+        "why_it_matters": "Increased EU military presence in the region reflects growing concerns over maritime security and the potential for wider conflict.",
+        "citations": [
+          "26"
         ]
       }
     ],
     "caveats": [
-      "Limitations from source coverage"
+      "Limitations from source coverage may affect the comprehensiveness of the analysis."
     ]
   },
   "summary": {
-    "raw_documents": 2144,
-    "total_text_chars": 347316194,
+    "raw_documents": 2145,
+    "total_text_chars": 347325727,
     "sources": 34,
     "signals": 8,
     "regions": 6,
@@ -86,7 +103,7 @@
   "format_counts": [
     {
       "name": "Article",
-      "value": 1570
+      "value": 1571
     },
     {
       "name": "PDF",
@@ -120,7 +137,7 @@
   "data_type_counts": [
     {
       "name": "rss_feed_content",
-      "value": 1503
+      "value": 1504
     },
     {
       "name": "pdfs",
@@ -226,7 +243,7 @@
     },
     {
       "name": "thediplomat.com",
-      "value": 30
+      "value": 31
     },
     {
       "name": "bbc.co.uk",
@@ -364,7 +381,7 @@
     },
     {
       "name": "united",
-      "value": 1971
+      "value": 1982
     },
     {
       "name": "million",
@@ -388,7 +405,7 @@
     },
     {
       "name": "states",
-      "value": 1660
+      "value": 1671
     },
     {
       "name": "security",
@@ -412,7 +429,7 @@
     },
     {
       "name": "china",
-      "value": 1417
+      "value": 1438
     },
     {
       "name": "percent",
@@ -447,12 +464,12 @@
       "value": 1179
     },
     {
-      "name": "iranian",
-      "value": 1146
+      "name": "nuclear",
+      "value": 1159
     },
     {
-      "name": "nuclear",
-      "value": 1121
+      "name": "iranian",
+      "value": 1146
     },
     {
       "name": "households",
@@ -557,11 +574,11 @@
     },
     {
       "name": "Diplomacy and Negotiations",
-      "count": 1275,
+      "count": 1276,
       "formats": [
         {
           "name": "Article",
-          "value": 1074
+          "value": 1075
         },
         {
           "name": "PDF",
@@ -586,11 +603,11 @@
         "28837b41b36a458c3701b5eaf2714272d8849aff29e68e27983d36a6db5d07a2",
         "7d4be64d9e2db98c1d6851aaddd68266062e148b856eb36b4203d71f5a82d72f",
         "5c5ff7e7c86dc94a592776d8f0a9887132365fc82d7983da3f46be3e32e462eb",
+        "888a1d891f831b2a81d14d143335d95989b7d5cecfb9be2f9226ec40c33e67d3",
         "dca40727e0ac96b2465d7a9aa69aa8165eb576e55cda77d7ae079fe3d08a58d2",
         "9c7358766783efe32ab0eec50813b39059915b9d8546a7d42400aa03dca77e72",
         "4f0e919d28ee1f72a9ed36a5d0f6ad7fca8c39111d46b3f27d2f3f2ba7d61764",
-        "e987b530720c940bc425cddb97c5213708632a6d175e6039a8048c159df1d952",
-        "5b1e68e8bdff7d593954b64bf9c90446954e39ec017070b3a6f43e0d6180c0b7"
+        "e987b530720c940bc425cddb97c5213708632a6d175e6039a8048c159df1d952"
       ],
       "summary": "The US military said it had launched a seventh consecutive night of strikes on Iran on Friday night as fighting escalated over the strait of Hormuz. US Central Command, in a post on X, said the strikes, which began at 7pm GMT, were designed to “continue degrading Iranian military capabilities”. Renewed US strikes had killed at least 38 people and wounded more than 400 in Iran by Friday morning, said a spokesperson for Iran’s health ministry, Hossein Kermanpour. The ceremony came two weeks before a tanker, the Tessala, landed at a floating terminal off Wilhelmshaven on Germany’s North Sea coast loaded with gas from the GL2Z liquefaction complex near Oran, Algeria. Thirty agreements were signed between German and Algerian companies at a bilateral economic forum in Berlin, including on hydrocarbons, renewables and energy transition, pharmaceuticals, manufacturing and advanced technology. AFP via Getty Images hide caption toggle caption AFP via Getty Images In late June, shortly after the United States and Iran agreed on a ceasefire, the International Maritime Organization (IMO) announced an operation to move trapped ships and more than 11,000 seafarers out of the Strait of Hormuz. The IMO said the operation would be carried out in close cooperation with Iran, Oman, all other coastal states in the region, the United States and the maritime industry. Whether it reflects a genuine command dispute, a fight over Ukraine’s €70 billion in 2026 NATO aid, or reasons known only to Zelensky, the fallout will shape how allies and Ukrainians judge Kyiv’s wartime governance. He credits himself with launching United24, sea and long-range drones, the Delta system, e-points, the Unmanned Systems Forces, interceptor drone programs, and disabling Starlink for Russian forces.",
       "latest": [
@@ -830,11 +847,11 @@
     },
     {
       "name": "Energy and Supply Chains",
-      "count": 654,
+      "count": 655,
       "formats": [
         {
           "name": "Article",
-          "value": 525
+          "value": 526
         },
         {
           "name": "PDF",
@@ -853,15 +870,15 @@
         "316984c4d0ff10221ae605497354687b2916221e13099614700010091db421f7",
         "fc74e177b5b8989346f6f4e3f24aac960459aee2a3e0ebc8666570939a15c33a",
         "28837b41b36a458c3701b5eaf2714272d8849aff29e68e27983d36a6db5d07a2",
+        "888a1d891f831b2a81d14d143335d95989b7d5cecfb9be2f9226ec40c33e67d3",
         "e987b530720c940bc425cddb97c5213708632a6d175e6039a8048c159df1d952",
         "5b1e68e8bdff7d593954b64bf9c90446954e39ec017070b3a6f43e0d6180c0b7",
         "b25ff53d34c22d149eb3882159e1d57be5a25d71acd3c25d9ae09e0835fa16e6",
         "1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda",
         "f9a86eeef051919ba5abe54696ceef5a45c37fe86ec3c1ea5132a6fa02639dad",
-        "e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
-        "b3ee9d109a83385563eb524a7b326ff7fcc2751f88455ed61d7540be0bd2c1b5"
+        "e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9"
       ],
-      "summary": "The US military said it had launched a seventh consecutive night of strikes on Iran on Friday night as fighting escalated over the strait of Hormuz. US Central Command, in a post on X, said the strikes, which began at 7pm GMT, were designed to “continue degrading Iranian military capabilities”. Renewed US strikes had killed at least 38 people and wounded more than 400 in Iran by Friday morning, said a spokesperson for Iran’s health ministry, Hossein Kermanpour. The ceremony came two weeks before a tanker, the Tessala, landed at a floating terminal off Wilhelmshaven on Germany’s North Sea coast loaded with gas from the GL2Z liquefaction complex near Oran, Algeria. Thirty agreements were signed between German and Algerian companies at a bilateral economic forum in Berlin, including on hydrocarbons, renewables and energy transition, pharmaceuticals, manufacturing and advanced technology. AFP via Getty Images hide caption toggle caption AFP via Getty Images In late June, shortly after the United States and Iran agreed on a ceasefire, the International Maritime Organization (IMO) announced an operation to move trapped ships and more than 11,000 seafarers out of the Strait of Hormuz. The IMO said the operation would be carried out in close cooperation with Iran, Oman, all other coastal states in the region, the United States and the maritime industry. That geostrategic importance has never disappeared.\" A military agreement with geopolitical implications Sao Tome and Principe drew international attention in the spring of 2024 after it emerged that the government had signed the open-ended military cooperation deal with Russia. Even during the colonial era, our archipelago was of great importance because of its location between Africa and South America.\" Pinto said the country's location had been a strategic asset for centuries.",
+      "summary": "The US military said it had launched a seventh consecutive night of strikes on Iran on Friday night as fighting escalated over the strait of Hormuz. US Central Command, in a post on X, said the strikes, which began at 7pm GMT, were designed to “continue degrading Iranian military capabilities”. Renewed US strikes had killed at least 38 people and wounded more than 400 in Iran by Friday morning, said a spokesperson for Iran’s health ministry, Hossein Kermanpour. The ceremony came two weeks before a tanker, the Tessala, landed at a floating terminal off Wilhelmshaven on Germany’s North Sea coast loaded with gas from the GL2Z liquefaction complex near Oran, Algeria. Thirty agreements were signed between German and Algerian companies at a bilateral economic forum in Berlin, including on hydrocarbons, renewables and energy transition, pharmaceuticals, manufacturing and advanced technology. AFP via Getty Images hide caption toggle caption AFP via Getty Images In late June, shortly after the United States and Iran agreed on a ceasefire, the International Maritime Organization (IMO) announced an operation to move trapped ships and more than 11,000 seafarers out of the Strait of Hormuz. The IMO said the operation would be carried out in close cooperation with Iran, Oman, all other coastal states in the region, the United States and the maritime industry. Almost simultaneously, the United States, Japan, and South Korea announced a new Memorandum of Cooperation at the NATO Summit to accelerate the deployment of small modular reactors (SMRs) in third countries, beginning with the Indo-Pacific. In recent years, new signatories to the 123 Agreements and countries expressing interest in them have concentrated in Southeast Asia – the same region where China is focusing its civil nuclear engagement.",
       "latest": [
         {
           "id": "316984c4d0ff10221ae605497354687b2916221e13099614700010091db421f7",
@@ -894,6 +911,16 @@
           "summary": "AFP via Getty Images hide caption toggle caption AFP via Getty Images In late June, shortly after the United States and Iran agreed on a ceasefire, the International Maritime Organization (IMO) announced an operation to move trapped ships and more than 11,000 seafarers out of the Strait of Hormuz. The IMO said the operation would be carried out in close cooperation with Iran, Oman, all other coastal states in the region, the United States and the maritime industry."
         },
         {
+          "id": "888a1d891f831b2a81d14d143335d95989b7d5cecfb9be2f9226ec40c33e67d3",
+          "title": "China, the US, and Nuclear Energy Geopolitics in Southeast Asia",
+          "url": "https://thediplomat.com/2026/07/china-the-us-and-nuclear-energy-geopolitics-in-southeast-asia/",
+          "host": "thediplomat.com",
+          "format": "Article",
+          "collected_at": "2026-07-18T04:42:08.176771+00:00",
+          "published": "Sat, 18 Jul 2026 01:09:00 +0900",
+          "summary": "Almost simultaneously, the United States, Japan, and South Korea announced a new Memorandum of Cooperation at the NATO Summit to accelerate the deployment of small modular reactors (SMRs) in third countries, beginning with the Indo-Pacific. In recent years, new signatories to the 123 Agreements and countries expressing interest in them have concentrated in Southeast Asia – the same region where China is focusing its civil nuclear engagement."
+        },
+        {
           "id": "e987b530720c940bc425cddb97c5213708632a6d175e6039a8048c159df1d952",
           "title": "Sao Tome and Principe balances global powers",
           "url": "https://www.dw.com/en/sao-tome-and-principe-balances-global-powers/a-77884067?maca=en-rss-en-world-4025-rdf",
@@ -902,16 +929,6 @@
           "collected_at": "2026-07-17T15:09:57.823324+00:00",
           "published": "2026-07-17T13:15:00Z",
           "summary": "That geostrategic importance has never disappeared.\" A military agreement with geopolitical implications Sao Tome and Principe drew international attention in the spring of 2024 after it emerged that the government had signed the open-ended military cooperation deal with Russia. Even during the colonial era, our archipelago was of great importance because of its location between Africa and South America.\" Pinto said the country's location had been a strategic asset for centuries."
-        },
-        {
-          "id": "5b1e68e8bdff7d593954b64bf9c90446954e39ec017070b3a6f43e0d6180c0b7",
-          "title": "US hits bridges, energy facilities and key port as it expands strikes against Iran",
-          "url": "https://www.theguardian.com/world/2026/jul/17/us-marines-board-ship-gulf-oman-expanded-airstrikes-iran",
-          "host": "theguardian.com",
-          "format": "Article",
-          "collected_at": "2026-07-17T15:09:43.829293+00:00",
-          "published": "Fri, 17 Jul 2026 13:11:08 GMT",
-          "summary": "The days of US strikes had killed at least 38 people and wounded more than 400 in Iran by Friday morning, said a spokesperson for Iran’s health ministry, Hossein Kermanpour. “The American enemy and the hosts of its bases in the region should know that crossing red lines and attacking civilians and civilian infrastructure will have a very severe and devastating price to pay,” the IRGC said in a statement."
         }
       ]
     },
@@ -1008,11 +1025,11 @@
     },
     {
       "name": "Nuclear and Strategic Risk",
-      "count": 344,
+      "count": 345,
       "formats": [
         {
           "name": "Article",
-          "value": 321
+          "value": 322
         },
         {
           "name": "PDF",
@@ -1030,16 +1047,16 @@
       "evidence_ids": [
         "9d83019d2d1f69a070c917ef5609c1c64d3fb59ea798379d35d839da06814e81",
         "7d4be64d9e2db98c1d6851aaddd68266062e148b856eb36b4203d71f5a82d72f",
+        "888a1d891f831b2a81d14d143335d95989b7d5cecfb9be2f9226ec40c33e67d3",
         "88612b2e41e6897cf37263ea9d0757e4c9a6ca5bbe6ae6715c14aac0b0ba9f49",
         "e995579a3b5b4c704d1ca600ba8fdce7da121f06f45b2b6185496671cbbe0500",
         "062afe477327ccb09984ec5178a84c6c9e8f9fb529066c38a20816c06070b3d3",
         "17418398dabaff118e32087b9eaef42db32161cbd82aafd94e794bbe96683ab9",
         "a5e069807829d4bda512bba1b87fdfff98cfbd6975bf9d18323059591d6161ec",
         "fdbe8aa2ace6018bdf99ec185d99e81ffa2469bcac4fd4c9a215425b3514b14e",
-        "470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c",
-        "5408e70db8c27c295462c79d78bd636aa0b66eddd8915abb5ba752a35870364d"
+        "470b2edcd75dbb2e9e27adc99841ea425e5010fe8f20d7fbeb2d735339472e3c"
       ],
-      "summary": "Washington has revealed plans to cut some military assets assigned to NATO operations in Europe and US President Donald Trump has repeatedly criticised the transatlantic security alliance. By Anadolu and The Associated Press Published On 17 Jul 2026 17 Jul 2026 Germany’s military will take part in a French nuclear drill for the first time this year, as part of a new shared “deterrence” strategy, said Chancellor Friedrich Merz. “This complements our commitment to NATO’s nuclear sharing and deterrence arrangements, which we continue to uphold,” Merz said. Whether it reflects a genuine command dispute, a fight over Ukraine’s €70 billion in 2026 NATO aid, or reasons known only to Zelensky, the fallout will shape how allies and Ukrainians judge Kyiv’s wartime governance. He credits himself with launching United24, sea and long-range drones, the Delta system, e-points, the Unmanned Systems Forces, interceptor drone programs, and disabling Starlink for Russian forces. The results were predictable: the US reimposed its own blockade in the Gulf of Oman, the number of daily transits through Hormuz dropped to three by Thursday, the fewest since May, and the price of Brent crude oil, which ended last week at $75.50, rose to $82. Two oil tankers that were sailing along the southern route of the strait of Hormuz, near Oman, were struck by missiles on Monday, according to the UK’s Maritime Trade Organisation, killing one sailor and wounding eight. In addition to supplying the Indonesian Navy, PT PAL is assisting the Philippines to shore up its strategic sealift capabilities. This is a function of sharpening geopolitical tensions and increased risk, especially for countries like Indonesia and the Philippines that are embroiled in territorial disputes with China. There is a greater sense of urgency to acquire warships, aircraft, and missile systems than there was a decade ago.",
+      "summary": "Washington has revealed plans to cut some military assets assigned to NATO operations in Europe and US President Donald Trump has repeatedly criticised the transatlantic security alliance. By Anadolu and The Associated Press Published On 17 Jul 2026 17 Jul 2026 Germany’s military will take part in a French nuclear drill for the first time this year, as part of a new shared “deterrence” strategy, said Chancellor Friedrich Merz. “This complements our commitment to NATO’s nuclear sharing and deterrence arrangements, which we continue to uphold,” Merz said. Whether it reflects a genuine command dispute, a fight over Ukraine’s €70 billion in 2026 NATO aid, or reasons known only to Zelensky, the fallout will shape how allies and Ukrainians judge Kyiv’s wartime governance. He credits himself with launching United24, sea and long-range drones, the Delta system, e-points, the Unmanned Systems Forces, interceptor drone programs, and disabling Starlink for Russian forces. Almost simultaneously, the United States, Japan, and South Korea announced a new Memorandum of Cooperation at the NATO Summit to accelerate the deployment of small modular reactors (SMRs) in third countries, beginning with the Indo-Pacific. In recent years, new signatories to the 123 Agreements and countries expressing interest in them have concentrated in Southeast Asia – the same region where China is focusing its civil nuclear engagement. The results were predictable: the US reimposed its own blockade in the Gulf of Oman, the number of daily transits through Hormuz dropped to three by Thursday, the fewest since May, and the price of Brent crude oil, which ended last week at $75.50, rose to $82. Two oil tankers that were sailing along the southern route of the strait of Hormuz, near Oman, were struck by missiles on Monday, according to the UK’s Maritime Trade Organisation, killing one sailor and wounding eight.",
       "latest": [
         {
           "id": "9d83019d2d1f69a070c917ef5609c1c64d3fb59ea798379d35d839da06814e81",
@@ -1062,6 +1079,16 @@
           "summary": "Whether it reflects a genuine command dispute, a fight over Ukraine’s €70 billion in 2026 NATO aid, or reasons known only to Zelensky, the fallout will shape how allies and Ukrainians judge Kyiv’s wartime governance. He credits himself with launching United24, sea and long-range drones, the Delta system, e-points, the Unmanned Systems Forces, interceptor drone programs, and disabling Starlink for Russian forces."
         },
         {
+          "id": "888a1d891f831b2a81d14d143335d95989b7d5cecfb9be2f9226ec40c33e67d3",
+          "title": "China, the US, and Nuclear Energy Geopolitics in Southeast Asia",
+          "url": "https://thediplomat.com/2026/07/china-the-us-and-nuclear-energy-geopolitics-in-southeast-asia/",
+          "host": "thediplomat.com",
+          "format": "Article",
+          "collected_at": "2026-07-18T04:42:08.176771+00:00",
+          "published": "Sat, 18 Jul 2026 01:09:00 +0900",
+          "summary": "Almost simultaneously, the United States, Japan, and South Korea announced a new Memorandum of Cooperation at the NATO Summit to accelerate the deployment of small modular reactors (SMRs) in third countries, beginning with the Indo-Pacific. In recent years, new signatories to the 123 Agreements and countries expressing interest in them have concentrated in Southeast Asia – the same region where China is focusing its civil nuclear engagement."
+        },
+        {
           "id": "88612b2e41e6897cf37263ea9d0757e4c9a6ca5bbe6ae6715c14aac0b0ba9f49",
           "title": "Iran proves it can still inflict damage despite waves of US attacks",
           "url": "https://www.theguardian.com/world/2026/jul/17/iran-inflict-damage-us-attacks",
@@ -1080,26 +1107,16 @@
           "collected_at": "2026-07-17T18:12:49.101564+00:00",
           "published": "Fri, 17 Jul 2026 15:25:00 +0900",
           "summary": "In addition to supplying the Indonesian Navy, PT PAL is assisting the Philippines to shore up its strategic sealift capabilities. This is a function of sharpening geopolitical tensions and increased risk, especially for countries like Indonesia and the Philippines that are embroiled in territorial disputes with China. There is a greater sense of urgency to acquire warships, aircraft, and missile systems than there was a decade ago."
-        },
-        {
-          "id": "062afe477327ccb09984ec5178a84c6c9e8f9fb529066c38a20816c06070b3d3",
-          "title": "Russian troops survive just 20-30 minutes on Ukraine’s front lines, CIA director says",
-          "url": "https://www.defensenews.com/global/europe/2026/07/16/russian-troops-survive-just-20-30-minutes-on-ukraines-front-lines-cia-director-says/",
-          "host": "defensenews.com",
-          "format": "Article",
-          "collected_at": "2026-07-16T22:01:12.524021+00:00",
-          "published": "Thu, 16 Jul 2026 21:07:19 +0000",
-          "summary": "(Alexander Nemenov/AFP via Getty Images) More than 2 million soldiers on both sides have been killed or wounded since Russia’s February 2022 invasion, with Russia bearing 1.4 million of those casualties, the CSIS researchers found, including as many as 450,000 dead — the highest battlefield death toll suffered by any major power since World War II."
         }
       ]
     },
     {
       "name": "Sanctions and Finance",
-      "count": 339,
+      "count": 340,
       "formats": [
         {
           "name": "Article",
-          "value": 249
+          "value": 250
         },
         {
           "name": "Sanctions",
@@ -1119,6 +1136,7 @@
         }
       ],
       "evidence_ids": [
+        "888a1d891f831b2a81d14d143335d95989b7d5cecfb9be2f9226ec40c33e67d3",
         "e995579a3b5b4c704d1ca600ba8fdce7da121f06f45b2b6185496671cbbe0500",
         "1c9027c72598dbb1722e3771673f9e3d570970bfed8f24c16062d19c0180a673",
         "cd82cc72b28022a2b5eb4505c5178aaf27691614bdda4b5d6e7ee4c92a78f091",
@@ -1127,11 +1145,20 @@
         "57f22ab9ae76e60fb333520e0123926082dc4f84b0d5610858c15e10fac89309",
         "7765c69e4fd1c037f506194a66e36658bab97084f6609470e8f69f4d439267d8",
         "fdbe8aa2ace6018bdf99ec185d99e81ffa2469bcac4fd4c9a215425b3514b14e",
-        "eca0eb2e0189a46557cb11d6f0edae6b4286d33327e0ec773e9124d5af0c5045",
-        "c456283101663c754b4cacc1a2802b7cb40348affb6b1585f38ed8981f40777b"
+        "eca0eb2e0189a46557cb11d6f0edae6b4286d33327e0ec773e9124d5af0c5045"
       ],
-      "summary": "In addition to supplying the Indonesian Navy, PT PAL is assisting the Philippines to shore up its strategic sealift capabilities. This is a function of sharpening geopolitical tensions and increased risk, especially for countries like Indonesia and the Philippines that are embroiled in territorial disputes with China. There is a greater sense of urgency to acquire warships, aircraft, and missile systems than there was a decade ago. In other developments: 103 House Democrats voted to cut military aid to Israel as accusations that Israel’s government carried out a genocide in Gaza are gaining more traction in the party. She said he had always been there for her and vowed: “Now, I will be there for him.” “I promise to work hard over the next several months to support the president and carry forward the efforts of my brother on behalf of the citizens of South Carolina and the United States,” she said. “Based on the investigative evidence available to us, we have no doubt that serving officers of the main intelligence directorate of the ministry of defence of Ukraine, commonly known as the GUR, were directly involved in this attempted assassination,” Iermolaiev said in a statement published by his lawyers. In his first public statement since the bombing that shook the wealthy principality, Vadym Iermolaiev alleged that serving and former officers of the GUR military intelligence agency were behind the attempted killing, which left him injured but his... The deal with German prime contractor TKMS comes just weeks after Berlin scrapped its troubled, heavily delayed F126 frigate program, pivoting instead to a smaller, off-the-shelf design to fulfill urgent NATO anti-submarine warfare requirements. He reports on the arms deals, sanctions, and geopolitics shaping Europe and the world. Under the agreement, Saab will provide composite superstructures and integrate its 9LV combat management and fire control systems onto four vessels.",
+      "summary": "Almost simultaneously, the United States, Japan, and South Korea announced a new Memorandum of Cooperation at the NATO Summit to accelerate the deployment of small modular reactors (SMRs) in third countries, beginning with the Indo-Pacific. In recent years, new signatories to the 123 Agreements and countries expressing interest in them have concentrated in Southeast Asia – the same region where China is focusing its civil nuclear engagement. In addition to supplying the Indonesian Navy, PT PAL is assisting the Philippines to shore up its strategic sealift capabilities. This is a function of sharpening geopolitical tensions and increased risk, especially for countries like Indonesia and the Philippines that are embroiled in territorial disputes with China. There is a greater sense of urgency to acquire warships, aircraft, and missile systems than there was a decade ago. In other developments: 103 House Democrats voted to cut military aid to Israel as accusations that Israel’s government carried out a genocide in Gaza are gaining more traction in the party. She said he had always been there for her and vowed: “Now, I will be there for him.” “I promise to work hard over the next several months to support the president and carry forward the efforts of my brother on behalf of the citizens of South Carolina and the United States,” she said. “Based on the investigative evidence available to us, we have no doubt that serving officers of the main intelligence directorate of the ministry of defence of Ukraine, commonly known as the GUR, were directly involved in this attempted assassination,” Iermolaiev said in a statement published by his lawyers. In his first public statement since the bombing that shook the wealthy principality, Vadym Iermolaiev alleged that serving and former officers of the GUR military intelligence agency were behind the attempted killing, which left him injured but his...",
       "latest": [
+        {
+          "id": "888a1d891f831b2a81d14d143335d95989b7d5cecfb9be2f9226ec40c33e67d3",
+          "title": "China, the US, and Nuclear Energy Geopolitics in Southeast Asia",
+          "url": "https://thediplomat.com/2026/07/china-the-us-and-nuclear-energy-geopolitics-in-southeast-asia/",
+          "host": "thediplomat.com",
+          "format": "Article",
+          "collected_at": "2026-07-18T04:42:08.176771+00:00",
+          "published": "Sat, 18 Jul 2026 01:09:00 +0900",
+          "summary": "Almost simultaneously, the United States, Japan, and South Korea announced a new Memorandum of Cooperation at the NATO Summit to accelerate the deployment of small modular reactors (SMRs) in third countries, beginning with the Indo-Pacific. In recent years, new signatories to the 123 Agreements and countries expressing interest in them have concentrated in Southeast Asia – the same region where China is focusing its civil nuclear engagement."
+        },
         {
           "id": "e995579a3b5b4c704d1ca600ba8fdce7da121f06f45b2b6185496671cbbe0500",
           "title": "The Intensifying Geopolitics of Southeast Asia’s Military Modernization",
@@ -1171,16 +1198,6 @@
           "collected_at": "2026-07-16T15:30:11.808930+00:00",
           "published": "Thu, 16 Jul 2026 14:45:26 +0000",
           "summary": "The deal with German prime contractor TKMS comes just weeks after Berlin scrapped its troubled, heavily delayed F126 frigate program, pivoting instead to a smaller, off-the-shelf design to fulfill urgent NATO anti-submarine warfare requirements. He reports on the arms deals, sanctions, and geopolitics shaping Europe and the world. Under the agreement, Saab will provide composite superstructures and integrate its 9LV combat management and fire control systems onto four vessels."
-        },
-        {
-          "id": "df75cd8208a446d9820445c50855efa91da4b0bd517559dd1d34e5b40adf7c12",
-          "title": "US strikes first tanker with missiles as it enforces new blockade",
-          "url": "https://www.bbc.co.uk/news/articles/clyqwkegqk0o?at_medium=RSS&at_campaign=rss",
-          "host": "bbc.co.uk",
-          "format": "Article",
-          "collected_at": "2026-07-16T13:24:54.818812+00:00",
-          "published": "Thu, 16 Jul 2026 12:09:26 GMT",
-          "summary": "As part of the ceasefire deal Washington also eased decades-old sanctions by issuing a temporary license to allow the sale of Iranian oil and payment to Tehran in US dollars. Analysts with advocacy and monitoring group United Against Nuclear Iran (UANI) and shipping experts TankerTrackers.com estimate that between the end of the blockade and its resumption Iran has exported at least 74 million barrels of oil."
         }
       ]
     }
@@ -1228,11 +1245,12 @@
     },
     {
       "name": "Europe and Russia",
-      "count": 976,
+      "count": 977,
       "evidence_ids": [
         "9d83019d2d1f69a070c917ef5609c1c64d3fb59ea798379d35d839da06814e81",
         "7d4be64d9e2db98c1d6851aaddd68266062e148b856eb36b4203d71f5a82d72f",
         "5c5ff7e7c86dc94a592776d8f0a9887132365fc82d7983da3f46be3e32e462eb",
+        "888a1d891f831b2a81d14d143335d95989b7d5cecfb9be2f9226ec40c33e67d3",
         "88612b2e41e6897cf37263ea9d0757e4c9a6ca5bbe6ae6715c14aac0b0ba9f49",
         "4f0e919d28ee1f72a9ed36a5d0f6ad7fca8c39111d46b3f27d2f3f2ba7d61764",
         "e987b530720c940bc425cddb97c5213708632a6d175e6039a8048c159df1d952",
@@ -1240,8 +1258,7 @@
         "fce538f3455fb1f3dba2383c809aaef434c556af1247ba4a6791228c76f68daf",
         "cb7094e2defc626c8a9533ed56873acaa6f7abd4606509fd9450e68b5f99de47",
         "062afe477327ccb09984ec5178a84c6c9e8f9fb529066c38a20816c06070b3d3",
-        "4e98f978e3927b0b224729cebec8fac717c4f6c81ef282a1cc2afc3e101d1391",
-        "ebd1e36bad10d72cb2b725b7520e61d55cc3635dca3c7ce9b0d68b3d9f3da64b"
+        "4e98f978e3927b0b224729cebec8fac717c4f6c81ef282a1cc2afc3e101d1391"
       ],
       "top_sources": [
         {
@@ -1268,20 +1285,20 @@
     },
     {
       "name": "Americas",
-      "count": 972,
+      "count": 973,
       "evidence_ids": [
         "316984c4d0ff10221ae605497354687b2916221e13099614700010091db421f7",
         "9d83019d2d1f69a070c917ef5609c1c64d3fb59ea798379d35d839da06814e81",
         "fc74e177b5b8989346f6f4e3f24aac960459aee2a3e0ebc8666570939a15c33a",
         "28837b41b36a458c3701b5eaf2714272d8849aff29e68e27983d36a6db5d07a2",
+        "888a1d891f831b2a81d14d143335d95989b7d5cecfb9be2f9226ec40c33e67d3",
         "88612b2e41e6897cf37263ea9d0757e4c9a6ca5bbe6ae6715c14aac0b0ba9f49",
         "dca40727e0ac96b2465d7a9aa69aa8165eb576e55cda77d7ae079fe3d08a58d2",
         "9c7358766783efe32ab0eec50813b39059915b9d8546a7d42400aa03dca77e72",
         "e987b530720c940bc425cddb97c5213708632a6d175e6039a8048c159df1d952",
         "5b1e68e8bdff7d593954b64bf9c90446954e39ec017070b3a6f43e0d6180c0b7",
         "e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
-        "cb7094e2defc626c8a9533ed56873acaa6f7abd4606509fd9450e68b5f99de47",
-        "062afe477327ccb09984ec5178a84c6c9e8f9fb529066c38a20816c06070b3d3"
+        "cb7094e2defc626c8a9533ed56873acaa6f7abd4606509fd9450e68b5f99de47"
       ],
       "top_sources": [
         {
@@ -1388,11 +1405,12 @@
     },
     {
       "name": "Indo-Pacific",
-      "count": 457,
+      "count": 458,
       "evidence_ids": [
         "316984c4d0ff10221ae605497354687b2916221e13099614700010091db421f7",
         "28837b41b36a458c3701b5eaf2714272d8849aff29e68e27983d36a6db5d07a2",
         "5c5ff7e7c86dc94a592776d8f0a9887132365fc82d7983da3f46be3e32e462eb",
+        "888a1d891f831b2a81d14d143335d95989b7d5cecfb9be2f9226ec40c33e67d3",
         "dca40727e0ac96b2465d7a9aa69aa8165eb576e55cda77d7ae079fe3d08a58d2",
         "9c7358766783efe32ab0eec50813b39059915b9d8546a7d42400aa03dca77e72",
         "5b1e68e8bdff7d593954b64bf9c90446954e39ec017070b3a6f43e0d6180c0b7",
@@ -1400,8 +1418,7 @@
         "1bec22a7d21911d0b64333c810c61dfe0abefd4f62c418c4cad935ab89c33bda",
         "e995579a3b5b4c704d1ca600ba8fdce7da121f06f45b2b6185496671cbbe0500",
         "e4bb960bbff40561486f04cd71ff50b7ba97a704170f0290a3c7918ca09a2bc9",
-        "df75cd8208a446d9820445c50855efa91da4b0bd517559dd1d34e5b40adf7c12",
-        "c41a6434ecabaec16c6470d86eec5e4217721f765cc0e54d227420c35a06cbd9"
+        "df75cd8208a446d9820445c50855efa91da4b0bd517559dd1d34e5b40adf7c12"
       ],
       "top_sources": [
         {
@@ -2884,6 +2901,86 @@
       ],
       "detail_path": "/evidence/5c5ff7e7c86dc94a592776d8f0a9887132365fc82d7983da3f46be3e32e462eb",
       "evidence_json": "/evidence/5c5ff7e7c86dc94a592776d8f0a9887132365fc82d7983da3f46be3e32e462eb.json"
+    },
+    {
+      "id": "888a1d891f831b2a81d14d143335d95989b7d5cecfb9be2f9226ec40c33e67d3",
+      "topic": "geopolitics",
+      "title": "China, the US, and Nuclear Energy Geopolitics in Southeast Asia",
+      "url": "https://thediplomat.com/2026/07/china-the-us-and-nuclear-energy-geopolitics-in-southeast-asia/",
+      "host": "thediplomat.com",
+      "source": "https://thediplomat.com/feed/",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-18T04:42:08.176771+00:00",
+      "published": "Sat, 18 Jul 2026 01:09:00 +0900",
+      "text_chars": 9533,
+      "raw_path": "data/geopolitics/raw/888a1d891f831b2a81d14d143335d95989b7d5cecfb9be2f9226ec40c33e67d3.html",
+      "text_path": "data/geopolitics/raw/888a1d891f831b2a81d14d143335d95989b7d5cecfb9be2f9226ec40c33e67d3.txt",
+      "summary": "Almost simultaneously, the United States, Japan, and South Korea announced a new Memorandum of Cooperation at the NATO Summit to accelerate the deployment of small modular reactors (SMRs) in third countries, beginning with the Indo-Pacific. In recent years, new signatories to the 123 Agreements and countries expressing interest in them have concentrated in Southeast Asia – the same region where China is focusing its civil nuclear engagement.",
+      "bullets": [
+        "Almost simultaneously, the United States, Japan, and South Korea announced a new Memorandum of Cooperation at the NATO Summit to accelerate the deployment of small modular reactors (SMRs) in third countries, beginning with the Indo-Pacific.",
+        "In recent years, new signatories to the 123 Agreements and countries expressing interest in them have concentrated in Southeast Asia – the same region where China is focusing its civil nuclear engagement.",
+        "Southeast Asia’s Energy Security and Nuclear Energy Challenges Energy security is a major vulnerability for Southeast Asia, as highlighted by the closure of the Strait of Hormuz, through which 60 percent of Southeast Asia’s crude oil passes.",
+        "The process, according to the International Atomic Energy Agency (IAEA), takes around 10 to 15 years.",
+        "Apart from the domestic build-out of nuclear energy, both plans demonstrate China’s ambition to become a global leader in nuclear energy governance and reactor exports."
+      ],
+      "excerpt": "After launching its 15th Five-Year Plan (FYP) in March, the Chinese government has been publishing sectoral plans, including the 15th Five-Year Plan for Building a Beautiful China and the 15th Five-Year Plan for a New-type Energy System by the end of June. Apart from the domestic build-out of nuclear energy, both plans demonstrate China’s ambition to become a global leader in nuclear energy governance and reactor exports. Almost simultaneously, the United States, Japan, and South Korea announced a new Memorandum of Cooperation at the NATO Summit to accelerate the deployment of small modular reactors (SMRs) in third countries, beginning with the Indo-Pacific. These parallel developments signal that nuclear reactor exports are becoming an increasingly important arena of strategic competition. Since the Trump administration took office, the United States has linked the deployment of nuclear reactors, both domestically and internationally, to national security. The “123 Agreement” for peaceful cooperation has been the key indicator of U.S. nuclear energy diplomacy. In recent years, new signatories to the 123 Agreements and countries expressing interest in them have concentrated in Sout",
+      "keywords": [
+        {
+          "name": "nuclear",
+          "value": 38
+        },
+        {
+          "name": "energy",
+          "value": 32
+        },
+        {
+          "name": "china",
+          "value": 21
+        },
+        {
+          "name": "countries",
+          "value": 20
+        },
+        {
+          "name": "reactors",
+          "value": 16
+        },
+        {
+          "name": "southeast",
+          "value": 14
+        },
+        {
+          "name": "states",
+          "value": 11
+        },
+        {
+          "name": "united",
+          "value": 11
+        },
+        {
+          "name": "asia",
+          "value": 9
+        },
+        {
+          "name": "reactor",
+          "value": 8
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Nuclear and Strategic Risk",
+        "Sanctions and Finance",
+        "Energy and Supply Chains"
+      ],
+      "regions": [
+        "Indo-Pacific",
+        "Europe and Russia",
+        "Americas"
+      ],
+      "detail_path": "/evidence/888a1d891f831b2a81d14d143335d95989b7d5cecfb9be2f9226ec40c33e67d3",
+      "evidence_json": "/evidence/888a1d891f831b2a81d14d143335d95989b7d5cecfb9be2f9226ec40c33e67d3.json"
     },
     {
       "id": "88612b2e41e6897cf37263ea9d0757e4c9a6ca5bbe6ae6715c14aac0b0ba9f49",
@@ -8576,85 +8673,6 @@
       ],
       "detail_path": "/evidence/2ccddb5d9f991d64ed9bb0e2063cb8a4e7a4a7d5e6523f71284fff2f8f9a3937",
       "evidence_json": "/evidence/2ccddb5d9f991d64ed9bb0e2063cb8a4e7a4a7d5e6523f71284fff2f8f9a3937.json"
-    },
-    {
-      "id": "27cff0b1816fd06faddc4429c6fda269d9968b693014427c35743a718a02b03e",
-      "topic": "geopolitics",
-      "title": "European firms plan exo-atmospheric interceptor for 2027 test",
-      "url": "https://www.defensenews.com/global/europe/2026/07/15/european-firms-plan-exo-atmospheric-interceptor-for-2027-test/",
-      "host": "defensenews.com",
-      "source": "https://www.defensenews.com/arc/outboundfeeds/rss/category/global/?outputType=xml",
-      "data_type": "rss_feed_content",
-      "format": "Article",
-      "content_type": "text/html; charset=utf-8",
-      "collected_at": "2026-07-15T09:54:56.751986+00:00",
-      "published": "Wed, 15 Jul 2026 09:21:01 +0000",
-      "text_chars": 3309,
-      "raw_path": "data/geopolitics/raw/27cff0b1816fd06faddc4429c6fda269d9968b693014427c35743a718a02b03e.html",
-      "text_path": "data/geopolitics/raw/27cff0b1816fd06faddc4429c6fda269d9968b693014427c35743a718a02b03e.txt",
-      "summary": "“Europe has strong lower-layer missile defenses, but it still lacks a sovereign European upper layer against medium- and intermediate-range ballistic missiles,” Destinus CEO Mikhail Kokorich said in the statement. The program will be designed for full interoperability with NATO’s integrated air and missile defense and strengthen the European Sky Shield Initiative “by addressing the currently missing upper layer,” according to the companies.",
-      "bullets": [
-        "“Europe has strong lower-layer missile defenses, but it still lacks a sovereign European upper layer against medium- and intermediate-range ballistic missiles,” Destinus CEO Mikhail Kokorich said in the statement.",
-        "The program will be designed for full interoperability with NATO’s integrated air and missile defense and strengthen the European Sky Shield Initiative “by addressing the currently missing upper layer,” according to the companies.",
-        "The new interceptor system will complement existing and planned European lower-layer defenses, rather than compete with them, as it will operate above terminal and theater-level systems as part of a layered European missile defense, the firms said.",
-        "System design, testing and evaluation will draw on Ukraine’s experience in countering massed air and missile attacks, the firms said.",
-        "Destinus, MBDA, Safran, Airbus and Thales signed a letter of intent in Paris on Tuesday to set up the Bliksem EXO consortium, with the intention of entering a binding agreement within three months and starting joint engineering work in August, the companies said in a joint statement."
-      ],
-      "excerpt": "PARIS — Five European defense firms led by startup Destinus plan to form an industrial partnership to develop Europe’s first exo-atmospheric interceptor, aimed at defending against ballistic missiles, with plans to conduct a test of the kill vehicle in space in 2027. Destinus, MBDA, Safran, Airbus and Thales signed a letter of intent in Paris on Tuesday to set up the Bliksem EXO consortium, with the intention of entering a binding agreement within three months and starting joint engineering work in August, the companies said in a joint statement. As Russia has stepped up ballistic missile output, Europe lacks its own system to intercept medium and intermediate-range ballistic missiles mid-course, before re-entry vehicles enter the atmosphere. The continent currently relies on two United States-operated Aegis Ashore sites that use the SM-3 interceptor for exo-atmospheric defense, while Germany is buying Israel’s Arrow-3 system. “Europe has strong lower-layer missile defenses, but it still lacks a sovereign European upper layer against medium- and intermediate-range ballistic missiles,” Destinus CEO Mikhail Kokorich said in the statement. “Bliksem EXO is designed to close that gap th",
-      "keywords": [
-        {
-          "name": "defense",
-          "value": 6
-        },
-        {
-          "name": "european",
-          "value": 6
-        },
-        {
-          "name": "interceptor",
-          "value": 6
-        },
-        {
-          "name": "missile",
-          "value": 6
-        },
-        {
-          "name": "system",
-          "value": 6
-        },
-        {
-          "name": "ballistic",
-          "value": 5
-        },
-        {
-          "name": "exo-atmospheric",
-          "value": 5
-        },
-        {
-          "name": "companies",
-          "value": 4
-        },
-        {
-          "name": "destinus",
-          "value": 4
-        },
-        {
-          "name": "europe",
-          "value": 4
-        }
-      ],
-      "signals": [
-        "Diplomacy and Negotiations",
-        "War and Escalation",
-        "Nuclear and Strategic Risk"
-      ],
-      "regions": [
-        "Europe and Russia",
-        "Americas",
-        "Global Institutions"
-      ],
-      "detail_path": "/evidence/27cff0b1816fd06faddc4429c6fda269d9968b693014427c35743a718a02b03e",
-      "evidence_json": "/evidence/27cff0b1816fd06faddc4429c6fda269d9968b693014427c35743a718a02b03e.json"
     }
   ],
   "deep_reads": [
@@ -8828,7 +8846,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-18T01:31:28.841021+00:00",
+      "collected_at": "2026-07-18T04:41:48.148520+00:00",
       "published": "",
       "text_chars": 9139477,
       "raw_path": "data/geopolitics/raw/3293b02b4f016970f7b51bd35fd886b69f567e8fdb6b4603f5650c0be6cb6f0a.xml",
@@ -10823,7 +10841,7 @@
       "data_type": "structured_datasets",
       "format": "Dataset",
       "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-18T01:30:49.435998+00:00",
+      "collected_at": "2026-07-18T04:41:10.684760+00:00",
       "published": "",
       "text_chars": 6243953,
       "raw_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json.raw",
@@ -10891,87 +10909,6 @@
   ],
   "documents": [
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-07-18T01:31:37.098588+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -10981,7 +10918,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-18T01:31:31.777840+00:00",
+      "collected_at": "2026-07-18T04:41:58.456625+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -11062,7 +10999,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-07-18T01:31:30.966205+00:00",
+      "collected_at": "2026-07-18T04:41:57.560835+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8.html",
@@ -11126,6 +11063,87 @@
       "evidence_json": "/evidence/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8.json"
     },
     {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-07-18T04:41:57.536557+00:00",
+      "published": "",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 512
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "conflict",
+          "value": 267
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 209
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -11135,7 +11153,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-18T01:31:30.942464+00:00",
+      "collected_at": "2026-07-18T04:41:50.385938+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -11207,76 +11225,6 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-07-18T01:31:28.895854+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
       "id": "3293b02b4f016970f7b51bd35fd886b69f567e8fdb6b4603f5650c0be6cb6f0a",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -11286,7 +11234,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-18T01:31:28.841021+00:00",
+      "collected_at": "2026-07-18T04:41:48.148520+00:00",
       "published": "",
       "text_chars": 9139477,
       "raw_path": "data/geopolitics/raw/3293b02b4f016970f7b51bd35fd886b69f567e8fdb6b4603f5650c0be6cb6f0a.xml",
@@ -11366,7 +11314,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-18T01:30:53.406905+00:00",
+      "collected_at": "2026-07-18T04:41:13.049600+00:00",
       "published": "",
       "text_chars": 420661,
       "raw_path": "data/geopolitics/raw/0b4ef68933448634a67523b7d2c6b66b7882d537ce31bbf0263d952395263e02.xml",
@@ -11435,6 +11383,228 @@
       ],
       "detail_path": "/evidence/0b4ef68933448634a67523b7d2c6b66b7882d537ce31bbf0263d952395263e02",
       "evidence_json": "/evidence/0b4ef68933448634a67523b7d2c6b66b7882d537ce31bbf0263d952395263e02.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-07-18T04:41:10.711059+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
+      "id": "0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-07-18T04:41:10.684760+00:00",
+      "published": "",
+      "text_chars": 6243953,
+      "raw_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json.raw",
+      "text_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-13\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17490
+        },
+        {
+          "name": "imports",
+          "value": 17490
+        },
+        {
+          "name": "sipri",
+          "value": 17490
+        },
+        {
+          "name": "status",
+          "value": 17490
+        },
+        {
+          "name": "trend",
+          "value": 17490
+        },
+        {
+          "name": "unit",
+          "value": 17490
+        },
+        {
+          "name": "values",
+          "value": 17490
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b",
+      "evidence_json": "/evidence/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json"
+    },
+    {
+      "id": "8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152",
+      "topic": "geopolitics",
+      "title": "MS.MIL.XPND.CD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-07-18T04:41:10.422067+00:00",
+      "published": "",
+      "text_chars": 6161830,
+      "raw_path": "data/geopolitics/raw/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.json.raw",
+      "text_path": "data/geopolitics/raw/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-13\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
+      "keywords": [
+        {
+          "name": "expenditure",
+          "value": 17490
+        },
+        {
+          "name": "military",
+          "value": 17490
+        },
+        {
+          "name": "status",
+          "value": 17490
+        },
+        {
+          "name": "unit",
+          "value": 17490
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        },
+        {
+          "name": "asia",
+          "value": 528
+        },
+        {
+          "name": "ibrd",
+          "value": 528
+        },
+        {
+          "name": "middle",
+          "value": 462
+        }
+      ],
+      "signals": [
+        "War and Escalation"
+      ],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152",
+      "evidence_json": "/evidence/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.json"
     },
     {
       "id": "01c4f80d8c73dcd766310f6784ff153cd4d1d2b03e69850a073e2c0605e3957d",
@@ -11515,158 +11685,6 @@
       ],
       "detail_path": "/evidence/01c4f80d8c73dcd766310f6784ff153cd4d1d2b03e69850a073e2c0605e3957d",
       "evidence_json": "/evidence/01c4f80d8c73dcd766310f6784ff153cd4d1d2b03e69850a073e2c0605e3957d.json"
-    },
-    {
-      "id": "0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-18T01:30:49.435998+00:00",
-      "published": "",
-      "text_chars": 6243953,
-      "raw_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json.raw",
-      "text_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-13\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17490
-        },
-        {
-          "name": "imports",
-          "value": 17490
-        },
-        {
-          "name": "sipri",
-          "value": 17490
-        },
-        {
-          "name": "status",
-          "value": 17490
-        },
-        {
-          "name": "trend",
-          "value": 17490
-        },
-        {
-          "name": "unit",
-          "value": 17490
-        },
-        {
-          "name": "values",
-          "value": 17490
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b",
-      "evidence_json": "/evidence/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json"
-    },
-    {
-      "id": "8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152",
-      "topic": "geopolitics",
-      "title": "MS.MIL.XPND.CD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-18T01:30:49.160956+00:00",
-      "published": "",
-      "text_chars": 6161830,
-      "raw_path": "data/geopolitics/raw/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.json.raw",
-      "text_path": "data/geopolitics/raw/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-13\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
-      "keywords": [
-        {
-          "name": "expenditure",
-          "value": 17490
-        },
-        {
-          "name": "military",
-          "value": 17490
-        },
-        {
-          "name": "status",
-          "value": 17490
-        },
-        {
-          "name": "unit",
-          "value": 17490
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        },
-        {
-          "name": "asia",
-          "value": 528
-        },
-        {
-          "name": "ibrd",
-          "value": 528
-        },
-        {
-          "name": "middle",
-          "value": 462
-        }
-      ],
-      "signals": [
-        "War and Escalation"
-      ],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152",
-      "evidence_json": "/evidence/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.json"
     },
     {
       "id": "117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7",
@@ -15447,87 +15465,6 @@
   "cited_evidence": [],
   "evidence": [
     {
-      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "topic": "geopolitics",
-      "title": "ICRC International Humanitarian Law Handbook",
-      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
-      "host": "icrc.org",
-      "source": "topic-config",
-      "data_type": "pdfs",
-      "format": "PDF",
-      "content_type": "application/pdf",
-      "collected_at": "2026-07-18T01:31:37.098588+00:00",
-      "published": "",
-      "text_chars": 521571,
-      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
-      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-      "bullets": [
-        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
-        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
-        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
-        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
-        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
-      ],
-      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
-      "keywords": [
-        {
-          "name": "power",
-          "value": 596
-        },
-        {
-          "name": "convention",
-          "value": 551
-        },
-        {
-          "name": "prisoners",
-          "value": 512
-        },
-        {
-          "name": "parties",
-          "value": 284
-        },
-        {
-          "name": "conflict",
-          "value": 267
-        },
-        {
-          "name": "detaining",
-          "value": 266
-        },
-        {
-          "name": "medical",
-          "value": 249
-        },
-        {
-          "name": "provisions",
-          "value": 209
-        },
-        {
-          "name": "powers",
-          "value": 205
-        },
-        {
-          "name": "geneva",
-          "value": 201
-        }
-      ],
-      "signals": [
-        "Humanitarian Pressure",
-        "Institutions and Law",
-        "Diplomacy and Negotiations",
-        "War and Escalation"
-      ],
-      "regions": [
-        "Americas",
-        "Europe and Russia",
-        "Global Institutions"
-      ],
-      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
-      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
-      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
-    },
-    {
       "id": "37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483",
       "topic": "geopolitics",
       "title": "United Nations Charter",
@@ -15537,7 +15474,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-18T01:31:31.777840+00:00",
+      "collected_at": "2026-07-18T04:41:58.456625+00:00",
       "published": "",
       "text_chars": 89992,
       "raw_path": "data/geopolitics/raw/37ceb122b52dfaee7581f9abc3aed3c8ccd4f3e999ff38f98e0df2060eaab483.pdf",
@@ -15618,7 +15555,7 @@
       "data_type": "books",
       "format": "Book",
       "content_type": "text/html",
-      "collected_at": "2026-07-18T01:31:30.966205+00:00",
+      "collected_at": "2026-07-18T04:41:57.560835+00:00",
       "published": "",
       "text_chars": 1502,
       "raw_path": "data/geopolitics/raw/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8.html",
@@ -15682,6 +15619,87 @@
       "evidence_json": "/evidence/37cf8e4d67dddf0d0da28d8d132860ddbebca38016889c43280dfde4731393a8.json"
     },
     {
+      "id": "8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "topic": "geopolitics",
+      "title": "ICRC International Humanitarian Law Handbook",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0173.pdf",
+      "host": "icrc.org",
+      "source": "topic-config",
+      "data_type": "pdfs",
+      "format": "PDF",
+      "content_type": "application/pdf",
+      "collected_at": "2026-07-18T04:41:57.536557+00:00",
+      "published": "",
+      "text_chars": 521571,
+      "raw_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "text_path": "data/geopolitics/raw/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.txt",
+      "summary": "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. 36 Ar ticle 6 Sp ecial agreements.................................................................................... Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+      "bullets": [
+        "The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles.",
+        "36 Ar ticle 6 Sp ecial agreements....................................................................................",
+        "Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement.",
+        "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks..........................................................................................................",
+        "19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions......................................................................................................."
+      ],
+      "excerpt": "THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEV A CONVENTIONS OF 12 AUGUST 1949 ICRC 0173/002 05.2010 10,000 Mission The International Committee of the Red Cross (ICRC) is an impartial, neutral and independent organization whose exclusively humanitarian mission is to protect the lives and dignity of victims of armed conflict and other situations of violence and to provide them with assistance. The ICRC also endeavours to prevent suffering by promoting and strengthening humanitarian law and universal humanitarian principles. Established in 1863, the ICRC is at the origin of the Geneva Conventions and the International Red Cross and Red Crescent Movement. It directs and coordinates the international activities conducted by the Movement in armed conflicts and other situations of violence. THE GENEV A CONVENTIONS OF 12 AUGUST 1949 THE GENEVA CONVENTIONS OF 1949 1 Contents Preliminary remarks.......................................................................................................... 19 GENEV A CONVENTION FOR THE AMELIORATION OF THE CONDITION OF THE WOUNDED AND SICK IN ARMED FORCES IN THE FIELD OF 12 AUGUST 1949 CHAPTER I General Provisions..............................",
+      "keywords": [
+        {
+          "name": "power",
+          "value": 596
+        },
+        {
+          "name": "convention",
+          "value": 551
+        },
+        {
+          "name": "prisoners",
+          "value": 512
+        },
+        {
+          "name": "parties",
+          "value": 284
+        },
+        {
+          "name": "conflict",
+          "value": 267
+        },
+        {
+          "name": "detaining",
+          "value": 266
+        },
+        {
+          "name": "medical",
+          "value": 249
+        },
+        {
+          "name": "provisions",
+          "value": 209
+        },
+        {
+          "name": "powers",
+          "value": 205
+        },
+        {
+          "name": "geneva",
+          "value": 201
+        }
+      ],
+      "signals": [
+        "Humanitarian Pressure",
+        "Institutions and Law",
+        "Diplomacy and Negotiations",
+        "War and Escalation"
+      ],
+      "regions": [
+        "Americas",
+        "Europe and Russia",
+        "Global Institutions"
+      ],
+      "file_asset": "/evidence-files/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.pdf",
+      "detail_path": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638",
+      "evidence_json": "/evidence/8fe4fbfeb8b2cc5145f50cd348eaf13b068b0dc001486101102aaf0d5c10f638.json"
+    },
+    {
       "id": "2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff",
       "topic": "geopolitics",
       "title": "UN Peacekeeping Capstone Doctrine",
@@ -15691,7 +15709,7 @@
       "data_type": "pdfs",
       "format": "PDF",
       "content_type": "application/pdf",
-      "collected_at": "2026-07-18T01:31:30.942464+00:00",
+      "collected_at": "2026-07-18T04:41:50.385938+00:00",
       "published": "",
       "text_chars": 174117,
       "raw_path": "data/geopolitics/raw/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.pdf",
@@ -15763,76 +15781,6 @@
       "evidence_json": "/evidence/2ac3a63bba7982032cb26a3cd76d222d8a76408dc6ca1a605e88bd4b3dbf5fff.json"
     },
     {
-      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "topic": "geopolitics",
-      "title": "Ne 10m Admin 0 Disputed Areas",
-      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
-      "host": "naciscdn.org",
-      "source": "topic-config",
-      "data_type": "geospatial_mapping_data",
-      "format": "Dataset",
-      "content_type": "application/zip",
-      "collected_at": "2026-07-18T01:31:28.895854+00:00",
-      "published": "",
-      "text_chars": 238,
-      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
-      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
-      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
-      "bullets": [
-        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
-      ],
-      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
-      "keywords": [
-        {
-          "name": "admin",
-          "value": 2
-        },
-        {
-          "name": "areas",
-          "value": 2
-        },
-        {
-          "name": "disputed",
-          "value": 2
-        },
-        {
-          "name": "naciscdn",
-          "value": 2
-        },
-        {
-          "name": "application",
-          "value": 1
-        },
-        {
-          "name": "binary",
-          "value": 1
-        },
-        {
-          "name": "bytes",
-          "value": 1
-        },
-        {
-          "name": "collected",
-          "value": 1
-        },
-        {
-          "name": "content-type",
-          "value": 1
-        },
-        {
-          "name": "cultural",
-          "value": 1
-        }
-      ],
-      "signals": [
-        "Territory and Chokepoints"
-      ],
-      "regions": [],
-      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
-      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
-    },
-    {
       "id": "3293b02b4f016970f7b51bd35fd886b69f567e8fdb6b4603f5650c0be6cb6f0a",
       "topic": "geopolitics",
       "title": "OFAC Specially Designated Nationals List",
@@ -15842,7 +15790,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-18T01:31:28.841021+00:00",
+      "collected_at": "2026-07-18T04:41:48.148520+00:00",
       "published": "",
       "text_chars": 9139477,
       "raw_path": "data/geopolitics/raw/3293b02b4f016970f7b51bd35fd886b69f567e8fdb6b4603f5650c0be6cb6f0a.xml",
@@ -15922,7 +15870,7 @@
       "data_type": "sanctions_designations",
       "format": "Sanctions",
       "content_type": "text/xml",
-      "collected_at": "2026-07-18T01:30:53.406905+00:00",
+      "collected_at": "2026-07-18T04:41:13.049600+00:00",
       "published": "",
       "text_chars": 420661,
       "raw_path": "data/geopolitics/raw/0b4ef68933448634a67523b7d2c6b66b7882d537ce31bbf0263d952395263e02.xml",
@@ -15991,6 +15939,228 @@
       ],
       "detail_path": "/evidence/0b4ef68933448634a67523b7d2c6b66b7882d537ce31bbf0263d952395263e02",
       "evidence_json": "/evidence/0b4ef68933448634a67523b7d2c6b66b7882d537ce31bbf0263d952395263e02.json"
+    },
+    {
+      "id": "a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "topic": "geopolitics",
+      "title": "Ne 10m Admin 0 Disputed Areas",
+      "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip",
+      "host": "naciscdn.org",
+      "source": "topic-config",
+      "data_type": "geospatial_mapping_data",
+      "format": "Dataset",
+      "content_type": "application/zip",
+      "collected_at": "2026-07-18T04:41:10.711059+00:00",
+      "published": "",
+      "text_chars": 238,
+      "raw_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.zip",
+      "text_path": "data/geopolitics/raw/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.txt",
+      "summary": "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221 Binary geospatial_mapping_data source collected for Global Geopolitics Monitor.",
+      "bullets": [
+        "Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+        "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor."
+      ],
+      "excerpt": "Binary geospatial_mapping_data source collected for Global Geopolitics Monitor. Title: URL: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_disputed_areas.zip Source: topic-config Content-Type: application/zip Bytes: 215221",
+      "keywords": [
+        {
+          "name": "admin",
+          "value": 2
+        },
+        {
+          "name": "areas",
+          "value": 2
+        },
+        {
+          "name": "disputed",
+          "value": 2
+        },
+        {
+          "name": "naciscdn",
+          "value": 2
+        },
+        {
+          "name": "application",
+          "value": 1
+        },
+        {
+          "name": "binary",
+          "value": 1
+        },
+        {
+          "name": "bytes",
+          "value": 1
+        },
+        {
+          "name": "collected",
+          "value": 1
+        },
+        {
+          "name": "content-type",
+          "value": 1
+        },
+        {
+          "name": "cultural",
+          "value": 1
+        }
+      ],
+      "signals": [
+        "Territory and Chokepoints"
+      ],
+      "regions": [],
+      "detail_path": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438",
+      "evidence_json": "/evidence/a250c1cf8ab68898399928a1fa1d5c242eb4de6335cb51a7f7a7f12a9f3c8438.json"
+    },
+    {
+      "id": "0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b",
+      "topic": "geopolitics",
+      "title": "MS.MIL.MPRT.KD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-07-18T04:41:10.684760+00:00",
+      "published": "",
+      "text_chars": 6243953,
+      "raw_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json.raw",
+      "text_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-13\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
+      "keywords": [
+        {
+          "name": "arms",
+          "value": 17490
+        },
+        {
+          "name": "imports",
+          "value": 17490
+        },
+        {
+          "name": "sipri",
+          "value": 17490
+        },
+        {
+          "name": "status",
+          "value": 17490
+        },
+        {
+          "name": "trend",
+          "value": 17490
+        },
+        {
+          "name": "unit",
+          "value": 17490
+        },
+        {
+          "name": "values",
+          "value": 17490
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        }
+      ],
+      "signals": [],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b",
+      "evidence_json": "/evidence/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json"
+    },
+    {
+      "id": "8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152",
+      "topic": "geopolitics",
+      "title": "MS.MIL.XPND.CD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
+      "host": "api.worldbank.org",
+      "source": "topic-config",
+      "data_type": "structured_datasets",
+      "format": "Dataset",
+      "content_type": "application/json;charset=utf-8",
+      "collected_at": "2026-07-18T04:41:10.422067+00:00",
+      "published": "",
+      "text_chars": 6161830,
+      "raw_path": "data/geopolitics/raw/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.json.raw",
+      "text_path": "data/geopolitics/raw/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.txt",
+      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+      "bullets": [
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
+        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
+      ],
+      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-13\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
+      "keywords": [
+        {
+          "name": "expenditure",
+          "value": 17490
+        },
+        {
+          "name": "military",
+          "value": 17490
+        },
+        {
+          "name": "status",
+          "value": 17490
+        },
+        {
+          "name": "unit",
+          "value": 17490
+        },
+        {
+          "name": "income",
+          "value": 726
+        },
+        {
+          "name": "africa",
+          "value": 594
+        },
+        {
+          "name": "islands",
+          "value": 594
+        },
+        {
+          "name": "asia",
+          "value": 528
+        },
+        {
+          "name": "ibrd",
+          "value": 528
+        },
+        {
+          "name": "middle",
+          "value": 462
+        }
+      ],
+      "signals": [
+        "War and Escalation"
+      ],
+      "regions": [
+        "Africa",
+        "Americas",
+        "Middle East"
+      ],
+      "detail_path": "/evidence/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152",
+      "evidence_json": "/evidence/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.json"
     },
     {
       "id": "01c4f80d8c73dcd766310f6784ff153cd4d1d2b03e69850a073e2c0605e3957d",
@@ -16071,158 +16241,6 @@
       ],
       "detail_path": "/evidence/01c4f80d8c73dcd766310f6784ff153cd4d1d2b03e69850a073e2c0605e3957d",
       "evidence_json": "/evidence/01c4f80d8c73dcd766310f6784ff153cd4d1d2b03e69850a073e2c0605e3957d.json"
-    },
-    {
-      "id": "0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b",
-      "topic": "geopolitics",
-      "title": "MS.MIL.MPRT.KD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.MPRT.KD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-18T01:30:49.435998+00:00",
-      "published": "",
-      "text_chars": 6243953,
-      "raw_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json.raw",
-      "text_path": "data/geopolitics/raw/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 35000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 27000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-13\" }, [ { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 166000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { \"indicator\": { \"id\": \"MS.MIL.MPRT.KD\", \"value\": \"Arms imports (SIPRI trend indicator values)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 258000000, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 0 }, { ",
-      "keywords": [
-        {
-          "name": "arms",
-          "value": 17490
-        },
-        {
-          "name": "imports",
-          "value": 17490
-        },
-        {
-          "name": "sipri",
-          "value": 17490
-        },
-        {
-          "name": "status",
-          "value": 17490
-        },
-        {
-          "name": "trend",
-          "value": 17490
-        },
-        {
-          "name": "unit",
-          "value": 17490
-        },
-        {
-          "name": "values",
-          "value": 17490
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        }
-      ],
-      "signals": [],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b",
-      "evidence_json": "/evidence/0629a1ea0f2e496491f6bc0b862f949cf938af9dc3363f863fca313b0f4d5a9b.json"
-    },
-    {
-      "id": "8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152",
-      "topic": "geopolitics",
-      "title": "MS.MIL.XPND.CD",
-      "url": "https://api.worldbank.org/v2/country/all/indicator/MS.MIL.XPND.CD?format=json&per_page=20000",
-      "host": "api.worldbank.org",
-      "source": "topic-config",
-      "data_type": "structured_datasets",
-      "format": "Dataset",
-      "content_type": "application/json;charset=utf-8",
-      "collected_at": "2026-07-18T01:30:49.160956+00:00",
-      "published": "",
-      "text_chars": 6161830,
-      "raw_path": "data/geopolitics/raw/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.json.raw",
-      "text_path": "data/geopolitics/raw/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.txt",
-      "summary": "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem. Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-      "bullets": [
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2024\", \"value\": 899187778.403836, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2023\", \"value\": 794244598.072275, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2022\", \"value\": 371081599.85082, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem.",
-        "Rep.\" }, \"countryiso3code\": \"COD\", \"date\": \"2021\", \"value\": 306078782.560613, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"CD\", \"value\": \"Congo, Dem."
-      ],
-      "excerpt": "[ { \"page\": 1, \"pages\": 1, \"per_page\": 20000, \"total\": 17490, \"sourceid\": \"2\", \"lastupdated\": \"2026-07-13\" }, [ { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2025\", \"value\": null, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2024\", \"value\": 13659048840.3166, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2023\", \"value\": 13732573540.4478, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator\": { \"id\": \"MS.MIL.XPND.CD\", \"value\": \"Military expenditure (current USD)\" }, \"country\": { \"id\": \"ZH\", \"value\": \"Africa Eastern and Southern\" }, \"countryiso3code\": \"AFE\", \"date\": \"2022\", \"value\": 13229012881.3545, \"unit\": \"\", \"obs_status\": \"\", \"decimal\": 1 }, { \"indicator",
-      "keywords": [
-        {
-          "name": "expenditure",
-          "value": 17490
-        },
-        {
-          "name": "military",
-          "value": 17490
-        },
-        {
-          "name": "status",
-          "value": 17490
-        },
-        {
-          "name": "unit",
-          "value": 17490
-        },
-        {
-          "name": "income",
-          "value": 726
-        },
-        {
-          "name": "africa",
-          "value": 594
-        },
-        {
-          "name": "islands",
-          "value": 594
-        },
-        {
-          "name": "asia",
-          "value": 528
-        },
-        {
-          "name": "ibrd",
-          "value": 528
-        },
-        {
-          "name": "middle",
-          "value": 462
-        }
-      ],
-      "signals": [
-        "War and Escalation"
-      ],
-      "regions": [
-        "Africa",
-        "Americas",
-        "Middle East"
-      ],
-      "detail_path": "/evidence/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152",
-      "evidence_json": "/evidence/8ac4515f8ec15cbfc5332a691b883826a5b54bc2c81cd53ba9f12cc7437bb152.json"
     },
     {
       "id": "117f5b5811cff5cf58005669f59d61bd8098b62e5c11e5008bd12f33394cb1d7",
@@ -16778,6 +16796,86 @@
       ],
       "detail_path": "/evidence/5c5ff7e7c86dc94a592776d8f0a9887132365fc82d7983da3f46be3e32e462eb",
       "evidence_json": "/evidence/5c5ff7e7c86dc94a592776d8f0a9887132365fc82d7983da3f46be3e32e462eb.json"
+    },
+    {
+      "id": "888a1d891f831b2a81d14d143335d95989b7d5cecfb9be2f9226ec40c33e67d3",
+      "topic": "geopolitics",
+      "title": "China, the US, and Nuclear Energy Geopolitics in Southeast Asia",
+      "url": "https://thediplomat.com/2026/07/china-the-us-and-nuclear-energy-geopolitics-in-southeast-asia/",
+      "host": "thediplomat.com",
+      "source": "https://thediplomat.com/feed/",
+      "data_type": "rss_feed_content",
+      "format": "Article",
+      "content_type": "text/html; charset=UTF-8",
+      "collected_at": "2026-07-18T04:42:08.176771+00:00",
+      "published": "Sat, 18 Jul 2026 01:09:00 +0900",
+      "text_chars": 9533,
+      "raw_path": "data/geopolitics/raw/888a1d891f831b2a81d14d143335d95989b7d5cecfb9be2f9226ec40c33e67d3.html",
+      "text_path": "data/geopolitics/raw/888a1d891f831b2a81d14d143335d95989b7d5cecfb9be2f9226ec40c33e67d3.txt",
+      "summary": "Almost simultaneously, the United States, Japan, and South Korea announced a new Memorandum of Cooperation at the NATO Summit to accelerate the deployment of small modular reactors (SMRs) in third countries, beginning with the Indo-Pacific. In recent years, new signatories to the 123 Agreements and countries expressing interest in them have concentrated in Southeast Asia – the same region where China is focusing its civil nuclear engagement.",
+      "bullets": [
+        "Almost simultaneously, the United States, Japan, and South Korea announced a new Memorandum of Cooperation at the NATO Summit to accelerate the deployment of small modular reactors (SMRs) in third countries, beginning with the Indo-Pacific.",
+        "In recent years, new signatories to the 123 Agreements and countries expressing interest in them have concentrated in Southeast Asia – the same region where China is focusing its civil nuclear engagement.",
+        "Southeast Asia’s Energy Security and Nuclear Energy Challenges Energy security is a major vulnerability for Southeast Asia, as highlighted by the closure of the Strait of Hormuz, through which 60 percent of Southeast Asia’s crude oil passes.",
+        "The process, according to the International Atomic Energy Agency (IAEA), takes around 10 to 15 years.",
+        "Apart from the domestic build-out of nuclear energy, both plans demonstrate China’s ambition to become a global leader in nuclear energy governance and reactor exports."
+      ],
+      "excerpt": "After launching its 15th Five-Year Plan (FYP) in March, the Chinese government has been publishing sectoral plans, including the 15th Five-Year Plan for Building a Beautiful China and the 15th Five-Year Plan for a New-type Energy System by the end of June. Apart from the domestic build-out of nuclear energy, both plans demonstrate China’s ambition to become a global leader in nuclear energy governance and reactor exports. Almost simultaneously, the United States, Japan, and South Korea announced a new Memorandum of Cooperation at the NATO Summit to accelerate the deployment of small modular reactors (SMRs) in third countries, beginning with the Indo-Pacific. These parallel developments signal that nuclear reactor exports are becoming an increasingly important arena of strategic competition. Since the Trump administration took office, the United States has linked the deployment of nuclear reactors, both domestically and internationally, to national security. The “123 Agreement” for peaceful cooperation has been the key indicator of U.S. nuclear energy diplomacy. In recent years, new signatories to the 123 Agreements and countries expressing interest in them have concentrated in Sout",
+      "keywords": [
+        {
+          "name": "nuclear",
+          "value": 38
+        },
+        {
+          "name": "energy",
+          "value": 32
+        },
+        {
+          "name": "china",
+          "value": 21
+        },
+        {
+          "name": "countries",
+          "value": 20
+        },
+        {
+          "name": "reactors",
+          "value": 16
+        },
+        {
+          "name": "southeast",
+          "value": 14
+        },
+        {
+          "name": "states",
+          "value": 11
+        },
+        {
+          "name": "united",
+          "value": 11
+        },
+        {
+          "name": "asia",
+          "value": 9
+        },
+        {
+          "name": "reactor",
+          "value": 8
+        }
+      ],
+      "signals": [
+        "Diplomacy and Negotiations",
+        "Nuclear and Strategic Risk",
+        "Sanctions and Finance",
+        "Energy and Supply Chains"
+      ],
+      "regions": [
+        "Indo-Pacific",
+        "Europe and Russia",
+        "Americas"
+      ],
+      "detail_path": "/evidence/888a1d891f831b2a81d14d143335d95989b7d5cecfb9be2f9226ec40c33e67d3",
+      "evidence_json": "/evidence/888a1d891f831b2a81d14d143335d95989b7d5cecfb9be2f9226ec40c33e67d3.json"
     },
     {
       "id": "88612b2e41e6897cf37263ea9d0757e4c9a6ca5bbe6ae6715c14aac0b0ba9f49",
